@@ -164,6 +164,8 @@ oturum sonunda güncellenen dosya hem çıktı olarak verilir hem kullanıcı de
 kullanıcı depoya yükler → sonraki oturum depodan çeker. Proje alanı yalnız
 küçük/elle-üretilmiş dosyaları taşır.
 
-**Kayıp dosya kaydı:** `kok_adlar.json`, `bulgu_karsi_kutup_mesafe.json`,
-`bulgu_denge_mizan.json` — ne projede ne depoda; metinde anılıyorlar.
-Yeniden üretilmeleri YAPILACAKLAR'da.
+**Kayıp dosya kaydı (KAPANDI, Ağu 2026):** `kok_adlar.json` yeniden üretildi
+(1651 kök tam kapsama; tablolar/ altında, üretici zincir betikler/ altında).
+`bulgu_karsi_kutup_mesafe.json` ve `bulgu_denge_mizan.json` dikey_oku
+altyapısıyla yeniden ölçülüp bulgular/ altına yazıldı. Denetim maddesi
+(claude-kaynaklı adlar + نور birincil-ad sorunu) YAPILACAKLAR'da açık.
