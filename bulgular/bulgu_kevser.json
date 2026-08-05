@@ -1,0 +1,23 @@
+{
+  "bulgu": "Kevser: ayna-orgu ve olcek katmani",
+  "tarih": "2026-08-04",
+  "profil": {
+    "kelime": 10, "allah_iceride": 0,
+    "degerler": [39,38,37,36,35,34,33,32,31,30],
+    "fatiha_sablonuyla_r": -0.986,
+    "yorum": "Saf inen rampa: her kelime isme bir adim daha yakin; Fatiha'nin tam aynasi"
+  },
+  "koridor": {
+    "onceki_allah": "104:6 narullah (77 kelime once)",
+    "sonraki_allah": "110:1 nasrullah (30 kelime sonra)",
+    "kosu": 116, "konum": "0.66-0.74, inen yarida",
+    "not": "Sure atesten (narullah) yardima (nasrullah) yuruyen koridorda; nasr = baglanma-ipligi uyesi (GEN izafet)"
+  },
+  "hitap_dokusu": "10 kelimenin 6'sinda 2.sahis -ke eki; merkez fesalli li-rabbike = namaz(notr) + Rab(izafet-kilitli): sure tamamen isim-sessiz malzemeden orulu - iyyake ilkesinin sure-boyu hali",
+  "olcek_taramasi_on_kayitli": {
+    "protokol": "pencere=10k, k=6..186, r>=0.9 orani, 200 null, Bonferroni/6",
+    "sonuc": "x6-x93 (60-930 kelime) tum olcekler p<0.005 GECTI; x186'da (1860) kayip",
+    "simetri": "Oranlar Fatiha orgusunun %87-94'u (kucuk-orta olcek); x93'te K/F=0.50 ama 1-2 pencere, anekdot",
+    "kritik": "900-kelime tavani IKINCI bagimsiz sablonla dogrulandi: tavan sablonun degil metnin sessizlik-uzunluklarinin ozelligi"
+  }
+}

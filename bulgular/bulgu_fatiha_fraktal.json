@@ -1,0 +1,22 @@
+{
+  "bulgu": "Fatiha orgusunun olcek-tarama testi (on-kayitli protokol)",
+  "tarih": "2026-08-04",
+  "protokol": "Sablon: Fatiha 29-noktali uzaklik profili. Olcekler k=2,4,8,16,32,64,128 (pencere=29k, adim=W/4) + tum-metin. Istatistik: Pearson r>=0.9 pencere orani. Null: 2704 konum uniform, 300 tekrar. Esik: Bonferroni p<0.05/8=0.00625",
+  "sonuclar": {
+    "k2_58kelime":   {"oran": 0.157, "null": 0.088, "p": "<0.0033", "gecti": true},
+    "k4_116kelime":  {"oran": 0.095, "null": 0.021, "p": "<0.0033", "gecti": true},
+    "k8_232kelime":  {"oran": 0.050, "null": 0.002, "p": "<0.0033", "gecti": true},
+    "k16_464kelime": {"oran": 0.024, "null": 0.000, "p": "<0.0033", "gecti": true},
+    "k32_928kelime": {"oran": 0.006, "null": 0.000, "p": "<0.0033", "gecti": true, "not": "2 pencere, ikisi de Kamer-Rahman-Vakia koridoru"},
+    "k64_1856kelime": {"oran": 0.0, "r_max": 0.809, "gecti": false},
+    "k128_3712kelime": {"oran": 0.0, "r_max": 0.623, "gecti": false},
+    "tum_metin": {"r": 0.421, "p_iki_yonlu": 0.0067, "gecti": false, "not": "Esigin (0.00625) hemen ustunde; marjinal, iddia edilmiyor"}
+  },
+  "olcek_tavani": "Orgu ~900 kelimelik pencereye (Fatiha x32) kadar sanstan belirgin sik; 1856 kelimede tamamen kayboluyor",
+  "anlam_kontrolu_kesifsel": {
+    "yontem": "Eslesen pencerelerde bas (%20) vs kuyruk (%50) doku: Allah-disi ozel isim, qwl-fiili, dua-isareti (دعو/غفر/ربب)",
+    "k16_egilim": "Cogu eslesmede kuyruk anlati-isaretli (dedi/ozel-isim yukselir) — Fatiha'nin yakarma-kuyrugu degil, bilinen anlati-modu sessizligi",
+    "k32_egilim": "En ust olcekteki iki eslesmenin kuyrugu Rab-yogun (Rahman'in rabbikuma nakarati; dua-isaret 0.078-0.099) — Fatiha'nin kendi ic devri (Allah->Rab/hitap) ile yapisal paralel",
+    "statu": "POST-HOC, kesifsel; on-kayitli takip testi gerektirir (eslesen kuyruklarin anlati/hitap siniflamasi, uzunluk-esli kontrol pencereleriyle)"
+  }
+}

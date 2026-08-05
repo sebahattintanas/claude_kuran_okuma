@@ -1,0 +1,19 @@
+{
+ "bulgu": "Kevser-sonrası koridor: isme varan 40 kelimenin dökümü (bulgu_kevser'in mikro-görünümü)",
+ "tarih": "2026-08-05",
+ "iliskili": "bulgu_kevser.json (2026-08-04): 108'in inen rampası (39→30) ve narullah→nasrullah koridoru orada; bu dosya rampanın DEVAMINI (109-110) kelime kelime döker",
+ "yontem": "kuran_akis v2 kelime akışı; 108:1'den ilk Allah lafzına (110:1) her kelimenin kalan-mesafesi ve kökü",
+ "dokum_ozet": {
+  "108 (d=39→30)": "atâ(verme) → salli li-RABBike (ربب d=35, dua-bağlamı Rab) → nahr → şâni' → ebter",
+  "109 (d=29→4)": "kul yâ eyyühe'l-KÂFİRÛN; ardından عبد ×8 (d=25,23,20,18,15,13,10,8) — Kâfirûn'un tamamı kulluk-pazarlığı; kapanış دين ×2 (d=6,4)",
+  "110 (d=3→0)": "izâ câe NASRullâhi — varış: nasr(d=1) + Allah(d=0)"
+ },
+ "metnin_secimi_olan": [
+  "Koridorun kulluk-döşemesi: isme varan son 40 kelimenin 8'i عبد — abd-fiil hakiki-yakın bulgusuyla (bulgu_abd_allah) tutarlı ama buradaki geçişler Kâfirûn'un KARŞILIKLI RET pazarlığı (âbid değilim / âbid değilsiniz): zincir_9_112 notundaki 'unvanı belirleyen bağlanılan nesne' gözleminin koridor-hali",
+  "Son durak دين ×2 (leküm dînüküm ve liye dîn) — isimden hemen önce ayrışma beyanı",
+  "Varış kelime çifti nasr+Allah: nasr bağlanma-ipliği üyesi (bulgu_fail_ipligi, GEN izafet) — koridor bir iplik-üyesinin izafetinde isme kavuşuyor; 9:112'nin hudûdillâh-varışıyla aynı kalıp (bağlı-yapıda d=0)",
+  "108'deki tek ilâhî atıf Rab ve dua bağlamında (salli li-rabbike) — Rab-dua dağılım bulgusuyla tutarlı"
+ ],
+ "metrik_zorunlulugu_olan": "d'nin 39'dan 0'a birer birer inmesi sessiz-koşu geometrisinin aritmetik sonucudur; bulgu sayımda değil DÖŞEMEDEDİR (koridoru hangi köklerin doldurduğu)",
+ "sinir": "108-109-110 komşuluğu mushaf sırası; akış zaten mushaf-düzenidir, bulgu mushaf-düzeni olgusudur. Tek koridor, betimsel; 'çıkış rampaları neyle döşeli' genellemesi ön-kayıtlı tarama ister (YAPILACAKLAR'a eklendi)"
+}

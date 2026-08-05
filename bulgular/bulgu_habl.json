@@ -1,0 +1,15 @@
+{
+  "bulgu": "Habl (ip) dokumadaki yeri - n=7, betimsel",
+  "tarih": "2026-08-04",
+  "gecisler": {
+    "3:103":  {"d": 1,  "yapi": "bi-hablillah GEN izafet", "not": "Allah'in ipi: baglanma-ipligi imzasi birebir"},
+    "3:112a": {"d": 2,  "yapi": "hablin min-Allah"},
+    "3:112b": {"d": 1,  "yapi": "hablin min en-nas", "not": "cift ip: dikey ve yatay bag yan yana, ayni min-yapisi"},
+    "20:66":  {"d": 51, "yapi": "hibalu-HUM", "not": "sihirbaz ipleri: sahte sahibin zamirine bagli, anlati-sessizliginde"},
+    "26:44":  {"d": 257,"yapi": "hibale-HUM", "not": "derin sessiz kosuda"},
+    "50:16":  {"d": 70, "yapi": "hablil-verid", "not": "sah damari: metnin en uc yakinlik beyani (nahnu akrabu) 1.sahis kipinde, dolayisiyla isim-sessiz - ibadi bulgusuyla ayni mekanizma"},
+    "111:5":  {"d": 5,  "yapi": "hablun min mesed + cidi-HA", "not": "azap ipi boyna bagli; d=5 komsuluk 112 tevhidine rastlanti, yorumlanmadi"}
+  },
+  "desen": "Ip metinde HICBIR yerde serbest gecmiyor: yedi gecisin yedisi de bir seye bagli (Allah / min-Allah / min-nas / -hum / el-verid / -ha). Baglayici nesne yalniz bagli yapida kullaniliyor; kavramin grameri kendi anlamini uyguluyor",
+  "statu": "n=7, betimsel; anlamlilik iddiasi yok. Kulluk haritasinin 6 kipiyle ortusme: izafet(3:103), karsit-sahiplik(sihirbaz -hum), 1.sahis isimsizligi(50:16)"
+}

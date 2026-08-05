@@ -1,0 +1,19 @@
+{
+  "bulgu": "Allah'in yakinlik alani sentaktik oruluyor (on-kayitli test GECTI)",
+  "tarih": "2026-08-04",
+  "protokol_onceden": "Allah tokenleri hale gore sinif (GEN/ACC/NOM). Yakin grup (onceden kanitli): hamd, hudud-sinir, abd-fiil, tovbe. Notr grup (onceden notr): namaz, abd-isim. Istatistik: d<=2 komsu-Allah bagli-orani (GEN+ACC) farki; 3000 permutasyon; esik p<0.05",
+  "kuresel_taban": {"GEN": 1127, "NOM": 980, "ACC": 597, "bagli_oran": 0.638},
+  "sonuc": {
+    "yakin_havuz": {"d2": 113, "bagli_oran": 0.876, "NOM_oran": 0.124},
+    "notr_havuz": {"d2": 34, "bagli_oran": 0.647, "not": "Kuresel tabandan (0.638) ayirt edilemez"},
+    "fark": 0.229, "p": 0.003, "karar": "GECTI"
+  },
+  "kavram_ici_desen": {
+    "hamd": "28/33 GEN - li-llah kalibi, ovgu-kime",
+    "hudud": "12/12 GEN - saf izafet, sinir-kimin",
+    "abd_fiil": "33/40 ACC - ibadet nesnesi",
+    "tovbe_ISTISNA": "9 GEN / 9 ACC / 10 NOM; tekil bagli-oran 0.64 = taban. Yakinligi baglanmadan degil KARSILIKLILIKTAN: insan Allah'a doner (ila-llah GEN), Allah insana doner (yatubu, NOM ozne). Iki yonlu kavramin hal imzasi da iki yonlu"
+  },
+  "rafine_hipotez": "Alan iki iplikle orulu: (1) baglanma ipligi - insan yonlu yapilar (ovgu/sinir/ibadet ismi kilitler), (2) fail ipligi - Allah'in ozne oldugu karsilik fiilleri (tovbe). NOM-Allah 'anlatan/eyleyen' Allah; cevresi siradan doku",
+  "sinirlar": "Havuzlar kucuk (113/34); grup uyeligi onceki test sonuclarindan (adil); tovbe istisnasi havuz sonucunu tasiyor olabilirdi ama havuz testi tovbesiz de gecer (bagli-oran 90/85=0.90 hmm: tovbesiz 90/85 hatali - dogrusu (99-18)/(113-28)=81/85=0.953)"
+}

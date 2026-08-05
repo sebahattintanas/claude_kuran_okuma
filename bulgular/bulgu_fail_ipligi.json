@@ -1,0 +1,15 @@
+{
+  "bulgu": "Fail ipligi testi: 6 aday, on-kayitli cift kosul",
+  "tarih": "2026-08-04",
+  "protokol": "Uyelik = p_yakin<0.0083 (Bonferroni/6) VE d<=2 komsu-Allah NOM payi > taban (0.362, p_nom<0.05)",
+  "sonuclar": {
+    "huda":   {"n": 316, "medyan": 8,  "p_yakin": 0.0013, "NOM_pay": 0.53, "p_nom": 0.002, "karar": "FAIL-IPLIGI UYESI - Allah yehdi kalibi"},
+    "gafr":   {"n": 234, "medyan": 6,  "p_yakin": "<0.0007", "hal": "ACC49/NOM43/GEN4", "NOM_pay": 0.45, "p_nom": 0.060, "karar": "yakin-ama-bagli; SINIR VAKASI - istigfar(ACC, insan ister) + magfiret(NOM, Allah bagislar) cift sesli, tovbe gibi ama NOM marjinal"},
+    "nasr":   {"n": 158, "medyan": 5,  "p_yakin": "<0.0007", "hal": "GEN-baskin (nasrullah izafeti)", "karar": "BAGLANMA ipligi uyesi"},
+    "rizik":  {"n": 123, "medyan": 9,  "p_yakin": 0.165, "NOM_pay": 0.63, "p_nom": 0.003, "karar": "yakin degil; fail-imzasi var ama temas seyrek"},
+    "halk":   {"n": 261, "medyan": 15, "p_yakin": 0.997, "NOM_pay": 0.67, "p_nom": "<0.001", "karar": "HAKIKI-UZAK (p_uzak~0.003); nadir temaslari saf fail. Yaratilis-sessizligi bulgusuyla kilitleniyor: halk koku Allah lafzindan uzak yasiyor"},
+    "rahmet": {"n": 339, "medyan": 13, "p_yakin": 0.958, "karar": "notr-uzak; besmele bitisikligi kokun genel davranisini temsil etmiyor"}
+  },
+  "sentez": "Iki iplik dogrulandi ve rafine oldu: BAGLANMA (hamd-GEN, hudud-GEN, abd-ACC, nasr-GEN) ve FAIL (tovbe, huda; gafr sinirda). Fail-imzasi tek basina yakinlik getirmiyor (rizik, halk): yakinlik icin gramer kancasi + sik temas ikisi birden gerekiyor",
+  "beklenmedik": "halk kokunun hakiki-uzakligi - yaratma eylemi ismin sessiz bolgelerinde anlatiliyor; onceki yaratilis-sahnesi/en-derin-sessiz-kosu bulgusunun kok-duzeyi dogrulamasi"
+}

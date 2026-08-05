@@ -1,0 +1,21 @@
+{
+  "bulgu": "Fatiha'nin Allah-uzaklik profili (matematikci mercek)",
+  "tarih": "2026-08-04",
+  "yontem": "Kelime akisi uzerinde her kelimenin en yakin Allah gecisine (PN+ROOT:أله) kelime cinsinden uzakligi; morph.txt GitHub kaynagindan yeniden indirildi (130030 satir, dogrulandi)",
+  "olcumler": {
+    "allah_gecisleri": ["1:1:2", "1:2:2"],
+    "profil": "d=1,0,1,2,1,0,1,2,3,...,23 — ikinci gecisten sonra kesin tekduze artis, geri donus yok",
+    "yogunluk": {"fatiha": 0.069, "kuresel": 0.035},
+    "sonraki_allah": "2:7:2, Fatiha sonundan 49 kelime sonra",
+    "dua_bolumu": "5-7. ayetler (iyyaka ile baslayan yakarma kismi) tamamen isim-sessiz kuyrukta; hitap zamirle (iyyaka), isimle degil",
+    "rab_anomalisi": "ربب kuresel medyan Allah-uzakligi 23 (n=980, Fatiha koklerinin en uzagi); Fatiha'da d=1, bitisik (lillahi rabbi l-alamin). Rab-Allah sifir-birliktelik bulgusunun istisna noktasi tam Fatiha."
+  },
+  "null_testler": {
+    "on_yukleme": "Iki gecisin de ilk 6/29 kelimede olmasi, uniform null altinda p=0.037; tek test, duzeltmesiz — betimsel isaret, kesin iddia degil",
+    "karsilastirma_grubu": "20-120 kelimelik >=2 Allah'li sureler (n=4): agirlik merkezleri 0.103 (Fatiha), 0.482 (98), 0.502 (85), 0.759 (91); Fatiha en on-yuklu ama grup kucuk, betimsel"
+  },
+  "uyarilar": [
+    "Tekduze artis, Fatiha icinde baska Allah gecisi olmamasi nedeniyle zorunlu geometri; 'dalal en uzakta biter' gozlemi kelime sirasinin sonucudur, bagimsiz olcum degildir",
+    "Bu oturumda proje dosyalari baglanamadi; akis minimal yeniden-kurulumla uretildi, kuran_akis.py v2 ozel-isim katmani devrede degil (Allah tespiti icin fark yaratmaz)"
+  ]
+}

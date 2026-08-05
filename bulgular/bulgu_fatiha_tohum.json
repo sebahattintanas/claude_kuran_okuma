@@ -1,0 +1,19 @@
+{
+  "bulgu": "Fatiha imzasinin ayet-olcekli tasiyici aramasi",
+  "tarih": "2026-08-04",
+  "yontem": "1954 ayet (L>=15) icinde iki asamali arama: (1) 29-noktaya interpolasyonla sablon korelasyonu, (2) kati imza suzgeci: >=2 Allah gecisi, tumu ilk %25'te, sonrasi sessiz",
+  "sonuclar": {
+    "jenerik_biçim": "Tek-dokunus+rampa bicimi yaygin: yuzlerce ayet r>=0.99 (or. 42:27, 39:67, 16:93, 6:17). Olcek-tekrarini tasiyan bu jenerik aile; Fatiha'ya ozgu degil",
+    "kati_imza": "Cift-dokunuslu bas + donussuz rampa: 0/1954 ayet. Fatiha'nin tam imzasi ayet olceginde HICBIR ayette yok",
+    "en_yakin_tasiyici": {
+      "ayet": "4:13 (tilke hududullah...)",
+      "L": 18, "allah_gecisleri_gorece": [0.11, 0.28],
+      "fatiha_referans": [0.03, 0.17],
+      "r_sablon": 0.779,
+      "bas_paralelligi": "Fatiha basinda hamd (kuresel medyan 3, Allah'a hakiki-yakin) d=1'de; 4:13 basinda hudud (permutasyon p=0.000, hakiki-yakin) d=1'de — iki acilis da [yakin-kavram]+Allah+Allah kalibi",
+      "kuyruk_farki": "4:13 kuyrugu geri bukuluyor (4:14'te Allah var, profil cadir bicimi); donussuz inis yok"
+    },
+    "olasilik_notu": "18 kelimede iki gecisin ilk 5'te olmasi uniform nullda 0.065; tarama post-hoc, anlamlilik iddiasi yok"
+  },
+  "yorum": "Olcek-tekrarinin motoru jenerik dokunus+rampa ailesi; Fatiha bu ailenin cift-dokunuslu, donussuz tek ornegi olarak kendi olceginde essiz. Ayet duzeyinde tekrari 'yapabilecek' en olasi aday 4:13, ama imzanin yalniz basini tasiyor."
+}

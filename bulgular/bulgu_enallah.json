@@ -1,0 +1,20 @@
+{
+  "bulgu": "Enallah - oz-adlandirma ve tevhid formulunun sahis cekimi",
+  "tarih": "2026-08-04",
+  "A_oz_adlandirma": {
+    "olcum": "Bagimsiz 'ene' (1S PRON) + Allah lafzi bitisikligi TUM metinde tam 3 kez, UCU DE Musa'ya, ucu de ates/agac sahnesinde",
+    "gecisler": {
+      "20:14": "inneni ENALLAHU la ilahe illa ene FA'BUDNI - tevhid + kulluk emri",
+      "27:9":  "ya musa innehu ENALLAHU'l-AZIZU'L-HAKIM - esma cifti muhru",
+      "28:30": "ya musa inni ENALLAHU RABBU'L-ALEMIN - Rab unvani"
+    },
+    "yorum": "Ismin kendini soyledigi tek sahne yanan agac; uc anlatimda uc farkli tamamlanis ve bunlar sistemin uc bileseni: kulluk-baglanma (fa'budni), esma-muhur (Aziz-Hakim), Rab-iliskisi (rabbu'l-alemin)"
+  },
+  "B_tevhid_cekimi": {
+    "illa_HUVE": {"n": 33, "kip": "anlatici"},
+    "illa_ALLAH": {"n": 17, "kip": "sehadet (kul/elci agzi; 5:116 Isa, 47:19 fa'lem)"},
+    "illa_ENE": {"n": 4, "kip": "vahiy-bildirimi: 16:2, 16:51, 20:14, 21:25 (her elciye vahyedilen: illa ene fa'budun)"},
+    "illa_ENTE": {"n": 1, "kip": "NIDA - 21:87 Yunus, zulumatin icinde. Tevhidi SEN ile soyleyen tek cumle butun metinde"},
+    "yorum": "Sahis yakinlastikca sayi duser: 33-17-4-1. En mahrem cekim (Sen) tekil ve en karanlik yerden soylenir; oz-adlandirma (Ben+isim) yalniz ateste. Isim kendini iste soyler, kul Sen'i karanlikta soyler"
+  }
+}

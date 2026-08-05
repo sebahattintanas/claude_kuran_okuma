@@ -1,0 +1,20 @@
+{
+  "bulgu": "Kullugun karsiti, kulun fiilleri, hududun devreye girdigi yer",
+  "tarih": "2026-08-04",
+  "karsit": {
+    "olcum": "عبد+كبر ortak 7 ayet: 4:172, 7:206, 17:23, 21:19, 35:32, 40:48, 40:60",
+    "acik_formul": "istikbar AN ibadetihi - kulluktan buyuklenme: 40:60 (Bana kulluktan buyuklenenler), 7:206, 21:19; 4:172'de ikiz fiil istinkaf (cekinme)",
+    "yorum": "Karsitlik iki turlu: yanlis dugum (sirk/ma-ta3budun, ipin sahte nesneye baglanmasi) ve ipi HIC tutmamak (istikbar/istinkaf). Metin ikinciyi acikca adlandiriyor",
+    "not": "17:23'te كبر yaslilik dalinda (kiber) - kok cok-dalli, ayiklama gerekli"
+  },
+  "kul_ne_yapar": {
+    "olcum": "146 abd-isim ayetinde zenginlesen fiiller: بسط x16 (rizki yayma), كفي x6.9 (kuluna yetme, 39:36), قدر x5.2 (olculeme), وحي x4.4 (kuluna vahiy, 53:10), شيأ x3.5 (dileme)",
+    "ters_bulgu": "Kul-ayetlerinin baskin fiilleri KULUN degil ALLAH'IN fiilleri: yayar, yeter, olcer, vahyeder, diler. Kulun kendi fiilleri (dua x1.6, zikr x1.4, amel x1.3) zayif zenginlesir. Dokumada kul oncelikle ALICI konumunda",
+    "kul_is_tanimi_metinde": "9:112 sifat zinciri + 25:63-76 ibadu'r-rahman pasaji"
+  },
+  "hudud_devrede": {
+    "olcum": "عبد + حدد TUM KUR'AN'DA TEK AYETTE bulusuyor: 9:112",
+    "dokum": "et-taibun(توب) -> el-abidun(عبد) -> el-hamidun(حمد) -> saihun -> rakiun -> sacidun -> emr-i maruf -> nehy-i munker -> ve'l-HAFIZUNE li-HUDUDILLAH -> bessiri'l-muminin",
+    "yorum": "Oturumun kanitli yakinlik-alani uyeleri (tovbe-fail, abd-bagli, hamd-GEN) zinciri ACIYOR; zincir hududu KORUMAKLA kapaniyor - li+izafet, ip grameri. Kulluk sinirin icinde durmak degil, siniri muhafaza etmekle tamamlaniyor. Hudud tam burada devrede: kulluk zincirinin son halkasi"
+  }
+}

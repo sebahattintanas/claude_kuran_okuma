@@ -1,0 +1,24 @@
+{
+  "bulgu": "Kissa karakterizasyonu: iki tarafin yaslandigi isimler",
+  "tarih": "2026-08-04",
+  "yontem": "10 kissa bolgesi (ayet araliklari elle tanimli - oznellik uyarisi); 1000 kelime basi normalize; korpus tabani: Allah 20.8, Rab 7.5, Rab-payi 0.27",
+  "ilahi_taraf_Rab_payi": {
+    "Adem/Iblis": {"pay": 1.00, "not": "5 paralel anlatimda 1194 kelime, SIFIR Allah lafzi - kategorik; tum ilahi atif Rab (12x). Yaratilis-sessizligi bulgusunun ucuncu bagimsiz dogrulamasi"},
+    "Eyyub+Yunus": {"pay": 1.00, "not": "kucuk n (285)"},
+    "Musa-Firavun": {"pay": 0.84, "not": "Allah 2.4/1000 (taban 20.8): rablik cekismesi arenasi - rabbu'l-alemin vs Firavun'un rablik iddiasi"},
+    "Zekeriyya": {"pay": 0.83, "not": "Rab 38.6/1000 - metnin en Rab-yogun bolgesi; nada rabbehu x2"},
+    "Kahf": {"pay": 0.67}, "Ibrahim": {"pay": 0.61}, "Davud/Suleyman": {"pay": 0.50},
+    "Nuh": {"pay": 0.45, "not": "Allah, anlatiya u'budullah cagri formulunden girer"},
+    "Meryem/Isa": {"pay": 0.45, "not": "Rahman zirvesi (1.7/1000, taban 0.4): siginma ve adak Rahman'a - 19:18, 19:26"},
+    "Yusuf": {"pay": 0.32, "not": "TEK Allah-baskin kissa (14.9/1000): gurbette tevhid - hapishane davasi 12:38-40 ismi yabanci diyara tasir"}
+  },
+  "insan_taraf_imzalar": {
+    "Adem": "secde 16 + tovbe 3: tovbenin ve secdenin dogum sahnesi",
+    "Nuh_Musa": "kavm-yogun cagri anlatilari",
+    "Zekeriyya_Eyyub_Yunus": "nada rabbehu kalibi (gizli nida 19:3); tum metinde nida fiilinin %18'i Rab'e",
+    "Meryem": "Rahman'a siginma/adak",
+    "Yusuf": "sahitlik/davet - ismi tasiyan kul"
+  },
+  "yorum": "Her kissa iliskinin gerektirdigi isme yaslanir: yaratilis-terbiye ve yakaris Rab'e, iktidar cekismesi rablik iddiasina, rahmet-dogum Rahman'a, gurbette sahitlik Allah'a. Kul tarafinda gidis davranislari kissalara dagilmis: secde+tovbe Adem'de dogar, nida Zekeriyya-Eyyub'da, cagri formulu Nuh'ta",
+  "sinirlar": "Bolge secimi oznel; sayimlar betimsel. Adem sifiri 5 bagimsiz anlatimda kategorik oldugu icin en saglam hucre"
+}

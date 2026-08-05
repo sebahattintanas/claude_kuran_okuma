@@ -1,0 +1,23 @@
+{
+  "bulgu": "Hudud ekseni: dokunuslar, yakin ve uzak kutuplar",
+  "tarih": "2026-08-04",
+  "dallar": {
+    "sinir": {"n_token": 14, "ayetler": ["2:187","2:229 x4","2:230 x2","4:13","4:14","9:97","9:112","58:4","65:1 x2"]},
+    "demir": {"n_token": 6, "ayetler": ["17:50","18:96","22:21","34:10","50:22","57:25"]},
+    "muhadde": {"n_token": 4, "ayetler": ["9:63","58:5","58:20","58:22"], "not": "Tumu 9 ve 58'de - sinir-anlaminin da yasadigi surelerde; karsi-gelme yalniz sinirin bulundugu yerde gecuyor"}
+  },
+  "allah_bitisikligi": "14 sinir-tokeninin 12'si Allah'a d=1 (hududullah izafeti), 2'si d=3. Kavram serbest halde neredeyse hic yok; onceki hudud-yakinlik bulgusunun (p=0.000) mekanizmasi: izafet kilidi",
+  "dokunulan_kokler_pencere7": {
+    "أله": {"n": 20, "zenginlesme": 3.6, "p": "<0.002"},
+    "عدو": {"n": 4, "zenginlesme": 19.6, "p": 0.004, "not": "fela ta'taduha - sinir kendi cignenme fiiliyle birlikte geziyor; Bonferroni (0.05/6) geciyor"},
+    "رسل": {"zenginlesme": 4.1, "p": 0.062, "not": "marjinal, itaat formulu"}
+  },
+  "makro_kutuplar_n150": {
+    "baseline_medyan": 5273,
+    "en_yakin": ["قتل 1812", "سبل 2996", "نصر 3246", "غفر 3457", "أله 3525", "وقي 3598", "ولي 3682", "أمن 3685"],
+    "en_uzak": ["عبد 8897", "خلق 7813", "جعل 7734", "دعو 7574", "كبر 7361", "وعد 7122", "شرك 7076", "ضلل 7057"],
+    "p_ucnokta": "<0.001 (6 test)",
+    "uyari": "14 anchor 5 surede kumeli; bu mesafeler buyuk olcude Medeni-hukuk / Mekki-anlati cografyasini olcuyor. Kutup etiketleri gecerli, ince-anlam iddiasi degil"
+  },
+  "okuma_notu_yorum": "Sinirin yani: oldurme/kisas, yol(sebil), yardim, bagislama, koruma, guven - topluluk hukuku. Sinirdan en uzak: ibadet(عبد), yaratma, dua - Fatiha'nin yakarma yarisinin kokleri. Fatiha 29 kelimede iki kutbu da katediyor: hudud-paralel bildirim basi + uzak-kutup ibadet kuyrugu"
+}

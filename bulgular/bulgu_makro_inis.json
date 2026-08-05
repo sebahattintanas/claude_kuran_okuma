@@ -1,0 +1,27 @@
+{
+  "bulgu": "Makro Allah-uzaklik dalgasi: kumelenme ve sure profil tipolojisi",
+  "tarih": "2026-08-04",
+  "yontem": "2704 Allah gecisi arasindaki 2703 bosluk; burstiness B=(sd-ort)/(sd+ort); 2000 permutasyonlu uniform null; 72 surede (>=2 Allah) gecis agirlik merkezi",
+  "olcumler": {
+    "bosluk": {"ort": 28.6, "medyan": 15, "max": 1075, "sd": 55.4},
+    "burstiness": {"B_gozlem": 0.319, "B_null_ort": -0.009, "p": "<0.0005"},
+    "max_bosluk_testi": {"gozlem": 1075, "null_ort": 240, "p": "<0.0005"},
+    "en_derin_5_sessizlik": [
+      {"kelime": 1075, "aralik": "53:62 -> 57:1", "not": "Kamer+Rahman+Vakia tam uc sure Allah'siz; Rahman Rab-baskin sure"},
+      {"kelime": 808, "aralik": "18:69 -> 19:30", "not": "Kahf sonu -> Meryem; Kahf dususu bulgusuyla ortusuyor"},
+      {"kelime": 736, "aralik": "17:39 -> 17:92", "not": "Isra; onceki yaratilis-sessizligi bulgusundaki koridor"},
+      {"kelime": 617, "aralik": "42:53 -> 43:63"},
+      {"kelime": 616, "aralik": "25:71 -> 26:89"}
+    ],
+    "sure_profilleri": {
+      "n_sure": 72, "merkez_ort": 0.533, "merkez_medyan": 0.513,
+      "on_yuklu_fatiha_tipi": [{"sure": 1, "merkez": 0.103, "p_tekil": 0.026}, {"sure": 112, "merkez": 0.2, "p_tekil": 0.11}],
+      "son_yuklu_ters_fatiha": [{"sure": 73, "merkez": 0.878}, {"sure": 15, "merkez": 0.85}, {"sure": 51, "merkez": 0.832}, {"sure": 43, "merkez": 0.821}, {"sure": 91, "merkez": 0.759}, {"sure": 25, "merkez": 0.754}]
+    }
+  },
+  "yorum_sinirlari": [
+    "Kumelenme (B) ve max-bosluk bulgulari cok guclu (p<0.0005) ama mekanizmasi buyuk olcude anlati-modu hipoteziyle aciklaniyor: sessiz kosular ozel-isim/dedi-fiili/kavim yogun anlatim bolgeleri",
+    "Fatiha'nin on-yuklulugu 72 surelik ailede tekil p=0.026, Bonferroni (0.05/72=0.0007) sonrasi anlamsiz; dogru ifade: Fatiha dagilimin en uc noktasi, istatistiksel olarak kanitlanmis bir istisna degil",
+    "Ters-Fatiha (sessizlikten isme yukselen) profil, Fatiha profilinden 3 kat yaygin (6'ya 2)"
+  ]
+}
