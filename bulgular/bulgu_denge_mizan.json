@@ -1,0 +1,108 @@
+{
+ "baslik": "Denge/mîzan iki-katmanlı ölçü — emir-mîzanı Allah'a yapışık, sahne-mîzanı Allah-sessiz bantta (YENİDEN ÜRETİM)",
+ "not": "Orijinal dosya kaybolmuştu; Ağustos 2026'da yeniden üretildi. Katman sınıflaması ayet içeriğinden bu oturumda yapıldı (post-hoc); ancak emir/sahne üst-ayrımı önceden belgelenmiş anlatı-kipi hipotezinden türetildi ve bağımsız veriyle (mîzan) sınandı.",
+ "yontem": "وزن kökünün 23 geçişi (21 ayet) dört alt-katmana ayrıldı; her geçişin Allah lafzına kelime-mesafesi ölçüldü. Üst-ayrım (emir=vahiy+ticarî vs sahne=âhiret+kozmik) 5000'lik permütasyonla test edildi.",
+ "alt_katmanlar": {
+  "vahiy (kitapla indirilen mîzan)": {
+   "ayetler": [
+    "42:17",
+    "57:25"
+   ],
+   "n": 2,
+   "medyan": 8,
+   "mesafeler": [
+    5,
+    11
+   ]
+  },
+  "ticari (insanlar-arası ölçü)": {
+   "ayetler": [
+    "6:152",
+    "7:85",
+    "11:84",
+    "11:85",
+    "17:35",
+    "26:182",
+    "83:3"
+   ],
+   "n": 7,
+   "medyan": 13,
+   "mesafeler": [
+    9,
+    12,
+    12,
+    13,
+    15,
+    19,
+    38
+   ],
+   "dogrulama": "كيل (ölçek) 7 ayetin 6'sında eş-geçişli — katman tanımı metnin kendi eşleşmesiyle tutarlı"
+  },
+  "ahiret (amel tartısı)": {
+   "ayetler": [
+    "7:8",
+    "7:9",
+    "18:105",
+    "21:47",
+    "23:102",
+    "23:103",
+    "101:6",
+    "101:8"
+   ],
+   "n": 9,
+   "medyan": 95,
+   "mesafeler": [
+    72,
+    80,
+    85,
+    91,
+    95,
+    110,
+    115,
+    121,
+    358
+   ]
+  },
+  "kozmik (göğün dengesi)": {
+   "ayetler": [
+    "15:19",
+    "55:7",
+    "55:8",
+    "55:9"
+   ],
+   "n": 5,
+   "medyan": 364,
+   "mesafeler": [
+    156,
+    360,
+    364,
+    366,
+    370
+   ],
+   "dogrulama": "55:7-9 pasajı Rab-örgüsünde: 55:13-18'de 5 ربب geçişi; Rahmân suresi lafza-i celâl kullanmıyor — Rab/Allah dağılım bulgusuyla tutarlı"
+  }
+ },
+ "iki_katman": {
+  "EMIR (vahiy+ticari)": {
+   "n": 9,
+   "medyan": 12,
+   "aralik": [
+    5,
+    38
+   ]
+  },
+  "SAHNE (ahiret+kozmik)": {
+   "n": 14,
+   "medyan": 118,
+   "aralik": [
+    72,
+    370
+   ]
+  },
+  "ayrisma": "TAM — emir max(38) < sahne min(72), hiç örtüşme yok",
+  "permutasyon": "fark=+106, p=0.0106 (5000 deneme)"
+ },
+ "ana_bulgu": "Mîzan tek kavram, iki dilsel rejim: ölçü EMREDİLDİĞİNDE (tartıyı doğru tutun / kitapla mîzanı indirdik) söz Allah lafzının dibinde (medyan 12); ölçü SAHNELENDİĞİNDE (kıyamet tartısı, göğün dengesi) söz Allah-sessiz anlatı bandında (medyan 118). Anlatı-kipi hipotezinin (Allah-sessiz aralıklar = sahne anlatımı) kavram-içi doğrulaması: aynı kök, bağlam kipine göre iki ayrı Allah-mesafe rejimi.",
+ "sinir": "n=23 küçük; katman sınıflaması içerik-temelli ve post-hoc (ayet listeleri dosyada, yanlışlanabilir); 7:9 ile 18:105 'tartısı hafif gelenler' sahnesi emir kipinde okunamaz ama sınır örnekleri denetlenmeli. Kozmik medyanın büyüklüğü kısmen 55. surenin Rahmân-örgüsünden (lafza-i celâl yokluğu) gelir — bu bir bozulma değil, ölçülen olgunun kendisidir.",
+ "epistemik": "muhkem=mesafeler, ayrışma, p; inşa='emir/sahne rejimi' okuması; değer atfı yok."
+}

@@ -1,0 +1,135 @@
+{
+ "baslik": "Allah ↔ karşı-kutup mesafe — pozitif/negatif kutupların Allah-eksenindeki asimetrisi (YENİDEN ÜRETİM)",
+ "not": "Orijinal dosya kaybolmuştu; bu sürüm Ağustos 2026'da dikey_oku.py altyapısıyla (kelime-akışı medyan mesafe + 1000'lik permütasyon) yeniden üretildi. Çift seçimi mevcut ayna bulgularından (nûr/karanlık, adl/zulm) ve kavram envanterinden.",
+ "yontem": "6 karşıt çift; her kutbun Allah lafzına medyan kelime-mesafesi + permütasyon anlamlılığı (dikey_oku.anlamlilik, 1000 deneme). Rastgele referans medyan = 11. dalâlet ve adl, fısk, sıdk tek-lemma kökler olduğundan kök üzerinden; diğerleri ayrılmış-kavram üzerinden ölçüldü.",
+ "ciftler": [
+  {
+   "cift": "iman ↔ küfür",
+   "poz": {
+    "ad": "iman",
+    "gecis": 828,
+    "allah_medyan": 8,
+    "p": 0.001,
+    "yon": "yakin",
+    "anlamli": true
+   },
+   "neg": {
+    "ad": "küfür",
+    "gecis": 506,
+    "allah_medyan": 9,
+    "p": 0.053,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 1
+  },
+  {
+   "cift": "nûr ↔ karanlık",
+   "poz": {
+    "ad": "nûr",
+    "gecis": 49,
+    "allah_medyan": 6,
+    "p": 0.029,
+    "yon": "yakin",
+    "anlamli": true
+   },
+   "neg": {
+    "ad": "karanlık",
+    "gecis": 27,
+    "allah_medyan": 9,
+    "p": 0.34,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 3
+  },
+  {
+   "cift": "adl ↔ zulüm",
+   "poz": {
+    "ad": "adl",
+    "gecis": 28,
+    "allah_medyan": 8,
+    "p": 0.21,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "neg": {
+    "ad": "zulüm",
+    "gecis": 290,
+    "allah_medyan": 12,
+    "p": 0.335,
+    "yon": "uzak",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 4
+  },
+  {
+   "cift": "hidâyet ↔ dalâlet",
+   "poz": {
+    "ad": "hidâyet",
+    "gecis": 307,
+    "allah_medyan": 7,
+    "p": 0.0,
+    "yon": "yakin",
+    "anlamli": true
+   },
+   "neg": {
+    "ad": "dalâlet (kok ضلل)",
+    "gecis": 191,
+    "allah_medyan": 9,
+    "p": 0.161,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 2
+  },
+  {
+   "cift": "takvâ ↔ fısk",
+   "poz": {
+    "ad": "takvâ",
+    "gecis": 239,
+    "allah_medyan": 5,
+    "p": 0.0,
+    "yon": "yakin",
+    "anlamli": true
+   },
+   "neg": {
+    "ad": "fısk",
+    "gecis": 54,
+    "allah_medyan": 10,
+    "p": 0.394,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 5
+  },
+  {
+   "cift": "sıdk ↔ kizb",
+   "poz": {
+    "ad": "sıdk",
+    "gecis": 155,
+    "allah_medyan": 10,
+    "p": 0.408,
+    "yon": "yakin",
+    "anlamli": false
+   },
+   "neg": {
+    "ad": "kizb",
+    "gecis": 40,
+    "allah_medyan": 14,
+    "p": 0.278,
+    "yon": "uzak",
+    "anlamli": false
+   },
+   "fark_neg_eksi_poz": 4
+  }
+ ],
+ "desen": {
+  "yon_tutarliligi": "6/6 çiftte pozitif kutup Allah'a daha yakın (işaret testi, tek yönlü binom p=1/64≈0.016)",
+  "asimetri": "Pozitif kutupların 4'ü permütasyonda anlamlı-yakın (iman p=.001, hidâyet p=.000, takvâ p=.000, nûr p=.029); NEGATİF kutupların HİÇBİRİ anlamlı değil — ne yakın ne uzak, rastgeleden ayrışmıyorlar.",
+  "bonferroni": "12 test, α=0.0042: iman, hidâyet, takvâ sağlam; nûr (.029) düzeltmeyi geçemiyor — eğilim düzeyinde."
+ },
+ "ana_bulgu": "Karşıtlık Allah-ekseninde simetrik değil: pozitif kutuplar lafza-i celâle demirli (takvâ 5, nûr 6, hidâyet 7, iman/adl 8), negatif kutuplar serbest dolaşıyor (9-14, rastgele bandında). Metin karşıtlığı 'iki uç' olarak değil 'demirli merkez + başıboş çevre' olarak kuruyor. Tuğyân bulgusuyla (p=.006 anlamlı-uzak) birlikte: yalnız 'bağımsız azgınlık' türü kavramlar aktif biçimde uzağa itiliyor.",
+ "sinir": "adl n=28, kizb n=40, karanlık n=27 — küçük örneklemler; sıdk↔kizb çifti iki yönde de anlamsız. Negatif kutupların nötrlüğü 'yokluk kanıtı' değil, anlamlılık yokluğudur.",
+ "epistemik": "muhkem=medyan mesafeler ve p değerleri; inşa='demirli merkez/başıboş çevre' okuması; değer atfı yok."
+}
