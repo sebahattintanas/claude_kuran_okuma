@@ -1,0 +1,32 @@
+{
+ "mercek": "matematikçi",
+ "uyari": "Bu bir meal ya da tefsir değildir. Bir matematikçinin zihninin bu metnin yapısıyla karşılaşınca neyi tanıyacağına dair bir denemedir. Her iddia görünür bir ölçüme bağlıdır.",
+ "olcek": "makro (metin geneli)",
+ "ayakta_kalan": {
+  "ag_orijin": {
+   "bulgu": "Ağın tek gerçek orijini/yutağı Allah",
+   "olcum": "yutak skoru +0.40 (çekim %44, bağımlılık %4, oran 11:1). İkinci: Rab +0.16. Çoğu düğüm ~0 (simetrik).",
+   "yorum": "Bütün asimetrik bağlar Allah'a doğru akar (adalet→Allah %71, hac→%76, cihad→%78; tersi ~%1). Es-samed'in graf-teorik izi: her şey O'na muhtaç, O hiçbir şeye.",
+   "kontrol": "Tüm düğümler aynı metrikle ölçüldü, Allah özel işaretlenmeden uçta çıktı.",
+   "sinir": "Co-occurrence nedensellik değil; 'adalet→Allah' = adalet ayetlerinde Allah da anılıyor demek."
+  },
+  "dizilim_yapisi": {
+   "bulgu": "Mushaf uzunluk-sıralı (editöryal), nüzul değil (tarihsel)",
+   "olcum": "pozisyon↔uzunluk Spearman: Mushaf ρ=-0.84 (uzundan kısaya), Nüzul ρ=+0.26 (kayıtsız). Ardışık sûre uzunluk-farkı: Mushaf 22.4, Nüzul 36.8, Rastgele 54.4.",
+   "yorum": "Mushaf'ın bir düzenleme ilkesi var (kabaca uzundan kısaya); nüzul uzunluğa bakmaz. İki dizilim farklı türden: biri organize, biri tarihsel."
+  },
+  "merkez_topolojik_degil_konumsal": {
+   "bulgu": "Metnin merkezi konumsal değil, ilişkisel",
+   "olcum": "Geometrik merkez (ayet 3118): orta bölgenin tema profili = tüm metin profili (üç dizilimde de özel değil). Fâtiha temsil sırası 82/114 (kavram-özeti değil). Ama ağ-orijini Allah net (+0.40).",
+   "yorum": "Merkez bir yer değil, bir düğüm. Konumda merkez yok (ne ortası özel, ne Fâtiha özet); ilişkide var (her şey Allah'a bağlanır). Topolojik merkez, geometrik değil."
+  }
+ },
+ "elenen_iddialar": {
+  "modul": "Sûre ayet-sayılarında sabit birim/modül YOK. k=15/11 ilk bakışta parladı ama 19-test Bonferroni düzeltmesinde düştü (p=0.04 > eşik 0.0026). Dağılım Zipf-benzeri sağa-çarpık.",
+  "ayna": "Baş-son ayna simetrisi YOK. Dilim i ↔ (n-i) benzerliği rastgeleden farksız (-1.4% ila -1.9%). İlk↔son dilim en düşük benzerlikte. Metin palindrom değil.",
+  "geometrik_merkez": "Orta ayet/bölge özel değil, genel profili tekrarlıyor.",
+  "fatiha_fraktal": "Kavram-sıklığı olarak Fâtiha metnin özeti değil (82/114). Yapısal-hareket iddiası ise ölçülemez (yorum gerektirir).",
+  "kavram_dagilimi_derin": "Kavramların metin-boyu eğilimi 'derin' değil, dönemsel (Mekkî/Medenî). Uzunluk kontrolünden sonra kalan örüntü tarihsel dönemin izi, dizilimden bağımsız bir yapı değil."
+ },
+ "yontem_kazanci": "Çoklu-karşılaştırma tuzağı canlı görüldü (19 denemede en iyi %69 saparken bile p anlamsız). Döngüsel '43 harf/satır' yakalandı (satir_tam=harf//43, tautoloji). Konumsal her şey üç dizilim + rastgele ile kontrol edildi."
+}

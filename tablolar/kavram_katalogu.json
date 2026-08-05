@@ -1,0 +1,8573 @@
+{
+ "Allah": {
+  "kokler": [
+   "أله"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2704,
+  "istisna_konumlari": []
+ },
+ "olmak": {
+  "kokler": [
+   "كون"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1358,
+  "istisna_konumlari": []
+ },
+ "Rab": {
+  "kokler": [
+   "ربب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 975,
+  "istisna_konumlari": []
+ },
+ "iman": {
+  "kokler": [
+   "أمن"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 828,
+  "istisna_konumlari": []
+ },
+ "ilim": {
+  "kokler": [
+   "علم"
+  ],
+  "lemma_sayisi": 11,
+  "gecis": 778,
+  "istisna_konumlari": []
+ },
+ "kavim": {
+  "kokler": [
+   "قوم"
+  ],
+  "lemma_sayisi": 21,
+  "gecis": 590,
+  "istisna_konumlari": []
+ },
+ "küfür": {
+  "kokler": [
+   "كفر"
+  ],
+  "lemma_sayisi": 10,
+  "gecis": 506,
+  "istisna_konumlari": []
+ },
+ "âyet": {
+  "kokler": [
+   "أيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 382,
+  "istisna_konumlari": []
+ },
+ "hepsi": {
+  "kokler": [
+   "كلل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 375,
+  "istisna_konumlari": []
+ },
+ "azap": {
+  "kokler": [
+   "عذب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 371,
+  "istisna_konumlari": []
+ },
+ "rahmet": {
+  "kokler": [
+   "رحم"
+  ],
+  "lemma_sayisi": 8,
+  "gecis": 327,
+  "istisna_konumlari": []
+ },
+ "görme": {
+  "kokler": [
+   "رأي"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 315,
+  "istisna_konumlari": []
+ },
+ "gök": {
+  "kokler": [
+   "سمو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 310,
+  "istisna_konumlari": []
+ },
+ "hidâyet": {
+  "kokler": [
+   "هدي"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 307,
+  "istisna_konumlari": []
+ },
+ "nefs": {
+  "kokler": [
+   "نفس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 295,
+  "istisna_konumlari": []
+ },
+ "zulüm": {
+  "kokler": [
+   "ظلم"
+  ],
+  "lemma_sayisi": 10,
+  "gecis": 290,
+  "istisna_konumlari": []
+ },
+ "şey": {
+  "kokler": [
+   "شيأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 283,
+  "istisna_konumlari": []
+ },
+ "indirme": {
+  "kokler": [
+   "نزل"
+  ],
+  "lemma_sayisi": 10,
+  "gecis": 283,
+  "istisna_konumlari": []
+ },
+ "verme": {
+  "kokler": [
+   "أتي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 275,
+  "istisna_konumlari": []
+ },
+ "zikir": {
+  "kokler": [
+   "ذكر"
+  ],
+  "lemma_sayisi": 13,
+  "gecis": 274,
+  "istisna_konumlari": []
+ },
+ "gelme": {
+  "kokler": [
+   "أتي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 274,
+  "istisna_konumlari": []
+ },
+ "ara": {
+  "kokler": [
+   "بين",
+   "خلل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 274,
+  "istisna_konumlari": []
+ },
+ "beyan": {
+  "kokler": [
+   "بين"
+  ],
+  "lemma_sayisi": 11,
+  "gecis": 257,
+  "istisna_konumlari": []
+ },
+ "yaratma": {
+  "kokler": [
+   "خلق"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 252,
+  "istisna_konumlari": []
+ },
+ "önce": {
+  "kokler": [
+   "قبل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 249,
+  "istisna_konumlari": []
+ },
+ "emir": {
+  "kokler": [
+   "أمر"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 247,
+  "istisna_konumlari": []
+ },
+ "tekzib": {
+  "kokler": [
+   "كذب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 242,
+  "istisna_konumlari": []
+ },
+ "nas": {
+  "kokler": [
+   "أنس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 241,
+  "istisna_konumlari": []
+ },
+ "takvâ": {
+  "kokler": [
+   "وقي"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 239,
+  "istisna_konumlari": []
+ },
+ "dileme": {
+  "kokler": [
+   "شيأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 236,
+  "istisna_konumlari": []
+ },
+ "velî": {
+  "kokler": [
+   "ولي"
+  ],
+  "lemma_sayisi": 11,
+  "gecis": 232,
+  "istisna_konumlari": []
+ },
+ "hangi": {
+  "kokler": [
+   "أيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 215,
+  "istisna_konumlari": []
+ },
+ "mülk": {
+  "kokler": [
+   "ملك"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 201,
+  "istisna_konumlari": []
+ },
+ "ind": {
+  "kokler": [
+   "عند"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 197,
+  "istisna_konumlari": []
+ },
+ "hayır": {
+  "kokler": [
+   "خير"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 188,
+  "istisna_konumlari": []
+ },
+ "hüküm": {
+  "kokler": [
+   "حكم"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 186,
+  "istisna_konumlari": []
+ },
+ "çıkış": {
+  "kokler": [
+   "خرج",
+   "صدر"
+  ],
+  "lemma_sayisi": 12,
+  "gecis": 183,
+  "istisna_konumlari": []
+ },
+ "salâh": {
+  "kokler": [
+   "صلح"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 176,
+  "istisna_konumlari": []
+ },
+ "hayat": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 8,
+  "gecis": 167,
+  "istisna_konumlari": []
+ },
+ "çokluk": {
+  "kokler": [
+   "كثر"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 166,
+  "istisna_konumlari": []
+ },
+ "evlat": {
+  "kokler": [
+   "بني"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 162,
+  "istisna_konumlari": []
+ },
+ "cennet": {
+  "kokler": [
+   "جنن"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 160,
+  "istisna_konumlari": []
+ },
+ "kısım": {
+  "kokler": [
+   "بعض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 157,
+  "istisna_konumlari": []
+ },
+ "son": {
+  "kokler": [
+   "أخر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 155,
+  "istisna_konumlari": []
+ },
+ "yardım": {
+  "kokler": [
+   "عون",
+   "نصر"
+  ],
+  "lemma_sayisi": 13,
+  "gecis": 153,
+  "istisna_konumlari": []
+ },
+ "ilâh": {
+  "kokler": [
+   "أله"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 147,
+  "istisna_konumlari": []
+ },
+ "başka": {
+  "kokler": [
+   "غير"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 147,
+  "istisna_konumlari": []
+ },
+ "ateş": {
+  "kokler": [
+   "نور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 145,
+  "istisna_konumlari": []
+ },
+ "irade": {
+  "kokler": [
+   "رود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 139,
+  "istisna_konumlari": []
+ },
+ "alma": {
+  "kokler": [
+   "أخذ"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 136,
+  "istisna_konumlari": []
+ },
+ "kalp": {
+  "kokler": [
+   "قلب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 132,
+  "istisna_konumlari": []
+ },
+ "edinme": {
+  "kokler": [
+   "أخذ"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 128,
+  "istisna_konumlari": []
+ },
+ "toplama": {
+  "kokler": [
+   "جمع"
+  ],
+  "lemma_sayisi": 10,
+  "gecis": 128,
+  "istisna_konumlari": []
+ },
+ "uyarı": {
+  "kokler": [
+   "نذر"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 123,
+  "istisna_konumlari": []
+ },
+ "izzet": {
+  "kokler": [
+   "عزز"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 119,
+  "istisna_konumlari": []
+ },
+ "karşılık": {
+  "kokler": [
+   "جزي"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 117,
+  "istisna_konumlari": []
+ },
+ "dünya": {
+  "kokler": [
+   "دنو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 115,
+  "istisna_konumlari": []
+ },
+ "azamet": {
+  "kokler": [
+   "عظم"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 113,
+  "istisna_konumlari": []
+ },
+ "büyüklük": {
+  "kokler": [
+   "كبر"
+  ],
+  "lemma_sayisi": 12,
+  "gecis": 102,
+  "istisna_konumlari": []
+ },
+ "doğruluk": {
+  "kokler": [
+   "صدق"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 97,
+  "istisna_konumlari": []
+ },
+ "din": {
+  "kokler": [
+   "دين"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 95,
+  "istisna_konumlari": []
+ },
+ "yakınlık": {
+  "kokler": [
+   "دنو",
+   "قرب"
+  ],
+  "lemma_sayisi": 12,
+  "gecis": 94,
+  "istisna_konumlari": []
+ },
+ "mesel": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 88,
+  "istisna_konumlari": []
+ },
+ "nimet": {
+  "kokler": [
+   "نعم"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 88,
+  "istisna_konumlari": []
+ },
+ "tesbih": {
+  "kokler": [
+   "سبح"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 87,
+  "istisna_konumlari": []
+ },
+ "atma": {
+  "kokler": [
+   "لقي",
+   "نبذ"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 85,
+  "istisna_konumlari": []
+ },
+ "müjde": {
+  "kokler": [
+   "بشر"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 84,
+  "istisna_konumlari": []
+ },
+ "itaat": {
+  "kokler": [
+   "طوع"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 83,
+  "istisna_konumlari": []
+ },
+ "sevgi": {
+  "kokler": [
+   "حبب"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 83,
+  "istisna_konumlari": []
+ },
+ "evvel": {
+  "kokler": [
+   "أول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 82,
+  "istisna_konumlari": []
+ },
+ "nebî": {
+  "kokler": [
+   "نبأ"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 80,
+  "istisna_konumlari": []
+ },
+ "haber": {
+  "kokler": [
+   "نبأ"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 80,
+  "istisna_konumlari": []
+ },
+ "haram": {
+  "kokler": [
+   "حرم"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 79,
+  "istisna_konumlari": []
+ },
+ "misil": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 75,
+  "istisna_konumlari": []
+ },
+ "isabet": {
+  "kokler": [
+   "صوب"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 75,
+  "istisna_konumlari": []
+ },
+ "azlık": {
+  "kokler": [
+   "قلل"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 75,
+  "istisna_konumlari": []
+ },
+ "izin": {
+  "kokler": [
+   "أذن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 74,
+  "istisna_konumlari": []
+ },
+ "âlem": {
+  "kokler": [
+   "علم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 73,
+  "istisna_konumlari": []
+ },
+ "infak": {
+  "kokler": [
+   "نفق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 73,
+  "istisna_konumlari": []
+ },
+ "düşmanlık": {
+  "kokler": [
+   "عدو"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 73,
+  "istisna_konumlari": []
+ },
+ "İslam": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 72,
+  "istisna_konumlari": []
+ },
+ "isim": {
+  "kokler": [
+   "سمو"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 71,
+  "istisna_konumlari": []
+ },
+ "insan": {
+  "kokler": [
+   "أنس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 71,
+  "istisna_konumlari": []
+ },
+ "buluşma": {
+  "kokler": [
+   "لقي"
+  ],
+  "lemma_sayisi": 14,
+  "gecis": 71,
+  "istisna_konumlari": []
+ },
+ "kıyâmet": {
+  "kokler": [
+   "قوم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 70,
+  "istisna_konumlari": []
+ },
+ "diğer": {
+  "kokler": [
+   "أخر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 70,
+  "istisna_konumlari": []
+ },
+ "Kurân": {
+  "kokler": [
+   "قرأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 70,
+  "istisna_konumlari": []
+ },
+ "takdir-ölçü": {
+  "kokler": [
+   "قدر"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 68,
+  "istisna_konumlari": []
+ },
+ "yücelik": {
+  "kokler": [
+   "علو"
+  ],
+  "lemma_sayisi": 14,
+  "gecis": 68,
+  "istisna_konumlari": []
+ },
+ "kurtuluş": {
+  "kokler": [
+   "نجو"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 67,
+  "istisna_konumlari": []
+ },
+ "dönme": {
+  "kokler": [
+   "دور",
+   "عود",
+   "فيأ"
+  ],
+  "lemma_sayisi": 8,
+  "gecis": 67,
+  "istisna_konumlari": []
+ },
+ "zarar": {
+  "kokler": [
+   "ضرر"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 66,
+  "istisna_konumlari": []
+ },
+ "ev": {
+  "kokler": [
+   "بيت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 65,
+  "istisna_konumlari": []
+ },
+ "yemin-sağ": {
+  "kokler": [
+   "يمن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 65,
+  "istisna_konumlari": []
+ },
+ "ümmet": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 64,
+  "istisna_konumlari": []
+ },
+ "secde": {
+  "kokler": [
+   "سجد"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 64,
+  "istisna_konumlari": []
+ },
+ "arka": {
+  "kokler": [
+   "خلف",
+   "دبر"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 63,
+  "istisna_konumlari": []
+ },
+ "kudret": {
+  "kokler": [
+   "قدر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 63,
+  "istisna_konumlari": []
+ },
+ "hamd": {
+  "kokler": [
+   "حمد"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 63,
+  "istisna_konumlari": []
+ },
+ "göz-pınar": {
+  "kokler": [
+   "عين"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 61,
+  "istisna_konumlari": []
+ },
+ "kibir": {
+  "kokler": [
+   "كبر"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 59,
+  "istisna_konumlari": []
+ },
+ "iftira": {
+  "kokler": [
+   "فري"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 59,
+  "istisna_konumlari": []
+ },
+ "suç": {
+  "kokler": [
+   "جرم"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 58,
+  "istisna_konumlari": []
+ },
+ "gündüz": {
+  "kokler": [
+   "نهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 57,
+  "istisna_konumlari": []
+ },
+ "büyü": {
+  "kokler": [
+   "سحر"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 57,
+  "istisna_konumlari": []
+ },
+ "adam": {
+  "kokler": [
+   "رجل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 57,
+  "istisna_konumlari": []
+ },
+ "gayb": {
+  "kokler": [
+   "غيب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 57,
+  "istisna_konumlari": []
+ },
+ "yüz-çevirme": {
+  "kokler": [
+   "صدف",
+   "عرض"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 57,
+  "istisna_konumlari": []
+ },
+ "ihtilaf": {
+  "kokler": [
+   "خلف"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 55,
+  "istisna_konumlari": []
+ },
+ "ecel": {
+  "kokler": [
+   "أجل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 55,
+  "istisna_konumlari": []
+ },
+ "nehir": {
+  "kokler": [
+   "نهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 54,
+  "istisna_konumlari": []
+ },
+ "hesap": {
+  "kokler": [
+   "حسب"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 54,
+  "istisna_konumlari": []
+ },
+ "arama": {
+  "kokler": [
+   "بغي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 54,
+  "istisna_konumlari": []
+ },
+ "nidâ": {
+  "kokler": [
+   "ندي"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 50,
+  "istisna_konumlari": []
+ },
+ "nûr": {
+  "kokler": [
+   "نور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 49,
+  "istisna_konumlari": []
+ },
+ "deniz": {
+  "kokler": [
+   "بحر",
+   "يمم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 49,
+  "istisna_konumlari": []
+ },
+ "alıkoyma": {
+  "kokler": [
+   "صدد",
+   "كفف"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 49,
+  "istisna_konumlari": []
+ },
+ "gitmek": {
+  "kokler": [
+   "ذهب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 48,
+  "istisna_konumlari": []
+ },
+ "yurt": {
+  "kokler": [
+   "دور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 48,
+  "istisna_konumlari": []
+ },
+ "saat": {
+  "kokler": [
+   "سوع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 48,
+  "istisna_konumlari": []
+ },
+ "acele": {
+  "kokler": [
+   "عجل"
+  ],
+  "lemma_sayisi": 10,
+  "gecis": 47,
+  "istisna_konumlari": []
+ },
+ "güç-yetirme": {
+  "kokler": [
+   "طوع",
+   "طوق",
+   "قرن"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 46,
+  "istisna_konumlari": []
+ },
+ "helâl": {
+  "kokler": [
+   "حلل"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 46,
+  "istisna_konumlari": []
+ },
+ "takdim": {
+  "kokler": [
+   "قدم"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 45,
+  "istisna_konumlari": []
+ },
+ "sanma": {
+  "kokler": [
+   "حسب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 44,
+  "istisna_konumlari": []
+ },
+ "ayırma": {
+  "kokler": [
+   "فرق",
+   "فصل"
+  ],
+  "lemma_sayisi": 12,
+  "gecis": 44,
+  "istisna_konumlari": []
+ },
+ "göğüs": {
+  "kokler": [
+   "صدر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 44,
+  "istisna_konumlari": []
+ },
+ "selâm": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 42,
+  "istisna_konumlari": []
+ },
+ "kolaylık": {
+  "kokler": [
+   "رفق",
+   "يسر"
+  ],
+  "lemma_sayisi": 9,
+  "gecis": 42,
+  "istisna_konumlari": []
+ },
+ "icabet": {
+  "kokler": [
+   "جوب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 42,
+  "istisna_konumlari": []
+ },
+ "maruf": {
+  "kokler": [
+   "عرف"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 41,
+  "istisna_konumlari": []
+ },
+ "sabah": {
+  "kokler": [
+   "صبح"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 41,
+  "istisna_konumlari": []
+ },
+ "ifa": {
+  "kokler": [
+   "وفي"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 41,
+  "istisna_konumlari": []
+ },
+ "üst": {
+  "kokler": [
+   "فوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 41,
+  "istisna_konumlari": []
+ },
+ "kuvvet": {
+  "kokler": [
+   "قوي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 41,
+  "istisna_konumlari": []
+ },
+ "kizb": {
+  "kokler": [
+   "كذب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 40,
+  "istisna_konumlari": []
+ },
+ "ne-kötü": {
+  "kokler": [
+   "بأس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 40,
+  "istisna_konumlari": []
+ },
+ "azgınlık": {
+  "kokler": [
+   "بغي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 39,
+  "istisna_konumlari": []
+ },
+ "dağ": {
+  "kokler": [
+   "جبل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 39,
+  "istisna_konumlari": []
+ },
+ "âkıbet": {
+  "kokler": [
+   "عقب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 38,
+  "istisna_konumlari": []
+ },
+ "beşer": {
+  "kokler": [
+   "بشر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 37,
+  "istisna_konumlari": []
+ },
+ "nifak": {
+  "kokler": [
+   "نفق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 37,
+  "istisna_konumlari": []
+ },
+ "günah": {
+  "kokler": [
+   "ذنب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 37,
+  "istisna_konumlari": []
+ },
+ "çevrilme": {
+  "kokler": [
+   "قلب"
+  ],
+  "lemma_sayisi": 8,
+  "gecis": 36,
+  "istisna_konumlari": []
+ },
+ "fırka": {
+  "kokler": [
+   "فرق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 36,
+  "istisna_konumlari": []
+ },
+ "istivâ": {
+  "kokler": [
+   "سوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 35,
+  "istisna_konumlari": []
+ },
+ "nehiy": {
+  "kokler": [
+   "نهي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 35,
+  "istisna_konumlari": []
+ },
+ "cihad": {
+  "kokler": [
+   "جهد"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 35,
+  "istisna_konumlari": []
+ },
+ "açma-fetih": {
+  "kokler": [
+   "فتح"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 35,
+  "istisna_konumlari": []
+ },
+ "anne": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 34,
+  "istisna_konumlari": []
+ },
+ "zuhur": {
+  "kokler": [
+   "ظهر"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 34,
+  "istisna_konumlari": []
+ },
+ "hoşlanmama": {
+  "kokler": [
+   "كره"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 34,
+  "istisna_konumlari": []
+ },
+ "âlâ-nimet": {
+  "kokler": [
+   "ألو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 34,
+  "istisna_konumlari": []
+ },
+ "davar": {
+  "kokler": [
+   "نعم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 33,
+  "istisna_konumlari": []
+ },
+ "eşit-düz": {
+  "kokler": [
+   "سوي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 33,
+  "istisna_konumlari": []
+ },
+ "mekân": {
+  "kokler": [
+   "كون"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 32,
+  "istisna_konumlari": []
+ },
+ "zekât": {
+  "kokler": [
+   "زكو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 32,
+  "istisna_konumlari": []
+ },
+ "sır-gizleme": {
+  "kokler": [
+   "سرر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 32,
+  "istisna_konumlari": []
+ },
+ "zürriyet": {
+  "kokler": [
+   "ذرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 32,
+  "istisna_konumlari": []
+ },
+ "tasdik": {
+  "kokler": [
+   "صدق"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 31,
+  "istisna_konumlari": []
+ },
+ "sayı": {
+  "kokler": [
+   "عدد"
+  ],
+  "lemma_sayisi": 8,
+  "gecis": 31,
+  "istisna_konumlari": []
+ },
+ "tuğyan": {
+  "kokler": [
+   "طغي"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 31,
+  "istisna_konumlari": []
+ },
+ "hevâ": {
+  "kokler": [
+   "هوي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 31,
+  "istisna_konumlari": [
+   "2:87:22",
+   "53:23:19",
+   "5:70:14"
+  ]
+ },
+ "söz-hadis": {
+  "kokler": [
+   "حدث"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 31,
+  "istisna_konumlari": []
+ },
+ "misak": {
+  "kokler": [
+   "وثق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 31,
+  "istisna_konumlari": []
+ },
+ "cin": {
+  "kokler": [
+   "جنن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "güvenlik": {
+  "kokler": [
+   "أمن"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "haddi-aşma": {
+  "kokler": [
+   "عدو"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "şiddet": {
+  "kokler": [
+   "بأس"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "zayıflık": {
+  "kokler": [
+   "ضعف"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "mele": {
+  "kokler": [
+   "ملأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "vebal": {
+  "kokler": [
+   "جنح",
+   "وبل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "şefaat": {
+  "kokler": [
+   "شفع"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "şer": {
+  "kokler": [
+   "شرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "galibiyet": {
+  "kokler": [
+   "غلب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 30,
+  "istisna_konumlari": []
+ },
+ "rüzgâr": {
+  "kokler": [
+   "روح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 29,
+  "istisna_konumlari": []
+ },
+ "erteleme": {
+  "kokler": [
+   "أخر",
+   "رجو"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 29,
+  "istisna_konumlari": []
+ },
+ "açığa-çıkma": {
+  "kokler": [
+   "بدو"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 29,
+  "istisna_konumlari": []
+ },
+ "ihlas": {
+  "kokler": [
+   "خلص"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 29,
+  "istisna_konumlari": []
+ },
+ "mescid": {
+  "kokler": [
+   "سجد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 28,
+  "istisna_konumlari": []
+ },
+ "asa": {
+  "kokler": [
+   "عصي",
+   "نسأ"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 28,
+  "istisna_konumlari": []
+ },
+ "oturma": {
+  "kokler": [
+   "قعد"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 28,
+  "istisna_konumlari": []
+ },
+ "karanlık": {
+  "kokler": [
+   "ظلم",
+   "غسق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "nasip": {
+  "kokler": [
+   "خلق",
+   "نصب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "tanıma": {
+  "kokler": [
+   "عرف"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "farkındalık": {
+  "kokler": [
+   "شعر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "ceza": {
+  "kokler": [
+   "عقب"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "arınma": {
+  "kokler": [
+   "زكو"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "musahhar": {
+  "kokler": [
+   "سخر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "yedi": {
+  "kokler": [
+   "سبع"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "inşâ": {
+  "kokler": [
+   "نشأ"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 27,
+  "istisna_konumlari": []
+ },
+ "âl": {
+  "kokler": [
+   "أول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "kadın": {
+  "kokler": [
+   "مرأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "yemin": {
+  "kokler": [
+   "ألو",
+   "قسم"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "arş-taht": {
+  "kokler": [
+   "عرش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "ağaç": {
+  "kokler": [
+   "شجر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "tutma": {
+  "kokler": [
+   "مسك"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 26,
+  "istisna_konumlari": []
+ },
+ "kuş": {
+  "kokler": [
+   "طير"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "kabul": {
+  "kokler": [
+   "قبل"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "miskin": {
+  "kokler": [
+   "سكن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "vefat": {
+  "kokler": [
+   "وفي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "hazırlama": {
+  "kokler": [
+   "عدد",
+   "مهد",
+   "هيأ"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "koyma": {
+  "kokler": [
+   "وضع"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 25,
+  "istisna_konumlari": []
+ },
+ "ruh": {
+  "kokler": [
+   "روح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "sadaka": {
+  "kokler": [
+   "صدق"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "tafsil": {
+  "kokler": [
+   "فصل"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "taife": {
+  "kokler": [
+   "طوف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "gölge": {
+  "kokler": [
+   "ظلل"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "öte-arka": {
+  "kokler": [
+   "وري"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "hicret": {
+  "kokler": [
+   "هجر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "kıssa-anlatma": {
+  "kokler": [
+   "قصص"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "iki": {
+  "kokler": [
+   "ثني"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "yük-günah": {
+  "kokler": [
+   "وزر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 24,
+  "istisna_konumlari": []
+ },
+ "nesil": {
+  "kokler": [
+   "قرن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "karar-yer": {
+  "kokler": [
+   "قرر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "berâet": {
+  "kokler": [
+   "برأ"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "yahudi": {
+  "kokler": [
+   "هود"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 23,
+  "istisna_konumlari": [
+   "2:111:8",
+   "2:135:3",
+   "2:140:10"
+  ]
+ },
+ "ummak": {
+  "kokler": [
+   "رجو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "yürüme": {
+  "kokler": [
+   "سير"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "kıst-adalet": {
+  "kokler": [
+   "قسط"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 23,
+  "istisna_konumlari": []
+ },
+ "inşa": {
+  "kokler": [
+   "بني"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 22,
+  "istisna_konumlari": []
+ },
+ "katlama": {
+  "kokler": [
+   "ضعف"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 22,
+  "istisna_konumlari": []
+ },
+ "aşağılama": {
+  "kokler": [
+   "هون"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 21,
+  "istisna_konumlari": []
+ },
+ "yıl": {
+  "kokler": [
+   "سنو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 21,
+  "istisna_konumlari": [
+   "2:233:4",
+   "2:240:10"
+  ]
+ },
+ "hac": {
+  "kokler": [
+   "حجج"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 20,
+  "istisna_konumlari": []
+ },
+ "hikmet": {
+  "kokler": [
+   "حكم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 20,
+  "istisna_konumlari": []
+ },
+ "kere": {
+  "kokler": [
+   "مرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 20,
+  "istisna_konumlari": []
+ },
+ "âciz-bırakma": {
+  "kokler": [
+   "عجز"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 20,
+  "istisna_konumlari": []
+ },
+ "ins": {
+  "kokler": [
+   "أنس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "koruma": {
+  "kokler": [
+   "وقي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "sükûn": {
+  "kokler": [
+   "سكن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "uzatma": {
+  "kokler": [
+   "مدد"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "kara": {
+  "kokler": [
+   "برر",
+   "سود"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "sevap": {
+  "kokler": [
+   "ثوب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "yapma": {
+  "kokler": [
+   "صنع"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 19,
+  "istisna_konumlari": []
+ },
+ "erkek": {
+  "kokler": [
+   "ذكر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "kulak": {
+  "kokler": [
+   "أذن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "kefâret": {
+  "kokler": [
+   "كفر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "ne-güzel": {
+  "kokler": [
+   "نعم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "mesken": {
+  "kokler": [
+   "سكن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "yarılma": {
+  "kokler": [
+   "شقق",
+   "صدع",
+   "فرج",
+   "فطر"
+  ],
+  "lemma_sayisi": 11,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "on": {
+  "kokler": [
+   "عشر"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "derece": {
+  "kokler": [
+   "درج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "alev": {
+  "kokler": [
+   "سعر",
+   "مرج"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 18,
+  "istisna_konumlari": []
+ },
+ "tevil": {
+  "kokler": [
+   "أول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "ardıl": {
+  "kokler": [
+   "خلف",
+   "عقب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "akrabalık": {
+  "kokler": [
+   "قرب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "okuma": {
+  "kokler": [
+   "قرأ"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "necvâ": {
+  "kokler": [
+   "نجو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "vazgeçme": {
+  "kokler": [
+   "نهي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "yan-taraf": {
+  "kokler": [
+   "جنب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "temenni": {
+  "kokler": [
+   "ودد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "şehir": {
+  "kokler": [
+   "مدن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "karın": {
+  "kokler": [
+   "بطن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "zillet": {
+  "kokler": [
+   "ذلل"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "temenni-kuruntu": {
+  "kokler": [
+   "مني"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "toprak": {
+  "kokler": [
+   "ترب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "yaratma-fıtrat": {
+  "kokler": [
+   "فطر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "farz": {
+  "kokler": [
+   "فرض"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 17,
+  "istisna_konumlari": []
+ },
+ "batı": {
+  "kokler": [
+   "غرب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "sırt": {
+  "kokler": [
+   "ظهر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "döndürülme": {
+  "kokler": [
+   "أفك"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "şaşma": {
+  "kokler": [
+   "عجب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "sünnet": {
+  "kokler": [
+   "سنن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "iffet-muhsan": {
+  "kokler": [
+   "حصن"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 16,
+  "istisna_konumlari": []
+ },
+ "ayak": {
+  "kokler": [
+   "رجل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "Hristiyan": {
+  "kokler": [
+   "نصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "halifelik": {
+  "kokler": [
+   "خلف"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "cayma": {
+  "kokler": [
+   "خلف"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "kemik": {
+  "kokler": [
+   "عظم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "düzenleme": {
+  "kokler": [
+   "سوي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "bulut": {
+  "kokler": [
+   "سحب",
+   "عرض",
+   "غمم"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "alay": {
+  "kokler": [
+   "سخر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "tavaf-dolaşma": {
+  "kokler": [
+   "طوف"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "çevre": {
+  "kokler": [
+   "حول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "gözetleme": {
+  "kokler": [
+   "رقب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "hilm": {
+  "kokler": [
+   "حلم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "iz": {
+  "kokler": [
+   "أثر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "doğma-çıkma": {
+  "kokler": [
+   "طلع"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "millet-din": {
+  "kokler": [
+   "ملل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "ıstıfâ-seçme": {
+  "kokler": [
+   "صفو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "iddia": {
+  "kokler": [
+   "زعم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 15,
+  "istisna_konumlari": []
+ },
+ "kaynar-su": {
+  "kokler": [
+   "حمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "güvenilir": {
+  "kokler": [
+   "أمن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "şikak": {
+  "kokler": [
+   "شقق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "hudûd": {
+  "kokler": [
+   "حدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "ömür": {
+  "kokler": [
+   "عمر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "talâk": {
+  "kokler": [
+   "طلق"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "bin": {
+  "kokler": [
+   "ألف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "meyve": {
+  "kokler": [
+   "فكه"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 14,
+  "istisna_konumlari": []
+ },
+ "tartışma": {
+  "kokler": [
+   "حجج"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "topluluk": {
+  "kokler": [
+   "عشر",
+   "عصب",
+   "قبل",
+   "نفر"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "sunma": {
+  "kokler": [
+   "عرض"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "geçme": {
+  "kokler": [
+   "مرر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "intikam": {
+  "kokler": [
+   "نقم"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "binme": {
+  "kokler": [
+   "ركب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "oruç": {
+  "kokler": [
+   "صوم"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "fakirlik": {
+  "kokler": [
+   "فقر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "girdirme": {
+  "kokler": [
+   "ولج"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "akşam": {
+  "kokler": [
+   "عشو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 13,
+  "istisna_konumlari": []
+ },
+ "karıştırma": {
+  "kokler": [
+   "لبس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "rahim": {
+  "kokler": [
+   "رحم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "önder": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "teslim-etme": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "tane": {
+  "kokler": [
+   "حبب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "sevk": {
+  "kokler": [
+   "جرم",
+   "سوق"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "kaçınma": {
+  "kokler": [
+   "جنب"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "imdad": {
+  "kokler": [
+   "مدد"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "lütuf": {
+  "kokler": [
+   "منن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "taş": {
+  "kokler": [
+   "حجر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "yayma-açma": {
+  "kokler": [
+   "نشر"
+  ],
+  "lemma_sayisi": 7,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "çekip-alma": {
+  "kokler": [
+   "نزع"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "döşek": {
+  "kokler": [
+   "فرش",
+   "مهد"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "karz-borç": {
+  "kokler": [
+   "قرض"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "tutunma-korunma": {
+  "kokler": [
+   "عصم"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 12,
+  "istisna_konumlari": []
+ },
+ "delilik": {
+  "kokler": [
+   "جنن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "giysi": {
+  "kokler": [
+   "لبس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "yetme": {
+  "kokler": [
+   "حسب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "kişi": {
+  "kokler": [
+   "مرأ"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "ifk-yalan": {
+  "kokler": [
+   "أفك"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "meveddet": {
+  "kokler": [
+   "ودد"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "hoşa-gitme": {
+  "kokler": [
+   "عجب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "Arapça": {
+  "kokler": [
+   "عرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "fetva": {
+  "kokler": [
+   "فتي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "bedel": {
+  "kokler": [
+   "ثمن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "yerleştirme": {
+  "kokler": [
+   "بوأ"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "Mesih": {
+  "kokler": [
+   "مسح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "ulaşma": {
+  "kokler": [
+   "وصل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "beyaz": {
+  "kokler": [
+   "بيض"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "gizli-örtü": {
+  "kokler": [
+   "كنن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "yetişme-idrak": {
+  "kokler": [
+   "درك"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "taraftar-grup": {
+  "kokler": [
+   "شيع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "zindan": {
+  "kokler": [
+   "حصر",
+   "سجن"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 11,
+  "istisna_konumlari": []
+ },
+ "fışkırtma": {
+  "kokler": [
+   "فجر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "sûr": {
+  "kokler": [
+   "صور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "yönelme": {
+  "kokler": [
+   "قبل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "dolma": {
+  "kokler": [
+   "ملأ"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "birr": {
+  "kokler": [
+   "برر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "Medyen": {
+  "kokler": [
+   "مدن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "bedevî": {
+  "kokler": [
+   "عرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "genç": {
+  "kokler": [
+   "فتي"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "sûre": {
+  "kokler": [
+   "سور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "sabah-gidiş": {
+  "kokler": [
+   "غدو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "hasret": {
+  "kokler": [
+   "حسر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "ictibâ-seçme": {
+  "kokler": [
+   "جبي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "vadi": {
+  "kokler": [
+   "ودي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "sol": {
+  "kokler": [
+   "شمل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "Tûr": {
+  "kokler": [
+   "طور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "işfak-korku": {
+  "kokler": [
+   "شفق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 10,
+  "istisna_konumlari": []
+ },
+ "iyi-berr": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 10,
+  "istisna_konumlari": [
+   "19:14:1",
+   "19:32:1",
+   "3:193:20",
+   "3:198:21",
+   "52:28:8",
+   "76:5:2",
+   "80:16:2",
+   "82:13:2",
+   "83:18:4",
+   "83:22:2"
+  ]
+ },
+ "yoldaş": {
+  "kokler": [
+   "عشر",
+   "قرن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "deri": {
+  "kokler": [
+   "جلد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "varış": {
+  "kokler": [
+   "ورد"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "muâhaze": {
+  "kokler": [
+   "أخذ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "değiştirme": {
+  "kokler": [
+   "حول",
+   "غير"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "süregelme": {
+  "kokler": [
+   "ظلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "boyun-köle": {
+  "kokler": [
+   "رقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "yola-koyulma": {
+  "kokler": [
+   "طلق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "diriltme": {
+  "kokler": [
+   "نشر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "kin": {
+  "kokler": [
+   "غلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "masal": {
+  "kokler": [
+   "سطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "sabah-erken": {
+  "kokler": [
+   "بكر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "destekleme": {
+  "kokler": [
+   "أيد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "sebep-yol": {
+  "kokler": [
+   "سبب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "yol": {
+  "kokler": [
+   "طرق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 9,
+  "istisna_konumlari": []
+ },
+ "altın": {
+  "kokler": [
+   "ذهب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "fücur": {
+  "kokler": [
+   "فجر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "sûret": {
+  "kokler": [
+   "صور"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "seçme": {
+  "kokler": [
+   "خير"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "azat": {
+  "kokler": [
+   "حرر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "ayartma": {
+  "kokler": [
+   "رود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "konak-ikram": {
+  "kokler": [
+   "نزل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "geri-kalan": {
+  "kokler": [
+   "خلف"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "ıztırar": {
+  "kokler": [
+   "ضرر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "destekçi": {
+  "kokler": [
+   "ظهر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "tâğût": {
+  "kokler": [
+   "طغي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "göz-aydınlığı": {
+  "kokler": [
+   "قرر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "paylaştırma": {
+  "kokler": [
+   "قسم"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "yorgunluk": {
+  "kokler": [
+   "حسر",
+   "نصب"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "elbise": {
+  "kokler": [
+   "ثوب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "ülfet": {
+  "kokler": [
+   "ألف"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "faiz": {
+  "kokler": [
+   "ربو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "çekişme": {
+  "kokler": [
+   "نزع"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "sekiz": {
+  "kokler": [
+   "ثمن"
+  ],
+  "lemma_sayisi": 5,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "sefer": {
+  "kokler": [
+   "نفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "alışveriş": {
+  "kokler": [
+   "بيع"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "yağmur": {
+  "kokler": [
+   "مطر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "hazine": {
+  "kokler": [
+   "خزن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "korku": {
+  "kokler": [
+   "رهب"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "güzellik": {
+  "kokler": [
+   "جمل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "yeni": {
+  "kokler": [
+   "جدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "bozma": {
+  "kokler": [
+   "نقض"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "yayma": {
+  "kokler": [
+   "بثث"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "ganimet": {
+  "kokler": [
+   "غنم",
+   "نفل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "sahife": {
+  "kokler": [
+   "صحف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 8,
+  "istisna_konumlari": []
+ },
+ "ünsiyet": {
+  "kokler": [
+   "أنس"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "yolculuk": {
+  "kokler": [
+   "سفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "kurbanlık": {
+  "kokler": [
+   "هدي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "şair": {
+  "kokler": [
+   "شعر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "emanet": {
+  "kokler": [
+   "أمن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "rüya": {
+  "kokler": [
+   "رأي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "kıble": {
+  "kokler": [
+   "قبل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "adak": {
+  "kokler": [
+   "نذر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "teslimiyet": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "furkan": {
+  "kokler": [
+   "فرق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "zorlama": {
+  "kokler": [
+   "كره"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "bağlama": {
+  "kokler": [
+   "غلل",
+   "وثق"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": [
+   "5:64:6",
+   "69:30:2"
+  ]
+ },
+ "kanat": {
+  "kokler": [
+   "جنح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "terk": {
+  "kokler": [
+   "هجر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "Hûd": {
+  "kokler": [
+   "هود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "imar": {
+  "kokler": [
+   "عمر"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "artma-kabarma": {
+  "kokler": [
+   "ربو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "azap-yağmuru": {
+  "kokler": [
+   "مطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "küçüklük": {
+  "kokler": [
+   "صغر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "eman-koruma": {
+  "kokler": [
+   "جور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "gam-tasa": {
+  "kokler": [
+   "غمم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "uzunluk": {
+  "kokler": [
+   "طول"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "akşam-vakti": {
+  "kokler": [
+   "أصل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "Sebt": {
+  "kokler": [
+   "سبت"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "ibret": {
+  "kokler": [
+   "عبر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "yükselme-uruc": {
+  "kokler": [
+   "عرج"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "ırz": {
+  "kokler": [
+   "فرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "yakarış": {
+  "kokler": [
+   "ضرع"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "sarsıntı": {
+  "kokler": [
+   "رجف"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "geride-kalan": {
+  "kokler": [
+   "غبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "gece-yürüyüşü": {
+  "kokler": [
+   "سري"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 7,
+  "istisna_konumlari": []
+ },
+ "sağ-bırakma": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "tahiyye": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "borç": {
+  "kokler": [
+   "دين"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "seher": {
+  "kokler": [
+   "سحر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "ilân": {
+  "kokler": [
+   "أذن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "fecir": {
+  "kokler": [
+   "فجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "ümmî": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "üzülme": {
+  "kokler": [
+   "أسو",
+   "بأس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "sağ-taraf": {
+  "kokler": [
+   "يمن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "sekîne": {
+  "kokler": [
+   "سكن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "dünyalık": {
+  "kokler": [
+   "عرض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "divan": {
+  "kokler": [
+   "سرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "çaba": {
+  "kokler": [
+   "جهد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "zerre": {
+  "kokler": [
+   "ذرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "gizlenme": {
+  "kokler": [
+   "وري"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "yaratma-berâ": {
+  "kokler": [
+   "برأ"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "bâtın-iç": {
+  "kokler": [
+   "بطن"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "uysallık": {
+  "kokler": [
+   "ذلل"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "rüya-ergenlik": {
+  "kokler": [
+   "حلم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "kaçış-nefret": {
+  "kokler": [
+   "نفر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "uğrama": {
+  "kokler": [
+   "بوأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "sîmâ": {
+  "kokler": [
+   "سوم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "biat": {
+  "kokler": [
+   "بيع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "küçük-düşme": {
+  "kokler": [
+   "صغر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "hitap": {
+  "kokler": [
+   "خطب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "savaş": {
+  "kokler": [
+   "حرب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "sahifeler": {
+  "kokler": [
+   "زبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "gümüş": {
+  "kokler": [
+   "فضض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "yükselme": {
+  "kokler": [
+   "رقي",
+   "صعد"
+  ],
+  "lemma_sayisi": 6,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "kulak-ağırlığı": {
+  "kokler": [
+   "وقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "bühtan": {
+  "kokler": [
+   "بهت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "asma-salb": {
+  "kokler": [
+   "صلب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "şimşek": {
+  "kokler": [
+   "برق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "köşk-oda": {
+  "kokler": [
+   "غرف"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "sarhoşluk": {
+  "kokler": [
+   "سكر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 6,
+  "istisna_konumlari": []
+ },
+ "başa-kakma": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 6,
+  "istisna_konumlari": [
+   "26:22:3",
+   "2:262:12",
+   "2:264:7",
+   "49:17:1",
+   "49:17:7",
+   "74:6:2"
+  ]
+ },
+ "yakın-dost": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 6,
+  "istisna_konumlari": [
+   "26:101:3",
+   "40:18:12",
+   "41:34:17",
+   "69:35:5",
+   "70:10:3",
+   "70:10:4"
+  ]
+ },
+ "kral": {
+  "kokler": [
+   "ملك"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "Yahya": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "yüzme": {
+  "kokler": [
+   "سبح"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "şeâir": {
+  "kokler": [
+   "شعر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "riya": {
+  "kokler": [
+   "رأي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "iddet": {
+  "kokler": [
+   "عدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": [
+   "33:49:17",
+   "65:1:7",
+   "65:1:9",
+   "65:4:9"
+  ]
+ },
+ "genişlik": {
+  "kokler": [
+   "عرض"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "şüphesiz": {
+  "kokler": [
+   "جرم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "tedbir": {
+  "kokler": [
+   "دبر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "yeni-olma": {
+  "kokler": [
+   "حدث"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "isyan": {
+  "kokler": [
+   "عصي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "demir": {
+  "kokler": [
+   "حدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "tercih": {
+  "kokler": [
+   "أثر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "bilezik": {
+  "kokler": [
+   "سور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "beşik": {
+  "kokler": [
+   "مهد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "yarın": {
+  "kokler": [
+   "غدو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "yazma": {
+  "kokler": [
+   "سطر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "topyekûn": {
+  "kokler": [
+   "كفف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "dostluk-halîl": {
+  "kokler": [
+   "خلل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "havârî": {
+  "kokler": [
+   "حور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "mesele": {
+  "kokler": [
+   "خطب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "mihrap": {
+  "kokler": [
+   "حرب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "üstlenme-bakım": {
+  "kokler": [
+   "كفل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "at": {
+  "kokler": [
+   "خيل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "deve-boğazlama": {
+  "kokler": [
+   "عقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "tefrît-ihmal": {
+  "kokler": [
+   "فرط"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "sermaye": {
+  "kokler": [
+   "بضع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "esir": {
+  "kokler": [
+   "أسر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "karışma": {
+  "kokler": [
+   "خلط"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "eşek": {
+  "kokler": [
+   "حمر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "övünme": {
+  "kokler": [
+   "فخر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "levha": {
+  "kokler": [
+   "لوح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "basma-adım": {
+  "kokler": [
+   "وطأ"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 5,
+  "istisna_konumlari": []
+ },
+ "uğursuzluk": {
+  "kokler": [
+   "طير"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "utanma": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": [
+   "2:26:4",
+   "33:53:32",
+   "33:53:36"
+  ]
+ },
+ "bildirme": {
+  "kokler": [
+   "أذن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "bağlı": {
+  "kokler": [
+   "قرن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kandil": {
+  "kokler": [
+   "صبح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "celde": {
+  "kokler": [
+   "جلد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kolay": {
+  "kokler": [
+   "هون"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "sıcak": {
+  "kokler": [
+   "حرر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "Rabbânî": {
+  "kokler": [
+   "ربب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "muhkem": {
+  "kokler": [
+   "حكم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "inatçı": {
+  "kokler": [
+   "عند"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "sulh": {
+  "kokler": [
+   "صلح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "mühlet": {
+  "kokler": [
+   "رود",
+   "مهل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "yoksunluk": {
+  "kokler": [
+   "حرم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "sağanak": {
+  "kokler": [
+   "صوب",
+   "وبل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "gece-kurgu": {
+  "kokler": [
+   "بيت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "Muhammed": {
+  "kokler": [
+   "حمد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "maîn": {
+  "kokler": [
+   "عين"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "son-nokta": {
+  "kokler": [
+   "نهي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "felek-çemberi": {
+  "kokler": [
+   "دور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "sevinç": {
+  "kokler": [
+   "سرر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "tedebbür": {
+  "kokler": [
+   "دبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "aşiret": {
+  "kokler": [
+   "عشر",
+   "فصل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "pay": {
+  "kokler": [
+   "ذنب",
+   "كفل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ikrar": {
+  "kokler": [
+   "قرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "düşme": {
+  "kokler": [
+   "هوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ayrılma": {
+  "kokler": [
+   "حول",
+   "خلص",
+   "فكك"
+  ],
+  "lemma_sayisi": 4,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kısas": {
+  "kokler": [
+   "قصص"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kesintisiz": {
+  "kokler": [
+   "منن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "sığınak": {
+  "kokler": [
+   "كنن",
+   "لحد",
+   "وزر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "yaşlı-kadın": {
+  "kokler": [
+   "عجز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "karşı-gelme": {
+  "kokler": [
+   "حدد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "meni": {
+  "kokler": [
+   "مني"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "tomurcuk": {
+  "kokler": [
+   "طلع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "eğlenen": {
+  "kokler": [
+   "فكه"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kınama": {
+  "kokler": [
+   "نقم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "baldır": {
+  "kokler": [
+   "سوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "azap-sürme": {
+  "kokler": [
+   "سوم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "işaretli": {
+  "kokler": [
+   "سوم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "mesh": {
+  "kokler": [
+   "مسح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "huri": {
+  "kokler": [
+   "حور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "bekçi": {
+  "kokler": [
+   "خزن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ruhban": {
+  "kokler": [
+   "رهب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "köşk": {
+  "kokler": [
+   "قصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "deve": {
+  "kokler": [
+   "أبل",
+   "جمل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "toprak-yüzey": {
+  "kokler": [
+   "صعد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kap": {
+  "kokler": [
+   "أني",
+   "وعي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "burç": {
+  "kokler": [
+   "برج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "direk": {
+  "kokler": [
+   "عمد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "fırtına": {
+  "kokler": [
+   "عصف"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "tahrif": {
+  "kokler": [
+   "حرف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kuşatılma": {
+  "kokler": [
+   "حصر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "hissetme": {
+  "kokler": [
+   "حسس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ısrar": {
+  "kokler": [
+   "صرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "set": {
+  "kokler": [
+   "سدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "haham": {
+  "kokler": [
+   "حبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "kavurucu": {
+  "kokler": [
+   "سمم",
+   "لوح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ilhad-sapma": {
+  "kokler": [
+   "لحد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "yalan-söz": {
+  "kokler": [
+   "زور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "meyletme": {
+  "kokler": [
+   "ركن",
+   "زور",
+   "صبو"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "ibretlik-ceza": {
+  "kokler": [
+   "نكل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "elden-gitme": {
+  "kokler": [
+   "فوت"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "yumuşaklık": {
+  "kokler": [
+   "لين"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "azgın": {
+  "kokler": [
+   "مرد"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "şeriat": {
+  "kokler": [
+   "شرع"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "tecellî": {
+  "kokler": [
+   "جلو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "adak-kesim": {
+  "kokler": [
+   "هلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "yırtılma": {
+  "kokler": [
+   "قدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "taş-kasırgası": {
+  "kokler": [
+   "حصب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "serinlik": {
+  "kokler": [
+   "برد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 4,
+  "istisna_konumlari": []
+ },
+ "alâmet": {
+  "kokler": [
+   "علم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "ipek": {
+  "kokler": [
+   "حرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "gönüllülük": {
+  "kokler": [
+   "طوع"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "arkadaş": {
+  "kokler": [
+   "رفق",
+   "صدق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "barış": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kurban": {
+  "kokler": [
+   "قرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "gece-baskın": {
+  "kokler": [
+   "بيت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "biriktirme": {
+  "kokler": [
+   "عدد",
+   "وعي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "meclis": {
+  "kokler": [
+   "ندي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kurban-yeri": {
+  "kokler": [
+   "حلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "eski": {
+  "kokler": [
+   "قدم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kumar": {
+  "kokler": [
+   "يسر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "sütten-kesme": {
+  "kokler": [
+   "فصل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "billur": {
+  "kokler": [
+   "قرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "anahtar": {
+  "kokler": [
+   "فتح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "güç": {
+  "kokler": [
+   "أيد",
+   "مرر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "dikili-taş": {
+  "kokler": [
+   "نصب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "altüst-şehirler": {
+  "kokler": [
+   "أفك"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "meşakkat": {
+  "kokler": [
+   "شقق"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kudret-helvası": {
+  "kokler": [
+   "منن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kervan": {
+  "kokler": [
+   "سير"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "araya-girme": {
+  "kokler": [
+   "حول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "sırdaş": {
+  "kokler": [
+   "بطن",
+   "ولج"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "umre": {
+  "kokler": [
+   "عمر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "yaşıt": {
+  "kokler": [
+   "ترب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "yasak-engel": {
+  "kokler": [
+   "حجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "şekilli-balçık": {
+  "kokler": [
+   "سنن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "imlâ-yazdırma": {
+  "kokler": [
+   "ملل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kefil": {
+  "kokler": [
+   "زعم",
+   "كفل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "hıyanet": {
+  "kokler": [
+   "غلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "karşılıklı-konuşma": {
+  "kokler": [
+   "حور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "bakire-taze": {
+  "kokler": [
+   "بكر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "teyemmüm-yönelme": {
+  "kokler": [
+   "يمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "Zebur": {
+  "kokler": [
+   "زبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "bakış-kısan": {
+  "kokler": [
+   "قصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "efendi": {
+  "kokler": [
+   "سود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "imkân-lütuf": {
+  "kokler": [
+   "طول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kök": {
+  "kokler": [
+   "أصل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "dağılma": {
+  "kokler": [
+   "فضض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kibirli": {
+  "kokler": [
+   "خيل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "koyun": {
+  "kokler": [
+   "غنم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kısır": {
+  "kokler": [
+   "عقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "gece-saatleri": {
+  "kokler": [
+   "أني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "teyze": {
+  "kokler": [
+   "خول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "nimet-verme": {
+  "kokler": [
+   "خول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "ifrât-aşırılık": {
+  "kokler": [
+   "فرط"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "fey": {
+  "kokler": [
+   "فيأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "açılıp-saçılma": {
+  "kokler": [
+   "برج"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kasıt": {
+  "kokler": [
+   "عمد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "örnek": {
+  "kokler": [
+   "أسو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "saman-ekin": {
+  "kokler": [
+   "عصف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kızgın": {
+  "kokler": [
+   "حمي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "erimiş-maden": {
+  "kokler": [
+   "مهل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "salıverme": {
+  "kokler": [
+   "مرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": [
+   "47:4:13"
+  ]
+ },
+ "boyun-eğme": {
+  "kokler": [
+   "عنت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "cimrilik": {
+  "kokler": [
+   "قتر"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "sarsılma": {
+  "kokler": [
+   "ميد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kınanmış": {
+  "kokler": [
+   "ذمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "güç-daralması": {
+  "kokler": [
+   "ذرع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "dürme": {
+  "kokler": [
+   "طوي"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "taviz-yağcılık": {
+  "kokler": [
+   "دهن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "dizilme": {
+  "kokler": [
+   "وزع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "tahsis": {
+  "kokler": [
+   "خصص"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "şûrâ": {
+  "kokler": [
+   "شور"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "karınca": {
+  "kokler": [
+   "نمل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "kaynama": {
+  "kokler": [
+   "فور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "zina": {
+  "kokler": [
+   "سفح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "yıkanma": {
+  "kokler": [
+   "غسل"
+  ],
+  "lemma_sayisi": 3,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "haram-kazanç": {
+  "kokler": [
+   "سحت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "bol-yağmur": {
+  "kokler": [
+   "درر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "yaprak": {
+  "kokler": [
+   "ورق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "duvar": {
+  "kokler": [
+   "جدر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "siccîl-taş": {
+  "kokler": [
+   "سجل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "Sâmirî": {
+  "kokler": [
+   "سمر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 3,
+  "istisna_konumlari": []
+ },
+ "çatı": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 3,
+  "istisna_konumlari": [
+   "18:42:13",
+   "22:45:10",
+   "2:259:9"
+  ]
+ },
+ "azarlama": {
+  "kokler": [
+   "نهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "rahatlik": {
+  "kokler": [
+   "روح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "fesleğen": {
+  "kokler": [
+   "روح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "rekabet": {
+  "kokler": [
+   "نفس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "mübâşeret": {
+  "kokler": [
+   "بشر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "tatlı-su": {
+  "kokler": [
+   "عذب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "ahlâk": {
+  "kokler": [
+   "خلق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kitaplar": {
+  "kokler": [
+   "سفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "ağarma": {
+  "kokler": [
+   "سفر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "karga": {
+  "kokler": [
+   "غرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "hediye": {
+  "kokler": [
+   "هدي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sıkma": {
+  "kokler": [
+   "عصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "Araf": {
+  "kokler": [
+   "عرف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "örnek-yol": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "heykel": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kelâle": {
+  "kokler": [
+   "كلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "şaşılacak": {
+  "kokler": [
+   "أمر",
+   "فري"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "menzil": {
+  "kokler": [
+   "نزل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "taraf": {
+  "kokler": [
+   "عدو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "selîm-kalp": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "merdiven": {
+  "kokler": [
+   "سلم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "iffetsizlik": {
+  "kokler": [
+   "بغي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sarp-yokuş": {
+  "kokler": [
+   "عقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "İlliyyûn": {
+  "kokler": [
+   "علو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kuyu-dibi": {
+  "kokler": [
+   "غيب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "bolluk": {
+  "kokler": [
+   "سرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "tufan": {
+  "kokler": [
+   "طوف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "nesil-yığın": {
+  "kokler": [
+   "جبل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "yanaşma": {
+  "kokler": [
+   "جنح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "asma-çardak": {
+  "kokler": [
+   "عرش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "çatma-kurma": {
+  "kokler": [
+   "عرش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "cünüp": {
+  "kokler": [
+   "جنب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "ateş-çakma": {
+  "kokler": [
+   "وري"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "dikme": {
+  "kokler": [
+   "نصب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "taşra-çöl": {
+  "kokler": [
+   "بدو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "iyileştirme": {
+  "kokler": [
+   "برأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "temel": {
+  "kokler": [
+   "قعد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "mesânî": {
+  "kokler": [
+   "ثني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kenar": {
+  "kokler": [
+   "حرف",
+   "رجو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "vezir": {
+  "kokler": [
+   "وزر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kütük": {
+  "kokler": [
+   "عجز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sapma": {
+  "kokler": [
+   "قسط"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "engel": {
+  "kokler": [
+   "حجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "diş": {
+  "kokler": [
+   "سنن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "istidrâc": {
+  "kokler": [
+   "درج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "yetiştirme": {
+  "kokler": [
+   "ربو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "tepe": {
+  "kokler": [
+   "ربو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "çılgınlık": {
+  "kokler": [
+   "سعر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kale-sur": {
+  "kokler": [
+   "حصن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "çarşı": {
+  "kokler": [
+   "سوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "zorba-egemen": {
+  "kokler": [
+   "سطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "avuç": {
+  "kokler": [
+   "كفف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "komşuluk": {
+  "kokler": [
+   "جور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "komşu": {
+  "kokler": [
+   "جور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "çekilme": {
+  "kokler": [
+   "نبذ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "diyet": {
+  "kokler": [
+   "ودي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kapsama": {
+  "kokler": [
+   "شمل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "Siccîn": {
+  "kokler": [
+   "سجن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sürüklenme": {
+  "kokler": [
+   "سحب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sövme": {
+  "kokler": [
+   "سبب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kısaltma": {
+  "kokler": [
+   "قصر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "Târık": {
+  "kokler": [
+   "طرق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "toptan": {
+  "kokler": [
+   "جمل",
+   "لمم"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "dinlenme": {
+  "kokler": [
+   "سبت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sarp-azap": {
+  "kokler": [
+   "صعد"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "saygı-azamet": {
+  "kokler": [
+   "وقر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "topal": {
+  "kokler": [
+   "عرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "şaşkınlık": {
+  "kokler": [
+   "بهت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kaynar": {
+  "kokler": [
+   "أني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": [
+   "88:5:4"
+  ]
+ },
+ "vakit": {
+  "kokler": [
+   "أني"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "dayı": {
+  "kokler": [
+   "خول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "bel-sulb": {
+  "kokler": [
+   "صلب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "birkaç": {
+  "kokler": [
+   "بضع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "belleme": {
+  "kokler": [
+   "وعي"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "doğru-sağlam": {
+  "kokler": [
+   "سدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sevindirilme": {
+  "kokler": [
+   "حبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "taassup": {
+  "kokler": [
+   "حمي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "mercan": {
+  "kokler": [
+   "مرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sıkıntıya-sokma": {
+  "kokler": [
+   "عنت"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "toz-karartı": {
+  "kokler": [
+   "قتر"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "geçimsizlik": {
+  "kokler": [
+   "نشز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kalkma": {
+  "kokler": [
+   "نشز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "konak": {
+  "kokler": [
+   "رفق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sofra": {
+  "kokler": [
+   "ميد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "zimmet-ahit": {
+  "kokler": [
+   "ذمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kol-arşın": {
+  "kokler": [
+   "ذرع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "erimiş-bakır": {
+  "kokler": [
+   "قطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "bölgeler": {
+  "kokler": [
+   "قطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "Tuvâ": {
+  "kokler": [
+   "طوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "yağ": {
+  "kokler": [
+   "دهن"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "ilham-nasip": {
+  "kokler": [
+   "وزع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "hızla-akın": {
+  "kokler": [
+   "نسل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "soy": {
+  "kokler": [
+   "نسل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "şekil-biçim": {
+  "kokler": [
+   "هيأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "zerre-çukurcuk": {
+  "kokler": [
+   "نقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "gerdanlık-kurban": {
+  "kokler": [
+   "قلد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "anahtarlar": {
+  "kokler": [
+   "قلد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "işleme-kazanma": {
+  "kokler": [
+   "جرح"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "Kâbe": {
+  "kokler": [
+   "كعب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "fazladan-nafile": {
+  "kokler": [
+   "نفل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "suyun-çekilmesi": {
+  "kokler": [
+   "غور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "mağara": {
+  "kokler": [
+   "غور"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "dayanak": {
+  "kokler": [
+   "ركن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "akıp-gitme": {
+  "kokler": [
+   "سرب"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "serap": {
+  "kokler": [
+   "سرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "irin-içecek": {
+  "kokler": [
+   "غسق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "derin-su": {
+  "kokler": [
+   "لجج"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "inat": {
+  "kokler": [
+   "لجج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "boya": {
+  "kokler": [
+   "صبغ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "iplik": {
+  "kokler": [
+   "خيط"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "tıraş": {
+  "kokler": [
+   "حلق"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kulp": {
+  "kokler": [
+   "عرو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "teşvik": {
+  "kokler": [
+   "حرض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "burun": {
+  "kokler": [
+   "أنف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "çocuk": {
+  "kokler": [
+   "صبو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "şikâyet": {
+  "kokler": [
+   "شكو"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "sürme": {
+  "kokler": [
+   "زجو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "yazılı": {
+  "kokler": [
+   "رقم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "kapatılmış": {
+  "kokler": [
+   "وصد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "öz-süzme": {
+  "kokler": [
+   "سلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "uğursuz": {
+  "kokler": [
+   "نحس"
+  ],
+  "lemma_sayisi": 2,
+  "gecis": 2,
+  "istisna_konumlari": []
+ },
+ "iz-sürme": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 2,
+  "istisna_konumlari": [
+   "18:64:9",
+   "28:11:3"
+  ]
+ },
+ "Zülkifl": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 2,
+  "istisna_konumlari": [
+   "21:85:4",
+   "38:48:5"
+  ]
+ },
+ "nefes": {
+  "kokler": [
+   "نفس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yılan": {
+  "kokler": [
+   "حيي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "uydurma": {
+  "kokler": [
+   "خلق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tünel": {
+  "kokler": [
+   "نفق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yazıcılar": {
+  "kokler": [
+   "سفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kesme": {
+  "kokler": [
+   "صور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kapkara": {
+  "kokler": [
+   "غرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kasırga": {
+  "kokler": [
+   "عصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yağmur-bulutu": {
+  "kokler": [
+   "عصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "asr": {
+  "kokler": [
+   "عصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Arafat": {
+  "kokler": [
+   "عرف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Şirâ": {
+  "kokler": [
+   "شعر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yaya": {
+  "kokler": [
+   "رجل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tevazu": {
+  "kokler": [
+   "هون"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ibret-ceza": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "temessül": {
+  "kokler": [
+   "مثل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "boyun-eğdirme": {
+  "kokler": [
+   "طوع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "mehir": {
+  "kokler": [
+   "صدق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kara-duman": {
+  "kokler": [
+   "حمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "şahdamarı": {
+  "kokler": [
+   "ورد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gül-rengi": {
+  "kokler": [
+   "ورد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "üvey-kız": {
+  "kokler": [
+   "ربب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kâfûr": {
+  "kokler": [
+   "كفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "görünüş": {
+  "kokler": [
+   "رأي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kabile": {
+  "kokler": [
+   "قبل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "harâc": {
+  "kokler": [
+   "خرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Kevser": {
+  "kokler": [
+   "كثر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sivrisinek": {
+  "kokler": [
+   "بعض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "akın": {
+  "kokler": [
+   "غير"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Cuma": {
+  "kokler": [
+   "جمع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Uzzâ": {
+  "kokler": [
+   "عزز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "cizye": {
+  "kokler": [
+   "جزي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yönelen": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ön": {
+  "kokler": [
+   "أمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yumuşak": {
+  "kokler": [
+   "نعم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kazan": {
+  "kokler": [
+   "قدر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "koşma": {
+  "kokler": [
+   "عدو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "fuhuş": {
+  "kokler": [
+   "بغي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kurû": {
+  "kokler": [
+   "قرأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "takipçi": {
+  "kokler": [
+   "عقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "itirazcı": {
+  "kokler": [
+   "عقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "doğru-söz": {
+  "kokler": [
+   "صوب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "taşıma": {
+  "kokler": [
+   "قلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yoksul": {
+  "kokler": [
+   "بأس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "geceleme": {
+  "kokler": [
+   "بيت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bıçak": {
+  "kokler": [
+   "سكن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Ahmed": {
+  "kokler": [
+   "حمد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bayram": {
+  "kokler": [
+   "عود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gıybet": {
+  "kokler": [
+   "غيب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çevirme": {
+  "kokler": [
+   "دور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tek-kişi": {
+  "kokler": [
+   "دور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Suvâ": {
+  "kokler": [
+   "سوع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "öğle": {
+  "kokler": [
+   "ظهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sebep": {
+  "kokler": [
+   "أجل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eşler": {
+  "kokler": [
+   "حلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yemin-çözme": {
+  "kokler": [
+   "حلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ayılma": {
+  "kokler": [
+   "فوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ara-soluk": {
+  "kokler": [
+   "فوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "oyma": {
+  "kokler": [
+   "جوب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bahîre": {
+  "kokler": [
+   "بحر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çöl-yolcusu": {
+  "kokler": [
+   "قوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "irin": {
+  "kokler": [
+   "صدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Hâviye": {
+  "kokler": [
+   "هوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "şaşırtma": {
+  "kokler": [
+   "هوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "afiyet": {
+  "kokler": [
+   "مرأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "geri-durmama": {
+  "kokler": [
+   "ألو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "acı": {
+  "kokler": [
+   "مرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "fal-okları": {
+  "kokler": [
+   "قسم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "mürekkep": {
+  "kokler": [
+   "مدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çift": {
+  "kokler": [
+   "شفع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kıvılcım": {
+  "kokler": [
+   "شرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sık-bahçe": {
+  "kokler": [
+   "غلب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "istisna-deme": {
+  "kokler": [
+   "ثني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bükme": {
+  "kokler": [
+   "ثني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Vedd-putu": {
+  "kokler": [
+   "ودد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yırtıcı": {
+  "kokler": [
+   "سبع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dönüş-yeri": {
+  "kokler": [
+   "ثوب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gece-kalkışı": {
+  "kokler": [
+   "نشأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "anlaşmazlık": {
+  "kokler": [
+   "شجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "zaman-feleği": {
+  "kokler": [
+   "منن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gebe-deve": {
+  "kokler": [
+   "عشر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "geçinme": {
+  "kokler": [
+   "عشر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "misk": {
+  "kokler": [
+   "مسك"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ilk-hâl": {
+  "kokler": [
+   "سير"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "koşuşturma": {
+  "kokler": [
+   "وضع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çare": {
+  "kokler": [
+   "حول"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sivri-dil": {
+  "kokler": [
+   "حدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Menât": {
+  "kokler": [
+   "مني"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yoksulluk": {
+  "kokler": [
+   "ترب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kaburga": {
+  "kokler": [
+   "ترب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eşine-düşkün": {
+  "kokler": [
+   "عرب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "oda": {
+  "kokler": [
+   "حجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "himaye-kucak": {
+  "kokler": [
+   "حجر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "nakil": {
+  "kokler": [
+   "أثر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "parıltı": {
+  "kokler": [
+   "سنو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "şiddetli": {
+  "kokler": [
+   "ربو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yapılar": {
+  "kokler": [
+   "صنع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yakınma": {
+  "kokler": [
+   "فكه"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yaşlı-inek": {
+  "kokler": [
+   "فرض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sur-duvar": {
+  "kokler": [
+   "سور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tırmanma": {
+  "kokler": [
+   "سور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kaygan-taş": {
+  "kokler": [
+   "صفو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "süzme": {
+  "kokler": [
+   "صفو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "azık-yemek": {
+  "kokler": [
+   "غدو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "otlatma": {
+  "kokler": [
+   "سوم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "terkip": {
+  "kokler": [
+   "ركب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "üst-üste": {
+  "kokler": [
+   "ركب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kilise": {
+  "kokler": [
+   "بيع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "susma-orucu": {
+  "kokler": [
+   "صوم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bel-kıran": {
+  "kokler": [
+   "فقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "göz-yumma": {
+  "kokler": [
+   "عشو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kırpıp-geçme": {
+  "kokler": [
+   "قرض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dönüş": {
+  "kokler": [
+   "حور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "nikâh-bağı": {
+  "kokler": [
+   "عصم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eğri-sapan": {
+  "kokler": [
+   "جور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "saklama": {
+  "kokler": [
+   "خزن"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "orta-yaş": {
+  "kokler": [
+   "عون"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "mâûn": {
+  "kokler": [
+   "عون"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "vasîle-adak": {
+  "kokler": [
+   "وصل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yumurta": {
+  "kokler": [
+   "بيض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "evlenme-teklifi": {
+  "kokler": [
+   "خطب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "havuz": {
+  "kokler": [
+   "جبي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "toplanma": {
+  "kokler": [
+   "جبي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "en-alt-kat": {
+  "kokler": [
+   "درك"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yayılma": {
+  "kokler": [
+   "شيع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "evreler": {
+  "kokler": [
+   "طور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kütle": {
+  "kokler": [
+   "زبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "geri-durma": {
+  "kokler": [
+   "قصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kapanmış": {
+  "kokler": [
+   "قصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "şafak": {
+  "kokler": [
+   "شفق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yol-çizgi": {
+  "kokler": [
+   "جدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "azamet-şan": {
+  "kokler": [
+   "جدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bel-bükme": {
+  "kokler": [
+   "نقض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dert-tasa": {
+  "kokler": [
+   "بثث"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tabir": {
+  "kokler": [
+   "عبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "geçen": {
+  "kokler": [
+   "عبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hayal": {
+  "kokler": [
+   "خيل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yük": {
+  "kokler": [
+   "وقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tepsi": {
+  "kokler": [
+   "صحف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "darî-diken": {
+  "kokler": [
+   "ضرع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dedikoducu": {
+  "kokler": [
+   "رجف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "toz": {
+  "kokler": [
+   "غبر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dere": {
+  "kokler": [
+   "سري"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ibrik": {
+  "kokler": [
+   "برق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "avuçlama": {
+  "kokler": [
+   "غرف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "göz-büyülenmesi": {
+  "kokler": [
+   "سكر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "küçük-hayvan": {
+  "kokler": [
+   "فرش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "pervane": {
+  "kokler": [
+   "فرش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "manevra": {
+  "kokler": [
+   "حرف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yaratılış-bağı": {
+  "kokler": [
+   "أسر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "nefse-hâkim": {
+  "kokler": [
+   "حصر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ortaklar": {
+  "kokler": [
+   "خلط"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kırmızı": {
+  "kokler": [
+   "حمر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "uğultu": {
+  "kokler": [
+   "حسس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "öldürme": {
+  "kokler": [
+   "حسس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dondurucu": {
+  "kokler": [
+   "صرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çığlık": {
+  "kokler": [
+   "صرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "pişmiş-çamur": {
+  "kokler": [
+   "فخر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Hâm-adak": {
+  "kokler": [
+   "حمي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "uydurma-denkleştirme": {
+  "kokler": [
+   "وطأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ziyaret": {
+  "kokler": [
+   "زور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "karışıklık": {
+  "kokler": [
+   "مرج"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "zincir": {
+  "kokler": [
+   "نكل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "birleştirip-kaldırma": {
+  "kokler": [
+   "نشز"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "uyumsuzluk": {
+  "kokler": [
+   "فوت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hurma-fidanı": {
+  "kokler": [
+   "لين"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dirsek": {
+  "kokler": [
+   "رفق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "billur-köşk": {
+  "kokler": [
+   "مرد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yüze-çıkan": {
+  "kokler": [
+   "شرع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dağ-yamacı": {
+  "kokler": [
+   "صدف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sürgün": {
+  "kokler": [
+   "جلو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hilal": {
+  "kokler": [
+   "هلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "zorlu": {
+  "kokler": [
+   "عصب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "fırkalar": {
+  "kokler": [
+   "قدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "katran": {
+  "kokler": [
+   "قطر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "açık-bildirme": {
+  "kokler": [
+   "صدع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "baş-ağrısı": {
+  "kokler": [
+   "صدع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "cehennem-yakıtı": {
+  "kokler": [
+   "حصب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "dolu": {
+  "kokler": [
+   "برد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ihtiyaç": {
+  "kokler": [
+   "خصص"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "boyna-dolanma": {
+  "kokler": [
+   "طوق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "işaret": {
+  "kokler": [
+   "شور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "parmak-ucu": {
+  "kokler": [
+   "نمل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "derhal": {
+  "kokler": [
+   "فور"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "akıtılmış": {
+  "kokler": [
+   "سفح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "irin-yıkantı": {
+  "kokler": [
+   "غسل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "üfleme-vuruş": {
+  "kokler": [
+   "نقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "boru": {
+  "kokler": [
+   "نقر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "avcı-hayvan": {
+  "kokler": [
+   "جرح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yara": {
+  "kokler": [
+   "جرح"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tomurcuklanmış": {
+  "kokler": [
+   "كعب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "topuk": {
+  "kokler": [
+   "كعب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kökünü-kazıma": {
+  "kokler": [
+   "سحت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "inci-parlaklığı": {
+  "kokler": [
+   "درر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gümüş-para": {
+  "kokler": [
+   "ورق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "iğne-deliği": {
+  "kokler": [
+   "سمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yatkınlık": {
+  "kokler": [
+   "جدر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tomar": {
+  "kokler": [
+   "سجل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "şifacı-okuyucu": {
+  "kokler": [
+   "رقي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gece-sohbeti": {
+  "kokler": [
+   "سمر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "katık": {
+  "kokler": [
+   "صبغ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "iğne": {
+  "kokler": [
+   "خيط"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "boğaz": {
+  "kokler": [
+   "حلق"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çarpma": {
+  "kokler": [
+   "عرو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eriyip-bitme": {
+  "kokler": [
+   "حرض"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "delme": {
+  "kokler": [
+   "نقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "temsilci": {
+  "kokler": [
+   "نقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "diyar-gezme": {
+  "kokler": [
+   "نقب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "az-önce": {
+  "kokler": [
+   "أنف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sürü-sürü": {
+  "kokler": [
+   "أبل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kandil-yuvası": {
+  "kokler": [
+   "شكو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "değersiz": {
+  "kokler": [
+   "زجو"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Rakîm": {
+  "kokler": [
+   "رقم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eşik": {
+  "kokler": [
+   "وصد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sıvışma": {
+  "kokler": [
+   "سلل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ardarda": {
+  "kokler": [
+   "وتر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eksiltme": {
+  "kokler": [
+   "وتر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tek": {
+  "kokler": [
+   "وتر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bakır-duman": {
+  "kokler": [
+   "نحس"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "çukur": {
+  "kokler": [
+   "حفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eski-hâl": {
+  "kokler": [
+   "حفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "arı": {
+  "kokler": [
+   "نحل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "mehir-bağış": {
+  "kokler": [
+   "نحل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gözetici": {
+  "kokler": [
+   "قوت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gıdalar": {
+  "kokler": [
+   "قوت"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "tırnak": {
+  "kokler": [
+   "ظفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "zafer": {
+  "kokler": [
+   "ظفر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kararmış-çöp": {
+  "kokler": [
+   "حوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "bağırsak": {
+  "kokler": [
+   "حوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yönelme-ilgi": {
+  "kokler": [
+   "صدي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "el-çırpma": {
+  "kokler": [
+   "صدي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ay-erteleme": {
+  "kokler": [
+   "نسأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "Cûdî": {
+  "kokler": [
+   "جود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "soylu-at": {
+  "kokler": [
+   "جود"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "baş-dikme": {
+  "kokler": [
+   "قنع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kanaat": {
+  "kokler": [
+   "قنع"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kısıtlı": {
+  "kokler": [
+   "حظر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ağıl": {
+  "kokler": [
+   "حظر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "cilbab": {
+  "kokler": [
+   "جلب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yaygara-sürme": {
+  "kokler": [
+   "جلب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kavurma": {
+  "kokler": [
+   "شوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kafa-derisi": {
+  "kokler": [
+   "شوي"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hak-yeme": {
+  "kokler": [
+   "هضم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "olgun-salkım": {
+  "kokler": [
+   "هضم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "gece-yayılma": {
+  "kokler": [
+   "نفش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "atılmış-yün": {
+  "kokler": [
+   "نفش"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hısımlık": {
+  "kokler": [
+   "صهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "eritme": {
+  "kokler": [
+   "صهر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yoksul-bekleyen": {
+  "kokler": [
+   "عرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "zarar-sıkıntı": {
+  "kokler": [
+   "عرر"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "omuzlar": {
+  "kokler": [
+   "نكب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sapan": {
+  "kokler": [
+   "نكب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "başıboş-dolaşma": {
+  "kokler": [
+   "هيم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "susamış-deve": {
+  "kokler": [
+   "هيم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kıyı": {
+  "kokler": [
+   "شطأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "filiz": {
+  "kokler": [
+   "شطأ"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "yanak": {
+  "kokler": [
+   "خدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "hendek": {
+  "kokler": [
+   "خدد"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "sürükleme": {
+  "kokler": [
+   "عتل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kaba": {
+  "kokler": [
+   "عتل"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "kollar": {
+  "kokler": [
+   "شعب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "halklar": {
+  "kokler": [
+   "شعب"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "küçük-günah": {
+  "kokler": [
+   "لمم"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "at-koşturma": {
+  "kokler": [
+   "وجف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "titreme": {
+  "kokler": [
+   "وجف"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "köle-azadı": {
+  "kokler": [
+   "فكك"
+  ],
+  "lemma_sayisi": 1,
+  "gecis": 1,
+  "istisna_konumlari": []
+ },
+ "ihtiyaç-fazlası": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "2:219:19"
+  ]
+ },
+ "uzak-komşu": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "4:36:17"
+  ]
+ },
+ "alçakgönüllü": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "5:54:15"
+  ]
+ },
+ "çoğalma": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "7:95:7"
+  ]
+ },
+ "koruyucu": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "8:48:14"
+  ]
+ },
+ "gece-dilimi": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "11:114:5"
+  ]
+ },
+ "bilme": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "13:31:20"
+  ]
+ },
+ "meyil": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "14:37:20"
+  ]
+ },
+ "Hicr-yurdu": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "15:80:4"
+  ]
+ },
+ "zanla-atma": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "18:22:9"
+  ]
+ },
+ "yaşlılık-haddi": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "19:8:14"
+  ]
+ },
+ "yan-bükme": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "22:9:1"
+  ]
+ },
+ "parçalar": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "23:53:4"
+  ]
+ },
+ "oturan-kadınlar": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "24:60:1"
+  ]
+ },
+ "yazdırma": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "25:5:6"
+  ]
+ },
+ "uzaktan-izleme": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "28:11:7"
+  ]
+ },
+ "tesbih-eşliği": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "34:10:7"
+  ]
+ },
+ "bacak": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "38:33:5"
+  ]
+ },
+ "gövde": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "48:29:39"
+  ]
+ },
+ "yarık": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "50:6:12"
+  ]
+ },
+ "keskin": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "50:22:12"
+  ]
+ },
+ "zaman-felaketi": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "52:30:6"
+  ]
+ },
+ "bitki": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "55:6:1"
+  ]
+ },
+ "sekalân": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "55:31:4"
+  ]
+ },
+ "şiddetle-dalış": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "79:1:2"
+  ]
+ },
+ "akıl": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "89:5:6"
+  ]
+ },
+ "izleyen": {
+  "kokler": [],
+  "lemma_sayisi": 0,
+  "gecis": 1,
+  "istisna_konumlari": [
+   "91:2:3"
+  ]
+ }
+}

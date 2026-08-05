@@ -1,0 +1,25 @@
+{
+ "baslik": "Matematikçinin kavram-uzayı — metrik, geometri, öngörü",
+ "cerceve": "Matematikçi 'önce metrik, sonra geometri, sonra öngörü' ister. Üçü sırayla yapıldı.",
+ "1_metrik": {
+  "secim": "JACCARD MESAFESİ: d(A,B)=1-|A∩B|/|A∪B| (A,B=kavramın geçtiği ayet kümeleri)",
+  "aksiyom_sinavi": "d(x,x)=0 ✓, simetri ✓, üçgen eşitsizliği 0/10962 ihlal ✓ — kanıtlı metrik",
+  "elenen": "Asimetrik birliktelik (1-P(b|a)) simetriyi kırıyor (Allah her yerde etkisi) — metrik DEĞİL, geometri kurulamaz. (Ağ-yutak analizi için doğru ama mesafe için değil.)"
+ },
+ "2_geometri": {
+  "en_yakin_ciftler": "ölüm~hayat(0.73), namaz~zekât(0.76), rahmet~mağfiret(0.79), adl~kıst(0.85), nûr~zulmet(0.92) — metnin kendi ikilileri, ön-bilgisiz çıktı",
+  "boyut": "İNDİRGENEMEZ. Doyma testi: boyut/kavram oranı sabit ~0.82 (10 kavram→8 boyut, 50→42). Özdeğer profili dirseksiz (ilk eksen %6, düz düşüş). %90 varyans için 30 kavramdan 25 eksen.",
+  "boyut_yorum": "Metin kavramları az sayıda temaya İNDİRGEMİYOR. Her kavram bağımsız bir boyut. Sonlu ama indirgenemez (full-dimensional). Merkez var, ana-eksen yok.",
+  "merkez": "Allah 1/30 — herkese ort. en yakın (simetrik metrikle). Ağ-yutak (asimetrik +0.40) ile ÇAKIŞIYOR: iki bağımsız metrik, aynı merkez.",
+  "allah_komsulugu": "En yakın: küfür(0.89), elçi, Rab, hidâyet, nâs, kulluk. Kutsal değil TEOLOJİK GERİLİM (küfür-iman-elçi). En uzak: kıst, beşer, tuğyân, insân (ölçü-uçları + birey).",
+  "kumeler": "Sadece 4 sıkı çift (ölüm/hayat, namaz/zekât, rahmet/mağfiret, adl/kıst) + 25 dağınık/izole. Küme-yapısı değil, birkaç ikili + bulut."
+ },
+ "3_ongoru": {
+  "test": "Hold-out: kavramı sakla, kalan uzaydan en-yakın komşusunu tahmin et",
+  "isabet": "%28 (rastgele %2) — 14 kat iyi. Uzayın gerçek yapısı var, tahmin ediliyor.",
+  "yorum": "Öngörülebilirlik ALLAH-EKSENLİ: tahmin edilebilenlerin çoğu 'Allah'a düşüyor (iman/kulluk/ilim→Allah). Gerçek yapısal çiftler (gök↔yer, tekzîb↔âyet) az ama Allah'tan bağımsız. Bağımsız dolgu-kavramlar (كون,جعل) tahmin edilemez — indirgenemez-boyut bulgusuyla tutarlı."
+ },
+ "SENTEZ": "Kur'an'ın kavram-uzayı, tek merkeze (Allah) yönelen ama merkeze indirgenemeyen bir yapı. Her kavram Allah'a bağlı (öngörü Allah çıkarıyor, Allah herkese en yakın), ama kavramlar birbirine indirgenmiyor (boyut doymuyor). Merkez güçlü, çeper özgür. Tek düğüme bağlı, tek eksene çökmeyen sistem.",
+ "sinir": "Boyut metriğe görecelidir — Jaccard seyrek kümelerde yüksek çıkar, başka metrik daha düşük boyut verebilir. Öngörü %28'in çoğu 'her şey Allah'a yakın' tekdüzeliğinden; saf yapısal tahmin (çiftler) daha az.",
+ "epistemik": "muhkem=metrik/aksiyom/boyut/öngörü ölçümleri; inşa='merkez güçlü çeper özgür' okuması; müteşâbih=bunun ontolojik anlamı."
+}

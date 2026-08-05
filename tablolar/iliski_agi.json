@@ -1,0 +1,2113 @@
+{
+ "dugumler": [
+  {
+   "ad": "Mûsâ",
+   "ayet": 131
+  },
+  {
+   "ad": "Firavun",
+   "ayet": 67
+  },
+  {
+   "ad": "Hârûn",
+   "ayet": 20
+  },
+  {
+   "ad": "İbrâhîm",
+   "ayet": 63
+  },
+  {
+   "ad": "İsmâîl",
+   "ayet": 12
+  },
+  {
+   "ad": "İshâk",
+   "ayet": 16
+  },
+  {
+   "ad": "Yâkûb",
+   "ayet": 16
+  },
+  {
+   "ad": "Nûh",
+   "ayet": 43
+  },
+  {
+   "ad": "Lût",
+   "ayet": 27
+  },
+  {
+   "ad": "Îsâ",
+   "ayet": 25
+  },
+  {
+   "ad": "Meryem",
+   "ayet": 31
+  },
+  {
+   "ad": "Yûsuf",
+   "ayet": 26
+  },
+  {
+   "ad": "Süleymân",
+   "ayet": 16
+  },
+  {
+   "ad": "Dâvûd",
+   "ayet": 16
+  },
+  {
+   "ad": "Âdem",
+   "ayet": 25
+  },
+  {
+   "ad": "İblîs",
+   "ayet": 11
+  },
+  {
+   "ad": "Hâmân",
+   "ayet": 6
+  },
+  {
+   "ad": "Kârûn",
+   "ayet": 4
+  }
+ ],
+ "baglar": [
+  {
+   "a": "Mûsâ",
+   "b": "Firavun",
+   "ortak": 15,
+   "guc": 0.22
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Hârûn",
+   "ortak": 12,
+   "guc": 0.6
+  },
+  {
+   "a": "Mûsâ",
+   "b": "İbrâhîm",
+   "ortak": 5,
+   "guc": 0.08
+  },
+  {
+   "a": "Mûsâ",
+   "b": "İshâk",
+   "ortak": 3,
+   "guc": 0.19
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Yâkûb",
+   "ortak": 3,
+   "guc": 0.19
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Nûh",
+   "ortak": 3,
+   "guc": 0.07
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Îsâ",
+   "ortak": 5,
+   "guc": 0.2
+  },
+  {
+   "a": "Firavun",
+   "b": "Hâmân",
+   "ortak": 6,
+   "guc": 1.0
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "İsmâîl",
+   "ortak": 7,
+   "guc": 0.58
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "İshâk",
+   "ortak": 8,
+   "guc": 0.5
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "Yâkûb",
+   "ortak": 9,
+   "guc": 0.56
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "Nûh",
+   "ortak": 7,
+   "guc": 0.16
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "Îsâ",
+   "ortak": 5,
+   "guc": 0.2
+  },
+  {
+   "a": "İsmâîl",
+   "b": "İshâk",
+   "ortak": 6,
+   "guc": 0.5
+  },
+  {
+   "a": "İsmâîl",
+   "b": "Yâkûb",
+   "ortak": 5,
+   "guc": 0.42
+  },
+  {
+   "a": "İsmâîl",
+   "b": "Îsâ",
+   "ortak": 3,
+   "guc": 0.25
+  },
+  {
+   "a": "İshâk",
+   "b": "Yâkûb",
+   "ortak": 13,
+   "guc": 0.81
+  },
+  {
+   "a": "İshâk",
+   "b": "Îsâ",
+   "ortak": 3,
+   "guc": 0.19
+  },
+  {
+   "a": "Yâkûb",
+   "b": "Îsâ",
+   "ortak": 3,
+   "guc": 0.19
+  },
+  {
+   "a": "Nûh",
+   "b": "Îsâ",
+   "ortak": 3,
+   "guc": 0.12
+  },
+  {
+   "a": "Îsâ",
+   "b": "Meryem",
+   "ortak": 16,
+   "guc": 0.64
+  },
+  {
+   "a": "Süleymân",
+   "b": "Dâvûd",
+   "ortak": 7,
+   "guc": 0.44
+  },
+  {
+   "a": "Âdem",
+   "b": "İblîs",
+   "ortak": 5,
+   "guc": 0.45
+  }
+ ],
+ "kumeler": [
+  {
+   "ad": "İbrâhîm soyu",
+   "uyeler": [
+    "İbrâhîm",
+    "İsmâîl",
+    "İshâk",
+    "Yâkûb",
+    "Îsâ",
+    "Meryem"
+   ]
+  },
+  {
+   "ad": "Mûsâ-Hârûn (kardeş elçi)",
+   "uyeler": [
+    "Mûsâ",
+    "Hârûn"
+   ]
+  },
+  {
+   "ad": "Firavun-Hâmân (zulüm ekibi)",
+   "uyeler": [
+    "Firavun",
+    "Hâmân"
+   ]
+  },
+  {
+   "ad": "Dâvûd-Süleymân (melik peygamberler)",
+   "uyeler": [
+    "Dâvûd",
+    "Süleymân"
+   ]
+  },
+  {
+   "ad": "Âdem-İblîs (ilk karşıtlık)",
+   "uyeler": [
+    "Âdem",
+    "İblîs"
+   ]
+  }
+ ],
+ "kopruler": [
+  {
+   "a": "Mûsâ",
+   "b": "Firavun",
+   "not": "iki ekibi çatıştıran kıssa"
+  }
+ ],
+ "tum_baglar": [
+  {
+   "a": "hak",
+   "b": "ilim",
+   "ort": 45,
+   "guc": 0.17,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hak",
+   "b": "takvâ",
+   "ort": 10,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hak",
+   "b": "iman",
+   "ort": 40,
+   "guc": 0.15,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hak",
+   "b": "hidâyet",
+   "ort": 24,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hak",
+   "b": "Mûsâ",
+   "ort": 8,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "hak",
+   "b": "gök(çoğul)",
+   "ort": 16,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "hak",
+   "b": "secde",
+   "ort": 8,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "hak",
+   "b": "yaratma",
+   "ort": 16,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "hak",
+   "b": "dua",
+   "ort": 12,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "rahmet",
+   "b": "ilim",
+   "ort": 36,
+   "guc": 0.12,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rahmet",
+   "b": "takvâ",
+   "ort": 14,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rahmet",
+   "b": "iman",
+   "ort": 41,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rahmet",
+   "b": "hidâyet",
+   "ort": 22,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rahmet",
+   "b": "ihsan",
+   "ort": 14,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rahmet",
+   "b": "gök(çoğul)",
+   "ort": 10,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "rahmet",
+   "b": "yaratma",
+   "ort": 9,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "rahmet",
+   "b": "namaz",
+   "ort": 8,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "rahmet",
+   "b": "dua",
+   "ort": 9,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "rahmet",
+   "b": "tevbe",
+   "ort": 29,
+   "guc": 0.42,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "rahmet",
+   "b": "mağfiret",
+   "ort": 91,
+   "guc": 0.45,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "takvâ",
+   "ort": 31,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "sabır",
+   "ort": 9,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "iman",
+   "ort": 65,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "hidâyet",
+   "ort": 46,
+   "guc": 0.17,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "sevgi",
+   "ort": 12,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "ihsan",
+   "ort": 13,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "merhamet",
+   "ort": 36,
+   "guc": 0.12,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "Mûsâ",
+   "ort": 13,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "ilim",
+   "b": "İbrâhîm",
+   "ort": 9,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "ilim",
+   "b": "Firavun",
+   "ort": 9,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "ilim",
+   "b": "İblîs/şeytan",
+   "ort": 11,
+   "guc": 0.16,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "ilim",
+   "b": "gök(çoğul)",
+   "ort": 50,
+   "guc": 0.27,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "ilim",
+   "b": "secde",
+   "ort": 12,
+   "guc": 0.15,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "yaratma",
+   "ort": 32,
+   "guc": 0.15,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "tesbih",
+   "ort": 13,
+   "guc": 0.15,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "diriliş",
+   "ort": 14,
+   "guc": 0.22,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "gece",
+   "ort": 9,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "namaz",
+   "ort": 10,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "zekât",
+   "ort": 13,
+   "guc": 0.23,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "hac",
+   "ort": 10,
+   "guc": 0.38,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "dua",
+   "ort": 19,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "tevbe",
+   "ort": 14,
+   "guc": 0.2,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ilim",
+   "b": "mağfiret",
+   "ort": 25,
+   "guc": 0.12,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "rızık",
+   "ort": 23,
+   "guc": 0.21,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "nimet",
+   "ort": 15,
+   "guc": 0.12,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "fitne",
+   "ort": 12,
+   "guc": 0.21,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ilim",
+   "b": "cihad",
+   "ort": 13,
+   "guc": 0.36,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "sabır",
+   "ort": 10,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "iman",
+   "ort": 42,
+   "guc": 0.18,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "hidâyet",
+   "ort": 11,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "sevgi",
+   "ort": 8,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "ihsan",
+   "ort": 12,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "merhamet",
+   "ort": 14,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "cennet",
+   "ort": 9,
+   "guc": 0.12,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "takvâ",
+   "b": "yaratma",
+   "ort": 8,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "takvâ",
+   "b": "nehir",
+   "ort": 8,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "takvâ",
+   "b": "mağfiret",
+   "ort": 12,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "takvâ",
+   "b": "nimet",
+   "ort": 9,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "sabır",
+   "b": "iman",
+   "ort": 10,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "sabır",
+   "b": "ihsan",
+   "ort": 8,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "sabır",
+   "b": "mağfiret",
+   "ort": 9,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "adalet",
+   "b": "iman",
+   "ort": 8,
+   "guc": 0.33,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "tevhid",
+   "b": "iman",
+   "ort": 9,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "hidâyet",
+   "ort": 41,
+   "guc": 0.15,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "sevgi",
+   "ort": 14,
+   "guc": 0.16,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "ihsan",
+   "ort": 17,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "merhamet",
+   "ort": 41,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "Mûsâ",
+   "ort": 13,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "iman",
+   "b": "İblîs/şeytan",
+   "ort": 8,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "iman",
+   "b": "cennet",
+   "ort": 11,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "iman",
+   "b": "gök(çoğul)",
+   "ort": 8,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "iman",
+   "b": "secde",
+   "ort": 9,
+   "guc": 0.11,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "iman",
+   "b": "nehir",
+   "ort": 18,
+   "guc": 0.18,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "iman",
+   "b": "namaz",
+   "ort": 17,
+   "guc": 0.19,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "iman",
+   "b": "zekât",
+   "ort": 9,
+   "guc": 0.16,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "iman",
+   "b": "dua",
+   "ort": 11,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "iman",
+   "b": "tevbe",
+   "ort": 10,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "iman",
+   "b": "mağfiret",
+   "ort": 39,
+   "guc": 0.19,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "rızık",
+   "ort": 18,
+   "guc": 0.17,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "nimet",
+   "ort": 13,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "fitne",
+   "ort": 8,
+   "guc": 0.14,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "iman",
+   "b": "cihad",
+   "ort": 16,
+   "guc": 0.44,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hidâyet",
+   "b": "ihsan",
+   "ort": 9,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hidâyet",
+   "b": "merhamet",
+   "ort": 22,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hidâyet",
+   "b": "Mûsâ",
+   "ort": 17,
+   "guc": 0.13,
+   "tur_a": "kavram",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "hidâyet",
+   "b": "secde",
+   "ort": 8,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "hidâyet",
+   "b": "hac",
+   "ort": 8,
+   "guc": 0.31,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "hidâyet",
+   "b": "dua",
+   "ort": 14,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "hidâyet",
+   "b": "mağfiret",
+   "ort": 9,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "hidâyet",
+   "b": "nimet",
+   "ort": 8,
+   "guc": 0.06,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "sevgi",
+   "b": "ihsan",
+   "ort": 8,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ihsan",
+   "b": "merhamet",
+   "ort": 14,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ihsan",
+   "b": "yaratma",
+   "ort": 8,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ihsan",
+   "b": "nehir",
+   "ort": 9,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "ihsan",
+   "b": "mağfiret",
+   "ort": 14,
+   "guc": 0.08,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "ihsan",
+   "b": "rızık",
+   "ort": 11,
+   "guc": 0.1,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "merhamet",
+   "b": "gök(çoğul)",
+   "ort": 10,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "merhamet",
+   "b": "yaratma",
+   "ort": 9,
+   "guc": 0.04,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "merhamet",
+   "b": "namaz",
+   "ort": 8,
+   "guc": 0.09,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "merhamet",
+   "b": "dua",
+   "ort": 9,
+   "guc": 0.05,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "merhamet",
+   "b": "tevbe",
+   "ort": 29,
+   "guc": 0.42,
+   "tur_a": "kavram",
+   "tur_b": "olay"
+  },
+  {
+   "a": "merhamet",
+   "b": "mağfiret",
+   "ort": 91,
+   "guc": 0.45,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Hârûn",
+   "ort": 12,
+   "guc": 0.6,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "Mûsâ",
+   "b": "Firavun",
+   "ort": 15,
+   "guc": 0.22,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "İshâk",
+   "ort": 8,
+   "guc": 0.5,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "İbrâhîm",
+   "b": "Yâkûb",
+   "ort": 9,
+   "guc": 0.56,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "Îsâ",
+   "b": "Meryem",
+   "ort": 16,
+   "guc": 0.64,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "İshâk",
+   "b": "Yâkûb",
+   "ort": 13,
+   "guc": 0.81,
+   "tur_a": "kişi",
+   "tur_b": "kişi"
+  },
+  {
+   "a": "Âd",
+   "b": "Semûd",
+   "ort": 8,
+   "guc": 0.32,
+   "tur_a": "kavim",
+   "tur_b": "kavim"
+  },
+  {
+   "a": "İsrâîloğulları",
+   "b": "nimet",
+   "ort": 8,
+   "guc": 0.2,
+   "tur_a": "kavim",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "Arş",
+   "b": "gök(çoğul)",
+   "ort": 9,
+   "guc": 0.32,
+   "tur_a": "yer/âlem",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "yaratma",
+   "ort": 56,
+   "guc": 0.3,
+   "tur_a": "yer/âlem",
+   "tur_b": "olay"
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "tesbih",
+   "ort": 16,
+   "guc": 0.18,
+   "tur_a": "yer/âlem",
+   "tur_b": "olay"
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "mağfiret",
+   "ort": 13,
+   "guc": 0.07,
+   "tur_a": "yer/âlem",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "Tevrât",
+   "b": "İncîl",
+   "ort": 10,
+   "guc": 0.83,
+   "tur_a": "kitap",
+   "tur_b": "kitap"
+  },
+  {
+   "a": "yaratma",
+   "b": "tesbih",
+   "ort": 9,
+   "guc": 0.1,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "yaratma",
+   "b": "nehir",
+   "ort": 8,
+   "guc": 0.08,
+   "tur_a": "olay",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "yaratma",
+   "b": "nimet",
+   "ort": 9,
+   "guc": 0.07,
+   "tur_a": "olay",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "tesbih",
+   "b": "gece",
+   "ort": 9,
+   "guc": 0.11,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "güneş",
+   "b": "ay",
+   "ort": 18,
+   "guc": 0.69,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "güneş",
+   "b": "gece",
+   "ort": 12,
+   "guc": 0.38,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "güneş",
+   "b": "nehir",
+   "ort": 10,
+   "guc": 0.31,
+   "tur_a": "olay",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "ay",
+   "b": "gece",
+   "ort": 10,
+   "guc": 0.38,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "ay",
+   "b": "nehir",
+   "ort": 9,
+   "guc": 0.35,
+   "tur_a": "olay",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "gece",
+   "b": "nehir",
+   "ort": 42,
+   "guc": 0.52,
+   "tur_a": "olay",
+   "tur_b": "yer/âlem"
+  },
+  {
+   "a": "namaz",
+   "b": "zekât",
+   "ort": 28,
+   "guc": 0.5,
+   "tur_a": "olay",
+   "tur_b": "olay"
+  },
+  {
+   "a": "namaz",
+   "b": "rızık",
+   "ort": 9,
+   "guc": 0.1,
+   "tur_a": "olay",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "tevbe",
+   "b": "mağfiret",
+   "ort": 25,
+   "guc": 0.36,
+   "tur_a": "olay",
+   "tur_b": "kavram"
+  },
+  {
+   "a": "rızık",
+   "b": "nimet",
+   "ort": 8,
+   "guc": 0.07,
+   "tur_a": "kavram",
+   "tur_b": "kavram"
+  }
+ ],
+ "kavram_kumeleri": [
+  {
+   "ad": "mücadele-kümesi",
+   "uyeler": [
+    "iman",
+    "ilim",
+    "cihad"
+   ]
+  },
+  {
+   "ad": "inanç-kümesi",
+   "uyeler": [
+    "takvâ",
+    "iman",
+    "hidâyet"
+   ]
+  },
+  {
+   "ad": "merhamet-kümesi",
+   "uyeler": [
+    "rahmet",
+    "merhamet",
+    "mağfiret"
+   ]
+  }
+ ],
+ "olay_kumeleri": [
+  {
+   "ad": "kozmik-ikizler",
+   "uyeler": [
+    "güneş",
+    "ay"
+   ],
+   "guc": 0.69
+  },
+  {
+   "ad": "ibadet-ikizi",
+   "uyeler": [
+    "namaz",
+    "zekât"
+   ],
+   "guc": 0.5
+  },
+  {
+   "ad": "zaman-döngüsü",
+   "uyeler": [
+    "güneş",
+    "ay",
+    "gece"
+   ]
+  }
+ ],
+ "kozmik_yapı": [
+  {
+   "ad": "Arş-gök",
+   "uyeler": [
+    "Arş",
+    "gök(çoğul)",
+    "yaratma",
+    "ilim"
+   ]
+  }
+ ],
+ "tum_baglar_temiz": [
+  {
+   "a": "rahmet",
+   "b": "hidâyet",
+   "ort": 22,
+   "guc": 0.08
+  },
+  {
+   "a": "rahmet",
+   "b": "halk/kavim",
+   "ort": 28,
+   "guc": 0.09
+  },
+  {
+   "a": "rahmet",
+   "b": "takvâ",
+   "ort": 14,
+   "guc": 0.06
+  },
+  {
+   "a": "rahmet",
+   "b": "namaz",
+   "ort": 8,
+   "guc": 0.09
+  },
+  {
+   "a": "rahmet",
+   "b": "nefs",
+   "ort": 23,
+   "guc": 0.09
+  },
+  {
+   "a": "rahmet",
+   "b": "ilim",
+   "ort": 35,
+   "guc": 0.11
+  },
+  {
+   "a": "rahmet",
+   "b": "gök(çoğul)",
+   "ort": 13,
+   "guc": 0.04
+  },
+  {
+   "a": "rahmet",
+   "b": "yaratma",
+   "ort": 9,
+   "guc": 0.04
+  },
+  {
+   "a": "rahmet",
+   "b": "dua",
+   "ort": 9,
+   "guc": 0.05
+  },
+  {
+   "a": "rahmet",
+   "b": "tevbe",
+   "ort": 29,
+   "guc": 0.42
+  },
+  {
+   "a": "rahmet",
+   "b": "zikir",
+   "ort": 14,
+   "guc": 0.06
+  },
+  {
+   "a": "rahmet",
+   "b": "mağfiret",
+   "ort": 91,
+   "guc": 0.45
+  },
+  {
+   "a": "rahmet",
+   "b": "ihsan",
+   "ort": 14,
+   "guc": 0.08
+  },
+  {
+   "a": "hidâyet",
+   "b": "halk/kavim",
+   "ort": 65,
+   "guc": 0.24
+  },
+  {
+   "a": "hidâyet",
+   "b": "nimet",
+   "ort": 8,
+   "guc": 0.06
+  },
+  {
+   "a": "hidâyet",
+   "b": "takvâ",
+   "ort": 11,
+   "guc": 0.05
+  },
+  {
+   "a": "hidâyet",
+   "b": "nefs",
+   "ort": 12,
+   "guc": 0.04
+  },
+  {
+   "a": "hidâyet",
+   "b": "ilim",
+   "ort": 42,
+   "guc": 0.16
+  },
+  {
+   "a": "hidâyet",
+   "b": "dua",
+   "ort": 14,
+   "guc": 0.08
+  },
+  {
+   "a": "hidâyet",
+   "b": "hak",
+   "ort": 24,
+   "guc": 0.09
+  },
+  {
+   "a": "hidâyet",
+   "b": "secde",
+   "ort": 8,
+   "guc": 0.1
+  },
+  {
+   "a": "hidâyet",
+   "b": "zikir",
+   "ort": 11,
+   "guc": 0.04
+  },
+  {
+   "a": "hidâyet",
+   "b": "mağfiret",
+   "ort": 9,
+   "guc": 0.04
+  },
+  {
+   "a": "hidâyet",
+   "b": "ihsan",
+   "ort": 9,
+   "guc": 0.05
+  },
+  {
+   "a": "halk/kavim",
+   "b": "nimet",
+   "ort": 12,
+   "guc": 0.09
+  },
+  {
+   "a": "halk/kavim",
+   "b": "takvâ",
+   "ort": 29,
+   "guc": 0.12
+  },
+  {
+   "a": "halk/kavim",
+   "b": "namaz",
+   "ort": 52,
+   "guc": 0.58
+  },
+  {
+   "a": "halk/kavim",
+   "b": "rızık",
+   "ort": 20,
+   "guc": 0.18
+  },
+  {
+   "a": "halk/kavim",
+   "b": "nefs",
+   "ort": 25,
+   "guc": 0.09
+  },
+  {
+   "a": "halk/kavim",
+   "b": "ilim",
+   "ort": 60,
+   "guc": 0.11
+  },
+  {
+   "a": "halk/kavim",
+   "b": "gök(çoğul)",
+   "ort": 22,
+   "guc": 0.07
+  },
+  {
+   "a": "halk/kavim",
+   "b": "yaratma",
+   "ort": 12,
+   "guc": 0.06
+  },
+  {
+   "a": "halk/kavim",
+   "b": "dua",
+   "ort": 23,
+   "guc": 0.13
+  },
+  {
+   "a": "halk/kavim",
+   "b": "cennet",
+   "ort": 10,
+   "guc": 0.06
+  },
+  {
+   "a": "halk/kavim",
+   "b": "hak",
+   "ort": 21,
+   "guc": 0.08
+  },
+  {
+   "a": "halk/kavim",
+   "b": "secde",
+   "ort": 13,
+   "guc": 0.16
+  },
+  {
+   "a": "halk/kavim",
+   "b": "tevbe",
+   "ort": 10,
+   "guc": 0.14
+  },
+  {
+   "a": "halk/kavim",
+   "b": "zikir",
+   "ort": 28,
+   "guc": 0.11
+  },
+  {
+   "a": "halk/kavim",
+   "b": "zekât",
+   "ort": 25,
+   "guc": 0.45
+  },
+  {
+   "a": "halk/kavim",
+   "b": "sabır",
+   "ort": 12,
+   "guc": 0.13
+  },
+  {
+   "a": "halk/kavim",
+   "b": "adalet",
+   "ort": 8,
+   "guc": 0.33
+  },
+  {
+   "a": "halk/kavim",
+   "b": "gece",
+   "ort": 20,
+   "guc": 0.25
+  },
+  {
+   "a": "halk/kavim",
+   "b": "mağfiret",
+   "ort": 16,
+   "guc": 0.08
+  },
+  {
+   "a": "halk/kavim",
+   "b": "ihsan",
+   "ort": 23,
+   "guc": 0.13
+  },
+  {
+   "a": "halk/kavim",
+   "b": "fitne",
+   "ort": 9,
+   "guc": 0.16
+  },
+  {
+   "a": "halk/kavim",
+   "b": "sevgi",
+   "ort": 11,
+   "guc": 0.13
+  },
+  {
+   "a": "halk/kavim",
+   "b": "güneş",
+   "ort": 8,
+   "guc": 0.25
+  },
+  {
+   "a": "halk/kavim",
+   "b": "mîzan/ölçü",
+   "ort": 8,
+   "guc": 0.38
+  },
+  {
+   "a": "nimet",
+   "b": "takvâ",
+   "ort": 9,
+   "guc": 0.07
+  },
+  {
+   "a": "nimet",
+   "b": "rızık",
+   "ort": 8,
+   "guc": 0.07
+  },
+  {
+   "a": "nimet",
+   "b": "ilim",
+   "ort": 12,
+   "guc": 0.09
+  },
+  {
+   "a": "nimet",
+   "b": "yaratma",
+   "ort": 9,
+   "guc": 0.07
+  },
+  {
+   "a": "nimet",
+   "b": "cennet",
+   "ort": 17,
+   "guc": 0.13
+  },
+  {
+   "a": "nimet",
+   "b": "zikir",
+   "ort": 17,
+   "guc": 0.13
+  },
+  {
+   "a": "takvâ",
+   "b": "nefs",
+   "ort": 20,
+   "guc": 0.08
+  },
+  {
+   "a": "takvâ",
+   "b": "ilim",
+   "ort": 31,
+   "guc": 0.13
+  },
+  {
+   "a": "takvâ",
+   "b": "gök(çoğul)",
+   "ort": 9,
+   "guc": 0.04
+  },
+  {
+   "a": "takvâ",
+   "b": "yaratma",
+   "ort": 8,
+   "guc": 0.04
+  },
+  {
+   "a": "takvâ",
+   "b": "cennet",
+   "ort": 18,
+   "guc": 0.12
+  },
+  {
+   "a": "takvâ",
+   "b": "hak",
+   "ort": 10,
+   "guc": 0.04
+  },
+  {
+   "a": "takvâ",
+   "b": "zikir",
+   "ort": 19,
+   "guc": 0.08
+  },
+  {
+   "a": "takvâ",
+   "b": "sabır",
+   "ort": 10,
+   "guc": 0.11
+  },
+  {
+   "a": "takvâ",
+   "b": "mağfiret",
+   "ort": 12,
+   "guc": 0.06
+  },
+  {
+   "a": "takvâ",
+   "b": "ihsan",
+   "ort": 12,
+   "guc": 0.07
+  },
+  {
+   "a": "takvâ",
+   "b": "sevgi",
+   "ort": 8,
+   "guc": 0.09
+  },
+  {
+   "a": "namaz",
+   "b": "rızık",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "namaz",
+   "b": "ilim",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "namaz",
+   "b": "zikir",
+   "ort": 12,
+   "guc": 0.13
+  },
+  {
+   "a": "namaz",
+   "b": "zekât",
+   "ort": 28,
+   "guc": 0.5
+  },
+  {
+   "a": "rızık",
+   "b": "ilim",
+   "ort": 21,
+   "guc": 0.19
+  },
+  {
+   "a": "rızık",
+   "b": "gök(çoğul)",
+   "ort": 13,
+   "guc": 0.12
+  },
+  {
+   "a": "rızık",
+   "b": "ihsan",
+   "ort": 11,
+   "guc": 0.1
+  },
+  {
+   "a": "nefs",
+   "b": "ilim",
+   "ort": 43,
+   "guc": 0.16
+  },
+  {
+   "a": "nefs",
+   "b": "gök(çoğul)",
+   "ort": 8,
+   "guc": 0.03
+  },
+  {
+   "a": "nefs",
+   "b": "yaratma",
+   "ort": 15,
+   "guc": 0.07
+  },
+  {
+   "a": "nefs",
+   "b": "dua",
+   "ort": 13,
+   "guc": 0.07
+  },
+  {
+   "a": "nefs",
+   "b": "hak",
+   "ort": 22,
+   "guc": 0.08
+  },
+  {
+   "a": "nefs",
+   "b": "melek",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "nefs",
+   "b": "mağfiret",
+   "ort": 15,
+   "guc": 0.07
+  },
+  {
+   "a": "nefs",
+   "b": "ihsan",
+   "ort": 11,
+   "guc": 0.06
+  },
+  {
+   "a": "nefs",
+   "b": "cihad",
+   "ort": 10,
+   "guc": 0.28
+  },
+  {
+   "a": "ilim",
+   "b": "gök(çoğul)",
+   "ort": 57,
+   "guc": 0.19
+  },
+  {
+   "a": "ilim",
+   "b": "yaratma",
+   "ort": 30,
+   "guc": 0.14
+  },
+  {
+   "a": "ilim",
+   "b": "dua",
+   "ort": 15,
+   "guc": 0.08
+  },
+  {
+   "a": "ilim",
+   "b": "hak",
+   "ort": 43,
+   "guc": 0.16
+  },
+  {
+   "a": "ilim",
+   "b": "melek",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "ilim",
+   "b": "tesbih",
+   "ort": 10,
+   "guc": 0.11
+  },
+  {
+   "a": "ilim",
+   "b": "secde",
+   "ort": 12,
+   "guc": 0.15
+  },
+  {
+   "a": "ilim",
+   "b": "tevbe",
+   "ort": 14,
+   "guc": 0.2
+  },
+  {
+   "a": "ilim",
+   "b": "zikir",
+   "ort": 27,
+   "guc": 0.11
+  },
+  {
+   "a": "ilim",
+   "b": "zekât",
+   "ort": 13,
+   "guc": 0.23
+  },
+  {
+   "a": "ilim",
+   "b": "sabır",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "ilim",
+   "b": "gece",
+   "ort": 8,
+   "guc": 0.1
+  },
+  {
+   "a": "ilim",
+   "b": "diriliş",
+   "ort": 14,
+   "guc": 0.22
+  },
+  {
+   "a": "ilim",
+   "b": "mağfiret",
+   "ort": 25,
+   "guc": 0.12
+  },
+  {
+   "a": "ilim",
+   "b": "ihsan",
+   "ort": 12,
+   "guc": 0.07
+  },
+  {
+   "a": "ilim",
+   "b": "hac",
+   "ort": 9,
+   "guc": 0.36
+  },
+  {
+   "a": "ilim",
+   "b": "fitne",
+   "ort": 12,
+   "guc": 0.21
+  },
+  {
+   "a": "ilim",
+   "b": "sevgi",
+   "ort": 12,
+   "guc": 0.14
+  },
+  {
+   "a": "ilim",
+   "b": "cihad",
+   "ort": 12,
+   "guc": 0.33
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "yaratma",
+   "ort": 62,
+   "guc": 0.28
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "dua",
+   "ort": 8,
+   "guc": 0.04
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "hak",
+   "ort": 20,
+   "guc": 0.08
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "tesbih",
+   "ort": 17,
+   "guc": 0.2
+  },
+  {
+   "a": "gök(çoğul)",
+   "b": "mağfiret",
+   "ort": 16,
+   "guc": 0.08
+  },
+  {
+   "a": "yaratma",
+   "b": "hak",
+   "ort": 16,
+   "guc": 0.07
+  },
+  {
+   "a": "yaratma",
+   "b": "melek",
+   "ort": 8,
+   "guc": 0.09
+  },
+  {
+   "a": "yaratma",
+   "b": "tesbih",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "yaratma",
+   "b": "zikir",
+   "ort": 10,
+   "guc": 0.05
+  },
+  {
+   "a": "yaratma",
+   "b": "ihsan",
+   "ort": 8,
+   "guc": 0.05
+  },
+  {
+   "a": "dua",
+   "b": "hak",
+   "ort": 12,
+   "guc": 0.07
+  },
+  {
+   "a": "cennet",
+   "b": "nehir",
+   "ort": 42,
+   "guc": 0.82
+  },
+  {
+   "a": "cennet",
+   "b": "mağfiret",
+   "ort": 9,
+   "guc": 0.06
+  },
+  {
+   "a": "cennet",
+   "b": "ihsan",
+   "ort": 9,
+   "guc": 0.06
+  },
+  {
+   "a": "hak",
+   "b": "secde",
+   "ort": 8,
+   "guc": 0.1
+  },
+  {
+   "a": "melek",
+   "b": "secde",
+   "ort": 8,
+   "guc": 0.1
+  },
+  {
+   "a": "tesbih",
+   "b": "gece",
+   "ort": 9,
+   "guc": 0.11
+  },
+  {
+   "a": "tevbe",
+   "b": "mağfiret",
+   "ort": 25,
+   "guc": 0.36
+  },
+  {
+   "a": "sabır",
+   "b": "mağfiret",
+   "ort": 9,
+   "guc": 0.1
+  },
+  {
+   "a": "sabır",
+   "b": "ihsan",
+   "ort": 8,
+   "guc": 0.09
+  },
+  {
+   "a": "gece",
+   "b": "güneş",
+   "ort": 12,
+   "guc": 0.38
+  },
+  {
+   "a": "gece",
+   "b": "ay",
+   "ort": 10,
+   "guc": 0.38
+  },
+  {
+   "a": "mağfiret",
+   "b": "ihsan",
+   "ort": 14,
+   "guc": 0.08
+  },
+  {
+   "a": "ihsan",
+   "b": "sevgi",
+   "ort": 8,
+   "guc": 0.09
+  },
+  {
+   "a": "güneş",
+   "b": "ay",
+   "ort": 18,
+   "guc": 0.69
+  }
+ ]
+}

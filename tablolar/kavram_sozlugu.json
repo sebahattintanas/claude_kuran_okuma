@@ -1,0 +1,424 @@
+{
+ "حقق": {
+  "ad": "hak",
+  "kok": "حقق",
+  "hedef_kavram": null,
+  "ayet_sayisi": 263,
+  "ses": {
+   "ort_mora": 102.7,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 12.6,
+  "yapi": {
+   "son": 94,
+   "baş": 89,
+   "orta": 80
+  },
+  "komsu": [
+   [
+    "Allah",
+    208
+   ],
+   [
+    "söz",
+    129
+   ],
+   [
+    "olmak/varlık",
+    89
+   ],
+   [
+    "Rab",
+    78
+   ],
+   [
+    "iman/emniyet",
+    64
+   ],
+   [
+    "ilim",
+    56
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "صبر": {
+  "ad": "sabır",
+  "kok": "صبر",
+  "hedef_kavram": null,
+  "ayet_sayisi": 93,
+  "ses": {
+   "ort_mora": 90.0,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 10.8,
+  "yapi": {
+   "son": 41,
+   "orta": 33,
+   "baş": 19
+  },
+  "komsu": [
+   [
+    "Allah",
+    52
+   ],
+   [
+    "söz",
+    29
+   ],
+   [
+    "Rab",
+    27
+   ],
+   [
+    "olmak/varlık",
+    24
+   ],
+   [
+    "iman/emniyet",
+    17
+   ],
+   [
+    "kavim",
+    13
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "رحم": {
+  "ad": "rahmet",
+  "kok": "رحم",
+  "hedef_kavram": null,
+  "ayet_sayisi": 313,
+  "ses": {
+   "ort_mora": 92.8,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 11.2,
+  "yapi": {
+   "son": 129,
+   "orta": 92,
+   "baş": 92
+  },
+  "komsu": [
+   [
+    "Allah",
+    226
+   ],
+   [
+    "mağfiret",
+    114
+   ],
+   [
+    "Rab",
+    110
+   ],
+   [
+    "söz",
+    87
+   ],
+   [
+    "olmak/varlık",
+    79
+   ],
+   [
+    "iman/emniyet",
+    78
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "علم": {
+  "ad": "ilim",
+  "kok": "علم",
+  "hedef_kavram": "ilim",
+  "ayet_sayisi": 655,
+  "ses": {
+   "ort_mora": 101.8,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 12.4,
+  "yapi": {
+   "son": 253,
+   "orta": 215,
+   "baş": 187
+  },
+  "komsu": [
+   [
+    "Allah",
+    652
+   ],
+   [
+    "söz",
+    298
+   ],
+   [
+    "olmak/varlık",
+    202
+   ],
+   [
+    "iman/emniyet",
+    135
+   ],
+   [
+    "şey/dileme",
+    120
+   ],
+   [
+    "Rab",
+    98
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "وقي": {
+  "ad": "takvâ",
+  "kok": "وقي",
+  "hedef_kavram": null,
+  "ayet_sayisi": 237,
+  "ses": {
+   "ort_mora": 95.1,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 11.4,
+  "yapi": {
+   "son": 99,
+   "orta": 78,
+   "baş": 60
+  },
+  "komsu": [
+   [
+    "Allah",
+    225
+   ],
+   [
+    "iman/emniyet",
+    67
+   ],
+   [
+    "söz",
+    58
+   ],
+   [
+    "olmak/varlık",
+    53
+   ],
+   [
+    "ilim",
+    38
+   ],
+   [
+    "أيي",
+    37
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "عدل": {
+  "ad": "adalet",
+  "kok": "عدل",
+  "hedef_kavram": null,
+  "ayet_sayisi": 24,
+  "ses": {
+   "ort_mora": 160.7,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 19.9,
+  "yapi": {
+   "son": 11,
+   "baş": 7,
+   "orta": 6
+  },
+  "komsu": [
+   [
+    "Allah",
+    37
+   ],
+   [
+    "şahit",
+    17
+   ],
+   [
+    "olmak/varlık",
+    14
+   ],
+   [
+    "beyan",
+    11
+   ],
+   [
+    "iman/emniyet",
+    10
+   ],
+   [
+    "kitap",
+    10
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "شكر": {
+  "ad": "şükür",
+  "kok": "شكر",
+  "hedef_kavram": null,
+  "ayet_sayisi": 69,
+  "ses": {
+   "ort_mora": 98.8,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 12.0,
+  "yapi": {
+   "son": 26,
+   "baş": 23,
+   "orta": 20
+  },
+  "komsu": [
+   [
+    "Allah",
+    48
+   ],
+   [
+    "olmak/varlık",
+    21
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "insanlar",
+    14
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "جعل",
+    13
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "وحد": {
+  "ad": "tevhid",
+  "kok": "وحد",
+  "hedef_kavram": null,
+  "ayet_sayisi": 67,
+  "ses": {
+   "ort_mora": 114.9,
+   "imza": "uzun"
+  },
+  "zaman": {},
+  "yogunluk": 14.1,
+  "yapi": {
+   "baş": 29,
+   "orta": 22,
+   "son": 16
+  },
+  "komsu": [
+   [
+    "Allah",
+    89
+   ],
+   [
+    "olmak/varlık",
+    36
+   ],
+   [
+    "söz",
+    34
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "أمم",
+    15
+   ],
+   [
+    "şey/dileme",
+    15
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "سمو_cogul": {
+  "ad": "gök(çoğul/semâvât)",
+  "ayet_sayisi": 188,
+  "ses": {
+   "ort_mora": 94.4,
+   "imza": "uzun"
+  },
+  "komsu": [
+   [
+    "Allah",
+    194
+   ],
+   [
+    "أرض",
+    189
+   ],
+   [
+    "yaratma",
+    70
+   ],
+   [
+    "ilim",
+    66
+   ],
+   [
+    "söz",
+    63
+   ],
+   [
+    "şey/dileme",
+    61
+   ]
+  ],
+  "temiz_kok": true
+ },
+ "سمو_tekil": {
+  "ad": "gök(tekil/semâ)",
+  "ayet_sayisi": 109,
+  "ses": {
+   "ort_mora": 85.7,
+   "imza": "uzun"
+  },
+  "komsu": [
+   [
+    "Allah",
+    50
+   ],
+   [
+    "أرض",
+    45
+   ],
+   [
+    "indirme",
+    35
+   ],
+   [
+    "olmak/varlık",
+    28
+   ],
+   [
+    "söz",
+    24
+   ],
+   [
+    "موه",
+    22
+   ]
+  ],
+  "temiz_kok": true
+ }
+}

@@ -1,0 +1,3233 @@
+{
+ "hak": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 263,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "iman/emniyet",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 102.7,
+  "zit": [
+   "küfür",
+   "dalâlet",
+   "bâtıl"
+  ],
+  "es": [],
+  "ornek": "2:26",
+  "okuma": "",
+  "anlati": "\"hak\" 263 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, olmak/varlık, Rab ile anıyor. Karşısına tek zıt koymuyor — katmanlı: küfür, dalâlet, bâtıl."
+ },
+ "rahmet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 313,
+  "komsu": [
+   "Allah",
+   "mağfiret",
+   "Rab",
+   "söz",
+   "olmak/varlık",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 92.8,
+  "zit": [
+   "azap",
+   "gazap"
+  ],
+  "es": [],
+  "ornek": "1:1",
+  "okuma": "",
+  "anlati": "\"rahmet\" 313 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, mağfiret, Rab, söz ile anıyor. Karşısına tek zıt koymuyor — katmanlı: azap, gazap."
+ },
+ "ilim": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 655,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "iman/emniyet",
+   "şey/dileme",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 101.8,
+  "zit": [
+   "küfür",
+   "zulüm",
+   "cehâlet"
+  ],
+  "es": [],
+  "ornek": "2:13",
+  "okuma": "",
+  "anlati": "\"ilim\" 655 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, olmak/varlık, iman/emniyet ile anıyor. Karşısına tek zıt koymuyor — katmanlı: küfür, zulüm, cehâlet."
+ },
+ "takvâ": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 237,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "söz",
+   "olmak/varlık",
+   "ilim",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 95.1,
+  "zit": [
+   "küfür",
+   "zulüm",
+   "günah"
+  ],
+  "es": [],
+  "ornek": "2:2",
+  "okuma": "",
+  "anlati": "\"takvâ\" 237 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, iman/emniyet, söz, olmak/varlık ile anıyor. Karşısına tek zıt koymuyor — katmanlı: küfür, zulüm, günah."
+ },
+ "sabır": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 93,
+  "komsu": [
+   "Allah",
+   "söz",
+   "Rab",
+   "olmak/varlık",
+   "iman/emniyet",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 90.0,
+  "zit": [],
+  "es": [],
+  "ornek": "2:45",
+  "okuma": "",
+  "anlati": "\"sabır\" 93 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, Rab, olmak/varlık ile anıyor."
+ },
+ "adalet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 24,
+  "komsu": [
+   "Allah",
+   "şahit",
+   "olmak/varlık",
+   "beyan",
+   "iman/emniyet",
+   "kitap"
+  ],
+  "ses": "uzun",
+  "mora": 160.7,
+  "zit": [
+   "azgınlık",
+   "zulüm"
+  ],
+  "es": [],
+  "ornek": "2:48",
+  "okuma": "",
+  "anlati": "\"adalet\" 24 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, şahit, olmak/varlık, beyan ile anıyor. Karşısına tek zıt koymuyor — katmanlı: azgınlık, zulüm."
+ },
+ "şükür": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 69,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "Rab",
+   "insanlar",
+   "söz",
+   "lütuf"
+  ],
+  "ses": "uzun",
+  "mora": 98.8,
+  "zit": [
+   "küfür"
+  ],
+  "es": [],
+  "ornek": "2:52",
+  "okuma": "",
+  "anlati": "\"şükür\" 69 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, olmak/varlık, Rab, insanlar ile anıyor. Zıddı: küfür."
+ },
+ "tevhid": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 67,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "Rab",
+   "şey/dileme",
+   "yaratma"
+  ],
+  "ses": "uzun",
+  "mora": 114.9,
+  "zit": [
+   "küfür",
+   "şirk"
+  ],
+  "es": [],
+  "ornek": "2:61",
+  "okuma": "",
+  "anlati": "\"tevhid\" 67 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, olmak/varlık, söz, Rab ile anıyor. Karşısına tek zıt koymuyor — katmanlı: küfür, şirk."
+ },
+ "iman": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 478,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [
+   "küfür",
+   "نفق",
+   "şirk"
+  ],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"iman\" 478 ayette geçer — — ayetlerin kavramı. Karşısına tek zıt koymuyor — katmanlı: küfür, نفق, şirk."
+ },
+ "hidâyet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 268,
+  "komsu": [
+   "Allah",
+   "söz",
+   "iman/emniyet",
+   "kavim",
+   "olmak/varlık",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 99.0,
+  "zit": [
+   "dalâlet"
+  ],
+  "es": [],
+  "ornek": "1:6",
+  "okuma": "",
+  "anlati": "\"hidâyet\" 268 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, iman/emniyet, kavim ile anıyor. Zıddı: dalâlet."
+ },
+ "sevgi": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 85,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "söz",
+   "ilim",
+   "olmak/varlık",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 107.2,
+  "zit": [
+   "كره",
+   "بغض"
+  ],
+  "es": [],
+  "ornek": "2:165",
+  "okuma": "",
+  "anlati": "\"sevgi\" 85 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, iman/emniyet, söz, ilim ile anıyor. Karşısına tek zıt koymuyor — katmanlı: كره, بغض."
+ },
+ "ihsan": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 177,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "amel",
+   "Rab",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 102.9,
+  "zit": [
+   "سوأ"
+  ],
+  "es": [],
+  "ornek": "2:58",
+  "okuma": "",
+  "anlati": "\"ihsan\" 177 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, olmak/varlık, amel ile anıyor. Zıddı: سوأ."
+ },
+ "merhamet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 313,
+  "komsu": [
+   "Allah",
+   "mağfiret",
+   "Rab",
+   "söz",
+   "olmak/varlık",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 92.8,
+  "zit": [],
+  "es": [],
+  "ornek": "1:1",
+  "okuma": "",
+  "anlati": "\"merhamet\" 313 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, mağfiret, Rab, söz ile anıyor."
+ },
+ "Mûsâ": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 131,
+  "komsu": [
+   "söz",
+   "Allah",
+   "kavim",
+   "Rab",
+   "olmak/varlık",
+   "kitap"
+  ],
+  "ses": "uzun",
+  "mora": 94.1,
+  "zit": [],
+  "es": [],
+  "ornek": "2:51",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Mûsâ\" 131 ayette geçer (peygamber). Komşuları: söz, Allah, kavim, Rab. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "İbrâhîm": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 63,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "kavim",
+   "Rab",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 94.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:124",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İbrâhîm\" 63 ayette geçer (peygamber). Komşuları: Allah, söz, olmak/varlık, kavim. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Nûh": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 43,
+  "komsu": [
+   "kavim",
+   "olmak/varlık",
+   "Allah",
+   "söz",
+   "elçi",
+   "yalanlama"
+  ],
+  "ses": "uzun",
+  "mora": 86.6,
+  "zit": [],
+  "es": [],
+  "ornek": "3:33",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Nûh\" 43 ayette geçer (peygamber). Komşuları: kavim, olmak/varlık, Allah, söz. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Îsâ": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 25,
+  "komsu": [
+   "Allah",
+   "söz",
+   "beyan",
+   "olmak/varlık",
+   "iman/emniyet",
+   "elçi"
+  ],
+  "ses": "uzun",
+  "mora": 159.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:87",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Îsâ\" 25 ayette geçer (peygamber). Komşuları: Allah, söz, beyan, olmak/varlık. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Yûsuf": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 26,
+  "komsu": [
+   "söz",
+   "Allah",
+   "olmak/varlık",
+   "ilim",
+   "şey/dileme",
+   "ümitsizlik"
+  ],
+  "ses": "uzun",
+  "mora": 93.8,
+  "zit": [],
+  "es": [],
+  "ornek": "6:84",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Yûsuf\" 26 ayette geçer (peygamber). Komşuları: söz, Allah, olmak/varlık, ilim. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Süleymân": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 16,
+  "komsu": [
+   "ilim",
+   "söz",
+   "Allah",
+   "olmak/varlık",
+   "Rab",
+   "insanlar"
+  ],
+  "ses": "uzun",
+  "mora": 110.1,
+  "zit": [],
+  "es": [],
+  "ornek": "2:102",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Süleymân\" 16 ayette geçer (peygamber). Komşuları: ilim, söz, Allah, olmak/varlık. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Dâvûd": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 16,
+  "komsu": [
+   "Allah",
+   "hüküm",
+   "ilim",
+   "söz",
+   "lütuf",
+   "kulluk"
+  ],
+  "ses": "uzun",
+  "mora": 105.8,
+  "zit": [],
+  "es": [],
+  "ornek": "2:251",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Dâvûd\" 16 ayette geçer (peygamber). Komşuları: Allah, hüküm, ilim, söz. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Hârûn": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 20,
+  "komsu": [
+   "Rab",
+   "söz",
+   "olmak/varlık",
+   "kavim",
+   "elçi",
+   "rahmet"
+  ],
+  "ses": "kısa",
+  "mora": 66.1,
+  "zit": [],
+  "es": [],
+  "ornek": "2:248",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Hârûn\" 20 ayette geçer (peygamber). Komşuları: Rab, söz, olmak/varlık, kavim. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "İshâk": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 16,
+  "komsu": [
+   "Allah",
+   "söz",
+   "Rab",
+   "kulluk",
+   "indirme",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 107.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:133",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İshâk\" 16 ayette geçer (peygamber). Komşuları: Allah, söz, Rab, kulluk. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Yâkûb": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 16,
+  "komsu": [
+   "Allah",
+   "söz",
+   "ilim",
+   "Rab",
+   "olmak/varlık",
+   "kulluk"
+  ],
+  "ses": "uzun",
+  "mora": 113.9,
+  "zit": [],
+  "es": [],
+  "ornek": "2:132",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Yâkûb\" 16 ayette geçer (peygamber). Komşuları: Allah, söz, ilim, Rab. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "İsmâîl": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 12,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "indirme",
+   "Rab",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 108.8,
+  "zit": [],
+  "es": [],
+  "ornek": "2:125",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İsmâîl\" 12 ayette geçer (peygamber). Komşuları: Allah, söz, olmak/varlık, indirme. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Âdem": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 25,
+  "komsu": [
+   "söz",
+   "olmak/varlık",
+   "melek",
+   "Allah",
+   "Rab",
+   "cennet"
+  ],
+  "ses": "uzun",
+  "mora": 93.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:31",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Âdem\" 25 ayette geçer (peygamber). Komşuları: söz, olmak/varlık, melek, Allah. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Meryem": {
+  "tur": "kişi",
+  "alt_tur": "sâliha-kadın",
+  "ayet_sayisi": 31,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "beyan",
+   "elçi",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 138.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:87",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Meryem\" 31 ayette geçer (sâliha-kadın). Komşuları: Allah, söz, olmak/varlık, beyan. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Lût": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 27,
+  "komsu": [
+   "kavim",
+   "söz",
+   "elçi",
+   "olmak/varlık",
+   "âlem",
+   "korku"
+  ],
+  "ses": "kısa",
+  "mora": 65.0,
+  "zit": [],
+  "es": [],
+  "ornek": "6:86",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Lût\" 27 ayette geçer (peygamber). Komşuları: kavim, söz, elçi, olmak/varlık. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Şuayb": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 10,
+  "komsu": [
+   "söz",
+   "kavim",
+   "Allah",
+   "kulluk",
+   "iman/emniyet",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 103.3,
+  "zit": [],
+  "es": [],
+  "ornek": "7:85",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Şuayb\" 10 ayette geçer (peygamber). Komşuları: söz, kavim, Allah, kulluk. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Sâlih": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 9,
+  "komsu": [
+   "salâh",
+   "kavim",
+   "söz",
+   "Allah",
+   "kulluk",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 105.4,
+  "zit": [],
+  "es": [],
+  "ornek": "7:73",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Sâlih\" 9 ayette geçer (peygamber). Komşuları: salâh, kavim, söz, Allah. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Hûd": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 18,
+  "komsu": [
+   "söz",
+   "Allah",
+   "yardım",
+   "olmak/varlık",
+   "kavim",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 119.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:111",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Hûd\" 18 ayette geçer (peygamber). Komşuları: söz, Allah, yardım, olmak/varlık. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Zekeriyyâ": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 6,
+  "komsu": [
+   "Rab",
+   "söz",
+   "isim",
+   "dua",
+   "ihsan",
+   "rızık"
+  ],
+  "ses": "kısa",
+  "mora": 72.3,
+  "zit": [],
+  "es": [],
+  "ornek": "3:37",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Zekeriyyâ\" 6 ayette geçer (peygamber). Komşuları: Rab, söz, isim, dua. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Yahyâ": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 5,
+  "komsu": [
+   "salâh",
+   "olmak/varlık",
+   "müjde",
+   "isim",
+   "Allah",
+   "dua"
+  ],
+  "ses": "kısa",
+  "mora": 77.4,
+  "zit": [],
+  "es": [],
+  "ornek": "3:39",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Yahyâ\" 5 ayette geçer (peygamber). Komşuları: salâh, olmak/varlık, müjde, isim. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Yûnus": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 4,
+  "komsu": [
+   "iman/emniyet",
+   "lütuf",
+   "âlem",
+   "elçi",
+   "olmak/varlık",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 94.2,
+  "zit": [],
+  "es": [],
+  "ornek": "4:163",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Yûnus\" 4 ayette geçer (peygamber). Komşuları: iman/emniyet, lütuf, âlem, elçi. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Lokmân": {
+  "tur": "kişi",
+  "alt_tur": "hakîm",
+  "ayet_sayisi": 2,
+  "komsu": [
+   "şükür",
+   "Allah",
+   "şirk",
+   "hüküm",
+   "nefs",
+   "küfür"
+  ],
+  "ses": "kısa",
+  "mora": 74.5,
+  "zit": [],
+  "es": [],
+  "ornek": "31:12",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Lokmân\" 2 ayette geçer (hakîm). Komşuları: şükür, Allah, şirk, hüküm. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Firavun": {
+  "tur": "kişi",
+  "alt_tur": "karşı-figür",
+  "ayet_sayisi": 67,
+  "komsu": [
+   "söz",
+   "kavim",
+   "olmak/varlık",
+   "Rab",
+   "Allah",
+   "elçi"
+  ],
+  "ses": "kısa",
+  "mora": 73.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:49",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Firavun\" 67 ayette geçer (karşı-figür). Komşuları: söz, kavim, olmak/varlık, Rab. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "İblîs/şeytan": {
+  "tur": "kişi",
+  "alt_tur": "karşı-figür",
+  "ayet_sayisi": 70,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "beyan",
+   "ilim",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 104.7,
+  "zit": [],
+  "es": [],
+  "ornek": "2:36",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İblîs/şeytan\" 70 ayette geçer (karşı-figür). Komşuları: Allah, söz, olmak/varlık, beyan. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Hâmân": {
+  "tur": "kişi",
+  "alt_tur": "karşı-figür",
+  "ayet_sayisi": 6,
+  "komsu": [
+   "olmak/varlık",
+   "söz",
+   "Allah",
+   "yalanlama",
+   "beyan",
+   "ilim"
+  ],
+  "ses": "kısa",
+  "mora": 78.2,
+  "zit": [],
+  "es": [],
+  "ornek": "28:6",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Hâmân\" 6 ayette geçer (karşı-figür). Komşuları: olmak/varlık, söz, Allah, yalanlama. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Kârûn": {
+  "tur": "kişi",
+  "alt_tur": "karşı-figür",
+  "ayet_sayisi": 4,
+  "komsu": [
+   "kavim",
+   "söz",
+   "olmak/varlık",
+   "beyan",
+   "azgınlık",
+   "Allah"
+  ],
+  "ses": "uzun",
+  "mora": 90.5,
+  "zit": [],
+  "es": [],
+  "ornek": "28:76",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Kârûn\" 4 ayette geçer (karşı-figür). Komşuları: kavim, söz, olmak/varlık, beyan. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Âd": {
+  "tur": "kavim",
+  "alt_tur": "helâk-olan",
+  "ayet_sayisi": 43,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kavim: elçi→tepki→kader",
+  "anlati": "\"Âd\" 43 ayette — kavim / helâk-olan. kavim: elçi→tepki→kader"
+ },
+ "Semûd": {
+  "tur": "kavim",
+  "alt_tur": "helâk-olan",
+  "ayet_sayisi": 25,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kavim: elçi→tepki→kader",
+  "anlati": "\"Semûd\" 25 ayette — kavim / helâk-olan. kavim: elçi→tepki→kader"
+ },
+ "İsrâîloğulları": {
+  "tur": "kavim",
+  "alt_tur": "süregelen",
+  "ayet_sayisi": 41,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "elçi",
+   "beyan",
+   "nimet"
+  ],
+  "ses": "uzun",
+  "mora": 123.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:40",
+  "okuma": "kavim: elçi→tepki→kader",
+  "anlati": "\"İsrâîloğulları\" 41 ayette — kavim / süregelen. Komşuları: Allah, söz, olmak/varlık, elçi. kavim: elçi→tepki→kader"
+ },
+ "Medyen": {
+  "tur": "kavim",
+  "alt_tur": "helâk-olan",
+  "ayet_sayisi": 10,
+  "komsu": [
+   "söz",
+   "Allah",
+   "olmak/varlık",
+   "kavim",
+   "kulluk",
+   "nefs"
+  ],
+  "ses": "uzun",
+  "mora": 114.8,
+  "zit": [],
+  "es": [],
+  "ornek": "7:85",
+  "okuma": "kavim: elçi→tepki→kader",
+  "anlati": "\"Medyen\" 10 ayette — kavim / helâk-olan. Komşuları: söz, Allah, olmak/varlık, kavim. kavim: elçi→tepki→kader"
+ },
+ "Kureyş": {
+  "tur": "kavim",
+  "alt_tur": "süregelen",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "kısa",
+  "mora": 12.0,
+  "zit": [],
+  "es": [],
+  "ornek": "106:1",
+  "okuma": "kavim: elçi→tepki→kader",
+  "anlati": "\"Kureyş\" 1 ayette — kavim / süregelen. kavim: elçi→tepki→kader"
+ },
+ "Arş": {
+  "tur": "yer/âlem",
+  "alt_tur": "kozmik",
+  "ayet_sayisi": 28,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"Arş\" 28 ayette — yer/âlem / kozmik. yer: kimin + nerede + nitelik"
+ },
+ "cennet": {
+  "tur": "yer/âlem",
+  "alt_tur": "uhrevî",
+  "ayet_sayisi": 156,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "nehir",
+   "amel",
+   "Rab",
+   "söz"
+  ],
+  "ses": "uzun",
+  "mora": 88.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:25",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"cennet\" 156 ayette — yer/âlem / uhrevî. Komşuları: Allah, iman/emniyet, nehir, amel. yer: kimin + nerede + nitelik"
+ },
+ "cehennem": {
+  "tur": "yer/âlem",
+  "alt_tur": "uhrevî",
+  "ayet_sayisi": 77,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"cehennem\" 77 ayette — yer/âlem / uhrevî. yer: kimin + nerede + nitelik"
+ },
+ "gök(çoğul)": {
+  "tur": "yer/âlem",
+  "alt_tur": "kozmik",
+  "ayet_sayisi": 297,
+  "komsu": [
+   "Allah",
+   "söz",
+   "yaratma",
+   "ilim",
+   "şey/dileme",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 91.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:19",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"gök(çoğul)\" 297 ayette — yer/âlem / kozmik. Komşuları: Allah, söz, yaratma, ilim. yer: kimin + nerede + nitelik"
+ },
+ "Kur'ân": {
+  "tur": "kitap",
+  "alt_tur": "son-vahiy",
+  "ayet_sayisi": 69,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"Kur'ân\" 69 ayette — kitap / son-vahiy."
+ },
+ "Tevrât": {
+  "tur": "kitap",
+  "alt_tur": "önceki-vahiy",
+  "ayet_sayisi": 16,
+  "komsu": [
+   "Allah",
+   "indirme",
+   "beyan",
+   "kitap",
+   "hüküm",
+   "söz"
+  ],
+  "ses": "uzun",
+  "mora": 167.1,
+  "zit": [],
+  "es": [],
+  "ornek": "3:3",
+  "okuma": "",
+  "anlati": "\"Tevrât\" 16 ayette — kitap / önceki-vahiy. Komşuları: Allah, indirme, beyan, kitap."
+ },
+ "İncîl": {
+  "tur": "kitap",
+  "alt_tur": "önceki-vahiy",
+  "ayet_sayisi": 12,
+  "komsu": [
+   "Allah",
+   "indirme",
+   "kitap",
+   "beyan",
+   "küfür",
+   "hüküm"
+  ],
+  "ses": "uzun",
+  "mora": 176.8,
+  "zit": [],
+  "es": [],
+  "ornek": "3:3",
+  "okuma": "",
+  "anlati": "\"İncîl\" 12 ayette — kitap / önceki-vahiy. Komşuları: Allah, indirme, kitap, beyan."
+ },
+ "secde": {
+  "tur": "olay",
+  "alt_tur": "evrensel",
+  "ayet_sayisi": 81,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "iman/emniyet",
+   "Rab",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 109.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:34",
+  "okuma": "",
+  "anlati": "\"secde\" 81 ayette — olay / evrensel. Komşuları: Allah, söz, olmak/varlık, iman/emniyet."
+ },
+ "yaratma": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 218,
+  "komsu": [
+   "Allah",
+   "gök",
+   "söz",
+   "şey/dileme",
+   "olmak/varlık",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 82.0,
+  "zit": [],
+  "es": [],
+  "ornek": "2:21",
+  "okuma": "",
+  "anlati": "\"yaratma\" 218 ayette — olay / kozmos-olayı. Komşuları: Allah, gök, söz, şey/dileme."
+ },
+ "rükû": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 10,
+  "komsu": [
+   "iman/emniyet",
+   "Allah",
+   "kavim",
+   "namaz",
+   "Rab",
+   "kulluk"
+  ],
+  "ses": "uzun",
+  "mora": 116.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:43",
+  "okuma": "",
+  "anlati": "\"rükû\" 10 ayette — olay / insan-ibadeti. Komşuları: iman/emniyet, Allah, kavim, namaz."
+ },
+ "tesbih": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 87,
+  "komsu": [
+   "Allah",
+   "Rab",
+   "söz",
+   "olmak/varlık",
+   "ilim",
+   "gök"
+  ],
+  "ses": "kısa",
+  "mora": 74.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:30",
+  "okuma": "",
+  "anlati": "\"tesbih\" 87 ayette — olay / kozmos-olayı. Komşuları: Allah, Rab, söz, olmak/varlık."
+ },
+ "diriliş": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 64,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "ilim",
+   "beyan",
+   "elçi"
+  ],
+  "ses": "uzun",
+  "mora": 97.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:56",
+  "okuma": "",
+  "anlati": "\"diriliş\" 64 ayette — olay / insan-ibadeti. Komşuları: Allah, söz, olmak/varlık, ilim."
+ },
+ "güneş": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 32,
+  "komsu": [
+   "Allah",
+   "gündüz",
+   "söz",
+   "Rab",
+   "kavim",
+   "yaratma"
+  ],
+  "ses": "uzun",
+  "mora": 90.4,
+  "zit": [],
+  "es": [],
+  "ornek": "2:258",
+  "okuma": "",
+  "anlati": "\"güneş\" 32 ayette — olay / kozmos-olayı. Komşuları: Allah, gündüz, söz, Rab."
+ },
+ "ay": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 26,
+  "komsu": [
+   "Allah",
+   "gündüz",
+   "yaratma",
+   "gök",
+   "Rab",
+   "söz"
+  ],
+  "ses": "kısa",
+  "mora": 77.1,
+  "zit": [],
+  "es": [],
+  "ornek": "6:77",
+  "okuma": "",
+  "anlati": "\"ay\" 26 ayette — olay / kozmos-olayı. Komşuları: Allah, gündüz, yaratma, gök."
+ },
+ "yıldız": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 13,
+  "komsu": [
+   "Allah",
+   "gök",
+   "hidâyet",
+   "gündüz",
+   "kavim",
+   "Rab"
+  ],
+  "ses": "kısa",
+  "mora": 55.6,
+  "zit": [],
+  "es": [],
+  "ornek": "6:97",
+  "okuma": "",
+  "anlati": "\"yıldız\" 13 ayette — olay / kozmos-olayı. Komşuları: Allah, gök, hidâyet, gündüz."
+ },
+ "gece": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 81,
+  "komsu": [
+   "gündüz",
+   "Allah",
+   "kavim",
+   "Rab",
+   "söz",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 83.8,
+  "zit": [],
+  "es": [],
+  "ornek": "2:51",
+  "okuma": "",
+  "anlati": "\"gece\" 81 ayette — olay / kozmos-olayı. Komşuları: gündüz, Allah, kavim, Rab."
+ },
+ "karınca": {
+  "tur": "tekil-sahne",
+  "alt_tur": "",
+  "ayet_sayisi": 2,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "anlati": "\"karınca\" 2 ayette — tekil-sahne. tekil sahne — tek/az ayet, kıssa/misal"
+ },
+ "örümcek": {
+  "tur": "tekil-sahne",
+  "alt_tur": "",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "anlati": "\"örümcek\" 1 ayette — tekil-sahne. tekil sahne — tek/az ayet, kıssa/misal"
+ },
+ "sinek": {
+  "tur": "tekil-sahne",
+  "alt_tur": "",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "anlati": "\"sinek\" 1 ayette — tekil-sahne. tekil sahne — tek/az ayet, kıssa/misal"
+ },
+ "Tûr": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 14,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"Tûr\" 14 ayette — yer/âlem / dünyevî. yer: kimin + nerede + nitelik"
+ },
+ "İdrîs": {
+  "tur": "kişi",
+  "alt_tur": "",
+  "ayet_sayisi": 2,
+  "komsu": [
+   "sabır",
+   "zikir",
+   "kitap",
+   "olmak/varlık"
+  ],
+  "ses": "kısa",
+  "mora": 45.5,
+  "zit": [],
+  "es": [],
+  "ornek": "19:56",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İdrîs\" 2 ayette geçer (). Komşuları: sabır, zikir, kitap, olmak/varlık. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "arı": {
+  "tur": "tekil-sahne",
+  "alt_tur": "",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "anlati": "\"arı\" 1 ayette — tekil-sahne. tekil sahne — tek/az ayet, kıssa/misal"
+ },
+ "Hüdhüd": {
+  "tur": "tekil-sahne",
+  "alt_tur": "",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "anlati": "\"Hüdhüd\" 1 ayette — tekil-sahne. tekil sahne — tek/az ayet, kıssa/misal"
+ },
+ "nehir": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 51,
+  "komsu": [
+   "Allah",
+   "cennet",
+   "iman/emniyet",
+   "amel",
+   "salâh",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 128.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:25",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"nehir\" 51 ayette — yer/âlem / dünyevî. Komşuları: Allah, cennet, iman/emniyet, amel. yer: kimin + nerede + nitelik"
+ },
+ "deniz": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 40,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "gök",
+   "beyan",
+   "zulüm"
+  ],
+  "ses": "uzun",
+  "mora": 95.1,
+  "zit": [],
+  "es": [],
+  "ornek": "2:50",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"deniz\" 40 ayette — yer/âlem / dünyevî. Komşuları: Allah, olmak/varlık, söz, gök. yer: kimin + nerede + nitelik"
+ },
+ "dağ": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 39,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "Rab",
+   "gök",
+   "iman/emniyet"
+  ],
+  "ses": "kısa",
+  "mora": 77.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:260",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"dağ\" 39 ayette — yer/âlem / dünyevî. Komşuları: Allah, olmak/varlık, söz, Rab. yer: kimin + nerede + nitelik"
+ },
+ "kuş": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 22,
+  "komsu": [
+   "söz",
+   "Allah",
+   "ilim",
+   "olmak/varlık",
+   "insanlar",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 102.8,
+  "zit": [],
+  "es": [],
+  "ornek": "2:260",
+  "okuma": "",
+  "anlati": "\"kuş\" 22 ayette — olay / kozmos-olayı. Komşuları: söz, Allah, ilim, olmak/varlık."
+ },
+ "ağaç": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 26,
+  "komsu": [
+   "Allah",
+   "Rab",
+   "gök",
+   "söz",
+   "olmak/varlık",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 86.9,
+  "zit": [],
+  "es": [],
+  "ornek": "2:35",
+  "okuma": "",
+  "anlati": "\"ağaç\" 26 ayette — olay / kozmos-olayı. Komşuları: Allah, Rab, gök, söz."
+ },
+ "meyve": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 22,
+  "komsu": [
+   "rızık",
+   "nehir",
+   "söz",
+   "gök",
+   "Rab",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 134.0,
+  "zit": [],
+  "es": [],
+  "ornek": "2:22",
+  "okuma": "",
+  "anlati": "\"meyve\" 22 ayette — olay / kozmos-olayı. Komşuları: rızık, nehir, söz, gök."
+ },
+ "yağmur": {
+  "tur": "olay",
+  "alt_tur": "evrensel",
+  "ayet_sayisi": 9,
+  "komsu": [
+   "olmak/varlık",
+   "azap",
+   "namaz",
+   "söz",
+   "kavim",
+   "küfür"
+  ],
+  "ses": "uzun",
+  "mora": 98.9,
+  "zit": [],
+  "es": [],
+  "ornek": "4:102",
+  "okuma": "",
+  "anlati": "\"yağmur\" 9 ayette — olay / evrensel. Komşuları: olmak/varlık, azap, namaz, söz."
+ },
+ "rüzgâr": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 28,
+  "komsu": [
+   "Allah",
+   "elçi",
+   "gök",
+   "olmak/varlık",
+   "indirme",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 103.4,
+  "zit": [],
+  "es": [],
+  "ornek": "2:164",
+  "okuma": "",
+  "anlati": "\"rüzgâr\" 28 ayette — olay / kozmos-olayı. Komşuları: Allah, elçi, gök, olmak/varlık."
+ },
+ "namaz": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 90,
+  "komsu": [
+   "Allah",
+   "kavim",
+   "olmak/varlık",
+   "iman/emniyet",
+   "Rab",
+   "zikir"
+  ],
+  "ses": "uzun",
+  "mora": 110.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:3",
+  "okuma": "",
+  "anlati": "\"namaz\" 90 ayette — olay / insan-ibadeti. Komşuları: Allah, kavim, olmak/varlık, iman/emniyet."
+ },
+ "zekât": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 56,
+  "komsu": [
+   "Allah",
+   "namaz",
+   "kavim",
+   "ilim",
+   "söz",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 116.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:43",
+  "okuma": "",
+  "anlati": "\"zekât\" 56 ayette — olay / insan-ibadeti. Komşuları: Allah, namaz, kavim, ilim."
+ },
+ "oruç": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 11,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "olmak/varlık",
+   "hidâyet",
+   "beyan",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 225.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:183",
+  "okuma": "",
+  "anlati": "\"oruç\" 11 ayette — olay / insan-ibadeti. Komşuları: Allah, iman/emniyet, olmak/varlık, hidâyet."
+ },
+ "hac": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 25,
+  "komsu": [
+   "Allah",
+   "söz",
+   "ilim",
+   "Rab",
+   "hidâyet",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 133.7,
+  "zit": [],
+  "es": [],
+  "ornek": "2:76",
+  "okuma": "",
+  "anlati": "\"hac\" 25 ayette — olay / insan-ibadeti. Komşuları: Allah, söz, ilim, Rab."
+ },
+ "dua": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 182,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "şirk",
+   "beyan"
+  ],
+  "ses": "uzun",
+  "mora": 97.2,
+  "zit": [],
+  "es": [],
+  "ornek": "2:23",
+  "okuma": "",
+  "anlati": "\"dua\" 182 ayette — olay / insan-ibadeti. Komşuları: Allah, söz, olmak/varlık, Rab."
+ },
+ "tevbe": {
+  "tur": "olay",
+  "alt_tur": "insan-ibadeti",
+  "ayet_sayisi": 69,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "rahmet",
+   "mağfiret",
+   "Rab",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 120.8,
+  "zit": [],
+  "es": [],
+  "ornek": "2:37",
+  "okuma": "",
+  "anlati": "\"tevbe\" 69 ayette — olay / insan-ibadeti. Komşuları: Allah, iman/emniyet, rahmet, mağfiret."
+ },
+ "mağfiret": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 202,
+  "komsu": [
+   "Allah",
+   "rahmet",
+   "Rab",
+   "iman/emniyet",
+   "söz",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 106.2,
+  "zit": [
+   "azap"
+  ],
+  "es": [],
+  "ornek": "2:58",
+  "okuma": "",
+  "anlati": "\"mağfiret\" 202 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, rahmet, Rab, iman/emniyet ile anıyor. Zıddı: azap."
+ },
+ "mîzan/ölçü": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 21,
+  "komsu": [
+   "Allah",
+   "kavim",
+   "nefs",
+   "olmak/varlık",
+   "insanlar",
+   "şey/dileme"
+  ],
+  "ses": "kısa",
+  "mora": 74.1,
+  "zit": [],
+  "es": [],
+  "ornek": "6:152",
+  "okuma": "",
+  "anlati": "\"mîzan/ölçü\" 21 ayette geçer — kısa ayetlerin kavramı. Metin onu en sık Allah, kavim, nefs, olmak/varlık ile anıyor."
+ },
+ "rızık": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 109,
+  "komsu": [
+   "Allah",
+   "söz",
+   "iman/emniyet",
+   "Rab",
+   "şey/dileme",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 102.0,
+  "zit": [],
+  "es": [],
+  "ornek": "2:3",
+  "okuma": "",
+  "anlati": "\"rızık\" 109 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, iman/emniyet, Rab ile anıyor."
+ },
+ "nimet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 128,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "iman/emniyet",
+   "Rab",
+   "insanlar"
+  ],
+  "ses": "uzun",
+  "mora": 95.1,
+  "zit": [
+   "azap"
+  ],
+  "es": [],
+  "ornek": "1:7",
+  "okuma": "",
+  "anlati": "\"nimet\" 128 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, olmak/varlık, söz, iman/emniyet ile anıyor. Zıddı: azap."
+ },
+ "fitne": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 58,
+  "komsu": [
+   "Allah",
+   "söz",
+   "ilim",
+   "Rab",
+   "iman/emniyet",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 110.7,
+  "zit": [],
+  "es": [],
+  "ornek": "2:102",
+  "okuma": "",
+  "anlati": "\"fitne\" 58 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, ilim, Rab ile anıyor."
+ },
+ "cihad": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 36,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "ilim",
+   "olmak/varlık",
+   "nefs",
+   "elçi"
+  ],
+  "ses": "uzun",
+  "mora": 117.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:218",
+  "okuma": "",
+  "anlati": "\"cihad\" 36 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, iman/emniyet, ilim, olmak/varlık ile anıyor."
+ },
+ "Câlût": {
+  "tur": "kişi",
+  "alt_tur": "karşı-figür",
+  "ayet_sayisi": 3,
+  "komsu": [
+   "Allah",
+   "söz",
+   "sabır",
+   "mülk",
+   "hüküm",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 184.7,
+  "zit": [],
+  "es": [],
+  "ornek": "2:249",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Câlût\" 3 ayette geçer (karşı-figür). Komşuları: Allah, söz, sabır, mülk. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Tâlût": {
+  "tur": "kişi",
+  "alt_tur": "melik/hükümdar",
+  "ayet_sayisi": 2,
+  "komsu": [
+   "Allah",
+   "söz",
+   "mülk",
+   "ilim",
+   "kral",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 252.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:247",
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Tâlût\" 2 ayette geçer (melik/hükümdar). Komşuları: Allah, söz, mülk, ilim. kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "esmâ:Rahman": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 56,
+  "komsu": [
+   "rahmet",
+   "söz",
+   "Allah",
+   "olmak/varlık",
+   "kulluk",
+   "küfür"
+  ],
+  "ses": "kısa",
+  "mora": 62.8,
+  "zit": [],
+  "es": [
+   "Rahim",
+   "Habir"
+  ],
+  "ornek": "1:1",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 56 ayette. Metinde en sık Rahim, Habir ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Rahim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 116,
+  "komsu": [
+   "Allah",
+   "rahmet",
+   "mağfiret",
+   "tevbe",
+   "Rab",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 101.2,
+  "zit": [],
+  "es": [
+   "Gafur",
+   "Aziz"
+  ],
+  "ornek": "1:1",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 116 ayette. Metinde en sık Gafur, Aziz ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Aziz": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 101,
+  "komsu": [
+   "Allah",
+   "izzet",
+   "hüküm",
+   "Rab",
+   "rahmet",
+   "söz"
+  ],
+  "ses": "kısa",
+  "mora": 76.7,
+  "zit": [],
+  "es": [
+   "Hakim",
+   "Rahim"
+  ],
+  "ornek": "2:129",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 101 ayette. Metinde en sık Hakim, Rahim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Hakim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 97,
+  "komsu": [
+   "Allah",
+   "hüküm",
+   "ilim",
+   "izzet",
+   "olmak/varlık",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 93.3,
+  "zit": [],
+  "es": [
+   "Aziz",
+   "Alim"
+  ],
+  "ornek": "2:32",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 97 ayette. Metinde en sık Aziz, Alim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Alim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 163,
+  "komsu": [
+   "Allah",
+   "ilim",
+   "olmak/varlık",
+   "şey/dileme",
+   "söz",
+   "hüküm"
+  ],
+  "ses": "uzun",
+  "mora": 107.9,
+  "zit": [],
+  "es": [
+   "Hakim",
+   "Semi"
+  ],
+  "ornek": "2:29",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 163 ayette. Metinde en sık Hakim, Semi ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Gafur": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 91,
+  "komsu": [
+   "Allah",
+   "mağfiret",
+   "rahmet",
+   "olmak/varlık",
+   "iman/emniyet",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 113.9,
+  "zit": [],
+  "es": [
+   "Rahim",
+   "Halim"
+  ],
+  "ornek": "2:173",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 91 ayette. Metinde en sık Rahim, Halim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Melik": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 15,
+  "komsu": [
+   "Allah",
+   "söz",
+   "kral",
+   "ilim",
+   "olmak/varlık",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 108.6,
+  "zit": [],
+  "es": [
+   "Alim",
+   "Aziz"
+  ],
+  "ornek": "2:246",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 15 ayette. Metinde en sık Alim, Aziz ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kadir": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 45,
+  "komsu": [
+   "Allah",
+   "şey/dileme",
+   "ölçü",
+   "gök",
+   "söz",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 103.5,
+  "zit": [],
+  "es": [
+   "Alim",
+   "Gafur"
+  ],
+  "ornek": "2:20",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 45 ayette. Metinde en sık Alim, Gafur ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Semi": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 47,
+  "komsu": [
+   "Allah",
+   "ilim",
+   "Rab",
+   "söz",
+   "iman/emniyet",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 80.1,
+  "zit": [],
+  "es": [
+   "Alim",
+   "Basir"
+  ],
+  "ornek": "2:127",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 47 ayette. Metinde en sık Alim, Basir ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Basir": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 51,
+  "komsu": [
+   "Allah",
+   "amel",
+   "söz",
+   "olmak/varlık",
+   "kulluk",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 103.0,
+  "zit": [],
+  "es": [
+   "Semi",
+   "Habir"
+  ],
+  "ornek": "2:96",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 51 ayette. Metinde en sık Semi, Habir ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Hamid": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 17,
+  "komsu": [
+   "Allah",
+   "velî",
+   "söz",
+   "küfür",
+   "indirme",
+   "hidâyet"
+  ],
+  "ses": "uzun",
+  "mora": 80.5,
+  "zit": [],
+  "es": [
+   "Aziz",
+   "Hakim"
+  ],
+  "ornek": "2:267",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 17 ayette. Metinde en sık Aziz, Hakim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kerim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 30,
+  "komsu": [
+   "söz",
+   "Allah",
+   "mağfiret",
+   "rızık",
+   "Rab",
+   "iman/emniyet"
+  ],
+  "ses": "kısa",
+  "mora": 64.3,
+  "zit": [],
+  "es": [
+   "Melik",
+   "Selam"
+  ],
+  "ornek": "4:31",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 30 ayette. Metinde en sık Melik, Selam ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Azim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 107,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "azap",
+   "söz",
+   "lütuf",
+   "olmak/varlık"
+  ],
+  "ses": "uzun",
+  "mora": 92.9,
+  "zit": [],
+  "es": [
+   "Rahim"
+  ],
+  "ornek": "2:7",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 107 ayette. Metinde en sık Rahim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kebir": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 40,
+  "komsu": [
+   "Allah",
+   "söz",
+   "iman/emniyet",
+   "kitap",
+   "olmak/varlık",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 109.5,
+  "zit": [],
+  "es": [
+   "Alim",
+   "Aziz"
+  ],
+  "ornek": "2:217",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 40 ayette. Metinde en sık Alim, Aziz ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Latif": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 7,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "gök",
+   "ilim",
+   "şey/dileme",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 85.0,
+  "zit": [],
+  "es": [
+   "Habir",
+   "Hakim"
+  ],
+  "ornek": "6:103",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 7 ayette. Metinde en sık Habir, Hakim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Habir": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 45,
+  "komsu": [
+   "Allah",
+   "amel",
+   "olmak/varlık",
+   "söz",
+   "iman/emniyet",
+   "beyan"
+  ],
+  "ses": "uzun",
+  "mora": 105.4,
+  "zit": [],
+  "es": [
+   "Latif",
+   "Basir"
+  ],
+  "ornek": "2:234",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 45 ayette. Metinde en sık Latif, Basir ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Vedud": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 2,
+  "komsu": [
+   "mağfiret",
+   "Rab",
+   "tevbe",
+   "rahmet"
+  ],
+  "ses": "kısa",
+  "mora": 34.5,
+  "zit": [],
+  "es": [
+   "Rahim",
+   "Gafur"
+  ],
+  "ornek": "11:90",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 2 ayette. Metinde en sık Rahim, Gafur ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Tevvab": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 12,
+  "komsu": [
+   "tevbe",
+   "Allah",
+   "rahmet",
+   "nefs",
+   "elçi",
+   "mağfiret"
+  ],
+  "ses": "uzun",
+  "mora": 106.8,
+  "zit": [],
+  "es": [
+   "Rahim",
+   "Hakim"
+  ],
+  "ornek": "2:37",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 12 ayette. Metinde en sık Rahim, Hakim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Halim": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 15,
+  "komsu": [
+   "Allah",
+   "hilm",
+   "olmak/varlık",
+   "mağfiret",
+   "ilim",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 120.9,
+  "zit": [],
+  "es": [
+   "Gafur",
+   "Alim"
+  ],
+  "ornek": "2:225",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 15 ayette. Metinde en sık Gafur, Alim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Sekur": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 10,
+  "komsu": [
+   "şükür",
+   "Allah",
+   "mağfiret",
+   "sabır",
+   "kulluk",
+   "amel"
+  ],
+  "ses": "uzun",
+  "mora": 88.4,
+  "zit": [],
+  "es": [
+   "Gafur",
+   "Halim"
+  ],
+  "ornek": "14:5",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 10 ayette. Metinde en sık Gafur, Halim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Selam": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 39,
+  "komsu": [
+   "söz",
+   "Allah",
+   "Rab",
+   "amel",
+   "olmak/varlık",
+   "iman/emniyet"
+  ],
+  "ses": "kısa",
+  "mora": 63.1,
+  "zit": [],
+  "es": [
+   "Rahim",
+   "Habir"
+  ],
+  "ornek": "4:94",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 39 ayette. Metinde en sık Rahim, Habir ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Cebbar": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "celâl",
+  "ayet_sayisi": 10,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "iman/emniyet",
+   "ilim",
+   "zikir"
+  ],
+  "ses": "kısa",
+  "mora": 75.2,
+  "zit": [],
+  "es": [
+   "Melik",
+   "Aziz"
+  ],
+  "ornek": "5:22",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 10 ayette. Metinde en sık Melik, Aziz ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Halik": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 12,
+  "komsu": [
+   "yaratma",
+   "Allah",
+   "şey/dileme",
+   "söz",
+   "Rab",
+   "ihsan"
+  ],
+  "ses": "kısa",
+  "mora": 77.8,
+  "zit": [],
+  "es": [
+   "Basir",
+   "Kahhar"
+  ],
+  "ornek": "6:102",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 12 ayette. Metinde en sık Basir, Kahhar ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kahhar": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "celâl",
+  "ayet_sayisi": 6,
+  "komsu": [
+   "Allah",
+   "söz",
+   "tevhid",
+   "yaratma",
+   "şey/dileme",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 91.7,
+  "zit": [],
+  "es": [
+   "Basir",
+   "Halik"
+  ],
+  "ornek": "12:39",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 6 ayette. Metinde en sık Basir, Halik ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Vehhab": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 3,
+  "komsu": [
+   "Rab",
+   "rahmet",
+   "söz",
+   "mağfiret",
+   "mülk",
+   "azgınlık"
+  ],
+  "ses": "kısa",
+  "mora": 59.0,
+  "zit": [],
+  "es": [
+   "Aziz"
+  ],
+  "ornek": "3:8",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 3 ayette. Metinde en sık Aziz ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Rezzak": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 1,
+  "komsu": [
+   "Allah",
+   "rızık"
+  ],
+  "ses": "kısa",
+  "mora": 37.0,
+  "zit": [],
+  "es": [],
+  "ornek": "51:58",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 1 ayette. Komşuları: Allah, rızık. ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Fettah": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 1,
+  "komsu": [
+   "beyan",
+   "söz",
+   "Rab",
+   "hak",
+   "ilim"
+  ],
+  "ses": "kısa",
+  "mora": 57.0,
+  "zit": [],
+  "es": [
+   "Alim"
+  ],
+  "ornek": "34:26",
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür",
+  "anlati": "İlâhî isim — 1 ayette. Metinde en sık Alim ile eşleşiyor (esmâ çifti). ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "melek": {
+  "tur": "gayb-varlık",
+  "alt_tur": "itaatkâr-gayb",
+  "ayet_sayisi": 86,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "indirme",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 101.7,
+  "zit": [],
+  "es": [],
+  "ornek": "2:30",
+  "okuma": "",
+  "anlati": "\"melek\" 86 ayette — gayb-varlık / itaatkâr-gayb. Komşuları: Allah, söz, olmak/varlık, Rab."
+ },
+ "cin": {
+  "tur": "gayb-varlık",
+  "alt_tur": "karışık-gayb",
+  "ayet_sayisi": 29,
+  "komsu": [
+   "insanlar",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "velî",
+   "yaratma"
+  ],
+  "ses": "uzun",
+  "mora": 95.3,
+  "zit": [],
+  "es": [],
+  "ornek": "6:100",
+  "okuma": "",
+  "anlati": "\"cin\" 29 ayette — gayb-varlık / karışık-gayb. Komşuları: insanlar, söz, olmak/varlık, Rab."
+ },
+ "ruh": {
+  "tur": "gayb-varlık",
+  "alt_tur": "müteşâbih-gayb",
+  "ayet_sayisi": 22,
+  "komsu": [
+   "Allah",
+   "söz",
+   "iman/emniyet",
+   "elçi",
+   "olmak/varlık",
+   "kitap"
+  ],
+  "ses": "uzun",
+  "mora": 114.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:87",
+  "okuma": "",
+  "anlati": "\"ruh\" 22 ayette — gayb-varlık / müteşâbih-gayb. Komşuları: Allah, söz, iman/emniyet, elçi."
+ },
+ "zikir": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 246,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "Rab",
+   "söz",
+   "ilim",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 84.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:40",
+  "okuma": "",
+  "anlati": "\"zikir\" 246 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, olmak/varlık, Rab, söz ile anıyor."
+ },
+ "hikmet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 189,
+  "komsu": [
+   "Allah",
+   "ilim",
+   "olmak/varlık",
+   "beyan",
+   "söz",
+   "izzet"
+  ],
+  "ses": "uzun",
+  "mora": 101.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:32",
+  "okuma": "",
+  "anlati": "\"hikmet\" 189 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, ilim, olmak/varlık, beyan ile anıyor."
+ },
+ "sıdk": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 144,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"sıdk\" 144 ayette geçer — — ayetlerin kavramı."
+ },
+ "haşyet": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 40,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"haşyet\" 40 ayette geçer — — ayetlerin kavramı."
+ },
+ "af": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 31,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"af\" 31 ayette geçer — — ayetlerin kavramı."
+ },
+ "yakîn": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 28,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"yakîn\" 28 ayette geçer — — ayetlerin kavramı."
+ },
+ "tevekkül": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 61,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"tevekkül\" 61 ayette geçer — — ayetlerin kavramı."
+ },
+ "hilm": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 20,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"hilm\" 20 ayette geçer — — ayetlerin kavramı."
+ },
+ "zulüm": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 290,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "kavim",
+   "nefs"
+  ],
+  "ses": "uzun",
+  "mora": 98.4,
+  "zit": [],
+  "es": [],
+  "ornek": "2:17",
+  "okuma": "",
+  "anlati": "\"zulüm\" 290 ayette geçer — uzun ayetlerin kavramı. Metin onu en sık Allah, söz, olmak/varlık, Rab ile anıyor."
+ },
+ "kibir": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 153,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"kibir\" 153 ayette geçer — — ayetlerin kavramı."
+ },
+ "nifak": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 86,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"nifak\" 86 ayette geçer — — ayetlerin kavramı."
+ },
+ "fısk": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 54,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"fısk\" 54 ayette geçer — — ayetlerin kavramı."
+ },
+ "heva": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 37,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"heva\" 37 ayette geçer — — ayetlerin kavramı."
+ },
+ "gaflet": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 35,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"gaflet\" 35 ayette geçer — — ayetlerin kavramı."
+ },
+ "hayr": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 178,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"hayr\" 178 ayette geçer — — ayetlerin kavramı."
+ },
+ "rızâ": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 64,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"rızâ\" 64 ayette geçer — — ayetlerin kavramı."
+ },
+ "hüzün": {
+  "tur": "kavram",
+  "alt_tur": "karşı-kavram",
+  "ayet_sayisi": 42,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"hüzün\" 42 ayette geçer — — ayetlerin kavramı."
+ },
+ "birr": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 30,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"birr\" 30 ayette geçer — — ayetlerin kavramı."
+ },
+ "tahâret": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 26,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"tahâret\" 26 ayette geçer — — ayetlerin kavramı."
+ },
+ "sevinç/ferah": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 21,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"sevinç/ferah\" 21 ayette geçer — — ayetlerin kavramı."
+ },
+ "huşû": {
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 16,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"huşû\" 16 ayette geçer — — ayetlerin kavramı."
+ },
+ "nefs": {
+  "tur": "insan-hâli",
+  "alt_tur": "yönelim-merkezi",
+  "ayet_sayisi": 268,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "söz",
+   "zulüm",
+   "ilim",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 117.1,
+  "zit": [],
+  "es": [],
+  "ornek": "2:9",
+  "okuma": "",
+  "anlati": "\"nefs\" 268 ayette — insan-hâli / yönelim-merkezi. Komşuları: Allah, olmak/varlık, söz, zulüm."
+ },
+ "kalp": {
+  "tur": "insan-hâli",
+  "alt_tur": "yönelim-merkezi",
+  "ayet_sayisi": 155,
+  "komsu": [
+   "Allah",
+   "iman/emniyet",
+   "söz",
+   "olmak/varlık",
+   "ilim",
+   "Rab"
+  ],
+  "ses": "uzun",
+  "mora": 110.0,
+  "zit": [],
+  "es": [],
+  "ornek": "2:7",
+  "okuma": "",
+  "anlati": "\"kalp\" 155 ayette — insan-hâli / yönelim-merkezi. Komşuları: Allah, iman/emniyet, söz, olmak/varlık."
+ },
+ "akıl": {
+  "tur": "insan-hâli",
+  "alt_tur": "idrak-organı",
+  "ayet_sayisi": 49,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"akıl\" 49 ayette — insan-hâli / idrak-organı."
+ },
+ "göz": {
+  "tur": "insan-hâli",
+  "alt_tur": "idrak-organı",
+  "ayet_sayisi": 63,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"göz\" 63 ayette — insan-hâli / idrak-organı."
+ },
+ "yüz": {
+  "tur": "insan-hâli",
+  "alt_tur": "yönelim-merkezi",
+  "ayet_sayisi": 71,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"yüz\" 71 ayette — insan-hâli / yönelim-merkezi."
+ },
+ "beşer": {
+  "tur": "toplum",
+  "alt_tur": "tür-geneli",
+  "ayet_sayisi": 119,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"beşer\" 119 ayette — toplum / tür-geneli."
+ },
+ "halk/kavim": {
+  "tur": "toplum",
+  "alt_tur": "topluluk",
+  "ayet_sayisi": 532,
+  "komsu": [
+   "kavim",
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 99.2,
+  "zit": [],
+  "es": [],
+  "ornek": "1:6",
+  "okuma": "",
+  "anlati": "\"halk/kavim\" 532 ayette — toplum / topluluk. Komşuları: kavim, Allah, söz, olmak/varlık."
+ },
+ "hesap": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "hesap-anı",
+  "ayet_sayisi": 102,
+  "komsu": [
+   "Allah",
+   "söz",
+   "Rab",
+   "şey/dileme",
+   "ilim",
+   "iman/emniyet"
+  ],
+  "ses": "uzun",
+  "mora": 87.3,
+  "zit": [],
+  "es": [],
+  "ornek": "2:202",
+  "okuma": "",
+  "anlati": "\"hesap\" 102 ayette — âhiret-öğesi / hesap-anı. Komşuları: Allah, söz, Rab, şey/dileme."
+ },
+ "sırât": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "hesap-anı",
+  "ayet_sayisi": 45,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"sırât\" 45 ayette — âhiret-öğesi / hesap-anı."
+ },
+ "şefaat": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "hesap-anı",
+  "ayet_sayisi": 26,
+  "komsu": [
+   "Allah",
+   "olmak/varlık",
+   "şey/dileme",
+   "söz",
+   "gök",
+   "nefs"
+  ],
+  "ses": "uzun",
+  "mora": 97.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:48",
+  "okuma": "",
+  "anlati": "\"şefaat\" 26 ayette — âhiret-öğesi / hesap-anı. Komşuları: Allah, olmak/varlık, şey/dileme, söz."
+ },
+ "sûr": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "başlangıç",
+  "ayet_sayisi": 17,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"sûr\" 17 ayette — âhiret-öğesi / başlangıç."
+ },
+ "haşir": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "başlangıç",
+  "ayet_sayisi": 43,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"haşir\" 43 ayette — âhiret-öğesi / başlangıç."
+ },
+ "huld/ebediyet": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "sonuç",
+  "ayet_sayisi": 86,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"huld/ebediyet\" 86 ayette — âhiret-öğesi / sonuç."
+ },
+ "mîzan-terazi": {
+  "tur": "âhiret-öğesi",
+  "alt_tur": "hesap-anı",
+  "ayet_sayisi": 21,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"mîzan-terazi\" 21 ayette — âhiret-öğesi / hesap-anı."
+ },
+ "helâl": {
+  "tur": "hüküm-kategori",
+  "alt_tur": "izin",
+  "ayet_sayisi": 43,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"helâl\" 43 ayette — hüküm-kategori / izin."
+ },
+ "harâm": {
+  "tur": "hüküm-kategori",
+  "alt_tur": "yasak",
+  "ayet_sayisi": 71,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"harâm\" 71 ayette — hüküm-kategori / yasak."
+ },
+ "tayyib": {
+  "tur": "hüküm-kategori",
+  "alt_tur": "izin",
+  "ayet_sayisi": 46,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"tayyib\" 46 ayette — hüküm-kategori / izin."
+ },
+ "habîs": {
+  "tur": "hüküm-kategori",
+  "alt_tur": "yasak",
+  "ayet_sayisi": 10,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"habîs\" 10 ayette — hüküm-kategori / yasak."
+ },
+ "gün/yevm": {
+  "tur": "zaman",
+  "alt_tur": "döngüsel",
+  "ayet_sayisi": 437,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"gün/yevm\" 437 ayette — zaman / döngüsel."
+ },
+ "gece/leyl": {
+  "tur": "zaman",
+  "alt_tur": "döngüsel",
+  "ayet_sayisi": 81,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"gece/leyl\" 81 ayette — zaman / döngüsel."
+ },
+ "sabah": {
+  "tur": "zaman",
+  "alt_tur": "döngüsel",
+  "ayet_sayisi": 43,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"sabah\" 43 ayette — zaman / döngüsel."
+ },
+ "gölge": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 31,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"gölge\" 31 ayette — olay / kozmos-olayı."
+ },
+ "bulut": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 11,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"bulut\" 11 ayette — yer/âlem / dünyevî. yer: kimin + nerede + nitelik"
+ },
+ "şimşek": {
+  "tur": "olay",
+  "alt_tur": "kozmos-olayı",
+  "ayet_sayisi": 7,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"şimşek\" 7 ayette — olay / kozmos-olayı."
+ },
+ "Hayy": {
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 166,
+  "komsu": [
+   "Allah",
+   "söz",
+   "olmak/varlık",
+   "Rab",
+   "iman/emniyet",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 103.6,
+  "zit": [],
+  "es": [],
+  "ornek": "2:26",
+  "okuma": "ilâhî isim: eşleştiği esmâ + bağlam",
+  "anlati": "İlâhî isim — 166 ayette. Komşuları: Allah, söz, olmak/varlık, Rab. ilâhî isim: eşleştiği esmâ + bağlam"
+ },
+ "Kürsî": {
+  "tur": "yer/âlem",
+  "alt_tur": "kozmik",
+  "ayet_sayisi": 2,
+  "komsu": [
+   "Allah",
+   "gök",
+   "ilim",
+   "şey/dileme",
+   "fitne",
+   "kavim"
+  ],
+  "ses": "uzun",
+  "mora": 144.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:255",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"Kürsî\" 2 ayette — yer/âlem / kozmik. Komşuları: Allah, gök, ilim, şey/dileme. yer: kimin + nerede + nitelik"
+ },
+ "İlyâs": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 3,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"İlyâs\" 3 ayette geçer (peygamber). kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Ahmed": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Ahmed\" 1 ayette geçer (peygamber). kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Zülkarneyn": {
+  "tur": "kişi",
+  "alt_tur": "melik/hükümdar",
+  "ayet_sayisi": 2,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Zülkarneyn\" 2 ayette geçer (melik/hükümdar). kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Zülkifl": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 8,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Zülkifl\" 8 ayette geçer (peygamber). kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Uzeyr": {
+  "tur": "kişi",
+  "alt_tur": "peygamber",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "anlati": "\"Uzeyr\" 1 ayette geçer (peygamber). kişi: söz/eylem + kavim + Rab-ilişkisi"
+ },
+ "Cebrâil": {
+  "tur": "gayb-varlık",
+  "alt_tur": "itaatkâr-gayb",
+  "ayet_sayisi": 3,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"Cebrâil\" 3 ayette — gayb-varlık / itaatkâr-gayb."
+ },
+ "Mîkâil": {
+  "tur": "gayb-varlık",
+  "alt_tur": "itaatkâr-gayb",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"Mîkâil\" 1 ayette — gayb-varlık / itaatkâr-gayb."
+ },
+ "Hârût": {
+  "tur": "gayb-varlık",
+  "alt_tur": "müteşâbih-gayb",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"Hârût\" 1 ayette — gayb-varlık / müteşâbih-gayb."
+ },
+ "Mârût": {
+  "tur": "gayb-varlık",
+  "alt_tur": "müteşâbih-gayb",
+  "ayet_sayisi": 1,
+  "komsu": [],
+  "ses": "—",
+  "mora": 0,
+  "zit": [],
+  "es": [],
+  "ornek": null,
+  "okuma": "",
+  "anlati": "\"Mârût\" 1 ayette — gayb-varlık / müteşâbih-gayb."
+ },
+ "yer": {
+  "tur": "yer/âlem",
+  "alt_tur": "dünyevî",
+  "ayet_sayisi": 440,
+  "komsu": [
+   "Allah",
+   "gök",
+   "söz",
+   "olmak/varlık",
+   "ilim",
+   "şey/dileme"
+  ],
+  "ses": "uzun",
+  "mora": 96.5,
+  "zit": [],
+  "es": [],
+  "ornek": "2:11",
+  "okuma": "yer: kimin + nerede + nitelik",
+  "anlati": "\"yer\" 440 ayette — yer/âlem / dünyevî. Komşuları: Allah, gök, söz, olmak/varlık. yer: kimin + nerede + nitelik"
+ },
+ "Allah": {
+  "tur": "ilâhî-merkez",
+  "alt_tur": "merkez",
+  "ayet_sayisi": 1821,
+  "komsu": [
+   "söz",
+   "olmak/varlık",
+   "iman/emniyet",
+   "ilim",
+   "şey/dileme",
+   "küfür"
+  ],
+  "ses": "uzun",
+  "mora": 105.7,
+  "zit": [],
+  "es": [],
+  "ornek": "1:1",
+  "okuma": "her şeyin bağlı olduğu tek merkez",
+  "anlati": "Metnin merkezi — 1821 ayette geçer, her şeyin bağlı olduğu nokta. Komşuları neredeyse her kavram: söz, olmak/varlık, iman/emniyet, ilim. Kavram ağının kökü. her şeyin bağlı olduğu tek merkez"
+ },
+ "Rab": {
+  "tur": "ilâhî-merkez",
+  "alt_tur": "terbiye-eden",
+  "ayet_sayisi": 871,
+  "komsu": [
+   "söz",
+   "Allah",
+   "olmak/varlık",
+   "iman/emniyet",
+   "kavim",
+   "ilim"
+  ],
+  "ses": "uzun",
+  "mora": 83.3,
+  "zit": [],
+  "es": [],
+  "ornek": "1:2",
+  "okuma": "ilişkisel ilâhî isim — 0/980 mutlak geçiş, %91 zamirli, iyelik yaratılanın tarafında. Rahmet/cennet/hidâyet/dua tarafında yoğun; teşrî, hüküm, kudret, mutlak şahitlik Allah tarafında.",
+  "anlati": "\"Rab\" 871 ayette geçer ve metin onu Allah'tan başka bir işte kullanır. Yapısal çekirdeği: hiçbir yerde mutlak durmaz — 980 geçişin sıfırında belirlilik takısı vardır; %91'i zamirlidir (Rabbin, Rabbim, Rableri) ve iyelik hep yaratılanın tarafındadır. Yani bu metinde soyut bir \"Rablik\" yoktur; yalnızca birinin Rabbi vardır. Bağ iki kipte de kurulur: rahmet/iman kipinde %25, küfür/zulüm kipinde %19 — yönelim değişir, bağ durur. Kavramların dağılımı da ayrışır (uzunluk kontrollü): rahmet Rab yanında iki katından fazla (%14.7 / %6.4), cennet, hidâyet, mağfiret, dua da Rab yanında. Buna karşılık helâl (%0.0 / %1.2), harâm, hüküm, kudret, mutlak şahitlik, ölüm ve ilim Allah yanındadır. Teşrî fiili Rab ismiyle hiç kurulmaz: helâl geçen 43 ayetin yalnız 1'i Rab'lidir, o da hüküm koyma anlamında değildir. Ses imzası da farklıdır: sadece Rab geçen ayetler ortalama 69 mora (kısa, hitap), sadece Allah geçenler 102.5 mora (uzun, beyan)."
+ }
+}

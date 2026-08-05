@@ -1,0 +1,9212 @@
+{
+ "سمو": {
+  "durum": "ayrıldı",
+  "n": 381,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "أله": {
+  "durum": "ayrıldı",
+  "n": 2851,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "رحم": {
+  "durum": "ayrıldı",
+  "n": 339,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "حمد": {
+  "durum": "ayrıldı",
+  "n": 68,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "ربب": {
+  "durum": "ayrıldı",
+  "n": 980,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "علم": {
+  "durum": "ayrıldı",
+  "n": 854,
+  "lemma_sayisi": 12,
+  "parti": 1
+ },
+ "ملك": {
+  "durum": "ayrıldı",
+  "n": 206,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "يوم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 475,
+  "lemma_sayisi": 1
+ },
+ "دين": {
+  "durum": "ayrıldı",
+  "n": 101,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "عبد": {
+  "durum": "temiz",
+  "n": 275,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "عون": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "هدي": {
+  "durum": "ayrıldı",
+  "n": 316,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "صرط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 45,
+  "lemma_sayisi": 1
+ },
+ "قوم": {
+  "durum": "ayrıldı",
+  "n": 660,
+  "lemma_sayisi": 21,
+  "parti": 1
+ },
+ "نعم": {
+  "durum": "ayrıldı",
+  "n": 140,
+  "lemma_sayisi": 7,
+  "parti": 1,
+  "istisna_notu": "[ÇÖZÜLDÜ] evet-neam korpusta partikül (köksüz segment), akışa نعم olarak girmiyor — istisna gerekmedi; نَعَم=davar güvenli"
+ },
+ "غير": {
+  "durum": "ayrıldı",
+  "n": 154,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "غضب": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "ضلل": {
+  "durum": "temiz",
+  "n": 191,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "كتب": {
+  "durum": "temiz",
+  "n": 319,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "ريب": {
+  "durum": "temiz",
+  "n": 36,
+  "lemma_sayisi": 5,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] رَيْب 52:30 reybe'l-menûn=zaman felaketi — ayet-istisna"
+ },
+ "وقي": {
+  "durum": "ayrıldı",
+  "n": 258,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "أمن": {
+  "durum": "ayrıldı",
+  "n": 879,
+  "lemma_sayisi": 13,
+  "parti": 1
+ },
+ "غيب": {
+  "durum": "ayrıldı",
+  "n": 60,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "صلو": {
+  "durum": "temiz",
+  "n": 99,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "رزق": {
+  "durum": "temiz",
+  "n": 123,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "نفق": {
+  "durum": "ayrıldı",
+  "n": 111,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "نزل": {
+  "durum": "ayrıldı",
+  "n": 293,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "قبل": {
+  "durum": "ayrıldı",
+  "n": 294,
+  "lemma_sayisi": 11,
+  "parti": 1
+ },
+ "أخر": {
+  "durum": "ayrıldı",
+  "n": 250,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "يقن": {
+  "durum": "temiz",
+  "n": 28,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "فلح": {
+  "durum": "temiz",
+  "n": 40,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "كفر": {
+  "durum": "ayrıldı",
+  "n": 525,
+  "lemma_sayisi": 11,
+  "parti": 1
+ },
+ "سوي": {
+  "durum": "ayrıldı",
+  "n": 83,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "نذر": {
+  "durum": "ayrıldı",
+  "n": 130,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "ختم": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "قلب": {
+  "durum": "ayrıldı",
+  "n": 168,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "سمع": {
+  "durum": "temiz",
+  "n": 185,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "بصر": {
+  "durum": "temiz",
+  "n": 148,
+  "lemma_sayisi": 10,
+  "parti": 1
+ },
+ "غشو": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "عذب": {
+  "durum": "ayrıldı",
+  "n": 373,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "عظم": {
+  "durum": "ayrıldı",
+  "n": 128,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "أنس": {
+  "durum": "ayrıldı",
+  "n": 338,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "قول": {
+  "durum": "temiz",
+  "n": 1722,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "خدع": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نفس": {
+  "durum": "ayrıldı",
+  "n": 298,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "شعر": {
+  "durum": "ayrıldı",
+  "n": 40,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "مرض": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "زيد": {
+  "durum": "temiz",
+  "n": 61,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "ألم": {
+  "durum": "temiz",
+  "n": 75,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "كون": {
+  "durum": "ayrıldı",
+  "n": 1390,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "كذب": {
+  "durum": "ayrıldı",
+  "n": 282,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "فسد": {
+  "durum": "temiz",
+  "n": 50,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "أرض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 461,
+  "lemma_sayisi": 1
+ },
+ "صلح": {
+  "durum": "ayrıldı",
+  "n": 180,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "سفه": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "لقي": {
+  "durum": "ayrıldı",
+  "n": 146,
+  "lemma_sayisi": 16,
+  "parti": 1
+ },
+ "خلو": {
+  "durum": "temiz",
+  "n": 28,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "شطن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 88,
+  "lemma_sayisi": 1
+ },
+ "هزأ": {
+  "durum": "temiz",
+  "n": 34,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "مدد": {
+  "durum": "ayrıldı",
+  "n": 32,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "طغي": {
+  "durum": "ayrıldı",
+  "n": 39,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "عمه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "شري": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "ربح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تجر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "مثل": {
+  "durum": "ayrıldı",
+  "n": 169,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "وقد": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "نور": {
+  "durum": "ayrıldı",
+  "n": 194,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "ضوأ": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حول": {
+  "durum": "ayrıldı",
+  "n": 25,
+  "lemma_sayisi": 4,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] حَوْل 2:233,2:240 yıl — tabloda çevre, ayet-istisna"
+ },
+ "ذهب": {
+  "durum": "ayrıldı",
+  "n": 56,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "ترك": {
+  "durum": "temiz",
+  "n": 43,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "ظلم": {
+  "durum": "ayrıldı",
+  "n": 315,
+  "lemma_sayisi": 10,
+  "parti": 1
+ },
+ "صمم": {
+  "durum": "temiz",
+  "n": 15,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "بكم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "عمي": {
+  "durum": "temiz",
+  "n": 33,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "رجع": {
+  "durum": "temiz",
+  "n": 104,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "صوب": {
+  "durum": "ayrıldı",
+  "n": 77,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "رعد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "برق": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جعل": {
+  "durum": "temiz",
+  "n": 346,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "صبع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أذن": {
+  "durum": "ayrıldı",
+  "n": 102,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "صعق": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "حذر": {
+  "durum": "temiz",
+  "n": 21,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "موت": {
+  "durum": "temiz",
+  "n": 165,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "حوط": {
+  "durum": "temiz",
+  "n": 28,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "كود": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 24,
+  "lemma_sayisi": 1
+ },
+ "خطف": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "كلل": {
+  "durum": "ayrıldı",
+  "n": 377,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "مشي": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "شيأ": {
+  "durum": "ayrıldı",
+  "n": 519,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "قدر": {
+  "durum": "ayrıldı",
+  "n": 132,
+  "lemma_sayisi": 9,
+  "parti": 1,
+  "istisna_notu": "قَدَرَ fiili: hem güç yetirme hem rızkı daraltma — takdir-ölçü altında toplandı, ince ayrım ayet-düzeyi ister"
+ },
+ "أيي": {
+  "durum": "ayrıldı",
+  "n": 597,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "خلق": {
+  "durum": "ayrıldı",
+  "n": 261,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "فرش": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بني": {
+  "durum": "ayrıldı",
+  "n": 184,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "موه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 63,
+  "lemma_sayisi": 1
+ },
+ "خرج": {
+  "durum": "ayrıldı",
+  "n": 182,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "ثمر": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "ندد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "أتي": {
+  "durum": "ayrıldı",
+  "n": 549,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "سور": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "دعو": {
+  "durum": "temiz",
+  "n": 212,
+  "lemma_sayisi": 7,
+  "parti": 1,
+  "istisna_notu": "دَعا tek lemma: hem çağırma hem dua — lemma ayıramaz"
+ },
+ "شهد": {
+  "durum": "temiz",
+  "n": 160,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "دون": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 144,
+  "lemma_sayisi": 1
+ },
+ "صدق": {
+  "durum": "ayrıldı",
+  "n": 155,
+  "lemma_sayisi": 16,
+  "parti": 1
+ },
+ "فعل": {
+  "durum": "temiz",
+  "n": 108,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "حجر": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 5,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] حِجْر karışık: 6:138,25:22,25:53 yasak-engel / 15:80 Hicr-yurdu / 89:5 akıl — tabloda yasak-engel, ayet-istisna gerekir"
+ },
+ "عدد": {
+  "durum": "ayrıldı",
+  "n": 57,
+  "lemma_sayisi": 9,
+  "parti": 2,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] عِدَّة: çoğunlukla sayı, 65. sûre bağlamında İDDET — ayet-istisna"
+ },
+ "بشر": {
+  "durum": "ayrıldı",
+  "n": 123,
+  "lemma_sayisi": 10,
+  "parti": 1
+ },
+ "عمل": {
+  "durum": "temiz",
+  "n": 360,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "جنن": {
+  "durum": "ayrıldı",
+  "n": 201,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "جري": {
+  "durum": "temiz",
+  "n": 64,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "تحت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 51,
+  "lemma_sayisi": 1
+ },
+ "نهر": {
+  "durum": "ayrıldı",
+  "n": 113,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "شبه": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "زوج": {
+  "durum": "temiz",
+  "n": 81,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "طهر": {
+  "durum": "temiz",
+  "n": 31,
+  "lemma_sayisi": 10,
+  "parti": 3
+ },
+ "خلد": {
+  "durum": "temiz",
+  "n": 87,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "حيي": {
+  "durum": "ayrıldı",
+  "n": 189,
+  "lemma_sayisi": 12,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] يَسْتَحْىِۦ iki anlam: utanmak (33:53) / sağ bırakmak (2:49,28:4) — ayet-düzeyi gerekir",
+  "parti": 1
+ },
+ "ضرب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 58,
+  "lemma_sayisi": 1
+ },
+ "بعض": {
+  "durum": "ayrıldı",
+  "n": 158,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "فوق": {
+  "durum": "ayrıldı",
+  "n": 43,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "حقق": {
+  "durum": "temiz",
+  "n": 287,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "رود": {
+  "durum": "ayrıldı",
+  "n": 148,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "كثر": {
+  "durum": "ayrıldı",
+  "n": 167,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "فسق": {
+  "durum": "temiz",
+  "n": 54,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "نقض": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "عهد": {
+  "durum": "temiz",
+  "n": 46,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "بعد": {
+  "durum": "temiz",
+  "n": 235,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "وثق": {
+  "durum": "ayrıldı",
+  "n": 34,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "قطع": {
+  "durum": "temiz",
+  "n": 36,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "أمر": {
+  "durum": "ayrıldı",
+  "n": 248,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "وصل": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "خسر": {
+  "durum": "temiz",
+  "n": 65,
+  "lemma_sayisi": 9,
+  "parti": 2
+ },
+ "كيف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 83,
+  "lemma_sayisi": 1
+ },
+ "جمع": {
+  "durum": "ayrıldı",
+  "n": 129,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "سبع": {
+  "durum": "ayrıldı",
+  "n": 28,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "خلف": {
+  "durum": "ayrıldı",
+  "n": 127,
+  "lemma_sayisi": 17,
+  "parti": 1
+ },
+ "سفك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "دمو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "سبح": {
+  "durum": "ayrıldı",
+  "n": 92,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "قدس": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "أدم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 25,
+  "lemma_sayisi": 1
+ },
+ "عرض": {
+  "durum": "ayrıldı",
+  "n": 79,
+  "lemma_sayisi": 8,
+  "parti": 2,
+  "istisna_notu": "18:100 'arz: hem sunma fiili hem genişlik ismi aynı ayette — tablo lemma bazında ayırıyor, sorun yok; not bilgi amaçlı"
+ },
+ "نبأ": {
+  "durum": "ayrıldı",
+  "n": 160,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "حكم": {
+  "durum": "ayrıldı",
+  "n": 210,
+  "lemma_sayisi": 10,
+  "parti": 1
+ },
+ "بدو": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "كتم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 21,
+  "lemma_sayisi": 1
+ },
+ "سجد": {
+  "durum": "ayrıldı",
+  "n": 92,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "أبي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 13,
+  "lemma_sayisi": 1
+ },
+ "كبر": {
+  "durum": "ayrıldı",
+  "n": 161,
+  "lemma_sayisi": 15,
+  "parti": 1
+ },
+ "سكن": {
+  "durum": "ayrıldı",
+  "n": 69,
+  "lemma_sayisi": 9,
+  "parti": 2
+ },
+ "أكل": {
+  "durum": "temiz",
+  "n": 109,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "رغد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "حيث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 31,
+  "lemma_sayisi": 1
+ },
+ "قرب": {
+  "durum": "ayrıldı",
+  "n": 96,
+  "lemma_sayisi": 10,
+  "parti": 2
+ },
+ "شجر": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "زلل": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "هبط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 8,
+  "lemma_sayisi": 1
+ },
+ "عدو": {
+  "durum": "ayrıldı",
+  "n": 106,
+  "lemma_sayisi": 13,
+  "parti": 1
+ },
+ "قرر": {
+  "durum": "ayrıldı",
+  "n": 38,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "متع": {
+  "durum": "temiz",
+  "n": 70,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "حين": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 35,
+  "lemma_sayisi": 1
+ },
+ "كلم": {
+  "durum": "temiz",
+  "n": 75,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "توب": {
+  "durum": "temiz",
+  "n": 87,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "تبع": {
+  "durum": "temiz",
+  "n": 172,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "خوف": {
+  "durum": "temiz",
+  "n": 124,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "حزن": {
+  "durum": "temiz",
+  "n": 42,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "صحب": {
+  "durum": "temiz",
+  "n": 97,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "ذكر": {
+  "durum": "ayrıldı",
+  "n": 292,
+  "lemma_sayisi": 12,
+  "parti": 1
+ },
+ "وفي": {
+  "durum": "ayrıldı",
+  "n": 66,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "رهب": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 7,
+  "parti": 5
+ },
+ "أول": {
+  "durum": "ayrıldı",
+  "n": 125,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "ثمن": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "قلل": {
+  "durum": "ayrıldı",
+  "n": 76,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "لبس": {
+  "durum": "ayrıldı",
+  "n": 23,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "بطل": {
+  "durum": "temiz",
+  "n": 36,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "زكو": {
+  "durum": "ayrıldı",
+  "n": 59,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "ركع": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "برر": {
+  "durum": "ayrıldı",
+  "n": 32,
+  "lemma_sayisi": 2,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] بَرّ karışık: kara(12) / iyi-kul-ebrâr(10: 3:193,3:198,19:14,19:32,52:28,76:5,80:16,82:13,83:18,83:22) — tabloda kara, ayet-istisna gerekir"
+ },
+ "نسي": {
+  "durum": "temiz",
+  "n": 45,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "تلو": {
+  "durum": "temiz",
+  "n": 63,
+  "lemma_sayisi": 3,
+  "parti": 2,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] تَلَا 91:2'de 'izleyen' (tilâvet değil) — ayet-istisna"
+ },
+ "عقل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 49,
+  "lemma_sayisi": 1
+ },
+ "صبر": {
+  "durum": "temiz",
+  "n": 103,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "خشع": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "ظنن": {
+  "durum": "temiz",
+  "n": 69,
+  "lemma_sayisi": 2,
+  "parti": 2,
+  "istisna_notu": "ظَنّ tek lemma: hem kesin kanaat (2:46) hem zan/şüphe — ayet-istisna ister"
+ },
+ "فضل": {
+  "durum": "temiz",
+  "n": 104,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "جزي": {
+  "durum": "ayrıldı",
+  "n": 118,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "شفع": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "أخذ": {
+  "durum": "ayrıldı",
+  "n": 273,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "عدل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 28,
+  "lemma_sayisi": 1
+ },
+ "نصر": {
+  "durum": "ayrıldı",
+  "n": 158,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "نجو": {
+  "durum": "ayrıldı",
+  "n": 84,
+  "lemma_sayisi": 10,
+  "parti": 2
+ },
+ "سوم": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "سوأ": {
+  "durum": "temiz",
+  "n": 167,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "ذبح": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "نسو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 59,
+  "lemma_sayisi": 1
+ },
+ "بلو": {
+  "durum": "temiz",
+  "n": 38,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "فرق": {
+  "durum": "ayrıldı",
+  "n": 72,
+  "lemma_sayisi": 12,
+  "parti": 2
+ },
+ "بحر": {
+  "durum": "ayrıldı",
+  "n": 42,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "غرق": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 3,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] غَرْق 79:1 şiddetle-dalış — ayet-istisna"
+ },
+ "نظر": {
+  "durum": "temiz",
+  "n": 129,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "وعد": {
+  "durum": "temiz",
+  "n": 151,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "ربع": {
+  "durum": "temiz",
+  "n": 22,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "ليل": {
+  "durum": "temiz",
+  "n": 92,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "عجل": {
+  "durum": "ayrıldı",
+  "n": 47,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "عفو": {
+  "durum": "temiz",
+  "n": 35,
+  "lemma_sayisi": 4,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] عَفا 7:95 çoğalma; عَفْو 2:219 ihtiyaç-fazlası — ayet-istisna"
+ },
+ "شكر": {
+  "durum": "temiz",
+  "n": 75,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "برأ": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 10,
+  "parti": 3
+ },
+ "قتل": {
+  "durum": "temiz",
+  "n": 170,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "خير": {
+  "durum": "ayrıldı",
+  "n": 196,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "عند": {
+  "durum": "ayrıldı",
+  "n": 201,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "رأي": {
+  "durum": "ayrıldı",
+  "n": 328,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "جهر": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "بعث": {
+  "durum": "temiz",
+  "n": 67,
+  "lemma_sayisi": 4,
+  "parti": 2,
+  "istisna_notu": "بَعَثَ tek lemma: hem göndermek hem diriltmek — ayet-istisna ister"
+ },
+ "ظلل": {
+  "durum": "ayrıldı",
+  "n": 33,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "غمم": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "منن": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 3,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] مَنَّ lütuf/başa-kakma karışık; مَنّ 2:262,2:264 başa-kakma, 47:4 salıverme — tabloda kudret-helvası, ayet-istisna gerekir"
+ },
+ "سلو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "طيب": {
+  "durum": "temiz",
+  "n": 50,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "دخل": {
+  "durum": "temiz",
+  "n": 126,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "قري": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 57,
+  "lemma_sayisi": 1
+ },
+ "بوب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 27,
+  "lemma_sayisi": 1
+ },
+ "حطط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "غفر": {
+  "durum": "temiz",
+  "n": 234,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "خطأ": {
+  "durum": "temiz",
+  "n": 22,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "حسن": {
+  "durum": "temiz",
+  "n": 194,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "بدل": {
+  "durum": "temiz",
+  "n": 44,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "رجز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "سقي": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "عصو": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "فجر": {
+  "durum": "ayrıldı",
+  "n": 24,
+  "lemma_sayisi": 9,
+  "parti": 1
+ },
+ "ثني": {
+  "durum": "ayrıldı",
+  "n": 29,
+  "lemma_sayisi": 7,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] ثانِي 22:9 yan-bükme — tabloda iki, ayet-istisna"
+ },
+ "عشر": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 9,
+  "parti": 3
+ },
+ "عين": {
+  "durum": "ayrıldı",
+  "n": 65,
+  "lemma_sayisi": 2,
+  "istisna_notu": "عَيْن tek lemma: hem GÖZ hem PINAR — ayet-düzeyi istisna listesi gerekir",
+  "parti": 2
+ },
+ "شرب": {
+  "durum": "temiz",
+  "n": 39,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "عثو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "طعم": {
+  "durum": "temiz",
+  "n": 48,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "وحد": {
+  "durum": "temiz",
+  "n": 68,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "نبت": {
+  "durum": "temiz",
+  "n": 26,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "بقل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قثأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فوم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عدس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بصل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دنو": {
+  "durum": "ayrıldı",
+  "n": 133,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "مصر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "سأل": {
+  "durum": "temiz",
+  "n": 129,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "ذلل": {
+  "durum": "ayrıldı",
+  "n": 24,
+  "lemma_sayisi": 10,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] أَذِلَّة 5:54 müminlere-alçakgönüllü (olumlu) — tabloda zillet, ayet-istisna"
+ },
+ "بوأ": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "عصي": {
+  "durum": "ayrıldı",
+  "n": 32,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "هود": {
+  "durum": "ayrıldı",
+  "n": 30,
+  "lemma_sayisi": 3,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] هُود 2:111,2:135,2:140 hûd=yahudi; kalanı Hûd peygamber — tabloda Hûd, ayet-istisna"
+ },
+ "صبأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "أجر": {
+  "durum": "temiz",
+  "n": 108,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "رفع": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "طور": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "قوي": {
+  "durum": "ayrıldı",
+  "n": 42,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "ولي": {
+  "durum": "ayrıldı",
+  "n": 232,
+  "lemma_sayisi": 11,
+  "parti": 1
+ },
+ "سبت": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "قرد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "خسأ": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نكل": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "بين": {
+  "durum": "ayrıldı",
+  "n": 523,
+  "lemma_sayisi": 11,
+  "parti": 1
+ },
+ "يدي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 120,
+  "lemma_sayisi": 1
+ },
+ "وعظ": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "بقر": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "عوذ": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "جهل": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "فرض": {
+  "durum": "ayrıldı",
+  "n": 18,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "بكر": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "لون": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "صفر": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "فقع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سرر": {
+  "durum": "ayrıldı",
+  "n": 44,
+  "lemma_sayisi": 9,
+  "parti": 3
+ },
+ "ثور": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "حرث": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "سلم": {
+  "durum": "ayrıldı",
+  "n": 140,
+  "lemma_sayisi": 12,
+  "parti": 1
+ },
+ "وشي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أون": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 8,
+  "lemma_sayisi": 1
+ },
+ "جيأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 278,
+  "lemma_sayisi": 1
+ },
+ "درأ": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قسو": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شدد": {
+  "durum": "temiz",
+  "n": 102,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "شقق": {
+  "durum": "ayrıldı",
+  "n": 28,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "خشي": {
+  "durum": "temiz",
+  "n": 48,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "غفل": {
+  "durum": "temiz",
+  "n": 35,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "طمع": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "حرف": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "حدث": {
+  "durum": "ayrıldı",
+  "n": 36,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "فتح": {
+  "durum": "ayrıldı",
+  "n": 38,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "حجج": {
+  "durum": "ayrıldı",
+  "n": 33,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "علن": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "أمم": {
+  "durum": "ayrıldı",
+  "n": 118,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "مني": {
+  "durum": "ayrıldı",
+  "n": 22,
+  "lemma_sayisi": 7,
+  "parti": 4
+ },
+ "كسب": {
+  "durum": "temiz",
+  "n": 67,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "مسس": {
+  "durum": "temiz",
+  "n": 61,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "ولد": {
+  "durum": "temiz",
+  "n": 102,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "يتم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 23,
+  "lemma_sayisi": 1
+ },
+ "دور": {
+  "durum": "ayrıldı",
+  "n": 55,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "ظهر": {
+  "durum": "ayrıldı",
+  "n": 59,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "أثم": {
+  "durum": "temiz",
+  "n": 48,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "أسر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "فدي": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "حرم": {
+  "durum": "ayrıldı",
+  "n": 83,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "خزي": {
+  "durum": "temiz",
+  "n": 26,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "ردد": {
+  "durum": "temiz",
+  "n": 59,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "خفف": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "قفو": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رسل": {
+  "durum": "temiz",
+  "n": 513,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "أيد": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "روح": {
+  "durum": "ayrıldı",
+  "n": 57,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "هوي": {
+  "durum": "ayrıldı",
+  "n": 38,
+  "lemma_sayisi": 5,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] هَوَى karışık: düşme(20:81,22:31,53:1,53:53) / arzu-meyil(2:87,5:70,14:37,53:23) — tabloda düşme, ayet-istisna gerekir"
+ },
+ "غلف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لعن": {
+  "durum": "temiz",
+  "n": 41,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "عرف": {
+  "durum": "ayrıldı",
+  "n": 71,
+  "lemma_sayisi": 8,
+  "parti": 1
+ },
+ "بأس": {
+  "durum": "ayrıldı",
+  "n": 73,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "بغي": {
+  "durum": "ayrıldı",
+  "n": 96,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "هون": {
+  "durum": "ayrıldı",
+  "n": 26,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "وري": {
+  "durum": "ayrıldı",
+  "n": 32,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "خلص": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "أبد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 28,
+  "lemma_sayisi": 1
+ },
+ "قدم": {
+  "durum": "ayrıldı",
+  "n": 48,
+  "lemma_sayisi": 7,
+  "parti": 2,
+  "istisna_notu": "قَدَم 10:2 'kademe sıdk'=değerli makam (ayak değil) — ayet-istisna"
+ },
+ "وجد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 107,
+  "lemma_sayisi": 1
+ },
+ "حرص": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شرك": {
+  "durum": "temiz",
+  "n": 168,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "ودد": {
+  "durum": "ayrıldı",
+  "n": 29,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "أحد": {
+  "durum": "temiz",
+  "n": 85,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "عمر": {
+  "durum": "ayrıldı",
+  "n": 24,
+  "lemma_sayisi": 8,
+  "parti": 4
+ },
+ "ألف": {
+  "durum": "ayrıldı",
+  "n": 22,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "سنو": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "زحزح": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نبذ": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "سحر": {
+  "durum": "ayrıldı",
+  "n": 63,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "فتن": {
+  "durum": "temiz",
+  "n": 60,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "مرأ": {
+  "durum": "ayrıldı",
+  "n": 38,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "ضرر": {
+  "durum": "ayrıldı",
+  "n": 74,
+  "lemma_sayisi": 10,
+  "parti": 2
+ },
+ "نفع": {
+  "durum": "temiz",
+  "n": 50,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "ثوب": {
+  "durum": "ayrıldı",
+  "n": 28,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "رعي": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "أهل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 127,
+  "lemma_sayisi": 1
+ },
+ "خصص": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نسخ": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "سبل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 176,
+  "lemma_sayisi": 1
+ },
+ "حسد": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صفح": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "هات": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "برهن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 8,
+  "lemma_sayisi": 1
+ },
+ "وجه": {
+  "durum": "temiz",
+  "n": 78,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "ليس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 89,
+  "lemma_sayisi": 1
+ },
+ "منع": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "سعي": {
+  "durum": "temiz",
+  "n": 30,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "خرب": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شرق": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "غرب": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "وسع": {
+  "durum": "temiz",
+  "n": 32,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "قنت": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "بدع": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "قضي": {
+  "durum": "temiz",
+  "n": 63,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "جحم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 26,
+  "lemma_sayisi": 1
+ },
+ "رضو": {
+  "durum": "temiz",
+  "n": 73,
+  "lemma_sayisi": 10,
+  "parti": 2
+ },
+ "ملل": {
+  "durum": "ayrıldı",
+  "n": 18,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "تمم": {
+  "durum": "temiz",
+  "n": 22,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "ذرر": {
+  "durum": "ayrıldı",
+  "n": 38,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "نيل": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "بيت": {
+  "durum": "ayrıldı",
+  "n": 73,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "طوف": {
+  "durum": "ayrıldı",
+  "n": 41,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "عكف": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "بلد": {
+  "durum": "temiz",
+  "n": 19,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "صير": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "قعد": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 6,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] قَواعِد 24:60 oturan-kadınlar; 2:127,16:26 temel — tabloda temel, ayet-istisna"
+ },
+ "نسك": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عزز": {
+  "durum": "ayrıldı",
+  "n": 120,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "رغب": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "صفو": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "وصي": {
+  "durum": "temiz",
+  "n": 32,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "حضر": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "أبو": {
+  "durum": "temiz",
+  "n": 117,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "حنف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "سبط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "كفي": {
+  "durum": "temiz",
+  "n": 33,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "صبغ": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وسط": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عقب": {
+  "durum": "ayrıldı",
+  "n": 80,
+  "lemma_sayisi": 10,
+  "parti": 2
+ },
+ "ضيع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "رأف": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "شطر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "مري": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "سبق": {
+  "durum": "temiz",
+  "n": 37,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "جوع": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نقص": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "مول": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 86,
+  "lemma_sayisi": 1
+ },
+ "مرو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جنح": {
+  "durum": "ayrıldı",
+  "n": 34,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "طوع": {
+  "durum": "ayrıldı",
+  "n": 129,
+  "lemma_sayisi": 10,
+  "parti": 1
+ },
+ "فلك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 25,
+  "lemma_sayisi": 1
+ },
+ "بثث": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "دبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 18,
+  "lemma_sayisi": 1
+ },
+ "صرف": {
+  "durum": "temiz",
+  "n": 30,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "سحب": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "سخر": {
+  "durum": "ayrıldı",
+  "n": 42,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "حبب": {
+  "durum": "ayrıldı",
+  "n": 95,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "سبب": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "كرر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "حسر": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "حلل": {
+  "durum": "ayrıldı",
+  "n": 51,
+  "lemma_sayisi": 8,
+  "parti": 2,
+  "istisna_notu": "يَحِلُّ: çoğunlukla helâl-olma, ama 11:39/20:81/20:86'da (azabın) BAŞINA-İNME; حِلّ 90:2'de 'oturan' — ayet-istisna"
+ },
+ "خطو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "فحش": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "لفو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "نعق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ندي": {
+  "durum": "ayrıldı",
+  "n": 53,
+  "lemma_sayisi": 7,
+  "parti": 2
+ },
+ "لحم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "خنزر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "هلل": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بطن": {
+  "durum": "ayrıldı",
+  "n": 25,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "رقب": {
+  "durum": "ayrıldı",
+  "n": 24,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "قصص": {
+  "durum": "ayrıldı",
+  "n": 30,
+  "lemma_sayisi": 3,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] قَصَّ 18:64,28:11 iz-sürme — ayet-istisna"
+ },
+ "حرر": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "أنث": {
+  "durum": "temiz",
+  "n": 30,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "أخو": {
+  "durum": "temiz",
+  "n": 96,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "أدي": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 16,
+  "lemma_sayisi": 1
+ },
+ "جنف": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صوم": {
+  "durum": "ayrıldı",
+  "n": 14,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "سفر": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "طوق": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شهر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 21,
+  "lemma_sayisi": 1
+ },
+ "رمض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قرأ": {
+  "durum": "ayrıldı",
+  "n": 88,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "يسر": {
+  "durum": "ayrıldı",
+  "n": 44,
+  "lemma_sayisi": 9,
+  "parti": 3
+ },
+ "عسر": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "كمل": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "جوب": {
+  "durum": "ayrıldı",
+  "n": 43,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "رشد": {
+  "durum": "temiz",
+  "n": 19,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "رفث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "خون": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "خيط": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بيض": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "سود": {
+  "durum": "ayrıldı",
+  "n": 10,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "حدد": {
+  "durum": "ayrıldı",
+  "n": 25,
+  "lemma_sayisi": 5,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] حَدِيد 50:22 keskin-görüş — tabloda demir, ayet-istisna"
+ },
+ "دلو": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "وقت": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "ثقف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "نهي": {
+  "durum": "ayrıldı",
+  "n": 56,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "هلك": {
+  "durum": "temiz",
+  "n": 68,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "حصر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "حلق": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "رأس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 18,
+  "lemma_sayisi": 1
+ },
+ "بلغ": {
+  "durum": "temiz",
+  "n": 77,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "أذي": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "ثلث": {
+  "durum": "temiz",
+  "n": 32,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "جدل": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "زود": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فيض": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "نصب": {
+  "durum": "ayrıldı",
+  "n": 32,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "سرع": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "حسب": {
+  "durum": "ayrıldı",
+  "n": 109,
+  "lemma_sayisi": 6,
+  "parti": 1,
+  "istisna_notu": "حُسْبان: 6:96/55:5 hesap, 18:40 gökten felaket — ayet-istisna"
+ },
+ "حشر": {
+  "durum": "temiz",
+  "n": 43,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "عجب": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "لدد": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خصم": {
+  "durum": "temiz",
+  "n": 18,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "نسل": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "مهد": {
+  "durum": "ayrıldı",
+  "n": 16,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "كفف": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "زين": {
+  "durum": "temiz",
+  "n": 46,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "زلزل": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "كره": {
+  "durum": "ayrıldı",
+  "n": 41,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "عسي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 30,
+  "lemma_sayisi": 1
+ },
+ "شرر": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "صدد": {
+  "durum": "ayrıldı",
+  "n": 42,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "زيل": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "حبط": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "هجر": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "جهد": {
+  "durum": "ayrıldı",
+  "n": 41,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "رجو": {
+  "durum": "ayrıldı",
+  "n": 28,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "خمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "فكر": {
+  "durum": "temiz",
+  "n": 18,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "خلط": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "عنت": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نكح": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "أمو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حيض": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عزل": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "يمن": {
+  "durum": "ayrıldı",
+  "n": 71,
+  "lemma_sayisi": 3,
+  "parti": 2,
+  "istisna_notu": "يَمِين tek lemma: hem YEMİN hem SAĞ EL — 'yemin-sağ' altında birleşik, ayet-istisna ister"
+ },
+ "لغو": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "حلم": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "ألو": {
+  "durum": "ayrıldı",
+  "n": 37,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "ربص": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "فيأ": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عزم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "طلق": {
+  "durum": "ayrıldı",
+  "n": 23,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "بعل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "رجل": {
+  "durum": "ayrıldı",
+  "n": 73,
+  "lemma_sayisi": 2,
+  "parti": 1
+ },
+ "درج": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "مرر": {
+  "durum": "ayrıldı",
+  "n": 35,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "مسك": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "سرح": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "أجل": {
+  "durum": "ayrıldı",
+  "n": 56,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "عضل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "رضع": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "كسو": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كلف": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "ورث": {
+  "durum": "temiz",
+  "n": 35,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "فصل": {
+  "durum": "ayrıldı",
+  "n": 43,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "شور": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "وذر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 45,
+  "lemma_sayisi": 1
+ },
+ "خبر": {
+  "durum": "temiz",
+  "n": 52,
+  "lemma_sayisi": 3,
+  "parti": 2
+ },
+ "خطب": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "كنن": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "عقد": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "قتر": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 5,
+  "parti": 6
+ },
+ "نصف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "حفظ": {
+  "durum": "temiz",
+  "n": 44,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "ركب": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "قرض": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "ضعف": {
+  "durum": "ayrıldı",
+  "n": 52,
+  "lemma_sayisi": 9,
+  "parti": 2
+ },
+ "قبض": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "بسط": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "ملأ": {
+  "durum": "ayrıldı",
+  "n": 40,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "جسم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "بقي": {
+  "durum": "temiz",
+  "n": 21,
+  "lemma_sayisi": 7,
+  "parti": 4
+ },
+ "حمل": {
+  "durum": "temiz",
+  "n": 64,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "جند": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 29,
+  "lemma_sayisi": 1
+ },
+ "غرف": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جوز": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فأي": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "غلب": {
+  "durum": "ayrıldı",
+  "n": 31,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "برز": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "فرغ": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "ثبت": {
+  "durum": "temiz",
+  "n": 18,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "هزم": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دفع": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "بيع": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "خلل": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "وسن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نوم": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "كرس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أود": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "علو": {
+  "durum": "ayrıldı",
+  "n": 70,
+  "lemma_sayisi": 14,
+  "parti": 2
+ },
+ "غوي": {
+  "durum": "temiz",
+  "n": 22,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "عرو": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فصم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شمس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 33,
+  "lemma_sayisi": 1
+ },
+ "بهت": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "خوي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "عرش": {
+  "durum": "ayrıldı",
+  "n": 33,
+  "lemma_sayisi": 3,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] عَرْش 2:259,18:42,22:45 çatı — tabloda arş-taht, ayet-istisna"
+ },
+ "مأي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "عوم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "لبث": {
+  "durum": "temiz",
+  "n": 31,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "سنه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حمر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نشز": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "طمأن": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "طير": {
+  "durum": "ayrıldı",
+  "n": 29,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "صور": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "جبل": {
+  "durum": "ayrıldı",
+  "n": 41,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "جزأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "سنبل": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غني": {
+  "durum": "temiz",
+  "n": 73,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "ترب": {
+  "durum": "ayrıldı",
+  "n": 22,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "وبل": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "صلد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ربو": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 8,
+  "parti": 4
+ },
+ "طلل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نخل": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "عنب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 11,
+  "lemma_sayisi": 1
+ },
+ "عصر": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 1
+ },
+ "حرق": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "يمم": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "خبث": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "غمض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فقر": {
+  "durum": "ayrıldı",
+  "n": 14,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "خفي": {
+  "durum": "temiz",
+  "n": 34,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "عفف": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لحف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خبط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سلف": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "عود": {
+  "durum": "ayrıldı",
+  "n": 63,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "محق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حرب": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "بخس": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سأم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "صغر": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "قسط": {
+  "durum": "ayrıldı",
+  "n": 25,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "رهن": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "أصر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "نقم": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "زيغ": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "رسخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "وهب": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "لدن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 18,
+  "lemma_sayisi": 1
+ },
+ "دأب": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ذنب": {
+  "durum": "ayrıldı",
+  "n": 39,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "عبر": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "شهو": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "قنطر": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فضض": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "خيل": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "أوب": {
+  "durum": "temiz",
+  "n": 17,
+  "lemma_sayisi": 4,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] أَوِّبِ 34:10 dağların-tesbih-eşliği — dönüş alanından, ayet-istisna"
+ },
+ "غرر": {
+  "durum": "temiz",
+  "n": 27,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "فري": {
+  "durum": "ayrıldı",
+  "n": 60,
+  "lemma_sayisi": 8,
+  "parti": 2
+ },
+ "نزع": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "ولج": {
+  "durum": "ayrıldı",
+  "n": 14,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "صدر": {
+  "durum": "ayrıldı",
+  "n": 46,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "أمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "وضع": {
+  "durum": "ayrıldı",
+  "n": 26,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "رجم": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 4,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] رَجْم 18:22 zanla-taş-atma (mecaz) — ayet-istisna"
+ },
+ "كفل": {
+  "durum": "ayrıldı",
+  "n": 10,
+  "lemma_sayisi": 5,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] كِفْل 21:85,38:48 Zülkifl — istisna dosyasında"
+ },
+ "غلم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 13,
+  "lemma_sayisi": 1
+ },
+ "عقر": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "رمز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عشو": {
+  "durum": "ayrıldı",
+  "n": 14,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "وحي": {
+  "durum": "temiz",
+  "n": 78,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "قلم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "مسح": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "كهل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "طين": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "هيأ": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نفخ": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "كمه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "برص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ذخر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حسس": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "حور": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "مكر": {
+  "durum": "temiz",
+  "n": 43,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "بهل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دنر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دوم": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "لوي": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "لسن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 25,
+  "lemma_sayisi": 1
+ },
+ "درس": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "برك": {
+  "durum": "temiz",
+  "n": 32,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "عوج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "عصم": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "حبل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "صبح": {
+  "durum": "ayrıldı",
+  "n": 45,
+  "lemma_sayisi": 7,
+  "parti": 1
+ },
+ "شفو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حفر": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نقذ": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نكر": {
+  "durum": "temiz",
+  "n": 37,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "ذوق": {
+  "durum": "temiz",
+  "n": 63,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "دبر": {
+  "durum": "ayrıldı",
+  "n": 44,
+  "lemma_sayisi": 8,
+  "parti": 3
+ },
+ "أني": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 5,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] آنِيَة 88:5 kaynar-pınar — istisna dosyasında"
+ },
+ "صرر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "خبل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "بغض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "فوه": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "عضض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نمل": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "غيظ": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "فرح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 22,
+  "lemma_sayisi": 1
+ },
+ "كيد": {
+  "durum": "temiz",
+  "n": 35,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "غدو": {
+  "durum": "ayrıldı",
+  "n": 16,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "همم": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "فشل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "وكل": {
+  "durum": "temiz",
+  "n": 70,
+  "lemma_sayisi": 4,
+  "parti": 2
+ },
+ "فور": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خمس": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "طرف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 11,
+  "lemma_sayisi": 1
+ },
+ "كبت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "خيب": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كظم": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "سنن": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "سير": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "وهن": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "قرح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "دول": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "محص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كين": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سرف": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "رعب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "سلط": {
+  "durum": "temiz",
+  "n": 39,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "أوي": {
+  "durum": "temiz",
+  "n": 36,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "ثوي": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "صعد": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "فوت": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نعس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ضجع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "غزو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لين": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "فظظ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غلظ": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "خذل": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "غلل": {
+  "durum": "ayrıldı",
+  "n": 16,
+  "lemma_sayisi": 2,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] غَلَّ 3:161(×3) hıyanet / 5:64,69:30 bağlama — tabloda hıyanet, ayet-istisna gerekir"
+ },
+ "سخط": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لحق": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حظظ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "ملو": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 2,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] أَمْلَى 25:5 yazdırma (tümlâ) — istisna dosyasında"
+ },
+ "ميز": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "طلع": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "جبي": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "بخل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "زبر": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 2,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] زُبُر 23:53 parçalar/kitaplar (müphem) — istisna dosyasında"
+ },
+ "فوز": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 5,
+  "parti": 3
+ },
+ "جنب": {
+  "durum": "ayrıldı",
+  "n": 33,
+  "lemma_sayisi": 6,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] جُنُب 4:36 uzak-komşu, 28:11 uzaktan — tabloda cünüp, ayet-istisna"
+ },
+ "ربط": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "حوب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عول": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نحل": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هنأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "بدر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قسم": {
+  "durum": "ayrıldı",
+  "n": 33,
+  "lemma_sayisi": 9,
+  "parti": 3
+ },
+ "سدد": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صلي": {
+  "durum": "temiz",
+  "n": 25,
+  "lemma_sayisi": 8,
+  "parti": 4
+ },
+ "سعر": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "سدس": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دري": {
+  "durum": "temiz",
+  "n": 29,
+  "lemma_sayisi": 2,
+  "parti": 3
+ },
+ "عتد": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "فضو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مقت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "عمم": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خول": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "صلب": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "حصن": {
+  "durum": "ayrıldı",
+  "n": 18,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "سفح": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "طول": {
+  "durum": "ayrıldı",
+  "n": 10,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "فتي": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "خدن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ميل": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "كرم": {
+  "durum": "temiz",
+  "n": 47,
+  "lemma_sayisi": 6,
+  "parti": 2
+ },
+ "وفق": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "جور": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 6,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] جار 8:48 koruyucu — istisna dosyasında"
+ },
+ "فخر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "قرن": {
+  "durum": "ayrıldı",
+  "n": 36,
+  "lemma_sayisi": 5,
+  "parti": 1
+ },
+ "ثقل": {
+  "durum": "temiz",
+  "n": 28,
+  "lemma_sayisi": 8,
+  "parti": 3,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] ثَقَل 55:31 sekalân=ins-cin — ağırlıktan türeme, ayet-istisna"
+ },
+ "سكر": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "غسل": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "غوط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لمس": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "طعن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "طمس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "فتل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جبت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نقر": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نضج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جلد": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 1
+ },
+ "زعم": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "حلف": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "حرج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 15,
+  "lemma_sayisi": 1
+ },
+ "رفق": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "نفر": {
+  "durum": "ayrıldı",
+  "n": 18,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "ثبي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بطأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "درك": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "برج": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شيد": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فقه": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "ذيع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نبط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حرض": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قوت": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ركس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ودي": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "عمد": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "غنم": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "رغم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وقع": {
+  "durum": "temiz",
+  "n": 24,
+  "lemma_sayisi": 7,
+  "parti": 4
+ },
+ "قصر": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 6,
+  "parti": 5
+ },
+ "سلح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "مطر": {
+  "durum": "ayrıldı",
+  "n": 15,
+  "lemma_sayisi": 3,
+  "parti": 4,
+  "istisna_notu": "مَطَر 4:102 gerçek yağmur; azap bağlamları أُمْطِرَتْ altında ayrıldı"
+ },
+ "رمي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "مرد": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "بتك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حيص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "شحح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "علق": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "خوض": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "حوذ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كسل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ذبذب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سفل": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "طبع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 11,
+  "lemma_sayisi": 1
+ },
+ "شكك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 15,
+  "lemma_sayisi": 1
+ },
+ "طرق": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "غلو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نكف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "بهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "صيد": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قلد": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جرم": {
+  "durum": "ayrıldı",
+  "n": 66,
+  "lemma_sayisi": 5,
+  "parti": 2
+ },
+ "شنأ": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خنق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وقذ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ردي": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "نطح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ذكو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زلم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "يأس": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] يَئِسَ 13:31 'bilme' (eski Arapça) — istisna dosyasında"
+ },
+ "خمص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جرح": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "كلب": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كعب": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نقب": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عزر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "غرو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "صنع": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "فتر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "جبر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "تيه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أسو": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بحث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عجز": {
+  "durum": "ayrıldı",
+  "n": 26,
+  "lemma_sayisi": 6,
+  "parti": 3
+ },
+ "ندم": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نفي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وسل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سرق": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "سحت": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حبر": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "أنف": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "أثر": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "همن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "شرع": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "نهج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لوم": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 7,
+  "parti": 4
+ },
+ "حزب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 20,
+  "lemma_sayisi": 1
+ },
+ "لعب": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "طفأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قصد": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 5,
+  "parti": 6
+ },
+ "أفك": {
+  "durum": "ayrıldı",
+  "n": 30,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "قسس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دمع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "رجس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "رمح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سيب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حمي": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "حبس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "عثر": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ميد": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "مكن": {
+  "durum": "temiz",
+  "n": 18,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "درر": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نشأ": {
+  "durum": "ayrıldı",
+  "n": 28,
+  "lemma_sayisi": 7,
+  "parti": 3
+ },
+ "قرطس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حيق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 10,
+  "lemma_sayisi": 1
+ },
+ "فطر": {
+  "durum": "ayrıldı",
+  "n": 20,
+  "lemma_sayisi": 6,
+  "parti": 4
+ },
+ "كشف": {
+  "durum": "temiz",
+  "n": 20,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "قهر": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "وقر": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "سطر": {
+  "durum": "ayrıldı",
+  "n": 16,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "نأي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "وقف": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سوع": {
+  "durum": "ayrıldı",
+  "n": 49,
+  "lemma_sayisi": 2,
+  "parti": 2
+ },
+ "بغت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 13,
+  "lemma_sayisi": 1
+ },
+ "فرط": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "وزر": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 4,
+  "parti": 3
+ },
+ "لهو": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "جحد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "ضرع": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "بلس": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صدف": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خزن": {
+  "durum": "ayrıldı",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "طرد": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سقط": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "ورق": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رطب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "يبس": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "كرب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "شيع": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "بسل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حمم": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 2,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] حَمِيم tek lemma: hem KAYNAR SU hem YAKIN DOST (70:10) — ayet-düzeyi gerekir",
+  "parti": 1
+ },
+ "حير": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صنم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "كوكب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "أفل": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 27,
+  "lemma_sayisi": 1
+ },
+ "بزغ": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قدو": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "فرد": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فلق": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نوي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نجم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 13,
+  "lemma_sayisi": 1,
+  "istisna_notu": "نَجْم tek lemma: hem YILDIZ hem BİTKİ (55:6) — ayet-düzeyi gerekir"
+ },
+ "ودع": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "خضر": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "قنو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زيت": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "رمن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ينع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خرق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "وصف": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "لطف": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "فأد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 16,
+  "lemma_sayisi": 1
+ },
+ "زخرف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "صغو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قرف": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خرص": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شرح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "ضيق": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "ذرأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "زرع": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "حصد": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "ضأن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "معز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شمل": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "أبل": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ظفر": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شحم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حوي": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هلم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ملق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كيل": {
+  "durum": "temiz",
+  "n": 16,
+  "lemma_sayisi": 4,
+  "parti": 4
+ },
+ "وزن": {
+  "durum": "temiz",
+  "n": 23,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "قيل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عيش": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "ذأم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دحر": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وسوس": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نصح": {
+  "durum": "temiz",
+  "n": 13,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "دلل": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "طفق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "خصف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ريش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بدأ": {
+  "durum": "temiz",
+  "n": 15,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "جمل": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "سمم": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حجب": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ستت": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "طلب": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "حثث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سوق": {
+  "durum": "ayrıldı",
+  "n": 17,
+  "lemma_sayisi": 5,
+  "parti": 4,
+  "istisna_notu": "[İŞLENDİ → kok_anlam_istisna.json] سُوق 25:7,25:20 çarşı / 38:33 bacaklar, 48:29 gövde — tabloda çarşı, ayet-istisna gerekir"
+ },
+ "نكد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نوق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 7,
+  "lemma_sayisi": 1
+ },
+ "سهل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نحت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "عتو": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 4,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] عِتِيّ 19:8 yaşlılığın-son-haddi — istisna dosyasında"
+ },
+ "رجف": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "جثم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "غبر": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "مدن": {
+  "durum": "ayrıldı",
+  "n": 27,
+  "lemma_sayisi": 3,
+  "parti": 3
+ },
+ "ضحو": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ثعب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لقف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جرد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قمل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضفدع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نكث": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دمر": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "تبر": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "جلو": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "دكك": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "خرر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "لوح": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حلي": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "جسد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "خور": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أسف": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جرر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شمت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سكت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بجس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حوت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "عذر": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 5,
+  "parti": 5
+ },
+ "نتق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سلخ": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لهث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لحد": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "متن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "رسو": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "حفو": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صمت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بطش": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "نزغ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "نصت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أصل": {
+  "durum": "ayrıldı",
+  "n": 10,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "نفل": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وجل": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شوك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غوث": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ردف": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عنق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "بنن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "زحف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حوز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مكو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صدي": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ركم": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "مضي": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قصو": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "بطر": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نكص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "شرد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ثخن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سيح": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "رصد": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "ألل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ذمم": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شفي": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كسد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وطن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رحب": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نجس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عيل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عطو": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "ضهأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كنز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "كوي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جبه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نسأ": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وطأ": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "غور": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "ثبط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زهق": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "لجأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جمح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لمز": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غرم": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "ضحك": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "بكي": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "قبر": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عرب": {
+  "durum": "ayrıldı",
+  "n": 22,
+  "lemma_sayisi": 3,
+  "parti": 4
+ },
+ "جدر": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "أسس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جرف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هور": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "أوه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ظمأ": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "عصف": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "موج": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رهق": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "شأن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "عزب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لفت": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بدن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "خبت": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رذل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "لزم": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زري": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بلع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قلع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غيض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جود": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نصي": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صيح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 13,
+  "lemma_sayisi": 1
+ },
+ "حنذ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وجس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "شيخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "مجد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "روع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نوب": {
+  "durum": "temiz",
+  "n": 18,
+  "lemma_sayisi": 2,
+  "parti": 4
+ },
+ "ذرع": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عصب": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هرع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ضيف": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ركن": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سري": {
+  "durum": "ayrıldı",
+  "n": 8,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "سجل": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نضد": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رهط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ورد": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 6,
+  "parti": 1
+ },
+ "رفد": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "تبب": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شقو": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "سعد": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زفر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "شهق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جذذ": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زلف": {
+  "durum": "temiz",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] زُلْفَة 11:114 gecenin-dilimleri — istisna dosyasında"
+ },
+ "ترف": {
+  "durum": "temiz",
+  "n": 8,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "طرح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لقط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "رتع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ذأب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قمص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "سول": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "بضع": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "درهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زهد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غلق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هيت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قدد": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سجن": {
+  "durum": "ayrıldı",
+  "n": 12,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "شغف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وكأ": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "حوش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "صبو": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خبز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سمن": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عجف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ضغث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "غيث": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بول": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "حصحص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جهز": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رحل": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "مير": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بعر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حوج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "عير": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "فقد": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صوع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وعي": {
+  "durum": "ayrıldı",
+  "n": 7,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "برح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "فتأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شكو": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "زجو": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ثرب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فند": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صنو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جدد": {
+  "durum": "ayrıldı",
+  "n": 10,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "سرب": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "محل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سيل": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "زبد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جفأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مكث": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قرع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "محو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "جرع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سوغ": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جزع": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صرخ": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "فرع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جثث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بور": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "حصي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 11,
+  "lemma_sayisi": 1
+ },
+ "شخص": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هطع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قنع": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زول": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صفد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سربل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قطر": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "أمل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سلك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "عرج": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "شهب": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لقح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صلصل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "حمأ": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قنط": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "فضح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وسم": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خفض": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عضو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صدع": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 5,
+  "parti": 6
+ },
+ "نطف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 12,
+  "lemma_sayisi": 1
+ },
+ "دفأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بغل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طرو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "مخر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سقف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "خسف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 8,
+  "lemma_sayisi": 1
+ },
+ "دخر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "وصب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جأر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "دسس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فرث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لبن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حفد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لمح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جوو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ظعن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صوف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وبر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أثث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "عتب": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وكد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غزل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نفد": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عجم": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جوس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نشر": {
+  "durum": "ayrıldı",
+  "n": 21,
+  "lemma_sayisi": 10,
+  "parti": 4
+ },
+ "حظر": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كلو": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "أفف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "بذر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "زني": {
+  "durum": "temiz",
+  "n": 9,
+  "lemma_sayisi": 4,
+  "parti": 5
+ },
+ "قسطس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "مرح": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ستر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "رفت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نغض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حنك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وفر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فزز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "صوت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 8,
+  "lemma_sayisi": 1
+ },
+ "جلب": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حصب": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "تور": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قصف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دلك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غسق": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "هجد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شكل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نبع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كسف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "رقي": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "خبو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تسع": {
+  "durum": "temiz",
+  "n": 7,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ثبر": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لفف": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "ذقن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "خفت": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بخع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "جرز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كهف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "رقم": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شطط": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زور": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "فجو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "يقظ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رقد": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وصد": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فرر": {
+  "durum": "temiz",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "سردق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مهل": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "شوي": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "أرك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "حفف": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بيد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زلق": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هشم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ذرو": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "غدر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "صفف": {
+  "durum": "temiz",
+  "n": 14,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "شفق": {
+  "durum": "ayrıldı",
+  "n": 11,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "عضد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "وبق": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دحض": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "وأل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حقب": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صخر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سفن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "قضض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عيب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غصب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ردم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غطو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "شعل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شيب": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حنن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مخض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جذع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "هزز": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جني": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جثو": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حتم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضدد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أزز": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وفد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أدد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هدد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ركز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ثري": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قبس": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "خلع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نعل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طوي": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "هشش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أرب": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ضمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أزر": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قذف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 9,
+  "lemma_sayisi": 1
+ },
+ "سحل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وني": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شتت": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سمر": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لحي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نسف": {
+  "durum": "temiz",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "زرق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قوع": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "صفصف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أمت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "همس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عنو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هضم": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عري": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ضنك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زهر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صحف": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5
+ },
+ "قصم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ركض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "خمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "دمغ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رتق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فتق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فجج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "كلأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نفح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خردل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نطق": {
+  "durum": "temiz",
+  "n": 12,
+  "lemma_sayisi": 3,
+  "parti": 5
+ },
+ "نكس": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "برد": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نفش": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غوص": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نون": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فرج": {
+  "durum": "ayrıldı",
+  "n": 9,
+  "lemma_sayisi": 2,
+  "parti": 5,
+  "istisna_notu": "[İŞLENDİ] فَرْج 50:6 gök-yarıkları — istisna dosyasında"
+ },
+ "حدب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فزع": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ذهل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مضغ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "طفل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "همد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بهج": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عطف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مجس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "صهر": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قمع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لؤلؤ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "ضمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عمق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تفث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عتق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "وثن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "سحق": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وجب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عرر": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هدم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صمع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بأر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عطل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عقم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "سطو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ذبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "سلب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سلل": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فكه": {
+  "durum": "ayrıldı",
+  "n": 19,
+  "lemma_sayisi": 5,
+  "parti": 4
+ },
+ "دهن": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "غثو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "وتر": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "نكب": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "لجج": {
+  "durum": "ayrıldı",
+  "n": 4,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "همز": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "برزخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "نسب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "لفح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كلح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عبث": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غضض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "جيب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "عور": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "أيم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زجج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ودق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "ذعن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حيف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لوذ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هبو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نثر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فلن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رتل": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فسر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رسس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "مرج": {
+  "durum": "ayrıldı",
+  "n": 6,
+  "lemma_sayisi": 4,
+  "parti": 6
+ },
+ "فرت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ملح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أجج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "سرج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "عبأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خضع": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ضير": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شرذم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طود": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كبكب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شحن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ريع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فره": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قلي": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "هيم": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وزع": {
+  "durum": "ayrıldı",
+  "n": 5,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "حطم": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "بسم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هدهد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سبأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "خبأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عفر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صرح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "حدق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "حجز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "فوج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 5,
+  "lemma_sayisi": 1
+ },
+ "جمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تقن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كبب": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وكز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ذود": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جذو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شطأ": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بقع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فصح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ردأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قبح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سرمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نوأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عنكب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "خطط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "روض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "مسو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صعر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خدد": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سبغ": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ختر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مهن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "جفو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جوف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حنجر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "عوق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سلق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نحب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صيص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وطر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "مزق": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سرد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جفن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عرم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خمط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أثل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سدر": {
+  "durum": "temiz",
+  "n": 4,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نوش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قطمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لغب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قمح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عرجن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جدث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "شغل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "مسخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "زجر": {
+  "durum": "temiz",
+  "n": 6,
+  "lemma_sayisi": 5,
+  "parti": 6
+ },
+ "ثقب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لزب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كأس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 6,
+  "lemma_sayisi": 1
+ },
+ "لذذ": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غول": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نزف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "زقم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "شوب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سقم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "روغ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "زفف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تلل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جبن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أبق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لقم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سوح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لوت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نوص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وتد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قطط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نعج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "صفن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رخو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حنث": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قحم": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كور": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "هيج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قشعر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شكس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شمز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زمر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أزف": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "فوض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سلسل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "سجر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "دخن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "صرصر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "نحس": {
+  "durum": "ayrıldı",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "قيض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "كمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "أفق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ركد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كوب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "برم": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رهو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غلي": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "عتل": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دهر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حقف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عيي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "تعس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أسن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عسل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "معي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شرط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قفل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضغن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "لحن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "محن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نبز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لقب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جسس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شعب": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ليت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بسق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لفظ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حيد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حبك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سهو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "هجع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صكك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رقق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مور": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دعع": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ألت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كهن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "قوب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قوس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضيز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لمم": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كدي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قني": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "همر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دسر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قعر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أشر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "دهي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أنم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فني": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جلل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "نفذ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "شوظ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فنن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طمث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "دهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نضخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خيم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رفرف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عبقر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رجج": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بسس": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "شأم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "ثلل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "وضن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خضد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طلح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سكب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مزن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فسح": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "جلس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وجف": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "رصص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خشب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سند": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غبن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ثيب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طبق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 4,
+  "lemma_sayisi": 1
+ },
+ "نمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زنم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خرطم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صرم": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 3,
+  "parti": 6
+ },
+ "حرد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حسم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صرع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وهي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هاء": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قطف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "حضض": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وتن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عهن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "هلع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عزو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وفض": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نسر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حرس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هرب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حري": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حطب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "غدق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لبد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "زمل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بتل": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "غصص": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كثب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هيل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دثر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عبس": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "بسر": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "قسر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حرك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نضر": {
+  "durum": "temiz",
+  "n": 3,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "ترق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مطو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سدي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مشج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مزج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "قمطر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زمهر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كفت": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شمخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لهب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 3,
+  "lemma_sayisi": 1
+ },
+ "وهج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ثجج": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دهق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نشط": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "نخر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سهر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سمك": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غطش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دحو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قضب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "أبب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صخخ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كدر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وحش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وأد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كشط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "خنس": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "كنس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "عسعس": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضنن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بعثر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 2,
+  "lemma_sayisi": 1
+ },
+ "طفف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رين": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "رحق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سنم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "غمز": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كدح": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "وسق": {
+  "durum": "temiz",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "دفق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "هزل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نمرق": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زرب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سطح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سوط": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جمم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كبد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شفه": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نجد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فكك": {
+  "durum": "ayrıldı",
+  "n": 2,
+  "lemma_sayisi": 2,
+  "parti": 6
+ },
+ "سغب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "طحو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لهم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دسو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "دمدم": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "لظي": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سجو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "تين": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "سفع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "زبن": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "ضبح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قدح": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نقع": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كند": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "حصل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "فيل": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "قرش": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "شتو": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صيف": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نحر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "بتر": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "جيد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "مسد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "صمد": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "كفأ": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "وقب": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ },
+ "نفث": {
+  "durum": "tek-lemma-otomatik-temiz",
+  "n": 1,
+  "lemma_sayisi": 1
+ }
+}

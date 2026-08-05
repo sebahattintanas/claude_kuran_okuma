@@ -1,0 +1,9117 @@
+{
+ "hak": {
+  "ad": "hak",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 263,
+  "komsu": [
+   [
+    "Allah",
+    120
+   ],
+   [
+    "söz",
+    83
+   ],
+   [
+    "olmak/varlık",
+    68
+   ],
+   [
+    "Rab",
+    67
+   ],
+   [
+    "iman/emniyet",
+    55
+   ],
+   [
+    "ilim",
+    45
+   ],
+   [
+    "جيأ",
+    40
+   ],
+   [
+    "küfür",
+    38
+   ]
+  ],
+  "ses": {
+   "mora": 103,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.25,
+   "şimdi": 1.34,
+   "gelecek": 0.92
+  },
+  "yogunluk": {
+   "kok": 10.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 35,
+   "orta": 29,
+   "son": 35
+  },
+  "zit": {
+   "küfür": 38,
+   "dalâlet": 16,
+   "bâtıl": 15,
+   "zulüm": 15,
+   "yalanlama": 14
+  },
+  "ornek": [
+   "2:26",
+   "2:42",
+   "2:61"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "rahmet": {
+  "ad": "rahmet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 313,
+  "komsu": [
+   [
+    "Allah",
+    130
+   ],
+   [
+    "Rab",
+    91
+   ],
+   [
+    "mağfiret",
+    91
+   ],
+   [
+    "söz",
+    73
+   ],
+   [
+    "olmak/varlık",
+    64
+   ],
+   [
+    "iman/emniyet",
+    59
+   ],
+   [
+    "şey/dileme",
+    37
+   ],
+   [
+    "ilim",
+    36
+   ]
+  ],
+  "ses": {
+   "mora": 93,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.76,
+   "şimdi": 1.19,
+   "gelecek": 0.98
+  },
+  "yogunluk": {
+   "kok": 9.8,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 29,
+   "son": 41
+  },
+  "zit": {
+   "azap": 25,
+   "gazap": 1
+  },
+  "ornek": [
+   "1:1",
+   "1:3",
+   "2:37"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "ilim": {
+  "ad": "ilim",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 655,
+  "komsu": [
+   [
+    "Allah",
+    408
+   ],
+   [
+    "söz",
+    230
+   ],
+   [
+    "olmak/varlık",
+    157
+   ],
+   [
+    "Rab",
+    129
+   ],
+   [
+    "iman/emniyet",
+    99
+   ],
+   [
+    "şey/dileme",
+    95
+   ],
+   [
+    "أتي",
+    86
+   ],
+   [
+    "أرض",
+    85
+   ]
+  ],
+  "ses": {
+   "mora": 98,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.07,
+   "şimdi": 1.39,
+   "gelecek": 0.77
+  },
+  "yogunluk": {
+   "kok": 10.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 32,
+   "son": 37
+  },
+  "zit": {
+   "küfür": 44,
+   "zulüm": 37,
+   "cehâlet": 7
+  },
+  "ornek": [
+   "1:2",
+   "2:13",
+   "2:22"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "kavram-zıtlı",
+  "kok_anlam_filtreli": true
+ },
+ "takvâ": {
+  "ad": "takvâ",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 237,
+  "komsu": [
+   [
+    "Allah",
+    135
+   ],
+   [
+    "iman/emniyet",
+    55
+   ],
+   [
+    "olmak/varlık",
+    44
+   ],
+   [
+    "söz",
+    43
+   ],
+   [
+    "أيي",
+    37
+   ],
+   [
+    "Rab",
+    33
+   ],
+   [
+    "ilim",
+    31
+   ],
+   [
+    "قوم",
+    31
+   ]
+  ],
+  "ses": {
+   "mora": 95,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.06,
+   "şimdi": 0.95,
+   "gelecek": 1.33
+  },
+  "yogunluk": {
+   "kok": 9.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 27,
+   "orta": 33,
+   "son": 41
+  },
+  "zit": {
+   "küfür": 17,
+   "zulüm": 10,
+   "günah": 3,
+   "fısk": 3
+  },
+  "ornek": [
+   "2:2",
+   "2:21",
+   "2:24"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "sabır": {
+  "ad": "sabır",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 93,
+  "komsu": [
+   [
+    "Allah",
+    37
+   ],
+   [
+    "Rab",
+    23
+   ],
+   [
+    "söz",
+    21
+   ],
+   [
+    "olmak/varlık",
+    17
+   ],
+   [
+    "iman/emniyet",
+    13
+   ],
+   [
+    "قوم",
+    12
+   ],
+   [
+    "أمر",
+    11
+   ],
+   [
+    "أيي",
+    10
+   ]
+  ],
+  "ses": {
+   "mora": 90,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.08,
+   "şimdi": 1.11,
+   "gelecek": 0.85
+  },
+  "yogunluk": {
+   "kok": 9.5,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 20,
+   "orta": 37,
+   "son": 43
+  },
+  "ornek": [
+   "2:45",
+   "2:61",
+   "2:153"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "adalet": {
+  "ad": "adalet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 24,
+  "komsu": [
+   [
+    "Allah",
+    17
+   ],
+   [
+    "iman/emniyet",
+    10
+   ],
+   [
+    "olmak/varlık",
+    10
+   ],
+   [
+    "قوم",
+    8
+   ],
+   [
+    "takvâ",
+    6
+   ],
+   [
+    "beyan",
+    6
+   ],
+   [
+    "أيي",
+    6
+   ],
+   [
+    "قسط",
+    6
+   ]
+  ],
+  "ses": {
+   "mora": 161,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 2.1,
+   "şimdi": 0.61,
+   "gelecek": 1.19
+  },
+  "yogunluk": {
+   "kok": 16.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 29,
+   "orta": 25,
+   "son": 46
+  },
+  "zit": {
+   "azgınlık": 2,
+   "zulüm": 1
+  },
+  "ornek": [
+   "2:48",
+   "2:123",
+   "2:282"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "şükür": {
+  "ad": "şükür",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 69,
+  "komsu": [
+   [
+    "Allah",
+    30
+   ],
+   [
+    "olmak/varlık",
+    17
+   ],
+   [
+    "جعل",
+    13
+   ],
+   [
+    "lütuf",
+    12
+   ],
+   [
+    "Rab",
+    12
+   ],
+   [
+    "أنس",
+    11
+   ],
+   [
+    "söz",
+    11
+   ],
+   [
+    "أيي",
+    10
+   ]
+  ],
+  "ses": {
+   "mora": 99,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.64,
+   "şimdi": 1.28,
+   "gelecek": 1.14
+  },
+  "yogunluk": {
+   "kok": 10.6,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 33,
+   "orta": 32,
+   "son": 35
+  },
+  "zit": {
+   "küfür": 7
+  },
+  "ornek": [
+   "2:52",
+   "2:56",
+   "2:152"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "tevhid": {
+  "ad": "tevhid",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 67,
+  "komsu": [
+   [
+    "Allah",
+    43
+   ],
+   [
+    "söz",
+    21
+   ],
+   [
+    "olmak/varlık",
+    21
+   ],
+   [
+    "Rab",
+    14
+   ],
+   [
+    "أمم",
+    12
+   ],
+   [
+    "şey/dileme",
+    12
+   ],
+   [
+    "جعل",
+    11
+   ],
+   [
+    "iman/emniyet",
+    9
+   ]
+  ],
+  "ses": {
+   "mora": 115,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.47,
+   "şimdi": 1.54,
+   "gelecek": 0.85
+  },
+  "yogunluk": {
+   "kok": 11.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 43,
+   "orta": 33,
+   "son": 24
+  },
+  "zit": {
+   "küfür": 8,
+   "şirk": 8
+  },
+  "ornek": [
+   "2:61",
+   "2:133",
+   "2:163"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "iman": {
+  "ad": "iman",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 478,
+  "komsu": [
+   [
+    "iman/emniyet",
+    478
+   ],
+   [
+    "Allah",
+    255
+   ],
+   [
+    "söz",
+    138
+   ],
+   [
+    "أيي",
+    137
+   ],
+   [
+    "olmak/varlık",
+    112
+   ],
+   [
+    "küfür",
+    92
+   ],
+   [
+    "Rab",
+    90
+   ],
+   [
+    "amel",
+    87
+   ]
+  ],
+  "ses": {
+   "mora": 115,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.28,
+   "şimdi": 1.19,
+   "gelecek": 1.3
+  },
+  "yogunluk": {
+   "kok": 11.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 30,
+   "son": 40
+  },
+  "zit": {
+   "küfür": 92,
+   "نفق": 14,
+   "şirk": 10
+  },
+  "ornek": [
+   "2:3",
+   "2:4",
+   "2:6"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "hidâyet": {
+  "ad": "hidâyet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 268,
+  "komsu": [
+   [
+    "Allah",
+    130
+   ],
+   [
+    "söz",
+    79
+   ],
+   [
+    "قوم",
+    66
+   ],
+   [
+    "Rab",
+    61
+   ],
+   [
+    "olmak/varlık",
+    57
+   ],
+   [
+    "iman/emniyet",
+    56
+   ],
+   [
+    "dalâlet",
+    52
+   ],
+   [
+    "ilim",
+    46
+   ]
+  ],
+  "ses": {
+   "mora": 99,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.74,
+   "şimdi": 1.37,
+   "gelecek": 0.59
+  },
+  "yogunluk": {
+   "kok": 10.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 39,
+   "son": 31
+  },
+  "zit": {
+   "dalâlet": 52
+  },
+  "ornek": [
+   "1:6",
+   "2:2",
+   "2:5"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "sevgi": {
+  "ad": "sevgi",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 85,
+  "komsu": [
+   [
+    "Allah",
+    57
+   ],
+   [
+    "iman/emniyet",
+    19
+   ],
+   [
+    "söz",
+    15
+   ],
+   [
+    "أتي",
+    14
+   ],
+   [
+    "قوم",
+    13
+   ],
+   [
+    "olmak/varlık",
+    13
+   ],
+   [
+    "şey/dileme",
+    12
+   ],
+   [
+    "ilim",
+    12
+   ]
+  ],
+  "ses": {
+   "mora": 107,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.19,
+   "şimdi": 0.75,
+   "gelecek": 0.93
+  },
+  "yogunluk": {
+   "kok": 11.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 29,
+   "orta": 36,
+   "son": 34
+  },
+  "zit": {
+   "كره": 3,
+   "بغض": 1
+  },
+  "ornek": [
+   "2:165",
+   "2:177",
+   "2:190"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "ihsan": {
+  "ad": "ihsan",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 177,
+  "komsu": [
+   [
+    "Allah",
+    86
+   ],
+   [
+    "söz",
+    41
+   ],
+   [
+    "olmak/varlık",
+    36
+   ],
+   [
+    "amel",
+    31
+   ],
+   [
+    "Rab",
+    29
+   ],
+   [
+    "سوأ",
+    28
+   ],
+   [
+    "şey/dileme",
+    24
+   ],
+   [
+    "قوم",
+    24
+   ]
+  ],
+  "ses": {
+   "mora": 103,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.28,
+   "şimdi": 0.89,
+   "gelecek": 1.62
+  },
+  "yogunluk": {
+   "kok": 10.8,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 28,
+   "orta": 30,
+   "son": 42
+  },
+  "zit": {
+   "سوأ": 28
+  },
+  "ornek": [
+   "2:58",
+   "2:83",
+   "2:112"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "merhamet": {
+  "ad": "merhamet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 313,
+  "komsu": [
+   [
+    "Allah",
+    130
+   ],
+   [
+    "Rab",
+    91
+   ],
+   [
+    "mağfiret",
+    91
+   ],
+   [
+    "söz",
+    73
+   ],
+   [
+    "olmak/varlık",
+    64
+   ],
+   [
+    "iman/emniyet",
+    59
+   ],
+   [
+    "şey/dileme",
+    37
+   ],
+   [
+    "ilim",
+    36
+   ]
+  ],
+  "ses": {
+   "mora": 93,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.76,
+   "şimdi": 1.19,
+   "gelecek": 0.98
+  },
+  "yogunluk": {
+   "kok": 9.8,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 29,
+   "son": 41
+  },
+  "zit": {},
+  "ornek": [
+   "1:1",
+   "1:3",
+   "2:37"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "Mûsâ": {
+  "ad": "Mûsâ",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 131,
+  "komsu": [
+   [
+    "söz",
+    66
+   ],
+   [
+    "أتي",
+    31
+   ],
+   [
+    "Allah",
+    30
+   ],
+   [
+    "Rab",
+    29
+   ],
+   [
+    "قوم",
+    28
+   ],
+   [
+    "olmak/varlık",
+    24
+   ],
+   [
+    "iman/emniyet",
+    19
+   ],
+   [
+    "kitap",
+    18
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 66,
+  "ornek": [
+   "2:51",
+   "2:53",
+   "2:54"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "İbrâhîm": {
+  "ad": "İbrâhîm",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 63,
+  "komsu": [
+   [
+    "Allah",
+    26
+   ],
+   [
+    "söz",
+    22
+   ],
+   [
+    "olmak/varlık",
+    21
+   ],
+   [
+    "قوم",
+    15
+   ],
+   [
+    "Rab",
+    13
+   ],
+   [
+    "أتي",
+    12
+   ],
+   [
+    "نبأ",
+    11
+   ],
+   [
+    "سلم",
+    10
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 22,
+  "ornek": [
+   "2:124",
+   "2:125",
+   "2:126"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Nûh": {
+  "ad": "Nûh",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 43,
+  "komsu": [
+   [
+    "قوم",
+    22
+   ],
+   [
+    "söz",
+    14
+   ],
+   [
+    "قبل",
+    12
+   ],
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "elçi",
+    11
+   ],
+   [
+    "نبأ",
+    7
+   ],
+   [
+    "بعد",
+    7
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 14,
+  "ornek": [
+   "3:33",
+   "4:163",
+   "6:84"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Îsâ": {
+  "ad": "Îsâ",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 25,
+  "komsu": [
+   [
+    "Allah",
+    18
+   ],
+   [
+    "بني",
+    16
+   ],
+   [
+    "söz",
+    16
+   ],
+   [
+    "beyan",
+    9
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "أتي",
+    8
+   ],
+   [
+    "iman/emniyet",
+    8
+   ],
+   [
+    "elçi",
+    6
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 16,
+  "ornek": [
+   "2:87",
+   "2:136",
+   "2:253"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Yûsuf": {
+  "ad": "Yûsuf",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 26,
+  "komsu": [
+   [
+    "söz",
+    17
+   ],
+   [
+    "Allah",
+    10
+   ],
+   [
+    "أخو",
+    9
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "أبو",
+    8
+   ],
+   [
+    "ilim",
+    7
+   ],
+   [
+    "قبل",
+    5
+   ],
+   [
+    "أرض",
+    4
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 17,
+  "ornek": [
+   "6:84",
+   "12:4",
+   "12:7"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Süleymân": {
+  "ad": "Süleymân",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "söz",
+    6
+   ],
+   [
+    "ilim",
+    6
+   ],
+   [
+    "أتي",
+    6
+   ],
+   [
+    "Allah",
+    5
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "كلل",
+    4
+   ],
+   [
+    "beyan",
+    3
+   ],
+   [
+    "أنس",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 6,
+  "ornek": [
+   "2:102",
+   "4:163",
+   "6:84"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Dâvûd": {
+  "ad": "Dâvûd",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "أتي",
+    7
+   ],
+   [
+    "hüküm",
+    5
+   ],
+   [
+    "lütuf",
+    5
+   ],
+   [
+    "ilim",
+    5
+   ],
+   [
+    "söz",
+    5
+   ],
+   [
+    "بعض",
+    4
+   ],
+   [
+    "kulluk",
+    4
+   ],
+   [
+    "Allah",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 5,
+  "ornek": [
+   "2:251",
+   "4:163",
+   "5:78"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Hârûn": {
+  "ad": "Hârûn",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 20,
+  "komsu": [
+   [
+    "أخو",
+    7
+   ],
+   [
+    "Rab",
+    6
+   ],
+   [
+    "söz",
+    5
+   ],
+   [
+    "أتي",
+    4
+   ],
+   [
+    "أيي",
+    3
+   ],
+   [
+    "نبأ",
+    3
+   ],
+   [
+    "olmak/varlık",
+    3
+   ],
+   [
+    "قوم",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 5,
+  "ornek": [
+   "2:248",
+   "4:163",
+   "6:84"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "İshâk": {
+  "ad": "İshâk",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "Allah",
+    7
+   ],
+   [
+    "نبأ",
+    6
+   ],
+   [
+    "وهب",
+    5
+   ],
+   [
+    "söz",
+    4
+   ],
+   [
+    "سبط",
+    4
+   ],
+   [
+    "Rab",
+    4
+   ],
+   [
+    "أتي",
+    4
+   ],
+   [
+    "kulluk",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 4,
+  "ornek": [
+   "2:133",
+   "2:136",
+   "2:140"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Yâkûb": {
+  "ad": "Yâkûb",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "Allah",
+    8
+   ],
+   [
+    "نبأ",
+    5
+   ],
+   [
+    "سلم",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "أبو",
+    4
+   ],
+   [
+    "söz",
+    4
+   ],
+   [
+    "سبط",
+    4
+   ],
+   [
+    "Rab",
+    4
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 4,
+  "ornek": [
+   "2:132",
+   "2:133",
+   "2:136"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "İsmâîl": {
+  "ad": "İsmâîl",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 12,
+  "komsu": [
+   [
+    "Allah",
+    5
+   ],
+   [
+    "Rab",
+    4
+   ],
+   [
+    "söz",
+    4
+   ],
+   [
+    "نبأ",
+    4
+   ],
+   [
+    "سبط",
+    4
+   ],
+   [
+    "iman/emniyet",
+    3
+   ],
+   [
+    "ilim",
+    3
+   ],
+   [
+    "olmak/varlık",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 4,
+  "ornek": [
+   "2:125",
+   "2:127",
+   "2:133"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Âdem": {
+  "ad": "Âdem",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 25,
+  "komsu": [
+   [
+    "أدم",
+    25
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "بني",
+    8
+   ],
+   [
+    "ملك",
+    7
+   ],
+   [
+    "سجد",
+    7
+   ],
+   [
+    "جنن",
+    6
+   ],
+   [
+    "Allah",
+    5
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 13,
+  "ornek": [
+   "2:31",
+   "2:33",
+   "2:34"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Meryem": {
+  "ad": "Meryem",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 31,
+  "komsu": [
+   [
+    "بني",
+    23
+   ],
+   [
+    "Allah",
+    17
+   ],
+   [
+    "söz",
+    17
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "Rab",
+    8
+   ],
+   [
+    "elçi",
+    7
+   ],
+   [
+    "beyan",
+    7
+   ],
+   [
+    "küfür",
+    7
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 17,
+  "ornek": [
+   "2:87",
+   "2:253",
+   "3:36"
+  ],
+  "alt_tur": "sâliha-kadın"
+ },
+ "Lût": {
+  "ad": "Lût",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 27,
+  "komsu": [
+   [
+    "söz",
+    13
+   ],
+   [
+    "قوم",
+    12
+   ],
+   [
+    "elçi",
+    8
+   ],
+   [
+    "ilim",
+    6
+   ],
+   [
+    "نجو",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "أتي",
+    4
+   ],
+   [
+    "جيأ",
+    4
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 13,
+  "ornek": [
+   "6:86",
+   "7:80",
+   "11:70"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Şuayb": {
+  "ad": "Şuayb",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 10,
+  "komsu": [
+   [
+    "söz",
+    8
+   ],
+   [
+    "قوم",
+    5
+   ],
+   [
+    "kulluk",
+    4
+   ],
+   [
+    "iman/emniyet",
+    3
+   ],
+   [
+    "olmak/varlık",
+    3
+   ],
+   [
+    "أخو",
+    3
+   ],
+   [
+    "مدن",
+    3
+   ],
+   [
+    "Allah",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 8,
+  "ornek": [
+   "7:85",
+   "7:88",
+   "7:90"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Sâlih": {
+  "ad": "Sâlih",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 9,
+  "komsu": [
+   [
+    "salâh",
+    9
+   ],
+   [
+    "söz",
+    6
+   ],
+   [
+    "Rab",
+    5
+   ],
+   [
+    "kulluk",
+    4
+   ],
+   [
+    "قوم",
+    4
+   ],
+   [
+    "أخو",
+    4
+   ],
+   [
+    "Allah",
+    3
+   ],
+   [
+    "elçi",
+    3
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 6,
+  "ornek": [
+   "7:73",
+   "7:75",
+   "7:77"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Hûd": {
+  "ad": "Hûd",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 18,
+  "komsu": [
+   [
+    "هود",
+    18
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "yardım",
+    10
+   ],
+   [
+    "Allah",
+    10
+   ],
+   [
+    "قوم",
+    7
+   ],
+   [
+    "olmak/varlık",
+    5
+   ],
+   [
+    "beyan",
+    4
+   ],
+   [
+    "iman/emniyet",
+    4
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 13,
+  "ornek": [
+   "2:111",
+   "2:113",
+   "2:120"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Zekeriyyâ": {
+  "ad": "Zekeriyyâ",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 6,
+  "komsu": [
+   [
+    "Rab",
+    4
+   ],
+   [
+    "كلل",
+    2
+   ],
+   [
+    "söz",
+    2
+   ],
+   [
+    "قبل",
+    2
+   ],
+   [
+    "حيي",
+    2
+   ],
+   [
+    "rızık",
+    1
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "كفل",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 2,
+  "ornek": [
+   "3:37",
+   "3:38",
+   "6:85"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Yahyâ": {
+  "ad": "Yahyâ",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 5,
+  "komsu": [
+   [
+    "حيي",
+    5
+   ],
+   [
+    "salâh",
+    3
+   ],
+   [
+    "müjde",
+    2
+   ],
+   [
+    "صدق",
+    1
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "نبأ",
+    1
+   ],
+   [
+    "namaz",
+    1
+   ],
+   [
+    "سود",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 0,
+  "ornek": [
+   "3:39",
+   "6:85",
+   "19:7"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Yûnus": {
+  "ad": "Yûnus",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 4,
+  "komsu": [
+   [
+    "نبأ",
+    1
+   ],
+   [
+    "سبط",
+    1
+   ],
+   [
+    "وحي",
+    1
+   ],
+   [
+    "بعد",
+    1
+   ],
+   [
+    "زبر",
+    1
+   ],
+   [
+    "أتي",
+    1
+   ],
+   [
+    "كلل",
+    1
+   ],
+   [
+    "ilim",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 0,
+  "ornek": [
+   "4:163",
+   "6:86",
+   "10:98"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Lokmân": {
+  "ad": "Lokmân",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "Allah",
+    2
+   ],
+   [
+    "حمد",
+    1
+   ],
+   [
+    "küfür",
+    1
+   ],
+   [
+    "غني",
+    1
+   ],
+   [
+    "أتي",
+    1
+   ],
+   [
+    "şükür",
+    1
+   ],
+   [
+    "نفس",
+    1
+   ],
+   [
+    "hüküm",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 1,
+  "ornek": [
+   "31:12",
+   "31:13"
+  ],
+  "alt_tur": "hakîm"
+ },
+ "Firavun": {
+  "ad": "Firavun",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 67,
+  "komsu": [
+   [
+    "söz",
+    25
+   ],
+   [
+    "قوم",
+    18
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "olmak/varlık",
+    15
+   ],
+   [
+    "أول",
+    13
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "ملأ",
+    11
+   ],
+   [
+    "بني",
+    10
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 25,
+  "ornek": [
+   "2:49",
+   "2:50",
+   "3:11"
+  ],
+  "alt_tur": "karşı-figür"
+ },
+ "İblîs/şeytan": {
+  "ad": "İblîs/şeytan",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 70,
+  "komsu": [
+   [
+    "شطن",
+    70
+   ],
+   [
+    "Allah",
+    27
+   ],
+   [
+    "söz",
+    19
+   ],
+   [
+    "olmak/varlık",
+    18
+   ],
+   [
+    "beyan",
+    15
+   ],
+   [
+    "عدو",
+    12
+   ],
+   [
+    "Rab",
+    12
+   ],
+   [
+    "ilim",
+    11
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 19,
+  "ornek": [
+   "2:36",
+   "2:102",
+   "2:168"
+  ],
+  "alt_tur": "karşı-figür"
+ },
+ "Hâmân": {
+  "ad": "Hâmân",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 6,
+  "komsu": [
+   [
+    "olmak/varlık",
+    3
+   ],
+   [
+    "söz",
+    3
+   ],
+   [
+    "جند",
+    2
+   ],
+   [
+    "أرض",
+    2
+   ],
+   [
+    "صرح",
+    2
+   ],
+   [
+    "yalanlama",
+    2
+   ],
+   [
+    "حذر",
+    1
+   ],
+   [
+    "رأي",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 3,
+  "ornek": [
+   "28:6",
+   "28:8",
+   "28:38"
+  ],
+  "alt_tur": "karşı-figür"
+ },
+ "Kârûn": {
+  "ad": "Kârûn",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 4,
+  "komsu": [
+   [
+    "söz",
+    3
+   ],
+   [
+    "olmak/varlık",
+    2
+   ],
+   [
+    "قوم",
+    2
+   ],
+   [
+    "أتي",
+    2
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "فتح",
+    1
+   ],
+   [
+    "كنز",
+    1
+   ],
+   [
+    "عصب",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 3,
+  "ornek": [
+   "28:76",
+   "28:79",
+   "29:39"
+  ],
+  "alt_tur": "karşı-figür"
+ },
+ "Âd": {
+  "ad": "Âd",
+  "tur": "kavim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 43,
+  "komsu": [
+   [
+    "عود",
+    28
+   ],
+   [
+    "Allah",
+    18
+   ],
+   [
+    "قوم",
+    12
+   ],
+   [
+    "söz",
+    10
+   ],
+   [
+    "Rab",
+    10
+   ],
+   [
+    "عدو",
+    9
+   ],
+   [
+    "beyan",
+    8
+   ],
+   [
+    "خلف",
+    7
+   ]
+  ],
+  "okuma": "kavim: elçi→tepki→kader",
+  "kader": {
+   "elçi": 6,
+   "yalanlama": 6,
+   "helâk": 3,
+   "azap": 2
+  },
+  "ornek": [
+   "2:173",
+   "2:275",
+   "3:9"
+  ],
+  "alt_tur": "helâk-olan"
+ },
+ "Semûd": {
+  "ad": "Semûd",
+  "tur": "kavim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 25,
+  "komsu": [
+   [
+    "قوم",
+    8
+   ],
+   [
+    "عود",
+    8
+   ],
+   [
+    "yalanlama",
+    7
+   ],
+   [
+    "Allah",
+    6
+   ],
+   [
+    "beyan",
+    5
+   ],
+   [
+    "söz",
+    5
+   ],
+   [
+    "elçi",
+    5
+   ],
+   [
+    "kulluk",
+    4
+   ]
+  ],
+  "okuma": "kavim: elçi→tepki→kader",
+  "kader": {
+   "elçi": 5,
+   "yalanlama": 7,
+   "helâk": 1,
+   "azap": 2
+  },
+  "ornek": [
+   "7:73",
+   "9:70",
+   "11:61"
+  ],
+  "alt_tur": "helâk-olan"
+ },
+ "İsrâîloğulları": {
+  "ad": "İsrâîloğulları",
+  "tur": "kavim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 41,
+  "komsu": [
+   [
+    "بني",
+    40
+   ],
+   [
+    "söz",
+    17
+   ],
+   [
+    "Allah",
+    14
+   ],
+   [
+    "أتي",
+    12
+   ],
+   [
+    "جيأ",
+    11
+   ],
+   [
+    "olmak/varlık",
+    10
+   ],
+   [
+    "elçi",
+    9
+   ],
+   [
+    "nimet",
+    8
+   ]
+  ],
+  "okuma": "kavim: elçi→tepki→kader",
+  "kader": {
+   "elçi": 9,
+   "yalanlama": 1,
+   "azap": 2
+  },
+  "ornek": [
+   "2:40",
+   "2:47",
+   "2:83"
+  ],
+  "alt_tur": "süregelen"
+ },
+ "Medyen": {
+  "ad": "Medyen",
+  "tur": "kavim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 10,
+  "komsu": [
+   [
+    "مدن",
+    10
+   ],
+   [
+    "söz",
+    6
+   ],
+   [
+    "قوم",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "أخو",
+    4
+   ],
+   [
+    "Allah",
+    4
+   ],
+   [
+    "kulluk",
+    3
+   ],
+   [
+    "بعد",
+    2
+   ]
+  ],
+  "okuma": "kavim: elçi→tepki→kader",
+  "kader": {
+   "elçi": 2,
+   "yalanlama": 1,
+   "azap": 1
+  },
+  "ornek": [
+   "7:85",
+   "9:70",
+   "11:84"
+  ],
+  "alt_tur": "helâk-olan"
+ },
+ "Kureyş": {
+  "ad": "Kureyş",
+  "tur": "kavim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "قرش",
+    1
+   ],
+   [
+    "ألف",
+    1
+   ]
+  ],
+  "okuma": "kavim: elçi→tepki→kader",
+  "kader": {},
+  "ornek": [
+   "106:1"
+  ],
+  "alt_tur": "süregelen"
+ },
+ "Arş": {
+  "ad": "Arş",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 28,
+  "komsu": [
+   [
+    "عرش",
+    28
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "gök",
+    9
+   ],
+   [
+    "söz",
+    9
+   ],
+   [
+    "أرض",
+    8
+   ],
+   [
+    "يوم",
+    8
+   ],
+   [
+    "سوي",
+    7
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "7:54",
+   "7:137",
+   "9:129"
+  ],
+  "alt_tur": "kozmik"
+ },
+ "cennet": {
+  "ad": "cennet",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 156,
+  "komsu": [
+   [
+    "جنن",
+    76
+   ],
+   [
+    "söz",
+    20
+   ],
+   [
+    "Allah",
+    19
+   ],
+   [
+    "amel",
+    16
+   ],
+   [
+    "دخل",
+    16
+   ],
+   [
+    "olmak/varlık",
+    15
+   ],
+   [
+    "صحب",
+    15
+   ],
+   [
+    "Rab",
+    15
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:35",
+   "2:82",
+   "2:111"
+  ],
+  "alt_tur": "uhrevî",
+  "kok_anlam_filtreli": true
+ },
+ "cehennem": {
+  "ad": "cehennem",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 77,
+  "komsu": [
+   [
+    "Allah",
+    25
+   ],
+   [
+    "küfür",
+    19
+   ],
+   [
+    "söz",
+    16
+   ],
+   [
+    "بأس",
+    15
+   ],
+   [
+    "azap",
+    13
+   ],
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "خلد",
+    11
+   ],
+   [
+    "Rab",
+    11
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:206",
+   "3:12",
+   "3:162"
+  ],
+  "alt_tur": "uhrevî"
+ },
+ "gök(çoğul)": {
+  "ad": "gök(çoğul)",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 297,
+  "komsu": [
+   [
+    "gök",
+    188
+   ],
+   [
+    "أرض",
+    181
+   ],
+   [
+    "Allah",
+    118
+   ],
+   [
+    "yaratma",
+    56
+   ],
+   [
+    "ilim",
+    51
+   ],
+   [
+    "şey/dileme",
+    43
+   ],
+   [
+    "söz",
+    40
+   ],
+   [
+    "كلل",
+    39
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:29",
+   "2:33",
+   "2:107"
+  ],
+  "alt_tur": "kozmik",
+  "kok_anlam_filtreli": true
+ },
+ "Kur'ân": {
+  "ad": "Kur'ân",
+  "tur": "kitap",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 69,
+  "komsu": [
+   [
+    "قرأ",
+    69
+   ],
+   [
+    "söz",
+    17
+   ],
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "beyan",
+    11
+   ],
+   [
+    "indirme",
+    11
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "ذكر",
+    11
+   ],
+   [
+    "أنس",
+    10
+   ]
+  ],
+  "ornek": [
+   "2:185",
+   "4:82",
+   "5:101"
+  ],
+  "alt_tur": "son-vahiy"
+ },
+ "Tevrât": {
+  "ad": "Tevrât",
+  "tur": "kitap",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "Allah",
+    8
+   ],
+   [
+    "indirme",
+    7
+   ],
+   [
+    "kitap",
+    7
+   ],
+   [
+    "beyan",
+    6
+   ],
+   [
+    "صدق",
+    5
+   ],
+   [
+    "يدي",
+    4
+   ],
+   [
+    "hüküm",
+    4
+   ],
+   [
+    "Rab",
+    4
+   ]
+  ],
+  "ornek": [
+   "3:3",
+   "3:48",
+   "3:50"
+  ],
+  "alt_tur": "önceki-vahiy"
+ },
+ "İncîl": {
+  "ad": "İncîl",
+  "tur": "kitap",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 12,
+  "komsu": [
+   [
+    "kitap",
+    7
+   ],
+   [
+    "indirme",
+    6
+   ],
+   [
+    "Allah",
+    5
+   ],
+   [
+    "beyan",
+    4
+   ],
+   [
+    "iman/emniyet",
+    4
+   ],
+   [
+    "hak",
+    3
+   ],
+   [
+    "hüküm",
+    3
+   ],
+   [
+    "أهل",
+    3
+   ]
+  ],
+  "ornek": [
+   "3:3",
+   "3:48",
+   "3:65"
+  ],
+  "alt_tur": "önceki-vahiy"
+ },
+ "secde": {
+  "ad": "secde",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 81,
+  "komsu": [
+   [
+    "Allah",
+    34
+   ],
+   [
+    "söz",
+    22
+   ],
+   [
+    "olmak/varlık",
+    21
+   ],
+   [
+    "Rab",
+    16
+   ],
+   [
+    "iman/emniyet",
+    15
+   ],
+   [
+    "حرم",
+    15
+   ],
+   [
+    "قوم",
+    13
+   ],
+   [
+    "ilim",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:34",
+   "2:58",
+   "2:114"
+  ],
+  "alt_tur": "evrensel"
+ },
+ "yaratma": {
+  "ad": "yaratma",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 218,
+  "komsu": [
+   [
+    "Allah",
+    82
+   ],
+   [
+    "gök",
+    66
+   ],
+   [
+    "أرض",
+    64
+   ],
+   [
+    "söz",
+    42
+   ],
+   [
+    "şey/dileme",
+    41
+   ],
+   [
+    "olmak/varlık",
+    40
+   ],
+   [
+    "أنس",
+    33
+   ],
+   [
+    "ilim",
+    32
+   ]
+  ],
+  "ornek": [
+   "2:21",
+   "2:29",
+   "2:102"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "rükû": {
+  "ad": "rükû",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 10,
+  "komsu": [
+   [
+    "iman/emniyet",
+    6
+   ],
+   [
+    "سجد",
+    6
+   ],
+   [
+    "قوم",
+    4
+   ],
+   [
+    "namaz",
+    3
+   ],
+   [
+    "Rab",
+    3
+   ],
+   [
+    "Allah",
+    3
+   ],
+   [
+    "زكو",
+    2
+   ],
+   [
+    "أتي",
+    2
+   ]
+  ],
+  "ornek": [
+   "2:43",
+   "2:125",
+   "3:43"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "tesbih": {
+  "ad": "tesbih",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 87,
+  "komsu": [
+   [
+    "Allah",
+    38
+   ],
+   [
+    "Rab",
+    31
+   ],
+   [
+    "söz",
+    24
+   ],
+   [
+    "gök",
+    22
+   ],
+   [
+    "olmak/varlık",
+    20
+   ],
+   [
+    "أرض",
+    18
+   ],
+   [
+    "حمد",
+    16
+   ],
+   [
+    "ilim",
+    13
+   ]
+  ],
+  "ornek": [
+   "2:30",
+   "2:32",
+   "2:116"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "diriliş": {
+  "ad": "diriliş",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 64,
+  "komsu": [
+   [
+    "söz",
+    25
+   ],
+   [
+    "Allah",
+    23
+   ],
+   [
+    "olmak/varlık",
+    22
+   ],
+   [
+    "يوم",
+    18
+   ],
+   [
+    "ilim",
+    14
+   ],
+   [
+    "أيي",
+    13
+   ],
+   [
+    "موت",
+    12
+   ],
+   [
+    "elçi",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:56",
+   "2:129",
+   "2:213"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "güneş": {
+  "ad": "güneş",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 32,
+  "komsu": [
+   [
+    "قمر",
+    18
+   ],
+   [
+    "ليل",
+    12
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "نهر",
+    10
+   ],
+   [
+    "رأي",
+    9
+   ],
+   [
+    "قوم",
+    8
+   ],
+   [
+    "Rab",
+    8
+   ],
+   [
+    "سخر",
+    8
+   ]
+  ],
+  "ornek": [
+   "2:258",
+   "6:78",
+   "6:96"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "ay": {
+  "ad": "ay",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 26,
+  "komsu": [
+   [
+    "شمس",
+    18
+   ],
+   [
+    "ليل",
+    10
+   ],
+   [
+    "نهر",
+    9
+   ],
+   [
+    "سخر",
+    8
+   ],
+   [
+    "gök",
+    8
+   ],
+   [
+    "Allah",
+    8
+   ],
+   [
+    "yaratma",
+    6
+   ],
+   [
+    "كلل",
+    6
+   ]
+  ],
+  "ornek": [
+   "6:77",
+   "6:96",
+   "7:54"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "yıldız": {
+  "ad": "yıldız",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 13,
+  "komsu": [
+   [
+    "ilim",
+    3
+   ],
+   [
+    "ليل",
+    3
+   ],
+   [
+    "شمس",
+    3
+   ],
+   [
+    "قمر",
+    3
+   ],
+   [
+    "أيي",
+    2
+   ],
+   [
+    "قوم",
+    2
+   ],
+   [
+    "hidâyet",
+    2
+   ],
+   [
+    "نهر",
+    2
+   ]
+  ],
+  "ornek": [
+   "6:97",
+   "7:54",
+   "16:12"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "gece": {
+  "ad": "gece",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 81,
+  "komsu": [
+   [
+    "نهر",
+    42
+   ],
+   [
+    "قوم",
+    22
+   ],
+   [
+    "أيي",
+    17
+   ],
+   [
+    "Allah",
+    17
+   ],
+   [
+    "جعل",
+    16
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "شمس",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:51",
+   "2:164",
+   "2:187"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "karınca": {
+  "ad": "karınca",
+  "tur": "tekil-sahne",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "دنو",
+    1
+   ],
+   [
+    "ملل",
+    1
+   ],
+   [
+    "نفس",
+    1
+   ],
+   [
+    "سفه",
+    1
+   ],
+   [
+    "أخر",
+    1
+   ],
+   [
+    "رغب",
+    1
+   ],
+   [
+    "salâh",
+    1
+   ],
+   [
+    "صفو",
+    1
+   ]
+  ],
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "ayetler": [
+   "2:130",
+   "27:18"
+  ],
+  "ornek": [
+   "2:130",
+   "27:18"
+  ],
+  "kok": "نمل"
+ },
+ "örümcek": {
+  "ad": "örümcek",
+  "tur": "tekil-sahne",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "عنكب",
+    1
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "olmak/varlık",
+    1
+   ],
+   [
+    "دون",
+    1
+   ],
+   [
+    "أخذ",
+    1
+   ],
+   [
+    "بيت",
+    1
+   ],
+   [
+    "وهن",
+    1
+   ],
+   [
+    "velî",
+    1
+   ]
+  ],
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "ayetler": [
+   "29:41"
+  ],
+  "ornek": [
+   "29:41"
+  ]
+ },
+ "sinek": {
+  "ad": "sinek",
+  "tur": "tekil-sahne",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "أيي",
+    1
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "yaratma",
+    1
+   ],
+   [
+    "سمع",
+    1
+   ],
+   [
+    "نقذ",
+    1
+   ],
+   [
+    "ضرب",
+    1
+   ],
+   [
+    "دون",
+    1
+   ],
+   [
+    "جمع",
+    1
+   ]
+  ],
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "ayetler": [
+   "22:73"
+  ],
+  "ornek": [
+   "22:73"
+  ]
+ },
+ "Tûr": {
+  "ad": "Tûr",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 14,
+  "komsu": [
+   [
+    "طور",
+    10
+   ],
+   [
+    "أتي",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "جنب",
+    4
+   ],
+   [
+    "فوق",
+    3
+   ],
+   [
+    "أخذ",
+    3
+   ],
+   [
+    "رفع",
+    3
+   ],
+   [
+    "وثق",
+    3
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:63",
+   "2:93",
+   "4:154"
+  ],
+  "alt_tur": "dünyevî"
+ },
+ "İdrîs": {
+  "ad": "İdrîs",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "صدق",
+    1
+   ],
+   [
+    "نبأ",
+    1
+   ],
+   [
+    "ذكر",
+    1
+   ],
+   [
+    "olmak/varlık",
+    1
+   ],
+   [
+    "kitap",
+    1
+   ],
+   [
+    "كلل",
+    1
+   ],
+   [
+    "sabır",
+    1
+   ],
+   [
+    "كفل",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 0,
+  "ornek": [
+   "19:56",
+   "21:85"
+  ]
+ },
+ "arı": {
+  "ad": "arı",
+  "tur": "tekil-sahne",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "عرش",
+    1
+   ],
+   [
+    "نحل",
+    1
+   ],
+   [
+    "وحي",
+    1
+   ],
+   [
+    "أخذ",
+    1
+   ],
+   [
+    "بيت",
+    1
+   ],
+   [
+    "جبل",
+    1
+   ],
+   [
+    "شجر",
+    1
+   ],
+   [
+    "Rab",
+    1
+   ]
+  ],
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "ayetler": [
+   "16:68"
+  ],
+  "ornek": [
+   "16:68"
+  ]
+ },
+ "Hüdhüd": {
+  "ad": "Hüdhüd",
+  "tur": "tekil-sahne",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "فقد",
+    1
+   ],
+   [
+    "غيب",
+    1
+   ],
+   [
+    "olmak/varlık",
+    1
+   ],
+   [
+    "رأي",
+    1
+   ],
+   [
+    "söz",
+    1
+   ],
+   [
+    "طير",
+    1
+   ],
+   [
+    "هدهد",
+    1
+   ]
+  ],
+  "okuma": "tekil sahne — tek/az ayet, kıssa/misal",
+  "ayetler": [
+   "27:20"
+  ],
+  "ornek": [
+   "27:20"
+  ]
+ },
+ "nehir": {
+  "ad": "nehir",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 51,
+  "komsu": [
+   [
+    "جري",
+    45
+   ],
+   [
+    "Allah",
+    43
+   ],
+   [
+    "جنن",
+    42
+   ],
+   [
+    "ليل",
+    42
+   ],
+   [
+    "تحت",
+    40
+   ],
+   [
+    "خلد",
+    22
+   ],
+   [
+    "iman/emniyet",
+    21
+   ],
+   [
+    "Rab",
+    21
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:25",
+   "2:74",
+   "2:164"
+  ],
+  "alt_tur": "dünyevî",
+  "kok_anlam_filtreli": true
+ },
+ "deniz": {
+  "ad": "deniz",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 40,
+  "komsu": [
+   [
+    "Allah",
+    14
+   ],
+   [
+    "فلك",
+    9
+   ],
+   [
+    "برر",
+    9
+   ],
+   [
+    "جري",
+    8
+   ],
+   [
+    "olmak/varlık",
+    8
+   ],
+   [
+    "beyan",
+    6
+   ],
+   [
+    "أرض",
+    6
+   ],
+   [
+    "كلل",
+    6
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:50",
+   "2:164",
+   "5:96"
+  ],
+  "alt_tur": "dünyevî"
+ },
+ "dağ": {
+  "ad": "dağ",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 39,
+  "komsu": [
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "Allah",
+    11
+   ],
+   [
+    "أرض",
+    9
+   ],
+   [
+    "رأي",
+    8
+   ],
+   [
+    "iman/emniyet",
+    5
+   ],
+   [
+    "أتي",
+    5
+   ],
+   [
+    "جعل",
+    5
+   ],
+   [
+    "سير",
+    5
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:260",
+   "7:74",
+   "7:143"
+  ],
+  "alt_tur": "dünyevî"
+ },
+ "kuş": {
+  "ad": "kuş",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 22,
+  "komsu": [
+   [
+    "söz",
+    9
+   ],
+   [
+    "Allah",
+    8
+   ],
+   [
+    "كلل",
+    7
+   ],
+   [
+    "ilim",
+    6
+   ],
+   [
+    "رأي",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "أتي",
+    4
+   ],
+   [
+    "Rab",
+    4
+   ]
+  ],
+  "ornek": [
+   "2:260",
+   "3:49",
+   "5:110"
+  ],
+  "alt_tur": "kozmos-olayı",
+  "kok_anlam_filtreli": true
+ },
+ "ağaç": {
+  "ad": "ağaç",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 26,
+  "komsu": [
+   [
+    "Allah",
+    7
+   ],
+   [
+    "Rab",
+    6
+   ],
+   [
+    "söz",
+    5
+   ],
+   [
+    "gök",
+    5
+   ],
+   [
+    "أرض",
+    5
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "أكل",
+    4
+   ],
+   [
+    "şey/dileme",
+    4
+   ]
+  ],
+  "ornek": [
+   "2:35",
+   "4:65",
+   "7:19"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "meyve": {
+  "ad": "meyve",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 22,
+  "komsu": [
+   [
+    "كلل",
+    9
+   ],
+   [
+    "rızık",
+    7
+   ],
+   [
+    "خرج",
+    7
+   ],
+   [
+    "موه",
+    6
+   ],
+   [
+    "söz",
+    6
+   ],
+   [
+    "أيي",
+    6
+   ],
+   [
+    "قوم",
+    6
+   ],
+   [
+    "Allah",
+    5
+   ]
+  ],
+  "ornek": [
+   "2:22",
+   "2:25",
+   "2:126"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "yağmur": {
+  "ad": "yağmur",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 9,
+  "komsu": [
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "azap",
+    3
+   ],
+   [
+    "أتي",
+    3
+   ],
+   [
+    "حجر",
+    3
+   ],
+   [
+    "سوأ",
+    3
+   ],
+   [
+    "Allah",
+    2
+   ],
+   [
+    "ألم",
+    2
+   ],
+   [
+    "söz",
+    2
+   ]
+  ],
+  "ornek": [
+   "4:102",
+   "7:84",
+   "8:32"
+  ],
+  "alt_tur": "evrensel"
+ },
+ "rüzgâr": {
+  "ad": "rüzgâr",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 28,
+  "komsu": [
+   [
+    "elçi",
+    19
+   ],
+   [
+    "Allah",
+    17
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "indirme",
+    10
+   ],
+   [
+    "şey/dileme",
+    9
+   ],
+   [
+    "أمر",
+    9
+   ],
+   [
+    "beyan",
+    8
+   ],
+   [
+    "بني",
+    8
+   ]
+  ],
+  "ornek": [
+   "2:87",
+   "2:164",
+   "2:253"
+  ],
+  "alt_tur": "kozmos-olayı",
+  "kok_anlam_filtreli": true
+ },
+ "namaz": {
+  "ad": "namaz",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 90,
+  "komsu": [
+   [
+    "قوم",
+    52
+   ],
+   [
+    "Allah",
+    44
+   ],
+   [
+    "زكو",
+    28
+   ],
+   [
+    "أتي",
+    27
+   ],
+   [
+    "iman/emniyet",
+    22
+   ],
+   [
+    "olmak/varlık",
+    19
+   ],
+   [
+    "Rab",
+    14
+   ],
+   [
+    "أخر",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:3",
+   "2:43",
+   "2:45"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "zekât": {
+  "ad": "zekât",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 56,
+  "komsu": [
+   [
+    "أتي",
+    29
+   ],
+   [
+    "namaz",
+    28
+   ],
+   [
+    "Allah",
+    28
+   ],
+   [
+    "قوم",
+    27
+   ],
+   [
+    "ilim",
+    13
+   ],
+   [
+    "elçi",
+    12
+   ],
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "iman/emniyet",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:43",
+   "2:83",
+   "2:110"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "oruç": {
+  "ad": "oruç",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 11,
+  "komsu": [
+   [
+    "Allah",
+    8
+   ],
+   [
+    "iman/emniyet",
+    6
+   ],
+   [
+    "olmak/varlık",
+    5
+   ],
+   [
+    "يوم",
+    5
+   ],
+   [
+    "أيي",
+    4
+   ],
+   [
+    "طعم",
+    4
+   ],
+   [
+    "سكن",
+    4
+   ],
+   [
+    "ilim",
+    4
+   ]
+  ],
+  "ornek": [
+   "2:183",
+   "2:184",
+   "2:185"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "hac": {
+  "ad": "hac",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 25,
+  "komsu": [
+   [
+    "Allah",
+    20
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "ilim",
+    10
+   ],
+   [
+    "Rab",
+    8
+   ],
+   [
+    "hidâyet",
+    8
+   ],
+   [
+    "أتي",
+    7
+   ],
+   [
+    "iman/emniyet",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ]
+  ],
+  "ornek": [
+   "2:76",
+   "2:139",
+   "2:150"
+  ],
+  "alt_tur": "insan-ibadeti",
+  "kok_anlam_filtreli": true
+ },
+ "dua": {
+  "ad": "dua",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 182,
+  "komsu": [
+   [
+    "Allah",
+    88
+   ],
+   [
+    "söz",
+    63
+   ],
+   [
+    "olmak/varlık",
+    54
+   ],
+   [
+    "Rab",
+    49
+   ],
+   [
+    "دون",
+    35
+   ],
+   [
+    "قوم",
+    26
+   ],
+   [
+    "şirk",
+    21
+   ],
+   [
+    "beyan",
+    20
+   ]
+  ],
+  "ornek": [
+   "2:23",
+   "2:61",
+   "2:68"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "tevbe": {
+  "ad": "tevbe",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 69,
+  "komsu": [
+   [
+    "Allah",
+    41
+   ],
+   [
+    "rahmet",
+    29
+   ],
+   [
+    "mağfiret",
+    25
+   ],
+   [
+    "iman/emniyet",
+    20
+   ],
+   [
+    "Rab",
+    18
+   ],
+   [
+    "salâh",
+    17
+   ],
+   [
+    "amel",
+    15
+   ],
+   [
+    "olmak/varlık",
+    14
+   ]
+  ],
+  "ornek": [
+   "2:37",
+   "2:54",
+   "2:128"
+  ],
+  "alt_tur": "insan-ibadeti"
+ },
+ "mağfiret": {
+  "ad": "mağfiret",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 202,
+  "komsu": [
+   [
+    "Allah",
+    120
+   ],
+   [
+    "rahmet",
+    91
+   ],
+   [
+    "Rab",
+    62
+   ],
+   [
+    "söz",
+    51
+   ],
+   [
+    "iman/emniyet",
+    50
+   ],
+   [
+    "olmak/varlık",
+    49
+   ],
+   [
+    "şey/dileme",
+    25
+   ],
+   [
+    "ilim",
+    25
+   ]
+  ],
+  "ses": {
+   "mora": 106,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.5,
+   "şimdi": 1.14,
+   "gelecek": 1.2
+  },
+  "yogunluk": {
+   "kok": 11.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 29,
+   "orta": 29,
+   "son": 42
+  },
+  "zit": {
+   "azap": 20
+  },
+  "ornek": [
+   "2:58",
+   "2:173",
+   "2:175"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "mîzan/ölçü": {
+  "ad": "mîzan/ölçü",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 21,
+  "komsu": [
+   [
+    "قوم",
+    9
+   ],
+   [
+    "كيل",
+    6
+   ],
+   [
+    "قسط",
+    5
+   ],
+   [
+    "Allah",
+    5
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "وفي",
+    4
+   ],
+   [
+    "نفس",
+    4
+   ],
+   [
+    "ثقل",
+    4
+   ]
+  ],
+  "ses": {
+   "mora": 74,
+   "imza": "ort"
+  },
+  "zaman": {
+   "geçmiş": 2.1,
+   "şimdi": 0.7,
+   "gelecek": 1.02
+  },
+  "yogunluk": {
+   "kok": 8.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 43,
+   "orta": 14,
+   "son": 43
+  },
+  "ornek": [
+   "6:152",
+   "7:8",
+   "7:9"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "rızık": {
+  "ad": "rızık",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 109,
+  "komsu": [
+   [
+    "Allah",
+    59
+   ],
+   [
+    "söz",
+    27
+   ],
+   [
+    "iman/emniyet",
+    23
+   ],
+   [
+    "ilim",
+    23
+   ],
+   [
+    "Rab",
+    23
+   ],
+   [
+    "قوم",
+    22
+   ],
+   [
+    "şey/dileme",
+    22
+   ],
+   [
+    "olmak/varlık",
+    17
+   ]
+  ],
+  "ses": {
+   "mora": 102,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.33,
+   "şimdi": 1.35,
+   "gelecek": 0.79
+  },
+  "yogunluk": {
+   "kok": 11.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 28,
+   "orta": 39,
+   "son": 33
+  },
+  "ornek": [
+   "2:3",
+   "2:22",
+   "2:25"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "nimet": {
+  "ad": "nimet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 128,
+  "komsu": [
+   [
+    "Allah",
+    58
+   ],
+   [
+    "olmak/varlık",
+    22
+   ],
+   [
+    "söz",
+    22
+   ],
+   [
+    "أنس",
+    21
+   ],
+   [
+    "جنن",
+    20
+   ],
+   [
+    "Rab",
+    20
+   ],
+   [
+    "iman/emniyet",
+    19
+   ],
+   [
+    "ذكر",
+    18
+   ]
+  ],
+  "ses": {
+   "mora": 95,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.74,
+   "şimdi": 0.92,
+   "gelecek": 1.56
+  },
+  "yogunluk": {
+   "kok": 10.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 37,
+   "son": 32
+  },
+  "zit": {
+   "azap": 1
+  },
+  "ornek": [
+   "1:7",
+   "2:40",
+   "2:47"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "kavram-zıtlı"
+ },
+ "fitne": {
+  "ad": "fitne",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 58,
+  "komsu": [
+   [
+    "Allah",
+    23
+   ],
+   [
+    "söz",
+    20
+   ],
+   [
+    "Rab",
+    14
+   ],
+   [
+    "ilim",
+    12
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "جعل",
+    11
+   ],
+   [
+    "iman/emniyet",
+    10
+   ],
+   [
+    "küfür",
+    9
+   ]
+  ],
+  "ses": {
+   "mora": 111,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.41,
+   "şimdi": 1.18,
+   "gelecek": 0.86
+  },
+  "yogunluk": {
+   "kok": 10.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 41,
+   "son": 28
+  },
+  "ornek": [
+   "2:102",
+   "2:191",
+   "2:193"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "cihad": {
+  "ad": "cihad",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 36,
+  "komsu": [
+   [
+    "Allah",
+    28
+   ],
+   [
+    "iman/emniyet",
+    19
+   ],
+   [
+    "سبل",
+    16
+   ],
+   [
+    "ilim",
+    13
+   ],
+   [
+    "مول",
+    10
+   ],
+   [
+    "نفس",
+    10
+   ],
+   [
+    "olmak/varlık",
+    10
+   ],
+   [
+    "elçi",
+    9
+   ]
+  ],
+  "ses": {
+   "mora": 118,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.87,
+   "şimdi": 0.82,
+   "gelecek": 0.79
+  },
+  "yogunluk": {
+   "kok": 11.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 28,
+   "orta": 25,
+   "son": 47
+  },
+  "ornek": [
+   "2:218",
+   "3:142",
+   "4:95"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "Câlût": {
+  "ad": "Câlût",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 3,
+  "komsu": [
+   [
+    "جند",
+    2
+   ],
+   [
+    "söz",
+    2
+   ],
+   [
+    "أذن",
+    2
+   ],
+   [
+    "sabır",
+    2
+   ],
+   [
+    "Allah",
+    2
+   ],
+   [
+    "imtihan",
+    1
+   ],
+   [
+    "نهر",
+    1
+   ],
+   [
+    "iman/emniyet",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 2,
+  "ornek": [
+   "2:249",
+   "2:250",
+   "2:251"
+  ],
+  "alt_tur": "karşı-figür"
+ },
+ "Tâlût": {
+  "ad": "Tâlût",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "Allah",
+    2
+   ],
+   [
+    "söz",
+    2
+   ],
+   [
+    "صفو",
+    1
+   ],
+   [
+    "نبأ",
+    1
+   ],
+   [
+    "مول",
+    1
+   ],
+   [
+    "بعث",
+    1
+   ],
+   [
+    "وسع",
+    1
+   ],
+   [
+    "جسم",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 2,
+  "ornek": [
+   "2:247",
+   "2:249"
+  ],
+  "alt_tur": "melik/hükümdar"
+ },
+ "esmâ:Rahman": {
+  "ad": "Rahman",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 56,
+  "lem": "رَحْمٰن",
+  "esler": [
+   [
+    "Rahim",
+    6
+   ],
+   [
+    "Habir",
+    1
+   ],
+   [
+    "Selam",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Rahim": {
+  "ad": "Rahim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 116,
+  "lem": "رَحِيم",
+  "esler": [
+   [
+    "Gafur",
+    72
+   ],
+   [
+    "Aziz",
+    14
+   ],
+   [
+    "Tevvab",
+    9
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Aziz": {
+  "ad": "Aziz",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 101,
+  "lem": "عَزِيز",
+  "esler": [
+   [
+    "Hakim",
+    47
+   ],
+   [
+    "Rahim",
+    14
+   ],
+   [
+    "Alim",
+    8
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Hakim": {
+  "ad": "Hakim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 97,
+  "lem": "حَكِيم",
+  "esler": [
+   [
+    "Aziz",
+    47
+   ],
+   [
+    "Alim",
+    36
+   ],
+   [
+    "Habir",
+    4
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Alim": {
+  "ad": "Alim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 163,
+  "lem": "عَلِيم",
+  "esler": [
+   [
+    "Hakim",
+    36
+   ],
+   [
+    "Semi",
+    32
+   ],
+   [
+    "Aziz",
+    8
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Gafur": {
+  "ad": "Gafur",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 91,
+  "lem": "غَفُور",
+  "esler": [
+   [
+    "Rahim",
+    72
+   ],
+   [
+    "Halim",
+    6
+   ],
+   [
+    "Sekur",
+    3
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Melik": {
+  "ad": "Melik",
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 15,
+  "lem": "مَلِك",
+  "esler": [
+   [
+    "Alim",
+    4
+   ],
+   [
+    "Aziz",
+    3
+   ],
+   [
+    "Kerim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kadir": {
+  "ad": "Kadir",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 45,
+  "lem": "قَدِير",
+  "esler": [
+   [
+    "Alim",
+    4
+   ],
+   [
+    "Gafur",
+    1
+   ],
+   [
+    "Rahim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Semi": {
+  "ad": "Semi",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 47,
+  "lem": "سَمِيع",
+  "esler": [
+   [
+    "Alim",
+    32
+   ],
+   [
+    "Basir",
+    12
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Basir": {
+  "ad": "Basir",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 51,
+  "lem": "بَصِير",
+  "esler": [
+   [
+    "Semi",
+    12
+   ],
+   [
+    "Habir",
+    5
+   ],
+   [
+    "Kahhar",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Hamid": {
+  "ad": "Hamid",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 17,
+  "lem": "حَمِيد",
+  "esler": [
+   [
+    "Aziz",
+    3
+   ],
+   [
+    "Hakim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kerim": {
+  "ad": "Kerim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 30,
+  "lem": "كَرِيم",
+  "esler": [
+   [
+    "Melik",
+    1
+   ],
+   [
+    "Selam",
+    1
+   ],
+   [
+    "Rahman",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Azim": {
+  "ad": "Azim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 107,
+  "lem": "عَظِيم",
+  "esler": [
+   [
+    "Rahim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kebir": {
+  "ad": "Kebir",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 40,
+  "lem": "كَبِير",
+  "esler": [
+   [
+    "Alim",
+    1
+   ],
+   [
+    "Aziz",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Latif": {
+  "ad": "Latif",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 7,
+  "lem": "لَطِيف",
+  "esler": [
+   [
+    "Habir",
+    5
+   ],
+   [
+    "Hakim",
+    1
+   ],
+   [
+    "Alim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Habir": {
+  "ad": "Habir",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 45,
+  "lem": "خَبِير",
+  "esler": [
+   [
+    "Latif",
+    5
+   ],
+   [
+    "Basir",
+    5
+   ],
+   [
+    "Alim",
+    4
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Vedud": {
+  "ad": "Vedud",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 2,
+  "lem": "وَدُود",
+  "esler": [
+   [
+    "Rahim",
+    1
+   ],
+   [
+    "Gafur",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Tevvab": {
+  "ad": "Tevvab",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 12,
+  "lem": "تَوّاب",
+  "esler": [
+   [
+    "Rahim",
+    9
+   ],
+   [
+    "Hakim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Halim": {
+  "ad": "Halim",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 15,
+  "lem": "حَلِيم",
+  "esler": [
+   [
+    "Gafur",
+    6
+   ],
+   [
+    "Alim",
+    3
+   ],
+   [
+    "Sekur",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Sekur": {
+  "ad": "Sekur",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 10,
+  "lem": "شَكُور",
+  "esler": [
+   [
+    "Gafur",
+    3
+   ],
+   [
+    "Halim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Selam": {
+  "ad": "Selam",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 39,
+  "lem": "سَلام",
+  "esler": [
+   [
+    "Rahim",
+    2
+   ],
+   [
+    "Habir",
+    1
+   ],
+   [
+    "Gafur",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Cebbar": {
+  "ad": "Cebbar",
+  "tur": "ilâhî-isim",
+  "alt_tur": "celâl",
+  "ayet_sayisi": 10,
+  "lem": "جَبّار",
+  "esler": [
+   [
+    "Melik",
+    1
+   ],
+   [
+    "Aziz",
+    1
+   ],
+   [
+    "Selam",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Halik": {
+  "ad": "Halik",
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 12,
+  "lem": "خالِق",
+  "esler": [
+   [
+    "Basir",
+    1
+   ],
+   [
+    "Kahhar",
+    1
+   ],
+   [
+    "Hakim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Kahhar": {
+  "ad": "Kahhar",
+  "tur": "ilâhî-isim",
+  "alt_tur": "celâl",
+  "ayet_sayisi": 6,
+  "lem": "قَهّار",
+  "esler": [
+   [
+    "Basir",
+    1
+   ],
+   [
+    "Halik",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Vehhab": {
+  "ad": "Vehhab",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 3,
+  "lem": "وَهّاب",
+  "esler": [
+   [
+    "Aziz",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Rezzak": {
+  "ad": "Rezzak",
+  "tur": "ilâhî-isim",
+  "alt_tur": "cemâl",
+  "ayet_sayisi": 1,
+  "lem": "رَزّاق",
+  "esler": [],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "esmâ:Fettah": {
+  "ad": "Fettah",
+  "tur": "ilâhî-isim",
+  "alt_tur": "denge",
+  "ayet_sayisi": 1,
+  "lem": "فَتّاح",
+  "esler": [
+   [
+    "Alim",
+    1
+   ]
+  ],
+  "okuma": "ilâhî isim — eşleştiği esmâ ile mühür"
+ },
+ "melek": {
+  "ad": "melek",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 86,
+  "komsu": [
+   [
+    "Allah",
+    101
+   ],
+   [
+    "söz",
+    80
+   ],
+   [
+    "olmak/varlık",
+    48
+   ],
+   [
+    "şey/dileme",
+    47
+   ],
+   [
+    "gök",
+    41
+   ],
+   [
+    "Rab",
+    39
+   ],
+   [
+    "أرض",
+    39
+   ],
+   [
+    "ilim",
+    35
+   ]
+  ],
+  "ornek": [
+   "1:4",
+   "2:30",
+   "2:31"
+  ],
+  "alt_tur": "itaatkâr-gayb",
+  "kok_anlam_filtreli": true
+ },
+ "cin": {
+  "ad": "cin",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 29,
+  "komsu": [
+   [
+    "söz",
+    52
+   ],
+   [
+    "Allah",
+    47
+   ],
+   [
+    "نهر",
+    42
+   ],
+   [
+    "iman/emniyet",
+    41
+   ],
+   [
+    "دخل",
+    41
+   ],
+   [
+    "Rab",
+    39
+   ],
+   [
+    "تحت",
+    38
+   ],
+   [
+    "جري",
+    37
+   ]
+  ],
+  "ornek": [
+   "2:25",
+   "2:35",
+   "2:82"
+  ],
+  "alt_tur": "karışık-gayb",
+  "kok_anlam_filtreli": true
+ },
+ "ruh": {
+  "ad": "ruh",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 22,
+  "komsu": [
+   [
+    "elçi",
+    19
+   ],
+   [
+    "Allah",
+    17
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "indirme",
+    10
+   ],
+   [
+    "şey/dileme",
+    9
+   ],
+   [
+    "أمر",
+    9
+   ],
+   [
+    "كلل",
+    8
+   ],
+   [
+    "beyan",
+    8
+   ]
+  ],
+  "ornek": [
+   "2:87",
+   "2:164",
+   "2:253"
+  ],
+  "alt_tur": "müteşâbih-gayb",
+  "kok_anlam_filtreli": true
+ },
+ "zikir": {
+  "ad": "zikir",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 246,
+  "komsu": [
+   [
+    "Allah",
+    91
+   ],
+   [
+    "olmak/varlık",
+    50
+   ],
+   [
+    "Rab",
+    48
+   ],
+   [
+    "söz",
+    48
+   ],
+   [
+    "ilim",
+    44
+   ],
+   [
+    "أيي",
+    37
+   ],
+   [
+    "iman/emniyet",
+    32
+   ],
+   [
+    "قوم",
+    31
+   ]
+  ],
+  "ses": {
+   "mora": 86,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.93,
+   "şimdi": 1.0,
+   "gelecek": 0.76
+  },
+  "yogunluk": {
+   "kok": 8.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 33,
+   "son": 38
+  },
+  "ornek": [
+   "2:40",
+   "2:47",
+   "2:63"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız",
+  "kok_anlam_filtreli": true
+ },
+ "hikmet": {
+  "ad": "hikmet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 189,
+  "komsu": [
+   [
+    "Allah",
+    127
+   ],
+   [
+    "ilim",
+    71
+   ],
+   [
+    "izzet",
+    49
+   ],
+   [
+    "olmak/varlık",
+    48
+   ],
+   [
+    "beyan",
+    41
+   ],
+   [
+    "söz",
+    34
+   ],
+   [
+    "kitap",
+    31
+   ],
+   [
+    "Rab",
+    30
+   ]
+  ],
+  "ses": {
+   "mora": 101,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.13,
+   "şimdi": 1.3,
+   "gelecek": 0.76
+  },
+  "yogunluk": {
+   "kok": 10.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 37,
+   "orta": 29,
+   "son": 35
+  },
+  "ornek": [
+   "2:32",
+   "2:113",
+   "2:129"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "sıdk": {
+  "ad": "sıdk",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 144,
+  "komsu": [
+   [
+    "olmak/varlık",
+    73
+   ],
+   [
+    "Allah",
+    71
+   ],
+   [
+    "söz",
+    54
+   ],
+   [
+    "أتي",
+    35
+   ],
+   [
+    "iman/emniyet",
+    28
+   ],
+   [
+    "beyan",
+    23
+   ],
+   [
+    "kitap",
+    20
+   ],
+   [
+    "ilim",
+    19
+   ]
+  ],
+  "ses": {
+   "mora": 96,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.31,
+   "şimdi": 1.87,
+   "gelecek": 0.7
+  },
+  "yogunluk": {
+   "kok": 10.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 27,
+   "orta": 41,
+   "son": 32
+  },
+  "ornek": [
+   "2:23",
+   "2:31",
+   "2:41"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "haşyet": {
+  "ad": "haşyet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 40,
+  "komsu": [
+   [
+    "Allah",
+    21
+   ],
+   [
+    "Rab",
+    12
+   ],
+   [
+    "olmak/varlık",
+    10
+   ],
+   [
+    "أنس",
+    9
+   ],
+   [
+    "söz",
+    9
+   ],
+   [
+    "hidâyet",
+    6
+   ],
+   [
+    "iman/emniyet",
+    6
+   ],
+   [
+    "nimet",
+    5
+   ]
+  ],
+  "ses": {
+   "mora": 110,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.31,
+   "şimdi": 1.72,
+   "gelecek": 0.72
+  },
+  "yogunluk": {
+   "kok": 11.5,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 35,
+   "orta": 40,
+   "son": 25
+  },
+  "ornek": [
+   "2:74",
+   "2:150",
+   "3:173"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "af": {
+  "ad": "af",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 31,
+  "komsu": [
+   [
+    "Allah",
+    23
+   ],
+   [
+    "mağfiret",
+    10
+   ],
+   [
+    "iman/emniyet",
+    8
+   ],
+   [
+    "olmak/varlık",
+    8
+   ],
+   [
+    "beyan",
+    7
+   ],
+   [
+    "أيي",
+    7
+   ],
+   [
+    "بعد",
+    6
+   ],
+   [
+    "sevgi",
+    6
+   ]
+  ],
+  "ses": {
+   "mora": 134,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.81,
+   "şimdi": 1.42,
+   "gelecek": 0.92
+  },
+  "yogunluk": {
+   "kok": 13.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 19,
+   "orta": 32,
+   "son": 48
+  },
+  "ornek": [
+   "2:52",
+   "2:109",
+   "2:178"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "yakîn": {
+  "ad": "yakîn",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 28,
+  "komsu": [
+   [
+    "Allah",
+    7
+   ],
+   [
+    "söz",
+    7
+   ],
+   [
+    "أتي",
+    6
+   ],
+   [
+    "أيي",
+    6
+   ],
+   [
+    "قوم",
+    6
+   ],
+   [
+    "أرض",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "Rab",
+    6
+   ]
+  ],
+  "ses": {
+   "mora": 72,
+   "imza": "ort"
+  },
+  "zaman": {
+   "geçmiş": 1.12,
+   "şimdi": 1.58,
+   "gelecek": 0.0
+  },
+  "yogunluk": {
+   "kok": 7.7,
+   "imza": "ort"
+  },
+  "yapi": {
+   "baş": 36,
+   "orta": 25,
+   "son": 39
+  },
+  "ornek": [
+   "2:4",
+   "2:118",
+   "4:157"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "tevekkül": {
+  "ad": "tevekkül",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 61,
+  "komsu": [
+   [
+    "Allah",
+    45
+   ],
+   [
+    "söz",
+    23
+   ],
+   [
+    "Rab",
+    20
+   ],
+   [
+    "iman/emniyet",
+    17
+   ],
+   [
+    "şey/dileme",
+    14
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "قوم",
+    11
+   ],
+   [
+    "كفي",
+    7
+   ]
+  ],
+  "ses": {
+   "mora": 93,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.14,
+   "şimdi": 1.85,
+   "gelecek": 0.12
+  },
+  "yogunluk": {
+   "kok": 9.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 23,
+   "orta": 39,
+   "son": 38
+  },
+  "ornek": [
+   "3:122",
+   "3:159",
+   "3:160"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "hilm": {
+  "ad": "hilm",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 20,
+  "komsu": [
+   [
+    "Allah",
+    13
+   ],
+   [
+    "mağfiret",
+    9
+   ],
+   [
+    "ilim",
+    7
+   ],
+   [
+    "söz",
+    5
+   ],
+   [
+    "olmak/varlık",
+    5
+   ],
+   [
+    "şey/dileme",
+    4
+   ],
+   [
+    "أيي",
+    4
+   ],
+   [
+    "بلغ",
+    3
+   ]
+  ],
+  "ses": {
+   "mora": 117,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.94,
+   "şimdi": 1.23,
+   "gelecek": 0.36
+  },
+  "yogunluk": {
+   "kok": 11.1,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 10,
+   "orta": 25,
+   "son": 65
+  },
+  "ornek": [
+   "2:225",
+   "2:235",
+   "2:263"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "zulüm": {
+  "ad": "zulüm",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 290,
+  "komsu": [
+   [
+    "Allah",
+    131
+   ],
+   [
+    "olmak/varlık",
+    80
+   ],
+   [
+    "söz",
+    79
+   ],
+   [
+    "قوم",
+    57
+   ],
+   [
+    "Rab",
+    56
+   ],
+   [
+    "نفس",
+    55
+   ],
+   [
+    "ilim",
+    37
+   ],
+   [
+    "أيي",
+    35
+   ]
+  ],
+  "ses": {
+   "mora": 98,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.78,
+   "şimdi": 0.91,
+   "gelecek": 1.45
+  },
+  "yogunluk": {
+   "kok": 10.3,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 33,
+   "son": 37
+  },
+  "ornek": [
+   "2:17",
+   "2:19",
+   "2:20"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "kibir": {
+  "ad": "kibir",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 153,
+  "komsu": [
+   [
+    "Allah",
+    54
+   ],
+   [
+    "söz",
+    53
+   ],
+   [
+    "olmak/varlık",
+    50
+   ],
+   [
+    "iman/emniyet",
+    28
+   ],
+   [
+    "Rab",
+    28
+   ],
+   [
+    "أيي",
+    27
+   ],
+   [
+    "رأي",
+    21
+   ],
+   [
+    "azap",
+    19
+   ]
+  ],
+  "ses": {
+   "mora": 101,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.03,
+   "şimdi": 1.38,
+   "gelecek": 1.54
+  },
+  "yogunluk": {
+   "kok": 10.3,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 36,
+   "orta": 34,
+   "son": 30
+  },
+  "ornek": [
+   "2:34",
+   "2:45",
+   "2:87"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "durum/zıtsız"
+ },
+ "nifak": {
+  "ad": "nifak",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 86,
+  "komsu": [
+   [
+    "Allah",
+    61
+   ],
+   [
+    "söz",
+    21
+   ],
+   [
+    "iman/emniyet",
+    18
+   ],
+   [
+    "ilim",
+    18
+   ],
+   [
+    "küfür",
+    17
+   ],
+   [
+    "rızık",
+    16
+   ],
+   [
+    "قوم",
+    16
+   ],
+   [
+    "olmak/varlık",
+    16
+   ]
+  ],
+  "ses": {
+   "mora": 116,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.46,
+   "şimdi": 1.03,
+   "gelecek": 1.25
+  },
+  "yogunluk": {
+   "kok": 11.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 19,
+   "orta": 34,
+   "son": 48
+  },
+  "ornek": [
+   "2:3",
+   "2:195",
+   "2:215"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "fısk": {
+  "ad": "fısk",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 54,
+  "komsu": [
+   [
+    "Allah",
+    25
+   ],
+   [
+    "olmak/varlık",
+    23
+   ],
+   [
+    "قوم",
+    21
+   ],
+   [
+    "iman/emniyet",
+    13
+   ],
+   [
+    "söz",
+    12
+   ],
+   [
+    "كثر",
+    11
+   ],
+   [
+    "küfür",
+    8
+   ],
+   [
+    "indirme",
+    8
+   ]
+  ],
+  "ses": {
+   "mora": 126,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 3.15,
+   "şimdi": 0.64,
+   "gelecek": 0.66
+  },
+  "yogunluk": {
+   "kok": 12.3,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 28,
+   "orta": 43,
+   "son": 30
+  },
+  "ornek": [
+   "2:26",
+   "2:59",
+   "2:99"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "heva": {
+  "ad": "heva",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 37,
+  "komsu": [
+   [
+    "تبع",
+    22
+   ],
+   [
+    "Allah",
+    18
+   ],
+   [
+    "ilim",
+    11
+   ],
+   [
+    "Rab",
+    9
+   ],
+   [
+    "جيأ",
+    7
+   ],
+   [
+    "hidâyet",
+    7
+   ],
+   [
+    "söz",
+    7
+   ],
+   [
+    "قوم",
+    7
+   ]
+  ],
+  "ses": {
+   "mora": 112,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.87,
+   "şimdi": 0.8,
+   "gelecek": 0.19
+  },
+  "yogunluk": {
+   "kok": 11.6,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 22,
+   "orta": 51,
+   "son": 27
+  },
+  "ornek": [
+   "2:87",
+   "2:120",
+   "2:145"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "gaflet": {
+  "ad": "gaflet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 35,
+  "komsu": [
+   [
+    "olmak/varlık",
+    16
+   ],
+   [
+    "Allah",
+    13
+   ],
+   [
+    "amel",
+    11
+   ],
+   [
+    "Rab",
+    9
+   ],
+   [
+    "söz",
+    8
+   ],
+   [
+    "يوم",
+    7
+   ],
+   [
+    "قلب",
+    5
+   ],
+   [
+    "دنو",
+    5
+   ]
+  ],
+  "ses": {
+   "mora": 106,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.62,
+   "şimdi": 1.26,
+   "gelecek": 1.43
+  },
+  "yogunluk": {
+   "kok": 11.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 37,
+   "orta": 26,
+   "son": 37
+  },
+  "ornek": [
+   "2:74",
+   "2:85",
+   "2:140"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "hayr": {
+  "ad": "hayr",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 178,
+  "komsu": [
+   [
+    "Allah",
+    99
+   ],
+   [
+    "söz",
+    50
+   ],
+   [
+    "olmak/varlık",
+    47
+   ],
+   [
+    "iman/emniyet",
+    41
+   ],
+   [
+    "Rab",
+    38
+   ],
+   [
+    "ilim",
+    31
+   ],
+   [
+    "أتي",
+    29
+   ],
+   [
+    "şey/dileme",
+    25
+   ]
+  ],
+  "ses": {
+   "mora": 104,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.74,
+   "şimdi": 1.38,
+   "gelecek": 0.84
+  },
+  "yogunluk": {
+   "kok": 10.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 23,
+   "orta": 36,
+   "son": 41
+  },
+  "ornek": [
+   "2:54",
+   "2:61",
+   "2:103"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "rızâ": {
+  "ad": "rızâ",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 64,
+  "komsu": [
+   [
+    "Allah",
+    43
+   ],
+   [
+    "Rab",
+    16
+   ],
+   [
+    "olmak/varlık",
+    16
+   ],
+   [
+    "ilim",
+    14
+   ],
+   [
+    "iman/emniyet",
+    14
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "azgınlık",
+    11
+   ],
+   [
+    "amel",
+    10
+   ]
+  ],
+  "ses": {
+   "mora": 134,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.98,
+   "şimdi": 1.0,
+   "gelecek": 1.23
+  },
+  "yogunluk": {
+   "kok": 13.6,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 30,
+   "orta": 27,
+   "son": 44
+  },
+  "ornek": [
+   "2:120",
+   "2:144",
+   "2:207"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "durum/zıtsız"
+ },
+ "hüzün": {
+  "ad": "hüzün",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 42,
+  "komsu": [
+   [
+    "Allah",
+    23
+   ],
+   [
+    "korku",
+    18
+   ],
+   [
+    "söz",
+    15
+   ],
+   [
+    "Rab",
+    9
+   ],
+   [
+    "iman/emniyet",
+    8
+   ],
+   [
+    "olmak/varlık",
+    8
+   ],
+   [
+    "أتي",
+    7
+   ],
+   [
+    "ilim",
+    7
+   ]
+  ],
+  "ses": {
+   "mora": 97,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.75,
+   "şimdi": 1.4,
+   "gelecek": 1.02
+  },
+  "yogunluk": {
+   "kok": 9.8,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 21,
+   "son": 48
+  },
+  "ornek": [
+   "2:38",
+   "2:62",
+   "2:112"
+  ],
+  "alt_tur": "karşı-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "birr": {
+  "ad": "birr",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 30,
+  "komsu": [
+   [
+    "Allah",
+    13
+   ],
+   [
+    "بحر",
+    9
+   ],
+   [
+    "takvâ",
+    7
+   ],
+   [
+    "نجو",
+    6
+   ],
+   [
+    "dua",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "أنس",
+    5
+   ],
+   [
+    "iman/emniyet",
+    5
+   ]
+  ],
+  "ses": {
+   "mora": 100,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.63,
+   "şimdi": 0.98,
+   "gelecek": 0.72
+  },
+  "yogunluk": {
+   "kok": 10.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 20,
+   "orta": 50,
+   "son": 30
+  },
+  "ornek": [
+   "2:44",
+   "2:177",
+   "2:189"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "tahâret": {
+  "ad": "tahâret",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 26,
+  "komsu": [
+   [
+    "Allah",
+    14
+   ],
+   [
+    "قوم",
+    10
+   ],
+   [
+    "iman/emniyet",
+    9
+   ],
+   [
+    "söz",
+    9
+   ],
+   [
+    "olmak/varlık",
+    8
+   ],
+   [
+    "elçi",
+    6
+   ],
+   [
+    "زوج",
+    5
+   ],
+   [
+    "أتي",
+    4
+   ]
+  ],
+  "ses": {
+   "mora": 133,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 2.18,
+   "şimdi": 0.75,
+   "gelecek": 1.1
+  },
+  "yogunluk": {
+   "kok": 13.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 42,
+   "orta": 31,
+   "son": 27
+  },
+  "ornek": [
+   "2:25",
+   "2:125",
+   "2:222"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "geçmiş",
+  "zit_turu": "durum/zıtsız"
+ },
+ "sevinç/ferah": {
+  "ad": "sevinç/ferah",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 21,
+  "komsu": [
+   [
+    "Allah",
+    11
+   ],
+   [
+    "أتي",
+    7
+   ],
+   [
+    "söz",
+    7
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "سوأ",
+    5
+   ],
+   [
+    "كلل",
+    5
+   ],
+   [
+    "صوب",
+    4
+   ],
+   [
+    "أمر",
+    4
+   ]
+  ],
+  "ses": {
+   "mora": 97,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.9,
+   "şimdi": 1.17,
+   "gelecek": 0.34
+  },
+  "yogunluk": {
+   "kok": 10.5,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 19,
+   "orta": 43,
+   "son": 38
+  },
+  "ornek": [
+   "3:120",
+   "3:170",
+   "3:188"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "şimdi",
+  "zit_turu": "durum/zıtsız"
+ },
+ "huşû": {
+  "ad": "huşû",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 16,
+  "komsu": [
+   [
+    "Allah",
+    4
+   ],
+   [
+    "iman/emniyet",
+    4
+   ],
+   [
+    "indirme",
+    4
+   ],
+   [
+    "يوم",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "بصر",
+    4
+   ],
+   [
+    "dua",
+    3
+   ],
+   [
+    "رأي",
+    3
+   ]
+  ],
+  "ses": {
+   "mora": 91,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.39,
+   "şimdi": 0.92,
+   "gelecek": 1.79
+  },
+  "yogunluk": {
+   "kok": 9.2,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 31,
+   "orta": 12,
+   "son": 56
+  },
+  "ornek": [
+   "2:45",
+   "3:199",
+   "17:109"
+  ],
+  "alt_tur": "iyi-kavram",
+  "zaman_yonelim": "gelecek",
+  "zit_turu": "durum/zıtsız"
+ },
+ "nefs": {
+  "ad": "nefs",
+  "tur": "insan-hâli",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 268,
+  "komsu": [
+   [
+    "Allah",
+    139
+   ],
+   [
+    "olmak/varlık",
+    87
+   ],
+   [
+    "söz",
+    67
+   ],
+   [
+    "zulüm",
+    55
+   ],
+   [
+    "ilim",
+    45
+   ],
+   [
+    "iman/emniyet",
+    43
+   ],
+   [
+    "Rab",
+    42
+   ],
+   [
+    "كلل",
+    41
+   ]
+  ],
+  "ornek": [
+   "2:9",
+   "2:44",
+   "2:48"
+  ],
+  "alt_tur": "yönelim-merkezi",
+  "kok_anlam_filtreli": true
+ },
+ "kalp": {
+  "ad": "kalp",
+  "tur": "insan-hâli",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 155,
+  "komsu": [
+   [
+    "Allah",
+    94
+   ],
+   [
+    "iman/emniyet",
+    49
+   ],
+   [
+    "söz",
+    40
+   ],
+   [
+    "olmak/varlık",
+    33
+   ],
+   [
+    "ilim",
+    32
+   ],
+   [
+    "Rab",
+    25
+   ],
+   [
+    "küfür",
+    21
+   ],
+   [
+    "أتي",
+    21
+   ]
+  ],
+  "ornek": [
+   "2:7",
+   "2:10",
+   "2:74"
+  ],
+  "alt_tur": "yönelim-merkezi"
+ },
+ "akıl": {
+  "ad": "akıl",
+  "tur": "insan-hâli",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 49,
+  "komsu": [
+   [
+    "Allah",
+    19
+   ],
+   [
+    "أيي",
+    13
+   ],
+   [
+    "olmak/varlık",
+    12
+   ],
+   [
+    "قوم",
+    11
+   ],
+   [
+    "söz",
+    10
+   ],
+   [
+    "حيي",
+    10
+   ],
+   [
+    "بعد",
+    8
+   ],
+   [
+    "beyan",
+    8
+   ]
+  ],
+  "ornek": [
+   "2:44",
+   "2:73",
+   "2:75"
+  ],
+  "alt_tur": "idrak-organı"
+ },
+ "göz": {
+  "ad": "göz",
+  "tur": "insan-hâli",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 63,
+  "komsu": [
+   [
+    "söz",
+    15
+   ],
+   [
+    "جنن",
+    10
+   ],
+   [
+    "Allah",
+    9
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "قرر",
+    8
+   ],
+   [
+    "ilim",
+    7
+   ],
+   [
+    "رأي",
+    7
+   ],
+   [
+    "نفس",
+    7
+   ]
+  ],
+  "ornek": [
+   "2:60",
+   "3:13",
+   "5:45"
+  ],
+  "alt_tur": "idrak-organı"
+ },
+ "yüz": {
+  "ad": "yüz",
+  "tur": "insan-hâli",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 71,
+  "komsu": [
+   [
+    "Allah",
+    32
+   ],
+   [
+    "olmak/varlık",
+    16
+   ],
+   [
+    "قوم",
+    15
+   ],
+   [
+    "يوم",
+    14
+   ],
+   [
+    "söz",
+    14
+   ],
+   [
+    "Rab",
+    11
+   ],
+   [
+    "أتي",
+    11
+   ],
+   [
+    "velî",
+    9
+   ]
+  ],
+  "ornek": [
+   "2:112",
+   "2:115",
+   "2:144"
+  ],
+  "alt_tur": "yönelim-merkezi"
+ },
+ "beşer": {
+  "ad": "beşer",
+  "tur": "toplum",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 119,
+  "komsu": [
+   [
+    "Allah",
+    48
+   ],
+   [
+    "söz",
+    46
+   ],
+   [
+    "elçi",
+    29
+   ],
+   [
+    "iman/emniyet",
+    27
+   ],
+   [
+    "نذر",
+    22
+   ],
+   [
+    "olmak/varlık",
+    21
+   ],
+   [
+    "قوم",
+    17
+   ],
+   [
+    "مثل",
+    16
+   ]
+  ],
+  "ornek": [
+   "2:25",
+   "2:97",
+   "2:119"
+  ],
+  "alt_tur": "tür-geneli"
+ },
+ "halk/kavim": {
+  "ad": "halk/kavim",
+  "tur": "toplum",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 532,
+  "komsu": [
+   [
+    "Allah",
+    242
+   ],
+   [
+    "söz",
+    186
+   ],
+   [
+    "olmak/varlık",
+    131
+   ],
+   [
+    "Rab",
+    112
+   ],
+   [
+    "يوم",
+    104
+   ],
+   [
+    "iman/emniyet",
+    102
+   ],
+   [
+    "أتي",
+    83
+   ],
+   [
+    "أيي",
+    82
+   ]
+  ],
+  "ornek": [
+   "1:6",
+   "2:3",
+   "2:20"
+  ],
+  "alt_tur": "topluluk",
+  "kok_anlam_filtreli": true
+ },
+ "hesap": {
+  "ad": "hesap",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 102,
+  "komsu": [
+   [
+    "Allah",
+    51
+   ],
+   [
+    "söz",
+    18
+   ],
+   [
+    "Rab",
+    18
+   ],
+   [
+    "şey/dileme",
+    15
+   ],
+   [
+    "iman/emniyet",
+    14
+   ],
+   [
+    "يوم",
+    13
+   ],
+   [
+    "ilim",
+    12
+   ],
+   [
+    "كلل",
+    11
+   ]
+  ],
+  "ornek": [
+   "2:202",
+   "2:206",
+   "2:212"
+  ],
+  "alt_tur": "hesap-anı"
+ },
+ "sırât": {
+  "ad": "sırât",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 45,
+  "komsu": [
+   [
+    "قوم",
+    33
+   ],
+   [
+    "hidâyet",
+    24
+   ],
+   [
+    "Allah",
+    19
+   ],
+   [
+    "Rab",
+    9
+   ],
+   [
+    "şey/dileme",
+    8
+   ],
+   [
+    "söz",
+    7
+   ],
+   [
+    "iman/emniyet",
+    7
+   ],
+   [
+    "olmak/varlık",
+    6
+   ]
+  ],
+  "ornek": [
+   "1:6",
+   "1:7",
+   "2:142"
+  ],
+  "alt_tur": "hesap-anı"
+ },
+ "şefaat": {
+  "ad": "şefaat",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 26,
+  "komsu": [
+   [
+    "Allah",
+    10
+   ],
+   [
+    "يوم",
+    8
+   ],
+   [
+    "şey/dileme",
+    7
+   ],
+   [
+    "دون",
+    7
+   ],
+   [
+    "أخذ",
+    6
+   ],
+   [
+    "gök",
+    6
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "söz",
+    6
+   ]
+  ],
+  "ornek": [
+   "2:48",
+   "2:123",
+   "2:254"
+  ],
+  "alt_tur": "hesap-anı"
+ },
+ "sûr": {
+  "ad": "sûr",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 17,
+  "komsu": [
+   [
+    "نفخ",
+    10
+   ],
+   [
+    "يوم",
+    7
+   ],
+   [
+    "Allah",
+    6
+   ],
+   [
+    "gök",
+    6
+   ],
+   [
+    "أرض",
+    6
+   ],
+   [
+    "hüküm",
+    4
+   ],
+   [
+    "şey/dileme",
+    4
+   ],
+   [
+    "yaratma",
+    4
+   ]
+  ],
+  "ornek": [
+   "2:260",
+   "3:6",
+   "6:73"
+  ],
+  "alt_tur": "başlangıç"
+ },
+ "haşir": {
+  "ad": "haşir",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 43,
+  "komsu": [
+   [
+    "يوم",
+    16
+   ],
+   [
+    "Allah",
+    14
+   ],
+   [
+    "söz",
+    11
+   ],
+   [
+    "olmak/varlık",
+    11
+   ],
+   [
+    "takvâ",
+    6
+   ],
+   [
+    "kulluk",
+    6
+   ],
+   [
+    "Rab",
+    6
+   ],
+   [
+    "جمع",
+    5
+   ]
+  ],
+  "ornek": [
+   "2:203",
+   "3:12",
+   "3:158"
+  ],
+  "alt_tur": "başlangıç"
+ },
+ "huld/ebediyet": {
+  "ad": "huld/ebediyet",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 86,
+  "komsu": [
+   [
+    "Allah",
+    34
+   ],
+   [
+    "جنن",
+    31
+   ],
+   [
+    "نور",
+    23
+   ],
+   [
+    "نهر",
+    22
+   ],
+   [
+    "جري",
+    21
+   ],
+   [
+    "تحت",
+    21
+   ],
+   [
+    "iman/emniyet",
+    16
+   ],
+   [
+    "صحب",
+    16
+   ]
+  ],
+  "ornek": [
+   "2:25",
+   "2:39",
+   "2:81"
+  ],
+  "alt_tur": "sonuç"
+ },
+ "mîzan-terazi": {
+  "ad": "mîzan-terazi",
+  "tur": "âhiret-öğesi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 21,
+  "komsu": [
+   [
+    "قوم",
+    9
+   ],
+   [
+    "كيل",
+    6
+   ],
+   [
+    "قسط",
+    5
+   ],
+   [
+    "Allah",
+    5
+   ],
+   [
+    "نفس",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "وفي",
+    4
+   ],
+   [
+    "ثقل",
+    4
+   ]
+  ],
+  "ornek": [
+   "6:152",
+   "7:8",
+   "7:9"
+  ],
+  "alt_tur": "hesap-anı"
+ },
+ "helâl": {
+  "ad": "helâl",
+  "tur": "hüküm-kategori",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 43,
+  "komsu": [
+   [
+    "Allah",
+    31
+   ],
+   [
+    "حرم",
+    17
+   ],
+   [
+    "iman/emniyet",
+    13
+   ],
+   [
+    "طيب",
+    10
+   ],
+   [
+    "أيي",
+    10
+   ],
+   [
+    "ilim",
+    10
+   ],
+   [
+    "olmak/varlık",
+    10
+   ],
+   [
+    "أتي",
+    10
+   ]
+  ],
+  "ornek": [
+   "2:168",
+   "2:187",
+   "2:196"
+  ],
+  "alt_tur": "izin"
+ },
+ "harâm": {
+  "ad": "harâm",
+  "tur": "hüküm-kategori",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 71,
+  "komsu": [
+   [
+    "Allah",
+    51
+   ],
+   [
+    "söz",
+    22
+   ],
+   [
+    "ilim",
+    18
+   ],
+   [
+    "olmak/varlık",
+    18
+   ],
+   [
+    "iman/emniyet",
+    17
+   ],
+   [
+    "حلل",
+    17
+   ],
+   [
+    "Rab",
+    16
+   ],
+   [
+    "سجد",
+    15
+   ]
+  ],
+  "ornek": [
+   "2:85",
+   "2:144",
+   "2:149"
+  ],
+  "alt_tur": "yasak"
+ },
+ "tayyib": {
+  "ad": "tayyib",
+  "tur": "hüküm-kategori",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 46,
+  "komsu": [
+   [
+    "Allah",
+    21
+   ],
+   [
+    "olmak/varlık",
+    16
+   ],
+   [
+    "rızık",
+    15
+   ],
+   [
+    "أكل",
+    14
+   ],
+   [
+    "iman/emniyet",
+    14
+   ],
+   [
+    "أيي",
+    11
+   ],
+   [
+    "حلل",
+    10
+   ],
+   [
+    "ilim",
+    9
+   ]
+  ],
+  "ornek": [
+   "2:57",
+   "2:168",
+   "2:172"
+  ],
+  "alt_tur": "izin"
+ },
+ "habîs": {
+  "ad": "habîs",
+  "tur": "hüküm-kategori",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 10,
+  "komsu": [
+   [
+    "طيب",
+    8
+   ],
+   [
+    "Allah",
+    4
+   ],
+   [
+    "olmak/varlık",
+    4
+   ],
+   [
+    "iman/emniyet",
+    3
+   ],
+   [
+    "ilim",
+    2
+   ],
+   [
+    "أرض",
+    2
+   ],
+   [
+    "خرج",
+    2
+   ],
+   [
+    "أيي",
+    2
+   ]
+  ],
+  "ornek": [
+   "2:267",
+   "3:179",
+   "4:2"
+  ],
+  "alt_tur": "yasak"
+ },
+ "gün/yevm": {
+  "ad": "gün/yevm",
+  "tur": "zaman",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 437,
+  "komsu": [
+   [
+    "Allah",
+    132
+   ],
+   [
+    "قوم",
+    104
+   ],
+   [
+    "söz",
+    97
+   ],
+   [
+    "olmak/varlık",
+    93
+   ],
+   [
+    "iman/emniyet",
+    63
+   ],
+   [
+    "azap",
+    51
+   ],
+   [
+    "Rab",
+    49
+   ],
+   [
+    "beyan",
+    46
+   ]
+  ],
+  "ornek": [
+   "1:4",
+   "2:8",
+   "2:48"
+  ],
+  "alt_tur": "döngüsel"
+ },
+ "gece/leyl": {
+  "ad": "gece/leyl",
+  "tur": "zaman",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 81,
+  "komsu": [
+   [
+    "نهر",
+    42
+   ],
+   [
+    "قوم",
+    22
+   ],
+   [
+    "أيي",
+    17
+   ],
+   [
+    "Allah",
+    17
+   ],
+   [
+    "جعل",
+    16
+   ],
+   [
+    "Rab",
+    15
+   ],
+   [
+    "söz",
+    13
+   ],
+   [
+    "شمس",
+    12
+   ]
+  ],
+  "ornek": [
+   "2:51",
+   "2:164",
+   "2:187"
+  ],
+  "alt_tur": "döngüsel"
+ },
+ "sabah": {
+  "ad": "sabah",
+  "tur": "zaman",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 43,
+  "komsu": [
+   [
+    "Allah",
+    10
+   ],
+   [
+    "söz",
+    10
+   ],
+   [
+    "olmak/varlık",
+    6
+   ],
+   [
+    "دور",
+    6
+   ],
+   [
+    "أخذ",
+    6
+   ],
+   [
+    "gök",
+    6
+   ],
+   [
+    "رأي",
+    5
+   ],
+   [
+    "ندم",
+    5
+   ]
+  ],
+  "ornek": [
+   "3:103",
+   "5:30",
+   "5:31"
+  ],
+  "alt_tur": "döngüsel"
+ },
+ "gölge": {
+  "ad": "gölge",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 31,
+  "komsu": [
+   [
+    "Allah",
+    7
+   ],
+   [
+    "takvâ",
+    5
+   ],
+   [
+    "şey/dileme",
+    5
+   ],
+   [
+    "indirme",
+    4
+   ],
+   [
+    "olmak/varlık",
+    3
+   ],
+   [
+    "أكل",
+    3
+   ],
+   [
+    "غمم",
+    3
+   ],
+   [
+    "تحت",
+    3
+   ]
+  ],
+  "ornek": [
+   "2:57",
+   "2:210",
+   "4:57"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "bulut": {
+  "ad": "bulut",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 11,
+  "komsu": [
+   [
+    "Allah",
+    6
+   ],
+   [
+    "رأي",
+    6
+   ],
+   [
+    "روح",
+    4
+   ],
+   [
+    "gök",
+    4
+   ],
+   [
+    "خرج",
+    4
+   ],
+   [
+    "كلل",
+    3
+   ],
+   [
+    "موت",
+    3
+   ],
+   [
+    "beyan",
+    3
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:164",
+   "7:57",
+   "13:12"
+  ],
+  "alt_tur": "dünyevî"
+ },
+ "şimşek": {
+  "ad": "şimşek",
+  "tur": "olay",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 7,
+  "komsu": [
+   [
+    "Allah",
+    3
+   ],
+   [
+    "gök",
+    3
+   ],
+   [
+    "بصر",
+    3
+   ],
+   [
+    "رأي",
+    3
+   ],
+   [
+    "موت",
+    2
+   ],
+   [
+    "zulüm",
+    2
+   ],
+   [
+    "صوب",
+    2
+   ],
+   [
+    "جعل",
+    2
+   ]
+  ],
+  "ornek": [
+   "2:19",
+   "2:20",
+   "13:12"
+  ],
+  "alt_tur": "kozmos-olayı"
+ },
+ "Hayy": {
+  "ad": "Hayy",
+  "tur": "ilâhî-isim",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 166,
+  "komsu": [
+   [
+    "Allah",
+    74
+   ],
+   [
+    "دنو",
+    66
+   ],
+   [
+    "موت",
+    65
+   ],
+   [
+    "söz",
+    41
+   ],
+   [
+    "olmak/varlık",
+    29
+   ],
+   [
+    "أيي",
+    28
+   ],
+   [
+    "قوم",
+    28
+   ],
+   [
+    "أرض",
+    27
+   ]
+  ],
+  "okuma": "ilâhî isim: eşleştiği esmâ + bağlam",
+  "_": null,
+  "fasila_egilimi": "esmâ genelde ayet-sonu mührü",
+  "ornek": [
+   "2:26",
+   "2:28",
+   "2:49"
+  ],
+  "alt_tur": "cemâl"
+ },
+ "Kürsî": {
+  "ad": "Kürsî",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "أذن",
+    1
+   ],
+   [
+    "حفظ",
+    1
+   ],
+   [
+    "أود",
+    1
+   ],
+   [
+    "أخذ",
+    1
+   ],
+   [
+    "خلف",
+    1
+   ],
+   [
+    "يدي",
+    1
+   ],
+   [
+    "وسن",
+    1
+   ],
+   [
+    "علو",
+    1
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:255",
+   "38:34"
+  ],
+  "alt_tur": "kozmik"
+ },
+ "İlyâs": {
+  "ad": "İlyâs",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 3,
+  "komsu": [
+   [
+    "حيي",
+    1
+   ],
+   [
+    "salâh",
+    1
+   ],
+   [
+    "كلل",
+    1
+   ],
+   [
+    "elçi",
+    1
+   ],
+   [
+    "سلم",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 0,
+  "ornek": [
+   "6:85",
+   "37:123",
+   "37:130"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Ahmed": {
+  "ad": "Ahmed",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "Allah",
+    1
+   ],
+   [
+    "جيأ",
+    1
+   ],
+   [
+    "beyan",
+    1
+   ],
+   [
+    "أتي",
+    1
+   ],
+   [
+    "بعد",
+    1
+   ],
+   [
+    "بني",
+    1
+   ],
+   [
+    "gök",
+    1
+   ],
+   [
+    "söz",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 1,
+  "ornek": [
+   "61:6"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Zülkarneyn": {
+  "ad": "Zülkarneyn",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 2,
+  "komsu": [
+   [
+    "قرن",
+    2
+   ],
+   [
+    "söz",
+    2
+   ],
+   [
+    "azap",
+    1
+   ],
+   [
+    "غرب",
+    1
+   ],
+   [
+    "عين",
+    1
+   ],
+   [
+    "ihsan",
+    1
+   ],
+   [
+    "بلغ",
+    1
+   ],
+   [
+    "أخذ",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 2,
+  "ornek": [
+   "18:86",
+   "18:94"
+  ],
+  "alt_tur": "melik/hükümdar"
+ },
+ "Zülkifl": {
+  "ad": "Zülkifl",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 8,
+  "komsu": [
+   [
+    "Allah",
+    4
+   ],
+   [
+    "بعد",
+    3
+   ],
+   [
+    "rahmet",
+    3
+   ],
+   [
+    "iman/emniyet",
+    3
+   ],
+   [
+    "şey/dileme",
+    3
+   ],
+   [
+    "velî",
+    2
+   ],
+   [
+    "lütuf",
+    2
+   ],
+   [
+    "أيي",
+    2
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 1,
+  "ornek": [
+   "2:64",
+   "2:178",
+   "3:28"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Uzeyr": {
+  "ad": "Uzeyr",
+  "tur": "kişi",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "هود",
+    1
+   ],
+   [
+    "Allah",
+    1
+   ],
+   [
+    "بني",
+    1
+   ],
+   [
+    "küfür",
+    1
+   ],
+   [
+    "فوه",
+    1
+   ],
+   [
+    "أفك",
+    1
+   ],
+   [
+    "söz",
+    1
+   ],
+   [
+    "مسح",
+    1
+   ]
+  ],
+  "okuma": "kişi: söz/eylem + kavim + Rab-ilişkisi",
+  "soz_yogun": 1,
+  "ornek": [
+   "9:30"
+  ],
+  "alt_tur": "peygamber"
+ },
+ "Cebrâil": {
+  "ad": "Cebrâil",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 3,
+  "komsu": [
+   [
+    "Allah",
+    3
+   ],
+   [
+    "olmak/varlık",
+    2
+   ],
+   [
+    "iman/emniyet",
+    2
+   ],
+   [
+    "عدو",
+    2
+   ],
+   [
+    "قلب",
+    2
+   ],
+   [
+    "ملك",
+    2
+   ],
+   [
+    "أذن",
+    1
+   ],
+   [
+    "beyan",
+    1
+   ]
+  ],
+  "ornek": [
+   "2:97",
+   "2:98",
+   "66:4"
+  ],
+  "alt_tur": "itaatkâr-gayb"
+ },
+ "Mîkâil": {
+  "ad": "Mîkâil",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "Allah",
+    1
+   ],
+   [
+    "küfür",
+    1
+   ],
+   [
+    "elçi",
+    1
+   ],
+   [
+    "عدو",
+    1
+   ],
+   [
+    "olmak/varlık",
+    1
+   ],
+   [
+    "ملك",
+    1
+   ]
+  ],
+  "ornek": [
+   "2:98"
+  ],
+  "alt_tur": "itaatkâr-gayb"
+ },
+ "Hârût": {
+  "ad": "Hârût",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "أذن",
+    1
+   ],
+   [
+    "شطن",
+    1
+   ],
+   [
+    "مرأ",
+    1
+   ],
+   [
+    "نفع",
+    1
+   ],
+   [
+    "سحر",
+    1
+   ],
+   [
+    "بأس",
+    1
+   ],
+   [
+    "ملك",
+    1
+   ],
+   [
+    "أخر",
+    1
+   ]
+  ],
+  "ornek": [
+   "2:102"
+  ],
+  "alt_tur": "müteşâbih-gayb"
+ },
+ "Mârût": {
+  "ad": "Mârût",
+  "tur": "gayb-varlık",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 1,
+  "komsu": [
+   [
+    "أذن",
+    1
+   ],
+   [
+    "شطن",
+    1
+   ],
+   [
+    "مرأ",
+    1
+   ],
+   [
+    "نفع",
+    1
+   ],
+   [
+    "سحر",
+    1
+   ],
+   [
+    "بأس",
+    1
+   ],
+   [
+    "ملك",
+    1
+   ],
+   [
+    "أخر",
+    1
+   ]
+  ],
+  "ornek": [
+   "2:102"
+  ],
+  "alt_tur": "müteşâbih-gayb"
+ },
+ "yer": {
+  "ad": "yer",
+  "tur": "yer/âlem",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 440,
+  "komsu": [
+   [
+    "gök",
+    224
+   ],
+   [
+    "Allah",
+    215
+   ],
+   [
+    "söz",
+    101
+   ],
+   [
+    "olmak/varlık",
+    91
+   ],
+   [
+    "ilim",
+    85
+   ],
+   [
+    "şey/dileme",
+    74
+   ],
+   [
+    "yaratma",
+    64
+   ],
+   [
+    "كلل",
+    62
+   ]
+  ],
+  "okuma": "yer: kimin + nerede + nitelik",
+  "ornek": [
+   "2:11",
+   "2:22",
+   "2:27"
+  ],
+  "alt_tur": "dünyevî"
+ },
+ "Allah": {
+  "ad": "Allah",
+  "tur": "ilâhî-merkez",
+  "alt_tur": "merkez",
+  "ayet_sayisi": 1825,
+  "kok": "أله",
+  "lem_hsz": "الله",
+  "okuma": "her şeyin bağlı olduğu tek merkez"
+ },
+ "Rab": {
+  "ad": "Rab",
+  "tur": "ilâhî-merkez",
+  "alt_tur": "terbiye-eden",
+  "ayet_sayisi": 871,
+  "kok": "ربب",
+  "okuma": "ilişkisel ilâhî isim — 0/980 mutlak geçiş, %91 zamirli, iyelik yaratılanın tarafında. Rahmet/cennet/hidâyet/dua tarafında yoğun; teşrî, hüküm, kudret, mutlak şahitlik Allah tarafında.",
+  "zamirli_oran": 0.91
+ },
+ "din": {
+  "ad": "din",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 87,
+  "komsu": [
+   [
+    "Allah",
+    53
+   ],
+   [
+    "olmak/varlık",
+    25
+   ],
+   [
+    "يوم",
+    21
+   ],
+   [
+    "قوم",
+    17
+   ],
+   [
+    "ilim",
+    16
+   ],
+   [
+    "كلل",
+    16
+   ],
+   [
+    "söz",
+    15
+   ],
+   [
+    "iman/emniyet",
+    14
+   ]
+  ],
+  "ses": {
+   "mora": 115,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.81,
+   "şimdi": 0.68,
+   "gelecek": 1.64
+  },
+  "yogunluk": {
+   "kok": 11.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 33,
+   "orta": 30,
+   "son": 37
+  },
+  "ornek": [
+   "1:4",
+   "2:132",
+   "2:193"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "dalâlet": {
+  "ad": "dalâlet",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 170,
+  "komsu": [
+   [
+    "Allah",
+    80
+   ],
+   [
+    "söz",
+    59
+   ],
+   [
+    "hidâyet",
+    52
+   ],
+   [
+    "olmak/varlık",
+    49
+   ],
+   [
+    "Rab",
+    34
+   ],
+   [
+    "سبل",
+    34
+   ],
+   [
+    "ilim",
+    32
+   ],
+   [
+    "beyan",
+    30
+   ]
+  ],
+  "ses": {
+   "mora": 97,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.33,
+   "şimdi": 1.33,
+   "gelecek": 0.88
+  },
+  "yogunluk": {
+   "kok": 10.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 32,
+   "orta": 34,
+   "son": 34
+  },
+  "ornek": [
+   "1:7",
+   "2:16",
+   "2:26"
+  ],
+  "alt_tur": "karşı-kavram"
+ },
+ "günah": {
+  "ad": "günah",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 37,
+  "komsu": [
+   [
+    "Allah",
+    19
+   ],
+   [
+    "mağfiret",
+    19
+   ],
+   [
+    "söz",
+    9
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "Rab",
+    8
+   ],
+   [
+    "قبل",
+    7
+   ],
+   [
+    "أرض",
+    6
+   ],
+   [
+    "şiddet",
+    5
+   ]
+  ],
+  "ses": {
+   "mora": 91,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 2.04,
+   "şimdi": 0.8,
+   "gelecek": 0.77
+  },
+  "yogunluk": {
+   "kok": 10,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 41,
+   "orta": 19,
+   "son": 41
+  },
+  "ornek": [
+   "3:11",
+   "3:16",
+   "3:31"
+  ],
+  "alt_tur": "karşı-kavram"
+ },
+ "vaad": {
+  "ad": "vaad",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 130,
+  "komsu": [
+   [
+    "Allah",
+    50
+   ],
+   [
+    "söz",
+    44
+   ],
+   [
+    "olmak/varlık",
+    39
+   ],
+   [
+    "Rab",
+    25
+   ],
+   [
+    "hak",
+    23
+   ],
+   [
+    "يوم",
+    19
+   ],
+   [
+    "صدق",
+    19
+   ],
+   [
+    "خلف",
+    16
+   ]
+  ],
+  "ses": {
+   "mora": 90,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.16,
+   "şimdi": 1.09,
+   "gelecek": 1.82
+  },
+  "yogunluk": {
+   "kok": 9.6,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 25,
+   "orta": 34,
+   "son": 42
+  },
+  "ornek": [
+   "2:51",
+   "2:235",
+   "2:268"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "ahit/söz": {
+  "ad": "ahit/söz",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 36,
+  "komsu": [
+   [
+    "Allah",
+    19
+   ],
+   [
+    "وفي",
+    9
+   ],
+   [
+    "iman/emniyet",
+    9
+   ],
+   [
+    "عند",
+    7
+   ],
+   [
+    "söz",
+    7
+   ],
+   [
+    "olmak/varlık",
+    7
+   ],
+   [
+    "نقض",
+    5
+   ],
+   [
+    "قوم",
+    5
+   ]
+  ],
+  "ses": {
+   "mora": 98,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.05,
+   "şimdi": 0.82,
+   "gelecek": 0.6
+  },
+  "yogunluk": {
+   "kok": 10.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 33,
+   "orta": 36,
+   "son": 31
+  },
+  "ornek": [
+   "2:27",
+   "2:40",
+   "2:80"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "mesel/örnek": {
+  "ad": "mesel/örnek",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 148,
+  "komsu": [
+   [
+    "Allah",
+    71
+   ],
+   [
+    "söz",
+    43
+   ],
+   [
+    "olmak/varlık",
+    34
+   ],
+   [
+    "ضرب",
+    29
+   ],
+   [
+    "şey/dileme",
+    29
+   ],
+   [
+    "قوم",
+    29
+   ],
+   [
+    "أتي",
+    28
+   ],
+   [
+    "küfür",
+    28
+   ]
+  ],
+  "ses": {
+   "mora": 112,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.66,
+   "şimdi": 0.93,
+   "gelecek": 0.92
+  },
+  "yogunluk": {
+   "kok": 11.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 26,
+   "orta": 37,
+   "son": 36
+  },
+  "ornek": [
+   "2:17",
+   "2:23",
+   "2:26"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "furkan": {
+  "ad": "furkan",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 66,
+  "komsu": [
+   [
+    "Allah",
+    31
+   ],
+   [
+    "iman/emniyet",
+    20
+   ],
+   [
+    "beyan",
+    20
+   ],
+   [
+    "olmak/varlık",
+    16
+   ],
+   [
+    "söz",
+    15
+   ],
+   [
+    "kitap",
+    13
+   ],
+   [
+    "أتي",
+    13
+   ],
+   [
+    "قوم",
+    11
+   ]
+  ],
+  "ses": {
+   "mora": 109,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.24,
+   "şimdi": 1.63,
+   "gelecek": 0.54
+  },
+  "yogunluk": {
+   "kok": 10.7,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 32,
+   "orta": 42,
+   "son": 26
+  },
+  "ornek": [
+   "2:50",
+   "2:53",
+   "2:75"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "korku/havf": {
+  "ad": "korku/havf",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 112,
+  "komsu": [
+   [
+    "Allah",
+    44
+   ],
+   [
+    "söz",
+    32
+   ],
+   [
+    "Rab",
+    32
+   ],
+   [
+    "قوم",
+    24
+   ],
+   [
+    "iman/emniyet",
+    22
+   ],
+   [
+    "يوم",
+    19
+   ],
+   [
+    "olmak/varlık",
+    19
+   ],
+   [
+    "حزن",
+    18
+   ]
+  ],
+  "ses": {
+   "mora": 93,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.41,
+   "şimdi": 1.05,
+   "gelecek": 1.6
+  },
+  "yogunluk": {
+   "kok": 9.9,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 37,
+   "orta": 40,
+   "son": 23
+  },
+  "ornek": [
+   "2:38",
+   "2:62",
+   "2:112"
+  ],
+  "alt_tur": "iyi-kavram"
+ },
+ "bâtıl": {
+  "ad": "bâtıl",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 34,
+  "komsu": [
+   [
+    "Allah",
+    16
+   ],
+   [
+    "hak",
+    15
+   ],
+   [
+    "küfür",
+    9
+   ],
+   [
+    "olmak/varlık",
+    9
+   ],
+   [
+    "أنس",
+    8
+   ],
+   [
+    "iman/emniyet",
+    8
+   ],
+   [
+    "أيي",
+    7
+   ],
+   [
+    "söz",
+    7
+   ]
+  ],
+  "ses": {
+   "mora": 95,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.48,
+   "şimdi": 0.87,
+   "gelecek": 0.42
+  },
+  "yogunluk": {
+   "kok": 10.4,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 26,
+   "orta": 21,
+   "son": 53
+  },
+  "ornek": [
+   "2:42",
+   "2:188",
+   "2:264"
+  ],
+  "alt_tur": "karşı-kavram"
+ },
+ "küfür": {
+  "ad": "küfür",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 465,
+  "komsu": [
+   [
+    "Allah",
+    225
+   ],
+   [
+    "söz",
+    132
+   ],
+   [
+    "iman/emniyet",
+    126
+   ],
+   [
+    "olmak/varlık",
+    123
+   ],
+   [
+    "أيي",
+    81
+   ],
+   [
+    "Rab",
+    70
+   ],
+   [
+    "azap",
+    68
+   ],
+   [
+    "قوم",
+    55
+   ]
+  ],
+  "ses": {
+   "mora": 106,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.42,
+   "şimdi": 0.98,
+   "gelecek": 1.6
+  },
+  "yogunluk": {
+   "kok": 10.8,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 35,
+   "orta": 29,
+   "son": 37
+  },
+  "ornek": [
+   "2:6",
+   "2:19",
+   "2:24"
+  ],
+  "alt_tur": "karşı-kavram"
+ },
+ "şirk": {
+  "ad": "şirk",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 143,
+  "komsu": [
+   [
+    "Allah",
+    85
+   ],
+   [
+    "söz",
+    54
+   ],
+   [
+    "olmak/varlık",
+    50
+   ],
+   [
+    "şey/dileme",
+    27
+   ],
+   [
+    "Rab",
+    23
+   ],
+   [
+    "ilim",
+    22
+   ],
+   [
+    "dua",
+    21
+   ],
+   [
+    "قوم",
+    19
+   ]
+  ],
+  "ses": {
+   "mora": 104,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.15,
+   "şimdi": 1.37,
+   "gelecek": 0.95
+  },
+  "yogunluk": {
+   "kok": 10.5,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 32,
+   "orta": 31,
+   "son": 37
+  },
+  "ornek": [
+   "2:96",
+   "2:105",
+   "2:135"
+  ],
+  "alt_tur": "karşı-kavram"
+ },
+ "mülk/hükümranlık": {
+  "ad": "mülk/hükümranlık",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 89,
+  "komsu": [
+   [
+    "Allah",
+    101
+   ],
+   [
+    "söz",
+    80
+   ],
+   [
+    "olmak/varlık",
+    48
+   ],
+   [
+    "şey/dileme",
+    47
+   ],
+   [
+    "gök",
+    41
+   ],
+   [
+    "أرض",
+    39
+   ],
+   [
+    "Rab",
+    39
+   ],
+   [
+    "ilim",
+    35
+   ]
+  ],
+  "ses": {
+   "mora": 108,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 0.79,
+   "şimdi": 1.67,
+   "gelecek": 1.09
+  },
+  "yogunluk": {
+   "kok": 11.2,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 37,
+   "orta": 29,
+   "son": 34
+  },
+  "ornek": [
+   "1:4",
+   "2:30",
+   "2:31"
+  ],
+  "alt_tur": "iyi-kavram",
+  "kok_anlam_filtreli": true
+ },
+ "melik/mâlik": {
+  "ad": "melik/mâlik",
+  "tur": "kavram",
+  "alt_tur": "iyi-kavram",
+  "ayet_sayisi": 20,
+  "kok": "ملك",
+  "okuma": "hükümran, mülk sahibi (1:4 mâliki yevmid-dîn)"
+ },
+ "ehad/teklik": {
+  "ad": "ehad/teklik",
+  "tur": "kavram",
+  "tur_kaynak": "verildi",
+  "ayet_sayisi": 82,
+  "komsu": [
+   [
+    "Allah",
+    41
+   ],
+   [
+    "söz",
+    37
+   ],
+   [
+    "Rab",
+    19
+   ],
+   [
+    "olmak/varlık",
+    17
+   ],
+   [
+    "ilim",
+    16
+   ],
+   [
+    "iman/emniyet",
+    15
+   ],
+   [
+    "beyan",
+    12
+   ],
+   [
+    "أتي",
+    11
+   ]
+  ],
+  "ses": {
+   "mora": 116,
+   "imza": "uzun"
+  },
+  "zaman": {
+   "geçmiş": 1.08,
+   "şimdi": 1.79,
+   "gelecek": 1.05
+  },
+  "yogunluk": {
+   "kok": 12.0,
+   "imza": "yoğun"
+  },
+  "yapi": {
+   "baş": 34,
+   "orta": 38,
+   "son": 28
+  },
+  "ornek": [
+   "2:96",
+   "2:102",
+   "2:136"
+  ],
+  "alt_tur": "iyi-kavram",
+  "okuma": "teklik — tevhidin sayısal/varlıksal ifadesi"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "bütünleyen": [
+  {
+   "ad": "kâinat",
+   "uyeler": [
+    "gök",
+    "yer"
+   ],
+   "not": "gökleri ve yeri = tek bütün (yaratma bütünlüğü)"
+  },
+  {
+   "ad": "zaman-döngüsü",
+   "uyeler": [
+    "gece",
+    "gündüz"
+   ],
+   "not": "gece ve gündüz = birbirini kovalayan çift"
+  },
+  {
+   "ad": "kozmik-ikiz",
+   "uyeler": [
+    "güneş",
+    "ay"
+   ],
+   "not": "güneş ve ay = birlikte hesap/düzen"
+  }
+ ],
+ "karşıt": [
+  {
+   "ad": "varoluş-karşıtı",
+   "uyeler": [
+    "hayat",
+    "ölüm"
+   ],
+   "not": "diriltir ve öldürür = güç gösterimi"
+  },
+  {
+   "ad": "iki-yurt",
+   "uyeler": [
+    "dünya",
+    "âhiret"
+   ],
+   "not": "dünya vs âhiret = tercih ekseni"
+  },
+  {
+   "ad": "iki-son",
+   "uyeler": [
+    "cennet",
+    "nâr"
+   ],
+   "not": "cennet vs ateş = karşılık ayrımı"
+  }
+ ],
+ "esmâ-çifti": [
+  {
+   "ad": "hayat-kıyâm",
+   "uyeler": [
+    "Hayy",
+    "Kayyûm"
+   ],
+   "not": "diri + ayakta tutan (2:255)"
+  },
+  {
+   "ad": "izzet-hikmet",
+   "uyeler": [
+    "Azîz",
+    "Hakîm"
+   ],
+   "not": "güç + hikmet (en sık esmâ çifti)"
+  },
+  {
+   "ad": "mağfiret-rahmet",
+   "uyeler": [
+    "Gafûr",
+    "Rahîm"
+   ],
+   "not": "bağışlayan + merhametli"
+  }
+ ],
+ "sıralı-dizi": [
+  {
+   "ad": "âhiret-sahnesi",
+   "uyeler": [
+    "sûr",
+    "haşir",
+    "hesap",
+    "mîzan",
+    "sırât",
+    "huld"
+   ],
+   "not": "sûr→haşir→hesap→mîzan→sırât→huld (zaman sırası)"
+  },
+  {
+   "ad": "ibadet-dizisi",
+   "uyeler": [
+    "namaz",
+    "zekât"
+   ],
+   "not": "namaz+zekât (hep yan yana)"
+  }
+ ]
+}

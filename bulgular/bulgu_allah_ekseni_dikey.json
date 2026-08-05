@@ -1,0 +1,59 @@
+{
+ "baslik": "Allah-ekseni dikey okuma — kavramların Allah lafzına kelime-mesafesi gradyanı",
+ "yontem": "Saf kelime akışı (77429 kelime, el- takısı için kelime=benzersiz wid, asıl N/V/ADJ/PN segmentinden lemma). Her kavramın Allah lafzına medyan kelime-mesafesi + komşuluk bandı (öncesi/sonrası ±6). Karışık kökler kavram-düzeyinde (harakat-ayrımlı) sayıldı.",
+ "gradyan_mesafe": {
+  "hudûd": 1,
+  "kizb": 14,
+  "nâs": 8,
+  "namaz": 10,
+  "tekzîb": 22,
+  "yalan(kizb-ilk)": 20,
+  "beşer": 29,
+  "insân": 43,
+  "tuğyân": 42
+ },
+ "gradyan_okuma": "İçe→dışa: hudûd(1, ilâhî sınır, yapışık) → nâs/namaz(8-10, muhatap topluluk + yöneliş) → beşer(29, insan-tür) → insân/tuğyân(42-43, birey + aşma, çeper). Allah'tan uzaklaştıkça: ilâhî sınır → ibadet/muhatap → insan-tür → birey/aşma.",
+ "kavram_imzalari": {
+  "hudûd": "Allah'a yapışık (terkip hudûdullah), hukukî (boşanma/helâl), i'tidâ(aşma-yasağı) ve nûr komşu",
+  "tuğyân": "Allah'tan uzak (42), Rab-örülü, sonrası قول(söz)+عمه(bocalama) — hâl, körlük",
+  "nâs (topluluk)": "Allah'a YAKIN (8), 'Ey insanlar' hitabı, âyet/ilim/iman komşu — muhatap",
+  "insân (birey)": "Allah'tan UZAK (43), yaratılış(çamur/balçık 55:14,15:26)+zayıflık(acele 21:37)+nankörlük — tasvir edilen",
+  "namaz": "Allah'a yakın (10), HEP ikâme(59)+zekât(31) ile — dikey(Allah'a) + yatay(insana) denge",
+  "kizb (ahlâkî yalan)": "doğruluk/şahitlik/sıdk ekseni",
+  "tekzîb (vahiy reddi)": "âyet(66)/elçi(25) yalanlama — küfür ekseni, 'yalan' temasının kalbi (242 vs 40)"
+ },
+ "ana_bulgu": "Metin insanı iki yüzle konumlandırıyor: TOPLULUK (nâs) Allah'a yakın=muhatap (hitap, ilim); BİREY (insân) uzak=tasvir (çamur, zayıflık, nankörlük). İbadet (namaz) bireyi yakına taşıyor (birey 43 ama namaz 10). Karşı-kutuplarda ayrım: Allah'a atıfla tanımlı günah (kizb=iftira, nidd=eş) yakın; bağımsız azgınlık (tuğyân) uzak.",
+ "insan_en_uzak": "İnsân Allah'tan en uzak olduğu geçişlerde çevresinde: yaratma(16, çamur/balçık), şer(5), nankörlük — insanın maddî kökeni ve zaafı, Allah lafzının sustuğu 'biz yarattık' bandında.",
+ "sinir": "tuğyân 25, insân 71, kizb 40 — bazı örneklemler küçük, eğilim düzeyinde. Komşuluk kısmen Arapça mevsûf-sıfat sırası (sonrası sıfat), ama HANGİ sıfatların baskın olduğu metnin seçimi.",
+ "epistemik": "muhkem=mesafe/komşuluk ölçümleri; inşa='gradyan/muhatap-tasvir' okuması; değer atfı YOK (yakın=kutsal demiyoruz).",
+ "REVIZYON_permutasyon": {
+  "tarih": "bu oturum — dikey_oku.py sağlamlaştırma sonrası",
+  "yontem": "Her kavramın Allah-mesafesi, örneklem-boyutu-eşli permütasyon testiyle (1000 deneme) rastgeleye karşı sınandı. Rastgele referans medyan = 11 kelime.",
+  "anlamli_YAKIN": {
+   "hudûd": "1 (p=0.000)",
+   "şirk": "7 (p=0.005)"
+  },
+  "anlamli_UZAK": {
+   "tuğyân": "26 (p=0.006)",
+   "tekzîb": "23 (p=0.000)",
+   "beşer": "29 (p=0.002)"
+  },
+  "NÖTR_cürüdü": {
+   "namaz": "10 (p=0.42)",
+   "zulüm": "12 (p=0.33)",
+   "adl": "8 (p=0.21)",
+   "rahmet": "13 (p=0.09)",
+   "karanlık": "8 (p=0.26)",
+   "kizb": "14 (p=0.28)"
+  },
+  "DÜZELTİLMİŞ_ANA_BULGU": "Allah-ekseni SÜREKLİ GRADYAN DEĞİL. Birkaç anlamlı kutup + geniş nötr orta. Yakın kutup (hudûd, şirk) ve uzak kutup (tuğyân, tekzîb, beşer) gerçek; aradaki kavramların (namaz, zulüm, adl, rahmet, karanlık) 'yakınlığı' rastgeleden farksız — ÇÜRÜDÜ.",
+  "GERÇEK_ÖRÜNTÜ": "Yakınlığı belirleyen kutsallık/olumluluk DEĞİL, GRAMATİK BAĞIMLILIK. 'Allah'ın X'i' (hudûd) / 'Allah'a X' (şirk) kalıbındakiler yakın; kendi başına duran her şey (rahmet dahil) nötr/uzak. Rahmet bile nötr — Allah'a atıfla değil kendi başına akıyor.",
+  "not": "Önceki 'gradyan cetveli' (hudûd→nâs→namaz→beşer→tuğyân) büyük ölçüde geçersiz; sadece uçlar + şirk anlamlı. nâs/insân permütasyonu yapılmadı (kök أنس kavram-ayrımı tabloda yok — YAPILACAK).",
+  "nas_insan_DOGRULANDI": {
+   "nâs (topluluk)": "medyan 8, p=0.020 → YAKIN, ANLAMLI ✓",
+   "insân (birey)": "medyan 43, p=0.000 → UZAK, ANLAMLI ✓",
+   "sonuc": "'Topluluk-muhatap yakın / birey-tasvir uzak' bulgusu permütasyon testinden GEÇTİ. Gradyanın çoğu çürürken (namaz/zulüm/adl nötr) bu zıtlık gerçek — sistematik, tesadüf değil.",
+   "gramatik_baglanti": "nâs 'Ey insanlar!' (yâ eyyuhe'n-nâs) hitabında = atıfla tanımlı (yakın), hudûd/şirk gibi. insân 'insan nankördür' tasvirinde = bağımsız (uzak). Yakınlık yine gramatik-bağımlılıkla açıklanıyor."
+  }
+ }
+}

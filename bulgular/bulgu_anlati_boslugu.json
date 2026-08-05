@@ -1,0 +1,52 @@
+{
+ "baslik": "İki-Allah-arası boşluk = anlatı modu — nicel doğrulama",
+ "yontem": "Allah geçişleri arası segmentler; Q1(≤7)=yoğun, Q3(≥29)=sessiz sınıfları. Üç anlatı-göstergesi yoğunluğu: özel-isim (PN, Allah hariç), kāle (قول kökü), kavim. Anlamlılık: 2000 segment-permütasyonu.",
+ "sonuc": {
+  "pn": {
+   "sessiz_%": 1.89,
+   "yogun_%": 0.56,
+   "fark_puan": 1.33,
+   "p": 0.0
+  },
+  "kale": {
+   "sessiz_%": 2.49,
+   "yogun_%": 1.52,
+   "fark_puan": 0.96,
+   "p": 0.0
+  },
+  "kavim": {
+   "sessiz_%": 0.87,
+   "yogun_%": 0.28,
+   "fark_puan": 0.59,
+   "p": 0.0
+  }
+ },
+ "en_uzun_bosluklar": [
+  {
+   "boyut": 1075,
+   "aralik": "53:62 → 57:1",
+   "pn_yogunluk_%": 1.4
+  },
+  {
+   "boyut": 808,
+   "aralik": "18:69 → 19:30",
+   "pn_yogunluk_%": 1.73
+  },
+  {
+   "boyut": 736,
+   "aralik": "17:39 → 17:92",
+   "pn_yogunluk_%": 2.72
+  },
+  {
+   "boyut": 617,
+   "aralik": "42:53 → 43:63",
+   "pn_yogunluk_%": 1.78
+  },
+  {
+   "boyut": 616,
+   "aralik": "25:71 → 26:89",
+   "pn_yogunluk_%": 3.25
+  }
+ ],
+ "okuma": "HİPOTEZ DOĞRULANDI (üç gösterge, hepsi p<0.0005, 2000 permütasyon): Allah-sessiz bölgelerde özel-isim yoğunluğu ×3.4 (%1.89 vs %0.56), kāle ×1.6, kavim ×3.1. İki-Allah-arası uzun boşluk gerçekten ANLATI MODUDUR — metin kıssaya girince Allah lafzı çekilir, sahneyi kişiler ve 'dedi'ler alır. En uzun boşluklar bunu tek tek gösteriyor: 18:69→19:30 (Hızır+Zülkarneyn+Meryem doğumu), 25:71→26:89 (Şuarâ peygamber-kıssaları zinciri, PN %3.25), 17:39→17:92 (İsrâ orta blok). ÖNEMLİ NÜANS: en uzun boşluk (53:62→57:1, 1075 kelime) saf kıssa değil — Kamer kıssa dizisiyken Rahmân sûresi boyunca Allah lafzının yerini RAHMÂN ismi alır. Yani 'Allah-sessizliği' iki türlü: (a) anlatı modu (kişiler konuşur), (b) isim-ikamesi (başka ilâhî isim taşır). İkisi de lafza-duyarlı ölçümde boşluk görünür; ayrıştırılması ileride Rahmân/Rab indeksleriyle yapılabilir."
+}

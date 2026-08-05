@@ -1,0 +1,154 @@
+{
+ "baslik": "Özel-isim katmanı: akışa girmeyen 821 kelime ve İblis'in ölçülebilir hale gelmesi",
+ "sorun": "kuran_akis.kelime_akisi() bir kelimeyi ancak ROOT'lu bir segmenti varsa anlamlandırıyordu. morph.txt'te POS sütunu yalnız N/P/V taşır; 'PN' bir ÖZELLİK'tir. Arapça kökten türemeyen özel isimlerin (إبليس, موسى, فرعون, جهنّم, إبراهيم...) ROOT kaydı yoktur — bu yüzden kok='' kalıyor ve dikey_oku'nun 'if x[kok]' süzgecinden düşüyorlardı. Yaratılış sahnesi analizinde yakalandı: sahnenin çekirdek öznesi İblis hiçbir ölçüme giremiyordu.",
+ "olcek": {
+  "eksik_ad_turu": 62,
+  "eksik_gecis": 821,
+  "toplam_kelime": 77429,
+  "oran": "%1.06"
+ },
+ "en_sik_eksikler": {
+  "موسى": 136,
+  "جهنّم": 77,
+  "فرعون": 74,
+  "إبراهيم": 69,
+  "إسرائيل": 43,
+  "نوح": 43,
+  "مريم": 34,
+  "يوسف": 27,
+  "لوط": 27,
+  "ثمود": 26,
+  "عيسى": 25,
+  "هارون": 20,
+  "توراة": 18,
+  "سليمان": 17,
+  "إسحاق": 17,
+  "إبليس": 11
+ },
+ "cozum": {
+  "kod": "kuran_akis.py v2 — _kelime_segmentleri() artık her segment için is_pn (özellik alanında PN) döndürüyor; kelime_akisi(ozel_isim=True) kök bulunamayan kelimede PN segmentine sahte-kök veriyor: 'ÖZEL:<harekesiz lemma>'. Akış elemanına 'ozel' bayrağı eklendi.",
+  "geri_alma": "kelime_akisi(ozel_isim=False) eski davranışı aynen verir (regresyon karşılaştırması için korundu).",
+  "neden_guvenli": "Akış zaten HER kelimeyi bir eleman olarak tutuyordu (77429), yalnız kok alanı boştu. Dolayısıyla İNDEKSLER DEĞİŞMEDİ; Allah-indeksleri, mesafeler, blok konumları sabit kaldı."
+ },
+ "regresyon": {
+  "yontem": "Aynı ölçümler ozel_isim=False ve True ile yan yana çalıştırıldı.",
+  "degismeyen": "gök(310, medyan 9), secde(64, 43), هبط(8, 96), رجع(104, 19), ruh(24, 26), düzenleme(15, 23), أبي(13, 35), kibir(59, 13) — geçiş sayıları ve Allah-medyanları BİREBİR aynı.",
+  "degisen_1": "Rastgele referans 11 → 12 kelime. 821 yeni kelimenin çoğu Allah-seyrek anlatı bölgelerinde; havuz büyüyünce rastgele medyan yükseldi. Etkisi: 'yakın' etiketleri hafif güçlenir, 'uzak' etiketleri hafif zayıflar. Eski bulguların etiketlerinden hiçbiri sınıf değiştirmedi.",
+  "degisen_2": "Zenginleşme katları <%5 oynadı (payda büyüdü). Sıralamalar korundu.",
+  "degisen_3": "YENİ komşular göründü: secde'nin öncesinde ÖZEL:إبليس(×46), أبي'nin öncesinde ÖZEL:إبليس(×129). Bunlar eskiden görünmez komşulardı."
+ },
+ "yeni_olcum_iblis": {
+  "gecis": 11,
+  "allah_medyan": 79,
+  "etiket": "UZAK",
+  "p": 0.001,
+  "oncesi": "secde(×130.2), أدم(×111.1), mülk(×19.3)",
+  "sonrasi": "أبي(×128.1), secde(×43.4)",
+  "ayet_duzeyi_teyit": "11 ayetin HİÇBİRİNDE Allah lafzı yok (0/11). Genel ayet oranı %29.5, beklenen ~3.2, binom p≈0.021. Kontrol: şeytan 63 ayetin 24'ünde (%38) Allah ile aynı ayette — ters yönde, yani bu 'kötü aktör' etkisi değil, bu ADA özgü.",
+  "kalip": "7/11 geçiş 'illâ İblîs' kalıbında — ad metne bağımsız özne olarak değil istisna cümleciği olarak giriyor."
+ },
+ "yeni_olcum_adem": {
+  "kok": "أدم",
+  "gecis": 25,
+  "allah_medyan": 59,
+  "etiket": "UZAK",
+  "p": 0.0,
+  "yon": "4 önce / 21 sonra — Âdem ezici çoğunlukla en yakın Allah anımından SONRA geliyor",
+  "oncesi": "secde(×24.4), evlat(×12.9)",
+  "sonrasi": "ÖZEL:إبليس(×118.5), secde(×24.4), isim/esmâ(×11.0), zevc(×9.7), ekl(×7.2)",
+  "not": "Âdem zaten akıştaydı (kök أدم); önceki oturumda 'akışta 5 geçiş' görünmesi arama artefaktıydı (آ=U+0622 ile ا karşılaştırması). Veri kaybı değildi."
+ },
+ "yeni_yetenek_ozel_isim_gradyani": {
+  "aciklama": "Özel isimlerin Allah lafzına medyan kelime-mesafesi (rastgele ref 12). İLK KEZ ölçülebilir.",
+  "cetvel": [
+   [
+    "مريم",
+    8,
+    34
+   ],
+   [
+    "عيسى",
+    10,
+    25
+   ],
+   [
+    "يوسف",
+    11,
+    27
+   ],
+   [
+    "توراة",
+    12,
+    18
+   ],
+   [
+    "إبراهيم",
+    14,
+    69
+   ],
+   [
+    "نوح",
+    14,
+    43
+   ],
+   [
+    "جهنّم",
+    15,
+    77
+   ],
+   [
+    "سليمان",
+    27,
+    17
+   ],
+   [
+    "لوط",
+    29,
+    27
+   ],
+   [
+    "ثمود",
+    32,
+    26
+   ],
+   [
+    "موسى",
+    32,
+    136
+   ],
+   [
+    "إسرائيل",
+    34,
+    43
+   ],
+   [
+    "فرعون",
+    43,
+    74
+   ],
+   [
+    "هارون",
+    58,
+    20
+   ],
+   [
+    "أدم",
+    59,
+    25
+   ]
+  ],
+  "KRITIK_UYARI": "Bu cetvel TEOLOJİK MERTEBE ÖLÇMÜYOR. Büyük olasılıkla TÜR (genre) ölçüyor: uzun kıssa blokları uzun Allah-sessiz aralıklar üretir (bulgu_anlati_boslugu), doktriner/polemik bağlamlar ise Allah-yoğundur. Meryem/İsa'nın öne çıkması tartışma bağlamlarında geçmelerinden; Musa/Firavun/Âdem'in uçta olması uzun anlatılarda geçmelerinden olabilir. Cetveli 'kim Allah'a yakın' diye okumak HATA olur.",
+  "sinanacak": "Kontrol: her ad için blok-uzunluğu (kesintisiz kıssa aralığı) hesaplanıp mesafeye karşı regresyon. Uzunluk kontrol edildikten sonra artık bir fark kalıyor mu?"
+ },
+ "acik_kalanlar": [
+  "ÖZEL: adları kavram_sozlugu ile senkronlanmadı (62 ad, Türkçe karşılıkları yok)",
+  "Bazı adlar hem köklü hem köksüz geçebiliyor (هود, عاد, مدين kökle; إبليس köksüz) — adlandırma tutarsız, ileride 'ÖZEL:' ön eki tüm PN'lere verilmeli mi tartışılmalı",
+  "Özel-isim gradyanı için blok-uzunluğu kontrolü (yukarıda)",
+  "رجع için ÇERÇEVE ayrımı hâlâ açık (bulgu_hubut_rucu.json iş kaydı) — lemma ile çözülmez"
+ ],
+ "epistemik": {
+  "muhkem": "821/62 sayımı, regresyon eşitlikleri, İblis 79/p=0.001 ve 0/11 binom, Âdem 59/p=0.000 ve 4-önce/21-sonra",
+  "insa": "'ad metne istisna olarak giriyor' okuması",
+  "musteshabih": "İblis'in ontolojik konumu — ölçümle kapanmaz"
+ }
+}

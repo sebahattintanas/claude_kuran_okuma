@@ -1,0 +1,27 @@
+{
+ "_makro": {
+  "matematikçi": {
+   "uyari": "(Bu bir meal ya da tefsir değildir. Bir matematikçinin zihninin bu metnin yapısıyla karşılaşınca neyi tanıyacağına, neyi ölçeceğine, nerede yabancı kalacağına dair bir denemedir. Her iddia görünür bir ölçüme bağlıdır.)",
+   "olcek": "makro (metin geneli)",
+   "metin": "Matematikçi metni okumaz — önce neyin sabit, neyin serbest olduğunu ayırmak ister. Metnin kendisi ona bir söz verir: 'her şeyi bir ölçüyle yarattık' (54:49) — 'burada bir değişmez var' diyor. Matematikçinin işi bu iddiayı sınamaktır.\n\nMODÜL: Sûre uzunlukları bir birimin katları mı? Hayır — k=15/11 ilk bakışta parlar ama 19 bölen denenince düzeltilmiş eşikte hiçbiri kalmaz (p=0.04, gereken 0.003). Matematikçi kendi mesleğinin tuzağını tanır (çok deneme yaparsan biri hep parlar) ve modül iddiasını kendi eliyle düşürür. Uzunluklar ızgaraya değil, çarpık dağılıma oturuyor.\n\nSİMETRİ: Metin palindrom mu, başı sonunu yansıtıyor mu? Hayır — ayna dilimleri rastgeleden farksız, baş ile son en uzak dilimler. Ortadan katlanan bir yapı değil.\n\nMERKEZ: Geometrik orta (ayet 3118) özel değil — teması tüm metnin teması. Fâtiha özet değil — kavram dağılımında 82/114. Konumsal merkez yok. AMA ağa bakınca: tek düğüm, her şeyin ona aktığı (yutak skoru +0.40, ona akış %44, ondan %4, 11:1 oran) — Allah. Merkez bir yer değil, bir düğüm; coğrafyada değil topolojide. Metin bunu zaten söylemişti: es-samed — her şey O'na muhtaç, O hiçbir şeye. Graf-teorik 'yutak', bir ilâhî isimle çakışıyor.\n\nÖLÇÜ: Sayı değildiyse neydi? Sınır (hudûd) Allah'a yapışık (1 kelime arayla), aşma (tuğyân) uzak (6 kelime). Ölçü bir gradyan: kaynağı Allah'a bitişik, ihlâli uzak. Karşı-kutuplar (tâğût/küfür/şirk) Allah'tan %34 daha uzağa yerleşiyor. İhlâs'ın 'kufuven ehad'ı (denk yok) dokuda da sürüyor.\n\nSÜRTÜNME: Matematikçi bunların hepsini diline aktardı — değişmez, modül, simetri, merkez, gradyan, yutak. Ama ölçünün NEYE GÖRE konduğunda dili biter. Onun ölçüleri keşfedilir, konmaz. Bu metinde ölçüyü bir KOYAN var ('biz ölçtük'). Ölçünün yapısını görebilir, 'ölçen irade'yi denklemine sokamaz. 'Bir yapı buldum, tutarlı — ama her sistemin ardında yasa ararım, yasa koyan değil. Metin tam benim boş bıraktığım yere bir şey koyuyor. Orada matematiğim susar, metnin dili başlar.'",
+   "olcumler": {
+    "modül_red": "114 sûre ayet-sayısı, k=2..20, Bonferroni p<0.0026 — hiçbiri geçmez",
+    "ayna_red": "dilim i↔(n-i) benzerlik rastgeleden -1.4% ila -1.9%",
+    "merkez": "geometrik orta özel değil; Fâtiha 82/114; ağ-yutak Allah +0.40",
+    "ölçü_gradyan": "hudûd→Allah 1.0 kelime, tuğyân→Allah 6.0 kelime",
+    "karşı_kutup": "tâğût/küfür/şirk Allah'tan %34 daha uzak (0.301 vs 0.224 normalize)"
+   }
+  },
+  "matematikçi_uzay": {
+   "uyari": "Bu bir meal ya da tefsir değildir. Bir matematikçinin kendi disiplininin taleplerini bu metne dayatınca ne bulacağına, nerede tatmin olup nerede yabancı kalacağına dair bir denemedir.",
+   "olcek": "kavram-uzayı (metrik geometri)",
+   "metin": "Matematikçi betimlemeyle yetinmez. 'Allah merkez' dediğimde tatmin olmadı: 'Bana METRİK ver. Yakın dediğin mesafe mi, his mi? Mesafeyse kurallarına uysun: d(x,x)=0, simetri, üçgen eşitsizliği.'\n\nİlk mesafem (birliktelik-asimetrik) SINAVI KALDI — Allah her yerde olduğu için yön tutmuyordu, simetri kırık. 'Bu mesafe değil, gözlem: her şey Allah'a akıyor. Güzel ama üstüne geometri kurulmaz.' Jaccard mesafesi (paylaşılan ayet / toplam ayet) sınavı GEÇTİ: 10962 üçlüde 0 üçgen ihlali. 'Şimdi uzayımız var.'\n\nUzayı çizince metnin kendi ikilileri ön-bilgisiz çıktı: ölüm~hayat, namaz~zekât, rahmet~mağfiret, adl~kıst, nûr~zulmet. 'Ben bir şey demeden metin çiftlerini gösterdi.'\n\n'Kaç boyut?' — İNDİRGENEMEZ. Kavram ekledikçe boyut sabit oranla (~0.82/kavram) doymadan büyüyor. 'Çoğu sistem birkaç eksene çöker; bu çökmüyor. Sanki bilerek çeşitliliği koruyor, hiçbir kavramı diğerinin gölgesine düşürmüyor.'\n\nMERKEZ: Allah 1/30, herkese en yakın. Ve ağ-yutak (asimetrik) ile ÇAKIŞTI: iki bağımsız matematik aynı merkez. 'Tek metrik kapris olabilir; iki metrik aynı şeyi diyorsa gerçek.' Ama Allah'a en yakın kavram KÜFÜR — 'merkez huzurlu değil, en yoğun tartışmanın yeri.'\n\nÖNGÖRÜ: kavramı sakla, yerini tahmin et — rastgeleden 14 kat iyi (%28). Yapı gerçek. Ama öngörülebilen her şey Allah'a düşüyor: 'Uzayın Allah'a bakan yüzü tahmin edilebilir, kavramların birbirine bakan yüzü edilemez — metin onları bağımsız tutmuş. Merkeze doğru öngörülebilir, çevrede özgür.'\n\nSÜRTÜNME: Her şeyi diline aktardı — metrik, boyut, merkez, öngörü. Yapının NASIL'ını biliyor: tek düğüme bağlı ama tek eksene çökmeyen sistem, merkezi güçlü çevresi özgür. Ama NİÇİN böyle kurulduğunu soramıyor. 'Bir uzayın neden çeşitliliği koruduğunu, neden merkezine küfrü en yakın koyduğunu, neden çökmeyi reddettiğini matematik söylemez. Nasıl'ı veririm, niçin'i denklemimin dışında. Orada matematiğim biter, metnin iddiası başlar.'",
+   "olcumler": {
+    "metrik": "Jaccard, aksiyom-onaylı (üçgen 0/10962 ihlal); asimetrik-birliktelik elendi (simetri kırık)",
+    "boyut": "indirgenemez, ~0.82 boyut/kavram sabit, dirseksiz özdeğer",
+    "merkez": "Allah 1/30 (Jaccard) = ağ-yutak +0.40 (asimetrik) — iki metrik çakışıyor",
+    "ongoru": "%28 hold-out isabet (rastgele %2), Allah-eksenli"
+   }
+  }
+ }
+}

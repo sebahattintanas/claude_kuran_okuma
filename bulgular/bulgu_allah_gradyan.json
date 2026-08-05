@@ -1,0 +1,915 @@
+{
+ "baslik": "Allah-ekseni gradyan cetveli (35 kavram) + Allah komşuluk-imzası",
+ "yontem": "dikey_oku (W=6, zenginleşme, dolgu-elenmiş) + permütasyon anlamlılık (300 deneme); kök denetimi sonrası kavram katmanı (430 ayrım + 75 istisna) üstünde",
+ "gradyan_cetveli": [
+  {
+   "kavram": "hudûd",
+   "gecis": 14,
+   "allah_medyan": 1,
+   "etiket": "YAKIN (yapışık)",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 13,
+   "sonra_allah": 1,
+   "once_imza": [
+    "haddi-aşma",
+    "kavim"
+   ],
+   "sonra_imza": [
+    "haddi-aşma",
+    "beyan",
+    "kavim"
+   ]
+  },
+  {
+   "kavram": "hüküm",
+   "gecis": 186,
+   "allah_medyan": 4,
+   "etiket": "YAKIN (yapışık)",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 66,
+   "sonra_allah": 120,
+   "once_imza": [
+    "izzet",
+    "kıst-adalet",
+    "yücelik",
+    "gayb"
+   ],
+   "sonra_imza": [
+    "talâk",
+    "سرع",
+    "kıst-adalet",
+    "عدل"
+   ]
+  },
+  {
+   "kavram": "ilim",
+   "gecis": 778,
+   "allah_medyan": 6,
+   "etiket": "yakın",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 327,
+   "sonra_allah": 451,
+   "once_imza": [
+    "رذل",
+    "كلب",
+    "hazine",
+    "وسع"
+   ],
+   "sonra_imza": [
+    "علن",
+    "gayb",
+    "sır-gizleme",
+    "سرق"
+   ]
+  },
+  {
+   "kavram": "nûr",
+   "gecis": 49,
+   "allah_medyan": 6,
+   "etiket": "yakın",
+   "p": 0.037,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 24,
+   "sonra_allah": 25,
+   "once_imza": [
+    "طفأ",
+    "ضوأ",
+    "karanlık",
+    "تمم"
+   ],
+   "sonra_imza": [
+    "ضرب",
+    "mesel",
+    "يدي",
+    "hidâyet"
+   ]
+  },
+  {
+   "kavram": "kıst-adalet",
+   "gecis": 23,
+   "allah_medyan": 6,
+   "etiket": "yakın",
+   "p": 0.113,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 13,
+   "sonra_allah": 10,
+   "once_imza": [
+    "وزن",
+    "sevgi",
+    "ara",
+    "hüküm"
+   ],
+   "sonra_imza": [
+    "sevgi",
+    "hüküm",
+    "ind",
+    "zulüm"
+   ]
+  },
+  {
+   "kavram": "غفر",
+   "gecis": 234,
+   "allah_medyan": 6,
+   "etiket": "yakın",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 91,
+   "sonra_allah": 143,
+   "once_imza": [
+    "صفح",
+    "عفو",
+    "فيض",
+    "فحش"
+   ],
+   "sonra_imza": [
+    "genişlik",
+    "günah",
+    "عزم",
+    "hilm"
+   ]
+  },
+  {
+   "kavram": "hidâyet",
+   "gecis": 307,
+   "allah_medyan": 7,
+   "etiket": "yakın",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 150,
+   "sonra_allah": 157,
+   "once_imza": [
+    "ictibâ-seçme",
+    "زيغ",
+    "hevâ",
+    "ضلل"
+   ],
+   "sonra_imza": [
+    "صرط",
+    "furkan",
+    "yol",
+    "eşit-düz"
+   ]
+  },
+  {
+   "kavram": "شرك",
+   "gecis": 168,
+   "allah_medyan": 7,
+   "etiket": "yakın",
+   "p": 0.007,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 85,
+   "sonra_allah": 83,
+   "once_imza": [
+    "حنف",
+    "زني",
+    "millet-din",
+    "nifak"
+   ],
+   "sonra_imza": [
+    "زني",
+    "iddia",
+    "وصي",
+    "أحد"
+   ]
+  },
+  {
+   "kavram": "iman",
+   "gecis": 828,
+   "allah_medyan": 8,
+   "etiket": "yakın",
+   "p": 0.0,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 442,
+   "sonra_allah": 386,
+   "once_imza": [
+    "رسخ",
+    "havârî",
+    "kınama",
+    "huri"
+   ],
+   "sonra_imza": [
+    "عزر",
+    "صبأ",
+    "خدع",
+    "kesintisiz"
+   ]
+  },
+  {
+   "kavram": "عدل",
+   "gecis": 28,
+   "allah_medyan": 8,
+   "etiket": "yakın",
+   "p": 0.207,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 16,
+   "sonra_allah": 12,
+   "once_imza": [
+    "şefaat",
+    "velî",
+    "emir",
+    "hüküm"
+   ],
+   "sonra_imza": [
+    "شهد",
+    "takvâ",
+    "ara",
+    "Rab"
+   ]
+  },
+  {
+   "kavram": "nas",
+   "gecis": 241,
+   "allah_medyan": 8,
+   "etiket": "yakın",
+   "p": 0.017,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 122,
+   "sonra_allah": 119,
+   "once_imza": [
+    "حسد",
+    "riya",
+    "وسوس",
+    "بخس"
+   ],
+   "sonra_imza": [
+    "وسوس",
+    "hac",
+    "فكر",
+    "شري"
+   ]
+  },
+  {
+   "kavram": "عبد",
+   "gecis": 275,
+   "allah_medyan": 8,
+   "etiket": "yakın",
+   "p": 0.02,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 153,
+   "sonra_allah": 122,
+   "once_imza": [
+    "gece-yürüyüşü",
+    "azat",
+    "قهر",
+    "Medyen"
+   ],
+   "sonra_imza": [
+    "صنم",
+    "tâğût",
+    "ihlas",
+    "ifk-yalan"
+   ]
+  },
+  {
+   "kavram": "küfür",
+   "gecis": 506,
+   "allah_medyan": 9,
+   "etiket": "yakın",
+   "p": 0.043,
+   "yon": "yakin",
+   "anlamli": true,
+   "once_allah": 258,
+   "sonra_allah": 248,
+   "once_imza": [
+    "مقت",
+    "عتد",
+    "يأس",
+    "temenni"
+   ],
+   "sonra_imza": [
+    "مقت",
+    "tâğût",
+    "نيل",
+    "عوم"
+   ]
+  },
+  {
+   "kavram": "karanlık",
+   "gecis": 27,
+   "allah_medyan": 9,
+   "etiket": "yakın",
+   "p": 0.353,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 13,
+   "sonra_allah": 14,
+   "once_imza": [
+    "istivâ",
+    "hesap",
+    "çıkış",
+    "yaratma"
+   ],
+   "sonra_imza": [
+    "nûr",
+    "kara",
+    "deniz",
+    "küfür"
+   ]
+  },
+  {
+   "kavram": "دعو",
+   "gecis": 212,
+   "allah_medyan": 9,
+   "etiket": "yakın",
+   "p": 0.133,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 126,
+   "sonra_allah": 86,
+   "once_imza": [
+    "نصي",
+    "ثبر",
+    "عزل",
+    "sûre"
+   ],
+   "sonra_imza": [
+    "ثبر",
+    "icabet",
+    "خشع",
+    "دون"
+   ]
+  },
+  {
+   "kavram": "رسل",
+   "gecis": 513,
+   "allah_medyan": 9,
+   "etiket": "yakın",
+   "p": 0.067,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 215,
+   "sonra_allah": 298,
+   "once_imza": [
+    "karşı-gelme",
+    "mesele",
+    "Muhammed",
+    "savaş"
+   ],
+   "sonra_imza": [
+    "taş-kasırgası",
+    "bol-yağmur",
+    "güvenilir",
+    "rüzgâr"
+   ]
+  },
+  {
+   "kavram": "صلو",
+   "gecis": 99,
+   "allah_medyan": 10,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.437,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 51,
+   "sonra_allah": 48,
+   "once_imza": [
+    "منع",
+    "miskin",
+    "arınma",
+    "kavim"
+   ],
+   "sonra_imza": [
+    "zekât",
+    "سلح",
+    "دوم",
+    "karz-borç"
+   ]
+  },
+  {
+   "kavram": "كتب",
+   "gecis": 319,
+   "allah_medyan": 10,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.343,
+   "yon": "yakin",
+   "anlamli": false,
+   "once_allah": 155,
+   "sonra_allah": 164,
+   "once_imza": [
+    "borç",
+    "نقص",
+    "أهل",
+    "نيل"
+   ],
+   "sonra_imza": [
+    "yazma",
+    "درس",
+    "hikmet",
+    "Arapça"
+   ]
+  },
+  {
+   "kavram": "azap",
+   "gecis": 371,
+   "allah_medyan": 11,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.643,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 187,
+   "sonra_allah": 184,
+   "once_imza": [
+    "azap-sürme",
+    "ذوق",
+    "عتد",
+    "ندم"
+   ],
+   "sonra_imza": [
+    "ألم",
+    "aşağılama",
+    "حرق",
+    "bağlama"
+   ]
+  },
+  {
+   "kavram": "hayat",
+   "gecis": 167,
+   "allah_medyan": 11,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.58,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 75,
+   "sonra_allah": 92,
+   "once_imza": [
+    "موت",
+    "غرر",
+    "لهو",
+    "خزي"
+   ],
+   "sonra_imza": [
+    "dünya",
+    "موت",
+    "لهو",
+    "غرر"
+   ]
+  },
+  {
+   "kavram": "موت",
+   "gecis": 165,
+   "allah_medyan": 12,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.367,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 79,
+   "sonra_allah": 86,
+   "once_imza": [
+    "hayat",
+    "حضر",
+    "بلد",
+    "sevk"
+   ],
+   "sonra_imza": [
+    "خنزر",
+    "adak-kesim",
+    "diriltme",
+    "دمو"
+   ]
+  },
+  {
+   "kavram": "zekât",
+   "gecis": 32,
+   "allah_medyan": 12,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.487,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 18,
+   "sonra_allah": 14,
+   "once_imza": [
+    "صلو",
+    "verme",
+    "kavim",
+    "توب"
+   ],
+   "sonra_imza": [
+    "karz-borç",
+    "ركع",
+    "itaat",
+    "son"
+   ]
+  },
+  {
+   "kavram": "zulüm",
+   "gecis": 290,
+   "allah_medyan": 12,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.37,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 133,
+   "sonra_allah": 157,
+   "once_imza": [
+    "بلس",
+    "hitap",
+    "جهر",
+    "قري"
+   ],
+   "sonra_imza": [
+    "فتل",
+    "kral",
+    "iftira",
+    "çevrilme"
+   ]
+  },
+  {
+   "kavram": "kavim",
+   "gecis": 590,
+   "allah_medyan": 12,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.267,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 315,
+   "sonra_allah": 275,
+   "once_imza": [
+    "صرط",
+    "Hûd",
+    "خدع",
+    "tafsil"
+   ],
+   "sonra_imza": [
+    "zekât",
+    "مصر",
+    "بور",
+    "أسف"
+   ]
+  },
+  {
+   "kavram": "ateş",
+   "gecis": 145,
+   "allah_medyan": 13,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.197,
+   "yon": "uzak",
+   "anlamli": false,
+   "once_allah": 72,
+   "sonra_allah": 73,
+   "once_imza": [
+    "دعع",
+    "ünsiyet",
+    "وقد",
+    "شقو"
+   ],
+   "sonra_imza": [
+    "وقد",
+    "ثوي",
+    "خلد",
+    "çevre"
+   ]
+  },
+  {
+   "kavram": "yaratma",
+   "gecis": 252,
+   "allah_medyan": 14,
+   "etiket": "nötr (rastgele civarı)",
+   "p": 0.047,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 105,
+   "sonra_allah": 147,
+   "once_imza": [
+    "مضغ",
+    "meni",
+    "علق",
+    "بدأ"
+   ],
+   "sonra_imza": [
+    "مضغ",
+    "طين",
+    "صلصل",
+    "şekilli-balçık"
+   ]
+  },
+  {
+   "kavram": "rahmet",
+   "gecis": 327,
+   "allah_medyan": 15,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.01,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 144,
+   "sonra_allah": 183,
+   "once_imza": [
+    "قنط",
+    "رأف",
+    "غفر",
+    "توب"
+   ],
+   "sonra_imza": [
+    "eman-koruma",
+    "هبط",
+    "yetme",
+    "Arapça"
+   ]
+  },
+  {
+   "kavram": "âyet",
+   "gecis": 382,
+   "allah_medyan": 15,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.003,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 216,
+   "sonra_allah": 166,
+   "once_imza": [
+    "tafsil",
+    "نوق",
+    "تلو",
+    "جحد"
+   ],
+   "sonra_imza": [
+    "فكر",
+    "جحد",
+    "bedel",
+    "Arapça"
+   ]
+  },
+  {
+   "kavram": "karşılık",
+   "gecis": 117,
+   "allah_medyan": 16,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.03,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 66,
+   "sonra_allah": 51,
+   "once_imza": [
+    "سرق",
+    "سعي",
+    "خلد",
+    "selâm"
+   ],
+   "sonra_imza": [
+    "kap",
+    "كسب",
+    "حسن",
+    "سعي"
+   ]
+  },
+  {
+   "kavram": "cennet",
+   "gecis": 160,
+   "allah_medyan": 16,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.007,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 82,
+   "sonra_allah": 78,
+   "once_imza": [
+    "dolma",
+    "دخل",
+    "kefâret",
+    "imdad"
+   ],
+   "sonra_imza": [
+    "تحت",
+    "nehir",
+    "عنب",
+    "genişlik"
+   ]
+  },
+  {
+   "kavram": "Rab",
+   "gecis": 975,
+   "allah_medyan": 23,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.0,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 456,
+   "sonra_allah": 519,
+   "once_imza": [
+    "âlâ-nimet",
+    "mühlet",
+    "دكك",
+    "برهن"
+   ],
+   "sonra_imza": [
+    "جلل",
+    "أفل",
+    "فرغ",
+    "âlem"
+   ]
+  },
+  {
+   "kavram": "tekzib",
+   "gecis": 242,
+   "allah_medyan": 23,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.0,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 110,
+   "sonra_allah": 132,
+   "once_imza": [
+    "âlâ-nimet",
+    "köşk",
+    "iftira",
+    "intikam"
+   ],
+   "sonra_imza": [
+    "âlâ-nimet",
+    "yola-koyulma",
+    "ins",
+    "meyve"
+   ]
+  },
+  {
+   "kavram": "beşer",
+   "gecis": 37,
+   "allah_medyan": 29,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.003,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 18,
+   "sonra_allah": 19,
+   "once_imza": [
+    "شرب",
+    "büyü",
+    "yaratma",
+    "قول"
+   ],
+   "sonra_imza": [
+    "misil",
+    "وحي",
+    "ilâh",
+    "yaratma"
+   ]
+  },
+  {
+   "kavram": "tuğyan",
+   "gecis": 31,
+   "allah_medyan": 42,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.0,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 15,
+   "sonra_allah": 16,
+   "once_imza": [
+    "وذر",
+    "gitmek",
+    "kavim",
+    "olmak"
+   ],
+   "sonra_imza": [
+    "عمه",
+    "küfür",
+    "قول",
+    "Rab"
+   ]
+  },
+  {
+   "kavram": "insan",
+   "gecis": 71,
+   "allah_medyan": 43,
+   "etiket": "UZAK (çeperde)",
+   "p": 0.0,
+   "yon": "uzak",
+   "anlamli": true,
+   "once_allah": 31,
+   "sonra_allah": 40,
+   "once_imza": [
+    "بلد",
+    "yük-günah",
+    "وصي",
+    "yaratma"
+   ],
+   "sonra_imza": [
+    "نطف",
+    "yan-taraf",
+    "şer",
+    "سعي"
+   ]
+  }
+ ],
+ "allah_komsuluk_imzasi": {
+  "oncesi": [
+   [
+    1.92,
+    "كفي",
+    25
+   ],
+   [
+    1.57,
+    "سبل",
+    109
+   ],
+   [
+    1.55,
+    "دون",
+    88
+   ],
+   [
+    1.54,
+    "izin",
+    45
+   ],
+   [
+    1.44,
+    "takvâ",
+    136
+   ],
+   [
+    1.4,
+    "alıkoyma",
+    27
+   ],
+   [
+    1.36,
+    "مكر",
+    23
+   ],
+   [
+    1.36,
+    "ind",
+    106
+   ],
+   [
+    1.33,
+    "iftira",
+    31
+   ],
+   [
+    1.32,
+    "فضل",
+    54
+   ]
+  ],
+  "sonrasi": [
+   [
+    1.97,
+    "ceza",
+    21
+   ],
+   [
+    1.9,
+    "خبر",
+    39
+   ],
+   [
+    1.82,
+    "وسع",
+    23
+   ],
+   [
+    1.74,
+    "وكل",
+    48
+   ],
+   [
+    1.64,
+    "nifak",
+    24
+   ],
+   [
+    1.59,
+    "sevgi",
+    52
+   ],
+   [
+    1.51,
+    "izzet",
+    71
+   ],
+   [
+    1.48,
+    "hüküm",
+    109
+   ],
+   [
+    1.43,
+    "غفر",
+    132
+   ],
+   [
+    1.25,
+    "kudret",
+    31
+   ]
+  ]
+ },
+ "okuma": "cetvel Allah-medyan mesafesine göre sıralı: üst = yapışık, alt = çeper. * = permütasyonla anlamlı sapma."
+}

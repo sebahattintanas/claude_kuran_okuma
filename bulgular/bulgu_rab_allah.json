@@ -1,0 +1,83 @@
+{
+ "baslik": "Rab–Allah asimetrisi: kavramların tarafı",
+ "olcum": {
+  "rab_mutlak_gecis": "0/980 — Rab hiç belirlilik takısı almaz, hep zamirli veya izâfetli",
+  "zamirli_oran": 0.91,
+  "uzunluk_kontrollu": "50-120 mora bandı, Rab 341 / Allah 976 ayet",
+  "allah_tarafi": {
+   "helâl": [
+    0.0,
+    1.2
+   ],
+   "harâm": [
+    0.3,
+    1.2
+   ],
+   "şahitlik": [
+    1.5,
+    3.8
+   ],
+   "kudret/kader": [
+    1.8,
+    3.7
+   ],
+   "ilim": [
+    10.3,
+    21.0
+   ],
+   "ölüm": [
+    1.5,
+    3.1
+   ],
+   "yardım": [
+    1.8,
+    3.8
+   ],
+   "şirk": [
+    2.3,
+    4.0
+   ],
+   "hüküm": [
+    3.8,
+    6.4
+   ],
+   "görme": [
+    2.1,
+    3.7
+   ],
+   "karşılık": [
+    1.2,
+    2.2
+   ]
+  },
+  "rab_tarafi": {
+   "rahmet": [
+    14.7,
+    6.4
+   ],
+   "cennet": [
+    4.1,
+    2.0
+   ],
+   "hidâyet": [
+    8.8,
+    6.4
+   ],
+   "mağfiret": [
+    8.8,
+    6.7
+   ],
+   "dua": [
+    5.9,
+    4.1
+   ],
+   "sabır": [
+    3.2,
+    2.4
+   ]
+  },
+  "tesri_testi": "helâl 43 ayet → sadece-Rab 1 (teşrî değil); harâm 71 → sadece-Rab 2 (mekân kutsiyeti)"
+ },
+ "okuma_inşa": "Rab, yaratılanın Allah ile bağ kurduğu ilişkisel noktadır — hep birinin Rabbi, hiç mutlak değil, ve iyelik yaratılanın tarafında. Bu bağ iki kipte de işler: rahmet/iman kipinde (%25) ve küfür/zulüm kipinde (%19) — bağ sabit, yönelim değişir. Buna karşılık teşrî (helâl/harâm), hüküm, mutlak şahitlik, kudret, can verip alma ve ilim Allah tarafındadır; bu fiiller Rab ismiyle kurulmaz. Rahmet, cennet, hidâyet, mağfiret, dua ise Rab tarafında yoğunlaşır. Yani metin, terbiye/rahmet/yönelim eksenini Rab ile, hüküm/mutlaklık eksenini Allah ile yazıyor.",
+ "sinir_musteşabih": "\"Allah'ın Rab'be ihtiyacı yok\" ya da \"Rab'ın oraya sözü geçmez\" ölçülemez — ölçülen yalnızca hangi kavramın hangi isimle birlikte yazıldığıdır. Nedensellik ve ilâhî zorunluluk iddiaları bu veriden çıkmaz."
+}

@@ -1,0 +1,213 @@
+{
+ "baslik": "Yaratılış sahnesi: 7 anlatımın sabitleri ve değişmez sırası",
+ "anlatimlar": {
+  "B2": "2:30-39",
+  "B7": "7:11-27",
+  "B15": "15:26-44",
+  "B17": "17:61-65",
+  "B18": "18:50-51",
+  "B20": "20:115-124",
+  "B38": "38:71-85"
+ },
+ "oge_matrisi": {
+  "B2": {
+   "melek": 3,
+   "tayin(ceal/halife)": 1,
+   "ÂDEM": 5,
+   "esmâ(isim)": 4,
+   "secde": 2,
+   "İBLİS": 1,
+   "ibâ/kibir(red)": 2,
+   "eş(zevc)": 1,
+   "cennet": 1,
+   "ağaç": 1,
+   "iniş(hübût)": 2,
+   "düşman(adüvv)": 1,
+   "tövbe/telakki": 3,
+   "ateş": 1
+  },
+  "B7": {
+   "yaratma(halk)": 3,
+   "melek": 2,
+   "secde": 4,
+   "ÂDEM": 4,
+   "İBLİS": 1,
+   "ateş": 1,
+   "madde(çamur-toprak)": 1,
+   "iniş(hübût)": 2,
+   "ibâ/kibir(red)": 1,
+   "mühlet(inzâr)": 1,
+   "azdırma(iğvâ)": 1,
+   "eş(zevc)": 1,
+   "cennet": 3,
+   "ağaç": 4,
+   "vesvese": 1,
+   "çıplaklık(sev.ât)": 4,
+   "düşman(adüvv)": 2
+  },
+  "B15": {
+   "yaratma(halk)": 4,
+   "madde(çamur-toprak)": 6,
+   "cin": 1,
+   "ateş": 1,
+   "melek": 2,
+   "beşer": 2,
+   "ruh-üfleme": 2,
+   "secde": 5,
+   "İBLİS": 2,
+   "ibâ/kibir(red)": 1,
+   "mühlet(inzâr)": 1,
+   "azdırma(iğvâ)": 3
+  },
+  "B17": {
+   "melek": 1,
+   "secde": 3,
+   "ÂDEM": 1,
+   "İBLİS": 1,
+   "yaratma(halk)": 1,
+   "madde(çamur-toprak)": 1
+  },
+  "B18": {
+   "melek": 1,
+   "secde": 2,
+   "ÂDEM": 1,
+   "İBLİS": 1,
+   "cin": 1,
+   "düşman(adüvv)": 1,
+   "yaratma(halk)": 2
+  },
+  "B20": {
+   "ÂDEM": 5,
+   "melek": 1,
+   "secde": 2,
+   "İBLİS": 1,
+   "ibâ/kibir(red)": 1,
+   "düşman(adüvv)": 2,
+   "eş(zevc)": 1,
+   "cennet": 2,
+   "vesvese": 1,
+   "ağaç": 1,
+   "çıplaklık(sev.ât)": 1,
+   "azdırma(iğvâ)": 1,
+   "tövbe/telakki": 1,
+   "iniş(hübût)": 1
+  },
+  "B38": {
+   "melek": 2,
+   "yaratma(halk)": 4,
+   "beşer": 1,
+   "madde(çamur-toprak)": 2,
+   "ruh-üfleme": 2,
+   "secde": 3,
+   "İBLİS": 2,
+   "ibâ/kibir(red)": 2,
+   "ateş": 1,
+   "mühlet(inzâr)": 1,
+   "azdırma(iğvâ)": 1
+  }
+ },
+ "sabitler": {
+  "cekirdek_ucgen_7de7": [
+   "melek",
+   "secde",
+   "İblis"
+  ],
+  "insan_sabiti": "ÂDEM(5/7) ∪ beşer(2/7) = 7/7 — insan tarafı sabit, ADI değişken: B15/B38 Âdem demez, beşer der",
+  "red_sabiti": "red olayı 7/7 ama İFADESİ değişken: ibâ+kibir(B2,B7,B20,B38) ∪ soru-red \"çamura mı secde edeyim?\"(B17) ∪ fısk(B18)"
+ },
+ "degismez_sira": {
+  "iliskiler": [
+   [
+    "ÂDEM",
+    "İBLİS",
+    5
+   ],
+   [
+    "ÂDEM",
+    "düşman(adüvv)",
+    4
+   ],
+   [
+    "yaratma(halk)",
+    "madde(çamur-toprak)",
+    4
+   ],
+   [
+    "melek",
+    "secde",
+    7
+   ],
+   [
+    "melek",
+    "İBLİS",
+    7
+   ],
+   [
+    "melek",
+    "ibâ/kibir(red)",
+    5
+   ],
+   [
+    "melek",
+    "azdırma(iğvâ)",
+    4
+   ],
+   [
+    "melek",
+    "düşman(adüvv)",
+    4
+   ],
+   [
+    "secde",
+    "İBLİS",
+    7
+   ],
+   [
+    "secde",
+    "ibâ/kibir(red)",
+    5
+   ],
+   [
+    "secde",
+    "azdırma(iğvâ)",
+    4
+   ],
+   [
+    "secde",
+    "düşman(adüvv)",
+    4
+   ],
+   [
+    "İBLİS",
+    "ibâ/kibir(red)",
+    5
+   ],
+   [
+    "İBLİS",
+    "azdırma(iğvâ)",
+    4
+   ],
+   [
+    "İBLİS",
+    "düşman(adüvv)",
+    4
+   ],
+   [
+    "ibâ/kibir(red)",
+    "azdırma(iğvâ)",
+    4
+   ]
+  ],
+  "omurga": "melek → secde-emri → İblis → red → {azdırma-yemini, düşmanlık} (16 ikili ilişkinin tamamı %100 tutarlı; tek istisnasız kural: İblis DAİMA emirden sonra anılır — \"illâ iblîs\" hep istisna konumunda)",
+  "yaratilis_alt_sirasi": "yaratma(halk) → madde(çamur) — 4 blokta değişmez"
+ },
+ "iki_aile": {
+  "gok_meclisi_B15_B38": "beşer + salsâl/tîn + RUH-ÜFLEME + mühlet + iğvâ-yemini; kamera Allah-İblis diyaloğunda; B38 sahneye adını da veriyor: el-meleü'l-a'lâ (38:69)",
+  "yeryuzu_seruveni_B2_B7_B20": "Âdem + eş + CENNET + ağaç + vesvese + çıplaklık + hübût + tövbe; kamera insanın serüveninde",
+  "kisa_atif_B17_B18": "yalnız çekirdek üçgen + red; B17 madde-kıyasını soruya, B18 red-gerekçesini cin-fıskına bağlar",
+  "ayrik_ozellikler": "esmâ-öğretimi YALNIZ B2 (halife-tayiniyle birlikte); ruh-üfleme YALNIZ gök-meclisi; cennet-düşüş YALNIZ yeryüzü-serüveni — kollar tamamlayıcı-dağılımlı"
+ },
+ "formul": "SAHNE_i = ÇEKİRDEK + KOL(aile_i)\nÇEKİRDEK  := Emir(secde; muhatap=melekler) ∧ İstisna(İblis) ∧ Red(İblis)\nsıra      := melek < secde < İblis < red < {iğvâ, adüvv}   [değişmez]\nİNSAN     := Âdem | beşer   [sabit rol, değişken ad]\nRED       := (ibâ ∘ kibir) | soru-kıyas | fısk   [sabit olay, değişken ifade]\nKOL(gök)  := halk → madde → tesviye → ruh → [ÇEKİRDEK] → mühlet → iğvâ-yemini\nKOL(yer)  := [ÇEKİRDEK] → cennet(+eş) → ağaç-yasağı → vesvese → çıplaklık → hübût → tövbe\nKOL(atıf) := [ÇEKİRDEK] (+tek gerekçe)",
+ "yan_urun": "analiz ملك kökündeki eski yapışmayı yakaladı: مَلَك(melek)→'mülk' etiketlenmişti; melek/kral/mâlik/mülk/sahip-olma/köle olarak onarıldı (88 melek geçişi kurtuldu)",
+ "sinir": "blok sınırları secde-Âdem çapasından; öge dedektörleri kavram-katmanlı; 17-18 kısa blokları sıra-testlerine ≥4-blok eşiğiyle girdi"
+}
