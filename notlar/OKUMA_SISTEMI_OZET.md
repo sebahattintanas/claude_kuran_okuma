@@ -138,3 +138,32 @@ yapısal-okuma öbür yanda.
 **Not (veri kalıcılığı dersi):** katalog bir kez 174→88 çöktü çünkü elle-eklenenler
 JSON'daydı ama üretici betikte değildi. Kurtarıldı; artık her şey `varlik_katalog.py`
 + ekleme-betiklerinde kalıcı. Kural: veri koda yazılmazsa kalıcı olmaz.
+
+---
+
+## Depo ve oturum rutini (Ağustos 2026)
+
+**GitHub deposu:** `https://github.com/sebahattintanas/claude_kuran_okuma` (public)
+Yapı: `veri/` `tablolar/` `betikler/` `bulgular/` `ciktilar/` `notlar/`
+Proje alanı küçültüldü (19 MB → ~3.5 MB); büyük/türetilebilir dosyalar sadece depoda.
+
+**Oturum başlangıcı (Claude):**
+```bash
+mkdir -p /home/claude/work && cd /home/claude/work
+# 1) Depoyu çek (tablolar+betikler+bulgular güncel hali)
+git clone --depth 1 https://github.com/sebahattintanas/claude_kuran_okuma.git depo
+cp depo/tablolar/*.json depo/betikler/*.py .
+# 2) Ham korpus (projede/depoda tutulması şart değil, kaynağından iner)
+curl -sL -o morph.txt https://raw.githubusercontent.com/mustafa0x/quran-morphology/master/quran-morphology.txt
+# Doğrulama: wc -l morph.txt → 130030 olmalı
+```
+Proje alanındaki kopyalar ile depo çelişirse: **en yeni değişiklik hangisindeyse o geçerli**;
+oturum sonunda güncellenen dosya hem çıktı olarak verilir hem kullanıcı depoya yükler.
+
+**Kalıcılık zinciri:** çalışma dizini → /mnt/user-data/outputs (kullanıcıya) →
+kullanıcı depoya yükler → sonraki oturum depodan çeker. Proje alanı yalnız
+küçük/elle-üretilmiş dosyaları taşır.
+
+**Kayıp dosya kaydı:** `kok_adlar.json`, `bulgu_karsi_kutup_mesafe.json`,
+`bulgu_denge_mizan.json` — ne projede ne depoda; metinde anılıyorlar.
+Yeniden üretilmeleri YAPILACAKLAR'da.

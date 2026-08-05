@@ -1,5 +1,11 @@
 # YAPILACAKLAR — programcı gözüyle (öncelik sıralı)
 
+## ALTYAPI — OTURUM RUTİNİ (Ağustos 2026'da kuruldu)
+- [x] GitHub deposu açıldı: `github.com/sebahattintanas/claude_kuran_okuma` (public) — 55 dosya, kategorik yapı, bütünlük doğrulandı (NFC ✓, morph 130030 satır ✓)
+- [x] Proje alanı küçültüldü (19→3.5 MB); morph.txt + kuran_veri.json artık oturum başında kaynağından/depodan indirilir (rutin: OKUMA_SISTEMI_OZET.md sonunda)
+- [ ] **Kayıp dosyaları yeniden üret:** `kok_adlar.json` (~10 kök kurtarıldı, tamamı eksik), `bulgu_karsi_kutup_mesafe.json`, `bulgu_denge_mizan.json` — metinde anılıyor ama hiçbir kopyada yok
+- [ ] Oturum sonu kuralı: güncellenen her dosya çıktı olarak verilir → kullanıcı depoya yükler (aynı adla yükleme = üstüne yazma + sürüm geçmişi)
+
 ## P0 — VERİ BÜTÜNLÜĞÜ (önce bunlar, gerisi buna bağlı)
 - [ ] **بشر (beşer/müjde) ayrımını kok_anlam_tablosu'na işle** — beşer(insan-tür) vs büşrâ/beşîr/mübeşşir(müjde). Şu an SADECE analizde ayırdık, tabloda YOK. (ظلم, كذب işlendi; بشر eksik.)
 - [ ] **insân/nâs ayrımını sisteme sabitle** — lemma إِنسان(birey) vs ناس(topluluk); dikey okumada kritik çıktı, kalıcı olmalı
