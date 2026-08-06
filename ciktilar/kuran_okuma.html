@@ -347,5 +347,93 @@ const MERCEKLER={"matematikçi": {"ad": "Matematikçi", "uyari": "Bu bir meal ya
   window._mercekGuncelle=guncelle;
 })();
 </script>
+<!-- ARAYUZ-YAMA v1 BAS -->
+<style>
+.rozet{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:600;
+  padding:1px 7px;border-radius:10px;margin-left:6px;white-space:nowrap;cursor:default}
+.rozet.yakin{background:#e1f0eb;color:#0f6e56}
+.rozet.uzak{background:#fdeee0;color:#b05c1a}
+.rozet.nominal{opacity:.65}
+.rozet.notr{background:#f0ede6;color:#8a8172}
+</style>
+<script>
+/* ---- 1) AUDIO: everyayah CDN ---- */
+(function(){
+  var KARI='Alafasy_128kbps';
+  var pb=document.getElementById('playBtn'); if(!pb) return;
+  var audio=null;
+  function sifirla(){ pb.classList.remove('playing'); pb.textContent='\u25b6 Oku'; }
+  function dur(){ if(audio){audio.pause(); audio=null;} sifirla(); }
+  function pad3(n){ return String(n).padStart(3,'0'); }
+  pb.onclick=function(){
+    if(audio){ dur(); return; }
+    var url='https://everyayah.com/data/'+KARI+'/'+pad3(cur.s)+pad3(cur.a)+'.mp3';
+    audio=new Audio(url);
+    pb.classList.add('playing'); pb.textContent='\u23f8 Duraklat';
+    audio.onended=dur;
+    audio.onerror=function(){ dur(); pb.textContent='\u26a0 ses yok'; setTimeout(sifirla,1600); };
+    audio.play().catch(function(){ dur(); });
+  };
+  /* ayet değişince sesi durdur */
+  if(typeof window.render==='function'){
+    var _r=window.render;
+    window.render=function(){ dur(); _r.apply(this,arguments); };
+  }
+})();
+
+/* ---- 2) ALLAH-EKSENİ ROZETİ (bulgu_gradyan_cetveli.json) ---- */
+var GRADYAN={"hudûd": {"medyan": 1, "p": 0.0, "yon": "yakin", "anlamli": true, "bonferroni": true, "gecis": 25}, "mağfiret": {"medyan": 6, "p": 0.0015, "yon": "yakin", "anlamli": true, "bonferroni": false, "gecis": 234}, "tövbe": {"medyan": 6, "p": 0.1425, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 87}, "takvâ": {"medyan": 6, "p": 0.0005, "yon": "yakin", "anlamli": true, "bonferroni": true, "gecis": 258}, "nûr": {"medyan": 6, "p": 0.159, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 49}, "ilim": {"medyan": 6, "p": 0.0, "yon": "yakin", "anlamli": true, "bonferroni": true, "gecis": 778}, "şirk": {"medyan": 7, "p": 0.045, "yon": "yakin", "anlamli": true, "bonferroni": false, "gecis": 168}, "hidâyet": {"medyan": 7, "p": 0.0, "yon": "yakin", "anlamli": true, "bonferroni": true, "gecis": 307}, "kalp": {"medyan": 7, "p": 0.1055, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 132}, "iman": {"medyan": 8, "p": 0.1065, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 879}, "adl": {"medyan": 8, "p": 0.3355, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 28}, "nâs": {"medyan": 8, "p": 0.219, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 241}, "küfr": {"medyan": 9, "p": 0.7235, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 525}, "dua": {"medyan": 9, "p": 0.0215, "yon": "yakin", "anlamli": true, "bonferroni": false, "gecis": 212}, "dalâlet": {"medyan": 9, "p": 0.0715, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 191}, "zulmet": {"medyan": 9, "p": 0.385, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 27}, "namaz": {"medyan": 10, "p": 0.395, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 99}, "sabr": {"medyan": 10, "p": 0.2115, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 103}, "müjde": {"medyan": 10, "p": 0.424, "yon": "yakin", "anlamli": false, "bonferroni": false, "gecis": 84}, "azap": {"medyan": 11, "p": 0.6725, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 373}, "dünya": {"medyan": 11, "p": 0.1805, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 115}, "zekât": {"medyan": 12, "p": 0.4115, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 59}, "şükr": {"medyan": 12, "p": 0.494, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 75}, "ölüm": {"medyan": 12, "p": 0.104, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 165}, "zulüm": {"medyan": 12, "p": 0.3185, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 290}, "melek": {"medyan": 12, "p": 0.327, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 88}, "rahmet": {"medyan": 13, "p": 0.543, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 339}, "şeytan": {"medyan": 13, "p": 0.2745, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 88}, "ateş": {"medyan": 13, "p": 0.127, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 145}, "kizb": {"medyan": 14, "p": 0.425, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 40}, "yaratma": {"medyan": 15, "p": 0.0615, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 261}, "âyet": {"medyan": 15, "p": 0.0105, "yon": "uzak", "anlamli": true, "bonferroni": false, "gecis": 382}, "zikir": {"medyan": 16, "p": 0.3105, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 274}, "cennet": {"medyan": 16, "p": 0.0265, "yon": "uzak", "anlamli": true, "bonferroni": false, "gecis": 160}, "Rab": {"medyan": 23, "p": 0.0, "yon": "uzak", "anlamli": true, "bonferroni": true, "gecis": 980}, "tekzib": {"medyan": 23, "p": 0.001, "yon": "uzak", "anlamli": true, "bonferroni": true, "gecis": 242}, "tuğyân": {"medyan": 26, "p": 0.03, "yon": "uzak", "anlamli": true, "bonferroni": false, "gecis": 39}, "cin": {"medyan": 29, "p": 0.1405, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 30}, "beşer": {"medyan": 29, "p": 0.0655, "yon": "uzak", "anlamli": false, "bonferroni": false, "gecis": 37}, "insân": {"medyan": 43, "p": 0.001, "yon": "uzak", "anlamli": true, "bonferroni": true, "gecis": 71}};
+(function(){
+  var KOPRU={'merhamet':'rahmet','sab\u0131r':'sabr','\u015f\u00fck\u00fcr':'\u015f\u00fckr',
+    'tevbe':'t\u00f6vbe','adalet':'adl','k\u00fcf\u00fcr':'k\u00fcfr'};
+  function bul(ad){
+    if(GRADYAN[ad]) return GRADYAN[ad];
+    var parcalar=String(ad).split('/');
+    for(var i=0;i<parcalar.length;i++){
+      var p=parcalar[i].trim();
+      if(GRADYAN[p]) return GRADYAN[p];
+      if(KOPRU[p] && GRADYAN[KOPRU[p]]) return GRADYAN[KOPRU[p]];
+    }
+    return null;
+  }
+  function rozetHTML(g){
+    var sinif = !g.anlamli ? 'notr' : (g.yon==='yakin'?'yakin':'uzak') + (g.bonferroni?'':' nominal');
+    var ok = g.yon==='yakin' ? '\u2192A' : 'A\u2192';
+    var etiket = !g.anlamli ? 'n\u00f6tr' : ok+' '+g.medyan;
+    var baslik = 'Allah-ekseni: medyan '+g.medyan+' kelime \u00b7 p='+g.p+
+      ' \u00b7 n='+g.gecis+(g.bonferroni?' \u00b7 Bonferroni-sa\u011flam':(g.anlamli?' \u00b7 nominal p<0.05':' \u00b7 anlams\u0131z'));
+    return '<span class="rozet '+sinif+'" title="'+baslik+'">'+etiket+'</span>';
+  }
+  function satirlaraEkle(){
+    document.querySelectorAll('#varliklar .varlik').forEach(function(row){
+      if(row.querySelector('.rozet')) return;
+      var adEl=row.querySelector('.v-ad'); if(!adEl) return;
+      var g=bul(adEl.textContent.trim()); if(!g) return;
+      adEl.insertAdjacentHTML('beforeend', rozetHTML(g));
+    });
+  }
+  if(typeof window.render==='function'){
+    var _r2=window.render;
+    window.render=function(){ _r2.apply(this,arguments); satirlaraEkle(); };
+  }
+  /* modal: tanım-kartına hücre olarak ekle */
+  if(typeof window.openCard==='function'){
+    var _oc=window.openCard;
+    window.openCard=function(){
+      _oc.apply(this,arguments);
+      var adEl=document.getElementById('mAd'); var grid=document.getElementById('mGrid');
+      if(!adEl||!grid) return;
+      if(grid.querySelector('.rozet-mcell')) return;
+      var g=bul(adEl.textContent.trim()); if(!g) return;
+      var deger = (g.anlamli? (g.yon==='yakin'?'yak\u0131n':'uzak') : 'n\u00f6tr')+
+        ' \u00b7 medyan '+g.medyan+' kelime \u00b7 p='+g.p+(g.bonferroni?' \u2713B':'');
+      grid.insertAdjacentHTML('beforeend',
+        '<div class="mcell rozet-mcell"><div class="mk">Allah-ekseni</div><div class="mv">'+deger+'</div></div>');
+    };
+  }
+  satirlaraEkle();
+})();
+</script>
+<!-- ARAYUZ-YAMA v1 SON -->
 </body>
 </html>
