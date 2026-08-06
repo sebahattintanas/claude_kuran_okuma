@@ -1,0 +1,82 @@
+{
+ "baslik": "Gafr sınır vakası çözümü — kök dört sese ayrılınca sinyal tek yerde: esmâ-kapanış formülü",
+ "tarih": "2026-08-06",
+ "protokol_onceden": "غفر kökü 4 alt-grup: esmâ(ğafûr+ğaffâr+ğâfir n=98), fiil-I(ğafara n=65), istiğfar(Form-X n=42), isim(mağfiret+ğufrân n=29); toplam 234/234 kapsam. Her grup anlamlilik_konum_esli (5000 perm), Bonferroni 0.05/4=0.0125; kapıyı geçende d≤2 hâl imzası. ÖNGÖRÜLER (bulgu_fail_ipligi, önceden yazılı): istiğfar→yakın+bağlı; fiil-I→yakın+NOM; esmâ→NOM; isim→belirsiz.",
+ "sonuclar": {
+  "esma": {
+   "n": 98,
+   "medyan": 1,
+   "null_medyan": 9,
+   "yon": "yakin",
+   "p": 0.0,
+   "hakiki": true,
+   "d2": 63,
+   "hal": {
+    "ACC": 35,
+    "GEN": 2,
+    "NOM": 26
+   },
+   "nom_pay": 0.413,
+   "p_nom": 0.43294,
+   "iplik": "KARIŞIK"
+  },
+  "fiil_I": {
+   "n": 65,
+   "medyan": 8,
+   "null_medyan": 9,
+   "yon": "yakin",
+   "p": 0.3094,
+   "hakiki": false
+  },
+  "istigfar": {
+   "n": 42,
+   "medyan": 6,
+   "null_medyan": 10,
+   "yon": "yakin",
+   "p": 0.0622,
+   "hakiki": false
+  },
+  "isim": {
+   "n": 29,
+   "medyan": 9,
+   "null_medyan": 9,
+   "yon": "uzak",
+   "p": 0.5504,
+   "hakiki": false
+  }
+ },
+ "ongoru_karnesi": {
+  "esma": "yakınlık TUTTU (medyan 1, p=0.0 — kökün en yapışık grubu); NOM öngörüsü ŞEKLEN düştü (imza ACC-ağır) ama bkz. inne_bulgusu",
+  "fiil_I": "DÜŞTÜ (p=0.31) — neden betimlemede: iki kipin karışımı sinyali boğuyor",
+  "istigfar": "DÜŞTÜ (p=0.062, eşik 0.0125) — n=42 küçük, yön yakın ama kanıt yok",
+  "isim": "nötr (belirsizlik doğrulandı)"
+ },
+ "inne_bulgusu": "Esmânın d≤2 Allah-ACC tokenlerinin 32/35'i inne-kalıbından: önceki yüzey إِنَّ 21 / فَ(إنَّ) 9 / أَنَّ 2. Yani \"inna-llâhe ğafûrun rahîm\" — Allah semantik ÖZNE, ACC yalnız inne'nin hâl yönetimi. METODOLOJİK SONUÇ: hâl-imza protokolündeki NOM-payı \"Allah özne\" için eksik vekil; inne-cümleleri özneyi ACC gösterir. Rafine imza önerisi (POST-HOC, ön-kayıt adayı): özne-imzası = NOM + inne-ACC. Bu düzeltmeyle esmâ grubu fail-tarafına yaklaşır ama bunu ancak yeni ön-kayıtlı koşu söyleyebilir.",
+ "fiil_I_kip_betimlemesi": {
+  "dua_emir": {
+   "n": 24,
+   "medyan": 41,
+   "d2": 1,
+   "iplik": "d2<5"
+  },
+  "bildirme": {
+   "n": 41,
+   "medyan": 3,
+   "d2": 17,
+   "hal": {
+    "NOM": 14,
+    "ACC": 3
+   },
+   "nom_pay": 0.824,
+   "p_nom": 0.00014,
+   "iplik": "FAİL"
+  },
+  "okuma": "BETİMLEME (test değil): bildirme kipi (yağfiru/neğfir, n=41) medyan 3, NOM 0.82 (p_nom=0.00014) — saf fail dokusu. Dua/emir kipi (iğfir-lenâ, n=24) medyan 41, d2 teması 1 — isim-sessiz bölgede. Fâtiha bulgusuyla (dua bölümü isim-sessiz, 1:5 iyyâke) ve tövbe karşılıklılığıyla aynı desen: insan Allah'A konuşurken isim çekilir, Allah'TAN bahsedilirken isim özne olur."
+ },
+ "gradyan_sinir_vakasi_cozumu": "v2 gradyandaki mağfiret ölçümü (n=234, p=0.00150 sınır) kökün TAMAMIydı. Ayrıştırma sinyalin kaynağını gösterdi: yakınlık esmâ-kapanış formülünde yaşıyor (medyan 1); mağfiret-ismi, istiğfar ve fiil karışımı tek başına nötr. Sınır vakası kapandı: \"mağfiret Allah'a yakın\" değil, \"ğafûr sıfatı ismin kapanış formülünde\" doğru okuma.",
+ "on_kayit_adaylari": [
+  "Kip-ayrımı testi: çift-sesli köklerde (غفر, توب, دعو...) dua/emir vs bildirme, konum-eşli + hâl",
+  "Özne-imzası (NOM+inne-ACC) ile iplik haritasının yeniden koşusu — KARIŞIK sınıfı çözülebilir"
+ ],
+ "girdi": "gafr_sonuc.json; allah_hal.json; morph.txt"
+}
