@@ -1,8 +1,28 @@
 {
- "baslik": "Allah-ekseni gradyan cetveli — 40 çekirdek kavram (genişletilmiş)",
- "tarih": "2026-08-05",
- "yontem": "dikey_oku.anlamlilik(): her kavramın Allah lafzına medyan kelime-mesafesi; 1000 permütasyonlu, örneklem-boyutu-eşli rastgele referans (medyan ~11 kelime). 40 eşzamanlı test için Bonferroni eşiği p≤0.00125.",
- "onkosul_duzeltme": "مَلَك lemması tabloda 'mülk' etiketliydi → 'melek' olarak düzeltildi (88 geçiş; 2:30 vb. melâike bağlamı doğrulandı); مَلِك → 'kral' (12:43 Mısır kralı, 2:247 Tâlût). ملك kökü yeni dağılım: melek 88 / mülk 98 / kral 20, kapsam tam.",
+ "baslik": "Allah-ekseni gradyan cetveli — v2, KONUM-EŞLİ NULL",
+ "tarih": "2026-08-06",
+ "surum": 2,
+ "yontem": "dikey_oku.anlamlilik_konum_esli(): null örneklemi hedefin 20-dilimlik konum profilini birebir taklit eder (Allah yoğunluğunun 1.46x metin-içi eğimi null'a işlenir; bkz. bulgu_konum_esli_null.json). 2000 permütasyon, seed=0. 40 eşzamanlı test, Bonferroni eşiği p<=0.00125.",
+ "v1_karsilastirma": {
+  "dusen_iddialar": {
+   "mağfiret": {
+    "v1_p": 0.0,
+    "v2_p": 0.0015,
+    "v2_durum": "nominal"
+   },
+   "iman": {
+    "v1_p": 0.001,
+    "v2_p": 0.1065,
+    "v2_durum": "anlamsız"
+   },
+   "zikir": {
+    "v1_p": 0.0,
+    "v2_p": 0.3105,
+    "v2_durum": "anlamsız"
+   }
+  },
+  "not": "v1 (2026-08-05, düz null) iç halkasından iman TAMAMEN düştü (p=0.107) ve tövbe nominal bile kalamadı (p=0.14); mağfiret 0.00150 ile eşiğin (0.00125) hemen üstünde SINIR VAKASI. Dış halkadan zikir düştü (p=0.31) — bulgu_konum_esli_null.json'un normalize-cetvel öngörüsüyle (zikir 1.0) birebir uyumlu. tuğyân 0.006→0.030 nominale indi. Konum-eşli bulgudaki sıralama-tutarlılığı (0.834) doğrulandı: uçlar ayakta, orta kuşak eridi."
+ },
  "bonferroni_saglam": {
   "yakin": {
    "hudûd": {
@@ -10,14 +30,9 @@
     "p": 0.0,
     "n": 25
    },
-   "mağfiret": {
-    "medyan": 6,
-    "p": 0.0,
-    "n": 234
-   },
    "takvâ": {
     "medyan": 6,
-    "p": 0.0,
+    "p": 0.0005,
     "n": 258
    },
    "ilim": {
@@ -29,19 +44,9 @@
     "medyan": 7,
     "p": 0.0,
     "n": 307
-   },
-   "iman": {
-    "medyan": 8,
-    "p": 0.001,
-    "n": 879
    }
   },
   "uzak": {
-   "zikir": {
-    "medyan": 16,
-    "p": 0.0,
-    "n": 274
-   },
    "Rab": {
     "medyan": 23,
     "p": 0.0,
@@ -49,50 +54,48 @@
    },
    "tekzib": {
     "medyan": 23,
-    "p": 0.0,
+    "p": 0.001,
     "n": 242
    },
    "insân": {
     "medyan": 43,
-    "p": 0.0,
+    "p": 0.001,
     "n": 71
    }
   }
  },
- "nominal_p05": [
-  "tövbe",
-  "nûr",
-  "şirk",
-  "kalp",
-  "nâs",
-  "yaratma",
-  "âyet",
-  "cennet",
-  "tuğyân",
-  "cin",
-  "beşer"
- ],
- "notr": [
-  "adl",
-  "küfr",
-  "dua",
-  "dalâlet",
-  "zulmet",
-  "namaz",
-  "sabr",
-  "müjde",
-  "azap",
-  "dünya",
-  "zekât",
-  "şükr",
-  "ölüm",
-  "zulüm",
-  "melek",
-  "rahmet",
-  "şeytan",
-  "ateş",
-  "kizb"
- ],
+ "nominal_p05": {
+  "mağfiret": {
+   "medyan": 6,
+   "p": 0.0015,
+   "yon": "yakin"
+  },
+  "şirk": {
+   "medyan": 7,
+   "p": 0.045,
+   "yon": "yakin"
+  },
+  "dua": {
+   "medyan": 9,
+   "p": 0.0215,
+   "yon": "yakin"
+  },
+  "âyet": {
+   "medyan": 15,
+   "p": 0.0105,
+   "yon": "uzak"
+  },
+  "cennet": {
+   "medyan": 16,
+   "p": 0.0265,
+   "yon": "uzak"
+  },
+  "tuğyân": {
+   "medyan": 26,
+   "p": 0.03,
+   "yon": "uzak"
+  }
+ },
  "tum_olcumler": [
   {
    "ad": "hudûd",
@@ -100,6 +103,7 @@
    "hedef": "حدد",
    "gecis": 25,
    "allah_medyan": 1,
+   "null_medyan": 7,
    "p": 0.0,
    "yon": "yakin",
    "anlamli": true,
@@ -111,10 +115,11 @@
    "hedef": "غفر",
    "gecis": 234,
    "allah_medyan": 6,
-   "p": 0.0,
+   "null_medyan": 9,
+   "p": 0.0015,
    "yon": "yakin",
    "anlamli": true,
-   "bonferroni": true
+   "bonferroni": false
   },
   {
    "ad": "tövbe",
@@ -122,9 +127,10 @@
    "hedef": "توب",
    "gecis": 87,
    "allah_medyan": 6,
-   "p": 0.009,
+   "null_medyan": 8,
+   "p": 0.1425,
    "yon": "yakin",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -133,7 +139,8 @@
    "hedef": "وقي",
    "gecis": 258,
    "allah_medyan": 6,
-   "p": 0.0,
+   "null_medyan": 10,
+   "p": 0.0005,
    "yon": "yakin",
    "anlamli": true,
    "bonferroni": true
@@ -144,9 +151,10 @@
    "hedef": "nûr",
    "gecis": 49,
    "allah_medyan": 6,
-   "p": 0.029,
+   "null_medyan": 8,
+   "p": 0.159,
    "yon": "yakin",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -155,6 +163,7 @@
    "hedef": "ilim",
    "gecis": 778,
    "allah_medyan": 6,
+   "null_medyan": 10,
    "p": 0.0,
    "yon": "yakin",
    "anlamli": true,
@@ -166,7 +175,8 @@
    "hedef": "شرك",
    "gecis": 168,
    "allah_medyan": 7,
-   "p": 0.005,
+   "null_medyan": 9,
+   "p": 0.045,
    "yon": "yakin",
    "anlamli": true,
    "bonferroni": false
@@ -177,6 +187,7 @@
    "hedef": "hidâyet",
    "gecis": 307,
    "allah_medyan": 7,
+   "null_medyan": 11,
    "p": 0.0,
    "yon": "yakin",
    "anlamli": true,
@@ -188,9 +199,10 @@
    "hedef": "kalp",
    "gecis": 132,
    "allah_medyan": 7,
-   "p": 0.015,
+   "null_medyan": 9,
+   "p": 0.1055,
    "yon": "yakin",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -199,10 +211,11 @@
    "hedef": "أمن",
    "gecis": 879,
    "allah_medyan": 8,
-   "p": 0.001,
+   "null_medyan": 9,
+   "p": 0.1065,
    "yon": "yakin",
-   "anlamli": true,
-   "bonferroni": true
+   "anlamli": false,
+   "bonferroni": false
   },
   {
    "ad": "adl",
@@ -210,7 +223,8 @@
    "hedef": "عدل",
    "gecis": 28,
    "allah_medyan": 8,
-   "p": 0.21,
+   "null_medyan": 10,
+   "p": 0.3355,
    "yon": "yakin",
    "anlamli": false,
    "bonferroni": false
@@ -221,9 +235,10 @@
    "hedef": "nas",
    "gecis": 241,
    "allah_medyan": 8,
-   "p": 0.02,
+   "null_medyan": 9,
+   "p": 0.219,
    "yon": "yakin",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -232,8 +247,9 @@
    "hedef": "كفر",
    "gecis": 525,
    "allah_medyan": 9,
-   "p": 0.058,
-   "yon": "yakin",
+   "null_medyan": 9,
+   "p": 0.7235,
+   "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
   },
@@ -243,9 +259,10 @@
    "hedef": "دعو",
    "gecis": 212,
    "allah_medyan": 9,
-   "p": 0.142,
+   "null_medyan": 12,
+   "p": 0.0215,
    "yon": "yakin",
-   "anlamli": false,
+   "anlamli": true,
    "bonferroni": false
   },
   {
@@ -254,7 +271,8 @@
    "hedef": "ضلل",
    "gecis": 191,
    "allah_medyan": 9,
-   "p": 0.161,
+   "null_medyan": 11,
+   "p": 0.0715,
    "yon": "yakin",
    "anlamli": false,
    "bonferroni": false
@@ -265,7 +283,8 @@
    "hedef": "karanlık",
    "gecis": 27,
    "allah_medyan": 9,
-   "p": 0.34,
+   "null_medyan": 10,
+   "p": 0.385,
    "yon": "yakin",
    "anlamli": false,
    "bonferroni": false
@@ -276,8 +295,9 @@
    "hedef": "صلو",
    "gecis": 99,
    "allah_medyan": 10,
-   "p": 0.424,
-   "yon": "yakin",
+   "null_medyan": 9,
+   "p": 0.395,
+   "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
   },
@@ -287,7 +307,8 @@
    "hedef": "صبر",
    "gecis": 103,
    "allah_medyan": 10,
-   "p": 0.429,
+   "null_medyan": 12,
+   "p": 0.2115,
    "yon": "yakin",
    "anlamli": false,
    "bonferroni": false
@@ -298,7 +319,8 @@
    "hedef": "müjde",
    "gecis": 84,
    "allah_medyan": 10,
-   "p": 0.387,
+   "null_medyan": 11,
+   "p": 0.424,
    "yon": "yakin",
    "anlamli": false,
    "bonferroni": false
@@ -309,7 +331,8 @@
    "hedef": "عذب",
    "gecis": 373,
    "allah_medyan": 11,
-   "p": 0.655,
+   "null_medyan": 11,
+   "p": 0.6725,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -320,7 +343,8 @@
    "hedef": "dünya",
    "gecis": 115,
    "allah_medyan": 11,
-   "p": 0.581,
+   "null_medyan": 9,
+   "p": 0.1805,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -331,7 +355,8 @@
    "hedef": "زكو",
    "gecis": 59,
    "allah_medyan": 12,
-   "p": 0.423,
+   "null_medyan": 11,
+   "p": 0.4115,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -342,7 +367,8 @@
    "hedef": "شكر",
    "gecis": 75,
    "allah_medyan": 12,
-   "p": 0.405,
+   "null_medyan": 11,
+   "p": 0.494,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -353,7 +379,8 @@
    "hedef": "موت",
    "gecis": 165,
    "allah_medyan": 12,
-   "p": 0.362,
+   "null_medyan": 10,
+   "p": 0.104,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -364,7 +391,8 @@
    "hedef": "zulüm",
    "gecis": 290,
    "allah_medyan": 12,
-   "p": 0.335,
+   "null_medyan": 11,
+   "p": 0.3185,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -375,7 +403,8 @@
    "hedef": "melek",
    "gecis": 88,
    "allah_medyan": 12,
-   "p": 0.463,
+   "null_medyan": 11,
+   "p": 0.327,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -386,7 +415,8 @@
    "hedef": "رحم",
    "gecis": 339,
    "allah_medyan": 13,
-   "p": 0.089,
+   "null_medyan": 13,
+   "p": 0.543,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -397,7 +427,8 @@
    "hedef": "شطن",
    "gecis": 88,
    "allah_medyan": 13,
-   "p": 0.301,
+   "null_medyan": 11,
+   "p": 0.2745,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -408,7 +439,8 @@
    "hedef": "ateş",
    "gecis": 145,
    "allah_medyan": 13,
-   "p": 0.199,
+   "null_medyan": 11,
+   "p": 0.127,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -419,7 +451,8 @@
    "hedef": "kizb",
    "gecis": 40,
    "allah_medyan": 14,
-   "p": 0.278,
+   "null_medyan": 13,
+   "p": 0.425,
    "yon": "uzak",
    "anlamli": false,
    "bonferroni": false
@@ -430,9 +463,10 @@
    "hedef": "خلق",
    "gecis": 261,
    "allah_medyan": 15,
-   "p": 0.01,
+   "null_medyan": 12,
+   "p": 0.0615,
    "yon": "uzak",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -441,7 +475,8 @@
    "hedef": "âyet",
    "gecis": 382,
    "allah_medyan": 15,
-   "p": 0.006,
+   "null_medyan": 12,
+   "p": 0.0105,
    "yon": "uzak",
    "anlamli": true,
    "bonferroni": false
@@ -452,10 +487,11 @@
    "hedef": "zikir",
    "gecis": 274,
    "allah_medyan": 16,
-   "p": 0.0,
+   "null_medyan": 15,
+   "p": 0.3105,
    "yon": "uzak",
-   "anlamli": true,
-   "bonferroni": true
+   "anlamli": false,
+   "bonferroni": false
   },
   {
    "ad": "cennet",
@@ -463,7 +499,8 @@
    "hedef": "cennet",
    "gecis": 160,
    "allah_medyan": 16,
-   "p": 0.012,
+   "null_medyan": 11,
+   "p": 0.0265,
    "yon": "uzak",
    "anlamli": true,
    "bonferroni": false
@@ -474,6 +511,7 @@
    "hedef": "ربب",
    "gecis": 980,
    "allah_medyan": 23,
+   "null_medyan": 15,
    "p": 0.0,
    "yon": "uzak",
    "anlamli": true,
@@ -485,7 +523,8 @@
    "hedef": "tekzib",
    "gecis": 242,
    "allah_medyan": 23,
-   "p": 0.0,
+   "null_medyan": 15,
+   "p": 0.001,
    "yon": "uzak",
    "anlamli": true,
    "bonferroni": true
@@ -496,7 +535,8 @@
    "hedef": "طغي",
    "gecis": 39,
    "allah_medyan": 26,
-   "p": 0.006,
+   "null_medyan": 13,
+   "p": 0.03,
    "yon": "uzak",
    "anlamli": true,
    "bonferroni": false
@@ -507,9 +547,10 @@
    "hedef": "cin",
    "gecis": 30,
    "allah_medyan": 29,
-   "p": 0.011,
+   "null_medyan": 18,
+   "p": 0.1405,
    "yon": "uzak",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -518,9 +559,10 @@
    "hedef": "beşer",
    "gecis": 37,
    "allah_medyan": 29,
-   "p": 0.002,
+   "null_medyan": 17,
+   "p": 0.0655,
    "yon": "uzak",
-   "anlamli": true,
+   "anlamli": false,
    "bonferroni": false
   },
   {
@@ -529,40 +571,13 @@
    "hedef": "insan",
    "gecis": 71,
    "allah_medyan": 43,
-   "p": 0.0,
+   "null_medyan": 21,
+   "p": 0.001,
    "yon": "uzak",
    "anlamli": true,
    "bonferroni": true
   }
  ],
- "okuma": "Sağlam iç halka: hudûd(1) → mağfiret/takvâ/ilim(6) → hidâyet(7) → iman(8). Sağlam dış halka: zikir(16) → Rab/tekzîb(23) → insân(43). Dış halka iki ayrı nedenle uzak: Rab izafet-örgüsünde yaşar (Allah'ın serbest dağılımının tersine), tekzîb vahiy-reddi karantinasında, insân tasvir-nesnesi olarak anlatı bölgelerinde. Namaz(10), zekât(12), rahmet(13), azap(11) nötr — rastgele banda düşüyor; yakınlık iddiası taşımazlar.",
- "dikkat": "Önceki 8-kavramlık cetvelde tövbe p=0.008 ile anlamlıydı; 40-testlik burda nominal kaldı (p=0.009>0.00125). Çoklu-test yükü büyüdükçe sınır vakalar düşer — bu bir çelişki değil, ölçüm disiplini.",
- "girdi_dosyalari": [
-  "morph.txt",
-  "kok_anlam_tablosu.json (melek düzeltmeli)",
-  "kok_anlam_istisna.json"
- ],
- "SONRADAN_EKLENEN_UYARI": {
-  "tarih": "2026-08-05 (aynı oturum, sonraki ölçüm)",
-  "uyari": "Bu cetvel DÜZ null ile hesaplandı. Allah yoğunluğu metin boyunca 1.46x eğimli olduğu için konum karıştırıcısı içeriyor (bkz. bulgu_konum_esli_null.json).",
-  "yerel_normalize_sonrasi_degisenler": {
-   "zikir": "ham 16 'uzak ★' → norm 1.00 NÖTR, etiket geri çekildi",
-   "nâs": "ham 8 'yakın' → norm 1.00 nötr",
-   "yaratma": "ham 15 → norm 1.09 nötr"
-  },
-  "ayakta_kalanlar": {
-   "en_ic": {
-    "hudûd": 0.2,
-    "takvâ": 0.44,
-    "mağfiret": 0.5
-   },
-   "en_dis": {
-    "insân": 1.83,
-    "tuğyân": 1.78,
-    "tekzîb": 1.67,
-    "Rab": 1.63
-   }
-  },
-  "siralama_tutarliligi": "ham↔normalize Spearman 0.834 — cetvelin sırası geçerli, tekil etiketler yeniden koşulmalı."
- }
+ "okuma": "Konum düzeltmesinden sağ çıkan çekirdek: hudûd(1)→mağfiret*(6, sınır)→takvâ/ilim(6)→hidâyet(7) iç halka; Rab/tekzîb(23)→insân(43) dış halka. Metnin Allah-eksenindeki en sağlam yapısı hukuk/bilgi/yol kavramlarının yakınlığı ile Rab-alanı, vahiy-reddi ve insân'ın uzaklığıdır. İbadet kavramlarının (namaz, zekât) nötrlüğü v2'de de sürdü.",
+ "dikkat": "Bu cetvel v1'i GEÇERSİZ KILAR; arayüz rozetleri ve ileriki analizler v2'den beslenmelidir. Düşen iddialar geri-çekme kaydıdır, silinmez."
 }
