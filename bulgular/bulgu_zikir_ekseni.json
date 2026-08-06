@@ -1,0 +1,106 @@
+{
+ "baslik": "Zikir'in ekseni — DÜZELTİLMİŞ (konum-eşli null sonrası)",
+ "tarih": "2026-08-05",
+ "soru": "Gradyan cetvelinde zikir'in Allah'tan anlamlı uzaklığı (16 kelime, p=0.000) neden? Kullanıcı öngörüsü: zikir insân/yaratılmış/beşer'e yakın olmalı.",
+ "yontem": "eksen_mesafe(): zikir'in 274 geçişinin hedef kavramın en-yakın geçişine medyan mesafesi; 2000 permütasyon, örneklem-eşli rastgele referans. 6 test, Bonferroni eşiği p≤0.0083.",
+ "olcumler": {
+  "zikir→beşer": {
+   "medyan": 624,
+   "rastgele": 886,
+   "yon": "yakin",
+   "p": 0.0,
+   "bonferroni": true
+  },
+  "zikir→insân": {
+   "medyan": 467,
+   "rastgele": 581,
+   "yon": "yakin",
+   "p": 0.007,
+   "bonferroni": true
+  },
+  "zikir→yaratma": {
+   "medyan": 130,
+   "rastgele": 170,
+   "yon": "yakin",
+   "p": 0.0065,
+   "bonferroni": true
+  },
+  "zikir→Allah": {
+   "medyan": 16,
+   "rastgele": 11,
+   "yon": "uzak",
+   "p": 0.0025,
+   "bonferroni": true
+  },
+  "zikir→nâs": {
+   "medyan": 172,
+   "rastgele": 141,
+   "yon": "uzak",
+   "p": 0.0185,
+   "bonferroni": false
+  },
+  "zikir→Rab": {
+   "medyan": 29,
+   "rastgele": 36,
+   "yon": "yakin",
+   "p": 0.0385,
+   "bonferroni": false
+  }
+ },
+ "okuma": "Öngörü dört eksende Bonferroni-sağlam doğrulandı: zikir beşer'e, insân'a ve yaratma'ya yakın, Allah'tan uzak. İnce ayrım: zikir nâs'a (topluluk-hitap) yakın DEĞİL — nominal olarak uzak. Yani zikir 'ey insanlar' hitap bölgesinde değil, insan-türün tasvir edildiği bölgede yaşıyor; ذِكْر çoğu yerde beşere/âlemlere yönelik hatırlatma-nesnesi (74:31, 38:87 tipi kullanım). Rab-yakınlığı nominal — izafet örgüsüyle uyumlu ama sağlam değil.",
+ "sinir": "Mesafe ölçümü nedensellik vermez; zikir'in anlatı-modu bölgeleriyle örtüşmesi ayrıca test edilebilir (anlatı-sınıflayıcı kesişimi, açık maddelerde).",
+ "girdi": "morph.txt + kok_anlam_tablosu.json (melek düzeltmeli sürüm)",
+ "DUZELTME": {
+  "tarih": "2026-08-05",
+  "neden": "İlk sürüm düz null model kullandı. Allah lafzının yoğunluğu metnin ilk yarısında 1.46x daha yüksek (ölçüldü); bu yüzden metnin sonlarında yoğunlaşan HER kavram anlamsal neden olmaksızın 'Allah'tan uzak' ve birbirine 'yakın' ölçülür. Konum-eşli null (20 dilim, kaynağın konum profili taklit edilir) ile tüm ölçümler tekrarlandı.",
+  "ayakta_kalan": {
+   "zikir→beşer": {
+    "gercek": 624,
+    "konum_esli_beklenti": 785,
+    "oran": 0.82,
+    "p": 0.0,
+    "bonferroni_6test": true
+   }
+  },
+  "GERI_CEKILEN": {
+   "zikir→insân": {
+    "duz_p": 0.007,
+    "konum_esli_p": 0.273,
+    "durum": "geri çekildi"
+   },
+   "zikir→yaratma": {
+    "duz_p": 0.0065,
+    "konum_esli_p": 0.235,
+    "durum": "geri çekildi"
+   },
+   "zikir→nâs": {
+    "duz_p": 0.0185,
+    "konum_esli_p": 0.455,
+    "durum": "geri çekildi"
+   },
+   "zikir→Allah (uzaklık)": {
+    "duz_p": 0.0025,
+    "konum_esli_p": 0.3105,
+    "durum": "geri çekildi — gradyan cetvelindeki 'zikir uzak' etiketi de bu nedenle düşer"
+   },
+   "zikir→Rab": {
+    "duz_p": 0.0385,
+    "konum_esli_p": 0.45,
+    "durum": "geri çekildi"
+   }
+  },
+  "birlesik_test": {
+   "hedefler": [
+    "beşer",
+    "insân",
+    "yaratma",
+    "nefs"
+   ],
+   "toplam_gercek": 1349,
+   "konum_esli_beklenti": 1529,
+   "p": 0.003,
+   "sinir": "Anlamlı, ancak toplam mesafeyi beşer terimi domine ediyor (624 en büyük terim). Beklentiye oranlar: beşer 0.82, yaratma 0.87, insân 1.04, nefs 1.09 — yani insân ve nefs beklentinin ÜSTÜNDE."
+  },
+  "nihai_okuma": "Zikir beşer'e (insan-tür) demirli; insân/nefs (birey) ve nâs (topluluk-hitap) eksenlerinde yakınlık YOK. Kutup tek blok değil; zikir yalnız tür yakasında."
+ }
+}

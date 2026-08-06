@@ -1,0 +1,60 @@
+{
+ "baslik": "Kapsam çiftleri — kapsayan/kapsanan metinde birlikte mi?",
+ "tarih": "2026-08-05",
+ "soru": "beşer insân'ı mantıken kapsar. Bu kapsam metinsel komşuluğa dönüşüyor mu? Karşılaştırma ekseni: gök/yer, dağ/yer.",
+ "yontem": "Konum-eşli null, 2000 permütasyon, medyan en-yakın mesafe.",
+ "olcumler": {
+  "gök→yer": {
+   "gercek": 3,
+   "beklenti": 60,
+   "oran": 0.05,
+   "p": 0.0,
+   "n": [
+    381,
+    461
+   ]
+  },
+  "dağ→yer": {
+   "gercek": 21,
+   "beklenti": 61,
+   "oran": 0.34,
+   "p": 0.0,
+   "n": [
+    41,
+    461
+   ]
+  },
+  "insân→beşer": {
+   "gercek": 546,
+   "beklenti": 742,
+   "oran": 0.74,
+   "p": 0.0115,
+   "n": [
+    71,
+    37
+   ]
+  },
+  "beşer→insân": {
+   "gercek": 379,
+   "beklenti": 446,
+   "oran": 0.85,
+   "p": 0.24,
+   "n": [
+    37,
+    71
+   ]
+  },
+  "beşer→nâs": {
+   "gercek": 172,
+   "beklenti": 160,
+   "oran": 1.07,
+   "p": 0.4065,
+   "n": [
+    37,
+    241
+   ]
+  }
+ },
+ "okuma": "Kozmos ekseninde kapsam ilişkisi neredeyse yapışıklık üretiyor (gök/yer oran 0.05 — ortalama 3 kelime aralık). İnsan ekseninde üretmiyor: beşer/insân zayıf ve asimetrik, beşer/nâs tamamen nötr. Kavramsal kapsam ile metinsel örgü ayrı şeyler.",
+ "sinir": "yıldız/gök çifti n=13 ile test edilemedi."
+}

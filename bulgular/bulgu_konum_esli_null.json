@@ -1,0 +1,32 @@
+{
+ "baslik": "Konum-eşli null model — Allah-mesafesi ölçümlerinde zorunlu düzeltme",
+ "tarih": "2026-08-05",
+ "kesif": "Allah lafzının yoğunluğu metin boyunca sabit değil: 10 dilimde ilk yarı 41.3/1000 kelime, son yarı 28.4/1000 — oran 1.46x. Dilim bazında 59.5'ten 24.4'e iniyor.",
+ "sonuc": "Düz null (korpustan rastgele örnek) bu eğimi görmez. Metnin sonlarında yoğunlaşan her kavram otomatik 'Allah'tan uzak' ölçülür; aynı bölgede yoğunlaşan iki kavram otomatik 'birbirine yakın' ölçülür.",
+ "duzeltme": "Konum-eşli null: korpus 20 dilime bölünür, rastgele örnek kaynak kavramın dilim-profilini taklit eder. Ayrıca yerel-normalize mesafe: her geçişin mesafesi kendi diliminin beklentisine bölünür.",
+ "etki_olcumu": {
+  "spearman_ham_mesafe_vs_metin_konumu": 0.638,
+  "spearman_normalize_vs_metin_konumu": 0.347,
+  "ham_vs_normalize_siralama_tutarliligi": 0.834,
+  "yorum": "Ham korelasyonun yarıdan fazlası konum etkisi. Ama sıralama büyük ölçüde ayakta (0.834): halkalar konum yapaylığından ibaret değil."
+ },
+ "normalize_cetvel_ucları": {
+  "en_ic": {
+   "hudûd": 0.2,
+   "takvâ": 0.44,
+   "mağfiret": 0.5
+  },
+  "en_dis": {
+   "insân": 1.83,
+   "tuğyân": 1.78,
+   "tekzîb": 1.67,
+   "Rab": 1.63
+  },
+  "etiketi_dusenler": {
+   "zikir": 1.0,
+   "nâs": 1.0,
+   "yaratma": 1.09
+  }
+ },
+ "kural": "Bundan sonraki tüm Allah-mesafesi ve kavram-kavram mesafe ölçümleri konum-eşli null ile koşulacak. Düz-null ile alınmış eski ölçümler tekrar denetlenmeli."
+}

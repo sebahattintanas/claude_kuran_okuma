@@ -1,0 +1,77 @@
+{
+ "baslik": "beşer — dikey okuma (37 geçişin tamamı)",
+ "tarih": "2026-08-05",
+ "obekler": {
+  "peygamber_reddi_formulu": {
+   "n": "~15",
+   "ayetler": [
+    "11:27",
+    "14:11",
+    "17:94",
+    "23:24",
+    "23:33",
+    "23:34",
+    "23:47",
+    "26:154",
+    "26:186",
+    "36:15",
+    "54:24",
+    "64:6"
+   ],
+   "not": "'Sen de bizim gibi bir beşersin' kalıbı. Ters yönü de var: 18:110 ve 41:6'da peygamber kendisi söylüyor ('Ben de ancak sizin gibi bir beşerim'). Aynı sözcük iki yönden sınır çiziyor."
+  },
+  "yaratilis_maddesi": {
+   "n": 5,
+   "ayetler": [
+    "15:28",
+    "15:33",
+    "38:71",
+    "25:54",
+    "30:20"
+   ]
+  },
+  "temas": {
+   "n": 4,
+   "ayetler": [
+    "3:47",
+    "19:17",
+    "19:20",
+    "19:26"
+   ],
+   "not": "'Bana bir beşer dokunmadı' — fiziksel temasın öznesi."
+  },
+  "vahyin_siniri": {
+   "n": 4,
+   "ayetler": [
+    "42:51",
+    "6:91",
+    "16:103",
+    "74:25"
+   ],
+   "not": "42:51 doğrudan tanım: Allah bir beşerle ancak vahiy yoluyla veya perde arkasından konuşur."
+  }
+ },
+ "madde_hayat_olcumu": {
+  "madde_koku_bulunan_ayet": 7,
+  "bunlarin_hayat_koku_de_iceren": 7,
+  "oran": "7/7",
+  "gozlem": "Madde kökü (طين/ترب/موه/صلصل/حمأ) hiçbir beşer-ayetinde yalnız geçmiyor; her seferinde bir işlem kökü (خلق/سوي/نفخ/روح/حيي) eşlik ediyor.",
+  "eslesmeler": {
+   "su (25:54)": "yaratma",
+   "toprak (23:33,23:34,30:20)": "diriltme",
+   "balçık (15:28,38:71)": "yaratma+düzenleme+üfleme+ruh"
+  }
+ },
+ "zincir_gozlemi": {
+  "dizilim": "madde → (yaratma) → düzenleme(سوي) → üfleme(نفخ) → ruh(روح)",
+  "gorulen_sahne_sayisi": 2,
+  "sahneler": [
+   "15:28-29",
+   "38:71-72"
+  ],
+  "UYARI_1": "n=2 ve bu ikisi aynı sahnenin iki anlatımı — bağımsız değil. Sıra değişmezliği İDDİA EDİLEMEZ, gözlem olarak kaydedildi.",
+  "UYARI_2": "madde<yaratma ilişkisi 0/2 çıktı çünkü fiil cümle başında ('çamurdan bir beşer YARATACAĞIM'). Kelime sırası ≠ olay sırası. Bu risk önceki yaratılış-sahnesi ölçümlerinde de (16 ikili %100) denetlenmeli.",
+  "genisletme_yolu": "Kısıtı beşer'den kaldırıp korpusun tamamında (Âdem/insân/nutfe sahneleri dahil) zincir aranırsa n artar ve gerçek sıra testi mümkün olur."
+ },
+ "toplu_imza": "beşer, ilâhî olanla arasına tür sınırı konan insandır: maddesi, teması ve vahiy alma biçimi hep bu sınırla tanımlanıyor."
+}
