@@ -163,7 +163,10 @@ def dikey_oku(kok=None, kavram_ad=None, W=6, ornek_n=5, meal=None):
 
 def anlamlilik(kok=None, kavram_ad=None, deneme=1000):
     """Kavramın Allah-mesafesi rastgeleden anlamlı mı sapıyor?
-    Örneklem-boyutunu hesaba katan permütasyon testi. Dönen: (medyan, p, yon, anlamli)."""
+    Örneklem-boyutunu hesaba katan permütasyon testi. Dönen: (medyan, p, yon, anlamli).
+    UYARI (2026-08-05 kuralı): düz null Allah-yoğunluğunun 1.46x metin-içi eğimini
+    görmez; yeni ölçümlerde anlamlilik_konum_esli() kullanılmalı. Bu fonksiyon
+    eski bulgularla karşılaştırma için tutuluyor."""
     ak, allah = _akis()
     idx = _hedef_indeksler(kok=kok, kavram_ad=kavram_ad)
     if not idx: return (-1, 1.0, '?', False)
@@ -184,6 +187,62 @@ def anlamlilik(kok=None, kavram_ad=None, deneme=1000):
     if yon == 'yakin': p = sum(1 for x in dag if x <= gm) / len(dag)
     else: p = sum(1 for x in dag if x >= gm) / len(dag)
     return (gm, round(p, 4), yon, p < 0.05)
+
+# --- KONUM-EŞLİ NULL (2026-08-05 kuralı; bkz. bulgu_konum_esli_null.json) ---
+_MESAFE = None     # her akış-indeksi için en yakın Allah lafzına mutlak mesafe
+_DILIM_HAVUZ = None  # dilim -> o dilimdeki kök'lü indekslerin listesi
+_N_DILIM = 20
+
+def _konum_hazirla():
+    """Tüm korpus için Allah-mesafesini bir kez önhesapla + dilim havuzları kur."""
+    global _MESAFE, _DILIM_HAVUZ
+    if _MESAFE is not None: return
+    ak, allah = _akis()
+    N = len(ak)
+    _MESAFE = {}
+    for x in ak:
+        if not x['kok']: continue
+        ti = x['i']
+        pos = bisect.bisect_left(allah, ti); c = []
+        if pos < len(allah): c.append(allah[pos])
+        if pos > 0: c.append(allah[pos-1])
+        if c: _MESAFE[ti] = abs(ti - min(c, key=lambda a: abs(a-ti)))
+    _DILIM_HAVUZ = [[] for _ in range(_N_DILIM)]
+    for ti in _MESAFE:
+        _DILIM_HAVUZ[min(_N_DILIM-1, ti*_N_DILIM//N)].append(ti)
+
+def anlamlilik_konum_esli(kok=None, kavram_ad=None, deneme=2000, seed=0):
+    """Konum-eşli permütasyon testi: null örneklemi, hedef kavramın 20-dilimlik
+    konum profilini birebir taklit eder (dilim başına aynı sayıda rastgele kelime).
+    Allah lafzının metin-boyu 1.46x yoğunluk eğimi böylece null'a işlenir.
+    Dönen: dict(medyan, p, yon, anlamli, gecis, null_medyan_medyani)."""
+    _konum_hazirla()
+    ak, _ = _akis()
+    N = len(ak)
+    idx = [ti for ti in _hedef_indeksler(kok=kok, kavram_ad=kavram_ad) if ti in _MESAFE]
+    if not idx:
+        return {'medyan': -1, 'p': 1.0, 'yon': '?', 'anlamli': False, 'gecis': 0}
+    def med(ii):
+        m = sorted(_MESAFE[t] for t in ii)
+        return m[len(m)//2]
+    gm = med(idx)
+    # hedefin dilim profili
+    profil = Counter(min(_N_DILIM-1, ti*_N_DILIM//N) for ti in idx)
+    rnd = random.Random(seed)
+    dag = []
+    for _ in range(deneme):
+        orn = []
+        for d, n in profil.items():
+            havuz = _DILIM_HAVUZ[d]
+            orn.extend(rnd.sample(havuz, n) if n <= len(havuz) else havuz)
+        dag.append(med(orn))
+    dag.sort()
+    null_med = dag[len(dag)//2]
+    yon = 'yakin' if gm < null_med else 'uzak'
+    if yon == 'yakin': p = sum(1 for x in dag if x <= gm) / len(dag)
+    else: p = sum(1 for x in dag if x >= gm) / len(dag)
+    return {'medyan': gm, 'p': round(p, 5), 'yon': yon, 'anlamli': p < 0.05,
+            'gecis': len(idx), 'null_medyan_medyani': null_med}
 
 def gradyan_cetveli(hedefler, W=6):
     """Birçok kavramı Allah-mesafesine göre sıralı cetvel.
