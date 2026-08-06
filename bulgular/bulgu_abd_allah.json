@@ -1,14 +1,50 @@
 {
-  "bulgu": "Kulluk kokunun (عبد) Allah lafzina uzakligi: fiil/isim ayrisimi",
-  "tarih": "2026-08-04",
-  "yontem": "POS ayrimi (V/N), en yakin Allah'a kelime uzakligi, 3000 permutasyonlu null (ayni boyutta rastgele token kumesi)",
-  "sonuclar": {
-    "fiil_ibadet_etme": {"n": 123, "medyan": 4, "null_medyan": 11, "d2_orani": 0.33, "p_yakin": "<0.0003", "hukum": "HAKIKI-YAKIN"},
-    "isim_kul_ibad": {"n": 152, "medyan": 12, "null_medyan": 11, "p_yakin": 0.73, "hukum": "NOTR"},
-    "birlesik": {"medyan": 8, "p": 0.007, "not": "Onceki belirsiz sayi guclu fiil sinyalinin notr isimle seyrelmesiymis"}
+ "bulgu": "Kulluk kokunun (عبد) Allah lafzina uzakligi: fiil/isim ayrisimi",
+ "tarih": "2026-08-04",
+ "yontem": "POS ayrimi (V/N), en yakin Allah'a kelime uzakligi, 3000 permutasyonlu null (ayni boyutta rastgele token kumesi)",
+ "sonuclar": {
+  "fiil_ibadet_etme": {
+   "n": 123,
+   "medyan": 4,
+   "null_medyan": 11,
+   "d2_orani": 0.33,
+   "p_yakin": "<0.0003",
+   "hukum": "HAKIKI-YAKIN"
   },
-  "mekanizma": "Yakinlik u'budullah emir/cagri formulunden (2:83, 3:64, 4:36, 5:72, 7:59-70 peygamber cagrilari); dogrudan-nesne kalibi",
-  "fatiha_kontrasti": "1:5 na'budu d=9: ibadet fiilinin Allah'a hitap ettigi tek yerde isim cekilir, zamir (iyyake) devralir - isimden hitaba gecis bulgusuyla tutarli",
-  "dogan_hipotez_on_kayit_adayi": "Allah'in hakiki-yakin komsulari dilbilgisel baglanma tasiyor: hamd (li-llah), hudud (izafet), abd-fiil (nesne). Hipotez: yakinlik alani tematik degil sentaktik baglanmayla oruluyor. Test: tum hakiki-yakin kavramlarin bagli-yapi orani vs notr kavramlar, on-kayitli",
-  "coklu_karsilastirma": "3 test; fiil bulgusu her duzeltmeyi gecer"
+  "isim_kul_ibad": {
+   "n": 152,
+   "medyan": 12,
+   "null_medyan": 11,
+   "p_yakin": 0.73,
+   "hukum": "NOTR"
+  },
+  "birlesik": {
+   "medyan": 8,
+   "p": 0.007,
+   "not": "Onceki belirsiz sayi guclu fiil sinyalinin notr isimle seyrelmesiymis"
+  }
+ },
+ "mekanizma": "Yakinlik u'budullah emir/cagri formulunden (2:83, 3:64, 4:36, 5:72, 7:59-70 peygamber cagrilari); dogrudan-nesne kalibi",
+ "fatiha_kontrasti": "1:5 na'budu d=9: ibadet fiilinin Allah'a hitap ettigi tek yerde isim cekilir, zamir (iyyake) devralir - isimden hitaba gecis bulgusuyla tutarli",
+ "dogan_hipotez_on_kayit_adayi": "Allah'in hakiki-yakin komsulari dilbilgisel baglanma tasiyor: hamd (li-llah), hudud (izafet), abd-fiil (nesne). Hipotez: yakinlik alani tematik degil sentaktik baglanmayla oruluyor. Test: tum hakiki-yakin kavramlarin bagli-yapi orani vs notr kavramlar, on-kayitli",
+ "coklu_karsilastirma": "3 test; fiil bulgusu her duzeltmeyi gecer",
+ "v2_konum_esli_denetim": {
+  "tarih": "2026-08-06",
+  "yontem": "anlamlilik_konum_esli altyapısı (20 dilim profil-eşli, 3000 perm)",
+  "fiil": {
+   "n": 123,
+   "medyan": 4,
+   "null_medyan": 14,
+   "yon": "yakin",
+   "p": 0.0
+  },
+  "isim": {
+   "n": 152,
+   "medyan": 12,
+   "null_medyan": 14,
+   "yon": "yakin",
+   "p": 0.171
+  },
+  "hukum": "DOĞRULANDI ve GÜÇLENDİ: konum-eşli null fiil için 14 kelimeye çıktı, gözlenen 4'te kaldı (p=0.0). abd-fiil yakınlığı konum yapaylığı değil. İsim nötrlüğü de doğrulandı (p=0.17). Sentaks-alanı hipotezinin temeli sağlam."
+ }
 }

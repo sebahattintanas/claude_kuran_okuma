@@ -131,5 +131,146 @@
  },
  "ana_bulgu": "Karşıtlık Allah-ekseninde simetrik değil: pozitif kutuplar lafza-i celâle demirli (takvâ 5, nûr 6, hidâyet 7, iman/adl 8), negatif kutuplar serbest dolaşıyor (9-14, rastgele bandında). Metin karşıtlığı 'iki uç' olarak değil 'demirli merkez + başıboş çevre' olarak kuruyor. Tuğyân bulgusuyla (p=.006 anlamlı-uzak) birlikte: yalnız 'bağımsız azgınlık' türü kavramlar aktif biçimde uzağa itiliyor.",
  "sinir": "adl n=28, kizb n=40, karanlık n=27 — küçük örneklemler; sıdk↔kizb çifti iki yönde de anlamsız. Negatif kutupların nötrlüğü 'yokluk kanıtı' değil, anlamlılık yokluğudur.",
- "epistemik": "muhkem=medyan mesafeler ve p değerleri; inşa='demirli merkez/başıboş çevre' okuması; değer atfı yok."
+ "epistemik": "muhkem=medyan mesafeler ve p değerleri; inşa='demirli merkez/başıboş çevre' okuması; değer atfı yok.",
+ "v2_konum_esli_denetim": {
+  "tarih": "2026-08-06",
+  "bonferroni_esigi": 0.004166666666666667,
+  "ciftler": [
+   {
+    "cift": "iman ↔ küfür",
+    "poz": {
+     "ad": "iman",
+     "n": 828,
+     "medyan": 8,
+     "null_medyan": 9,
+     "yon": "yakin",
+     "p": 0.14033,
+     "bonferroni": false
+    },
+    "neg": {
+     "ad": "küfür",
+     "n": 506,
+     "medyan": 9,
+     "null_medyan": 9,
+     "yon": "uzak",
+     "p": 0.76033,
+     "bonferroni": false
+    }
+   },
+   {
+    "cift": "nûr ↔ karanlık",
+    "poz": {
+     "ad": "nûr",
+     "n": 49,
+     "medyan": 6,
+     "null_medyan": 8,
+     "yon": "yakin",
+     "p": 0.15567,
+     "bonferroni": false
+    },
+    "neg": {
+     "ad": "karanlık",
+     "n": 27,
+     "medyan": 9,
+     "null_medyan": 10,
+     "yon": "yakin",
+     "p": 0.39933,
+     "bonferroni": false
+    }
+   },
+   {
+    "cift": "adl ↔ zulüm",
+    "poz": {
+     "ad": "adl",
+     "n": 28,
+     "medyan": 8,
+     "null_medyan": 10,
+     "yon": "yakin",
+     "p": 0.34033,
+     "bonferroni": false
+    },
+    "neg": {
+     "ad": "zulüm",
+     "n": 290,
+     "medyan": 12,
+     "null_medyan": 11,
+     "yon": "uzak",
+     "p": 0.319,
+     "bonferroni": false
+    }
+   },
+   {
+    "cift": "hidâyet ↔ dalâlet",
+    "poz": {
+     "ad": "hidâyet",
+     "n": 307,
+     "medyan": 7,
+     "null_medyan": 11,
+     "yon": "yakin",
+     "p": 0.0,
+     "bonferroni": true
+    },
+    "neg": {
+     "ad": "dalâlet",
+     "n": 191,
+     "medyan": 9,
+     "null_medyan": 11,
+     "yon": "yakin",
+     "p": 0.07633,
+     "bonferroni": false
+    }
+   },
+   {
+    "cift": "takvâ ↔ fısk",
+    "poz": {
+     "ad": "takvâ",
+     "n": 239,
+     "medyan": 5,
+     "null_medyan": 10,
+     "yon": "yakin",
+     "p": 0.0,
+     "bonferroni": true
+    },
+    "neg": {
+     "ad": "fısk",
+     "n": 54,
+     "medyan": 10,
+     "null_medyan": 8,
+     "yon": "uzak",
+     "p": 0.31,
+     "bonferroni": false
+    }
+   },
+   {
+    "cift": "sıdk ↔ kizb",
+    "poz": {
+     "ad": "sıdk(doğruluk)",
+     "n": 97,
+     "medyan": 10,
+     "null_medyan": 12,
+     "yon": "yakin",
+     "p": 0.25633,
+     "bonferroni": false
+    },
+    "neg": {
+     "ad": "kizb",
+     "n": 40,
+     "medyan": 14,
+     "null_medyan": 13,
+     "yon": "uzak",
+     "p": 0.41233,
+     "bonferroni": false
+    }
+   }
+  ],
+  "geri_cekilen": {
+   "iman": "p 0.001→0.140",
+   "nûr": "p 0.029→0.156"
+  },
+  "ayakta": {
+   "hidâyet": "p=0.0 ✓B",
+   "takvâ": "p=0.0 ✓B"
+  },
+  "hukum": "KISMÎ GERİ ÇEKME: v1'in üç demirli pozitif kutbundan iman düştü (v2 gradyanla tutarlı), nominal nûr da düştü. Asimetrinin YÖNÜ korundu — Bonferroni-sağlam kalan iki kutup da pozitif tarafta, altı negatif kutbun tamamı nötr — ama iddia \"3 kutup demirli\"den \"2 kutup demirli\"ye zayıfladı. Not: v1'deki \"sıdk tek-lemma kök\" ifadesi bayattı; صدق denetimde ayrıldı, ölçüm artık doğruluk-kavramı üzerinden."
+ }
 }

@@ -16,21 +16,21 @@
    "rastgele": 581,
    "yon": "yakin",
    "p": 0.007,
-   "bonferroni": true
+   "bonferroni": false
   },
   "zikir→yaratma": {
    "medyan": 130,
    "rastgele": 170,
    "yon": "yakin",
    "p": 0.0065,
-   "bonferroni": true
+   "bonferroni": false
   },
   "zikir→Allah": {
    "medyan": 16,
    "rastgele": 11,
    "yon": "uzak",
    "p": 0.0025,
-   "bonferroni": true
+   "bonferroni": false
   },
   "zikir→nâs": {
    "medyan": 172,
@@ -47,7 +47,7 @@
    "bonferroni": false
   }
  },
- "okuma": "Öngörü dört eksende Bonferroni-sağlam doğrulandı: zikir beşer'e, insân'a ve yaratma'ya yakın, Allah'tan uzak. İnce ayrım: zikir nâs'a (topluluk-hitap) yakın DEĞİL — nominal olarak uzak. Yani zikir 'ey insanlar' hitap bölgesinde değil, insan-türün tasvir edildiği bölgede yaşıyor; ذِكْر çoğu yerde beşere/âlemlere yönelik hatırlatma-nesnesi (74:31, 38:87 tipi kullanım). Rab-yakınlığı nominal — izafet örgüsüyle uyumlu ama sağlam değil.",
+ "okuma": "DÜZELTİLMİŞ OKUMA: zikir'in sağlam tek ekseni beşer'e yakınlık. Allah-uzaklığı, insân/yaratma yakınlıkları ve Rab-nominali konum-eşli denetimde düştü. ذِكْr'in \"beşere yönelik hatırlatma-nesnesi\" karakteri (74:31, 38:87 tipi) tek ayakta kalan örüntü.",
  "sinir": "Mesafe ölçümü nedensellik vermez; zikir'in anlatı-modu bölgeleriyle örtüşmesi ayrıca test edilebilir (anlatı-sınıflayıcı kesişimi, açık maddelerde).",
  "girdi": "morph.txt + kok_anlam_tablosu.json (melek düzeltmeli sürüm)",
  "DUZELTME": {
@@ -102,5 +102,6 @@
    "sinir": "Anlamlı, ancak toplam mesafeyi beşer terimi domine ediyor (624 en büyük terim). Beklentiye oranlar: beşer 0.82, yaratma 0.87, insân 1.04, nefs 1.09 — yani insân ve nefs beklentinin ÜSTÜNDE."
   },
   "nihai_okuma": "Zikir beşer'e (insan-tür) demirli; insân/nefs (birey) ve nâs (topluluk-hitap) eksenlerinde yakınlık YOK. Kutup tek blok değil; zikir yalnız tür yakasında."
- }
+ },
+ "duzeltme_2026_08_06": "DOSYA-KAYIT UZLAŞTIRMASI: 2026-08-05 Oturum-2 kısmî geri çekmesi (YAPILACAKLAR kaydı: \"yalnız zikir→beşer ayakta, p=0.0000; insân/yaratma/nâs/Allah/Rab düştü\") bu dosyaya hiç işlenmemişti — bonferroni bayrakları düzeltildi. Ayrıca v2 gradyan cetveli (konum-eşli) zikir→Allah uzaklığını bağımsız olarak düşürdü (p=0.0025→0.31). Ayakta kalan tek eksen: zikir→beşer."
 }

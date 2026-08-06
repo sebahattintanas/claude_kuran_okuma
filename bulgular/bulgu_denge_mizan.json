@@ -104,5 +104,28 @@
  },
  "ana_bulgu": "Mîzan tek kavram, iki dilsel rejim: ölçü EMREDİLDİĞİNDE (tartıyı doğru tutun / kitapla mîzanı indirdik) söz Allah lafzının dibinde (medyan 12); ölçü SAHNELENDİĞİNDE (kıyamet tartısı, göğün dengesi) söz Allah-sessiz anlatı bandında (medyan 118). Anlatı-kipi hipotezinin (Allah-sessiz aralıklar = sahne anlatımı) kavram-içi doğrulaması: aynı kök, bağlam kipine göre iki ayrı Allah-mesafe rejimi.",
  "sinir": "n=23 küçük; katman sınıflaması içerik-temelli ve post-hoc (ayet listeleri dosyada, yanlışlanabilir); 7:9 ile 18:105 'tartısı hafif gelenler' sahnesi emir kipinde okunamaz ama sınır örnekleri denetlenmeli. Kozmik medyanın büyüklüğü kısmen 55. surenin Rahmân-örgüsünden (lafza-i celâl yokluğu) gelir — bu bir bozulma değil, ölçülen olgunun kendisidir.",
- "epistemik": "muhkem=mesafeler, ayrışma, p; inşa='emir/sahne rejimi' okuması; değer atfı yok."
+ "epistemik": "muhkem=mesafeler, ayrışma, p; inşa='emir/sahne rejimi' okuması; değer atfı yok.",
+ "v2_konum_esli_denetim": {
+  "tarih": "2026-08-06",
+  "emir": {
+   "n": 9,
+   "medyan": 12,
+   "null_medyan": 16,
+   "yon": "yakin",
+   "p": 0.33167
+  },
+  "sahne": {
+   "n": 14,
+   "medyan": 121,
+   "null_medyan": 22,
+   "yon": "uzak",
+   "p": 0.001
+  },
+  "kontrast_sahne_eksi_emir": {
+   "gozlenen_fark": 109,
+   "null_fark_medyani": 5,
+   "p": 0.00133
+  },
+  "hukum": "KONTRAST DOĞRULANDI ve GÜÇLENDİ: konum-eşli fark testi p=0.00133 (v1 düz-null 0.0106). Sahne-mîzanı konum-eşli null'da bile uzak (121 vs beklenti 22, p=0.001) — âhiret/kozmik tartı sahnelerinin Allah-sessizliği metin-sonu yapaylığı değil. NÜANS: \"emir-mîzanı Allah'a yapışık\" ifadesi tek başına ayakta durmuyor (n=9, p=0.33); iddianın taşıyıcısı iki katman arasındaki fark ve sahnenin uzaklığıdır, emirin mutlak yakınlığı değil."
+ }
 }
