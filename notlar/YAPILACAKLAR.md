@@ -19,17 +19,17 @@
 - [ ] Rahmân/rahîm isim-formları رحم kökünden ayrılıp ayrı test
 - [ ] Kıssa bölge-tanımlarının nesnelleştirilmesi (anlatı-modu sınıflayıcısıyla otomatik sınır)
 - [ ] Koridor genellemesi: en uzun sessiz koşuların çıkış rampaları hangi köklerle döşeli (bulgu_kevser_koridoru'nun ön-kayıtlı taraması)
-- [ ] خزن kökü tabloya ayrılacak: hazineler (خَزائِن) / bekçiler (خَزَنَة) — karışık ölçüm p=0.071, ayrım şart
+- [x] خزن ayrımı tabloda: hazine 8 / bekçi 4 / saklama 1, kapsam tam ✓ — TAKİP: p=0.071'lik karışık ölçüm ayrım-sonrası YENİDEN koşulacak (aşağıya P3'e eklendi)
 
 ## P0 — VERİ BÜTÜNLÜĞÜ (önce bunlar, gerisi buna bağlı)
-- [ ] **بشر (beşer/müjde) ayrımını kok_anlam_tablosu'na işle** — beşer(insan-tür) vs büşrâ/beşîr/mübeşşir(müjde). Şu an SADECE analizde ayırdık, tabloda YOK. (ظلم, كذب işlendi; بشر eksik.)
-- [ ] **insân/nâs ayrımını sisteme sabitle** — lemma إِنسان(birey) vs ناس(topluluk); dikey okumada kritik çıktı, kalıcı olmalı
-- [ ] **kelime-akışı kurma fonksiyonunu MODÜLLEŞTİR** — "kelime=benzersiz wid, asıl N/V/ADJ/PN segmentinden lemma, el- takısı atla" mantığı 3-4 kez elle yazıldı; tek fonksiyon yap (akis_kur.py), tekrar kullan
-- [ ] kok_anlam_tablosu artık 16 kök — bir doğrulama scripti yaz (her ayrım nûr/adl gibi bir kontrol-kavramıyla test edilsin, %-oran raporu)
+- [x] **بشر ayrımı tabloda** — kök denetiminde işlendi; korpus doğrulaması 2026-08-05: müjde 84 / beşer 37 / mübâşeret 2, kapsam tam ✓
+- [x] **insân/nâs ayrımı tabloda** — أنس kökü: nâs 241 / insân 71 / ins 19 / ünsiyet 7, kapsam tam ✓ (2026-08-05 doğrulandı)
+- [x] **kelime-akışı modülleşti** — kuran_akis.py v2: kelime_akisi(), kavram(), allah_indeksleri(); regresyon testi geçti
+- [x] doğrulama betiği var: tablo_dogrula.py — 2026-08-05 koşusu: 430/430 kök ✓, %100 çözülme, sıfır hata
 
 ## P1 — DİKEY OKUMA ARACINI GENELLEŞTİR
-- [ ] **dikey_oku(kavram) fonksiyonu** — girdi: kök/lemma; çıktı: (A komşuluk bandı öncesi/sonrası, B Allah-mesafe medyanı, C ayet örnekleri, D eksendeki yeri). Şu an her kavram için elle kod yazıyoruz.
-- [ ] **Allah-ekseni gradyan tablosunu genişlet** — şu an 8 kavram (hudûd→tuğyân). Tüm çekirdek kavramları (~30) ekle, sıralı bir "gradyan cetveli" çıkar
+- [x] **dikey_oku(kavram) genelleşti** — dikey_oku.py: dikey_oku(), anlamlilik(), gradyan_cetveli(); zenginleşme oranı + permütasyon testi gömülü
+- [x] **Gradyan cetveli 40 kavrama genişledi (2026-08-05)** — bulgu_gradyan_cetveli.json: Bonferroni-sağlam iç halka hudûd(1)→mağfiret/takvâ/ilim(6)→hidâyet(7)→iman(8); sağlam dış halka zikir(16)→Rab/tekzîb(23)→insân(43); namaz/zekât/rahmet/azap nötr. ÖN-KOŞUL DÜZELTMESİ: مَلَك 'mülk'→'melek' (88), مَلِك→'kral' (tabloya işlendi)
 - [ ] Rab için de aynı komşuluk-imzası (Allah'ınki: öncesi yöneliş/sonrası nitelik; Rab'ınki rahmet/dua mı?)
 
 ## P2 — BULGULARI PROGRAMA BAĞLA (kuran_okuma.html)
@@ -39,8 +39,9 @@
 - [ ] ▶Oku audio wire (everyayah CDN) — hâlâ bağlı değil
 
 ## P3 — YENİ ÖLÇÜMLER (bekleyen sorular)
-- [ ] İki-Allah-arası boşluk = anlatı/kıssa modu — NİCEL doğrula (Allah-sessiz bölgelerde özel-isim/kavim yoğunluğu > Allah-yoğun bölge?)
+- [x] Anlatı modu NİCEL doğrulandı — bulgu_anlati_boslugu.json: özel isim ×3.4, 'dedi' ×1.6, kavim ×3.1 (p<0.0005, 2000 permütasyon)
 - [ ] Allah komşuluk-imzası (öncesi yöneliş, sonrası ilim/mağfiret/rahmet) — bir bulgu dosyasına kaydet (henüz kaydedilmedi!)
+- [ ] خزن yeniden ölçümü: ayrım-öncesi p=0.071'lik ölçümü hazine/bekçi ayrık koşullarla tekrarla
 - [ ] beşer/müjde ayrımı sonrası "insan" gradyanını yeniden hesapla (temiz)
 - [ ] adl/zulüm ve nûr/zulmet çiftlerini dikey oku (aynalar modeline bağla)
 
@@ -50,7 +51,25 @@
 - [ ] 3-dizilim (mushaf/nüzul/rastgele) değişmezlik testleri
 - [ ] kozmolog + genetikçi mercekleri
 
-## BU OTURUMDA TAMAMLANANLAR ✓
+## 2026-08-05 OTURUM-2 (analiz) ✓
+- YÖNTEM DEĞİŞİKLİĞİ: konum-eşli null zorunlu (Allah yoğunluğu 1.46x eğimli) → bulgu_konum_esli_null.json
+- zikir bulgusu KISMİ GERİ ÇEKME: yalnız zikir→beşer ayakta (p=0.0000); insân/yaratma/nâs/Allah/Rab düştü
+- kapsam çiftleri: gök→yer oran 0.05 (yapışık), beşer→insân nötr → bulgu_kapsam_ciftleri.json
+- beşer dikey okuma (37 geçiş, 4 öbek); madde 7/7 hep işlemle birlikte → bulgu_beser_dikey.json
+
+### AÇILAN YENİ MADDELER
+- [ ] Düz-null ile alınmış TÜM eski ölçümler konum-eşli null ile yeniden denetlensin (hudûd, tuğyân, tövbe, namaz dahil)
+- [ ] Yaratılış sahnesi 16 ikili sıra ilişkisi: 'kelime sırası ≠ olay sırası' riski açısından denetlensin (fiil-önde sorunu)
+- [ ] madde→ruh zinciri: kısıt beşer'den kaldırılıp tüm korpusta aransın (n=2 yetersiz)
+- [ ] gök/yer yapışıklığı: diğer kozmik çiftlere genişlet (güneş/ay, gece/gündüz)
+
+## 2026-08-05 OTURUM-1 ✓
+- P0 kapanış teyidi: بشر(84/37/2), أنس(241/71/19/7), خزن(8/4/1) korpusla doğrulandı; tablo_dogrula 430/430 ✓
+- ملك kökü düzeltmesi: مَلَك mülk→melek, مَلِك→kral (melek 88/mülk 98/kral 20)
+- Gradyan cetveli 8→40 kavram, Bonferroni'li (bulgu_gradyan_cetveli.json)
+- Depo rutini işledi: kaynak = github.com/sebahattintanas/claude_kuran_okuma (clone ile tazelendi)
+
+## BU OTURUMDA TAMAMLANANLAR ✓ (önceki)
 - ظلم → zulüm/zulmet ayrımı (nûr-doğrulama %61 vs %5)
 - كذب → kizb/tekzîb ayrımı (tekzîb=vahiy reddi, 242 vs 40)
 - AŞMA ekseni temizlendi (440→~150, zulüm ayrı eksen)
