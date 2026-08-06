@@ -1,0 +1,229 @@
+{
+ "baslik": "İplik tam haritası — n≥100 köklerde çift koşul (ÖN-KAYITLI, konum-eşli)",
+ "tarih": "2026-08-06",
+ "protokol_onceden": "Evren: 113 kök (n≥100, أله ve ÖZEL: hariç). Kapı: anlamlilik_konum_esli (5000 perm, seed=0), HAKİKÎ = p≤0.05/113=0.000442. Hâl imzası yalnız kapıyı geçenlerde: geçişlere d≤2 komşu Allah tokenlerinin hâli; NOM payı vs taban 0.363, iki-uçlu binom p<0.05 → yüksek=FAİL, düşük=BAĞLANMA, değilse KARIŞIK; d2<5 imza ölçülemez. Taban korpustan yeniden üretildi: GEN 1127 / NOM 980 / ACC 592, bağlı 0.637 (v1 ile birebir).",
+ "hakiki_yakin_9": {
+  "حكم": {
+   "n": 210,
+   "medyan": 4,
+   "null_medyan": 8,
+   "p": 0.0,
+   "d2": 85,
+   "hal": {
+    "NOM": 51,
+    "ACC": 14,
+    "GEN": 20
+   },
+   "nom_pay": 0.6,
+   "p_nom": 1e-05,
+   "iplik": "FAİL"
+  },
+  "دون": {
+   "n": 144,
+   "medyan": 2,
+   "null_medyan": 13,
+   "p": 0.0,
+   "d2": 75,
+   "hal": {
+    "GEN": 73,
+    "NOM": 2
+   },
+   "nom_pay": 0.027,
+   "p_nom": 0.0,
+   "iplik": "BAĞLANMA"
+  },
+  "سبل": {
+   "n": 176,
+   "medyan": 4,
+   "null_medyan": 8,
+   "p": 0.0002,
+   "d2": 79,
+   "hal": {
+    "GEN": 72,
+    "NOM": 4,
+    "ACC": 3
+   },
+   "nom_pay": 0.051,
+   "p_nom": 0.0,
+   "iplik": "BAĞLANMA"
+  },
+  "شيأ": {
+   "n": 519,
+   "medyan": 6,
+   "null_medyan": 10,
+   "p": 0.0,
+   "d2": 129,
+   "hal": {
+    "NOM": 87,
+    "ACC": 20,
+    "GEN": 22
+   },
+   "nom_pay": 0.674,
+   "p_nom": 0.0,
+   "iplik": "FAİL"
+  },
+  "عبد": {
+   "n": 275,
+   "medyan": 8,
+   "null_medyan": 14,
+   "p": 0.0,
+   "d2": 67,
+   "hal": {
+    "ACC": 37,
+    "NOM": 13,
+    "GEN": 17
+   },
+   "nom_pay": 0.194,
+   "p_nom": 0.00332,
+   "iplik": "BAĞLANMA"
+  },
+  "عزز": {
+   "n": 120,
+   "medyan": 5,
+   "null_medyan": 10,
+   "p": 0.0,
+   "d2": 50,
+   "hal": {
+    "ACC": 16,
+    "NOM": 18,
+    "GEN": 16
+   },
+   "nom_pay": 0.36,
+   "p_nom": 1.0,
+   "iplik": "KARIŞIK"
+  },
+  "علم": {
+   "n": 854,
+   "medyan": 7,
+   "null_medyan": 10,
+   "p": 0.0,
+   "d2": 266,
+   "hal": {
+    "GEN": 45,
+    "ACC": 95,
+    "NOM": 126
+   },
+   "nom_pay": 0.474,
+   "p_nom": 0.00017,
+   "iplik": "FAİL"
+  },
+  "عند": {
+   "n": 201,
+   "medyan": 6,
+   "null_medyan": 10,
+   "p": 0.0004,
+   "d2": 85,
+   "hal": {
+    "GEN": 74,
+    "ACC": 5,
+    "NOM": 6
+   },
+   "nom_pay": 0.071,
+   "p_nom": 0.0,
+   "iplik": "BAĞLANMA"
+  },
+  "فضل": {
+   "n": 104,
+   "medyan": 2,
+   "null_medyan": 9,
+   "p": 0.0,
+   "d2": 61,
+   "hal": {
+    "GEN": 28,
+    "NOM": 26,
+    "ACC": 7
+   },
+   "nom_pay": 0.426,
+   "p_nom": 0.35127,
+   "iplik": "KARIŞIK"
+  }
+ },
+ "hakiki_uzak_4": {
+  "أكل": {
+   "n": 109,
+   "medyan": 21,
+   "null_medyan": 10,
+   "p": 0.0,
+   "d2": 2,
+   "hal": {
+    "NOM": 2
+   },
+   "iplik": "d2<5 — imza ölçülemez"
+  },
+  "أول": {
+   "n": 125,
+   "medyan": 35,
+   "null_medyan": 14,
+   "p": 0.0,
+   "d2": 3,
+   "hal": {
+    "NOM": 2,
+    "GEN": 1
+   },
+   "iplik": "d2<5 — imza ölçülemez"
+  },
+  "جنن": {
+   "n": 201,
+   "medyan": 20,
+   "null_medyan": 12,
+   "p": 0.0004,
+   "d2": 4,
+   "hal": {
+    "NOM": 2,
+    "GEN": 2
+   },
+   "iplik": "d2<5 — imza ölçülemez"
+  },
+  "ربب": {
+   "n": 980,
+   "medyan": 23,
+   "null_medyan": 15,
+   "p": 0.0,
+   "d2": 70,
+   "hal": {
+    "GEN": 21,
+    "NOM": 29,
+    "ACC": 20
+   },
+   "nom_pay": 0.414,
+   "p_nom": 0.38564,
+   "iplik": "KARIŞIK"
+  }
+ },
+ "okuma": "İki-iplik hipotezi tam taramada AYAKTA ve zenginleşti. BAĞLANMA ipliği (NOM payı tabanın altında, gramer kancası): dûn(0.03, min-dûnillâh dışlama kalıbı), sebîl(0.05, fî-sebîlillâh), ind(0.07, indallâh), abd(0.19, ibadet nesnesi). FAİL ipliği (Allah özne): şey/dileme(0.67, mâşâallâh-yeşâullâh), hüküm(0.60, Allah yahkumu), ilim(0.47, Allah yalemu / alîm kapanışları). KARIŞIK: fadl ve azz (esmâ-kapanış NOM + izafet GEN karışımı), tövbe-tipi çift seslilik. UZAK dörtlüsü: ربب (Rab ayrı yaşar — bulgu_rab_allah doğrulaması, d2 temasları bile karışık), أول, أكل, جنن (üçü d2<5: isimle neredeyse hiç temas etmiyorlar). Yakınların tamamı ya edat/izafet kalıbına ya Allah-özneli fiil kalıbına kilitli — tematik değil sentaktik örülme, 113-kök evreninde de tek ayakta kalan açıklama.",
+ "esik_alti_adaylar": {
+  "سمو": {
+   "n": 381,
+   "medyan": 9,
+   "p": 0.0024
+  },
+  "طوع": {
+   "n": 129,
+   "medyan": 6,
+   "p": 0.0012
+  },
+  "غفر": {
+   "n": 234,
+   "medyan": 6,
+   "p": 0.001
+  },
+  "نصر": {
+   "n": 158,
+   "medyan": 5,
+   "p": 0.0006
+  },
+  "هدي": {
+   "n": 316,
+   "medyan": 8,
+   "p": 0.0046
+  },
+  "وقي": {
+   "n": 258,
+   "medyan": 6,
+   "p": 0.0006
+  },
+  "not": "Kavram-düzeyinde sağlam olan hidâyet/takvâ/mağfiret, KÖK düzeyinde eşiği geçemedi (هدي 0.0046, وقي 0.0006, غفر 0.001 — hepsi eşik 0.000442 üstü). Sebep bileşik: (a) kök, ilgisiz lemmaları da toplar (هدي=hüdâ+hediye+kurbanlık), sinyali sulandırır; (b) 113-test Bonferroni yükü 40-test cetvelinden ağır. Bu bir çelişki değil; katman farkı — harf→kök→kavram hiyerarşisinin ölçümdeki izdüşümü."
+ },
+ "beklenmedik": "حكم ve شيأ fail-ipliğinin en güçlü yeni üyeleri — hüküm ve dileme, hüdâ gibi \"Allah'ın eylediği\" kalıplarda yaşıyor. دون'un 0.027 NOM payı korpusun en keskin bağlanma imzası: dışlama formülü ismin dibinden ayrılmıyor. قول ve كون nominal-uzak (0.014, 0.037) — anlatı dokusunun iki taşıyıcısı, anlatı-modu bulgusuyla tutarlı yönde.",
+ "girdi": "iplik_tarama_ham.json (113 satır tam liste, betik içinde üretim)"
+}

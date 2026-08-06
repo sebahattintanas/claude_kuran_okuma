@@ -1,0 +1,1125 @@
+[
+ {
+  "kok": "أبو",
+  "n": 117,
+  "medyan": 23,
+  "null_medyan": 15,
+  "yon": "uzak",
+  "p": 0.0058,
+  "hakiki": false
+ },
+ {
+  "kok": "أتي",
+  "n": 549,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0304,
+  "hakiki": false
+ },
+ {
+  "kok": "أجر",
+  "n": 108,
+  "medyan": 8,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.0456,
+  "hakiki": false
+ },
+ {
+  "kok": "أخذ",
+  "n": 273,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.1106,
+  "hakiki": false
+ },
+ {
+  "kok": "أخر",
+  "n": 250,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.4826,
+  "hakiki": false
+ },
+ {
+  "kok": "أذن",
+  "n": 102,
+  "medyan": 7,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.1234,
+  "hakiki": false
+ },
+ {
+  "kok": "أرض",
+  "n": 461,
+  "medyan": 9,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.0066,
+  "hakiki": false
+ },
+ {
+  "kok": "أكل",
+  "n": 109,
+  "medyan": 21,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 2,
+  "hal": {
+   "NOM": 2
+  },
+  "iplik": "d2<5 — imza ölçülemez"
+ },
+ {
+  "kok": "أمر",
+  "n": 248,
+  "medyan": 9,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.0368,
+  "hakiki": false
+ },
+ {
+  "kok": "أمم",
+  "n": 118,
+  "medyan": 19,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.002,
+  "hakiki": false
+ },
+ {
+  "kok": "أمن",
+  "n": 879,
+  "medyan": 8,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.1016,
+  "hakiki": false
+ },
+ {
+  "kok": "أنس",
+  "n": 338,
+  "medyan": 14,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0252,
+  "hakiki": false
+ },
+ {
+  "kok": "أهل",
+  "n": 127,
+  "medyan": 15,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0362,
+  "hakiki": false
+ },
+ {
+  "kok": "أول",
+  "n": 125,
+  "medyan": 35,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 3,
+  "hal": {
+   "NOM": 2,
+   "GEN": 1
+  },
+  "iplik": "d2<5 — imza ölçülemez"
+ },
+ {
+  "kok": "أيي",
+  "n": 597,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0402,
+  "hakiki": false
+ },
+ {
+  "kok": "بشر",
+  "n": 123,
+  "medyan": 14,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.2468,
+  "hakiki": false
+ },
+ {
+  "kok": "بصر",
+  "n": 148,
+  "medyan": 15,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.1512,
+  "hakiki": false
+ },
+ {
+  "kok": "بعد",
+  "n": 235,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.5706,
+  "hakiki": false
+ },
+ {
+  "kok": "بعض",
+  "n": 158,
+  "medyan": 10,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.3522,
+  "hakiki": false
+ },
+ {
+  "kok": "بني",
+  "n": 184,
+  "medyan": 14,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.0172,
+  "hakiki": false
+ },
+ {
+  "kok": "بين",
+  "n": 523,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.4758,
+  "hakiki": false
+ },
+ {
+  "kok": "تبع",
+  "n": 172,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.2302,
+  "hakiki": false
+ },
+ {
+  "kok": "جزي",
+  "n": 118,
+  "medyan": 16,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.081,
+  "hakiki": false
+ },
+ {
+  "kok": "جعل",
+  "n": 346,
+  "medyan": 20,
+  "null_medyan": 15,
+  "yon": "uzak",
+  "p": 0.0068,
+  "hakiki": false
+ },
+ {
+  "kok": "جمع",
+  "n": 129,
+  "medyan": 14,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.1078,
+  "hakiki": false
+ },
+ {
+  "kok": "جنن",
+  "n": 201,
+  "medyan": 20,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.0004,
+  "hakiki": true,
+  "d2": 4,
+  "hal": {
+   "NOM": 2,
+   "GEN": 2
+  },
+  "iplik": "d2<5 — imza ölçülemez"
+ },
+ {
+  "kok": "جيأ",
+  "n": 278,
+  "medyan": 16,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.009,
+  "hakiki": false
+ },
+ {
+  "kok": "حسب",
+  "n": 109,
+  "medyan": 8,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.261,
+  "hakiki": false
+ },
+ {
+  "kok": "حسن",
+  "n": 194,
+  "medyan": 9,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.1098,
+  "hakiki": false
+ },
+ {
+  "kok": "حقق",
+  "n": 287,
+  "medyan": 9,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.2428,
+  "hakiki": false
+ },
+ {
+  "kok": "حكم",
+  "n": 210,
+  "medyan": 4,
+  "null_medyan": 8,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 85,
+  "hal": {
+   "NOM": 51,
+   "ACC": 14,
+   "GEN": 20
+  },
+  "nom_pay": 0.6,
+  "p_nom": 1e-05,
+  "iplik": "FAİL"
+ },
+ {
+  "kok": "حيي",
+  "n": 189,
+  "medyan": 11,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.6648,
+  "hakiki": false
+ },
+ {
+  "kok": "خرج",
+  "n": 182,
+  "medyan": 15,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.018,
+  "hakiki": false
+ },
+ {
+  "kok": "خلف",
+  "n": 127,
+  "medyan": 14,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0866,
+  "hakiki": false
+ },
+ {
+  "kok": "خلق",
+  "n": 261,
+  "medyan": 15,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.0588,
+  "hakiki": false
+ },
+ {
+  "kok": "خوف",
+  "n": 124,
+  "medyan": 14,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.2934,
+  "hakiki": false
+ },
+ {
+  "kok": "خير",
+  "n": 196,
+  "medyan": 9,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.3252,
+  "hakiki": false
+ },
+ {
+  "kok": "دخل",
+  "n": 126,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.3636,
+  "hakiki": false
+ },
+ {
+  "kok": "دعو",
+  "n": 212,
+  "medyan": 9,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.021,
+  "hakiki": false
+ },
+ {
+  "kok": "دنو",
+  "n": 133,
+  "medyan": 12,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.065,
+  "hakiki": false
+ },
+ {
+  "kok": "دون",
+  "n": 144,
+  "medyan": 2,
+  "null_medyan": 13,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 75,
+  "hal": {
+   "GEN": 73,
+   "NOM": 2
+  },
+  "nom_pay": 0.027,
+  "p_nom": 0.0,
+  "iplik": "BAĞLANMA"
+ },
+ {
+  "kok": "دين",
+  "n": 101,
+  "medyan": 9,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.5612,
+  "hakiki": false
+ },
+ {
+  "kok": "ذكر",
+  "n": 292,
+  "medyan": 15,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.4604,
+  "hakiki": false
+ },
+ {
+  "kok": "رأي",
+  "n": 328,
+  "medyan": 15,
+  "null_medyan": 13,
+  "yon": "uzak",
+  "p": 0.215,
+  "hakiki": false
+ },
+ {
+  "kok": "ربب",
+  "n": 980,
+  "medyan": 23,
+  "null_medyan": 15,
+  "yon": "uzak",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 70,
+  "hal": {
+   "GEN": 21,
+   "NOM": 29,
+   "ACC": 20
+  },
+  "nom_pay": 0.414,
+  "p_nom": 0.38564,
+  "iplik": "KARIŞIK"
+ },
+ {
+  "kok": "رجع",
+  "n": 104,
+  "medyan": 19,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.0088,
+  "hakiki": false
+ },
+ {
+  "kok": "رحم",
+  "n": 339,
+  "medyan": 13,
+  "null_medyan": 13,
+  "yon": "uzak",
+  "p": 0.5246,
+  "hakiki": false
+ },
+ {
+  "kok": "رزق",
+  "n": 123,
+  "medyan": 9,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.1848,
+  "hakiki": false
+ },
+ {
+  "kok": "رسل",
+  "n": 513,
+  "medyan": 9,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.1542,
+  "hakiki": false
+ },
+ {
+  "kok": "رود",
+  "n": 148,
+  "medyan": 9,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.2358,
+  "hakiki": false
+ },
+ {
+  "kok": "سأل",
+  "n": 129,
+  "medyan": 15,
+  "null_medyan": 13,
+  "yon": "uzak",
+  "p": 0.2246,
+  "hakiki": false
+ },
+ {
+  "kok": "سبل",
+  "n": 176,
+  "medyan": 4,
+  "null_medyan": 8,
+  "yon": "yakin",
+  "p": 0.0002,
+  "hakiki": true,
+  "d2": 79,
+  "hal": {
+   "GEN": 72,
+   "NOM": 4,
+   "ACC": 3
+  },
+  "nom_pay": 0.051,
+  "p_nom": 0.0,
+  "iplik": "BAĞLANMA"
+ },
+ {
+  "kok": "سلم",
+  "n": 140,
+  "medyan": 10,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.3816,
+  "hakiki": false
+ },
+ {
+  "kok": "سمع",
+  "n": 185,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.2086,
+  "hakiki": false
+ },
+ {
+  "kok": "سمو",
+  "n": 381,
+  "medyan": 9,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.0024,
+  "hakiki": false
+ },
+ {
+  "kok": "سوأ",
+  "n": 167,
+  "medyan": 9,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.1652,
+  "hakiki": false
+ },
+ {
+  "kok": "شدد",
+  "n": 102,
+  "medyan": 11,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.4626,
+  "hakiki": false
+ },
+ {
+  "kok": "شرك",
+  "n": 168,
+  "medyan": 7,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.0456,
+  "hakiki": false
+ },
+ {
+  "kok": "شهد",
+  "n": 160,
+  "medyan": 7,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.0422,
+  "hakiki": false
+ },
+ {
+  "kok": "شيأ",
+  "n": 519,
+  "medyan": 6,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 129,
+  "hal": {
+   "NOM": 87,
+   "ACC": 20,
+   "GEN": 22
+  },
+  "nom_pay": 0.674,
+  "p_nom": 0.0,
+  "iplik": "FAİL"
+ },
+ {
+  "kok": "صبر",
+  "n": 103,
+  "medyan": 10,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.2122,
+  "hakiki": false
+ },
+ {
+  "kok": "صدق",
+  "n": 155,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.5686,
+  "hakiki": false
+ },
+ {
+  "kok": "صلح",
+  "n": 180,
+  "medyan": 12,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.646,
+  "hakiki": false
+ },
+ {
+  "kok": "ضلل",
+  "n": 191,
+  "medyan": 9,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.0758,
+  "hakiki": false
+ },
+ {
+  "kok": "طوع",
+  "n": 129,
+  "medyan": 6,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.0012,
+  "hakiki": false
+ },
+ {
+  "kok": "ظلم",
+  "n": 315,
+  "medyan": 11,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.577,
+  "hakiki": false
+ },
+ {
+  "kok": "عبد",
+  "n": 275,
+  "medyan": 8,
+  "null_medyan": 14,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 67,
+  "hal": {
+   "ACC": 37,
+   "NOM": 13,
+   "GEN": 17
+  },
+  "nom_pay": 0.194,
+  "p_nom": 0.00332,
+  "iplik": "BAĞLANMA"
+ },
+ {
+  "kok": "عدو",
+  "n": 106,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.5414,
+  "hakiki": false
+ },
+ {
+  "kok": "عذب",
+  "n": 373,
+  "medyan": 11,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.6674,
+  "hakiki": false
+ },
+ {
+  "kok": "عزز",
+  "n": 120,
+  "medyan": 5,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 50,
+  "hal": {
+   "ACC": 16,
+   "NOM": 18,
+   "GEN": 16
+  },
+  "nom_pay": 0.36,
+  "p_nom": 1.0,
+  "iplik": "KARIŞIK"
+ },
+ {
+  "kok": "عظم",
+  "n": 128,
+  "medyan": 9,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.7496,
+  "hakiki": false
+ },
+ {
+  "kok": "علم",
+  "n": 854,
+  "medyan": 7,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 266,
+  "hal": {
+   "GEN": 45,
+   "ACC": 95,
+   "NOM": 126
+  },
+  "nom_pay": 0.474,
+  "p_nom": 0.00017,
+  "iplik": "FAİL"
+ },
+ {
+  "kok": "عمل",
+  "n": 360,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0402,
+  "hakiki": false
+ },
+ {
+  "kok": "عند",
+  "n": 201,
+  "medyan": 6,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.0004,
+  "hakiki": true,
+  "d2": 85,
+  "hal": {
+   "GEN": 74,
+   "ACC": 5,
+   "NOM": 6
+  },
+  "nom_pay": 0.071,
+  "p_nom": 0.0,
+  "iplik": "BAĞLANMA"
+ },
+ {
+  "kok": "غفر",
+  "n": 234,
+  "medyan": 6,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.001,
+  "hakiki": false
+ },
+ {
+  "kok": "غير",
+  "n": 154,
+  "medyan": 7,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.04,
+  "hakiki": false
+ },
+ {
+  "kok": "فضل",
+  "n": 104,
+  "medyan": 2,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.0,
+  "hakiki": true,
+  "d2": 61,
+  "hal": {
+   "GEN": 28,
+   "NOM": 26,
+   "ACC": 7
+  },
+  "nom_pay": 0.426,
+  "p_nom": 0.35127,
+  "iplik": "KARIŞIK"
+ },
+ {
+  "kok": "فعل",
+  "n": 108,
+  "medyan": 9,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.0942,
+  "hakiki": false
+ },
+ {
+  "kok": "قبل",
+  "n": 294,
+  "medyan": 16,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0008,
+  "hakiki": false
+ },
+ {
+  "kok": "قتل",
+  "n": 170,
+  "medyan": 7,
+  "null_medyan": 8,
+  "yon": "yakin",
+  "p": 0.476,
+  "hakiki": false
+ },
+ {
+  "kok": "قدر",
+  "n": 132,
+  "medyan": 12,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.519,
+  "hakiki": false
+ },
+ {
+  "kok": "قلب",
+  "n": 168,
+  "medyan": 7,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.0492,
+  "hakiki": false
+ },
+ {
+  "kok": "قول",
+  "n": 1722,
+  "medyan": 14,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.014,
+  "hakiki": false
+ },
+ {
+  "kok": "قوم",
+  "n": 660,
+  "medyan": 12,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.3442,
+  "hakiki": false
+ },
+ {
+  "kok": "كبر",
+  "n": 161,
+  "medyan": 10,
+  "null_medyan": 12,
+  "yon": "yakin",
+  "p": 0.116,
+  "hakiki": false
+ },
+ {
+  "kok": "كتب",
+  "n": 319,
+  "medyan": 10,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.2244,
+  "hakiki": false
+ },
+ {
+  "kok": "كثر",
+  "n": 167,
+  "medyan": 11,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.585,
+  "hakiki": false
+ },
+ {
+  "kok": "كذب",
+  "n": 282,
+  "medyan": 21,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.0022,
+  "hakiki": false
+ },
+ {
+  "kok": "كفر",
+  "n": 525,
+  "medyan": 9,
+  "null_medyan": 9,
+  "yon": "uzak",
+  "p": 0.7178,
+  "hakiki": false
+ },
+ {
+  "kok": "كلل",
+  "n": 377,
+  "medyan": 14,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0268,
+  "hakiki": false
+ },
+ {
+  "kok": "كون",
+  "n": 1390,
+  "medyan": 13,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.0368,
+  "hakiki": false
+ },
+ {
+  "kok": "لقي",
+  "n": 146,
+  "medyan": 22,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.0038,
+  "hakiki": false
+ },
+ {
+  "kok": "مثل",
+  "n": 169,
+  "medyan": 12,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.3378,
+  "hakiki": false
+ },
+ {
+  "kok": "ملك",
+  "n": 206,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.7408,
+  "hakiki": false
+ },
+ {
+  "kok": "موت",
+  "n": 165,
+  "medyan": 12,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.1054,
+  "hakiki": false
+ },
+ {
+  "kok": "نبأ",
+  "n": 160,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.2188,
+  "hakiki": false
+ },
+ {
+  "kok": "نذر",
+  "n": 130,
+  "medyan": 16,
+  "null_medyan": 15,
+  "yon": "uzak",
+  "p": 0.373,
+  "hakiki": false
+ },
+ {
+  "kok": "نزل",
+  "n": 293,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.6246,
+  "hakiki": false
+ },
+ {
+  "kok": "نصر",
+  "n": 158,
+  "medyan": 5,
+  "null_medyan": 9,
+  "yon": "yakin",
+  "p": 0.0006,
+  "hakiki": false
+ },
+ {
+  "kok": "نظر",
+  "n": 129,
+  "medyan": 16,
+  "null_medyan": 12,
+  "yon": "uzak",
+  "p": 0.0502,
+  "hakiki": false
+ },
+ {
+  "kok": "نعم",
+  "n": 140,
+  "medyan": 12,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.4498,
+  "hakiki": false
+ },
+ {
+  "kok": "نفس",
+  "n": 298,
+  "medyan": 10,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.5492,
+  "hakiki": false
+ },
+ {
+  "kok": "نفق",
+  "n": 111,
+  "medyan": 6,
+  "null_medyan": 7,
+  "yon": "yakin",
+  "p": 0.4754,
+  "hakiki": false
+ },
+ {
+  "kok": "نهر",
+  "n": 113,
+  "medyan": 12,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.4114,
+  "hakiki": false
+ },
+ {
+  "kok": "نور",
+  "n": 194,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.3532,
+  "hakiki": false
+ },
+ {
+  "kok": "هدي",
+  "n": 316,
+  "medyan": 8,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.0046,
+  "hakiki": false
+ },
+ {
+  "kok": "وجد",
+  "n": 107,
+  "medyan": 10,
+  "null_medyan": 11,
+  "yon": "yakin",
+  "p": 0.3596,
+  "hakiki": false
+ },
+ {
+  "kok": "وعد",
+  "n": 151,
+  "medyan": 15,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.4818,
+  "hakiki": false
+ },
+ {
+  "kok": "وقي",
+  "n": 258,
+  "medyan": 6,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.0006,
+  "hakiki": false
+ },
+ {
+  "kok": "ولد",
+  "n": 102,
+  "medyan": 12,
+  "null_medyan": 11,
+  "yon": "uzak",
+  "p": 0.301,
+  "hakiki": false
+ },
+ {
+  "kok": "ولي",
+  "n": 232,
+  "medyan": 8,
+  "null_medyan": 10,
+  "yon": "yakin",
+  "p": 0.1378,
+  "hakiki": false
+ },
+ {
+  "kok": "يدي",
+  "n": 120,
+  "medyan": 11,
+  "null_medyan": 10,
+  "yon": "uzak",
+  "p": 0.2972,
+  "hakiki": false
+ },
+ {
+  "kok": "يوم",
+  "n": 475,
+  "medyan": 19,
+  "null_medyan": 14,
+  "yon": "uzak",
+  "p": 0.0006,
+  "hakiki": false
+ }
+]
