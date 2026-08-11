@@ -1,0 +1,20 @@
+{
+  "ad": "kok_denetim_jnn",
+  "tarih": "2026-08-08",
+  "kok": "جنن",
+  "sorun": "kok_anlam_tablosu.json üç lemmayı yanlışlıkla 'cennet' kavramına bağlıyor.",
+  "korpus_dagilimi": {
+    "جَنَّة": {"n": 147, "tablo": "cennet", "durum": "DOĞRU"},
+    "جِنّ": {"n": 22, "tablo": "cin", "durum": "DOĞRU"},
+    "مَجْنُون": {"n": 11, "tablo": "delilik", "durum": "DOĞRU"},
+    "جانّ": {"n": 7, "tablo": "cin", "durum": "DOĞRU"},
+    "جَنَّ": {"n": 1, "tablo": "cin", "durum": "DOĞRU (6:76)"},
+    "جِنَّة": {"n": 10, "tablo": "cennet", "durum": "HATA", "dogrusu": "cin / delilik", "ornek": ["7:184", "11:119", "23:25", "23:70", "32:13"]},
+    "جُنَّة": {"n": 2, "tablo": "cennet", "durum": "HATA", "dogrusu": "kalkan/siper", "ornek": ["58:16", "63:2"]},
+    "أَجِنَّة": {"n": 1, "tablo": "cennet", "durum": "HATA", "dogrusu": "cenin", "ornek": ["53:32"]}
+  },
+  "etki": "13 kelime yanlışlıkla 'cennet' kavramına akıyor. Gerçek gövde 147, ölçülen 160 — %8 kirlilik.",
+  "etkilenen_dosyalar": ["gradyan_cetveli.json (cennet satırı)", "iliski_agi.json (cennet düğümü)", "kavram_uzayi çıktıları"],
+  "ayrica": "kok_adlar.json görüntü katmanında جنن kökünün varsayılanı 'cennet'; bu yüzden sûre 72 (el-Cinn) bile 'cennet' diye raporlanıyor. Görüntüde de kavram() çözümü kullanılmalı.",
+  "durum": "DÜZELTME BEKLİYOR"
+}

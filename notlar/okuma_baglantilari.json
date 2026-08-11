@@ -1,0 +1,2315 @@
+{
+ "ad": "okuma_baglantilari",
+ "amac": "Okuma sırasında ELLE kurulan bağlantılar. defter.json ölçüm sayılarını yeniden üretir; bu dosya üretemez — hangi bağın anlamlı olduğu bir yargıdır.",
+ "kural": "Bunlar BULGU DEĞİL. Her biri tur sonunda ön-kayıtlı test edilecek aday malzemedir.",
+ "kapsam": "1, 2, 3, 4:1-40 (69-74 ayrı bulgu dosyalarında)",
+ "lafiz_ozdesligi": {
+  "aciklama": "Okurken saptanan birebir ya da neredeyse birebir tekrarlar. xref alanı bunların bir kısmını otomatik yakalıyor; buradakiler elle doğrulandı.",
+  "cift": [
+   [
+    "2:5",
+    "31:5",
+    "tam-ayet ikizi"
+   ],
+   [
+    "2:47",
+    "2:122",
+    "tam-ayet ikizi, sûre içi, 75 ayet arayla"
+   ],
+   [
+    "2:48",
+    "2:123",
+    "neredeyse ikiz; İÇ SIRA TERS: şefaat-fidye → fidye-şefaat"
+   ],
+   [
+    "2:134",
+    "2:141",
+    "tam-ayet ikizi, 7 ayet arayla; arada 135-140 tartışması"
+   ],
+   [
+    "2:162",
+    "3:88",
+    "tam-ayet ikizi, sûreler arası"
+   ],
+   [
+    "2:161",
+    "3:87",
+    "ardışık çiftin ilki — 2:161-162 ve 3:87-88 aynı sırayla"
+   ],
+   [
+    "3:89",
+    "24:5",
+    "tam-ayet ikizi"
+   ],
+   [
+    "2:14",
+    "2:76",
+    "iskelet birebir, 62 ayet arayla"
+   ],
+   [
+    "2:14",
+    "3:119",
+    "aynı iskelet üçüncü kez; ikinci sahnedeki eylem her seferinde farklı"
+   ],
+   [
+    "2:9",
+    "3:69",
+    "tek kelime farkla aynı cümle: يَخْدَعُونَ → يُضِلُّونَ; son üç kelime birebir"
+   ],
+   [
+    "2:26",
+    "74:31",
+    "'ماذا أراد الله بهذا مثلا' korpusta yalnız bu iki ayette"
+   ],
+   [
+    "2:61",
+    "3:112",
+    "neredeyse kelime kelime aynı; fark: 3:112'de إِلَّا بِحَبْلٍ istisnası ve iki ayrı ضُرِبَتْ"
+   ],
+   [
+    "2:80",
+    "3:24",
+    "أَيَّامًا مَّعْدُودَة iddiası; 2:184'te aynı ifade HÜKÜM"
+   ],
+   [
+    "2:93",
+    "2:285",
+    "سَمِعْنَا وَعَصَيْنَا ↔ سَمِعْنَا وَأَطَعْنَا, 192 ayet arayla"
+   ],
+   [
+    "2:154",
+    "3:169",
+    "aynı önerme; fiil تَقُولُوا۟ → تَحْسَبَنَّ, kuyruk 'farkında değilsiniz' → 'Rableri katında'"
+   ],
+   [
+    "2:147",
+    "3:60",
+    "birebir 7 kelime, iki farklı tartışmanın mührü"
+   ],
+   [
+    "2:136",
+    "3:84",
+    "لَا نُفَرِّقُ بَيْنَ أَحَدٍ; 2:285 ile birlikte üç geçiş"
+   ],
+   [
+    "2:216",
+    "2:232",
+    "وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ; 3:66 ile üç geçiş"
+   ],
+   [
+    "2:216",
+    "4:19",
+    "عَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا; savaş → evlilik"
+   ],
+   [
+    "2:233",
+    "2:286",
+    "لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا, edilgen → Allah özne"
+   ],
+   [
+    "2:250",
+    "2:286",
+    "ثَبِّتْ أَقْدَامَنَا + ٱنصُرْنَا; 3:147 ile üç geçiş"
+   ],
+   [
+    "2:255",
+    "3:2",
+    "ilk yedi kelime; 3:2 onu tek başına ayet yapıyor"
+   ],
+   [
+    "2:129",
+    "2:151",
+    "İbrâhim'in duası ↔ cevabı; 3:164 ile dördüncü, 3:151 ile üçüncü"
+   ],
+   [
+    "2:2",
+    "3:9",
+    "لَّا رَيْبَ فِيهِ: kitap için ↔ gün için"
+   ],
+   [
+    "2:120",
+    "3:73",
+    "إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ"
+   ],
+   [
+    "2:42",
+    "3:71",
+    "aynı iki fiil aynı sırayla; yasak → soru kipinde"
+   ],
+   [
+    "2:79",
+    "3:78",
+    "elle yazma ↔ dille eğme; aynı iddia, farklı araç"
+   ],
+   [
+    "2:159",
+    "3:187",
+    "gizleme; 2:101 ile birlikte 3:187'de birleşiyor"
+   ],
+   [
+    "2:188",
+    "4:29",
+    "aynı yasak; Nisâ'da ruhsat eklenmiş"
+   ],
+   [
+    "2:174",
+    "4:10",
+    "karınlarına ateş yeme"
+   ],
+   [
+    "2:264",
+    "4:38",
+    "رِئَآءَ ٱلنَّاسِ, ikisi de infak bağlamında"
+   ],
+   [
+    "2:21",
+    "4:1",
+    "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم"
+   ],
+   [
+    "2:184",
+    "4:25",
+    "وَأَن تَصُومُوا۟/تَصْبِرُوا۟ خَيْرٌ لَّكُمْ — ruhsat verilip tercih edilmeyeceği söyleniyor"
+   ],
+   [
+    "3:195",
+    "4:25",
+    "بَعْضُكُم مِّنۢ بَعْضٍ; 3:34'te soy sürekliliği"
+   ],
+   [
+    "3:10",
+    "3:116",
+    "birebir, 106 ayet arayla"
+   ],
+   [
+    "3:70",
+    "3:98",
+    "aynı soru, şahit taraf değişmiş (siz şahitken → Allah şahit)"
+   ],
+   [
+    "3:122",
+    "3:160",
+    "وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ — Uhud bloğunun iki ucu"
+   ],
+   [
+    "3:9",
+    "3:194",
+    "لَا يُخْلِفُ ٱلْمِيعَادَ — sûrenin iki ucundaki dua"
+   ],
+   [
+    "3:156",
+    "3:168",
+    "aynı karşı-olgusal, 12 ayet arayla"
+   ],
+   [
+    "3:104",
+    "3:110",
+    "üç fiil aynı; talep → beyan; 3:114'te üçüncü özneye"
+   ],
+   [
+    "4:7",
+    "4:32",
+    "لِّلرِّجَالِ نَصِيبٌ / وَلِلنِّسَآءِ نَصِيبٌ; bırakılandan ↔ kazanılandan"
+   ],
+   [
+    "4:32",
+    "4:34",
+    "فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ; temenni yasağı ↔ hüküm gerekçesi"
+   ],
+   [
+    "2:154",
+    "2:243",
+    "ölüm-diriliş; 2:28'in salınımı"
+   ],
+   [
+    "70:19",
+    "4:28",
+    "خُلِقَ ٱلْإِنسَٰنُ + tek sıfat: هَلُوعًا / ضَعِيفًا"
+   ],
+   [
+    "73:20",
+    "2:110",
+    "وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ"
+   ],
+   [
+    "73:20",
+    "2:245",
+    "أَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا"
+   ],
+   [
+    "73:9",
+    "2:115",
+    "ٱلْمَشْرِق وَٱلْمَغْرِب: Rab'a ↔ Allah'a; 70:40'ta çoğul"
+   ],
+   [
+    "71:7",
+    "2:19",
+    "أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم — aynı jest"
+   ],
+   [
+    "71:17",
+    "3:37",
+    "أَنۢبَتَ … نَبَاتًا; insanın yaratılışı ↔ çocuğun yetiştirilmesi"
+   ],
+   [
+    "69:32",
+    "2:42|72:17",
+    "سلك kökü: cehenneme sokma ↔ koruma yerleştirme"
+   ],
+   [
+    "56:74|56:96",
+    "69:52",
+    "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ"
+   ],
+   [
+    "56:80",
+    "69:43",
+    "تَنزِيلٌ مِّن رَّبِّ ٱلْعَٰلَمِينَ"
+   ],
+   [
+    "23:5-8",
+    "70:29-32",
+    "dört ARDIŞIK ayet birebir — korpus rekoru"
+   ],
+   [
+    "2:35",
+    "7:19",
+    "yasak ayeti neredeyse birebir; A'râf'ta رَغَدًا düşmüş"
+   ],
+   [
+    "2:36",
+    "7:24",
+    "iniş ayeti kelime kelime aynı"
+   ],
+   [
+    "2:34",
+    "7:11",
+    "secde emri; İblîs'in reddi farklı ifadeyle (أَبَىٰ وَٱسْتَكْبَرَ / لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ)"
+   ],
+   [
+    "2:58",
+    "7:161",
+    "hıtta; A'râf'ta İÇ SIRA TERS (söyle-gir / gir-söyle)"
+   ],
+   [
+    "2:59",
+    "7:162",
+    "kelime ikamesi, neredeyse birebir"
+   ],
+   [
+    "2:60",
+    "7:160",
+    "on iki pınar; ٱنفَجَرَتْ ↔ ٱنۢبَجَسَتْ (بجس korpusta tek)"
+   ],
+   [
+    "2:63",
+    "7:171",
+    "Tûr'un kaldırılması; رفع ↔ نتق (نتق korpusta tek)"
+   ],
+   [
+    "2:65",
+    "7:166",
+    "قِرَدَةً خَٰسِـِٔينَ birebir"
+   ],
+   [
+    "2:49",
+    "7:141",
+    "Firavun'dan kurtuluş, birebir"
+   ],
+   [
+    "2:51",
+    "7:142",
+    "kırk gece; 7:142'de 30+10=40 açık toplama"
+   ],
+   [
+    "7:78",
+    "7:91",
+    "sûre içi tam-ayet ikizi: Semûd ve Medyen aynı sonla"
+   ],
+   [
+    "7:107",
+    "26:32",
+    "tam-ayet ikizi; 7:108=26:33 ile ARDIŞIK ÇİFT"
+   ],
+   [
+    "7:121",
+    "26:47",
+    "tam-ayet ikizi; 7:122=26:48 ile İKİNCİ ardışık çift"
+   ],
+   [
+    "7:183",
+    "68:45",
+    "tam-ayet ikizi"
+   ],
+   [
+    "7:16",
+    "7:86",
+    "şeytanın planı (لَأَقْعُدَنَّ … صِرَٰطَكَ) 70 ayet sonra insan fiili olarak yasak"
+   ],
+   [
+    "6:103",
+    "7:143",
+    "ilke → deney; aracı üzerinden dolaylı test"
+   ],
+   [
+    "6:18",
+    "7:127",
+    "ٱلْقَاهِرُ فَوْقَ عِبَادِهِ (Allah) ↔ وَإِنَّا فَوْقَهُمْ قَٰهِرُونَ (Firavun): aynı kök aynı edat iki fâil"
+   ],
+   [
+    "6:12",
+    "6:54",
+    "كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ — EKSEN VARYANTI (Allah ↔ Rab)"
+   ],
+   [
+    "6:34",
+    "6:115",
+    "لَّا مُبَدِّلَ لِكَلِمَٰت — eksen varyantı"
+   ],
+   [
+    "2:74",
+    "6:132",
+    "وَمَا … بِغَٰفِلٍ عَمَّا يَعْمَلُونَ — altı Allah'lı geçişten sonra ilk Rab"
+   ],
+   [
+    "2:173",
+    "6:145",
+    "haram-ruhsat mührü: فَإِنَّ ٱللَّهَ ↔ فَإِنَّ رَبَّكَ"
+   ],
+   [
+    "6:112",
+    "6:137",
+    "aynı cümle iki eksende (رَبُّكَ ↔ ٱللَّهُ)"
+   ],
+   [
+    "2:9",
+    "6:26",
+    "وَمَا يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ — kalıbın üçüncü fiili"
+   ],
+   [
+    "2:9",
+    "6:123",
+    "وَمَا يَمْكُرُونَ إِلَّا بِأَنفُسِهِمْ — dördüncü fiil"
+   ],
+   [
+    "2:6",
+    "7:176",
+    "fark-yokluğu: soyut ifade ↔ köpek meseli"
+   ],
+   [
+    "2:6",
+    "7:193",
+    "fark-yokluğu: çağırsan da sussan da"
+   ],
+   [
+    "2:6",
+    "8:23",
+    "fark-yokluğu: işittirseydi de dönerlerdi"
+   ],
+   [
+    "3:126",
+    "8:10",
+    "birebir aynı cümle; ikisi de sayı verildikten hemen sonra"
+   ],
+   [
+    "3:151",
+    "8:12",
+    "سَنُلْقِى/سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ — çoğul/tekil farkı"
+   ],
+   [
+    "3:54",
+    "8:30",
+    "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ birebir; 8:30'da مكر dört kez"
+   ],
+   [
+    "3:179",
+    "8:37",
+    "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ birebir"
+   ],
+   [
+    "2:193",
+    "8:39",
+    "savaş şartı; 8:39'da كُلُّهُ eklenmiş"
+   ],
+   [
+    "3:150",
+    "8:40",
+    "ٱللَّهُ مَوْلَىٰكُمْ + نَصِير"
+   ],
+   [
+    "2:3",
+    "8:3",
+    "namaz-infak ikilisi birebir"
+   ],
+   [
+    "7:183",
+    "8:18",
+    "كَيْدِى مَتِينٌ ↔ مُوهِنُ كَيْدِ ٱلْكَٰفِرِينَ: aynı kök iki nitelik"
+   ],
+   [
+    "4:135",
+    "5:8",
+    "قوّامين/شهداء İÇ SIRA TERS"
+   ],
+   [
+    "2:62",
+    "5:69",
+    "liste sırası ters (Nasârâ/Sâbiîn yer değiştiriyor)"
+   ],
+   [
+    "5:18",
+    "5:40",
+    "غفر/عذب sıra ters, sûre içi"
+   ],
+   [
+    "3:49",
+    "5:110",
+    "aynı beş mucize, şahıs çevrilmiş; بِإِذْنِى iki→dört"
+   ],
+   [
+    "2:225",
+    "5:89",
+    "aynı yemin kuralı; Mâide'de KEFARET eklenmiş"
+   ],
+   [
+    "2:170",
+    "5:104",
+    "ata-argümanı birebir"
+   ],
+   [
+    "2:113",
+    "5:68",
+    "لَسْتُمْ عَلَىٰ شَىْءٍ — fâil değişmiş"
+   ],
+   [
+    "3:51",
+    "5:72",
+    "ٱللَّهَ رَبِّى وَرَبَّكُمْ birebir"
+   ],
+   [
+    "3:144",
+    "5:75",
+    "قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ — aynı argüman iki kişi için"
+   ],
+   [
+    "2:196",
+    "7:142",
+    "açık aritmetik: 3+7=10 ↔ 30+10=40, ikisi de tamlık vurgulu"
+   ],
+   [
+    "2:32",
+    "5:109",
+    "لَا عِلْمَ لَنَآ — Bakara'da istisnâ var, Mâide'de YOK"
+   ],
+   [
+    "4:1",
+    "6:98",
+    "نَّفْسٍ وَٰحِدَةٍ; 7:189 ile üç"
+   ],
+   [
+    "2:154",
+    "3:169",
+    "ölüler sanmayın; fiil تَقُولُوا۟→تَحْسَبَنَّ"
+   ],
+   [
+    "2:106",
+    "4:86",
+    "≥ kuralı: nesh ↔ selam"
+   ],
+   [
+    "4:7",
+    "4:118",
+    "نَصِيبًا مَّفْرُوضًا — miras payı ↔ şeytanın payı"
+   ],
+   [
+    "4:48",
+    "4:116",
+    "aynı ayet, iki farklı sonuç cümlesi"
+   ],
+   [
+    "2:2",
+    "3:9",
+    "لَّا رَيْبَ فِيهِ; 4:87 ile üç"
+   ],
+   [
+    "6:38",
+    "7:194",
+    "أَمْثَالُكُم: hayvanlar için denklik ↔ putlar için denksizleştirme"
+   ],
+   [
+    "7:179",
+    "7:195",
+    "iki organ listesi, kısmî örtüşme (göz, kulak ortak)"
+   ],
+   [
+    "2:31",
+    "7:180",
+    "سمو: öğretilen isimler ↔ Allah'ın isimleri; 7:71 uydurulan isimler"
+   ]
+  ],
+  "kural_kodlari": {
+   "L1": "tam-ayet özdeşliği",
+   "L2": ">=3 kelimelik ortak lemma dizisi",
+   "L3": "iskelet (<=2 terim fark)",
+   "L4": "ortak bitişik kök çifti",
+   "L5": ">=3 ortak kök (zayıf)",
+   "Y": "doğrulanabilir lafzî temel yok — saf yargı"
+  },
+  "guven_etiketleri": {
+   "dogrulandi": "betikle kontrol edildi, lafzî temel var",
+   "elle": "zayıf lafzî temel — ben kurdum",
+   "yorum": "lafzî temel yok, yargı"
+  },
+  "denetlenmis_cift": [
+   {
+    "a": "2:5",
+    "b": "31:5",
+    "aciklama": "tam-ayet ikizi",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:47",
+    "b": "2:122",
+    "aciklama": "tam-ayet ikizi, sûre içi, 75 ayet arayla",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:48",
+    "b": "2:123",
+    "aciklama": "neredeyse ikiz; İÇ SIRA TERS: şefaat-fidye → fidye-şefaat",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (3 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:134",
+    "b": "2:141",
+    "aciklama": "tam-ayet ikizi, 7 ayet arayla; arada 135-140 tartışması",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:162",
+    "b": "3:88",
+    "aciklama": "tam-ayet ikizi, sûreler arası",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:161",
+    "b": "3:87",
+    "aciklama": "ardışık çiftin ilki — 2:161-162 ve 3:87-88 aynı sırayla",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:89",
+    "b": "24:5",
+    "aciklama": "tam-ayet ikizi",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:14",
+    "b": "2:76",
+    "aciklama": "iskelet birebir, 62 ayet arayla",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:14",
+    "b": "3:119",
+    "aciklama": "aynı iskelet üçüncü kez; ikinci sahnedeki eylem her seferinde farklı",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:9",
+    "b": "3:69",
+    "aciklama": "tek kelime farkla aynı cümle: يَخْدَعُونَ → يُضِلُّونَ; son üç kelime birebir",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:26",
+    "b": "74:31",
+    "aciklama": "'ماذا أراد الله بهذا مثلا' korpusta yalnız bu iki ayette",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:61",
+    "b": "3:112",
+    "aciklama": "neredeyse kelime kelime aynı; fark: 3:112'de إِلَّا بِحَبْلٍ istisnası ve iki ayrı ضُرِبَتْ",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (7 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:80",
+    "b": "3:24",
+    "aciklama": "أَيَّامًا مَّعْدُودَة iddiası; 2:184'te aynı ifade HÜKÜM",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:93",
+    "b": "2:285",
+    "aciklama": "سَمِعْنَا وَعَصَيْنَا ↔ سَمِعْنَا وَأَطَعْنَا, 192 ayet arayla",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:154",
+    "b": "3:169",
+    "aciklama": "aynı önerme; fiil تَقُولُوا۟ → تَحْسَبَنَّ, kuyruk 'farkında değilsiniz' → 'Rableri katında'",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:147",
+    "b": "3:60",
+    "aciklama": "birebir 7 kelime, iki farklı tartışmanın mührü",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:136",
+    "b": "3:84",
+    "aciklama": "لَا نُفَرِّقُ بَيْنَ أَحَدٍ; 2:285 ile birlikte üç geçiş",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (6 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:216",
+    "b": "2:232",
+    "aciklama": "وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ; 3:66 ile üç geçiş",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:216",
+    "b": "4:19",
+    "aciklama": "عَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا; savaş → evlilik",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:233",
+    "b": "2:286",
+    "aciklama": "لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا, edilgen → Allah özne",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:250",
+    "b": "2:286",
+    "aciklama": "ثَبِّتْ أَقْدَامَنَا + ٱنصُرْنَا; 3:147 ile üç geçiş",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:255",
+    "b": "3:2",
+    "aciklama": "ilk yedi kelime; 3:2 onu tek başına ayet yapıyor",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:129",
+    "b": "2:151",
+    "aciklama": "İbrâhim'in duası ↔ cevabı; 3:164 ile dördüncü, 3:151 ile üçüncü",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:2",
+    "b": "3:9",
+    "aciklama": "لَّا رَيْبَ فِيهِ: kitap için ↔ gün için",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "2:120",
+    "b": "3:73",
+    "aciklama": "إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:42",
+    "b": "3:71",
+    "aciklama": "aynı iki fiil aynı sırayla; yasak → soru kipinde",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:79",
+    "b": "3:78",
+    "aciklama": "elle yazma ↔ dille eğme; aynı iddia, farklı araç",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:159",
+    "b": "3:187",
+    "aciklama": "gizleme; 2:101 ile birlikte 3:187'de birleşiyor",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:188",
+    "b": "4:29",
+    "aciklama": "aynı yasak; Nisâ'da ruhsat eklenmiş",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:174",
+    "b": "4:10",
+    "aciklama": "karınlarına ateş yeme",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:264",
+    "b": "4:38",
+    "aciklama": "رِئَآءَ ٱلنَّاسِ, ikisi de infak bağlamında",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (4 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:21",
+    "b": "4:1",
+    "aciklama": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم",
+    "kural": "L3",
+    "gerekce": "6-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:184",
+    "b": "4:25",
+    "aciklama": "وَأَن تَصُومُوا۟/تَصْبِرُوا۟ خَيْرٌ لَّكُمْ — ruhsat verilip tercih edilmeyeceği söyleniyor",
+    "kural": "L5",
+    "gerekce": "ortak kök: ['خير', 'طوع', 'علم']",
+    "guven": "elle"
+   },
+   {
+    "a": "3:195",
+    "b": "4:25",
+    "aciklama": "بَعْضُكُم مِّنۢ بَعْضٍ; 3:34'te soy sürekliliği",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:10",
+    "b": "3:116",
+    "aciklama": "birebir, 106 ayet arayla",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:70",
+    "b": "3:98",
+    "aciklama": "aynı soru, şahit taraf değişmiş (siz şahitken → Allah şahit)",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:122",
+    "b": "3:160",
+    "aciklama": "وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ — Uhud bloğunun iki ucu",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:9",
+    "b": "3:194",
+    "aciklama": "لَا يُخْلِفُ ٱلْمِيعَادَ — sûrenin iki ucundaki dua",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:156",
+    "b": "3:168",
+    "aciklama": "aynı karşı-olgusal, 12 ayet arayla",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:104",
+    "b": "3:110",
+    "aciklama": "üç fiil aynı; talep → beyan; 3:114'te üçüncü özneye",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "4:7",
+    "b": "4:32",
+    "aciklama": "لِّلرِّجَالِ نَصِيبٌ / وَلِلنِّسَآءِ نَصِيبٌ; bırakılandan ↔ kazanılandan",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "4:32",
+    "b": "4:34",
+    "aciklama": "فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ; temenni yasağı ↔ hüküm gerekçesi",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:154",
+    "b": "2:243",
+    "aciklama": "ölüm-diriliş; 2:28'in salınımı",
+    "kural": "L4",
+    "gerekce": "ortak bitişik kök çifti: ['موت+حيي', 'أله+موت']",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "70:19",
+    "b": "4:28",
+    "aciklama": "خُلِقَ ٱلْإِنسَٰنُ + tek sıfat: هَلُوعًا / ضَعِيفًا",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "73:20",
+    "b": "2:110",
+    "aciklama": "وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "73:20",
+    "b": "2:245",
+    "aciklama": "أَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "73:9",
+    "b": "2:115",
+    "aciklama": "ٱلْمَشْرِق وَٱلْمَغْرِب: Rab'a ↔ Allah'a; 70:40'ta çoğul",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "71:7",
+    "b": "2:19",
+    "aciklama": "أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم — aynı jest",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "71:17",
+    "b": "3:37",
+    "aciklama": "أَنۢبَتَ … نَبَاتًا; insanın yaratılışı ↔ çocuğun yetiştirilmesi",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "69:32",
+    "b": "2:42",
+    "aciklama": "سلك kökü: cehenneme sokma ↔ koruma yerleştirme",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "56:74",
+    "b": "69:52",
+    "aciklama": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "56:80",
+    "b": "69:43",
+    "aciklama": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "23:5",
+    "b": "70:29",
+    "aciklama": "dört ARDIŞIK ayet birebir — korpus rekoru",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:35",
+    "b": "7:19",
+    "aciklama": "yasak ayeti neredeyse birebir; A'râf'ta رَغَدًا düşmüş",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (3 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:36",
+    "b": "7:24",
+    "aciklama": "iniş ayeti kelime kelime aynı",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (5 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:34",
+    "b": "7:11",
+    "aciklama": "secde emri; İblîs'in reddi farklı ifadeyle (أَبَىٰ وَٱسْتَكْبَرَ / لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ)",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:58",
+    "b": "7:161",
+    "aciklama": "hıtta; A'râf'ta İÇ SIRA TERS (söyle-gir / gir-söyle)",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:59",
+    "b": "7:162",
+    "aciklama": "kelime ikamesi, neredeyse birebir",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:60",
+    "b": "7:160",
+    "aciklama": "on iki pınar; ٱنفَجَرَتْ ↔ ٱنۢبَجَسَتْ (بجس korpusta tek)",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (3 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:63",
+    "b": "7:171",
+    "aciklama": "Tûr'un kaldırılması; رفع ↔ نتق (نتق korpusta tek)",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:65",
+    "b": "7:166",
+    "aciklama": "قِرَدَةً خَٰسِـِٔينَ birebir",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:49",
+    "b": "7:141",
+    "aciklama": "Firavun'dan kurtuluş, birebir",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:51",
+    "b": "7:142",
+    "aciklama": "kırk gece; 7:142'de 30+10=40 açık toplama",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:78",
+    "b": "7:91",
+    "aciklama": "sûre içi tam-ayet ikizi: Semûd ve Medyen aynı sonla",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:107",
+    "b": "26:32",
+    "aciklama": "tam-ayet ikizi; 7:108=26:33 ile ARDIŞIK ÇİFT",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:121",
+    "b": "26:47",
+    "aciklama": "tam-ayet ikizi; 7:122=26:48 ile İKİNCİ ardışık çift",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:183",
+    "b": "68:45",
+    "aciklama": "tam-ayet ikizi",
+    "kural": "L1",
+    "gerekce": "tam-ayet özdeşliği",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:16",
+    "b": "7:86",
+    "aciklama": "şeytanın planı (لَأَقْعُدَنَّ … صِرَٰطَكَ) 70 ayet sonra insan fiili olarak yasak",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "6:103",
+    "b": "7:143",
+    "aciklama": "ilke → deney; aracı üzerinden dolaylı test",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "6:18",
+    "b": "7:127",
+    "aciklama": "ٱلْقَاهِرُ فَوْقَ عِبَادِهِ (Allah) ↔ وَإِنَّا فَوْقَهُمْ قَٰهِرُونَ (Firavun): aynı kök aynı edat iki fâil",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "6:12",
+    "b": "6:54",
+    "aciklama": "كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ — EKSEN VARYANTI (Allah ↔ Rab)",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "6:34",
+    "b": "6:115",
+    "aciklama": "لَّا مُبَدِّلَ لِكَلِمَٰت — eksen varyantı",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:74",
+    "b": "6:132",
+    "aciklama": "وَمَا … بِغَٰفِلٍ عَمَّا يَعْمَلُونَ — altı Allah'lı geçişten sonra ilk Rab",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:173",
+    "b": "6:145",
+    "aciklama": "haram-ruhsat mührü: فَإِنَّ ٱللَّهَ ↔ فَإِنَّ رَبَّكَ",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (3 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "6:112",
+    "b": "6:137",
+    "aciklama": "aynı cümle iki eksende (رَبُّكَ ↔ ٱللَّهُ)",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:9",
+    "b": "6:26",
+    "aciklama": "وَمَا يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ — kalıbın üçüncü fiili",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:9",
+    "b": "6:123",
+    "aciklama": "وَمَا يَمْكُرُونَ إِلَّا بِأَنفُسِهِمْ — dördüncü fiil",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:6",
+    "b": "7:176",
+    "aciklama": "fark-yokluğu: soyut ifade ↔ köpek meseli",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "2:6",
+    "b": "7:193",
+    "aciklama": "fark-yokluğu: çağırsan da sussan da",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "2:6",
+    "b": "8:23",
+    "aciklama": "fark-yokluğu: işittirseydi de dönerlerdi",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "3:126",
+    "b": "8:10",
+    "aciklama": "birebir aynı cümle; ikisi de sayı verildikten hemen sonra",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (4 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:151",
+    "b": "8:12",
+    "aciklama": "سَنُلْقِى/سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ — çoğul/tekil farkı",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:54",
+    "b": "8:30",
+    "aciklama": "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ birebir; 8:30'da مكر dört kez",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:179",
+    "b": "8:37",
+    "aciklama": "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ birebir",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:193",
+    "b": "8:39",
+    "aciklama": "savaş şartı; 8:39'da كُلُّهُ eklenmiş",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:150",
+    "b": "8:40",
+    "aciklama": "ٱللَّهُ مَوْلَىٰكُمْ + نَصِير",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:3",
+    "b": "8:3",
+    "aciklama": "namaz-infak ikilisi birebir",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "7:183",
+    "b": "8:18",
+    "aciklama": "كَيْدِى مَتِينٌ ↔ مُوهِنُ كَيْدِ ٱلْكَٰفِرِينَ: aynı kök iki nitelik",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "4:135",
+    "b": "5:8",
+    "aciklama": "قوّامين/شهداء İÇ SIRA TERS",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:62",
+    "b": "5:69",
+    "aciklama": "liste sırası ters (Nasârâ/Sâbiîn yer değiştiriyor)",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "5:18",
+    "b": "5:40",
+    "aciklama": "غفر/عذب sıra ters, sûre içi",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:49",
+    "b": "5:110",
+    "aciklama": "aynı beş mucize, şahıs çevrilmiş; بِإِذْنِى iki→dört",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (2 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:225",
+    "b": "5:89",
+    "aciklama": "aynı yemin kuralı; Mâide'de KEFARET eklenmiş",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:170",
+    "b": "5:104",
+    "aciklama": "ata-argümanı birebir",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:113",
+    "b": "5:68",
+    "aciklama": "لَسْتُمْ عَلَىٰ شَىْءٍ — fâil değişmiş",
+    "kural": "L5",
+    "gerekce": "ortak kök: ['شيأ', 'قول', 'قوم', 'كتب', 'ليس']",
+    "guven": "elle"
+   },
+   {
+    "a": "3:51",
+    "b": "5:72",
+    "aciklama": "ٱللَّهَ رَبِّى وَرَبَّكُمْ birebir",
+    "kural": "L2",
+    "gerekce": "3-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "3:144",
+    "b": "5:75",
+    "aciklama": "قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ — aynı argüman iki kişi için",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:196",
+    "b": "7:142",
+    "aciklama": "açık aritmetik: 3+7=10 ↔ 30+10=40, ikisi de tamlık vurgulu",
+    "kural": "L5",
+    "gerekce": "ortak kök: ['تمم', 'ثلث', 'عشر']",
+    "guven": "elle"
+   },
+   {
+    "a": "2:32",
+    "b": "5:109",
+    "aciklama": "لَا عِلْمَ لَنَآ — Bakara'da istisnâ var, Mâide'de YOK",
+    "kural": "L4",
+    "gerekce": "ortak bitişik kök çifti: ['علم+علم']",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "4:1",
+    "b": "6:98",
+    "aciklama": "نَّفْسٍ وَٰحِدَةٍ; 7:189 ile üç",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:154",
+    "b": "3:169",
+    "aciklama": "ölüler sanmayın; fiil تَقُولُوا۟→تَحْسَبَنَّ",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:106",
+    "b": "4:86",
+    "aciklama": "≥ kuralı: nesh ↔ selam",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "4:7",
+    "b": "4:118",
+    "aciklama": "نَصِيبًا مَّفْرُوضًا — miras payı ↔ şeytanın payı",
+    "kural": "L3",
+    "gerekce": "4-terimlik iskelet, 2 fark",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "4:48",
+    "b": "4:116",
+    "aciklama": "aynı ayet, iki farklı sonuç cümlesi",
+    "kural": "L2",
+    "gerekce": "5-kelimelik ortak lemma dizisi (4 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:2",
+    "b": "3:9",
+    "aciklama": "لَّا رَيْبَ فِيهِ; 4:87 ile üç",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "6:38",
+    "b": "7:194",
+    "aciklama": "أَمْثَالُكُم: hayvanlar için denklik ↔ putlar için denksizleştirme",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   },
+   {
+    "a": "7:179",
+    "b": "7:195",
+    "aciklama": "iki organ listesi, kısmî örtüşme (göz, kulak ortak)",
+    "kural": "L2",
+    "gerekce": "4-kelimelik ortak lemma dizisi (1 adet)",
+    "guven": "dogrulandi"
+   },
+   {
+    "a": "2:31",
+    "b": "7:180",
+    "aciklama": "سمو: öğretilen isimler ↔ Allah'ın isimleri; 7:71 uydurulan isimler",
+    "kural": "Y",
+    "gerekce": "doğrulanabilir lafzî temel YOK — saf yargı",
+    "guven": "yorum"
+   }
+  ],
+  "not_v2": "2026-08-08: A'râf, En'âm, Mâide, Enfâl okumalarından 55 çift eklendi. Toplam 108. denetlenmis_cift alanı YALNIZ ilk 53 için üretildi; yeni çiftler bag_kurallari.py ile denetlenmeli."
+ },
+ "kok_seyirleri": {
+  "aciklama": "Bir kökün bir sûre ya da blok boyunca aldığı ardışık anlamlar. Sıra ayet numarasından gelir; metnin bir iddiası değildir.",
+  "qalb_bakara": {
+   "kok": "قلب",
+   "seyir": [
+    "2:7 mühürlü",
+    "2:10 hasta",
+    "2:74 katı",
+    "2:88 kılıflı",
+    "2:93 buzağı içirilmiş",
+    "2:97 indirmenin hedefi",
+    "2:118 benzeşmiş",
+    "2:204 şahit tutulan",
+    "2:225 hesap yeri",
+    "2:260 yatışmak isteyen",
+    "2:283 günahkâr"
+   ]
+  },
+  "qalb_imran": {
+   "kok": "قلب",
+   "seyir": [
+    "3:144/3:149 ökçe üzerinde dönme",
+    "3:151/154/156/159/167 kalp",
+    "3:174 nimetle dönme",
+    "3:196 dolaşma"
+   ]
+  },
+  "wali": {
+   "kok": "ولي",
+   "anlamlar": [
+    "velî (2:107,120,257)",
+    "yüz çevirme (2:64,83)",
+    "dönme (2:115)",
+    "çevirme (2:142,144)",
+    "arka dönme (3:111)",
+    "en yakın (3:68)",
+    "vâris/mevlâ (4:33)"
+   ]
+  },
+  "ghadab": {
+   "kok": "غضب",
+   "seyir": [
+    "1:7 مَغْضُوب — ism-i mef'ûl, korpusta TEK geçiş, fâilsiz",
+    "2:61 بِغَضَبٍ مِّنَ ٱللَّهِ — kaynak anılmış",
+    "2:90 غَضَبٍ عَلَىٰ غَضَبٍ — katmerlenmiş",
+    "3:112 kaynak anılmış + istisnalı"
+   ]
+  },
+  "haqq_hakka": {
+   "kok": "حقق",
+   "seyir": [
+    "69:1,2,3 ٱلْحَآقَّة (soru)",
+    "245 kelime sessizlik",
+    "69:51 حَقُّ ٱلْيَقِينِ (hüküm)"
+   ]
+  },
+  "bad": {
+   "kok": "بعض",
+   "isleveler": [
+    "2:36 düşmanlık",
+    "2:85 kitabın bölünmesi",
+    "2:251 denge mekanizması",
+    "3:34 soy sürekliliği",
+    "3:195 eşitlik",
+    "4:25 hukukî eşitlik"
+   ]
+  },
+  "sawa": {
+   "kok": "سوي",
+   "isleveler": [
+    "2:6 fark yokluğu",
+    "2:108 düz yol",
+    "3:64 ortak zemin",
+    "3:113 fark İLANI (eşitlik reddi)"
+   ]
+  },
+  "bashar_muddassir": {
+   "kok": "بشر",
+   "seyir": [
+    "74:25 'beşer sözü' (inkâr)",
+    "74:29 deri (azap)",
+    "74:31 'beşer için hatırlatma'",
+    "74:36 'beşer için uyarıcı'"
+   ]
+  },
+  "rushd": {
+   "kok": "رشد",
+   "seyir": [
+    "72:2 Kur'an'ın ilettiği",
+    "72:10 Rabbin dileyebileceği",
+    "72:14 teslim olanın aradığı",
+    "72:21 Peygamberin VEREMEYECEĞİ",
+    "2:186, 2:256, 4:6 (ergenlik ölçütü)"
+   ]
+  },
+  "sari": {
+   "kok": "سرع",
+   "yonler": [
+    "3:114 hayırlarda",
+    "3:133 mağfirete",
+    "3:176 küfürde"
+   ]
+  },
+  "hasib_imran_son": {
+   "kok": "حسب",
+   "anlamlar": [
+    "3:169/178/180/188 sanma (yanlış hesap)",
+    "3:173 yetmek (حَسْبُنَا)",
+    "3:199 hesap (سَرِيعُ ٱلْحِسَابِ)"
+   ]
+  }
+ },
+ "tekrarlanan_formuller": {
+  "لا خوف عليهم ولا هم يحزنون": [
+   "2:38",
+   "2:62",
+   "2:112",
+   "2:262",
+   "2:274",
+   "2:277",
+   "3:170"
+  ],
+  "وما الله بغافل عما تعملون": [
+   "2:74",
+   "2:85",
+   "2:140",
+   "2:144",
+   "2:149",
+   "3:99"
+  ],
+  "أجرهم عند ربهم": [
+   "2:62",
+   "2:112",
+   "2:262",
+   "2:274",
+   "2:277",
+   "3:199"
+  ],
+  "ثمنا قليلا": [
+   "2:41",
+   "2:79",
+   "2:174",
+   "3:77",
+   "3:187",
+   "3:199 (ilk kez OLUMSUZ)"
+  ],
+  "التواب الرحيم": [
+   "2:37 Âdem",
+   "2:54 Mûsâ kavmi",
+   "2:128 İbrâhim",
+   "2:160 istisna (1. şahıs)",
+   "3:128",
+   "4:16"
+  ],
+  "إن كنتم صادقين": [
+   "2:23",
+   "2:94",
+   "2:111",
+   "3:93",
+   "3:168",
+   "3:183"
+  ],
+  "صراط مستقيم": [
+   "1:6",
+   "2:142",
+   "2:213",
+   "3:51",
+   "3:101"
+  ],
+  "أولئك هم": [
+   "2:5",
+   "2:16",
+   "2:27",
+   "2:157"
+  ],
+  "لا إله إلا هو/الله": [
+   "2:163",
+   "2:255",
+   "3:2",
+   "3:6",
+   "3:18 ×2",
+   "3:62",
+   "73:9"
+  ],
+  "استغفروا … غفور/غفار": [
+   "71:10",
+   "73:20",
+   "2:199",
+   "3:135 (وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ)"
+  ]
+ },
+ "mekanizma_ornekleri": {
+  "isaret_ayirt_eder": {
+   "aciklama": "Tek bir işaret/olay iki grubu ayırıyor; metin bunu çoğu yerde AÇIKÇA söylüyor.",
+   "ornekler": [
+    "2:26 mesel",
+    "74:31 sayı",
+    "2:143 kıble (لِنَعْلَمَ)",
+    "2:213 kitap",
+    "3:140 yenilgi (وَلِيَعْلَمَ)",
+    "3:141 محص/محق",
+    "3:166-167 (لِيَعْلَمَ ×2)",
+    "3:179 يَمِيزَ — en açık ifadesi"
+   ]
+  },
+  "kendine_uygulama_testi": [
+   "2:44",
+   "2:267",
+   "4:9"
+  ],
+  "test_yapilmadan_sonuc": [
+   "2:24",
+   "2:96",
+   "2:94-95",
+   "3:168"
+  ],
+  "sabit_nokta_ayni_kok": [
+   "71:10",
+   "73:20",
+   "2:54 (üç basamak)",
+   "2:158",
+   "2:199",
+   "3:8"
+  ],
+  "ic_sira_terslemesi": [
+   "2:48 ↔ 2:123",
+   "3:157 ↔ 3:158"
+  ],
+  "kun_fayakun": [
+   "2:117",
+   "3:47",
+   "3:59"
+  ],
+  "yanlis_takas": {
+   "شري": [
+    "2:16",
+    "2:41",
+    "2:79",
+    "2:86",
+    "2:90",
+    "2:102 ×2",
+    "2:174",
+    "2:175",
+    "2:207 (OLUMLU)",
+    "3:77",
+    "3:177",
+    "3:187",
+    "3:199 (olumsuz)"
+   ],
+   "بدل": [
+    "2:59",
+    "2:61",
+    "2:108",
+    "2:181 ×2",
+    "2:211",
+    "4:2",
+    "4:20"
+   ],
+   "ربو": [
+    "2:275 ×3",
+    "2:276 ×2",
+    "2:278",
+    "3:130"
+   ]
+  }
+ },
+ "olcum_artefaktlari_okumada": [
+  "kok_adlar görüntü katmanı kavram() kullanmıyor: جنن→'cennet' (72. sûre 'cin'), قوم→'kavim' (3:2 ٱلْقَيُّوم, 3:18 قَآئِمًا, 4:34 قَوَّٰمُونَ), ولي→'velî' (3:20/3:23/3:32 تَوَلَّىٰ), رجو→'erteleme' (69:13), وعي→'kap' (69:12), عشر→sayı (4:19 عَاشِرُوهُنَّ = geçinme)",
+  "4:23 رَبَٰٓئِب (üvey kız) ربب kökünden ama Rab DEĞİL; defter R alanına almış. Nisâ'nın Rab sayımı 7 değil 6; yoğunluk 0.0019 → 0.0016",
+  "3:79 رَبَّٰنِيِّـۧن ve 3:146 رِبِّيُّون da ربب kökünden, bağlı Rab değil",
+  "2:17 نور kökü aynı ayette hem نَار (ateş) hem نُور (nur); ham kök sayımı ayıramaz",
+  "2:33 سمو üç kez: ikisi 'isim', biri 'gök'",
+  "2:102 ملك iki anlamda: مُلْك ve ٱلْمَلَكَيْنِ",
+  "2:261 حبب 'tane', 2:165 'sevgi'"
+ ],
+ "ters_bag": {
+  "23:5": [
+   "70:29"
+  ],
+  "24:5": [
+   "3:89"
+  ],
+  "26:32": [
+   "7:107"
+  ],
+  "26:47": [
+   "7:121"
+  ],
+  "2:106": [
+   "4:86"
+  ],
+  "2:110": [
+   "73:20"
+  ],
+  "2:113": [
+   "5:68"
+  ],
+  "2:115": [
+   "73:9"
+  ],
+  "2:120": [
+   "3:73"
+  ],
+  "2:122": [
+   "2:47"
+  ],
+  "2:123": [
+   "2:48"
+  ],
+  "2:129": [
+   "2:151"
+  ],
+  "2:134": [
+   "2:141"
+  ],
+  "2:136": [
+   "3:84"
+  ],
+  "2:14": [
+   "2:76",
+   "3:119"
+  ],
+  "2:141": [
+   "2:134"
+  ],
+  "2:147": [
+   "3:60"
+  ],
+  "2:151": [
+   "2:129"
+  ],
+  "2:154": [
+   "2:243",
+   "3:169"
+  ],
+  "2:159": [
+   "3:187"
+  ],
+  "2:161": [
+   "3:87"
+  ],
+  "2:162": [
+   "3:88"
+  ],
+  "2:170": [
+   "5:104"
+  ],
+  "2:173": [
+   "6:145"
+  ],
+  "2:174": [
+   "4:10"
+  ],
+  "2:184": [
+   "4:25"
+  ],
+  "2:188": [
+   "4:29"
+  ],
+  "2:19": [
+   "71:7"
+  ],
+  "2:193": [
+   "8:39"
+  ],
+  "2:196": [
+   "7:142"
+  ],
+  "2:2": [
+   "3:9"
+  ],
+  "2:21": [
+   "4:1"
+  ],
+  "2:216": [
+   "2:232",
+   "4:19"
+  ],
+  "2:225": [
+   "5:89"
+  ],
+  "2:232": [
+   "2:216"
+  ],
+  "2:233": [
+   "2:286"
+  ],
+  "2:243": [
+   "2:154"
+  ],
+  "2:245": [
+   "73:20"
+  ],
+  "2:250": [
+   "2:286"
+  ],
+  "2:255": [
+   "3:2"
+  ],
+  "2:26": [
+   "74:31"
+  ],
+  "2:264": [
+   "4:38"
+  ],
+  "2:285": [
+   "2:93"
+  ],
+  "2:286": [
+   "2:233",
+   "2:250"
+  ],
+  "2:3": [
+   "8:3"
+  ],
+  "2:31": [
+   "7:180"
+  ],
+  "2:32": [
+   "5:109"
+  ],
+  "2:34": [
+   "7:11"
+  ],
+  "2:35": [
+   "7:19"
+  ],
+  "2:36": [
+   "7:24"
+  ],
+  "2:42": [
+   "3:71",
+   "69:32"
+  ],
+  "2:47": [
+   "2:122"
+  ],
+  "2:48": [
+   "2:123"
+  ],
+  "2:49": [
+   "7:141"
+  ],
+  "2:5": [
+   "31:5"
+  ],
+  "2:51": [
+   "7:142"
+  ],
+  "2:58": [
+   "7:161"
+  ],
+  "2:59": [
+   "7:162"
+  ],
+  "2:6": [
+   "7:176",
+   "7:193",
+   "8:23"
+  ],
+  "2:60": [
+   "7:160"
+  ],
+  "2:61": [
+   "3:112"
+  ],
+  "2:62": [
+   "5:69"
+  ],
+  "2:63": [
+   "7:171"
+  ],
+  "2:65": [
+   "7:166"
+  ],
+  "2:74": [
+   "6:132"
+  ],
+  "2:76": [
+   "2:14"
+  ],
+  "2:79": [
+   "3:78"
+  ],
+  "2:80": [
+   "3:24"
+  ],
+  "2:9": [
+   "3:69",
+   "6:123",
+   "6:26"
+  ],
+  "2:93": [
+   "2:285"
+  ],
+  "31:5": [
+   "2:5"
+  ],
+  "3:10": [
+   "3:116"
+  ],
+  "3:104": [
+   "3:110"
+  ],
+  "3:110": [
+   "3:104"
+  ],
+  "3:112": [
+   "2:61"
+  ],
+  "3:116": [
+   "3:10"
+  ],
+  "3:119": [
+   "2:14"
+  ],
+  "3:122": [
+   "3:160"
+  ],
+  "3:126": [
+   "8:10"
+  ],
+  "3:144": [
+   "5:75"
+  ],
+  "3:150": [
+   "8:40"
+  ],
+  "3:151": [
+   "8:12"
+  ],
+  "3:156": [
+   "3:168"
+  ],
+  "3:160": [
+   "3:122"
+  ],
+  "3:168": [
+   "3:156"
+  ],
+  "3:169": [
+   "2:154"
+  ],
+  "3:179": [
+   "8:37"
+  ],
+  "3:187": [
+   "2:159"
+  ],
+  "3:194": [
+   "3:9"
+  ],
+  "3:195": [
+   "4:25"
+  ],
+  "3:2": [
+   "2:255"
+  ],
+  "3:24": [
+   "2:80"
+  ],
+  "3:37": [
+   "71:17"
+  ],
+  "3:49": [
+   "5:110"
+  ],
+  "3:51": [
+   "5:72"
+  ],
+  "3:54": [
+   "8:30"
+  ],
+  "3:60": [
+   "2:147"
+  ],
+  "3:69": [
+   "2:9"
+  ],
+  "3:70": [
+   "3:98"
+  ],
+  "3:71": [
+   "2:42"
+  ],
+  "3:73": [
+   "2:120"
+  ],
+  "3:78": [
+   "2:79"
+  ],
+  "3:84": [
+   "2:136"
+  ],
+  "3:87": [
+   "2:161"
+  ],
+  "3:88": [
+   "2:162"
+  ],
+  "3:89": [
+   "24:5"
+  ],
+  "3:9": [
+   "2:2",
+   "3:194"
+  ],
+  "3:98": [
+   "3:70"
+  ],
+  "4:1": [
+   "2:21",
+   "6:98"
+  ],
+  "4:10": [
+   "2:174"
+  ],
+  "4:116": [
+   "4:48"
+  ],
+  "4:118": [
+   "4:7"
+  ],
+  "4:135": [
+   "5:8"
+  ],
+  "4:19": [
+   "2:216"
+  ],
+  "4:25": [
+   "2:184",
+   "3:195"
+  ],
+  "4:28": [
+   "70:19"
+  ],
+  "4:29": [
+   "2:188"
+  ],
+  "4:32": [
+   "4:34",
+   "4:7"
+  ],
+  "4:34": [
+   "4:32"
+  ],
+  "4:38": [
+   "2:264"
+  ],
+  "4:48": [
+   "4:116"
+  ],
+  "4:7": [
+   "4:118",
+   "4:32"
+  ],
+  "4:86": [
+   "2:106"
+  ],
+  "56:74": [
+   "69:52"
+  ],
+  "56:80": [
+   "69:43"
+  ],
+  "5:104": [
+   "2:170"
+  ],
+  "5:109": [
+   "2:32"
+  ],
+  "5:110": [
+   "3:49"
+  ],
+  "5:18": [
+   "5:40"
+  ],
+  "5:40": [
+   "5:18"
+  ],
+  "5:68": [
+   "2:113"
+  ],
+  "5:69": [
+   "2:62"
+  ],
+  "5:72": [
+   "3:51"
+  ],
+  "5:75": [
+   "3:144"
+  ],
+  "5:8": [
+   "4:135"
+  ],
+  "5:89": [
+   "2:225"
+  ],
+  "68:45": [
+   "7:183"
+  ],
+  "69:32": [
+   "2:42"
+  ],
+  "69:43": [
+   "56:80"
+  ],
+  "69:52": [
+   "56:74"
+  ],
+  "6:103": [
+   "7:143"
+  ],
+  "6:112": [
+   "6:137"
+  ],
+  "6:115": [
+   "6:34"
+  ],
+  "6:12": [
+   "6:54"
+  ],
+  "6:123": [
+   "2:9"
+  ],
+  "6:132": [
+   "2:74"
+  ],
+  "6:137": [
+   "6:112"
+  ],
+  "6:145": [
+   "2:173"
+  ],
+  "6:18": [
+   "7:127"
+  ],
+  "6:26": [
+   "2:9"
+  ],
+  "6:34": [
+   "6:115"
+  ],
+  "6:38": [
+   "7:194"
+  ],
+  "6:54": [
+   "6:12"
+  ],
+  "6:98": [
+   "4:1"
+  ],
+  "70:19": [
+   "4:28"
+  ],
+  "70:29": [
+   "23:5"
+  ],
+  "71:17": [
+   "3:37"
+  ],
+  "71:7": [
+   "2:19"
+  ],
+  "73:20": [
+   "2:110",
+   "2:245"
+  ],
+  "73:9": [
+   "2:115"
+  ],
+  "74:31": [
+   "2:26"
+  ],
+  "7:107": [
+   "26:32"
+  ],
+  "7:11": [
+   "2:34"
+  ],
+  "7:121": [
+   "26:47"
+  ],
+  "7:127": [
+   "6:18"
+  ],
+  "7:141": [
+   "2:49"
+  ],
+  "7:142": [
+   "2:196",
+   "2:51"
+  ],
+  "7:143": [
+   "6:103"
+  ],
+  "7:16": [
+   "7:86"
+  ],
+  "7:160": [
+   "2:60"
+  ],
+  "7:161": [
+   "2:58"
+  ],
+  "7:162": [
+   "2:59"
+  ],
+  "7:166": [
+   "2:65"
+  ],
+  "7:171": [
+   "2:63"
+  ],
+  "7:176": [
+   "2:6"
+  ],
+  "7:179": [
+   "7:195"
+  ],
+  "7:180": [
+   "2:31"
+  ],
+  "7:183": [
+   "68:45",
+   "8:18"
+  ],
+  "7:19": [
+   "2:35"
+  ],
+  "7:193": [
+   "2:6"
+  ],
+  "7:194": [
+   "6:38"
+  ],
+  "7:195": [
+   "7:179"
+  ],
+  "7:24": [
+   "2:36"
+  ],
+  "7:78": [
+   "7:91"
+  ],
+  "7:86": [
+   "7:16"
+  ],
+  "7:91": [
+   "7:78"
+  ],
+  "8:10": [
+   "3:126"
+  ],
+  "8:12": [
+   "3:151"
+  ],
+  "8:18": [
+   "7:183"
+  ],
+  "8:23": [
+   "2:6"
+  ],
+  "8:3": [
+   "2:3"
+  ],
+  "8:30": [
+   "3:54"
+  ],
+  "8:37": [
+   "3:179"
+  ],
+  "8:39": [
+   "2:193"
+  ],
+  "8:40": [
+   "3:150"
+  ]
+ },
+ "okuma_sirasi_carpikligi": {
+  "sorun": "Bağ yoğunluğu okuma sırasının eseri: erken sûreler okunurken geç sûrelere bağ kurulamıyordu. Bakara okunurken En'âm daha okunmamıştı; En'âm okunurken Bakara'ya onlarca bağ kuruldu.",
+  "olcum": null,
+  "cozum": "ters_bag alanı simetriyi kuruyor. Ama YÖN bilgisi korunuyor: bağı hangi ayeti okurken kurduğum aşağıda."
+ }
+}

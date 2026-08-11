@@ -1,0 +1,47 @@
+{
+  "ad": "mercek_matematikci_ayet",
+  "baslik": "Matematikçi merceği — ayet ölçeği protokolü",
+  "tarih": "2026-08-08",
+  "iliski": "matematikci_mercek.json (makro ölçek) uzantısıdır; onu değiştirmez.",
+
+  "neden": "Makro mercek metin geneline bakıyordu (ağ-orijini, dizilim, merkez). Ayet-ölçeğinde okuma sırasında merceğin taşınabilmesi için ayrı bir protokol gerekti; aksi hâlde mercek satırı serbest yoruma kayar.",
+
+  "katman_kurali": {
+    "olcum": "Ne sayıldığı. Kök/lemma sayıları, konum, mora, harf, kafiye sınıfı, korpus karşılaştırması. Doğrulanabilir.",
+    "mercek": "Bir matematikçinin o BİÇİMDE neyi tanıyacağı. Yorumdur, ölçüm değildir.",
+    "ayrim": "İki katman aynı satırda birleştirilmez. Mercek satırı ◇ ile işaretlenir."
+  },
+
+  "baglilik_kurali": {
+    "zorunlu": "Her mercek satırı, aynı ayette GÖRÜNÜR bir dilsel öğeye bağlı olmalı: bir sayı, bir nicelik belirteci, bir karşılaştırma kipi, bir olumsuzlama+istisna yapısı, bir tekrar/eşleme, bir kip değişimi, bir kök ikilemesi.",
+    "yasak": [
+      "Metinde bulunmayan bir matematiksel içerik atfetmek ('bu ayet pi'ye işaret ediyor' türü).",
+      "'Bilimsel ön-bilgi' iddiası — metnin bir teoremi önceden bildiğini ima etmek.",
+      "Merceği delil olarak kullanmak. Mercek hiçbir bulguyu desteklemez, yalnızca eşlik eder.",
+      "Teolojik hüküm vermek."
+    ],
+    "test": "Mercek satırı silindiğinde ölçüm satırı tek başına ayakta kalmalı. Kalmıyorsa ölçüm eksiktir."
+  },
+
+  "tanima_repertuari": {
+    "aciklama": "Metinde tekrar tekrar karşılaşılan biçimler ve bir matematikçinin onlarda tanıdığı yapı. Liste açıktır; yeni biçim eklendiğinde buraya yazılır.",
+    "girdiler": [
+      {"bicim": "olumsuzlama + tek istisna (لا … إلا)", "taninan": "kardinalite/teklik iddiası", "ornek": "73:9 لا إله إلا هو"},
+      {"bicim": "merkez + belirsiz sapma (نصفه أو انقص أو زد)", "taninan": "ε-komşuluğu; nokta değil aralık", "ornek": "73:3-4"},
+      {"bicim": "sonlu kesirli küme (ثلثي، نصفه، ثلثه)", "taninan": "aralığın sonlu kümeye indirgenmesi", "ornek": "73:20"},
+      {"bicim": "ismi tafdil çifti (أشدّ … وأقوم …)", "taninan": "iki eksenli sıralama bağıntısı", "ornek": "73:6, 73:20"},
+      {"bicim": "كما ile iki durumun eşlenmesi", "taninan": "yapı-koruyan eşleme; bir tarafın çıktısı boş bırakılır", "ornek": "73:15-16"},
+      {"bicim": "فمن شاء + edinme fiili", "taninan": "varlık iddiası + seçim; yol tarif edilmez, varlığı garanti edilir", "ornek": "73:19"},
+      {"bicim": "لن تحصوه / أحصى كل شيء", "taninan": "sayılabilirlik iddiasının taraf değiştirmesi", "ornek": "73:20, 72:28"},
+      {"bicim": "gelecek olayın mazi kipiyle verilmesi (كان … مفعولا)", "taninan": "doğruluk değerinin gerçekleşmeden sabitlenmesi", "ornek": "73:18"},
+      {"bicim": "sürekli nesnenin taneye dönüşmesi (الجبال … كثيبا مهيلا)", "taninan": "ayrıklaşma; şekil yerine dağılım", "ornek": "73:14"},
+      {"bicim": "fiil + kendi mastarı (ترتيلا، تبتيلا، أخذا)", "taninan": "işlemin kendi yoğunluğuyla nitelenmesi — skaler ağırlık", "ornek": "73:4,8,16"},
+      {"bicim": "emir ile gerekçenin aynı kökten olması (استغفروا … غفور)", "taninan": "sabit nokta; işlem kendi nedenini içerir", "ornek": "73:20"},
+      {"bicim": "aynı kökün sûrede iki zıt yönde kullanılması", "taninan": "involüsyon/işaret değiştirme", "ornek": "72:9 vs 72:27 (رصد), 71:11 vs 71:26 (وذر)"}
+    ]
+  },
+
+  "uygulama_notu": "Mercek satırı ayet başına en fazla bir kez ve kısa yazılır. Repertuarda karşılığı olmayan bir ayette mercek satırı YAZILMAZ; boş bırakmak uydurmaktan iyidir.",
+
+  "sinir": "Bu protokol merceğin tutarlılığını sağlar, doğruluğunu değil. Mercek satırları hiçbir istatistiksel iddianın parçası değildir ve bulgu dosyalarında ayrı alanda tutulur."
+}

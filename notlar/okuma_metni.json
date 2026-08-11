@@ -1,0 +1,227 @@
+{
+ "ad": "okuma_metni",
+ "amac": "Ayet ayet okumanın TAM metni. defter.json ölçüm sayılarını üretir, mercek_kayit.json ◇ satırlarını tutar, okuma_baglantilari.json bağ ağını tutar — ama okuma anlatısını hiçbiri üretemez. Bu dosya onu tutar.",
+ "sema": {
+  "meal": "Claude'un çalışma çevirisi. Diyanet meali DEĞİLDİR; referans olarak kullanılamaz.",
+  "olcum": "› satırı: ayette ölçülen ve okuma sırasında kurulan bağlar. Sayılar defterden, bağlar yargıdan.",
+  "mercek": "◇ satırı — mercek_kayit.json ile aynı içerik, burada ayetin yanında.",
+  "sikistirilmis": "{meal, not} — 'not' yalnız yargı katmanını tutar: hangi ayete bağlandığı, kökün hangi anlamda olduğu, hangi figürün kaçıncı geçişi olduğu."
+ },
+ "durum": "İKİ KİPLİ. (a) İLERİ: sûre 8'den itibaren okunurken TAM yazılacak. (b) GERİ: sûre 1 tam yazıldı; 2-7 SIKIŞTIRILMIŞ dolduruluyor — Arapça, defter sayıları ve mercek atlanıyor (başka dosyalarda var), yalnız meal + elle kurulan bağlar kalıyor.",
+ "uyari": "Otoriter kaynak sohbet metnidir. Bu dosya onun yapılandırılmış kaydıdır; çelişki hâlinde sohbet geçerli.",
+ "1": {
+  "1:1": {
+   "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "meal": "Rahmân ve Rahîm Allah'ın adıyla.",
+   "olcum": "ki 1-4 · mora 26 · harf 19 · Allah: kelime 2 · kök ikilemesi رحم ×2. Dikey: رحم korpusta 339 geçiş, Allah'a medyan mesafe 13, konum-eşli null medyanı 13 → p=0.546, NÖTR. En sık esmâ kökü, eksene ne yakın ne uzak; 'esmâ katmanı eksen-nötr' bulgusuyla uyumlu.",
+   "mercek": "Sûrenin ilk figürü bir ikileme: aynı kök iki farklı kalıpta (رَحْمَٰن / رَحِيم). Tek kaynaktan iki türev — ve bu figür 1:3'te birebir tekrarlanacak."
+  },
+  "1:2": {
+   "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+   "meal": "Hamd, âlemlerin Rabbi Allah'adır.",
+   "olcum": "mora 23 · harf 18 · Allah: kelime 2 · Rab: kelime 3, رَبّ bağlı (izâfet). Dikey: حمد 68 geçiş, Allah'a medyan 3, null 12 → p=0.000; ölçülen on iki Fâtiha kökü içinde eksene EN YAKIN olan. علم (âlemîn) 854 geçiş, medyan 7 vs null 10 → p=0.000 yakın. ملك 206 geçiş, medyan 10 vs null 10 → p=0.749 nötr.",
+   "mercek": "Üç adımda daralma: hamd (soyut) → Allah (ad) → Rab + âlemîn (ilişki + kapsam). Sûrenin tek yerinde hem lafız hem Rab yan yana, ve Allah ikisinin arasında: لِلَّهِ رَبِّ. Sonraki 27 kelimede bir daha buluşmayacaklar."
+  },
+  "1:3": {
+   "ar": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "meal": "Rahmân, Rahîm.",
+   "olcum": "mora 18 · harf 12 · 2 kelime — sûrenin en kısa ayeti · kök ikilemesi رحم ×2.",
+   "mercek": "1:1'in son iki kelimesi bağlamından koparılıp tek başına ayet yapılmış — bir alt-dizinin bağımsız terime yükseltilmesi. Ve 1:1'de bu iki kelime ٱللَّهِ'ye sıfattı; burada dayanağı 1:2'nin ٱللَّهِ'si. Aynı iki kelime, iki farklı bağlanma."
+  },
+  "1:4": {
+   "ar": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+   "meal": "Din gününün sahibi.",
+   "olcum": "mora 16 · harf 12 · Allah yok. Dikey: ملك p=0.749 nötr; دين 101 geçiş, medyan 9 vs null 9 → p=0.570 nötr.",
+   "mercek": "mora 26→23→18→16: dört ayet boyunca tek yönlü daralma. Ve bu ayet üçüncü şahıs bloğunun sonu — sıfat dizisi (ٱلرَّحْمَٰنِ, ٱلرَّحِيمِ, مَٰلِكِ) burada bitiyor."
+  },
+  "1:5": {
+   "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "meal": "Yalnız sana kulluk eder, yalnız senden yardım isteriz.",
+   "olcum": "mora 26 · harf 19 — 1:1 ile BİREBİR EŞİT · 4 kelime. Dikey: عبد 275 geçiş, medyan 8 vs null 14 → p=0.000 anlamlı yakın; عون 12 geçiş, medyan 22 vs null 15 → p=0.229 anlamlı değil ama ölçülen on iki kökün EN UZAĞI.",
+   "mercek": "İki bakımdan sûrenin ekseni: (a) şahıs burada dönüyor — 1-4 hakkında konuşuyordu, 5-7 kendisine konuşuyor, kırılma tek kelimeyle: إِيَّاكَ. (b) ayet kendi içinde simetrik: إِيَّاكَ + fiil, iki kez; sûredeki tek birebir tekrar yapısı. Ve dikey ölçüm iki yüklemi ayırıyor: kulluk eksene yakın (8), yardım-isteme en uzak (22) — aynı ayette, aynı kalıpta, biri en içerde biri en dışarıda."
+  },
+  "1:6": {
+   "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+   "meal": "Bizi dosdoğru yola ilet.",
+   "olcum": "mora 24 · harf 19 — 1:1 ve 1:5 ile aynı harf sayısı, üçüncü kez. Dikey: هدي 316 geçiş, medyan 8 vs null 11 → p=0.003 anlamlı yakın; صرط 45 geçiş, medyan 8 vs null 11 → p=0.162 anlamlı değil. Morfoloji: ٱهْدِنَا bab 1, geçişli — hidâyet dilbilgisel olarak VERİLEN bir şey. Korpus: هدي bab 1 (dışarıdan iletme) 154, bab 8 (ٱهْتَدَى, kendinden) 61 → %71.6 dışsal.",
+   "mercek": "Sûrenin tek emri, ve muhatabı Allah. 29 kelimede bir tane istek var."
+  },
+  "1:7": {
+   "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "meal": "Nimet verdiklerinin yolu — gazaba uğrayanların ve sapanların değil.",
+   "olcum": "9 kelime, mora 58, harf 44 — sûrenin %31'i tek ayette. Morfoloji, üç ayrı çatı: أَنْعَمْتَ = V PERF VF:4 ROOT:نعم 2MS (fâil: sen, grup mecrûr); ٱلْمَغْضُوبِ = PASS_PCPL VF:1 ROOT:غضب (grup EDİLGEN); ٱلضَّآلِّينَ = ACT_PCPL VF:1 ROOT:ضلل (grup ETKEN). Korpus kontrolü: مَغْضُوب (غضب ism-i mef'ûlü) 77.429 kelimede TEK geçiş — burası. نعم kökünün ism-i mef'ûlü korpusta YOK; nimete erenler her yerde veren fiille birlikte anılıyor. ضالّ ise tek başına duran bir ad, 14 geçiş: 1:7, 2:198, 3:90, 6:77, 15:56, 23:106, 26:20, 26:86, 37:69, 56:51, 56:92, 68:26, 83:32, 93:7. Dikey: نعم medyan 12 vs null 11 → p=0.429; غضب medyan 9 vs null 15 → p=0.114; ضلل medyan 9 vs null 11 → p=0.078 — ÜÇÜ DE anlamlı değil.",
+   "mercek": "Üç grup, üç dilbilgisel rol, ve ikisi birbirinin zıddı. Yanlış yol tek değil iki: biri kendisine yapılan, öteki kendi yaptığı. Doğru yol ise tek kelimeyle adlandırılamıyor — adı yok, sadece fâili anılarak tarif edilebiliyor."
+  },
+  "_sure_notu": "7 ayet, 29 kelime. Üç yapı: (a) şahıs menteşesi tam ortada — 1-4 üçüncü şahıs, 5-7 ikinci şahıs. (b) 1:1 ve 1:5 ölçüce birebir eşit (4 kelime, mora 26, harf 19). (c) Allah lafzı yalnız ilk iki ayette, ikisi de ayetin ikinci kelimesi; 3-7 arası 21 kelime Allah-suz, Rab tek: 1:2. Kelime dağılımı 4,4,2,3,4,3,9 — son ayet ötekilerin ortalamasının üç katı. Dikey sıralama: eksene anlamlı yakın DÖRT kök (حمد 3, علم 7, عبد 8, هدي 8); tam nötr İKİ (دين, ملك, رحم); yol-grupları (نعم/غضب/ضلل) hiçbir yöne çıkmıyor."
+ },
+ "2": {
+  "_kip": "sıkıştırılmış",
+  "2:1": {
+   "meal": "Elif Lâm Mîm.",
+   "not": "1 kelime, mora 13, harf 22 — sûrenin en kısa ve TEK KÖKSÜZ ayeti. Morfoloji bu tokene kök atamıyor."
+  },
+  "2:2": {
+   "meal": "O kitap — onda şüphe yok — sakınanlar için bir hidâyettir.",
+   "not": "Fâtiha ٱهْدِنَا diye istemişti; 2:2 هُدًى diye veriyor — ama alıcı daraltılmış (لِّلْمُتَّقِينَ). لَّا رَيْبَ فِيهِ → 3:9 ve 4:87'de tekrar. هُدًى لِّلْمُتَّقِينَ ↔ 3:96 هُدًى لِّلْعَٰلَمِينَ ↔ 3:138 ikisi birden."
+  },
+  "2:3": {
+   "meal": "Onlar gayba inanır, namazı kılar, rızıklandırdığımızdan verirler.",
+   "not": "Üç vasıf içten dışa: kalp, beden, mal; üçü de grubun kendi eylemi. يُؤْمِنُونَ بِٱلْغَيْبِ ↔ 2:55'te tam karşıtı (görmeden inanmama), 52 ayet arayla. Ve 5:94'te aynı zarf korku için."
+  },
+  "2:4": {
+   "meal": "Sana indirilene ve senden önce indirilene inanır, âhirete kesin bilgiyle bağlanırlar.",
+   "not": "12 kelime, نزل ×2 ve ikisi de EDİLGEN — indiren söylenmiyor. 2:3'te fiiller etkendi; beş vasfın ortasında çatı dönüyor."
+  },
+  "2:5": {
+   "meal": "İşte onlar Rablerinden bir hidâyet üzeredir; kurtuluşa erenler işte onlardır.",
+   "not": "Bakara'nın ilk Rab'ı. Tam-ayet ikizi 31:5. Hidâyet burada KAYNAĞIYLA veriliyor (مِّن رَّبِّهِمْ); 2:2'de kaynaksızdı. Fâtiha'nın أَنْعَمْتَ عَلَيْهِمْ'i gibi: doğru yol ancak vereni anılarak tarif ediliyor."
+  },
+  "2:6": {
+   "meal": "İnkâr edenlere gelince, uyarsan da uyarmasan da birdir; inanmazlar.",
+   "not": "سَوَآءٌ عَلَيْهِمْ — fark yokluğu: iki farklı girdi, aynı çıktı. 74:31'in tersi (orada girdi sabit, çıktı ayrışıyor). Aynı figür 5:61 ve 6:4'te. سوي kökünün ilk işlevi; Bakara-Mâide'de altı işlev sayıldı."
+  },
+  "2:7": {
+   "meal": "Allah kalplerini ve kulaklarını mühürledi; gözleri üzerinde bir perde var.",
+   "not": "Bakara'nın ilk Allah lafzı. Üçlü liste EŞİT DEĞİL: ikisi خَتَمَ fiilinin nesnesi (fâil Allah), üçüncüsü fâilsiz isim cümlesi. Aynı üçlü 2:18'de (kulak/dil/göz — orta terim değişik) ve 6:46'da ŞARTLI olarak. خَتَمَ ↔ 4:155 طَبَعَ: iki farklı kök, aynı işlem. قلب kökünün Bakara'daki on bir aşamasının ilki."
+  },
+  "2:8": {
+   "meal": "İnsanlardan kimi \"Allah'a ve âhiret gününe inandık\" der, ama inanmış değillerdir.",
+   "not": "وَمِنَ ٱلنَّاسِ مَن kalıbı — 2:204 ve 2:207 ile üç kez, üç tip. أمن ×2: fiil ve olumsuzlanmış ismi fâil; söz ile durum ayrışıyor."
+  },
+  "2:9": {
+   "meal": "Allah'ı ve inananları aldatmaya çalışırlar; oysa yalnız kendilerini aldatırlar, farkında değiller.",
+   "not": "وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ — bu kalıbın DÖRT fiilli ailesinin ilki: 3:69 يُضِلُّونَ, 6:26 يُهْلِكُونَ, 6:123 يَمْكُرُونَ. Son üç kelime dördünde birebir. Ve aldatmaya iki farklı yanıt daha: 3:54 وَمَكَرَ ٱللَّهُ, 4:142 وَهُوَ خَٰدِعُهُمْ — orada karşı-işlem, burada kendine dönüş."
+  },
+  "2:10": {
+   "meal": "Kalplerinde bir hastalık var; Allah hastalıklarını artırdı.",
+   "not": "زَادَهُمُ ٱللَّهُ مَرَضًا ↔ 74:31 وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًا: aynı işlemci, iki grupta iki artış. زيد kökü ayrıca 3:90, 3:173, 3:178, 4:137, 6:? — hep artış, nesnesi değişerek. قلب ikinci aşama: hasta."
+  },
+  "2:11-12": {
+   "meal": "\"Yeryüzünde bozgunculuk yapmayın\" denince \"biz düzelticileriz\" derler. Asıl bozguncular onlardır, farkında değiller.",
+   "not": "Üç adımlı kalıp: söylenen → cevap → düzeltme. 2:13'te birebir tekrar, tek fark son kelime (يَشْعُرُونَ → يَعْلَمُونَ). فسد/صلح karşıtlığı 2:220'de ayırt etme fiiliyle dönecek."
+  },
+  "2:13": {
+   "meal": "\"İnsanların inandığı gibi inanın\" denince \"beyinsizlerin inandığı gibi mi?\" derler. Asıl beyinsizler onlardır.",
+   "not": "19 kelime, mora 114 — buraya kadarki en uzun. أمن ×4. كَمَآ iki kez: onlar ٱلنَّاسُ'u ٱلسُّفَهَآءُ ile değiştiriyor, ayet aynı kelimeyi geri döndürüyor — INVOLÜSYON. Aynı figür 3:54 (مكر) ve 5:64 (مَغْلُولَة → غُلَّتْ أَيْدِيهِمْ). سفه kökü 2:130, 4:5, 6:140'ta."
+  },
+  "2:14": {
+   "meal": "Müminlerle karşılaşınca \"inandık\" derler; şeytanlarıyla baş başa kalınca \"biz sizinleyiz, alay ediyoruz\" derler.",
+   "not": "İSKELET: وَإِذَا لَقُوا۟ … قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ — 2:76'da (62 ayet arayla) ve 3:119'da tekrar. Üç geçişte ikinci sahnedeki eylem değişiyor: şeytanlarla alay / kendi aralarında sitem / parmak ısırma. Ve إِنَّمَا نَحْنُ 2:11'den dönüyor: orada 'düzelticiyiz', burada 'alaycıyız'."
+  },
+  "2:15": {
+   "meal": "Allah onlarla alay eder ve azgınlıkları içinde bocalarken mühlet verir.",
+   "not": "يَسْتَهْزِئُ — 2:14'ün fiili, fâil değişmiş. هزأ kökü 2:67, 4:140, 5:57-58'de. فِى طُغْيَٰنِهِمْ يَعْمَهُونَ ↔ 6:110 birebir."
+  },
+  "2:16": {
+   "meal": "Hidâyet karşılığında sapkınlığı satın aldılar; ticaretleri kâr etmedi.",
+   "not": "YANLIŞ-TAKAS figürünün ilk geçişi. شري kökü Bakara'da 10 kez (2:16,41,79,86,90,102×2,174,175,207) ve yalnız 2:207 olumlu. ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ 2:175'te birebir tekrar. hapaks ربح — korpusta tek geçiş. مُهْتَدِينَ bab 8 ve olumsuz."
+  },
+  "2:17": {
+   "meal": "Durumları ateş yakan kimseninki gibidir: çevresi aydınlanınca Allah nurlarını giderdi.",
+   "not": "مَثَلُهُمْ كَمَثَلِ — mesel kalıbının ilki; 2:171, 2:261, 2:264, 2:265, 3:59, 3:117'de. نور kökü iki kez ama İKİ FARKLI KAVRAM (نَارًا ateş / نُورِهِم nur) — ham kök sayımı ayıramaz."
+  },
+  "2:18": {
+   "meal": "Sağırdırlar, dilsizdirler, kördürler; dönmezler.",
+   "not": "صُمٌّۢ بُكْمٌ عُمْىٌ — 2:171'de birebir tekrar, 153 ayet arayla; kuyruk farklı (لَا يَرْجِعُونَ / لَا يَعْقِلُونَ). 6:39'da üçlünün İKİSİ (عُمْى düşmüş, yerine فِى ٱلظُّلُمَٰتِ). 2:7'nin üçlüsünde orta terim kalp→dil."
+  },
+  "2:19-20": {
+   "meal": "Ya da gökten boşanan sağanak gibi: yıldırımlardan parmaklarını kulaklarına tıkarlar… Şimşek neredeyse gözlerini alacak.",
+   "not": "أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم ↔ 71:7 birebir aynı jest (Nûh'un kavmi). 2:20'de kafiye kırılıyor: 2:2-2:19 arası 18 ayet N sınıfı, 2:20 R (قَدِيرٌ) — bölümün kapanış işareti fâsılada."
+  },
+  "_makro": "286 ayet, 6116 kelime. Allah 282 (0.0461), Rab 49 (0.0080) — Rab-seyrek. esmâ 162. iltifât 5. AMMA yalnız 1 (2:26). Emir 111 > haber 96. Yıldız: 47 ★★★. İki uzun sessizlik: Allah-suz 2:28→2:55 (385 kelime, Âdem sahnesi, Rab'la çerçeveli); Rab-suz 2:216→2:237 (22 ayet, tam hüküm bloğu).",
+  "21-60": "2:21 = 4:1 açılışı. 2:23 meydan okuma (فَأْتُوا۟ بِسُورَةٍ) — 6:93 ve 8:31'de iddia edilecek. 2:26 Bakara'nın TEK AMMA taksimi; dört kök çifti iki kola dağılmış; şahıs kümesi yalnız {3}. 2:28 dört basamaklı salınım. 2:30-33 melek diyaloğu: sınav bilginin AKTARILABİLİRLİĞİ üzerine. 2:34 إِلَّآ إِبْلِيسَ. 2:35 tek yasak (لَا تَقْرَبَا). 2:37 sabit nokta (تَابَ/ٱلتَّوَّابُ). 2:40 karşılıklılık simetrik ama sıra sabit. 2:44 kendine-uygulanmama. 2:48 dört ardışık olumsuzlama — aktarım siliniyor. 2:53 furkan. 2:54 aynı kökün üç kipi. 2:55 = 2:3'ün بِٱلْغَيْبِ'inin tam karşıtı, 52 ayet arayla. 2:58 ↔ 7:161 sıra ters (gir-söyle / söyle-gir).",
+  "61-100": "2:61 beş hapaks tek ayette; أَدْنَىٰ↔خَيْر yön tersine; ذِلَّة+غَضَب — 3:112'de İSTİSNALI dönecek. 2:62 küme genişletme, üyelik ölçütü listeden bağımsız; 5:69'da sıra terslenmiş. 2:65 قِرَدَة (5:60, 7:166 ile üç). 2:67-71 sığır: yetersiz belirlenmiş problem, ardışık kısıtlarla teke iniyor, son cümle maliyeti söylüyor. 2:71 olumsuz-emek tanımı (altı negasyon). 2:74 taş bile kalpten hareketli. 2:77 tümlük çifti. 2:79 elle yazma (3:78'de dille eğme). 2:80 أَيَّامًا مَّعْدُودَة (3:24'te tekrar, 2:184'te HÜKÜM). 2:81-82 ilk tam simetrik çift. 2:85 kısmî uygulama eleştirisi — 5:67'de elçi tarafında. 2:87 فَرِيقًا…وَفَرِيقًا zaman kırılmasıyla. 2:88 قُلُوبُنَا غُلْفٌ (4:155'te طَبَعَ ile). 2:93 سَمِعْنَا وَعَصَيْنَا. 2:96 test yapılmadan sonuç.",
+  "101-140": "2:102 öğretim zinciri, beyanlı uyarı — bilginin kendisi değil ALINIŞ BİÇİMİ belirleyici. 2:104 kelime ikamesi emri (4:46'da niçin yasaklandığı). 2:106 nesh: ≥ kuralı (4:86 selamla aynı biçim). 2:109 emir zaman sınırlı. 2:111 هَاتُوا۟ بُرْهَٰنَكُمْ (4:174'te burhan VERİLİYOR). 2:113 antisimetrik ilişki. 2:115 yön kayıtsızlığı; ٱلْمَشْرِق وَٱلْمَغْرِب dört işlevin ilki. 2:117 كُن فَيَكُونُ. 2:120 إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ (3:73, 6:71). 2:124-129 İbrâhim; 2:129 dua, 2:151 cevap, 3:164 lütuf. 2:134=2:141 ikiz; ayrıştırma ilkesi. 2:136 لَا نُفَرِّقُ (2:285, 3:84, 4:152).",
+  "141-180": "2:143 kıble AYIRT ETME aracı (لِنَعْلَمَ), iç içe iki şahitlik. 2:147 = 3:60. 2:150 emir üç kez, gerekçe hiç tekrarlanmıyor. 2:152 en dar karşılıklılık. 2:154 ↔ 3:169 (تَقُولُوا۟→تَحْسَبَنَّ). 2:158 şâkir figürü. 2:163 Fâtiha esmâsı tevhid mührü olarak. 2:164 sekiz öge, gök-yer çerçevesi (3:190'da iki ögeye iniyor). 2:165 كَحُبِّ+أَشَدَّ (2:200, 4:77). 2:171 = 2:18 üçlüsü, 153 ayet arayla, kuyruk farklı. 2:173 kural+ruhsat+mühür (5:3, 6:145 ile üç, sonuncusu Rab eksenli). 2:177 birr tanımı olumsuzlamayla; 13 madde. 2:178 kısas denklikleri (5:45'te beşe çıkıyor).",
+  "181-220": "2:184-185 aynı ruhsat iki kez, gerekçe eklenerek. 2:185 يُسْر/عُسْر (69:9-10, 2:280). 2:186 aracısız döngü; قَرِيب. 2:187 üç sınır; حُدُودُ ٱللَّهِ ilk kez; ayırt etme eşiği GÖRSEL. 2:188 = 4:29 ama ruhsatsız. 2:191 altı قتل, hepsi koşullu. 2:194 ölçü kaydı (5:45, 5:95 ile). 2:196 dört dallı karar ağacı; 3+7=10 açık toplama (7:142'de 30+10=40); kapanış شَدِيدُ ٱلْعِقَابِ — ruhsat-mühür adayına karşı örnek. 2:207 üçüncü وَمِنَ ٱلنَّاسِ مَن. 2:213 ayrışma modeli: ihtilaf kitaptan SONRA ve alanlar arasında. 2:216 = 4:19. 2:217 sıralama bağıntısı. 2:219 net değer hesabı.",
+  "221-260": "2:221 birebir çift-yönlü hüküm (4:7, 5:5, 5:38 ile). 2:225/2:235 غَفُور حَلِيم (3:155, 5:101 ile dört, hepsi 'yapılmamış ama yapılabilecek'). 2:228 aynı cümlede simetri ve kırılması. 2:229 حُدُودَ ٱللَّهِ dört kez. 2:233 ولد sekiz kez; لَا تُكَلَّفُ نَفْسٌ (2:286, 6:152, 7:42 ile dört). 2:243 2:28'in iki basamaklı kıssa hâli. 2:245 = 73:20 borç figürü. 2:247 kıstas ikamesi (servet→ilim+beden). 2:249 iki eleme; sayısal üstünlük geçersiz. 2:251 بعض denge mekanizması. 2:253 karşı-olgusal iki kez, arada gerçek. 2:255 on basamaklı kapsam merdiveni, iki إلا; 3:2'de ilk yedi kelime bağımsız ayet. 2:256 zorlamama NETLİKTEN türetiliyor. 2:257 tam involüsyon. 2:258 ölçütü keskinleştirerek kazanma. 2:259 36.500 kat kalibrasyon hatası, üç fiziksel kanıt. 2:260 talep bilgi katmanında değil.",
+  "261-286": "2:261 7×100 çarpma. 2:264-266 üç mesel: kaygan taş→sıfır, tepedeki bahçe→çift verim (alt sınır da pozitif), yaşlının bahçesi→geç yıkım; 3:117'de dördüncü varyant (rüzgâr). 2:267 kendine-uygulama testi. 2:271 بدو/خفي değer sıralamasıyla. 2:275 denklik iddiası hüküm konularak reddediliyor. 2:276 kök kendisine karşı (ٱلرِّبَوٰا۟/يُرْبِى). 2:281 tam ödeme (3:25, 3:161 ile üç). 2:282 128 kelime — Kur'an'ın en uzunu, bir YAZMA emri; كتب ×9 (korpusta ikinci en yoğun tek-ayet kök tekrarı, 24:61 بيت ×10 birinci). 2:283 protokol kendi uygulanamadığı durumu kapsıyor; güven yazının yerine. 2:285 سَمِعْنَا وَأَطَعْنَا — 2:93'ün tam tersi, 192 ayet arayla. 2:286 üç رَبَّنَا; son 46 kelimede Allah lafzı YOK."
+ },
+ "ilerleme": {
+  "tam": [
+   1
+  ],
+  "sikistirilmis": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "kismi": {
+   "2": "1-20 ayet düzeyinde"
+  },
+  "bekleyen": {
+   "2": "21-286 blok özeti"
+  },
+  "not": "Sûre 9'dan itibaren TAM kipte, okurken yazılacak."
+ },
+ "7": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "206 ayet, 3320 kelime. Allah 61 (0.0184) < Rab 65 (0.0196) — okunan TEK Rab-baskın sûre. esmâ 35 (çok düşük), iltifât 0, kafiye 203/206 N. Yedi tam-ayet ikizi: 7:78=7:91 (sûre içi), 7:107-108=26:32-33, 7:121-122=26:47-48 (iki ARDIŞIK çift), 7:183=68:45. En derin Allah-sessizliği 424 kelime (7:140→7:158) — korpus rekoru, içinde 15 Rab: eksen devri.",
+  "1-20": "الٓمٓصٓ ile açılış (2:1/3:1'e bir harf eklenmiş). İlk 20 ayette Allah lafzı SIFIR; 303 kelimelik koridor 7:26'ya kadar Âdem-İblîs sahnesini kapsıyor. 7:11 Âdem'e secde — 2:34'ün karşılığı ama İblîs'in reddi farklı ifadeyle (لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ vs أَبَىٰ وَٱسْتَكْبَرَ). 7:12 madde-değer çıkarımı (ateş/çamur), argüman çürütülmüyor konuşan çıkarılıyor. 7:16 صِرَٰطَكَ ٱلْمُسْتَقِيمَ — Fâtiha terkibinin ŞEYTANIN AĞZINDA dördüncü izâfet varyantı. 7:19 ≈ 2:35 birebir (رَغَدًا düşmüş). 7:20 vesvese repliği — Bakara'da YOK; HASR ile eksik-tanım saldırısı.",
+  "21-40": "يَٰبَنِىٓ ءَادَمَ dört kez (7:26,27,31,35) — korpustaki beş geçişin dördü. لباس ters kullanım: 7:26 indirilen giysi ↔ 7:27 şeytanın çekip aldığı. 7:22-23 Bakara'da olmayan ara sahne: tatma-açığa çıkma-örtünme-çağrı; ve 2:37'de Âdem kelimeleri ALIYORDU, A'râf kelimeleri VERİYOR. 7:24 = 2:36 birebir. 7:27 tek yönlü görme — 6:103'teki asimetri, ama fâil ŞEYTAN. 7:33 مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ (6:120, 6:151 ile üçüncü); haram RAB'dan, şirk ALLAH'a — ayet içi eksen ayrımı. 7:38 cehenneme ardışık giriş: كلما + حتى إذا ادّاركوا + أخرىهم لأولىهم.",
+  "41-60": "ٱلْأَعْرَاف 7:46,48 — korpusta başka yerde yok, ve عرف köküyle aynı: yer adı orada yapılan işle aynı kökten. ندي beş kez: beş ayrı çağrı, farklı yönlerde. 7:43 هدي üç kez — bab VIII olumsuzlanıp bab I'e bağlanıyor (وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ): Fâtiha turundaki 154/61 asimetrisinin cümle hâli. 7:44 ↔ 7:50 iki yönlü çağrı. 7:46 A'râf ÜÇÜNCÜ KÜME — ne içeride ne dışarıda, tanımı bilgiyle (herkesi sîmâsından tanıyorlar); 4:143'ün مُّذَبْذَبِينَ konumu ama gözlem noktası. 7:54 kozmoloji + Allah + Rab birlikte (aday #4 çatallanmasına üçüncü tip).",
+  "61-80": "Dört peygamber, BİREBİR kalıp: يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ — Nûh 59, Hûd 65, Sâlih 73, Şuayb 85. Lût 80'de KIRILIYOR. Suçlama-red aynı kökle: ضَلَٰل→لَيْسَ بِى ضَلَٰلَةٌ, سَفَاهَة→لَيْسَ بِى سَفَاهَةٌ. 7:62 mesaj RAB'dan bilgi ALLAH'tan — eksen ayrımı. نصح dört geçiş, biri ŞEYTANIN (7:21). 7:78 = 7:91 tam ikiz.",
+  "81-100": "7:94-100 genel yasa bloğu, peygamber adı yok. أمن beş kez ve hepsi GÜVENLİK: أَفَأَمِنَ iki kez, sonra مَكْرَ ٱللَّهِ ile bağlanıyor — HASR ile güvende olmak hüsran işareti. 7:86 لَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍ ↔ 7:16 şeytanın لَأَقْعُدَنَّ: plan, 70 ayet sonra yasak. 7:92 involüsyon: onların dediği لَّخَٰسِرُونَ iki ayet sonra onlara dönüyor. 7:95 = 6:44 mekanizması (sıkıntı→refah→şımarma→ani alım).",
+  "101-120": "لقي altı kez, sonuncusu EDİLGEN (7:120 وَأُلْقِىَ ٱلسَّحَرَةُ سَٰجِدِينَ, 3 kelime): atan taraf atılan oluyor. سَٰحِرٌ عَلِيمٌ — suçlama uzmanlık olarak (ÖLÇÜM NOTU: defter عَلِيم'i esmâ sayıyor, değil). 7:107-108 = 26:32-33 ardışık ikiz. صَٰغِرِينَ 7:13 (İblîs) ↔ 7:119 (sihirbazlar). 7:116 büyü GÖZE yapılıyor, nesneye değil.",
+  "121-140": "Rab sekiz, Allah üç — Firavun tartışması Rab ekseninde. 7:121-122 = 26:47-48. 7:122 tanım daraltması: رَبِّ ٱلْعَٰلَمِينَ → رَبِّ مُوسَىٰ وَهَٰرُونَ. 7:127 قَٰهِرُونَ — Firavun 6:18/6:61'de Allah'ın sıfatını kendine alıyor (aynı kök, aynı edat). 7:133 beş âyet مُّفَصَّلَٰت diye adlandırılıyor — En'âm'da bu sıfat beş kez KİTAP içindi. 7:140 dördüncü أَغَيْرَ ٱللَّهِ sorusu: velî(6:14)/hakem(6:114)/Rab(6:164)/ilâh(7:140).",
+  "141-160": "424 kelimelik Allah-sessizliği; 15 Rab. 7:142 30+10=40 açık toplama (2:196'nın 3+7=10'u ile ikinci). 7:143 6:103'ün ilkesi DENEYE çevriliyor, aracı: dağ; رأي/نظر ayrılıyor. 7:148 buzağının maddesi (حُلِيّ, altın) YALNIZ burada. 7:150 عجل iki kavram: buzağı/acele. 7:155 أَخَذَتْهُمُ ٱلرَّجْفَةُ üçüncü kez, ilk kez MÜMİNLERE. 7:156 rahmet كُلَّ شَىْءٍ, azap مَنْ أَشَآءُ — kapsam asimetrisi. 7:158 sessizlik üç lafızla bitiyor + إِلَيْكُمْ جَمِيعًا.",
+  "161-180": "7:172 أَلَسْتُ بِرَبِّكُمْ — soru RAB'la. Mazeret kapatma dördüncü ve en geriye giden hâli (4:165, 6:131, 7:164 ile). 7:163 Sebt sınavı: yasak günde bolluk — ters bağıntı. 7:176 köpek meseli: يَلْهَث iki kez, 2:6'nın fark-yokluğu somut hâlde. 7:178 مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى — bab I ve VIII koşul-sonuç ilişkisinde. 7:179 üç organ VAR ama işlemiyor + كَٱلْأَنْعَٰمِ بَلْ هُمْ أَضَلُّ. 7:180 ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ — سمو kökünün üçüncü kaynağı (2:31 öğretilen, 7:71 uydurulan).",
+  "181-206": "دعو yedi kez: çağırın-cevap versinler sınavı. 7:187 aynı cümle TEK AYETTE iki eksende: إِنَّمَا عِلْمُهَا عِندَ رَبِّى … عِندَ ٱللَّهِ. 7:195 putta dört organ YOK — 7:179 ile kısmî örtüşme (göz, kulak ortak). 7:183 كَيْدِى مَتِينٌ ↔ 7:195 ثُمَّ كِيدُونِ. 7:198 üç görme kökü ters dizilim. 7:206 secde ayeti; sûre kibirle (7:13) açılıp kibrin yokluğuyla kapanıyor, secde emri (7:11) ↔ secde beyanı (7:206)."
+ },
+ "8": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "75 ayet, 1233 kelime. Allah 88 (0.0714) — okunan EN Allah-yoğun sûre, korpusun 2.05 katı. Rab 6 (0.0049). A'râf'tan geçiş dört kat sert. esmâ 50 (yoğunluk A'râf'ın dört katı). Söz edimi: şart 30, ve 75 ayette TEK soru (8:1). Tam-ayet ikizi 0, iltifât 0. ألف yedi kez — korpusta rekor.",
+  "1-20": "Sûre tek sorusuyla açılıyor (يَسْـَٔلُونَكَ عَنِ ٱلْأَنفَالِ); soru MAL hakkında, cevap İLİŞKİ düzeltmesine geçiyor (وَأَصْلِحُوا۟ ذَاتَ بَيْنِكُمْ). 8:2 ürperme ALLAH anıldığında, tevekkül RAB'a — ayet içi eksen ayrımı. 8:3 = 2:3'ün ikinci yarısı. 8:7 iki irade karşı karşıya (تَوَدُّونَ / يُرِيدُ ٱللَّهُ). 8:10 = 3:126 birebir — sayı verilip işlevi açıklanıyor (74:30-31 figürü). طمأن dördüncü geçiş (2:260, 3:126, 5:113, 8:10), dördü de işaret talebinin ardından. 8:12 وحي MELEKLERE, fâil رَبُّكَ. 8:17 fâil ataması yeniden yazılıyor: وَمَا رَمَيْتَ إِذْ رَمَيْتَ — fiil kabul, atıf red. 8:18 كَيْد مُوهِن ↔ 7:183 كَيْدِى مَتِينٌ.",
+  "21-40": "وَٱعْلَمُوٓا۟ dört kez (24,25,28,40): emir sonra gerekçe. 8:21 üçüncü سَمِعْنَا varyantı (2:93 وَعَصَيْنَا / 4:46,5:7 وَأَطَعْنَا / burada işittik ama işitmiyorlar). 8:22 ٱلصُّمُّ ٱلْبُكْمُ — üçlünün ikisi (6:39 gibi). 8:23 iç içe iki karşı-olgusal, zincir kendi sonucuyla çürütülüyor. 8:24 يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ; قلب Enfâl'de beş kez, sürekli müdahale alanı. 8:25 fitne YAYILIYOR — 4:111'in bireyselliğiyle karşıt. 8:29 فُرْقَان KİŞİYE veriliyor (2:53, 2:185, 3:4'te kitaptı). 8:30 مكر DÖRT kez tek ayette — korpus rekoru; ثبت 8:11-12 (sağlamlaştırma) ↔ 8:30 (tutuklama). 8:32 ٱللَّهُمَّ ilk kez inkârcı ağzında (3:26, 5:114 duaydı). 8:33 iki erteleyici koşul. 8:37 ميز sonra ركم: ayrıştırma sonra yığma. 8:39 = 2:193 + كُلُّهُ. 8:40 ولي üç kez iki kavramda."
+ },
+ "3": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "200 ayet, 3481 kelime. Allah 209 (0.0600) — korpusun 1.72 katı. Rab 42. AMMA taksimi 5 (Bakara'da 1). iltifât 3. Tam-ayet ikizi: 3:88=2:162, 3:89=24:5 (ARDIŞIK çift; 2:161-162 ↔ 3:87-88 aynı sırayla). En derin Allah-sessizliği yalnız 101 kelime.",
+  "1-20": "3:1 الٓمٓ = 2:1 birebir ölçü. 3:2 = 2:255'in ilk yedi kelimesi TEK BAŞINA ayet (1:3'ün yaptığı: alt-dizi bağımsız terime yükseliyor). 3:3 iki bab yan yana: نَزَّلَ (tedricî, Kur'an) / أَنزَلَ (toplu, öteki kitaplar). 3:7 muhkem-müteşâbih: AMMA taksimi ASİMETRİK (فَأَمَّا var, karşı kol وَأَمَّا değil sadece وَ); أُمُّ ٱلْكِتَٰبِ referans kümesi ilan ediyor; 2:26'nın karşılığı. 3:13 ölçüm gözlemciye bağlı (مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ). 3:14 servet listesi — altın/gümüş ADIYLA (sığır tartışmasının kanıtı). 3:18 önerme-kanıt-önerme, üç şahit; لَآ إِلَٰهَ إِلَّا هُوَ tek ayette iki kez. 3:19 = 2:213'ün ifadesi, HASR ile.",
+  "21-40": "3:26 dört fiil iki karşıt çift (ver-al, yücelt-alçalt), tek yetki. 3:27 aynı işlem f ve f⁻¹ yönünde; بِغَيْرِ حِسَابٍ ile üçüncü fiil ölçüden muaf. 3:28 ↔ 3:30 يُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُ birebir. 3:31 sevgi karşılıklı ama ARADA bir terim (فَٱتَّبِعُونِى) — 2:152'nin üç terimli hâli. 3:33-34 ayrık seçim sonra tek zincir. 3:35 sûrede ilk kadın konuşmacı, doğrudan Rab'a. 3:37 iki MM figürü tek ayette; 71:17'nin نَبَاتًا figürü. 3:40 soru→kaynağa havale (2:117'nin hamlesi).",
+  "41-60": "Rab 14 kez — sûrenin en Rab-yoğun bloğu, hepsi anlatı içinde. 3:41 istenen işaret bir YETİNİN KALDIRILMASI; إِلَّا رَمْزًا ile kanal daralıyor ama kapanmıyor. 3:45 Îsâ KELİME (3:39'da Yahyâ kelimeyi doğrulayan). 3:47 = 3:40 aynı soru iki kişi. 3:49 beş mucize, İKİSİ izin kaydıyla — ve kayıtlananlar tam da 2:258'de tartışılan iki fiil. 3:51 Allah özne + Rab yüklem tek cümlede. 3:54 مكر üç kez altı kelimede. 3:56-57 AMMA tam simetrik (2:26 girdi tarafında, burada çıktı). 3:59 كُن فَيَكُونُ ile üç olay tek operatöre. 3:60 = 2:147 birebir.",
+  "61-80": "حجج beş kez. 3:61 mübâhele — ispat yerine simetrik karar prosedürü, hiç uygulanmıyor. 3:64 ortak zemin ÜÇ DIŞLAMA ile tanımlanıyor. 3:65-66 kronoloji + epistemoloji. 3:69 = 2:9 tek kelime farkla (يَخْدَعُونَ→يُضِلُّونَ), son üç kelime birebir. 3:71 = 2:42'nin soru kipi. 3:75 kantar↔dinar ölçeği, davranış miktara değil kişiye bağlı. 3:78 iki önerme iki red birebir simetrik. 3:79 كون beş kez; كُونُوا۟ عِبَادًا لِّى (red) / كُونُوا۟ رَبَّٰنِيِّـۧنَ (emir). 3:64 ve 3:80 أَرْبَابًا — çıplak çoğul yalnız sahte-rab söyleminde, ikisi de اتخذ ile.",
+  "81-100": "شهد sekiz kez. 3:81 sözleşme protokolü dört adım; teklifi veren şahit listesine giriyor. 3:84 = 2:136 ≈ 2:285. 3:87-88 = 2:161-162 ardışık çift. 3:89 üç ayetlik kapalı hükümden sonra tek ayetlik açık kapı. 3:91 مِلْءُ ٱلْأَرْضِ ذَهَبًا — altın ölçü birimi olarak. 3:92 birr'e eşik koşulu, ölçü sevginin miktarı. 3:96 هُدًى لِّلْعَٰلَمِينَ (2:2'de لِّلْمُتَّقِينَ). 3:98 = 3:70 aynı soru, şahit taraf değişmiş.",
+  "101-120": "AMMA 3:106-107 (yüzler — ayrım GÖRSEL). 3:103 iki emir aynı şeyi söylüyor; حَبْلِ ٱللَّهِ tek bağ. 3:110 talep (3:104) → beyan; aynı üçlü 3:114'te üçüncü özneye. 3:112 = 2:61 neredeyse kelime kelime, ama İSTİSNA eklenmiş (إِلَّا بِحَبْلٍ) ve iki ayrı ضُرِبَتْ. 3:113 لَيْسُوا۟ سَوَآءً — küme bölünüyor. 3:117 2:264-266'nın dördüncü varyantı: rüzgâr, tek sonuç. 3:119 = 2:14/2:76 iskeleti üçüncü kez.",
+  "121-140": "3:124-126 sayı-işlev ayrımı: 3.000→5.000 verilip hemen işlevi (müjde+yatışma) açıklanıyor. Artış ŞARTA bağlı. 3:130-133 dört kısa emir. 3:133 عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ — ölçü birimi evren. 3:135 وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ — açık uçlu üstünlük sorusu, ilk kez CEVAPLANMIŞ. 3:140 ayırt edici bir OLAY (yenilgi), وَلِيَعْلَمَ ile açıkça.",
+  "141-160": "3:141 محص/محق yan yana: arındırma/silme. 3:144 bağımlılık kırma (elçi diziye yerleştiriliyor) — 3:59'un hamlesi. 3:152 kırılma üç fiille: gevşeme→çekişme→isyan. 3:154 75 kelime, sûrenin en uzunu; أمر üç kez (soru-cevap-sorunun tekrarı); karşı-olgusal BOŞ çıkıyor. 3:157-158 قتل/موت ters sıra. 3:159 istişare karardan ÖNCE, tevekkül SONRA. 3:122 ↔ 3:160 çerçeve.",
+  "161-180": "وَلَا تَحْسَبَنَّ beş kez (169,178,180,188×2), hepsi DEĞER YANILGISI düzeltiyor. 3:164 = 2:129/2:151'in dördüncü tekrarı, 'lütuf' diye adlandırılıyor. 3:165 أَنَّىٰ هَٰذَا — 3:37/3:40/3:47'de cevap مِنْ عِندِ ٱللَّهِ idi, burada مِنْ عِندِ أَنفُسِكُمْ. 3:169 = 2:154 ama fiil تَقُولُوا۟→تَحْسَبَنَّ ve kuyruk 'farkında değilsiniz'→'Rableri katında'. 3:179 يَمِيزَ — ayrıştırma gaybla değil OLAYLA. 3:180 cimrilik hesap hatası olarak.",
+  "181-200": "Rab dokuz kez, yedisi رَبَّنَا. 3:185 كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ — ذوق evrensel (aday #6'ya dikkat notu). 3:190 = 2:164'ün kısaltılmışı (43 kelime 8 öge → 11 kelime 2 öge). 3:191-194 dört ayet beş رَبَّنَا; 3:195 duaya DOĞRUDAN cevap, birinci şahsa geçerek. 3:196-197 = 3:185'in متاع'ı. 3:199 ثمنا قليلا ilk kez OLUMSUZ. 3:200 صبر iki babda (I ve III — müşareke). Sûre EMİRLE kapanıyor (Bakara dua ile). 3:9 ↔ 3:194 çerçeve."
+ },
+ "4": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "176 ayet, 3747 kelime. Allah 229 (0.0611), Rab 6 (düzeltilmiş; defterde 7 ama 4:23 رَبَٰٓئِب Rab değil). Allah/Rab 38.2 — korpusun 12 katı sapma. Şart kipi ilk kez baskın (75/176). MM 12 kez. Tam-ayet ikizi SIFIR. Kesir sistemi: 4:11-12'de sekiz farklı kesir, on üç açık sayı.",
+  "1-20": "4:1 = 2:21 açılışı; birlik ifadesiyle açılıp 176 ayet bölüşüyor. 4:3 kısıt sağlanamazsa çözüm kümesi daralıyor {2,3,4}→{1}; gerekçe MESAFE ölçütü (أَدْنَىٰ). 4:6 test-eşik: yaş VE yeterlilik. 4:9 yer değiştirme testi. 4:11-12 tam karar ağacı, hiçbir dal boş değil; gerekçe insanın hesap yapamamasında (لَا تَدْرُونَ). 4:12 88 kelime — Kur'an'ın ikinci en uzunu; مِنۢ بَعْدِ وَصِيَّةٍ dört kez birebir; aktörler ADSIZ (racül+imrae, nekre). 4:19 = 2:216'nın ifadesi.",
+  "21-40": "4:23 on dört kalem, yasak SONLU; tümleyen helâl (4:24). 4:25 ceza kesri (نِصْف) — miras kesirlerinin aracı ceza alanında. 4:26-28 üç irade cümlesi, 4:27 iki fâili aynı fiille karşı karşıya. 4:28 = 70:19 yapısı (خُلِقَ ٱلْإِنسَٰنُ + tek sıfat). 4:29 = 2:188 ama RUHSAT eklenmiş. 4:32↔4:34 فَضَّلَ ٱللَّهُ بَعْضَهُمْ iki ayet arayla iki işlev: temenni yasağı / hüküm gerekçesi. 4:35 iki simetrik hakem. 4:36 2:83/2:177 listesi dokuz kaleme genişliyor. 4:40 alt sınırda zulüm yok, üst sınırda katlama.",
+  "41-60": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ dört kez — Bakara'da anlatı açıyordu, burada tartışma. كفي beş kez, nesnesi değişerek. 4:43 عَفُوّ|غَفُور mühür — RUHSAT ayeti, af çifti. 4:46 سَمِعْنَا وَعَصَيْنَا ↔ سَمِعْنَا وَأَطَعْنَا TEK AYETTE yan yana (Bakara'da 192 ayet arayla). 4:48 küme tek noktayla ikiye ayrılıyor. 4:49/53 minimum birimler (فَتِيلًا, نَقِيرًا). 4:58 emanet+adalet, mühür سَمِيع بَصِير. 4:59 üç muhatap, üçüncüde fiil tekrarlanmıyor. 4:60 iki fâil karşı karşıya.",
+  "61-80": "صوب altı kez — atıf sorusu. Rab üçü de replik içinde. 4:64 تَوَّابًا رَّحِيمًا yedinci geçiş, yine tövbe. 4:65 iman üç artan derinlikte koşula (حَتَّىٰ zinciri). 4:69 أَنْعَمَ ٱللَّهُ — Fâtiha'nın 1:7'si, ve kimler oldukları İLK KEZ sayılıyor. 4:72-73 birebir simetrik: musibet→sevinç, lütuf→hayıflanma. 4:74 يَشْرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِٱلْءَاخِرَةِ — 2:86'nın TERSİ yön. 4:77 كَـ+أَشَدَّ+masdar (2:165 sevgi, 2:200 zikir, burada korku). 4:78↔4:79 görünür çelişki, şahıs sayısıyla ayrışıyor.",
+  "81-100": "4:82 tutarlılık argümanı: kaynağın tekliği çelişkisizlikten. 4:85 شفع pay üretiyor — Bakara'da reddedilen kanaldı. 4:86 ≥ kuralı (2:106 nesh ile aynı biçim). 4:92 أمن yedi kez — Nisâ rekoru; üç dallı kefaret ağacı. 4:93 غضب ilk kez FİİL ve fâili açıkça Allah. 4:95-96 دَرَجَة tekil→çoğul; üstünlük var ama alt sınır herkese garanti. 4:99 عَفُوّ|غَفُور ikinci ve son — yine ruhsat.",
+  "101-120": "4:102 çevrim protokolü: iki grup, faz kaydırma. 4:104 simetri kurulup kırılıyor: acı eşit, UMUT değil. 4:106-111 esmâ mühürleri dönüşümlü (عليم حكيم hüküm / غفور رحيم istiğfar). 4:110 = 4:64 aynı cümle farklı mühür. 4:111-112 aktarım yasağı: atma yükü artırıyor. 4:113 = 2:9/3:69 üçüncü. 4:116 = 4:48 aynı ayet farklı kuyruk. 4:119 نَصِيبًا مَّفْرُوضًا ↔ 4:7 (miras payı ↔ şeytanın payı).",
+  "121-140": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ beş kez (126-132); 4:131 aynı ayette hem gerekçe hem sonuç. 4:125 أخذ'in Nisâ'daki TEK olumlu geçişi (خَلِيلًا). 4:127 ↔ 4:176 iki fetva ayeti. 4:128 نشوز ters yön (4:34'te erkeğin korkusu). 4:129 4:3'ün eşiği ULAŞILMAZ ilan ediliyor, yeni alt sınır. 4:135 şahitlik iki eksende zorunlu (yakınlık, statü). 4:137 iman-küfür salınımı tek yöne kaçıyor. 4:140 mekân paylaşımı statü paylaşımına dönüşüyor.",
+  "141-176": "4:143 مُّذَبْذَبِينَ — tanımsız konum. 4:150-152 ikili sınıflandırma, ayrım noktası tek: فرق. 4:155 = 2:88 ama لَعَنَهُمُ→طَبَعَ. 4:157 شُبِّهَ لَهُمْ — شبه kökünün beşinci ve en somut hâli. 4:163 on iki adlı varlık, hepsi mecrur. 4:164 anlatı kendi eksikliğini ilan ediyor (قَصَصْنَٰهُمْ / لَّمْ نَقْصُصْهُمْ). 4:171 iki HASR üst üste; ثَلَٰثَة ↔ وَٰحِد. 4:174 برهان veriliyor (2:111'de isteniyordu). 4:176 sûre açılış kesriyle kapanıyor; gerekçe أَن تَضِلُّوا۟."
+ },
+ "5": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "120 ayet, 2804 kelime. Allah 147 (0.0524), Rab 19 (0.0068). Nidâ 34/120 (%28) — okunan en yüksek. Haber kipi ilk kez dördüncü sıraya düşüyor. esmâ 70 (yoğunluk düşük). Tam-ayet ikizi 5:10=5:86 (sûre içi, 76 ayet arayla, ikisi de 7 kelime). Adsız aktör yalnız 1 ayette — Mâide ADLANDIRIYOR: Meryem 10, Tevrat 7, Îsâ 6, Mesîh 5, İncîl 5.",
+  "1-20": "Sûre AKİT sözcüğüyle açılıyor (أَوْفُوا۟ بِٱلْعُقُودِ); وثق beş kez ilk 20 ayette. ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ üç kez (7, 11, 20), üç farklı muhataba. 5:2 ↔ 5:8 شَنَـَٔانُ قَوْمٍ aynı uyarı İKİ FARKLI sonuçla (haddi aşma / adaletsizlik). 5:3 dört hapaks (خنق/وقذ/نطح/ذكو) — 2:61'in beş hapaksıyla aynı tip, ikisi de liste. 5:8 = 4:135 ama İÇ SIRA TERS (قوّامين بالقسط شهداء لله → قوّامين لله شهداء بالقسط). 5:12 on iki temsilci ↔ 2:60 on iki pınar. 5:13-14 iki misak, aynı bozulma cümlesi.",
+  "21-40": "Rab dördü de replik içinde. 5:22 جَبَّارِين — ÖLÇÜM NOTU: defter esmâ sayıyor, kavmin niteliği. 5:27 aynı işlem iki sonuç, ayrım ALAN tarafta; iki kardeş ADSIZ. 5:28 birebir simetrik el uzatma. 5:31 karga öğretmen; öğretilen şey GİZLEME. 5:32 '1 = hepsi' ölçek eşitlemesi — Nisâ'nın kesir sistemine karşıt. 5:33→34 ve 5:38→39: had, sonra hemen kapı. 5:40 = 5:18 ama غفر/عذب SIRA TERS.",
+  "41-60": "وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ üç kez, ÜÇ FARKLI hükümle: كافرون (44) / ظالمون (45) / فاسقون (47). حكم on dört kez. 5:45 beş birebir denklik (can/göz/burun/kulak/diş) — 2:178'in üçlüsünün genişlemişi. 5:48 çoğulluk KASITLI ilan ediliyor, işlevi لِّيَبْلُوَكُمْ. 5:51 velî yasağı, 5:55 olumlu karşılığı dört ayet sonra. 5:54 عزز/ذلل ERDEM olarak (2:61/3:112'de ceza). 5:59 sûrenin en bağlı ayeti.",
+  "61-80": "Rab yedi kez, dördü 'indirmenin kaynağı' formülünde. لَبِئْسَ مَا dört kez. 5:62-63 yapan ve ENGELLEMEYEN aynı ağırlıkta kınanıyor. 5:64 iddia KENDİ LAFZIYLA çürütülüyor (مَغْلُولَة→غُلَّتْ أَيْدِيهِمْ); مَبْسُوطَتَانِ tesniye. 5:67 kısmî tebliğ SIFIRA eşitleniyor. 5:68 = 2:113'ün cümlesi, fâil değişmiş. 5:69 = 2:62 ama Nasârâ/Sâbiîn YER DEĞİŞTİRMİŞ. 5:71 salınım: bozulma→af→bozulma. 5:72 = 3:51 birebir. 5:75 = 3:144 argümanı (diziye yerleştirme).",
+  "81-100": "5:82 grup ayrımı ADA değil DAVRANIŞA bağlanıyor (kibirsizlik) — 5:51'in blok yasağıyla karşıt. 5:86 = 5:10. 5:89 = 2:225 ama KEFARET eklenmiş; مِنْ أَوْسَطِ مَا تُطْعِمُونَ ölçü standardı. 5:90-91 5:3'ün listesinden iki öge, 87 ayet arayla. 5:93 üç basamaklı merdiven, her adımda bir öge düşüyor. 5:94 لِيَعْلَمَ + erişilebilir av: kolaylık sınav aracı. 5:95 عدل iki anlamda (adil kişi / denk). 5:98 İKİ ZIT MÜHÜR tek ayette eşit konumda. 5:100 çokluk ölçüt değil.",
+  "101-120": "5:101 bilgi MALİYET olarak; غَفُور|حَلِيم dördüncü geçiş (2:225, 2:235, 3:155) — dördü de 'yapılmamış ama yapılabilecek' alanlar. 5:103 ikinci dörtlü hapaks kümesi (bahîre/sâibe/vasîle/hâm). 5:104 = 2:170 birebir. 5:106-107 beş adımlı temyiz mekanizması. 5:109 = 2:32 ama İSTİSNA YOK (melekler bildiklerini kaydediyordu, elçiler tam bilgisizlik). 5:110 = 3:49 şahıs çevrilmiş (Îsâ 1. şahıs → Allah 2. şahıs), ve بِإِذْنِى DÖRT kez (3:49'da iki). 5:113 طمأن üçüncü geçiş. 5:116 tek yönlü bilgi ilişkisi açık formülle. 5:118 beklenen mühür غفور رحيم olurdu, عَزِيز حَكِيم geliyor. 5:119 tam karşılıklılık (رَضِىَ … وَرَضُوا۟)."
+ },
+ "6": {
+  "_kip": "sıkıştırılmış — blok düzeyinde",
+  "_makro": "165 ayet, 3050 kelime. Allah 87 (0.0285) — korpus ortalamasının ALTINDA; Rab 53 (0.0174) — üstünde. Oran 1.64. İlk Mekkî sûre, eksen yer değiştiriyor. Nidâ 6/165 (%3.6), soru 33 (%20). Üç tam-ayet ikizi, üçü de dışarıya: 6:4=36:46, 6:10=21:41, 6:15=39:13. Kafiye 157/165 N. Yıldız az: 13 ★★★.",
+  "1-20": "ٱلْحَمْدُ لِلَّهِ ile açılış — Fâtiha 1:2'nin ilk iki kelimesi; حمد dikey ölçümde eksene en yakın kök. قُلْ dokuz kez. 6:1 iki meşru çift (gök-yer, karanlık-nur) sonra bir gayrimeşru denklik reddediliyor. 6:2 İKİ ecel yan yana ve ayrı. 6:7-9 üç karşı-olgusal: her istenen işaret aynı şüpheyi yeniden üretiyor — KISIR DÖNGÜ. 6:12 كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ (Allah). 6:14 يُطْعِمُ وَلَا يُطْعَمُ — tek yönlü ilişki. 6:18 ٱلْقَاهِرُ فَوْقَ عِبَادِهِ. 6:19 شهد dört kez, son halkada RED. 6:20 = 2:146 birebir.",
+  "21-40": "HASR yedi kez. 6:21 وَمَنْ أَظْلَمُ — En'âm'da DÖRT geçiş (21, 93, 144, 157), korpusun en yoğun sûresi. 6:25 وَقْرًا ↔ 69:12 أُذُنٌ وَٰعِيَةٌ. 6:26 وَمَا يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ — 2:9/3:69 kalıbının üçüncü fiili. 6:31↔6:38 فرط iki fâil zıt değer. 6:33 جحد ≠ كذب ayrımı. 6:35 imkânsızlık (tünel/merdiven) sonra iradeye bağlanıyor. 6:38 أُمَمٌ أَمْثَالُكُم — hayvanlar için ümmet, korpusta TEK. 6:39 صُمٌّ وَبُكْمٌ (üçlünün ikisi).",
+  "41-60": "Rab altı kez, kula dönük. 6:42-45 döngü: sıkıntı→katılaşma→refah→şımarma→ani alım; ikinci sınav daha etkili. 6:44 = 7:95. 6:50 üç red sonra tek olumlu (dışlamayla yetki tanımı). 6:52 hesap ayrımı birebir simetrik. 6:54 كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ — 6:12'nin EKSEN VARYANTI. 6:57 delil Rab'dan, hüküm Allah'a. 6:59 dört basamaklı kapsam daralması, üç إِلَّا. 6:60 uyku ölüm-diriliş olarak.",
+  "61-80": "İbrâhim sahnesi: 6:76-78 üç aday ARTAN büyüklükte, sabit ölçütle (أَفَلَ) eleniyor, 6:79'da küme dışına çıkılıyor — 2:258'in yöntemi. VE bu blok Allah-SUZ, altı Rab'lı: aday #4'ün TERSİ. 6:65 من فوقكم / من تحت أرجلكم azap (5:66'da bolluk). 6:70 = 2:48'in عَدْل'i. 6:71 هدي dört kez tek ayette; teşbih içinde teşbih. 6:73 كُن فَيَكُونُ dördüncü. 6:74 آزَر korpusta tek. 6:75 مَلَكُوت.",
+  "81-100": "6:81-82 أمن iki kavram yan yana (güvenlik/iman), soru cevabını bu ikilikle veriyor. 6:83-87 ON SEKİZ ad dört ayette; كُلًّا üç kez, üç ortak nitelik. 6:91 مَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِ. 6:93 sûrenin en uzun ayeti; سَأُنزِلُ مِثْلَ مَآ أَنزَلَ ٱللَّهُ — 2:23 meydan okumasının iddia hâli. 6:95-99 beş ayetlik kozmoloji, Allah var Rab YOK (6:76-78'in tersi). 6:97 yıldız YÖN ARACI (6:76'da aday Rab). 6:99 شبه ilk kez hem olumlu hem olumsuz aynı ayette.",
+  "101-120": "Rab dokuz kez. 6:101 önkoşul argümanı (eş yok → çocuk yok). 6:103 لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ — tek yönlü ilişki üçüncü alan. 6:105 aynı işlem İKİ AMACA, ikisi de لِ ile: itiraz ve açıklama. 6:108 dolaylı sorumluluk (sövme yasağı sonuca göre). 6:112↔6:137 aynı cümle iki eksende. 6:114 ikinci أَغَيْرَ ٱللَّهِ sorusu (hakem). 6:115 لَّا مُبَدِّلَ لِكَلِمَٰتِهِ (Rab) ↔ 6:34 (Allah). 6:120 dördüncü tümlük çifti.",
+  "121-165": "6:126 صِرَٰطُ رَبِّكَ, 6:153 صِرَٰطِى — Fâtiha terkibinin üç varyantı En'âm'da. 6:132 وَمَا رَبُّكَ بِغَٰفِلٍ — altı Allah'lı geçişten sonra ilk Rab. 6:136 tek yönlü akış TERS kullanım (insanın uydurduğu, kınanan). 6:143-144 kombinatorik tüketme: 4 tür × 2 cinsiyet = 8, her tür için üç seçenek = 12 olasılık. 6:145 فَإِنَّ رَبَّكَ (2:173, 5:3'te ٱللَّهَ). 6:151-153 üç ayet aynı formülle bitiyor, üç farklı sonuç fiiliyle. 6:160 asimetrik karşılık ×10 / ×1. 6:164 üçüncü أَغَيْرَ ٱللَّهِ sorusu (Rab). 6:165 iki zıt mühür tek ayette; 2:30'un خَلِيفَة'sine dönüş."
+ }
+}

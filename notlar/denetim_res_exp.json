@@ -1,0 +1,22 @@
+{
+  "ad": "denetim_res_exp",
+  "tarih": "2026-08-08",
+  "konu": "morph.txt'te RES (hasr) / EXP (istisnâ) ayrımının tevhid formülünde tutarsızlığı",
+  "genel": {"RES_ayet": 510, "EXP_ayet": 100, "durum": "Genel olarak ayrım sağlam: 2:9 وما يخدعون إلا أنفسهم = RES; 2:34 فسجدوا إلا إبليس = EXP."},
+  "sorun": {
+    "kalip": "لَآ إِلَٰهَ إِلَّا …",
+    "toplam": 40,
+    "EXP": {"n": 14, "ayetler": ["2:163","2:255","3:2","3:6","3:18","3:18","4:87","6:102","6:106","7:158","59:22","59:23","64:13","73:9"]},
+    "RES": {"n": 26, "ayetler": ["3:62","5:73","9:31","9:129","10:90","11:14","13:30","16:2","20:8","20:14","20:98","21:25","21:87","23:116","27:26","28:70","28:88","35:3","37:35","38:65","39:6","40:3","40:62","40:65","44:8","47:19"]},
+    "kanit": "Aynı dizi (لا إله إلا هو) hem EXP (14) hem RES (16) etiketli. Devam eden öge الله/أنا/أنت/الذي olduğunda hep RES. Yani ayrım metinden değil etiketlemeden geliyor; EXP'ler ağırlıkla sûre 2-7'de, RES'ler 3:62'den sonra kümeleniyor — geçiş-bazlı kayma."
+  },
+  "sonuc": "RES/EXP ayrımı tevhid formülünde AYIRT EDİCİ SAYILAMAZ. Bu formüle dayanan hiçbir ölçüm iki etiketi ayrı kategori olarak kullanmamalı.",
+  "etkilenen": "defter.json fig alanı (HASR / ISTISNA)",
+  "ayrica_duzeltilen": {
+    "eski_regex_hatalari": {
+      "MAILLA+LAILLA": "323 sayıyordu; etiket tabanlı HASR 510 — regex %40 eksik",
+      "QASEM": "231 sayıyordu (ayet başı وَٱل kuralı); vâv-ı kasem kalıbıyla 71 — 3x fazla",
+      "MM": "175 sayıyordu (V + aynı kök N); mansûb+nekre şartıyla 73"
+    }
+  }
+}

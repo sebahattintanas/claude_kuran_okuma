@@ -1,0 +1,35 @@
+{
+  "ad": "okuma_protokolu",
+  "baslik": "Tam-tur okuma protokolü — Fâtiha'dan Nâs'a",
+  "tarih": "2026-08-08",
+  "amac": "6236 ayetin tamamını sabit derinlikte, sabit şemayla okumak; tur sonunda başlangıç ile sonucu ön-kayıtlı ölçütlerle karşılaştırmak.",
+
+  "kilitlenen_kararlar": {
+    "1_baslangic_sonuc_olcutleri": {
+      "durum": "KİLİTLİ — tur sonunda bunlar dışında hiçbir ölçüt karşılaştırılmayacak",
+      "eksen": ["Allah lafzı yoğunluğu", "Rab yoğunluğu", "Allah/Rab oranı", "lafız konumu (ayet-içi ve sûre-içi)"],
+      "dilbilgisi": ["bab profili (VF dağılımı)", "edilgen fiil oranı", "ism-i fâil / ism-i mef'ûl oranı", "i'râb dağılımı (NOM/ACC/GEN)"],
+      "ses": ["fâsıla sınıfı dağılımı", "mora ve harf", "kafiye saflığı (blok testi)"],
+      "sozluk": ["kök çeşitliliği", "hapaks oranı", "kök ikilemesi sıklığı"]
+    },
+    "2_capraz_referans": {"karar": "lemma dizisi üzerinden", "gerekce": "kelime düzeyi eşleşme ön-eklere kör (حق اليقين / لحق اليقين artefaktı)", "uygulama": "lemma 3-gram, 2-3 sûrede geçen; 2530 seyrek dizi, 2660 ayette bağ"},
+    "3_esma": {"karar": "ayette geçen bütün esmâ, konumuyla", "uygulama": "72 lemmalık geçici liste (esma_listesi.json); 1463 ayette 2077 geçiş"},
+    "4_anomali_bayragi": {"karar": "kademeli yıldız, durma kararı kullanıcıda", "esik": {"1": "|z|>1.5", "2": "|z|>2", "3": "|z|>3"}, "olcutler": ["kelime sayısı", "Allah yoğunluğu", "Rab yoğunluğu", "hapaks", "edilgen oranı", "kafiye kırılması"], "dagilim": {"0": 4029, "1": 748, "2": 579, "3": 880}},
+    "5_ikinci_eksen": {"karar": "nüzûl sırası + Mekkî/Medenî", "kaynak": "Kahire mushafı tertîbi", "uyari": "Liste bellekten yazıldı, basılı kaynakla DOĞRULANMADI. Bu alana dayanan hiçbir bulgu doğrulama yapılmadan kurulmayacak."},
+    "6_yasakli_ciftler": {"karar": "EKLENMEDİ"},
+    "7_mercekler": {"karar": "matematikçi sabit; biyolog ve uzay bilimci yalnız bayraklı (yıldızlı) ayetlerde", "kosul": "Öteki iki mercek için de mercek_matematikci_ayet.json'daki bağlılık kuralı ve silme testi geçerli; protokolsüz mercek satırı yazılmaz."},
+    "8_coklu_karsilastirma": {
+      "karar": "KATI",
+      "kural": "Okuma sırasında hiçbir iddia kurulmayacak. Çıkan her şey aday_bulgular.json'a yazılacak. Tur bitince ayrı bir geçişte ön-kayıtlı olarak test edilecek ve Bonferroni uygulanacak.",
+      "gerekce": "6236 ayet × ~15 ölçüt = on binlerce bakış. Proje bu tuzağı bir kez yaşadı (19-test, k=15/11 modülü Bonferroni'de düştü)."
+    }
+  },
+
+  "okuma_bicimi": {
+    "blok": "~20 ayet",
+    "katmanlar": ["Arapça metin", "çalışma meali", "› ölçüm (defterden + kökler)", "◇ matematikçi merceği", "dikey okuma: ayetin kökleri, Allah eksenine mesafe, konum-eşli null"],
+    "dikey": "ayet başına anlık hesap (önceden tablo çıkarılmadı)"
+  },
+
+  "defter_semasi_v3": ["k","ai","ki","n","mora","harf","fs","A","R","say","ikile","hapaks","fig","esit","vf","pas","apc","ppc","irab","zmn","nuz","tip","esma","xref","z","yildiz"]
+}
