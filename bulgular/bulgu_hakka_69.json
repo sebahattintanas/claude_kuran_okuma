@@ -1,0 +1,262 @@
+{
+ "ad": "bulgu_hakka_69",
+ "baslik": "69 el-Hâkka — ağır okuma: fâsıla-menteşesi, tek Allah lafzı, azîm-parantezi",
+ "tarih": "2026-08-08",
+ "kaynak_veri": [
+  "morph.txt (mustafa0x/quran-morphology)",
+  "kuran_veri.json (uthmani, mora/harf/fasila)"
+ ],
+ "sure": {
+  "no": 69,
+  "ad": "سُورَةُ الحَاقَّةِ",
+  "ayet": 52,
+  "kelime": 258
+ },
+ "olcum": {
+  "1_fasila_mentesesi": {
+   "iddia": "Sûre, kafiye sınıfına göre üç saf bloğa ayrılıyor; kesimler ayet 29 ve 32 sonrasında.",
+   "sinif_dizisi": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHH WWW NNNNNNNNNNN X NNNNNNNN",
+   "bloklar": {
+    "I": {
+     "ayet": "1-29",
+     "kafiye": "ـة / ـه",
+     "n_ayet": 29,
+     "n_kelime": 156,
+     "mora_ort": 30.6
+    },
+    "II": {
+     "ayet": "30-32",
+     "kafiye": "ـوهُ (emir + mef'ûl zamiri)",
+     "n_ayet": 3,
+     "n_kelime": 12,
+     "mora_ort": 24.3
+    },
+    "III": {
+     "ayet": "33-52",
+     "kafiye": "ـين / ـيم",
+     "n_ayet": 20,
+     "n_kelime": 90,
+     "mora_ort": 25.9
+    }
+   },
+   "istatistik": {
+    "saflik": "51/52 = 0.981 (tek istisna 44:الأقاويل)",
+    "null": "sûre içi ayet sırası karıştırma, 2000 permütasyon",
+    "permutasyon_ort": 33.5,
+    "permutasyon_maks": 40,
+    "p": "<0.0005 (0/2000)"
+   },
+   "not": "Menteşe (30-32) = خُذُوهُ فَغُلُّوهُ / ٱلْجَحِيمَ صَلُّوهُ / فَٱسْلُكُوهُ — sûrenin tek -ûhu kafiyeli, tek saf emir dizisi."
+  },
+  "2_tek_allah_lafzi": {
+   "iddia": "258 kelimelik sûrede Allah lafzı yalnızca 1 kez (69:33).",
+   "beklenen": 9.0,
+   "korpus_yogunluk": 0.0349,
+   "binom_alt_kuyruk_p": 0.001092,
+   "sira": "n>=150 kelimelik 79 sûre içinde 24. en seyrek",
+   "konum": "sûre içi kelime 173/258 (0.671)",
+   "baglam": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ — olumsuzlanmış iman cümlesi",
+   "capraz_dogrulama": "أمن kökü sûrede yalnız 2 kez (33 ve 41), ikisi de olumsuz; tek Allah lafzı bunların birincisinde. bulgu_allah_gradyan'daki 'Allah-lafzı iman bağlamı seçer' bulgusuyla uyumlu (bu sûre o bulgunun türetildiği veriye dahildi — bağımsız kanıt DEĞİL, örneklem-içi tutarlılık)."
+  },
+  "3_azim_parantezi": {
+   "iddia": "Allah ve Rab'ın bitişik عظيم niteliğini aynı sûrede taşıyan tek sûre 69.",
+   "korpus_taramasi": "عظم kökü 128 geçiş; bitişik önceki kelime Allah veya Rab olan 9 geçiş",
+   "geçisler": {
+    "Rab+azîm": [
+     "2:49",
+     "7:141",
+     "14:6",
+     "56:74",
+     "56:96",
+     "69:52"
+    ],
+    "Allah+azîm": [
+     "24:15",
+     "33:53",
+     "69:33"
+    ]
+   },
+   "her_ikisini_barindiran_sure": [
+    69
+   ],
+   "yapisal_not": "69:33 = inkâr edilen ٱللَّهِ ٱلْعَظِيمِ (olumsuz, 3. şahıs); 69:52 = tesbih emredilen رَبِّكَ ٱلْعَظِيمِ (emir, 2. şahıs). Aynı sıfat, ters kutup, ters muhatap."
+  },
+  "4_hakka_sessizligi": {
+   "iddia": "Sûreye adını veren حقق kökü baş üçlüsünde toplanıp 245 kelime kayboluyor, sondan 6. kelimede dönüyor.",
+   "konumlar_sure_ici_kelime": [
+    1,
+    3,
+    7,
+    253
+   ],
+   "toplam_kelime": 258,
+   "bosluk": 245,
+   "donus": "69:51 وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+   "not": "Açılış 3× ٱلْحَآقَّةُ (soru), kapanış 1× حَقُّ ٱلْيَقِينِ (hüküm)."
+  },
+  "5_rab_dagilimi": {
+   "konumlar": [
+    [
+     10,
+     50
+    ],
+    [
+     17,
+     92
+    ],
+    [
+     43,
+     220
+    ],
+    [
+     52,
+     257
+    ]
+   ],
+   "form": "4/4 bağlı (izâfet): رَبِّهِمْ, رَبِّكَ, رَبِّ ٱلْعَٰلَمِينَ, رَبِّكَ",
+   "not": "bulgu_rab_allah'taki %99.4 bağlılık oranıyla tutarlı; sûrede çıplak/çoğul form yok.",
+   "yapi": "Rab I. blokta 2 (helâk + arş), III. blokta 2 (tenzîl + tesbih); Allah ise yalnız III. blokta."
+  },
+  "6_ha_i_sekt_fasilasi": {
+   "iddia": "Ayet sonu sükûnlu hâ (ـهْ) Kur'an'da 7 kez; 6'sı sûre 69'da.",
+   "geçisler": [
+    "69:19 كِتَٰبِيَهْ",
+    "69:20 حِسَابِيَهْ",
+    "69:25 كِتَٰبِيَهْ",
+    "69:26 حِسَابِيَهْ",
+    "69:28 مَالِيَهْ",
+    "69:29 سُلْطَٰنِيَهْ",
+    "101:10 هِيَهْ"
+   ],
+   "dagilim": "sağ-el sahnesi 2 (19,20) — sol-el sahnesi 4 (25,26,28,29)",
+   "not": "Tek dışarıdaki geçiş 101:10 — 69 ile açılış-formülü paylaşan sûre."
+  },
+  "7_ayna_ayetler": {
+   "cift": [
+    "69:19",
+    "69:25"
+   ],
+   "harf": [
+    43,
+    43
+   ],
+   "mora": [
+    50,
+    50
+   ],
+   "not": "Sağ-el / sol-el ayetleri harf ve mora bakımından birebir eşit. Kontrol çifti 69:20 vs 69:26 eşit DEĞİL (harf 19/14, mora 24/16) — yani eşitlik iki ayete özgü, blok geneli değil.",
+   "uyari": "harf sayımı proje konvansiyonuna (uthmani ar_saf) bağlı; başka bir imlâ konvansiyonunda eşitlik bozulabilir."
+  },
+  "8_disa_baglar": {
+   "acilis_formulu": {
+    "kalip": "X / مَا X / وَمَآ أَدْرَىٰكَ مَا X",
+    "tam_uc_adimli_uygulayan_sureler": [
+     69,
+     101
+    ],
+    "not": "'وَمَآ أَدْرَىٰكَ مَا' Kur'an'da 12 ayette; mushaf sırasında ilki 69:3."
+   },
+   "ithal_gun_adlari": {
+    "القارعة": "korpusta 5 geçiş — 13:31, 69:4, 101:1-3",
+    "الواقعة": "69:15 فَيَوْمَئِذٍۢ وَقَعَتِ ٱلْوَاقِعَةُ — 56:1 إِذَا وَقَعَتِ ٱلْوَاقِعَةُ ile lafız eşleşmesi",
+    "not": "69, kendi adı dışında iki başka sûrenin ad-kelimesini gövdesinde taşıyor."
+   },
+   "kapanis_lafzi": {
+    "فسبح باسم ربك العظيم": [
+     "56:74",
+     "56:96",
+     "69:52"
+    ],
+    "not": "69, sûre 56'ya hem الواقعة kelimesiyle hem kapanış mührüyle iki kez bağlanıyor."
+   }
+  }
+ },
+ "yorum_ayri_katman": [
+  "Menteşe ölçümü, sûrenin ses düzeyinde iki rejimi olduğunu söylüyor: 1-29 açık/yumuşak sonlu (-ah), 33-52 kapalı/nazal sonlu (-în). Aradaki üç emir, kafiyesi hiçbir yere ait olmayan tek yer. Bu bir ÖLÇÜMDÜR; 'sesin anlamı' iddiası değildir.",
+  "Tek Allah lafzının olumsuzlanmış iman cümlesinde durması ve aynı sıfatın (azîm) sonda emir kipinde Rab'a bağlanması, ölçülen bir simetridir. Neden böyle olduğuna dair teolojik yorum bu dosyanın dışındadır."
+ ],
+ "null_ve_uyarilar": [
+  "Allah-seyrekliği anlamlı (p=0.001) ama uç değil: 79 sûre içinde 24. sıra. 'En Allah-sessiz sûre' DEĞİL.",
+  "Madde 2'deki iman-bağlamı uyumu örneklem-içidir; bağımsız doğrulama sayılmaz.",
+  "fasila_tipi alanı doğrudan kullanılmadı; kafiye sınıfı ham son-harften yeniden hesaplandı."
+ ],
+ "siradaki_sorular": [
+  "Fâsıla-menteşesi testi tüm sûrelere uygulanırsa 69 nerede? (menteşe-saflığı sıralaması)",
+  "Rab'ın blok-içi dağılımı (I. blokta helâk+arş, III. blokta tenzîl+tesbih) başka sûrelerde de blok-duyarlı mı?",
+  "'وَمَآ أَدْرَىٰكَ مَا' 12 ayetinin her birinde sorulan şeyin türü — hepsi âhiret-öğesi mi?"
+ ],
+ "v2_2026-08-08": {
+  "geri_cekilen": {
+   "iddia": "'69'un kapanışı 56'nın kapanışının sıkıştırılmış hâli' — 8 satırlık paralellik tablosu (okuma sırasında öne sürüldü)",
+   "gerekce": "Tablodaki eşleşmelerin çoğu korpus-yaygın kelimelere dayanıyordu: كذب 282 geçiş, بصر ~148, جحم 26, حمم 21. Bunlar iki sûre arasında özgül bağ kanıtı değil.",
+   "durum": "GERİ ÇEKİLDİ"
+  },
+  "on_kayitli_test": {
+   "hipotez": "Sûre 69 ile 56, diğer sûre çiftlerinden güçlü SIRALI lafız örtüşmesi gösterir",
+   "yontem": "ayet-içi n-gram (n=2,3); tam 2 sûrede geçen 'seyrek' n-gram'lar; eşleşen ayet-çiftleri m; sıra korunumu için LIS; yoğunluk m/sqrt(nA*nB)",
+   "sonuc": {
+    "n3": {
+     "m_56_69": 3,
+     "yogunluk_sirasi": "213/920"
+    },
+    "n2": {
+     "m_56_69": 3,
+     "yogunluk_sirasi": "345/1303"
+    },
+    "LIS_null": "çalıştırılmadı — m=3 ile test güçsüz",
+    "en_yogun_ciftler_n3": [
+     "4-33",
+     "3-5",
+     "4-48",
+     "77-83",
+     "2-4"
+    ]
+   },
+   "karar": "NULL. 56-69 çifti sıralı örtüşmede öne çıkmıyor."
+  },
+  "ayakta_kalan": {
+   "tam_ayet_ozdesligi": {
+    "yontem": "normalize tam ayet metni birebir eşleşmesi; <3 kelimelik ayetler hariç",
+    "56_69": [
+     "فسبح باسم ربك العظيم",
+     "تنزيل من رب العالمين"
+    ],
+    "sira": "64 çift içinde 7.",
+    "not": "Her iki ayet de korpusta yalnız bu iki sûrede. Bu dar iddia ayakta; geniş 'paralel kapanış' iddiası değil."
+   }
+  },
+  "yeni_post_hoc_gozlem": {
+   "iddia": "69, tam-ayet paylaşımında yüksek dereceli bir düğüm",
+   "olcum": {
+    "paylasilan_ayet": 6,
+    "toplam_ayet": 52,
+    "oran": 0.115,
+    "oran_sirasi": "5/54",
+    "komsu_sure_sayisi": 5
+   },
+   "komsular": {
+    "56": 2,
+    "81": 1,
+    "88": 1,
+    "101": 1,
+    "107": 1
+   },
+   "ortak_ayetler": [
+    "فسبح باسم ربك العظيم (56)",
+    "تنزيل من رب العالمين (56)",
+    "انه لقول رسول كريم (81)",
+    "في جنة عالية (88)",
+    "فهو في عيشة راضية (101)",
+    "ولا يحض على طعام المسكين (107)"
+   ],
+   "kontrol": "Sûre 68 (aynı ayet sayısı, 52) birebir aynı değerleri veriyor (5 komşu, 6 ayet, 0.115) — yani bu değer 52-ayetlik bir sûre için tekil değil.",
+   "uyari": "POST-HOC. Testi doğuran veriyle ölçüldü; bağımsız doğrulama gerekiyor."
+  },
+  "olcum_artefakti": {
+   "sorun": "Kelime-düzeyi n-gram eşleşmesi ön-eklere kör.",
+   "ornek": "56:95 'حَقُّ ٱلْيَقِينِ' ile 69:51 'لَحَقُّ ٱلْيَقِينِ' eşleşmedi — lâm-ı te'kîd kelimeye bitişik olduğu için token farklı.",
+   "duzeltme": "Eşleştirme morph.txt segment/lemma dizisi üzerinden yapılmalı, ham kelime üzerinden değil.",
+   "etki": "Bu düzeltme 56-69 m'sini 3'ten 4'e çıkarır; NULL kararını değiştirmez."
+  }
+ }
+}

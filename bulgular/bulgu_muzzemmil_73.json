@@ -1,0 +1,80 @@
+{
+  "ad": "bulgu_muzzemmil_73",
+  "baslik": "73 el-Müzzemmil — iki-parçalı sûre: kural / muafiyet ve eksen ayrımı",
+  "tarih": "2026-08-08",
+  "sure": {"no": 73, "ad": "سُورَةُ المُزَّمِّلِ", "ayet": 20, "kelime": 199},
+
+  "olcum": {
+    "1_iki_parca": {
+      "iddia": "Sûre uzunlukça iki eşitsiz parçaya ayrılıyor; 20. ayet tek başına sûrenin %39'u.",
+      "ayet_1_19": {"kelime": 121, "allah_lafzi": 0, "beklenen": 4.2, "p_duz_null": 0.0137},
+      "ayet_20": {"kelime": 78, "oran": 0.392, "allah_lafzi": 7, "beklenen": 2.7, "mora": 401, "harf": 358},
+      "uyari": "p değeri DÜZ null ile hesaplandı. Konum-eşleşmeli null gerekiyor (YAPILACAKLAR'daki yoğunluk-gradyanı sorunu). Bu değer geçicidir."
+    },
+    "2_eksen_ayrimi": {
+      "iddia": "Rab ilk parçada, Allah lafzı ikinci parçada.",
+      "rab_konumlari": [8, 9, 19, 20],
+      "allah_konumlari": [20, 20, 20, 20, 20, 20, 20],
+      "yorum_ayri": "Emir kısmı Rab'la, muafiyet/indirim kısmı Allah lafzıyla veriliyor. Bu bir GÖZLEMdir; nedensellik iddiası değildir ve tek sûreye dayanır.",
+      "siradaki_test": "Muafiyet/ruhsat içeren ayetler korpus genelinde Allah-lafzına mı, Rab'a mı yakın? (legal-register bulgusunun alt-sınıfı olarak)"
+    },
+    "3_nicelik_zinciri": {
+      "iddia": "Gece ibadetinin ölçüsü sûre boyunca üç adımda gevşiyor.",
+      "adimlar": [
+        {"ayet": "2-4", "bicim": "merkez + belirsiz sapma", "metin": "نصفه أو انقص منه قليلا أو زد عليه"},
+        {"ayet": "20a", "bicim": "sonlu kesirli küme", "metin": "أدنى من ثلثي الليل ونصفه وثلثه"},
+        {"ayet": "20b", "bicim": "ölçüsüz", "metin": "فاقرءوا ما تيسر من القرءان"}
+      ],
+      "destek_kokler": {"نصف": [3, 20], "ثلث": [20, 20], "قلل": [2, 3, 11], "يسر": [20, 20]},
+      "not": "قليل sûrede 3 kez ve hiç sabitlenmiyor; ikisi ibadet süresi (2,3), biri mühlet (11)."
+    },
+    "4_kok_ikilemesi": {
+      "iddia": "Fiil + kendi mastarı figürü sûrede yoğun.",
+      "geçisler": ["4 رتّل/ترتيلا", "8 تبتّل/تبتيلا", "10 اهجرهم/هجرا", "16 أخذنا/أخذا", "20 أقرضوا/قرضا"],
+      "sayi": 5
+    },
+    "5_diger": {
+      "زمل": "korpusta tek geçiş (73:1)",
+      "عصي": "73:16 — 69:10, 71:21, 72:23, 73:16: dört sûrede de tek geçiş ve dördünde de elçiye karşı",
+      "رسل": "73:15'te tek ayette 4 kez (أرسلنا/رسولا ×2)",
+      "namaz_zekat": "73:20 — bulgu_matematikci_uzay'daki sıkı çift (Jaccard 0.76) burada bitişik",
+      "kafiye": "20 ayetin tamamı uzun ünlü + ünsüz + ـًا; kırılmalar 12-13 (ـيما) ve 17 (ـيبا)"
+    }
+  },
+
+  "mercek_matematikci": {
+    "protokol": "mercek_matematikci_ayet.json",
+    "uyari": "YORUM KATMANI. Hiçbir istatistiksel iddianın parçası değildir. Silinse ölçüm katmanı ayakta kalır.",
+    "satirlar": {
+      "1": "Kişi adıyla değil o anki hâliyle çağrılıyor — sabit kimlik değil, konum.",
+      "2": "Küme çıkarma: gece ∖ az. Çıkarılan nicelik tanımsız.",
+      "3-4": "Merkez (½) ve etrafında ε-komşuluğu; ε de tanımsız. Emir nokta değil aralık.",
+      "5": "Söze skaler bir ağırlık yükleniyor; 2-4'teki süre ölçüsünün yanında ikinci bir büyüklük türü.",
+      "6": "İki ismi tafdil yan yana: iki eksende sıralama bağıntısı, karşılaştırılan öteki uç boş.",
+      "7": "6'nın boş ucu doluyor. Gece yoğunluk, gündüz uzunluk — iki farklı norm.",
+      "8": "تبتّل = kesmek: bütün yönleri tek yöne izdüşürme.",
+      "9": "لا إله إلا هو bir kardinalite ifadesi: {ilâh} tam olarak tek elemanlı, eleman gösterilerek veriliyor.",
+      "10": "İki zıt işlem aynı emirde: sabit kal (sabır) ve uzaklaş (hicret) — farklı eksenlerde.",
+      "11": "قليلا üç kez kullanılıp hiç sabitlenmiyor: serbest parametre.",
+      "12-13": "Sonlu, sıralı, tekrarsız liste. 69:30-32'nin dizisiyle aynı figür, emir yerine envanter kipinde.",
+      "14": "Sürekli nesnenin ayrıklaşması: dağ → kum yığını. Sonra مهيل: şekil yok, dağılım var.",
+      "15": "كما ile yapı-koruyan eşleme: (gönderen, gönderilen, muhatap) üçlüsü iki argümana uygulanıyor.",
+      "16": "Eşlemenin çıktısı — ama yalnız bir tarafınki veriliyor, öteki boş bırakılıyor.",
+      "17": "Bir günlük aralıkta bir ömürlük dönüşüm: ölçek çarpanı. 14'teki uzay bozulmasının zaman karşılığı.",
+      "18": "Gelecek olay mazi kipinde: gerçekleşmeden doğruluk değeri sabitleniyor.",
+      "19": "Varlık iddiası + seçim: her noktadan merkeze yol var, yol tarif edilmiyor.",
+      "20a": "ε-komşuluğu üç elemanlı sonlu kümeye dönüşmüş; ve artık emir değil gözlem.",
+      "20b": "يقدّر (ölçer) ile لن تحصوه (sayamazsınız) aynı cümlede: ölçü var, ölçen siz değilsiniz. 72:28 ile ters yönlü eşleşme.",
+      "20c": "Muafiyet keyfî değil: topluluk üçe bölünüyor (hasta/yolcu/savaşan) ve gerekçe bu. Her gevşemenin önünde bir علم cümlesi var.",
+      "20d": "أقرضوا الله — borç bağıntısı, yönü ters. Ve eşitsizlik: verilen ile geri alınan aynı değil.",
+      "20e": "خيرا وأعظم أجرا — iki eksenli kesin eşitsizlik; 6'daki iki eksenli karşılaştırmanın aynısı, başta geceye sonda amele uygulanmış.",
+      "20f": "استغفروا / غفور — emir ve gerekçe aynı kökten: sabit nokta, işlem kendi nedenini içeriyor."
+    }
+  },
+
+  "siradaki_sorular": [
+    "20. ayetin Allah-yoğunluğu konum-eşleşmeli nullde ayakta kalıyor mu?",
+    "Ruhsat/muafiyet ayetleri korpus genelinde hangi eksene yakın?",
+    "Fiil+mastar (mef'ûl-i mutlak) figürünün sûre-bazlı dağılımı — 73 uçta mı?"
+  ]
+}

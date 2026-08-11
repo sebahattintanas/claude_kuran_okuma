@@ -1,0 +1,74 @@
+{
+  "ad": "bulgu_iki_yol",
+  "baslik": "Fâtiha 1:7 — üç grubun üç çatısı; hidâyet/dalâlet fâil asimetrisi; iki NULL",
+  "tarih": "2026-08-08",
+  "dogus": "Sebahattin'in gözlemi: 74:31'de aynı işaret bir tarafta iman artırıyor, öbür tarafta saptırıyor; ve Fâtiha'dan itibaren iki odak var — sırât-ı müstakîm ve gayr-i mağdûb.",
+
+  "olcum": {
+    "1_ikiz_ayet": {
+      "iddia": "'مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا' cümlesi korpusta tam olarak iki ayette geçer.",
+      "geçisler": ["2:26", "74:31"],
+      "ek": "'يُضِلُّ بِهِ … وَيَهْدِى بِهِ' (aynı zamirle iki zıt fiil) yalnız 2:26'da.",
+      "not": "Mekanizmanın kendisi metnin ifadesi; yorum değil."
+    },
+    "2_fatiha_uc_cati": {
+      "ayet": "1:7",
+      "morfoloji": {
+        "أَنْعَمْتَ": "V PERF VF:4 ROOT:نعم 2MS — fâil muhatap, grup mecrûr",
+        "ٱلْمَغْضُوبِ": "PASS_PCPL VF:1 ROOT:غضب — grup edilgen",
+        "ٱلضَّآلِّينَ": "ACT_PCPL VF:1 ROOT:ضلل — grup etken"
+      },
+      "korpus_kontrolu": {
+        "مغضوب": "غضب kökünün PASS_PCPL formu korpusta TEK geçiş: 1:7",
+        "نعم_PASS_PCPL": "korpusta YOK — nimete erenler her yerde veren fiille birlikte anılır",
+        "ضالّ": "ACT_PCPL bab1, 14 geçiş: 1:7, 2:198, 3:90, 6:77, 15:56, 23:106, 26:20, 26:86, 37:69, 56:51, 56:92, 68:26, 83:32, 93:7 — tek başına duran bir ad"
+      },
+      "sonuc": "Yanlış yol iki ayrı çatıyla veriliyor (kendisine yapılan / kendi yaptığı). Doğru yol tek kelimeyle adlandırılamıyor."
+    },
+    "3_fail_asimetrisi": {
+      "iddia": "Metin hidâyeti ağırlıkla dışsal fâille, dalâleti yarı yarıya veriyor.",
+      "tablo": {
+        "هدي": {"disal_bab1": 154, "kendinden_bab8": 61, "disal_yuzde": 71.6},
+        "ضلل": {"disal_bab4": 67, "kendinden_bab1": 67, "disal_yuzde": 50.0}
+      },
+      "test": "Fisher kesin test (iki yönlü)",
+      "p": 6.05e-05,
+      "gecerlilik_notu": "Bu ölçüm geçerli çünkü metnin GERÇEK seçimi ölçülüyor: aynı kökün iki babı arasında hangisinin kullanılacağı ayet ayet seçiliyor.",
+      "gecersiz_olan_iddia": "'iman IV. bab, küfür I. bab, demek ki küfür temel form' TÜRÜ BİR İDDİA KURULMADI — bab, kökün Arapça'daki sözlüksel özelliğidir, metnin seçimi değildir."
+    }
+  },
+
+  "null_sonuclar": {
+    "H1_soz_vs_bilme": {
+      "hipotez": "İki grup aynı ayette karşılaştığında iman tarafının yüklemi bilme alanından, inkâr tarafınınki söz alanından gelir.",
+      "kaba_surum": {"aday_ayet": 171, "iman": {"soz": 16, "bilme": 7}, "inkar": {"soz": 14, "bilme": 10}, "fisher_p": 0.547, "karar": "REDDEDİLDİ — yön hipotezin hafif tersine"},
+      "keskin_surum_v1": {"aday": "tek ayet içinde أمّا taksimi", "n": "3 ayet / 4 dal", "karar": "GÜÇSÜZ — test edilemez"},
+      "keskin_surum_v2": {"aday": "sûre içi, ayetlere yayılmış أمّا taksimi", "n": "11 dal / 9 sûre", "karar": "GÜÇSÜZ"},
+      "sonuc": "2:26'daki فَيَعْلَمُونَ / فَيَقُولُونَ karşıtlığı tekil bir olay; tekrarlayan kalıp değil."
+    },
+    "H2_fail_meful_dal": {
+      "gozlem": "11 taksim dalında İMAN yüklemi عَمِلَ ×4 / عَلِمَ / اعْتَصَمَ / زادَ; İNKÂR yüklemi عَذَّبَ ×2 / كانَ / خَلَقَ.",
+      "durum": "POST-HOC, n=11 — iddia kurulmadı."
+    }
+  },
+
+  "betimsel_profil": {
+    "yontem": "saf iman ayetleri (552) vs saf inkâr ayetleri (664); kesişen 171 ayet dışlandı; kök başına log-odds",
+    "inkar_tarafi": ["ذوق 0/19", "هلك 2/15", "لعن 3/12", "كذب 13/46", "غني 4/15", "عقب 5/18", "مثل 11/37", "عرض 3/11", "جزي 9/28"],
+    "iman_tarafi": ["صلح 63/10", "جهد 16/4", "زكو 11/3", "وكل 16/5", "عهد 9/3", "سلم 29/11", "صدق 23/10", "وقي 45/21", "أجر 28/11"],
+    "bonferroni_sagkalan": ["ذوق", "صلح", "كذب", "وقي"],
+    "artefakt_uyarisi": "iman tarafındaki تحت+جري+جنن üçlüsü 'جنات تجري من تحتها الأنهار' formülünden; inkâr tarafındaki نور+صحب 'أصحاب النار' formülünden. Bağımsız kanıt değil.",
+    "formul_kontrolu": "'آمنوا وعملوا الصالحات' kalıbı saf iman ayetlerinin yalnız %7'sinde (37/552); formül ayetleri çıkarıldığında صلح yönü korunuyor (26/515 vs 10/664)."
+  },
+
+  "olcum_artefaktlari": [
+    "Hamze yönü normalize edilince أَمَّا (taksim) ile إِمَّا (tahyîr) karışıyor. أ/إ normalize EDİLMEMELİ.",
+    "'Fiilden sonra bitişik zamir varsa mef'ûldür' testi geçersiz: تَضِلُّوا۟'daki و fâil zamiri; morph etiketi ikisini de PRON|SUFF altında topluyor. Geçişlilik bu yolla ölçülemez."
+  ],
+
+  "siradaki": [
+    "هدي bab1'in 154 dışsal geçişinde fâil kaç kez Allah?",
+    "ذوق'un tam ayrışması (0/19) başka köklerde var mı? Tam-ayrışan kök taraması.",
+    "2:26 ↔ 74:31 ikizliği: aradaki 72 sûrede aynı mekanizma başka lafızla kuruluyor mu?"
+  ]
+}
