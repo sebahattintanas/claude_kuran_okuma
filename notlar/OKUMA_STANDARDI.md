@@ -46,6 +46,41 @@ Her gözlem aday listesine yazılır; test tur sonunda toplu yapılır.
 
 Biyolog ve uzay bilimci mercekleri **yalnız yıldızlı (★★★) ayetlerde**.
 
+### Ölçüm satırında (`›`) sırayla anılacaklar
+
+**a. Eksen** — Allah lafzının ve Rab'ın ayet içi konumu; esmâ ve mühür
+durumu (`esma_k`: mühür mü, ortada mı, çift sırası ne).
+
+**b. AKTÖR** — `adli` / `adsiz` / `rol` alanları.
+- Adlı varlıklar türüyle: kişi · gayb · kavim · yer · kitap · sahte-ilâh
+- **Adsız aktör işaretçileri**: `racül` `imrae` `nefer` `ferîk` `tâife` `karye`
+- **Rol** (kapalı sözlük): `fail` · `meful` · `mecrur` · `muhatap` · `konusan`
+- Bir aktörün rolü sahne boyunca **değişiyorsa** bu ayrıca anılır
+  (`aktor_tablosu.json` aktör başına ayet-ayet rol dizisi tutar; 61 aktör)
+- Adlı ↔ adsız karşıtlığı ölçülür: hüküm ayetleri kişiyi adlandırmaz
+  (4:12'de `racül` + `imrae`, ikisi de nekre), anlatı adlandırır
+
+**c. KİP ve SÖZ EDİMİ** — `kip` ve `edim` alanları.
+- Söz edimi (korpus dağılımı): haber 3589 · emir 1311 · şart 855 ·
+  soru 808 · nidâ 363 · yasak 289
+- Kip etiketleri: `INTG` soru · `VOC` nidâ · `IMPV` emir · `PRO` nehiy ·
+  `NEG` olumsuzluk · `COND` şart · `EMPH` te'kîd · `CERT` قد · `RES` hasr ·
+  `RET` idrâb · `FUT` سـ · `DIKKAT` ألا/هـ · `MM` mef'ûl-i mutlak
+- **Bir ayette birden fazla edim varsa hepsi anılır** (örn. 7:73 = emir +
+  yasak + nidâ)
+- Sûre bazında edim profili makro ölçümde verilir; **baskın kipin değişmesi**
+  sûre karakterinin göstergesidir (örn. Nisâ'da şart, Mâide'de nidâ,
+  Enfâl'de şart ve 75 ayette tek soru)
+
+**d. Şahıs ve iltifât** — `sah` (şahıs dağılımı), `sahset` (küme),
+`bask` (baskın şahıs), `ilt` / `ilt_yon` (kırılma ve yönü).
+
+**e. Sözlük ve biçim** — kök ikilemeleri, hapaks, açık sayılar, `sim`
+(ayet içi iskelet tekrarı), `fig` (biçim etiketleri).
+
+**f. Bağ** — `dugum` (dış-bağ derecesi), `esit` (tam-ayet ikizi), ve
+okuma sırasında elle kurulan bağlar.
+
 ### Mercek kuralı
 Her `◇` satırı **görünür bir dilsel öğeye bağlı olmalı**. Silme testi:
 merceği sil, ölçüm ayakta kalmalı. Kalmıyorsa mercek ölçüme sızmıştır.
