@@ -5,18 +5,22 @@ tutan ve her iddiayı ön-kayıtlı istatistiksel testle sınayan bir okuma proj
 
 ## Durum
 
-**1419 ayet okundu** — korpusun %22.8'i.
-Sûre 1 (7), 2 (286), 3 (200), 4 (176), 5 (120), 6 (165), 7 (206), 8:1-40, 69-74 (219).
+**2021 ayet okundu** — korpusun %32.4'ü.
+Sûre 1 (7), 2 (286), 3 (200), 4 (176), 5 (120), 6 (165), 7 (206), 8 (75),
+9 (129), 10 (109), 11 (123), 12 (111), 13 (43), 14 (52), 69-74 (219).
 
-**Devam noktası: 8:41.**
+**Devam noktası: 15:1 (Hicr).**
 
 | katman | dosya | durum |
 |---|---|---|
 | ölçüm | `ciktilar/defter.json` | 6236 ayet, 39 alan — betiklerden üretilir |
-| okuma | `notlar/okuma_metni.json` | sûre 1-8 |
-| mercek | `notlar/mercek_kayit.json` | 307 satır |
-| bağlar | `notlar/okuma_baglantilari.json` | 108 çift, 91'i doğrulanmış |
-| adaylar | `bulgular/aday_bulgular.json` | 108 aday, hiçbiri test edilmedi |
+| okuma | `notlar/okuma_metni.json` | sûre 1-14 (9-14 tam kipte) |
+| mercek | `notlar/mercek_kayit.json` | 900+ satır |
+| bağlar | `notlar/okuma_baglantilari.json` | 250+ çift + kök seyirleri |
+| adaylar | `bulgular/aday_bulgular.json` | **257 aday**, hiçbiri test edilmedi |
+| borçlar | `notlar/YAPILACAKLAR.md` | P0'da üç ölçüm borcu |
+
+Son oturum kapanışı: [`notlar/OTURUM_2026-08-17_KAPANIS.md`](notlar/OTURUM_2026-08-17_KAPANIS.md)
 
 ## Okuma standardı
 
