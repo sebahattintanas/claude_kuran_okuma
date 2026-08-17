@@ -2,7 +2,7 @@
  "ad": "okuma_baglantilari",
  "amac": "Okuma sırasında ELLE kurulan bağlantılar. defter.json ölçüm sayılarını yeniden üretir; bu dosya üretemez — hangi bağın anlamlı olduğu bir yargıdır.",
  "kural": "Bunlar BULGU DEĞİL. Her biri tur sonunda ön-kayıtlı test edilecek aday malzemedir.",
- "kapsam": "1, 2, 3, 4:1-40 (69-74 ayrı bulgu dosyalarında)",
+ "kapsam": "1, 2, 3, 4:1-40, 8:41-75, 9-14 (tam) (69-74 ayrı bulgu dosyalarında)",
  "lafiz_ozdesligi": {
   "aciklama": "Okurken saptanan birebir ya da neredeyse birebir tekrarlar. xref alanı bunların bir kısmını otomatik yakalıyor; buradakiler elle doğrulandı.",
   "cift": [
@@ -545,6 +545,1621 @@
     "2:31",
     "7:180",
     "سمو: öğretilen isimler ↔ Allah'ın isimleri; 7:71 uydurulan isimler"
+   ],
+   [
+    "8:42",
+    "8:44",
+    "L1 — aynı cümleyle kapanış: لِّيَقْضِىَ ٱللَّهُ أَمْرًۭا كَانَ مَفْعُولًۭا; arada 8:43 (ABA)"
+   ],
+   [
+    "8:52",
+    "8:54",
+    "L2 — aynı ibareyle açılış: كَدَأْبِ ءَالِ فِرْعَوْنَ وَٱلَّذِينَ مِن قَبْلِهِمْ; arada 8:53 (ABA)"
+   ],
+   [
+    "8:52",
+    "3:11",
+    "L2 — aynı açılış + أَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ; xref doğruladı"
+   ],
+   [
+    "8:51",
+    "3:182",
+    "L1 — ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ … لَيْسَ بِظَلَّٰمٍۢ لِّلْعَبِيدِ"
+   ],
+   [
+    "8:51",
+    "22:10",
+    "L1 — aynı formül üçüncü kez"
+   ],
+   [
+    "8:41",
+    "8:60",
+    "L4 — kök çifti değil biçim eşleşmesi: n=33 / üç Allah lafzı / emir açılışı / مَا … مِن شَىْءٍ; güven=orta"
+   ],
+   [
+    "8:43",
+    "8:46",
+    "L4 — 8:43 karşı-olgusalındaki فشل + نزع, 8:46'da yasak kipinde; güven=yüksek"
+   ],
+   [
+    "8:53",
+    "13:11",
+    "L2 — إِنَّ ٱللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ; xref doğruladı"
+   ],
+   [
+    "8:72",
+    "8:74",
+    "L2 — aynı açılış: ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ … ءَاوَوا۟ وَّنَصَرُوٓا۟; arada 8:73 (ABA, üçüncü)"
+   ],
+   [
+    "8:72",
+    "8:73",
+    "L1 — بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ birebir, iki karşıt taraf için"
+   ],
+   [
+    "8:62",
+    "8:64",
+    "L2 — حَسْبَكَ ٱللَّهُ iki kez, arada 8:63"
+   ],
+   [
+    "8:67",
+    "8:7",
+    "L4 — iki irade karşı karşıya; 8:7 iki kök (ودد/رود), 8:67 tek kök (رود ×2)"
+   ],
+   [
+    "8:41",
+    "8:69",
+    "L4 — غنم kökü sûrede yalnız bu iki ayette: hüküm (41) ve izin (69)"
+   ],
+   [
+    "8:63",
+    "3:103",
+    "L2 — أَلَّفَ بَيْنَ قُلُوبِهِمْ; xref doğruladı"
+   ],
+   [
+    "8:75",
+    "33:6",
+    "L2 — أُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ; xref doğruladı"
+   ],
+   [
+    "8:66",
+    "2:249",
+    "L3 — az sayının çok sayıya galebesi + صابرين; xref doğruladı"
+   ],
+   [
+    "9:8",
+    "9:10",
+    "L1 — لَا يَرْقُبُوا۟ … إِلًّۭا وَلَا ذِمَّةًۭ birebir, arada 9:9 (ABA, dördüncü)"
+   ],
+   [
+    "9:5",
+    "9:11",
+    "L1 — فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ birebir, iki farklı sonuç"
+   ],
+   [
+    "9:4",
+    "9:7",
+    "L1 — إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ birebir, arada 9:5-6"
+   ],
+   [
+    "9:1",
+    "9:3",
+    "L2 — مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى … aynı kalıp, muhatap genişliyor"
+   ],
+   [
+    "9:1",
+    "8:48",
+    "L4 — برأ kökü sûre sınırında devrediliyor: 8:48 إِنِّى بَرِىٓءٌۭ مِّنكُمْ (şeytan), 9:1 بَرَآءَةٌۭ مِّنَ ٱللَّهِ; güven=orta"
+   ],
+   [
+    "9:17",
+    "9:18",
+    "L2 — مَا كَانَ … أَن يَعْمُرُوا۟ / إِنَّمَا يَعْمُرُ; olumsuz sınır + hasr"
+   ],
+   [
+    "9:20",
+    "8:72",
+    "L2 — ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ … بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ; xref doğruladı"
+   ],
+   [
+    "9:7",
+    "8:61",
+    "L4 — karşılıklılık aynı kökün iki kipiyle: فَٱسْتَقِيمُوا۟ / فَٱجْنَحْ; güven=orta"
+   ],
+   [
+    "9:14",
+    "8:17",
+    "L4 — fâil–araç ataması ters yönde; güven=orta"
+   ],
+   [
+    "9:32",
+    "9:33",
+    "L1 — وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ / وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ; tek terim değişiyor"
+   ],
+   [
+    "9:33",
+    "61:9",
+    "L1 — TAM AYET İKİZİ (defter esit alanı doğruladı)"
+   ],
+   [
+    "9:26",
+    "9:40",
+    "L2 — فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ + جُنُودٍۢ لَّمْ تَرَوْهَا; 48:26 ile üçlü"
+   ],
+   [
+    "9:34",
+    "9:35",
+    "L2 — كنز zinciri: biriktirme fiili ve biriktirilenin cezada araç olması"
+   ],
+   [
+    "9:36",
+    "9:37",
+    "L2 — عِدَّة sayımı: kural (12/4) ve sayaç hilesi (nesî')"
+   ],
+   [
+    "9:23",
+    "8:75",
+    "L4 — kan bağı: 8:75'te öncelikli, 9:23'te koşullu askıda; güven=yüksek"
+   ],
+   [
+    "9:21",
+    "9:31",
+    "L4 — sûrenin iki Rab geçişi: bağlı رَبُّهُم (rahmet) ve çoğul أَرْبَابًۭا (sahte-rab); güven=yüksek"
+   ],
+   [
+    "9:36",
+    "9:7",
+    "L4 — karşılıklılık aynı kökün iki kipiyle, bu kez nicelikli (كَآفَّةًۭ ×2); güven=orta"
+   ],
+   [
+    "9:38",
+    "9:39",
+    "L4 — sûrenin tek ardışık fâsıla kırılması (ل, R); güven=yüksek (ölçüm)"
+   ],
+   [
+    "9:44",
+    "9:45",
+    "L1 — لَا يَسْتَـْٔذِنُكَ ٱلَّذِينَ يُؤْمِنُونَ / إِنَّمَا يَسْتَـْٔذِنُكَ ٱلَّذِينَ لَا يُؤْمِنُونَ; olumsuz konum değiştiriyor"
+   ],
+   [
+    "9:40",
+    "9:57",
+    "L4 — غور kutup değişimi: 9:40 mağara koruyan sığınak, 9:57 bulunamayan kaçış yeri; güven=yüksek"
+   ],
+   [
+    "9:38",
+    "9:41",
+    "L4 — ثقل kutup değişimi: ٱثَّاقَلْتُمْ kusur, ثِقَالًۭا kabul; güven=yüksek"
+   ],
+   [
+    "9:41",
+    "9:53",
+    "L4 — ikili seçenek kalıbı, ters işaret: 'hafif ve ağır' ikisi de kabul / 'isteyerek ve istemeyerek' ikisi de ret; güven=orta"
+   ],
+   [
+    "8:41",
+    "9:60",
+    "L4 — iki dağıtım listesi: humus 6 kalem, sadaka 8 kalem; ortak iki sınıf (مساكين, ابن السبيل); güven=yüksek"
+   ],
+   [
+    "9:59",
+    "8:62",
+    "L2 — حَسْبُنَا ٱللَّهُ / حَسْبَكَ ٱللَّهُ; 8:64, 9:129, 3:173, 39:38 ile zincir"
+   ],
+   [
+    "9:35",
+    "9:55",
+    "L4 — sahip olunan şeyin cezanın aracı olması; güven=orta"
+   ],
+   [
+    "9:47",
+    "9:49",
+    "L2 — فتن zinciri: aranan fitne (47-48) ve düşülen fitne (49)"
+   ],
+   [
+    "9:53",
+    "9:54",
+    "L2 — infakın reddi ve gerekçesi"
+   ],
+   [
+    "9:67",
+    "9:71",
+    "L1 — birebir ayna: بَعْضُهُم مِّنۢ بَعْضٍۢ / بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ + emir-nehiy nesneleri ters"
+   ],
+   [
+    "9:68",
+    "9:72",
+    "L1 — birebir ayna: وَعَدَ ٱللَّهُ … خَٰلِدِينَ فِيهَا; nesne cehennem / cennet"
+   ],
+   [
+    "9:67-68",
+    "9:71-72",
+    "L4 — ÇİFT DÜZEYİNDE ABA: iki ayetlik ayna blokları, arada 9:69-70 (öncekiler); güven=yüksek"
+   ],
+   [
+    "9:73",
+    "66:9",
+    "L1 — TAM AYET İKİZİ (defter esit alanı); sûrenin ikinci tam ikizi, ilki 9:33=61:9"
+   ],
+   [
+    "9:63",
+    "9:78",
+    "L1 — أَلَمْ يَعْلَمُوٓا۟ açılışı iki kez, arada on dört ayet"
+   ],
+   [
+    "9:75",
+    "9:76",
+    "L2 — koşullu taahhüt (EMPH ×5) ve yerine getirilmemesi (n=9)"
+   ],
+   [
+    "9:76",
+    "9:77",
+    "L2 — cimrilik ve sonucu olarak nifakın bırakılması"
+   ],
+   [
+    "9:59",
+    "9:68",
+    "L4 — حَسْب kutup değişimi: 'Allah bize yeter' / 'cehennem onlara yeter'; güven=yüksek"
+   ],
+   [
+    "9:65-66",
+    "9:80",
+    "L4 — açık sayının iki zıt kullanımı: 9:65-66'da sayı sonucu belirliyor ve revize ediliyor, 9:80'de sayının artması sonucu değiştirmiyor; güven=yüksek"
+   ],
+   [
+    "9:67",
+    "9:79",
+    "L4 — eylemin fâile iade edilmesi figürü: نَسُوا۟/فَنَسِيَهُمْ ve سَخِرُوا۟/سَخِرَ ٱللَّهُ; güven=yüksek"
+   ],
+   [
+    "9:87",
+    "9:93",
+    "L1 — YAKIN İKİZ: رَضُوا۟ بِأَن يَكُونُوا۟ مَعَ ٱلْخَوَالِفِ + طبع قلوب; üç değişkende ayrışıyor (edilgen/etken, fâil gizli/açık, فقه/علم)"
+   ],
+   [
+    "9:55",
+    "9:85",
+    "L1 — YAKIN İKİZ, otuz ayet arayla; tek fark ٱلْحَيَوٰةِ (n 17→16)"
+   ],
+   [
+    "9:98",
+    "9:99",
+    "L1 — ilk beş kelime birebir (وَمِنَ ٱلْأَعْرَابِ مَن … مَا يُنفِقُ), sonra tek terimde ayrışıyor: مَغْرَم / قُرُبَات"
+   ],
+   [
+    "9:81",
+    "9:88",
+    "L4 — aynı üçlü ifade (جهد+مال+نفس) olumsuz ve olumlu yüklemle; güven=yüksek"
+   ],
+   [
+    "9:91",
+    "9:93",
+    "L2 — مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍۢ / إِنَّمَا ٱلسَّبِيلُ عَلَى…; olumsuz sınır + hasr"
+   ],
+   [
+    "9:86",
+    "9:91",
+    "L4 — ters ölçüt: imkân sahibi olmak muafiyeti geçersiz kılıyor / imkânsızlık muafiyeti doğuruyor; güven=yüksek"
+   ],
+   [
+    "9:100",
+    "9:67",
+    "L4 — karşılıklılık figürü olumlu işaretle: رَضِىَ/رَضُوا۟ vs نَسُوا۟/نَسِيَهُمْ; güven=yüksek"
+   ],
+   [
+    "9:95",
+    "9:96",
+    "L2 — yemin + rızâ; biri emirle karşılanıyor, öteki şartla boşa çıkarılıyor"
+   ],
+   [
+    "9:72",
+    "9:89",
+    "L2 — جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا; 9:100 ile üçlü, fiil değişiyor (وعد/أعدّ/أعدّ)"
+   ],
+   [
+    "9:25",
+    "9:118",
+    "L1 — BİREBİR İBARE: ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ; iki zıt sonuç (kaçış / tövbe)"
+   ],
+   [
+    "9:1",
+    "9:114",
+    "L4 — INCLUSIO: sûrenin açılış terimi بَرَآءَة, son çeyrekte fiil olarak تَبَرَّأَ; güven=yüksek"
+   ],
+   [
+    "9:57",
+    "9:118",
+    "L4 — مَلْجَأ kutup değişimi: bulunamayan kaçış yeri / kaçılan ile sığınılanın aynı olması; güven=yüksek"
+   ],
+   [
+    "9:101",
+    "8:60",
+    "L2 — bilgi asimetrisi kalıbı: لَا تَعْلَمُهُمْ نَحْنُ نَعْلَمُهُمْ / لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ"
+   ],
+   [
+    "9:102",
+    "9:106",
+    "L2 — وَءَاخَرُونَ ikiz açılışı, arada 9:103-105"
+   ],
+   [
+    "9:104",
+    "9:118",
+    "L1 — إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ; 4:64 ve 49:12 ile dörtlü"
+   ],
+   [
+    "9:94",
+    "9:105",
+    "L1 — سَتُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم…; gözlemci kümesi bir eleman genişliyor"
+   ],
+   [
+    "9:84",
+    "9:103",
+    "L4 — صلو kökü ters kutup: namaz kılma yasağı / dua etme emri; güven=yüksek"
+   ],
+   [
+    "9:107",
+    "9:108",
+    "L2 — iki mescit: dırar mescidi ve takvâ üzerine kurulan"
+   ],
+   [
+    "9:60",
+    "9:112",
+    "L4 — sûrenin iki FİİLSİZ kataloğu: sekiz alıcı sınıfı / dokuz nitelik; güven=orta"
+   ],
+   [
+    "9:113",
+    "9:23",
+    "L4 — akrabalık koşulu: 9:23'te koşullu askı, 9:113'te koşulsuz kapatma; güven=yüksek"
+   ],
+   [
+    "9:124",
+    "9:125",
+    "L1 — AMMA çifti, bitişik: aynı fiil زَادَتْهُمْ, iki alıcı, zıt nesne (إِيمَٰن / رِجْس)"
+   ],
+   [
+    "9:124",
+    "9:127",
+    "L1 — ikiz açılış: وَإِذَا مَآ أُنزِلَتْ سُورَةٌۭ, arada 9:125-126"
+   ],
+   [
+    "9:36",
+    "9:122",
+    "L4 — كَآفَّة kutup değişimi: topyekûn savaşın / topyekûn seferber olmanız gerekmez; güven=yüksek"
+   ],
+   [
+    "9:120",
+    "9:121",
+    "L2 — olumsuzlamalar + tek istisna + edilgen kayıt (كُتِبَ لَهُم)"
+   ],
+   [
+    "9:127",
+    "9:67",
+    "L4 — karşılıklılık-iade figürü dördüncü kez: ٱنصَرَفُوا۟ / صَرَفَ ٱللَّهُ; güven=yüksek"
+   ],
+   [
+    "9:129",
+    "9:59",
+    "L2 — حَسْبِىَ ٱللَّهُ / حَسْبُنَا ٱللَّهُ; 8:62, 8:64, 3:173, 39:38 ile zincir"
+   ],
+   [
+    "9:117",
+    "9:128",
+    "L2 — رَءُوفٌۭ رَّحِيمٌۭ; sûrede iki geçiş, biri Allah'a biri Resûl'e"
+   ],
+   [
+    "9:101",
+    "9:126",
+    "L4 — مَرَّتَيْن; iki kez azap / yılda bir-iki kez sınama; güven=orta"
+   ],
+   [
+    "10:3a",
+    "10:3b",
+    "L1 — AYET İÇİ ÇAPRAZ: إِنَّ رَبَّكُمُ ٱللَّهُ … ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ; aynı iki terim, sıra ters"
+   ],
+   [
+    "10:10",
+    "1:2",
+    "L1 — ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ birebir; korpusun açılış cümlesi cennet ehlinin son sözü olarak"
+   ],
+   [
+    "10:7",
+    "10:9",
+    "L2 — إِنَّ ٱلَّذِينَ + tanım + sonuç; karşıt eşlenik, 10:9'da eksen adı RAB"
+   ],
+   [
+    "10:3",
+    "10:18",
+    "L2 — şefaat: izne bağlanıyor / izinsiz şefaatçi iddiası ele alınıyor"
+   ],
+   [
+    "10:11",
+    "10:19",
+    "L4 — gecikme sistemin koşulu olarak: acele edilmeyen şer / önceden geçmiş söz; güven=orta"
+   ],
+   [
+    "10:12",
+    "9:35",
+    "L4 — beden sayımı: üç konum (yan/oturur/ayakta) ve üç yüzey (alın/yan/sırt); güven=orta"
+   ],
+   [
+    "10:20",
+    "9:52",
+    "L4 — karşılıklı bekleme figürü, bu kez asimetrik ödeme belirtilmeden; güven=orta"
+   ],
+   [
+    "10:15",
+    "10:16",
+    "L2 — aynı savunma ekseni: aktaran ile üreten ayrımı"
+   ],
+   [
+    "10:26",
+    "10:27",
+    "L4 — ÖDÜL FONKSİYONU ASİMETRİSİ: ٱلْحُسْنَىٰ وَزِيَادَةٌۭ / جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا; aynı sözlük (وجه, ذلة, رهق), ters işaret; güven=yüksek"
+   ],
+   [
+    "10:34",
+    "10:35",
+    "L1 — İKİZ ÇERÇEVE: قُلْ هَلْ مِن شُرَكَآئِكُم مَّن … قُلِ ٱللَّهُ …; yüklem değişiyor (yaratma-iade / hidayet), kapanış fiili değişiyor (تؤفكون / تحكمون)"
+   ],
+   [
+    "10:32",
+    "10:3",
+    "L2 — ٱللَّهُ رَبُّكُم dizilişi üçüncü kez; 10:32'de ٱلْحَقّ sıfatı ekleniyor"
+   ],
+   [
+    "10:15",
+    "10:38",
+    "L4 — TERS YÖNLÜ meydan okuma: ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ / فَأْتُوا۟ بِسُورَةٍۢ مِّثْلِهِۦ; kanıt yükü tersine, eşik düşürülüyor; güven=yüksek"
+   ],
+   [
+    "10:35",
+    "9:13",
+    "L4 — أَحَقُّ figürü sûre sınırını aşıyor (9:13, 9:62, 9:108, 10:35); güven=yüksek"
+   ],
+   [
+    "10:12",
+    "10:23",
+    "L4 — baskı kalkınca davranışın geri dönmesi; ikinci vaka; güven=yüksek"
+   ],
+   [
+    "10:19",
+    "10:33",
+    "L2 — كَلِمَة iki işlevde: erteleyici (سَبَقَتْ) ve kesinleştirici (حَقَّتْ)"
+   ],
+   [
+    "10:4",
+    "10:34",
+    "L1 — يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ; 27:64, 30:11, 30:27 ile beşli"
+   ],
+   [
+    "10:22",
+    "8:46",
+    "L4 — روح kutup: 8:46 mecazî güç (istisna adayı), 10:22 gerçek rüzgâr iki zıt sıfatla; güven=orta"
+   ],
+   [
+    "10:24",
+    "18:45",
+    "L2 — su meseli; xref YEDİ ayrı üçlü doğruladı, kalıp neredeyse birebir"
+   ],
+   [
+    "10:10",
+    "10:37",
+    "L1 — رَبِّ ٱلْعَٰلَمِينَ; sûrede iki geçiş"
+   ],
+   [
+    "10:42",
+    "10:43",
+    "L1 — BİTİŞİK İKİZ: وَمِنْهُم مَّن … أَفَأَنتَ … وَلَوْ كَانُوا۟ لَا …; n=11 eşit, yalnız duyu değişiyor (işitme/görme)"
+   ],
+   [
+    "10:47",
+    "10:54",
+    "L1 — BİREBİR KAPANIŞ: وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ وَهُمْ لَا يُظْلَمُونَ; yedi ayet arayla, ikisi de edilgen-yoğun"
+   ],
+   [
+    "10:18",
+    "10:49",
+    "L4 — 'ne zarar ne fayda' ikilisi putlardan Peygamber'e aktarılıyor: مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ / لَّآ أَمْلِكُ لِنَفْسِى ضَرًّۭا وَلَا نَفْعًا; güven=yüksek"
+   ],
+   [
+    "10:41",
+    "8:48",
+    "L4 — برأ zinciri dördüncü durak: şeytan (8:48) → bildirim (9:1) → İbrâhim (9:114) → Peygamber (10:41); güven=yüksek"
+   ],
+   [
+    "10:31",
+    "10:56",
+    "L4 — çapraz (حي/ميت) ile beş kelimelik özeti aynı sûrede; güven=orta"
+   ],
+   [
+    "10:22",
+    "10:58",
+    "L4 — فرح kutup: yanıltıcı sevinç (fırtına öncesi) / emredilen sevinç (fazl ve rahmet); güven=orta"
+   ],
+   [
+    "10:24",
+    "10:50",
+    "L2 — zaman kümesinin iki uçla kapatılması: لَيْلًا أَوْ نَهَارًۭا / بَيَٰتًا أَوْ نَهَارًۭا"
+   ],
+   [
+    "10:44",
+    "9:70",
+    "L2 — fâil düzeltmesi: Allah zulmetmez, kendileri zulmeder"
+   ],
+   [
+    "10:27",
+    "10:52",
+    "L2 — misli-karşılık kuralı iki kez"
+   ],
+   [
+    "10:55",
+    "10:60",
+    "L1 — وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ / لَا يَشْكُرُونَ; aynı kalıp, eksik yeti değişiyor"
+   ],
+   [
+    "10:55",
+    "10:66",
+    "L1 — İKİZ AÇILIŞ: أَلَآ إِنَّ لِلَّهِ مَا/مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ; tek harf farkı (nesne/kişi kümesi)"
+   ],
+   [
+    "10:15",
+    "10:64",
+    "L4 — بدل talebi ve cevabı, kırk dokuz ayet arayla: بَدِّلْهُ / لَا تَبْدِيلَ لِكَلِمَٰتِ ٱللَّهِ; güven=yüksek"
+   ],
+   [
+    "10:2",
+    "10:76",
+    "L2 — aynı itiraz kalıbı iki peygamber için: لَسَٰحِرٌ مُّبِينٌ (kişi) / لَسِحْرٌۭ مُّبِينٌۭ (fiil)"
+   ],
+   [
+    "10:74",
+    "9:93",
+    "L4 — طبع üç dilbilgisel biçimde: طُبِعَ (9:87, edilgen) / طَبَعَ ٱللَّهُ (9:93) / نَطْبَعُ (10:74); güven=yüksek"
+   ],
+   [
+    "10:74",
+    "10:75",
+    "L2 — ثُمَّ بَعَثْنَا مِنۢ بَعْدِ… ikiz açılışı; ikincisinde isimler veriliyor"
+   ],
+   [
+    "10:71",
+    "9:129",
+    "L2 — tevekkül zinciri altıncı halka, ikinci kez 1S: فَعَلَى ٱللَّهِ تَوَكَّلْتُ"
+   ],
+   [
+    "10:14",
+    "10:73",
+    "L2 — خَلَٰٓئِف: ikame kesintiden sonra tekrar kuruluyor"
+   ],
+   [
+    "10:69",
+    "10:77",
+    "L1 — لَا يُفْلِحُ; iftiracılar ve büyücüler için aynı olumsuz sonuç"
+   ],
+   [
+    "10:5",
+    "10:67",
+    "L4 — لِّقَوْمٍۢ … kapanışında alıcı niteliği dört kez değişiyor: يعلمون (10:5), يتقون (10:6), يتفكرون (10:24), يسمعون (10:67); güven=yüksek"
+   ],
+   [
+    "10:49",
+    "10:71",
+    "L4 — süre talebinin reddi: ne erteleme ne öne alma / وَلَا تُنظِرُونِ; güven=orta"
+   ],
+   [
+    "10:51",
+    "10:91",
+    "L1 — ءَآلْـَٰٔنَ iki kez: genel küme (10:51) ve tek kişi (10:91); ikincisi sûrenin TEK iltifâtı"
+   ],
+   [
+    "10:33",
+    "10:96",
+    "L1 — حَقَّتْ كَلِمَتُ رَبِّكَ; 10:96'da özne niteliği çıkarılmış"
+   ],
+   [
+    "10:15",
+    "10:109",
+    "L1 — مَا يُوحَىٰٓ إِلَىَّ / مَا يُوحَىٰٓ إِلَيْكَ; 1S savunma → 2MS emir"
+   ],
+   [
+    "10:1",
+    "10:109",
+    "L4 — INCLUSIO: ٱلْكِتَٰبِ ٱلْحَكِيمِ (açılış) / خَيْرُ ٱلْحَٰكِمِينَ (kapanış), aynı kök; güven=yüksek"
+   ],
+   [
+    "10:18",
+    "10:106",
+    "L4 — ضرّ/نفع üçüncü geçiş, üçüncü özne (put / peygamber / yasak nesnesi); güven=yüksek"
+   ],
+   [
+    "10:90",
+    "10:98",
+    "L4 — geç kalan iman (Firavun) ve zamanında gelen iman (Yûnus kavmi) yan yana; güven=yüksek"
+   ],
+   [
+    "10:42",
+    "10:99",
+    "L4 — peygamberin yetki sınırı üç kez: işittiremezsin / gösteremezsin / zorlayamazsın; güven=yüksek"
+   ],
+   [
+    "9:52",
+    "10:102",
+    "L2 — karşılıklı bekleme figürü üçüncü kez; beklenen şey burada adlandırılıyor"
+   ],
+   [
+    "10:73",
+    "10:103",
+    "L2 — نجو üç işlevde: gemide kurtuluş / bedenin korunması / müminlerin kurtarılması"
+   ],
+   [
+    "10:85",
+    "10:88",
+    "L4 — dua bloğunda eksen ayrımı: tevekkül ALLAH'a, nidâ RAB'be (10:88'de رَبَّنَا ×3); güven=yüksek"
+   ],
+   [
+    "10:38",
+    "11:13",
+    "L4 — MEYDAN OKUMA ÖLÇEĞİ: بِسُورَةٍۢ مِّثْلِهِۦ (bir sûre) / بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ (on sûre); aynı kalıp, sayı artıyor; güven=yüksek"
+   ],
+   [
+    "11:9",
+    "11:10",
+    "L1 — İKİZ ÇİFT: وَلَئِنْ أَذَقْنَا…; iki zıt girdi dizisi, iki olumsuz çıktı çifti"
+   ],
+   [
+    "11:2",
+    "11:12",
+    "L4 — نَذِير: 11:2'de iki terimli görev (uyarıcı+müjdeci), 11:12'de hasr ile tek terime iniyor; güven=yüksek"
+   ],
+   [
+    "11:15",
+    "11:16",
+    "L2 — aynı eylem bir alanda tam karşılık, öteki alanda sıfır"
+   ],
+   [
+    "10:3",
+    "11:7",
+    "L2 — altı gün + arş; 11:7'de arşın konumu ekleniyor (su üzerinde)"
+   ],
+   [
+    "10:2",
+    "11:7",
+    "L1 — سِحْرٌۭ مُّبِينٌۭ üçüncü kez (10:2 kişi, 10:76 fiil, 11:7 diriltmeye karşı)"
+   ],
+   [
+    "10:42",
+    "11:20",
+    "L4 — işitme-görme çifti: iki ayrı ayette iki denklem / tek cümlede olumsuz kip; güven=orta"
+   ],
+   [
+    "10:94",
+    "11:17",
+    "L4 — مِرْيَة: şüphe için dış kaynak önerisi / şüphenin doğrudan yasaklanması; güven=yüksek"
+   ],
+   [
+    "10:17",
+    "11:18",
+    "L1 — وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا; iki sûrede aynı soru, ikisi de cevapsız"
+   ],
+   [
+    "10:61",
+    "11:6",
+    "L2 — كِتَٰبٍۢ مُّبِين: ölçek iki ucundan açık / konum iki terimle kapalı"
+   ],
+   [
+    "11:2",
+    "11:26",
+    "L1 — أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ + korku ifadesi; sûrenin açılış çağrısı Nûh'un ağzında birebir"
+   ],
+   [
+    "11:12",
+    "11:31",
+    "L4 — TALEP LİSTESİ ↔ RET LİSTESİ: كَنز/مَلَك talebi (11:12) ile خَزَآئِن/مَلَك reddi (11:31); güven=yüksek"
+   ],
+   [
+    "11:29",
+    "11:34",
+    "L4 — aynı ayette iki eksen, iki işlev: ücret ALLAH / buluşma RAB (29), irade ALLAH / sahiplik RAB (34); güven=yüksek"
+   ],
+   [
+    "10:85",
+    "11:29",
+    "L4 — çift-eksenli ayet kalıbı: tevekkül-dua / ücret-buluşma; güven=yüksek"
+   ],
+   [
+    "10:99",
+    "11:28",
+    "L4 — zorlama yetkisinin reddi iki elçide: أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ / أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ; güven=yüksek"
+   ],
+   [
+    "11:20",
+    "11:24",
+    "L4 — işitme-görme çifti: olumsuz kip (11:20) / mesel olarak tam simetri (11:24); güven=yüksek"
+   ],
+   [
+    "9:79",
+    "11:38",
+    "L4 — alayın iadesi: ilâhî fâil (9:79) / insan fâil ve açıkça oranlı (11:38); güven=orta"
+   ],
+   [
+    "10:41",
+    "11:35",
+    "L2 — برأ beşinci durak: أَنَا۠ بَرِىٓءٌۭ مِّمَّا تَعْمَلُونَ / مِّمَّا تُجْرِمُونَ"
+   ],
+   [
+    "11:37",
+    "11:40",
+    "L2 — 23:27 ile beş ayrı üçlü; gemi anlatısının iki ucu"
+   ],
+   [
+    "11:21",
+    "11:22",
+    "L2 — fiil (خَسِرُوٓا۟) ism-i tafdile çevriliyor (ٱلْأَخْسَرُونَ)"
+   ],
+   [
+    "11:3",
+    "11:52",
+    "L1 — BİREBİR KALIP: ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ; karşılık değişiyor (geçimlik+fazlalık / yağmur+kuvvet)"
+   ],
+   [
+    "11:29",
+    "11:51",
+    "L4 — ücret cümlesi iki peygamberde, merci farklı adlandırılıyor: عَلَى ٱللَّهِ (Nûh) / عَلَى ٱلَّذِى فَطَرَنِى (Hûd); güven=yüksek"
+   ],
+   [
+    "10:71",
+    "11:55",
+    "L1 — وَلَا تُنظِرُونِ birebir; Nûh ve Hûd, iki sûre"
+   ],
+   [
+    "11:44",
+    "11:60",
+    "L1 — بُعْدًۭا kapanış formülü: لِّلْقَوْمِ ٱلظَّٰلِمِينَ / لِّعَادٍۢ قَوْمِ هُودٍۢ; nitelik → özel ad"
+   ],
+   [
+    "11:40",
+    "11:58",
+    "L1 — جَآءَ أَمْرُنَا; Nûh ve Hûd anlatılarının aynı geçiş cümlesi"
+   ],
+   [
+    "11:45",
+    "11:47",
+    "L2 — talep ve geri alınması; 11:46'daki gerekçe (بِهِۦ عِلْم) 11:47'de birebir tekrarlanıyor"
+   ],
+   [
+    "11:41",
+    "11:47",
+    "L4 — غَفُور|رَحِيم mühür çifti fiile çevriliyor: تَغْفِرْ لِى وَتَرْحَمْنِى; güven=yüksek"
+   ],
+   [
+    "11:6",
+    "11:56",
+    "L4 — دَآبَّة: rızık ve iki konum kaydı (11:6) / perçeminden tutma (11:56); kayıttan tutuşa; güven=orta"
+   ],
+   [
+    "11:54",
+    "10:41",
+    "L2 — برأ altıncı durak: أَنِّى بَرِىٓءٌۭ مِّمَّا تُشْرِكُونَ"
+   ],
+   [
+    "9:39",
+    "11:57",
+    "L2 — ikame + etkisizlik üçlüsü: يَسْتَبْدِلْ/يَسْتَخْلِفُ قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّونَهُ"
+   ],
+   [
+    "10:109",
+    "11:45",
+    "L4 — خَيْرُ ٱلْحَٰكِمِينَ / أَحْكَمُ ٱلْحَٰكِمِينَ; aynı yapı, farklı ism-i tafdil; güven=orta"
+   ],
+   [
+    "11:28",
+    "11:63",
+    "L1 — إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى … رَحْمَة birebir; sonuç farklı (zorlama sorusu / yardım sorusu)"
+   ],
+   [
+    "11:61",
+    "11:64",
+    "L4 — قَرِيب iki özneye: Rabbin niteliği (güvence) / azabın niteliği (tehdit), üç ayet arayla; güven=yüksek"
+   ],
+   [
+    "11:58",
+    "11:66",
+    "L1 — فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا … بِرَحْمَةٍۢ مِّنَّا; ikinci tümleç değişiyor (ağır azap / o günün rezilliği)"
+   ],
+   [
+    "11:44",
+    "11:68",
+    "L1 — بُعْدًۭا formülü ÜÇÜNCÜ kez ve her tekrarda kısalıyor: nitelik → kavim+peygamber → yalnız kavim"
+   ],
+   [
+    "11:30",
+    "11:63",
+    "L2 — فَمَن يَنصُرُنِى; Nûh ve Sâlih, iki koşulla, ikisi de cevapsız"
+   ],
+   [
+    "11:46",
+    "11:76",
+    "L4 — talebin geçersiz sayılması: gerekçe içerik değil koşul (bilgi eksikliği / zamanlama); güven=yüksek"
+   ],
+   [
+    "11:69",
+    "11:77",
+    "L4 — aynı elçilerin gelişine iki zıt tepki: İbrâhim ikram, Lût kaygı; güven=yüksek"
+   ],
+   [
+    "9:114",
+    "11:75",
+    "L1 — أَوَّٰهٌ حَلِيمٌ; aynı iki sıfat, iki zıt yönlü eylemi açıklıyor (babadan uzaklaşma / kavim için araya girme)"
+   ],
+   [
+    "11:43",
+    "11:80",
+    "L4 — dış destek arayışı: dağa sığınma / dayanak dileme, ikisi de sonuçsuz; güven=orta"
+   ],
+   [
+    "10:24",
+    "11:68",
+    "L2 — كَأَن لَّمْ … silinme figürü: 'sanki dün hiç var olmamış' / 'sanki orada hiç yaşamamışlar'"
+   ],
+   [
+    "11:3",
+    "11:61",
+    "L1 — ٱسْتَغْفِرُوا۟ … ثُمَّ تُوبُوٓا۟ ÜÇÜNCÜ kez (11:3, 11:52, 11:61); karşılık her kavimde farklı"
+   ],
+   [
+    "11:3",
+    "11:90",
+    "L1 — ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ DÖRDÜNCÜ kez; 11:90'da ne karşılık ne gerekçe, yalnız mühür"
+   ],
+   [
+    "11:84",
+    "11:85",
+    "L2 — ölçü yasağı olumlu emre çevriliyor ve ölçüt ekleniyor (بِٱلْقِسْطِ)"
+   ],
+   [
+    "11:96",
+    "11:97",
+    "L1 — SÛRENİN İKİ İLTİFÂTI: bitişik ve TERS YÖNLÜ (3>1 / 1>3)"
+   ],
+   [
+    "11:96",
+    "40:23",
+    "L1 — TAM AYET İKİZİ (defter esit alanı)"
+   ],
+   [
+    "11:98",
+    "11:99",
+    "L1 — birebir yapı tekrarı: بِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ / بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ; yalnız kök değişiyor"
+   ],
+   [
+    "11:44",
+    "11:95",
+    "L1 — بُعْدًۭا DÖRDÜNCÜ kez; ilk kez karşılaştırma ekleniyor (كَمَا بَعِدَتْ ثَمُودُ)"
+   ],
+   [
+    "11:49",
+    "11:100",
+    "L2 — anlatı kesilip kaynak bildirimi; iki kez, Nûh ve tüm döngü sonrası"
+   ],
+   [
+    "11:66",
+    "11:91",
+    "L4 — عَزِيز: mühür çiftinin üyesi (ilâhî) / olumsuzlanan insan üstünlüğü; güven=yüksek"
+   ],
+   [
+    "11:84",
+    "11:92",
+    "L4 — مُحِيط: GÜN'ün sıfatı (P0) / gerçekten ilâhî nitelik, aynı sûrede; güven=yüksek"
+   ],
+   [
+    "11:57",
+    "11:86",
+    "L4 — حَفِيظ: gerçekten ilâhî (11:57) / olumsuzlanan insan bekçiliği (11:86); güven=yüksek"
+   ],
+   [
+    "10:108",
+    "11:86",
+    "L4 — görev sınırı: بِوَكِيل / بِحَفِيظ; aynı yapı, farklı terim; güven=orta"
+   ],
+   [
+    "11:25",
+    "11:89",
+    "L4 — sûrenin ilk üç anlatısı tek ayette özetleniyor + dördüncüsü mesafeyle ekleniyor; güven=yüksek"
+   ],
+   [
+    "11:39",
+    "11:93",
+    "L1 — سَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌۭ يُخْزِيهِ; Nûh ve Şuayb"
+   ],
+   [
+    "10:24",
+    "11:100",
+    "L2 — حَصِيد: bitki örtüsü / şehirler; aynı kelime, iki ölçek"
+   ],
+   [
+    "11:107",
+    "11:108",
+    "L1 — İKİZ: خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ; olumlu tarafa fazladan 'kesintisiz bağış' ekleniyor"
+   ],
+   [
+    "11:110",
+    "41:45",
+    "L1 — TAM AYET İKİZİ (defter esit alanı); 10:19 ile aynı yapı"
+   ],
+   [
+    "11:15",
+    "11:111",
+    "L4 — tam ödeme formülü ÜÇ kez, kapsam genişliyor: dünya isteyenler → karşı taraf → HERKES (كُلًّۭا); güven=yüksek"
+   ],
+   [
+    "11:2",
+    "11:123",
+    "L4 — INCLUSIO: açılışta 'Allah'tan başkasına kulluk etmeyin' (yasak), kapanışta 'O'na kulluk et' (emir); güven=yüksek"
+   ],
+   [
+    "11:93",
+    "11:121",
+    "L1 — ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى/إِنَّا عَٰمِلٌ; Şuayb tekil, Peygamber çoğul"
+   ],
+   [
+    "9:52",
+    "11:122",
+    "L2 — karşılıklı bekleme BEŞİNCİ ve en kısa hâli (n=3); figür her tekrarda sadeleşiyor"
+   ],
+   [
+    "11:116",
+    "11:117",
+    "L2 — eksiklik sorusu ve kural: ıslah edenler varsa helâk yok"
+   ],
+   [
+    "10:19",
+    "11:118",
+    "L4 — birlik fikri: kayıp başlangıç (10:19) / seçilmemiş imkân (11:118); güven=yüksek"
+   ],
+   [
+    "11:49",
+    "11:120",
+    "L2 — kaynak bildirimi ÜÇÜNCÜ kez (11:49, 11:100, 11:120)"
+   ],
+   [
+    "11:24",
+    "11:112",
+    "L4 — بَصِير: 11:24'te İNSAN sıfatı (P0), 11:112'de gerçekten ilâhî; güven=yüksek"
+   ],
+   [
+    "11:1",
+    "11:111",
+    "L4 — خَبِير: mühür çiftinin üyesi (11:1) / tek başına kapanış (11:111); güven=orta"
+   ],
+   [
+    "11:86",
+    "11:116",
+    "L4 — بَقِيَّة: 'Allah'ın bıraktığı' (11:86) / 'olgunluk sahipleri' (11:116); güven=orta"
+   ],
+   [
+    "10:1",
+    "12:1",
+    "L2 — üç الٓر açılışı, sıfat değişiyor: ٱلْحَكِيمِ (10:1) / أُحْكِمَتْ … حَكِيمٍ خَبِيرٍ (11:1) / ٱلْمُبِينِ (12:1)"
+   ],
+   [
+    "11:49",
+    "12:3",
+    "L4 — kaynak bildirimi: Hûd'da anlatı SONRASI üç kez, Yûsuf'ta anlatı ÖNCESİ; güven=yüksek"
+   ],
+   [
+    "12:3",
+    "12:5",
+    "L4 — قصص kökü: ilâhî anlatma (12:3) / yasaklanan insan anlatması (12:5); güven=yüksek"
+   ],
+   [
+    "12:8",
+    "12:14",
+    "L4 — عُصْبَة: kıskançlığın gerekçesi (12:8) / koruma iddiasının dayanağı (12:14); güven=yüksek"
+   ],
+   [
+    "12:13",
+    "12:17",
+    "L4 — babanın korkusu birebir hikâyeye çevriliyor: uydurulan senaryo uyarıdan alınıyor; güven=yüksek"
+   ],
+   [
+    "12:9",
+    "12:10",
+    "L2 — iki seçenek ve üçüncü yol; öldürme iptal ediliyor"
+   ],
+   [
+    "12:15",
+    "12:89",
+    "L2 — vahyedilen vaad ve gerçekleşmesi (sûre içi uzun yay)"
+   ],
+   [
+    "12:18",
+    "12:83",
+    "L1 — فَصَبْرٌۭ جَمِيلٌۭ; sûre içinde iki kez, aynı konuşan"
+   ],
+   [
+    "12:7",
+    "12:111",
+    "L2 — işaret bildirimi: açılışta 'soranlar için', kapanışta 'akıl sahipleri için'"
+   ],
+   [
+    "12:26",
+    "12:27",
+    "L1 — TAM SİMETRİK KARAR TABLOSU: aynı yapı, tek değişken ters (قُبُل/دُبُر), iki sonuç yer değiştiriyor"
+   ],
+   [
+    "12:8",
+    "12:30",
+    "L1 — فِى ضَلَٰلٍۢ مُّبِينٍ; kardeşler babayı / şehirli kadınlar azizin karısını"
+   ],
+   [
+    "12:33",
+    "12:34",
+    "L1 — تَصْرِفْ عَنِّى كَيْدَهُنَّ / فَصَرَفَ عَنْهُ كَيْدَهُنَّ; talep ve karşılanması bitişik"
+   ],
+   [
+    "12:24",
+    "12:33",
+    "L2 — صرف: gerçekleşmiş uzaklaştırma (12:24) / talep edilen uzaklaştırma (12:33)"
+   ],
+   [
+    "12:6",
+    "12:38",
+    "L1 — إِبْرَٰهِيمَ وَإِسْحَٰقَ (وَيَعْقُوبَ); nimetin tamamlandığı hat / uyulan hat"
+   ],
+   [
+    "12:6",
+    "12:37",
+    "L4 — تَأْوِيلِ ٱلْأَحَادِيثِ üç kez: vaad (12:6) → gerekçe (12:21) → uygulama (12:37); güven=yüksek"
+   ],
+   [
+    "9:31",
+    "12:39",
+    "L2 — أَرْبَاب çoğul-bağsız, sahte-rab söylemi; iki sûrede aynı biçim aynı işlevde"
+   ],
+   [
+    "11:2",
+    "12:40",
+    "L4 — kulluk çağrısı BEŞİNCİ kez ve ilk kez ZİNDANDA iki kişiye; kalıp kavimden bireye iniyor; güven=yüksek"
+   ],
+   [
+    "12:5",
+    "12:28",
+    "L4 — كيد: kardeşlerin tuzağı (12:5) / kadınların tuzağı (12:28) / 12:33-34'te yine kadınlar; güven=orta"
+   ],
+   [
+    "12:4",
+    "12:36",
+    "L4 — rüya anlatımı: أَرَىٰنِى kalıbı; Yûsuf'un rüyası ve zindan arkadaşlarınınki; güven=orta"
+   ],
+   [
+    "12:21",
+    "12:23",
+    "L2 — مَثْوَى: 'ona iyi bak' emri ve yerine getirildiğinin tanıklığı"
+   ],
+   [
+    "12:43",
+    "12:46",
+    "L1 — BİREBİR AKTARIM: rüya kralın ağzından aktarıcının ağzına, hiçbir ayrıntı düşmeden"
+   ],
+   [
+    "12:21",
+    "12:56",
+    "L1 — وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ; köle ve yönetici konumunda, aynı cümle"
+   ],
+   [
+    "12:42",
+    "12:45",
+    "L2 — unutma ve hatırlama; arada 'bir ümmet' süresi"
+   ],
+   [
+    "12:47",
+    "12:48",
+    "L2 — iki yedili döngü, aynı istisna kalıbı (إِلَّا قَلِيلًۭا)"
+   ],
+   [
+    "12:36",
+    "12:49",
+    "L4 — عصر: zindanda şarap sıkma / ülke ölçeğinde bolluk göstergesi; güven=yüksek"
+   ],
+   [
+    "12:50",
+    "12:53",
+    "L4 — رَبّ tek ayette iki merci için (12:50); 12:53'te ikisi de ilâhî; güven=yüksek"
+   ],
+   [
+    "12:23",
+    "12:51",
+    "L4 — kapıların kapatılması / gerçeğin ortaya çıkması; itirafın iki ucu; güven=yüksek"
+   ],
+   [
+    "11:31",
+    "12:55",
+    "L4 — خَزَآئِن: yetki reddi / göreve talip olma; güven=orta"
+   ],
+   [
+    "11:84",
+    "12:59",
+    "L4 — ölçüyü tam yapma: kavme emir / yöneticinin kendi uygulaması; güven=yüksek"
+   ],
+   [
+    "12:59",
+    "12:60",
+    "L2 — aynı terim önce güven sonra baskı aracı (كَيْل)"
+   ],
+   [
+    "12:15",
+    "12:58",
+    "L2 — vahyedilen vaad gerçekleşmeye başlıyor"
+   ],
+   [
+    "12:12",
+    "12:63",
+    "L1 — BİREBİR VAAD: وَإِنَّا لَهُۥ لَحَٰفِظُونَ; aynı konuşanlar, farklı kardeş, ilk vaad tutulmamıştı"
+   ],
+   [
+    "12:12",
+    "12:64",
+    "L4 — koruma vaadi devrediliyor: 'biz koruruz' → فَٱللَّهُ خَيْرٌ حَٰفِظًۭا; güven=yüksek"
+   ],
+   [
+    "12:62",
+    "12:65",
+    "L2 — tasarlanan tuzak ve tam olarak işlemesi; iki 'belki' de gerçekleşiyor"
+   ],
+   [
+    "12:62",
+    "12:70",
+    "L4 — yüke bir şey koyma iki kez, ters amaç: geri çağırma / alıkoyma; güven=yüksek"
+   ],
+   [
+    "12:40",
+    "12:67",
+    "L1 — إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ; Yûsuf zindanda, Yakub yolculuk öncesi — iki kuşak aynı ifade"
+   ],
+   [
+    "12:5",
+    "12:76",
+    "L4 — كيد dördüncü kez ve ilk kez OLUMLU fâille (كِدْنَا لِيُوسُفَ); güven=yüksek"
+   ],
+   [
+    "12:18",
+    "12:77",
+    "L4 — وَٱللَّهُ … مَا تَصِفُونَ: baba 'yardımına sığınılacak' / oğul 'daha iyi bilir'; güven=yüksek"
+   ],
+   [
+    "12:23",
+    "12:79",
+    "L1 — مَعَاذَ ٱللَّهِ; ayartmanın ve takasın reddinde, iki kez"
+   ],
+   [
+    "12:19",
+    "12:62",
+    "L4 — بِضَاعَة: Yûsuf'un kendisi 'ticaret malı' / kardeşlerin sermayesi; güven=orta"
+   ],
+   [
+    "10:109",
+    "12:80",
+    "L1 — خَيْرُ ٱلْحَٰكِمِينَ; sûre kapanışı / kardeşin ağzında"
+   ],
+   [
+    "12:25",
+    "12:74",
+    "L4 — ceza soruyla getiriliyor; taraf değişmiş (iddia eden / suçlayan); güven=orta"
+   ],
+   [
+    "12:58",
+    "12:69",
+    "L2 — bilgi asimetrisi katmanlanıyor: kimse bilmiyor → bir kişi biliyor"
+   ],
+   [
+    "9:25",
+    "9:118",
+    "L1 — BİREBİR İBARE: ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ; iki zıt sonuç (kaçış / tövbe)"
+   ],
+   [
+    "9:1",
+    "9:114",
+    "L4 — INCLUSIO: sûrenin açılış terimi بَرَآءَة, son çeyrekte fiil olarak تَبَرَّأَ; güven=yüksek"
+   ],
+   [
+    "9:57",
+    "9:118",
+    "L4 — مَلْجَأ kutup değişimi: bulunamayan kaçış yeri / kaçılan ile sığınılanın aynı olması; güven=yüksek"
+   ],
+   [
+    "9:101",
+    "8:60",
+    "L2 — bilgi asimetrisi kalıbı: لَا تَعْلَمُهُمْ نَحْنُ نَعْلَمُهُمْ / لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ"
+   ],
+   [
+    "9:102",
+    "9:106",
+    "L2 — وَءَاخَرُونَ ikiz açılışı, arada 9:103-105"
+   ],
+   [
+    "9:104",
+    "9:118",
+    "L1 — إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ; 4:64 ve 49:12 ile dörtlü"
+   ],
+   [
+    "9:94",
+    "9:105",
+    "L1 — سَتُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم…; gözlemci kümesi bir eleman genişliyor"
+   ],
+   [
+    "9:84",
+    "9:103",
+    "L4 — صلو kökü ters kutup: namaz kılma yasağı / dua etme emri; güven=yüksek"
+   ],
+   [
+    "9:107",
+    "9:108",
+    "L2 — iki mescit: dırar mescidi ve takvâ üzerine kurulan"
+   ],
+   [
+    "9:60",
+    "9:112",
+    "L4 — sûrenin iki FİİLSİZ kataloğu: sekiz alıcı sınıfı / dokuz nitelik; güven=orta"
+   ],
+   [
+    "9:113",
+    "9:23",
+    "L4 — akrabalık koşulu: 9:23'te koşullu askı, 9:113'te koşulsuz kapatma; güven=yüksek"
+   ],
+   [
+    "12:4",
+    "12:100",
+    "L4 — RÜYANIN GERÇEKLEŞMESİ: 96 ayetlik yay; gerçekleşme rüyanın kendi terimiyle (تَأْوِيل) adlandırılıyor; güven=yüksek"
+   ],
+   [
+    "12:15",
+    "12:89",
+    "L4 — vahyedilen vaadin gerçekleşmesi: 74 ayetlik yay; güven=yüksek"
+   ],
+   [
+    "12:18",
+    "12:83",
+    "L1 — BİREBİR: بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ; iki kayıp, aynı cevap"
+   ],
+   [
+    "12:86",
+    "12:96",
+    "L1 — BİREBİR: أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ; önce sav, sonra doğrulanmış hatırlatma"
+   ],
+   [
+    "12:3",
+    "12:111",
+    "L4 — INCLUSIO: أَحْسَنَ ٱلْقَصَصِ → فِى قَصَصِهِمْ عِبْرَةٌۭ; aynı kök iki uçta; güven=yüksek"
+   ],
+   [
+    "12:3",
+    "12:102",
+    "L4 — kaynak bildirimi anlatının İKİ UCUNDA (önce ve sonra); Hûd'da üç kez ve hep sonra; güven=yüksek"
+   ],
+   [
+    "12:18",
+    "12:93",
+    "L4 — GÖMLEK üç işlevde: sahte kan (yalan) → yırtık yönü (delil) → şifa aracı; güven=yüksek"
+   ],
+   [
+    "12:8",
+    "12:91",
+    "L4 — aynı üstünlük: önce haksızlık sayılıyor (baba tercih etti), sonra kabul ediliyor (Allah tercih etti); fâil değişince itiraz kalkıyor; güven=yüksek"
+   ],
+   [
+    "12:8",
+    "12:95",
+    "L1 — ضَلَال yargısı üç kez (12:8, 12:30, 12:95); ilki ve sonuncusu aynı çift"
+   ],
+   [
+    "12:64",
+    "12:92",
+    "L1 — أَرْحَمُ ٱلرَّٰحِمِينَ; baba (teselli) ve oğul (dua)"
+   ],
+   [
+    "12:69",
+    "12:99",
+    "L1 — ءَاوَىٰٓ إِلَيْهِ; kardeş ve anne-baba, iki kucaklama"
+   ],
+   [
+    "12:87",
+    "12:110",
+    "L4 — يأس: yasak (umut kesmeyin) ve olgu (elçiler ümit kesti); güven=yüksek"
+   ],
+   [
+    "12:53",
+    "12:98",
+    "L1 — غَفُور|رَحِيم mühür çifti; azizin karısı ve Yakub, iki farklı konuşan"
+   ],
+   [
+    "10:37",
+    "12:111",
+    "L1 — tanım kalıbı birebir: 'uydurma değil' + doğrulama + ayrıntılandırma + hidayet-rahmet"
+   ],
+   [
+    "11:29",
+    "12:104",
+    "L4 — ücret kalıbı üçüncü kez ve ilk kez ÜÇÜNCÜ ŞAHISTAN; güven=yüksek"
+   ],
+   [
+    "12:7",
+    "12:105",
+    "L4 — alıcı koşulu karşıtı: 'soranlar' / 'geçip gidenler'; güven=orta"
+   ],
+   [
+    "8:53",
+    "13:11",
+    "L1 — BİREBİR: إِنَّ ٱللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ; 8:53'te ABA ortası, 13:11'de üç lafız arasında"
+   ],
+   [
+    "13:1",
+    "13:19",
+    "L1 — أُنزِلَ إِلَيْكَ مِن رَّبِّكَ ٱلْحَقُّ; bildirim → bilme nesnesi"
+   ],
+   [
+    "13:16",
+    "13:19",
+    "L4 — kör/gören çifti: duyusal karşıtlık (13:16) → bilişsel karşıtlık (13:19, gören yerine BİLEN); güven=yüksek"
+   ],
+   [
+    "9:53",
+    "13:15",
+    "L4 — طَوْعًا وَكَرْهًا: infakta iki değer de RET (9:53) / secdede ikisi de KABUL (13:15); güven=yüksek"
+   ],
+   [
+    "10:54",
+    "13:18",
+    "L4 — fidye üst sınırı artırılıyor: yeryüzünün tamamı (10:54) → tamamı VE bir o kadarı (13:18); güven=yüksek"
+   ],
+   [
+    "11:12",
+    "13:7",
+    "L1 — mucize talebi ve görev daraltması: إِنَّمَآ أَنتَ نَذِيرٌ"
+   ],
+   [
+    "10:1",
+    "13:1",
+    "L4 — mukattaa açılış dizisi: kitabın sıfatı 10:1 ٱلْحَكِيم, 11:1 حَكِيمٍ خَبِيرٍ, 12:1 ٱلْمُبِين, 13:1 SIFAT YOK (sıfat içeriğe kayıyor: ٱلْحَقّ); güven=yüksek"
+   ],
+   [
+    "11:5",
+    "13:10",
+    "L4 — gizlenme figürü: fizikî eylem (göğsü bükmek, elbiseye bürünmek) / soyut durum sayımı (gizleyen, açığa vuran, saklanan, gezen); güven=orta"
+   ],
+   [
+    "10:61",
+    "13:8",
+    "L2 — ölçek: iki ucundan açık (10:61) / ölçünün varlığı (13:8)"
+   ],
+   [
+    "9:94",
+    "13:9",
+    "L1 — عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ; cümle içinde / tek başına"
+   ],
+   [
+    "13:16",
+    "13:17",
+    "L2 — hak-bâtıl ayrımı: soru-cevap (13:16) ve mesel (13:17)"
+   ],
+   [
+    "13:20",
+    "13:25",
+    "L4 — TAM KARŞIT ÜÇLÜ: ahdi tutmak/bozmak, birleştirmek/kesmek, aynı sırayla ters; güven=yüksek"
+   ],
+   [
+    "13:7",
+    "13:27",
+    "L1 — BİREBİR itiraz (لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَةٌۭ مِّن رَّبِّهِۦ), İKİ FARKLI cevap"
+   ],
+   [
+    "13:22",
+    "13:35",
+    "L1 — عُقْبَى ٱلدَّار; sûrede dört kez (13:22, 13:24, 13:25, 13:42)"
+   ],
+   [
+    "13:11",
+    "13:41",
+    "L4 — مُعَقِّب: koruyucu izleyiciler (olumlu) / hükmü çevirecek olan (olumsuzlanmış); güven=yüksek"
+   ],
+   [
+    "13:8",
+    "13:41",
+    "L4 — eksiltme iki ölçekte: rahimler (13:8) / yerin uçları (13:41); güven=orta"
+   ],
+   [
+    "10:46",
+    "13:40",
+    "L1 — BİREBİR AÇILIŞ: وَإِن مَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ; iki farklı sonuç"
+   ],
+   [
+    "12:2",
+    "13:37",
+    "L4 — 'Arapça' nitelemesi iki türe: قُرْءَٰنًا عَرَبِيًّۭا (okunacak) / حُكْمًا عَرَبِيًّۭا (uygulanacak); güven=yüksek"
+   ],
+   [
+    "12:40",
+    "13:33",
+    "L4 — ADLANDIRMA: 'sizin taktığınız adlar' (12:40) / 'onları adlandırın' (13:33); güven=yüksek"
+   ],
+   [
+    "10:21",
+    "13:42",
+    "L4 — mekr karşılaştırması: HIZ üzerinden (10:21) / KAPSAM üzerinden (13:42); güven=yüksek"
+   ],
+   [
+    "13:26",
+    "13:39",
+    "L2 — ikili zıt işlem: genişletme/daraltma ve silme/sabitleme"
+   ],
+   [
+    "10:29",
+    "13:43",
+    "L1 — بَيْنِى وَبَيْنَكُم şahitlik; iki sûrede aynı işlev"
+   ],
+   [
+    "13:1",
+    "13:43",
+    "L4 — INCLUSIO: ءَايَٰتُ ٱلْكِتَٰبِ → عِلْمُ ٱلْكِتَٰبِ; âyetten bilgiye; güven=yüksek"
+   ],
+   [
+    "13:30",
+    "13:36",
+    "L1 — وَإِلَيْهِ مَتَابِ / وَإِلَيْهِ مَـَٔابِ; iki kapanış, aynı yapı farklı kök"
+   ],
+   [
+    "13:10",
+    "13:22",
+    "L4 — سِرًّا وَعَلَانِيَةً: söz için eşitlik ölçütü (13:10) / infak için kapsam (13:22); güven=orta"
+   ],
+   [
+    "14:1",
+    "14:5",
+    "L1 — BİREBİR GÖREV: أَخْرِجْ … مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ; Peygamber'e ve Mûsâ'ya aynı sözcüklerle"
+   ],
+   [
+    "14:11",
+    "14:12",
+    "L1 — ardışık kapanış: وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ / ٱلْمُتَوَكِّلُونَ; özne kökten türetiliyor"
+   ],
+   [
+    "14:13",
+    "14:14",
+    "L4 — tehdit tersine: 'yurdumuzdan çıkarırız' / 'sizi o yere yerleştireceğiz'; aynı mekân ters tasarruf; güven=yüksek"
+   ],
+   [
+    "14:16",
+    "14:17",
+    "L2 — مِّن وَرَآئِهِۦ iki kez; her aşamanın ardında bir sonraki, dizi kapanmıyor"
+   ],
+   [
+    "13:17",
+    "14:18",
+    "L4 — aynı ölçüt tek yönlü: köpük gider + yararlı kalır (13:17) / yalnız gidiş (14:18); güven=yüksek"
+   ],
+   [
+    "10:22",
+    "14:18",
+    "L4 — رِيح عَاصِف: gemiyi tehdit / külü savurma; aynı sıfat iki nesne; güven=orta"
+   ],
+   [
+    "11:19",
+    "14:3",
+    "L1 — BİREBİR ÜÇLÜ: صدّ عن سبيل اللّه + بغي عوجًا + âhiret; sıra değişiyor"
+   ],
+   [
+    "11:27",
+    "14:10",
+    "L4 — 'bizim gibi bir insan' itirazı + delil talebi: Hûd'da iki kavme dağılan iki itiraz burada TEK ayette; güven=yüksek"
+   ],
+   [
+    "13:38",
+    "14:11",
+    "L1 — delil izne bağlanıyor: إِلَّا بِإِذْنِ ٱللَّهِ"
+   ],
+   [
+    "12:2",
+    "14:4",
+    "L4 — dil kuralı genelleşiyor: Arapça Kur'an (12:2) → Arapça hüküm (13:37) → HER elçi kendi kavminin diliyle (14:4); güven=yüksek"
+   ],
+   [
+    "11:89",
+    "14:9",
+    "L4 — aynı üç kavim (Nûh/Âd/Semûd) + dördüncü küme; Hûd'da MESAFE ile, İbrâhim'de BİLGİ ile sınırlanıyor; güven=yüksek"
+   ],
+   [
+    "13:5",
+    "14:19",
+    "L4 — خَلْقٍۢ جَدِيد: inkârcıların alay konusu (13:5) / imkân beyanı (14:19); güven=yüksek"
+   ],
+   [
+    "14:1",
+    "14:20",
+    "L4 — عَزِيز sûre içinde iki anlamda: ilâhî nitelik (14:1, 14:4 mühür) / 'güç, zor' (14:20); güven=yüksek"
+   ],
+   [
+    "11:59",
+    "14:15",
+    "L1 — كُلُّ جَبَّارٍ عَنِيدٍۢ; uyulan zorba / hüsrana uğrayan zorba"
+   ],
+   [
+    "14:24",
+    "14:26",
+    "L4 — KARŞIT MESEL ama EKSİK SİMETRİ: güzel ağaç iki uçla (kök sabit + dal gökte), kötü ağaç tek olumsuzlamayla (sökülmüş + karar yok); güven=yüksek"
+   ],
+   [
+    "14:24",
+    "14:27",
+    "L1 — ثابت: ağacın kökü / müminin sözü; mesel karşılığını buluyor"
+   ],
+   [
+    "14:42",
+    "14:47",
+    "L1 — لَا تَحْسَبَنَّ ٱللَّهَ; iki yanlış çıkarım aynı kalıpla (gafil sanma / cayan sanma)"
+   ],
+   [
+    "14:22",
+    "14:47",
+    "L4 — أخلف: şeytan caymayı İTİRAF ediyor (14:22) / caymama olumsuzlanarak bildiriliyor (14:47); güven=yüksek"
+   ],
+   [
+    "14:49",
+    "14:50",
+    "L1 — İLTİFÂT ÇİFTİ: 3>2 ve 2>3, bitişik ve ters; Hûd 11:96-97 ile aynı yapı"
+   ],
+   [
+    "11:96",
+    "14:49",
+    "L4 — bitişik ters-yönlü iltifât çifti İKİNCİ vaka; güven=yüksek"
+   ],
+   [
+    "14:21",
+    "14:48",
+    "L1 — بَرَزُوا۟ لِلَّهِ; sahne açılışı ve kapanışı"
+   ],
+   [
+    "14:28",
+    "14:48",
+    "L4 — بدّل iki takas türü: kategori değişimi (nimet↔küfür) / kategori içi (yer↔yer); güven=orta"
+   ],
+   [
+    "13:22",
+    "14:31",
+    "L1 — namaz + infak + سِرًّا وَعَلَانِيَةً birebir; TANIM (13:22) → EMİR (14:31)"
+   ],
+   [
+    "14:5",
+    "14:34",
+    "L4 — iki mübalağa sıfatı ters kutupta: صَبَّار شَكُور (14:5) / ظَلُوم كَفَّار (14:34); güven=yüksek"
+   ],
+   [
+    "13:42",
+    "14:46",
+    "L4 — mekr: KAPSAM (bütün tuzaklar O'nun) / KONUM (katındadır); güven=orta"
+   ],
+   [
+    "12:18",
+    "14:50",
+    "L4 — gömlek dördüncü işlevde: yalan (12:18), delil (12:26), şifa (12:93), AZAP (14:50); güven=yüksek"
+   ],
+   [
+    "13:41",
+    "14:51",
+    "L1 — سَرِيعُ ٱلْحِسَاب; hükmün geri çevrilemezliği / karşılığın kesinliği"
+   ],
+   [
+    "13:19",
+    "14:52",
+    "L1 — أُو۟لُوا۟ ٱلْأَلْبَٰب; iki sûre de aynı alıcı terimiyle kapanıyor"
+   ],
+   [
+    "14:1",
+    "14:52",
+    "L4 — INCLUSIO: kitap ÇIKARMA işleviyle (14:1) → BİLDİRİ olarak (14:52); işlevden içeriğe; güven=yüksek"
+   ],
+   [
+    "14:37",
+    "14:43",
+    "L4 — أَفْـِٔدَة: gönüller MEYLEDİYOR (14:37, dua) / gönüller BOŞ (14:43, sahne); güven=orta"
    ]
   ],
   "kural_kodlari": {
@@ -1538,6 +3153,293 @@
     "3:173 yetmek (حَسْبُنَا)",
     "3:199 hesap (سَرِيعُ ٱلْحِسَابِ)"
    ]
+  },
+  "raa_enfal": {
+   "kok": "رأي",
+   "seyir": [
+    "8:43 ilâhî gösterme (uykuda)",
+    "8:44 ilâhî gösterme (gözde)",
+    "8:47 رِئَآء ٱلنَّاسِ insanlara gösteriş",
+    "8:48 iki topluluğun birbirini görmesi",
+    "8:48 şeytanın görme iddiası ×2"
+   ],
+   "not": "Altı geçiş, altı ayet. Fâil sırası: Allah → Allah → insan → taraflar → şeytan."
+  },
+  "alif_enfal": {
+   "kok": "ألف",
+   "seyir": [
+    "8:63 ülfet (kalpleri birleştirme) ×3",
+    "8:65 bin (sayı)",
+    "8:66 bin ×2"
+   ],
+   "not": "İki ayet arayla iki kavram. kok_anlam_tablosu ayrımı doğru yapıyor (ülfet / bin)."
+  },
+  "wakala_enfal": {
+   "kok": "وكل",
+   "seyir": [
+    "8:2 عَلَىٰ رَبِّهِمْ (Rab mercili, mümin tanımı)",
+    "8:49 عَلَى ٱللَّهِ (Allah mercili, münafık polemiği)",
+    "8:61 عَلَى ٱللَّهِ (Allah mercili, barış emri)"
+   ],
+   "not": "Üç geçiş, tek Rab-mercili olan tanım bağlamında. aday no.110'un malzemesi."
+  },
+  "rabb_tevbe": {
+   "kok": "ربب",
+   "seyir": [
+    "9:21 رَبُّهُم — bağlı, rahmet/müjde bağlamı",
+    "9:31 أَرْبَابًۭا — çoğul ve bağsız, sahte-rab söylemi",
+    "9:129 رَبُّ ٱلْعَرْشِ — bağlı, sûrenin son ayeti"
+   ],
+   "not": "129 ayette üç geçiş. bulgu_rab_allah'ın 'bağsız/çoğul erbâb neredeyse yalnız sahte-rab söyleminde' maddesiyle uyumlu; okuma gözlemi, test değil."
+  },
+  "ezen_tevbe": {
+   "kok": "أذن",
+   "seyir": [
+    "9:3 أَذَان — ilân (Allah'tan insanlara)",
+    "9:6 يَسْمَعَ — (كلام ile) işitme bağlamı",
+    "9:43 أَذِنتَ — Peygamber'in izni",
+    "9:44 لَا يَسْتَـْٔذِنُكَ — mümin izin istemez",
+    "9:45 إِنَّمَا يَسْتَـْٔذِنُكَ — münafık izin ister",
+    "9:49 ٱئْذَن لِّى — izin talebi",
+    "9:61 أُذُن — kulak (üçüncü kavram)",
+    "9:83 اسْتَـْٔذَنُوا۟ — izin talebi",
+    "9:86 اسْتَـْٔذَنَ — imkân sahiplerinin izin talebi",
+    "9:90 لِيُؤْذَنَ — izin verilmesi (edilgen)",
+    "9:93 يَسْتَـْٔذِنُونَ — sorumluluk ölçütü"
+   ],
+   "not": "Sûre içinde üç kavram (ilân / izin / kulak) ve izin kavramı tek başına on geçiş: 9:43, 44, 45, 49, 83, 86, 90, 93. Sûrenin en yoğun tematik kökü."
+  },
+  "wakala_devam": {
+   "kok": "وكل",
+   "seyir": [
+    "8:2 عَلَىٰ رَبِّهِمْ (Rab)",
+    "8:49 عَلَى ٱللَّهِ",
+    "8:61 عَلَى ٱللَّهِ",
+    "9:51 عَلَى ٱللَّهِ"
+   ],
+   "not": "Dört geçiş, tek Rab-mercili olan mümin tanımı bağlamında. aday no.110 malzemesi genişledi."
+  },
+  "ahaqqu_tevbe": {
+   "kok": "حقق (أَحَقُّ kalıbı)",
+   "seyir": [
+    "9:13 فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ — korku",
+    "9:62 وَٱللَّهُ وَرَسُولُهُۥٓ أَحَقُّ أَن يُرْضُوهُ — hoşnut etme",
+    "9:108 أَحَقُّ أَن تَقُومَ فِيهِ — durma yeri"
+   ],
+   "not": "Üç geçiş, üçünde de aynı fiil iki nesneye uygulanıp biri tercih ediliyor. Terim silinmiyor, yön düzeltiliyor."
+  },
+  "bayn_tevbe": {
+   "kok": "بين (تَبَيَّنَ eşiği)",
+   "seyir": [
+    "9:43 حَتَّىٰ يَتَبَيَّنَ لَكَ — izin erken verildi",
+    "9:113 مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ — yasak eşikten sonra geçerli",
+    "9:114 فَلَمَّا تَبَيَّنَ لَهُۥٓ — istisna eşikte sona eriyor",
+    "9:115 حَتَّىٰ يُبَيِّنَ لَهُم — hüküm eşikten önce geçersiz"
+   ],
+   "not": "Aynı eşik dört kez, her defasında bir işlemin geçerlilik sınırı olarak; 113-115 ardışık."
+  },
+  "waly_tevbe": {
+   "kok": "ولي",
+   "seyir": [
+    "9:23, 9:71, 9:73 أَوْلِيَآء — velî (ittifak)",
+    "9:74, 9:116 مِن وَلِىٍّۢ — velî (olumsuzlanan)",
+    "9:123 يَلُونَكُم — yakın olma (mesafe)",
+    "9:129 تَوَلَّوْا۟ — yüz çevirme"
+   ],
+   "not": "Sûre içinde üç kavram: velî / yakınlık / yüz çevirme. أذن (üç kavram) ile birlikte sûrenin en çok kavrama yayılan kökü. aday 139 ile birlikte."
+  },
+  "kizb_tekzib_10_17": {
+   "kok": "كذب (şedde ayrımı)",
+   "seyir": [
+    "10:17 كَذِبًا — kizb, uydurulan yalan (Allah'a iftira)",
+    "10:17 كَذَّبَ — tekzîb, yalanlama (âyetleri reddetme)"
+   ],
+   "not": "İki kavram TEK AYETTE bitişik. kok_anlam_tablosu şedde-korumalı eşleştirmeyle ayırıyor; manuel lemma yazımı burada sessiz hata üretirdi."
+  },
+  "ahaqqu_genisleme": {
+   "kok": "حقق (أَحَقُّ kalıbı) — sûre sınırını aşan seyir",
+   "seyir": [
+    "9:13 korku",
+    "9:62 hoşnut etme",
+    "9:108 durma yeri",
+    "10:35 uyulma"
+   ],
+   "not": "Dördünde de aynı fiil iki nesneye uygulanıp biri tercih ediliyor. İlk üçü Tevbe'de, dördüncüsü Yûnus'ta. aday 164."
+  },
+  "bara_zincir": {
+   "kok": "برأ (berâet)",
+   "seyir": [
+    "8:48 إِنِّى بَرِىٓءٌۭ مِّنكُمْ — şeytanın sözü",
+    "9:1 بَرَآءَةٌۭ مِّنَ ٱللَّهِ — hukukî bildirim (sûre açılışı)",
+    "9:114 تَبَرَّأَ مِنْهُ — İbrâhim'in eylemi",
+    "10:41 أَنَا۠ بَرِىٓءٌۭ مِّمَّا تَعْمَلُونَ — Peygamber'in beyanı",
+    "11:35 وَأَنَا۠ بَرِىٓءٌۭ مِّمَّا تُجْرِمُونَ — Nûh anlatısı içinde Peygamber'in beyanı",
+    "11:54 أَنِّى بَرِىٓءٌۭ مِّمَّا تُشْرِكُونَ — Hûd'un beyanı",
+    "12:53 وَمَآ أُبَرِّئُ نَفْسِىٓ — ilk kez KENDİSİ için ve OLUMSUZ"
+   ],
+   "not": "YEDİ durak, beş sûre: şeytan (8:48) → bildirim (9:1) → İbrâhim (9:114) → Peygamber (10:41) → koşullu sorumluluk (11:35) → Hûd (11:54) → azizin karısı, kendisi için ve OLUMSUZ (12:53). İlk altısı 'ben ondan uzağım' (başkasından ayrılma); yedincisi 'kendimi temize çıkarmıyorum'. Zincir son durakta yön değiştiriyor."
+  },
+  "taba_zincir": {
+   "kok": "طبع (mühürleme)",
+   "seyir": [
+    "9:87 وَطُبِعَ عَلَىٰ قُلُوبِهِمْ — edilgen, fâil gizli, Allah lafzı YOK",
+    "9:93 وَطَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ — etken, fâil açık",
+    "10:74 كَذَٰلِكَ نَطْبَعُ عَلَىٰ قُلُوبِ — birinci çoğul"
+   ],
+   "not": "Aynı işlem üç dilbilgisel fâil biçiminde, iki sûre boyunca. Dikey ölçüm: طبع 11 geçiş, medyan 1 vs null 9, p=0.001 YAKIN. aday 172."
+  },
+  "darr_naf_yunus": {
+   "kok": "ضرر / نفع ikilisi",
+   "seyir": [
+    "10:18 مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ — putlar, yergi",
+    "10:49 لَّآ أَمْلِكُ لِنَفْسِى ضَرًّۭا وَلَا نَفْعًا — Peygamber, beyan",
+    "10:106 مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ — yasağın nesnesi; SIRA TERS"
+   ],
+   "not": "Aynı ölçüt üç söz ediminde ve üçüncüsünde ikilinin sırası tersine çevrilmiş. aday 180."
+  },
+  "tehaddi_olcek": {
+   "kok": "meydan okuma (تحدي) ölçeği",
+   "seyir": [
+    "2:23 بِسُورَةٍۢ مِّن مِّثْلِهِۦ",
+    "10:38 بِسُورَةٍۢ مِّثْلِهِۦ (bir sûre)",
+    "11:13 بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ (on sûre)"
+   ],
+   "not": "Nüzûl sırası (nuzul.json BELLEKTEN): Yûnus 51, Hûd 52 — yani ölçek bir sûreden on sûreye ÇIKIYOR. aday 165'in devamı; 17:88 ve 52:34 ile birlikte test edilecek."
+  },
+  "duyu_cifti": {
+   "kok": "سمع / بصر ikilisi",
+   "seyir": [
+    "10:42-43 iki ayrı ayette iki özdeş denklem (n=11 eşit)",
+    "11:20 tek cümlede olumsuz kip (مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ)",
+    "11:24 mesel olarak tam simetri (ٱلْأَعْمَىٰ وَٱلْأَصَمِّ / ٱلْبَصِيرِ وَٱلسَّمِيعِ)"
+   ],
+   "not": "Üç biçim: ayrı denklemler, olumsuz birleşik, çapraz mesel. 11:24'te defter بَصِير|سَمِيع'i MÜHÜR ÇİFTİ sayıyor — P0'ın en net örneği, çünkü burada ikisi de insan sıfatı."
+  },
+  "istigfar_tovbe": {
+   "kok": "غفر + توب ikilisi (istiğfar sonra tövbe)",
+   "seyir": [
+    "11:3 sûre açılışı — karşılık: süreli geçimlik + orantılı fazlalık",
+    "11:52 Hûd — karşılık: bol yağmur + kuvvete kuvvet",
+    "11:61 Sâlih — gerekçe: sizi yerden inşa etti ve imar ettirdi",
+    "11:90 Şuayb — ne karşılık ne gerekçe; yalnız mühür çifti رَحِيم|وَدُود"
+   ],
+   "not": "DÖRT kez birebir aynı sıra (istiğfar → tövbe). Mühür dizisi: (yok) → (yok) → قَرِيب|مُجِيب → رَحِيم|وَدُود. Mesafeden sevgiye. 11:90 sûrenin en yüksek Rab-z'si (4.41). aday 196."
+  },
+  "karsilikli_bekleme": {
+   "kok": "نظر / ربص (karşılıklı bekleme figürü)",
+   "seyir": [
+    "9:52 iki elemanlı kümeler, asimetrik ödeme (ربص ×4, n=22)",
+    "10:20 asimetri belirtilmiyor (نظر ×2, n=16)",
+    "10:102 beklenen şey adlandırılıyor (نظر ×3, n=15)",
+    "11:93 çift fiil çiftiyle (عمل ×2 + رقب ×2, n=19)",
+    "11:122 tümüyle çıplak (نظر ×2, n=3 — SÛRENİN EN KISA AYETİ)"
+   ],
+   "not": "Beş geçiş, üç sûre. Figür her tekrarda sadeleşiyor: 22 → 16 → 15 → 19 → 3 kelime. Son geçişte yalnız fiil kalıyor. aday 207."
+  },
+  "yusuf_alici_kosulu": {
+   "kok": "âyet-alıcı koşulu",
+   "seyir": [
+    "10:5 يَعْلَمُونَ (bilen)",
+    "10:6 يَتَّقُونَ (sakınan)",
+    "10:24 يَتَفَكَّرُونَ (düşünen)",
+    "10:67 يَسْمَعُونَ (işiten)",
+    "12:7 لِّلسَّآئِلِينَ (SORANLAR — durum değil eylem)"
+   ],
+   "not": "Yûnus'ta dört yeti ve hepsi durum bildiriyordu; Yûsuf'ta koşul aktif bir arayışa dönüşüyor. aday 213."
+  },
+  "tevil_yusuf": {
+   "kok": "أول (tevil)",
+   "seyir": [
+    "12:6 vaad — رَبُّكَ … يُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ",
+    "12:21 gerekçe — وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ",
+    "12:36 talep — نَبِّئْنَا بِتَأْوِيلِهِۦ",
+    "12:37 uygulama — نَبَّأْتُكُمَا بِتَأْوِيلِهِ",
+    "12:100 gerçekleşme — هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ",
+    "12:101 dua — وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ"
+   ],
+   "not": "ALTI durak: vaad (12:6) → gerekçe (12:21) → talep (12:36) → uygulama (12:37) → gerçekleşme (12:100) → dua bilançosu (12:101). Sûrenin taşıyıcı yayı. Dikey: أول 125 geçiş, medyan 35 vs null 14, p=0.000 UZAK."
+  },
+  "keyd_yusuf": {
+   "kok": "كيد",
+   "seyir": [
+    "12:5 kardeşlerin tuzağı (baba uyarıyor)",
+    "12:28 kadınların tuzağı (aziz teşhis ediyor)",
+    "12:33-34 kadınların tuzağı (Yûsuf savılmasını istiyor, savılıyor)",
+    "12:52 hainlerin tuzağı (genel kural)",
+    "12:76 كِدْنَا لِيُوسُفَ — ilk kez OLUMLU fâil"
+   ],
+   "not": "Beş durak, üç farklı taraf ve son geçişte değer işareti tersine dönüyor. Aynı terim hem tuzak hem düzen. aday 227."
+  },
+  "ruh_kok": {
+   "kok": "روح",
+   "seyir": [
+    "8:46 رِيحُكُم — mecazî güç/heybet (istisna adayı)",
+    "10:22 رِيح طَيِّبَة / رِيح عَاصِف — gerçek rüzgâr, iki zıt sıfat",
+    "12:87 رَوْح ٱللَّه — rahmet/esinti",
+    "12:94 رِيح يُوسُف — koku"
+   ],
+   "not": "Dört kavram, üç sûre. 8:46 hâlâ kok_anlam_istisna.json'a yazılmayı bekliyor."
+  },
+  "mukattaa_sifat": {
+   "kok": "mukattaa açılışlarında kitabın sıfatı",
+   "seyir": [
+    "10:1 الٓر — تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْحَكِيمِ",
+    "11:1 الٓر — كِتَٰبٌ أُحْكِمَتْ ءَايَٰتُهُۥ … مِن لَّدُنْ حَكِيمٍ خَبِيرٍ",
+    "12:1 الٓر — تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
+    "13:1 الٓمٓر — تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ (SIFATSIZ) + وَٱلَّذِىٓ أُنزِلَ … ٱلْحَقُّ"
+   ],
+   "not": "Dört ardışık sûre, üçü الٓر biri الٓمٓر. Sıfat dizisi: hikmet → hikmet+haber → açıklık → YOK. Dördüncüde sıfat kitaptan içeriğe kayıyor. aday 237."
+  },
+  "mucize_talebi_rad": {
+   "kok": "لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَة — mucize talebi ve cevap katmanları",
+   "seyir": [
+    "13:7 görev daraltması — إِنَّمَآ أَنتَ مُنذِرٌ",
+    "13:27 seçim mekanizması — يُضِلُّ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَنْ أَنَابَ",
+    "13:31 ölçek aşımı — dağlar/yer/ölüler; karşı-olgusal",
+    "13:38 izin koşulu — إِلَّا بِإِذْنِ ٱللَّهِ"
+   ],
+   "not": "Aynı talep tek sûrede dört kez ve her defasında farklı katmandan cevap: konuşanın sınırı → işleyişin kuralı → ölçeğin yetersizliği → yetki. aday 241."
+  },
+  "kayl_yusuf": {
+   "kok": "كيل (hacim ölçüsü / tahıl tayını)",
+   "seyir": [
+    "11:84 وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ — Şuayb, kavmine YASAK",
+    "11:85 أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ — aynı emir olumluya çevriliyor, ölçüt ekleniyor",
+    "12:59 أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ — yöneticinin GÜVEN BEYANI",
+    "12:60 فَلَا كَيْلَ لَكُمْ عِندِى — BASKI ARACI (koşullu yaptırım)",
+    "12:63 مُنِعَ مِنَّا ٱلْكَيْلُ / نَكْتَلْ — ENGEL (edilgen, fâil belirtilmiyor)",
+    "12:65 نَزْدَادُ كَيْلَ بَعِيرٍ — TEŞVİK (fazladan tayın)",
+    "12:88 فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ — YALVARIŞ (hak + hak olmayan birlikte)"
+   ],
+   "not": "Yedi geçiş, iki sûre. 11:84-85'te kavme EMREDİLEN ölçüt, 12:59'da bir yöneticinin KENDİ UYGULAMASINDA görünüyor — emirden uygulamaya. Sonra Yûsuf içinde beş sahnede beş farklı pazarlık konumu: güven → baskı → engel → teşvik → yalvarış. Terim sabit, işlevi sahneye göre değişiyor. aday 247."
+  },
+  "dil_kurali": {
+   "kok": "elçi-dil ilişkisi",
+   "seyir": [
+    "12:2 قُرْءَٰنًا عَرَبِيًّۭا لَّعَلَّكُمْ تَعْقِلُونَ — tikel, okunacak metin",
+    "13:37 حُكْمًا عَرَبِيًّۭا — tikel, uygulanacak metin",
+    "14:4 وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا بِلِسَانِ قَوْمِهِۦ لِيُبَيِّنَ لَهُمْ — TÜMEL kural"
+   ],
+   "not": "Üç ardışık sûrede iki tikel örnekten bir tümel ilkeye. Ve gerekçe her üçünde de işlevsel: anlama / uygulama / açıklama. aday 248."
+  },
+  "sahhara_ibrahim": {
+   "kok": "سخر (musahhar kılma)",
+   "seyir": [
+    "13:2 güneş ve ay — 'belirli bir süreye kadar akıyor' (SINIR)",
+    "14:32 gemiler / ırmaklar — araç ve ortam",
+    "14:33 güneş ve ay 'sürekli hareket hâlinde' (SÜREKLİLİK) / gece ve gündüz"
+   ],
+   "not": "İbrâhim'de DÖRT kez üst üste ve her defasında bir ÇİFT nesneyle: üç çift, altı öge, tek yüklem. 13:2'de aynı iki cisim SINIRLA, 14:33'te SÜREKLİLİKLE nitelendiriliyor. ÖLÇÜM NOTU: 14:33 yıldız 0 — aday 246 kümesine eklendi."
+  },
+  "gomlek": {
+   "kok": "قمص (gömlek) ve örtü işlevi",
+   "seyir": [
+    "12:18 sahte kanla — YALAN aracı",
+    "12:26-27 yırtığın yönüyle — DELİL",
+    "12:93 yüze bırakılarak — ŞİFA aracı",
+    "14:50 katrandan — AZAP örtüsü (سَرابِيل)"
+   ],
+   "not": "Dört işlev, iki sûre. Son geçişte sözcük değişiyor (قميص → سربال) ama işlev aynı sınıfta: giyilen örtü. aday 232'nin devamı."
   }
  },
  "tekrarlanan_formuller": {
@@ -1617,6 +3519,231 @@
    "73:20",
    "2:199",
    "3:135 (وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ)"
+  ],
+  "كدأب آل فرعون والذين من قبلهم": [
+   "3:11",
+   "8:52",
+   "8:54"
+  ],
+  "ليقضي الله أمرا كان مفعولا": [
+   "8:42",
+   "8:44"
+  ],
+  "إن الله سميع عليم": [
+   "8:42",
+   "8:53",
+   "(korpus geneli sayılmadı)"
+  ],
+  "بعضهم أولياء بعض": [
+   "8:72",
+   "8:73",
+   "(9:71 karşılaştırılacak)"
+  ],
+  "آمنوا وهاجروا وجاهدوا": [
+   "2:218",
+   "8:72",
+   "8:74",
+   "9:20"
+  ],
+  "إن الله يحب المتقين": [
+   "3:76",
+   "9:4",
+   "9:7"
+  ],
+  "فإن تابوا وأقاموا الصلاة وآتوا الزكاة": [
+   "9:5",
+   "9:11"
+  ],
+  "لا يرقبون … إلا ولا ذمة": [
+   "9:8",
+   "9:10"
+  ],
+  "ولو كره الكافرون / المشركون": [
+   "9:32",
+   "9:33",
+   "61:8",
+   "61:9"
+  ],
+  "فأنزل الله سكينته": [
+   "9:26",
+   "9:40",
+   "48:26"
+  ],
+  "حسبنا / حسبك الله": [
+   "3:173",
+   "8:62",
+   "8:64",
+   "9:59",
+   "9:129",
+   "39:38"
+  ],
+  "وهم كارهون / ولو كره": [
+   "9:32",
+   "9:33",
+   "9:48",
+   "9:54"
+  ],
+  "لهم عذاب أليم": [
+   "9:61",
+   "9:74",
+   "9:79",
+   "16:104"
+  ],
+  "ألم يعلموا": [
+   "9:63",
+   "9:78"
+  ],
+  "وعد الله … خالدين فيها": [
+   "9:68",
+   "9:72"
+  ],
+  "جنات تجري من تحتها الأنهار خالدين فيها": [
+   "9:72",
+   "9:89",
+   "9:100"
+  ],
+  "جزاء بما كانوا يكسبون": [
+   "9:82",
+   "9:95"
+  ],
+  "لا تعتذروا": [
+   "9:66",
+   "9:94"
+  ],
+  "إن الله هو التواب الرحيم": [
+   "4:64",
+   "9:104",
+   "9:118",
+   "49:12"
+  ],
+  "ضاقت عليهم الأرض بما رحبت": [
+   "9:25",
+   "9:118"
+  ],
+  "ما لكم من دون الله من ولي ولا نصير": [
+   "9:74",
+   "9:116"
+  ],
+  "وإذا ما أنزلت سورة": [
+   "9:86",
+   "9:124",
+   "9:127"
+  ],
+  "حسبي / حسبنا / حسبك الله": [
+   "3:173",
+   "8:62",
+   "8:64",
+   "9:59",
+   "9:129",
+   "39:38"
+  ],
+  "الذين لا يرجون لقاءنا": [
+   "10:7",
+   "10:11",
+   "10:15"
+  ],
+  "لقوم يعلمون / يتقون": [
+   "10:5",
+   "10:6"
+  ],
+  "فأنى تصرفون / تؤفكون": [
+   "10:32",
+   "10:34"
+  ],
+  "أولئك أصحاب … هم فيها خالدون": [
+   "10:26",
+   "10:27"
+  ],
+  "متى هذا الوعد إن كنتم صادقين": [
+   "10:48",
+   "21:38",
+   "27:71",
+   "34:29",
+   "36:48",
+   "67:25"
+  ],
+  "وقضي بينهم بالقسط وهم لا يظلمون": [
+   "10:47",
+   "10:54"
+  ],
+  "ألا إن لله ما/من في السماوات والأرض": [
+   "10:55",
+   "10:66"
+  ],
+  "فانظر كيف كان عاقبة": [
+   "10:39",
+   "10:73"
+  ],
+  "آلآن": [
+   "10:51",
+   "10:91"
+  ],
+  "حقت كلمة ربك": [
+   "10:33",
+   "10:96",
+   "40:6"
+  ],
+  "ولئن أذقنا": [
+   "11:9",
+   "11:10",
+   "10:21",
+   "41:50",
+   "42:48"
+  ],
+  "اعبدوا الله ما لكم من إله غيره": [
+   "7:59",
+   "7:65",
+   "7:73",
+   "7:85",
+   "11:50",
+   "11:61",
+   "11:84",
+   "23:23",
+   "23:32"
+  ],
+  "بعدا للقوم / لعاد": [
+   "11:44",
+   "11:60",
+   "11:95",
+   "23:41"
+  ],
+  "على بيّنة من ربّي": [
+   "11:17",
+   "11:28",
+   "11:63",
+   "11:88",
+   "47:14"
+  ],
+  "فأصبحوا في ديارهم جاثمين": [
+   "7:78",
+   "7:91",
+   "11:67",
+   "11:94",
+   "29:37"
+  ],
+  "بعدا": [
+   "11:44",
+   "11:60",
+   "11:68",
+   "11:95",
+   "23:41"
+  ],
+  "جاء أمرنا": [
+   "11:40",
+   "11:58",
+   "11:66",
+   "11:82",
+   "11:94"
+  ],
+  "اعملوا على مكانتكم": [
+   "6:135",
+   "11:93",
+   "11:121",
+   "39:39"
+  ],
+  "خالدين فيها ما دامت السماوات والأرض": [
+   "11:107",
+   "11:108"
   ]
  },
  "mekanizma_ornekleri": {
@@ -1701,7 +3828,23 @@
   "2:17 نور kökü aynı ayette hem نَار (ateş) hem نُور (nur); ham kök sayımı ayıramaz",
   "2:33 سمو üç kez: ikisi 'isim', biri 'gök'",
   "2:102 ملك iki anlamda: مُلْك ve ٱلْمَلَكَيْنِ",
-  "2:261 حبب 'tane', 2:165 'sevgi'"
+  "2:261 حبب 'tane', 2:165 'sevgi'",
+  "8:46 رِيحُكُمْ mecazî (güç/heybet); روح tablosu 'rüzgâr' veriyor — kok_anlam_istisna.json'a 8:46 anahtarı eklenmeli",
+  "esma_listesi.json BÜYÜK ARTEFAKT: مُؤْمِن korpusta 202 kez 'esmâ' sayılıyor, neredeyse hepsi 'mü'minler' (ilâhî ad olarak yalnız 59:23). Aynı hata: آخِر 155 (çoğu 'âhiret'), مُبِين 119, وَلِيّ 86, سَلام 42, كَبِير 40, نَصِير 35, كَرِيم 30. Şüpheli lemmaların toplam payı 898/2077 = %43. 'Esmâ katmanı eksen-nötr' bulgusu bu düzeltmeden sonra yeniden ölçülmeli.",
+  "P0 örnekleri bu blokta yoğun: 9:84 أَحَد ('hiçbiri'), 9:93 غَنِيّ ('zenginler'), 9:100 نَصِير ('Ensâr') esmâ sayıldı. 9:100'deki özellikle net: özel ad niteliğinde bir topluluk adı ilâhî ad olarak kayıtlı.",
+  "P0'IN EN NET ÖRNEĞİ — 9:128: ayette dört esmâ kaydı var (عَزِيز, مُؤْمِن, رَءُوف, رَحِيم) ve DÖRDÜ DE Resûl'ü niteliyor, Allah'ı değil; ayette Allah lafzı hiç geçmiyor. Düzeltme yalnız bağlam değil MERCİ ayrımı da gerektiriyor: aynı lemma, farklı özneye yüklenince esmâ olmuyor.",
+  "Yûnus açılışında P0 yoğun: 10:1 حَكِيم KİTAB'ın sıfatı, 10:2 مُبِين BÜYÜCÜ'nün sıfatı, 10:5 نُور AY'ın niteliği, 10:10 سَلام selâmlaşma ve آخِر 'son' — beş ayette beş yanlış-pozitif. 9:128 ile aynı sınıf: merci ayrımı yapılmadan lemma eşleştiriliyor.",
+  "10:79 P0'ın en net örneklerinden: عَلِيم BÜYÜCÜ'yü niteliyor (بِكُلِّ سَٰحِرٍ عَلِيمٍۢ) ve esmâ sayılıyor. Aynı blokta 10:61 مُبِين kitabın, 10:76 مُبِين büyünün sıfatı. Buna karşılık 10:68 غَنِيّ GERÇEKTEN ilâhî (هُوَ ٱلْغَنِىُّ) — aynı lemma 9:93'te 'zenginler' anlamındaydı. Merci ayrımı olmadan lemma eşleştirmesi hem yanlış-pozitif hem yanlış-negatif üretiyor.",
+  "11:24 P0'ın EN NET örneği: بَصِير ve سَمِيع burada KÖR/SAĞIR'ın karşıtı olarak İNSAN sıfatları (مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ وَٱلْأَصَمِّ وَٱلْبَصِيرِ وَٱلسَّمِيعِ) — ama defter bunu esma_k.cift alanında MÜHÜR ÇİFTİ olarak kaydediyor. Yanlış-pozitif yalnız token sayımını değil, çift/mühür yapısını da bozuyor. Sûre 11'in 'yedi farklı mühür çifti' profili bu düzeltmeden sonra yeniden ölçülmeli (aday 183).",
+  "11:59 جَبّار burada ZORBA İNSAN (كُلِّ جَبَّارٍ عَنِيدٍۢ) ve esmâ sayılıyor — 5:22'deki kayıtlı istisnayla aynı sınıf. 11:48 سَلام 'esenlik' anlamında. Hûd'un yüksek esmâ token sayısı (49) bu düzeltmeden sonra ciddi biçimde düşecek.",
+  "11:69'da سَلام İKİ KEZ ve ikisi de karşılıklı SELÂMLAŞMA (قَالُوا۟ سَلَٰمًۭا قَالَ سَلَٰمٌۭ) — ikisi de esmâ sayılıyor. 11:64 قَرِيب AZABIN sıfatı (11:61'de aynı lemma gerçekten ilâhî), 11:75 حَلِيم İBRÂHİM'in sıfatı. Aynı blokta üç yanlış-pozitif ve biri lemma-düzeyinde gerçek/sahte ayrımının bağlamdan başka yolu olmadığını gösteriyor (قَرِيب).",
+  "11. sûre P0 için EN ZENGİN örnek kümesi: aynı lemma aynı sûrede hem gerçek hem sahte — قَرِيب (11:61 ilâhî / 11:64 azabın sıfatı / 11:81 sabahın), مُحِيط (11:84 günün / 11:92 ilâhî), حَفِيظ (11:57 ilâhî / 11:86 olumsuzlanan insan), عَزِيز (11:66 mühür / 11:91 insan), حَلِيم (11:75 İbrâhim / 11:87 Şuayb'a alaylı). Beş lemma, on geçiş. Düzeltme kuralı bağlam DEĞİL merci tespiti gerektiriyor.",
+  "12. sûre P0 için YENİ BİR SINIF: مَلِك (5 geçiş) ve عَزِيز (4 geçiş) burada Mısır'ın KRALI ve VEZİRİNİN UNVANLARI — yani yanlış-pozitif yalnız sıfat değil, İNSAN UNVANI. Dokuz token. Ayrıca 12:4 أَحَد 'on bir'in parçası (sayı), 12:1/5/8 مُبِين kitabın/düşmanlığın/yanılgının sıfatı. Düzeltme algoritması unvan-tespiti de yapmak zorunda.",
+  "12:23'te رَبِّىٓ 'efendim' (Mısır azizi) anlamında okunabiliyor ve defter bunu EKSEN GEÇİŞİ sayıyor. Bu, P0'dan farklı bir sınıf: esmâ değil, EKSEN ADININ kendisi belirsiz. 12:42 ve 12:50'de aynı sorun tekrarlanacak (عِندَ رَبِّكَ). Rab sayımı Yûsuf'ta bu nedenle şişkin olabilir — sûrenin 19 Rab geçişinden kaçının 'efendi' olduğu ayrıca denetlenmeli. YENİ ÖLÇÜM BORCU.",
+  "12:50 EKSEN ADI BELİRSİZLİĞİNİN EN NET ÖRNEĞİ: tek ayette رَبّ iki kez ve İKİ FARKLI MERCİ — ٱرْجِعْ إِلَىٰ رَبِّكَ ('efendine dön', kral) ve إِنَّ رَبِّى … عَلِيمٌۭ (ilâhî). Defter ikisini de eksen geçişi sayıyor. Yûsuf'ta 12:23, 12:41, 12:42 (×2), 12:50a = en az BEŞ 'efendi' geçişi; sûrenin 19 Rab sayımı en az %26 şişkin.",
+  "13:16 P0'ın karışık vakası: BEŞ esmâ kaydından üçü sahte (وَلِيّ insan velîleri, بَصِير gören insan, نُور aydınlık) ve ikisi gerçek (خالِق, قَهّار) — aynı ayette. Ve 13:9'da عالِم + كَبِير GERÇEKTEN ilâhî ama defter mühür çifti saymıyor (konum kuralı). Ra'd'ın 'hiç mühür çifti yok' profili bu kuraldan kaynaklanıyor olabilir — P0 düzeltmesinde mühür tespiti de gözden geçirilmeli.",
+  "YILDIZ FORMÜLÜ — üçüncü ve en geniş sapma kümesi (aday 246): okunan sûrelerde kozmolojik içerikli yedi ayet (10:5, 10:6, 10:67, 13:2, 13:3, 13:12, 13:41) yıldız=0 alıyor. Formül hapaks-z, Allah-z ve uzunluk ağırlıklı; gök cismi adları, ölçü terimleri ve hareket fiilleri hiç sayılmıyor. 9:36 ★★ ve 11:7 ★ ise İÇERİK değil UZUNLUK/SAYI sayesinde eşiği geçiyor. Uzay bilimci merceği bu yüzden okunan on üç sûrede neredeyse hiç açılmadı.",
+  "TERİM AYRIMI NOTU (okuma dili, ölçüm değil): 'ölçek/ölçü' karşılığını dört ayrı kök için kullandım ve bu bulanıklık yarattı — كيل (hacim ölçüsü/tahıl tayını: 11:84-85, 12:59-88), وزن/ميزان (ağırlık: 11:84-85), قدر/مقدار (nicel oran: 13:8, 13:17), مثقال ذرّة (referans skala: 10:61). Ayrıca 13:31 mercek satırında kullandığım 'ölçek aşımı' ifadesinin ayette KARŞILIĞI YOK — o benim mercek dilim. Bundan sonra çeviride كيل için 'tayın/ölçek', وزن için 'tartı', قدر için 'ölçü' ayrımı korunacak."
  ],
  "ters_bag": {
   "23:5": [
