@@ -156,3 +156,65 @@
 - Allah↔karşı-kutup mesafe (bulgu_karsi_kutup_mesafe.json)
 - Matematikçi makro+mikro karşılaşmaları (karsilasmalar.json)
 - Denge/mîzan iki-katmanlı ölçü (bulgu_denge_mizan.json)
+
+
+---
+
+## 2026-08-18 — Sûre 15 (Hicr) oturumu ekleri
+
+### ÇÖZÜLDÜ (teşhis): fig alanı 175→73→3 daralması
+`defter5.py` MM kuralı ardışık **morfolojik segment**lere bakıyor, kelimelere değil.
+Belirli isimde araya `ٱل` (DET, pos=P) segmenti girip bitişikliği kırıyor.
+Kanıt: 15:85 `ٱصْفَحِ ٱلصَّفْحَ` birebir mef'ûl-i mutlak, etiket almıyor.
+Ölçüm: segment düzeyi V+VN = **3** · kelime düzeyi V+VN = **33** · V+(VN|ACC) = **127**.
+→ Aday 282. YAPILACAK: kuralı kelime düzeyine taşı, defter5'i yeniden koştur,
+defter5'teki diğer bitişiklik kurallarını da denetle.
+
+### YENİ ÖLÇÜM BORCU: QASEM iki yönde de hatalı
+- Yanlış pozitif: 15:44 `مَّقْسُوم`, 15:90 `ٱلْمُقْتَسِمِين` (قسم = paylaştırma, yemin değil)
+- Yanlış negatif: 15:72 `لَعَمْرُكَ` (açık yemin, etiketsiz)
+- Sûrenin tek gerçek yemini: 15:92 `فَوَرَبِّكَ`
+→ Aday 271 + 278. Kural `kavram_ad` ile yeniden kurulmalı.
+
+### P0 borç #1 (esmâ) — Hicr doğrulama seti
+Altı sahte pozitif, dört sınıf: `عَلِيم` (15:53, غلام sıfatı — aynı sûrede 15:25'te
+GERÇEK mühür parçası) · `سَلام` (15:46, 15:52) · `مُؤْمِن` (15:77, 15:88) · `أَحَد` (15:65).
+Aday 283'teki 'zamir + iki belirli sıfat' kalıbı ayırıcı araç adayı olabilir.
+
+### 268 GERİ ÇEKİLDİ → 279
+Hapaks köklerin Allah-mesafesi n=1 olduğu için tek başına yorumlanamaz.
+`فضح` = 2 kelime ("yapışık") tamamen komşusundan geliyor: 15:69, sûrenin ilk Allah lafzı.
+`لقح` = 178 ("en uzak"). Aynı sûre, iki uç, ikisi de n=1.
+
+### Kavram/kök ayrımı — yeni kanıt (aday 267)
+Kök `روح` (57) sorgulandığında ruh + rüzgâr birleşiyor, sahte komşuluk üretiyor
+(`صرصر` ×116). `kavram_ad` ile ruh 24 / rüzgâr 29'a ayrılıyor, profiller tamamen ayrışıyor.
+Hicr iki anlamı yedi ayet arayla kullanıyor (15:22 rüzgâr, 15:29 ruh).
+→ Tur sonunda kök düzeyinde ölçülmüş TÜM adaylar yeniden bakılacak.
+
+
+---
+
+## 2026-08-20 — Sûre 16 (Nahl) tamamlandı
+
+**Kapsam:** 2248/6236 ayet = %36.0. Aday sayısı 328 (α/328 ≈ 0.000152).
+
+### Yeni ölçüm borçları
+- **QASEM iki yanlış negatif daha:** 16:56 ve 16:63 `تَٱللَّهِ` etiketsiz (15:72 `لَعَمْرُكَ` ile üç oldu). Ve 16:38 `أَقْسَمُوا۟` DOĞRU pozitif → ayrım kökte değil BABDA: bab IV = yemin, bab I/VIII/ism-i mef'ûl = paylaştırma. Onarım reçetesi: yemin harfleri و/تَ/لَ + lafız|GEN isim, artı قسم bab IV. → adaylar 271, 278, 296, 302
+- **P0 borç #1 (esmâ) en büyük sınıf:** `آخِر` Nahl'de 7 kez sahte esmâ (%18). Ek sahteler: `شَهِيد` ×3, `أَحَد` ×2, `مُؤْمِن` ×2, `سَلام`, `مَوْلَى`, `شاكِر`, `وَلِيّ`. → aday 291
+- **P0 borç #2:** 16:12 (beş gök terimi, altı xref) yıldız 0. Kozmik çift testinin birincil vakası. → aday 293
+
+### Dikey okuma güvenilirliği — ACİL
+Yedi vaka + iki karşı örnek + bir kesin teşhis:
+`رُوحُ ٱلْقُدُسِ` terkibi tek başına ruh kavramının `قدس` ×118.3 skorunu üretiyor. **Zenginleşme skorlarından sabit terkipler ayrıştırılmadan hiçbir dikey okuma sonucu kullanılamaz.** Jackknife + terkip envanteri zorunlu. → adaylar 288, 295, 301, 320
+Etkilenen önceki adaylar: 266 (ruh/15:29), 273 (نجو/15:59-60).
+
+### `esit` alanı yetersiz — genişletme reçetesi
+Yalnız TAM ayet eşleşmesi buluyor. Kaçırdıkları:
+1. Tek değişkenli ikiz (Nahl'de 8 vaka, 8 ayrı sınıf) → 294, 318, 323
+2. Sûre-aşırı şahıs varyasyonu (`يَعْلَمُونَ`→`تَعْلَمُونَ`) → 304
+3. Kalıp birleştirme (16:61 = 35:45 açılışı + 7:34 kapanışı) → 317
+Reçete: kelime dizisi hizalaması + fark büyüklüğü ölçeği (harf/biçimbirim/kelime/öbek).
+
+### Sıradaki sûre
+17 (İsrâ). Hicr–Nahl karşıtlığı (aday 289) İsrâ ile üçlü karşılaştırmaya açılacak.

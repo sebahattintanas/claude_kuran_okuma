@@ -4454,5 +4454,1351 @@
   "sorun": "Bağ yoğunluğu okuma sırasının eseri: erken sûreler okunurken geç sûrelere bağ kurulamıyordu. Bakara okunurken En'âm daha okunmamıştı; En'âm okunurken Bakara'ya onlarca bağ kuruldu.",
   "olcum": null,
   "cozum": "ters_bag alanı simetriyi kuruyor. Ama YÖN bilgisi korunuyor: bağı hangi ayeti okurken kurduğum aşağıda."
- }
+ },
+ "S_hicr": [
+  {
+   "cift": [
+    "15:6",
+    "15:9"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "نزل bab II + nesne ذكر; 15:6 EDİLGEN (fâil boş), 15:9 1P ETKEN. Boş bırakılan fâil üç ayet sonra doluyor."
+  },
+  {
+   "cift": [
+    "15:9",
+    "15:17"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "حفظ kökü iki nesneye: ٱلذِّكْر (metin) ve ٱلسَّمَاء (mekân), sekiz ayet arayla, aynı 1P fâil."
+  },
+  {
+   "cift": [
+    "15:16",
+    "15:19"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "gök ve yer, aynı 'kur + donat' iskeleti: جعل+زيّن ↔ مدّ+ألقى+أنبت."
+  },
+  {
+   "cift": [
+    "15:16",
+    "15:20"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "جَعَلْنَا aynı fiil, iki alan (gök / yer)."
+  },
+  {
+   "cift": [
+    "15:7",
+    "15:14"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "melek talebi ↔ gök kapısı; talebin fazlasıyla karşılandığı varsayım."
+  },
+  {
+   "cift": [
+    "15:10",
+    "15:13"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "ٱلْأَوَّلِينَ dört ayet arayla: önce mekân (شِيَع), sonra kural (سُنَّة)."
+  },
+  {
+   "cift": [
+    "15:17",
+    "15:18"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "كُلّ kapsayıcısı ve onu delen إِلَّا istisnası; ardışık."
+  },
+  {
+   "cift": [
+    "15:1",
+    "15:4"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "كتب kökü iki işlevde: okunan metin ↔ biçilmiş süre."
+  },
+  {
+   "cift": [
+    "15:8",
+    "15:37"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "مُنظَرِين aynı lemma, TERS KUTUP: 15:8 olumsuz (kâfirlere mühlet yok) / 15:37 olumlu (İblîs'e mühlet var). 29 ayet arayla."
+  },
+  {
+   "cift": [
+    "15:16",
+    "15:39"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "زيّن bab II, iki fâil iki alan: 1P gökte / İblîs yerde."
+  },
+  {
+   "cift": [
+    "15:17",
+    "15:34"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "رَجِيم: 15:17 genel sıfat (her şeytan), 15:34 tekil tayin ânı. Sıra tersine."
+  },
+  {
+   "cift": [
+    "15:21",
+    "15:22"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "خزن kökü ardışık: خَزَآئِن bizde / بِخَٰزِنِين siz değilsiniz."
+  },
+  {
+   "cift": [
+    "15:26",
+    "15:28"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون birebir aynı tamlama; fâil 1P → 1S."
+  },
+  {
+   "cift": [
+    "15:28",
+    "15:33"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Aynı tamlamanın ÜÇÜNCÜ geçişi; konuşan Rab → İblîs."
+  },
+  {
+   "cift": [
+    "15:4",
+    "15:21",
+    "15:38"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "مَعْلُوم üç kez, üç nesne: yazı → ölçü → vakit."
+  },
+  {
+   "cift": [
+    "15:30",
+    "15:31"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "كُلُّهُمْ أَجْمَعُون bütünlüğü + إِلَّا istisnası."
+  },
+  {
+   "cift": [
+    "15:31",
+    "15:32"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "أَن يَكُونَ مَعَ ٱلسَّٰجِدِينَ yan cümlesi anlatıdan diyaloğa birebir geçiyor (أَن → أَلَّا, 3MS → 2MS)."
+  },
+  {
+   "cift": [
+    "15:35",
+    "15:36",
+    "15:38"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Üç tarih adı: يوم الدين → يوم يبعثون → يوم الوقت المعلوم. Talep edilen kabul edilmiyor, yerine üçüncüsü konuyor."
+  },
+  {
+   "cift": [
+    "15:9",
+    "15:23"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "إِنَّا + نَحْنُ ikilemesi, 1P doygunluğu; nesne metin ↔ canlılık."
+  },
+  {
+   "cift": [
+    "15:5",
+    "15:24"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "أخر bab X: fiil (yesteʾḫirûn) → ism-i fâil sınıf adı (el-musteʾḫirîn)."
+  },
+  {
+   "cift": [
+    "15:39-40",
+    "15:42"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "İblîs'in istisnası aynayla iade ediliyor: 'hepsi ancak muhlaslar hariç' ↔ 'kullarım ancak sana uyanlar hariç'. Aynı küme, iki yönden."
+  },
+  {
+   "cift": [
+    "15:34",
+    "15:48"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "خرج kökü ters kutup: ٱخْرُجْ emri (İblîs) ↔ بِمُخْرَجِين olumsuzu (cennetlikler)."
+  },
+  {
+   "cift": [
+    "15:49",
+    "15:50"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Eşlenik kalıp: iyelikli özne + ayrık zamir + belirli yüklem. أَنِّىٓ أَنَا ٱلْغَفُورُ ↔ عَذَابِى هُوَ ٱلْعَذَابُ."
+  },
+  {
+   "cift": [
+    "15:9",
+    "15:23",
+    "15:49"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Zamir ikilemesi üç kez: إِنَّا نَحْنُ (×2, 1P) ve أَنِّىٓ أَنَا (1S). Yüklemler: koruma, diriltme-öldürme, bağışlama."
+  },
+  {
+   "cift": [
+    "15:46",
+    "15:52"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "دخل + سلم ikilisi: cennete giriş emri ↔ eve giriş anlatısı. Dikey okuma: selâm kavramının öncesi zenginleşmesinde دخل ×7.5."
+  },
+  {
+   "cift": [
+    "15:49",
+    "15:51"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "نبّئ iki ayet arayla iki nesneye: nitelik (kim olduğum) ↔ kıssa (ne olduğu)."
+  },
+  {
+   "cift": [
+    "15:25",
+    "15:53"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "عَلِيم aynı sûrede iki kullanım: mühür çiftinin parçası (ilâhî) ↔ غُلَٰم sıfatı (beşerî). P0 borç #1 doğrulama vakası."
+  },
+  {
+   "cift": [
+    "15:21",
+    "15:60"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "قدر kökü: بِقَدَرٍ مَّعْلُوم (iniş ölçüsü) ↔ قَدَّرْنَا (bir kişinin akıbeti)."
+  },
+  {
+   "cift": [
+    "15:14",
+    "15:44"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "بوب kökü: gökten açılan tek varsayımsal kapı ↔ cehennemin yedi sayılı kapısı."
+  },
+  {
+   "cift": [
+    "15:30",
+    "15:39",
+    "15:43",
+    "15:59"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أَجْمَعِين dört kez, dört farklı küme: melekler · insanlar · uyanlar · Lût ailesi."
+  },
+  {
+   "cift": [
+    "15:59",
+    "15:60"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "İSTİSNANIN İSTİSNASI: ardışık iki إِلَّا, aynı kalıpta (إِلَّا + isim + إِنَّ + لَ + belirli çoğula aidiyet)."
+  },
+  {
+   "cift": [
+    "15:65",
+    "15:66"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "ÜÇ ORTAK KÖK ardışık ayette, üçünde de anlam kayıyor: قطع (gece bölümü / kesilmiş arka), دبر (yürünecek arka / kökü kesilecek arka), أمر (emrolunma / bildirilen emir). Biri kurtuluş tarifi, öteki helâk."
+  },
+  {
+   "cift": [
+    "15:68",
+    "15:69"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Birebir yapı eşi: emir/yasak + 1S nesne, fâsılada nûn-i vikâye (تَفْضَحُونِ / تُخْزُونِ). Tek fark 15:69'a eklenen ilk cümle — sûrenin İLK Allah lafzı."
+  },
+  {
+   "cift": [
+    "15:15",
+    "15:72"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "سكر kökü: inkârcıların kendi iddiası (سُكِّرَتْ أَبْصَٰرُنَا, edilgen) ↔ anlatıcının tanısı (سَكْرَتِهِمْ, iyelikli). İddia tanıya dönüşüyor."
+  },
+  {
+   "cift": [
+    "15:19",
+    "15:74"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Aynı 1P fâil, karşıt işlem: yer uzatıldı + sabitler atıldı (19) ↔ üstü altına getirildi (74)."
+  },
+  {
+   "cift": [
+    "15:75",
+    "15:77"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Nakarat kalıbı iki kez; nesne ÇOĞUL→TEKİL (ءَايَٰت→ءَايَة), alıcı ٱلْمُتَوَسِّمِين→ٱلْمُؤْمِنِين."
+  },
+  {
+   "cift": [
+    "15:76",
+    "15:79"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "لَ + بِ + belirsiz ad + sıfat: لَبِسَبِيلٍ مُّقِيم ↔ لَبِإِمَامٍ مُّبِين. Biri tekil, öteki İKİL (إِنَّهُمَا — sûredeki tek ikil)."
+  },
+  {
+   "cift": [
+    "15:52",
+    "15:62"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "İki konukluk sahnesinin karşılama cümlesi: وَجِلُون (konuşanın hâli) ↔ مُّنكَرُون (muhatabın niteliği). İkisi de fâsılada."
+  },
+  {
+   "cift": [
+    "15:51",
+    "15:68"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "ضيف iyelik değişimi: ضَيْفِ إِبْرَٰهِيم (3. kişi) → ضَيْفِى (1S)."
+  },
+  {
+   "cift": [
+    "15:65",
+    "15:66",
+    "15:73"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Zaman zinciri: gece bölümü → sabaha çıkarken → güneş doğarken."
+  },
+  {
+   "cift": [
+    "15:7",
+    "15:64"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "ٱلصَّٰدِقِين: inkârcıların şart koştuğu sınıf (15:7) ↔ elçilerin kendilerini yazdığı sınıf (15:64)."
+  },
+  {
+   "cift": [
+    "15:68",
+    "15:71"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "هَٰٓؤُلَآءِ + 1S iyelikli ad, aynı kalıp: ضَيْفِى ↔ بَنَاتِى."
+  },
+  {
+   "cift": [
+    "15:73",
+    "15:83"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK KELİME FARKLI İKİZ: فَأَخَذَتْهُمُ ٱلصَّيْحَةُ + مُشْرِقِين / مُصْبِحِين. Aynı fiil, aynı fâil, iki kavim, iki vakit."
+  },
+  {
+   "cift": [
+    "15:49",
+    "15:86",
+    "15:89"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "KALIP ÜÇLÜSÜ: özne + ayrık zamir + iki belirli sıfat. ilâhî 1S / ilâhî 3MS / BEŞERÎ 1S."
+  },
+  {
+   "cift": [
+    "15:3",
+    "15:96"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "HALKA: فَسَوْفَ يَعْلَمُونَ birebir aynı son cümle, 93 ayet arayla. Eşlik eden hamle de aynı: ذَرْهُمْ (3) ↔ وَأَعْرِضْ (94)."
+  },
+  {
+   "cift": [
+    "15:31",
+    "15:32",
+    "15:98"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ٱلسَّٰجِدِين üç kez, üç kip: ret · soru · emir. İblîs'in reddettiği küme, kapanışta muhataba emrediliyor."
+  },
+  {
+   "cift": [
+    "15:19",
+    "15:88"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "مدد TERS KUTUP: yer uzatıldı (1P, olumlu) ↔ göz uzatılmasın (2MS, yasak)."
+  },
+  {
+   "cift": [
+    "15:47",
+    "15:97"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "صدر iki karşıt işlem: göğüslerden kin çekilip alınıyor ↔ göğüs daralıyor."
+  },
+  {
+   "cift": [
+    "15:44",
+    "15:87"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "سبع iki kez, karşıt kutup: cehennemin yedi kapısı ↔ verilen yedi (مثانى)."
+  },
+  {
+   "cift": [
+    "15:65",
+    "15:94"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "تُؤْمَرُونَ / تُؤْمَرُ — aynı edilgen, çoğul→tekil; emri veren ikisinde de gizli."
+  },
+  {
+   "cift": [
+    "15:11",
+    "15:95"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "هزأ çerçeve kapanışı: genel kural (alay ederlerdi) ↔ tekil karşılık (sana yeteriz)."
+  },
+  {
+   "cift": [
+    "15:81",
+    "15:94"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "عرض ters yön: onlar âyetlerden yüz çevirdi ↔ sen müşriklerden yüz çevir."
+  },
+  {
+   "cift": [
+    "15:90",
+    "15:91"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "İki bölme kökü ardışık: ٱلْمُقْتَسِمِين (kendilerini bölenler) → عِضِين (kitabı bölenler)."
+  },
+  {
+   "cift": [
+    "15:28",
+    "15:86"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "خالِق → خَلّاق: aynı kök, mübalağa kalıbına geçiş, 58 ayet arayla."
+  },
+  {
+   "cift": [
+    "15:25",
+    "15:86"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "إِنَّ رَبَّكَ هُوَ + yüklem: fiil yüklem (يَحْشُرُهُم) ↔ mühür yüklem (ٱلْخَلَّٰقُ ٱلْعَلِيمُ)."
+  },
+  {
+   "cift": [
+    "15:35",
+    "15:36",
+    "15:38",
+    "15:99"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "DÖRT zaman sınırı: يوم الدين · يوم يبعثون · يوم الوقت المعلوم · ٱلْيَقِين. İlk üçü İblîs pazarlığında, dördüncüsü muhatapta ve tek 'gün' demeyen."
+  },
+  {
+   "cift": [
+    "15:46",
+    "15:82"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "ءَامِنِين: verilen güven (cennete giriş) ↔ yontulan güven (dağdaki evler)."
+  }
+ ],
+ "T_nahl": [
+  {
+   "cift": [
+    "16:1",
+    "16:3"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Aynı kapanış iki ayet arayla, biri kısaltılmış: سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ → تَعَٰلَىٰ عَمَّا يُشْرِكُونَ."
+  },
+  {
+   "cift": [
+    "16:11",
+    "16:12",
+    "16:13"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "NAKARAT ÜÇLÜSÜ: إِنَّ فِى ذَٰلِكَ لَ… لِّقَوْمٍ + zihin fiili. Nesne tekil-ÇOĞUL-tekil (ءَايَة/ءَايَٰت/ءَايَة), fiil يَتَفَكَّرُون/يَعْقِلُون/يَذَّكَّرُون. Hicr'deki 15:75/77 çiftinin genişletilmiş hâli — aday 280'in test seti."
+  },
+  {
+   "cift": [
+    "16:17",
+    "16:20"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "خلق ikilemesi iki kez: olumlu/olumsuz (17) → ETKEN/EDİLGEN (20). Soru ve cevabı."
+  },
+  {
+   "cift": [
+    "15:19",
+    "16:15"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "SÛRE-AŞIRI: أَلْقَىٰ + رَوَٰسِىَ + أرض, iki komşu sûrede iki şahıs (1P / 3MS). Nahl'de bir GEREKÇE ekleniyor (أَن تَمِيدَ بِكُم)."
+  },
+  {
+   "cift": [
+    "15:22",
+    "16:10"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Aynı su-iniş olayı: Hicr'de üç ettirgen fiil zinciri (1P, süreç), Nahl'de tek fiil + iki ad cümlesi (3MS, sonuç)."
+  },
+  {
+   "cift": [
+    "15:27",
+    "16:5"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "Nesne öne alma + fiile zamir bağlama: وَٱلْجَآنَّ خَلَقْنَٰهُ / وَٱلْأَنْعَٰمَ خَلَقَهَا."
+  },
+  {
+   "cift": [
+    "15:41",
+    "16:9"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "'عَلَى + merci + yol' kalıbı: صِرَٰطٌ عَلَىَّ مُسْتَقِيم (1S) / وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيل (lafız)."
+  },
+  {
+   "cift": [
+    "16:5",
+    "16:6",
+    "16:8",
+    "16:14"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "KULLANIM / SÜS ayrımı dört kez: دِفْء+مَنَٰفِع vs جَمَال · لِتَرْكَبُوهَا vs زِينَة · لَحْم vs حِلْيَة."
+  },
+  {
+   "cift": [
+    "16:12",
+    "16:16"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "نجم iki işlev: boyun eğdirilmiş nesne (12) ↔ yön aracı (16)."
+  },
+  {
+   "cift": [
+    "15:24",
+    "16:19"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "İki uçlu bilgi iddiası: zaman ekseni (öndekiler/arkadakiler) ↔ görünürlük ekseni (gizlenen/açığa vurulan)."
+  },
+  {
+   "cift": [
+    "15:96",
+    "16:20"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Şirk tarifi çerçevesi: ٱلَّذِينَ + IMPF + Allah lafzı. يَجْعَلُونَ مَعَ ٱللَّهِ / يَدْعُونَ مِن دُونِ ٱللَّهِ."
+  },
+  {
+   "cift": [
+    "16:19",
+    "16:23"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "YAKIN İKİZ: aynı cümle, tek fark şahıs (2MP → 3MP). تُسِرُّونَ/تُعْلِنُونَ ↔ يُسِرُّونَ/يُعْلِنُونَ."
+  },
+  {
+   "cift": [
+    "16:24",
+    "16:30"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "SORU İKİZİ: مَّاذَآ أَنزَلَ رَبُّكُمْ, aynı edilgen (قِيلَ), iki gruba. Cevaplar: أَسَٰطِيرُ ٱلْأَوَّلِين ↔ خَيْرًا — biri kaynak iddiası, öteki değer yargısı."
+  },
+  {
+   "cift": [
+    "16:28",
+    "16:32"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK KELİME FARKLI İKİZ: ٱلَّذِينَ تَتَوَفَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ + ظَالِمِىٓ أَنفُسِهِمْ / طَيِّبِين. Dört ayet arayla iki akıbet."
+  },
+  {
+   "cift": [
+    "16:2",
+    "16:22"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Aynı tevhid önermesi iki mantıksal biçimde: HASR (لَآ إِلَٰهَ إِلَّآ أَنَا۠) ↔ olumlu ad cümlesi (إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ)."
+  },
+  {
+   "cift": [
+    "16:9",
+    "16:35"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "لَوْ شَآءَ kalıbı: anlatıcının cümlesi (16:9) ↔ karşı tarafın savunması (16:35). Aynı önerme, iki işlev."
+  },
+  {
+   "cift": [
+    "16:33",
+    "16:35"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "كَذَٰلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ birebir aynı cümle, iki ayet arayla."
+  },
+  {
+   "cift": [
+    "16:29",
+    "16:31",
+    "16:32"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "دخل üç ayette üç yön: cehenneme emir · cennete haber · cennete emir."
+  },
+  {
+   "cift": [
+    "15:46",
+    "15:52",
+    "16:32"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "دخل+سلم ikilisi ÜÇÜNCÜ kez, iki komşu sûrede; hepsinde bir eşiğin geçilmesi."
+  },
+  {
+   "cift": [
+    "16:22",
+    "16:23",
+    "16:29"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "كبر kökü sekiz ayette üç kez, iki bab: مُّسْتَكْبِرُون (X) → ٱلْمُسْتَكْبِرِين (X) → ٱلْمُتَكَبِّرِين (V)."
+  },
+  {
+   "cift": [
+    "15:7",
+    "16:33"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Melek gelişi: TALEP (15:7 لَّوْ مَا تَأْتِينَا بِٱلْمَلَٰٓئِكَة) ↔ BEKLEYİŞ ve suçlama (16:33 هَلْ يَنظُرُونَ إِلَّآ أَن تَأْتِيَهُمُ ٱلْمَلَٰٓئِكَة)."
+  },
+  {
+   "cift": [
+    "15:74",
+    "16:26"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "Yön tersine çevirme, iki sözlükle: عَٰلِيَهَا سَافِلَهَا ↔ مِّنَ ٱلْقَوَاعِدِ … مِن فَوْقِهِمْ."
+  },
+  {
+   "cift": [
+    "15:29",
+    "16:4",
+    "16:40"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Oluş zamanı: Hicr üç adımlı zincir (سوّى→نفخ→سجد) ↔ Nahl'de iki kez ara adım SİLİNMİŞ (فَإِذَا هُوَ خَصِيم / كُن فَيَكُونُ)."
+  },
+  {
+   "cift": [
+    "15:69",
+    "16:27"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "خزي: Lût'un ricası (لَا تُخْزُونِ) ↔ gerçekleşen hüküm (يُخْزِيهِمْ / ٱلْخِزْى)."
+  },
+  {
+   "cift": [
+    "15:11",
+    "15:95",
+    "16:34"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "هزأ üç sahne: genel kural · karşılık vaadi · karşılığın gerçekleşmesi."
+  },
+  {
+   "cift": [
+    "16:7",
+    "16:47"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI MÜHÜR (رَءُوف|رَحِيم) ZIT BAĞLAMDA: hayvan faydaları listesini kapatıyor (7) ↔ üç ayetlik tehdit zincirini KESİYOR (47)."
+  },
+  {
+   "cift": [
+    "16:26",
+    "16:45"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Son yarı birebir aynı (أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ); PERF gerçekleşme ↔ IMPF+soru olasılık. Yön ters: yukarıdan ↔ aşağıdan (يَخْسِفَ)."
+  },
+  {
+   "cift": [
+    "16:25",
+    "16:59"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK DEĞİŞKENLİ İKİZ (4. vaka): أَلَا سَآءَ مَا يَزِرُونَ ↔ أَلَا سَآءَ مَا يَحْكُمُونَ."
+  },
+  {
+   "cift": [
+    "16:2",
+    "16:22",
+    "16:51"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "TEVHİD ÜÇLÜSÜ, üç mantıksal biçim: olumsuzluk+istisna (لَآ إِلَٰهَ إِلَّآ أَنَا۠) · olumlu ad cümlesi (إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ) · yasak+HASR (لَا تَتَّخِذُوا۟ … إِنَّمَا هُوَ)."
+  },
+  {
+   "cift": [
+    "15:53",
+    "16:58"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "بشر KARŞITLIĞI: etken/1P/غُلَٰم/soru tepkisi (15:53-54) ↔ EDİLGEN/fâilsiz/ٱلْأُنثَىٰ/yüz değişimi (16:58). Her değişkende ters işaret."
+  },
+  {
+   "cift": [
+    "15:3",
+    "15:96",
+    "16:55"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "فَسَوْفَ يَعْلَمُونَ (3MP ×2, Hicr) → فَسَوْفَ تَعْلَمُونَ (2MP, Nahl). Eşlik eden متع kökü de aynı yönde kayıyor: وَيَتَمَتَّعُوا۟ → فَتَمَتَّعُوا۟."
+  },
+  {
+   "cift": [
+    "15:92",
+    "16:56"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Yemin + soru vaadi: فَوَرَبِّكَ لَنَسْـَٔلَنَّهُمْ (Rab, 1P etken) ↔ تَٱللَّهِ لَتُسْـَٔلُنَّ (lafız, 2MP EDİLGEN)."
+  },
+  {
+   "cift": [
+    "16:53",
+    "16:54"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "EKSEN DEĞİŞİMİ ardışık ayetlerde: nimet ve feryat LAFZA bağlı (مِّنَ ٱللَّهِ / إِلَيْهِ) ↔ şirk RAB'be bağlı (بِرَبِّهِمْ)."
+  },
+  {
+   "cift": [
+    "16:26",
+    "16:50"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "مِّن فَوْقِهِمْ iki kez: tavanın çökmesi ↔ Rab'bin üstte olması."
+  },
+  {
+   "cift": [
+    "16:49",
+    "16:52"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Aynı gök-yer kapsayıcısı, iki yüklem: secde ediyor ↔ O'nundur. Eylem ve mülkiyet."
+  },
+  {
+   "cift": [
+    "15:10",
+    "16:36",
+    "16:43"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "Gönderme ifadesi üç kez, her seferinde farklı bilgi: nesne hazfedilmiş (15:10) · nesne+kapsam+mesaj tam (16:36) · nesnenin TÜRÜ HASR ile sınırlı (16:43, رِجَالًا)."
+  },
+  {
+   "cift": [
+    "15:6",
+    "15:9",
+    "16:44"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "نزل etken/edilgen: iki ayrı ayette (Hicr) ↔ TEK ayette yan yana (16:44 أَنزَلْنَا … نُزِّلَ)."
+  },
+  {
+   "cift": [
+    "16:74",
+    "16:75"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "YASAK VE İCRA ARDIŞIK: لَا تَضْرِبُوا۟ لِلَّهِ ٱلْأَمْثَالَ (2MP yasak) → ضَرَبَ ٱللَّهُ مَثَلًا (3MS, lafız fâil). Aynı fiil, fâil ayrımı yasağın kendisi."
+  },
+  {
+   "cift": [
+    "15:19",
+    "16:88",
+    "16:74"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "'İLÂHÎ EDİM / İNSANA YASAK' KALIBI üç kök: مدد (yer uzatıldı / göz uzatılmasın) · زين (ilâhî ve şeytanî) · ضرب (mesel: yasak sonra icra)."
+  },
+  {
+   "cift": [
+    "16:75",
+    "16:76"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK DEĞİŞKENLİ İKİZ (5. vaka): هَلْ يَسْتَوُۥنَ (çoğul) / هَلْ يَسْتَوِى (tekil). Karşılaştırılan nitelik mal → söz."
+  },
+  {
+   "cift": [
+    "16:66",
+    "16:69",
+    "16:78"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "بُطُون üç ayette üç canlı: davar (süt) · arı (bal) · anne (insan). Üçünde de içeriden bir şey çıkıyor."
+  },
+  {
+   "cift": [
+    "16:12",
+    "16:14",
+    "16:79"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "سخر üç alan: gök cisimleri · deniz · kuşlar. İlk ikisi 'sizin için', üçüncüde alıcı yok."
+  },
+  {
+   "cift": [
+    "16:5",
+    "16:66",
+    "16:80"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أَنْعَٰم üç katman: fayda listesi (دِفْء/مَنَٰفِع) · süt · deri ve lif. Her seferinde başka bir katman, ve üçünde de hapaks kök var."
+  },
+  {
+   "cift": [
+    "15:16",
+    "15:39",
+    "16:8",
+    "16:63"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "زين dört fâil: 1P gökte · İblîs yerde (VAAD) · 1P hayvanlarda · şeytan amellerde (İCRA, PERF). Vaad ve icra iki sûreye dağılmış."
+  },
+  {
+   "cift": [
+    "15:5",
+    "15:24",
+    "16:61"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أخر/قدم çifti üç dilbilgisel biçimde: fiil (15:5) · ism-i fâil sınıf adı (15:24) · fiil + ölçü birimi سَاعَة (16:61)."
+  },
+  {
+   "cift": [
+    "16:71",
+    "16:72"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Aynı kapanış kalıbı: أَفَبِ + isim + fiil, nesnesi نِعْمَةِ ٱللَّه. 16:71 tek soru, 16:72 soru ikiye bölünmüş."
+  },
+  {
+   "cift": [
+    "16:20",
+    "16:73"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "مِن دُونِ ٱللَّهِ + olumsuzluk: yaratamama (20) ↔ rızık verememe (73). İkisi de bu sûrede ilâhî fiil olarak sayılmış."
+  },
+  {
+   "cift": [
+    "16:44",
+    "16:64"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Aynı amaç cümlesi (لِتُبَيِّنَ لَهُمْ …), nesne adı değişiyor: ٱلذِّكْر → ٱلْكِتَٰب. 15:1'deki ikilikle aynı."
+  },
+  {
+   "cift": [
+    "16:70",
+    "16:78"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Bilgi ekseninin iki ucu: bilgiden bilgisizliğe dönüş (ömrün sonu) ↔ bilgisizlikten başlangıç (doğum)."
+  },
+  {
+   "cift": [
+    "16:59",
+    "16:79"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "مسك: kız çocuğunu aşağılanmışlıkla tutmak ↔ kuşları havada tutmak. Aynı fiil, iki fâil."
+  },
+  {
+   "cift": [
+    "15:82",
+    "16:68",
+    "16:80"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "بُيُوت + dağ: kavmin dağı yontması (15:82) · arıya ev edinme EMRİ (16:68) · insana ev İHSANI (16:80)."
+  },
+  {
+   "cift": [
+    "16:11",
+    "16:67"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "Aynı iki ürün (ٱلنَّخِيل, ٱلْأَعْنَٰب), fiil değişiyor: يُنۢبِتُ (ilâhî) → تَتَّخِذُونَ (insan)."
+  },
+  {
+   "cift": [
+    "15:15",
+    "15:72",
+    "16:67"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "سكر üç kullanım: gözlerin döndürülmesi · sarhoşluk içinde bocalama · içki. İlk ikisi mecazî ve olumsuz, üçüncüsü somut ve yargısız."
+  },
+  {
+   "cift": [
+    "16:61",
+    "35:45"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "İKİ DEĞİŞKENLİ İKİZ: açılış birebir (وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ … مَا تَرَكَ … مِن دَآبَّةٍ … إِلَىٰٓ أَجَلٍ مُّسَمًّى). Fark: sebep بِظُلْمِهِم / بِمَا كَسَبُوا۟; ve zamir 16:61'de ÖNCÜLSÜZ عَلَيْهَا, 35:45'te AÇIK عَلَىٰ ظَهْرِهَا. Kapanışlar tamamen farklı."
+  },
+  {
+   "cift": [
+    "16:61",
+    "7:34",
+    "10:49"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "16:61'in KAPANIŞI 7:34 ve 10:49 ile birebir; ama orada özne ÜMMET (لِكُلِّ أُمَّةٍ أَجَلٌ), 16:61'de NÂS. 16:61 iki ayrı kalıbın birleşimi: açılış 35:45'ten, kapanış 7:34'ten."
+  },
+  {
+   "cift": [
+    "16:84",
+    "16:89"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK EDAT FARKLI İKİZ (6. vaka, sûrenin en incesi): وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيدًا / … فِى كُلِّ أُمَّةٍ …. 16:89 ayrıca iki ek taşıyor (مِّنْ أَنفُسِهِمْ ve ikinci şahit)."
+  },
+  {
+   "cift": [
+    "16:35",
+    "16:82"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ÜÇ DEĞİŞKEN BİRDEN: فَهَلْ عَلَى ٱلرُّسُلِ إِلَّا ٱلْبَلَٰغُ ٱلْمُبِينُ → فَإِنَّمَا عَلَيْكَ ٱلْبَلَٰغُ ٱلْمُبِينُ. Çoğul→tekil, soru→haber, إِلَّا→إِنَّمَا."
+  },
+  {
+   "cift": [
+    "16:85",
+    "16:86"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Açılış ikizi: وَإِذَا رَءَا ٱلَّذِينَ ظَلَمُوا۟ / وَإِذَا رَءَا ٱلَّذِينَ أَشْرَكُوا۟."
+  },
+  {
+   "cift": [
+    "15:42",
+    "16:99",
+    "16:100"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "AYNI HÜKÜM, İKİ MİMARİ: Hicr'de TEK ayet + إِلَّا istisnası (عِبَادِى … إِلَّا مَنِ ٱتَّبَعَكَ); Nahl'de İKİ ayet + إِنَّمَا hasrı (99 olumsuz yarı, 100 olumlu yarı)."
+  },
+  {
+   "cift": [
+    "16:42",
+    "16:99"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ birebir tekrar; 16:99 ayrıca 15:42'nin ilk yarısını taşıyor — iki kaynaktan birleşim."
+  },
+  {
+   "cift": [
+    "16:28",
+    "16:87"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "فَأَلْقَوُا۟ ٱلسَّلَمَ (muhatapsız) → وَأَلْقَوْا۟ إِلَى ٱللَّهِ … ٱلسَّلَمَ (muhatap eklenmiş). 16:44'teki bütünleme türüyle aynı."
+  },
+  {
+   "cift": [
+    "16:92",
+    "16:94"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ BİREBİR tekrar, iki ayet arayla: benzetme içinde betimleme ↔ müstakil yasak."
+  },
+  {
+   "cift": [
+    "16:91",
+    "16:92",
+    "16:94"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "'Sağlamlaştırdıktan sonra bozma' motifi üç nesneyle: yemin (بَعْدَ تَوْكِيدِهَا) · iplik (مِنۢ بَعْدِ قُوَّةٍ) · ayak (بَعْدَ ثُبُوتِهَا)."
+  },
+  {
+   "cift": [
+    "16:96",
+    "16:97"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Son yarı birebir aynı (وَلَنَجْزِيَنَّ … بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ), alıcı değişiyor: sabredenler ↔ salih amel işleyenler."
+  },
+  {
+   "cift": [
+    "15:17",
+    "15:34",
+    "16:98"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "رجيم üç aşama: her şeytanın genel sıfatı (15:17) · İblîs'e verilme ânı (15:34) · sabit tanım, sığınma formülü içinde (16:98)."
+  },
+  {
+   "cift": [
+    "16:2",
+    "16:102"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "روح ARAÇTAN ÖZNEYE: بِٱلرُّوحِ مِنْ أَمْرِهِۦ (araç, 3MS fâil) → رُوحُ ٱلْقُدُسِ نَزَّلَهُ (fâil)."
+  },
+  {
+   "cift": [
+    "16:26",
+    "16:50",
+    "16:88"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "فوق üç katman türü: fiziksel (tavan çöküyor) · hükmî (Rab üstte) · nicel (azap azabın üstünde)."
+  },
+  {
+   "cift": [
+    "16:58",
+    "16:97"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أُنثَىٰ iki değer konumu: müjdesi yüz karartan sözcük (58) ↔ karşılığın koşulundan çıkarılan ayrım (97)."
+  },
+  {
+   "cift": [
+    "16:9",
+    "16:35",
+    "16:93"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "لَوْ شَآءَ ٱللَّهُ üç kez, üç işlev: anlatıcı-hidâyet · müşrik savunması · anlatıcı-çokluk."
+  },
+  {
+   "cift": [
+    "15:6",
+    "16:101"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Karşı taraf suçlaması: مَجْنُون (akıl iddiası) ↔ مُفْتَرٍ (kaynak iddiası). İkisi de HASR ile kurulu."
+  },
+  {
+   "cift": [
+    "16:110",
+    "16:119"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ÇERÇEVE İKİZİ (8. vaka, en genişi): ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ … + ÜÇ FİİL + إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ رَّحِيمٌ. Değişen bir kelime değil ARA BÖLÜM: (fitne→hicret→cihad+sabır) / (cehalet→tevbe→ıslah)."
+  },
+  {
+   "cift": [
+    "16:33",
+    "16:118"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Son cümle birebir, FÂİL değişiyor: وَمَا ظَلَمَهُمُ ٱللَّهُ (lafız) → وَمَا ظَلَمْنَٰهُمْ (1P)."
+  },
+  {
+   "cift": [
+    "16:115",
+    "16:116"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "'İLÂHÎ EDİM / İNSANA YASAK' 4. VAKA, ARDIŞIK: 16:115 neyin haram olduğunu SAYIYOR, 16:116 haram-helâl demeyi YASAKLIYOR."
+  },
+  {
+   "cift": [
+    "16:78",
+    "16:108"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "AYNI ÜÇ ORGAN, TERS İŞLEM: verilme (سمع/أبصار/أفئدة) ↔ mühürlenme (قلوب/سمع/أبصار). Sıra da ters."
+  },
+  {
+   "cift": [
+    "16:81",
+    "16:112"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "Giysi motifi tersine: سَرَابِيل koruyor (sıcak, şiddet) ↔ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ tattırılıyor."
+  },
+  {
+   "cift": [
+    "15:96",
+    "16:128"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "SÛRELER ARASI KAPANIŞ: مَعَ edatı ters yönde. 15:96 يَجْعَلُونَ مَعَ ٱللَّهِ (şirk tarifi, Hicr'in son lafzı) ↔ 16:128 إِنَّ ٱللَّهَ مَعَ ٱلَّذِينَ (Nahl'in son lafzı)."
+  },
+  {
+   "cift": [
+    "16:36",
+    "16:61",
+    "16:84",
+    "16:92",
+    "16:93",
+    "16:120"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أمة dizisi sekiz geçiş: her ümmete elçi → ümmetlerin eceli → her ümmetten şahit → bir ümmet ötekinden kalabalık → tek ümmet yapılabilirdi → BİR KİŞİ bir ümmet (İbrâhim). Çokluk tekile iniyor."
+  },
+  {
+   "cift": [
+    "16:30",
+    "16:41",
+    "16:122"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "فِى ٱلدُّنْيَا حَسَنَة üç kez, alıcı daralıyor: iyilik edenler (genel) → hicret edenler → İbrâhim (tek kişi)."
+  },
+  {
+   "cift": [
+    "16:68",
+    "16:123"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "وحي iki muhatap sınıfı: ARI (16:68, 2FS) ↔ muhatap (16:123)."
+  },
+  {
+   "cift": [
+    "16:120",
+    "16:123"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "Son cümle birebir, olumsuzluk edatı değişiyor: وَلَمْ يَكُ مِنَ ٱلْمُشْرِكِينَ / وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ."
+  },
+  {
+   "cift": [
+    "16:90",
+    "16:125"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "وعظ İLÂHÎ FİİLDEN MUHATABIN ARACINA: يَعِظُكُمْ (16:90 kapanış fiili) → وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ (16:125 davet aracı). جدل de aynı yönde: 16:111 nefsin kendini savunması → 16:125 başkasıyla en güzel tartışma."
+  },
+  {
+   "cift": [
+    "16:62",
+    "16:116"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "تَصِفُ أَلْسِنَتُهُمُ ٱلْكَذِبَ → تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ. İyelik 3MP→2MP."
+  },
+  {
+   "cift": [
+    "15:41",
+    "16:76",
+    "16:121"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "صِرَٰط مُّسْتَقِيم üç konum: eksene ait (عَلَىَّ, 15:41) · mesel kişisinin niteliği (16:76) · bir kişiye VERİLEN yol (16:121)."
+  },
+  {
+   "cift": [
+    "16:74",
+    "16:75",
+    "16:76",
+    "16:112"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "Mesel yasağı + üç mesel: ilk ikisi KİŞİ meseli, üçüncüsü YER meseli."
+  },
+  {
+   "cift": [
+    "16:114",
+    "16:121"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "شكر: muhataba EMİR (16:114) ↔ İbrâhim'in gerçekleşmiş sıfatı (16:121, شَاكِرًا)."
+  },
+  {
+   "cift": [
+    "16:101",
+    "16:105"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "إِنَّمَا + فري kalıbı ters yönde: suçlama muhataba (16:101 إِنَّمَآ أَنتَ مُفْتَرٍ) ↔ iade (16:105 إِنَّمَا يَفْتَرِى ٱلْكَذِبَ ٱلَّذِينَ …)."
+  },
+  {
+   "cift": [
+    "15:47",
+    "15:97",
+    "16:106"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "صدر üç işlem: kin ÇIKARILIYOR (15:47) · göğüs DARALIYOR (15:97) · göğüs küfre AÇILIYOR (16:106)."
+  }
+ ]
 }
