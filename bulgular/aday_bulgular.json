@@ -1174,65 +1174,6 @@
     "korpus": 0.0349
    },
    "test": "Sûre-içi Allah yoğunluğu eğimi: 114 sûrede açılış-kapanış farkı sistematik mi? UYARI: konum-eşli null zorunlu (bulgu_konum_esli_null). Kısa kapanış bloğunda n=152, varyans yüksek — tek sûreden bulgu kurulamaz."
-  },
-  {
-   "no": 145,
-   "aday": "Birebir ibare iki zıt sonuca bağlanıyor: ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ — 9:25'te kaçışa (ثُمَّ وَلَّيْتُم مُّدْبِرِينَ), 9:118'de tövbeye (ثُمَّ تَابَ عَلَيْهِمْ). Aynı ölçüm, ters işaretli çıktı.",
-   "olculen": {
-    "9:25": "yıldız ★★★, hapaks وَطَن, Allah 3",
-    "9:118": "n=31, توب ×3, Allah 20 ve 28",
-    "dikey_referans": "رحب yalnız 4 geçiş, medyan 48 vs null 9, p=0.023 UZAK"
-   },
-   "test": "Korpusta birebir tekrarlanan ibarelerin sonuç kutbu dağılımı: aynı ibare kaç kez zıt sonuca bağlanıyor? 253 ikiz listesi + ibare düzeyi taraması."
-  },
-  {
-   "no": 146,
-   "aday": "INCLUSIO: sûrenin açılış kelimesi بَرَآءَة (9:1, mübtedâ, kaynak Allah+Resûl) son çeyrekte fiil olarak dönüyor — 9:114 تَبَرَّأَ (fâil İbrâhim, nesne babası). Kökün bir önceki geçişi 8:48'de şeytanın sözüydü.",
-   "olculen": {
-    "8:48": "إِنِّى بَرِىٓءٌۭ مِّنكُمْ, şeytan",
-    "9:1": "بَرَآءَةٌۭ مِّنَ ٱللَّهِ, ad",
-    "9:114": "تَبَرَّأَ مِنْهُ, fiil, İbrâhim",
-    "dikey_referans": "برأ 31 geçiş, p=0.542 NÖTR"
-   },
-   "test": "Sûre açılış kelimelerinin sûre içinde tekrar geçme oranı; inclusio adaylarının sistematik taranması. aday 123 ile birleşecek."
-  },
-  {
-   "no": 147,
-   "aday": "9:111'de aynı kök üç kipte ardışık: يُقَٰتِلُونَ (karşılıklı, bab III) → فَيَقْتُلُونَ (etken) → وَيُقْتَلُونَ (edilgen). Bir eylemin üç yönü tek dizide, üç kelimede.",
-   "olculen": {
-    "9:111": "n=37 (z=2.61), قتل ×3, üç kitap adlı aktör (تَوْراة, إِنجِيل, قُرْءان), Allah 2/14/28"
-   },
-   "test": "Korpusta aynı kökün bitişik üç kipte geçtiği yerler; vf alanı + zmn alanı taraması. Nadir kalıp mı?"
-  },
-  {
-   "no": 148,
-   "aday": "Tevbe'de İKİ FİİLSİZ KATALOG var ve ikisi de hasr/liste biçiminde: 9:60 sekiz alıcı sınıfı (GEN 11, fiil yok), 9:112 dokuz nitelik (NOM 9, tek fiil ve o da sondaki emir).",
-   "olculen": {
-    "9:60": "n=22, GEN 11, kip işareti yok",
-    "9:112": "n=16, NOM 9, yalnız 2MS, IMPV 1"
-   },
-   "test": "Korpusta fiilsiz/tek-fiilli ayetlerin sıklığı ve i'râb profili; katalog biçiminin ayırt edici imzası var mı?"
-  },
-  {
-   "no": 149,
-   "aday": "تَبَيَّنَ eşiği bir işlemin geçerlilik sınırı olarak dört kez ve 113-115 ardışık: 9:43 (izin erken verildi), 9:113 (yasak eşikten SONRA geçerli), 9:114 (istisna eşikte sona eriyor), 9:115 (hüküm eşikten ÖNCE geçersiz).",
-   "olculen": {
-    "9:43": "soru, Allah 2",
-    "9:113": "sûrenin TEK iltifâtı (2>3), Allah YOK",
-    "9:114": "HASR, Allah 16",
-    "9:115": "NEG, Allah 3 ve 15"
-   },
-   "test": "بين kökünün 'geçerlilik eşiği' işlevi korpus genelinde ne sıklıkta? Şart/istisna bağlamı filtresi."
-  },
-  {
-   "no": 150,
-   "aday": "أَحَقُّ kalıbı Tevbe'de üç kez ve üçünde de aynı figür: aynı fiil iki nesneye uygulanıp biri tercih ediliyor — 9:13 korku, 9:62 hoşnut etme, 9:108 durma yeri. Terim silinmiyor, yön düzeltiliyor.",
-   "olculen": {
-    "9:13": "خشي ×2",
-    "9:62": "رضو ×2",
-    "9:108": "قوم ×2"
-   },
-   "test": "أحقّ / ism-i tafdil + iki nesne kalıbının korpus taraması; Tevbe yoğunluğu aykırı mı?"
   }
  ],
  "M_yunus": [
@@ -2978,7 +2919,7 @@
    "test": "بطن kökünün korpus envanteri ve nesne sınıflandırması (hayvan / böcek / insan / yer); 'içeriden çıkan ürün' kalıbının kaç örneği var ve hangi canlı sınıflarına uygulanıyor?"
   },
   {
-   "no": 317,
+   "no": 311,
    "aday": "KALIP BİRLEŞTİRME: 16:61 iki ayrı korpus kalıbının eklemlenmesi — açılışı 35:45 ile birebir, kapanışı 7:34/10:49 ile birebir; bu üç ayette bu iki kalıp AYRI AYRI geçiyor. Ayrıca terim değişimi: suç ٱلنَّاس'a yükleniyor, sonuç دَآبَّة üzerinden söyleniyor, oysa ٱلنَّاس üç kelime önce geçmiş. Ve عَلَيْهَا zamirinin öncülü ayette YOK (en yakın أرض dokuz ayet önce, 16:52); 35:45 aynı yerde عَلَىٰ ظَهْرِهَا diyerek zemini açıkça veriyor.",
    "olculen": {
     "acilis_ikiz": "35:45",
@@ -3012,7 +2953,7 @@
    "test": "(a) Kalıp birleştirme taraması: bir ayetin açılış ve kapanış kalıplarının korpusta AYRI ayetlerde geçtiği vakalar — 294/304'ün (tek değişkenli ikiz) üçüncü sınıfı, esit alanı bunu hiç görmüyor. (b) Öncülsüz 3FS zamir envanteri ve ikizinde öncülün açık olup olmadığı. (c) دابّة'nin kapsam sınırları sabit mi: insan-içeren ve insan-dışlayan kullanımların ayetlerine göre dağılımı."
   },
   {
-   "no": 318,
+   "no": 312,
    "aday": "294 GÜÇLENDİ — Nahl'de 'tek değişkenli ikiz' YEDİ vakaya çıktı ve değişen öğe her seferinde farklı dilbilgisel sınıftan: şahıs (16:19↔23) · muhatap grubu (16:24↔30) · hâl sözcüğü (16:28↔32) · fiil (16:25↔59) · sayı (16:75↔76) · üç değişken birden (16:35↔82) · TEK EDAT (16:84↔89: مِن / فِى). Sonuncusu korpusun ölçülebilir en ince ikizi olabilir.",
    "olculen": {
     "vaka": 7,
@@ -3031,7 +2972,7 @@
    "test": "294'ün taraması genişletiliyor: eşleşme ölçütü kelime dizisi düzeyinde Levenshtein/hizalama ile kurulacak; fark birimi (harf / biçimbirim / kelime) ve dilbilgisel sınıfı etiketlenecek. Nahl'in yedi vakası tek sûrede toplanma açısından anormal mi — konum-eşli null."
   },
   {
-   "no": 319,
+   "no": 313,
    "aday": "AYNI HÜKÜM, İKİ MİMARİ: 15:42'de tek ayette istisna ile kurulan hüküm (إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ) Nahl'de İKİ ayete bölünüyor ve olumlu yarı إِنَّمَا hasrına çevriliyor (16:99 + 16:100). Aynı dönüşüm (إِلَّا → إِنَّمَا) 16:35↔16:82'de de var. İki komşu sûre aynı içeriği iki farklı mantıksal mimariyle kuruyor.",
    "olculen": {
     "hicr": "1 ayet, إِلَّا istisnası",
@@ -3043,7 +2984,7 @@
    "test": "إِلَّا-istisnası ve إِنَّمَا-hasrı ile kurulan eşdeğer hükümlerin korpus taraması: aynı önerme iki edatla kaç yerde geçiyor, ve edat seçimi sûre tipi (Mekkî/Medenî), uzunluk ya da söz edimi ile ilişkili mi? 270 (Hicr istisna zinciri) ile birlikte."
   },
   {
-   "no": 320,
+   "no": 314,
    "aday": "288'İN KESİN VAKASI: ruh kavramının 'sonrası' zenginleşme listesinde قدس ×118.3 en yüksek skordu (16:2 mercekte kaydedilmişti). Kaynağı bulundu: رُوحُ ٱلْقُدُسِ TAMLAMASI (16:102 ve benzerleri). Yani bir 'komşuluk' değil, tek bir sabit terkip. Jackknife testinin ne bulacağının önizlemesi.",
    "olculen": {
     "kavram": "ruh",
@@ -3055,7 +2996,7 @@
    "test": "288/295/301 ile birleşik: zenginleşme hesabından SABİT TERKİPLER (iki kelimelik donmuş tamlamalar) ayrıştırılmalı. Önce terkip envanteri çıkarılacak, sonra skorlar terkip-dışı geçişler üzerinden yeniden hesaplanacak."
   },
   {
-   "no": 321,
+   "no": 315,
    "aday": "TAM SİMETRİK EMİR/YASAK: 16:90 tek cümlede bir emir fiili + ÜÇ nesne ve bir yasak fiili + ÜÇ nesne taşıyor (عدل/إحسان/إيتاء ذى القربى ↔ فحشاء/منكر/بغى). Sûrede emir ve yasağın sayıca dengelendiği tek ayet; kapanış fiili ise üçüncü bir kip (يَعِظُ).",
    "olculen": {
     "emir_nesne": 3,
@@ -3067,7 +3008,7 @@
    "test": "Emir ve yasak fiillerinin aynı ayette dengeli nesne sayısıyla geçtiği vakaların korpus envanteri; 3+3 dışında hangi denge kalıpları var? Ve وعظ kökünün emir/yasak bağlamıyla ilişkisi."
   },
   {
-   "no": 322,
+   "no": 316,
    "aday": "DİŞİL ODAK ÜÇLÜSÜ: Nahl'de üç ayrı sahnenin merkezinde dilbilgisel dişil var — 16:58-59 kız çocuğu (ٱلْأُنثَىٰ) · 16:68-69 arı (2FS emirler: ٱتَّخِذِى, كُلِى, فَٱسْلُكِى) · 16:92 iplik büken kadın (كَٱلَّتِى نَقَضَتْ). Sûrede 2FS'in kullanıldığı tek yer arı sahnesi; sûrenin tek benzetmesi ise kadın.",
    "olculen": {
     "16:58": "ٱلْأُنثَىٰ, edilgen müjde",
@@ -3078,7 +3019,7 @@
    "test": "2FS kipinin korpus envanteri: kaç ayette, hangi muhataplarla (insan / hayvan / soyut)? Ve dişil özneli benzetmelerin dağılımı. NOT: bu aday yalnız DİLBİLGİSEL cinsiyet üzerinden kurulmuştur; toplumsal yorum içermez."
   },
   {
-   "no": 323,
+   "no": 317,
    "aday": "318 TAMAMLANDI — Nahl'de 'tek değişkenli ikiz' SEKİZ vaka ve sekizi de farklı sınıftan. Sonuncusu en geniş: 16:110↔16:119 ÇERÇEVE ikizi, değişen bir kelime değil üç fiillik ARA BÖLÜM. Ölçek şöyle: tek edat (84↔89) → tek fiil (25↔59) → tek hâl sözcüğü (28↔32) → şahıs (19↔23, 33↔118) → sayı (75↔76) → üç değişken (35↔82) → ara bölüm (110↔119).",
    "olculen": {
     "vaka": 8,
@@ -3093,7 +3034,7 @@
    "test": "294/318 taraması: eşleşmeyi hizalama ile kurup FARK BÜYÜKLÜĞÜNÜ ölçeklendir (harf → biçimbirim → kelime → öbek). Nahl'in sekiz vakası tek sûrede toplanma açısından anormal mi? Ve fark büyüklüğü ile iki ayet arasındaki mesafe arasında ilişki var mı?"
   },
   {
-   "no": 324,
+   "no": 318,
    "aday": "أمة DİZİSİ TEKİLE İNİYOR: kök Nahl'de sekiz kez ve son geçişi bir TEK KİŞİYE yükleniyor — إِنَّ إِبْرَٰهِيمَ كَانَ أُمَّةً (16:120). Dizi: her ümmete elçi (36) → ümmetlerin eceli (61) → her ümmetten şahit (84, 89) → bir ümmet ötekinden kalabalık (92) → tek ümmet yapılabilirdi (93) → bir kişi bir ümmet (120). Sûrenin çokluk-teklik ekseni burada kapanıyor.",
    "olculen": {
     "gecis": 8,
@@ -3111,7 +3052,7 @@
    "test": "أمة kökünün korpus envanteri ve 'tek kişiye yüklenme' vakalarının sayımı; 16:120 tek mi? Ve sûre içinde bir kavramın çoğuldan tekile daralarak kapanması kalıbı — başka sûrelerde var mı (konum ölçütü: son geçiş sûrenin son %15'inde)."
   },
   {
-   "no": 325,
+   "no": 319,
    "aday": "'İLÂHÎ EDİM / İNSANA YASAK' KALIBI DÖRT VAKAYA ÇIKTI ve İKİSİ ARDIŞIK AYETTE: مدد (15:19 / 16:88) · زين (15:16, 16:8 / 15:39, 16:63) · ضرب (16:74 yasak → 16:75 icra) · HARAM KILMA (16:115 sayım → 16:116 yasak). Son iki vakada yasak ve icra ARDIŞIK — biri yasaktan icraya, öteki icradan yasağa.",
    "olculen": {
     "vaka": 4,
@@ -3124,7 +3065,7 @@
    "test": "305'in genişletilmiş hâli: aynı kökün hem NEHY hem ilâhî etken fâille geçtiği vakaların envanteri, ARDIŞIKLIK ayrı etiketlenerek. Bu bir üslup kalıbı mı yoksa rastlantı mı — ardışıklık için konum-eşli null."
   },
   {
-   "no": 326,
+   "no": 320,
    "aday": "SÛRELER ARASI KAPANIŞ HALKASI: مَعَ edatı iki komşu sûrenin son lafız bağlamında TERS YÖNDE. 15:96 (Hicr'in son Allah lafzı) يَجْعَلُونَ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ — insanlar 'Allah ile birlikte' başkasını koyuyor. 16:128 (Nahl'in son ayeti ve son lafzı) إِنَّ ٱللَّهَ مَعَ ٱلَّذِينَ ٱتَّقَوا۟ — Allah onlarla birlikte. Aynı edat, özne ve nesne yer değiştirmiş.",
    "olculen": {
     "15:96": "مَعَ ٱللَّهِ, insan fâil, şirk",
@@ -3134,7 +3075,7 @@
    "test": "مَعَ + Allah lafzı kalıbının korpus envanteri ve yön sınıflandırması (lafız mecrur = şirk bağlamı / lafız özne = beraberlik bağlamı). Bu ayrım sistematik mi? Ve komşu sûrelerin kapanış ayetleri arasında sözcük düzeyinde bağ sıklığı — konum-eşli null."
   },
   {
-   "no": 327,
+   "no": 321,
    "aday": "جعل SÛREDE İLK KEZ EDİLGEN, TAM DA YÜKÜMLÜLÜK TARTIŞMASINDA: kök Nahl'de on beş kez etken geçtikten sonra (16:5, 8, 12, 15, 20, 72 ×2, 78, 80 ×2, 81 ×3, 91, 93) 16:124'te edilgen oluyor — إِنَّمَا جُعِلَ ٱلسَّبْتُ. Koyanın adı, bir yükümlülüğün kime ait olduğu tartışılırken siliniyor.",
    "olculen": {
     "etken": 15,
@@ -3145,7 +3086,7 @@
    "test": "جعل kökünün çatı dağılımı korpus çapında; edilgen geçişlerin nesne sınıflandırması (yükümlülük / nitelik / yer). Edilgen çatı ile 'ihtilaf' bağlamı arasında ilişki var mı? İsm-i mef'ûl dizisi (281) ile birlikte okunacak."
   },
   {
-   "no": 328,
+   "no": 322,
    "aday": "İLÂHÎ FİİLDEN MUHATABIN ARACINA: iki kök sûre içinde bu geçişi yapıyor. وعظ — 16:90'da ilâhî fiil ve kapanış kipi (يَعِظُكُمْ), 16:125'te davetin aracı (ٱلْمَوْعِظَةِ ٱلْحَسَنَةِ). جدل — 16:111'de nefsin kendini savunması, 16:125'te muhataba emredilen en güzel tartışma. İkisi de 16:125'te birleşiyor.",
    "olculen": {
     "وعظ": "16:90 ilâhî → 16:125 araç",
@@ -3154,5 +3095,17 @@
    },
    "test": "Bir kökün aynı sûre içinde ilâhî fâilden insan fâile geçtiği vakaların envanteri; 305/325'in (yasak kalıbı) tersi — orada fiil insana YASAK, burada insana EMANET. İki kalıbın kök kümeleri örtüşüyor mu?"
   }
- ]
+ ],
+ "_sayim_notu": {
+  "tarih": "2026-08-20",
+  "islem": "Tam-kopya temizliği + numara boşluğu kapatma",
+  "silinen_kopya": "L_tevbe içinde 145-150 numaralı altı girdi byte düzeyinde ikinci kez kayıtlıydı; kopyalar silindi (bilgi kaybı yok).",
+  "yeniden_numaralama": "T_nahl'da 317-328 -> 311-322. Sebep: numaralar 'toplam girdi sayısı'ndan türetiliyordu, oysa D_geri_cekilenler grubundaki 8 girdi numarasız; bu, 311-316 aralığını boş bırakmıştı.",
+  "kalan_bosluk": "101-108 — Tevbe öncesi oturumlardan; nedeni belirlenmedi, kayıt olarak bırakıldı.",
+  "toplam_girdi": 322,
+  "numarali": 314,
+  "numarasiz": 8,
+  "bonferroni_paydasi": 314,
+  "kural": "Bundan sonra aday numarası TOPLAM GİRDİ SAYISINDAN DEĞİL, mevcut en yüksek numaradan +1 olarak verilecek."
+ }
 }
