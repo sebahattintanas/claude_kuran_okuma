@@ -102,7 +102,7 @@
   },
   {
    "no": 10,
-   "aday": "ندد kökü Allah eksenine aşırı yakın: 6 geçiş, medyan mesafe 1, konum-eşli null medyanı 13, p=0.000. Ölçtüğüm en yakın kök (حمد 3'ten de yakın). Bakara'daki iki geçişi (2:22, 2:165) de Allah lafzına bitişik.",
+   "aday": "ندد kökü Allah eksenine aşırı yakın: 6 geçiş, medyan mesafe 1, konum-eşli null medyanı 13, p=0.000. Ölçtüğüm en yakın kök (حمد *(hamd, övgü)* 3'ten de yakın). Bakara'daki iki geçişi (2:22, 2:165) de Allah lafzına bitişik.",
    "uyari": "n=6 — çok küçük örneklem",
    "test": "küçük-n köklerin dikey ölçümünde güç analizi"
   }
@@ -153,7 +153,7 @@
   },
   {
    "no": 12,
-   "aday": "قلب kökünün Bakara boyunca aşamalı seyri.",
+   "aday": "قلب *(çevirme; kalp)* kökünün Bakara boyunca aşamalı seyri.",
    "olculen": "13 geçiş: 2:7 mühürlü, 2:10 hasta, 2:74 katı, 2:88 kılıflı, 2:93 buzağı içirilmiş, 2:97 indirmenin hedefi, 2:118 benzeşmiş, 2:143/144 (انقلب/تقلّب — farklı türev), 2:204 şahit tutulan, 2:225 hesap yeri, 2:260 yatışmak isteyen, 2:283 günahkâr",
    "uyari": "'Aşamalı seyir' bir OKUMA; sıra ayet numarasından geliyor, metnin bir iddiası değil",
    "test": "kökün nitelik dağılımının sûre içi konumla ilişkisi"
@@ -188,7 +188,7 @@
   },
   {
    "no": 15,
-   "aday": "2:282 (كتب ×9) korpusta tek ayette ikinci en yoğun kök tekrarı.",
+   "aday": "2:282 (كتب *(yazma, kitap)* ×9) korpusta tek ayette ikinci en yoğun kök tekrarı.",
    "olculen": [
     "24:61 بيت ×10",
     "2:282 كتب ×9",
@@ -197,7 +197,7 @@
     "4:92 أمن ×7",
     "4:12 وصي ×7"
    ],
-   "not": "Kur'an'ın en uzun ayeti bir YAZMA emri, ve en yoğun kökü كتب",
+   "not": "Kur'an'ın en uzun ayeti bir YAZMA emri, ve en yoğun kökü كتب *(yazma, kitap)*",
    "test": "yok — bu bir ölçüm, doğrulandı; buraya kayıt amaçlı yazıldı"
   },
   {
@@ -207,7 +207,7 @@
   },
   {
    "no": 17,
-   "aday": "عبد kökü aynı önermeyi üç farklı sözdizimiyle kuruyor: 1:5 kasr zamiri (إِيَّاكَ نَعْبُدُ), 2:21 emir (ٱعْبُدُوا۟), 2:83 hasr (لَا تَعْبُدُونَ إِلَّا ٱللَّهَ).",
+   "aday": "عبد *(kul, kulluk)* kökü aynı önermeyi üç farklı sözdizimiyle kuruyor: 1:5 kasr zamiri (إِيَّاكَ نَعْبُدُ), 2:21 emir (ٱعْبُدُوا۟), 2:83 hasr (لَا تَعْبُدُونَ إِلَّا ٱللَّهَ).",
    "test": "aynı önermenin sözdizimsel varyantlarının dağılımı"
   },
   {
@@ -253,7 +253,7 @@
   },
   {
    "no": 25,
-   "aday": "2:257 tam-simetrik involüsyon: aynı fiil (يُخْرِجُ), iki fâil, ters yön. 2:26'daki tek-fâilli çatallanmanın iki-fâilli hâli. 2:268'de (وعد) aynı yapı tekrar ediyor.",
+   "aday": "2:257 tam-simetrik involüsyon: aynı fiil (يُخْرِجُ), iki fâil, ters yön. 2:26'daki tek-fâilli çatallanmanın iki-fâilli hâli. 2:268'de (وعد *(vaat)*) aynı yapı tekrar ediyor.",
    "test": "simetrik-zıt ayet çiftlerinin taranması"
   },
   {
@@ -426,7 +426,7 @@
   {
    "no": 50,
    "aday": "كفي (yetmek) Nisâ'da sekiz geçiş, yedi farklı nesne: hesap görücü, velî, yardımcı, günah, cehennem, vekil, şahit. Bir yeterlilik operatörü.",
-   "test": "كفي kökünün nesne dağılımı, korpus geneli"
+   "test": "كفي *(yetme)* kökünün nesne dağılımı, korpus geneli"
   },
   {
    "no": 51,
@@ -453,7 +453,7 @@
   },
   {
    "no": 55,
-   "aday": "Dağılım uçları: en yaygın أتي, علم (DP 0.18); en kümelenmiş ألو (0.877), كيد, وصي, كفي, قسم, سعي. وصي'nin kümelenmesi 4:11-12'den geliyor.",
+   "aday": "Dağılım uçları: en yaygın أتي *(gelme, getirme)*, علم (DP 0.18); en kümelenmiş ألو (0.877), كيد, وصي, كفي *(yetme)*, قسم *(paylaştırma; yemin)*, سعي *(çaba)*. وصي'nin kümelenmesi 4:11-12'den geliyor.",
    "test": "DP ile kavram türü (hukukî/anlatı/kozmoloji) ilişkisi"
   },
   {
@@ -490,7 +490,7 @@
   },
   {
    "no": 62,
-   "aday": "5:64 iddiayı KENDİ LAFZIYLA çürütüyor: مَغْلُولَةٌ → غُلَّتْ أَيْدِيهِمْ. 2:13 (ٱلسُّفَهَآء) ve 3:54 (مكر) ile involüsyon figürünün üçüncü örneği.",
+   "aday": "5:64 iddiayı KENDİ LAFZIYLA çürütüyor: مَغْلُولَةٌ → غُلَّتْ أَيْدِيهِمْ. 2:13 (ٱلسُّفَهَآء) ve 3:54 (مكر *(tuzak)*) ile involüsyon figürünün üçüncü örneği.",
    "test": "iddia-lafzının fâile geri döndürülmesi figürünün taranması"
   },
   {
@@ -500,7 +500,7 @@
   },
   {
    "no": 64,
-   "aday": "2:62 ↔ 5:69 liste sırası terslenmiş (Nasârâ/Sâbiîn yer değiştiriyor). Aday #19'a altıncı örnek; 5:18↔5:40 (غفر/عذب) beşinci, 4:135↔5:8 (قوّامين/شهداء) dördüncü.",
+   "aday": "2:62 ↔ 5:69 liste sırası terslenmiş (Nasârâ/Sâbiîn yer değiştiriyor). Aday #19'a altıncı örnek; 5:18↔5:40 (غفر/عذب *(azap)*) beşinci, 4:135↔5:8 (قوّامين/شهداء) dördüncü.",
    "test": "iç sıra terslemesi taraması — artık 6 örnek var, sistematik test yapılabilir"
   },
   {
@@ -663,7 +663,7 @@
   },
   {
    "no": 93,
-   "aday": "7:143 6:103'teki ilkeyi DENEYE çeviriyor: لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ (ilke) → لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ (aracı üzerinden dolaylı test). Ve رأي/نظر ayrılıyor: bakma serbest, görme kapalı.",
+   "aday": "7:143 6:103'teki ilkeyi DENEYE çeviriyor: لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ (ilke) → لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ (aracı üzerinden dolaylı test). Ve رأي *(görme)*/نظر *(bakma; mühlet verme)* ayrılıyor: bakma serbest, görme kapalı.",
    "test": "ilke-deney çiftlerinin taranması"
   },
   {
@@ -683,7 +683,7 @@
   },
   {
    "no": 97,
-   "aday": "سمو kökünün üç kaynağı: 2:31 Âdem'e ÖĞRETİLEN isimler, 7:71 insanların UYDURDUĞU isimler, 7:180 ALLAH'IN isimleri (ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ).",
+   "aday": "سمو *(ad; gök)* kökünün üç kaynağı: 2:31 Âdem'e ÖĞRETİLEN isimler, 7:71 insanların UYDURDUĞU isimler, 7:180 ALLAH'IN isimleri (ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ).",
    "test": "kavram_seyri.json'dan doğrulama"
   },
   {
@@ -693,7 +693,7 @@
   },
   {
    "no": 99,
-   "aday": "عجل kökü 7:148 (عِجْل buzağı) ↔ 7:150 (أَعَجِلْتُمْ acele ettiniz) — iki ayet arayla aynı kök, iki kavram. Ve buzağı Bakara'nın dört geçişinde de bu kökten.",
+   "aday": "عجل *(acele)* kökü 7:148 (عِجْل buzağı) ↔ 7:150 (أَعَجِلْتُمْ acele ettiniz) — iki ayet arayla aynı kök, iki kavram. Ve buzağı Bakara'nın dört geçişinde de bu kökten.",
    "test": "kavram_seyri.json'dan doğrulama"
   },
   {
@@ -705,13 +705,13 @@
  "K_enfal": [
   {
    "no": 109,
-   "aday": "İkiz açılışlı ayet çiftinde (8:52 / 8:54) eksen adı, fiil ve fâil birlikte değişiyor: كفر + آيات الله + zâhir fâil الله ↔ كذّب + آيات ربهم + 1.çoğul fâil.",
+   "aday": "İkiz açılışlı ayet çiftinde (8:52 / 8:54) eksen adı, fiil ve fâil birlikte değişiyor: كفر *(inkâr, nankörlük)* + آيات الله + zâhir fâil الله ↔ كذّب + آيات ربهم + 1.çoğul fâil.",
    "olculen": {
     "8:52": "A=[9,11,14], R=[], esmâ قَوِيّ",
     "8:54": "A=[], R=[[9,'رَبّ']], fiiller أَهْلَكْنَا/أَغْرَقْنَا",
     "dikey_referans": "tekzib medyan 23 vs null 15, p=0.002 UZAK · küfür medyan 9 vs null 9, p=0.75 NÖTR"
    },
-   "test": "Korpus geneli 2x2: âyetlere karşı fiil كفر iken lafız Allah, كذّب iken Rab olma eğilimi. Permütasyon + Bonferroni. Bu çift MOTİVE EDEN gözlemdir, testten dışlanacak.",
+   "test": "Korpus geneli 2x2: âyetlere karşı fiil كفر *(inkâr, nankörlük)* iken lafız Allah, كذّب iken Rab olma eğilimi. Permütasyon + Bonferroni. Bu çift MOTİVE EDEN gözlemdir, testten dışlanacak.",
    "uyari": "Tek çift. Dikey ölçüm bağımsız olarak aynı yönü gösteriyor ama bu bir doğrulama değil, ikinci bir gözlem."
   },
   {
@@ -735,13 +735,13 @@
   },
   {
    "no": 112,
-   "aday": "رأي kökü altı ayette altı kez ve fâili sırayla değişiyor: Allah (8:43,44) → insan gösterişi (8:47) → taraflar (8:48) → şeytan (8:48 ×2).",
+   "aday": "رأي *(görme)* kökü altı ayette altı kez ve fâili sırayla değişiyor: Allah (8:43,44) → insan gösterişi (8:47) → taraflar (8:48) → şeytan (8:48 ×2).",
    "olculen": {
     "gecis": 6,
     "ayet_araligi": "8:43-48",
     "dikey_referans": "رأي medyan 15 vs null 13, p=0.206 NÖTR (korpus geneli)"
    },
-   "test": "رأي yoğunluğu sûre bazında; Enfâl korpus ortalamasının üstünde mi? Fâil kimliğine göre dağılım."
+   "test": "رأي *(görme)* yoğunluğu sûre bazında; Enfâl korpus ortalamasının üstünde mi? Fâil kimliğine göre dağılım."
   },
   {
    "no": 113,
@@ -806,7 +806,7 @@
     "8:75": "ولي, بعض ×2",
     "dikey_referans": "ولي 232 geçiş, medyan 8 vs null 10, p=0.134 NÖTR"
    },
-   "test": "بعض ×2 karşılıklılık kalıbının korpus dağılımı; taraf kimliğinden bağımsız mı?"
+   "test": "بعض *(bir kısım)* ×2 karşılıklılık kalıbının korpus dağılımı; taraf kimliğinden bağımsız mı?"
   },
   {
    "no": 119,
@@ -894,7 +894,7 @@
   },
   {
    "no": 127,
-   "aday": "Sûre 9'un tek ardışık fâsıla kırılması 9:38-39'da (ل ve R), 123/129 N baskınlığının içinde. İkisi de aynı köke dayanıyor (نفر) ve ikisi de aynı emrin iki yüzü: 9:38 soru, 9:39 tehdit.",
+   "aday": "Sûre 9'un tek ardışık fâsıla kırılması 9:38-39'da (ل ve R), 123/129 N baskınlığının içinde. İkisi de aynı köke dayanıyor (نفر *(topluluk; kaçış)*) ve ikisi de aynı emrin iki yüzü: 9:38 soru, 9:39 tehdit.",
    "olculen": {
     "sûre_9_fâsıla": "N 123 · R 4 (39,73,74,116) · ل 1 (38) · ب 1 (78)",
     "ardışık_kırılma": "yalnız 38-39"
@@ -1111,7 +1111,7 @@
     "9:114": "HASR, Allah 16",
     "9:115": "NEG, Allah 3 ve 15"
    },
-   "test": "بين kökünün 'geçerlilik eşiği' işlevi korpus genelinde ne sıklıkta? Şart/istisna bağlamı filtresi."
+   "test": "بين *(arası; açıklama)* kökünün 'geçerlilik eşiği' işlevi korpus genelinde ne sıklıkta? Şart/istisna bağlamı filtresi."
   },
   {
    "no": 150,
@@ -1213,7 +1213,7 @@
     "10:17": "ikile كذب ×2, iki farklı kavram",
     "dikey_referans": "فري 60 geçiş, medyan 5 vs null 13, p=0.001 YAKIN — bloğun en güçlü dikey sonucu"
    },
-   "test": "كذب/كذّب çiftinin aynı ayette geçtiği yerler; 'iftira' ve 'tekzîb'in Allah-mesafesi farkı (tekzîb p=0.002 UZAK, aday 109). İkisi bitişikken mesafe nasıl davranıyor?"
+   "test": "كذب *(yalan; yalanlama)*/كذّب çiftinin aynı ayette geçtiği yerler; 'iftira' ve 'tekzîb'in Allah-mesafesi farkı (tekzîb p=0.002 UZAK, aday 109). İkisi bitişikken mesafe nasıl davranıyor?"
   },
   {
    "no": 160,
@@ -1231,7 +1231,7 @@
     "10:26": "n=16, حسن ×2, NEG ×2 (karartı ve zillet olumsuzlanıyor)",
     "10:27": "n=27, سوأ ×2, ذلة olumlanıyor, Allah 12"
    },
-   "test": "Korpusta ceza-mükâfat oranı ifadelerinin taranması: مثل/ضعف/زيادة/أضعاف terimleriyle. Asimetri sistematik mi? 6:160 (bir iyiliğe on) ile birlikte."
+   "test": "Korpusta ceza-mükâfat oranı ifadelerinin taranması: مثل *(benzer, mesel)*/ضعف *(kat; zayıflık)*/زيادة/أضعاف terimleriyle. Asimetri sistematik mi? 6:160 (bir iyiliğe on) ile birlikte."
   },
   {
    "no": 162,
@@ -1265,7 +1265,7 @@
   },
   {
    "no": 165,
-   "aday": "Meydan okuma sûre içinde ters yöne çevriliyor: 10:15'te karşı taraf ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ diyor, 10:38'de cevap فَأْتُوا۟ بِسُورَةٍۢ مِّثْلِهِۦ oluyor. Aynı fiil (أتي), ters fâil, ve ölçek küçültülüyor: tamamı değil bir sûre.",
+   "aday": "Meydan okuma sûre içinde ters yöne çevriliyor: 10:15'te karşı taraf ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ diyor, 10:38'de cevap فَأْتُوا۟ بِسُورَةٍۢ مِّثْلِهِۦ oluyor. Aynı fiil (أتي *(gelme, getirme)*), ters fâil, ve ölçek küçültülüyor: tamamı değil bir sûre.",
    "olculen": {
     "10:15": "n=39, IMPV ×3, 1S 10",
     "10:38": "n=16, IMPV ×3, 2MP 8",
@@ -1281,7 +1281,7 @@
     "10:43": "n=11, نظر/بصر, 3MP 5",
     "ortak": "INTG + COND + NEG, ikisinde de Allah lafzı YOK"
    },
-   "test": "Duyu çiftlerinin (سمع/بصر) ikiz ayetlerde eşleştirilmesi: korpusta kaç kez bitişik ve eşit uzunlukta? 2:7, 2:18, 2:171 vb. ile karşılaştırma."
+   "test": "Duyu çiftlerinin (سمع *(işitme)*/بصر *(görme)*) ikiz ayetlerde eşleştirilmesi: korpusta kaç kez bitişik ve eşit uzunlukta? 2:7, 2:18, 2:171 vb. ile karşılaştırma."
   },
   {
    "no": 167,
@@ -1312,7 +1312,7 @@
     "10:47": "n=12, yıldız ★★★, edilgen 2, Allah YOK",
     "10:54": "n=21, edilgen 2, Allah YOK"
    },
-   "test": "Birebir tekrarlanan kapanış cümlelerinde edilgen yoğunluğu: hüküm/kaza sahnelerinde fâilin gizlenmesi sistematik mi? pas alanı + قضي kökü filtresi."
+   "test": "Birebir tekrarlanan kapanış cümlelerinde edilgen yoğunluğu: hüküm/kaza sahnelerinde fâilin gizlenmesi sistematik mi? pas alanı + قضي *(hükmetme, bitirme)* kökü filtresi."
   },
   {
    "no": 170,
@@ -1419,7 +1419,7 @@
     "10:106": "FAYDA önce",
     "dikey_referans": "ضرر 74 geçiş p=0.318 NÖTR · نفع 50 geçiş"
    },
-   "test": "İkili kalıplarda terim sırasının değişmesi anlamlı mı? ضرّ/نفع, سماء/أرض, ليل/نهار gibi çiftlerde sıra dağılımı ve bağlam ilişkisi."
+   "test": "İkili kalıplarda terim sırasının değişmesi anlamlı mı? ضرّ/نفع, سماء/أرض *(yer, yeryüzü)*, ليل *(gece)*/نهار gibi çiftlerde sıra dağılımı ve bağlam ilişkisi."
   }
  ],
  "N_hud": [
@@ -1465,7 +1465,7 @@
   },
   {
    "no": 185,
-   "aday": "11:18 blokta tek çift-eksenli ayet ve iki ad İŞLEVE GÖRE ayrışıyor: iftira ALLAH'a karşı (ٱفْتَرَىٰ عَلَى ٱللَّهِ … لَعْنَةُ ٱللَّهِ), sunulma ve yalan söyleme RAB'be karşı (يُعْرَضُونَ عَلَىٰ رَبِّهِمْ … كَذَبُوا۟ عَلَىٰ رَبِّهِمْ). Dört kök ikilemesi (ظلم, أله, ربب, كذب).",
+   "aday": "11:18 blokta tek çift-eksenli ayet ve iki ad İŞLEVE GÖRE ayrışıyor: iftira ALLAH'a karşı (ٱفْتَرَىٰ عَلَى ٱللَّهِ … لَعْنَةُ ٱللَّهِ), sunulma ve yalan söyleme RAB'be karşı (يُعْرَضُونَ عَلَىٰ رَبِّهِمْ … كَذَبُوا۟ عَلَىٰ رَبِّهِمْ). Dört kök ikilemesi (ظلم *(zulüm)*, أله *(ilâh; lafza-i celâl)*, ربب *(rab, terbiye etme)*, كذب *(yalan; yalanlama)*).",
    "olculen": {
     "11:18": "A=[6,21] z=1.21, R=[11,18] z=1.53, n=23"
    },
@@ -1502,7 +1502,7 @@
   },
   {
    "no": 189,
-   "aday": "Duyu çifti (سمع/بصر) üç farklı biçimde ve üç ayette: 10:42-43 iki ayrı ayette iki özdeş denklem (n=11 eşit), 11:20 tek cümlede olumsuz kip, 11:24 çapraz mesel olarak tam simetri (kör-sağır / gören-işiten).",
+   "aday": "Duyu çifti (سمع *(işitme)*/بصر *(görme)*) üç farklı biçimde ve üç ayette: 10:42-43 iki ayrı ayette iki özdeş denklem (n=11 eşit), 11:20 tek cümlede olumsuz kip, 11:24 çapraz mesel olarak tam simetri (kör-sağır / gören-işiten).",
    "olculen": {
     "10:42-43": "ayrı denklemler, INTG + COND",
     "11:20": "NEG ×4 içinde",
@@ -1607,7 +1607,7 @@
   },
   {
    "no": 200,
-   "aday": "Hûd'un peygamber döngüsünde İTİRAZ GEREKÇESİ her kavimde değişiyor: Nûh'a 'seni bizim gibi bir insan GÖRÜYORUZ' (11:27, رأي ×4 — gözlem), Hûd'a 'bize apaçık DELİL getirmedin' (11:53, NEG ×3 — kanıt), Sâlih'e 'bundan önce sen aramızda UMUT BAĞLANANDIN' (11:62 — geçmiş beklenti).",
+   "aday": "Hûd'un peygamber döngüsünde İTİRAZ GEREKÇESİ her kavimde değişiyor: Nûh'a 'seni bizim gibi bir insan GÖRÜYORUZ' (11:27, رأي *(görme)* ×4 — gözlem), Hûd'a 'bize apaçık DELİL getirmedin' (11:53, NEG ×3 — kanıt), Sâlih'e 'bundan önce sen aramızda UMUT BAĞLANANDIN' (11:62 — geçmiş beklenti).",
    "olculen": {
     "11:27": "n=29, رأي ×4, HASR ×2 + IDRAB",
     "11:53": "n=15, NEG ×3, esmâ مُؤْمِن",
@@ -1899,7 +1899,7 @@
     "12:76": "n=33, yıldız ★★, Allah 24, GEN 12",
     "dikey": "كيد 35 geçiş, medyan 23 vs null 21, p=0.425 NÖTR"
    },
-   "test": "كيد kökünün korpus taraması: fâil kimliğine göre değer dağılımı (insan tuzağı / ilâhî düzen). 3:54, 7:99, 27:50, 86:15-16 ile birlikte. aday 112 (رأي kutup değişimi) ile aynı sınıf."
+   "test": "كيد kökünün korpus taraması: fâil kimliğine göre değer dağılımı (insan tuzağı / ilâhî düzen). 3:54, 7:99, 27:50, 86:15-16 ile birlikte. aday 112 (رأي *(görme)* kutup değişimi) ile aynı sınıf."
   },
   {
    "no": 228,
@@ -1983,7 +1983,7 @@
   },
   {
    "no": 247,
-   "aday": "كيل kökü Yûsuf'ta BEŞ sahnede beş farklı PAZARLIK KONUMU taşıyor ve terim sabit kalıyor: 12:59 güven beyanı (أُوفِى ٱلْكَيْلَ), 12:60 baskı aracı (فَلَا كَيْلَ لَكُمْ), 12:63 engel (مُنِعَ مِنَّا ٱلْكَيْلُ — edilgen, fâil yok), 12:65 teşvik (نَزْدَادُ كَيْلَ بَعِيرٍ), 12:88 yalvarış (فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ — hak edilen ve hak edilmeyen birlikte). Ve zincir Yûsuf'ta başlamıyor: 11:84-85'te aynı kök Şuayb'ın kavmine EMRETTİĞİ ölçüt.",
+   "aday": "كيل *(ölçme (hacim))* kökü Yûsuf'ta BEŞ sahnede beş farklı PAZARLIK KONUMU taşıyor ve terim sabit kalıyor: 12:59 güven beyanı (أُوفِى ٱلْكَيْلَ), 12:60 baskı aracı (فَلَا كَيْلَ لَكُمْ), 12:63 engel (مُنِعَ مِنَّا ٱلْكَيْلُ — edilgen, fâil yok), 12:65 teşvik (نَزْدَادُ كَيْلَ بَعِيرٍ), 12:88 yalvarış (فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ — hak edilen ve hak edilmeyen birlikte). Ve zincir Yûsuf'ta başlamıyor: 11:84-85'te aynı kök Şuayb'ın kavmine EMRETTİĞİ ölçüt.",
    "olculen": {
     "gecis_sayisi": "korpusta 16; Yûsuf'ta 5 (%31) — oysa Yûsuf korpusun %2.3'ü",
     "dikey": "كيل 16 geçiş, medyan 14 vs null 18, p=0.301 — ANLAMSIZ (nötr)",
@@ -1992,7 +1992,7 @@
     "12:59": "n=17, soru biçiminde kanıt muhatabın gözlemine bırakılıyor",
     "12:60": "n=10, NEHY, iki olumsuzlama giderek genişliyor (mal → temas)"
    },
-   "test": "İKİ AYRI TEST GEREKİYOR ve karıştırılmamalı: (a) TERİM YIĞILMASI — Yûsuf'taki %31 yığılma anlatı-terim yığılmasıdır, eksen bulgusu DEĞİL; kontrol için diğer anlatı-özgü terimlerin (قميص 12'de 3/6, جبّ 12'de 2/2) yığılma oranıyla karşılaştırılmalı. Beklenti: tek-anlatı sûrelerinde somut nesne adları yığılır (aday 212 ile aynı aile). (b) İŞLEV DEĞİŞİMİ — aynı terimin sahne içinde pazarlık konumu değiştirmesi; aday 112 (رأي kutup değişimi), 197 (قَرِيب), 227 (كيد), 232 (gömlek üç işlev) ile aynı sınıf. Ortak test: bir kökün tek sûre içinde işlev/değer değiştirdiği vakaların korpus taraması. UYARI: dikey ölçüm كيل için p=0.301 — eksen mesafesi açısından NÖTR, yani bu bir Allah-ekseni bulgusu değil, sözcük-işlevi bulgusudur."
+   "test": "İKİ AYRI TEST GEREKİYOR ve karıştırılmamalı: (a) TERİM YIĞILMASI — Yûsuf'taki %31 yığılma anlatı-terim yığılmasıdır, eksen bulgusu DEĞİL; kontrol için diğer anlatı-özgü terimlerin (قميص 12'de 3/6, جبّ 12'de 2/2) yığılma oranıyla karşılaştırılmalı. Beklenti: tek-anlatı sûrelerinde somut nesne adları yığılır (aday 212 ile aynı aile). (b) İŞLEV DEĞİŞİMİ — aynı terimin sahne içinde pazarlık konumu değiştirmesi; aday 112 (رأي *(görme)* kutup değişimi), 197 (قَرِيب), 227 (كيد), 232 (gömlek üç işlev) ile aynı sınıf. Ortak test: bir kökün tek sûre içinde işlev/değer değiştirdiği vakaların korpus taraması. UYARI: dikey ölçüm كيل *(ölçme (hacim))* için p=0.301 — eksen mesafesi açısından NÖTR, yani bu bir Allah-ekseni bulgusu değil, sözcük-işlevi bulgusudur."
   }
  ],
  "P_rad": [
@@ -2037,7 +2037,7 @@
     "13:17": "n=42 (z=3.14), YILDIZ ★★★, hapaks جفأ, زبد ×3, ضرب ×2, AMMA, Allah 25 ve 41",
     "yapı": "iki süreç → tek ölçüt → AMMA çifti → genelleme"
    },
-   "test": "Korpusta aynı meselin iki bağımsız alandan örneklendiği yerler; 'doğal + yapay' çifti nadir mi? ضرب مثل kalıbının yapısal analizi."
+   "test": "Korpusta aynı meselin iki bağımsız alandan örneklendiği yerler; 'doğal + yapay' çifti nadir mi? ضرب *(vurma; mesel getirme)* مثل *(benzer, mesel)* kalıbının yapısal analizi."
   },
   {
    "no": 240,
@@ -2249,13 +2249,13 @@
   },
   {
    "no": 260,
-   "aday": "حفظ kökü Hicr'de iki nesneye bağlanıyor, sekiz ayet arayla: 15:9 ٱلذِّكْر (metin) ve 15:17 ٱلسَّمَاء (mekân). Her ikisinde de fâil 1P.",
+   "aday": "حفظ *(koruma)* kökü Hicr'de iki nesneye bağlanıyor, sekiz ayet arayla: 15:9 ٱلذِّكْر (metin) ve 15:17 ٱلسَّمَاء (mekân). Her ikisinde de fâil 1P.",
    "olculen": {
     "dikey_حفظ": "44 geçiş, Allah'a medyan 16 (rastgele ref ~11), etiket 'orta'",
     "oncesi_zengin": "ırz ×62.8, oruç ×51.6, sadaka ×27.9, gök ×3.2",
     "sonrasi_zengin": "zikir ×2.45, emir ×2.04, rahmet ×1.54"
    },
-   "test": "حفظ kökünün nesne sınıflandırması (metin / mekân / kişi / namus / emanet); nesne sınıfı ile fâil şahsı arasındaki bağ."
+   "test": "حفظ *(koruma)* kökünün nesne sınıflandırması (metin / mekân / kişi / namus / emanet); nesne sınıfı ile fâil şahsı arasındaki bağ."
   },
   {
    "no": 261,
@@ -2298,7 +2298,7 @@
     "15:37": "olumlu, 2MS, مِنَ + belirli çoğul",
     "kok": "نظر bab IV, ism-i mef'ûl"
    },
-   "test": "نظر bab IV ism-i mef'ûl biçiminin korpus dağılımı ve kutup (olumlu/olumsuz) ile muhatap sınıfı (insan/gayb) arasındaki ilişki."
+   "test": "نظر *(bakma; mühlet verme)* bab IV ism-i mef'ûl biçiminin korpus dağılımı ve kutup (olumlu/olumsuz) ile muhatap sınıfı (insan/gayb) arasındaki ilişki."
   },
   {
    "no": 265,
@@ -2308,11 +2308,11 @@
     "15:39": "لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ",
     "dikey_زين": "blok sonunda ölçülecek"
    },
-   "test": "زين kökünün fâil sınıflandırması (ilâhî / şeytanî / insanî) ve alan (gök / yer / amel) eşleşmesi; korpus geneli."
+   "test": "زين *(süsleme)* kökünün fâil sınıflandırması (ilâhî / şeytanî / insanî) ve alan (gök / yer / amel) eşleşmesi; korpus geneli."
   },
   {
    "no": 266,
-   "aday": "روح kavramı (kök ayrımlı, 24 geçiş) korpus çapında نفخ (×73.9), سوّى/düzenleme (×59.1) ile ÖNCE, secde (×18.5) ile SONRA zenginleşiyor. 15:29 bu üç komşuluğun ÜÇÜNÜ birden tek ayette taşıyor. UYARI: aranarak bulundu — 15:29 okunduğu için ölçüldü.",
+   "aday": "روح *(ruh; rüzgâr)* kavramı (kök ayrımlı, 24 geçiş) korpus çapında نفخ (×73.9), سوّى/düzenleme (×59.1) ile ÖNCE, secde (×18.5) ile SONRA zenginleşiyor. 15:29 bu üç komşuluğun ÜÇÜNÜ birden tek ayette taşıyor. UYARI: aranarak bulundu — 15:29 okunduğu için ölçüldü.",
    "olculen": {
     "ruh_gecis": 24,
     "oncesi": "destekleme ×131.4, نفخ ×73.9, düzenleme ×59.1, melek ×10.1",
@@ -2321,11 +2321,11 @@
     "null_ref": 11,
     "etiket": "UZAK"
    },
-   "test": "madde→ruh zinciri taraması (YAPILACAKLAR'daki ertelenmiş madde): سوّى/نفخ/روح/سجد dizisinin korpustaki tam ve kısmî örnekleri; 15:29 ve 38:72 motive eden ayetler olarak DIŞLANARAK."
+   "test": "madde→ruh zinciri taraması (YAPILACAKLAR'daki ertelenmiş madde): سوّى/نفخ *(üfleme)*/روح *(ruh; rüzgâr)*/سجد *(secde)* dizisinin korpustaki tam ve kısmî örnekleri; 15:29 ve 38:72 motive eden ayetler olarak DIŞLANARAK."
   },
   {
    "no": 267,
-   "aday": "ÖLÇÜM ARACI NOTU: روح kökü tek başına sorgulandığında (57 geçiş) 'ruh' ve 'rüzgâr' birleşiyor ve sonrası zenginleşmede صرصر/fırtına ×116 çıkıyor — sahte komşuluk. kavram_ad ile ayrıldığında ruh 24 / rüzgâr 29 geçişe bölünüyor ve profiller tamamen ayrışıyor. Hicr bu iki anlamı 7 ayet arayla kullanıyor (15:22 rüzgâr, 15:29 ruh).",
+   "aday": "ÖLÇÜM ARACI NOTU: روح *(ruh; rüzgâr)* kökü tek başına sorgulandığında (57 geçiş) 'ruh' ve 'rüzgâr' birleşiyor ve sonrası zenginleşmede صرصر/fırtına ×116 çıkıyor — sahte komşuluk. kavram_ad ile ayrıldığında ruh 24 / rüzgâr 29 geçişe bölünüyor ve profiller tamamen ayrışıyor. Hicr bu iki anlamı 7 ayet arayla kullanıyor (15:22 rüzgâr, 15:29 ruh).",
    "olculen": {
     "kok_روح": 57,
     "ruh": 24,
@@ -2338,7 +2338,7 @@
   },
   {
    "no": 268,
-   "aday": "لقح korpusta HAPAKS (tek geçiş, 15:22) ve çoğul İSM-İ FÂİL olarak رياح'ı niteliyor — yani rüzgâra taşıyıcılık değil fâillik yükleniyor, fiilin nesnesi ise dilde boş. Allah'a mesafe 178 kelime (rastgele ref 11) = korpusun en uzak çeperi.",
+   "aday": "لقح *(aşılama)* korpusta HAPAKS (tek geçiş, 15:22) ve çoğul İSM-İ FÂİL olarak رياح'ı niteliyor — yani rüzgâra taşıyıcılık değil fâillik yükleniyor, fiilin nesnesi ise dilde boş. Allah'a mesafe 178 kelime (rastgele ref 11) = korpusun en uzak çeperi.",
    "olculen": {
     "gecis": 1,
     "bicim": "ism-i fâil çoğul, لَوَٰقِح",
@@ -2389,7 +2389,7 @@
   },
   {
    "no": 271,
-   "aday": "ÖLÇÜM ARTEFAKTI — QASEM: Hicr'in üç QASEM etiketinden İKİSİ sahte. 15:44 مَّقْسُوم ve 15:90 ٱلْمُقْتَسِمِين قسم kökünden (paylaştırma), yemin değil. defter5.py satır ~59: 'قسم/حلف kökü varsa QASEM ekle' kuralı anlamı ayırmıyor. Gerçek yemin yalnız 15:92 (فَوَرَبِّكَ).",
+   "aday": "ÖLÇÜM ARTEFAKTI — QASEM: Hicr'in üç QASEM etiketinden İKİSİ sahte. 15:44 مَّقْسُوم ve 15:90 ٱلْمُقْتَسِمِين قسم *(paylaştırma; yemin)* kökünden (paylaştırma), yemin değil. defter5.py satır ~59: 'قسم *(paylaştırma; yemin)*/حلف kökü varsa QASEM ekle' kuralı anlamı ayırmıyor. Gerçek yemin yalnız 15:92 (فَوَرَبِّكَ).",
    "olculen": {
     "QASEM_etiketli": [
      44,
@@ -2405,7 +2405,7 @@
     ],
     "kural": "defter5.py: kök tabanlı, kavram() kullanmıyor"
    },
-   "test": "Korpus çapında QASEM etiketinin denetimi: kaç tanesi قسم kökünün 'paylaştırma' anlamından geliyor? 71 QASEM ayetinin tam taraması. kavram_ad ile yeniden kurulmalı."
+   "test": "Korpus çapında QASEM etiketinin denetimi: kaç tanesi قسم *(paylaştırma; yemin)* kökünün 'paylaştırma' anlamından geliyor? 71 QASEM ayetinin tam taraması. kavram_ad ile yeniden kurulmalı."
   },
   {
    "no": 272,
@@ -2428,14 +2428,14 @@
   },
   {
    "no": 273,
-   "aday": "نجو (kurtuluş, 84 geçiş) korpus çapında غبر/geride-kalan (×74.4), مرأ/kadın (×16.7) ve azap-sürme (×65.1) ile SONRASI zenginleşiyor. 15:59-60 bu komşuluğun üçünü art arda taşıyor (لَمُنَجُّوهُمْ / ٱمْرَأَتَهُۥ / ٱلْغَٰبِرِين). 266 (روح/15:29) ile aynı sınıf gözlem. UYARI: aranarak bulundu.",
+   "aday": "نجو (kurtuluş, 84 geçiş) korpus çapında غبر/geride-kalan (×74.4), مرأ/kadın (×16.7) ve azap-sürme (×65.1) ile SONRASI zenginleşiyor. 15:59-60 bu komşuluğun üçünü art arda taşıyor (لَمُنَجُّوهُمْ / ٱمْرَأَتَهُۥ / ٱلْغَٰبِرِين). 266 (روح *(ruh; rüzgâr)*/15:29) ile aynı sınıf gözlem. UYARI: aranarak bulundu.",
    "olculen": {
     "gecis": 84,
     "sonrasi": "كرب ×86.8, غبر ×74.4, azap-sürme ×65.1, isyan ×52.1, مرأ ×16.7",
     "allah_medyan": 21,
     "null_ref": 11
    },
-   "test": "'Kurtuluş kalıbı' (نجو + istisna + geride kalan) korpus taraması; kalıbın kaç kıssada tam, kaçında kısmî. Motive eden 15:59-60 DIŞLANARAK. Ayrıca 266 ile birlikte: dikey okumanın modal komşuluğunun tek ayette toplanması ne sıklıkta oluyor — null gerekli."
+   "test": "'Kurtuluş kalıbı' (نجو *(kurtulma, kurtarma)* + istisna + geride kalan) korpus taraması; kalıbın kaç kıssada tam, kaçında kısmî. Motive eden 15:59-60 DIŞLANARAK. Ayrıca 266 ile birlikte: dikey okumanın modal komşuluğunun tek ayette toplanması ne sıklıkta oluyor — null gerekli."
   },
   {
    "no": 274,
@@ -2458,7 +2458,7 @@
   },
   {
    "no": 275,
-   "aday": "بشر kökü 15:53-55 arasında DÖRT geçiş, üç ayette, üç şahısla: نُبَشِّرُكَ (1P→2MS) · أَبَشَّرْتُمُونِى (2MP→1S, soru) · تُبَشِّرُونَ (2MP, soru) · بَشَّرْنَٰكَ (1P→2MS). Müjde fiili tam bir gidiş-dönüş çevrimi tamamlıyor; her seferinde bab II.",
+   "aday": "بشر *(müjde; beşer)* kökü 15:53-55 arasında DÖRT geçiş, üç ayette, üç şahısla: نُبَشِّرُكَ (1P→2MS) · أَبَشَّرْتُمُونِى (2MP→1S, soru) · تُبَشِّرُونَ (2MP, soru) · بَشَّرْنَٰكَ (1P→2MS). Müjde fiili tam bir gidiş-dönüş çevrimi tamamlıyor; her seferinde bab II.",
    "olculen": {
     "15:53": "نُبَشِّرُكَ IMPF",
     "15:54": "أَبَشَّرْتُمُونِى PERF + تُبَشِّرُونَ IMPF",
@@ -2480,7 +2480,7 @@
   },
   {
    "no": 277,
-   "aday": "15:65 ve 15:66 ardışık ayetleri ÜÇ KÖK paylaşıyor (قطع, دبر, أمر) ve üçünde de anlam kayıyor — biri kurtuluş talimatı, öteki helâk hükmü. Aynı sözcük dağarcığı iki karşıt akıbeti tarif ediyor.",
+   "aday": "15:65 ve 15:66 ardışık ayetleri ÜÇ KÖK paylaşıyor (قطع *(kesme)*, دبر *(arka)*, أمر *(emir; iş)*) ve üçünde de anlam kayıyor — biri kurtuluş talimatı, öteki helâk hükmü. Aynı sözcük dağarcığı iki karşıt akıbeti tarif ediyor.",
    "olculen": {
     "قطع": "بِقِطْعٍ مِّنَ ٱلَّيْلِ / مَقْطُوعٌ",
     "دبر": "أَدْبَٰرَهُمْ / دَابِرَ",
@@ -2490,7 +2490,7 @@
   },
   {
    "no": 278,
-   "aday": "ÖLÇÜM ARTEFAKTI — QASEM'in yanlış negatifi: 15:72 لَعَمْرُكَ açık bir yemindir ama QASEM etiketi ALMAMIŞ. Aynı sûrede iki yanlış POZİTİF (15:44, 15:90 = قسم kökü) var. Yani etiket her iki yönde de hatalı.",
+   "aday": "ÖLÇÜM ARTEFAKTI — QASEM'in yanlış negatifi: 15:72 لَعَمْرُكَ açık bir yemindir ama QASEM etiketi ALMAMIŞ. Aynı sûrede iki yanlış POZİTİF (15:44, 15:90 = قسم *(paylaştırma; yemin)* kökü) var. Yani etiket her iki yönde de hatalı.",
    "olculen": {
     "yanlis_pozitif": [
      44,
@@ -2508,7 +2508,7 @@
   },
   {
    "no": 279,
-   "aday": "HAPAKS ALLAH-MESAFESİ YANLI: Hicr'in iki hapaks kökü ölçekte iki uçta — لقح (15:22) 178 kelime 'en uzak', فضح (15:68) 2 kelime 'yapışık'. Ama فضح'in yakınlığı tamamen komşusundan geliyor: 15:69 sûrenin İLK Allah lafzı. n=1'de ölçüm kökün değil, tek komşunun özelliğini veriyor.",
+   "aday": "HAPAKS ALLAH-MESAFESİ YANLI: Hicr'in iki hapaks kökü ölçekte iki uçta — لقح (15:22) 178 kelime 'en uzak', فضح (15:68) 2 kelime 'yapışık'. Ama فضح *(rezil etme)*'in yakınlığı tamamen komşusundan geliyor: 15:69 sûrenin İLK Allah lafzı. n=1'de ölçüm kökün değil, tek komşunun özelliğini veriyor.",
    "olculen": {
     "لقح": 178,
     "فضح": 2,
@@ -2629,7 +2629,7 @@
  "T_nahl": [
   {
    "no": 288,
-   "aday": "YÖNTEM UYARISI — dikey okumanın 'modal komşuluğu' birkaç kalıp ayet tarafından sürükleniyor olabilir. Dört vaka üst üste: 15:29 (ruh: نفخ+سوّى+secde) · 15:59-60 (نجو: غبر+مرأ) · 16:2 (ruh: نزل+ملك+روح+أمر) · 16:12 (نجم: شمس+قمر+ليل+أمر). Her seferinde okunan ayet, kökün zenginleşme listesinin ÇOĞUNU tek başına taşıyor.",
+   "aday": "YÖNTEM UYARISI — dikey okumanın 'modal komşuluğu' birkaç kalıp ayet tarafından sürükleniyor olabilir. Dört vaka üst üste: 15:29 (ruh: نفخ *(üfleme)*+سوّى+secde) · 15:59-60 (نجو *(kurtulma, kurtarma)*: غبر+مرأ) · 16:2 (ruh: نزل *(inme, indirme)*+ملك *(mülk; melik)*+روح *(ruh; rüzgâr)*+أمر *(emir; iş)*) · 16:12 (نجم *(yıldız)*: شمس *(güneş)*+قمر *(ay)* *(ay)* *(ay)*+ليل *(gece)*+أمر *(emir; iş)*). Her seferinde okunan ayet, kökün zenginleşme listesinin ÇOĞUNU tek başına taşıyor.",
    "olculen": {
     "ruh_gecis": 24,
     "نجم_gecis": 13,
@@ -2686,13 +2686,13 @@
   },
   {
    "no": 292,
-   "aday": "YARATMA MALZEMESİ TERİMİ SÛREYE GÖRE DEĞİŞİYOR: aynı olay (insanın yaratılışı) Hicr'de صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (üç kez, 15:26/28/33), Nahl'de نُّطْفَة (16:4). Ve anlatım yapısı da ters: Hicr üç adımlı zincir (سوّى→نفخ→سجد), Nahl فَإِذَا ile ani hâl değişimi, ara adım yok.",
+   "aday": "YARATMA MALZEMESİ TERİMİ SÛREYE GÖRE DEĞİŞİYOR: aynı olay (insanın yaratılışı) Hicr'de صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (üç kez, 15:26/28/33), Nahl'de نُّطْفَة (16:4). Ve anlatım yapısı da ters: Hicr üç adımlı zincir (سوّى→نفخ *(üfleme)*→سجد *(secde)*), Nahl فَإِذَا ile ani hâl değişimi, ara adım yok.",
    "olculen": {
     "hicr": "صلصال/حمإ/مسنون ×3, üç adımlı",
     "nahl": "نطفة ×1, ara adım yok",
     "diger": "76:2 (نطفة), 55:14 (صلصال)"
    },
-   "test": "İnsan yaratılışı malzeme terimlerinin korpus envanteri (تراب, طين, صلصال, حمإ, نطفة, علقة, ماء, سلالة) ve her terimin geçtiği ayetlerin anlatım yapısı (zincir / ani). Terim seçimi ile Mekkî-Medenî, sûre uzunluğu, söz edimi arasındaki ilişki."
+   "test": "İnsan yaratılışı malzeme terimlerinin korpus envanteri (تراب, طين *(çamur)*, صلصال, حمإ, نطفة, علقة, ماء, سلالة) ve her terimin geçtiği ayetlerin anlatım yapısı (zincir / ani). Terim seçimi ile Mekkî-Medenî, sûre uzunluğu, söz edimi arasındaki ilişki."
   },
   {
    "no": 293,
@@ -2709,7 +2709,7 @@
     "xref": 6,
     "n": 15
    },
-   "test": "(a) 261/129/160/246 ile birleşik: yıldız formülüne içerik terimleri eklenmesi. (b) Kozmik çift bitişikliği: شمس-قمر ve ليل-نهار çiftlerinin korpusta aynı ayette görülme oranı vs konum-eşli null."
+   "test": "(a) 261/129/160/246 ile birleşik: yıldız formülüne içerik terimleri eklenmesi. (b) Kozmik çift bitişikliği: شمس *(güneş)*-قمر *(ay)* *(ay)* *(ay)* ve ليل *(gece)*-نهار çiftlerinin korpusta aynı ayette görülme oranı vs konum-eşli null."
   },
   {
    "no": 294,
@@ -2728,7 +2728,7 @@
   },
   {
    "no": 295,
-   "aday": "288 GÜÇLENDİ — yedinci vaka ve en açığı: حيق kökü (10 geçiş) profilinde sonrası هزأ ×130.5, öncesi سوأ ×22.1. 16:34 İKİSİNİ DE taşıyor. Küçük n'de zenginleşme skoru tamamen tek bir kalıp cümleden geliyor. Ayrıca 16:25 (وزر→حمل ×25.0) ve 16:29 (kibir→ثوي ×34.4 + بوب ×13.4) aynı sınıf.",
+   "aday": "288 GÜÇLENDİ — yedinci vaka ve en açığı: حيق kökü (10 geçiş) profilinde sonrası هزأ *(alay etme)* ×130.5, öncesi سوأ *(kötülük)* ×22.1. 16:34 İKİSİNİ DE taşıyor. Küçük n'de zenginleşme skoru tamamen tek bir kalıp cümleden geliyor. Ayrıca 16:25 (وزر *(yük, günah yükü)*→حمل ×25.0) ve 16:29 (kibir→ثوي ×34.4 + بوب *(kapı)* ×13.4) aynı sınıf.",
    "olculen": {
     "حيق_n": 10,
     "هزأ_kat": 130.5,
@@ -2740,13 +2740,13 @@
   },
   {
    "no": 296,
-   "aday": "QASEM KURALI İÇİN KARŞI ÖRNEK: 16:38 وَأَقْسَمُوا۟ بِٱللَّهِ — قسم kökü burada GERÇEK yemin ve etiket DOĞRU. Hicr'de aynı kural iki yanlış pozitif vermişti (15:44 مَّقْسُوم, 15:90 ٱلْمُقْتَسِمِين = paylaştırma). Yani kök tek başına ayırt etmiyor; ayrım fiil kalıbında (bab IV إِقْسام = yemin, bab I/VIII = paylaştırma).",
+   "aday": "QASEM KURALI İÇİN KARŞI ÖRNEK: 16:38 وَأَقْسَمُوا۟ بِٱللَّهِ — قسم *(paylaştırma; yemin)* kökü burada GERÇEK yemin ve etiket DOĞRU. Hicr'de aynı kural iki yanlış pozitif vermişti (15:44 مَّقْسُوم, 15:90 ٱلْمُقْتَسِمِين = paylaştırma). Yani kök tek başına ayırt etmiyor; ayrım fiil kalıbında (bab IV إِقْسام = yemin, bab I/VIII = paylaştırma).",
    "olculen": {
     "dogru": "16:38 (bab IV)",
     "yanlis": "15:44 (ism-i mef'ûl), 15:90 (bab VIII)",
     "kural": "defter5.py kök tabanlı"
    },
-   "test": "271/278 ile birleşik: QASEM kuralı KÖK + BAB birlikte kullanılarak yeniden kurulsun. قسم bab IV → yemin; bab I/VIII/ism-i mef'ûl → paylaştırma. Korpustaki 71 QASEM etiketinin tam denetimi."
+   "test": "271/278 ile birleşik: QASEM kuralı KÖK + BAB birlikte kullanılarak yeniden kurulsun. قسم *(paylaştırma; yemin)* bab IV → yemin; bab I/VIII/ism-i mef'ûl → paylaştırma. Korpustaki 71 QASEM etiketinin tam denetimi."
   },
   {
    "no": 297,
@@ -2781,7 +2781,7 @@
   },
   {
    "no": 300,
-   "aday": "بشر KÖKÜNÜN TAM TERS KULLANIMI, iki komşu sûrede: 15:53-54 نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٍ (ETKEN, 1P fâil açık, erkek çocuk, tepki SORU) ↔ 16:58-59 بُشِّرَ … بِٱلْأُنثَىٰ (EDİLGEN, fâil yok, kız çocuk, tepki yüz kararması ve gizlenme). Beş değişkenin BEŞİNDE de işaret ters.",
+   "aday": "بشر *(müjde; beşer)* KÖKÜNÜN TAM TERS KULLANIMI, iki komşu sûrede: 15:53-54 نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٍ (ETKEN, 1P fâil açık, erkek çocuk, tepki SORU) ↔ 16:58-59 بُشِّرَ … بِٱلْأُنثَىٰ (EDİLGEN, fâil yok, kız çocuk, tepki yüz kararması ve gizlenme). Beş değişkenin BEŞİNDE de işaret ters.",
    "olculen": {
     "cati": "etken/edilgen",
     "fail": "açık/gizli",
@@ -2789,7 +2789,7 @@
     "sifat": "عليم/yok",
     "tepki": "soru/gizlenme"
    },
-   "test": "بشر kökünün korpus envanteri: çatı (etken/edilgen) ile müjdenin içeriği ve alıcının tepkisi arasında sistematik ilişki var mı? 275 (Hicr'deki بشر çevrimi) ile birleşik."
+   "test": "بشر *(müjde; beşer)* kökünün korpus envanteri: çatı (etken/edilgen) ile müjdenin içeriği ve alıcının tepkisi arasında sistematik ilişki var mı? 275 (Hicr'deki بشر *(müjde; beşer)* çevrimi) ile birleşik."
   },
   {
    "no": 301,
@@ -2813,7 +2813,7 @@
     ],
     "kural": "defter5.py: 'و + GEN isim' ve قسم/حلف kökü — تَ ve لَ yemin harfleri kapsam dışı"
    },
-   "test": "271/278/296 ile birleşik QASEM onarımı: yemin harfleri و / تَ / لَ + lafız ya da GEN isim kalıbı; artı قسم bab IV. Korpus çapında kaç yemin kaçırılmış?"
+   "test": "271/278/296 ile birleşik QASEM onarımı: yemin harfleri و / تَ / لَ + lafız ya da GEN isim kalıbı; artı قسم *(paylaştırma; yemin)* bab IV. Korpus çapında kaç yemin kaçırılmış?"
   },
   {
    "no": 303,
@@ -2828,7 +2828,7 @@
   },
   {
    "no": 304,
-   "aday": "HALKA CÜMLESİNİN ŞAHIS KAYMASI: فَسَوْفَ يَعْلَمُونَ Hicr'de iki kez (15:3, 15:96, 3MP), Nahl'de فَسَوْفَ تَعْلَمُونَ (16:55, 2MP). Ve eşlik eden متع kökü de aynı yönde kayıyor: وَيَتَمَتَّعُوا۟ (15:3) → فَتَمَتَّعُوا۟ (16:55). İki kelimelik bir kalıp, sûre sınırını geçerken şahsını değiştiriyor. Ayrıca 16:55 30:34 ile tam-ayet ikizi.",
+   "aday": "HALKA CÜMLESİNİN ŞAHIS KAYMASI: فَسَوْفَ يَعْلَمُونَ Hicr'de iki kez (15:3, 15:96, 3MP), Nahl'de فَسَوْفَ تَعْلَمُونَ (16:55, 2MP). Ve eşlik eden متع *(faydalanma, geçimlik)* kökü de aynı yönde kayıyor: وَيَتَمَتَّعُوا۟ (15:3) → فَتَمَتَّعُوا۟ (16:55). İki kelimelik bir kalıp, sûre sınırını geçerken şahsını değiştiriyor. Ayrıca 16:55 30:34 ile tam-ayet ikizi.",
    "olculen": {
     "15:3": "3MP + وَيَتَمَتَّعُوا۟",
     "15:96": "3MP",
@@ -2849,7 +2849,7 @@
   },
   {
    "no": 306,
-   "aday": "ÜÇ HAPAKS TEK AYETTE: 16:80 (صوف, ظعن, وبر) z_hapaks=10.59 ile korpusta ÜÇÜNCÜ en yüksek — yalnız 2:61 (5 hapaks, z=17.8) ve 5:3 (4 hapaks, z=14.19) üstünde; 34:16 ve 47:15 ile eşit. Nahl toplam dokuz ayette on bir hapaks kök taşıyor (Hicr'de üç ayet, üç kök).",
+   "aday": "ÜÇ HAPAKS TEK AYETTE: 16:80 (صوف *(yün)*, ظعن *(göç)*, وبر *(yapağı)*) z_hapaks=10.59 ile korpusta ÜÇÜNCÜ en yüksek — yalnız 2:61 (5 hapaks, z=17.8) ve 5:3 (4 hapaks, z=14.19) üstünde; 34:16 ve 47:15 ile eşit. Nahl toplam dokuz ayette on bir hapaks kök taşıyor (Hicr'de üç ayet, üç kök).",
    "olculen": {
     "16:80": [
      "صوف",
@@ -2920,7 +2920,7 @@
   },
   {
    "no": 311,
-   "aday": "KALIP BİRLEŞTİRME: 16:61 iki ayrı korpus kalıbının eklemlenmesi — açılışı 35:45 ile birebir, kapanışı 7:34/10:49 ile birebir; bu üç ayette bu iki kalıp AYRI AYRI geçiyor. Ayrıca terim değişimi: suç ٱلنَّاس'a yükleniyor, sonuç دَآبَّة üzerinden söyleniyor, oysa ٱلنَّاس üç kelime önce geçmiş. Ve عَلَيْهَا zamirinin öncülü ayette YOK (en yakın أرض dokuz ayet önce, 16:52); 35:45 aynı yerde عَلَىٰ ظَهْرِهَا diyerek zemini açıkça veriyor.",
+   "aday": "KALIP BİRLEŞTİRME: 16:61 iki ayrı korpus kalıbının eklemlenmesi — açılışı 35:45 ile birebir, kapanışı 7:34/10:49 ile birebir; bu üç ayette bu iki kalıp AYRI AYRI geçiyor. Ayrıca terim değişimi: suç ٱلنَّاس'a yükleniyor, sonuç دَآبَّة üzerinden söyleniyor, oysa ٱلنَّاس üç kelime önce geçmiş. Ve عَلَيْهَا zamirinin öncülü ayette YOK (en yakın أرض *(yer, yeryüzü)* dokuz ayet önce, 16:52); 35:45 aynı yerde عَلَىٰ ظَهْرِهَا diyerek zemini açıkça veriyor.",
    "olculen": {
     "acilis_ikiz": "35:45",
     "kapanis_ikiz": [
@@ -2997,7 +2997,7 @@
   },
   {
    "no": 315,
-   "aday": "TAM SİMETRİK EMİR/YASAK: 16:90 tek cümlede bir emir fiili + ÜÇ nesne ve bir yasak fiili + ÜÇ nesne taşıyor (عدل/إحسان/إيتاء ذى القربى ↔ فحشاء/منكر/بغى). Sûrede emir ve yasağın sayıca dengelendiği tek ayet; kapanış fiili ise üçüncü bir kip (يَعِظُ).",
+   "aday": "TAM SİMETRİK EMİR/YASAK: 16:90 tek cümlede bir emir fiili + ÜÇ nesne ve bir yasak fiili + ÜÇ nesne taşıyor (عدل *(adalet)*/إحسان/إيتاء ذى القربى ↔ فحشاء/منكر/بغى). Sûrede emir ve yasağın sayıca dengelendiği tek ayet; kapanış fiili ise üçüncü bir kip (يَعِظُ).",
    "olculen": {
     "emir_nesne": 3,
     "yasak_nesne": 3,
@@ -3076,18 +3076,18 @@
   },
   {
    "no": 321,
-   "aday": "جعل SÛREDE İLK KEZ EDİLGEN, TAM DA YÜKÜMLÜLÜK TARTIŞMASINDA: kök Nahl'de on beş kez etken geçtikten sonra (16:5, 8, 12, 15, 20, 72 ×2, 78, 80 ×2, 81 ×3, 91, 93) 16:124'te edilgen oluyor — إِنَّمَا جُعِلَ ٱلسَّبْتُ. Koyanın adı, bir yükümlülüğün kime ait olduğu tartışılırken siliniyor.",
+   "aday": "جعل *(kılma, var etme)* SÛREDE İLK KEZ EDİLGEN, TAM DA YÜKÜMLÜLÜK TARTIŞMASINDA: kök Nahl'de on beş kez etken geçtikten sonra (16:5, 8, 12, 15, 20, 72 ×2, 78, 80 ×2, 81 ×3, 91, 93) 16:124'te edilgen oluyor — إِنَّمَا جُعِلَ ٱلسَّبْتُ. Koyanın adı, bir yükümlülüğün kime ait olduğu tartışılırken siliniyor.",
    "olculen": {
     "etken": 15,
     "edilgen": 1,
     "ayet": "16:124",
     "baglam": "Sebt yükümlülüğü + ihtilaf"
    },
-   "test": "جعل kökünün çatı dağılımı korpus çapında; edilgen geçişlerin nesne sınıflandırması (yükümlülük / nitelik / yer). Edilgen çatı ile 'ihtilaf' bağlamı arasında ilişki var mı? İsm-i mef'ûl dizisi (281) ile birlikte okunacak."
+   "test": "جعل *(kılma, var etme)* kökünün çatı dağılımı korpus çapında; edilgen geçişlerin nesne sınıflandırması (yükümlülük / nitelik / yer). Edilgen çatı ile 'ihtilaf' bağlamı arasında ilişki var mı? İsm-i mef'ûl dizisi (281) ile birlikte okunacak."
   },
   {
    "no": 322,
-   "aday": "İLÂHÎ FİİLDEN MUHATABIN ARACINA: iki kök sûre içinde bu geçişi yapıyor. وعظ — 16:90'da ilâhî fiil ve kapanış kipi (يَعِظُكُمْ), 16:125'te davetin aracı (ٱلْمَوْعِظَةِ ٱلْحَسَنَةِ). جدل — 16:111'de nefsin kendini savunması, 16:125'te muhataba emredilen en güzel tartışma. İkisi de 16:125'te birleşiyor.",
+   "aday": "İLÂHÎ FİİLDEN MUHATABIN ARACINA: iki kök sûre içinde bu geçişi yapıyor. وعظ — 16:90'da ilâhî fiil ve kapanış kipi (يَعِظُكُمْ), 16:125'te davetin aracı (ٱلْمَوْعِظَةِ ٱلْحَسَنَةِ). جدل *(tartışma)* — 16:111'de nefsin kendini savunması, 16:125'te muhataba emredilen en güzel tartışma. İkisi de 16:125'te birleşiyor.",
    "olculen": {
     "وعظ": "16:90 ilâhî → 16:125 araç",
     "جدل": "16:111 nefs → 16:125 emir",
@@ -3107,5 +3107,1362 @@
   "numarasiz": 8,
   "bonferroni_paydasi": 314,
   "kural": "Bundan sonra aday numarası TOPLAM GİRDİ SAYISINDAN DEĞİL, mevcut en yüksek numaradan +1 olarak verilecek."
- }
+ },
+ "U_isra": [
+  {
+   "no": 323,
+   "aday": "İKİ VAAT, İKİ KİP MİMARİSİ (17:5 ↔ 17:7): açılışlar birebir aynı (فَإِذَا جَآءَ وَعْدُ …) ama birincide PERF asıl fiil + PERF sonuç + 'yerine getirilmiş vaat' mührü var; ikincide ASIL FİİL YOK, yalnız üç لِـ+MOOD:SUBJ amaç cümlesi, mühür de yok. Şartın cevabı (cevâbü'ş-şart) dilbilgisel olarak eksik. || REVİZE (17:104 bulundu): 17:7'nin eksik cevabı sûrenin SONUNDA veriliyor. 17:104 فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ جِئْنَا بِكُمْ لَفِيفًۭا — aynı şart, ve bu kez asıl fiil VAR ve PERF. Ayrıca 17:5'in mührü (وَعْدًۭا مَّفْعُولًۭا) 17:108'de dönüyor (وَعْدُ رَبِّنَا لَمَفْعُولًۭا), bu kez ilim verilenlerin ağzında. Yani 'ikinci vaat mühürsüz' tespiti AYET DÜZEYİNDE doğru, SÛRE DÜZEYİNDE değil — her iki eksik de sûre sonunda kapanıyor.",
+   "olculen": {
+    "17:5": [
+     "جَآءَ PERF",
+     "بَعَثْنَا PERF 1P",
+     "فَجَاسُوا۟ PERF",
+     "وَكَانَ وَعْدًۭا مَّفْعُولًۭا"
+    ],
+    "17:7": [
+     "جَآءَ PERF",
+     "لِيَسُۥٓـُٔوا۟ SUBJ",
+     "وَلِيَدْخُلُوا۟ SUBJ",
+     "وَلِيُتَبِّرُوا۟ SUBJ",
+     "asıl fiil YOK",
+     "mühür YOK"
+    ],
+    "not": "إِذَا + PERF Arapçada düzenli olarak geleceğe gönderme yapar; asimetri kipte değil KAPANIŞTA.",
+    "17:104": "فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ + جِئْنَا (PERF asıl fiil) — 97 ayet arayla",
+    "مفعول_korpus": [
+     [
+      4,
+      47
+     ],
+     [
+      8,
+      42
+     ],
+     [
+      8,
+      44
+     ],
+     [
+      17,
+      5
+     ],
+     [
+      17,
+      108
+     ],
+     [
+      33,
+      37
+     ],
+     [
+      73,
+      18
+     ]
+    ]
+   },
+   "test": "Korpus taraması: (a) 'كَانَ وَعْدًۭا مَّفْعُولًۭا' benzeri tamamlanma mühürlerinin envanteri ve hangi vaatlere eklendiği; (b) فَإِذَا/إِذَا şart cümlelerinde cevabın hazfedildiği vakalar — kaç tane, ve hazif ile mühür yokluğu birlikte mi görülüyor? UYARI: bu ölçüm hiçbir olayı TARİHLEMİYOR; metin özel isim, tarih ve yer vermiyor, fâiller adsız (عِبَادًۭا لَّنَآ). Tarihleme ve güncel uygulama yorum katmanıdır ve bu projede yapılmıyor."
+  },
+  {
+   "no": 324,
+   "aday": "عود *(geri dönme)* FİİLİNİN TAMAMLAYICI HAZFİ VE KUTBU: 17:8 وَإِنْ عُدتُّمْ عُدْنَا — neye dönüleceği söylenmiyor. Korpusta عود *(geri dönme)* 58 ayette geçiyor ve tamamlayıcı (إلى/فى/لـ) neredeyse hiç almıyor; aldığı DÖRT yerde (7:88, 7:89, 14:13, 18:20) فِى مِلَّة alıyor. Kutbu ise BEŞ ayette ٱنتهاء karşıtlığıyla belirleniyor (2:275, 6:28, 8:19, 8:38, 58:8). 8:19 وَإِن تَعُودُوا۟ نَعُدْ 17:8'in birebir yapı ikizi.",
+   "olculen": {
+    "عود_ayet": 58,
+    "tamamlayicili": 4,
+    "نهي_karsitligi": 5,
+    "yapi_ikizi": "8:19",
+    "simetrik_sart_toplam": 17,
+    "عود_olanlar": [
+     [
+      8,
+      19
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "test": "SİMETRİK ŞART KALIBI (şart edatı + aynı kök + iki farklı şahıs) korpusta 17 vaka bulundu: 2:137(أمن *(güven; iman)*) 2:145(أتي *(gelme, getirme)*) 2:191(قتل *(öldürme)*) 2:194(عدو) 3:184(كذب *(yalan; yalanlama)*) 6:40(أتي *(gelme, getirme)*) 6:150(شهد *(şahitlik)*) 8:19(عود *(geri dönme)*) 14:21(هدي *(yol gösterme)*) 17:8(عود *(geri dönme)*) 22:42/29:18/35:4/35:25(كذب *(yalan; yalanlama)*) 47:7(نصر *(yardım)*) 59:7(نهي) 59:11(خرج *(çıkma, çıkarma)*). Test: bu kalıbın kök dağılımı rastgele mi, yoksa belirli anlam alanlarında mı yoğunlaşıyor (mukabele/karşılıklılık)? Ve kaçında tamamlayıcı hazfedilmiş?"
+  },
+  {
+   "no": 325,
+   "aday": "SÛRENİN AÇILIŞ AYETİNDE EKSEN ADI YOK: 17:1'de ne Allah lafzı ne Rab geçiyor; özne bir ilgi zamiri (سُبْحَٰنَ ٱلَّذِى). Ve şahıs cümle içinde üç kez kayıyor: أَسْرَىٰ 3MS → بَٰرَكْنَا/ءَايَٰتِنَا 1P → إِنَّهُۥ هُوَ 3MS. Merci adı bir kez bile anılmadan üç dilbilgisel konumdan geçiyor.",
+   "olculen": {
+    "A": 0,
+    "R": 0,
+    "ozne": "ٱلَّذِى",
+    "sahis_kaymasi": [
+     "3MS",
+     "1P",
+     "3MS"
+    ],
+    "muhur": "سَمِيع|بَصِير"
+   },
+   "test": "Sûre açılış ayetlerinde eksen adı yoğunluğu: kaç sûre ilk ayetinde lafız/Rab taşıyor? Ve 'سُبْحَٰنَ + ٱلَّذِى' kalıbının korpus envanteri; bu kalıpta özne hep adsız mı? KONUM-EŞLİ null gerekli (ilk ayetler özel konum)."
+  },
+  {
+   "no": 326,
+   "aday": "İSRÂ'NIN FÂSILA TEKDÜZELİĞİ VE KIRIĞIN KONUMU: 111 ayetin 110'u ا ile bitiyor (A sınıfı); tek istisna 17:1 (ٱلْبَصِيرُ, ر) ve bu SÛRENİN İLK AYETİ. Hicr'de iki kırık ortadaydı (74, 85), Nahl'de ikisi de قَدِير'den geliyordu (70, 77). ÖLÇÜM HATASI: kafiye_kirik alanı 17:1'i işaretlemiyor çünkü kural önceki ayete bakıyor ve ilk ayette öncesi yok.",
+   "olculen": {
+    "A": 110,
+    "R": 1,
+    "kirik_ayet": 1,
+    "kafiye_kirik_alani": "boş",
+    "hicr": [
+     74,
+     85
+    ],
+    "nahl": [
+     70,
+     77
+    ]
+   },
+   "test": "287/307 ile birleşik: kafiye kırığı tespit kuralına 'sûre-içi baskın sınıftan sapma' ölçütü eklenmeli (şu anki kural yalnız yerel/ardışık karşılaştırma yapıyor). Düzeltilince korpusta kaç yeni kırık çıkıyor, ve kaçı ilk/son ayette?"
+  },
+  {
+   "no": 327,
+   "aday": "MM KAÇIRMA — MEKANİZMA DÜZELTİLDİ (327 revize). Önce '17:11 ve 17:19 belirlilik yüzünden kaçırılıyor' demiştim; YANLIŞTI. Gerçek sebep ARAYA GİREN KELİME: 17:11 يَدْعُ ٱلْإِنسَٰنُ بِٱلشَّرِّ دُعَآءَهُۥ (araya 2 kelime), 17:19 سَعَىٰ لَهَا سَعْيَهَا (araya 1 kelime). 17:26 تُبَذِّرْ تَبْذِيرًا ise BİTİŞİK ve belirsiz — MM etiketi alıyor. Yani kural üç ayrı sebeple düşüyor: (a) ٱل segmenti (15:85), (b) zamir eki segmenti (17:12 فَصَّلْنَٰهُ تَفْصِيلًا, 17:16 دَمَّرْنَٰهَا تَدْمِيرًا), (c) araya giren kelime (17:11, 17:19).",
+   "olculen": {
+    "mesafe_dagilimi_korpus": {
+     "0 kelime": 134,
+     "1 kelime": 96,
+     "2 kelime": 37,
+     "3 kelime": 23,
+     "toplam": 290
+    },
+    "mevcut_MM_etiketi": 3,
+    "17_vakalari": [
+     4,
+     7,
+     11,
+     12,
+     15,
+     16,
+     19,
+     23,
+     26,
+     28,
+     29,
+     40,
+     43,
+     45,
+     80,
+     91,
+     106,
+     111
+    ],
+    "tutan": "17:26 (bitişik + belirsiz)",
+    "dusen_sebep": [
+     "ٱل segmenti",
+     "zamir eki segmenti",
+     "araya giren kelime"
+    ]
+   },
+   "test": "282'nin düzeltmesi ÜÇ mekanizmayı da kapsamalı: kelime düzeyine geç VE araya giren kelimeye izin ver. Ama kaç kelimelik pencere? Korpusta V + aynı kökten ACC/VN isim mesafe dağılımı: 0→134, 1→96, 2→37, 3→23 ayet (toplam 290). Pencere seçimi elle örneklenmiş denetimle kalibre edilecek — 3 kelimelik pencerede yanlış pozitif oranı ölçülmeli."
+  },
+  {
+   "no": 328,
+   "aday": "İSRÂ'DA TAM-AYET İKİZİ SIFIR. Hicr 11 ikiz (yedisi Sâd ile ardışık blok), Nahl 2, İsrâ 0 — üç komşu sûrede 11 → 2 → 0. Buna karşılık İsrâ'nın xref (kısmî dizi) bağı yüksek: 17:12 tek başına beş dizi taşıyor.",
+   "olculen": {
+    "hicr_ikiz": 11,
+    "nahl_ikiz": 2,
+    "isra_ikiz": 0,
+    "isra_xref_ornek": "17:12 → 5 dizi"
+   },
+   "test": "Tam-ayet ikizi sayısının sûre bazında dağılımı ve sıfır olan sûrelerin ortak özellikleri (uzunluk, fâsıla tekdüzeliği, nüzûl sırası). İsrâ'nın fâsıla tekdüzeliği (110/111) ile ikiz yokluğu arasında ilişki var mı — tekdüze kafiye ikizlenmeyi kolaylaştırır mı zorlaştırır mı?"
+  },
+  {
+   "no": 329,
+   "aday": "ESMÂ SAHTE POZİTİFİ İSRÂ'DA EN YÜKSEK ORANDA: 49 tokenın en az 22'si esmâ değil — آخِر ×7 ('âhiret'), كَبِير ×6 (çoğu 'büyük'), مُؤْمِن ×3, بَرّ ×3 (17:67, 68, 70 — 'kara'), أَحَد, حَسِيب (17:14, NEFSİN sıfatı), شَكُور (17:3, NÛH'un sıfatı). Yani listedeki tokenların yaklaşık %45'i.",
+   "olculen": {
+    "token": 49,
+    "sahte_en_az": 22,
+    "oran": 0.45,
+    "yeni_sinif": "بَرّ = 'kara' (deniz karşıtı), 17:67/68/70"
+   },
+   "test": "272/291 ile birleşik doğrulama seti: Hûd 5 lemma + Hicr 3 + Nahl 1 (آخِر) + İsrâ 7 lemma. esma_listesi.json bağlam kuralıyla yeniden kurulduğunda bu 22 tokenın hepsi elenmeli; elenmezse kural yetersizdir."
+  },
+  {
+   "no": 330,
+   "aday": "İSRÂ BUYRUK BLOKU BİR İNCLUSİO İLE SINIRLANMIŞ: 17:22 ve 17:39 aynı yasağı BİREBİR taşıyor (لَا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ) ve arada on altı ayetlik bir emir-yasak dizisi var. Sonuç cümlesi değişiyor: فَتَقْعُدَ (etken) → فَتُلْقَىٰ فِى جَهَنَّمَ (EDİLGEN). Ve blokun içeriği kapanışta 'hikmet' diye adlandırılıyor (مِنَ ٱلْحِكْمَةِ).",
+   "olculen": {
+    "acilis": [
+     17,
+     22
+    ],
+    "kapanis": [
+     17,
+     39
+    ],
+    "uzunluk": 18,
+    "allah_lafzi_blokta": [
+     22,
+     33,
+     39
+    ],
+    "sonrasi": "17:40-91 = 52 ayetlik Allah-sessizliği",
+    "fig_blokta": "HASR 4, NEHY 6"
+   },
+   "test": "Korpus taraması: birebir tekrarlanan bir cümleyle açılıp kapanan ayet blokları (inclusio) — kaç tane, hangi uzunlukta, ve tekrarda değişen öğe hangi dilbilgisel sınıftan? 146 (Tevbe inclusio'su) ile aynı aile; ikisi tek testte birleştirilebilir."
+  },
+  {
+   "no": 331,
+   "aday": "İSM-İ MEF'ÛL ÇİFTİ KALIBI — DÖRT AYET, BEŞ SÖZCÜK: 17:18 مَذْمُومًۭا مَّدْحُورًۭا · 17:22 مَذْمُومًۭا مَّخْذُولًۭا · 17:29 مَلُومًۭا مَّحْسُورًۭا · 17:39 مَلُومًۭا مَّدْحُورًۭا. Beş sözcük (مذموم, مدحور, مخذول, ملوم, محسور) dört farklı çift oluşturuyor; hiçbir çift tekrarlanmıyor. İsrâ'nın ppc yoğunluğu zaten korpusun 3.2 katı.",
+   "olculen": {
+    "ciftler": [
+     [
+      17,
+      18
+     ],
+     [
+      17,
+      22
+     ],
+     [
+      17,
+      29
+     ],
+     [
+      17,
+      39
+     ]
+    ],
+    "sozcuk": 5,
+    "ppc_oran": 0.0225,
+    "korpus": 0.0071
+   },
+   "test": "İkili ism-i mef'ûl kapanışlarının korpus envanteri; İsrâ'nın fâsıla tekdüzeliği (110/111 ا) bu kalıbı zorunlu mu kılıyor — yani kafiye kısıtı sözcük seçimini daraltıyor mu? Fâsıla sınıfı ile son iki sözcüğün biçimi arasındaki ilişki ölçülecek."
+  },
+  {
+   "no": 332,
+   "aday": "AYNI ORGAN ÜÇLÜSÜ, İKİ HUKUKÎ KONUM: 16:78'de ٱلسَّمْع + ٱلْأَبْصَٰر + ٱلْأَفْـِٔدَة insana VERİLEN nimetler (şükür gerekçesi); 17:36'da ٱلسَّمْع + ٱلْبَصَر + ٱلْفُؤَاد hepsinden SORULACAK olanlar. Aynı üçlü, aynı sıra, iki komşu sûrede ihsan ve sorumluluk.",
+   "olculen": {
+    "16:78": "جَعَلَ لَكُمُ … لَعَلَّكُمْ تَشْكُرُونَ",
+    "17:36": "كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًۭا",
+    "sira": "işitme → görme → gönül, ikisinde de aynı"
+   },
+   "test": "Bu üçlünün korpus envanteri ve her geçişte aldığı yüklem sınıfı (ihsan / sorumluluk / mühürlenme / yokluk). Sıra hep aynı mı? Sıra sabitse bu bir donmuş terkiptir ve 320'deki 'sabit terkip' ayrıştırmasına girer."
+  },
+  {
+   "no": 333,
+   "aday": "سُلْطَٰن ADININ TARAF DEĞİŞTİRMESİ: 15:42 ve 16:99-100'de şeytanın insanlar üzerindeki hâkimiyeti (hep OLUMSUZ ya da sınırlı); 17:33'te öldürülenin velisine VERİLEN yetki (olumlu, 1P fâil: جَعَلْنَا لِوَلِيِّهِۦ سُلْطَٰنًۭا). Aynı ad, gayb tarafından beşerî-hukukî tarafa geçiyor.",
+   "olculen": {
+    "15:42": "لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ",
+    "16:99": "لَيْسَ لَهُۥ سُلْطَٰنٌ",
+    "16:100": "إِنَّمَا سُلْطَٰنُهُۥ",
+    "17:33": "جَعَلْنَا لِوَلِيِّهِۦ سُلْطَٰنًۭا"
+   },
+   "test": "سلط kökünün korpus envanteri ve sahip sınıflandırması (şeytan / insan / delil / hükümdarlık). Kaçı olumsuzlanmış, kaçı verilmiş? Ve olumsuzlananların hepsi gayb tarafında mı?"
+  },
+  {
+   "no": 334,
+   "aday": "DONMUŞ ÜÇLÜ VE TEK SAPMA: سمع *(işitme)* + بصر *(görme)* + فؤاد üçlüsü korpusta ALTI ayette geçiyor ve sıra altısında da aynı (işitme → görme → gönül). Kapanışlar: DÖRDÜ تَشْكُرُونَ (16:78, 23:78, 32:9, 67:23), biri يَسْتَهْزِءُونَ (46:26, organlar fayda vermedi), ve 17:36 TEK BAŞINA مَسْـُٔولًۭا (hukukî sorumluluk).",
+   "olculen": {
+    "toplam": 6,
+    "sükür": 4,
+    "faydasizlik": 1,
+    "sorumluluk": 1,
+    "sira": "sabit",
+    "فأد_dikey_شكر": 22.9,
+    "aciklama": "فأد'ın sonrası zenginleşmesindeki شكر ×22.9'un tamamı bu dört ayetten geliyor"
+   },
+   "test": "320 ile birleşik: sabit terkip envanterine bu üçlü de eklenecek ve zenginleşme skorları terkip-dışı geçişler üzerinden yeniden hesaplanacak. Ayrıca: donmuş terkiplerin kapanış yükleminin dağılımı — kaç terkip tek bir yüklem sınıfına bağlı, kaçı sapma gösteriyor? 17:36 gibi TEK sapmalar korpusta ne sıklıkta?"
+  },
+  {
+   "no": 335,
+   "aday": "288 İÇİN İLK BÜYÜK-N DOĞRULAMASI: قتل *(öldürme)* kökü 170 geçişli (önceki yedi vaka n=3–59 arasındaydı) ve modal komşuluğunun dört üyesi 17:31–33 arasına yayılmış: خطأ ×6.1 (17:31), حرم ×4.5 ve سلط ×4.6 ve قتل (17:33). Yani 'okunan ayet kökün modal komşuluğunu taşıyor' gözlemi küçük örneklem artefaktına indirgenemiyor.",
+   "olculen": {
+    "n": 170,
+    "komsu_kat": {
+     "شهر": 6.3,
+     "fırka": 6.2,
+     "أذي": 5.6,
+     "سلط": 4.6,
+     "haram": 4.5,
+     "خطأ": 6.1
+    },
+    "allah_medyan": 7,
+    "null_ref": 11,
+    "17:33_lafiz_mesafe": 4
+   },
+   "test": "288/295/301'in jackknife testinde قتل *(öldürme)* KONTROL GRUBU olarak kullanılacak: büyük-n köklerde tek ayet çıkarıldığında skor ne kadar düşüyor? Eğer büyük-n'de skor sağlam kalıyorsa, küçük-n vakaları ayrı bir sınıf olarak işaretlenmeli ve yalnız onlar geri çekilmeli."
+  },
+  {
+   "no": 336,
+   "aday": "سُلْطَٰن ADININ İKİ KÜMESİ VE İSRÂ'NIN İKİSİNİ BİRDEN TAŞIMASI: (a) ليس *(değil)* ile olumsuzlanan — 15:42, 16:99, 17:65, 22:71, öznesi hep gayb tarafı; (b) قتل *(öldürme)* ile geçen — 4:90, 4:91, 17:33. 4:90-91'de 'aleyhlerine yol yok' (yine olumsuz), 17:33'te ise 1P fâille VERİLEN yetki. İsrâ tek sûrede hem verileni (17:33) hem alınanı (17:65) taşıyor.",
+   "olculen": {
+    "olumsuz": [
+     [
+      15,
+      42
+     ],
+     [
+      16,
+      99
+     ],
+     [
+      17,
+      65
+     ],
+     [
+      22,
+      71
+     ]
+    ],
+    "قتل_ile": [
+     [
+      4,
+      90
+     ],
+     [
+      4,
+      91
+     ],
+     [
+      17,
+      33
+     ]
+    ],
+    "dikey_سلط": {
+     "n": 39,
+     "oncesi_ليس": 6.9,
+     "sonrasi_قتل": 4.8,
+     "allah_medyan": 11
+    }
+   },
+   "test": "333'ün genişletilmiş hâli: سلط kökünün 39 geçişinin tam sınıflandırması — sahip (şeytan / insan / delil / hükümdarlık) × kutup (verilen / olumsuzlanan). Olumsuzlananların hepsi gayb tarafında mı? Ve 'delil' anlamındaki سلطان (سُلْطَٰنٍۢ مُّبِينٍۢ) ayrı bir küme mi?"
+  },
+  {
+   "no": 337,
+   "aday": "'ARTAN ŞEY' KALIBI — aynı sözdizimi, üç farklı artan: 17:41 وَمَا يَزِيدُهُمْ إِلَّا نُفُورًۭا · 17:60 فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًۭا كَبِيرًۭا · 17:82 إِلَّا خَسَارًۭا. Üçünde de HASR, üçünde de aynı fiil (زيد *(artırma)*), ve üçünde de amaç olumlu (tezekkür / korkutma / şifâ) ama sonuç olumsuz.",
+   "olculen": {
+    "17:41": "نُفُور (amaç: لِيَذَّكَّرُوا۟)",
+    "17:60": "طُغْيَٰن كَبِير (amaç: نُخَوِّفُهُمْ)",
+    "17:82": "خَسَار (okunacak)",
+    "ortak": "زيد + HASR"
+   },
+   "test": "'مَا يَزِيدُهُمْ إِلَّا' kalıbının korpus envanteri: kaç geçiş, artan şeylerin sözlüğü, ve her geçişte amacın olumlu olup olmadığı. Amaç-sonuç tersliği kalıbın zorunlu parçası mı?"
+  },
+  {
+   "no": 338,
+   "aday": "ضرب *(vurma; mesel getirme)* مثل *(benzer, mesel)* FİİLİNİN ÜÇ FÂİLİ, İKİ SÛREDE: 16:74 yasak (لَا تَضْرِبُوا۟ لِلَّهِ ٱلْأَمْثَالَ, 2MP) → 16:75 ilâhî edim (ضَرَبَ ٱللَّهُ مَثَلًا, ardışık ayette) → 17:48 İHLÂL (ضَرَبُوا۟ لَكَ ٱلْأَمْثَالَ, karşı taraf, nesnesi MUHATAP). Aday 305'teki 'ilâhî edim / insana yasak' kalıbı burada üçüncü halkayla kapanıyor: yasak, ilâhî kullanım, ve yasağın çiğnenmesi.",
+   "olculen": {
+    "yasak": [
+     16,
+     74
+    ],
+    "ilahi": [
+     16,
+     75
+    ],
+    "ihlal": [
+     17,
+     48
+    ],
+    "305_diger_kokler": [
+     "مدد",
+     "زين",
+     "بسط"
+    ]
+   },
+   "test": "305'in genişletilmiş testi: 'yasak + ilâhî edim' çifti bulunan köklerde ÜÇÜNCÜ bir halka (ihlâl anlatısı) var mı? Dört kök (ضرب *(vurma; mesel getirme)*, مدد *(uzatma, destekleme)*, زين *(süsleme)*, بسط *(açma, yayma)*) için tam tarama; üçlü tamamlanan kaç tane?"
+  },
+  {
+   "no": 339,
+   "aday": "رَبُّكَ/رَبُّكُمْ أَعْلَمُ KALIBI VE GENİŞLEYEN NESNE: 17:25 بِمَا فِى نُفُوسِكُمْ (iç) → 17:54 بِكُمْ (kişi) → 17:55 بِمَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ (evren). Üç geçiş, üç ölçek, ve 54-55 ARDIŞIK. Kapsam her adımda büyüyor.",
+   "olculen": {
+    "17:25": "نُفُوسِكُمْ",
+    "17:54": "بِكُمْ",
+    "17:55": "مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+    "ardisik": [
+     54,
+     55
+    ]
+   },
+   "test": "'رَبُّ + أَعْلَمُ' kalıbının korpus envanteri ve nesnesinin ölçek sınıflandırması (iç / kişi / topluluk / evren). Sûre içinde ölçek monoton artıyor mu, yoksa bu İsrâ'ya özgü mü?"
+  },
+  {
+   "no": 340,
+   "aday": "KARŞI TARAF SUÇLAMASININ ÜÇ TERİMİ, ÜÇ KOMŞU SÛREDE: مَجْنُون (15:6) → مُفْتَرٍ (16:101) → مَّسْحُور (17:47). Üçü de HASR ya da nidâ ile kuruluyor. Ve مَّسْحُور 15:15'te inkârcıların KENDİLERİ hakkında kullandığı sözcüktü (بَلْ نَحْنُ قَوْمٌۭ مَّسْحُورُونَ) — aynı ism-i mef'ûl, biri kendi hâli biri muhatabın niteliği.",
+   "olculen": {
+    "15:6": "مَجْنُون (akıl)",
+    "16:101": "مُفْتَرٍ (kaynak)",
+    "17:47": "مَّسْحُور (etki altında)",
+    "15:15": "مَّسْحُورُون, KENDİLERİ için"
+   },
+   "test": "Elçiye yöneltilen suçlama terimlerinin korpus envanteri (مجنون, مفتر, ساحر, مسحور, شاعر, كاهن) ve her terimin geçtiği söz ediminin sınıfı. 259/298 (karşı taraf söylemi) ile birleşik."
+  },
+  {
+   "no": 341,
+   "aday": "صَرَّفْنَا فِى هَٰذَا ٱلْقُرْءَانِ ('bu Kur'ân'da türlü türlü açıkladık') kalıbı korpusta ÜÇ geçiş ve ÜÇÜNDE DE olumsuz sonuç: 17:41 نُفُور (kaçış) · 17:89 فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ (çoğu direndi) · 18:54 أَكْثَرَ شَىْءٍۢ جَدَلًا (en çok tartışan). صرف kökü 29 ayette geçiyor ama yalnız bu üçü metne bağlanıyor; ikisi İsrâ'da. || KAPANDI (18:54 okundu): üçüncü geçiş de olumsuz — أَكْثَرَ شَىْءٍۢ جَدَلًۭا. Kalıbın üç geçişinin ÜÇÜ DE olumsuz sonuç taşıyor; tahmin doğrulandı.",
+   "olculen": {
+    "صرف_toplam": 29,
+    "صرف+قرآن": [
+     [
+      17,
+      41
+     ],
+     [
+      17,
+      89
+     ],
+     [
+      18,
+      54
+     ],
+     [
+      20,
+      113
+     ],
+     [
+      46,
+      29
+     ]
+    ],
+    "kalip_ucu": [
+     [
+      17,
+      41
+     ],
+     [
+      17,
+      89
+     ],
+     [
+      18,
+      54
+     ]
+    ],
+    "sonuclar": [
+     "نفور",
+     "إباء",
+     "جدل"
+    ],
+    "18:54": "جَدَل (tartışma)"
+   },
+   "test": "Kalıbın üç geçişinde de olumsuz sonuç gelmesi rastlantı mı? 'açıklama/çeşitlendirme fiili + sonuç cümlesi' yapısının korpus envanteri (صرف, فصّل, بيّن) ve sonuç kutbunun dağılımı. Motive eden 17:41 dışlanarak."
+  },
+  {
+   "no": 342,
+   "aday": "زيد *(artırma)* + إلّا KALIBININ İKİ SÛREDE YIĞILMASI: korpusta 14 ayet; İsrâ 3 (41 نُفُور, 60 طُغْيَٰن كَبِير, 82 خَسَار), Nûh 4 (6 فِرَار, 21 خَسَار, 24 ضَلَٰل, 28 تَبَار). On dört vakanın YEDİSİ iki sûrede. Ve 13'ü olumsuz; tek olumlu vaka 33:22 (مَا زَادَهُمْ إِلَّآ إِيمَٰنًۭا وَتَسْلِيمًۭا) — yani kalıp zorunlu olarak olumsuz DEĞİL.",
+   "olculen": {
+    "toplam": 14,
+    "isra": [
+     41,
+     60,
+     82
+    ],
+    "nuh": [
+     6,
+     21,
+     24,
+     28
+    ],
+    "olumsuz": 13,
+    "olumlu": [
+     [
+      33,
+      22
+     ]
+    ],
+    "diger": [
+     [
+      9,
+      47
+     ],
+     [
+      35,
+      39
+     ],
+     [
+      35,
+      42
+     ],
+     [
+      42,
+      23
+     ],
+     [
+      74,
+      31
+     ],
+     [
+      78,
+      30
+     ]
+    ]
+   },
+   "test": "337'nin ölçülmüş hâli. Test: kalıbın sûre bazında dağılımı konum-eşli null'a göre anormal mi? Ve olumlu tek vakanın (33:22) öznesi müminler — kutup ile özne sınıfı arasında bağ var mı?"
+  },
+  {
+   "no": 343,
+   "aday": "نفر *(topluluk; kaçış)* KÖKÜ İSRÂ'DA ÜÇ KEZ VE İKİ KARŞIT ANLAMDA: 17:6 أَكْثَرَ نَفِيرًۭا ('sayıca daha çok', toplanma, bir nimet sayımı içinde) ↔ 17:41 ve 17:46 نُفُورًۭا ('kaçış', dağılma, bir başarısızlığın adı). Kök korpusta 16 ayette geçiyor; hiçbir sûre üç taşımıyor.",
+   "olculen": {
+    "toplam_ayet": 16,
+    "isra": [
+     6,
+     41,
+     46
+    ],
+    "anlam": {
+     "17:6": "نَفِير = kalabalık/sayı",
+     "17:41": "نُفُور = kaçış",
+     "17:46": "نُفُور = kaçış"
+    }
+   },
+   "test": "267/320 ile aynı aile: tek kökün karşıt anlamlarda kullanımı. نفر *(topluluk; kaçış)* kökünün 16 geçişinin anlam sınıflandırması (toplanma / dağılma / seferberlik) ve dikey okuma bu ayrım YAPILMADAN koşulduğunda sahte komşuluk üretiyor mu? kavram_ad ayrımı gerekli mi?"
+  },
+  {
+   "no": 344,
+   "aday": "DEVE (ناقة) — YEDİ AYET, ÜÇ KATEGORİ ADI, VE 17:59'UN İKİ TEKİLLİĞİ. Adlandırmalar: ءَايَة (7:73, 11:64) · فِتْنَة (54:27) · مُبْصِرَة (17:59). TEKİLLİK 1: deveye yapılan eylem beş ayette عقر (7:77, 11:65, 26:157, 54:29, 91:14), 17:59'da ise فَظَلَمُوا۟ بِهَا — farklı kök VE بِ edatıyla, doğrudan nesne almadan. TEKİLLİK 2: مُبْصِرَة sıfatı korpusta gündüze (10:67, 17:12, 27:86, 40:61) ya da soyut âyetlere (27:13) takılıyor; 17:59 onu bir CANLIYA takan tek ayet. Ve İsrâ sıfatın iki anlamını (17:12 gündüz, 17:59 deve) birden taşıyan tek sûre.",
+   "olculen": {
+    "ناقة_ayet": [
+     [
+      7,
+      73
+     ],
+     [
+      7,
+      77
+     ],
+     [
+      11,
+      64
+     ],
+     [
+      17,
+      59
+     ],
+     [
+      26,
+      155
+     ],
+     [
+      54,
+      27
+     ],
+     [
+      91,
+      13
+     ]
+    ],
+    "عقر_deve": [
+     [
+      7,
+      77
+     ],
+     [
+      11,
+      65
+     ],
+     [
+      26,
+      157
+     ],
+     [
+      54,
+      29
+     ],
+     [
+      91,
+      14
+     ]
+    ],
+    "عقر_kisir": [
+     [
+      3,
+      40
+     ],
+     [
+      19,
+      5
+     ],
+     [
+      19,
+      8
+     ]
+    ],
+    "مبصر_gunduz": [
+     [
+      10,
+      67
+     ],
+     [
+      17,
+      12
+     ],
+     [
+      27,
+      86
+     ],
+     [
+      40,
+      61
+     ]
+    ],
+    "مبصر_ayet": [
+     [
+      27,
+      13
+     ],
+     [
+      17,
+      59
+     ]
+    ],
+    "ثمود_ayet": 25
+   },
+   "test": "(a) Kıssa anlatımında suç fiilinin sûreden sûreye değişmesi: aynı olay için kullanılan fiil setinin envanteri (عقر *(kısırlık; (deve) kesme)*/ظلم *(zulüm)*/كذّب/عتا) ve dağılımı; 17:59'un sapması sistematik mi (İsrâ genelinde fiil seçimi farklı mı)? (b) مبصر/مبصرة sıfatının nesne sınıflandırması. (c) BİYOLOG NOTU: deve, korpusta bir bireyin KAYNAK PAYLAŞIMIYLA tanımlandığı tek canlı (26:155 شِرْب bölüşümü, 91:13 سُقْيَا, 11:64 otlanma izni); Nahl'de أَنْعَٰم insan-faydası kalemleriyle tanımlanıyordu (16:5-8). İki farklı dilbilgisel muamele — norm çıkarılmadı."
+  },
+  {
+   "no": 345,
+   "aday": "ÂDEM-İBLÎS SAHNESİ ÜÇ SÛREDE, HER SEFERİNDE FARKLI MİMARİ. Malzeme: صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (15:26/28/33) → نُطْفَة (16:4, insan yaratılışı) → طِين (17:61) — 292'nin dördüncü terimi. İtiraz kipi: haber (15:33 لَمْ أَكُن لِّأَسْجُدَ) → soru (17:61 ءَأَسْجُدُ). Mühlet fiili: أَنظِرْنِى (15:36) → أَخَّرْتَنِ (17:62). Süre: يَوْمِ يُبْعَثُونَ → يَوْمِ ٱلْقِيَٰمَةِ. İstisna ölçütü: NİTELİK (ٱلْمُخْلَصِين, 15:40) → SAYI (قَلِيل, 17:62). Program: İblîs ilan ediyor (15:39) → İblîs'e SÖYLENİYOR (17:64, dört IMPV).",
+   "olculen": {
+    "malzeme": 4,
+    "itiraz_kipi": [
+     "haber",
+     "soru"
+    ],
+    "muhlet_fiili": [
+     "نظر",
+     "أخر"
+    ],
+    "sure": [
+     "يوم يبعثون",
+     "يوم القيامة"
+    ],
+    "istisna": [
+     "nitelik",
+     "sayı"
+    ],
+    "program": [
+     "ilan",
+     "emir"
+    ]
+   },
+   "test": "Aynı kıssanın sûreden sûreye değişen öğelerinin sistematik envanteri: hangi öğeler sabit (secde emri, İblîs'in reddi), hangileri değişken (malzeme, kip, süre, istisna ölçütü)? Değişkenlik sûrenin genel ölçüm profiliyle (ortalama ayet uzunluğu, söz edimi dağılımı) ilişkili mi? 344'teki deve vakasıyla aynı aile."
+  },
+  {
+   "no": 346,
+   "aday": "سُلْطَٰن ÜÇ KONUM TEK SÛREDE (336 tamamlandı): 17:33 velîye VERİLEN (جَعَلْنَا لِوَلِيِّهِۦ) · 17:65 İblîs'te OLMAYAN (لَيْسَ لَكَ) · 17:80 muhatap için İSTENEN (وَٱجْعَل لِّى مِن لَّدُنكَ). Verme fiili birinci ve üçüncüde aynı (جعل *(kılma, var etme)*), biri gerçekleşmiş biri talep.",
+   "olculen": {
+    "17:33": "verilen, 1P PERF",
+    "17:65": "olumsuz, ليس",
+    "17:80": "istenen, IMPV",
+    "سلط_toplam": 39
+   },
+   "test": "336'nın kapanışı. Ek soru: سلطان'ın 'verilen / olumsuzlanan / istenen' üçlü konumu başka sûrelerde de bir arada bulunuyor mu, yoksa İsrâ'ya mı özgü?"
+  },
+  {
+   "no": 347,
+   "aday": "وَكِيل ADI İSRÂ'DA DÖRT KONUMDA: 17:2 'benden başka vekil edinmeyin' (yasak) · 17:54 'seni vekil göndermedik' (görev reddi) · 17:65 'vekil olarak Rabbin yeter' (yeterlilik) · 17:68 'vekil bulamazsınız' (yokluk). Dört ayet, dört farklı hukukî konum; sûrede beş token.",
+   "olculen": {
+    "konumlar": [
+     [
+      17,
+      2
+     ],
+     [
+      17,
+      54
+     ],
+     [
+      17,
+      65
+     ],
+     [
+      17,
+      68
+     ]
+    ],
+    "token": 5,
+    "esma_listesinde": "وَكِيل sayılıyor — bazıları P0 (insan için kullanım)"
+   },
+   "test": "وكل kökünün korpus envanteri ve 'vekil' adının sahip sınıflandırması (ilâhî / beşerî / yokluk). Esmâ listesi bu ayrımı yapıyor mu? 329'daki İsrâ P0 setine ekleniyor."
+  },
+  {
+   "no": 348,
+   "aday": "قُرْءَان SÖZCÜĞÜNÜN İKİ ANLAMI: İsrâ'da on bir geçişin onunda KİTABIN ADI (17:9, 41, 45, 46, 60, 82, 88, 89, 106...), 17:78'de ise OKUMA EYLEMİNİN adı: قُرْءَانَ ٱلْفَجْرِ (fecrin okuması), ve tek ayette iki kez. Aynı lemma, metin ve edim.",
+   "olculen": {
+    "isra_toplam": 11,
+    "eylem_anlami": [
+     [
+      17,
+      78
+     ]
+    ],
+    "aktor_listesi": "قُرْءان 11 kez — okunan sûrelerin en yoğunu"
+   },
+   "test": "قرأ *(okuma)* kökünün korpus envanteri ve قُرْءان lemmasının anlam sınıflandırması (kitap adı / okuma edimi). Kaç geçiş edim anlamında? Ve aktör kataloğu (varlik_katalog) bu ayrımı yapıyor mu — yapmıyorsa 'kitab' etiketi yanlış atanmış olabilir."
+  },
+  {
+   "no": 349,
+   "aday": "İSRÂ'NIN LAFIZ MİMARİSİ: 10 Allah lafzı 3 + 52 ayet sessizlik + 7 olarak dağılmış. İlk üçü (22, 33, 39) BUYRUK BLOKUNUN sınırlarında ve ortasında; 40-91 arası tam sessizlik; son yedisi kapanış bölümünde. VE sessizliği kıran lafız (17:92) KARŞI TARAFIN TALEBİ içinde (تَأْتِىَ بِٱللَّهِ), 17:94'te yine karşı tarafın sözünde (أَبَعَثَ ٱللَّهُ). Hicr 15:69 (bir insanın hitabı) ve Nahl 16:96 (şirkin tarifi) ile aynı kalıp.",
+   "olculen": {
+    "lafiz": [
+     22,
+     33,
+     39,
+     92,
+     94,
+     96,
+     97,
+     99,
+     110,
+     111
+    ],
+    "sessizlik": [
+     [
+      40,
+      52
+     ],
+     [
+      1,
+      21
+     ],
+     [
+      23,
+      10
+     ],
+     [
+      100,
+      10
+     ]
+    ],
+    "kirilma_konumu": "karşı tarafın talebi"
+   },
+   "test": "276'nın genişletilmiş hâli: uzun Allah-sessizliği (>30 ayet) sonrası ilk lafzın KONUŞAN-SINIFI dağılımı, korpus çapında. Üç sûrede üç kez anlatıcı-dışı konum çıktı — bu oran null'a göre anormal mi? Motive eden üç sûre dışlanarak."
+  },
+  {
+   "no": 350,
+   "aday": "İSRÂ'NIN ÜÇ HALKASI: (1) وَعْدُ ٱلْءَاخِرَة — 17:7 cevapsız şart ↔ 17:104 cevap (97 ayet). (2) مَّفْعُول — 17:5 anlatıcının mührü ↔ 17:108 ilim verilenlerin sözü (103 ayet). (3) ٱلَّذِى ile adsız özne — 17:1 ↔ 17:111 (110 ayet). Üç halka da sûrenin neredeyse tamamını kapsıyor ve üçü de farklı türden (sözdizimsel eksilti, sözcük tekrarı, özne yapısı).",
+   "olculen": {
+    "halka1": [
+     [
+      17,
+      7
+     ],
+     [
+      17,
+      104
+     ]
+    ],
+    "halka2": [
+     [
+      17,
+      5
+     ],
+     [
+      17,
+      108
+     ]
+    ],
+    "halka3": [
+     [
+      17,
+      1
+     ],
+     [
+      17,
+      111
+     ]
+    ],
+    "mesafe": [
+     97,
+     103,
+     110
+    ]
+   },
+   "test": "284 (Nahl halkası) ile birleşik: sûre-içi halka yapılarının envanteri ve türlerin sınıflandırması (cümle tekrarı / eksilti kapanışı / yapı tekrarı). Halka uzunluğunun sûre uzunluğuna oranı — İsrâ'da üçü de %87 üzeri; bu tipik mi?"
+  },
+  {
+   "no": 351,
+   "aday": "ORGAN ÜÇLÜSÜNÜN ÜÇ HUKUKÎ KONUMU TEK SÛREDE (334'ün İsrâ ayağı): 17:36 سمع *(işitme)*/بصر *(görme)*/فؤاد SORULACAK · 17:46 kalp ve kulak KAPATILMIŞ (أَكِنَّة, وَقْر) · 17:97 عمي *(körlük)*/بكم/صمّ İPTAL. Sorumluluk → engel → yokluk. Ve 334'e göre üçlü korpusta altı ayette, dördü şükür bağlamında; İsrâ üçlüyü üç ayrı hukukî çerçevede kullanan tek sûre.",
+   "olculen": {
+    "17:36": "مَسْـُٔولًۭا",
+    "17:46": "أَكِنَّة + وَقْر",
+    "17:97": "عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا",
+    "korpus_uclu": 6
+   },
+   "test": "334 ile birleşik. Ek: 'organ + hukukî yüklem' kalıbının korpus taraması — sorumluluk / engel / yokluk üçlüsü başka sûrelerde de tam mı, yoksa İsrâ'ya mı özgü?"
+  },
+  {
+   "no": 352,
+   "aday": "زيد *(artırma)* + HASR DİZİSİ İSRÂ'DA BEŞ KEZ VE SONUNCUSU OLUMLU: نُفُور (41) · طُغْيَٰن (60) · خَسَار (82) · سَعِير (97, alev) · خُشُوع (109, huşû). Dördü olumsuz, beşincisi olumlu ve sûrenin SON زيد *(artırma)* geçişi — ayrıca secde ayeti (۩). 342'de korpus çapında 14 vakadan 13'ü olumsuzdu; İsrâ tek başına hem dört olumsuz hem tek olumluyu taşıyor.",
+   "olculen": {
+    "isra_zeyd": [
+     41,
+     60,
+     82,
+     97,
+     109
+    ],
+    "kutup": [
+     "-",
+     "-",
+     "-",
+     "-",
+     "+"
+    ],
+    "korpus_olumlu": [
+     [
+      33,
+      22
+     ],
+     [
+      17,
+      109
+     ]
+    ]
+   },
+   "test": "342'nin kapanışı. Korpusta 'زيد *(artırma)* + إلّا' olumlu vakalar yalnız 33:22 ve 17:109 — ikisinde de özne MÜMİNLER/ilim verilenler. Kutup ile özne sınıfı arasındaki bağ ki-kare ile ölçülecek."
+  }
+ ],
+ "V_kehf": [
+  {
+   "no": 353,
+   "aday": "SÛRE SINIRI BAĞI (17→18): İsrâ'nın SON ayeti ve Kehf'in İLK ayeti aynı formülle açılıyor (ٱلْحَمْدُ لِلَّهِ ٱلَّذِى). Ve İsrâ'nın kapanış olumsuzlaması لَمْ يَتَّخِذْ وَلَدًۭا, Kehf'in dördüncü ayetinde KARŞI TARAFIN İDDİASI olarak dönüyor: ٱتَّخَذَ ٱللَّهُ وَلَدًۭا. Aynı fiil, aynı nesne, iki sûre sınırının iki yanında.",
+   "olculen": {
+    "17:111": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى + لَمْ يَتَّخِذْ وَلَدًۭا",
+    "18:1": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى",
+    "18:4": "ٱتَّخَذَ ٱللَّهُ وَلَدًۭا",
+    "mesafe": "4 ayet"
+   },
+   "test": "Sûre sınırı bağlarının korpus taraması: ardışık sûrelerin son/ilk ayetleri arasında lafız ya da kalıp paylaşımı — kaç sınırda var? Mushaf sırası mı nüzûl sırası mı daha çok bağ üretiyor? 289 (komşu sûre karşıtlığı) ile aynı aile ama TERS yön: orada karşıtlık, burada süreklilik."
+  },
+  {
+   "no": 354,
+   "aday": "MÜHÜRSÜZ SÛRE: Kehf'te esmâ mühür çifti SIFIR. Okunan on sekiz sûrede ilk kez. Ve esmâ token sayısı yalnız 20; bunun 10'u أَحَد (P0, 'hiç kimse/biri'), 4'ü وَلِيّ, 2'si مُؤْمِن — gerçek esmâ ≈ 6 token (ظاهِر, مُقْتَدِر, غَفُور, مَلِك). Karşılaştırma: Nahl 8 mühür, İsrâ 5, Hicr 3.",
+   "olculen": {
+    "muhur": 0,
+    "token": 20,
+    "P0": 16,
+    "gercek": 6,
+    "nahl": 8,
+    "isra": 5,
+    "hicr": 3
+   },
+   "test": "Mühür sayısının sûre bazında dağılımı ve mühürsüz sûrelerin ortak özellikleri (uzunluk, fâsıla sınıfı, Allah/Rab oranı, anlatı yoğunluğu). Kehf ağırlıkla KISSA sûresi — mühür yokluğu anlatı yoğunluğuyla ilişkili mi? 299 (mühür bağlamı) ile birleşik."
+  },
+  {
+   "no": 355,
+   "aday": "KEHF'İN ÜÇ AYKIRILIĞI BİR ARADA: (1) fâsıla 110/110 tek sınıf, HİÇ KIRIK YOK — İsrâ 110/111, Hicr 97/99, Nahl 126/128. (2) mühür sıfır. (3) sayı sözcüğü 14 ayette, 18:22 tek başına SEKİZ tane (ثلاثة/رابع/خمسة/سادس/سبعة/ثامن/عدّة/قليل/أحد *(bir, hiç kimse)*) — okumanın en yükseği. Ayrıca kıssanın çerçevesi baştan ölçüm üzerine kuruluyor (18:12 أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ).",
+   "olculen": {
+    "fasila_kirik": 0,
+    "muhur": 0,
+    "sayi_ayet": 14,
+    "18:22_sayi": 8,
+    "18:19_n": 38,
+    "18:85_n": 2
+   },
+   "test": "(a) Kafiye kırığı sıfır olan sûrelerin envanteri ve uzunlukla ilişkisi — 326'daki düzeltilmiş kuralla yeniden hesaplanacak. (b) Sayı sözcüğü yoğunluğunun sûre dağılımı; 18:22 korpusun en sayı-yoğun ayeti mi? (c) Bu üç ölçütün birlikte görülmesi rastlantı mı — konum-eşli null."
+  },
+  {
+   "no": 356,
+   "aday": "سُلْطَٰن'IN DÖRDÜNCÜ ANLAMI: İsrâ'da üç konum ölçülmüştü (17:33 verilen yetki · 17:65 olmayan hâkimiyet · 17:80 istenen güç). 18:15'te dördüncü: بِسُلْطَٰنٍۭ بَيِّنٍۢ — hâkimiyet değil DELİL/KANIT. Yani kök iki ayrı anlam alanına yayılıyor: güç ve ispat.",
+   "olculen": {
+    "17:33": "verilen",
+    "17:65": "olmayan",
+    "17:80": "istenen",
+    "18:15": "DELİL",
+    "sلط_korpus": 39
+   },
+   "test": "336/346'nın genişletilmiş hâli: سلط kökünün 39 geçişinin anlam sınıflandırması — güç/hâkimiyet vs delil/kanıt. İki anlam sözdizimsel olarak ayrışıyor mu (بِسُلْطَٰن + sıfat = delil; عَلَىٰ + zamir = hâkimiyet)? Ayrışıyorsa kavram tablosuna ayrı giriş açılmalı (267 ile aynı aile)."
+  },
+  {
+   "no": 357,
+   "aday": "'DAHA İYİ BİLİR' KALIBINDA EKSEN KAYMASI: Kehf'te sekiz ayette dört geçiş ve her seferinde adlandırma değişiyor — رَبُّكُمْ (18:19) → رَّبُّهُمْ (18:21) → رَّبِّىٓ (18:22) → ٱللَّهُ (18:26). İyelik zamiri كم→هم→ى diye daralıyor, dördüncüde iyelik TAMAMEN DÜŞÜP lafza geçiliyor. Ve dördü de KİŞİLERİN ağzında; İsrâ'daki dört geçiş (17:25, 54, 55, 84) ise dördü de anlatıcının cümlesiydi.",
+   "olculen": {
+    "kehf": [
+     [
+      18,
+      19
+     ],
+     [
+      18,
+      21
+     ],
+     [
+      18,
+      22
+     ],
+     [
+      18,
+      26
+     ]
+    ],
+    "eksen": [
+     "رَبُّكُمْ",
+     "رَّبُّهُمْ",
+     "رَّبِّىٓ",
+     "ٱللَّهُ"
+    ],
+    "isra": [
+     [
+      17,
+      25
+     ],
+     [
+      17,
+      54
+     ],
+     [
+      17,
+      55
+     ],
+     [
+      17,
+      84
+     ]
+    ],
+    "isra_konusan": "anlatıcı ×4",
+    "kehf_konusan": "kişiler ×4"
+   },
+   "test": "339 ile birleşik: 'أَعْلَمُ + eksen adı' kalıbının korpus envanteri; konuşan sınıfı (anlatıcı / kişi) ile eksen adı seçimi (Rab / lafız) arasında bağ var mı? Ve iyelik daralması (كم→هم→ى→∅) başka dizilerde de görülüyor mu?"
+  },
+  {
+   "no": 358,
+   "aday": "ضرب *(vurma; mesel getirme)* مثل *(benzer, mesel)* FİİLİNİN DÖRDÜNCÜ FÂİLİ VE KİPİ (338 genişledi): 16:74 لَا تَضْرِبُوا۟ (2MP, YASAK) → 16:75 ضَرَبَ ٱللَّهُ (lafız, ilâhî edim) → 17:48 ضَرَبُوا۟ لَكَ (karşı taraf, İHLÂL) → 18:32 وَٱضْرِبْ لَهُم (muhatap, EMİR). Aynı fiil dört ayrı fâil-kip bileşimi; ve yasaklanan edim iki sûre sonra emrediliyor.",
+   "olculen": {
+    "16:74": "yasak/2MP",
+    "16:75": "ilâhî/3MS",
+    "17:48": "ihlâl/3MP",
+    "18:32": "emir/2MS"
+   },
+   "test": "305/338'in kapanışı. Korpus taraması: bir kökün hem NEHY hem IMPV hem ilâhî etken olarak geçtiği vakalar — kaç kök bu dört konumu birden dolduruyor? Fâil-kip matrisinin tam envanteri."
+  },
+  {
+   "no": 359,
+   "aday": "YARATMA MALZEMESİNİN BEŞİNCİ TERİMİ VE TEK İKİ AŞAMALI DİZİSİ: صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (15:26) · نُطْفَة (16:4) · طِين (17:61) · تُرَاب ثُمَّ نُطْفَة (18:37). Sonuncusu tek çok-aşamalı dizi; öteki üçünde tek terim. Ve 18:37 سَوَّىٰكَ ile 15:29 سَوَّيْتُهُۥ aynı düzenleme fiilini paylaşıyor ama zincirler farklı: سوّى→نفخ *(üfleme)*→سجد (Hicr) vs تراب→نطفة→سوّى→رجل (Kehf).",
+   "olculen": {
+    "terimler": [
+     "صلصال",
+     "نطفة",
+     "طين",
+     "تراب+نطفة"
+    ],
+    "aşamali": [
+     [
+      18,
+      37
+     ]
+    ],
+    "ortak_fiil": "سوّى",
+    "zincirler": 2
+   },
+   "test": "292/345 ile birleşik: insan yaratılışı malzeme terimlerinin TAM envanteri (تراب, طين *(çamur)*, صلصال, حمإ, نطفة, علقة, ماء, سلالة) ve her ayette kaç aşama sayıldığı. Aşama sayısı ile sûre tipi/uzunluğu ilişkili mi? Ve سوّى fiilinin zincir içindeki konumu sabit mi?"
+  },
+  {
+   "no": 360,
+   "aday": "LAFIZ İLE RAB'IN AYNI CÜMLEDE ÖZDEŞLENMESİ: 18:38 لَّٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى — sekiz kelimede üç eksen adı, ve lafız ile Rab BİRBİRİNE YÜKLEM. z_rab=5.01, 17:108 ile eşit ve okumanın en yükseği. Okunan sûrelerde eksen adlarının bu biçimde özdeşlendiği ilk yer; genelde biri ya da öteki kullanılıyor.",
+   "olculen": {
+    "n": 8,
+    "A": 1,
+    "R": 2,
+    "z_rab": 5.01,
+    "yapi": "هُوَ ٱللَّهُ رَبِّى (mübtedâ-haber)",
+    "onceki_ayet": "18:36 inkâr edenin ağzında رَبِّى"
+   },
+   "test": "Kayıtlı bulgu 'Rab %99.4 bağlı' ve 'Allah-ekseni iki iplikli' ile birleşik: lafız ve Rab'ın AYNI ayette geçtiği vakaların envanteri ve sözdizimsel ilişkileri (özdeşleme / izâfet / ayrı cümle). Özdeşleme kaç yerde? Ve 303'teki 'eksen değişimi' gözlemiyle karşılaştırma."
+  },
+  {
+   "no": 361,
+   "aday": "KEHF'İN SÛRELER ARASI EŞLEŞME YOĞUNLUĞU: 18:41-60 arasında ALTI ayet İsrâ/Nahl'de ölçülmüş cümlelerin birebir ya da tek değişkenle dönmüş hâli — 18:54↔17:41/17:89 · 18:55↔17:94 · 18:56↔17:105 · 18:57↔17:46 (VE 6:25) · 18:58↔16:61/35:45 · 18:48↔17:51. Yirmi ayetlik bir pencerede altı sûre-aşırı eşleşme.",
+   "olculen": {
+    "pencere": "18:41-60",
+    "eslesme": 6,
+    "birebir": [
+     [
+      18,
+      57
+     ]
+    ],
+    "tek_degisken": [
+     [
+      18,
+      55
+     ],
+     [
+      18,
+      56
+     ],
+     [
+      18,
+      58
+     ]
+    ],
+    "ucluk_kapanan": [
+     [
+      18,
+      54
+     ]
+    ]
+   },
+   "test": "294/318 ile birleşik: sûre-aşırı tekrarın YOĞUNLUK haritası — ardışık sûreler arasında eşleşme sayısı mesafeyle azalıyor mu? Kehf-İsrâ çifti anormal mi? Konum-eşli null ile; ve defter'in esit alanı yalnız tam eşleşme gördüğü için xref dizileri üzerinden ölçülecek."
+  },
+  {
+   "no": 362,
+   "aday": "أحصى FİİLİNİN ÜÇ YETERLİLİK DERECESİ: 16:18 insanlar nimeti SAYAMAZ (لَا تُحْصُوهَا) · 18:12 iki grup süreyi saymakta YARIŞIR (أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ) · 18:49 kitap küçük büyük hiçbirini bırakmadan SAYAR. Aynı fiil, üç özne (insan / grup / kayıt), yetersizden eksiksize giden bir ölçek.",
+   "olculen": {
+    "16:18": "olumsuz, insan",
+    "18:12": "karşılaştırmalı, grup",
+    "18:49": "eksiksiz, kitap",
+    "kok": "حصي"
+   },
+   "test": "حصي kökünün korpus envanteri ve öznesinin sınıflandırması (insan / ilâhî / kayıt). Yeterlilik derecesi ile özne sınıfı arasında sistematik bağ var mı? Ve 'sayma' fiilleri ailesi (عدّ, حصي, حسب) arasındaki iş bölümü."
+  },
+  {
+   "no": 363,
+   "aday": "ÂDEM-İBLÎS SAHNESİNİN DÖRDÜNCÜ ANLATIMI KÖKENİ VERİYOR (345 genişledi): 18:50 كَانَ مِنَ ٱلْجِنِّ — İblîs'in aidiyeti yalnız burada söyleniyor; Hicr, Nahl, İsrâ'da yok. Ve RED FİİLİNİN ADI da her anlatımda farklı: أَبَىٰ (15:31, reddetti) · ءَأَسْجُدُ soru (17:61) · فَفَسَقَ عَنْ أَمْرِ رَبِّهِ (18:50, emirden çıktı). Sabit olan yalnız secde emri ve reddin kendisi.",
+   "olculen": {
+    "koken": [
+     [
+      18,
+      50
+     ]
+    ],
+    "red_fiili": {
+     "15:31": "أَبَىٰ",
+     "17:61": "soru",
+     "18:50": "فَسَقَ"
+    },
+    "malzeme": {
+     "15": "صلصال",
+     "16": "نطفة",
+     "17": "طين",
+     "18": "تراب+نطفة"
+    }
+   },
+   "test": "345'in kapanışı. Aynı kıssanın anlatımları arasında SABİT ve DEĞİŞKEN öğelerin tam matrisi: secde emri, red, malzeme, red fiili, köken, mühlet, istisna ölçütü. Hangi öğe kaç anlatımda var? Değişkenlik sûrenin ölçüm profiliyle ilişkili mi?"
+  },
+  {
+   "no": 364,
+   "aday": "DAĞLARIN İKİ KARŞIT İŞLEMİ: 15:19 وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ ve 16:15 وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ — dağlar SABİTLEYİCİ olarak atılıyor; 18:47 وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ — YÜRÜTÜLÜYOR. Aynı nesne, karşıt işlem, aynı 1P/3MS fâil. Ve ikisi arasında bir amaç farkı var: biri sarsılmayı önlemek için, öteki bir günün tarifi.",
+   "olculen": {
+    "sabitleme": [
+     [
+      15,
+      19
+     ],
+     [
+      16,
+      15
+     ]
+    ],
+    "yurutme": [
+     [
+      18,
+      47
+     ]
+    ],
+    "amac": "أَن تَمِيدَ بِكُمْ / يَوْمَ"
+   },
+   "test": "جبل *(dağ)* ve رواسي köklerinin korpus envanteri ve yüklem sınıflandırması (sabitleme / yürütme / yontma / parçalama). 'Sabit' ve 'hareketli' yüklemler zaman kipine göre mi ayrışıyor (dünya hâli / kıyamet hâli)?"
+  },
+  {
+   "no": 365,
+   "aday": "1P FİİLİNİN ÖZNE SINIFLANDIRMASI — BAZI KÖKLER İLÂHÎ 1P'YE KAPALI: 18:80 فَخَشِينَآ, خشي kökünün korpustaki 40 fiil geçişi içinde TEK 1P vakası. Ve 'korku/üzüntü' anlam ailesi 1P'ye büyük ölçüde kapalı: خوف (87 geçiş) 1P HİÇ almıyor · رجو (25) hiç · حزن (37) hiç · عجب (19) hiç. Buna karşılık 18:81 فَأَرَدْنَآ: أَرَدْنَا korpusta altı geçiş, ÜÇÜ ilâhî (16:40, 17:16, 21:17), ikisi insan alıntısı (4:62, 9:107). Yani AYNI İKİ AYETTEKİ İKİ 1P FİİLİ korpus profilinde TERS YÖNLERE düşüyor.",
+   "olculen": {
+    "خشي_toplam": 40,
+    "خشي_1P": 1,
+    "خوف_1P": 0,
+    "رجو_1P": 0,
+    "حزن_1P": 0,
+    "أردنا_toplam": 6,
+    "أردنا_ilahi": 3,
+    "أردنا_insan": 2,
+    "n>=25 olup 1P hiç almayan kök": 56
+   },
+   "test": "1P özne alan ve almayan fiil köklerinin tam envanteri; 'ilâhî 1P'ye kapalı' bir anlam sınıfı var mı (duygu, acz, ihtiyaç)? n≥25 olup 1P hiç almayan 56 kökün anlam sınıflandırması. Bu ölçüt, belirsiz 1P geçişlerinde özne sınıfını daraltmak için araç olabilir. NOT: 18:80-81'in kendisi motive eden vaka olduğu için testten DIŞLANACAK."
+  },
+  {
+   "no": 366,
+   "aday": "AYNI KONUŞMACIDA ARDIŞIK ŞAHIS KAYMASI VE AÇIK REDDİYE: 18:79-82'de tek konuşmacı üç açıklama veriyor ve fâil üç kez değişiyor — أَرَدتُّ (1S) → خَشِينَا/أَرَدْنَا (1P) → أَرَادَ رَبُّكَ (3MS-Rab) — ardından 1S ile açık bir reddiye geliyor: وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى, ve kapsamı ÜÇ olayın hepsi. Dizi eylemin ağırlığıyla aynı yönde ilerliyor (mala zarar → cana kıyma → gizli iyilik).",
+   "olculen": {
+    "18:79": "1S",
+    "18:80": "1P (خشي)",
+    "18:81": "1P (أراد)",
+    "18:82": "3MS Rab + 1S reddiye",
+    "kaynak": "18:65 ilim (emir DEĞİL)"
+   },
+   "test": "Tek konuşmacının ardışık cümlelerinde şahıs kayması — korpus envanteri; kayma yönü (tekil→çoğul→üçüncü) sistematik mi? Ve iltifât alanı (defter'in ilt) bu tür KONUŞMACI-İÇİ kaymaları yakalıyor mu, yoksa yalnız anlatıcı iltifâtını mı sayıyor? Kaçırıyorsa alan genişletilecek. YORUM NOTU: 'kul kendi mi karar verdi' sorusu metinde ayırt edici veri olmadığı için ölçümle çözülmüyor; üç okuma (vasıtalı fâillik / kademeli devir / bilerek çözülmemiş sınır) kayda geçirildi, aralarında seçim YAPILMADI."
+  },
+  {
+   "no": 367,
+   "aday": "KADEMELİ TEKRAR: 18:67 → 18:72 → 18:75'te aynı cümle her seferinde UZUYOR ve hiçbir sözcük çıkmıyor: إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا (n=6) → أَلَمْ أَقُلْ + aynı (n=8) → أَلَمْ أَقُل لَّكَ + aynı (n=9). Hüküm → hatırlatma → hatırlatmaya muhatap eki.",
+   "olculen": {
+    "18:67": 6,
+    "18:72": 8,
+    "18:75": 9,
+    "eklenen": [
+     "أَلَمْ أَقُلْ",
+     "لَّكَ"
+    ]
+   },
+   "test": "294/318'in üçüncü türü: 'tek değişkenli ikiz'in KADEMELİ biçimi — aynı cümlenin sûre içinde artan uzunlukla tekrarı. Korpusta kaç örnek? Ve artışın hep EKLEME yönünde mi olduğu (çıkarma vakası var mı) ölçülecek."
+  },
+  {
+   "no": 368,
+   "aday": "KEHF BAŞTAN SONA SAYIM/ÖLÇÜ EKSENİNDE KURULU: 18:11 سِنِينَ عَدَدًۭا (belirsiz sayı) · 18:12 أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ (sayım yarışması) · 18:19 كَمْ لَبِثْتُمْ (yanlış tahmin) · 18:22 dokuz sayı sözcüğü (üç rakip sayım) · 18:25 üç yüz + dokuz (kesin sayı) · 18:26 ٱللَّهُ أَعْلَمُ (bilgi devri) · 18:34 أَكْثَرُ مِنكَ مَالًۭا (mal karşılaştırması) · 18:49 أَحْصَىٰهَا (eksiksiz kayıt) · 18:105 وَزْن tutulmaması · 18:109 tükenmeyen kelimeler. Ve sûrede sayı sözcüğü 14 ayette — okumanın en yükseği.",
+   "olculen": {
+    "sayi_ayet": 14,
+    "18:22_sayi": 9,
+    "olcum_ayetleri": [
+     11,
+     12,
+     19,
+     22,
+     25,
+     26,
+     34,
+     49,
+     105,
+     109
+    ]
+   },
+   "test": "Sûre düzeyinde 'tema' ölçümü: sayı sözcüğü + ölçme/sayma kökleri (عدد, حصي, حسب, وزن, كيل *(ölçme (hacim))*, نفد *(tükenme)*) yoğunluğunun sûre bazında dağılımı. Kehf istatistiksel olarak ayrışıyor mu, konum-eşli null ile? 355 ile birleşik."
+  },
+  {
+   "no": 369,
+   "aday": "AYNI SÖZCÜK FÂSILADA TERS YÜKLEMLE — KEHF'TE İKİ KEZ: مُرْتَفَق (18:29 بِئْسَ ٱلشَّرَابُ وَسَآءَتْ / 18:31 نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ) ve نُزُل (18:102 cehennem kâfirlere / 18:107 Firdevs müminlere). İki çift de iki ayet arayla ve ikisi de fâsıla konumunda.",
+   "olculen": {
+    "مرتفق": [
+     [
+      18,
+      29
+     ],
+     [
+      18,
+      31
+     ]
+    ],
+    "نزل": [
+     [
+      18,
+      102
+     ],
+     [
+      18,
+      107
+     ]
+    ],
+    "aralik": 2
+   },
+   "test": "'Aynı fâsıla sözcüğü, karşıt değerlendirme' kalıbının korpus envanteri. Kehf'in iki vakası anormal mi? Ve bu kalıp fâsıla tekdüzeliğiyle (Kehf 110/110) ilişkili mi — tek sınıflı kafiye sözcük tekrarını zorunlu mu kılıyor?"
+  },
+  {
+   "no": 370,
+   "aday": "OKUMANIN EN UZUN VE EN KISA AYETİ AYNI SÛREDE: 18:19 (38 kelime) ve 18:85 (2 kelime). Ve 18:85/89/92 üçlüsü (2-3-3 kelime) anlatı düğümlerini sözcük düzeyinde eşitliyor; 18:89↔18:92 esit alanında SÛRE İÇİ tam-ayet ikizi — okumada ilk vaka.",
+   "olculen": {
+    "en_uzun": [
+     [
+      18,
+      19
+     ],
+     38
+    ],
+    "en_kisa": [
+     [
+      18,
+      85
+     ],
+     2
+    ],
+    "ucluk": [
+     [
+      18,
+      85
+     ],
+     [
+      18,
+      89
+     ],
+     [
+      18,
+      92
+     ]
+    ],
+    "esit_ici": [
+     [
+      18,
+      89
+     ],
+     [
+      18,
+      92
+     ]
+    ]
+   },
+   "test": "Sûre içi ayet uzunluğu varyansının dağılımı: en uzun/en kısa oranı hangi sûrelerde en yüksek? Ve esit alanının sûre içi çiftleri — korpusta kaç tane? defter'in esit alanı sûre içi eşleşmeyi sistematik olarak buluyor mu, yoksa 18:89/92 istisna mı?"
+  },
+  {
+   "no": 371,
+   "aday": "KEHF'İN ÜÇLÜ DİZİLERİ: sûre en az beş üçlü taşıyor ve hepsi kip/konum değişimiyle ilerliyor — (a) إِن شَآءَ ٱللَّهُ: emir (24) → sitem (39) → uygulama (69); (b) 'daha iyi bilir' eksen kayması: رَبُّكُمْ → رَّبُّهُمْ → رَّبِّىٓ → ٱللَّهُ (19,21,22,26); (c) فَٱنطَلَقَا ×3 (71,74,77), üçüncüde kalıp kırılıyor; (d) أَتْبَعَ سَبَبًا ×3 (85,89,92); (e) شرك *(ortak koşma)*+ربّ+أحد *(bir, hiç kimse)*: iman sözü → pişmanlık → buyruk (38,42,110).",
+   "olculen": {
+    "ucluk_sayisi": 5,
+    "tur": [
+     "formül kullanımı",
+     "eksen kayması",
+     "anlatı düğümü",
+     "anlatı düğümü",
+     "kip değişimi"
+    ]
+   },
+   "test": "Sûre içi üçlü dizilerin envanteri ve türleri; üçlü yapı Kehf'e mi özgü yoksa kıssa-yoğun sûrelerin genel özelliği mi? Ve üçüncü halkanın 'kalıbı kırma' oranı (18:77 gibi) ölçülecek."
+  }
+ ],
+ "Y_meryem": [
+  {
+   "no": 372,
+   "aday": "MERYEM KORPUSUN RAHMÂN SÛRESİ: ٱلرَّحْمَٰن 16 token — korpustaki 57 esmâ geçişinin %28'i tek sûrede. Sûre bazında dağılım: 19 (16) · 43 (7) · 25 (5) · 20/21/36/67 (4) · 1 (2). Ve sûrenin Allah lafzı yalnız 8; yani Rahmân, lafzın İKİ KATI.",
+   "olculen": {
+    "korpus_toplam": 57,
+    "meryem": 16,
+    "oran": 0.281,
+    "allah_lafzi": 8,
+    "rab": 23,
+    "ikinci_sure": [
+     43,
+     7
+    ]
+   },
+   "test": "ٱلرَّحْمَٰن'ın sûre bazında dağılımı ve yoğunlaşmanın anlamı: Rahmân yoğun sûreler ortak özellik taşıyor mu (Mekkî, kıssa yoğunluğu, Allah/Rab oranı)? Ve Rahmân ile Allah lafzının aynı sûrede ters yönlü mü hareket ettiği — konum-eşli null ile."
+  },
+  {
+   "no": 373,
+   "aday": "ÜST ÜSTE İKİ MÜHÜRSÜZ SÛRE (354 genişledi): Kehf ve Meryem'in İKİSİNDE DE esmâ mühür çifti sıfır. Ve iki sûrenin Rab yoğunluğu neredeyse eşit: 1.90x ve 1.89x — okunanların en yüksek ikisi. Karşılaştırma: Nahl 8 mühür, İsrâ 5, Hicr 3.",
+   "olculen": {
+    "kehf": {
+     "muhur": 0,
+     "rab_kat": 1.9
+    },
+    "meryem": {
+     "muhur": 0,
+     "rab_kat": 1.89
+    },
+    "nahl": 8,
+    "isra": 5,
+    "hicr": 3
+   },
+   "test": "354'ün genişletilmiş testi: mühür sayısı ile Rab yoğunluğu arasında ters ilişki var mı? Korpus çapında sûre bazında korelasyon; ve mühürsüz sûrelerin tam envanteri. Kıssa yoğunluğu kontrol değişkeni olarak."
+  },
+  {
+   "no": 374,
+   "aday": "AYNI SORU, İKİ KİŞİ, İKİ İMKÂNSIZLIK: 19:8 ve 19:20'de أَنَّىٰ يَكُونُ لِى غُلَٰمٌ birebir aynı beş kelime — Zekeriyyâ ve Meryem. Gerekçeler karşıt sınıftan: biri YAŞ VE KISIRLIK (وَكَانَتِ ٱمْرَأَتِى عَاقِرًۭا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ), öteki TEMAS YOKLUĞU (وَلَمْ يَمْسَسْنِى بَشَرٌۭ). Ve ikisine de aynı cevap veriliyor (هُوَ عَلَىَّ هَيِّنٌ, 19:9 ve 19:21).",
+   "olculen": {
+    "ortak": "أَنَّىٰ يَكُونُ لِى غُلَٰمٌ",
+    "19:8": "yaş+kısırlık",
+    "19:20": "temas yokluğu",
+    "ortak_cevap": "هُوَ عَلَىَّ هَيِّنٌ"
+   },
+   "test": "294/318'in dördüncü türü: AYNI CÜMLE, İKİ FARKLI KONUŞAN, aynı sûre içinde. Korpus taraması: kaç örnek? Ve gerekçe/devam cümlesinin farklılaşma biçimi sınıflandırılacak."
+  },
+  {
+   "no": 375,
+   "aday": "بَرّ LEMMASININ ÜÇÜNCÜ ANLAMI VE P0'A YENİ SINIF: İsrâ'da بَرّ üç kez 'kara' (deniz karşıtı: 17:67, 68, 70), Meryem'de 19:14 وَبَرًّۢا بِوَٰلِدَيْهِ 'ana babaya iyilik'. İkisi de esmâ listesinde sayılıyor. Yani tek lemma iki bambaşka anlam alanında ve ikisi de sahte pozitif.",
+   "olculen": {
+    "isra": [
+     [
+      17,
+      67
+     ],
+     [
+      17,
+      68
+     ],
+     [
+      17,
+      70
+     ]
+    ],
+    "meryem": [
+     [
+      19,
+      14
+     ]
+    ],
+    "anlamlar": [
+     "kara",
+     "iyilik/itaat"
+    ],
+    "esma_listesinde": true
+   },
+   "test": "272/291/329 doğrulama setine ekleniyor. بَرّ lemmasının korpus envanteri ve anlam sınıflandırması (kara / iyilik / esmâ). Bağlam kuralı üçünü de ayırabiliyor mu?"
+  },
+  {
+   "no": 376,
+   "aday": "DÖRT DEĞİŞKENLİ AYNALAMA — İKİ AYET ÇİFTİ: 19:14-15 (Yahyâ) ↔ 19:32-33 (Îsâ). Değişen dört öğe: (a) şahıs 3MS↔1S · (b) ebeveyn İKİL (بِوَٰلِدَيْهِ) ↔ TEKİL anne (بِوَٰلِدَتِى) · (c) sıfat عَصِيًّۭا↔شَقِيًّۭا · (d) selâm BELİRSİZ (سَلَٰمٌ عَلَيْهِ) ↔ BELİRLİ (ٱلسَّلَٰمُ عَلَىَّ). On sekiz ayet arayla, sabit kalan: yapı, sıra, kafiye.",
+   "olculen": {
+    "cift1": [
+     [
+      19,
+      14
+     ],
+     [
+      19,
+      15
+     ]
+    ],
+    "cift2": [
+     [
+      19,
+      32
+     ],
+     [
+      19,
+      33
+     ]
+    ],
+    "degisken": 4,
+    "mesafe": 18
+   },
+   "test": "294/318/374 ailesinin beşinci türü: TEK AYET değil AYET ÇİFTİ aynalanması. Korpus taraması: ardışık iki ayetin başka bir yerde ardışık iki ayetle eşleştiği vakalar. defter'in esit alanı yalnız tek ayet bakıyor — çift-ayet ölçütü eklenmeli."
+  },
+  {
+   "no": 377,
+   "aday": "SÛRE İÇİ İKİZ 44 AYET ARAYLA: 19:4 وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّۭا (Zekeriyyâ, PERF olumsuz) ↔ 19:48 عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّۭا (İbrâhim, gelecek/umut). Aynı üç kelimelik kapanış (بدعاء ربّ شقيّا), iki zaman kipi, iki kişi — biri geçmişin tespiti, öteki geleceğin umudu.",
+   "olculen": {
+    "19:4": "PERF + NEG, 2MS iyelik (رَبِّ)",
+    "19:48": "عَسَىٰ + SUBJ, 1S iyelik (رَبِّى)",
+    "mesafe": 44
+   },
+   "test": "Sûre içi uzak ikizlerin envanteri: aynı sûrede 30+ ayet arayla tekrarlanan üç ve daha fazla kelimelik diziler. Ve kip değişiminin yönü (geçmiş→gelecek) sistematik mi?"
+  },
+  {
+   "no": 378,
+   "aday": "وَٱذْكُرْ فِى ٱلْكِتَٰبِ FORMÜLÜ SÛRENİN YAPI İSKELETİ: beş kez — 19:16 Meryem · 19:41 İbrâhim · 19:51 Mûsâ · 19:54 İsmâîl · 19:56 İdrîs. Ve tanıtım kalıbı da sabit (إِنَّهُۥ كَانَ + iki sıfat); 19:41 ile 19:56 BİREBİR aynı iki sıfatı taşıyor (صِدِّيقًۭا نَّبِيًّۭا). Sûre 18 ayrı ad taşıyor — okumanın en ad-yoğun sûresi.",
+   "olculen": {
+    "formul": 5,
+    "ayetler": [
+     16,
+     41,
+     51,
+     54,
+     56
+    ],
+    "birebir_tanitim": [
+     [
+      19,
+      41
+     ],
+     [
+      19,
+      56
+     ]
+    ],
+    "adli_aktor": 18
+   },
+   "test": "Sûre içi yapı formüllerinin envanteri (ٱذْكُرْ فِى ٱلْكِتَٰبِ, أَمَّا …, فَٱنطَلَقَا gibi): kaç sûre böyle bir iskelet taşıyor ve formül sayısı sûre uzunluğuyla ilişkili mi? 371 (Kehf'in beş üçlüsü) ile aynı aile."
+  },
+  {
+   "no": 379,
+   "aday": "TAACCÜB KALIBI TERS SIRA VE TERS ÖZNEDE: 18:26 أَبْصِرْ بِهِۦ وَأَسْمِعْ (görme önce, özne O) ↔ 19:38 أَسْمِعْ بِهِمْ وَأَبْصِرْ (işitme önce, özne ONLAR). İki sûrede iki kez, hem sıra hem merci çevrilmiş. Ve سمع *(işitme)*/بصر *(görme)* çifti okumada beş konumda: verilen nimet (16:78) · sorulacak (17:36) · iptal (17:97) · taaccüb ×2 (18:26, 19:38) · tapılanın eksikliği (19:42).",
+   "olculen": {
+    "18:26": "بصر→سمع, özne ilâhî",
+    "19:38": "سمع→بصر, özne beşerî",
+    "cift_konum": 6
+   },
+   "test": "332/334 ile birleşik: سمع *(işitme)*/بصر *(görme)* çiftinin korpus envanteri, sıra (hangisi önce) ve özne sınıflandırması. Sıra sabit mi yoksa özneye göre mi değişiyor? Sabitse 18:26/19:38 çifti anormaldir."
+  }
+ ]
 }
