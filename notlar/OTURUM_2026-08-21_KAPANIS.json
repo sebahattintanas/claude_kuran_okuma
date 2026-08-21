@@ -1,0 +1,37 @@
+{
+ "oturum": "2026-08-21",
+ "tamamlanan_sureler": [
+  15,
+  16,
+  17,
+  18
+ ],
+ "kismi": {
+  "19": "1-60"
+ },
+ "okunan_ayet_bu_oturum": 508,
+ "toplam_ayet_kayitli": 1100,
+ "kapsam": null,
+ "aday_toplam": 379,
+ "aday_numarali": 371,
+ "aday_max": 379,
+ "bonferroni_paydasi": 371,
+ "baglanti_gruplari": {
+  "olcum_artefaktlari_okumada": 23,
+  "S_hicr": 57,
+  "T_nahl": 87,
+  "U_isra": 83,
+  "V_kehf": 68,
+  "Y_meryem": 36
+ },
+ "yeni_dosyalar": [
+  "tablolar/kok_turkce.json",
+  "betikler/turkce_denetim.py"
+ ],
+ "denetim": "turkce_denetim.py → 0 ihlâl (sûre 15-19)",
+ "devam": "19:61",
+ "kapsam_oturum_basi": "2278 ayet (36.5%)",
+ "kapsam_oturum_sonu": "2559 ayet (41.0%)",
+ "bu_oturumda_okunan": 281,
+ "ayrica_bu_oturumda_yazilan": "15 Hicr (99) ve 16 Nahl (128) — okuma_metni'ne TAM kipte ilk kez yazıldı"
+}

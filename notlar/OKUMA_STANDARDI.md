@@ -142,3 +142,41 @@ görecekler; testleri, motive eden ayetler dışlanarak kurulacak.
 ya da indeks üzerinden erişilir. Bu kural iki kez ihlal edildi ve iki kez
 sessiz hataya yol açtı (en sonuncusu: `aktor.py` v1'de 2989 token yanlış
 sınıflandı, çünkü elle yazılan `ٱللَّه` korpustaki `اللَّه` ile eşleşmedi).
+
+
+---
+
+## 2026-08-20 — BİÇİM KURALI EKLENDİ: Arapça terimlerin Türkçe karşılığı
+
+Ölçüm ve mercek metinlerinde geçen HER Arapça sözcük/tamlama, hemen ardından
+italik parantez içinde Türkçe karşılığıyla verilir.
+
+    doğru:  `نُفُورًۭا` *(kaçış, ürküp uzaklaşma)*
+    doğru:  `صَرَّفْنَا` *(türlü türlü açıkladık)* — bab II, çeşitlendirme
+    yanlış: `نُفُورًۭا` (karşılıksız bırakmak)
+
+Kapsam: ayet ölçüm satırları, mercek metinleri, dikey okuma özetleri,
+aday_bulgular kayıtları ve okuma_baglantilari notları.
+**İSTİSNA YOKTUR.** Önceki sürümdeki "üç harfli kökler muaf" maddesi
+2026-08-21'de KALDIRILDI: o boşluktan geçilerek 1094 kök anması karşılıksız
+kalmıştı. Kök adları da her geçişte karşılık alır.
+Gerekçe: metin Türkçe okunuyor; Arapça terim karşılıksız kaldığında ölçüm
+kaydı sonraki oturumlarda yeniden okunabilir olmuyor.
+
+
+---
+
+## 2026-08-21 — BİÇİM KURALI DENETİME BAĞLANDI
+
+Kural artık niyete değil betiğe bağlı:
+
+- `tablolar/kok_turkce.json` — 274 kök → Türkçe karşılık tablosu
+- `betikler/turkce_denetim.py` — karşılıksız kök anmalarını listeler, ihlâl
+  varsa çıkış kodu 1 döndürür
+
+**Her blok kaydından sonra `python3 turkce_denetim.py` koşturulur ve
+çıktı SIFIR olmadan blok kapatılmaz.**
+
+Geriye dönük onarım: sûre 15-19 arasında 1169 (okuma_metni) + 105 (bağlantılar)
++ 153 (adaylar) = 1427 karşılık eklendi. Yeni kök geçtiğinde önce
+`kok_turkce.json`a eklenir, sonra kullanılır.

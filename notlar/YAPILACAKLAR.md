@@ -218,3 +218,41 @@ Reçete: kelime dizisi hizalaması + fark büyüklüğü ölçeği (harf/biçimb
 
 ### Sıradaki sûre
 17 (İsrâ). Hicr–Nahl karşıtlığı (aday 289) İsrâ ile üçlü karşılaştırmaya açılacak.
+
+
+---
+
+## 2026-08-21 — OTURUM KAPANIŞI
+
+### Bu oturumda tamamlanan sûreler
+15 Hicr (99) · 16 Nahl (128) · 17 İsrâ (111) · 18 Kehf (110) — dördü de TAM.
+19 Meryem 1-60 yazıldı; **devam noktası 19:61**.
+
+### Kapanan / revize edilen adaylar
+- **268 → 279**: hapaks Allah-mesafesi n=1 olduğu için tek başına yorumlanamaz (geri çekildi)
+- **282**: fig/MM daralmasının MEKANİZMASI bulundu (segment düzeyi bitişiklik)
+- **327 revize**: MM üç ayrı sebeple düşüyor — ٱل segmenti, zamir eki, araya giren kelime
+- **319, 336, 341 KAPANDI**: üçlü/dörtlü diziler tamamlandı
+- **317, 345, 354 GENİŞLEDİ**: üçüncü/dördüncü üyeler bulundu
+- **323 REVİZE**: 17:7'nin eksik şart cevabı 17:104'te bulundu — tespit ayet düzeyinde
+  doğru, SÛRE düzeyinde değildi
+
+### Açık kalan P0 borçlar (öncelik sırasıyla)
+1. **MM/fig onarımı** (282+327): kelime düzeyine geç + pencere genişliği kalibre et.
+   Ölçüldü: 0 kelime→134 ayet · 1→96 · 2→37 · 3→23 (toplam 290). Doğrulama testi:
+   17:11, 17:19, 17:63, 17:80, 17:91, 17:106, 17:111, 18:99, 18:100, 19:3 yakalanmalı.
+2. **QASEM onarımı** (271+278+296+302): kök+bab birlikte; yemin harfleri و/تَ/لَ kapsama alınmalı
+3. **esmâ bağlam kuralı** (272+291+329+375): doğrulama seti artık Hûd 5 + Hicr 3 + Nahl 1
+   + İsrâ 7 + Kehf 3 + Meryem 4 lemma. آخِر, كَبِير, بَرّ, وَلِيّ, أَحَد, سَلام, مُؤْمِن, شَكُور, حَسِيب, مَلِك, جَبّار
+4. **kafiye kırığı kuralı** (326): sûre-içi baskın sınıftan sapma ölçütü eklenmeli;
+   şu anki kural ilk ayeti hiç göremiyor (17:1 kaçtı)
+5. **esit alanı genişletmesi** (294+304+318+374+376+377): tam eşleşme dışında
+   (a) tek kelime/biçimbirim farkı (b) sûre içi çift (c) AYET ÇİFTİ aynalanması
+   (d) uzak sûre-içi ikiz — dördü de şu an görünmüyor
+6. **jackknife denetimi** (288+295+301+320+335): zenginleşme skorlarından sabit
+   terkipleri ayır; قتل (n=170) kontrol grubu, روح القدس örnek vaka
+
+### Biçim borcu KAPANDI
+Türkçe karşılık kuralı denetime bağlandı: `tablolar/kok_turkce.json` (274 kök) +
+`betikler/turkce_denetim.py`. Sûre 15-19 taramasında **0 ihlâl**.
+Kural: her blok kaydından sonra denetim koşturulur, sıfır olmadan blok kapanmaz.
