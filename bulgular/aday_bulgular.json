@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-21 · sûre 19 (Meryem) 61-80",
+ "son_guncelleme": "2026-08-21 · sûre 19 (Meryem) TAM",
  "okunan": {
   "sureler": [
    1,
@@ -4458,8 +4458,8 @@
    "no": 379,
    "aday": "TAACCÜB KALIBI TERS SIRA VE TERS ÖZNEDE: 18:26 أَبْصِرْ بِهِۦ وَأَسْمِعْ (görme önce, özne O) ↔ 19:38 أَسْمِعْ بِهِمْ وَأَبْصِرْ (işitme önce, özne ONLAR). İki sûrede iki kez, hem sıra hem merci çevrilmiş. Ve سمع *(işitme)*/بصر *(görme)* çifti okumada beş konumda: verilen nimet (16:78) · sorulacak (17:36) · iptal (17:97) · taaccüb ×2 (18:26, 19:38) · tapılanın eksikliği (19:42).",
    "olculen": {
-    "18:26": "بصر→سمع, özne ilâhî",
-    "19:38": "سمع→بصر, özne beşerî",
+    "18:26": "بصر *(görme)*→سمع *(işitme)*, özne ilâhî",
+    "19:38": "سمع *(işitme)*→بصر *(görme)*, özne beşerî",
     "cift_konum": 6
    },
    "test": "332/334 ile birleşik: سمع *(işitme)*/بصر *(görme)* çiftinin korpus envanteri, sıra (hangisi önce) ve özne sınıflandırması. Sıra sabit mi yoksa özneye göre mi değişiyor? Sabitse 18:26/19:38 çifti anormaldir."
@@ -4608,19 +4608,114 @@
   },
   {
    "no": 389,
-   "aday": "DENETİM ARACININ KAPSAM AÇIĞI — turkce_denetim.py yalnız okuma_metni.json'u tarıyor. OKUMA_STANDARDI'nın 2026-08-20 maddesi kuralın kapsamını 'ayet ölçüm satırları, mercek metinleri, dikey okuma özetleri, aday_bulgular kayıtları ve okuma_baglantilari notları' diye tanımlıyor; betik ise yalnız birincisini deniyor. Bu blokta elle yapılan tarama okuma_baglantilari.json + aday_bulgular.json içinde 173 karşılıksız kök anması buluyor (2'si bu oturumda yazılmıştı, düzeltildi → 171 kaldı). İki kaynak: (a) yapısal `olculen` alanları hiç denetlenmemiş, (b) kok_turkce.json bu oturumda 274→302 köke çıktı, yeni 28 kök geçmiş kayıtlarda geriye dönük açık yarattı (okuma_metni'ndeki 12 vaka onarıldı, öteki iki dosyadakiler onarılmadı).",
+   "aday": "DENETİM ARACININ KAPSAM AÇIĞI — turkce_denetim.py yalnız okuma_metni.json'u tarıyor. OKUMA_STANDARDI'nın 2026-08-20 maddesi kuralın kapsamını 'ayet ölçüm satırları, mercek metinleri, dikey okuma özetleri, aday_bulgular kayıtları ve okuma_baglantilari notları' diye tanımlıyor; betik ise yalnız birincisini deniyor. Bu blokta elle yapılan tarama okuma_baglantilari.json + aday_bulgular.json içinde 173 karşılıksız kök anması buluyor (6'sı bu oturumun Y_meryem kayıtlarındaydı, düzeltildi → 167 kaldı). İki kaynak: (a) yapısal `olculen` alanları hiç denetlenmemiş, (b) kok_turkce.json bu oturumda 274→302 köke çıktı, yeni 28 kök geçmiş kayıtlarda geriye dönük açık yarattı (okuma_metni'ndeki 12 vaka onarıldı, öteki iki dosyadakiler onarılmadı).",
    "olculen": {
     "denetlenen_dosya": 1,
     "kural_kapsamindaki_dosya": 3,
     "elle_bulunan_ihlal": 173,
-    "bu_oturumda_yazilan": 2,
-    "kalan": 171,
+    "bu_oturumda_yazilan": 6,
+    "kalan": 167,
     "kok_turkce_kapsam_once": 274,
     "kok_turkce_kapsam_sonra": 302,
     "okuma_metni_geriye_donuk_onarilan": 12
    },
    "not": "Okuma sırasında ölçüm/denetim aracı DEĞİŞTİRİLMEDİ — borç olarak yazıldı.",
    "test": "Tur sonunda: turkce_denetim.py'ye dosya kapsamı eklenir (özyinelemeli JSON gezinme, string yaprakları denetlenir), 171 vaka onarılır. Ayrıca kok_turkce.json her genişlediğinde tüm kalıcılık dosyalarının yeniden denetlenmesi bir adım olarak sabitlenmeli."
+  },
+  {
+   "no": 390,
+   "aday": "BORÇ 3'ÜN EN YOĞUN VAKASI — MERYEM'İN ESMÂ ENVANTERİ: 31 etiketin 15'i SAHTE, oranı %48. Sûre 19'un esmâ alanı 31 etiket veriyor; 16'sı رَحْمٰن *(rahmet, merhamet)* (hepsi gerçek), kalan 15'inin TAMAMI sahte pozitif: سَلام *(esenlik)* 19:15/33/47/62 (üçü selâmlama formülü, biri cennette işitilen söz) · وَلِيّ *(dost, velî)* 19:5 (ٱلْمَوَٰلِى *(mîrasçı yakınlar)* — LEMMA hatası, مَوْلَى çoğulu وَلِيّ'ye eşleşmiş) ve 19:45 (şeytanın dostu) · بَرّ *(iyilik)* 19:14/32 (anne babaya iyi davranan) · جَبّار *(zorba)* 19:14/32 (zorba insan) · أَحَد *(bir, tek)* 19:26/98 ('hiç kimse') · عَلِيّ *(yüce)* 19:50 (لِسَانَ صِدْقٍ عَلِيًّۭا *(yüce bir doğruluk dili)*) ve 19:57 (مَكَانًا عَلِيًّا *(yüce bir mekân)*) · مُبِين *(apaçık)* 19:38 (ضَلَٰلٍۢ مُّبِينٍ *(apaçık sapkınlık)*). Ayırıcı belirti: 15 sahte etiketin 13'ü BELİRSİZ (tenvinli), biri (19:33 ٱلسَّلَٰمُ) belirli ama selâmlama formülünde, biri (19:5) lemma eşleşme hatası. Buna karşılık 16 رَحْمٰن geçişinin hepsi ٱلرَّحْمَٰن ya da لِلرَّحْمَٰن — belirli.",
+   "olculen": {
+    "toplam_etiket": 31,
+    "Rahman": 16,
+    "diger": 15,
+    "sahte": 15,
+    "sahte_orani": 0.48,
+    "belirsiz_sahte": 13,
+    "belirli_sahte": 1,
+    "lemma_hatasi": 1
+   },
+   "test": "borç 3: belirlilik (DET öneki ya da لِ+DET) ayırıcı olarak sınanacak — korpus çapında esmâ etiketlerinin kaçı belirsiz ve bu belirsizler ne oranda sahte? Ayrıca 19:5 ayrı bir hata sınıfı: مَوْلَى/مَوَٰلِى lemma kümesinin وَلِيّ'ye karışması — esma_listesi.json'un lemma anahtarları korpustan yeniden üretilmeli (LEMMA ANAHTARI KURALI)."
+  },
+  {
+   "no": 391,
+   "aday": "BORÇ 1 — MERYEM TEK BAŞINA ÜÇ MEKANİZMAYI DA VE MESAFE MERDİVENİNİ VERİYOR. Sûre 19'da beş MM kaçağı, mesafe sırasıyla: **0 kelime** 19:83 تَؤُزُّهُمْ أَزًّۭا *(kışkırttıkça kışkırtırlar)* ve 19:94 عَدَّهُمْ عَدًّۭا *(onları saydı, tek tek saydı)* — araya YALNIZ zamir eki segmenti giriyor, mekanizma (b) · **1 kelime** 19:84 نَعُدُّ لَهُمْ عَدًّۭا *(onlar için sayıp duruyoruz)*, mekanizma (c) · **2 kelime** 19:75 فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّۭا · **3 kelime** 19:79 نَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّۭا. Beşi de fig alanında MM etiketi almadı. 19:83 ve 19:94 en sıkı testler: kelime düzeyine geçiş tek başına bunları çözmeli.",
+   "olculen": {
+    "yeni_vaka": 5,
+    "mesafe_0": [
+     "19:83",
+     "19:94"
+    ],
+    "mesafe_1": [
+     "19:84"
+    ],
+    "mesafe_2": [
+     "19:75"
+    ],
+    "mesafe_3": [
+     "19:79"
+    ],
+    "dogrulama_seti_toplam": 16,
+    "morfoloji_kaniti": "19:83:8 = تَؤُزُّ(V) + هُمْ(PRON SUFF), 19:83:9 = أَزًّا(N masdar) — kelime indisleri ardışık, segment indisleri değil"
+   },
+   "test": "borç 1 onarımı kelime düzeyinde yapılınca mesafe-0 vakaları (19:83, 19:94) tek başına düzelmeli; 1-3 kelime aralığı pencere kalibrasyonu gerektiriyor. Ölçülmüş korpus dağılımı: 0→134 · 1→96 · 2→37 · 3→23."
+  },
+  {
+   "no": 392,
+   "aday": "SÛRE 19'UN HAPAKS DAĞILIMI SON BÖLÜMDE KÜMELENİYOR VE HEPSİ FÂSILA KONUMUNDA. Sûrede dokuz hapaks var: 19:4 شعل *(alevlenme)* · 19:13 حنن *(şefkat)* · 19:23 مخض *(doğum sancısı)* · 19:71 حتم *(kesinleşmiş hüküm)* · 19:82 ضدد *(karşıtlık)* · 19:85 وفد *(konuk heyeti)* · 19:89 أدد *(iğrenç, ağır)* · 19:90 هدد *(yıkılıp çökme)* · 19:98 ركز *(fısıltı)*. Beşi son 18 ayette (19:81-98), yani sûrenin %18'lik son diliminde. Ve dokuzunun tamamı ayetin SON kelimesi, yani fâsıla konumunda.",
+   "olculen": {
+    "hapaks": 9,
+    "son_18_ayette": 5,
+    "son_dilim_orani": 0.18,
+    "fasila_konumunda": 9,
+    "sure_fasila_safligi": "89/98 A sınıfı"
+   },
+   "uyari": "ARANARAK BULUNDU — hapaks konumları kasten tarandı.",
+   "test": "Ön-kayıtlı, iki ayrı soru: (a) hapaksların fâsıla konumunda olması korpus çapında beklenenden yüksek mi? Null: her hapaksı bulunduğu ayet içinde rastgele konuma yerleştir (konum-eşli). Kafiye zorunluluğu ender kelime çekebileceği için bu bir MEKANİZMA hipotezi, süs değil. (b) Sûre-içi kümelenme: 380 ile aynı aile — sûre sonuna doğru artış korpusta genel bir eğilim mi?"
+  },
+  {
+   "no": 393,
+   "aday": "MERYEM'İN EKSENİ ALLAH LAFZI DEĞİL RAHMÂN. Sûre 19: 961 kelime, Allah lafzı 8 (yoğunluk 0.0083 — korpus ortalaması 0.0349'un dörtte biri), Rab 23 (0.0239 — korpus 0.0127'nin neredeyse iki katı), رَحْمٰن 16. Allah lafzı sekiz ayette (30, 35, 36, 48, 49, 58, 76, 81) ve bunların çoğu İsâ polemiği ile put reddi bağlamında. Buna karşılık رَحْمٰن sûrenin tamamına yayılmış ve son bölümde dört ayette üst üste (88, 91, 92, 93).",
+   "olculen": {
+    "kelime": 961,
+    "Allah": 8,
+    "Allah_yogunluk": 0.0083,
+    "korpus_ort": 0.0349,
+    "Rab": 23,
+    "Rab_yogunluk": 0.0239,
+    "korpus_ort_rab": 0.0127,
+    "Rahman": 16,
+    "Allah_ayetleri": [
+     30,
+     35,
+     36,
+     48,
+     49,
+     58,
+     76,
+     81
+    ]
+   },
+   "test": "Ön-kayıtlı ölçüt 1 (eksen) kapsamında: sûre başına Allah/Rab/Rahmân üçlüsünün profili. Meryem bir uç değer mi, yoksa Rahmân-yoğun sûreler (19, 43, 55, 67) ayrı bir sınıf mı? Rahmân sayımı esmâ alanından geliyor ve o alan sûre 19'da %48 hatalı (aday 390) — ancak رَحْمٰن kaleminde hata YOK, o yüzden bu ölçüm ayakta."
+  },
+  {
+   "no": 394,
+   "aday": "SÛRE 19'UN İKİ YARISI KAPANIŞTA ADLANDIRILIYOR. 19:97 sûrenin işlevini iki yönlü tanımlıyor: لِتُبَشِّرَ بِهِ ٱلْمُتَّقِينَ *(takvâ sahiplerini müjdeleyesin)* + وَتُنذِرَ بِهِۦ قَوْمًۭا لُّدًّۭا *(inatçı bir topluluğu uyarasın)*. Sûrenin yapısı da bu ikiye bölünmüş: 1-58 altı adlı peygamber anlatısı (müjde dizisi — Zekeriyyâ-Yahyâ, Meryem-İsâ, İbrâhîm, Mûsâ, İsmâîl, İdrîs) · 59-98 uyarı. Kafiye de bölünmeyi izliyor: tek sapma bölgesi 19:34-40 (N sınıfı, yedi ayet) tam da anlatı ile söylem arasındaki İsâ polemiği. Ve çerçeve duyulabilirlik ekseninde kapanıyor: 19:3 نِدَآءً خَفِيًّۭا *(gizli çağrı)* ↔ 19:98 رِكْزًۭا *(fısıltı)*, ikisi de korpusta tek geçişli.",
+   "olculen": {
+    "anlati": "1-58",
+    "soylem": "59-98",
+    "adli_peygamber": 6,
+    "kafiye_sapma_bolgesi": "34-40",
+    "kafiye_A": 89,
+    "kafiye_N": 7,
+    "cerceve_kelimeleri": [
+     "خَفِيًّۭا",
+     "رِكْزًۭا"
+    ],
+    "ikisi_de_korpus_hapaks_fasila": true
+   },
+   "uyari": "Yapı tespiti YORUM katmanındadır; ölçülen kısım kafiye dağılımı, adlı aktör sayımı ve iki çerçeve kelimesinin korpus sıklığıdır.",
+   "test": "378 (ٱذْكُرْ فِى ٱلْكِتَٰبِ formülü) ve 371 (Kehf'in beş üçlüsü) ile aynı aile: sûre-içi yapı formüllerinin envanteri. Ek soru: kafiye sınıfı sapma bölgeleri sûre-içi bölüm sınırlarıyla örtüşüyor mu? Bu ölçülebilir ve borç 4 (kafiye kırığı kuralı) ile doğrudan bağlantılı — şu anki kural yalnız önceki ayete bakıyor, blok sınırını göremiyor."
   }
  ]
 }
