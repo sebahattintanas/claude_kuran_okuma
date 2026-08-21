@@ -161,12 +161,12 @@
   ],
   "kismi": {
    "2": "1-20 ayet düzeyinde",
-   "19": "1-60 tam"
+   "19": "1-80 tam"
   },
   "bekleyen": {
    "2": "21-286 blok özeti"
   },
-  "not": "Sûre 19 (Meryem) okunuyor — 1-60 yazıldı. Devam: 19:61."
+  "not": "Sûre 19 (Meryem) okunuyor — 1-80 yazıldı. Devam: 19:81."
  },
  "7": {
   "_kip": "sıkıştırılmış — blok düzeyinde",
@@ -701,7 +701,7 @@
   "9:69": {
    "ar": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةًۭ وَأَكْثَرَ أَمْوَٰلًۭا وَأَوْلَٰدًۭا فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوا۟ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
    "meal": "Sizden öncekiler gibi: onlar sizden daha güçlü, malca ve evlatça daha çoktu. Paylarıyla yararlandılar; siz de kendi payınızla, öncekilerin yararlandığı gibi yararlandınız ve onların daldığı gibi daldınız. Onların yaptıkları dünyada da âhirette de boşa gitti; ziyana uğrayanlar işte onlardır.",
-   "olcum": "eksen: Allah YOK · Rab yok · esmâ آخِر (P0) — aktör yok · haber · 3MP 10 / 2MP 8, ilt 0 · n=32 (z=2.08), yıldız ★★, متع *(faydalanma, geçimlik)* ×3, خلق *(yaratma)* ×3, خوض ×2, قبل ×2, sayı sözcüğü أَكْثَر · bağ: 2:217, 3:22, 28:78, 34:35 (xref).",
+   "olcum": "eksen: Allah YOK · Rab yok · esmâ آخِر (P0) — aktör yok · haber · 3MP 10 / 2MP 8, ilt 0 · n=32 (z=2.08), yıldız ★★, متع *(faydalanma, geçimlik)* ×3, خلق *(yaratma)* ×3, خوض ×2, قبل *(ön, önce; kabul)* ×2, sayı sözcüğü أَكْثَر · bağ: 2:217, 3:22, 28:78, 34:35 (xref).",
    "mercek": "Benzetme üç kez üst üste kuruluyor ve her defasında aynı iki terimle: 'onlar gibi' — 'onların yararlandığı gibi' — 'onların daldığı gibi'. Tekrar, benzerliği bir örnekten bir kurala çeviriyor. Ve karşılaştırma niceliksel açılıyor (daha güçlü, daha çok) ama sonuç niceliğe bağlı değil: girdi büyük, çıktı sıfır."
   },
   "9:70": {
@@ -719,7 +719,7 @@
   "9:72": {
    "ar": "وَعَدَ ٱللَّهُ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا وَمَسَٰكِنَ طَيِّبَةًۭ فِى جَنَّٰتِ عَدْنٍۢ ۚ وَرِضْوَٰنٌۭ مِّنَ ٱللَّهِ أَكْبَرُ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
    "meal": "Allah, mümin erkeklere ve mümin kadınlara, içinde ebedî kalacakları, altından ırmaklar akan cennetler ve Adn cennetlerinde güzel meskenler vaad etti. Allah'tan bir hoşnutluk ise daha büyüktür. Büyük kurtuluş işte budur.",
-   "olcum": "eksen: Allah 2, 19 · esmâ مُؤْمِن (P0) — aktör: adlı عَدْن (yer, mecrur) · haber · 3FS 3 / 3MS 2, ilt 0 · n=24 (9:71 ile aynı), جنن ×2, أمن *(güven; iman)* ×2, أله *(ilâh; lafza-i celâl)* ×2 · bağ: 33:73, 48:5, 61:12 (xref); 9:68 (elle, birebir ayna).",
+   "olcum": "eksen: Allah 2, 19 · esmâ مُؤْمِن (P0) — aktör: adlı عَدْن (yer, mecrur) · haber · 3FS 3 / 3MS 2, ilt 0 · n=24 (9:71 ile aynı), جنن *(örtme, gizleme; cennet; cin)* ×2, أمن *(güven; iman)* ×2, أله *(ilâh; lafza-i celâl)* ×2 · bağ: 33:73, 48:5, 61:12 (xref); 9:68 (elle, birebir ayna).",
    "mercek": "9:68 ile aynı fiil ve aynı özne, nesne ters: vaadin biçimi sabit, içeriği zıt. Ve sayılan kalemlerin ardından sayılmayan bir kalem ekleniyor ve 'daha büyük' deniyor: listeye giren nicelikler ile listeye girmeyen bir nitelik karşılaştırılıyor."
   },
   "9:73": {
@@ -791,7 +791,7 @@
   "9:84": {
    "ar": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍۢ مِّنْهُم مَّاتَ أَبَدًۭا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ",
    "meal": "Onlardan ölen hiçbirinin namazını asla kılma ve kabri başında durma. Onlar Allah'ı ve Resûlü'nü inkâr ettiler ve yoldan çıkmış olarak öldüler.",
-   "olcum": "eksen: Allah 14 · esmâ أَحَد (esmâ DEĞİL — burada 'hiçbiri'; P0) — aktör yok · yasak, PRO + NEG · 3MP 7 / 3MS 3, ilt 0 · n=18, biçim NEHY, موت ×2, أَبَدًۭا ikinci kez üst üste (9:83) · bağ: 4:150, 9:54, 9:80 (xref); 9:80 (elle).",
+   "olcum": "eksen: Allah 14 · esmâ أَحَد (esmâ DEĞİL — burada 'hiçbiri'; P0) — aktör yok · yasak, PRO + NEG · 3MP 7 / 3MS 3, ilt 0 · n=18, biçim NEHY, موت *(ölüm)* ×2, أَبَدًۭا ikinci kez üst üste (9:83) · bağ: 4:150, 9:54, 9:80 (xref); 9:80 (elle).",
    "mercek": "Yasak iki eyleme birden konuyor ve ikisi de zaman sınırı olmaksızın: 9:80'de bağışlanma dileme etkisiz sayılıyordu, burada eylemin kendisi yasaklanıyor. Etkisizlik ile yasak arasındaki fark, dört ayet içinde kuruluyor."
   },
   "9:85": {
@@ -1314,7 +1314,7 @@
   "10:31": {
    "ar": "قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ أَمَّن يَمْلِكُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَمَن يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَمَن يُدَبِّرُ ٱلْأَمْرَ ۚ فَسَيَقُولُونَ ٱللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ",
    "meal": "De ki: Size gökten ve yerden rızık veren kim? Kulakların ve gözlerin sahibi kim? Ölüden diriyi, diriden ölüyü çıkaran kim? İşi çekip çeviren kim? 'Allah' diyecekler. De ki: Öyleyse sakınmaz mısınız?",
-   "olcum": "eksen: Allah 24 · Rab yok · esmâ yok — aktör yok · soru + emir, INTG ×2 + IMPV ×2 + FUT · 3MS 5 / 2MP 3 / 3MP 2 / 2MS 2, ilt 0 · n=27 (z=1.55), yıldız ★, dugum dis=5, قول *(söz söyleme)* ×3, حيي *(diri olma, hayat)* ×2, موت ×2, خرج *(çıkma, çıkarma)* ×2 · bağ: 3:27, 7:28, 23:87, 30:19, 34:24 (xref); 10:3 (elle, تدبير).",
+   "olcum": "eksen: Allah 24 · Rab yok · esmâ yok — aktör yok · soru + emir, INTG ×2 + IMPV ×2 + FUT · 3MS 5 / 2MP 3 / 3MP 2 / 2MS 2, ilt 0 · n=27 (z=1.55), yıldız ★, dugum dis=5, قول *(söz söyleme)* ×3, حيي *(diri olma, hayat)* ×2, موت *(ölüm)* ×2, خرج *(çıkma, çıkarma)* ×2 · bağ: 3:27, 7:28, 23:87, 30:19, 34:24 (xref); 10:3 (elle, تدبير).",
    "mercek": "Dört soru sıralanıyor ve cevabı önceden veriliyor: karşı taraf zaten biliyor. İtiraz bilgide değil, bilginin sonucunda. Ve üçüncü soru tam bir çapraz: diriyi ölüden, ölüyü diriden — aynı iki terim, iki kez, sıra ters. İşlem tersine çevrilebilir olarak veriliyor, tek yönlü değil."
   },
   "10:32": {
@@ -1656,7 +1656,7 @@
   "10:88": {
    "ar": "وَقَالَ مُوسَىٰ رَبَّنَآ إِنَّكَ ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ ۖ رَبَّنَا ٱطْمِسْ عَلَىٰٓ أَمْوَٰلِهِمْ وَٱشْدُدْ عَلَىٰ قُلُوبِهِمْ فَلَا يُؤْمِنُوا۟ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ",
    "meal": "Mûsâ dedi ki: Rabbimiz, sen Firavun'a ve ileri gelenlerine dünya hayatında süs ve mallar verdin. Rabbimiz, senin yolundan saptırsınlar diye mi? Rabbimiz, mallarını sil ve kalplerini sıkılaştır ki acıklı azabı görünceye kadar iman etmesinler.",
-   "olcum": "eksen: Allah YOK · RAB kelime 3, 13, 17 — ÜÇ GEÇİŞ, hepsi bağlı ve MÜNÂDÂ konumunda; z(rab)=1.88 · esmâ yok — aktör: adlı مُوسَى (fâil + konuşan), فِرْعَوْن (mef'ûl) · emir, IMPV ×2 + NEG · 3MP 8 / 2MS 6 / 1P 3, ilt 0 · n=29 (z=1.76), ربب *(rab, terbiye etme)* ×3 — bloğun en yoğun ikilemesi, مول ×2, ACC 10 · bağ: 2:200, 2:201, 18:10, 26:201 (xref).",
+   "olcum": "eksen: Allah YOK · RAB kelime 3, 13, 17 — ÜÇ GEÇİŞ, hepsi bağlı ve MÜNÂDÂ konumunda; z(rab)=1.88 · esmâ yok — aktör: adlı مُوسَى (fâil + konuşan), فِرْعَوْن (mef'ûl) · emir, IMPV ×2 + NEG · 3MP 8 / 2MS 6 / 1P 3, ilt 0 · n=29 (z=1.76), ربب *(rab, terbiye etme)* ×3 — bloğun en yoğun ikilemesi, مول *(mal)* ×2, ACC 10 · bağ: 2:200, 2:201, 18:10, 26:201 (xref).",
    "mercek": "Aynı hitap üç kez tekrarlanıyor ve her defasında farklı bir cümle açıyor: tespit, gerekçe sorusu, talep. Tekrar bir vurgu değil, bölümlendirme aracı — üç bölüm üç kez aynı çağrıyla işaretleniyor. Ve talep edilen şey verilmiş olanın geri alınması: 'verdin' ile 'sil' aynı nesneye."
   },
   "10:89": {
@@ -2435,14 +2435,14 @@
   "11:98": {
    "ar": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
    "meal": "Kıyamet günü kavminin önüne düşer ve onları ateşe götürür; varılan o yer ne kötü bir varış yeridir.",
-   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · haber, kip işareti yok · 3MS 4 / 3MP 1, ilt 0 · n=9, fâsıla د, ورد ×3 — üç türev (fiil + isim + ism-i mef'ûl), قوم *(kalkma; kavim; kıyamet)* ×2 · bağ: 11:97 (elle).",
+   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · haber, kip işareti yok · 3MS 4 / 3MP 1, ilt 0 · n=9, fâsıla د, ورد *(varma, suya varış)* ×3 — üç türev (fiil + isim + ism-i mef'ûl), قوم *(kalkma; kavim; kıyamet)* ×2 · bağ: 11:97 (elle).",
    "mercek": "Aynı kök üç biçimde art arda: götürdü, varış, varılan. Fiil, eylem adı ve nesne tek kökten türetiliyor — sürecin üç aşaması aynı sesle işaretleniyor. Ve önderlik terimi tersine çalışıyor: önde giden, ateşe götürüyor."
   },
   "11:99": {
    "ar": "وَأُتْبِعُوا۟ فِى هَٰذِهِۦ لَعْنَةًۭ وَيَوْمَ ٱلْقِيَٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ",
    "meal": "Bu dünyada da kıyamet gününde de lânete uğratıldılar; verilen o bağış ne kötü bir bağıştır.",
    "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · haber, kip işareti yok · 3MP 2 / 3MS 1, ilt 0 · n=9, yıldız ★★, EDİLGEN 1 (z=2.52), fâsıla د, biçim DIKKAT, رفد ×2 · bağ: 11:60, 28:42 (xref).",
-   "mercek": "Bir önceki ayetin yapısı birebir tekrarlanıyor: aynı kalıp, aynı ölçü, yalnız kök değişiyor (ورد → رفد). İki ayet yan yana ve ikisi de kendi kökünü ikileyerek kapanıyor. Ve 'bağış' sözcüğü tam ters anlamda: verilen şey ceza."
+   "mercek": "Bir önceki ayetin yapısı birebir tekrarlanıyor: aynı kalıp, aynı ölçü, yalnız kök değişiyor (ورد *(varma, suya varış)* → رفد). İki ayet yan yana ve ikisi de kendi kökünü ikileyerek kapanıyor. Ve 'bağış' sözcüğü tam ters anlamda: verilen şey ceza."
   },
   "11:100": {
    "ar": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌۭ وَحَصِيدٌۭ",
@@ -2459,7 +2459,7 @@
   "11:102": {
    "ar": "وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَآ أَخَذَ ٱلْقُرَىٰ وَهِىَ ظَٰلِمَةٌ ۚ إِنَّ أَخْذَهُۥٓ أَلِيمٌۭ شَدِيدٌ",
    "meal": "Zulmetmekte olan şehirleri yakaladığında Rabbinin yakalayışı işte böyledir. O'nun yakalayışı gerçekten acı vericidir, çetindir.",
-   "olcum": "eksen: Allah YOK · Rab kelime 3 (bağlı), z(rab)=1.45 · esmâ yok — aktör yok · haber, kip işareti yok · 3MS 2 / 2MS 1 / 3FS 1, ilt 0 · n=12, fâsıla د, أخذ ×3 — üç türev (mastar + fiil + mastar) · bağ: 11:101 (elle).",
+   "olcum": "eksen: Allah YOK · Rab kelime 3 (bağlı), z(rab)=1.45 · esmâ yok — aktör yok · haber, kip işareti yok · 3MS 2 / 2MS 1 / 3FS 1, ilt 0 · n=12, fâsıla د, أخذ *(alma, edinme)* ×3 — üç türev (mastar + fiil + mastar) · bağ: 11:101 (elle).",
    "mercek": "Aynı kök üç kez ve üçü de aynı işlemi adlandırıyor: genel kural (böyledir), tekil olay (yakaladığında), nitelik (yakalayışı). Tek eylem üç gramer konumunda — kural, örnek, değerlendirme."
   },
   "11:103": {
@@ -3043,7 +3043,7 @@
   "12:65": {
    "ar": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ",
    "meal": "Yüklerini açtıklarında sermayelerinin kendilerine geri verildiğini gördüler. Dediler ki: Babamız, daha ne isteriz? İşte sermayemiz bize geri verilmiş. Ailemize erzak getirir, kardeşimizi korur ve bir deve yükü fazla ölçek alırız; bu kolay bir ölçektir.",
-   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · nidâ, VOC · 3MP 9 / 1P 9 (denk), 3FS 2, ilt 0 · n=25 (z=1.34), YILDIZ ★★★, HAPAKS مِير (z=3.38), EDİLGEN 2 (z=0.94), بضع ×2, ردد ×2, كيل *(ölçme (hacim))* ×2, biçim DIKKAT · bağ: 12:62 (elle, tasarlanan sonuç).",
+   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · nidâ, VOC · 3MP 9 / 1P 9 (denk), 3FS 2, ilt 0 · n=25 (z=1.34), YILDIZ ★★★, HAPAKS مِير (z=3.38), EDİLGEN 2 (z=0.94), بضع ×2, ردد *(geri döndürme, dönüş)* ×2, كيل *(ölçme (hacim))* ×2, biçim DIKKAT · bağ: 12:62 (elle, tasarlanan sonuç).",
    "mercek": "12:62'de kurulan tuzak burada tam olarak işliyor ve iki 'belki' de gerçekleşiyor: tanıdılar ve dönmeye karar verdiler. Tasarım ile sonuç arasında iki ayet var. Ve ikna dört kalemle: erzak, koruma, fazladan ölçek, kolaylık — üçü kazanç, biri maliyet düşürme. Aynı fiil iki kez edilgen: 'geri verildi' — veren adlandırılmıyor."
   },
   "12:66": {
@@ -3307,7 +3307,7 @@
   "12:109": {
    "ar": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ",
    "meal": "Senden önce de ancak, şehirler halkından kendilerine vahyettiğimiz erkekleri gönderdik. Yeryüzünde gezip kendilerinden öncekilerin sonunun nasıl olduğuna bakmadılar mı? Sakınanlar için âhiret yurdu daha hayırlıdır. Aklınızı kullanmaz mısınız?",
-   "olcum": "eksen: Allah YOK · Rab yok · esmâ آخِر (P0) — aktör: ADSIZ, racül · soru, INTG ×2 + NEG ×3 + HASR + EMPH · 3MP 8 / 1P 3 / 2MP 2 / 2MS 1 / 3MS 1, ilt 0 · n=29 (z=1.76), dugum dis=4, قبل ×2 · bağ: 16:43, 21:7, 6:32 (xref); 10:2 (elle, رجل *(adam; yaya)*).",
+   "olcum": "eksen: Allah YOK · Rab yok · esmâ آخِر (P0) — aktör: ADSIZ, racül · soru, INTG ×2 + NEG ×3 + HASR + EMPH · 3MP 8 / 1P 3 / 2MP 2 / 2MS 1 / 3MS 1, ilt 0 · n=29 (z=1.76), dugum dis=4, قبل *(ön, önce; kabul)* ×2 · bağ: 16:43, 21:7, 6:32 (xref); 10:2 (elle, رجل *(adam; yaya)*).",
    "mercek": "Elçilik iki nitelikle sınırlanıyor: insan ve yerleşik. 10:2'de 'içlerinden bir adam' itiraz konusuydu; burada aynı nitelik kural olarak veriliyor. Ve kanıt bir gezi önerisiyle: bilgi, yer değiştirerek elde edilecek. İki soru üst üste ve ikisi de aynı yetiye: bakma ve akletme."
   },
   "12:110": {
@@ -3425,7 +3425,7 @@
   "13:6": {
    "ar": "وَيَسْتَعْجِلُونَكَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ وَقَدْ خَلَتْ مِن قَبْلِهِمُ ٱلْمَثُلَٰتُ ۗ وَإِنَّ رَبَّكَ لَذُو مَغْفِرَةٍۢ لِّلنَّاسِ عَلَىٰ ظُلْمِهِمْ ۖ وَإِنَّ رَبَّكَ لَشَدِيدُ ٱلْعِقَابِ",
    "meal": "Senden iyilikten önce kötülüğü acele istiyorlar; oysa onlardan önce ibret verici cezalar gelip geçmiştir. Rabbin, zulümlerine rağmen insanlara karşı bağışlama sahibidir; ve Rabbin cezası çetin olandır.",
-   "olcum": "eksen: Allah YOK · RAB kelime 11 ve 18 (ikisi de bağlı) — z(rab)=1.81, bloğun en yükseği · esmâ yok — aktör yok · haber, CERT + EMPH ×2 · 3MP 4 / 2MS 3 / 3FS 1, ilt 0 · n=20, fâsıla ب — blokta ilk kırılma, قبل ×2, ربب *(rab, terbiye etme)* ×2 · bağ: 27:46 (xref); 10:11, 10:50 (elle, acele).",
+   "olcum": "eksen: Allah YOK · RAB kelime 11 ve 18 (ikisi de bağlı) — z(rab)=1.81, bloğun en yükseği · esmâ yok — aktör yok · haber, CERT + EMPH ×2 · 3MP 4 / 2MS 3 / 3FS 1, ilt 0 · n=20, fâsıla ب — blokta ilk kırılma, قبل *(ön, önce; kabul)* ×2, ربب *(rab, terbiye etme)* ×2 · bağ: 27:46 (xref); 10:11, 10:50 (elle, acele).",
    "mercek": "İki zıt nitelik aynı özneye ve aynı kalıpla yükleniyor: 'Rabbin bağışlama sahibi' — 'Rabbin cezası çetin'. İki cümle birebir aynı yapıda ve arka arkaya; çelişki değil, aynı öznenin iki yüzü olarak sunuluyor. Ve bağışlama bir koşula rağmen veriliyor: 'zulümlerine rağmen' — istisna değil, direnç."
   },
   "13:7": {
@@ -3815,7 +3815,7 @@
   "14:17": {
    "ar": "يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍۢ وَمَا هُوَ بِمَيِّتٍۢ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌۭ",
    "meal": "Onu yudumlar ama yutamaz. Ölüm her yandan gelir, ama o ölecek değildir. Ardında da ağır bir azap vardır.",
-   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · haber, NEG ×2 · yalnız 3MS (9), ilt 0 · n=16, YILDIZ ★★★, HAPAKS جرع (z=3.38), FÂSILA KIRILMASI: ظ — sûrede TEK, موت ×2 · bağ: 14:16 (elle).",
+   "olcum": "eksen: Allah YOK · Rab yok · esmâ yok — aktör yok · haber, NEG ×2 · yalnız 3MS (9), ilt 0 · n=16, YILDIZ ★★★, HAPAKS جرع (z=3.38), FÂSILA KIRILMASI: ظ — sûrede TEK, موت *(ölüm)* ×2 · bağ: 14:16 (elle).",
    "mercek": "İki işlem yarım bırakılıyor: yudumluyor ama yutamıyor, ölüm geliyor ama ölmüyor. İki süreç de başlıyor ve tamamlanmıyor — durum, tamamlanmamışlıkla tanımlanıyor. Ve aynı kök iki kez, biri olumlu biri olumsuz: ölüm gelir / ölmez. 'Ardında' ifadesi 14:16'dan tekrarlanıyor — her aşamanın ardında bir sonraki var, dizi kapanmıyor."
   },
   "14:18": {
@@ -7483,6 +7483,126 @@
    "meal": "Ancak tövbe eden, iman eden ve iyi iş yapanlar müstesna; onlar cennete girerler ve hiçbir haksızlığa uğramazlar.",
    "olcum": "eksen yok · haber, HASR · n=12, EDİLGEN 1 · aktör جَنَّة · bağ: 15:40, 15:42, 15:59, 15:60 (istisna zinciri).",
    "mercek": "İstisna üç şarta bağlanıyor: tövbe, iman, amel — Hicr'in istisna zincirinde (15:40 ٱلْمُخْلَصِين, 15:42 مَنِ ٱتَّبَعَكَ) ölçüt tek nitelikti; burada üç fiil. Ve دخل *(girme)* + جَنَّة — 16:31/32'deki cennete giriş kalıbının üçüncü biçimi."
+  },
+  "19:61": {
+   "ar": "جَنَّٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَٰنُ عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّۭا",
+   "meal": "Adn cennetleri — Rahmân'ın kullarına gayb ile vaat ettiği. Şüphesiz O'nun vaadi gelip çatacaktır.",
+   "olcum": "esmâ رَحْمٰن *(rahmet, merhamet)* konum 5/11, orta · haber · n=11, mora=56, harf=50, fâsıla ا, A sınıfı · kök ikilemesi وعد *(vaat)* ×2 (fiil + mastar) · aktör عَدْن *(Adn)* yer, mecrur · غيب *(gayb, görünmeyen)* · أتي *(gelme, getirme)* → مَأْتِيًّۭا *(gelinecek olan)*, sûrede أتي *(gelme, getirme)* kökünün tek ism-i mef'ûl biçimi · bağ: 13:23, 16:31, 18:31 (جَنَّٰتُ عَدْنٍ *(Adn cennetleri)*).",
+   "mercek": "Vaat edilen ÖNCE, vaat eden SONRA: cümle جَنَّٰتِ عَدْنٍ *(Adn cennetleri)* ile açılıyor, fâil ٱلرَّحْمَٰنُ *(Rahmân)* beşinci kelimede. 16:31 ve 18:31'de aynı terkip cümle başında merfû mübtedâ idi; burada mansûb — bir önceki ayetin (19:60 يَدْخُلُونَ ٱلْجَنَّةَ *(cennete girerler)*) mef'ûlünden bedel. Cennet burada bağımsız bir haber değil, önceki ayetin nesnesinin AÇILIMI. Ve وعد *(vaat)* aynı ayette hem fiil hem mastar: vaat ediliş ile vaadin kendisi yan yana, ikincisi كَانَ *(oldu, idi)* ile geçmişe bağlanıyor."
+  },
+  "19:62": {
+   "ar": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًۭا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةًۭ وَعَشِيًّۭا",
+   "meal": "Orada boş söz işitmezler, ancak selâm. Rızıkları da orada sabah akşam hazırdır.",
+   "olcum": "esmâ etiketi سَلام — **SAHTE POZİTİF**, burada ilâhî isim değil \"esenlik, selâmlama\" (borç 3'ün Meryem kalemine ek vaka) · haber, HASR · n=11, NEG 1, RES 1 · لغو *(boş söz)* korpusta 22 geçiş, sûre 19'da tek · سمع *(işitme)* · رزق *(rızık)* · بكر *(sabah erken)* + عشو *(akşam)* · bağ: **19:11** (بُكْرَةًۭ وَعَشِيًّۭا *(sabah akşam)* — korpusta TAM İKİ geçiş, ikisi de sûre 19'da).",
+   "mercek": "İşitmenin reddi ile işitmenin izni aynı cümlede: nefy لَغْو *(boş söz)*'ü kapsıyor, istisna سَلَٰم *(esenlik)*'ı çıkarıyor — cennette işitilen tek şey adlandırılıyor. Ve بُكْرَةًۭ وَعَشِيًّۭا *(sabah akşam)* sûrede ikinci kez: 19:11'de Zekeriyyâ kavmine tesbih emri veriyordu (سَبِّحُوا۟ *(tesbih edin)*) — aynı zaman zarfı orada YÜKÜMLÜLÜĞÜN ritmi, burada KARŞILIĞIN ritmi. İki ayet arasında 51 ayet var."
+  },
+  "19:63": {
+   "ar": "تِلْكَ ٱلْجَنَّةُ ٱلَّتِى نُورِثُ مِنْ عِبَادِنَا مَن كَانَ تَقِيًّۭا",
+   "meal": "İşte kullarımızdan takvâ sahibi olanlara mîras vereceğimiz cennet budur.",
+   "olcum": "eksen yok · haber · n=9 · aktör جَنَّة *(cennet)* yer, fâil · ورث *(vâris olma)* · عبد *(kul, kulluk)* · وقي *(sakınma, koruma)* → تَقِيّ *(takvâ sahibi)* · bağ: 19:6, 19:40, 19:80 (ورث *(vâris olma)* sûre içi dört konum).",
+   "mercek": "ورث *(vâris olma)* sûrede dördüncü kez ve mercii her seferinde değişiyor: 19:6 Zekeriyyâ bir vâris İSTİYOR (يَرِثُنِى *(bana vâris olsun)*) · 19:40 yeryüzüne Allah vâris (نَحْنُ نَرِثُ ٱلْأَرْضَ *(yeryüzüne biz vâris oluruz)*) · 19:63 cennet mîras VERİLİYOR · 19:80 Allah insanın söylediğine vâris. İstek → mülkiyet → ödül → müsâdere. Aynı kök dört farklı hukukî konumda."
+  },
+  "19:64": {
+   "ar": "وَمَا نَتَنَزَّلُ إِلَّا بِأَمْرِ رَبِّكَ ۖ لَهُۥ مَا بَيْنَ أَيْدِينَا وَمَا خَلْفَنَا وَمَا بَيْنَ ذَٰلِكَ ۚ وَمَا كَانَ رَبُّكَ نَسِيًّۭا",
+   "meal": "Biz ancak Rabbinin emriyle ineriz. Önümüzdeki, arkamızdaki ve ikisi arasındaki O'nundur. Rabbin unutkan değildir.",
+   "olcum": "Rab ×2 (konum 5 ve 17), z(rab)=2.05 → ★★ · haber, HASR, NEG ×2 · n=18, blokun en uzun ikinci ayeti · kök ikilemesi ربب *(rab, terbiye etme)* ×2 ve بين *(arası; açıklama)* ×2 · bab V نَتَنَزَّلُ *(peyderpey ineriz)* · نزل *(inme, indirme)* · أمر *(emir; iş)* · يدي *(el)* · خلف *(ayrılığa düşme; ardından gelme)* · نسي *(unutma)* → نَسِيًّۭا *(unutkan)*, sûrede tek geçişli fâsıla · şahıs 1P/2MS/3MS, ilt=0.",
+   "mercek": "Konuşan DEĞİŞTİ ve değişim işaretlenmedi. 19:63'e kadarki \"Biz\" ilâhî çoğuldu (نُورِثُ *(mîras veririz)*); 19:64'ün \"Biz\"i رَبِّكَ *(Rabbin)* diyor — yani konuşan artık Rabbin altındaki bir özne. Sûrede bu özne hiç tanıtılmadı; en yakın dayanak 19:17'de Meryem'e gönderilen رُوحَنَا *(Ruhumuz)*. Anlatı, öznesini geriye dönük çıkarıma bırakıyor. Ve reddedilen sıfat نَسِىّ *(unutkan)*: aradan geçen sessizliğin gerekçesi unutkanlık değil emir bekleme olarak kuruluyor."
+  },
+  "19:65": {
+   "ar": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا",
+   "meal": "Göklerin, yerin ve ikisi arasındakilerin Rabbi. O'na kulluk et, kulluğunda direnerek sabret. O'nun bir adaşını biliyor musun?",
+   "olcum": "Rab konum 1, z(rab)=1.45 · soru + emir · n=12, IMPV 2, INTG 1 · kök ikilemesi سمو *(ad; gök)* ×2 ve عبد *(kul, kulluk)* ×2 · bab VIII ٱصْطَبِرْ *(direnerek sabret)*, صبر *(sabır)* · أرض *(yer, yeryüzü)* · بين *(arası; açıklama)* · علم *(bilme)* · bağ: **19:7** (سَمِيًّۭا *(adaş)* — korpusta TAM İKİ geçiş, ikisi de sûre 19'da).",
+   "mercek": "سمو *(ad; gök)* kökü aynı ayette İKİ ANLAMDA: ٱلسَّمَٰوَٰت *(gökler)* ve سَمِىّ *(adaş)*. Ve سَمِىّ sûrede ikinci kez — 19:7'de Yahyâ için \"daha önce ona bir adaş kılmadık\", BİR İNSANIN eşsizliği; burada \"O'nun adaşını biliyor musun\", RABBİN eşsizliği. Aynı ender kelime, aynı fâsıla konumu, aynı iddia iki katmanda: adı olmayan çocuk ile adaşı olmayan Rab. İkisi arasında 58 ayet var."
+  },
+  "19:66": {
+   "ar": "وَيَقُولُ ٱلْإِنسَٰنُ أَءِذَا مَا مِتُّ لَسَوْفَ أُخْرَجُ حَيًّا",
+   "meal": "İnsan der ki: \"Öldüğümde gerçekten diri olarak çıkarılacak mıyım?\"",
+   "olcum": "eksen yok · soru · n=8, EDİLGEN 1 → z(pas)=1.57 → ★ · INTG + EMPH + FUT · أنس *(insan)* · موت *(ölüm)* · خرج *(çıkma, çıkarma)* · حيي *(diri olma, hayat)* · bağ: 19:59, 15:3, 15:96, 16:55 (سوف *(gelecek edatı)* vurgulu gelecek kalıbı).",
+   "mercek": "Vurgulu gelecek kalıbı okumada beşinci kez ve İLK KEZ inkârcının ağzında: 15:3 · 15:96 · 16:55 · 19:59'da geleceği ilâhî ses kuruyordu (فَسَوْفَ يَعْلَمُونَ *(yakında bilecekler)*), burada aynı kalıp alay sorusunun içinde. Ve أُخْرَجُ *(çıkarılacağım)* edilgen — insan kendi dirilişini edilgen kuruyor, çıkaranı anmıyor."
+  },
+  "19:67": {
+   "ar": "أَوَلَا يَذْكُرُ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن قَبْلُ وَلَمْ يَكُ شَيْـًۭٔا",
+   "meal": "İnsan, daha önce onu hiçbir şey değilken yarattığımızı anmaz mı?",
+   "olcum": "eksen yok · soru · n=10, INTG 1 + NEG 2 · ذكر *(anma, zikir)* · أنس *(insan)* · خلق *(yaratma)* · قبل *(ön, önce; kabul)* · كون *(olmak)* · شيأ *(dileme; şey)* · `esit`=[] · bağ: **19:9** — وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا *(seni daha önce hiçbir şey değilken yaratmıştım)*; korpusta TAM İKİ geçiş, ikisi de sûre 19'da, tek fark şahıs.",
+   "mercek": "Sûrenin en yakın ikizi ve `esit` alanı göremiyor (tam ayet eşleşmesi aramıyor, tek biçimbirim farkı var). 19:9: Zekeriyyâ'ya, MUHATAP kipinde (خَلَقْتُكَ *(seni yarattım)* … تَكُ *(idin)*), teselli olarak — yoktun, seni var ettim, öyleyse yaşlılıktan çocuk zor değil. 19:67: insana, GAİB kipinde (خَلَقْنَٰهُ *(onu yarattık)* … يَكُ *(idi)*), itham olarak — yoktun, seni var ettik, öyleyse diriltmek zor değil. Aynı önerme, aynı sûre, iki muhatap: bir kez ÜMİT, bir kez DELİL. Arada 58 ayet."
+  },
+  "19:68": {
+   "ar": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّۭا",
+   "meal": "Rabbine yemin olsun ki onları da şeytanları da mutlaka toplayacağız, sonra cehennemin çevresinde diz çökmüş halde hazır edeceğiz.",
+   "olcum": "Rab konum 1, z(rab)=2.34 → ★★ · **QASEM** etiketi (و *(yemin vâvı)* + رَبّ *(rab)* mecrur) — sûre 19'un TEK yemini · haber, EMPH ×4 (blokun vurgu tepesi) · n=8 · aktör شَيْطان *(şeytan)* gayb/mef'ûl, جَهَنَّم *(cehennem)* yer/mecrur · حشر *(toplama, mahşer)* · حضر *(hazır bulundurma)* · حول *(çevirme, değiştirme)* → حَوْلَ *(çevresinde)* · جثو *(diz çökme)* · bağ: **19:72** (جِثِيًّۭا *(diz çökmüş)* — korpusta TAM İKİ geçiş, ikisi de sûre 19'da).",
+   "mercek": "Yemin edilen RAB ve muhatabın Rabbi: فَوَرَبِّكَ *(Rabbine yemin olsun)* — yemin eden ilâhî ses, yemin ettiği \"SENİN Rabbin\". Yemin kendi üzerine değil, muhatapla kurulan bağ üzerine kuruluyor. Ve dört vurgu birikimi (yemin + iki te'kîd nûnu + lâm) sûrenin başka hiçbir ayetinde yok — dirilişin reddine (19:66) verilen cevap, sûrenin en yüksek yemin basıncıyla açılıyor."
+  },
+  "19:69": {
+   "ar": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّۭا",
+   "meal": "Sonra her gruptan, Rahmân'a karşı en azgın olanı mutlaka çekip alacağız.",
+   "olcum": "esmâ رَحْمٰن *(rahmet, merhamet)* konum 9/10 — mühür değil, sona bir kelime kala · haber, EMPH ×2 · n=10 · نزع *(çekip alma)* · كلل *(hep, bütün)* · شيع *(taraftar grup, bölük)* · أيي *(âyet, işaret)* → أَيُّهُمْ *(hangileri)* · شدد *(şiddet, katılık)* · عتو *(aşırı gitme, son sınır)* · bağ: **19:8** (عِتِيًّۭا *(son sınır)* — korpusta TAM İKİ geçiş, ikisi de sûre 19'da).",
+   "mercek": "عتو *(aşırı gitme, son sınır)* 19:8'de Zekeriyyâ'nın kendi hâliydi: بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّۭا *(yaşlılığın son sınırına vardım)* — NÖTR, biyolojik bir uç. 19:69'da aynı kelime ahlâkî uç: Rahmân'a karşı en ileri giden. Bir kök, iki sınır: birinde beden sınırına varılıyor ve bu bir dua gerekçesi; diğerinde isyan sınırına varılıyor ve bu bir seçilme ölçütü. Ve ölçüt merhamet adına göre kuruluyor — azgınlığın derecesi رَحْمٰن'a olan mesafeyle ölçülüyor, ceza adına göre değil."
+  },
+  "19:70": {
+   "ar": "ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيًّۭا",
+   "meal": "Sonra oraya girmeye en lâyık olanları elbette biz daha iyi biliriz.",
+   "olcum": "eksen yok · haber, EMPH 1 · n=8 · **fiil yok** (vf={}, zmn={}) — blokun tek fiilsiz ayeti · علم *(bilme)* → أَعْلَمُ *(daha iyi bilen)*, ism-i tafdîl · ولي *(dost, veli; velâyet)* → أَوْلَىٰ *(daha lâyık)* · صلي *(ateşe girme, yaslanma)* · simetri [3,1,4,1].",
+   "mercek": "Üç ثُمَّ *(sonra)* ile kurulan dizinin son halkası eylem değil BİLGİ: 19:68 toplama · 19:69 çekip alma · 19:70 bilme. İlk iki halka fiil cümlesi, üçüncüsü isim cümlesi — icraat anlatılıyor, dizinin sonunda icraatın dayanağı konuyor. Ve iki ism-i tafdîl arka arkaya (أَعْلَمُ *(daha iyi bilen)*, أَوْلَىٰ *(daha lâyık)*): bilginin üstünlüğü ile hak edişin üstünlüğü aynı kalıba giriyor."
+  },
+  "19:71": {
+   "ar": "وَإِن مِّنكُمْ إِلَّا وَارِدُهَا ۚ كَانَ عَلَىٰ رَبِّكَ حَتْمًۭا مَّقْضِيًّۭا",
+   "meal": "İçinizden oraya varmayacak hiç kimse yoktur. Bu, Rabbin üzerine kesinleşmiş bir hükümdür.",
+   "olcum": "Rab konum 7, z(rab)=2.05 · **hapaks حتم *(kesinleşmiş hüküm)***, z(hapaks)=3.38 → ★★★, blokun tek üç yıldızı ve tek hapaksı · haber, HASR · n=9 · ورد *(varma, suya varış)* · قضي *(hükmetme, bitirme)* · şahıs 2MP/3FS/3MS/2MS, ilt=0 · bağ: **19:21** (مَّقْضِيًّۭا *(hükmedilmiş)* — korpusta TAM İKİ geçiş, ikisi de sûre 19'da); 12:19 (وَارِد *(suya varan)*).",
+   "mercek": "مَّقْضِىّ *(hükmedilmiş)* sûrede ikinci kez ve aynı kalıpla: 19:21 كَانَ أَمْرًۭا مَّقْضِيًّۭا *(hükmedilmiş bir iş oldu)* — bir DOĞUMUN kesinliği; 19:71 كَانَ … حَتْمًۭا مَّقْضِيًّۭا — bir GEÇİŞİN kesinliği. Aynı fiil, aynı mansûb yapı, aynı fâsıla. Biri hayatın başına biri sonuna konmuş. Ve ورد *(varma, suya varış)*: korpusta ism-i fâil olarak yalnız bir yerde daha geçiyor — 12:19'da kuyuya SU ALMAYA giden adam; oradaki varış hayat kaynağına, buradaki ateşe."
+  },
+  "19:72": {
+   "ar": "ثُمَّ نُنَجِّى ٱلَّذِينَ ٱتَّقَوا۟ وَّنَذَرُ ٱلظَّٰلِمِينَ فِيهَا جِثِيًّۭا",
+   "meal": "Sonra takvâ sahiplerini kurtarırız, zalimleri orada diz çökmüş halde bırakırız.",
+   "olcum": "eksen yok · haber · n=8 · bab II نُنَجِّى *(kurtarırız)*, نجو *(kurtulma, kurtarma)* · bab VIII ٱتَّقَوا۟ *(sakındılar)*, وقي *(sakınma, koruma)* · وذر *(bırakma)* · ظلم *(zulüm)* · جثو *(diz çökme)* · bağ: 19:68 (جثو *(diz çökme)*), 19:63 (وقي *(sakınma, koruma)*).",
+   "mercek": "جثو *(diz çökme)* dört ayet arayla iki kez ve diz çökenin kapsamı değişiyor: 19:68'de herkes hazır ediliyor (لَنُحْضِرَنَّهُمْ … جِثِيًّۭا *(diz çökmüş halde hazır edeceğiz)*), 19:72'de yalnız zalimler bırakılıyor. 68'de ortak duruş, 72'de ayrışma — aynı beden hâli önce herkese, sonra bir kısma. Ve ayrışmanın ölçütü وقي *(sakınma, koruma)*: 19:63'te cennet mîrasının ölçütü olan kökün ta kendisi."
+  },
+  "19:73": {
+   "ar": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُنَا بَيِّنَٰتٍۢ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَىُّ ٱلْفَرِيقَيْنِ خَيْرٌۭ مَّقَامًۭا وَأَحْسَنُ نَدِيًّۭا",
+   "meal": "Onlara apaçık âyetlerimiz okunduğunda inkâr edenler iman edenlere: \"İki gruptan hangisinin makamı daha hayırlı, meclisi daha güzel?\" derler.",
+   "olcum": "eksen yok · soru · n=16, EDİLGEN 1 · kök ikilemesi أيي *(âyet, işaret)* ×2 — biri ءَايَٰت *(âyetler)* biri أَىّ *(hangi)* · تلو *(okuma, ardından gelme)* · بين *(arası; açıklama)* → بَيِّنَٰت *(apaçık deliller)* · كفر *(inkâr, nankörlük)* · أمن *(güven; iman)* · فرق *(ayırma, parçalara bölme)* → فَرِيقَيْن *(iki grup)* · خير *(hayır, daha iyi)* · قوم *(kalkma; kavim; kıyamet)* → مَقَام *(duruş yeri, makam)* · حسن *(güzellik, iyilik)* · ندي *(meclis, toplantı yeri)* · dış düğüm 2 · xref: 5:110, 46:7.",
+   "mercek": "أيي *(âyet, işaret)* kökü aynı ayette iki anlamda — 19:65'teki سمو *(ad; gök)* ikilemesinin sekiz ayet sonraki eşi; blokta iki kez aynı olay. Ve inkârcının ölçütü baştan sona GÖRÜNÜR: مَقَام *(duruş yeri)* mekân, نَدِىّ *(meclis)* topluluk. Delil okunuyor (ءَايَٰتِنَا بَيِّنَٰتٍۢ *(apaçık âyetlerimiz)*), cevap delile değil oturuş düzenine veriliyor — muhataplar tartışmayı işitilen bir şeyden görülen bir şeye taşıyor."
+  },
+  "19:74": {
+   "ar": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَٰثًۭا وَرِءْيًۭا",
+   "meal": "Onlardan önce nice nesli helâk ettik ki eşyaca ve görünüşçe daha güzeldiler.",
+   "olcum": "eksen yok · haber · n=9 · هلك *(helâk)* · قبل *(ön, önce; kabul)* · قرن *(nesil, çağ)* · حسن *(güzellik, iyilik)* · أثث *(ev eşyası, döşeme)* · رأي *(görme)* → رِءْيًۭا *(görünüş)*, sûrede tek geçişli fâsıla · bağ: 19:73 (aynı ism-i tafdîl kalıbı ardışık iki ayette).",
+   "mercek": "Cevap inkârcının ölçütüne kendi diliyle veriliyor: 19:73'te أَحْسَنُ نَدِيًّۭا *(meclisçe daha güzel)*, 19:74'te أَحْسَنُ أَثَٰثًۭا *(eşyaca daha güzel)* — aynı ism-i tafdîl, aynı mansûb temyîz, aynı fâsıla vezni. Ölçüt çürütülmüyor, ÖLÇÜTÜN GEÇMİŞ SAHİPLERİ helâk edilmiş olarak gösteriliyor. Ve رِءْى *(görünüş)*: 19:73'ün görünürlük ölçütü burada adlandırılıyor — tartışma görme üzerinden sürüyor."
+  },
+  "19:75": {
+   "ar": "قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّۭ مَّكَانًۭا وَأَضْعَفُ جُندًۭا",
+   "meal": "De ki: \"Kim sapıklık içindeyse Rahmân ona mühleti uzattıkça uzatsın — nihayet kendilerine vaat edileni, ya azabı ya kıyameti gördüklerinde kimin yerinin daha kötü, ordusunun daha zayıf olduğunu bilecekler.\"",
+   "olcum": "esmâ رَحْمٰن *(rahmet, merhamet)* konum 8/25, orta · emir · n=25 — blokun EN UZUN ayeti, z(n)=1.34 · EDİLGEN 1 · kök ikilemesi مدد *(uzatma, destekleme)* ×2 ve كون *(olmak)* ×2 · ضلل *(sapma, saptırma)* · رأي *(görme)* · وعد *(vaat)* · عذب *(azap)* · سوع *(saat, vakit)* · علم *(bilme)* · شرر *(şer, kötülük)* · كون *(olmak)* → مَكَان *(yer)* · ضعف *(kat; zayıflık)* · جند *(ordu, asker)* · fig=[] — **MM kaçağı**: فَلْيَمْدُدْ *(uzatsın)* … مَدًّۭا *(uzatma)*, araya iki kelime giriyor · bağ: 19:73 (soru–cevap çifti), 19:79 (مدد *(uzatma, destekleme)*).",
+   "mercek": "Mühleti veren merhamet adı: uzatan رَحْمٰن *(Rahmân)*, uzatılan sapıklığın süresi. Ve 19:73'ün sorusu burada aynı kalıpla ters çevrilerek cevaplanıyor: soru أَىُّ ٱلْفَرِيقَيْنِ خَيْرٌۭ مَّقَامًۭا *(iki gruptan hangisinin makamı daha hayırlı)*, cevap مَنْ هُوَ شَرٌّۭ مَّكَانًۭا *(kimin yeri daha kötü)*. Mukayese reddedilmiyor, yönü çevriliyor — hem sıfat (خير *(hayır, daha iyi)* → شرر *(şer, kötülük)*) hem de mekân adı değişiyor: قوم *(kalkma; kavim; kıyamet)* kökünden مَقَام, كون *(olmak)* kökünden مَكَان. Duruşun yerine oluşun yeri konuyor."
+  },
+  "19:76": {
+   "ar": "وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًۭى ۗ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ مَّرَدًّا",
+   "meal": "Allah, hidâyete erenlerin hidâyetini artırır. Kalıcı iyi işler ise Rabbinin katında sevapça daha hayırlı, varış yeri bakımından daha iyidir.",
+   "olcum": "**Allah lafzı konum 2** — blokun tek Allah lafzı, z(allah)=1.01 · Rab konum 10, z(rab)=1.32 · haber · n=13 · kök ikilemesi هدي *(yol gösterme)* ×2 ve خير *(hayır, daha iyi)* ×2 · زيد *(artırma)* · بقي *(kalıcı olma)* · صلح *(iyi, elverişli olma; ıslah)* · عند *(kat, yan)* · ثوب *(elbise; karşılık)* · ردد *(geri döndürme, dönüş)* · dış düğüm 2 · xref: **18:46** beş ayrı üçlü dizide — بقي *(kalıcı olma)* + صلح *(iyi, elverişli olma)* + خير *(hayır, daha iyi)* · صلح *(iyi, elverişli olma)* + خير *(hayır, daha iyi)* + عند *(kat, yan)* · خير *(hayır, daha iyi)* + عند *(kat, yan)* + ربب *(rab, terbiye etme)* · عند *(kat, yan)* + ربب *(rab, terbiye etme)* + ثوب *(karşılık, sevap)* · ربب *(rab, terbiye etme)* + ثوب *(karşılık, sevap)* + خير *(hayır, daha iyi)*.",
+   "mercek": "Okumanın en sıkı lafız bağlarından: ٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ … *(kalıcı iyi işler Rabbinin katında sevapça daha hayırlı ve daha iyidir …)* 18:46 ile birebir, YALNIZ SON KELİME farklı: 18:46 أَمَلًۭا *(ümit)*, 19:76 مَّرَدًّۭا *(varış, dönüş yeri)*. Kehf'te ölçü ÜMİT, Meryem'de DÖNÜŞ. Ve iki bağlam da aynı çifti taşıyor: 18:46 formülden ÖNCE ٱلْمَالُ وَٱلْبَنُونَ *(mal ve oğullar)*, 19:77 formülden SONRA مَالًۭا وَوَلَدًا *(mal ve çocuk)*. Aynı formül, aynı karşı-terim, sıralama ters."
+  },
+  "19:77": {
+   "ar": "أَفَرَءَيْتَ ٱلَّذِى كَفَرَ بِـَٔايَٰتِنَا وَقَالَ لَأُوتَيَنَّ مَالًۭا وَوَلَدًا",
+   "meal": "Âyetlerimizi inkâr edip \"Bana mutlaka mal ve evlat verilecek\" diyeni gördün mü?",
+   "olcum": "eksen yok · soru · n=8, EDİLGEN 1, INTG 1, EMPH ×2 · رأي *(görme)* · كفر *(inkâr, nankörlük)* · أيي *(âyet, işaret)* · قول *(söz söyleme)* · أتي *(gelme, getirme)* → أُوتَيَنَّ *(bana verilecek)* · مول *(mal)* · ولد *(doğurma, çocuk)* · dış düğüm 1 · xref: 17:98 · bağ: 18:34, 18:39 (mal ile övünen adam), 19:76 (18:46 formülünün karşı-terimi).",
+   "mercek": "İddia EDİLGEN kipte kuruluyor: لَأُوتَيَنَّ *(bana mutlaka verilecek)* — vereni anmıyor. 19:66'daki inkârcı da dirilişini edilgen kurmuştu: أُخْرَجُ *(çıkarılacağım)*. Blokta dört edilgen fiil var, ikisi bu iki cümlede — inkâr, fâili düşürerek konuşuyor: bir kez diriltişi bir kez rızkı öznesiz bırakıyor. Kalan iki edilgen (19:73 تُتْلَىٰ *(okunur)*, 19:75 يُوعَدُونَ *(vaat edilirler)*) ise ilâhî fiilin edilgeni."
+  },
+  "19:78": {
+   "ar": "أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا",
+   "meal": "Gayba mı vâkıf oldu, yoksa Rahmân katından bir söz mü aldı?",
+   "olcum": "esmâ رَحْمٰن *(rahmet, merhamet)* konum 6/7 · soru, INTG 1 · n=7 — blokun en kısa ikinci ayeti · bab VIII ×2: ٱطَّلَعَ *(vâkıf oldu)* ve ٱتَّخَذَ *(edindi)* · طلع *(doğma, çıkma)* · غيب *(gayb, görünmeyen)* · أخذ *(alma, edinme)* · عند *(kat, yan)* · عهد *(ahit, antlaşma)* · bağ: **19:61** (غيب *(gayb, görünmeyen)* sûrede yalnız bu iki konumda), 19:87 (عهد *(ahit, antlaşma)*).",
+   "mercek": "İki şıklı soru ve iki şık da 19:61'in terimleriyle kurulu: orada Rahmân kullarına بِٱلْغَيْبِ *(gayb ile)* vaat etmişti; burada iddia sahibinin ya gayba vâkıf olması ya Rahmân'dan عَهْد *(ahit)* almış olması gerekiyor. Sahici vaadin iki dayanağı, sahte vaadin sınavına çevriliyor — ve ölçüt her ikisinde de aynı isim. Ayrıca غيب *(gayb, görünmeyen)* sûrede yalnız bu iki ayette: biri vaadin kaynağı, öteki iddianın imkânsız kaynağı."
+  },
+  "19:79": {
+   "ar": "كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّۭا",
+   "meal": "Hayır! Söylediğini yazacağız ve azabını uzattıkça uzatacağız.",
+   "olcum": "eksen yok · haber, **KELLA**, FUT · n=9 · kök ikilemesi مدد *(uzatma, destekleme)* ×2 · كتب *(yazma, kitap)* · قول *(söz söyleme)* · عذب *(azap)* · fig=['KELLA'] — **MM kaçağı**: نَمُدُّ *(uzatırız)* … مَدًّۭا *(uzatma)*, araya üç segment giriyor · bağ: 19:75 (aynı fiil + mastar kalıbı), 19:82 (KELLA).",
+   "mercek": "Aynı kök dört ayet arayla ters işaretle: 19:75 فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّۭا *(Rahmân ona mühleti uzattıkça uzatsın)* — süre uzatma; 19:79 وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّۭا — azap uzatma. Kalıp harfi harfine sabit (fiil + لَهُ *(ona)* + مَدًّۭا), uzatılan şey mühletten azaba dönüşüyor: verilen süre, sürenin sonunda cezanın ölçüsü oluyor. Ve كَلَّا *(hayır, asla)* sûrenin iki gerçek KELLA'sından ilki (19:79, 19:82) — ikisi de aynı iddianın peşinde."
+  },
+  "19:80": {
+   "ar": "وَنَرِثُهُۥ مَا يَقُولُ وَيَأْتِينَا فَرْدًۭا",
+   "meal": "Söylediğine biz vâris oluruz; o bize tek başına gelir.",
+   "olcum": "eksen yok · haber · n=5 — blokun EN KISA ayeti, z(n)=-0.79 · ورث *(vâris olma)* · قول *(söz söyleme)* · أتي *(gelme, getirme)* · فرد *(tek, yalnız)* → فَرْدًۭا *(tek başına)*, korpusta üç geçiş: 19:80, 19:95, 21:89 · bağ: 19:6, 19:40, 19:63 (ورث *(vâris olma)*), 19:77 (مول *(mal)* + ولد *(doğurma, çocuk)* → فرد *(tek, yalnız)*).",
+   "mercek": "19:77'de \"bana mal ve evlat verilecek\" diyen adam burada hem malsız hem evlatsız: مَالًۭا وَوَلَدًا *(mal ve çocuk)* → فَرْدًۭا *(tek başına)*. İki isim bir sıfata iniyor. Ve vâris olunan şey mal değil SÖZ: نَرِثُهُۥ مَا يَقُولُ *(söylediğine vâris oluruz)* — 19:79'da yazılan söz (سَنَكْتُبُ *(yazacağız)*), 19:80'de miras kalan mülk oluyor. İnsanın geriye bıraktığı tek servet, iddiasının kaydı."
   }
  }
 }
