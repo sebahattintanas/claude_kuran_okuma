@@ -7737,6 +7737,100 @@
    "kural": "L2",
    "guven": "orta",
    "not": "İki inkâr cümlesi de EDİLGEN kurulmuş, fâil düşürülmüş: 19:66 أُخْرَجُ *(çıkarılacağım)*, 19:77 لَأُوتَيَنَّ *(bana verilecek)*. Blokun dört edilgeninin ikisi bunlar; kalan ikisi (19:73 تُتْلَىٰ *(okunur)*, 19:75 يُوعَدُونَ *(vaat edilirler)*) ilâhî fiilin edilgeni."
+  },
+  {
+   "cift": [
+    "19:74",
+    "19:98",
+    "50:36"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ *(onlardan önce nice nesli helâk ettik)* — beş kelimelik açılış korpusta üç geçiş, ikisi sûre 19'da (24 ayet arayla). Devamı üç ayrı yöne gidiyor: 19:74 أَحْسَنُ أَثَٰثًۭا وَرِءْيًۭا *(eşyaca ve görünüşçe daha güzel)* · 50:36 أَشَدُّ مِنْهُم بَطْشًۭا *(daha çetin kavrayışlı)* · 19:98 هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ *(onlardan birini hissediyor musun)*. `esit` üçünü de göremiyor — borç 5(b)+5(e) vakası."
+  },
+  {
+   "cift": [
+    "19:3",
+    "19:98"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "Sûre çerçevesi duyulabilirlik ekseninde: 19:3 نِدَآءً خَفِيًّۭا *(gizli çağrı)* ↔ 19:98 رِكْزًۭا *(fısıltı)*. İki kelime de korpusta tek geçişli; biri duyulan en sessiz ses, öteki duyulmayan ses."
+  },
+  {
+   "cift": [
+    "19:78",
+    "19:87"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا *(Rahmân katından bir ahit)* terkibi dokuz ayet arayla iki kez: 19:78 imkânsızlığı ima eden SORU, 19:87 şefaatin tek ŞARTI. Soru cevabını istisna kipinde alıyor."
+  },
+  {
+   "cift": [
+    "19:85",
+    "19:86"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Ardışık karşıt çift, dört eksende simetrik: حشر *(toplama, mahşer)* ↔ سوق *(sürme, sevk etme)* · takvâ ehli ↔ suçlular · Rahmân ↔ cehennem · وَفْد *(konuk heyeti)* ↔ وِرْد *(suya inen sürü)*. İki ayet aynı vezinde ve neredeyse aynı uzunlukta (n=6 / n=5)."
+  },
+  {
+   "cift": [
+    "19:81",
+    "19:87",
+    "19:88",
+    "19:92"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "أخذ *(alma, edinme)* sûrenin son bölümünde dört kez, her seferinde başka özne ve başka geçerlilik: 19:81 insanlar ilâh edindi (geçersiz) · 19:87 kişi ahit edindi (tek geçerli) · 19:88 \"Rahmân çocuk edindi\" (iddia) · 19:92 çocuk edinmek yaraşmaz (ret)."
+  },
+  {
+   "cift": [
+    "19:58",
+    "19:90"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "خرر *(yıkılıp düşme, kapanma)* sûrenin iki yarısında iki kipte: 19:58 خَرُّوا۟ سُجَّدًۭا *(secdeye kapandılar)* — iradeyle eğilme; 19:90 تَخِرُّ ٱلْجِبَالُ هَدًّۭا *(dağlar yıkılıp çöker)* — yıkılma."
+  },
+  {
+   "cift": [
+    "19:88",
+    "19:93"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "İddia ile çürütme aynı kelime çiftinde: 19:88 وَلَدًۭا *(çocuk)* ↔ 19:93 عَبْدًۭا *(kul olarak)*. Soy ilişkisinin yerine kulluk ilişkisi konuyor, üstelik istisnasız kapsamla (göklerde ve yerde olan herkes)."
+  },
+  {
+   "cift": [
+    "19:93",
+    "19:95"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "Ardışık iki fiilsiz ayet aynı kalıpta: كُلّ *(hep, bütün)* + ءَاتِى *(gelen)* + tek niteleyici. Fark niteleyicide: عَبْدًۭا *(kul olarak)* İLİŞKİ, فَرْدًۭا *(tek başına)* SAYI."
+  },
+  {
+   "cift": [
+    "19:20",
+    "19:28",
+    "19:92"
+   ],
+   "kural": "L4",
+   "guven": "orta",
+   "not": "بغي *(arama; yakışma)* sûrede üç konumda iki anlamda: 19:20 ve 19:28 بَغِيًّۭا *(iffetsiz)* — Meryem'e yöneltilen suçlama; 19:92 يَنۢبَغِى *(yaraşır)* — ilâhî uygunluk ölçütü."
+  },
+  {
+   "cift": [
+    "19:79",
+    "19:82"
+   ],
+   "kural": "L4",
+   "guven": "yuksek",
+   "not": "Sûrenin iki gerçek KELLA'sı, ikisi de bir güvence iddiasının hemen ardında: 19:79 \"bana mal ve evlat verilecek\" (19:77), 19:82 \"bize izzet olsunlar\" (19:81)."
   }
  ]
 }
