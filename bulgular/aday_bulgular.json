@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-12",
+ "son_guncelleme": "2026-08-21 · sûre 19 (Meryem) 61-80",
  "okunan": {
   "sureler": [
    1,
@@ -4463,6 +4463,164 @@
     "cift_konum": 6
    },
    "test": "332/334 ile birleşik: سمع *(işitme)*/بصر *(görme)* çiftinin korpus envanteri, sıra (hangisi önce) ve özne sınıflandırması. Sıra sabit mi yoksa özneye göre mi değişiyor? Sabitse 18:26/19:38 çifti anormaldir."
+  },
+  {
+   "no": 380,
+   "aday": "SÛRE 19'UN ENDER FÂSILA İKİZLERİ VE YARI-KÖPRÜLERİ. Sûre 19'un fâsıla kelimeleri taranınca 13 ayrı kelimenin korpusta TAM İKİ geçişi olduğu ve İKİSİNİN DE sûre 19'da bulunduğu görülüyor: وَلِيًّۭا *(velî)* 5↔45 · سَمِيًّۭا *(adaş)* 7↔65 · عِتِيًّۭا *(son sınır)* 8↔69 · وَعَشِيًّۭا *(ve akşam)* 11↔62 · صَبِيًّۭا *(çocuk)* 12↔29 · عَصِيًّۭا *(âsi)* 14↔44 · بَغِيًّۭا *(iffetsiz)* 20↔28 · مَّقْضِيًّۭا *(hükmedilmiş)* 21↔71 · عَلِيًّۭا *(yüce)* 50↔57 · جِثِيًّۭا *(diz çökmüş)* 68↔72 · عَهْدًۭا *(ahit)* 78↔87 · فَرْدًۭا *(tek başına)* 80↔95 · عَدًّۭا *(sayım)* 84↔94. Bunlardan BEŞİ anlatı yarısında (1-58) içsel, DÖRDÜ söylem yarısında (59-98) içsel, DÖRDÜ ise iki yarıyı BAĞLIYOR: 7↔65, 8↔69, 11↔62, 21↔71 — ve dört köprünün de söylem-ucu 19:62-71 aralığında, yani tek bir yirmi ayetlik dilimde. Anlatı-ucu ise dördünde de 19:7-21 aralığında, yani Zekeriyyâ–Meryem müjde bölümünde.",
+   "olculen": {
+    "ikiz_kelime": 13,
+    "anlati_ici": 5,
+    "soylem_ici": 4,
+    "yari_koprusu": 4,
+    "koprulerin_soylem_ucu": [
+     62,
+     65,
+     69,
+     71
+    ],
+    "koprulerin_anlati_ucu": [
+     7,
+     8,
+     11,
+     21
+    ],
+    "sure19_tek_gecisli_fasila": 37,
+    "sure19_fasila_A_sinifi": 89
+   },
+   "uyari": "ARANARAK BULUNDU — fâsıla kelimeleri kasten tarandı. Motive eden ayetler (19:62,65,69,71) kendi testinden dışlanmalı.",
+   "test": "Ön-kayıtlı: her sûre için 'korpusta tam iki geçişi olan ve ikisi de o sûrede bulunan fâsıla kelimesi' sayısı hesaplanır; sûre uzunluğu ve fâsıla sınıfı saflığı ile normalize edilir (sûre 19 fâsıla saflığı 89/98 A sınıfı — çok yüksek, ikiz üretimini kendiliğinden artırabilir). Asıl soru ikizlerin VARLIĞI değil, YARIYA GÖRE DAĞILIMI: köprülerin söylem-uçlarının tek bir 20 ayetlik dilimde kümelenmesi konum-eşli null altında beklenen mi? Null: aynı sûre içinde aynı sayıda ikiz çifti rastgele konumlara yerleştir, köprü-uçlarının maksimum 20-ayetlik pencere yoğunluğunu karşılaştır."
+  },
+  {
+   "no": 381,
+   "aday": "BORÇ 5 DOĞRUDAN VAKASI — 19:9 ↔ 19:67 TEK BİÇİMBİRİM FARKI. مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا *(daha önce hiçbir şey değilken)* ile مِن قَبْلُ وَلَمْ يَكُ شَيْـًۭٔا korpusta yalnız bu iki yerde ve ikisi de sûre 19'da. Fark tek harf: تَ (2MS) → يَ (3MS). Öncesindeki fiil de aynı kökten ve aynı yönde değişiyor: خَلَقْتُكَ *(seni yarattım)* → خَلَقْنَٰهُ *(onu yarattık)*. `esit` alanı ikisinde de boş.",
+   "olculen": {
+    "korpus_gecis": 2,
+    "ikisi_de_sure": 19,
+    "aralik_ayet": 58,
+    "fark": "tek biçimbirim (şahıs)",
+    "esit_alani": "boş"
+   },
+   "test": "borç 5(a) ve 5(d) ile birleşik: kelime dizisi hizalaması + fark büyüklüğü ölçeği kurulduğunda bu çift ilk doğrulama vakası olacak. Ayrıca aynı önermenin iki söz edimine (teselli / delil) bağlanması: korpusta 'aynı ifade, farklı söz edimi' çiftlerinin envanteri."
+  },
+  {
+   "no": 382,
+   "aday": "BORÇ 1 DOĞRULAMA SETİNE İKİ YENİ VAKA. MM (mef'ûl-i mutlak) kuralı bu blokta iki kez daha düştü: 19:75 فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّۭا *(Rahmân ona mühleti uzattıkça uzatsın)* — fiil ile mastar arasında iki kelime; 19:79 وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّۭا *(azabını uzattıkça uzatacağız)* — üç segment. İkisi de aynı kök (مدد *(uzatma, destekleme)*), aynı kalıp, aynı sûre, dört ayet arayla. Doğrulama seti artık: 17:11, 17:19, 17:63, 17:80 (×2), 17:91, 17:106, 17:111, 18:99, 18:100, 19:3, **19:75, 19:79**.",
+   "olculen": {
+    "yeni_vaka": 2,
+    "ayetler": [
+     "19:75",
+     "19:79"
+    ],
+    "araya_giren": [
+     2,
+     3
+    ],
+    "dogrulama_seti_toplam": 13
+   },
+   "test": "borç 1 onarımı: segment değil KELİME düzeyinde bitişiklik + pencere genişliği kalibrasyonu. Ölçülmüş mesafe dağılımı: 0 kelime→134 · 1→96 · 2→37 · 3→23."
+  },
+  {
+   "no": 383,
+   "aday": "KELLA KURALINDA SAHTE POZİTİF — 19:49. fig alanı 19:49'a KELLA etiketi veriyor ama ayette كَلَّا *(hayır, asla)* yok; وَكُلًّۭا جَعَلْنَا نَبِيًّۭا *(her birini peygamber kıldık)* içindeki وَكُلًّۭا *(her birini)* hareke silindikten sonra كلا'ya düşüyor. Sûre 19'un gerçek KELLA'ları yalnız 19:79 ve 19:82.",
+   "olculen": {
+    "sure19_kella_etiketi": 3,
+    "gercek": 2,
+    "sahte": [
+     "19:49"
+    ]
+   },
+   "test": "KELLA kuralı korpus çapında taranmalı: كل *(hep, bütün)* kökünün mansûb tenvinli biçimleri (كُلًّا) ile كَلَّا ayrımı harekeye bağlı. Kaç KELLA etiketi bu yolla sahte? Kural harekeli metne veya POS etiketine bağlanmalı."
+  },
+  {
+   "no": 384,
+   "aday": "ESMÂ BAĞLAM KURALINDA YENİ SAHTE POZİTİF — سَلام *(esenlik)* 19:62. لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًۭا *(orada boş söz işitmezler, ancak selâm)* — burada سَلَٰم ilâhî isim değil, cennette işitilen selâmlama. esmâ alanı konum 6'da isim sayıyor. Borç 3'ün doğrulama setine ek: سَلام zaten listede, bu onun Meryem'deki somut vakası.",
+   "olculen": {
+    "ayet": "19:62",
+    "lemma": "سَلام",
+    "konum": 6,
+    "gercek_anlam": "esenlik, selâmlama"
+   },
+   "test": "borç 3: 'zamir + iki belirli sıfat' kalıbı (aday 283) ayırıcı olarak sınanacak. سَلام için ek ölçüt: إِلَّا *(ancak)* sonrası mansûb tenvinli konum + işitme fiili bağlamı."
+  },
+  {
+   "no": 385,
+   "aday": "İLTİFÂT KURALI ORTAK ARKA-PLAN ZAMİRİ YÜZÜNDEN KÖR — 19:71. Ayet 19:70'te şahıs kümesi {1P, 3MP, 3FS}, 19:71'de {2MP, 3FS, 3MS, 2MS}. Gerçek geçiş 3. şahıstan doğrudan hitaba (وَإِن مِّنكُمْ *(içinizden)*), üstelik aynı ayet içinde 2MP'den 2MS'ye de geçiyor (رَبِّكَ *(Rabbin)*). Ama iki küme 3FS'te (هَا *(o dişil = cehennem)*) kesiştiği için 'ayrık küme' koşulu sağlanmıyor ve ilt=0 kalıyor.",
+   "olculen": {
+    "ayet": "19:71",
+    "onceki_kume": [
+     "1P",
+     "3MP",
+     "3FS"
+    ],
+    "bu_kume": [
+     "2MP",
+     "3FS",
+     "3MS",
+     "2MS"
+    ],
+    "kesisim": [
+     "3FS"
+    ],
+    "ilt": 0
+   },
+   "test": "iltifât kuralına iki ek ölçüt: (a) BASKIN şahıs değişimi (yalnız ayrıklık değil), (b) ayet-içi şahıs geçişi. Ayrıca arka-plan zamirlerinin (nesneye gönderen 3FS/3MS) küme dışında tutulması. Korpusta kaç iltifât bu yolla kaçıyor?"
+  },
+  {
+   "no": 386,
+   "aday": "QASEM KURALI DOĞRU POZİTİF — 19:68 فَوَرَبِّكَ *(Rabbine yemin olsun)*. Yemin vâvı + mecrur isim kalıbı doğru yakalanmış; sûre 19'un tek yemini ve blokun vurgu tepesi (EMPH ×4). Borç 2'nin reçetesindeki 'yemin harfleri و/تَ/لَ + lafız|GEN isim' kanadını destekleyen olumlu vaka.",
+   "olculen": {
+    "ayet": "19:68",
+    "yemin_harfi": "و",
+    "mecrur": "رَبّ",
+    "emph": 4,
+    "sure19_qasem_sayisi": 1
+   },
+   "test": "borç 2 onarımı: قسم *(paylaştırma; yemin)* bab IV ayrımı + yemin harfi kanadı birlikte. Bu vaka onarım sonrası KORUNMALI (yanlış negatife dönmemeli)."
+  },
+  {
+   "no": 387,
+   "aday": "18:46 ↔ 19:76 FORMÜLÜNÜN KARŞI-TERİMİ İKİ SÛREDE TERS SIRADA. Aynı formül (ٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ *(kalıcı iyi işler Rabbinin katında sevapça daha hayırlı ve daha iyidir)*) korpusta iki kez, yalnız son kelimesi farklı: 18:46 أَمَلًۭا *(ümit)*, 19:76 مَّرَدًّۭا *(varış, dönüş yeri)*. Formülün karşısına konan dünyevî çift de iki yerde aynı ama KONUMU ters: 18:46'da formülden ÖNCE (ٱلْمَالُ وَٱلْبَنُونَ *(mal ve oğullar)*, aynı ayette), 19:77'de formülden SONRA (مَالًۭا وَوَلَدًا *(mal ve çocuk)*, bir sonraki ayette).",
+   "olculen": {
+    "formul_gecis": 2,
+    "farkli_kelime": 1,
+    "karsi_terim_18": "18:46 önce",
+    "karsi_terim_19": "19:77 sonra",
+    "xref_ucgen_sayisi": 5
+   },
+   "test": "borç 5(e) ile birleşik (kalıp birleştirme): tekrarlanan formüllerin ÇEVRESİNDEKİ bağlam öğelerinin konumu sabit mi? Envanter: korpusta iki-üç kez geçen uzun formüller + her geçişte komşu ayetlerdeki ortak kök kümeleri."
+  },
+  {
+   "no": 388,
+   "aday": "AYNI AYETTE BİR KÖKÜN İKİ AYRI ANLAMDA GEÇMESİ — blokta sekiz ayet arayla iki vaka. 19:65: سمو *(ad; gök)* hem ٱلسَّمَٰوَٰت *(gökler)* hem سَمِىّ *(adaş)*. 19:73: أيي *(âyet, işaret)* hem ءَايَٰت *(âyetler)* hem أَىّ *(hangi)*. İkisi de `ikile` alanında 'kök ikilemesi' olarak sayılıyor, ama ikileme burada SES tekrarı değil ANLAM ÇATALLANMASI.",
+   "olculen": {
+    "vaka": 2,
+    "ayetler": [
+     "19:65",
+     "19:73"
+    ],
+    "kokler": [
+     "سمو *(ad; gök)*",
+     "أيي *(âyet, işaret)*"
+    ],
+    "ikile_alani": "ikisini de sayıyor"
+   },
+   "test": "`ikile` alanı iki sınıfa ayrılmalı: (a) aynı anlamda tekrar (pekiştirme), (b) farklı anlamda tekrar (cinâs). Ayrım kavram() üzerinden kurulabilir. Korpusta (b) kaç ayette var ve fâsıla/simetri alanlarıyla ilişkili mi?"
+  },
+  {
+   "no": 389,
+   "aday": "DENETİM ARACININ KAPSAM AÇIĞI — turkce_denetim.py yalnız okuma_metni.json'u tarıyor. OKUMA_STANDARDI'nın 2026-08-20 maddesi kuralın kapsamını 'ayet ölçüm satırları, mercek metinleri, dikey okuma özetleri, aday_bulgular kayıtları ve okuma_baglantilari notları' diye tanımlıyor; betik ise yalnız birincisini deniyor. Bu blokta elle yapılan tarama okuma_baglantilari.json + aday_bulgular.json içinde 173 karşılıksız kök anması buluyor (2'si bu oturumda yazılmıştı, düzeltildi → 171 kaldı). İki kaynak: (a) yapısal `olculen` alanları hiç denetlenmemiş, (b) kok_turkce.json bu oturumda 274→302 köke çıktı, yeni 28 kök geçmiş kayıtlarda geriye dönük açık yarattı (okuma_metni'ndeki 12 vaka onarıldı, öteki iki dosyadakiler onarılmadı).",
+   "olculen": {
+    "denetlenen_dosya": 1,
+    "kural_kapsamindaki_dosya": 3,
+    "elle_bulunan_ihlal": 173,
+    "bu_oturumda_yazilan": 2,
+    "kalan": 171,
+    "kok_turkce_kapsam_once": 274,
+    "kok_turkce_kapsam_sonra": 302,
+    "okuma_metni_geriye_donuk_onarilan": 12
+   },
+   "not": "Okuma sırasında ölçüm/denetim aracı DEĞİŞTİRİLMEDİ — borç olarak yazıldı.",
+   "test": "Tur sonunda: turkce_denetim.py'ye dosya kapsamı eklenir (özyinelemeli JSON gezinme, string yaprakları denetlenir), 171 vaka onarılır. Ayrıca kok_turkce.json her genişlediğinde tüm kalıcılık dosyalarının yeniden denetlenmesi bir adım olarak sabitlenmeli."
   }
  ]
 }
