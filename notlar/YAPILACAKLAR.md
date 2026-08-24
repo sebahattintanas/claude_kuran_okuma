@@ -256,3 +256,161 @@ Reçete: kelime dizisi hizalaması + fark büyüklüğü ölçeği (harf/biçimb
 Türkçe karşılık kuralı denetime bağlandı: `tablolar/kok_turkce.json` (274 kök) +
 `betikler/turkce_denetim.py`. Sûre 15-19 taramasında **0 ihlâl**.
 Kural: her blok kaydından sonra denetim koşturulur, sıfır olmadan blok kapanmaz.
+
+---
+
+## SES / PROZODİ KATMANI (2026-08-22 oturumu)
+
+### Yapıldı
+- **Nakarat prozodi sınavı KOŞULDU.** Rahmân 55, tek kārî, 78/78 ayet-ayet mp3.
+  Ön-kayıt `notlar/ON_KAYIT_nakarat.md`, betik `betikler/nakarat_olcum.py`,
+  sonuç `bulgular/bulgu_nakarat_prozodi.json`. Adaylar 395–396.
+  Birincil: CV(dpm|nakarat)/CV(dpm|kontrol) = 0,261 · p<0,0001.
+- **Kafiye seslendirme setleri** üretildi (`betikler/kafiye_seslendirme.py`).
+  Çapraz tablo aday 397: kafiye sınıfı ≈ fâsıla tipi, ayrışan tek sınıf R.
+
+### P1 — ANLATI MODU PROJESİ (ertelendi, ayrı proje olacak)
+Amaç: Türkçe meal üzerinden tam Kuran "dinleme/anlatı modu".
+
+Karara bağlanmış olanlar:
+- **Süre katmanı DEVROLMUYOR.** Ölçülen süre bağı mora üzerinden, mora Arapça'ya ait.
+  Meal'de mora yok. Türkçe tarafta "ritmi metinden aldık" İDDİASI KURULAMAZ.
+- Devrolan katman: anlatı yapısı — konuşan/muhatap (`sah`,`bask`), doğrudan söz
+  (قول fiili, 1.322 ayet %21,2), nakarat (119 ayet, 15 sûre), edim
+  (haber 3589 · emir 1311 · şart 855 · soru 808 · nida 363 · yasak 289),
+  adlı aktör (`tablolar/aktor_tablosu.json`, 61 aktör / 16'sı konuşan / 61 ayet — SEYREK).
+- **Telif:** Diyanet meali korumalı çeviri; `kuran_meal.json` repoda YOK, yerelde.
+  Yapı üretimi burada, metinle birleştirme yerelde. Yayım düşünülürse Elmalılı 1935
+  orijinali kamu malı — o zemine geçilmeli.
+- Türkçe TTS bu ortamda yok; ses üretimi dışarıda.
+
+Yapılacak ilk adım:
+1. `sahne_partisyonu.py` — ayet başına: konuşan şahıs, adlı aktör, doğrudan söz
+   aralığı, nakarat üyeliği, edim + Arapça tarafın süre hedefleri. Meal için
+   SADECE ayet referansı, metin gömülmez.
+2. Pilot sûre seçimi: Rahmân 55 (ses elde, nakarat ölçülü, 2D ikil hitap 97 kez —
+   Türkçede ikil yok, meal bu bilgiyi siliyor, partisyon geri getirebilir)
+   VEYA Şuarâ 26 (Mûsâ–Fir'avn diyaloğu, karakter ekseni zengin, 6 nakarat kümesi).
+3. Sürüklenme sınavı (aday 396) BAĞIMSIZ kārî/sûre ile — Şuarâ 26 doğal aday.
+
+### P2 — ses tarafı açık borçlar
+- Kārî adı KAYDEDİLDİ: **Mahmûd Halîl el-Husarî (murattal)**. Sürüklenme sınavı
+  (aday 396) için ikinci kārî gerekiyor — karşılaştırma murattal-murattal olmalı,
+  mujawwad'da sapmanın ne kadarı icra süslemesi ayırt edilemez.
+- edim → F0 sınavı (soru/nida/emir/haber konturda ayrışıyor mu) hiç koşulmadı.
+- Şedde (23.016) · kalkale (3.415) · ğunne (7.342) katmanları `tilavet_sentez.py`'ye
+  eklenmedi. NOT: bunlar tecvîd/Arapça'ya ait, Kuran'a özgü DEĞİL — 0110/elif dersi.
+
+---
+
+## VARLIK KATALOĞU DENETİMİ (2026-08-22) — P1 BORÇ
+
+**Durum: TEŞHİS TAMAM, DÜZELTME ERTELENDİ.**
+Düzeltmek `tablolar/varlik_katalog.json`'u yeniden üretmeyi gerektirir → okuma
+sırasında araç değiştirme yasağına girer. Tur sonunda toplu yapılacak.
+
+### Bulgu: 91 kayıtlık katalogda 9 kayıt SESSİZCE düşüyor
+Hata vermiyorlar, sıfır sonuç dönüyorlar. Dördü tek bir hatanın kopyası.
+
+| sebep | kayıt | doğrusu | kayıp geçiş |
+|---|---|---|---|
+| Latin `r` sızması | `kader/ölçü` = `قدr` (U+0072) | `قدر` | 132 |
+| bare elif ↔ hemzeli elif | `emanet` = `امن` | `أمن` | 879 |
+| " | `yer/arz` = `ارض` | `أرض` | 461 |
+| " | `emr` = `امر` | `أمر` | 248 |
+| " (kelime modu) | `Ye'cûc-Me'cûc` = `ياجوج\|ماجوج` | `يأجوج\|مأجوج` | 2 ayet (18:94, 21:96) |
+| hareke SIRASI (NFC) | `Eyyûb` = `أَيُّوب` | shadda↔damme sırası ters | — |
+| korpus PN saymıyor | `Tûr`, `arı` (`نَحْل`), `Hüdhüd` | `kok` modu denenmeli | — |
+
+**Toplam ölçülen kayıp: 1.722 kök geçişi + 2 ayet.**
+
+### Eyyûb vakası — kuralın ihlâli VE çözümü
+Katalog ve korpus AYNI 7 kod noktasını içeriyor, sırası farklı:
+- katalog: ي + َ + ُ(064F) + ّ(0651) + و + ب
+- korpus : ي + َ + ّ(0651) + ُ(064F) + و + ب
+
+`==` false, **NFC normalizasyonu ikisini eşitliyor.** "Lemma anahtarları elle
+yazılmaz, korpus çıktısından kopyalanır, NFC ile eşleştirilir" kuralının canlı ihlâli.
+
+### Yapılacaklar (tur sonu)
+1. `betikler/varlik_katalog.py` KATALOG listesindeki 9 anahtarı düzelt.
+2. **Tüm arama anahtarlarını NFC'den geçir** — `varlik_makinesi.ayetleri_bul`
+   içine normalize ekle. Şu an `in` ile ham karşılaştırma yapıyor.
+3. `Tûr`/`arı`/`Hüdhüd` için `pn` yerine `kok` modu dene; korpus bunları cins isim
+   sayıyor, katalog özel isim sayıyor — hangisinin doğru olduğu karara bağlanacak.
+4. `varlik_katalog.json` yeniden üretilecek (şu an 191 varlık, 6'sı eksik).
+5. `yer/arz` ile mevcut `yer` kaydının ne ölçtüğü ayrıştırılacak — çakışma riski.
+6. AYNI DENETİM diğer elle-yazılmış anahtar dosyalarına uygulanacak:
+   `kok_anlam_tablosu.json`, `kok_anlam_istisna.json`, `kavram_katalogu.json`,
+   `kok_turkce.json` (314 kök). Denetim betiği: Latin karakter + bare/hemzeli elif
+   + NFC sırası, üç testi birden.
+
+### Denetim sırasında düzeltilen KENDİ hatam
+İlk denetimde `morph.txt` konum alanını 5 parçalı sandım, gerçekte **4 parçalı**
+(`sûre:ayet:kelime:segment`). Bu yüzden "PN etiketi hiç yok, 36/36 kayıt düşmüş"
+dedim — YANLIŞTI. Doğrusu: 3.911 PN kelime, 2.464 ayet, 106 benzersiz PN lemma,
+36 kayıttan 4'ü düşüyor. Kayda geçsin ki tur sonunda yanlış rakama dayanmayalım.
+
+---
+
+## ANAHTAR DENETİMİ — REPO GENELİ (2026-08-22) — P0 BORÇ
+
+Betik: `betikler/anahtar_denetim.py` (SALT-OKUR, hiçbir dosyayı değiştirmez).
+20.838 anahtar/sabit tarandı (.json + .py). Dört test: T1 Latin sızması,
+T2 yazım (hemze/harekesizlik), T3 sıra/varyant, T4 korpusta yok.
+
+### NEDEN OLDU — tarih kanıtı
+`git log`: `varlik_katalog.py` **5 Ağustos**'ta ilk toplu yüklemede geldi ve
+o günden beri BİR KEZ BİLE değişmedi (`قدr` hatası doğduğu gün içindeydi).
+Aradan geçen 17 günde 246 dosya dokunuşu oldu, bu dosya hiçbirine dahil değil.
+`turkce_denetim.py` ise **21 Ağustos**'ta yazıldı.
+=> Kök tabloları korpustan TÜRETİLDİĞİ için temiz (kok_envanteri 1.651,
+   kok_anlam_tablosu 430, kok_turkce 314 → hepsinde SIFIR ihlâl).
+   Bozulma yalnızca ELLE YAZILAN yerlerde ve DENETİM ÖNCESİ dönemde.
+İki yapısal boşluk: (a) denetim .json tarıyor, .py taramıyor —
+oysa anahtarların elle yazıldığı yer tam olarak .py. (b) geriye dönük
+tarama hiç yapılmadı; kural sadece YENİ üretime bakıyor.
+
+### EN AĞIR BULGU: zaman_of() kök kümeleri
+`varlik_makinesi.py` sat.48-50 ve `kavram_arac.py` sat.46-48 (KOPYALI):
+GECMIS/GELECEK/SIMDI kümelerinde **18/34 anahtar tutmuyor.**
+
+Ölçülebilir kayıp — dördü de hamzesiz elif:
+| küme | yazılan | doğrusu | kayıp geçiş |
+|---|---|---|---|
+| SIMDI | `ءمن` | `أمن` | 879 |
+| SIMDI | `ايي` | `أيي` | 597 |
+| GELECEK | `اخر` | `أخر` | 250 |
+| SIMDI | `امر` | `أمر` | 248 |
+**Toplam 1.974 geçiş.** Kaybedilenler SIMDI kümesinin EN YÜKSEK FREKANSLI üyeleri.
+
+Kalan 14 anahtar (نوح, ابر, موسي, فرعن, عاد, لوط, ارسل, نار, ساع, تقو, ثمد, قيم…)
+korpusta kök olarak HİÇ yok — bunlar ÖZEL/CİNS İSİM. Kök ile lemma karıştırılmış:
+PN lemma tarafında aranmalıydılar.
+
+**ETKİ:** `zaman_of()` → `varlik_makinesi.oku()` → `varlik_katalog.json`'daki
+**40 kavramın `zaman` profili eksik veriyle üretilmiş.** Bu alana dayanan
+hiçbir çıkarım tur sonu düzeltmesi yapılmadan kullanılamaz.
+
+### T3 TESTİ HAKKINDA — ÖNCEKİ TEŞHİS DÜZELTİLDİ
+İlk raporda "korpusun NFC-dışı olabileceği" ima edilmişti. YANLIŞ.
+Ölçüldü: korpusun ham hâli ZATEN NFC (shadda ccc=33 > damme ccc=31,
+NFC damme'yi öne alır ve korpus da öyle saklar). `aktor_tablosu.json` ve
+`pn_turleri.json`'daki 15 "NFC" uyarısı YANLIŞ ALARMDI — o dosyalar korpusu
+sadakatle kopyalamış. Sapan taraf `varlik_katalog.py`'deki elle yazılmış
+`أَيُّوب`'tur (shadda-önce girilmiş).
+=> Ölçüt "NFC'den sapma" DEĞİL, **"KORPUS FORMUNDAN sapma"**. Betik düzeltildi.
+
+### TUZAK — betiğin önerileri körü körüne uygulanmayacak
+`ثمد → أمد` ve `قيم → أيم` önerileri betiğin hamze-varyantı denemesinden
+geliyor ve YANLIŞ (Semûd = `ثمود` lemma; kayyim = `قوم` kökü).
+Her öneri ELLE doğrulanacak.
+
+### Yapılacaklar (tur sonu, toplu)
+1. `zaman_of()` kümeleri: 4 hamze hatasını düzelt, 14 isim anahtarını
+   kök yerine PN lemma tarafına taşı. İKİ DOSYADA birden (kopyalı).
+2. `varlik_katalog.py`: 9 anahtar (bkz. VARLIK KATALOĞU DENETİMİ bölümü).
+3. `varlik_katalog.json` yeniden üretilecek; `zaman` alanı DA değişecek.
+4. `anahtar_denetim.py` denetim zincirine bağlanacak: her blok kaydından sonra
+   `turkce_denetim.py` ile birlikte koşulacak, sıfır olmadan blok kapanmaz.
+5. EDAT_MUAF listesi gerekçeli tutulacak; körlemesine genişletilmeyecek.
