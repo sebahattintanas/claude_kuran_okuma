@@ -1,0 +1,74 @@
+korpus: 1651 kök, 106 PN lemma
+taranan anahtar/sabit: 20848   BOZUK: 58
+
+── betikler/aktor.py (7)
+   ✗ sat.28 داوُۥد           T2 YAZIM → korpustaki hâli: داوُد
+   ✗ sat.33 ٱلْيَسَع         T4 korpusta HİÇ YOK
+   ✗ sat.35 ٱللَّه           T4 korpusta HİÇ YOK
+   ✗ sat.38 طُوَى            T3 SIRA/VARYANT → korpustaki hâli: طُوًى
+   ✗ sat.38 ٱلطُّور          T4 korpusta HİÇ YOK
+   ✗ sat.41 ٱمْرَأَة         T4 korpusta HİÇ YOK
+   ✗ sat.66 ٱللَّه           T4 korpusta HİÇ YOK
+── betikler/anlati_uretici.py (1)
+   ✗ sat.59 الله             T2 YAZIM → korpustaki hâli: اللَّه
+── betikler/kavram_arac.py (14)
+   ✗ sat.46 نوح              T2 YAZIM → korpustaki hâli: نُوح
+   ✗ sat.46 ابر              T4 korpusta HİÇ YOK
+   ✗ sat.46 موسي             T4 korpusta HİÇ YOK
+   ✗ sat.46 فرعن             T4 korpusta HİÇ YOK
+   ✗ sat.46 ثمد              T4 korpusta HİÇ YOK
+   ✗ sat.46 لوط              T2 YAZIM → korpustaki hâli: لُوط
+   ✗ sat.46 ارسل             T4 korpusta HİÇ YOK
+   ✗ sat.47 قيم              T2 YAZIM → korpustaki hâli: قِيَم
+   ✗ sat.47 ساع              T4 korpusta HİÇ YOK
+   ✗ sat.47 اخر              T4 korpusta HİÇ YOK
+   ✗ sat.48 ايي              T4 korpusta HİÇ YOK
+   ✗ sat.48 ءمن              T4 korpusta HİÇ YOK
+   ✗ sat.48 تقو              T4 korpusta HİÇ YOK
+   ✗ sat.48 امر              T4 korpusta HİÇ YOK
+── betikler/kavram_uzayi.py (4)
+   ✗ sat.23 الله             T2 YAZIM → korpustaki hâli: اللَّه
+   ✗ sat.59 الله             T2 YAZIM → korpustaki hâli: اللَّه
+   ✗ sat.59 امن              T4 korpusta HİÇ YOK
+   ✗ sat.60 ايي              T4 korpusta HİÇ YOK
+── betikler/keskin.py (3)
+   ✗ sat.42 اما              T4 korpusta HİÇ YOK
+   ✗ sat.42 فاما             T4 korpusta HİÇ YOK
+   ✗ sat.42 واما             T4 korpusta HİÇ YOK
+── betikler/keskin2.py (3)
+   ✗ sat.34 إما              T2 YAZIM → korpustaki hâli: إِمّا
+   ✗ sat.34 وإما             T4 korpusta HİÇ YOK
+   ✗ sat.34 فإما             T4 korpusta HİÇ YOK
+── betikler/kuran_akis.py (1)
+   ✗ sat.62 الله             T2 YAZIM → korpustaki hâli: اللَّه
+── betikler/sicak_anlati.py (1)
+   ✗ sat.31 الا              T4 korpusta HİÇ YOK
+── betikler/tilavet_sentez.py (1)
+   ✗ sat.81 صضطظ             T4 korpusta HİÇ YOK
+── betikler/varlik_katalog.py (7)
+   ✗ sat.19 امن              T4 korpusta HİÇ YOK
+   ✗ sat.52 ثمود             T2 YAZIM → korpustaki hâli: ثَمُود
+   ✗ sat.59 جهنم             T2 YAZIM → korpustaki hâli: جَهَنَّم
+   ✗ sat.61 ارض              T4 korpusta HİÇ YOK
+   ✗ sat.80 عنكبوت           T2 YAZIM → korpustaki hâli: عَنكَبُوت
+   ✗ sat.81 ذباب             T2 YAZIM → korpustaki hâli: ذُباب
+   ✗ sat.106 امر              T4 korpusta HİÇ YOK
+── betikler/varlik_makinesi.py (16)
+   ✗ sat.48 نوح              T2 YAZIM → korpustaki hâli: نُوح
+   ✗ sat.48 ابر              T4 korpusta HİÇ YOK
+   ✗ sat.48 موسي             T4 korpusta HİÇ YOK
+   ✗ sat.48 فرعن             T4 korpusta HİÇ YOK
+   ✗ sat.48 ثمد              T4 korpusta HİÇ YOK
+   ✗ sat.48 لوط              T2 YAZIM → korpustaki hâli: لُوط
+   ✗ sat.48 ارسل             T4 korpusta HİÇ YOK
+   ✗ sat.49 قيم              T2 YAZIM → korpustaki hâli: قِيَم
+   ✗ sat.49 ساع              T4 korpusta HİÇ YOK
+   ✗ sat.49 اخر              T4 korpusta HİÇ YOK
+   ✗ sat.50 ايي              T4 korpusta HİÇ YOK
+   ✗ sat.50 ءمن              T4 korpusta HİÇ YOK
+   ✗ sat.50 تقو              T4 korpusta HİÇ YOK
+   ✗ sat.50 امر              T4 korpusta HİÇ YOK
+   ✗ sat.183 موسى             T2 YAZIM → korpustaki hâli: مُوسَى
+   ✗ sat.184 ثمود             T2 YAZIM → korpustaki hâli: ثَمُود
+
+(SALT-OKUR — hiçbir dosya değiştirilmedi.)
