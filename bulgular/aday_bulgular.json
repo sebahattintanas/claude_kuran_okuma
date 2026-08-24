@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-21 · sûre 19 (Meryem) TAM",
+ "son_guncelleme": "2026-08-22 — ses/prozodi (395-397) + anahtar denetimi (398-399)",
  "okunan": {
   "sureler": [
    1,
@@ -4716,6 +4716,38 @@
    },
    "uyari": "Yapı tespiti YORUM katmanındadır; ölçülen kısım kafiye dağılımı, adlı aktör sayımı ve iki çerçeve kelimesinin korpus sıklığıdır.",
    "test": "378 (ٱذْكُرْ فِى ٱلْكِتَٰبِ formülü) ve 371 (Kehf'in beş üçlüsü) ile aynı aile: sûre-içi yapı formüllerinin envanteri. Ek soru: kafiye sınıfı sapma bölgeleri sûre-içi bölüm sınırlarıyla örtüşüyor mu? Bu ölçülebilir ve borç 4 (kafiye kırığı kuralı) ile doğrudan bağlantılı — şu anki kural yalnız önceki ayete bakıyor, blok sınırını göremiyor."
+  }
+ ],
+ "Z_ses_prozodi": [
+  {
+   "no": 395,
+   "aday": "SÜRE PROFİLİ METNE BAĞLI, PERDE VE ŞİDDET DAHA GEVŞEK BAĞLI. Rahmân (55) tek kārî = Husarî (murattal), ayet-ayet kayıt (everyayah, 78/78). Nakarat (n=31, harfi harfine aynı metin, mora=31, tek ritim_kod) ile kontrol ayetleri (n=46, 55:1 hariç) mora başına süre CV'si karşılaştırıldı: CV(nakarat)=0,0364 · CV(kontrol)=0,1395 · oran=0,261 · p<0,0001 (10.000 permütasyon, tek yönlü). Aynı ölçüm F0 için oran=0,577 p=0,016 · RMS için oran=0,583 p=0,0006. Yorum SINIRI: sıralama süre < perde/şiddet, yani metnin en sıkı buyurduğu boyut süre. Ön-kayıt ölçümden ÖNCE yazıldı (ON_KAYIT_nakarat.md), sanity kontrolü (31 nakaratın mora ve ritim_kod tekliği) geçti.",
+   "sinir": "TEK KĀRÎ — genellenemez. Kārî: Husarî (murattal). Nakarat ile kontrol arasında konum eşleşmesi kabaca sağlanıyor ama tam değil. mp3 kayıplı sıkıştırma (süre/F0 için sorunsuz, tını için değil). Bonferroni öncesi.",
+   "dosya": "bulgular/bulgu_nakarat_prozodi.json"
+  },
+  {
+   "no": 396,
+   "aday": "NAKARAT SÜRÜKLENMESİ (POST-HOC, KEŞİF). Rahmân'ın 31 nakarat tekrarında süre, tekrar sırasıyla birlikte artıyor: eğim +0,022 sn/tekrar, r=+0,49. F0'da aynı yönde zayıf eğilim: +0,387 Hz/tekrar, r=+0,25. İlk beş tekrar 10,48–11,06 sn, son beş 10,83–11,60 sn.",
+   "sinir": "POST-HOC — hipotez ölçümden sonra doğdu, kendi verisiyle test edilemez. Tek kārî (Husarî, murattal), tek sûre. Sınanacaksa BAĞIMSIZ kārî/sûre gerekir (aday: Şuarâ 26, 6 nakarat kümesi).",
+   "dosya": "bulgular/bulgu_nakarat_prozodi.json"
+  },
+  {
+   "no": 397,
+   "aday": "KAFİYE SINIFI İLE FÂSILA TİPİ BÜYÜK ÖLÇÜDE AYNI ŞEYİ ÖLÇÜYOR. defter.json fs[2] × kuran_veri.json fasila_tipi çapraz tablosu: N sınıfı 3722/3774 ârız (%98,6) · A sınıfı 1133/1161 açık (%97,6). AYRIŞAN TEK SINIF R: 335 ârız / 115 çarpık. H sınıfı ağırlıkla çarpık (120/169) + ıvaz'ın 9'u burada. Sonuç: iki alan bağımsız katman değil; kadans ile kafiye harfini ayırmak isteyen her tasarım R sınıfını kullanmalı.",
+   "sinir": "Betimsel çapraz tablo, test değil. fs alanı defter.py'nin sınıflandırmasına, fasila_tipi kuran_veri.json'a bağlı — iki bağımsız üretim, ama ikisi de aynı metinden.",
+   "dosya": "ciktilar/kafiye_seslendirme/kafiye_setleri.json"
+  },
+  {
+   "no": 398,
+   "aday": "ELLE YAZILMIŞ ARAPÇA ANAHTARLAR SİSTEMATİK OLARAK BOZULUYOR — ÜÇ AYRI MEKANİZMA. varlik_katalog.py'nin 91 kayıtlık KATALOG listesi denetlendi: 9 kayıt sessizce sıfır dönüyor. (1) Latin karakter sızması: قدr son harfi U+0072 (1 kayıt, 132 geçiş kaybı). (2) bare elif ا yerine hemzeli elif أ olması gereken yerde: امن/ارض/امر + ياجوج|ماجوج deseni (4 kayıt, 1.588 geçiş + 2 ayet). (3) hareke SIRASI: Eyyûb أَيُّوب'ta shadda ile damme sırası korpusun tersi — aynı 7 kod noktası, farklı sıra, NFC eşitliyor (1 kayıt). Ayrıca 3 kayıt (Tûr, نَحْل, هُدْهُد) korpusta PN etiketli değil: katalog kararı ile morfoloji kararı çelişiyor. Bu bir bulgu değil VERİ BÜTÜNLÜĞÜ TESPİTİ — aynı denetim kok_anlam_tablosu.json, kok_anlam_istisna.json, kavram_katalogu.json ve kok_turkce.json'a uygulanmalı.",
+   "sinir": "Tek dosya denetlendi. Diğer elle yazılmış anahtar dosyaları HENÜZ denetlenmedi — kapsam bilinmiyor. Düzeltme tur sonuna ertelendi (araç değiştirme yasağı).",
+   "dosya": "notlar/YAPILACAKLAR.md — VARLIK KATALOĞU DENETİMİ bölümü"
+  },
+  {
+   "no": 399,
+   "aday": "zaman_of() KÖK KÜMELERİ EKSİK ÇALIŞIYOR — 18/34 ANAHTAR TUTMUYOR. varlik_makinesi.py sat.48-50 ve kavram_arac.py sat.46-48 (kopyalı) GECMIS/GELECEK/SIMDI kümeleri. Ölçülen kayıp: ءمن→أمن 879 · ايي→أيي 597 · اخر→أخر 250 · امر→أمر 248 = 1.974 geçiş, dördü de hamzesiz elif. Kaybedilenler SIMDI kümesinin en yüksek frekanslı üyeleri. Ayrıca 14 anahtar (نوح/ابر/موسي/فرعن/عاد/لوط/ارسل/نار/ساع/تقو/ثمد/قيم…) korpusta kök olarak hiç yok — özel/cins isim, kök ile lemma karıştırılmış. ETKİ: varlik_katalog.json'daki 40 kavramın zaman profili eksik veriyle üretilmiş; bu alana dayanan çıkarımlar düzeltmeden kullanılamaz. TARİH KANITI: varlik_katalog.py 5 Ağustos'ta geldi, hiç değişmedi; turkce_denetim.py 21 Ağustos'ta yazıldı. Bozulma denetim öncesi dönemin ürünü.",
+   "sinir": "Bu bir BULGU DEĞİL, veri bütünlüğü tespiti. Betiğin düzeltme önerileri (ثمد→أمد, قيم→أيم) YANLIŞ, elle doğrulanacak. Düzeltme tur sonuna ertelendi (araç değiştirme yasağı).",
+   "dosya": "betikler/anahtar_denetim.py — notlar/YAPILACAKLAR.md ANAHTAR DENETİMİ bölümü"
   }
  ]
 }
