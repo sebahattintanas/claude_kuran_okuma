@@ -17,8 +17,10 @@ github.com/sebahattintanas/claude_kuran_okuma
    (~3 dk, defter.json'u sıfırdan kurar — 6236 ayet, 39 alan)
 2. notlar/okuma_protokolu.json oku — sekiz kilitli karar
 3. notlar/OKUMA_STANDARDI.md oku — okuma düzeni ve biçim kuralları
-4. notlar/okuma_metni.json oku — buraya kadarki okumanın kaydı
-5. bulgular/aday_bulgular.json oku — açık adaylar
+4. notlar/ altındaki EN SON OTURUM_*_KAPANIS dosyasını oku — önceki
+   oturumun durumu, açık borçlar, düzeltilmiş hatalar
+5. notlar/okuma_metni.json oku — buraya kadarki okumanın kaydı
+6. bulgular/aday_bulgular.json oku — açık adaylar
 
 Sonra kaldığımız yerden devam et. Devam noktası okuma_metni.json'un
 "ilerleme" alanında yazılı.
@@ -139,9 +141,40 @@ görecekler; testleri, motive eden ayetler dışlanarak kurulacak.
 ## LEMMA ANAHTARI KURALI
 
 **Arapça lemma anahtarları asla elle yazılmaz.** Korpus çıktısından kopyalanır
-ya da indeks üzerinden erişilir. Bu kural iki kez ihlal edildi ve iki kez
-sessiz hataya yol açtı (en sonuncusu: `aktor.py` v1'de 2989 token yanlış
-sınıflandı, çünkü elle yazılan `ٱللَّه` korpustaki `اللَّه` ile eşleşmedi).
+ya da indeks üzerinden erişilir. Bu kural **DÖRT kez** ihlal edildi ve dördü de
+sessiz hataya yol açtı — hiçbiri hata vermedi, hepsi sıfır sonuç döndürdü:
+
+1. `aktor.py` v1 — elle yazılan `ٱللَّه`, korpustaki `اللَّه` ile eşleşmedi;
+   2989 token yanlış sınıflandı.
+2. (ikinci vaka, önceki kayıt)
+3. `betikler/varlik_katalog.py` — 91 kayıttan 9'u düşüyor: `قدr` içinde Latin
+   `r` (U+0072) · `امن`/`ارض`/`امر` + `ياجوج|ماجوج` deseninde hemzesiz elif ·
+   `أَيُّوب`'ta hareke sırası korpusun tersi. Ölçülen kayıp 1.722 geçiş.
+   (aday 398)
+4. `betikler/varlik_makinesi.py` sat.48-50 ve `betikler/kavram_arac.py`
+   sat.46-48 — `zaman_of()` kümelerinde 34 anahtardan 18'i tutmuyor.
+   `ءمن`/`ايي`/`اخر`/`امر` = 1.974 geçiş kaybı; ayrıca 14 anahtar özel/cins
+   isim olduğu hâlde kök tarafında aranıyor. (aday 399)
+
+**KURALIN KAPSAMI GENİŞLETİLDİ (2026-08-22).** Önceki hâli yalnız `.json`
+tablolarını kapsıyordu; oysa 3. ve 4. ihlâl **`.py` dosyalarına gömülü
+sabitlerde**. Kural artık her iki dosya türünü de kapsar.
+
+**Denetim betiği: `betikler/anahtar_denetim.py`** (SALT-OKUR).
+Dört test: T1 Latin sızması · T2 yazım/hemze · T3 korpus formundan sapma ·
+T4 korpusta yok. `.json` anahtarlarını VE `.py` sabitlerini tarar.
+
+Ölçüt **"NFC'den sapma" DEĞİL, "KORPUS FORMUNDAN sapma"**. Korpusun ham hâli
+zaten NFC'dir (shadda ccc=33 > damme ccc=31); sapan taraf her zaman elle
+yazılan anahtardır.
+
+Betiğin düzeltme önerileri **körü körüne uygulanmaz** — hamze-varyantı
+denemesi yanlış öneri üretebiliyor (`ثمد → أمد`, `قيم → أيم` hatalıydı).
+Her öneri elle doğrulanır.
+
+Kök tabloları korpustan TÜRETİLDİĞİ için temizdir ve öyle kalmalıdır:
+`kok_envanteri` 1.651 · `kok_anlam_tablosu` 430 · `kok_turkce` 314 →
+üçünde de sıfır ihlâl.
 
 
 ---
@@ -170,7 +203,8 @@ kaydı sonraki oturumlarda yeniden okunabilir olmuyor.
 
 Kural artık niyete değil betiğe bağlı:
 
-- `tablolar/kok_turkce.json` — 274 kök → Türkçe karşılık tablosu
+- `tablolar/kok_turkce.json` — 314 kök → Türkçe karşılık tablosu
+  (2026-08-22 sayımı; tablo büyüdükçe bu rakam güncellenir)
 - `betikler/turkce_denetim.py` — karşılıksız kök anmalarını listeler, ihlâl
   varsa çıkış kodu 1 döndürür
 
@@ -180,3 +214,37 @@ Kural artık niyete değil betiğe bağlı:
 Geriye dönük onarım: sûre 15-19 arasında 1169 (okuma_metni) + 105 (bağlantılar)
 + 153 (adaylar) = 1427 karşılık eklendi. Yeni kök geçtiğinde önce
 `kok_turkce.json`a eklenir, sonra kullanılır.
+
+
+---
+
+## 2026-08-22 — ANAHTAR DENETİMİ ZİNCİRE BAĞLANDI
+
+`turkce_denetim.py` gibi, `anahtar_denetim.py` de niyete değil betiğe bağlı:
+
+**Boru hattı koşulduktan sonra VE elle yazılmış herhangi bir anahtar
+dosyasına dokunulduğunda `python3 betikler/anahtar_denetim.py` koşturulur.**
+Yeni ihlâl çıkarsa okuma durur; ihlâl kaydedilir ve düzeltme tur sonuna
+yazılır (okuma sırasında ARAÇ DEĞİŞTİRİLMEZ).
+
+Bilinen ve ERTELENMİŞ ihlâller (aday 398, 399) her koşuda çıkacaktır —
+bunlar beklenen çıktıdır, okuma durdurmaz. Yeni bir ihlâl belirirse durdurur.
+
+Muafiyetler gerekçeli tutulur:
+- alt çizgi sonrası Latin etiket kasıtlıdır (`kavram_sozlugu.json`: `سمو_tekil`)
+- `EDAT_MUAF` listesi: ham metinde aranan parçacıklar (`أما`, `فأما`, `وأما`,
+  `كلا` …) kök envanterinde OLMAMASI normaldir
+Liste körlemesine genişletilmez; her ekleme gerekçesiyle yazılır.
+
+### Okuma hattı bu hasardan ETKİLENMİYOR — ölçüldü
+`defter.py` / `defter2.py` yalnız `json, re, unicodedata, collections,
+kuran_akis` kullanır; `varlik_makinesi` ve `kavram_arac` okuma hattına
+GİRMEZ. `defter.json`'daki `zmn` alanı `defter2.py` sat.51'de doğrudan
+morfolojiden (PERF/IMPF/IMPV) hesaplanır — `zaman_of()` ile ilgisi yoktur.
+Tarama yapıldı: `okuma_metni.json`, `mercek_kayit.json`,
+`okuma_baglantilari.json` içinde `varlik_katalog.json`'un `zaman` profiline
+dayanan çıkarım YOK.
+
+**`tablolar/varlik_katalog.json`'un `zaman` alanı tur sonu onarımına kadar
+GÜVENİLMEZDİR; bu alana dayanan bulgu kurulamaz.**
+(`nuzul.json` maddesiyle aynı statüde.)
