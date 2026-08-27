@@ -39,7 +39,7 @@ def main():
         for k, v in d[s].items():
             if not k.startswith(s + ':'): continue
             e = []
-            for alan in ('olcum', 'mercek'):
+            for alan in ('olcum', 'mercek', 'dikey', 'derin', 'derin2'):
                 e += denetle(v.get(alan, ''))
             if e: ayet_eksik[k] = e
         n = sum(len(v) for v in ayet_eksik.values())
