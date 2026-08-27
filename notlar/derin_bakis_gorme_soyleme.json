@@ -1,0 +1,433 @@
+{
+ "ad": "GÖRME ve SÖYLEME alanları — korpus ölçümü",
+ "tarih": "2026-08-25",
+ "kural": "Bu bir BULGU DOSYASI DEĞİL. Ölçüm kaydıdır; hiçbir hipotez test edilmedi. Adaylar 432-436.",
+ "kaynak": "morph.txt (130.030 satır) + kuran_akis.py + dikey_oku.py",
+ "gorme_alani": {
+  "رأي": {
+   "tr": "görme",
+   "n": 328,
+   "fiil": 315,
+   "pas_oran": 1.6,
+   "allah_ayni_ayet": 40.7,
+   "med": 15,
+   "kip": {
+    "PERF": 100,
+    "IMPF": 206,
+    "IMPV": 9
+   },
+   "not": "alanın en yaygın kökü; IMPF baskın"
+  },
+  "شهد": {
+   "tr": "şahitlik, hazır bulunma",
+   "n": 160,
+   "fiil": 53,
+   "pas_oran": 0.0,
+   "allah_ayni_ayet": 56.9,
+   "med": 7,
+   "not": "alanın Allah'a EN YAKIN kökü; kalıp etkisi şüphesi (شهد الله)"
+  },
+  "بصر": {
+   "tr": "görme, basîret",
+   "n": 148,
+   "fiil": 33,
+   "pas_oran": 3.0,
+   "allah_ayni_ayet": 43.2,
+   "med": 15,
+   "biçim": {
+    "بَصِير": 51,
+    "بَصَر": 48,
+    "أَبْصَرَ": 29,
+    "بَصِيرَة": 7
+   },
+   "not": "fiil azınlıkta (33/148); ağırlık İSİM tarafında. Fiillerin 29'u bab IV"
+  },
+  "نظر": {
+   "tr": "bakma",
+   "n": 129,
+   "fiil": 107,
+   "pas_oran": 5.6,
+   "allah_ayni_ayet": 26.1,
+   "med": 16
+  },
+  "عين": {
+   "tr": "göz; pınar",
+   "n": 65,
+   "fiil": 0,
+   "pas_oran": null,
+   "allah_ayni_ayet": 14.3,
+   "med": 44,
+   "not": "HİÇ fiil yok — tamamen isim. Ve alanın en uzağı"
+  }
+ },
+ "soyleme_alani": {
+  "قول": {
+   "tr": "söz söyleme",
+   "n": 1722,
+   "fiil": 1620,
+   "pas_oran": 3.2,
+   "allah_ayni_ayet": 37.2,
+   "med": 14,
+   "kip": {
+    "PERF": 1006,
+    "IMPF": 265,
+    "IMPV": 349
+   },
+   "qul_2MS": 332,
+   "VF1": 1618,
+   "not": "korpusun en yaygın fiil kökü; %99.9 bab I"
+  },
+  "ذكر": {
+   "tr": "anma, zikir",
+   "n": 292,
+   "med": 15
+  },
+  "دعو": {
+   "tr": "çağırma, dua",
+   "n": 212,
+   "fiil": 173,
+   "pas_oran": 7.5,
+   "allah_ayni_ayet": 48.4,
+   "med": 9
+  },
+  "سمع": {
+   "tr": "işitme",
+   "n": 185,
+   "allah_ayni_ayet": 42.9,
+   "med": 13
+  },
+  "نبأ": {
+   "tr": "haber",
+   "n": 160
+  },
+  "قرأ": {
+   "tr": "okuma, Kur'ân",
+   "n": 88,
+   "fiil": 17,
+   "pas_oran": 11.8,
+   "allah_ayni_ayet": 15.2,
+   "med": 25
+  },
+  "نجو": {
+   "tr": "necvâ, fısıltı; kurtulma",
+   "n": 84,
+   "fiil": 67,
+   "pas_oran": 1.5,
+   "allah_ayni_ayet": 25.3,
+   "med": 21,
+   "not": "İKİ ANLAM AYRIMI GEREKİYOR: necvâ (fısıltı) ve necât (kurtuluş). kok_anlam_tablosu denetlenecek"
+  },
+  "وحي": {
+   "tr": "vahiy",
+   "n": 78,
+   "fiil": 72,
+   "pas_oran": 36.1,
+   "allah_ayni_ayet": 30.0,
+   "med": 24,
+   "VF4": 72,
+   "not": "TAMAMI bab IV; edilgen oranı korpus tabanının 6 katı"
+  },
+  "كلم": {
+   "tr": "söz, kelâm",
+   "n": 75,
+   "fiil": 24,
+   "pas_oran": 4.2,
+   "allah_ayni_ayet": 45.1,
+   "med": 12,
+   "VF": {
+    "2": 20,
+    "5": 4,
+    "1": 0
+   },
+   "not": "bab I HİÇ YOK"
+  },
+  "تلو": {
+   "tr": "okuma, tilâvet",
+   "n": 63,
+   "fiil": 61,
+   "pas_oran": 39.3,
+   "allah_ayni_ayet": 41.0,
+   "med": 16,
+   "not": "korpusun en edilgen söyleme kökü"
+  },
+  "ندي": {
+   "tr": "nidâ, seslenme",
+   "n": 53,
+   "fiil": 45,
+   "pas_oran": 15.6,
+   "allah_ayni_ayet": 22.0,
+   "med": 27,
+   "VF3": 44
+  },
+  "لسن": {
+   "tr": "dil",
+   "n": 25,
+   "fiil": 0,
+   "allah_ayni_ayet": 33.3,
+   "med": 14,
+   "not": "HİÇ fiil yok"
+  },
+  "جهر": {
+   "tr": "açığa vurma",
+   "n": 16,
+   "fiil": 5,
+   "pas_oran": 0.0,
+   "allah_ayni_ayet": 53.3,
+   "med": 11
+  },
+  "فوه": {
+   "tr": "ağız",
+   "n": 13,
+   "not": "fiil profili ölçülmedi"
+  },
+  "خطب": {
+   "tr": "hitap, mesele",
+   "n": 12
+  },
+  "نطق": {
+   "tr": "konuşma, nutuk",
+   "n": 12,
+   "fiil": 11,
+   "pas_oran": 0.0,
+   "allah_ayni_ayet": 9.1,
+   "med": 26,
+   "ayetler": [
+    [
+     21,
+     63
+    ],
+    [
+     21,
+     65
+    ],
+    [
+     23,
+     62
+    ],
+    [
+     27,
+     16
+    ],
+    [
+     27,
+     85
+    ],
+    [
+     37,
+     92
+    ],
+    [
+     41,
+     21
+    ],
+    [
+     45,
+     29
+    ],
+    [
+     51,
+     23
+    ],
+    [
+     53,
+     3
+    ],
+    [
+     77,
+     35
+    ]
+   ],
+   "not": "alanın EN AZ Allah-ayetli kökü"
+  },
+  "صوت": {
+   "tr": "ses",
+   "n": 8
+  },
+  "همس": {
+   "tr": "fısıltı",
+   "n": 1,
+   "not": "hapaks — 20:108"
+  },
+  "لفظ": {
+   "tr": "lafız, telaffuz",
+   "n": 1,
+   "not": "hapaks"
+  }
+ },
+ "duyu_uclusu": {
+  "dizi": "سمع *(işitme)* → بصر *(görme)* → فأد *(gönül)*",
+  "ayetler": [
+   [
+    16,
+    78
+   ],
+   [
+    17,
+    36
+   ],
+   [
+    23,
+    78
+   ],
+   [
+    32,
+    9
+   ],
+   [
+    46,
+    26
+   ],
+   [
+    67,
+    23
+   ]
+  ],
+  "sira_sabit": "7/7 — 46:26'da üçlü aynı ayette iki kez ve ikisinde de aynı sıra",
+  "ikili": {
+   "toplam": 37,
+   "sem_once": 29,
+   "basar_once": 8
+  },
+  "sayi_asimetrisi": {
+   "سَمْع": "22/22 TEKİL, hiç çoğullanmıyor",
+   "بَصَر": "48 geçişin 38'i ÇOĞUL (أَبْصَٰر)",
+   "فُؤاد": "16 geçişin 10'u ÇOĞUL (أَفْـِٔدَة)"
+  },
+  "istisna": "17:36 — üçü de TEKİL (ٱلسَّمْعَ · ٱلْبَصَرَ · ٱلْفُؤَادَ)"
+ },
+ "korpus_tabani": {
+  "fiil": 19353,
+  "edilgen": 1151,
+  "edilgen_oran": 5.95,
+  "allah_lafzi_iceren_ayet": 1821,
+  "toplam_ayet": 6236,
+  "oran": 29.2,
+  "dikey_rastgele_ref": 11
+ },
+ "olcut_celiskisi": "İki Allah-yakınlık ölçütü aynı sıralamayı VERMİYOR. عين *(göz)*: aynı-ayet oranı %14.3 ama medyan mesafe 44. نطق *(konuşma)*: oran %9.1 ama medyan 26. Yani mesafe ölçütü ayet sınırını aşıyor, oran ölçütü aşmıyor. Bu, dikey okuma katmanının GEÇERLİLİĞİNİ sınayan bir sorudur ve konum-eşli null borcundan ÖNCE gelir. Aday 435.",
+ "acik_borclar": [
+  "نجو kökü iki ayrı anlam taşıyor (fısıltı / kurtuluş) — kok_anlam_tablosu denetlenecek",
+  "تلو ve وحي edilgen yoğunluğu KALIP etkisi olabilir (يُتْلَىٰ عَلَيْهِ / يُوحَىٰ إِلَيْهِ)",
+  "شهد'in med=7 yakınlığı kalıp etkisi şüphesi (شهد الله / الله شهيد)",
+  "قُلْ 332 geçiş — kip karşılaştırmaları hem dahil hem hariç koşulacak",
+  "duyu üçlüsü sıra-sabitliği için naif binom null GEÇERSİZ; doğru null kurulacak"
+ ],
+ "allah_lafzi_haritasi": {
+  "akis_kelime": 77429,
+  "allah_token": 2699,
+  "ortalama_aralik": 28.7,
+  "bosluk_medyan": 15,
+  "bosluk_ortalama": 28.7,
+  "en_buyuk_bosluklar": [
+   [
+    1075,
+    "53:62 → 57:1"
+   ],
+   [
+    808,
+    "18:69 → 19:30"
+   ],
+   [
+    736,
+    "17:39 → 17:92"
+   ],
+   [
+    617,
+    "42:53 → 43:63"
+   ],
+   [
+    616,
+    "25:71 → 26:89"
+   ],
+   [
+    506,
+    "67:28 → 69:33"
+   ],
+   [
+    498,
+    "14:51 → 15:69"
+   ],
+   [
+    477,
+    "20:114 → 21:22"
+   ],
+   [
+    449,
+    "76:30 → 79:25"
+   ],
+   [
+    447,
+    "50:26 → 51:50"
+   ],
+   [
+    425,
+    "7:140 → 7:158"
+   ],
+   [
+    402,
+    "35:45 → 36:47"
+   ]
+  ],
+  "allahsiz_sureler": {
+   "sayi": 29,
+   "liste": [
+    54,
+    55,
+    56,
+    68,
+    75,
+    77,
+    78,
+    80,
+    83,
+    86,
+    89,
+    90,
+    92,
+    93,
+    94,
+    97,
+    99,
+    100,
+    101,
+    102,
+    103,
+    105,
+    106,
+    107,
+    108,
+    109,
+    111,
+    113,
+    114
+   ],
+   "kelime": 2961,
+   "korpus_yuzde": 3.8
+  },
+  "yirmi_dilim_taban": [
+   9,
+   5,
+   5,
+   5,
+   10,
+   14,
+   5,
+   17,
+   10,
+   25,
+   72,
+   8,
+   32,
+   9,
+   14,
+   11,
+   15,
+   29,
+   7,
+   33
+  ],
+  "taban_orani": "min 5 · max 72 · 14.4x",
+  "not": "Bu harita aday 435 için kuruldu. Boşluklar SÛRE SINIRLARINI AŞIYOR — dikey ölçütün temel sorunu bu."
+ },
+ "olcut_celiskisi_SONUC": "ÇÖZÜLDÜ. İki ölçüt farklı şeyler ölçüyordu: mesafe ölçütü sûre sınırını aşıyor, aynı-ayet oranı aşmıyor. Konum-eşli null ile hesaplandığında n>=15 olan 469 kökün %32.8inin etiketi değişiyor. Etiketler onarım yapılmadan kullanılamaz; ham medyan sayıları geçerli."
+}

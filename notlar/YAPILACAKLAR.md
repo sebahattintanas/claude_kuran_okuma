@@ -414,3 +414,29 @@ Her öneri ELLE doğrulanacak.
 4. `anahtar_denetim.py` denetim zincirine bağlanacak: her blok kaydından sonra
    `turkce_denetim.py` ile birlikte koşulacak, sıfır olmadan blok kapanmaz.
 5. EDAT_MUAF listesi gerekçeli tutulacak; körlemesine genişletilmeyecek.
+
+## 2026-08-25 — P0 BORCU YÜKSELTİLDİ: dikey okuma konum-eşli null (aday 435)
+
+Daha önce "Allah-mesafesi ölçümleri konum-eşli null ile yeniden test edilecek"
+diye yazılıydı. Artık BÜYÜKLÜĞÜ ÖLÇÜLDÜ ve borç P0'ın başına alındı:
+
+- Ölçüt: mushaf akışında en yakın Allah lafzına mutlak kelime mesafesi (medyan).
+- Akış **sûre ve ayet sınırlarını tanımıyor**. En büyük lafız boşluğu 1075 kelime
+  (53:62 → 57:1) ve 29 sûrede lafız hiç geçmiyor (korpusun %3.8'i).
+- Korpusu 20 dilime böldüğümde taban medyanı **5 ile 72 arasında** değişiyor = 14.4 kat.
+- Konum-eşli null ile: n>=15 olan **469 kökün 154'ünün (%32.8) etiketi değişiyor**,
+  11'i yön değiştiriyor (UZAK ↔ yakın).
+
+**Yapılacaklar:**
+1. `dikey_oku.py`'ye konum-eşli null eklenecek; dilim genişliği ön-kayıtla
+   sabitlenecek (20 dilim POST-HOC seçildi, duyarlılık analizi şart).
+2. `okuma_metni.json`'daki TÜM dikey satırları yeniden üretilecek (sûre 20: 135
+   ayet, sûre 21: kısmi).
+3. İkinci ölçüt eklenecek: **"en yakın Allah lafzı aynı ayette mi"** oranı —
+   ayet sınırını tanır, yorumu daha kolay. Ölçüldü: شهد %52.5 · فري %65.0 ·
+   قول %34.4 · نطق %16.7 · عين %13.8 · سحر %4.8.
+4. Adaylar 415 ve 417 yeniden hesaplanacak (ikisi de ayakta kalıyor ama
+   düz değerler büyüklüğü abartıyor: خور 182 → eşli beklenti 72).
+
+**Okuma DURMUYOR.** Dikey katman üretilmeye devam eder; `_dikey_notu` uyarısı
+sertleştirildi ve etiketlerin alıntılanamayacağı yazıldı. Ham medyan sayıları geçerli.

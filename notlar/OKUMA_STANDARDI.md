@@ -126,7 +126,7 @@ görecekler; testleri, motive eden ayetler dışlanarak kurulacak.
 
 ## ÖLÇÜM BORÇLARI (her oturumda hatırlanacak)
 
-- `esma_listesi.json` bağlam ayırmıyor — dört istisna: `جَبَّار` (5:22, kavim),
+- `esma_listesi.json` bağlam ayırmıyor — GELENEKSEL TABLO, tur sonu onarımı planlı (aday 414). Bilinen dört istisna: `جَبَّار` (5:22, kavim),
   `بَرّ` (5:96, 6:59, 6:97 = kara), `عَلِيم` (7:109, 7:112 = sihirbaz)
 - `ربب` türevleri Rab sayılıyor: 4:23 `رَبَٰٓئِب` *(üvey kız)*, 3:79/5:44/5:63
   `رَبَّٰنِيُّون`, 3:146 `رِبِّيُّون` → **Nisâ'nın Rab sayımı 7 değil 6**
@@ -248,3 +248,118 @@ dayanan çıkarım YOK.
 **`tablolar/varlik_katalog.json`'un `zaman` alanı tur sonu onarımına kadar
 GÜVENİLMEZDİR; bu alana dayanan bulgu kurulamaz.**
 (`nuzul.json` maddesiyle aynı statüde.)
+
+
+---
+
+## 2026-08-24 — BİÇİM KİLİDİ (kullanıcı düzeltmesi)
+
+Üç kural, sohbet çıktısında ve dosya kaydında aynı anda geçerli:
+
+1. **AYET NUMARASI ZORUNLU.** Her ayet bloğu `20:61` gibi açık numarayla
+   başlar. Numara düşürülmüş blok geçersizdir.
+
+2. **KARŞILIKSIZ ARAPÇA YOK — ölçüm satırı dahil.** Kural daha önce
+   "kök adları" için yazılmıştı; artık `›` satırındaki lemma, esmâ, biçim
+   örneği, fâsıla kelimesi, aktör adı — metinde geçen HER Arapça dizgi
+   italik parantezle karşılık alır. `turkce_denetim.py` yalnız kök adlarını
+   yakalıyor; lemma/esmâ tarafı elle denetlenir.
+
+3. **★★★ AYETTE ÜÇ MERCEK DE ÇALIŞIR ve HEPSİ O AYETİN KAPSAMINDA KALIR.**
+   Matematikçi her ayette; biyolog ve uzay bilimci ★★★ ayetlerde. Üçü için
+   de silme testi ayrı ayrı geçerli: mercek satırı silindiğinde ayetin ölçümü
+   ayakta kalmalı, ve mercek satırındaki her önerme O AYETTE görünür bir
+   dilsel öğeye bağlı olmalı. Başka ayete, sûre geneline ya da genel bilgiye
+   kayan mercek satırı yazılmaz. Ayette çıpası olmayan mercek YAZILMAZ —
+   zorlama çıpa uydurmak yerine o mercek atlanır ve atlandığı belirtilir.
+
+### Katman sırası (sabit)
+    20:NN
+    > Arapça tam metin (blok alıntı)
+    **meal**
+    › ölçüm   — alan sırası OKUMA_STANDARDI'ndaki altılı düzen
+    ◇ matematikçi merceği
+    🜁 biyolog   (yalnız ★★★)
+    🜂 uzay      (yalnız ★★★)
+    ▽ dikey okuma — kök · n · Allah eksenine medyan mesafe · etiket
+                    (DÜZ null; konum-eşli null tur sonunda)
+
+
+---
+
+## 2026-08-25 — ESMÂ TABLOSUNUN STATÜSÜ NETLEŞTİ
+
+`tablolar/esma_listesi.json` **geleneksel bir listeden türetildi**, korpustan değil.
+Bu yüzden bağlam ayırmıyor ve yanlış pozitif üretiyor. Sûre 20 tek başına beş yeni
+vaka verdi (aday 414): `كَبِير` *(büyük)* 20:71 · `مُؤْمِن` *(mü'min)* 20:75 ve 20:112 ·
+`بَصِير` *(gören)* 20:125 · `آخِر` *(son)* 20:127. Sûrenin esmâ sayımı 13 → 8.
+
+**Bu bir arıza değil, okumanın işlevi.** Geleneksel tabloyu korpusa çarptırıp
+sapmaları toplamak bu projenin yaptığı şeydir; tablo düzeldikçe ölçüm keskinleşir.
+Kök tabloları (`kok_envanteri`, `kok_anlam_tablosu`, `kok_turkce`) korpustan
+TÜRETİLDİĞİ için bu sınıfa girmez — orada ölçüt Unicode bütünlüğüdür, bağlam değil.
+
+Kural: esmâ yanlış pozitifi görüldüğünde okuma DURMAZ; ayet ölçüm satırına
+"ÖLÇÜM ARTEFAKTI (aday 414)" notu düşülür, vaka aday kaydına eklenir, düzeltme
+tur sonuna bırakılır. Esmâ tabanlı hiçbir bulgu tablo onarılmadan kapatılmaz.
+
+## DERİN BAKIŞ KATMANI (yeni)
+
+Kullanıcı bir ayete "derin bakalım" dediğinde, o ayetin `okuma_metni.json`
+kaydına `derin` (ve gerekirse `derin2`) alanı eklenir. Kural: derin bakış
+**yalnız korpustan ölçülebilen** şeyleri getirir — kök envanteri, morfolojik
+şahıs dizisi, bab dağılımı, biçim eşleşmeleri, korpus-çapı sayımlar.
+Ölçümün vermediği şey (muhatabın kimliği, niyet, tarihsel bağlam) derin bakış
+satırında da kurulmaz; kurulacaksa `◇` mercek satırına düşer ve silme testine
+tâbidir.
+
+## 2026-08-25 — ANAHTAR DENETİMİ: TABAN KARŞILAŞTIRMASI SABİT TOHUMLA
+
+`anahtar_denetim.py`'nin ihlâl sayısı (58) ve ihlâl listesi kararlıdır; ancak
+**düzeltme önerisi metni koşudan koşuya değişir** (aday 431). Neden: betik korpus
+biçimlerini sırasız bir yapıda tarıyor ve Python'un koşu-başına rastgele string
+hash'i "ilk eşleşen"i oynatıyor.
+
+Bu yüzden taban karşılaştırması bundan böyle **sabit tohumla** koşulur:
+
+    PYTHONHASHSEED=0 python3 betikler/anahtar_denetim.py
+
+`ciktilar/anahtar_denetim_raporu.txt` taban dosyası da aynı tohumla yeniden
+üretilecek (tur sonu). Aksi hâlde her oturumda öneri metni farkı yanlış alarm
+veriyor — ihlâl sayısı aynı olduğu hâlde diff kirli çıkıyor.
+
+Kural değişmedi: **öneriler körü körüne uygulanmaz.** Şimdi iki gerekçe var —
+hamze-varyantı denemeleri yanlış öneri üretebiliyor, ve öneri metni deterministik
+değil.
+
+---
+
+## 2026-08-26 — DİKEY KATMAN ONARILDI: `dikey_oku()` İKİ PARÇALIDIR
+
+**Yapılan hata:** `dikey_oku()` iki ölçüm döndürür ve okumada yalnız ikincisi
+kullanılmıştı.
+
+- **A) KOMŞULUK ZENGİNLEŞMESİ** — hedef kökün her geçişi merkeze alınır,
+  ±6 kelimelik bant toplanır (Allah lafzı ve hedef kök hariç), her komşu kavramın
+  bantta gözlenen payı korpustaki genel payına bölünür. Bu, kökün **imzasıdır**:
+  hangi kavramlar önünde, hangileri ardında toplanıyor. Konum artefaktından
+  ETKİLENMEZ, çünkü her geçiş kendi komşuluğuyla taşınır.
+- **B) ALLAH MEDYAN MESAFESİ** — düz null, aday 435'te bozuk olduğu ölçüldü.
+
+Ölçüm: `okuma_metni.json`'da 170 ayette `dikey` alanı vardı, yalnız **4'ünde**
+A parçası bulunuyordu. Yani dikey katman 166 ayette en zayıf bileşenine
+indirgenmişti.
+
+**Onarım (2026-08-26):** sûre 20 (135 ayet) ve sûre 21 (1-20) için 154 dikey
+satırı yeniden üretildi. Yeni biçim:
+
+    ▽ kök *(tr)* n=N  ▸önce: kavram ×kat · …  ▸sonra: kavram ×kat · …  ▸Allah med=M
+
+A parçası birincil, B parçası yalnız ham sayı olarak ve **etiketsiz**.
+
+**Bundan sonra:** `▽` satırı A parçası olmadan yazılamaz. Yalnız `med=` veren
+bir dikey satırı eksiktir.
+
+`kok_turkce.json` 508 → 720 (zenginleşmede geçen kavram adları da karşılık alır).
+`turkce_denetim.py` alan kapsamı genişletildi: artık `olcum`, `mercek`, `dikey`,
+`derin`, `derin2` alanlarının hepsini tarıyor.

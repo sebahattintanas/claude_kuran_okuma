@@ -7832,5 +7832,709 @@
    "guven": "yuksek",
    "not": "Sûrenin iki gerçek KELLA'sı, ikisi de bir güvence iddiasının hemen ardında: 19:79 \"bana mal ve evlat verilecek\" (19:77), 19:82 \"bize izzet olsunlar\" (19:81)."
   }
+ ],
+ "Z_taha": [
+  {
+   "cift": [
+    "20:2",
+    "20:3"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "CÜMLE AYET SINIRINI AŞIYOR: مَآ أَنزَلْنَا … *(indirmedik…)* olumsuzlaması 20:2'de, إِلَّا تَذْكِرَةً *(ancak bir hatırlatma olarak)* istisnası 20:3'te. HASR etiketi ikinci ayete düşüyor; A kafiyesi de ilk kez orada kuruluyor. Sûrenin ilk tam cümlesi iki ayet uzunluğunda."
+  },
+  {
+   "cift": [
+    "20:8",
+    "20:14"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ŞAHIS ÇEVRİMLİ İKİZ: ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ *(Allah — O'ndan başka ilâh yoktur)* ↔ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا *(ben Allah'ım — benden başka ilâh yoktur)*. Aynı HASR yapısı, aynı أله *(Allah; ilâh)* kök ikilemesi ×2, aynı lafız. Değişen tek değişken ŞAHIS (3MS → 1S). Sûrenin altı Allah lafzından ikisi bu çift; ilki anlatıcının, ikincisi konuşanın ağzında."
+  },
+  {
+   "cift": [
+    "20:11",
+    "20:12"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "FAİLSİZ NİDÂNIN FAİLİ: 20:11 نُودِىَ *(seslenildi)* edilgen, özne yok. 20:12 إِنِّىٓ أَنَا رَبُّكَ *(ben senin Rabbinim)* — özne birinci şahısla açılıyor ve ilk kimlik sözcüğü Allah değil RAB. Sûrenin A/R oranı (6/27) burada kuruluyor."
+  },
+  {
+   "cift": [
+    "20:7",
+    "20:15"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "خفي *(gizleme, gizli olan)* kökünün iki kipi: 20:7 أَخْفَى *(daha saklı)* ism-i tafdîl, bilinenin nesnesi; 20:15 أُخْفِيهَا *(onu gizliyorum)* fiil, birinci şahıs. Sekiz ayet arayla nesne→eylem geçişi."
+  },
+  {
+   "cift": [
+    "20:15",
+    "20:20"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "سعي *(çaba, koşma)* kökünün iki kullanımı: 20:15 بِمَا تَسْعَىٰ *(çabasının karşılığı)* ahlâkî çaba; 20:20 حَيَّةٌۭ تَسْعَىٰ *(koşan bir yılan)* fiziksel hareket. Aynı fiil kalıbı (تَسْعَىٰ birebir), iki ayrı anlam alanı, beş ayet arayla."
+  },
+  {
+   "cift": [
+    "20:18",
+    "20:19"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "UZUNLUK TERSLİĞİ: soru 20:17 n=4, cevap 20:18 n=13 (üç işlev sayılıyor, üçüncüsü مَـَٔارِبُ أُخْرَىٰ *(başka ihtiyaçlar)* ile açık uçlu bırakılıyor), sonraki buyruk 20:19 n=3. Sayılan işlevlerin hiçbirine değmeden nesne elden bırakılıyor."
+  },
+  {
+   "cift": [
+    "20:24",
+    "79:17"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TAM-AYET İKİZİ (defterden, elle kurulmadı): ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ *(Firavun'a git; o azdı)*. Sûre 20'nin tek esit kaydı. Blok dışında, 20:21-40 bloğunda okunacak."
+  },
+  {
+   "cift": [
+    "20:12",
+    "79:16"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًۭى *(kutsal vâdi Tuvâ'da)* — ودي *(vâdi)* · قدس *(kutsallık)* · طوي *(Tuvâ)* üçlüsü korpusta iki yerde. 20:24 ↔ 79:17 ikiziyle aynı sûre çiftinde, on iki ayet önce."
+  },
+  {
+   "cift": [
+    "20:19",
+    "20:21"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "KARŞIT BUYRUK, AYNI ZAMİR: أَلْقِهَا *(onu at)* → خُذْهَا *(onu al)*, iki ayet arayla. Arada 20:20 dönüşümü var. Ve سَنُعِيدُهَا سِيرَتَهَا ٱلْأُولَىٰ *(onu ilk hâline döndüreceğiz)* — bölümün tek FUT kipi; dönüş vaat ediliyor, anlatılmıyor."
+  },
+  {
+   "cift": [
+    "20:26",
+    "20:32"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "أمر *(emir, iş)* kökü duanın iki ucunda, aynı iyelik ekiyle: يَسِّرْ لِىٓ أَمْرِى *(işimi kolaylaştır)* ↔ أَشْرِكْهُ فِىٓ أَمْرِى *(onu işime ortak et)*. Kolaylaştırma isteği ile paylaşma isteği aynı nesne üzerinde."
+  },
+  {
+   "cift": [
+    "20:33",
+    "20:34"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK DEĞİŞKENLİ İKİZ: كَىْ نُسَبِّحَكَ كَثِيرًۭا ↔ وَنَذْكُرَكَ كَثِيرًا. Aynı şahıs (1P→2MS), aynı sayı sözcüğü كَثِير *(çok)*, aynı fâsıla ا. Değişen tek şey fiil kökü: سبح *(tesbih)* / ذكر *(zikir, anma)*."
+  },
+  {
+   "cift": [
+    "20:11",
+    "20:36"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "FÂİLİ SİLİNEN İKİ KARŞILAŞMA: نُودِىَ *(seslenildi)* ↔ أُوتِيتَ *(sana verildi)*. İkisi de edilgen, ikisi de pas z=2.52, ikisinde de veren/çağıran taraf gramerde yok. Sûrenin 16 edilgeninden ikisi tam bu iki eşikte."
+  },
+  {
+   "cift": [
+    "20:13",
+    "20:38"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "وحي *(vahiy)* kökü iki kez edilgen: لِمَا يُوحَىٰ *(vahyolunanı)* ↔ أَوْحَيْنَآ … مَا يُوحَىٰٓ *(vahyettik… vahyolunanı)*. İkincide aynı ayette hem etken 1P hem edilgen. Vahyin İÇERİĞİ hiçbirinde söylenmiyor."
+  },
+  {
+   "cift": [
+    "20:9",
+    "20:37"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "KAFİYE KIRILMASI ZAMAN DÜZLEMİ DEĞİŞİMİNDE: 20:9 anlatıya girerken fâsıla ٓ, 20:37 zaman geriye atlarken (مَرَّةً أُخْرَىٰٓ *(başka bir kez)*) yine ٓ. Sûrenin 13 ٓ-fâsılalı ayetinin dağılımı tur sonunda ölçülecek."
+  },
+  {
+   "cift": [
+    "20:25",
+    "20:35"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "DUANIN İKİ UCU: رَبِّ *(Rabbim)* ile açılıyor, esmâ بَصِير *(gören)* ile kapanıyor. Açılış muzâf-iyelikli (Rab'ın %99.4'lük bağlı kullanımı), kapanış tek başına esmâ ve ayetin son kelimesi — ama çift olmadığı için defter mühür saymıyor."
+  },
+  {
+   "cift": [
+    "20:24",
+    "20:43"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK MORFEMLİK FARK: ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ ↔ ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ. Beş kelimenin dördü birebir; değişen tek şey emrin SAYISI (2MS → 2MD). Aradaki 19 ayette kardeş istendi (20:29-32) ve dilek kabul edildi (20:36). 20:24 ayrıca 79:17 ile TAM ikiz; yani aynı beş kelime korpusta üç kez, ikisi tekil biri tesniye."
+  },
+  {
+   "cift": [
+    "20:39",
+    "20:41"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "صنع *(yapma, işleme)* kökü iki ayet arayla edilgenden etkene: وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ *(gözümün önünde yetiştirilesin diye)* (edilgen, amaç) ↔ وَٱصْطَنَعْتُكَ لِنَفْسِى *(seni kendim için yetiştirdim)* (etken, PERF, 1S). Amaçtan olguya."
+  },
+  {
+   "cift": [
+    "20:3",
+    "20:44"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "AÇILIŞ İKİLİSİ GERİ DÖNÜYOR: 20:3 لِّمَن يَخْشَىٰ *(haşyet duyan için)* + تَذْكِرَة *(hatırlatma)*; 20:44 لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ *(belki öğüt alır ya da haşyet duyar)*. Aynı iki kök — ذكر *(zikir, anma)* ve خشي *(haşyet)* — sûrenin açılış tanımında ve Firavun için umulan sonuçta."
+  },
+  {
+   "cift": [
+    "20:43",
+    "20:45"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "طغي *(tuğyan, azgınlık)* kökü iki kip, iki ağız: طَغَىٰ (PERF, buyruğu veren tarafın hükmü) ↔ أَن يَطْغَىٰ (IMPF, korkulan olasılık, elçilerin ağzında). İki ayet arayla olmuş ile olabilecek."
+  },
+  {
+   "cift": [
+    "20:35",
+    "20:46"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "AYNI İŞLEV, İKİ ARAÇ: 20:35 إِنَّكَ كُنتَ بِنَا بَصِيرًۭا *(sen bizi görmektesin)* — tek esmâ; 20:46 إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ *(sizinle beraberim, işitir ve görürüm)* — iki IMPF fiil. İşitme-görme, biri sıfat biri eylem olarak."
+  },
+  {
+   "cift": [
+    "20:49",
+    "20:50"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "SORU VE CEVAP, İKİ RAB: فَمَن رَّبُّكُمَا *(sizin Rabbiniz kim)* — rab z=5.01, sûrenin en yüksek Rab yoğunluğu, ve FİRAVUN'un ağzında. Cevap ad değil sıfat cümlesi: رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ … ثُمَّ هَدَىٰ. Reddeden taraf da lafzı bağlı kullanıyor (رَبُّكُمَا, tesniye iyelik) — erbâb'a düşmüyor."
+  },
+  {
+   "cift": [
+    "20:23",
+    "20:56"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "KISMÎDEN BÜTÜNE: لِنُرِيَكَ مِنْ ءَايَٰتِنَا ٱلْكُبْرَى *(en büyük âyetlerimizden gösterelim diye)* — مِنْ ile kısmî, amaç kipi ↔ أَرَيْنَٰهُ ءَايَٰتِنَا كُلَّهَا *(âyetlerimizin hepsini gösterdik)* — كُلّ ile tam, PERF. Aynı kök (رأي *(görme)*), aynı nesne (أيي *(âyet)*), 33 ayet arayla."
+  },
+  {
+   "cift": [
+    "20:55",
+    "20:57"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "خرج *(çıkış)* kökü iki ayet arayla yön değiştiriyor: وَمِنْهَا نُخْرِجُكُمْ *(ondan çıkarırız)* = diriltme ↔ لِتُخْرِجَنَا مِنْ أَرْضِنَا *(bizi yurdumuzdan çıkarmak için)* = sürgün. İkisinde de mecrur أرض *(yer, yurt)*."
+  },
+  {
+   "cift": [
+    "20:58",
+    "20:59"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "MEKÂN SORULUYOR, ZAMAN VERİLİYOR: Firavun ٱجْعَلْ … مَوْعِدًۭا … مَكَانًۭا سُوًۭى *(düz bir yerde buluşma belirle)*; Mûsâ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ … ضُحًۭى *(buluşmanız süs günü, kuşluk vakti)*. Aynı kök وعد *(vaat, buluşma)* iki ayette, biri mekân biri zaman ekseninde."
+  },
+  {
+   "cift": [
+    "20:59",
+    "20:60"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "İKİ TOPLAMA, İKİ FÂİL DÜZENİ: يُحْشَرَ ٱلنَّاسُ *(insanlar toplansın)* — حشر *(haşir)*, EDİLGEN, fâil yok ↔ فَجَمَعَ كَيْدَهُۥ *(tuzağını topladı)* — جمع *(toplama)*, etken, fâil Firavun. Ardışık iki ayet, aynı iş, iki ayrı kök ve iki ayrı çatı."
+  },
+  {
+   "cift": [
+    "20:57",
+    "20:63"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "SUÇLAMA TEKİLDEN TESNİYEYE: أَجِئْتَنَا لِتُخْرِجَنَا مِنْ أَرْضِنَا بِسِحْرِكَ *(büyünle bizi yurdumuzdan çıkarmaya mı geldin)* ↔ يُرِيدَانِ أَن يُخْرِجَاكُم مِّنْ أَرْضِكُم بِسِحْرِهِمَا *(büyüleriyle sizi yurdunuzdan çıkarmak istiyorlar)*. Aynı üç kök (خرج *(çıkarma)* · أرض *(yer, yurt)* · سحر *(büyü)*), tekilden ikile. 20:24→20:43'teki buyruk çevrimiyle aynı yol."
+  },
+  {
+   "cift": [
+    "20:60",
+    "20:64"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "جمع *(toplama)* + كيد *(tuzak)* ikilisi tek fâilden çoğula: فَجَمَعَ كَيْدَهُۥ *(tuzağını topladı)* (Firavun, PERF) ↔ فَأَجْمِعُوا۟ كَيْدَكُمْ *(tuzağınızı toplayın)* (2MP, IMPV)."
+  },
+  {
+   "cift": [
+    "20:20",
+    "20:66"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI FİİL, İKİ GERÇEKLİK KİPİ: حَيَّةٌۭ تَسْعَىٰ *(koşan bir yılan)* — olgu, çerçevesiz ↔ يُخَيَّلُ … أَنَّهَا تَسْعَىٰ *(koşuyormuş gibi göründü)* — تَسْعَىٰ birebir aynı, ama edilgen يُخَيَّلُ *(gösterildi)* ile çerçevelenmiş."
+  },
+  {
+   "cift": [
+    "20:17",
+    "20:69"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "SORU VE EMİR, AYNI İKİ ÖĞE: وَمَا تِلْكَ بِيَمِينِكَ *(sağ elindeki nedir)* ↔ وَأَلْقِ مَا فِى يَمِينِكَ *(sağ elindekini at)*. مَا *(şey)* + يَمِين *(sağ el)* ikilisi 52 ayet arayla, biri soru biri buyruk. İkincide nesne ADLANDIRILMIYOR — 20:18'in onüç kelimelik tarifi artık gereksiz."
+  },
+  {
+   "cift": [
+    "20:64",
+    "20:68"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "علو *(yücelik; böbürlenme)* kökü taraf değiştiriyor: مَنِ ٱسْتَعْلَىٰ *(üstün gelen)* — büyücülerin sloganı (bab X) ↔ إِنَّكَ أَنتَ ٱلْأَعْلَىٰ *(üstün olan sensin)* — ism-i tafdîl, karşı tarafa. Dört ayet ara. Aynı kök 20:4'te göklerin sıfatıydı (ٱلْعُلَى), 20:75'te derecelerin."
+  },
+  {
+   "cift": [
+    "20:71",
+    "20:73"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "أَبْقَىٰ *(daha kalıcı)* iki ayet arayla taraf değiştiriyor: أَشَدُّ عَذَابًۭا وَأَبْقَىٰ *(azabı daha şiddetli ve daha kalıcı)* — Firavun'un tehdidi ↔ وَٱللَّهُ خَيْرٌۭ وَأَبْقَىٰٓ *(Allah daha hayırlı ve daha kalıcı)*. Aynı ism-i tafdîl, aynı kök بقي *(kalıcı olma)*, karşıt özneler."
+  },
+  {
+   "cift": [
+    "20:74",
+    "20:75"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TEK DEĞİŞKENLİ ŞART ÇİFTİ: مَن يَأْتِ رَبَّهُۥ مُجْرِمًۭا *(Rabbine suçlu olarak gelen)* ↔ وَمَن يَأْتِهِۦ مُؤْمِنًۭا *(O'na mü'min olarak gelen)*. Aynı fiil (أتي *(gelme)*), aynı şart kalıbı; değişen yalnız hâl. UYARI: 20:75'teki مُؤْمِنًۭا esmâ listesinde yanlışlıkla esmâ sayılıyor."
+  },
+  {
+   "cift": [
+    "20:52",
+    "20:74"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "İKİLİ-OLUMSUZLAMA KALIBI: لَّا يَضِلُّ رَبِّى وَلَا يَنسَى *(Rabbim ne şaşırır ne unutur)* ↔ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ *(orada ne ölür ne yaşar)*. Aynı yapı, biri Rab için (yetkinlik), biri suçlu için (askıda kalma)."
+  },
+  {
+   "cift": [
+    "20:6",
+    "20:76"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "تحت *(alt, altında)* kökü sûrede iki kez: تَحْتَ ٱلثَّرَىٰ *(toprağın altı)* — mülkiyet bölümlemesinin son terimi ↔ مِن تَحْتِهَا ٱلْأَنْهَٰرُ *(altlarından ırmaklar)* — karşılığın betimi. Aynı mekân edatı, iki işlev."
+  },
+  {
+   "cift": [
+    "20:37",
+    "20:80"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "منن *(lütuf; kudret helvası)* kökü soyuttan somuta: مَنَنَّا عَلَيْكَ *(sana lütufta bulunduk)* — fiil ↔ ٱلْمَنَّ وَٱلسَّلْوَىٰ *(kudret helvası ve bıldırcın)* — yenebilir bir şeyin adı."
+  },
+  {
+   "cift": [
+    "20:88",
+    "20:98"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI ARAÇ, KARŞIT NESNE: أله *(Allah; ilâh)* kök ikilemesi sûrede dört ayette — 20:8 (×2), 20:14 (×2), 20:88 (×2), 20:98 (×3). Üçü لَآ إِلَٰهَ إِلَّا *(…dan başka ilâh yok)* tevhid kalıbı; DÖRDÜNCÜSÜ buzağı için: هَٰذَآ إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ *(bu sizin de Mûsâ'nın da ilâhı)*. Ve kalıbın en yoğun örneği (×3) sahte örneğinden ON AYET SONRA geliyor."
+  },
+  {
+   "cift": [
+    "20:81",
+    "20:86"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "غضب *(öfke, gazap)* kökü ağız değiştiriyor: غَضَبِى *(gazabım)* — birinci şahıs, doğrudan (20:81, ×2) ↔ غَضَبٌۭ مِّن رَّبِّكُمْ *(Rabbinizden bir gazap)* — üçüncü şahıs, Rab'a izâfetle, Mûsâ'nın ağzında (20:86, ×2). Beş ayet ara. حلل *(inme)* fiili ikisinde de aynı."
+  },
+  {
+   "cift": [
+    "20:79",
+    "20:85"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI FİİL, YENİ FÂİL: وَأَضَلَّ فِرْعَوْنُ قَوْمَهُۥ *(Firavun kavmini saptırdı)* ↔ وَأَضَلَّهُمُ ٱلسَّامِرِىُّ *(Sâmirî onları saptırdı)*. ضلل *(saptırma)* bab IV, aynı yapı, altı ayet ara; Firavun anlatısı kapanır kapanmaz aynı yüklem yeni bir fâile veriliyor."
+  },
+  {
+   "cift": [
+    "20:85",
+    "20:90"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "فتن *(sınama, fitne)* iki çatı: فَتَنَّا قَوْمَكَ *(kavmini sınadık)* — etken 1P ↔ إِنَّمَا فُتِنتُم بِهِۦ *(siz bununla sınandınız)* — edilgen 2MP, Hârûn'un ağzında. Aynı olay, beş ayet ara, fâil bir görünüp bir siliniyor."
+  },
+  {
+   "cift": [
+    "20:90",
+    "20:93"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "İKİ KÖK TERS YÖNDE: Hârûn kavme فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى *(bana uyun ve emrime itaat edin)* diyor — تبع *(uyma)* + أمر *(emir)*. Üç ayet sonra Mûsâ Hârûn'a أَلَّا تَتَّبِعَنِ ۖ أَفَعَصَيْتَ أَمْرِى *(bana uymadın mı, emrime karşı mı geldin)* diyor — aynı iki kök, aynı sıra, muhatap tersine dönmüş."
+  },
+  {
+   "cift": [
+    "20:83",
+    "20:92",
+    "20:95"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "ÜÇ SORGU, TEK KALIP: وَمَآ أَعْجَلَكَ … يَٰمُوسَىٰ (20:83) · مَا مَنَعَكَ (20:92, يَٰهَٰرُونُ) · فَمَا خَطْبُكَ يَٰسَٰمِرِىُّ (20:95). Üçü de مَا *(ne)* + 2MS zamirli öğe + münâdâ. Üç ayrı muhatap: Mûsâ, Hârûn, Sâmirî; sorular 12 ve 3 ayet arayla."
+  },
+  {
+   "cift": [
+    "20:84",
+    "20:96"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "أثر *(iz)* kökü sûrede yalnız iki kez ve ikisi de bu blokta: هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى *(onlar izimin üzerindeler)* — takip edilen iz ↔ قَبْضَةًۭ مِّنْ أَثَرِ ٱلرَّسُولِ *(elçinin izinden bir avuç)* — alınan madde. Aynı kelime, biri yön biri nesne."
+  },
+  {
+   "cift": [
+    "20:91",
+    "20:97"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "عكف *(kapanma, îtikâf)* kökü seçimden suçlamaya: لَن نَّبْرَحَ عَلَيْهِ عَٰكِفِينَ *(buna kapanmaktan vazgeçmeyiz)* — kavmin kendi ifadesi ↔ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًۭا *(başında kapanıp durduğun)* — Sâmirî'ye suçlama. Aynı ism-i fâil biçimi."
+  },
+  {
+   "cift": [
+    "20:39",
+    "20:78",
+    "20:97"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "يمم *(deniz, büyük su)* sûrede üç kez ve üçü de farklı nesne alıyor: 20:39 bebeği taşıyan su · 20:78 Firavun'u örten su · 20:97 buzağının külünün savrulduğu su. Kök korpusta n=11, medyan Allah mesafesi 67 (UZAK)."
+  },
+  {
+   "cift": [
+    "20:3",
+    "20:99"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AÇILIŞ TANIMI 96 AYET SONRA DÖNÜYOR: إِلَّا تَذْكِرَةًۭ لِّمَن يَخْشَىٰ *(ancak haşyet duyan için bir hatırlatma)* ↔ وَقَدْ ءَاتَيْنَٰكَ مِن لَّدُنَّا ذِكْرًۭا *(katımızdan sana bir zikir verdik)*. Aynı kök ذكر *(zikir, anma)*, ve 20:99 anlatıyı adlandırırken (نَقُصُّ *(anlatıyoruz)*) arada geçen her şeyi o tanımın kapsamına alıyor."
+  },
+  {
+   "cift": [
+    "20:87",
+    "20:100"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "وزر *(yük, günah)* + حمل *(yüklenme)* ikilisi somuttan soyuta: حُمِّلْنَآ أَوْزَارًۭا مِّن زِينَةِ ٱلْقَوْمِ *(halkın süsünden yükler yükletildik)* — edilgen, takı ↔ يَحْمِلُ يَوْمَ ٱلْقِيَٰمَةِ وِزْرًا *(kıyamet günü bir yük taşır)* — etken, sonuç."
+  },
+  {
+   "cift": [
+    "20:103",
+    "20:104"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI HASR KALIBI, KÜÇÜLEN SAYI: إِن لَّبِثْتُمْ إِلَّا عَشْرًۭا *(ancak on kaldınız)* ↔ إِن لَّبِثْتُمْ إِلَّا يَوْمًۭا *(ancak bir gün kaldınız)*. Değişen tek öğe SAYI SÖZCÜĞÜ ve ikincisi daha küçük; ikinci konuşan أَمْثَلُهُمْ طَرِيقَةً *(en doğru yolda olanları)* diye nitelenmiş. Süre tahmini isabet arttıkça kısalıyor."
+  },
+  {
+   "cift": [
+    "20:97",
+    "20:105"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI FİİL+MASTAR, ÖLÇEK DEĞİŞİMİ: لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا *(denizde savuracağız, savurmakla)* — buzağının külü ↔ يَنسِفُهَا رَبِّى نَسْفًۭا *(Rabbim onları savuracak)* — dağlar. نسف *(savurma)* kökü sûrede yalnız bu iki ayette, ikisinde de mef'ûl-i mutlak ile."
+  },
+  {
+   "cift": [
+    "20:106",
+    "20:107"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ARDIŞIK İKİ ★★★, DÖRT TERİM TEK YÜZEY: 20:106 OLUMLU — قَاعًۭا *(düz arazi)* + صَفْصَفًۭا *(dümdüz ova, hapaks)*; 20:107 OLUMSUZ — عِوَجًۭا *(eğrilik)* + أَمْتًۭا *(tümsek, hapaks)*. Dördü ayrı kök, ikisi korpusta bir kez geçiyor. Ne olduğu ve ne olmadığı ardışık iki ayete bölünmüş."
+  },
+  {
+   "cift": [
+    "20:107",
+    "20:108"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "عوج *(eğrilik, çarpıklık)* iki ayet içinde iki nesnede: لَّا تَرَىٰ فِيهَا عِوَجًۭا *(onda eğrilik görmezsin)* — arazi ↔ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ *(kendisinde eğrilik olmayan davetçiye uyarlar)*. Yer düzleşiyor, çağrı da düz."
+  },
+  {
+   "cift": [
+    "20:61",
+    "20:111"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "BİREBİR ÜÇ KELİME, 50 AYET ARAYLA: وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ *(uyduran hüsrana uğradı)* ↔ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا *(zulüm yüklenen hüsrana uğradı)*. وَقَدْ خَابَ مَنْ + PERF fiil kalıbı; خيب *(hüsran)* kökü sûrede yalnız bu iki ayette. Biri kıssanın başında (Mûsâ'nın ağzı), öteki kıyamet sahnesinde (anlatıcı)."
+  },
+  {
+   "cift": [
+    "20:2",
+    "20:117"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AÇILIŞ OLUMSUZLAMASI 115 AYET SONRA YASAK GEREKÇESİ: لِتَشْقَىٰٓ *(zahmet çekesin diye)* — 20:2, olumsuz cümlede ↔ فَتَشْقَىٰٓ *(yoksa zahmet çekersin)* — 20:117, yasağın sonucu. شقو *(zahmet, bedbahtlık)* kökü sûrede YALNIZ bu iki ayette ve İKİSİ DE fâsıla ٓ taşıyor (sûrenin 13 ٓ-fâsılalı ayetinden ikisi)."
+  },
+  {
+   "cift": [
+    "20:56",
+    "20:116"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "أبي *(direnme, kabul etmeme)* kökü iki reddedişte: كَذَّبَ وَأَبَىٰ *(yalanladı ve direndi)* — Firavun, ikili ↔ إِلَّآ إِبْلِيسَ أَبَىٰ *(İblîs müstesnâ, o direndi)* — tek başına. Aynı fiil, aynı çekim, iki ayrı fâil; ikincisi HASR kalıbı içinde."
+  },
+  {
+   "cift": [
+    "20:88",
+    "20:115"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "نسي *(unutma)* kökü iki bozulan ahitte: 20:88 فَنَسِىَ — buzağı sahnesinin SON kelimesi ↔ 20:115 فَنَسِىَ — Âdem için, birebir aynı biçim. İkisi de bir ahdin ardından geliyor; ikincisinde ahit açıkça adlandırılmış (عَهِدْنَآ *(ahit verdik)*)."
+  },
+  {
+   "cift": [
+    "20:40",
+    "20:120"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI SORU BİÇİMİ, KARŞIT TEKLİF: هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ *(ona bakacak birini size göstereyim mi)* — Mûsâ'nın kız kardeşi ↔ هَلْ أَدُلُّكَ عَلَىٰ شَجَرَةِ ٱلْخُلْدِ *(sana sonsuzluk ağacını göstereyim mi)* — şeytan. دلل *(gösterme)* kökü sûrede yalnız bu iki ayette; هَلْ أَدُلُّ + عَلَىٰ kalıbı birebir."
+  },
+  {
+   "cift": [
+    "20:2",
+    "20:113"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "AÇILIŞ İKİLİSİ OLUMSUZDAN OLUMLUYA: مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ *(Kur'an'ı sana indirmedik)* ↔ وَكَذَٰلِكَ أَنزَلْنَٰهُ قُرْءَانًا عَرَبِيًّۭا *(onu Arapça bir Kur'an olarak indirdik)*. Aynı iki kök نزل *(indirme)* + قرأ *(Kur'ân)*, aynı 1P çekim, biri olumsuz biri olumlu."
+  },
+  {
+   "cift": [
+    "20:59",
+    "20:119"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "ضحو *(kuşluk; güneşte kalma)* kökü sûrede yalnız iki kez: ضُحًۭى *(kuşluk vakti)* — buluşmanın zamanı ↔ وَلَا تَضْحَىٰ *(güneşte yanmazsın)* — o vaktin sıcağı. Biri zaman ölçüsü, öteki o zamanın fiziksel etkisi."
+  },
+  {
+   "cift": [
+    "20:93",
+    "20:121"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "عصي *(karşı gelme, isyan)* kökü sûrede yalnız iki kez: أَفَعَصَيْتَ أَمْرِى *(emrime karşı mı geldin)* — soru, suçlama, Mûsâ'dan Hârûn'a ↔ وَعَصَىٰٓ ءَادَمُ رَبَّهُۥ *(Âdem Rabbine karşı geldi)* — haber, olgu, anlatıcıdan. İkincisinde mef'ûl doğrudan رَبّ *(Rab)*."
+  },
+  {
+   "cift": [
+    "20:2",
+    "20:117",
+    "20:123"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "شقو *(zahmet, bedbahtlık)* sûrede ÜÇ kez ve üçü de yapıca farklı: 20:2 لِتَشْقَىٰٓ — indirmenin OLMADIĞI amaç (olumsuz cümlede) · 20:117 فَتَشْقَىٰٓ — yasağın çiğnenmesinin sonucu · 20:123 وَلَا يَشْقَىٰ — hidâyete uyanın kurtulduğu şey. Sûre bu kökle açılıp bu kökle kapanış hükmüne varıyor. İlk ikisi fâsıla ٓ taşıyor, üçüncüsü A sınıfında."
+  },
+  {
+   "cift": [
+    "20:100",
+    "20:124"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI ŞART KALIBI, MERCİ ADLANDIRILIYOR: مَّنْ أَعْرَضَ عَنْهُ *(ondan yüz çeviren)* ↔ وَمَنْ أَعْرَضَ عَن ذِكْرِى *(zikrimden yüz çeviren)*. عرض *(yüz çevirme)* kökü sûrede yalnız bu iki ayette; ikincisinde zamir açılıp birinci şahsa bağlanıyor ve iki sonuç veriliyor (dünya + kıyamet)."
+  },
+  {
+   "cift": [
+    "20:35",
+    "20:125"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI LAFIZ, İKİ ÖZNE — VE BİR ÖLÇÜM HATASI: إِنَّكَ كُنتَ بِنَا بَصِيرًۭا *(sen bizi görmektesin)* — mercii Rab, gerçek esmâ ↔ وَقَدْ كُنتُ بَصِيرًۭا *(oysa ben görüyordum)* — mercii konuşan insan, esmâ DEĞİL. İkisi de ayetin son kelimesi, ikisi de كان + بصير yapısı; defter ikisini de esmâ sayıyor (aday 414)."
+  },
+  {
+   "cift": [
+    "20:51",
+    "20:128"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "77 AYET SONRA CEVAP: فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ *(önceki nesillerin hâli ne olacak)* — Firavun'un ikinci sorusu, 20:52'de doğrudan cevaplanmamıştı ↔ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ *(nice nesilleri helâk ettik, meskenlerinde yürüyorlar)*. قرن *(nesil)* kökü sûrede yalnız bu iki ayette."
+  },
+  {
+   "cift": [
+    "20:54",
+    "20:128"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI KAPANIŞ KALIBI, İKİ KEZ: إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ *(bunda akıl sahipleri için âyetler var)*. أُو۟لِى ٱلنُّهَىٰ *(akıl sahipleri)* — kök نهي *(akıl; nehiy)* — sûrede yalnız bu iki ayette ve ikisinde de fâsıla konumunda."
+  },
+  {
+   "cift": [
+    "20:71",
+    "20:73",
+    "20:127",
+    "20:131"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "أَبْقَىٰ *(daha kalıcı)* SÛREDE DÖRT KEZ, DÖRT AĞIZDA: 20:71 أَشَدُّ عَذَابًۭا وَأَبْقَىٰ — Firavun'un tehdidi · 20:73 وَٱللَّهُ خَيْرٌۭ وَأَبْقَىٰٓ — büyücülerin ikrarı · 20:127 وَلَعَذَابُ ٱلْءَاخِرَةِ أَشَدُّ وَأَبْقَىٰٓ — anlatıcının hükmü · 20:131 وَرِزْقُ رَبِّكَ خَيْرٌۭ وَأَبْقَىٰ — muhataba. İki kalıp dönüşümlü: أَشَدُّ … وَأَبْقَىٰ ve خَيْرٌۭ وَأَبْقَىٰ, ikişer kez."
+  },
+  {
+   "cift": [
+    "20:14",
+    "20:132"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "صلو *(namaz, salât)* sûrede yalnız iki kez ve buyruk katman değiştiriyor: وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ *(beni anmak için namazı kıl)* — doğrudan muhataba ↔ وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ *(ailene namazı emret)* — buyurmayı buyurma. Ve ikinci ayet 19:55 ile bağlı (aynı üçlü)."
+  },
+  {
+   "cift": [
+    "20:5",
+    "20:135"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "SÛREYİ AÇAN VE KAPATAN KÖK AYNI: ٱسْتَوَىٰ *(istivâ etti)* — 20:5, bab VIII, fiil ↔ ٱلصِّرَٰطِ ٱلسَّوِىِّ *(düz yol)* — 20:135, sıfat. سوي *(denklik, düzlük)* kökü ilk ve son kullanımında. Ayrıca 20:58'de مَكَانًۭا سُوًۭى *(düz bir yer)* ile ortada."
+  },
+  {
+   "cift": [
+    "20:50",
+    "20:82",
+    "20:122",
+    "20:135"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "هدي *(yol gösterme)* DÖRT KEZ DİZİNİN SON TERİMİ: 20:50 أَعْطَىٰ … ثُمَّ هَدَىٰ · 20:82 تَابَ وَءَامَنَ وَعَمِلَ … ثُمَّ ٱهْتَدَىٰ · 20:122 ٱجْتَبَٰهُ … فَتَابَ … وَهَدَىٰ · 20:135 … وَمَنِ ٱهْتَدَىٰ (sûrenin son kelimesi). Kök sûrede sekiz geçişli; dördünde sıralamanın SONUNDA duruyor ve sûrenin son sözcüğü."
+  },
+  {
+   "cift": [
+    "20:84",
+    "20:130"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "رضو *(razı olma, hoşnutluk)* kökü özne değiştiriyor: وَعَجِلْتُ إِلَيْكَ رَبِّ لِتَرْضَىٰ *(hoşnut olasın diye acele geldim)* — özne Rab ↔ لَعَلَّكَ تَرْضَىٰ *(belki hoşnut olursun)* — özne muhatap. İkisi de aynı fiil kalıbı تَرْضَىٰ, ikisi de fâsıla konumunda."
+  }
+ ],
+ "AA_enbiya": [
+  {
+   "cift": [
+    "20:62",
+    "21:3"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "BİREBİR İKİ KELİME, İKİ SAHNE: وَأَسَرُّوا۟ ٱلنَّجْوَىٰ *(fısıltıyı gizlediler)* — Tâhâ'da büyücüler, Firavun'un huzurunda ↔ Enbiyâ'da ٱلَّذِينَ ظَلَمُوا۟ *(zulmedenler)*. Aynı iki kök سرر *(sır, gizleme)* + نجو *(necvâ, fısıltı)*, aynı fiil çekimi. Ve iki ayette de aynı yakınlıkta سحر *(büyü)* suçlaması var (20:57-63 · 21:3)."
+  },
+  {
+   "cift": [
+    "21:3",
+    "21:7"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "İTİRAZ REDDEDİLMİYOR, KURAL OLARAK ONAYLANIYOR: هَلْ هَٰذَآ إِلَّا بَشَرٌۭ مِّثْلُكُمْ *(bu sizin gibi bir beşerden başkası mı)* ↔ وَمَآ أَرْسَلْنَا قَبْلَكَ إِلَّا رِجَالًۭا *(senden önce de ancak adamlar gönderdik)*. İkisi de HASR kalıbı (مَا … إِلَّا); itirazın kendi yapısı cevapta tekrarlanıyor."
+  },
+  {
+   "cift": [
+    "21:2",
+    "21:10"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "ذكر *(zikir, anma)* kökü blokta ÜÇ ayrı sahiplikte: 21:2 مِّن رَّبِّهِم *(Rablerinden gelen)* · 21:7 أَهْلَ ٱلذِّكْرِ *(zikir ehli)* — bir topluluğun sıfatı · 21:10 ذِكْرُكُمْ *(sizin zikriniz)* — muhataba iyelikle. Aynı kelime, üç ayrı iyelik ekseni, sekiz ayet içinde."
+  },
+  {
+   "cift": [
+    "21:2",
+    "21:16"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "لعب *(oyun oynama)* kökü blokta iki kez ve iki ayrı özneyle: وَهُمْ يَلْعَبُونَ *(oyun oynayarak)* — muhatabın dinleme biçimi ↔ وَمَا خَلَقْنَا … لَٰعِبِينَ *(oyun olsun diye yaratmadık)* — yaratmanın olmadığı şey. Biri olgu, öteki olumsuzlama. Ayrıca لهو *(oyalanma, eğlence)* 21:3 ve 21:17'de aynı ikili örüntüyü tekrarlıyor."
+  },
+  {
+   "cift": [
+    "21:4",
+    "21:4"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "MÜHÜR KENDİ AYETİNİ TEKRARLIYOR: يَعْلَمُ ٱلْقَوْلَ *(sözü bilir)* → ٱلسَّمِيعُ ٱلْعَلِيمُ *(işiten, bilen)*. علم *(bilme)* kökü ayette iki kez — biri fiil biri esmâ; سمع *(işitme)* ise yalnız esmâda ama nesne (قول *(söz)*) işitmeyi gerektiriyor. Sûrenin TEK mührü ve tek esmâ çifti."
+  },
+  {
+   "cift": [
+    "20:88",
+    "21:8"
+   ],
+   "kural": "L3",
+   "guven": "orta",
+   "not": "جسد *(ceset, gövde)* kökü iki karşıt kullanımda: عِجْلًۭا جَسَدًۭا لَّهُۥ خُوَارٌ *(böğüren bir buzağı heykeli)* — cansız nesne, sahte ilâh ↔ وَمَا جَعَلْنَٰهُمْ جَسَدًۭا لَّا يَأْكُلُونَ ٱلطَّعَامَ *(onları yemek yemeyen bedenler yapmadık)* — elçiler, olumsuzlama. Kök korpusta n=4."
+  },
+  {
+   "cift": [
+    "20:6",
+    "21:16"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "MEKÂN BÖLÜMLEMESİ DÖRTTEN ÜÇE: 20:6 ٱلسَّمَٰوَٰت · ٱلْأَرْض · بَيْنَهُمَا · تَحْتَ ٱلثَّرَىٰ *(toprağın altı, hapaks)* — dört terim, mülkiyet ekseni ↔ 21:16 ٱلسَّمَآء · ٱلْأَرْض · مَا بَيْنَهُمَا — üç terim, amaç ekseni (لَٰعِبِينَ olumsuzlanıyor). Alt katman düşmüş."
+  },
+  {
+   "cift": [
+    "21:14",
+    "21:46"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "SÛRE İÇİ TEKRAR (defterden, iç bağ): قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا ظَٰلِمِينَ *(eyvah bize, biz zalimmişiz)* — aynı üçlü قول *(söz)* · كون *(olma)* · ظلم *(zulüm)* 21:46'da yeniden gelecek. Blok dışında, 21:41-60 bloğunda okunacak. Ayrıca 7:5 ile dış bağ."
+  },
+  {
+   "cift": [
+    "20:130",
+    "21:20"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "سبح *(tesbih)* + ٱلَّيْل *(gece)* + ٱلنَّهَار *(gündüz)* üçlüsü buyruktan betime: وَسَبِّحْ … وَمِنْ ءَانَآئِ ٱلَّيْلِ … وَأَطْرَافَ ٱلنَّهَارِ *(tesbih et… gecenin saatlerinde… gündüzün uçlarında)* — muhataba emir ↔ يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ لَا يَفْتُرُونَ *(gece gündüz tesbih ederler, ara vermezler)* — başkalarının olgusu. İkincide kesintisizlik ayrıca ölçülüyor (فتر *(gevşeme)* olumsuz)."
+  }
  ]
 }
