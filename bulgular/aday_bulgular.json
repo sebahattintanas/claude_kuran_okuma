@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-22 — ses/prozodi (395-397) + anahtar denetimi (398-399)",
+ "son_guncelleme": "2026-08-26 — hizalama ölçümü (aday 437)",
  "okunan": {
   "sureler": [
    1,
@@ -19,6 +19,13 @@
    12,
    13,
    14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
    69,
    70,
    71,
@@ -26,8 +33,9 @@
    73,
    74
   ],
-  "ayet": 2021,
-  "korpus_yuzde": 32.4
+  "ayet": 2176,
+  "korpus_yuzde": 34.9,
+  "not": "Sûre 20 TAM. Sûre 21 kısmi (1-20/112). Sûre 2 kısmi (1-20/286)."
  },
  "A_onceki_oturum_69_74": [
   {
@@ -4748,6 +4756,2053 @@
    "aday": "zaman_of() KÖK KÜMELERİ EKSİK ÇALIŞIYOR — 18/34 ANAHTAR TUTMUYOR. varlik_makinesi.py sat.48-50 ve kavram_arac.py sat.46-48 (kopyalı) GECMIS/GELECEK/SIMDI kümeleri. Ölçülen kayıp: ءمن→أمن 879 · ايي→أيي 597 · اخر→أخر 250 · امر→أمر 248 = 1.974 geçiş, dördü de hamzesiz elif. Kaybedilenler SIMDI kümesinin en yüksek frekanslı üyeleri. Ayrıca 14 anahtar (نوح/ابر/موسي/فرعن/عاد/لوط/ارسل/نار/ساع/تقو/ثمد/قيم…) korpusta kök olarak hiç yok — özel/cins isim, kök ile lemma karıştırılmış. ETKİ: varlik_katalog.json'daki 40 kavramın zaman profili eksik veriyle üretilmiş; bu alana dayanan çıkarımlar düzeltmeden kullanılamaz. TARİH KANITI: varlik_katalog.py 5 Ağustos'ta geldi, hiç değişmedi; turkce_denetim.py 21 Ağustos'ta yazıldı. Bozulma denetim öncesi dönemin ürünü.",
    "sinir": "Bu bir BULGU DEĞİL, veri bütünlüğü tespiti. Betiğin düzeltme önerileri (ثمد→أمد, قيم→أيم) YANLIŞ, elle doğrulanacak. Düzeltme tur sonuna ertelendi (araç değiştirme yasağı).",
    "dosya": "betikler/anahtar_denetim.py — notlar/YAPILACAKLAR.md ANAHTAR DENETİMİ bölümü"
+  }
+ ],
+ "AA_taha": [
+  {
+   "no": 400,
+   "aday": "TÂHÂ OKUMANIN EN RAB-BASKIN SÛRESİ: Allah lafzı 6 (0.0045 = korpusun 0.13x), Rab 27 (0.0202 = 1.59x), A/R = 0.22. Önceki en düşükler: Meryem 0.35, Kehf 0.30. Üç sûre art arda ve üçü de aynı yönde.",
+   "olculen": {
+    "allah": 6,
+    "rab": 27,
+    "a_r": 0.22,
+    "allah_yog": 0.0045,
+    "rab_yog": 0.0202,
+    "kelime": 1335,
+    "onceki": {
+     "kehf": 0.3,
+     "meryem": 0.35
+    }
+   },
+   "test": "Sûre bazında A/R oranının korpus dağılımı; 18-19-20 ardışıklığı rastlantı mı? Mushaf sırasında üç ardışık sûrenin dağılımın alt kuyruğunda toplanma olasılığı — permütasyon. Kıssa yoğunluğu ve Mekkî/Medenî kontrol değişkeni. KONUM-EŞLİ NULL zorunlu."
+  },
+  {
+   "no": 401,
+   "aday": "ÜST ÜSTE ÜÇ MÜHÜRSÜZ SÛRE (373 genişledi): Kehf(18), Meryem(19) ve Tâhâ(20) — üçünde de esmâ mühür çifti SIFIR. Tâhâ'nın 13 esmâ tokenının hiçbiri fâsılada değil, hepsi cümle içi. Karşılaştırma: Nahl 8 mühür, İsrâ 5, Hicr 3.",
+   "olculen": {
+    "kehf": 0,
+    "meryem": 0,
+    "taha": 0,
+    "taha_esma_token": 13,
+    "taha_esma_ayet": 12,
+    "taha_rab_kat": 1.59,
+    "nahl": 8,
+    "isra": 5,
+    "hicr": 3
+   },
+   "test": "373'ün genişletilmiş hâli. Korpus çapında mühürsüz sûrelerin tam envanteri; ardışık üçlünün olasılığı. Mühür sayısı ile Rab yoğunluğu arasındaki ters ilişki hipotezi (373) bu üçüncü veri noktasıyla test edilecek — Tâhâ'nın Rab katı 1.59, Kehf/Meryem'in 1.90/1.89'undan DÜŞÜK, yani ilişki tek yönlü değil."
+  },
+  {
+   "no": 402,
+   "aday": "TÂHÂ'DA 46 AYETLİK ALLAH-SESSİZLİĞİ (20:15-60), Mûsâ kıssasının gövdesiyle örtüşüyor. Allah lafzı yalnız 6 ayette: 8, 14, 61, 73, 98, 114. Diğer boşluklar 24 (74-97), 21 (115-135), 15 (99-113), 11 (62-72).",
+   "olculen": {
+    "allah_ayetleri": [
+     8,
+     14,
+     61,
+     73,
+     98,
+     114
+    ],
+    "en_uzun_bosluk": [
+     15,
+     60,
+     46
+    ],
+    "diger": [
+     [
+      74,
+      97,
+      24
+     ],
+     [
+      115,
+      135,
+      21
+     ],
+     [
+      99,
+      113,
+      15
+     ],
+     [
+      62,
+      72,
+      11
+     ]
+    ],
+    "sure_ayet": 135
+   },
+   "test": "Allah-sessizliği uzunluklarının korpus dağılımı; 46 ayet nerede duruyor? Ve sessizliğin anlatı bölütüyle örtüşmesi — bu bir GENRE etkisi mi (kıssa anlatısında lafız seyrelir) yoksa sûreye özgü mü? UYARI: Allah-mesafesi gradyanı bir kez tam bu karışıklıktan geri çekildi; test anlatı/anlatı-dışı ayrımını kontrol etmeden kurulamaz."
+  },
+  {
+   "no": 403,
+   "aday": "ARANARAK BULUNDU — YER ÖNCE, GÖK SONRA: أرض (yer) ve سمو (gök) aynı ayette geçtiğinde korpusta 203 kez gök önce, 21 kez YER önce. O 21'in ikisi Tâhâ'da: 20:4 (ٱلْأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى) ve 20:53. Tam liste: 2:22, 2:29, 3:5, 5:17, 6:6, 6:35, 10:61, 11:44, 14:38, 14:48, 17:95, 20:4, 20:53, 22:65, 29:22, 34:2, 35:40, 35:44, 39:67, 40:64, 46:4.",
+   "olculen": {
+    "sema_once": 203,
+    "arz_once": 21,
+    "toplam": 224,
+    "oran": 0.094,
+    "arz_once_liste": [
+     [
+      2,
+      22
+     ],
+     [
+      2,
+      29
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      5,
+      17
+     ],
+     [
+      6,
+      6
+     ],
+     [
+      6,
+      35
+     ],
+     [
+      10,
+      61
+     ],
+     [
+      11,
+      44
+     ],
+     [
+      14,
+      38
+     ],
+     [
+      14,
+      48
+     ],
+     [
+      17,
+      95
+     ],
+     [
+      20,
+      4
+     ],
+     [
+      20,
+      53
+     ],
+     [
+      22,
+      65
+     ],
+     [
+      29,
+      22
+     ],
+     [
+      34,
+      2
+     ],
+     [
+      35,
+      40
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      39,
+      67
+     ],
+     [
+      40,
+      64
+     ],
+     [
+      46,
+      4
+     ]
+    ]
+   },
+   "test": "ARANARAK BULUNDU — 20:4 motive eden ayettir ve testten DIŞLANACAK. Soru: 21 yer-önce ayetin ortak bir sözdizimsel/anlamsal özelliği var mı (mecrur konum, fiilin türü, sıfatın hangi ada bağlandığı)? Kalan 20 ayet üzerinde kurulacak."
+  },
+  {
+   "no": 404,
+   "aday": "ŞAHIS ÇEVRİMLİ İKİZ 20:8 ↔ 20:14: ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ↔ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا. Aynı HASR yapısı, aynı أله kök ikilemesi ×2, tek değişken ŞAHIS (3MS → 1S). Sûrenin 6 Allah lafzından İKİSİ bu çift; ikisi arasında 5 ayet var.",
+   "olculen": {
+    "20_8": {
+     "A": [
+      1
+     ],
+     "n": 8,
+     "fig": [
+      "HASR"
+     ],
+     "ikile": {
+      "أله": 2
+     },
+     "sah": {
+      "3MS": 2
+     }
+    },
+    "20_14": {
+     "A": [
+      3
+     ],
+     "n": 11,
+     "fig": [
+      "HASR"
+     ],
+     "ikile": {
+      "أله": 2
+     },
+     "sah": {
+      "1S": 5,
+      "2MS": 2
+     }
+    },
+    "aralik": 6
+   },
+   "test": "لَآ إِلَٰهَ إِلَّا kalıbının korpustaki tam envanteri ve şahıs dağılımı: 1S biçimi kaç kez geçiyor? Anlatıcı ağzı ile konuşan ağzı arasındaki bu çevrim başka sûrelerde de ayet çifti olarak mı görünüyor, yoksa tek tek mi?"
+  },
+  {
+   "no": 405,
+   "aday": "TEK AYETTE İKİ HAPAKS KÖK — 20:12: خلع (çıkarma) ve نعل (ayakkabı), hapaks z=6.98. Sûrenin 13 hapaks ayetinden yalnız bu ikisini birden taşıyor; kalan 12 ayette birer tane.",
+   "olculen": {
+    "ayet": [
+     20,
+     12
+    ],
+    "hapaks": [
+     "خلع",
+     "نعل"
+    ],
+    "z": 6.98,
+    "n": 9,
+    "sure_hapaks_ayet": 13,
+    "tek_hapakslilar": 12
+   },
+   "test": "Korpusta bir ayette 2+ hapaks kök taşıyan ayetlerin envanteri ve sayısı. Beklenen sayı (kök uzunluğu ve ayet uzunluğu koşullu) ile gözlenen karşılaştırılacak. Ayrıca: çoklu-hapaks ayetler somut/nesnel sözlük alanında mı yoğunlaşıyor?"
+  },
+  {
+   "no": 406,
+   "aday": "TÂHÂ OKUMANIN EN BUYURGAN SÛRESİ: emir 36 + yasak 12 = 48/135 ayet (%35.6). NEHY etiketi 12. Karşılaştırma için sûre profilleri: Meryem emir 20 + yasak 3 = 23/98 (%23.5).",
+   "olculen": {
+    "emir": 36,
+    "yasak": 12,
+    "toplam_buyurgan": 48,
+    "ayet": 135,
+    "oran": 0.356,
+    "nehy": 12,
+    "haber": 65,
+    "nida": 17,
+    "soru": 13,
+    "sart": 9,
+    "zaman": {
+     "PERF": 191,
+     "IMPF": 151,
+     "IMPV": 50
+    },
+    "meryem": {
+     "emir": 20,
+     "yasak": 3,
+     "ayet": 98,
+     "oran": 0.235
+    }
+   },
+   "test": "Sûre bazında (emir+yasak)/ayet oranının korpus dağılımı. Ve bu oranın Allah/Rab oranıyla ilişkisi — buyurgan sûrelerde hitap ekseni Rab'a mı kayıyor? İki ölçüt de sûre düzeyinde, n=114 sûre; Bonferroni paydasına dahil."
+  },
+  {
+   "no": 407,
+   "aday": "TÂHÂ'DA ESMÂ ÇİFTİ HİÇ YOK: 13 esmâ tokenının hiçbiri bir başka esmâya BİTİŞİK değil (cift=[] her ayette), bu yüzden mühür 0. Konum dağılımı: 10 orta · 1 ara (n-2) · 2 SON konumda ama TEK (20:35 بَصِير 4/4, 20:125 بَصِير 8/8). Yani 'mühürsüz' demek 'esmâ ile biten ayet yok' demek DEĞİL — iki ayet esmâ ile bitiyor, ikisi de aynı esmâ. 20:5'te esmâ ayetin BAŞINDA ve özne konumunda (ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ).",
+   "olculen": {
+    "esma_token": 13,
+    "esma_ayet": 12,
+    "muhur": 0,
+    "cift": 0,
+    "son_tek": [
+     [
+      35,
+      "بَصِير",
+      4,
+      4
+     ],
+     [
+      125,
+      "بَصِير",
+      8,
+      8
+     ]
+    ],
+    "orta": 10,
+    "ara": 1,
+    "dagilim": {
+     "رَحْمٰن": 4,
+     "بَصِير": 2,
+     "مُؤْمِن": 2,
+     "سَلام": 1,
+     "كَبِير": 1,
+     "غَفّار": 1,
+     "مَلِك": 1,
+     "آخِر": 1
+    }
+   },
+   "test": "401'in alt sorusu, DÜZELTİLMİŞ hâliyle. katman6.py sat.40: muhur = son AND cift. Yani mühür ölçütü esmâ ÇİFTİ gerektiriyor; tek esmâyla biten ayet mühür sayılmıyor. Tur sonunda iki ayrı ölçüt olarak ayrılacak: (a) esmâ çiftiyle kapanan ayet, (b) tek esmâyla kapanan ayet. Mühürsüz sûrelerde (b) sıfır mı, yoksa yalnız (a) mı sıfır? 373 ve 401 bu ayrım yapılmadan kurulmuştu.",
+   "uyari": "ÖNCEKİ HÂLİ YANLIŞTI (aynı oturumda düzeltildi): '13 tokenın 13'ü de orta konumda' yazılmıştı; doğrusu 10 orta, 1 ara, 2 son-tek."
+  },
+  {
+   "no": 408,
+   "aday": "ARANARAK BULUNDU — TÂHÂ, UZUN-AYETLİ SÛRELER İÇİNDE TEK: 20:23-37 arası 15 ardışık ayetin hepsi n<=5. Korpusta n<=5 ardışık dizisi >=8 olan 15 sûre var (80: 36 ayet · 37: 30 · 77: 26 · 56: 24 · 74: 23 …), ama sûre ortalaması n>=8 olan TEK sûre Tâhâ (ort 9.89, 135 ayet). Diğerlerinin hepsinde kısa ayet zaten normdur. Dizinin çekirdeği Mûsâ'nın duası 20:25-35: n = 5,3,4,2,5,2,3,3,3,2,4 (ort 3.27), 6 emir, 6 IMPV. Hemen ardından 20:39 (n=22) ve 20:40 (n=34 — sûrenin EN UZUN ayeti) geliyor.",
+   "olculen": {
+    "dizi": [
+     20,
+     23,
+     37
+    ],
+    "uzunluk": 15,
+    "sure_ort_n": 9.89,
+    "sure_ayet": 135,
+    "dua": [
+     20,
+     25,
+     35
+    ],
+    "dua_n": [
+     5,
+     3,
+     4,
+     2,
+     5,
+     2,
+     3,
+     3,
+     3,
+     2,
+     4
+    ],
+    "dua_ort": 3.27,
+    "dua_emir": 6,
+    "dua_impv": 6,
+    "sonraki": {
+     "20:39": 22,
+     "20:40": 34
+    },
+    "ort8_ustu_baska_sure": 0,
+    "diger_sureler": [
+     [
+      80,
+      36
+     ],
+     [
+      37,
+      30
+     ],
+     [
+      77,
+      26
+     ],
+     [
+      56,
+      24
+     ],
+     [
+      74,
+      23
+     ],
+     [
+      56,
+      21
+     ],
+     [
+      75,
+      20
+     ],
+     [
+      81,
+      19
+     ],
+     [
+      78,
+      17
+     ],
+     [
+      55,
+      17
+     ],
+     [
+      53,
+      17
+     ],
+     [
+      37,
+      17
+     ],
+     [
+      79,
+      15
+     ],
+     [
+      96,
+      14
+     ]
+    ]
+   },
+   "test": "ARANARAK BULUNDU — 20:25-35 motive eden dizidir. Test motive eden diziyi DIŞLAYAMAZ (dizi ölçümün kendisi), bu yüzden soru yeniden kurulmalı: sûre-içi ayet uzunluğu varyansının korpus dağılımı nedir ve Tâhâ nerede duruyor? Ölçüt olarak ardışık-dizi uzunluğu yerine sûre-içi n dağılımının çarpıklığı/CV'si kullanılacak — bu ön-kayıtlı ve motivasyondan bağımsız bir ölçüt. Ayrıca: kısa-ayet dizileri söz edimiyle mi (dua/emir) ilişkili, kafiye sınıfıyla mı?"
+  },
+  {
+   "no": 409,
+   "aday": "TEK MORFEMLİK İKİZ 20:24 ↔ 20:43: ٱذْهَبْ / ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ — beş kelimenin dördü birebir, değişen tek şey emrin sayısı (2MS → 2MD). Ölçüm: korpusta 3<=n<=12 aralığında tek kelimesi farklı ayet çifti 486; bunlardan farklı kelimenin AYNI KÖKTEN olduğu (yani salt çekim farkı) çift YALNIZ 25. 20:24-20:43 bu 25'ten biri, ve tek örneği aynı sûre içinde olan çiftlerden. Ayrıca 20:24 ile 79:17 TAM ikiz — aynı beş kelime korpusta üç kez: iki tekil, bir tesniye.",
+   "olculen": {
+    "tek_kelime_farkli_cift": 486,
+    "ayni_kok_cekim_farki": 25,
+    "bu_cift": [
+     [
+      20,
+      24
+     ],
+     [
+      20,
+      43
+     ]
+    ],
+    "kok": "ذهب",
+    "fark": "2MS→2MD",
+    "tam_ikiz": [
+     [
+      20,
+      24
+     ],
+     [
+      79,
+      17
+     ]
+    ],
+    "arada_ayet": 19,
+    "ara_olay": "20:29-32 kardeş istendi, 20:36 kabul edildi",
+    "ornekler": [
+     [
+      [
+       1,
+       2
+      ],
+      [
+       37,
+       182
+      ]
+     ],
+     [
+      [
+       7,
+       112
+      ],
+      [
+       26,
+       37
+      ]
+     ],
+     [
+      [
+       15,
+       35
+      ],
+      [
+       38,
+       78
+      ]
+     ],
+     [
+      [
+       17,
+       48
+      ],
+      [
+       25,
+       9
+      ]
+     ]
+    ]
+   },
+   "test": "25 çekim-farklı çiftin envanteri çıkarılacak: fark hangi dilbilgisel kategoride (sayı, şahıs, zaman, çatı)? Sayı farkı kaç kez? Ve çiftin iki üyesi arasındaki mesafe (aynı sûre / farklı sûre) dağılımı. 20:24-43 motive eden çifttir, envanterden DIŞLANIP kalan 24 üzerinde test kurulacak. Ayrıca ölçüm 3<=n<=12 penceresiyle sınırlı — pencere genişletildiğinde sayı değişebilir, tur sonunda yeniden koşulacak.",
+   "uyari": "ARANARAK BULUNDU — 20:43 okunurken 20:24 hatırlandı, ardından korpus tarandı."
+  },
+  {
+   "no": 410,
+   "aday": "RAB LAFZININ EN YOĞUN AYETİ FİRAVUN'UN AĞZINDA VE SORU İÇİNDE: 20:49 قَالَ فَمَن رَّبُّكُمَا يَٰمُوسَىٰ — rab z=5.01, sûrenin ve okumanın gördüğü en yüksek Rab yoğunluğu (n=4'te 1 geçiş). Ve lafız yine BAĞLI: رَبُّكُمَا, tesniye iyelik eki. Reddeden taraf erbâb'a düşmüyor. Sûre 20'de Rab 27 geçiş; 20:47'de iki kez رَبِّكَ olarak Firavun'a onun kendi Rabbi diye söyleniyor.",
+   "olculen": {
+    "ayet": [
+     20,
+     49
+    ],
+    "rab_z": 5.01,
+    "n": 4,
+    "konum": 3,
+    "konusan": "Firavun",
+    "edim": "nida",
+    "kip": {
+     "VOC": 1
+    },
+    "bicim": "رَبُّكُمَا (tesniye iyelik)",
+    "sure_rab": 27,
+    "20_47": "رَبِّكَ ×2, muhatap Firavun"
+   },
+   "test": "Rab lafzının KONUŞAN'a göre dağılımı: kaç geçiş anlatıcının, kaç geçiş inanan aktörün, kaç geçiş REDDEDEN aktörün ağzında? defter.json'un sah/bask ve قول-işaretli doğrudan söz alanları üzerinden korpus çapında kurulabilir. Hipotez adayı: reddeden ağızda Rab bağlı kalmaya devam ediyor, erbâb ise yalnız sahte-ilâh söyleminde. Bu, önceki 'Rab %99.4 bağlı' ölçümünün konuşan eksenine genişletilmesi.",
+   "uyari": "z=5.01 kısa ayet artefaktı olabilir: n=4'te tek geçiş yüksek yoğunluk verir. Test yoğunluk yerine HAM SAYI + konuşan ekseni üzerinden kurulacak."
+  },
+  {
+   "no": 411,
+   "aday": "VAHİY KÖKÜ SÛRE BOYUNCA HEP EDİLGEN: وحي *(vahiy)* sûre 20'de üç kez ve üçünde de fâil gramerde YOK — 20:13 لِمَا يُوحَىٰ · 20:38 أَوْحَيْنَآ … مَا يُوحَىٰٓ (aynı ayette etken 1P + edilgen) · 20:48 أُوحِىَ. Aynı örüntü karşılaşma anlarında da var: 20:11 نُودِىَ *(seslenildi)* ve 20:36 أُوتِيتَ *(sana verildi)*, ikisi de pas z=2.52. Sûrenin toplam edilgeni 16.",
+   "olculen": {
+    "vahiy_gecis": 3,
+    "hepsi_edilgen": true,
+    "ayetler": {
+     "20:13": "يُوحَىٰ",
+     "20:38": "أَوْحَيْنَآ + مَا يُوحَىٰٓ",
+     "20:48": "أُوحِىَ"
+    },
+    "diger_failsiz": {
+     "20:11": "نُودِىَ",
+     "20:36": "أُوتِيتَ",
+     "20:59": "يُحْشَرَ"
+    },
+    "sure_edilgen": 16,
+    "ism_i_fail": 21,
+    "ism_i_meful": 2
+   },
+   "test": "وحي kökünün korpus çapında çatı dağılımı: edilgen oranı kök ortalamasının neresinde? Ve sûre bazında — Tâhâ'nın %100 edilgen oranı korpus dağılımının neresinde duruyor (n=3, küçük örneklem uyarısı)? İkinci ölçüt: 'karşılaşma eşiği' ayetlerinde (çağrı, verme, gösterme) edilgen oranı, anlatı geneline göre yüksek mi? Bu ikincisi aktör tanımı gerektiriyor — tanım ÖN-KAYITLA sabitlenmeden ölçülmeyecek.",
+   "uyari": "n=3 çok küçük. Tek sûre üzerinden iddia kurulamaz; korpus geneline genişletilmeden kapatılmayacak."
+  },
+  {
+   "no": 412,
+   "aday": "TÂHÂ'NIN İKİNCİ YER-ÖNCE AYETİ 20:53 (403'ün ikinci örneği): ٱلْأَرْضَ … مِنَ ٱلسَّمَآءِ. Sûre 20, korpustaki 21 yer-önce ayetin İKİSİNİ birden barındıran üç sûreden biri (diğerleri: 2 → 2:22 ve 2:29; 6 → 6:6 ve 6:35; 14 → 14:38 ve 14:48; 35 → 35:40 ve 35:44). Yani 20 tek değil; ama 135 ayetlik bir sûrede iki örnek.",
+   "olculen": {
+    "taha_ornekler": [
+     [
+      20,
+      4
+     ],
+     [
+      20,
+      53
+     ]
+    ],
+    "korpus_arz_once": 21,
+    "korpus_sema_once": 203,
+    "iki_ornekli_sureler": [
+     2,
+     6,
+     14,
+     20,
+     35
+    ]
+   },
+   "test": "403 ile birlikte test edilecek; ayrı bir aday değil, 403'ün ikinci veri noktası. Sûre bazında yoğunlaşma anlamlı mı — Poisson beklentisi."
+  },
+  {
+   "no": 413,
+   "aday": "SÛRENİN TEK N-SINIFI FÂSILASI KIYIYA VURMA ANINDA: 20:78 fâsıla م, sınıf N — 135 ayetin tamamında tek. Dağılım: A 120 · ٓ 13 · H 1 (20:1, mukattaa) · N 1 (20:78). Yani sûrenin kafiye dizgesi iki yerde kırılıyor: açılış harfleri ve Firavun'un boğulduğu ayet. Ayette kök ikilemesi غشو *(bürüme, kaplama)* ×2: فَغَشِيَهُم … مَا غَشِيَهُمْ — olayın adı verilmiyor, kök kendini tekrarlayarak boş bırakıyor.",
+   "olculen": {
+    "ayet": [
+     20,
+     78
+    ],
+    "fasila": [
+     "غشيهم",
+     "م",
+     "N"
+    ],
+    "sure_dagilim": {
+     "A": 120,
+     "ٓ": 13,
+     "H": 1,
+     "N": 1
+    },
+    "H_ayet": [
+     20,
+     1
+    ],
+    "kafiye_kirik_z": 1,
+    "ikile": {
+     "غشو": 2
+    },
+    "n": 8,
+    "yildiz": 1
+   },
+   "test": "Kafiye kırılmasının anlatı olayıyla örtüşmesi test edilebilir mi? Ön-kayıtlı ölçüt: sûre içinde baskın kafiye sınıfından SAPAN ayetlerin konumu, anlatı dönüm noktalarıyla (ölüm, kurtuluş, hüküm) beklenenden sık mı çakışıyor? 'Dönüm noktası' tanımı ÖLÇÜMDEN ÖNCE sabitlenmeli — aksi hâlde post-hoc anlatı okuması olur. Ayrıca YAPILACAKLAR'daki 'ilk ayette kafiye kırılması tespiti bozuk' P0 borcu onarılmadan bu test kurulamaz.",
+   "uyari": "ARANARAK BULUNDU. 20:78 okunurken fâsıla sınıfı fark edildi, sonra sûre dağılımı sayıldı."
+  },
+  {
+   "no": 414,
+   "aday": "ÖLÇÜM ARTEFAKTI — ESMÂ LİSTESİ BAĞLAM AYIRMIYOR, SÛRE 20'DE BEŞ YANLIŞ POZİTİF: 20:71 كَبِير *(büyük)* — لَكَبِيرُكُمُ *(sizin büyüğünüz)*, iyelik ekli, mercii Mûsâ, Firavun'un ağzında · 20:75 ve 20:112 مُؤْمِن *(mü'min)* — hâl ve haber, mercii gelen/amel eden kişi · 20:125 بَصِير *(gören)* — كُنتُ بَصِيرًا *(ben görüyordum)*, mercii konuşan insan · 20:127 آخِر *(son)* — ٱلْءَاخِرَة *(âhiret)*, عَذَاب *(azap)*'ın muzâfun ileyhi. Sûre 20'nin esmâ sayımı 13 → 8. Ayrıca 20:47 سَلام *(selâm)* tartışmalı: selâmlama formülü, esmâ değil olabilir. Bu, OKUMA_STANDARDI'ndaki bilinen dört istisnanın (جَبَّار 5:22, بَرّ 5:96/6:59/6:97, عَلِيم 7:109/7:112) tek sûrede beş yeni vakayla genişlemesidir — yani hata seyrek değil, sistematik.",
+   "olculen": {
+    "yanlis_pozitif": [
+     [
+      20,
+      71,
+      "كَبِير"
+     ],
+     [
+      20,
+      75,
+      "مُؤْمِن"
+     ],
+     [
+      20,
+      112,
+      "مُؤْمِن"
+     ],
+     [
+      20,
+      125,
+      "بَصِير"
+     ],
+     [
+      20,
+      127,
+      "آخِر"
+     ]
+    ],
+    "tartismali": [
+     [
+      20,
+      47,
+      "سَلام"
+     ]
+    ],
+    "eski_esma_token": 13,
+    "duzeltilmis": 8,
+    "tartismali_dusulurse": 7,
+    "gercek_esma": [
+     [
+      5,
+      "رَحْمٰن"
+     ],
+     [
+      35,
+      "بَصِير"
+     ],
+     [
+      47,
+      "سَلام"
+     ],
+     [
+      82,
+      "غَفّار"
+     ],
+     [
+      90,
+      "رَحْمٰن"
+     ],
+     [
+      108,
+      "رَحْمٰن"
+     ],
+     [
+      109,
+      "رَحْمٰن"
+     ],
+     [
+      114,
+      "مَلِك"
+     ]
+    ],
+    "muhur": 0,
+    "cift": 0,
+    "onceki_bilinen_istisnalar": [
+     "جَبَّار 5:22",
+     "بَرّ 5:96/6:59/6:97",
+     "عَلِيم 7:109/7:112"
+    ],
+    "hata_orani_sure20": "5/13 = %38"
+   },
+   "test": "TUR SONU ONARIMI ZORUNLU. esma_listesi.json'a bağlam şartı eklenecek; ölçüt taslağı — bir esmâ lemması (a) iyelik ekliyse ve mercii insan aktörse, (b) hâl ya da haber konumundaysa ve öznesi insan ise, (c) başka bir adın muzâfun ileyhi ise (ٱلْءَاخِرَة gibi), (d) selâmlama/dua formülünün parçasıysa → esmâ SAYILMAZ. Ölçüt korpus geneline uygulanıp kaç token düştüğü ölçülecek. ARDINDAN esmâ tabanlı TÜM ölçümler yeniden koşulacak: mühür sayısı, esmâ çiftleri, sûre esmâ yoğunlukları, adaylar 373/401/407. Sûre 20'de hata oranı %38 — bu oran korpus geneline yakınsa esmâ tabanlı hiçbir önceki bulgu güvenilir değildir.",
+   "uyari": "BU BİR BULGU DEĞİL, ÖLÇÜM HATASI KAYDIDIR. Adaylar 401 ve 407 doğrudan ETKİLENİYOR; 373 (mühürsüz sûre ↔ Rab yoğunluğu) de esmâ sayımına dayandığı için yeniden kurulmalı. Beş vaka tek sûrede bulundu ve okuma sırasında art arda çıktı — arama yapılmadı, ayetler okundukça görüldü."
+  },
+  {
+   "no": 415,
+   "aday": "BÜYÜ KÖKÜ ALLAH EKSENİNİN EN ÇEPERİNDE, İFTİRA KÖKÜ EN YAKININDA — ve ikisi de aynı blokta: سحر *(büyü, sihir)* n=63, Allah'a medyan mesafe 51 kelime (rastgele ref 11) = UZAK; blokta 6 ayette geçiyor. فري *(uydurma, iftira)* n=60, medyan 5 = YAKIN. İki kök neredeyse aynı sıklıkta ama mesafeleri 10 kat farklı.",
+   "olculen": {
+    "سحر": {
+     "n": 63,
+     "med": 51
+    },
+    "فري": {
+     "n": 60,
+     "med": 5
+    },
+    "rastgele_ref": 11,
+    "sihir_ayetleri": [
+     63,
+     66,
+     69,
+     70,
+     71,
+     73
+    ],
+    "blok_diger_uzaklar": {
+     "لقف": 96,
+     "يمم": 67,
+     "يبس": 65,
+     "وجس": 59,
+     "جذع": 58,
+     "نخل": 58,
+     "صفف": 56
+    }
+   },
+   "test": "YÜKSEK ARTEFAKT RİSKİ — test edilmeden önce şu ayrıştırılacak: فري *(uydurma)* kökünün yakınlığı muhtemelen SÖZDİZİMSEL ZORUNLULUKTUR, semantik değil: افترى على الله kalıbında lafız fiilin mecrûrudur, yani bitişik olmak zorundadır. Aynı şey كذب *(yalanlama)* için geçerli değil (med=21) — bu fark ölçülecek. Ölçüt: her kök için, Allah lafzının o kökle aynı SÖZDİZİMSEL ÖBEKTE bulunma oranı; öbek-içi geçişler dışlanarak mesafe yeniden hesaplanacak. Ve konum-eşli null zorunlu. Bu yapılmadan 'iftira Allah'a yakın' demek, geri çekilen namaz-yakınlığı bulgusunun tekrarı olur.",
+   "uyari": "DÜZ NULL çıktısı. Sözdizimsel öbek düzeltmesi ve konum-eşli null yapılmadan iddia kurulamaz."
+  },
+  {
+   "no": 416,
+   "aday": "AYNI DİLBİLGİSEL ARAÇ, KARŞIT NESNE — أله KÖK İKİLEMESİ: sûre 20'de أله *(Allah; ilâh)* kökü 13 kez geçiyor ve dört ayette ikileniyor: 20:8 (×2) · 20:14 (×2) · 20:88 (×2) · 20:98 (×3). Üçü tevhid kalıbı لَآ إِلَٰهَ إِلَّا; dördüncüsü BUZAĞI için: هَٰذَآ إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ. Ve kalıbın en yoğun örneği (20:98, ×3) sahte örneğinden yalnız on ayet sonra.",
+   "olculen": {
+    "kok": "أله",
+    "sure_gecis": 13,
+    "gecis_dagilim": {
+     "8": 2,
+     "14": 2,
+     "61": 1,
+     "73": 1,
+     "88": 2,
+     "97": 1,
+     "98": 3,
+     "114": 1
+    },
+    "ikileme_ayetleri": [
+     8,
+     14,
+     88,
+     98
+    ],
+    "sahte": 88,
+    "en_yogun": 98,
+    "mesafe": 10
+   },
+   "test": "لَآ إِلَٰهَ إِلَّا kalıbının korpus envanteri (404 ile birlikte) ve ayrıca: أله kökünün SAHTE-İLÂH bağlamında ikilenme oranı, gerçek bağlamdaki oranla karşılaştırılacak. Ön-kayıtlı soru: ikileme aracı bağlamdan bağımsız mı kullanılıyor, yoksa sahte-ilâh söyleminde seyrekleşiyor mu? Sahte-ilâh bağlamı tanımı (erbâb, buzağı, putlar, ortak koşma) ÖLÇÜMDEN ÖNCE sabitlenecek.",
+   "uyari": "ARANARAK BULUNDU — 20:88 okunurken 20:8/20:14 hatırlandı, sonra sûre içi أله dağılımı sayıldı."
+  },
+  {
+   "no": 417,
+   "aday": "BUZAĞI SÖZLÜĞÜ ALLAH EKSENİNİN EN UÇLARINDA — YÜKSEK ARTEFAKT RİSKİ: 20:88'in üç kökü خور *(böğürme)* n=2 med=182 · سمر *(Sâmirî)* n=4 med=131 · جسد *(ceset, gövde)* n=4 med=125. Bunlar okuma boyunca ölçülen en yüksek medyan mesafeler (önceki en yüksek: لقف *(kapıp yutma)* 96, وكأ *(dayanma)* 88). Rastgele referans 11.",
+   "olculen": {
+    "خور": {
+     "n": 2,
+     "med": 182
+    },
+    "سمر": {
+     "n": 4,
+     "med": 131
+    },
+    "جسد": {
+     "n": 4,
+     "med": 125
+    },
+    "rastgele_ref": 11,
+    "onceki_en_yuksek": {
+     "لقف": 96,
+     "وكأ": 88,
+     "يمم": 67,
+     "يبس": 65
+    }
+   },
+   "test": "BU BİR BULGU DEĞİL, ARTEFAKT ADAYI. En az üç karışıklık var: (1) n=2..4, örneklem yok denecek kadar küçük; (2) bu kökler ağırlıklı olarak sûre 7 ve 20'nin Allah-SESSİZLİĞİ bölütlerinde geçiyor — mesafe, kökün kendisiyle değil bulunduğu bölütün lafız yoğunluğuyla belirleniyor; (3) düz null kullanıldı. Tur sonunda: konum-eşli null + bölüt-içi normalleştirme (aynı Allah-sessizliği içindeki köklerin mesafeleri kendi bölütlerine göre standartlaştırılacak). Bu üç düzeltme yapılmadan tek kelime iddia kurulmaz.",
+   "uyari": "n<15 üçü de. GERİ ÇEKİLEN namaz-yakınlığı ve Allah-gradyanı bulgularıyla AYNI hata sınıfında; azami dikkat."
+  },
+  {
+   "no": 418,
+   "aday": "SÛRENİN ÜÇ SORGUSU TEK KALIPTA, ÜÇ AYRI MUHATABA: 20:83 وَمَآ أَعْجَلَكَ عَن قَوْمِكَ يَٰمُوسَىٰ · 20:92 يَٰهَٰرُونُ مَا مَنَعَكَ · 20:95 فَمَا خَطْبُكَ يَٰسَٰمِرِىُّ. Üçü de مَا *(ne)* + 2MS zamir ekli öğe + münâdâ; üçü de edim olarak nida/soru; n = 5, 7, 4. Muhataplar: Mûsâ (17 geçiş), Hârûn (4), Sâmirî (3) — sûrenin üç adlı aktörü.",
+   "olculen": {
+    "ayetler": [
+     [
+      20,
+      83
+     ],
+     [
+      20,
+      92
+     ],
+     [
+      20,
+      95
+     ]
+    ],
+    "n": [
+     5,
+     7,
+     4
+    ],
+    "kalip": "مَا + 2MS + münâdâ",
+    "muhatap": [
+     "مُوسَى",
+     "هارُون",
+     "سامِرِيّ"
+    ],
+    "aktor_gecis": {
+     "مُوسَى": 17,
+     "هارُون": 4,
+     "سامِرِيّ": 3
+    },
+    "aralik": [
+     9,
+     3
+    ]
+   },
+   "test": "Sorgu kalıbının (soru edatı + 2. şahıs + münâdâ) korpus envanteri: üçlü kümeler halinde mi geliyor, yoksa dağınık mı? Ön-kayıtlı ölçüt: aynı sûre içinde bu kalıbın 3+ kez, farklı münâdâlarla geçtiği sûrelerin sayısı ve beklenen değeri (sûre uzunluğu ve münâdâ sayısı koşullu).",
+   "uyari": "ARANARAK BULUNDU — 20:95 okunurken 20:83 ve 20:92 hatırlandı."
+  },
+  {
+   "no": 419,
+   "aday": "KORPUSTA İKİ HAPAKS KÜMESİNDEN BİRİ TÂHÂ'NIN KIYAMET BÖLÜTÜ: 10 ayetlik pencerede 5+ hapaks-taşıyan ayet korpusta YALNIZ İKİ YERDE var — sûre 100 (Âdiyât) 1-10 ve sûre 20 (Tâhâ) 102-111. Sûre 100 toplam 11 ayet, yani kümenin kendisi sûrenin tamamı; Tâhâ 135 ayet, küme sûrenin %7'si. Beş hapaks: زرق *(gözü kararmış)* 102 · صفصف *(dümdüz ova)* 106 · أمت *(engebe, tümsek)* 107 · همس *(fısıltı)* 108 · عنو *(boyun eğme)* 111. Beşi de aynı ayetlerde ★★★ üretiyor: sûrenin 17 ★★★ ayetinden 5'i bu 10 ayette.",
+   "olculen": {
+    "pencere": 10,
+    "esik": 5,
+    "korpus_bulunan": [
+     [
+      100,
+      1,
+      10
+     ],
+     [
+      20,
+      102,
+      111
+     ]
+    ],
+    "sure_100_ayet": 11,
+    "sure_20_ayet": 135,
+    "taha_hapaks": {
+     "102": "زرق",
+     "106": "صفصف",
+     "107": "أمت",
+     "108": "همس",
+     "111": "عنو"
+    },
+    "taha_tum_hapaks_ayetleri": [
+     6,
+     12,
+     18,
+     39,
+     42,
+     94,
+     102,
+     106,
+     107,
+     108,
+     111,
+     124,
+     131
+    ],
+    "yildiz3_bu_pencerede": [
+     102,
+     106,
+     107,
+     108,
+     111
+    ],
+    "sure_yildiz3_toplam": 17
+   },
+   "test": "ÖN-KAYITLI: hapaks yoğunluğunun sûre-içi dağılımı düz mü? Ölçüt — her sûre için hapaks-taşıyan ayetlerin konumlarının, aynı sayıda ayetin rastgele dağılımına göre kümelenme istatistiği (Ripley K ya da en yakın komşu mesafesi). Pencere genişliği (10) ve eşik (5) POST-HOC seçildi; test ön-kayıtta pencere-bağımsız bir ölçüte çevrilecek. Ayrıca: hapaks kümeleri konu bölütüyle (kıyamet tasviri) ilişkili mi — 'konu' tanımı ölçümden önce sabitlenmeli.",
+   "uyari": "ARANARAK BULUNDU ve pencere/eşik post-hoc. Bu hâliyle bulgu değil; ön-kayıt taslağıdır."
+  },
+  {
+   "no": 420,
+   "aday": "İKİLİ-OLUMSUZLAMA TÂHÂ'NIN TEKRARLAYAN KALIBI — BEŞ KEZ: لَا/وَلَا + iki karşıt ya da tamamlayıcı terim. 20:52 لَّا يَضِلُّ … وَلَا يَنسَى *(ne şaşırır ne unutur)* — Rab · 20:74 لَا يَمُوتُ … وَلَا يَحْيَىٰ *(ne ölür ne yaşar)* — suçlu · 20:107 لَّا تَرَىٰ … عِوَجًۭا وَلَآ أَمْتًۭا *(ne eğrilik ne tümsek)* — arazi · 20:112 فَلَا يَخَافُ ظُلْمًۭا وَلَا هَضْمًۭا *(ne haksızlık ne eksiltme)* — mü'min · 20:118-119 dört terim iki ayete (açlık/çıplaklık, susuzluk/sıcak) — cennet. Beş farklı özne, tek yapı.",
+   "olculen": {
+    "ornekler": [
+     [
+      20,
+      52
+     ],
+     [
+      20,
+      74
+     ],
+     [
+      20,
+      107
+     ],
+     [
+      20,
+      112
+     ],
+     [
+      20,
+      118
+     ],
+     [
+      20,
+      119
+     ]
+    ],
+    "ozneler": [
+     "Rab",
+     "suçlu",
+     "arazi",
+     "mü'min",
+     "Âdem (cennet)"
+    ],
+    "sure_ayet": 135,
+    "20_118_119_ek": "aynı kalıp iki ayete yayılmış, toplam dört terim"
+   },
+   "test": "Kalıp tanımı ÖN-KAYITLA sabitlenecek: 'aynı ayette iki NEG işaretli ve aynı sözdizimsel konumdaki terim'. Sonra korpus çapında envanter ve sûre bazında yoğunluk; Tâhâ'nın 5 örneği 135 ayette beklenenin üstünde mi? defter.json'un kip alanındaki NEG sayacı üzerinden otomatikleştirilebilir ama 'aynı sözdizimsel konum' şartı morfolojiden türetilmeli.",
+   "uyari": "ARANARAK BULUNDU — 20:112 okunurken önceki dördü hatırlandı."
+  },
+  {
+   "no": 421,
+   "aday": "ÖLÇÜM HATASI DÜZELTMESİ (aynı oturumda): 20:73 ölçüm satırına 'sûrede lafzın ve Rab'ın aynı ayette bulunduğu TEK yer' yazılmıştı — YANLIŞ. Doğrusu İKİ yer: 20:73 ve 20:114. Sûre 20'de Allah lafzı 6 ayette (8, 14, 61, 73, 98, 114), Rab 24 ayette; kesişim {73, 114}. Kayıt düzeltildi.",
+   "olculen": {
+    "allah_ayetleri": [
+     8,
+     14,
+     61,
+     73,
+     98,
+     114
+    ],
+    "kesisim": [
+     73,
+     114
+    ],
+    "20_73": {
+     "A_konum": 12,
+     "R_konum": 3,
+     "n": 14
+    },
+    "20_114": {
+     "A_konum": 2,
+     "R_konum": 15,
+     "n": 17
+    }
+   },
+   "test": "Düzeltilmiş gözlem şu soruyu açıyor: iki ayette de lafız ve Rab TERS sırada duruyor — 20:73'te Rab önce (3) Allah sonra (12), 20:114'te Allah önce (2) Rab sonra (15). Korpus çapında ölçüt: aynı ayette hem lafza-i celâl hem Rab bulunan ayetlerin envanteri ve iki lafzın sıralaması. Bu sıralamanın söz edimiyle (kimin ağzından) ilişkisi test edilecek — 20:73 büyücülerin ikrarı, 20:114 anlatıcı + muhataba buyruk.",
+   "uyari": "BU BİR BULGU DEĞİL, ÖLÇÜM HATASI KAYDIDIR. Hata yazıldığı oturumda yakalandı ve düzeltildi."
+  },
+  {
+   "no": 422,
+   "aday": "SÛRE ÇERÇEVESİ — AÇILIŞ VE KAPANIŞ AYNI KÖKLERLE: (a) سوي *(denklik, düzlük)* kökü 20:5 ٱسْتَوَىٰ *(istivâ etti)* ile açılıyor, 20:135 ٱلصِّرَٰطِ ٱلسَّوِىِّ *(düz yol)* ile kapanıyor, ortada 20:58 مَكَانًۭا سُوًۭى *(düz bir yer)*. (b) شقو *(zahmet, bedbahtlık)* 20:2 (açılış olumsuzlaması) → 20:117 (yasağın sonucu) → 20:123 (kapanış hükmü) — sûrede yalnız üç geçiş. (c) هدي *(yol gösterme)* sûrenin SON kelimesi (وَمَنِ ٱهْتَدَىٰ) ve sûrede dört kez bir fiil dizisinin son terimi (20:50, 82, 122, 135).",
+   "olculen": {
+    "سوي": {
+     "gecis_sure": [
+      5,
+      58,
+      135
+     ],
+     "acilis": "ٱسْتَوَىٰ",
+     "kapanis": "ٱلسَّوِىِّ"
+    },
+    "شقو": {
+     "gecis_sure": [
+      2,
+      117,
+      123
+     ],
+     "korpus_n": 12,
+     "med": 52
+    },
+    "هدي": {
+     "sure_gecis": 8,
+     "dizi_sonu": [
+      50,
+      82,
+      122,
+      135
+     ],
+     "son_kelime": true
+    },
+    "sure_ayet": 135
+   },
+   "test": "ÖN-KAYIT GEREKİYOR ve artefakt riski yüksek: uzun bir sûrede herhangi bir kökün ilk ve son geçişinin 'çerçeve' gibi görünmesi rastlantıyla beklenir. Ölçüt şöyle sabitlenecek: sûrede n<=4 geçişli kökler için, geçişlerin ilkinin sûrenin ilk %5'inde VE sonuncusunun son %5'inde bulunma oranı; korpus geneli beklentisiyle karşılaştırılacak. شقو bu ölçüte uyuyor (2/135 ve 123/135), سوي uymuyor (5/135 ve 135/135 — sonuncusu uyuyor). هدي için ayrı ölçüt: bir kökün ايet-içi fiil dizisinde SON terim olma oranı, dizideki konum sayısına göre normalize.",
+   "uyari": "ARANARAK BULUNDU ve 'çerçeve' post-hoc bir okuma kalıbıdır. Ön-kayıtsız test edilemez."
+  },
+  {
+   "no": 423,
+   "aday": "20:123 — SAYI GEÇİŞİ AYET İÇİNDE, VE ٱهْبِطَا KORPUSTAKİ TEK TESNİYE 'İN' EMRİ. هبط *(inme, alçalma)* kökü korpusta 8 kez geçiyor; 7 emir kipinde: 2:36 · 2:38 · 2:61 · 7:24 = 2MP (çoğul), 7:13 · 11:48 = 2MS (tekil), 20:123 = **2MD (tesniye) — tek örnek**. Ve aynı ayette şahıs değişiyor: ٱهْبِطَا *(ikiniz inin, 2MD)* + ا *(2D)* → جَمِيعًۢا *(hepiniz)* → بَعْضُكُمْ *(2MP)* → يَأْتِيَنَّكُم *(2MP)*. Morfolojik dizi: D-D-P-P. Muhatap kümesi ayet içinde iki kişiden topluluğa GENİŞLİYOR ve genişleme noktası جَمِيعًۢا.",
+   "olculen": {
+    "hbt_gecis": 8,
+    "emir_2MP": [
+     [
+      2,
+      36
+     ],
+     [
+      2,
+      38
+     ],
+     [
+      2,
+      61
+     ],
+     [
+      7,
+      24
+     ]
+    ],
+    "emir_2MS": [
+     [
+      7,
+      13
+     ],
+     [
+      11,
+      48
+     ]
+    ],
+    "emir_2MD": [
+     [
+      20,
+      123
+     ]
+    ],
+    "20_123_dizi": "D(2)-D(3)-P(8)-P(17)",
+    "donum_kelimesi": "جَمِيعًۢا (6. token)",
+    "kok_med": {
+     "هبط": 96,
+     "جمع": 14,
+     "بعض": 10
+    },
+    "ayni_ayette_2MD_ve_2MP": 7,
+    "yedi_vaka": [
+     [
+      2,
+      125,
+      "PPDD"
+     ],
+     [
+      3,
+      122,
+      "PDD"
+     ],
+     [
+      4,
+      171,
+      "DDPPPPPPPPPP"
+     ],
+     [
+      5,
+      77,
+      "DDPPP"
+     ],
+     [
+      10,
+      87,
+      "DDDPPPPP"
+     ],
+     [
+      20,
+      123,
+      "DDPP"
+     ],
+     [
+      26,
+      15,
+      "DDP"
+     ]
+    ]
+   },
+   "test": "İki ayrı ön-kayıtlı soru. (1) Aynı ayette 2MD/2D ve 2MP birlikte bulunan 7 ayetin envanteri çıkarıldı; bunlarda geçiş YÖNÜ (D→P mi P→D mi) ve dönüm noktasındaki sözcük türü ölçülecek. Beş vaka D→P, biri P→D (2:125), biri karışık (3:122). D→P baskınlığı beklenen mi? (2) هبط emrinin sayı seçimi ile ayetin muhatap kümesi arasındaki ilişki: 2MP örneklerinde de بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ *(birbirinize düşman)* var mı? 2:36'da VAR, 2:38'de YOK. Yani 'çoğul emir + çoğul devam' ve 'tesniye emir + çoğul devam' aynı içerikle geliyor — sayı seçimi içerikten bağımsız değişiyor gibi görünüyor; bu ölçülecek. 26:15 (فَٱذْهَبَا … إِنَّا مَعَكُم) aynı D→P örüntüsünü Mûsâ-Hârûn bağlamında taşıyor ve 20:42-47 ile aynı sahneye ait — ayrı incelenecek.",
+   "uyari": "ARANARAK BULUNDU. Tesniye emrin 'kim' olduğu bir YORUM sorusudur; ölçüm yalnız şahıs eklerinin dizisini verir, muhatabın kimliğini vermez. Bu ayrım korunacak."
+  },
+  {
+   "no": 424,
+   "aday": "20:123 ↔ 2:38 — ORTAK ÇEKİRDEK, İKİ AYRI KUYRUK. İki ayet morfolojik olarak neredeyse eşleşiyor: 2:38 (30 token) قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ · 20:123 (31 token) قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۭ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ. ORTAK: فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَن …بَعَ هُدَاىَ — birebir. FARKLAR: (a) emir sayısı 2MP/2MD · (b) 2:38'de قُلْنَا *(dedik, 1P)*, 20:123'te قَالَ *(dedi, 3MS)* · (c) fiil BABI: 2:38 تَبِعَ **bab I**, 20:123 ٱتَّبَعَ **bab VIII** · (d) kuyruk: ikisi de ikili-olumsuzlama ama ayrı köklerle — خوف *(korku)*/حزن *(hüzün)* ↔ ضلل *(sapma)*/شقو *(bedbahtlık)*.",
+   "olculen": {
+    "2_38_token": 30,
+    "20_123_token": 31,
+    "ortak_dizi": "فإمّا يأتينّكم منّى هدى فمن …بع هداى",
+    "tbع_bab": {
+     "VF:1": 9,
+     "VF:8": 136,
+     "VF:4": 15
+    },
+    "tbع_bab1_ornekleri": [
+     [
+      2,
+      38
+     ],
+     [
+      2,
+      145
+     ],
+     [
+      3,
+      73
+     ],
+     [
+      7,
+      18
+     ],
+     [
+      14,
+      36
+     ],
+     [
+      17,
+      63
+     ],
+     [
+      38,
+      85
+     ]
+    ],
+    "kuyruk_2_38": [
+     "خوف",
+     "حزن"
+    ],
+    "kuyruk_20_123": [
+     "ضلل",
+     "شقو"
+    ],
+    "sqw_sure20": [
+     2,
+     117,
+     123
+    ]
+   },
+   "test": "(1) تبع *(uyma)* kökünün bab I hâli korpusta yalnız 9 kez, bab VIII 136 kez. Bab I örneklerinin (2:38, 2:145, 3:73, 7:18, 14:36, 17:63, 38:85, 2:263, 79:7) ortak bir sözdizimsel ya da bağlamsal özelliği var mı? Ön-kayıtlı ölçüt: bab I geçişlerinde mef'ûlün türü (هدى, ملّة, sapma) dağılımı. (2) Ortak çekirdek + farklı kuyruk kalıbı: korpusta 5+ token birebir paylaşan ama farklı biten ayet çiftlerinin envanteri. 409'daki 'tek kelimesi farklı' ölçümünün tamamlayıcısı — bu kez KISMİ örtüşme. 20:123-2:38 motive eden çifttir, envanterden dışlanacak.",
+   "uyari": "ARANARAK BULUNDU — 20:123 okunurken 2:38 xref'ten geldi."
+  },
+  {
+   "no": 425,
+   "aday": "20:124-125-126 — SORU BİR EKSENDE, CEVAP BAŞKA EKSENDE. أَعْمَىٰ *(kör olarak)* hâl konumunda (ACC) korpusta YALNIZ ÜÇ kez: 17:72 ve 20:124, 20:125. Yani ardışık iki ayette aynı hâl — korpusun bu biçimdeki üç örneğinden ikisi. 20:124 kökleri: عرض *(yüz çevirme)* · ذكر *(zikir)* · عيش *(geçim)* · ضنك *(darlık)* · حشر *(toplama)* · عمي *(körlük)*. 20:125 (soru) kökleri: قول · ربب *(Rab)* · حشر · عمي · كون · بصر *(görme)* — soru GÖRME ekseninde. 20:126 (cevap) kökleri: قول · أتي *(gelme)* · أيي *(âyet)* · نسي *(unutma)* ×2 · يوم — cevap BELLEK ekseninde. عمي ve بصر cevapta HİÇ geçmiyor; نسي ise soruda hiç geçmiyor. Eksen tam sınırda değişiyor.",
+   "olculen": {
+    "a3ma_ACC_korpus": [
+     [
+      17,
+      72
+     ],
+     [
+      20,
+      124
+     ],
+     [
+      20,
+      125
+     ]
+    ],
+    "20_124_kokler": [
+     "عرض",
+     "ذكر",
+     "عيش",
+     "ضنك",
+     "حشر",
+     "يوم",
+     "قوم",
+     "عمي"
+    ],
+    "20_125_kokler": [
+     "قول",
+     "ربب",
+     "حشر",
+     "عمي",
+     "كون",
+     "بصر"
+    ],
+    "20_126_kokler": [
+     "قول",
+     "أتي",
+     "أيي",
+     "نسي",
+     "يوم",
+     "نسي"
+    ],
+    "kesisim_125_126": [
+     "قول"
+    ],
+    "nsy_sure20": [
+     88,
+     115,
+     126,
+     126
+    ],
+    "nsy_20_126": "etken فَنَسِيتَهَا + edilgen تُنسَىٰ",
+    "med": {
+     "عمي": 16,
+     "بصر": 15,
+     "نسي": 22
+    }
+   },
+   "test": "ÖN-KAYIT: soru-cevap çiftlerinde kök örtüşmesi ölçülebilir mi? Ölçüt taslağı — قول *(söz)*-işaretli ardışık doğrudan söz ayetlerinde (soru ayeti → cevap ayeti), iki ayetin kök kümelerinin Jaccard mesafesi. Korpus dağılımı çıkarılıp 20:125→20:126 çiftinin nerede durduğuna bakılacak (burada Jaccard yalnız قول üzerinden, yani mesafe çok yüksek). Bu ölçüt 'cevap soruyu karşılıyor mu' sorusunun ÖLÇÜLEBİLİR karşılığıdır ve yorum gerektirmez. Aktör/söz-edimi katmanı gerekli — anlati_uretici.py'nin konuşan alanı kullanılacak.",
+   "uyari": "ARANARAK BULUNDU. Kök örtüşmesi 'cevap konuyu değiştiriyor' demenin ölçülebilir vekilidir, kendisi değil; bu ayrım korunacak."
+  },
+  {
+   "no": 426,
+   "aday": "MÜNÂDÂ رَبِّ *(Rabbim)* — SÛRE 20 KORPUSUN İKİNCİ EN YOĞUN SÛRESİ VE DÖRT AYRI AĞIZ. رَبِّ (ACC + 1S iyelik, nidâ) korpusta 34 kez. Sûre dağılımı: 3 → 6 · **20 → 4** · 71 → 4 · 5 → 3 · 7 → 3 · 19 → 3. Sûre 20'nin dördü: 20:25 (Mûsâ, duanın İLK kelimesi) · 20:84 (Mûsâ, cümle sonuna yakın) · 20:114 (muhataba buyrulan dua: رَّبِّ زِدْنِى عِلْمًۭا *(Rabbim ilmimi artır)*) · 20:125 (körün sorusu: رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ *(Rabbim beni niçin kör topladın)*). Yani aynı münâdâ dört kez: istek · gerekçe · buyrulan dua · İTİRAZ.",
+   "olculen": {
+    "korpus_toplam": 34,
+    "sure_dagilim": {
+     "3": 6,
+     "20": 4,
+     "71": 4,
+     "5": 3,
+     "7": 3,
+     "19": 3,
+     "2": 2
+    },
+    "sure20_ayetler": [
+     25,
+     84,
+     114,
+     125
+    ],
+    "sure20_islev": {
+     "25": "istek (dua açılışı)",
+     "84": "gerekçe",
+     "114": "buyrulan dua",
+     "125": "itiraz/soru"
+    },
+    "sure20_rab_toplam": 27,
+    "munada_orani": "4/27"
+   },
+   "test": "ÖN-KAYIT: münâdâ رَبِّ'nin ardından gelen SÖZ EDİMİ dağılımı korpus çapında çıkarılacak (emir/dua · soru · haber). Soru edimiyle gelen kaç örnek var? 20:125 gibi İTİRAZ biçimli olanlar seyrek mi? defter.json'un edim alanı bu ölçümü doğrudan verir. İkinci ölçüt: münâdâ رَبِّ taşıyan ayetlerde konuşanın kimliği (peygamber / diğer). 20:125'in konuşanı adsız ve olumsuz konumda — bu korpus içinde ne kadar seyrek?",
+   "uyari": "ARANARAK BULUNDU. 'İtiraz' bir işlev etiketidir, ölçüm değil; test yalnız söz edimi ve konuşan kimliği üzerinden kurulacak."
+  }
+ ],
+ "AB_enbiya": [
+  {
+   "no": 427,
+   "aday": "ENBİYÂ'NIN KAFİYESİ KIRILMASIZ: 112/112 ayet N sınıfı (ن 106 · م 6), tek istisna yok. Korpusta tek kafiye sınıfı olan 20+ ayetlik sûreler: 23 (118 ayet, N) · **21 (112, N)** · 18 (110, A) · 27 (93, N) · 54 (55, R) · 68 (52, N) · 83 (36, N) · 76 (31, A) · 48 (29, A) · 72 (28, A). Enbiyâ listenin ikinci en uzunu. Karşılaştırma: hemen önceki sûre Tâhâ 135 ayette DÖRT sınıf taşıyor (A 120 · ٓ 13 · H 1 · N 1) ve iki kırılması anlatı dönümlerinde (aday 413).",
+   "olculen": {
+    "sure": 21,
+    "ayet": 112,
+    "sinif": "N",
+    "fasila": {
+     "ن": 106,
+     "م": 6
+    },
+    "kirilma": 0,
+    "tek_sinifli_20plus": [
+     [
+      23,
+      118,
+      "N"
+     ],
+     [
+      21,
+      112,
+      "N"
+     ],
+     [
+      18,
+      110,
+      "A"
+     ],
+     [
+      27,
+      93,
+      "N"
+     ],
+     [
+      54,
+      55,
+      "R"
+     ],
+     [
+      68,
+      52,
+      "N"
+     ],
+     [
+      83,
+      36,
+      "N"
+     ],
+     [
+      76,
+      31,
+      "A"
+     ],
+     [
+      48,
+      29,
+      "A"
+     ],
+     [
+      72,
+      28,
+      "A"
+     ]
+    ],
+    "taha_karsilastirma": {
+     "ayet": 135,
+     "sinif_sayisi": 4,
+     "dagilim": {
+      "A": 120,
+      "ٓ": 13,
+      "H": 1,
+      "N": 1
+     }
+    }
+   },
+   "test": "413 ile BİRLİKTE test edilecek — ikisi aynı ölçütün iki ucu. Ön-kayıtlı soru: sûre uzunluğu koşullu olarak kafiye sınıfı ÇEŞİTLİLİĞİNİN dağılımı nedir? Ölçüt: her sûre için fâsıla sınıfı entropisi; uzunluğa göre regresyon; artıkların dağılımında 21 ve 23 (sıfır entropi, uzun) ile 20 (dört sınıf) nerede duruyor? Ve ikinci soru: sıfır-entropili uzun sûrelerin ortak bir özelliği var mı (Mekkî/Medenî, söz edimi profili, anlatı yoğunluğu)? Ardışık 18-21 aralığında iki sıfır-entropili sûre var (18 ve 21).",
+   "uyari": "Bu bir ÖLÇÜM, aranarak bulunmadı — makro profil zaten kafiye dağılımını veriyor. Ama korpus karşılaştırması arandı."
+  },
+  {
+   "no": 428,
+   "aday": "ENBİYÂ İKİ EKSENDE BİRDEN SEYREK — TÂHÂ'DAN FARKLI ÖRÜNTÜ: Enbiyâ Allah 6 geçiş (0.15x) · Rab 14 geçiş (0.94x) · A/R = 0.43. Tâhâ Allah 6 (0.13x) · Rab 27 (1.59x) · A/R = 0.22. İki sûre de Allah'ta aynı derecede düşük ama Tâhâ Rab'da telâfi ediyor, Enbiyâ etmiyor. Yani 'Allah düşükse Rab yükselir' diye bir tamamlayıcılık İKİ SÛRE ARASINDA GEÇERLİ DEĞİL. Bu, kayıtlı 'Allah ve Rab tamamlayıcı dağılım' bulgusunun sûre düzeyinde SINANMASI gereken bir karşı örnektir.",
+   "olculen": {
+    "21": {
+     "allah": 6,
+     "allah_kat": 0.15,
+     "rab": 14,
+     "rab_kat": 0.94,
+     "A_R": 0.43,
+     "kelime": 1169
+    },
+    "20": {
+     "allah": 6,
+     "allah_kat": 0.13,
+     "rab": 27,
+     "rab_kat": 1.59,
+     "A_R": 0.22,
+     "kelime": 1335
+    },
+    "50plus_en_dusuk_allah": [
+     [
+      77,
+      0.0,
+      0.0
+     ],
+     [
+      54,
+      0.0,
+      0.23
+     ],
+     [
+      56,
+      0.0,
+      0.62
+     ],
+     [
+      68,
+      0.0,
+      2.62
+     ],
+     [
+      55,
+      0.0,
+      8.08
+     ],
+     [
+      15,
+      0.09,
+      1.08
+     ],
+     [
+      43,
+      0.1,
+      1.23
+     ],
+     [
+      69,
+      0.11,
+      1.22
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT: sûre düzeyinde Allah-yoğunluğu ile Rab-yoğunluğu arasındaki korelasyon. Kayıtlı bulgu 'tamamlayıcı dağılım' AYET/BÖLÜT düzeyinde kurulmuştu; sûre düzeyinde geçerli mi? Ham veri şunu gösteriyor: 50+ ayetli sûrelerde Allah 0.00x olan beş sûrenin Rab katları 0.00 · 0.23 · 0.62 · 2.62 · 8.08 — yani hiçbir düzenlilik yok. Ölçüt: Spearman ρ (sûre düzeyi, n=114), kelime sayısına göre ağırlıklı. Beklenti negatif korelasyon; ham veri buna uymuyor gibi görünüyor — test edilecek. KONUM-EŞLİ NULL gerekmiyor çünkü bu iki oran arasındaki ilişki, mutlak mesafe değil.",
+   "uyari": "KARŞI ÖRNEK ADAYIDIR. Önceki bir bulguyu zayıflatabilir; bu yüzden testi tur sonunda ÖNCELİKLİ."
+  },
+  {
+   "no": 429,
+   "aday": "21:38'İN BEŞ TAM-AYET İKİZİ — OKUMADA GÖRÜLEN EN GENİŞ İKİZ KÜMESİ: 21:38 ↔ 10:48 · 27:71 · 34:29 · 36:48 · 67:25. Yani aynı ayet korpusta ALTI kez. Karşılaştırma: Tâhâ'nın tek ikizi vardı (20:24 ↔ 79:17, iki örnek). Ayrıca 21:41 ↔ 6:10. Sûre 21'de iki ikiz ayet var; biri altı örnekli.",
+   "olculen": {
+    "21_38_ikizler": [
+     [
+      10,
+      48
+     ],
+     [
+      27,
+      71
+     ],
+     [
+      34,
+      29
+     ],
+     [
+      36,
+      48
+     ],
+     [
+      67,
+      25
+     ]
+    ],
+    "kume_boyutu": 6,
+    "21_41_ikizler": [
+     [
+      6,
+      10
+     ]
+    ],
+    "taha_ikiz": {
+     "20:24": [
+      [
+       79,
+       17
+      ]
+     ],
+     "kume": 2
+    }
+   },
+   "test": "Korpus çapında tam-ayet ikiz KÜMELERİNİN boyut dağılımı: kaç ayet 2'li, 3'lü, 4+'lı kümede? 6'lık küme ne kadar seyrek? Ve ikinci soru: geniş kümelerin ayetleri kısa mı (n bağımlılığı)? defter.json'un esit alanı doğrudan veriyor; ölçüm okuma sırasında değil tur sonunda koşulacak. 21:38 okunmadan (21:21-40 bloğu) ayetin kendisi hakkında hüküm kurulmayacak.",
+   "uyari": "Makro profilden geldi, aranmadı. Ayet henüz OKUNMADI — yalnız ölçüm alanı kaydedildi."
+  },
+  {
+   "no": 430,
+   "aday": "ENBİYÂ AKTÖR DAĞILIMI YAYVAN, TÂHÂ'NINKİ TEPELİ: Enbiyâ 19 ayrı adlı aktör taşıyor (إِبْراهِيم ×4 · سُلَيْمان ×3 · جَهَنَّم ×2 · لُوط ×2 · داوُد ×2 · ve 14 ad birer kez) — okumanın en aktör-ÇEŞİTLİ sûresi. Tâhâ'da 13 ad vardı ama مُوسَى tek başına 17 geçişliydi, yani 43 geçişin %40'ı tek adda. Enbiyâ'da en yoğun ad 4 geçişli.",
+   "olculen": {
+    "21": {
+     "ad_sayisi": 19,
+     "en_yogun": [
+      "إِبْراهِيم",
+      4
+     ],
+     "toplam_gecis": 25,
+     "dagilim": {
+      "إِبْراهِيم": 4,
+      "سُلَيْمان": 3,
+      "جَهَنَّم": 2,
+      "لُوط": 2,
+      "داوُد": 2
+     }
+    },
+    "20": {
+     "ad_sayisi": 13,
+     "en_yogun": [
+      "مُوسَى",
+      17
+     ],
+     "toplam_gecis": 43
+    }
+   },
+   "test": "ÖN-KAYIT: sûre düzeyinde adlı aktör dağılımının konsantrasyonu (Gini ya da Herfindahl). Korpus dağılımı çıkarılıp Enbiyâ ve Tâhâ'nın konumu belirlenecek. İkinci ölçüt: aktör konsantrasyonu ile Allah-sessizliği uzunluğu ilişkili mi? Tâhâ'da 46 ayetlik sessizlik tek-aktörlü kıssayla örtüşüyordu (aday 402); Enbiyâ'nın yayvan dağılımı benzer bir sessizlik üretiyor mu — 21:21-112 okununca ölçülecek.",
+   "uyari": "Makro profilden geldi. Sûrenin geri kalanı okunmadan aktör-sessizlik ilişkisi kurulmayacak."
+  },
+  {
+   "no": 431,
+   "aday": "ARAÇ HATASI — anahtar_denetim.py'nin DÜZELTME ÖNERİLERİ KOŞUDAN KOŞUYA DEĞİŞİYOR. İhlâl SAYISI kararlı (her koşuda 58) ve ihlâl LİSTESİ kararlı; değişen şey önerilen 'korpustaki hâli'. Örnek: kavram_arac.py sat.47 ve sat.49'daki قيم anahtarı için öneri kimi koşuda قِيَم *(değerler)*, kimi koşuda قَيِّم *(dosdoğru, kayyim)* çıkıyor. Üç ardışık koşuda: قَيِّم · قِيَم · قَيِّم. PYTHONHASHSEED=0 ile sabitlendiğinde öneri kararlı hâle geliyor — yani neden Python'un koşu-başına rastgele string hash'i; betik korpus biçimlerini bir set/dict üzerinden tarıyor ve 'ilk eşleşen'i öneriyor, o ilk eşleşen de yineleme sırasına bağlı.",
+   "olculen": {
+    "ihlal_sayisi_kararli": 58,
+    "ihlal_listesi_kararli": true,
+    "degisen": "düzeltme önerisi metni",
+    "ornek": {
+     "dosya": "betikler/kavram_arac.py",
+     "satirlar": [
+      47,
+      49
+     ],
+     "anahtar": "قيم",
+     "oneriler": [
+      "قَيِّم",
+      "قِيَم"
+     ],
+     "uc_kosu": [
+      "قَيِّم",
+      "قِيَم",
+      "قَيِّم"
+     ]
+    },
+    "sabit_tohum": "PYTHONHASHSEED=0 → kararlı"
+   },
+   "test": "TUR SONU ONARIMI. Çözüm iki parçalı: (1) betikte korpus biçimleri sıralı bir yapıda (sorted list) tutulacak, böylece öneri deterministik olur; (2) tek öneri yerine TÜM aday biçimler sıklıklarıyla listelenecek — çünkü قيم örneğinde iki ayrı lemma da korpusta var (قِيَم ve قَيِّم farklı kelimeler) ve hangisinin kastedildiği bağlamdan belli. Ayrıca ciktilar/anahtar_denetim_raporu.txt taban dosyası PYTHONHASHSEED=0 ile yeniden üretilecek; aksi hâlde her oturumda 'taban ile aynı mı' karşılaştırması yanlış alarm veriyor.",
+   "uyari": "BU BİR BULGU DEĞİL, ARAÇ HATASI KAYDIDIR. OKUMA_STANDARDI zaten 'düzeltme önerileri körü körüne uygulanmaz' diyordu ve gerekçe olarak hamze-varyantı denemelerini gösteriyordu; şimdi ikinci ve daha sinsi bir gerekçe var: öneri metni koşuya bağlı. Okuma DURMADI — ihlâl sayısı ve listesi kararlı, yalnız öneri alanı oynak."
+  }
+ ],
+ "AC_gorme_soyleme": [
+  {
+   "no": 432,
+   "aday": "SÖYLEME ALANINDA İKİ KÖK KORPUS ORTALAMASININ ALTI-YEDİ KATI EDİLGEN: korpus tabanı 19.353 fiilde 1.151 edilgen = %5.95. تلو *(okuma, tilâvet)* 61 fiilde 24 edilgen = **%39.3** · وحي *(vahiy)* 72 fiilde 26 edilgen = **%36.1**. Karşılaştırma: قول *(söz söyleme)* %3.2 · رأي *(görme)* %1.6 · شهد *(şahitlik)* %0.0 · نطق *(konuşma)* %0.0. Yani metnin KENDİSİNİ adlandıran iki fiil, korpusun geri kalanından ayrılan bir çatı profili taşıyor.",
+   "olculen": {
+    "korpus_fiil": 19353,
+    "korpus_edilgen": 1151,
+    "korpus_oran": 5.95,
+    "تلو": {
+     "fiil": 61,
+     "pas": 24,
+     "oran": 39.3
+    },
+    "وحي": {
+     "fiil": 72,
+     "pas": 26,
+     "oran": 36.1
+    },
+    "ندي": {
+     "fiil": 45,
+     "pas": 7,
+     "oran": 15.6
+    },
+    "قرأ": {
+     "fiil": 17,
+     "pas": 2,
+     "oran": 11.8
+    },
+    "دعو": {
+     "fiil": 173,
+     "pas": 13,
+     "oran": 7.5
+    },
+    "كلم": {
+     "fiil": 24,
+     "pas": 1,
+     "oran": 4.2
+    },
+    "قول": {
+     "fiil": 1620,
+     "pas": 52,
+     "oran": 3.2
+    },
+    "نظر": {
+     "fiil": 107,
+     "pas": 6,
+     "oran": 5.6
+    },
+    "بصر": {
+     "fiil": 33,
+     "pas": 1,
+     "oran": 3.0
+    },
+    "رأي": {
+     "fiil": 315,
+     "pas": 5,
+     "oran": 1.6
+    },
+    "شهد": {
+     "fiil": 53,
+     "pas": 0,
+     "oran": 0.0
+    },
+    "نطق": {
+     "fiil": 11,
+     "pas": 0,
+     "oran": 0.0
+    }
+   },
+   "test": "Binom testi: her kök için gözlenen edilgen sayısı, korpus tabanı p=0.0595 altında beklenene göre. Bonferroni ile n=13 kök. UYARI — تلو ve وحي'nin yüksekliği KÖK-İÇİ KALIP etkisi olabilir: يُتْلَىٰ عَلَيْهِ *(ona okunur)* ve يُوحَىٰ إِلَيْهِ *(ona vahyolunur)* birer donmuş kalıp olabilir. Ölçüt: edilgen geçişlerin kaçı bu iki kalıpta? Kalıp içi geçişler dışlanınca oran ne oluyor? Bu düzeltme yapılmadan iddia kurulmaz. Sûre 20'de وحي üç geçişin üçü de edilgendi (aday 411, n=3 uyarısıyla) — bu aday onun korpus çapına genişletilmiş hâlidir ve 411'in n<15 uyarısını KALDIRIR.",
+   "uyari": "411'in genişletilmesi. Kalıp-içi/kalıp-dışı ayrımı yapılmadan kapatılmaz."
+  },
+  {
+   "no": 433,
+   "aday": "سمع → بصر → فأد ÜÇLÜSÜ ALTI AYETTE VE SIRA DEĞİŞMİYOR: 16:78 · 17:36 · 23:78 · 32:9 · 46:26 · 67:23. Altısında da sıra işitme → görme → gönül. Üstelik 46:26'da üçlü AYNI AYETTE İKİ KEZ geçiyor ve ikisinde de aynı sıra. Yani 7/7 sabit. İkili düzeyde de asimetri var: سمع ve بصر aynı ayette 37 kez; سمع önce 29, بصر önce 8 (%78). Ve bir SAYI asimetrisi: سَمْع *(işitme)* lemması 22 geçişin tamamında TEKİL; بَصَر *(göz, görüş)* 48 geçişin 38'inde ÇOĞUL (أَبْصَٰر), فُؤاد *(gönül)* 16 geçişin 10'unda ÇOĞUL (أَفْـِٔدَة). İşitme hiç çoğullanmıyor, öteki ikisi çoğullanıyor.",
+   "olculen": {
+    "uclu_ayetler": [
+     [
+      16,
+      78
+     ],
+     [
+      17,
+      36
+     ],
+     [
+      23,
+      78
+     ],
+     [
+      32,
+      9
+     ],
+     [
+      46,
+      26
+     ],
+     [
+      67,
+      23
+     ]
+    ],
+    "sira_sabit": "7/7 (46:26 iki kez)",
+    "ikili_toplam": 37,
+    "sem_once": 29,
+    "basar_once": 8,
+    "sayi": {
+     "سَمْع": {
+      "tekil": 22,
+      "cogul": 0
+     },
+     "بَصَر": {
+      "tekil": 10,
+      "cogul": 38
+     },
+     "فُؤاد": {
+      "tekil": 6,
+      "cogul": 10
+     }
+    }
+   },
+   "test": "İki ayrı ön-kayıtlı test. (1) SIRA: üç terimli sabit dizilerin korpus tabanı nedir? Rastgele bir üçlü için 6 olası sıra var; 7/7 sabit kalma olasılığı naif olarak (1/6)^6 ama bu YANLIŞ bir null — ayetler bağımsız değil (biri diğerinin kalıbı olabilir). Doğru null: korpustaki TÜM üç-terimli tekrarlayan kök dizilerinin sıra-sabitlik oranı; bu üçlü o dağılımın neresinde? (2) SAYI: سَمْع'in hiç çoğullanmaması, kökün gramatik özelliği mi (bazı mastarlar çoğullanmaz) yoksa seçim mi? Ölçüt — korpustaki benzer mastar-kalıplı organ/duyu adlarının tekil/çoğul dağılımı. Arapça dilbilgisi bilgisi gerektirir, ÖLÇÜM TEK BAŞINA YETMEZ; bu yüzden (2) 'açık soru' olarak kalır.",
+   "uyari": "ARANARAK BULUNDU. (1) için naif binom null GEÇERSİZ; doğru null kurulmadan sayı verilmez."
+  },
+  {
+   "no": 434,
+   "aday": "كلم *(söz, kelâm)* FİİLİ NEREDEYSE TAMAMEN BAB II: 24 fiil geçişinin 20'si bab II (كَلَّمَ/يُكَلِّمُ), 4'ü bab V (تَكَلَّمَ). Bab I (كَلَمَ) HİÇ YOK. Bab II geçişlerinin 12'sinde şahıs 3MS. Tek edilgen: 13:31 كُلِّمَ. Karşılaştırma: قول 1620 fiilin 1618'i bab I. Yani 'söylemek' için iki kök var ve biri yalın kalıbı hiç kullanmıyor: قول yalın, كلم yoğunlaştırılmış.",
+   "olculen": {
+    "كلم_fiil": 24,
+    "VF2": 20,
+    "VF5": 4,
+    "VF1": 0,
+    "pas": 1,
+    "VF2_3MS": 12,
+    "قول_fiil": 1620,
+    "قول_VF1": 1618,
+    "كلم_ayetler": [
+     [
+      2,
+      118
+     ],
+     [
+      2,
+      174
+     ],
+     [
+      2,
+      253
+     ],
+     [
+      3,
+      41
+     ],
+     [
+      3,
+      46
+     ],
+     [
+      3,
+      77
+     ],
+     [
+      4,
+      164
+     ],
+     [
+      5,
+      110
+     ],
+     [
+      6,
+      111
+     ],
+     [
+      7,
+      143
+     ],
+     [
+      7,
+      148
+     ],
+     [
+      11,
+      105
+     ],
+     [
+      12,
+      54
+     ],
+     [
+      13,
+      31
+     ],
+     [
+      19,
+      10
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      19,
+      29
+     ],
+     [
+      23,
+      108
+     ],
+     [
+      24,
+      16
+     ],
+     [
+      27,
+      82
+     ],
+     [
+      30,
+      35
+     ],
+     [
+      36,
+      65
+     ],
+     [
+      42,
+      51
+     ],
+     [
+      78,
+      38
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT: bab II'nin işlevi (yoğunlaştırma/geçişlilik) göz önüne alındığında, كلم'in yalın kalıbı hiç kullanmaması anlamlı mı? Ölçüt — korpusta yalnız tek bir babda geçen köklerin envanteri ve oranı; 24 geçişli bir kökün tek-bab kalması ne kadar seyrek? İkinci ölçüt: كلم'in bab II geçişlerinde ÖZNE kim? 12 tanesi 3MS; bunların kaçında aynı ayette Allah lafzı var (ölçüldü: كلم ayetlerinin %45.1'inde Allah lafzı var, korpus tabanı %29.2)? Özne belirleme aktör katmanı gerektirir.",
+   "uyari": "ARANARAK BULUNDU. Bab dağılımı ölçüm; 'işlev' yorumu bab teorisine dayanır ve ölçüm değildir."
+  },
+  {
+   "no": 435,
+   "aday": [
+    "DİKEY OKUMA ETİKETLERİ ÖLÇÜLDÜ — TABAN DÜZ DEĞİL, %14.4 KAT DEĞİŞİYOR. Ölçüt tanımı (dikey_oku.py sat.104-125): kökün her geçişi için, MUSHAF SIRASINDAKİ kelime akışında en yakın Allah lafzına MUTLAK KELİME MESAFESİ; sonra medyan. Referans: seed 42 ile 2000 rastgele kelimenin medyanı = 11. Etiket eşikleri 0.5x/0.85x/1.3x. SORUN: akış sûre ve ayet sınırlarını tanımıyor. Korpusu 20 dilime böldüğümde her dilimin KENDİ taban medyanı 5 ile 72 arasında değişiyor (14.4 kat). Yani bir kökün 'uzak' çıkması kökün kendisiyle değil, BULUNDUĞU BÖLGENİN lafız yoğunluğuyla belirlenebiliyor. KONUM-EŞLİ NULL ile yeniden hesapladım: n>=15 olan 469 kökün **154'ünün (%32.8) etiketi değişiyor**, 11'i yön değiştiriyor (UZAK↔yakın)."
+   ],
+   "olculen": {
+    "olcut": "mushaf akışında en yakın Allah lafzına mutlak kelime mesafesi, medyan",
+    "akis_kelime": 77429,
+    "allah_token": 2699,
+    "ortalama_aralik": 28.7,
+    "duz_referans": 11,
+    "korpus_geneli_medyan": 11,
+    "lafiz_arasi_bosluk": {
+     "medyan": 15,
+     "ortalama": 28.7,
+     "en_buyuk_10": [
+      1075,
+      808,
+      736,
+      617,
+      616,
+      506,
+      498,
+      477,
+      449,
+      447
+     ],
+     "en_buyuk_yerleri": [
+      [
+       "53:62→57:1",
+       1075
+      ],
+      [
+       "18:69→19:30",
+       808
+      ],
+      [
+       "17:39→17:92",
+       736
+      ],
+      [
+       "42:53→43:63",
+       617
+      ],
+      [
+       "25:71→26:89",
+       616
+      ],
+      [
+       "67:28→69:33",
+       506
+      ],
+      [
+       "14:51→15:69",
+       498
+      ],
+      [
+       "20:114→21:22",
+       477
+      ]
+     ]
+    },
+    "allahsiz_sure": {
+     "sayi": 29,
+     "liste": [
+      54,
+      55,
+      56,
+      68,
+      75,
+      77,
+      78,
+      80,
+      83,
+      86,
+      89,
+      90,
+      92,
+      93,
+      94,
+      97,
+      99,
+      100,
+      101,
+      102,
+      103,
+      105,
+      106,
+      107,
+      108,
+      109,
+      111,
+      113,
+      114
+     ],
+     "kelime": 2961,
+     "korpus_yuzde": 3.8
+    },
+    "on_dilim_medyan": [
+     7,
+     5,
+     12,
+     8,
+     14,
+     27,
+     17,
+     12,
+     18,
+     16
+    ],
+    "yirmi_dilim_medyan": [
+     9,
+     5,
+     5,
+     5,
+     10,
+     14,
+     5,
+     17,
+     10,
+     25,
+     72,
+     8,
+     32,
+     9,
+     14,
+     11,
+     15,
+     29,
+     7,
+     33
+    ],
+    "taban_orani": "min 5 · max 72 · 14.4x",
+    "etiket_degisimi": {
+     "n15_kok": 469,
+     "degisen": 154,
+     "yuzde": 32.8,
+     "yon_degistiren": 11
+    },
+    "ornek_duzeltmeler": {
+     "قرأ": {
+      "n": 88,
+      "duz": 25,
+      "esli_beklenti": 25,
+      "fark": 0,
+      "not": "UZAK etiketi TAMAMEN konum artefaktı"
+     },
+     "نطق": {
+      "n": 12,
+      "duz": 26,
+      "esli_beklenti": 29,
+      "fark": -3,
+      "not": "UZAK etiketi YANLIŞ YÖNLÜ; komşuluğuna göre YAKIN"
+     },
+     "جهر": {
+      "n": 16,
+      "duz": 11,
+      "esli_beklenti": 25,
+      "fark": -14,
+      "not": "nötr etiketi yanlış; gerçekte YAKIN"
+     },
+     "عين": {
+      "n": 65,
+      "duz": 44,
+      "esli_beklenti": 17,
+      "fark": 27,
+      "not": "UZAK etiketi AYAKTA"
+     },
+     "سحر": {
+      "n": 63,
+      "duz": 51,
+      "esli_beklenti": 25,
+      "fark": 26,
+      "not": "UZAK ayakta ama düz değer iki katı abartıyor"
+     },
+     "فري": {
+      "n": 60,
+      "duz": 5,
+      "esli_beklenti": 14,
+      "fark": -9,
+      "not": "YAPIŞIK ayakta; ama sözdizimsel kalıp uyarısı sürüyor (415)"
+     },
+     "خور": {
+      "n": 2,
+      "duz": 182,
+      "esli_beklenti": 72,
+      "fark": 110,
+      "not": "aday 417 — düz değer 2.5 kat abartıyor"
+     },
+     "سمر": {
+      "n": 4,
+      "duz": 131,
+      "esli_beklenti": 72,
+      "fark": 59
+     },
+     "جسد": {
+      "n": 4,
+      "duz": 125,
+      "esli_beklenti": 72,
+      "fark": 53
+     }
+    },
+    "ayet_ici_oran": {
+     "شهد": 52.5,
+     "فري": 65.0,
+     "كلم": 44.0,
+     "دعو": 43.9,
+     "جهر": 43.8,
+     "سمع": 41.1,
+     "بصر": 37.2,
+     "قول": 34.4,
+     "رأي": 32.9,
+     "نطق": 16.7,
+     "عين": 13.8,
+     "سحر": 4.8
+    }
+   },
+   "test": "ARTIK TEST DEĞİL, ONARIM. Üç iş: (1) dikey_oku.py'ye konum-eşli null eklenecek — her kökün beklenen mesafesi, geçişlerinin bulunduğu dilimlerin taban medyanından türetilecek; etiket bu beklentiye göre verilecek. Dilim genişliği ön-kayıtla sabitlenecek (20 dilim POST-HOC seçildi; duyarlılık analizi gerekiyor). (2) Okuma metnindeki TÜM dikey satırları (sûre 20: 135 ayet, sûre 21: 20 ayet) yeniden üretilecek; %32.8'lik değişim oranı, kayıtlı etiketlerin üçte birinin yanlış olduğu anlamına gelir. (3) İkinci bir ölçüt olarak 'en yakın Allah lafzı AYNI AYETTE Mİ' oranı eklenecek — bu, ayet sınırını tanıyan ve yorumu daha kolay bir ölçüttür. Ölçüldü: شهد %52.5 · فري %65.0 · قول %34.4 · نطق %16.7 · عين %13.8 · سحر %4.8.",
+   "uyari": "ÖLÇÜLDÜ VE DOĞRULANDI — bu artık şüphe değil, kayıtlı bir ARAÇ HATASIDIR. Okuma metnindeki dikey etiketlerin yaklaşık üçte biri konum artefaktıdır. SONUÇ: sûre 20 ve 21 kayıtlarındaki hiçbir dikey etiket, onarım yapılmadan alıntılanamaz. Adaylar 415 ve 417 doğrudan etkileniyor (ikisi de ayakta kalıyor ama büyüklükleri abartılmış). OKUMA DURMUYOR: dikey katman üretilmeye devam edecek, ama '_dikey_notu' uyarısı sertleştirildi."
+  },
+  {
+   "no": 436,
+   "aday": "قُلْ *(de ki)* — TEK BİR EMİR BİÇİMİ KORPUSTA 332 KEZ: قول kökünün 1620 fiil geçişinin 349'u emir, bunların **332'si 2MS tekil emir** yani قُلْ. Kökün kip dağılımı PERF 1006 · IMPF 265 · IMPV 349. Karşılaştırma: رأي *(görme)* 315 fiilde IMPF 206 · PERF 100 · IMPV yalnız 9. Yani söyleme kökü GEÇMİŞ ve BUYRUK ağırlıklı, görme kökü ŞİMDİ/GENİŞ zaman ağırlıklı.",
+   "olculen": {
+    "قول": {
+     "fiil": 1620,
+     "PERF": 1006,
+     "IMPF": 265,
+     "IMPV": 349,
+     "qul_2MS": 332
+    },
+    "رأي": {
+     "fiil": 315,
+     "PERF": 100,
+     "IMPF": 206,
+     "IMPV": 9
+    },
+    "بصر": {
+     "fiil": 33,
+     "VF4": 29
+    },
+    "نظر": {
+     "fiil": 107,
+     "VF1": 87
+    }
+   },
+   "test": "ÖN-KAYIT: kip dağılımının kök-anlam alanına göre değişip değişmediği. Ölçüt — duyu kökleri (بصر, رأي, نظر, سمع) ile söz kökleri (قول, كلم, دعو, تلو) arasında PERF/IMPF/IMPV oranlarının karşılaştırılması (ki-kare). UYARI: قُلْ'un 332 geçişi tek bir söylem-işaretleyicisi olabilir (hitap formülü); dahil edildiğinde IMPV oranını tek başına şişiriyor. Test hem قُلْ dahil hem hariç koşulacak.",
+   "uyari": "قُلْ dışlanmadan yapılan karşılaştırma yanıltıcıdır."
+  }
+ ],
+ "AD_hizalama": [
+  {
+   "no": 437,
+   "aday": "HİZALAMA ÖLÇÜMÜ — LAFZIN SOLU İLE SAĞI AYNI ŞEYLE DOLMUYOR. Yöntem: 2699 Allah lafzı geçişi merkeze hizalanıp üst üste bindirildi; her offset (-8..+8) için o konumdaki kökler sayıldı ve kökün genel sıklığından beklenene bölündü. SOL — lafzı YÖNETEN öğeler: صدد *(alıkoyma)* ×15.2 @-3 · كفي *(yeterlilik)* ×14.9 @-1 · دون *(başkası, dûn)* ×12.9 @-1 · فري *(iftira)* ×12.7 @-2 · حمد *(hamd)* ×9.5 @-1 · عبد *(kulluk)* ×3.2 @-1. Edat ve fiil çerçeveleri: مِن دُونِ ٱللَّه · كَفَىٰ بِٱللَّه · ٱفْتَرَىٰ عَلَى ٱللَّه · صَدَّ عَن سَبِيلِ ٱللَّه. SAĞ — lafza YÜKLENEN öğeler: عزز *(izzet)* ×9.0 @+1 · غفر *(bağışlama)* ×8.2 @+1 · خبر *(haberdar)* ×8.2 @+3 · وكل *(vekil)* ×7.7 @+1 · حكم *(hüküm, hikmet)* ×7.1 @+2 · رحم *(rahmet)* ×5.4 @+2 · علم *(ilim)* ×3.9 @+1. ÜÇÜNCÜ SINIF — düz: قول *(söz)* n=1722, tüm pencerede ~1.0, hiçbir konumda sapma yok. DÖRDÜNCÜ SINIF — pencerede yok: عين *(göz)* · سحر *(büyü)* · نطق *(konuşma)* neredeyse tamamen 0.",
+   "olculen": {
+    "yontem": "hizalama (pileup), ±8 kelime, zenginleşme = gözlenen/beklenen",
+    "lafiz": 2699,
+    "akis_kelime": 77429,
+    "kok_tasiyan": 50268,
+    "sol_zirveler": {
+     "صدد": [
+      15.2,
+      -3
+     ],
+     "كفي": [
+      14.9,
+      -1
+     ],
+     "دون": [
+      12.9,
+      -1
+     ],
+     "فري": [
+      12.7,
+      -2
+     ],
+     "حمد": [
+      9.5,
+      -1
+     ],
+     "عبد": [
+      3.2,
+      -1
+     ]
+    },
+    "sag_zirveler": {
+     "عزز": [
+      9.0,
+      1
+     ],
+     "غفر": [
+      8.2,
+      1
+     ],
+     "خبر": [
+      8.2,
+      3
+     ],
+     "وكل": [
+      7.7,
+      1
+     ],
+     "حكم": [
+      7.1,
+      2
+     ],
+     "رحم": [
+      5.4,
+      2
+     ],
+     "علم": [
+      3.9,
+      1
+     ]
+    },
+    "duz": {
+     "قول": "n=1722, ±8 boyunca 0.4-1.6, zirve yok"
+    },
+    "yok": {
+     "عين": 65,
+     "سحر": 63,
+     "نطق": 12
+    },
+    "yon_asimetrisi": {
+     "سرع": 3.0,
+     "غفل": 2.78,
+     "رفع": 2.5,
+     "أمم": 1.91,
+     "خلص": 1.89,
+     "فأي": 0.42,
+     "قصص": 0.43,
+     "جلد": 0.45,
+     "سنن": 0.48,
+     "جبل": 0.5
+    },
+    "merkeze_yapisik": {
+     "كفي": 2.91,
+     "رجو": 2.75,
+     "حدد": 2.75,
+     "خبر": 2.71,
+     "فري": 2.7,
+     "دون": 2.53,
+     "وكل": 2.36,
+     "وعد": 2.36,
+     "حمد": 2.36,
+     "عزز": 2.35,
+     "عبد": 2.26
+    }
+   },
+   "test": "ÖN-KAYIT GEREKİYOR. Bu ölçüm 435'teki konum artefaktından ETKİLENMEZ — her lafız kendi komşuluğuyla taşınıyor, taban değişkenliği hizalamada iptal oluyor. Üç test: (1) SOL/SAĞ: her kök için sol ve sağ toplamları, binom testi (p=0.5), n>=25, Bonferroni. (2) ZİRVE KONUMU: her kökün en zengin offseti rastgele mi? Permütasyon — lafız konumları korpusta rastgele kaydırılıp ölçüm 1000 kez tekrarlanacak. (3) KALIP ETKİSİ: sol zirvelerin kaçı donmuş kalıp? مِن دُونِ ٱللَّه tek başına kaç geçiş? Kalıp-içi geçişler dışlandığında zenginleşme ayakta mı? Bu ŞART — aksi hâlde ölçüm yalnız kalıp sayımı olur.",
+   "uyari": "YÖNTEM YENİ ve okuma sırasında geliştirildi. 20 kök İNCELENEREK seçildi; korpus çapında n>=25 olan tüm kökler için koşulmadan genelleme yapılamaz. Zenginleşme oranları ham, güven aralığı hesaplanmadı."
   }
  ]
 }

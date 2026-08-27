@@ -55,5 +55,6 @@
    "sonuc": "'Topluluk-muhatap yakın / birey-tasvir uzak' bulgusu permütasyon testinden GEÇTİ. Gradyanın çoğu çürürken (namaz/zulüm/adl nötr) bu zıtlık gerçek — sistematik, tesadüf değil.",
    "gramatik_baglanti": "nâs 'Ey insanlar!' (yâ eyyuhe'n-nâs) hitabında = atıfla tanımlı (yakın), hudûd/şirk gibi. insân 'insan nankördür' tasvirinde = bağımsız (uzak). Yakınlık yine gramatik-bağımlılıkla açıklanıyor."
   }
- }
+ },
+ "GECERLILIK_UYARISI_2026_08_26": "⚠ GEÇERLİLİK UYARISI (2026-08-26, aday 435): bu dosyadaki Allah-mesafesi sayıları ve/veya yakın-uzak sıralamaları DÜZ NULL ile üretilmiştir. bulgu_konum_esli_null.json (2026-08-05) düzeltmeyi zaten kural olarak yazmıştı, ancak dikey_oku.py ONARILMADI ve ölçümler düz null ile sürdü. 2026-08-26'da büyüklük ölçüldü: korpus 20 dilime bölündüğünde taban medyanı 5 ile 72 arasında değişiyor (14.4 kat); n>=15 olan 469 kökün 154'ünün (%32.8) etiketi konum-eşli null ile DEĞİŞİYOR, 11'i yön değiştiriyor. Bu dosyadaki ETİKETLER ve SIRALAMALAR onarım yapılmadan alıntılanamaz. Ham mesafe sayıları geçerlidir. Not: bulgu_konum_esli_null 'sıralama tutarlılığı 0.834' ölçmüştü — yani sıralama büyük ölçüde ayakta, kırılan şey EŞİK ETİKETLERİ."
 }

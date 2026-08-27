@@ -579,5 +579,6 @@
   }
  ],
  "okuma": "Konum düzeltmesinden sağ çıkan çekirdek: hudûd(1)→mağfiret*(6, sınır)→takvâ/ilim(6)→hidâyet(7) iç halka; Rab/tekzîb(23)→insân(43) dış halka. Metnin Allah-eksenindeki en sağlam yapısı hukuk/bilgi/yol kavramlarının yakınlığı ile Rab-alanı, vahiy-reddi ve insân'ın uzaklığıdır. İbadet kavramlarının (namaz, zekât) nötrlüğü v2'de de sürdü.",
- "dikkat": "Bu cetvel v1'i GEÇERSİZ KILAR; arayüz rozetleri ve ileriki analizler v2'den beslenmelidir. Düşen iddialar geri-çekme kaydıdır, silinmez."
+ "dikkat": "Bu cetvel v1'i GEÇERSİZ KILAR; arayüz rozetleri ve ileriki analizler v2'den beslenmelidir. Düşen iddialar geri-çekme kaydıdır, silinmez.",
+ "GECERLILIK_UYARISI_2026_08_26": "⚠ GEÇERLİLİK UYARISI (2026-08-26, aday 435): bu dosyadaki Allah-mesafesi sayıları ve/veya yakın-uzak sıralamaları DÜZ NULL ile üretilmiştir. bulgu_konum_esli_null.json (2026-08-05) düzeltmeyi zaten kural olarak yazmıştı, ancak dikey_oku.py ONARILMADI ve ölçümler düz null ile sürdü. 2026-08-26'da büyüklük ölçüldü: korpus 20 dilime bölündüğünde taban medyanı 5 ile 72 arasında değişiyor (14.4 kat); n>=15 olan 469 kökün 154'ünün (%32.8) etiketi konum-eşli null ile DEĞİŞİYOR, 11'i yön değiştiriyor. Bu dosyadaki ETİKETLER ve SIRALAMALAR onarım yapılmadan alıntılanamaz. Ham mesafe sayıları geçerlidir. Not: bulgu_konum_esli_null 'sıralama tutarlılığı 0.834' ölçmüştü — yani sıralama büyük ölçüde ayakta, kırılan şey EŞİK ETİKETLERİ."
 }
