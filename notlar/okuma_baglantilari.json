@@ -8535,6 +8535,269 @@
    "kural": "L2",
    "guven": "orta",
    "not": "سبح *(tesbih)* + ٱلَّيْل *(gece)* + ٱلنَّهَار *(gündüz)* üçlüsü buyruktan betime: وَسَبِّحْ … وَمِنْ ءَانَآئِ ٱلَّيْلِ … وَأَطْرَافَ ٱلنَّهَارِ *(tesbih et… gecenin saatlerinde… gündüzün uçlarında)* — muhataba emir ↔ يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ لَا يَفْتُرُونَ *(gece gündüz tesbih ederler, ara vermezler)* — başkalarının olgusu. İkincide kesintisizlik ayrıca ölçülüyor (فتر *(gevşeme)* olumsuz)."
+  },
+  {
+   "cift": [
+    "21:23",
+    "34:25"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI KÖKTEN ÇİFT EDİLGEN: سأل *(sorma, isteme)* iki kez, ikisi de edilgen, ikisi de عَمَّا *(-den ki)* + IMPF ile tümleçleniyor. 21:23 لَا يُسْـَٔلُ … وَهُمْ يُسْـَٔلُونَ *(sorulmaz… onlar sorulurlar)* asimetrik (olumsuz/olumlu); 34:25 لَّا تُسْـَٔلُونَ … وَلَا نُسْـَٔلُ *(siz sorulmazsınız… biz de sorulmayız)* simetrik (ikisi de olumsuz). xref vermedi — lemma 3-gramı tutmuyor, bağ elle kuruldu. (aday 439)"
+  },
+  {
+   "cift": [
+    "21:26",
+    "19:88"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TAM CÜMLE ALINTISI: وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا *(Rahmân çocuk edindi dediler)*. Meryem'de bu cümle ayetin TAMAMI (19:88, n=4); Enbiyâ'da aynı cümle ayetin ilk yarısı ve üzerine iki hamle biniyor: سُبْحَٰنَهُۥ *(O münezzehtir)* + بَلْ عِبَادٌۭ مُّكْرَمُونَ *(hayır, ikram edilmiş kullardır)*. Aynı söz, biri yalın biri cevaplı."
+  },
+  {
+   "cift": [
+    "21:30",
+    "21:19"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "İKİL GÖNDERGE ZİNCİRİ: 21:22'nin فِيهِمَآ *(o ikisinde)* zamiri ile 21:30'un كَانَتَا … فَفَتَقْنَٰهُمَا *(ikisi idi… onları ayırdık)* ikili morfolojisi aynı çifte dönüyor — سَّمَٰوَٰت وَٱلْأَرْض *(gökler ve yer)*, ilk kez 21:19'da adlandırılmış. Üç ayet boyunca gönderge adlandırılıp iki kez zamirle taşınıyor."
+  },
+  {
+   "cift": [
+    "21:33",
+    "21:20"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "AYNI KÖK, İKİ İŞ: سبح *(tesbih, tenzih; yüzme)* 21:20'de يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ *(gece gündüz tesbih ederler)* bab II ve ibadet anlamında; 21:33'te يَسْبَحُونَ *(yüzerler)* bab I ve hareket anlamında. İki ayet ayrıca ٱلَّيْل *(gece)* ve ٱلنَّهَار *(gündüz)* çiftini paylaşıyor — 21:20'de ACC zarf, 21:33'te ACC mef'ûl. Aynı iki kelime, ayrı sözdizimsel rol."
+  },
+  {
+   "cift": [
+    "21:39",
+    "21:40"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "DÜŞMÜŞ ŞART CEVABI: 21:39 لَوْ يَعْلَمُ *(bir bilselerdi)* ile açılıyor ve cevabı verilmeden bitiyor; 21:40 بَلْ *(hayır, bilakis)* ile açılıp aynı özneyi (o vakit, 3FS) devralıyor. İki ayet tek cümlenin iki parçası gibi çalışıyor: birincide üç olumsuzlama (لَا يَكُفُّونَ *(savamazlar)* · وَلَا · وَلَا يُنصَرُونَ *(yardım görmezler)*), ikincide iki olumsuzlama (لَا يَسْتَطِيعُونَ *(güç yetiremezler)* · وَلَا يُنظَرُونَ *(mühlet verilmez)*). Beş olumsuzlama iki ayete yayılıyor."
+  },
+  {
+   "cift": [
+    "21:41",
+    "6:10"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TAM-AYET İKİZİ: وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍۢ مِّن قَبْلِكَ … *(andolsun senden önceki elçilerle de alay edildi…)* — 21:41 ile 6:10 birebir aynı. Beş ayrı lemma 3-gramı da aynı ayete işaret ediyor; yani eşleşme parça parça değil bütün. Ayrıca 13:32 ile tek 3-gram ortak (استهزئ *(alay etme)* + رسل *(gönderme, elçi)* + قبل *(ön, önce; kabul)*)."
+  },
+  {
+   "cift": [
+    "21:42",
+    "21:33"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "ٱلَّيْل *(gece)* + ٱلنَّهَار *(gündüz)* ÇİFTİ, ÜÇÜNCÜ ROL: 21:20'de ACC zarf (tesbihin süresi), 21:33'te ACC mef'ûl (yaratılan nesne, yanında شمس *(güneş)* ve قمر *(ay)*), 21:42'de GEN mecrur (بـ ile, korumanın süresi). Çift hiç bozulmuyor, sıra hep aynı; değişen yalnız i'râb ve rol. (aday 445)"
+  },
+  {
+   "cift": [
+    "21:46",
+    "21:14"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "SÛRE İÇİ TEKRAR TAMAMLANDI: önceki blokta 21:14 ↔ 21:46 bağı önceden kaydedilmişti (قول *(söz söyleme)* + كون *(olmak)* + ظلم *(zulüm)* üçlüsü, يَٰوَيْلَنَآ إِنَّا كُنَّا ظَٰلِمِينَ *(eyvah bize, biz zalimmişiz)*). 21:46 şimdi okundu: aynı cümle, ama 21:14'te helâk ANINDA söyleniyor, 21:46'da azabın bir ESİNTİSİ dokunsa söylenecek — biri gerçekleşmiş, öteki şartlı. Dış bağ 7:5."
+  },
+  {
+   "cift": [
+    "21:51",
+    "21:48"
+   ],
+   "kural": "L3",
+   "guven": "yuksek",
+   "not": "AYNI AÇILIŞ KALIBI, ARDIŞIK İKİ VERME: وَلَقَدْ ءَاتَيْنَا *(andolsun verdik)* — 21:48'de مُوسَىٰ وَهَٰرُونَ *(Mûsâ ve Hârûn)*'a ٱلْفُرْقَان *(furkan)*, 21:51'de إِبْراهِيم *(İbrâhim)*'e رُشْد *(rüşd)*. İkisi de bir ayırt etme kabiliyeti adı. 21:51 ayrıca مِن قَبْلُ *(daha önce)* diyerek zamanı geriye alıyor: anlatı sırası ile zaman sırası ters."
+  },
+  {
+   "cift": [
+    "21:59",
+    "21:29"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "ٱلظَّٰلِمِينَ *(zalimler)* FÂSILASI ÜÇ AYRI AĞIZDA: 21:29'da hükmü veren sesin (كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ *(zalimleri böyle karşılarız)*), 21:46'da hükmü giyenlerin kendi itirafında (إِنَّا كُنَّا ظَٰلِمِينَ *(biz zalimmişiz)*), 21:59'da putperestlerin İbrâhim hakkındaki yanlış hükmünde (إِنَّهُۥ لَمِنَ ٱلظَّٰلِمِينَ *(o zalimlerden)*). Aynı kelime, üç konumda: hüküm veren · hüküm giyen · yanlış hüküm veren."
+  },
+  {
+   "cift": [
+    "21:67",
+    "21:66"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ARD ARDA AYNI KALIP: مِن دُونِ ٱللَّهِ *(Allah'ı bırakıp)* iki ayette üst üste, ikisi de İbrâhim'in ağzında ve ikisi de soru edimi. 21:66'da terkip bir kulluk sorusuna bağlı (أَفَتَعْبُدُونَ *(tapıyor musunuz)*), 21:67'de bir yakınmaya (أُفٍّۢ لَّكُمْ *(yazıklar olsun size)*). Sûrenin 6 Allah lafzından ikisi bu iki ayette. (aday 455)"
+  },
+  {
+   "cift": [
+    "21:65",
+    "21:63"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "FÂSILA İKİZİ, TERS İŞLEV: يَنطِقُونَ *(konuşurlar)* iki ayet arayla iki kez fâsıla. 21:63'te bir ŞARTIN ölçütü (إِن كَانُوا۟ يَنطِقُونَ *(konuşabiliyorlarsa)*), 21:65'te OLUMSUZLANAN bir bilgi (مَا هَٰٓؤُلَآءِ يَنطِقُونَ *(bunlar konuşmaz)*). Aynı kelime, biri sınamayı kuruyor öteki sınamanın sonucunu veriyor. Kök نطق *(konuşma, söz söyleme)* korpusta 12 geçişli."
+  },
+  {
+   "cift": [
+    "21:70",
+    "21:57"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI KÖK, TERS FÂİL: كيد *(tuzak, düzen)* 21:57'de İbrâhim'in fiili (لَأَكِيدَنَّ أَصْنَٰمَكُم *(putlarınıza tuzak kuracağım)*, 1S, yemin altında), 21:70'te karşı tarafın niyeti (وَأَرَادُوا۟ بِهِۦ كَيْدًۭا *(ona tuzak kurmak istediler)*, 3MP, isim hâlinde). Aynı kök on üç ayet arayla iki yönde. Dış bağ 37:98."
+  },
+  {
+   "cift": [
+    "21:79",
+    "21:74"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI VERİŞ İKİLİSİ, FARKLI DAĞITIM: ءَاتَيْنَا حُكْمًۭا وَعِلْمًۭا *(hüküm ve ilim verdik)* korpusta 4 ayette (12:22 · 21:74 · 21:79 · 28:14), ikisi bu sûrede beş ayet arayla. 21:74'te tek alıcı (Lût), 21:79'da وَكُلًّۭا *(her birine)* ile iki alıcıya dağıtılıyor. (aday 454)"
+  },
+  {
+   "cift": [
+    "21:78",
+    "21:56"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "ŞAHİTLİK İKİ AĞIZDA: شهد *(şahitlik)* kökü 21:56'da İbrâhim'in kendisi için (وَأَنَا۠ … مِّنَ ٱلشَّٰهِدِينَ *(ben de şahitlik edenlerdenim)*, 1S), 21:78'de anlatıcı sesi için (وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ *(hükümlerine şahittik)*, 1P). İkisi de ism-i fâil çoğul, ikisi de bir hüküm bağlamında. Ayrıca 21:61'de aynı kök muhataplara isteniyor (لَعَلَّهُمْ يَشْهَدُونَ *(belki şahitlik ederler)*, 3MP) — üç konumda üç şahit."
+  },
+  {
+   "cift": [
+    "21:71",
+    "21:50"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "AYNI NİTELİK, İKİ NESNE: برك *(bereket, mübarek kılma)* 21:50'de indirilen söz için (ذِكْرٌۭ مُّبَارَكٌ *(mübarek bir zikir)*, ism-i mef'ûl), 21:71'de bir mekân için (ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا *(bereketli kıldığımız yer)*, fiil + 1P). Biri söze biri toprağa, aynı kök."
+  },
+  {
+   "cift": [
+    "21:81",
+    "38:36"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "ARDIŞIK BÖLÜT İKİZİ: تَجْرِى بِأَمْرِهِۦ *(buyruğuyla akar)* korpusta yalnız bu iki ayette; her ikisinin ARDINDAN gelen ayet şeytanlara ve غوص *(dalma (suya))* köküne geçiyor (21:82 · 38:37) ve kök korpusta yalnız o iki yerde. Rüzgârın niteliği ters: عَاصِفَة *(fırtınalı)* / رُخَاء *(yumuşak)*. (aday 457)"
+  },
+  {
+   "cift": [
+    "21:87",
+    "68:48"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "KÜNYE KÖPRÜSÜ: ذَا ٱلنُّونِ *(balık sahibi)* ↔ صَاحِبِ ٱلْحُوتِ *(balık sahibi)*; ikisinde de ندي *(seslenme, nidâ)* fiili نَادَىٰ ve bir sıkıntı hâli. نون *(balık (nûn))* hapaks, حوت *(balık)* 5 geçişli. Kimlik korpusta AÇIK DEĞİL — çıkarım. (aday 458)"
+  },
+  {
+   "cift": [
+    "21:87",
+    "37:143"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "KURTULUŞUN GEREKÇESİ AYNI KÖKLE: 21:87 سُبْحَٰنَكَ *(seni tenzih ederim)* ve 37:143 كَانَ مِنَ ٱلْمُسَبِّحِينَ *(tesbih edenlerdendi)* — سبح *(tesbih, tenzih)*. Ayrıca 21:87 إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ *(zalimlerden oldum)* ↔ 37:142 وَهُوَ مُلِيمٌ *(kınanacak durumda)*. 21:86 fâsılası مِّنَ ٱلصَّٰلِحِينَ *(salihlerden)* ↔ 68:50 aynı ifade."
+  },
+  {
+   "cift": [
+    "21:82",
+    "34:12"
+   ],
+   "kural": "L2",
+   "guven": "yuksek",
+   "not": "AYNI SÖZDİZİMSEL KALIP, FARKLI AD VE FARKLI KAYITLAR: 21:82 وَمِنَ ٱلشَّيَٰطِينِ مَن يَغُوصُونَ *(şeytanlardan dalanlar)* ↔ 34:12 وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ *(cinlerden çalışanlar)* — ikisi de مِنْ ile parça bildiriyor, yani hepsi değil. 34:12 ayrıca iki kayıt taşıyor: بِإِذْنِ رَبِّهِۦ *(Rabbinin izniyle)* ve sapanlar için ceza; 21:82 ikisini de taşımıyor, yerine وَكُنَّا لَهُمْ حَٰفِظِينَ *(onları gözetenler bizdik)* koyuyor."
+  }
+ ],
+ "AB_hac": [
+  {
+   "cift": [
+    "22:15",
+    "40:37"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "GÖĞE ÇIKIŞ + KEYD: 22:15 بِسَبَبٍ إِلَى ٱلسَّمَآءِ *(göğe bir ip)* … كَيْدُهُۥ *(düzeni)*; 40:37 أَسْبَٰبَ ٱلسَّمَٰوَٰتِ *(göklerin sebepleri)* … وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ *(Firavun'un düzeni boşa çıkmaktan başka değil)*. Aynı iki kök (سبب *(sebep, uzatılan ip)* + كيد *(tuzak, düzen)*) aynı bağlamda. Üçüncü örnek 38:10 فَلْيَرْتَقُوا۟ فِى ٱلْأَسْبَٰبِ, yine lâmü'l-emr. (aday 460)"
+  },
+  {
+   "cift": [
+    "22:15",
+    "2:166"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "قطع *(kesme, parçalama)* + سبب *(sebep, uzatılan ip)* ikilisi korpusta iki yerde: 22:15 لْيَقْطَعْ … بِسَبَبٍ (emir, deney adımı) ve 2:166 وَتَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ *(bağları kesildi)* (edilgen, sonuç). Aynı iki kök, iki ayrı çatı."
+  },
+  {
+   "cift": [
+    "22:15",
+    "9:15"
+   ],
+   "kural": "L2",
+   "guven": "orta",
+   "not": "ذهب *(gitme; altın)* + غيظ *(öfke, gayz)* ikilisi korpusta iki yerde ve FÂİLLERİ TERS: 9:15 وَيُذْهِبْ غَيْظَ قُلُوبِهِمْ *(kalplerindeki öfkeyi giderir)* — fâil anlatıcı, gerçekleşmiş; 22:15 هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ — fâil bir insanın düzeni, soru biçiminde."
+  },
+  {
+   "cift": [
+    "22:17",
+    "5:69"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "TOPLULUK LİSTESİ: 5:69 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـُٔونَ وَٱلنَّصَٰرَىٰ *(iman edenler, Yahudi olanlar, Sâbiîler, Hıristiyanlar)* — dört grup; 22:17 aynı dört gruba مَجُوس *(Mecûsî)* ve ٱلَّذِينَ أَشْرَكُوا۟ *(ortak koşanlar)* ekliyor, altıya çıkarıyor. مجس korpusta HAPAKS. Aktör tablosu her iki ayette de yalnız isim biçimindekileri kaydediyor (aday 462)."
+  },
+  {
+   "cift": [
+    "22:76",
+    "21:28"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "BÖLÜT İKİZİ: يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ *(önlerindekini ve arkalarındakini bilir)* birebir aynı. 21:28'de meleklerin bilgi ve şefaat sınırını çiziyordu; 22:76'da elçi seçiminin (22:75) ardından geliyor ve edilgen bir dönüşle kapanıyor (تُرْجَعُ ٱلْأُمُورُ *(işler döndürülür)*)."
+  },
+  {
+   "cift": [
+    "22:74",
+    "22:40"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "MÜHÜR İKİZİ: قَوِيّ|عَزِيز *(kavî|azîz)* çifti sûrede iki kez ve iki ayet aynı fâsıla sınıfını paylaşıyor (ز — sûrede yalnız bu iki ayet). 22:40 sûrenin en bağlantılı ayeti (dış düğüm 9), 22:74 en yüksek lafız yoğunluğu (z=3,92)."
+  },
+  {
+   "cift": [
+    "22:75",
+    "22:61"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "MÜHÜR İKİZİ: سَمِيع|بَصِير *(semî'|basîr)* çifti sûrede iki kez. 22:61 yedi ardışık mühür kümesinin içinde, 22:75 kümenin dışında ve sûre kapanışına yakın."
+  },
+  {
+   "cift": [
+    "22:78",
+    "22:13"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "AYNI KELİME, TERS KALIP: مَوْلَى *(mevlâ)* 22:13'te yergi kalıbında (لَبِئْسَ ٱلْمَوْلَىٰ *(ne kötü mevlâ)*, göndergesi PUT — aday 444 yanlış pozitifi) ve 22:78'de övgü kalıbında (فَنِعْمَ ٱلْمَوْلَىٰ *(ne güzel mevlâ)*, göndergesi Allah — geçerli). Aynı lemma, aynı kalıp ailesi (بئس/نعم), iki karşıt gönderge — esmâ tablosunun bağlam ayırması gerektiğinin en temiz sûre-içi örneği."
+  },
+  {
+   "cift": [
+    "22:67",
+    "22:34"
+   ],
+   "kural": "L1",
+   "guven": "yuksek",
+   "not": "BÖLÜT İKİZİ: لِكُلِّ أُمَّةٍۢ جَعَلْنَا مَنسَكًۭا *(her ümmet için bir menâsik kıldık)*, 33 ayet arayla. 22:34 tevhide ve teslimiyete gidiyor (فَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ), 22:67 çekişmenin yasaklanmasına (فَلَا يُنَٰزِعُنَّكَ فِى ٱلْأَمْرِ). Aynı öncül, iki ayrı sonuç."
   }
  ]
 }

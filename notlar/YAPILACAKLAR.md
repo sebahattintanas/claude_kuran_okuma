@@ -440,3 +440,121 @@ diye yazılıydı. Artık BÜYÜKLÜĞÜ ÖLÇÜLDÜ ve borç P0'ın başına al
 
 **Okuma DURMUYOR.** Dikey katman üretilmeye devam eder; `_dikey_notu` uyarısı
 sertleştirildi ve etiketlerin alıntılanamayacağı yazıldı. Ham medyan sayıları geçerli.
+
+## 2026-08-27 — SÛRE 21 VE 22 TAM OKUNDU; DÖRT YENİ P0 BORCU
+
+Bu oturumda Enbiyâ (112/112) ve Hac (78/78) TAM okundu. Okunan ayet 1293 → 1463.
+Kök tablosu 720 → 880 (160 yeni karşılık, hepsi korpustan kopyalanmış anahtarla).
+Adaylar 437 → 464 (27 yeni). `anahtar_denetim.py` üç kez koşuldu, taban listesiyle
+birebir aynı kaldı (58 ihlâl, diff = 0).
+
+### P0-a — ESMÂ TABLOSU: HATA BÜYÜKLÜĞÜ ÖLÇÜLDÜ (aday 461; 414 ve 444 ile birleşti)
+
+Yukarıdaki "esmâ tespiti bağlama taşınacak" borcu artık SAYILARLA sabit:
+
+- Korpus esmâ token toplamı **2077**. En sık lemma `مُؤْمِن` ile **202 token = %9,7**.
+  `مُؤْمِن` ilâhî ad olarak korpusta YALNIZ 59:23'te geçiyor → **201/202 = %99,5 hata**.
+  Tek bir lemma esmâ tablosunun onda birini bozuyor.
+- Sûre bazında ölçülen hata oranı: sûre 20 **%38** · sûre 21 **%47** (17 tokenin 8'i
+  kesin yanlış, 2'si şüpheli) · sûre 22 **%29** (38 tokenin 11'i yanlış).
+- Sûre 22'nin oranının düşük olmasının sebebi ÖLÇÜLDÜ: bu sûrede esmâların çoğu
+  MÜHÜR konumunda ve mühür konumu bağlamı sabitliyor. **"Mühür konumu" onarım
+  ölçütlerine yeni bir sinyal olarak eklendi.**
+- TABLO ASİMETRİSİ: `مُؤْمِن` esma_listesi'nde VAR / pn_lemma_listesi'nde YOK;
+  `مُسْلِم` pn_lemma_listesi'nde VAR (tür 'kavim', 39 ayet) / esma_listesi'nde YOK.
+  İki tablo aynı anlam alanını ters yönde bölüyor.
+
+**Onarım ölçütleri (sûre 20-22 gözlemlerinden türetildi, altı test):**
+(a) gönderge testi — lemma lafza/Rab'be bağlanabiliyor mu;
+(b) çoğul testi — çoğul biçim esmâ maddesi olamaz (21:51, 21:81 `عالِم`);
+(c) sıfat testi — isim tamlamasında niteleyen konumda mı (`ضَلَٰلٍ مُّبِينٍ`, `رِزْقٌ كَرِيمٌ`);
+(d) çift-ucu testi — bir karşıtlık çiftinin ucu mu (`دنيا/آخرة`, `قريب/بعيد`);
+(e) yergi testi — yergi kalıbında mı (`لَبِئْسَ ٱلْمَوْلَىٰ`, 22:13);
+(f) yüklem testi — emir yükleminin parçası mı (`بَرْدًا وَسَلَامًا`, 21:69);
+(g) YENİ — mühür konumu testi: `esma_k.muhur == True` ise bağlam neredeyse her zaman geçerli.
+
+**Etki alanı:** sûre 1-22 arasındaki BÜTÜN makro profillerin esmâ sayımları bu hatayı
+taşıyor; onarım sonrası hepsi yeniden üretilecek. Esmâ tabanlı hiçbir bulgu kapatılamaz.
+
+### P0-b — DİKEY KATMAN LEMMA AYIRMIYOR (aday 452) — 435 İLE BİRLİKTE KOŞULACAK
+
+`dikey_oku.py` `kok=` ile çağrıldığında kökün BÜTÜN lemmalarını topluyor;
+`kok_anlam_tablosu.json`'daki ayrımı kullanmıyor. Somut vaka: 21:44'ün ▽ satırında
+`طرف` için "bakış-kısan ×564,8" görünüyor — kaynak `قَٰصِرَٰتُ ٱلطَّرْفِ` (37:48, 38:52,
+55:56) ve o lemma `طَرْف` *(bakış)*, oysa ayetin lemması `طَرَف` *(uç)*.
+Bu blokta görülen öteki karışımlar: `نهر` · `سبح` · `حبب` · `نور` · `ظلم` (21:87'de
+"karanlık" ve "zulüm" AYNI AYETTE) · `نسل` (korpusta 2-2 bölünüyor).
+
+**KRİTİK:** aday 435 (konum-eşli null) zaten 154+ dikey satırını yeniden ürettirecekti.
+Şimdi aynı satırların lemma tarafı da bozuk çıktı. **İkisi TEK GEÇİŞTE koşulmalı**,
+yoksa satırlar iki kez üretilir. `dikey_oku` zaten `kavram_ad=` parametresini destekliyor.
+
+### P0-c — JACKKNIFE KIRILGANLIĞI ÖLÇÜLDÜ (aday 451)
+
+`نقص` için "▸önce ömür ×156,1" katı YALNIZ İKİ ayetten geliyor (21:44 ve 35:11) ve
+o iki ayette `عمر` TERS rollerde (biri uzayan, biri eksiltilen). 35:11 çıkarılırsa
+geçiş 3→1 düşer, eşik altına iner, kat kaybolur.
+
+**Onarım:** `zenginlik()` her kavram için (a) katkıda bulunan AYRI AYET sayısını,
+(b) tek ayet çıkarıldığında katın düşüşünü raporlayacak. ×kat yanında "k ayet" zorunlu
+alan olacak. Eşik önerisi: **en az 3 AYRI ayetten gelmeyen zenginleşme yazılmayacak.**
+Onarım öncesi ölçülecek: mevcut satırlardaki kaç kayıt bu ölçütü geçemiyor?
+(Aynı sınıf: `قدس` ×118,3 vakası.)
+
+### P0-d — AKTÖR TABLOSU TASARIM KARARI (aday 462) — KARAR VERİLMEDİ
+
+`pn_lemma_listesi.json` 106 lemmayı sözlüksel eşleştiriyor (kisi 40 · yer 24 ·
+kavim 13 · sahte-ilah 10 · gayb 8 · diger 6 · kitab 4 · ilahi 1). Sıfat cümlesi,
+ism-i mevsûl ve fiil cümlesi hiç bakılmıyor. Somut tutarsızlık:
+
+- 22:17'de altı topluluk sayılıyor, ÜÇÜ kaydediliyor (`صابِئ` · `نَصْرانِيّ` · `مَجُوس`);
+  `ٱلَّذِينَ ءَامَنُوا۟` · `ٱلَّذِينَ هَادُوا۟` · `ٱلَّذِينَ أَشْرَكُوٓا۟` kaydedilmiyor.
+- Ama `يَهُود` ZATEN listede (tür 'kavim'): lemma biçimiyle geçtiği 8 ayette aktör
+  kaydediliyor (2:113 · 2:120 · 3:67 · 5:18 · 5:51 · 5:64 · 5:82 · 9:30), fiil biçimi
+  `هَادُوا۟` ile geçtiği 10 ayette kaydedilmiyor (2:62 · 4:46 · 4:160 · 5:41 · 5:44 ·
+  5:69 · 6:146 · 16:118 · 22:17 · 62:6). Aynı topluluk, ayrı muamele.
+- Künyeler de dışarıda: `ذَا ٱلْكِفْلِ` (21:85) ve `ذَا ٱلنُّونِ` (21:87) kaydedilmiyor;
+  `ٱلْمَسْجِدِ ٱلْحَرَامِ` (22:25) de terkip olduğu için kaydedilmiyor.
+
+**Üç seçenek, her biri ölçüm sonucunu değiştirir:**
+(a) DAR — topluluk adları çıkarılır, yalnız kişi/yer/gayb kalır. 22:17'de 3→0.
+(b) ORTA — topluluk adları kalır, fiil biçimleri de eşlenir (`هَادُوا۟` → `يَهُود`). 3→4.
+(c) GENİŞ — "inanç-topluluğu" ayrı tür açılır, ism-i mevsûl + fiil kalıpları da alınır. 3→6;
+    korpus etkisi çok büyük.
+
+**KARAR OKUMA SIRASINDA VERİLMEZ.** Karar verilene kadar aktör yoğunluğu
+KARŞILAŞTIRMALARI kullanılmayacak. Sûre 21 makro profilindeki "okumanın en aktör-yoğun
+sûresi" ifadesi bu karara BAĞIMLIDIR ve şimdilik GEÇİCİ sayılmalıdır.
+
+### P1 — QASEM ONARIMI GENİŞLEDİ (aday 443)
+
+`تَٱللَّهِ` yemin kalıbı korpusta 9 ayette (12:73 · 12:85 · 12:91 · 12:95 · 16:56 ·
+16:63 · 21:57 · 26:97 · 37:56) ve **0/9'u QASEM etiketi alıyor**. `تـ` Arapçada yalnızca
+yemin harfidir — yanlış pozitif riski sıfır olan bir desen tamamen kaçırılmış.
+Korpusta QASEM etiketi 71 ayette var, yani etiket ÇALIŞIYOR ama yemin harfleri
+(`وَ` · `بـ` · `تـ`) kapsam dışında. **Onarım morfoloji katmanından yapılmalı, kök listesinden değil.**
+
+### P1 — SÖZ EDİMİ: MUNKATI'A أَمْ (aday 438)
+
+Ayet başında `أَمْ` geçen 61 ayetin yalnız 4'ü INTG kipi taşıyor; 45'i düz "haber".
+Ayet-içi `أَمْ` (muttasıla, 62 ayet) AYRI etiketlenmeli — biri yeni soru açar,
+öteki seçenek bağlar. Onarım sonrası bütün söz-edimi dağılımları değişecek;
+onarım öncesi hiçbir söz-edimi bulgusu kapatılmayacak.
+
+### YENİ TARAMA İŞİ — BÖLÜT İKİZLERİ (adaylar 450, 456, 457)
+
+Sûre 21 ve 22 üç ardışık bölüt ikizi örneği verdi (21:41↔6:10 tam ayet ·
+21:81-82↔38:36-37 · 21:92-93↔23:52-53) ve sûre 22 dokuz sûre-içi bölüt ikizi.
+Artık tek başına bir iş kalemi:
+- Lemma n-gram taramasıyla korpustaki BÜTÜN 5+ kelimelik özdeş bölütler çıkarılacak.
+- Her çift için: bir sonraki ayetin de ortak lemma oranı ölçülecek.
+- Farklılaşan öğe hangi sınıftan (nitelik / muhatap / kapanış / imperatif) kodlanacak.
+- Null: aynı uzunlukta rastgele ayet çiftleri.
+
+### TERS NEDENSELLİK RİSKİ TAŞIYAN ADAYLAR — BİRLİKTE KURULACAK (453, 459)
+
+453: sûre 21'in 6 م-fâsılasının üçü `إِبْرَٰهِيم` adı.
+459: sûre 21'de `وصف` üç kez ve üçü de fâsıla (21:18 · 21:22 · 21:112).
+İkisinde de aynı sorun: kelime zaten sûrenin kafiyesine uyuyor. **"Kafiyeye uyduğu için
+mi oraya kondu, oraya konduğu için mi kafiye saptı" ayrımı yapılmadan İKİSİ DE kapatılamaz.**
+Test kafiye sınıfı SABİT tutularak kurulmalı.
