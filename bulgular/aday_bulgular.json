@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-27 — Hac TAM (78/78); adaylar 463-464",
+ "son_guncelleme": "2026-08-31 — aday 456 gecikmeli açıldı (numara boşluğu kapatıldı)",
  "okunan": {
   "sureler": [
    1,
@@ -7644,6 +7644,56 @@
    },
    "test": "ÖN-KAYIT. İki soru. (1) Ardışık ayetlerin xref hedeflerinin TEK bir sûrede toplanması ne kadar sık? Ölçüt: korpusun tamamı için 3+ ardışık ayetlik pencereler taranıp, her pencerenin xref hedeflerinin sûre-entropisi hesaplanacak; null = xref bağlantılarının rastgele yeniden bağlanması (derece dağılımı korunarak). (2) Mühür yoğunlaşması ile xref yoğunlaşması ilişkili mi? Ölçüt: mühür taşıyan ayet dizileri ile taşımayanlar arasında xref sûre-entropisi karşılaştırılacak. ÖN KOŞUL: aday 461'in esmâ onarımı yapılmadan mühür sayımı GÜVENİLMEZ; bu yüzden (2) onarım sonrasına ertelendi. MOTİVE EDEN PENCERE (22:61-65) DIŞLANIR.",
    "uyari": "Okuma sırasında beş ayetin xref alanları arka arkaya 31'i gösterince fark edildi — kısmen ARANARAK. UYARI: xref alanı lemma 3-gram eşleşmesine dayanıyor; sûre 31 ile sûre 22'nin ortak kalıpları paylaşması bir 'bağ' değil, ORTAK FORMÜL kullanımı olabilir. Donmuş kalıp ayrımı (aday 437) yapılmadan bu aday KAPATILAMAZ."
+  },
+  {
+   "no": 456,
+   "aday": "21:92-93 ↔ 23:52-53 — ARDIŞIK İKİ AYETLİK BÖLÜT İKİZİ, BİRİNCİSİ NEREDEYSE ÖZDEŞ. 21:92 إِنَّ هَٰذِهِۦٓ أُمَّتُكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَأَنَا۠ رَبُّكُمْ فَٱعْبُدُونِ *(bu tek bir ümmet olarak sizin ümmetinizdir; ben Rabbinizim, bana kulluk edin)* ile 23:52 وَإِنَّ هَٰذِهِۦٓ أُمَّتُكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَأَنَا۠ رَبُّكُمْ فَٱتَّقُونِ *(…benden sakının)* arasında YALNIZ İKİ FARK var: açılış edatı (إِنَّ / وَإِنَّ) ve kapanış imperatifi (فَٱعْبُدُونِ *(bana kulluk edin)* / فَٱتَّقُونِ *(benden sakının)*). Aradaki altı kelime birebir aynı. HEMEN ARDINDAN 21:93 ile 23:53 ortak bir AÇILIŞ paylaşıyor — فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ *(işlerini aralarında parça parça ettiler)* — ve sonra tamamen ayrılıyor: 21:93 كُلٌّ إِلَيْنَا رَٰجِعُونَ *(hepsi bize döner)*, 23:53 كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ *(her hizip kendi elindekiyle sevinir)*. Yani iki sûrede ARDIŞIK İKİ AYET: birincisi neredeyse özdeş, ikincisi yalnız açılışta ortak. AYRICA: 21:93'ün fiili bab V (تَقَطَّعُوا۟) ve sûre 21'de bab V taşıyan TEK ayet.",
+   "olculen": {
+    "cift_1": {
+     "ayetler": [
+      [
+       21,
+       92
+      ],
+      [
+       23,
+       52
+      ]
+     ],
+     "ortak_kelime": 6,
+     "farklar": {
+      "acilis": [
+       "إِنَّ",
+       "وَإِنَّ"
+      ],
+      "kapanis": [
+       "فَٱعْبُدُونِ",
+       "فَٱتَّقُونِ"
+      ]
+     }
+    },
+    "cift_2": {
+     "ayetler": [
+      [
+       21,
+       93
+      ],
+      [
+       23,
+       53
+      ]
+     ],
+     "ortak_acilis": "فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ",
+     "ayrilma": {
+      "21:93": "كُلٌّ إِلَيْنَا رَٰجِعُونَ",
+      "23:53": "كُلُّ حِزْبٍ بِمَا لَدَيْهِمْ فَرِحُونَ"
+     }
+    },
+    "21_93_bab": "V (sûre 21'de tek)",
+    "sinif": "ardışık bölüt ikizi (aday 450, 457 ile aynı sınıf)"
+   },
+   "test": "ÖN-KAYIT — ADAY 450'NİN GENEL BÖLÜT-İKİZİ TARAMASINA EKLENDİ. Bu, sınıfın EN GÜÇLÜ örneği: 450'de tek ayetlik bölüt, 457'de iki ayetlik kısmi paralel, burada iki ayetlik TAM dizi. Genel tarama soruları: (1) korpusta 5+ kelimelik özdeş bölüt taşıyan ayet çiftleri kaç tane? (2) Bunların kaçında BİR SONRAKİ ayet de ortak lemma taşıyor? (3) Farklılaşan öğe hangi sınıftan — bu vakada İKİSİ DE İMPERATİF (عبد *(kul, kulluk)* / وقي *(sakınma, takvâ)*), yani fark tam olarak buyruğun kendisinde. Null: aynı uzunlukta rastgele ayet çiftleri. MOTİVE EDEN ÜÇ ÇİFT (450, 456, 457) DIŞLANIR.",
+   "uyari": "Ölçüm katmanından geldi — 21:92 ve 21:93'ün xref alanları kendiliğinden 23:52 ve 23:53'ü gösterdi; ARANARAK BULUNMADI. UYARI: sûre 23 HENÜZ OKUNMADI; 23:52-53'ün kendi bağlamı okunmadan 'aynı öncül, iki ayrı buyruk' yorumu KURULAMAZ. Kayıt, sûre 23 okumasına devredildi. AYRICA bu kayıt oturum sırasında GECİKMELİ açıldı: okuma metninde 'aday 456' diye referanslanmış ama kaydı unutulmuştu (aynı hata 459'da da oldu) — DERS: metinde aday numarası verildiği anda kayıt AÇILMALI."
   }
  ],
  "AC_gorme_soyleme": [
