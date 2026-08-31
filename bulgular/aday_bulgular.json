@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-08-26 — hizalama ölçümü (aday 437)",
+ "son_guncelleme": "2026-08-27 — Hac TAM (78/78); adaylar 463-464",
  "okunan": {
   "sureler": [
    1,
@@ -33,9 +33,9 @@
    73,
    74
   ],
-  "ayet": 2176,
-  "korpus_yuzde": 34.9,
-  "not": "Sûre 20 TAM. Sûre 21 kısmi (1-20/112). Sûre 2 kısmi (1-20/286)."
+  "ayet": 2434,
+  "korpus_yuzde": 39.0,
+  "not": "Sûre 20, 21, 22 TAM. Sûre 2 kısmi (1-20/286)."
  },
  "A_onceki_oturum_69_74": [
   {
@@ -6212,6 +6212,1438 @@
    },
    "test": "TUR SONU ONARIMI. Çözüm iki parçalı: (1) betikte korpus biçimleri sıralı bir yapıda (sorted list) tutulacak, böylece öneri deterministik olur; (2) tek öneri yerine TÜM aday biçimler sıklıklarıyla listelenecek — çünkü قيم örneğinde iki ayrı lemma da korpusta var (قِيَم ve قَيِّم farklı kelimeler) ve hangisinin kastedildiği bağlamdan belli. Ayrıca ciktilar/anahtar_denetim_raporu.txt taban dosyası PYTHONHASHSEED=0 ile yeniden üretilecek; aksi hâlde her oturumda 'taban ile aynı mı' karşılaştırması yanlış alarm veriyor.",
    "uyari": "BU BİR BULGU DEĞİL, ARAÇ HATASI KAYDIDIR. OKUMA_STANDARDI zaten 'düzeltme önerileri körü körüne uygulanmaz' diyordu ve gerekçe olarak hamze-varyantı denemelerini gösteriyordu; şimdi ikinci ve daha sinsi bir gerekçe var: öneri metni koşuya bağlı. Okuma DURMADI — ihlâl sayısı ve listesi kararlı, yalnız öneri alanı oynak."
+  },
+  {
+   "no": 438,
+   "aday": "ARAÇ HATASI — SÖZ EDİMİ ETİKETLEYİCİSİ MUNKATI'A أَمْ *(yoksa)* SORUSUNU GÖRMÜYOR. Ayet başında أَمْ geçen 61 ayetin yalnız 4'ü kip alanında INTG taşıyor; 45'i düz 'haber' etiketli. Blokta iki örnek: 21:21 (أَمِ ٱتَّخَذُوٓا۟ *(yoksa edindiler mi)*, edim='haber') ve 21:24 (aynı açılış, edim='emir' — çünkü ayet içindeki قُلْ *(de ki)* baskın çıkıyor). Buna karşılık أَوَلَمْ *(görmediler mi)* (21:30) ve أَفَإِي۟ن *(peki… -se)* (21:34) INTG alıyor: yani hemze+edat birleşmeleri yakalanıyor, yalın أَمْ yakalanmıyor.",
+   "olculen": {
+    "ayet_basi_am": 61,
+    "kip_INTG_tasiyan": 4,
+    "edim_dagilimi": {
+     "haber": 45,
+     "emir+şart": 5,
+     "şart": 3,
+     "emir": 3,
+     "soru": 2,
+     "soru+emir": 1,
+     "yasak": 1,
+     "soru+emir+şart": 1
+    },
+    "ayet_ici_am_gecen_ayet": 62,
+    "blok_ornekleri": [
+     "21:21",
+     "21:24"
+    ]
+   },
+   "test": "TUR SONU ONARIMI + ÖLÇÜM. Onarım: defter4.py'nin edim/kip çıkarımına ayet-başı أَمْ (munkatı'a) kuralı eklenecek; ayrıca ayet-içi أَمْ (muttasıla, 62 ayet) AYRI etiketlenecek çünkü ikisi farklı işlev (biri yeni soru açar, öteki seçenek bağlar). Onarımdan SONRA ölçülecek soru: soru edimi düzeltildiğinde sûre 21'in söz edimi profili (haber 74 · soru 16) ne kadar kayıyor, ve korpus çapında 'soru' edimi kaç ayet artıyor? Bu, kayıtlı bütün söz-edimi dağılımlarını etkiler; onarım öncesi hiçbir söz-edimi bulgusu kapatılmayacak.",
+   "uyari": "ARANARAK BULUNDU — 21:21'in ölçüm satırında edim='haber' görülünce korpus tarandı. BU BİR BULGU DEĞİL, ARAÇ HATASI KAYDIDIR. Okuma DURMADI (OKUMA_STANDARDI: okuma sırasında araç değiştirilmez); etkilenen ayetlerin ölçüm satırına artefakt notu düşüldü."
+  },
+  {
+   "no": 439,
+   "aday": "21:23 ↔ 34:25 — AYNI KÖKTEN İKİ EDİLGEN, AYNI YAPI, İKİ AYET. Korpusta aynı ayette aynı kökün 2+ edilgen geçişi olan ayet-kök çifti 63 tane. سأل *(sorma, isteme)* bunlardan yalnız İKİSİNDE: 21:23 لَا يُسْـَٔلُ عَمَّا يَفْعَلُ وَهُمْ يُسْـَٔلُونَ *(O yaptığından sorulmaz, onlar sorulurlar)* ve 34:25 قُل لَّا تُسْـَٔلُونَ عَمَّآ أَجْرَمْنَا وَلَا نُسْـَٔلُ عَمَّا تَعْمَلُونَ *(de ki: bizim işlediğimizden siz sorulmazsınız, sizin yaptığınızdan da biz sorulmayız)*. Ortak yapı: olumsuz edilgen + عَمَّا *(-den ki)* + IMPF fiil, iki kez, şahıs değiştirerek. FARK: 21:23'te ikinci edilgen OLUMLU (sorulurlar), 34:25'te ikisi de olumsuz — yani biri asimetri kuruyor, öteki simetri.",
+   "olculen": {
+    "korpus_ayni_kok_2plus_edilgen": 63,
+    "sal_koku_ornekleri": [
+     [
+      21,
+      23
+     ],
+     [
+      34,
+      25
+     ]
+    ],
+    "21_23": {
+     "n": 6,
+     "pas": 2,
+     "z_pas": 3.48,
+     "zmn": {
+      "IMPF": 3
+     }
+    },
+    "34_25": {
+     "pas": 2
+    }
+   },
+   "test": "ÖN-KAYIT. İki ayrı soru: (1) 63 ayet-kök çiftinin kök dağılımı nedir — نزل *(indirme)* ve أتي *(gelme, getirme)* baskın görünüyor; سأل bu listede seyrek mi? Ölçüt: kökün korpustaki toplam edilgen sayısına göre beklenen çift sayısı, Poisson. (2) Bu 63 çiftin kaçında iki edilgenin POLARİTESİ farklı (biri olumsuz biri olumlu)? 21:23 bu alt kümede mi? Motive eden ayet 21:23 testten DIŞLANARAK kurulacak.",
+   "uyari": "ARANARAK BULUNDU — 21:23'ün pas=2 + ikile سأل ×2 ölçümü görülünce korpus tarandı. 34:25 bağı okuma sırasında elle kuruldu, xref vermedi (lemma 3-gram eşleşmiyor)."
+  },
+  {
+   "no": 440,
+   "aday": "İKİ HAPAKS TEK AYETTE — 21:30 LİSTE DEĞİL, KARŞIT ÇİFT. Korpusta 2+ hapaks kök taşıyan ayet yalnız 33 (%0,53; dağılım: 0 hapaks 5878 · 1 hapaks 325 · 2 hapaks 28 · 3 hapaks 3 · 4 hapaks 1 · 5 hapaks 1). Bu 33 ayetin çoğunda hapakslar AYNI ALANDAN BİR LİSTE oluşturuyor: 2:61 بصل *(soğan)*/بقل *(sebze)*/عدس *(mercimek)*/فوم *(sarımsak)*/قثأ *(hıyar)* · 6:143 ضأن *(koyun)*/معز *(keçi)* · 7:133 ضفدع *(kurbağa)*/قمل *(bit)* · 16:80 صوف *(yün)*/وبر *(tüy)*. 21:30'un رتق *(bitişik olma, ratk)* ve فتق *(ayırma, yarma (fatk))* çifti liste DEĞİL: aynı kalıptan (فَعْل) türeyen ve birbirinin karşıtı olan iki kelime, biri isim-durum biri fiil-eylem.",
+   "olculen": {
+    "hapaks_sayisi_dagilimi": {
+     "0": 5878,
+     "1": 325,
+     "2": 28,
+     "3": 3,
+     "4": 1,
+     "5": 1
+    },
+    "iki_plus_hapaks_ayet": 33,
+    "oran": 0.0053,
+    "21_30": {
+     "hapaks": [
+      "رتق",
+      "فتق"
+     ],
+     "z_hapaks": 6.98,
+     "n": 18
+    },
+    "liste_tipi_ornekler": [
+     [
+      2,
+      61
+     ],
+     [
+      6,
+      143
+     ],
+     [
+      7,
+      133
+     ],
+     [
+      16,
+      80
+     ],
+     [
+      5,
+      3
+     ],
+     [
+      22,
+      27
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT. Ölçüt: 33 ayetin her biri için hapaks çiftinin (a) aynı semantik alanda liste mi, (b) karşıt/tamamlayıcı çift mi, (c) ilgisiz mi olduğu SINIFLANDIRILACAK — sınıflandırma kör yapılacak (ayet numarası gizli, yalnız kök çifti + kalıp verilecek). Sonra soru: karşıt-çift sınıfı beklenenden sık mı? Null: iki hapaks bir ayette rastgele buluşuyorsa karşıtlık oranı korpusun genel karşıt-kök oranına eşit olmalı. Motive eden ayet 21:30 sınıflandırmadan DIŞLANIR.",
+   "uyari": "ARANARAK BULUNDU — 21:30'un hapaks z=6.98 ölçümü görülünce korpus tarandı. 'Karşıt çift' sınıflandırması YORUMDUR, ölçüm değildir; kör sınıflandırma olmadan sayılamaz."
+  },
+  {
+   "no": 441,
+   "aday": "21:22 — SÛRENİN TEK LAFIZ+RAB AYETİ, İKİ UZUN SESSİZLİK ARASINDA TEK TEPE. Enbiyâ'nın 6 Allah lafzı 5 ayete dağılmış (22, 57, 66, 67, 98); 21:22 tek başına İKİ lafız taşıyor (ayet-içi 6. ve 9. sıra) ve sûrenin 14 Rab geçişinden biriyle aynı ayette bulunuyor — sûrede lafız ile Rab'ın birlikte geçtiği BAŞKA ayet yok. Konum: öncesinde 21 ayetlik lafız-sessizliği (21:1-21), sonrasında 34 ayetlik lafız-sessizliği (21:23-56). KARŞILAŞTIRMA: Tâhâ'da lafız+Rab birlikteliği İKİ ayette vardı (20:73, 20:114 — aday 421 düzeltmesi).",
+   "olculen": {
+    "sure_21_allah_ayetleri": [
+     22,
+     57,
+     66,
+     67,
+     98
+    ],
+    "sure_21_allah_token": 6,
+    "21_22": {
+     "A_konum": [
+      6,
+      9
+     ],
+     "R": [
+      "رَبّ"
+     ],
+     "n": 13,
+     "z_allah": 2.55
+    },
+    "onceki_sessizlik": 21,
+    "sonraki_sessizlik": 34,
+    "sure_21_rab_token": 14,
+    "taha_lafiz_rab_birlikte": [
+     [
+      20,
+      73
+     ],
+     [
+      20,
+      114
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT (aday 428 ve 402 ile BİRLİKTE). Soru: lafız-sessizliği aralıklarının uzunluk dağılımı verildiğinde, tek bir ayette YIĞILMIŞ lafız (bir ayette 2+ token) uzun sessizliklerin sınırında bulunma eğiliminde mi? Ölçüt: korpustaki 2+ lafızlı ayetlerin her biri için önündeki ve arkasındaki sessizlik uzunlukları; null = lafız konumları permüte edilmiş (KONUM-EŞLİ, düz değil — aday 435). Motive eden ayet 21:22 dışlanır.",
+   "uyari": "Ölçüm katmanından geldi (makro profil + blok kapanışı); sessizlik uzunlukları hesaplanarak bulundu — kısmen ARANARAK. Sûrenin geri kalanı (21:41-112) okunmadan sessizlik yapısı hakkında hüküm kurulmayacak."
+  },
+  {
+   "no": 442,
+   "aday": "شمس *(güneş)* ↔ قمر *(ay)* ZENGİNLEŞMESİ ÇİFT YÖNLÜ VE NEREDEYSE SİMETRİK. 21:33'ün dikey katmanından: شمس (n=33) için ▸sonra قمر ×129,3; قمر (n=27) için ▸önce شمس ×129,1. İki yön arasındaki fark %0,15. Karşılaştırma için aynı ayetin öteki çifti asimetrik: ليل *(gece)* ▸sonra نهر *(ırmak; gündüz)* ×60,3 ama نهر ▸önce girdirme ×67,1 (gece değil). Yani cisim çifti kilitli, süre çifti tek yönlü.",
+   "olculen": {
+    "sems_sonra_kamer": 129.3,
+    "kamer_once_sems": 129.1,
+    "fark_yuzde": 0.15,
+    "n_sems": 33,
+    "n_kamer": 27,
+    "leyl_sonra_nehar": 60.3,
+    "kaynak_ayet": "21:33"
+   },
+   "test": "ÖN-KAYIT + JACKKNIFE ZORUNLU. (1) Jackknife: ×129 katı tek bir donmuş kalıbın (وَٱلشَّمْسَ وَٱلْقَمَرَ *(güneşi ve ayı)*) ürünü mü? Her geçiş sırayla çıkarılıp kat yeniden hesaplanacak; قدس ×118,3 vakasında (aday kaydı) tek kolokasyonun bütün katı sürüklediği görülmüştü — aynı risk burada. (2) Simetri ölçütü: korpustaki bütün kavram çiftleri için önce/sonra kat oranı hesaplanıp |log(kat_ileri/kat_geri)| dağılımı çıkarılacak; شمس/قمر çiftinin bu dağılımdaki yeri belirlenecek. (3) AYRICA aday 437 (hizalama kalıp ayrımı) ile birlikte ele alınacak — donmuş kalıp ayrımı yapılmadan simetri iddiası kurulamaz.",
+   "uyari": "Ayetin KENDİ dikey katmanından geldi, ayrıca aranmadı. Ama iki yönü KARŞILAŞTIRMAK bir seçimdir; simetri gözlemi jackknife'sız alıntılanamaz. 'Kilitli çift' ifadesi YORUMDUR."
+  },
+  {
+   "no": 443,
+   "aday": "ARAÇ HATASI — QASEM ETİKETİ تَٱللَّهِ *(Allah'a yemin olsun)* YEMİN KALIBINI HİÇ YAKALAMIYOR. Korpusta وَتَٱللَّهِ/تَٱللَّهِ kalıbı 9 ayette geçiyor: 12:73 · 12:85 · 12:91 · 12:95 · 16:56 · 16:63 · 21:57 · 26:97 · 37:56. Bu 9 ayetin HİÇBİRİ defter5.py'nin QASEM etiketini almıyor (0/9). Oysa تَـ Arapçada yalnızca yemin harfidir — başka işlevi yok, yani yanlış pozitif riski sıfır olan bir desen. Buna karşılık defter5 korpusta 71 ayete QASEM veriyor; yani etiket VAR ama بـ/تـ yemin harflerinden en az biri kapsam dışında. 21:57'de kip alanı EMPH ×2 gösteriyor (yemin lâmı + te'kid nûnu yakalanmış) ama biçim alanı BOŞ — yani te'kid görülüyor, yeminin kendisi görülmüyor.",
+   "olculen": {
+    "tallahi_ayet": 9,
+    "ayetler": [
+     [
+      12,
+      73
+     ],
+     [
+      12,
+      85
+     ],
+     [
+      12,
+      91
+     ],
+     [
+      12,
+      95
+     ],
+     [
+      16,
+      56
+     ],
+     [
+      16,
+      63
+     ],
+     [
+      21,
+      57
+     ],
+     [
+      26,
+      97
+     ],
+     [
+      37,
+      56
+     ]
+    ],
+    "QASEM_etiketli": 0,
+    "korpus_QASEM_toplam": 71,
+    "21_57": {
+     "A": [
+      1
+     ],
+     "kip": {
+      "EMPH": 2
+     },
+     "fig": []
+    }
+   },
+   "test": "TUR SONU ONARIMI — YAPILACAKLAR'daki QASEM onarım borcuyla BİRLEŞTİRİLECEK (kayıtlı borç: 'kök + fiil biçimi kombinasyonu' ile düzeltme). Bu vaka onarımın kapsamını genişletiyor: yemin harfleri (وَ · بـ · تـ) morfolojik olarak P|PREF ya da benzeri etiketle geliyor ve kök tarafından görünmüyor; onarım morfoloji katmanından yapılmalı, kök listesinden değil. Onarım SONRASI ölçülecek: QASEM 71'den kaça çıkıyor, ve kayıtlı 'yemin ayetleri' dağılımına dayanan hiçbir bulgu var mı? Şu an yok — bu yüzden onarım okuma bitmeden yapılmayacak (araç değiştirilmez kuralı).",
+   "uyari": "ARANARAK BULUNDU — 21:57'de وَتَٱللَّهِ görülüp fig alanının boş olduğu fark edilince korpus tarandı. BULGU DEĞİL, ARAÇ HATASI KAYDIDIR."
+  },
+  {
+   "no": 444,
+   "aday": "ESMÂ YANLIŞ POZİTİFLERİ — SÛRE 21'DE OKUNAN 11 TOKENİN 5'İ KESİN YANLIŞ, 1'İ ŞÜPHELİ (aday 414'ün doğrulama kümesine ek; ÖNCEKİ KAYIT 21:1-60 içindi, 21:61-80 okunduktan sonra genişletildi). GEÇERLİ (5): 21:4 سَمِيع *(işiten)* + عَلِيم *(bilen)* (ٱلسَّمِيعُ ٱلْعَلِيمُ, marife çift mühür) · 21:26, 21:36, 21:42 رَحْمٰن *(Rahmân)*. KESİN YANLIŞ (5): 21:54 مُبِين *(apaçık)* — ضَلَٰلٍۢ مُّبِينٍۢ *(apaçık sapkınlık)* sıfatı · 21:58 ve 21:63 كَبِير *(büyük)* — كَبِيرًۭا لَّهُمْ / كَبِيرُهُمْ *(onların büyüğü)*, yani BİR PUT · 21:69 سَلام *(esenlik)* — بَرْدًۭا وَسَلَٰمًا *(serinlik ve esenlik)*, ateşe verilen emrin yüklemi · 21:80 شاكِر *(şükreden)* — أَنتُمْ شَٰكِرُونَ *(siz şükredenler misiniz)*, göndergesi İNSANLAR. ŞÜPHELİ (1): 21:51 عالِم *(bilen)* — عَٰلِمِينَ 1P çoğul haber. Okunan bölümde ham hata oranı 5/11 = %45; şüpheli dahil %55. Sûre 20'de ölçülen oran %38 idi. OKUNMAMIŞ AYNI DESEN: 21:81 عالِم · 21:88 ve 21:94 مُؤْمِن *(mümin)* · 21:89 وارِث *(vâris)* · 21:109 قَرِيب *(yakın)* · 21:112 رَحْمٰن.",
+   "olculen": {
+    "sure": 21,
+    "ham_token_toplam": 17,
+    "okunan_token": 11,
+    "gecerli": [
+     [
+      21,
+      4,
+      "سَمِيع"
+     ],
+     [
+      21,
+      4,
+      "عَلِيم"
+     ],
+     [
+      21,
+      26,
+      "رَحْمٰن"
+     ],
+     [
+      21,
+      36,
+      "رَحْمٰن"
+     ],
+     [
+      21,
+      42,
+      "رَحْمٰن"
+     ]
+    ],
+    "kesin_yanlis": [
+     [
+      21,
+      54,
+      "مُبِين"
+     ],
+     [
+      21,
+      58,
+      "كَبِير"
+     ],
+     [
+      21,
+      63,
+      "كَبِير"
+     ],
+     [
+      21,
+      69,
+      "سَلام"
+     ],
+     [
+      21,
+      80,
+      "شاكِر"
+     ]
+    ],
+    "supheli": [
+     [
+      21,
+      51,
+      "عالِم"
+     ]
+    ],
+    "hata_orani_okunan": 0.45,
+    "supheli_dahil": 0.55,
+    "sure20_hata_orani": 0.38,
+    "okunmamis": [
+     [
+      21,
+      81,
+      "عالِم"
+     ],
+     [
+      21,
+      88,
+      "مُؤْمِن"
+     ],
+     [
+      21,
+      89,
+      "وارِث"
+     ],
+     [
+      21,
+      94,
+      "مُؤْمِن"
+     ],
+     [
+      21,
+      109,
+      "قَرِيب"
+     ],
+     [
+      21,
+      112,
+      "رَحْمٰن"
+     ]
+    ]
+   },
+   "test": "TUR SONU ONARIMI (aday 414 ile aynı iş). Sûre 20 %38 hata oranı vermişti; sûre 21'in ilk 60 ayeti 7 token içinde 2 kesin + 1 şüpheli veriyor. Onarım: esma_listesi.json'a bağlam ölçütü eklenecek — (a) esmâ adayı bir isim tamlamasında MUZÂF-İLEYH olmayan sıfat mı, (b) göndergesi lafız/Rab zamirine bağlanabiliyor mu, (c) morfolojik olarak çoğul mu (çoğul esmâ-i hüsnâ maddesi yok). Onarımdan sonra korpus çapı esmâ sayımı (2077 token) yeniden üretilecek ve esmâ tabanlı bütün ölçümler yeniden koşulacak. Esmâ tabanlı hiçbir bulgu tablo onarılmadan kapatılmayacak.",
+   "uyari": "Okuma sırasında bağlam denetiminden geldi. كَبِير vakası ÜÇ kez tekrarlandı (20:71 · 21:58 · 21:63) — lemma tek başına hiçbir zaman güvenilir değil. 21:69 سَلام vakası yeni bir sınıf gösteriyor: esmâ listesindeki lemma bir EMİR YÜKLEMİNİN parçası olarak geçiyor. 21:80 شاكِر vakası ise en açığı: gönderge insan. Onarım ölçütlerine bu iki sınıf eklenecek. %45 oranı YALNIZ OKUNAN 11 TOKEN İÇİNDİR, sûrenin tamamı için değil."
+  },
+  {
+   "no": 445,
+   "aday": "ٱلَّيْل *(gece)* + ٱلنَّهَار *(gündüz)* ÇİFTİ SÛRE 21'DE ÜÇ KEZ, HER SEFERİNDE BAŞKA SÖZDİZİMSEL ROLDE. 21:20 يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ *(gece gündüz tesbih ederler)* — ACC, zarf (süre kapsamı). 21:33 خَلَقَ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ *(geceyi, gündüzü, güneşi ve ayı yarattı)* — ACC, mef'ûl (yaratılan nesne), yanında iki gök cismi. 21:42 مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ *(gece gündüz sizi kim korur)* — GEN, harf-i cer بـ ile mecrur (süre kapsamı, ama bu kez cer'li). Üç geçişte çift hiç bozulmuyor (sıra hep gece→gündüz), rol her seferinde değişiyor.",
+   "olculen": {
+    "sure": 21,
+    "gecis": 3,
+    "21_20": {
+     "irab": "ACC",
+     "rol": "zarf",
+     "yanindaki_cisim": null
+    },
+    "21_33": {
+     "irab": "ACC",
+     "rol": "mef'ûl",
+     "yanindaki_cisim": [
+      "شمس",
+      "قمر"
+     ]
+    },
+    "21_42": {
+     "irab": "GEN",
+     "rol": "mecrur (بـ)",
+     "yanindaki_cisim": null
+    },
+    "sira": "her uçunde de ليل once, نهر sonra"
+   },
+   "test": "ÖN-KAYIT. İki soru: (1) Korpus çapında ليل *(gece)* + نهر *(ırmak; gündüz)* bitişik çiftinin i'râb dağılımı nedir, ve sıra hiç tersine dönüyor mu? Ölçüt: bitişik çift geçişlerinin tamamı, i'râb ve sıra sayımı. (2) Çiftin yanında gök cismi (شمس *(güneş)*/قمر *(ay)*/نجم *(yıldız)*) bulunması i'râb ile ilişkili mi — yani 'nesne' rolü cisim eşliğine mi bağlı? Ölçüt: 2×2 tablo, Fisher. MOTİVE EDEN ÜÇ AYET (21:20, 21:33, 21:42) TESTTEN DIŞLANIR. AYRICA aday 442 (شمس/قمر simetrisi) ile birlikte ele alınacak; ikisi de donmuş-kalıp ayrımı (aday 437) yapılmadan kapatılamaz.",
+   "uyari": "ARANARAK BULUNDU — 21:42 okunurken çiftin sûrede üçüncü kez geçtiği fark edildi ve önceki iki geçiş geri dönülüp karşılaştırıldı. 'Rol değişiyor ama çift bozulmuyor' gözlemi ÖLÇÜMDÜR; bunun anlamlı olup olmadığı test edilmemiştir."
+  },
+  {
+   "no": 446,
+   "aday": "SÛRE 21'İN ALTI ALLAH LAFZININ ÜÇÜ İBRÂHİM'İN AĞZINDA. Dağılım: 21:22 ×2 (anlatıcı sesi, şart cümlesi) · 21:57 ×1 (İbrâhim, yemin: وَتَٱللَّهِ *(Allah'a yemin olsun)*) · 21:66 ×1 ve 21:67 ×1 (İbrâhim'in kavmine hitabı — HENÜZ OKUNMADI) · 21:98 ×1. Yani 6 lafzın 3'ü tek bir konuşurun 11 ayetlik bölütünde (21:57-67) toplanıyor, ve o konuşur bir peygamber-aktör. Karşılaştırma: sûrenin 14 Rab geçişi 10 ayrı ayete yayılmış ve İbrâhim bölütünde yalnız 21:56'da (×2) bulunuyor.",
+   "olculen": {
+    "sure": 21,
+    "allah_token": 6,
+    "dagilim": {
+     "21:22": 2,
+     "21:57": 1,
+     "21:66": 1,
+     "21:67": 1,
+     "21:98": 1
+    },
+    "ibrahim_bolutu": [
+     57,
+     67
+    ],
+    "ibrahim_agzinda_token": 3,
+    "oran": 0.5,
+    "rab_token": 14,
+    "rab_ibrahim_bolutunde": [
+     [
+      21,
+      56,
+      2
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT — 21:61-112 OKUNMADAN KURULMAZ. Soru: lafız-seyrek sûrelerde lafız tokenleri anlatıcı sesinde mi yoksa aktör konuşmasında mı toplanıyor? Ölçüt: defter'in sah/edim alanları + aktör tablosu kullanılarak her lafız tokeni 'anlatıcı' / 'aktör konuşması' / 'muhataba hitap' diye sınıflanacak; korpus tabanı çıkarılıp lafız yoğunluğu düşük sûreler ile yüksek sûreler karşılaştırılacak. Null: lafız konumları KONUM-EŞLİ permütasyonla (aday 435) karıştırılacak. Motive eden sûre 21 dışlanamaz (tek örnek); bu yüzden test korpus çapında kurulup 21'in konumu ARTIK olarak raporlanacak.",
+   "uyari": "KISMİ ÖLÇÜM — 21:66 ve 21:67 HENÜZ OKUNMADI; şu an yalnız defter'in eksen alanı sayılmıştır, konuşurun kim olduğu 66-67 için OKUNARAK doğrulanmamıştır. Sûrenin geri kalanı okunmadan bu aday teste sokulamaz."
+  },
+  {
+   "no": 447,
+   "aday": "أَتَى *(gelme, getirme)* FİİLİNİN DOĞRUDAN MEF'ÛLÜ OLARAK 'YER' YALNIZ İKİ AYETTE. Korpusta أتي bab I fiilinin hemen ardından kök taşıyan bir ACC isim gelen 41 konum var. Kök dağılımı: بغت *(ansızın gelme)* 5 · فحش *(hayâsızlık)* 4 · رجل *(adam)* 4 · بيت *(ev)* 2 · **أرض *(yer, yeryüzü)* 2** · أمن *(güven; iman)* 2 · سلم *(selâmet, teslim)* 2 · طوع *(güç yetirme, itaat)* 2 · ve sekiz kök birer kez. أرض olan iki konum 13:41 ve 21:44 — yani aynı bölütün iki geçişi, başka örnek yok. Fiil korpusta ağırlıkla بـ ya da إِلَى ile geçişli; yerin doğrudan mef'ûl olması bu iki ayete özgü.",
+   "olculen": {
+    "dogrudan_ACC_nesne_konumu": 41,
+    "kok_dagilimi": {
+     "بغت": 5,
+     "فحش": 4,
+     "رجل": 4,
+     "بيت": 2,
+     "أرض": 2,
+     "أمن": 2,
+     "سلم": 2,
+     "طوع": 2
+    },
+    "arz_konumlari": [
+     [
+      13,
+      41
+     ],
+     [
+      21,
+      44
+     ]
+    ],
+    "13_41_ve_21_44_bolut_ozdes": true
+   },
+   "test": "ÖN-KAYIT. Soru: أتي fiilinin geçişlilik profili nedir — kaç geçişte بـ, kaç geçişte إِلَى, kaç geçişte doğrudan ACC? Ve doğrudan-ACC alt kümesinde nesnelerin anlam sınıfı (kişi / soyut / mekân) dağılımı nedir? Ölçüt: morfolojiden doğrudan sayım, null yok — betimsel. İkinci soru: 'gelme' fiilinin doğrudan-ACC kuruluşu belirli bir söz edimiyle (tehdit / uyarı) ilişkili mi? Ölçüt: defter'in edim alanı, 41 konum × edim tablosu, ki-kare. MOTİVE EDEN İKİ AYET (13:41, 21:44) DIŞLANIR — ama o zaman أرض örneği kalmaz; bu yüzden test 'أرض özel mi' sorusunu DEĞİL, 'doğrudan-ACC kuruluşu genel olarak ne yapıyor' sorusunu kuracak.",
+   "uyari": "ARANARAK BULUNDU — kullanıcı 21:44'ün ikinci yarısına derin bakış istedi, sözdizimi merak edilip korpus tarandı. n=2 ÇOK KÜÇÜK ve iki örnek aynı bölütün kopyası olduğu için BAĞIMSIZ DEĞİL; istatistiksel olarak tek gözlem sayılır."
+  },
+  {
+   "no": 448,
+   "aday": "طَرَف *(uç, kenar)* LEMMASININ BEŞ GEÇİŞİ İKİYE AYRILIYOR VE AYRIM İSTİSNASIZ. Kök طرف korpusta 11 geçiş, iki lemma: طَرْف *(bakış, göz)* 6 geçiş (14:43 · 27:40 · 37:48 · 38:52 · 42:45 · 55:56) ve طَرَف *(uç, kenar)* 5 geçiş. Bu beş geçişte 'uç'un ne tür bir uzanıma ait olduğu ile o uca ne yapıldığı BİRE BİR eşleşiyor: (A) ZAMAN ucu → oraya İBADET konuyor — 11:114 أَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ *(gündüzün iki ucunda namazı kıl)* · 20:130 وَأَطْرَافَ ٱلنَّهَارِ فَسَبِّحْ *(gündüzün uçlarında tesbih et)*. (B) MEKÂN ya da TOPLULUK ucu → oradan PARÇA alınıyor — 3:127 لِيَقْطَعَ طَرَفًۭا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ *(inkâr edenlerden bir ucu kesmek için)*, قطع *(kesme)* · 13:41 ve 21:44 نَنقُصُهَا مِنْ أَطْرَافِهَا *(uçlarından eksiltiyoruz)*, نقص *(eksiltme, azaltma)*. 5/5, istisna yok. Çoğul أَطْرَاف biçimi yalnız üç yerde (13:41 · 20:130 · 21:44): ikisi yerin, biri gündüzün uçları.",
+   "olculen": {
+    "kok_toplam": 11,
+    "lemma_tarf_bakis": [
+     [
+      14,
+      43
+     ],
+     [
+      27,
+      40
+     ],
+     [
+      37,
+      48
+     ],
+     [
+      38,
+      52
+     ],
+     [
+      42,
+      45
+     ],
+     [
+      55,
+      56
+     ]
+    ],
+    "lemma_taraf_uc": [
+     [
+      3,
+      127
+     ],
+     [
+      11,
+      114
+     ],
+     [
+      13,
+      41
+     ],
+     [
+      20,
+      130
+     ],
+     [
+      21,
+      44
+     ]
+    ],
+    "A_zaman_ibadet": [
+     [
+      11,
+      114,
+      "صلو"
+     ],
+     [
+      20,
+      130,
+      "سبح"
+     ]
+    ],
+    "B_mekan_topluluk_parca": [
+     [
+      3,
+      127,
+      "قطع"
+     ],
+     [
+      13,
+      41,
+      "نقص"
+     ],
+     [
+      21,
+      44,
+      "نقص"
+     ]
+    ],
+    "cogul_atraf": [
+     [
+      13,
+      41
+     ],
+     [
+      20,
+      130
+     ],
+     [
+      21,
+      44
+     ]
+    ],
+    "istisna": 0
+   },
+   "test": "ÖN-KAYIT. n=5 ile hiçbir şey test edilemez; bu yüzden test GENİŞLETİLEREK kurulacak. Soru: 'uzanımın ucu' bildiren bütün kökler (طرف *(uç, kenar)* · حرف *(kenar, harf)* · جنب *(yan)* · حدد *(sınır, hudûd)* · قصو *(en uzak)* · دبر *(arka; tedbir)*) toplandığında, ucun türü (zaman / mekân / topluluk) ile o uca uygulanan fiilin sınıfı (koyma-ibadet / alma-eksiltme) arasında ilişki var mı? Ölçüt: iki sınıflı tablo, Fisher. Sınıflandırma KÖR yapılacak (ayet numarası gizli). MOTİVE EDEN BEŞ AYET DIŞLANIR.",
+   "uyari": "ARANARAK BULUNDU — 21:44 derin bakışında طرف envanteri çıkarıldı ve iki lemma ayrıldıktan sonra desen görüldü. n=5, YANİ HİÇBİR ŞEY. 'İstisna yok' ifadesi beş gözlem için anlamsızdır; kayıt yalnız desenin varlığını not eder. AYRICA ARAÇ NOTU: 11:114'te طَرَفَىِ biçimi morfolojide MD|NOM etiketli, oysa ikil izafet konumunda beklenen eğik hâldir — etiket kontrol edilecek, bu aday buna dayanmıyor."
+  },
+  {
+   "no": 449,
+   "aday": "نقص *(eksiltme, azaltma)* AYETLERİNİN ÇOĞU BİR ÖLÇME YA DA KAYIT TERİMİ TAŞIYOR — 21:44 TAŞIMIYOR, İKİZİ 13:41 TAŞIYOR. Korpusta 10 نقص ayeti. Ölçme/kayıt/bilme kökü (كتب *(yazma)* · حسب *(hesap, sayma)* · علم *(bilme)* · حفظ *(koruma)* · حكم *(hüküm)* · ذكر *(anma, zikir)* · وفي *(tam verme, vefa)* · كيل *(ölçme (hacim))* · وزن *(tartı, mîzan)*) taşıyanlar: 7:130 (ذكر) · 11:84 (كيل · وزن) · 11:109 (وفي) · **13:41 (حسب · حكم)** · 35:11 (علم · كتب) · 50:4 (حفظ · علم · كتب) = 6/10. Taşımayanlar: 2:155 · 9:4 · **21:44** · 73:3 = 4/10. Yani bölüt ikizi olan iki ayet bu ölçütte AYRIŞIYOR: 13:41 eksiltmeyi bir hükme ve hesaba bağlıyor, 21:44 onun yerine bir üstünlük sorusu koyuyor (غلب *(üstün gelme, galibiyet)*).",
+   "olculen": {
+    "nqs_ayet": 10,
+    "kayit_terimi_tasiyan": [
+     [
+      7,
+      130
+     ],
+     [
+      11,
+      84
+     ],
+     [
+      11,
+      109
+     ],
+     [
+      13,
+      41
+     ],
+     [
+      35,
+      11
+     ],
+     [
+      50,
+      4
+     ]
+    ],
+    "tasimayan": [
+     [
+      2,
+      155
+     ],
+     [
+      9,
+      4
+     ],
+     [
+      21,
+      44
+     ],
+     [
+      73,
+      3
+     ]
+    ],
+    "13_41_kapanis": [
+     "حكم",
+     "حسب",
+     "Allah lafzı VAR"
+    ],
+    "21_44_kapanis": [
+     "غلب",
+     "Allah lafzı YOK"
+    ]
+   },
+   "test": "ÖN-KAYIT. Soru: 'eksiltme/azaltma' anlam alanındaki kökler (نقص · بخس *(eksiltme, değerini düşürme)* · خسر *(hüsran, ziyan)* · قلل *(azlık)* · طفف) genel olarak ölçme/kayıt terimleriyle birlikte mi geçiyor? Ölçüt: bu köklerin geçtiği ayetlerde kayıt-terimi oranı ile korpus taban oranı (rastgele ayet başına kayıt-terimi bulunma olasılığı) karşılaştırılacak; null = ayet uzunluğuna göre eşlenmiş rastgele ayet örneklemi (n uzunluk artefaktını kapatmak için ZORUNLU — kayıt kökleri sık kökler). MOTİVE EDEN AYETLER (13:41, 21:44) DIŞLANIR. AYRI VE İKİNCİL SORU: bölüt ikizi taşıyan ayet çiftleri genel olarak farklı kapanışlarla mı geliyor? Bu ayrı bir ön-kayıt gerektirir.",
+   "uyari": "ARANARAK BULUNDU. Kayıt-terimi listesi BU VAKAYA BAKARAK seçildi — yani ölçüt motive eden gözlemden türetilmiştir, bu en tehlikeli aday türüdür. Test kurulmadan önce liste bağımsız bir gerekçeyle (ör. kavram_katalogu'ndaki 'ölçme' kümesi) YENİDEN tanımlanacak."
+  },
+  {
+   "no": 450,
+   "aday": "AYNI BÖLÜT, KORPUSUN EN YAYGIN VE EN SEYREK GÖRME-SORUSU ÇERÇEVESİNDE. 21:44 ile 13:41'in ortak altı kelimesi iki farklı soru kalıbına takılıyor: 13:41 أَوَلَمْ يَرَوْا۟ *(görmediler mi)* = INTG + لَمْ *(-medi)* + MOOD:JUS, korpusta **53 ayet**. 21:44 أَفَلَا يَرَوْنَ *(görmüyorlar mı)* = INTG + لَا *(-mez)* + MOOD:IND, korpusta **yalnız 4 ayet**: 9:126 · 12:59 · 20:89 · 21:44. Fiil kökü aynı (رأي *(görme)*), fiil biçimi aynı (IMPF|VF:1|3MP); değişen yalnız olumsuzlama edatı ve kip — ve bununla birlikte zaman göndergesi (geçmişe bakan olumsuz soru ↔ şimdiye bakan olumsuz soru). Not: 20:89 bu okumada zaten okundu (Tâhâ, buzağı sahnesi).",
+   "olculen": {
+    "cerceve_A": {
+     "kalip": "INTG+لَم+JUS",
+     "n": 53,
+     "ornek": [
+      13,
+      41
+     ]
+    },
+    "cerceve_B": {
+     "kalip": "INTG+لا+IND",
+     "n": 4,
+     "ayetler": [
+      [
+       9,
+       126
+      ],
+      [
+       12,
+       59
+      ],
+      [
+       20,
+       89
+      ],
+      [
+       21,
+       44
+      ]
+     ]
+    },
+    "ortak_bolut_kelime": 6,
+    "fiil_bicimi": "IMPF|VF:1|ROOT:رأي|3MP"
+   },
+   "test": "ÖN-KAYIT. Soru: iki çerçevenin muhatap ve söz-edimi profilleri farklı mı? Ölçüt: 53 + 4 ayet için defter'in edim, sah, tip (Mekkî/Medenî) alanları karşılaştırılacak; n=4 nedeniyle kesin test kurulamaz, bu yüzden birincil test ÇERÇEVE A'nın kendi içinde ne yaptığı olacak ve B yalnız BETİMSEL olarak raporlanacak. İkinci ve daha güçlü soru: korpusta 'bölüt ikizi' (5+ kelime özdeş ama tam ayet değil) taşıyan çiftlerin kaçında ÇERÇEVE farklı? Bu genel soru için defter'in lemma 3-gram xref alanı taranıp 5+ kelimelik özdeş bölütler çıkarılacak — bu ayrı bir ölçüm işi, tur sonuna yazıldı.",
+   "uyari": "ARANARAK BULUNDU. n=4 ile B çerçevesi hakkında hiçbir hüküm kurulamaz. 'En seyrek' ifadesi bir SAYIMDIR, anlamlılık iddiası değildir."
+  },
+  {
+   "no": 451,
+   "aday": "ARAÇ UYARISI — DİKEY KATMAN ZENGİNLEŞMESİNDE JACKKNIFE KIRILGANLIĞI: نقص ▸önce 'ömür' ×156,1. Kök نقص *(eksiltme, azaltma)* için komşuluk zenginleşmesi عمر *(ömür; imar etme)* kavramını ×156,1 ile birinci sıraya koyuyor (n=3 komşuluk geçişi). Bu üç geçiş yalnız İKİ ayetten geliyor: 21:44 (ٱلْعُمُرُ, نَنقُصُ'dan tam 6 kelime önce — bandın sınırında) ve 35:11 (عمر ×2: يُعَمَّرُ مِن مُّعَمَّرٍۢ وَلَا يُنقَصُ مِنْ عُمُرِهِۦ). Üstelik iki ayette عمر TERS rollerde: 21:44'te UZAYAN şey (طَالَ عَلَيْهِمُ ٱلْعُمُرُ *(ömür onlara uzun geldi)*), 35:11'de EKSİLTİLEN şey. Yani ×156,1 katı ne bir kolokasyon ne de bir anlam ilişkisi gösteriyor; iki ayrı kullanımın tesadüfî toplamı. 35:11 jackknife'ta çıkarılırsa geçiş 3→1 düşer ve gürültü eşiğinin (n≥3) altına iner — kat tamamen kaybolur.",
+   "olculen": {
+    "kok": "نقص",
+    "kavram": "ömür",
+    "kat": 156.1,
+    "komsuluk_n": 3,
+    "kaynak_ayetler": [
+     [
+      21,
+      44
+     ],
+     [
+      35,
+      11
+     ]
+    ],
+    "21_44_mesafe": 6,
+    "35_11_gecis": 2,
+    "jackknife_35_11_cikarilinca": {
+     "n": 1,
+     "esik_alti": true
+    },
+    "rol_farki": {
+     "21:44": "uzayan",
+     "35:11": "eksiltilen"
+    }
+   },
+   "test": "TUR SONU — kayıtlı jackknife borcuyla BİRLEŞTİRİLECEK (قدس ×118,3 vakasıyla aynı sınıf). Onarım: dikey_oku()'nun zenginlik() fonksiyonu her kavram için (a) katkıda bulunan AYRI AYET sayısını, (b) tek ayet çıkarıldığında katın ne kadar düştüğünü raporlayacak; ×kat yanında 'k ayet' bilgisi zorunlu alan olacak. Eşik önerisi: en az 3 AYRI ayetten gelmeyen zenginleşme yazılmayacak. Onarım ÖNCESİ ölçülecek: mevcut 154+ dikey satırındaki kaç zenginleşme kaydı bu ölçütü geçemiyor?",
+   "uyari": "BULGU DEĞİL, ARAÇ KIRILGANLIĞI KAYDIDIR. Okuma DURMADI. Bu vaka jackknife riskinin en temiz örneği: yüksek kat + n=3 + iki ayet + ters anlam rolleri. Aynı riskin ▽ satırlarının tamamında geçerli olduğu varsayılmalıdır."
+  },
+  {
+   "no": 452,
+   "aday": "ARAÇ UYARISI — DİKEY KATMAN KÖK DÜZEYİNDE ÇALIŞIYOR, LEMMA AYIRMIYOR: طرف ▸önce 'bakış-kısan' ×564,8. 21:44'ün ▽ satırında طرف *(uç, kenar; göz kırpma)* kökü için birinci zenginleşme 'bakış-kısan' ×564,8 (n=3). Bu üç geçişin HİÇBİRİ ayetin lemmasıyla ilgili değil: kaynak قَٰصِرَٰتُ ٱلطَّرْفِ *(bakışlarını kısanlar)* kalıbı (37:48 · 38:52 · 55:56) ve oradaki lemma طَرْف *(bakış, göz)*, oysa 21:44'ün lemması طَرَف *(uç, kenar)*. Kök 11 geçiş, ikiye bölünüyor: 6 طَرْف *(bakış)* + 5 طَرَف *(uç)*. Yani dikey katman bu ayette okuyucuya kendi ayetiyle ilgisi olmayan bir imza gösteriyor. Genel risk: kok_anlam_tablosu.json zaten çok-anlamlı kökler için lemma ayrımı tutuyor (طرف maddesi yok ama ظهر *(sırt; zuhur)*, نشر *(yayma; diriltme)*, حبب *(sevgi; tane)* gibi maddeler var) — dikey_oku.py bu tabloyu kullanmıyor.",
+   "olculen": {
+    "kok": "طرف",
+    "gosterilen_kavram": "bakış-kısan",
+    "kat": 564.8,
+    "komsuluk_n": 3,
+    "kaynak_ayetler": [
+     [
+      37,
+      48
+     ],
+     [
+      38,
+      52
+     ],
+     [
+      55,
+      56
+     ]
+    ],
+    "kaynak_lemma": "طَرْف",
+    "ayet_lemma": "طَرَف",
+    "kok_gecis": 11,
+    "lemma_bolunmesi": {
+     "طَرْف": 6,
+     "طَرَف": 5
+    },
+    "kok_anlam_tablosu_kullanilmiyor": true
+   },
+   "test": "TUR SONU ONARIMI. dikey_oku.py'nin _hedef_indeksler() fonksiyonu kok= parametresiyle çağrıldığında kökün BÜTÜN lemmalarını topluyor. Onarım: okuma sırasında ▽ satırı, ayetin kendi lemmasıyla çağrılacak (dikey_oku zaten kavram_ad= parametresini destekliyor ve kok_anlam_tablosu üzerinden ayrılmış kavramları kabul ediyor). Onarım SONRASI ölçülecek: kok_anlam_tablosu'nda birden çok kavrama bölünen kaç kök var (ilk sayım: 430 maddenin bir bölümü), ve bu kökler mevcut ▽ satırlarının kaçında geçiyor? O satırların hepsi yeniden üretilecek. UYARI: bu, aday 435 (konum-eşli null) ile aynı sıradaki bir dikey-katman borcudur; ikisi birlikte koşulmalı ki satırlar iki kez üretilmesin.",
+   "uyari": "BULGU DEĞİL, ARAÇ HATASI KAYDIDIR. Etki alanı GENİŞ: sûre 20-21'in bütün ▽ satırları kök düzeyinde üretildi, yani çok-anlamlı köklerin hepsinde aynı karışım var. Bu blokta görünen öteki örnekler: نهر *(ırmak; gündüz)* (21:33, 21:42) · سبح *(tesbih; yüzme)* (21:33) · حبب *(sevgi; tane)* (21:47) · نور *(nûr; ateş)* (21:39). Okuma DURMADI; ölçüm satırlarındaki ham sayılar geçerli, YORUMLARI değil."
+  },
+  {
+   "no": 453,
+   "aday": "SÛRENİN KAFİYE SAPMALARININ YARISI 'İBRÂHİM' ADI. Enbiyâ'nın 112 fâsılasından 106'sı ن, 6'sı م ile bitiyor; kafiye SINIFI hiçbirinde değişmiyor (112/112 N sınıfı). Altı م fâsılanın üçü doğrudan إِبْرَٰهِيم *(İbrâhim)* adı: 21:60 إِبْرَٰهِيمُ · 21:62 يَٰٓإِبْرَٰهِيمُ (nidâ) · 21:69 إِبْرَٰهِيمَ. Öteki üçü: 21:4 ٱلْعَلِيمُ *(bilen)* · 21:66 يَضُرُّكُمْ *(size zarar verir)* · 21:76 ٱلْعَظِيمِ *(büyük)*. Korpus çapında إِبْرَٰهِيم adının fâsıla konumunda bulunduğu 8 ayet var: 15:51 · 21:60 · 21:62 · 21:69 · 26:69 · 37:83 · 37:104 · 37:109. Bunların ÜÇÜ tek bir sûrede, Enbiyâ'da, ve on ayetlik bir aralıkta (21:60-69) toplanıyor.",
+   "olculen": {
+    "sure": 21,
+    "fasila_toplam": 112,
+    "nun": 106,
+    "mim": 6,
+    "kafiye_sinifi_N": 112,
+    "mim_fasilalar": [
+     [
+      21,
+      4,
+      "ٱلْعَلِيمُ"
+     ],
+     [
+      21,
+      60,
+      "إِبْرَٰهِيمُ"
+     ],
+     [
+      21,
+      62,
+      "يَٰٓإِبْرَٰهِيمُ"
+     ],
+     [
+      21,
+      66,
+      "يَضُرُّكُمْ"
+     ],
+     [
+      21,
+      69,
+      "إِبْرَٰهِيمَ"
+     ],
+     [
+      21,
+      76,
+      "ٱلْعَظِيمِ"
+     ]
+    ],
+    "ibrahim_fasila_korpus": [
+     [
+      15,
+      51
+     ],
+     [
+      21,
+      60
+     ],
+     [
+      21,
+      62
+     ],
+     [
+      21,
+      69
+     ],
+     [
+      26,
+      69
+     ],
+     [
+      37,
+      83
+     ],
+     [
+      37,
+      104
+     ],
+     [
+      37,
+      109
+     ]
+    ],
+    "korpus_toplam": 8,
+    "sure21_payi": 3,
+    "aralik": [
+     60,
+     69
+    ]
+   },
+   "test": "ÖN-KAYIT. İki ayrı soru. (1) Özel adlar genel olarak fâsıla konumunu mu seçiyor, yoksa kaçınıyor mu? Ölçüt: defter'in adli alanı kullanılarak her adlı aktör tokeninin ayet-içi konumu normalize edilecek (konum/n); null = ayet uzunluğuna eşlenmiş rastgele konum. Bu soru 21'den bağımsız kurulabilir. (2) Kafiye harfi sapmaları özel ad varlığıyla ilişkili mi? Ölçüt: sûre içi baskın fâsıla harfinden sapan bütün ayetler (korpus çapı) toplanıp, sapan ayetlerde özel ad oranı ile sapmayan ayetlerdeki oran karşılaştırılacak; null = sûre-içi permütasyon (sûre uzunluğu ve baskın harf sabit tutularak). MOTİVE EDEN ÜÇ AYET (21:60, 62, 69) DIŞLANIR. UYARI: bir adın kafiyeye uyması FONOLOJİK bir zorunluluk olabilir (إبراهيم zaten م ile biter) — bu yüzden test 'ad kafiyeyi bozuyor mu' değil, 'ad kafiye konumuna KONUYOR mu' sorusunu ölçmelidir; ikisi farklı sorulardır ve karıştırılırsa sonuç anlamsızdır.",
+   "uyari": "ARANARAK BULUNDU — 21:60'ta fâsıla harfinin م olduğu görülünce sûrenin fâsıla envanteri çıkarıldı, sonra korpus tarandı. TERSİNE NEDENSELLİK RİSKİ YÜKSEK: adın son harfi zaten م; ad kafiyeye uyduğu için mi oraya konmuş, yoksa oraya konduğu için mi kafiye sapmış — ölçüm bunu ayıramaz. Bu ayrım yapılmadan aday KAPATILAMAZ."
+  },
+  {
+   "no": 454,
+   "aday": "حُكْمًۭا وَعِلْمًۭا *(hüküm ve ilim)* İKİLİSİ KORPUSTA DÖRT KEZ, İKİSİ SÛRE 21'DE BEŞ AYET ARAYLA. Tam dizi ءَاتَيْنَا/ءَاتَيْنَٰهُ + حُكْمًۭا وَعِلْمًۭا korpusta 4 ayette: 12:22 (Yûsuf) · 21:74 (Lût) · 21:79 (Dâvûd + Süleymân) · 28:14 (Mûsâ). Sûre 21'deki iki geçiş aynı blok içinde ve aralarında dört ayet var. AYRIM: 21:79'da ikili وَكُلًّۭا *(her birine)* ile ÇOĞULA dağıtılıyor (KELLA biçimi), öteki üçünde tek kişiye veriliyor. Ayrıca 21:79 aynı ayette bir de TEKİL veriş taşıyor: فَفَهَّمْنَٰهَا سُلَيْمَٰنَ *(onu Süleymân'a kavrattık)*, kök فهم *(kavratma, anlatma (fehm))*, korpusta HAPAKS. Yani tek ayette 'ortak verilen' (hüküm + ilim) ile 'tek kişiye verilen' (belirli bir meselenin kavranışı) yan yana ve dilbilgisel olarak ayrılmış.",
+   "olculen": {
+    "kalip": "ءَاتَى + حُكْم + عِلْم",
+    "korpus_gecis": 4,
+    "ayetler": [
+     [
+      12,
+      22
+     ],
+     [
+      21,
+      74
+     ],
+     [
+      21,
+      79
+     ],
+     [
+      28,
+      14
+     ]
+    ],
+    "sure21_gecis": 2,
+    "aralik": 5,
+    "21_79_dagitim": "وَكُلًّا (KELLA, çoğul)",
+    "otekiler": "tek kişi",
+    "21_79_hapaks": "فهم",
+    "21_79_bab": "II (tef'îl)",
+    "21_79_nesne": "3FS zamir (hüküm)"
+   },
+   "test": "ÖN-KAYIT. Soru: peygamber-aktörlere atfedilen 'veriş' kalıplarında verilen şeyin TEKİL mi ORTAK mı olduğu, alıcı sayısıyla ilişkili mi? Ölçüt: ءَاتَى/وَهَبَ/عَلَّمَ fiillerinin adlı aktör mef'ûlü olan bütün ayetler toplanacak; her biri için (a) alıcı sayısı (tekil / ikil / çoğul), (b) verilen şeyin sayısı ve i'râbı, (c) KELLA biçiminin varlığı kodlanacak. n bilinmiyor, önce sayılacak. MOTİVE EDEN İKİ AYET DIŞLANIR. İKİNCİL: hapaks bir fiilin (فهم) tam da 'ayırt edici veriş'i taşıması bir desen mi, yoksa tek gözlem mi? Tek gözlem — test edilemez, yalnız kaydedildi.",
+   "uyari": "ARANARAK BULUNDU — 21:74 ve 21:79'un xref alanları birbirini gösterince kalıp korpusta arandı. n=4, hiçbir şey. 'Ortak veriliş / tekil veriliş ayrımı' YORUMDUR; dilbilgisel ayrım (KELLA vs tekil mef'ûl) ölçümdür."
+  },
+  {
+   "no": 455,
+   "aday": "ADAY 446 DOĞRULANDI VE KAPANDI — SÛRE 21'İN ALTI ALLAH LAFZININ ÜÇÜ İBRÂHİM'İN AĞZINDA, VE İKİSİ AYNI KALIPTA. 21:66 ve 21:67 okundu; ikisi de İbrâhim'in kavmine hitabı ve ikisi de aynı terkibi taşıyor: مِن دُونِ ٱللَّهِ *(Allah'ı bırakıp)*, ard arda iki ayette. Üçüncüsü 21:57'nin yemini: وَتَٱللَّهِ *(Allah'a yemin olsun)*. Nihai dağılım: 21:22 ×2 (anlatıcı sesi, şart cümlesi) · 21:57 ×1 (İbrâhim, yemin) · 21:66 ×1 ve 21:67 ×1 (İbrâhim, hitap — aynı kalıp) · 21:98 ×1 (henüz okunmadı). Yani sûrenin lafız tokenlerinin yarısı tek bir aktörün 11 ayetlik bölütünde (21:57-67) ve İKİ farklı söz ediminde: bir yemin, iki soru/kınama. Karşılaştırma: aynı bölütte Rab yalnız 21:56'da (×2) ve o da İbrâhim'in ağzında — yani 21:56-67 aralığı sûrenin hem lafız hem Rab tepesini tek konuşurda topluyor.",
+   "olculen": {
+    "sure": 21,
+    "allah_token": 6,
+    "dagilim": {
+     "21:22": 2,
+     "21:57": 1,
+     "21:66": 1,
+     "21:67": 1,
+     "21:98": 1
+    },
+    "ibrahim_agzinda": 3,
+    "oran": 0.5,
+    "kalip_66_67": "مِن دُونِ ٱللَّهِ (ard arda iki ayet)",
+    "kalip_57": "وَتَٱللَّهِ (yemin, QASEM etiketi VERİLMEDİ — aday 443)",
+    "rab_ayni_bolutte": [
+     [
+      21,
+      56,
+      2
+     ]
+    ],
+    "bolut": [
+     56,
+     67
+    ],
+    "okunmamis": [
+     [
+      21,
+      98
+     ]
+    ]
+   },
+   "test": "ÖN-KAYIT (446'nın yerine geçer). Soru: lafız tokenleri anlatıcı sesinde mi yoksa aktör konuşmasında mı toplanıyor, ve bu sûrenin lafız yoğunluğuna bağlı mı? Ölçüt: her lafız tokeni 'anlatıcı' / 'aktör konuşması' / 'muhataba hitap' diye sınıflanacak (defter'in edim + sah alanları + aktör tablosu); sınıflandırma KÖR yapılacak. Null: KONUM-EŞLİ permütasyon (aday 435 — düz null kullanılamaz). MOTİVE EDEN SÛRE dışlanamaz (tek örnek), bu yüzden 21'in konumu ARTIK olarak raporlanacak. ÖN KOŞUL: aday 443'ün QASEM onarımı yapılmadan 'yemin' alt sınıfı sayılamaz.",
+   "uyari": "446 numaralı kayıt bu maddeyle YERİNİ BIRAKTI (kısmi ölçümdü, 66-67 okunmamıştı). 21:98 hâlâ okunmadı; oran 3/6 kesin, ama 98'in konuşuru doğrulanmadı. 'Tek konuşurda toplanma' bir SAYIMDIR; anlamlılık iddiası değildir ve tek sûreden kurulamaz."
+  },
+  {
+   "no": 457,
+   "aday": "21:81-82 ↔ 38:36-37 — ÜÇÜNCÜ ARDIŞIK BÖLÜT İKİZİ (aday 450 ve 456 ile aynı sınıf). Dizi تَجْرِى بِأَمْرِهِۦ *(buyruğuyla akar)* korpusta TAM İKİ ayette: 21:81 ve 38:36. Her iki ayette de konu Süleymân'a verilen rüzgâr; her ikisinde de BİR SONRAKİ ayet şeytanlara geçiyor ve غوص *(dalma (suya))* kökünü kullanıyor — 21:82 يَغُوصُونَ *(dalarlar)* fiil, 38:37 غَوَّاصٍۢ *(dalgıç)* ism-i mübalağa. Kök غوص korpusta TOPLAM 2 geçişli ve ikisi de bu çiftte. FARKLAR: 21:81 rüzgârı عَاصِفَةًۭ *(fırtınalı)* diye niteliyor, 38:36 رُخَآءً *(yumuşak)* diye — TERS nitelik; 21:81 varış yeri veriyor (ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا *(bereketli kıldığımız yer)*), 38:36 حَيْثُ أَصَابَ *(dilediği yere)* diyor; 38:38 üçüncü bir grup ekliyor (وَءَاخَرِينَ مُقَرَّنِينَ فِى ٱلْأَصْفَادِ *(zincirlerle bağlanmış başkaları)*), 21:82 bunun yerine gözetim cümlesi koyuyor (وَكُنَّا لَهُمْ حَٰفِظِينَ *(onları gözetenler bizdik)*).",
+   "olculen": {
+    "ortak_dizi": "تَجْرِى بِأَمْرِهِۦ",
+    "korpus_gecis": 2,
+    "ayetler": [
+     [
+      21,
+      81
+     ],
+     [
+      38,
+      36
+     ]
+    ],
+    "gows_kok_gecis": 2,
+    "gows_ayetler": [
+     [
+      21,
+      82
+     ],
+     [
+      38,
+      37
+     ]
+    ],
+    "ruzgar_niteligi": {
+     "21:81": "عَاصِفَة (fırtınalı)",
+     "38:36": "رُخَاء (yumuşak)"
+    },
+    "ucuncu_ayet": {
+     "38:38": "مُقَرَّنِينَ فِى ٱلْأَصْفَاد",
+     "21:82": "حَٰفِظِينَ"
+    },
+    "sinif": "ardışık bölüt ikizi (aday 450, 456 ile aynı)"
+   },
+   "test": "ÖN-KAYIT — ADAY 450'NİN GENEL TARAMASINA EKLENDİ. Sûre 21 üç ayrı ardışık-bölüt-ikizi örneği verdi (41↔6:10 tam ayet; 81-82↔38:36-37; 92-93↔23:52-53). Genel soru: korpusta 5+ kelimelik özdeş bölüt taşıyan ayet çiftleri kaç tane, ve bunların kaçında İKİNCİ ayet de paralel devam ediyor? Ölçüt: lemma n-gram taraması ile bütün 5+ kelimelik özdeş bölütler çıkarılacak; her çift için bir sonraki ayetin de ortak lemma oranı ölçülecek; null = aynı uzunlukta rastgele ayet çiftleri. AYRICA ölçülecek: bölüt ikizlerinde FARKLILAŞAN öğe hangi sınıftan (nitelik / muhatap / kapanış / imperatif)? Motive eden üç çift dışlanır.",
+   "uyari": "Kullanıcının 21:82 sorusu üzerine ARANARAK BULUNDU. Ters nitelik (fırtınalı / yumuşak) gözlemi ÖLÇÜMDÜR; bunun anlamlı olup olmadığı test edilmemiştir. غوص'in n=2 olması küçük sayıdır; 'kelime yalnız bu bağlamda var' ifadesi bir SAYIMDIR."
+  },
+  {
+   "no": 458,
+   "aday": "ذَا ٱلنُّونِ (21:87) KİMLİĞİ KORPUSTA AÇIKÇA VERİLMİYOR — ÜÇ HALKALI KELİME KÖPRÜSÜ ZİNCİRİ. Halka 1: ذَا ٱلنُّونِ *(balık sahibi)* ↔ صَاحِبِ ٱلْحُوتِ *(balık sahibi)* (68:48) — نون *(balık (nûn))* HAPAKS, olağan kelime حوت *(balık)* (5 geçiş); iki ayette de ndi kökü نَادَىٰ *(seslendi)* ve bir sıkıntı hâli (21:88 غَمّ *(gam)* / 68:48 مَكْظُوم *(tıkanmış)*). Halka 2: صَاحِبِ ٱلْحُوتِ ↔ 37:139-148 bölütü — köprü عَرَآء *(çıplak açıklık)*: kök عري korpusta 3 geçiş, ikisi 37:145 ve 68:49 ve İKİSİ DE نبذ *(atma)* fiiliyle; üçüncüsü (20:118) ilgisiz. Halka 3: 37:139'da ad AÇIK — يُونُس *(Yûnus)*. EK KÖPRÜLER: سبح *(tesbih, tenzih)* — 21:87 سُبْحَٰنَكَ ve 37:143 مِنَ ٱلْمُسَبِّحِينَ, ikisi de kurtuluşun gerekçesi konumunda; kendini suçlama — 21:87 مِنَ ٱلظَّٰلِمِينَ *(zalimlerden)* ve 37:142 مُلِيمٌۭ *(kınanacak durumda)*; 68:50 مِنَ ٱلصَّٰلِحِينَ *(salihlerden)* ile 21:86 fâsılası aynı ve 21:86 tam 21:87'nin ÖNCEKİ ayeti. AYRICA: 37:140-142 üç ARDIŞIK ayette ÜÇ HAPAKS taşıyor — أبق *(kaçma)* · سهم *(kura çekme)* · لقم *(yutma)*.",
+   "olculen": {
+    "nun_kok_gecis": 1,
+    "hut_kok_gecis": 5,
+    "hut_ayetler": [
+     [
+      7,
+      163
+     ],
+     [
+      18,
+      61
+     ],
+     [
+      18,
+      63
+     ],
+     [
+      37,
+      142
+     ],
+     [
+      68,
+      48
+     ]
+    ],
+    "ari_kok_gecis": 3,
+    "ari_ayetler": [
+     [
+      20,
+      118
+     ],
+     [
+      37,
+      145
+     ],
+     [
+      68,
+      49
+     ]
+    ],
+    "nbz_ari_birlikte": [
+     [
+      37,
+      145
+     ],
+     [
+      68,
+      49
+     ]
+    ],
+    "yunus_lemma_ayetleri": [
+     [
+      4,
+      163
+     ],
+     [
+      6,
+      86
+     ],
+     [
+      10,
+      98
+     ],
+     [
+      37,
+      139
+     ]
+    ],
+    "ardisik_hapaks_37": [
+     [
+      37,
+      140,
+      "أبق"
+     ],
+     [
+      37,
+      141,
+      "سهم"
+     ],
+     [
+      37,
+      142,
+      "لقم"
+     ]
+    ],
+    "kimlik_korpusta_acik": false,
+    "cikarim_halkasi": 3
+   },
+   "test": "ÖN-KAYIT — İKİ AYRI SORU. (1) BETİMSEL: korpusta künye ile anılan (ذو/صاحب + isim) kaç aktör var, ve bunların kaçının adı başka bir yerde açıkça veriliyor? Ölçüt: pn_lemma_listesi + adsız aktör alanı taranarak künye envanteri çıkarılacak. Sûre 21 bu bakımdan zengin: ذَا ٱلْكِفْلِ (21:85) ve ذَا ٱلنُّونِ (21:87) iki ayrı künye, ikisi de aktör tablosuna GİRMİYOR — yani araç künyeyi ad saymıyor (bu bir ölçüm sınırı kaydıdır, ayrı bir araç notu). (2) ÖLÇÜLEBİLİR: aynı aktörün anlatısı iki sûrede farklı KATMANDAN mı veriliyor? 21:87 hiçbir dış olay öğesi taşımıyor (gemi, kura, yutulma, kıyıya atılma yok) — yalnız iç dizi: gitme · yanlış tahmin · seslenme. 37:139-148 ise ağırlıkla dış olay. Ölçüt: ortak aktör taşıyan ayet kümeleri için 'dış olay kökü' ve 'iç hâl kökü' oranı hesaplanacak; sınıflandırma KÖR. Motive eden aktör dışlanamaz, ARTIK olarak raporlanır.",
+   "uyari": "Kullanıcının 'Zünnûn kim' sorusu üzerine ARANARAK BULUNDU. KRİTİK: 'Zünnûn = Yûnus' bir ÇIKARIMDIR, ÖLÇÜM DEĞİLDİR — korpus bunu hiçbir yerde söylemiyor. Zincir üç ayrı kelime köprüsüne dayanıyor ve her halka ayrı ayrı doğrulanabilir olsa da toplamı bir tefsir hükmüdür. Bu ayrım okuma metnine açıkça yazıldı. Ayrıca aktör tablosunun künyeleri saymaması bağımsız bir araç sınırıdır."
+  },
+  {
+   "no": 459,
+   "aday": "SÛRE 21'İN KENDİ ÇERÇEVESİ: وصف *(niteleme, vasıf)* KÖKÜ ÜÇ KEZ VE ÜÇÜ DE FÂSILA. Enbiyâ'da kök üç ayette geçiyor ve üçünde de ayetin SON kelimesi: 21:18 تَصِفُونَ *(nitelersiniz)* 2MP · 21:22 يَصِفُونَ *(niteliyorlar)* 3MP · 21:112 تَصِفُونَ 2MP. Korpusta kök 14 geçişli (6:100 · 6:139 · 12:18 · 12:77 · 16:62 · 16:116 · 21:18 · 21:22 · 21:112 · 23:91 · 23:96 · 37:159 · 37:180 · 43:82); üç geçiş taşıyan TEK sûre 21'dir (öteki sûrelerde en çok iki). AYRICA iki uç nokta eksen tepeleriyle çakışıyor: 21:22 sûrenin lafız ile Rab'ı bir arada taşıyan TEK ayeti (aday 441), 21:112 ise Rab yoğunluğunun tepesi (z=3,94). Şahıs sırası 2MP → 3MP → 2MP.",
+   "olculen": {
+    "kok": "وصف",
+    "sure21_gecis": 3,
+    "ayetler": [
+     [
+      21,
+      18
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      21,
+      112
+     ]
+    ],
+    "hepsi_fasila": true,
+    "sahis_sirasi": [
+     "2MP",
+     "3MP",
+     "2MP"
+    ],
+    "korpus_gecis": 14,
+    "korpus_ayetler": [
+     [
+      6,
+      100
+     ],
+     [
+      6,
+      139
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      12,
+      77
+     ],
+     [
+      16,
+      62
+     ],
+     [
+      16,
+      116
+     ],
+     [
+      21,
+      18
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      21,
+      112
+     ],
+     [
+      23,
+      91
+     ],
+     [
+      23,
+      96
+     ],
+     [
+      37,
+      159
+     ],
+     [
+      37,
+      180
+     ],
+     [
+      43,
+      82
+     ]
+    ],
+    "uc_gecisli_tek_sure": 21,
+    "21_22": "lafız+Rab birlikte (tek ayet)",
+    "21_112": "rab z=3,94 (sûre tepesi)"
+   },
+   "test": "ÖN-KAYIT. İki soru. (1) BETİMSEL: korpusta bir kökün aynı sûrede üç ya da daha fazla kez ve HEPSİ fâsıla konumunda geçmesi ne kadar sık? Ölçüt: her sûre × kök için fâsıla-konumlu geçiş sayımı; null = kökün sûredeki toplam geçişi verildiğinde fâsılaya düşme olasılığı (hipergeometrik). Kafiye kısıtı ZORUNLU kontrol: fâsıla konumu kafiye harfine bağlı olduğu için kök bazlı sayım kafiye sınıfı sabit tutularak yapılmalı — Enbiyâ tek sınıflı (N) olduğu için bu sûrede kısıt en güçlü. (2) İkincil: bir sûrenin eksen tepelerinin (lafız/Rab z maksimumları) ortak kök taşıması bir desen mi? MOTİVE EDEN SÛRE DIŞLANAMAZ; korpus tabanı çıkarılıp 21'in konumu ARTIK olarak raporlanacak.",
+   "uyari": "ARANARAK BULUNDU — 21:112 okunurken fâsılanın 21:22 ile aynı kök olduğu fark edildi, sonra korpus tarandı. TERSİNE NEDENSELLİK RİSKİ: تصفون/يصفون zaten ن ile bitiyor, yani sûrenin baskın kafiyesine uyuyor; kök fâsılaya kafiye yüzünden mi düşüyor yoksa konum seçilmiş mi — ölçüm bunu ayıramaz. Aday 453 ile AYNI risk sınıfı; ikisi birlikte kurulmalı."
+  },
+  {
+   "no": 460,
+   "aday": "22:15 — ÜÇ LÂMÜ'L-EMR TEK AYETTE VE KORPUSTA TEK 'MEYDAN OKUMA' ÖRNEĞİ. Lâmü'l-emr (morfolojide IMPV|PREF) taşıyan ayet korpusta 55; ÜÇ veya daha fazlasını taşıyan yalnız BEŞ ayet: 2:282 (borç yazımı) · 4:9 (söz söyleme) · 4:102 (korku namazı düzeni) · 18:19 (şehre adam gönderme) · 22:15. İlk dördü PRATİK TALİMAT; 22:15 ise yapılabilirliği sınanmayan bir eylem zinciri kuruyor (فَلْيَمْدُدْ … ثُمَّ لْيَقْطَعْ … فَلْيَنظُرْ *(uzatsın… kessin… baksın)*). Ayrıca soru içinde te'kid nûnu var: يُذْهِبَنَّ (EMPH|SUFF) + هَلْ (INTG) — korpusta INTG ile EMPH|SUFF'u aynı ayette taşıyan 21 ayet. Ve لْيَقْطَعْ MEF'ÛLSÜZ: neyin kesileceği yazılmamış. KORPUS BAĞLAMI: سبب *(sebep, uzatılan ip)* isim olarak dokuz geçiş; ÜÇÜ göğe çıkış bağlamında — 22:15 · 38:10 (فَلْيَرْتَقُوا۟ فِى ٱلْأَسْبَٰبِ *(sebeplerde yükselsinler)*, yine lâmü'l-emr) · 40:37 (أَسْبَٰبَ ٱلسَّمَٰوَٰتِ *(göklerin sebepleri)*, Firavun). 40:37 ayrıca 22:15 ile aynı kelimeyle kapanıyor: كيد *(tuzak, düzen)*. Ve قطع + سبب ikilisi korpusta iki yerde: 22:15 ve 2:166 (تَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ *(bağları kesildi)*). Ve ذهب + غيظ ikilisi korpusta iki yerde: 22:15 ve 9:15 (وَيُذْهِبْ غَيْظَ قُلُوبِهِمْ *(kalplerindeki öfkeyi giderir)*) — fâiller ters.",
+   "olculen": {
+    "lamul_emr_ayet": 55,
+    "uc_plus": [
+     [
+      2,
+      282
+     ],
+     [
+      4,
+      9
+     ],
+     [
+      4,
+      102
+     ],
+     [
+      18,
+      19
+     ],
+     [
+      22,
+      15
+     ]
+    ],
+    "INTG_EMPH_ayet": 21,
+    "sbb_isim_gecis": 9,
+    "sbb_goge_cikis": [
+     [
+      22,
+      15
+     ],
+     [
+      38,
+      10
+     ],
+     [
+      40,
+      37
+     ]
+    ],
+    "qt_sbb_ikilisi": [
+     [
+      2,
+      166
+     ],
+     [
+      22,
+      15
+     ]
+    ],
+    "zhb_gyz_ikilisi": [
+     [
+      9,
+      15
+     ],
+     [
+      22,
+      15
+     ]
+    ],
+    "lyqta_mefulsuz": true,
+    "saqf_kok_gecis": 4
+   },
+   "test": "ÖN-KAYIT. (1) Lâmü'l-emr zincirinin işlevi ölçülebilir mi? Ölçüt: 55 ayetin her biri için defter'in edim alanı + zincirin nesnesinin YAPILABİLİR olup olmadığı KÖR sınıflandırılacak (ayet numarası gizli, yalnız fiil zinciri + tümleçler verilecek). n=55 küçük; test betimsel kalacak. (2) 'Göğe çıkış' kalıbı: سبب · رقي · صرح · سلّم *(merdiven)* köklerinin gök bağlamındaki geçişleri toplanıp, hepsinde sonucun boşluk/imkânsızlık bildirip bildirmediği sayılacak — sınıflandırma KÖR. MOTİVE EDEN AYET (22:15) DIŞLANIR. (3) İki-yerli kök çiftleri (قطع+سبب, ذهب+غيظ) tek gözlemdir, test edilemez; yalnız kaydedildi.",
+   "uyari": "Kullanıcının 22:15 sorusu üzerine ARANARAK BULUNDU. 'Meydan okuma' ve 'imkânsızlık' YORUMDUR; ölçüm olan şey lâmü'l-emr sayımı, INTG+EMPH birlikteliği, mef'ûl eksikliği ve kök birlikte-geçişleridir. AYRICA: ٱلسَّمَآء *(gök)* ile neyin kastedildiği ayetten ölçülemez; korpusta 'tavan' için ayrı kelime bulunması (سقف *(tavan, çatı)*, 4 geçiş, biri 21:32) bir yorumu KANITLAMAZ, yalnız iki kelimenin ayrı olduğunu ölçer."
+  },
+  {
+   "no": 461,
+   "aday": "ARAÇ HATASI — TEK BİR LEMMA ESMÂ TABLOSUNUN ONDA BİRİNİ ÜRETİYOR VE NEREDEYSE TAMAMI YANLIŞ. Korpusta esmâ token toplamı 2077. En sık lemma مُؤْمِن *(mü'min)* ile **202 token = %9,7**. Oysa مُؤْمِن ilâhî ad olarak korpusta YALNIZ BİR yerde geçiyor: 59:23 (ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ *(Melik, Kuddûs, Selâm, Mü'min, Müheymin)*). Kalan 201 geçişte gönderge İNSANLARDIR. Yani bu lemma için hata oranı **201/202 = %99,5** ve tek başına esmâ tablosunun %9,7'sini bozuyor. Sûre 21'de saptanan iki yanlış pozitif (21:88, 21:94) bu 201'in ikisiydi. İKİNCİ ARAÇ ASİMETRİSİ: مُؤْمِن esma_listesi.json'da VAR ama pn_lemma_listesi.json'da YOK; buna karşılık مُسْلِم *(müslüman)* pn_lemma_listesi'nde VAR (tür 'kavim', 39 ayet) ama esma_listesi'nde YOK. İki tablo aynı anlam alanını ters yönde bölüyor. AYNI RİSK altındaki öteki yüksek sayılı lemmalar: آخِر *(son)* 155 (dünya/âhiret çiftinin ucu — 22:11 ve 22:15'te yanlış pozitif saptandı) · مُبِين *(apaçık)* 119 (sıfat — 21:54 ve 22:11'de yanlış) · وَلِيّ *(velî)* 86 · أَحَد *(bir)* 74 · سَلام *(selâm)* 42 (21:69'da yanlış) · كَبِير *(büyük)* 40 (20:71, 21:58, 21:63'te yanlış).",
+   "olculen": {
+    "korpus_esma_token": 2077,
+    "mumin_token": 202,
+    "mumin_pay": 0.097,
+    "mumin_gercek_ilahi_ad": [
+     [
+      59,
+      23
+     ]
+    ],
+    "mumin_hata_orani": 0.995,
+    "risk_lemmalar": {
+     "آخِر": 155,
+     "مُبِين": 119,
+     "وَلِيّ": 86,
+     "أَحَد": 74,
+     "سَلام": 42,
+     "كَبِير": 40
+    },
+    "tablo_asimetrisi": {
+     "مُؤْمِن": {
+      "esma": true,
+      "pn": false
+     },
+     "مُسْلِم": {
+      "esma": false,
+      "pn": true
+     }
+    },
+    "esma_lemma_sayisi": 72
+   },
+   "test": "TUR SONU ONARIMI — ADAY 444 VE 414 İLE BİRLEŞTİRİLDİ, P0'A YÜKSELTİLDİ. Onarım ölçütleri (sûre 20-22 gözlemlerinden türetildi): (a) gönderge testi — lemma bir zamir/işaretle Allah lafzına ya da Rab'be bağlanabiliyor mu; (b) çoğul testi — çoğul biçim esmâ maddesi olamaz; (c) sıfat testi — lemma bir isim tamlamasında NİTELEYEN konumda mı (ضَلَٰلٍ مُّبِينٍ); (d) çift-ucu testi — lemma bir karşıtlık çiftinin ucu mu (دنيا/آخرة, قريب/بعيد); (e) yergi testi — lemma bir yergi kalıbında mı (لَبِئْسَ ٱلْمَوْلَىٰ); (f) yüklem testi — lemma bir emir yükleminin parçası mı (بَرْدًا وَسَلَامًا). ÖNCE ölçülecek: bu altı ölçüt uygulandığında 2077 token kaça düşüyor? SONRA esmâ tabanlı bütün ölçümler yeniden koşulacak. ESMÂ TABANLI HİÇBİR BULGU ONARIM ÖNCESİ KAPATILAMAZ.",
+   "uyari": "ARANARAK BULUNDU — kullanıcının 22:17 aktör sorusu üzerine iki tablo karşılaştırıldı. BULGU DEĞİL, ARAÇ HATASI KAYDIDIR. Etki alanı ÇOK GENİŞ: makro profillerdeki bütün esmâ sayımları (sûre 1-22) bu hatayı taşıyor. Okuma DURMADI; okunan ayetlerin ölçüm satırlarında her esmâ tokeni ayrıca bağlam denetiminden geçirildi ve yanlış pozitifler işaretlendi."
+  },
+  {
+   "no": 462,
+   "aday": "ARAÇ TASARIM SORUSU — AKTÖR TABLOSU İSİM İLE FİİL-TANIMINI AYIRIYOR, VE BU AYRIM TOPLULUKLARDA TUTARSIZ. Aktör tablosu pn_lemma_listesi.json'daki 106 lemmayı sözlüksel eşleştirmeyle buluyor (tür dağılımı: kisi 40 · yer 24 · kavim 13 · sahte-ilah 10 · gayb 8 · diger 6 · kitab 4 · ilahi 1). 22:17'de altı topluluk sayılıyor ama üçü kaydediliyor: صابِئ · نَصْرانِيّ · مَجُوس (üçü de tekil ad, üçü de listede); kaydedilmeyenler ٱلَّذِينَ ءَامَنُوا۟ · ٱلَّذِينَ هَادُوا۟ · ٱلَّذِينَ أَشْرَكُوٓا۟ (üçü de ism-i mevsûl + fiil). SORUN: يَهُود *(Yahudi)* zaten listede ve tür 'kavim'; lemma biçimiyle geçtiği 8 ayette aktör kaydediliyor (2:113 · 2:120 · 3:67 · 5:18 · 5:51 · 5:64 · 5:82 · 9:30), fiil biçimi هَادُوا۟ ile geçtiği 10 ayette kaydedilmiyor (2:62 · 4:46 · 4:160 · 5:41 · 5:44 · 5:69 · 6:146 · 16:118 · 22:17 · 62:6). Aynı topluluk, aynı kök, ayrı muamele — ayrımı yapan şey topluluğun kendisi değil cümlenin isim mi fiil mi kurulduğu.",
+   "olculen": {
+    "pn_lemma": 106,
+    "tur_dagilimi": {
+     "kisi": 40,
+     "yer": 24,
+     "kavim": 13,
+     "sahte-ilah": 10,
+     "gayb": 8,
+     "diger": 6,
+     "kitab": 4,
+     "ilahi": 1
+    },
+    "kavim_listesi": [
+     "إِسْرائِيل",
+     "ثَمُود",
+     "عاد",
+     "نَصْرانِيّ",
+     "مُسْلِم",
+     "مَدْيَن",
+     "يَهُود",
+     "صابِئ",
+     "سَبَإ",
+     "مَجُوس",
+     "رُوم",
+     "إِرَم",
+     "قُرَيْش"
+    ],
+    "22_17_toplam_grup": 6,
+    "22_17_kaydedilen": 3,
+    "yahud_lemma_ayet": [
+     [
+      2,
+      113
+     ],
+     [
+      2,
+      120
+     ],
+     [
+      3,
+      67
+     ],
+     [
+      5,
+      18
+     ],
+     [
+      5,
+      51
+     ],
+     [
+      5,
+      64
+     ],
+     [
+      5,
+      82
+     ],
+     [
+      9,
+      30
+     ]
+    ],
+    "hadu_fiil_ayet": [
+     [
+      2,
+      62
+     ],
+     [
+      4,
+      46
+     ],
+     [
+      4,
+      160
+     ],
+     [
+      5,
+      41
+     ],
+     [
+      5,
+      44
+     ],
+     [
+      5,
+      69
+     ],
+     [
+      6,
+      146
+     ],
+     [
+      16,
+      118
+     ],
+     [
+      22,
+      17
+     ],
+     [
+      62,
+      6
+     ]
+    ],
+    "muslim_lemma_ayet_sayisi": 39
+   },
+   "test": "TUR SONU KARAR + ONARIM. Üç seçenek ve her biri ölçüm sonucunu değiştirir: (a) DAR — topluluk adları listeden çıkarılır, aktör tablosu yalnız kişi/yer/gayb tutar; 22:17'de 3→0. (b) ORTA — topluluk adları kalır ve fiil biçimleri de eşlenir (هَادُوا۟ → يَهُود); 22:17'de 3→4. (c) GENİŞ — 'inanç-topluluğu' ayrı bir tür açılır ve ism-i mevsûl + fiil kalıpları (ٱلَّذِينَ ءَامَنُوا۟ · ٱلَّذِينَ كَفَرُوا۟ · ٱلَّذِينَ أَشْرَكُوا۟) da alınır; 22:17'de 3→6 ama korpus etkisi çok büyük. KARAR VERİLMEDİ. Seçim yapılmadan önce ölçülecek: her seçenekte korpus çapında aktör token sayısı kaça çıkıyor, ve aktör yoğunluğuna dayanan kayıtlı bulgular (sûre 21 makro profilindeki 'okumanın en aktör-yoğun sûresi' ifadesi dâhil) nasıl değişiyor? Karar verilene kadar aktör yoğunluğu KARŞILAŞTIRMALARI kullanılmayacak.",
+   "uyari": "Kullanıcının doğrudan sorusu üzerine kayda geçirildi: 'iman edenler bir aktör olabilir mi?' Mevcut ölçüte göre HAYIR, çünkü ölçüt lemma eşleşmesidir. Ama ölçütün kendisi tutarsızdır. Bu bir BULGU DEĞİL, ARAÇ TASARIM KARARIDIR ve karar okuma sırasında verilmez. Sûre 21 makro profilindeki 'okumanın en aktör-yoğun sûresi' ifadesi bu karara BAĞIMLIDIR ve şimdilik geçici sayılmalıdır."
+  },
+  {
+   "no": 463,
+   "aday": "ذِكْرُ ٱسْمِ ٱللَّهِ *(Allah'ın adının anılması)* DİZİSİ KORPUSTA DOKUZ AYETTE, DÖRDÜ TEK BLOKTA. Lemma dizisi ذكر *(anma, zikir)* + سمو *(ad; gök)* + أله *(ilâh; lafza-i celâl)* korpusta 9 ayette: 5:4 · 6:118 · 6:119 · 6:121 · 6:138 · **22:28 · 22:34 · 22:36 · 22:40**. Dokuzun dördü sûre 22'de ve dördü de 22:28-40 aralığında. İlk üçü (28, 34, 36) kurban bağlamında ve ETKEN emir/amaç kipinde (يَذْكُرُوا۟ · فَٱذْكُرُوا۟); dördüncüsü (22:40) EDİLGEN (يُذْكَرُ) ve bağlam kurbandan MABEDE kayıyor (صَوَٰمِعُ *(manastırlar)* · بِيَعٌ *(kiliseler)* · صَلَوَٰت *(havralar)* · مَسَٰجِد *(mescitler)*). ARAÇ NOTU: defter'in nakarat alanı bu dört ayette de 0 — araç tekrarı görmüyor.",
+   "olculen": {
+    "dizi": "ذكر + سمو + أله",
+    "korpus_ayet": 9,
+    "ayetler": [
+     [
+      5,
+      4
+     ],
+     [
+      6,
+      118
+     ],
+     [
+      6,
+      119
+     ],
+     [
+      6,
+      121
+     ],
+     [
+      6,
+      138
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      22,
+      34
+     ],
+     [
+      22,
+      36
+     ],
+     [
+      22,
+      40
+     ]
+    ],
+    "sure22_pay": 4,
+    "aralik": [
+     28,
+     40
+    ],
+    "catilar": {
+     "22:28": "etken (لِيَذْكُرُوا۟)",
+     "22:34": "etken (لِيَذْكُرُوا۟)",
+     "22:36": "etken emir (فَٱذْكُرُوا۟)",
+     "22:40": "EDİLGEN (يُذْكَرُ)"
+    },
+    "nakarat_alani": 0
+   },
+   "test": "ÖN-KAYIT + ARAÇ ÖLÇÜMÜ. (1) ARAÇ: defter'in nakarat alanı hangi ölçütle çalışıyor ve neden bu diziyi görmüyor? Önce ölçütün kendisi okunacak, sonra 'sûre içi 3+ tekrar eden lemma dizisi' taraması bağımsız kurulacak. (2) ÖN-KAYIT: bir sûre içinde 3+ kez tekrarlanan lemma dizileri korpusta kaç tane, ve tekrarların SON geçişi çatı ya da bağlam değiştirme eğiliminde mi? Ölçüt: her tekrar kümesi için son geçişin çatısı (etken/edilgen) ve komşuluk kökleri kodlanacak; sınıflandırma KÖR. Motive eden küme dışlanır.",
+   "uyari": "Ölçüm katmanından geldi — xref alanı dört ayette de birbirini gösterdi, ARANARAK BULUNMADI. 'Kurbandan mabede kayış' bir YORUMDUR; ölçüm olan şey çatı değişimi ve komşuluk köklerinin farklılaşmasıdır."
+  },
+  {
+   "no": 464,
+   "aday": "22:61-65 — BEŞ ARDIŞIK AYETİN HER BİRİNİN SÛRE 31'E (LOKMAN) XREF'İ VAR. 22:61 → 31:29 · 22:62 → **31:30 (beş ayrı 3-gram, hepsi tek ayete)** · 22:63 → 31:16 (+35:27, 39:21) · 22:64 → 31:26 · 22:65 → 31:20 (+2:143, 14:32). Beş ayet, beş farklı Lokman ayeti; hedefler 31:16 · 20 · 26 · 29 · 30 — sıralı DEĞİL. Bu beş ayetin hepsi aynı zamanda MÜHÜR taşıyor (سَمِيع|بَصِير · عَلِيّ|كَبِير · لَطِيف|خَبِير · غَنِيّ|حَمِيد · رَءُوف|رَحِيم) ve yedi ardışık mühür kümesinin (22:59-65) beşini oluşturuyor. Yani bir yandan mühür yoğunlaşması, öte yandan tek bir sûreye yönelik xref yoğunlaşması aynı beş ayette çakışıyor.",
+   "olculen": {
+    "aralik": [
+     61,
+     65
+    ],
+    "xref_hedefleri": {
+     "22:61": [
+      [
+       31,
+       29
+      ]
+     ],
+     "22:62": [
+      [
+       31,
+       30
+      ],
+      [
+       40,
+       12
+      ]
+     ],
+     "22:63": [
+      [
+       31,
+       16
+      ],
+      [
+       35,
+       27
+      ],
+      [
+       39,
+       21
+      ]
+     ],
+     "22:64": [
+      [
+       31,
+       26
+      ]
+     ],
+     "22:65": [
+      [
+       31,
+       20
+      ],
+      [
+       2,
+       143
+      ],
+      [
+       14,
+       32
+      ]
+     ]
+    },
+    "31_hedef_ayetler": [
+     16,
+     20,
+     26,
+     29,
+     30
+    ],
+    "sirali": false,
+    "muhurler": {
+     "22:61": "سَمِيع|بَصِير",
+     "22:62": "عَلِيّ|كَبِير",
+     "22:63": "لَطِيف|خَبِير",
+     "22:64": "غَنِيّ|حَمِيد",
+     "22:65": "رَءُوف|رَحِيم"
+    },
+    "ardisik_muhur_kumesi": [
+     59,
+     65
+    ]
+   },
+   "test": "ÖN-KAYIT. İki soru. (1) Ardışık ayetlerin xref hedeflerinin TEK bir sûrede toplanması ne kadar sık? Ölçüt: korpusun tamamı için 3+ ardışık ayetlik pencereler taranıp, her pencerenin xref hedeflerinin sûre-entropisi hesaplanacak; null = xref bağlantılarının rastgele yeniden bağlanması (derece dağılımı korunarak). (2) Mühür yoğunlaşması ile xref yoğunlaşması ilişkili mi? Ölçüt: mühür taşıyan ayet dizileri ile taşımayanlar arasında xref sûre-entropisi karşılaştırılacak. ÖN KOŞUL: aday 461'in esmâ onarımı yapılmadan mühür sayımı GÜVENİLMEZ; bu yüzden (2) onarım sonrasına ertelendi. MOTİVE EDEN PENCERE (22:61-65) DIŞLANIR.",
+   "uyari": "Okuma sırasında beş ayetin xref alanları arka arkaya 31'i gösterince fark edildi — kısmen ARANARAK. UYARI: xref alanı lemma 3-gram eşleşmesine dayanıyor; sûre 31 ile sûre 22'nin ortak kalıpları paylaşması bir 'bağ' değil, ORTAK FORMÜL kullanımı olabilir. Donmuş kalıp ayrımı (aday 437) yapılmadan bu aday KAPATILAMAZ."
   }
  ],
  "AC_gorme_soyleme": [
