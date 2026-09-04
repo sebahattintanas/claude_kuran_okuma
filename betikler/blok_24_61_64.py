@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+"""blok_24_61_64.py — sûre 24 son blok. SÛRE TAM (64/64)."""
+import json
+DIK=json.load(open('blok_dikey_24_46_64.json',encoding='utf-8'))
+veri=json.load(open('kuran_veri.json',encoding='utf-8'))
+AR={}
+for s in veri['sureler']:
+    for a in s['ayetler']: AR[(s['no'],a['no'])]=a['ar']
+
+MEAL={
+61:"Köre bir güçlük yok, topala güçlük yok, hastaya güçlük yok, kendinize de yok: kendi evlerinizden, babalarınızın, annelerinizin, kardeşlerinizin, kız kardeşlerinizin, amcalarınızın, halalarınızın, dayılarınızın, teyzelerinizin evlerinden, anahtarlarına sahip olduğunuz yerlerden ya da dostunuzun evinden yemenizde. Toplu ya da ayrı ayrı yemenizde de vebal yok. Evlere girdiğinizde, Allah katından bereketli ve hoş bir esenleme olarak kendinize selâm verin. Allah size âyetleri böyle açıklıyor; belki akledersiniz.",
+62:"Mü'minler ancak Allah'a ve Elçisi'ne inananlar ve onunla birlikte toplu bir iş üzerindeyken izin almadan gitmeyenlerdir. Senden izin isteyenler, işte onlar Allah'a ve Elçisi'ne inananlardır. Bazı işleri için senden izin istediklerinde, onlardan dilediğine izin ver ve onlar için Allah'tan bağışlanma dile. Allah bağışlayandır, merhamet edendir.",
+63:"Elçi'nin çağrısını aranızda birbirinizi çağırmanız gibi tutmayın. Allah, aranızdan gizlice sıvışıp gidenleri bilir. Onun emrine aykırı davrananlar, kendilerine bir fitne ya da acı bir azap gelmesinden sakınsınlar.",
+64:"İyi bilin ki göklerde ve yerde olanlar Allah'ındır. O, üzerinde bulunduğunuz hâli bilir; kendisine döndürülecekleri günü de. Yaptıklarını onlara bildirecektir. Allah her şeyi bilendir.",
+}
+OLCUM={
+61:"eksen: **Allah lafzı 67. ve 72. sırada — iki geçiş** (allah z=0,00) · aktör yok · edim emir, kip NEG ×3 · IMPV 1 · şahıs 3MS ×4 · **2MP ×27** · **n=76 mora=386 harf=323 — SÛRENİN İKİNCİ EN UZUN AYETİ** (n z=6,75: yıldızın tek kaynağı, aday 503), fâsıla تَعْقِلُونَ *(akledersiniz)* → ن, N sınıfı; **i'râb GEN 26 · ACC 8 · NOM 5**; bab I ×7 · bab II ×2; zaman PERF ×4 · IMPF ×4 · IMPV 1; **kök ikilemesi ليس *(değil)* ×2 · حرج *(sıkıntı, darlık)* ×3 · نفس *(nefis, can)* ×2 · أكل *(yeme)* ×2 · بيت *(ev, mesken)* ×10 · أخو *(kardeş)* ×2 · عمم *(amca; genel)* ×2 · خول *(dayı, teyze; mülk verme)* ×2 · أله *(ilâh; lafza-i celâl)* ×2**; simetri [12,20,32,4]; dış düğüm 2 · yıldız ★★★ · kökler ليس · عمي *(körlük)* · حرج · عرج *(yükselme (urûc); topal)* · مرض *(hastalık)* · نفس · أكل · بيت · أبو *(baba)* · أمم *(ümmet, topluluk; anne)* · أخو · عمم · خول · ملك *(mülk; melik)* · فتح *(açma)* · صدق *(doğruluk)* · جنح *(kanat; yan taraf)* · جمع *(toplama)* · شتت *(dağınıklık, türlü türlü olma)* · دخل *(girme)* · سلم *(esenlik; teslim olma)* · حيي *(diri olma, hayat)* · عند *(kat, yan)* · أله · برك *(bereket)* · طيب *(temiz, hoş)* · بين *(arası; açıklama)* · أيي *(âyet, işaret)* · عقل *(akletme, akıl)* · bağ: xref ليس + أعمى *(kör)* + حرج → **48:17 — beş ayrı 3-gram, hepsi tek ayete**; **24:27 ile halka** — orada eve girme yasağı ve selâm emri, burada muafiyet ve selâm emri (elle, L1, aday 521)",
+62:"eksen: **Allah lafzı 5., 23., 35. ve 37. sırada — DÖRT geçiş** (allah z=1,52) · **esmâ مُؤْمِن *(mü'min)* 2. sırada — ÖLÇÜM ARTEFAKTI (aday 461)**; **esmâ غَفُور *(gafûr)* 38. + رَحِيم *(rahîm)* 39. sırada — MÜHÜR; GEÇERLİ** · aktör yok · edim emir, kip NEG 1 · IMPV ×2 · şahıs 3MP ×17 · 3MS ×4 · 2MS ×6 · n=39 mora=222 harf=195 (n z=2,82), **fâsıla رَّحِيمٌۭ → م**, N sınıfı; i'râb ACC 6 · NOM 3 · GEN 8; bab I ×4 · bab IV ×2 · bab X ×4; zaman PERF ×4 · IMPF ×4 · IMPV ×2; **kök ikilemesi أمن *(güven; iman)* ×3 · أله *(ilâh; lafza-i celâl)* ×4 · رسل *(gönderme, elçi)* ×2 · أذن *(izin verme; kulak)* ×4 · غفر *(bağışlama, mağfiret)* ×2**; simetri [7,3,21,2]; **dış düğüm 3** · yıldız ★★ · kökler أمن · أله · رسل · كون *(olmak)* · أمر *(emir; iş)* · جمع *(toplama)* · ذهب *(gitme, götürme)* · أذن · بعض *(bir kısım)* · شأن *(iş, durum (şeʼn))* · شيأ *(dileme; şey)* · غفر · رحم *(rahmet, merhamet)* · bağ: xref استأذن *(izin istedi)* + آمن *(iman etti)* + اللّه *(Allah)* → **9:44 · 9:45**; **izin zincirinin kapanışı — أذن dördü bu ayette, dördü de bab X** (elle, L1, aday 522)",
+63:"eksen: **Allah lafzı 11. sırada** (allah z=0,21) · aktör yok · edim emir + yasak, kip PRO 1 · CERT 1 · IMPV 1 · şahıs 2MP ×5 · 3MS ×4 · 3MP ×6 · 3FS 1 · n=27 mora=156 harf=126 (n z=1,55), **fâsıla أَلِيمٌ *(acı)* → م**, N sınıfı; i'râb ACC 4 · GEN 4 · NOM 4; bab I ×3 · bab III ×1 · bab IV ×2 · bab V ×1; **zaman IMPF ×7 — yedi fiilin yedisi de muzâri**; **hapaks: لوذ *(sığınıp gizlenme, sıvışma)* — korpusta TEK geçiş, hapaks z=3,38: yıldızın tek kaynağı; SÛRENİN DÖRDÜNCÜ VE SON HAPAKSI**; kök ikilemesi دعو *(çağırma, dua)* ×2 · بعض *(bir kısım)* ×2 · صوب *(isabet etme, doğru olma)* ×2; biçim NEHY · yıldız ★★★ · kökler جعل *(kılma, var etme)* · دعو · رسل *(gönderme, elçi)* · بين *(arası; açıklama)* · بعض · علم *(bilme)* · أله *(ilâh; lafza-i celâl)* · سلل *(süzülüp çıkan öz, sülâle)* · لوذ · حذر *(sakınma, çekinme)* · خلف *(ayrılığa düşme; ardından gelme)* · أمر *(emir; iş)* · صوب · فتن *(sınama, fitne)* · عذب *(azap)* · ألم *(elem, acı)* · bağ: **23:12 ile ortak سلل** — orada yaratılış maddesi (isim), burada sıvışma (bab V) (elle, L1, aday 523)",
+64:"eksen: **Allah lafzı 3. ve 19. sırada — iki geçiş** (allah z=1,29) · **esmâ عَلِيم *(alîm)* 22. sırada = fâsıla — GEÇERLİ**: doğrudan lafzın yüklemi; **MÜHÜRSÜZ — sûrenin son ayeti tek esmâ ile kapanıyor** · aktör yok · edim haber, kip CERT 1 · şahıs 3MS ×4 · 2MP 1 · 3MP ×5 · n=22 mora=106 harf=88 (n z=1,02), **fâsıla عَلِيمٌۢ → م**, N sınıfı; i'râb ACC 2 · GEN 5 · NOM 2; bab I ×3 · bab II ×1; zaman IMPF ×3 · PERF 1; **edilgen 1 — يُرْجَعُونَ *(döndürülürler)*** (pas z=1,10); kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · علم *(bilme)* ×2; biçim DIKKAT; simetri [4,2,8,1]; dış düğüm 2 · yıldız ★ yok · kökler أله · سمو *(ad; gök)* · أرض *(yer, yeryüzü)* · علم · يوم *(gün)* · رجع *(dönme, geri döndürme)* · نبأ *(haber)* · عمل *(iş, amel)* · كلل *(hep, bütün)* · شيأ *(dileme; şey)* · bağ: xref نبّأ *(bildirdi)* + عمل *(amel)* + اللّه *(Allah)* → **31:23 · 64:7**; **24:42 ile SÛRE HALKASI** — ortak terkip لِلَّهِ + ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, nesne مُلْك *(mülk)* → مَا فِى *(içindekiler)* (elle, L1, aday 524)",
+}
+MERCEK={
+61:"Sûrenin en zengin kökü burada doruğa çıkıyor: بيت *(ev, mesken)* tek ayette on kez — sûredeki 14 geçişin onu bu ayette. Ölçülebilir bir yapı: dokuz akrabalık evi arka arkaya, hepsi aynı tamlama kalıbıyla ve أَوْ *(ya da)* ile bağlı. Dizinin dışına iki öğe ekleniyor ve ikisi de akraba değil: anahtarına sahip olunan yer ve صَدِيق *(dost)*. Açılış üç engel sayıyor — kör, topal, hasta — üçü de aynı kelimeyle (حَرَج *(güçlük)*) ve üçü de olumsuzlanıyor; dikey ölçüm عرج *(yükselme (urûc); topal)* ▸sonra حرج *(sıkıntı, darlık)* ×257,8 veriyor, çift korpusta sabit. Kapanış 24:27'nin selâm emrini geri getiriyor ama muhatabı değiştiriyor: orada ev halkına, burada عَلَىٰٓ أَنفُسِكُمْ *(kendinize)*.",
+62:"Sûrenin en zengin ikinci kökü burada doruğa çıkıyor: أذن *(izin verme; kulak)* tek ayette dört kez ve dördü de bab X — istemek. Ölçülebilir bir tanım daralması: 24:47'de 'inandık' diyenler mü'min sayılmamıştı, burada mü'min tanımı bir davranışa bağlanıyor ve HASR ile veriliyor (إِنَّمَا *(ancak)*). Tanım iki kez tekrarlanıyor: önce koşul olarak, sonra sonuç olarak. أمن *(güven; iman)* kökü üç kez, ikisi tanımın iki ucunda.",
+63:"Sûrenin dördüncü ve son hapaksı, ve konumu ölçülebilir: لِوَاذًا *(gizlenerek)* ayetin ortasında, hâl olarak. Aynı kök دعو *(çağırma, dua)* iki kez ve iki değer ölçeğinde: elçinin çağrısı ile birbirinizi çağırmanız — yasak tam olarak bu ikisini eşitlemeyi hedefliyor. Ve صوب *(isabet etme, doğru olma)* iki kez, iki ayrı özneyle: فِتْنَة *(fitne)* dişil, عَذَاب *(azap)* eril; aynı fiil iki uyum biçiminde. سلل *(süzülüp çıkan öz, sülâle)* kökü korpusta üç geçişli ve ikincisi 23:12 — yaratılış maddesi; burada sıvışma.",
+64:"Sûre kapanıyor ve kapanış 24:42'yi geri getiriyor. Aynı terkip — لِلَّهِ + ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ — ama nesne değişiyor: orada مُلْك *(mülk)*, burada مَا فِى *(içindekiler)*; biri sahiplik, öteki kapsam. İki ayetin fâsıla sınıfı ayrı: 24:42 R, bu N. Ölçülebilir bir bilgi dizisi: şimdiki hâl, dönüş günü, bildirme; üç zaman katmanı ve dizi علم *(bilme)* ile açılıp نبأ *(haber)* ile kapanıyor. Sûre bir bilme fiiliyle bitiyor: عَلِيم — sûrenin on عَلِيم tokeninin sonuncusu ve sûrenin son kelimesi.",
+}
+ATLAMA={
+ "24:61":"★★★ ayet. 🜁 biyolog YAZILMADI — üç engel adı geçiyor (عمي *(körlük)* · عرج *(topal)* · مرض *(hastalık)*) ama üçü de hukukî muafiyetin ölçütü; hiçbirinin nedeni, seyri ya da mekanizması adlandırılmıyor. Engel adının varlığı tek başına yeterli çıpa sayılmadı — 24:31 ve 23:104 gerekçe sınıfı. 🜂 uzay YAZILMADI — عرج kökü korpusta 'yükselme' işlevi de taşıyor ama burada ٱلْأَعْرَج *(topal)* ve gönderge açık; yükselme okuması yasaklı 'bilimsel izdüşüm' olurdu.",
+ "24:63":"★★★ ayet. 🜁 biyolog YAZILMADI — on altı kökün hiçbiri canlıya, organa ya da fizyolojik sürece bağlanmıyor. سلل *(süzülüp çıkan öz, sülâle)* 23:12'de biyolojik bağlamdaydı ama burada bab V ve gönderge insanların gizlice ayrılması; kök ortaklığına dayanıp biyolojik okuma yapmak yasaklı 'bilimsel izdüşüm' olurdu. 🜂 uzay YAZILMADI — gök öğesi yok.",
+ "_blok_notu_24_61_64":"Son blokta iki ★★★ (24:61 n kaynaklı z=6,75; 24:63 hapaks z=3,38) ve ikisinde de iki mercek atlandı. SÛRE 24 TOPLAMI: 64 ayet, on beş ★★★, ON DÖRDÜNDE iki mercek de atlandı; yalnız 24:35'te (Nûr âyeti) ikisi de yazıldı. Sûrenin çıpa taşıyan öteki iki ayeti (24:43 meteoroloji ★★, 24:45 biyoloji ★) yıldız eşiğinin ALTINDA kaldı (aday 512).",
+}
+p='/home/claude/repo/notlar/okuma_metni.json'
+OM=json.load(open(p,encoding='utf-8'))
+for n in range(61,65):
+    OM['24']["24:%d"%n]={"ar":AR[(24,n)],"meal":MEAL[n],"olcum":OLCUM[n],"mercek":MERCEK[n],"dikey":DIK["24:%d"%n]}
+OM['24']['_mercek_atlama_notu'].update(ATLAMA)
+OM['ilerleme']['tam']=[1,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+OM['ilerleme']['not']=("Sûre 23 TAM (118/118). **Sûre 24 TAM (64/64).** "
+                       "Devam: sûre 25 (Furkān) — makro profilden başla, sonra 25:1'den oku.")
+OM['ilerleme']['kismi']={"2":"1-20 ayet düzeyinde"}
+OM['ilerleme']['okunan_ayet']=1645
+json.dump(OM,open(p,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+print('okuma_metni: sûre 24 →',len([k for k in OM['24'] if not k.startswith('_')]),'ayet')
+pm='/home/claude/repo/notlar/mercek_kayit.json'
+MK=json.load(open(pm,encoding='utf-8'))
+for n in range(61,65): MK['24']["24:%d"%n]=MERCEK[n]
+MK['24_atlama'].update(ATLAMA)
+json.dump(MK,open(pm,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+pb='/home/claude/repo/notlar/okuma_baglantilari.json'
+d=json.load(open(pb,encoding='utf-8'))
+d['AD_nur'] += [
+ {"bag":"24:27 ↔ 24:61","kural":"L1","not":"Ev bölümünün halkası: 24:27 girme yasağı + selâm emri (ev halkına), 24:61 muafiyet + selâm emri (kendinize). Ortak kökler دخل *(girme)* · بيت *(ev, mesken)* · سلم *(esenlik)* (aday 521)."},
+ {"bag":"24:47 ↔ 24:62","kural":"L1","not":"Mü'min tanımı: 24:47'de 'inandık' diyenler mü'min sayılmıyor (وَمَآ أُو۟لَٰٓئِكَ بِٱلْمُؤْمِنِينَ), 24:62'de tanım HASR ile bir davranışa bağlanıyor (إِنَّمَا ٱلْمُؤْمِنُونَ … لَّمْ يَذْهَبُوا۟ حَتَّىٰ يَسْتَـْٔذِنُوهُ) (aday 522)."},
+ {"bag":"24:27-29 ↔ 24:36 ↔ 24:58-59 ↔ 24:62","kural":"L1","not":"أذن *(izin verme; kulak)* zinciri dört bölümde, 14 geçiş: mekâna giriş → mekânın kendisi → ev içi vakit → topluluktan ayrılma. 24:62'de dört geçiş ve dördü de bab X (aday 522)."},
+ {"bag":"23:12 ↔ 24:63","kural":"L2","not":"سلل *(süzülüp çıkan öz, sülâle)* kökü iki uçta: 23:12 yaratılış maddesi (isim), 24:63 topluluktan gizlice ayrılma (bab V). Kök korpusta üç geçişli (aday 523)."},
+ {"bag":"24:42 ↔ 24:64","kural":"L1","not":"SÛRE HALKASI: ortak terkip لِلَّهِ + ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ; nesne مُلْك *(mülk, sahiplik)* → مَا فِى *(içindekiler, kapsam)*. 24:42 R sınıfı ve ★★★, 24:64 N sınıfı ve ★ yok. Sûre son kelimesi عَلِيم — sûrenin on عَلِيم tokeninin sonuncusu (aday 524)."},
+]
+json.dump(d,open(pb,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+print('AD_nur',len(d['AD_nur']),'bağ')
