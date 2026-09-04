@@ -558,3 +558,460 @@ Artık tek başına bir iş kalemi:
 İkisinde de aynı sorun: kelime zaten sûrenin kafiyesine uyuyor. **"Kafiyeye uyduğu için
 mi oraya kondu, oraya konduğu için mi kafiye saptı" ayrımı yapılmadan İKİSİ DE kapatılamaz.**
 Test kafiye sınıfı SABİT tutularak kurulmalı.
+
+---
+
+## 2026-08-31 — SÛRE 23 AÇILDI; İKİ BLOK OKUNDU (23:1-40)
+
+Sûre 23 (Mü'minûn) makro profili sıfırdan çıkarıldı; 23:1-20 ve 23:21-40 tam kipte
+okundu. Okunan ayet **1463 → 1503**. Kök tablosu **880 → 894** (14 yeni karşılık,
+hepsi `kok_envanteri.json`'dan NFC eşlemesiyle KOPYALANDI). Adaylar **464 → 475**
+(11 yeni, `AE_muminun` kümesi). Bağlar: yeni `AC_muminun` kümesi, 22 bağ.
+`turkce_denetim.py` iki kez 0'a çekildi; `anahtar_denetim.py` (PYTHONHASHSEED=0)
+iki kez koşuldu, her ikisinde de **58 ihlâl, taban listesiyle diff = 0**
+(taranan anahtar 21055 → 21515).
+
+### P0-a EK KANIT — ESMÂ: MÜHÜR SİNYALİ TERSTEN DOĞRULANDI (aday 467)
+
+Sûre 23'te esmâ **12 token / 11 ayet / mühür SIFIR**; bağlam denetiminde **8/12
+yanlış pozitif = %67**, okumada ölçülen en yüksek oran (20: %38 · 21: %47 · 22: %29).
+Yedinci onarım ölçütü (mühür konumu bağlamı sabitliyor) mühürsüz bir sûrede
+tersten doğrulandı: mühür yoksa hata tavan yapıyor.
+
+**YENİ SORUN — ÖLÇÜTLER ÇATIŞIYOR.** 23:14 `أَحْسَنُ ٱلْخَٰلِقِينَ` *(yaratanların
+en güzeli)*: ölçüt (b) çoğul biçimi dışlıyor, ölçüt (a) gönderge lafza bağlandığı
+için tutuyor. Onarımda **ölçütler arası öncelik sırası belirlenmeli**; şu anki
+yedi ölçüt sıralı değil, bu vaka sıralamayı zorunlu kılıyor.
+
+### P0-b EK VAKA — DİKEY LEMMA KARIŞMASI (aday 474, 452 ile birlikte)
+
+23:25 `بِهِۦ جِنَّةٌۭ` *(kendisinde delilik var)* — lemma `جِنَّة` *(delilik)*, ama kavram
+katmanı `جنن` için 'cennet' veriyor ve dikey satırına cennet komşuluğunu getiriyor
+(`تحت` *(alt)* ×22,6 · nehir ×21,9 · `عنب` *(üzüm)* ×20,3). Aynı hata **7:184'te
+zaten belgeliydi** — yani bilinen bir vaka ikinci kez, farklı sûrede tekrar etti.
+`kok_anlam_tablosu.json`'a `جِنَّة` ayrımı eklenmeli; 435 + 452 tek geçişinde.
+
+### YENİ P1 — YILDIZ FORMÜLÜ KISA AYETE KAYIYOR (aday 472; 468, 129, 160, 246 kümesi)
+
+Sûre 23'ün **16 ★★★ ayetinin tamamı n=4-12**; ★★★ ortalaması **5,69 kelime**,
+sûre ortalaması **8,90**. Sebep ölçüldü: z değerleri YOĞUNLUK üzerinden
+hesaplandığı için n=4-5'lik ayette TEK edilgen fiil `pas z=5,38`, TEK Rab geçişi
+`rab z=3,94` üretiyor. Sûre 23 kaynak dağılımı (rab 8 · pas 4 · allah 3 · hapaks 1)
+korpus dağılımından (hapaks 337 · rab 183 · pas 148 · allah 121 · n 91) sapıyor.
+
+**Mercek üzerindeki etkisi ölçüldü.** Blok 23:21-40'ta **dört ★★★ ayetin dördünde
+de** iki uzman merceği atlandı (çıpa yok); buna karşılık biyolojik öğe taşıyan
+ayetler ★0-★1 aldı: 23:14 (`نطفة` *(nutfe)* · `علقة` *(alaka)* · `مضغة` *(çiğnem et)* ·
+`عظام` *(kemikler)* · `لحم` *(et)*) ★ yok, 23:21 (davar/karın/süt) ★ yok,
+23:35 (toprak/kemik) ★. **Tur sonu: uzunluk-eşli null ile ★ dağılımı yeniden
+üretilecek.**
+
+### BÖLÜT İKİZİ TARAMASI — İKİ YENİ GİRDİ
+
+- **Aday 465 — korpusun en uzun ardışık tam-ayet ikizi ölçüldü: 23:5-8 ↔ 70:29-32,
+  dört ayet.** Tarama `defter.json` `esit` alanı üzerinden yapıldı; uzunluk 4 olan
+  tek dizi bu, ikinciler üçlü (15:36-38 ↔ 38:79-81 ve sûre 26 nakaratları).
+- **Aday 473 — sûre 23 içinde iki paralel kıssa döngüsü, DÖRT katmanlı ikiz:**
+  çağrı (23:23 = 23:32, sekiz kelime) · birinci itiraz (23:24 = 23:33) · ikinci
+  itiraz (23:25 = 23:38, beş kelime sonra ayrışıyor) · kapanış (23:26 = 23:39,
+  TAM AYET). Farklılaşan öğeler kodlandı: elçi adlı/adsız · nidâ var/yok ·
+  suç hâl/fiil · araya giren itiraz sayısı 3→4.
+
+### DEVAM NOKTASI
+
+**Sûre 23, ayet 41'den.** İki bağ hazır bekliyor:
+- 23:31 ↔ 23:42 bölüt ikizi (`أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا` *(ardlarından bir nesil
+  inşa ettik)*), 23:42 okunduğunda kapanacak.
+- **21:92-93 ↔ 23:52-53** ardışık bölüt ikizi (aday 456) — 23:52'de farkın tam
+  olarak imperatifte olduğu (`فَٱعْبُدُونِ` *(bana kulluk edin)* / `فَٱتَّقُونِ` *(benden
+  sakının)*) doğrulanacak.
+
+Önceki oturumlardan devreden borçlar (435+452 tek geçişte, 461, 451, 462, 431, 437,
+443, 438) bu oturumda da ONARILMADI — katı kural gereği.
+
+### ÜÇÜNCÜ BLOK EKİ (23:41-60) — ADAYLAR 476-479
+
+**ADAY 456 DÜZELTİLDİ (aday 476).** Bekleyen bağ 21:92-93 ↔ 23:52-53 ölçüldü ve
+**ön-kayıt yanlış çıktı.** Ön-kayıt "farkın TAM OLARAK imperatifte" olmasını
+bekliyordu; ölçüm birinci ayette İKİ fark verdi: açılışta bir bağlaç
+(`إِنَّ` *(muhakkak)* / `وَإِنَّ` *(ve muhakkak)*) ve kapanışta imperatif
+(`فَٱعْبُدُونِ` *(bana kulluk edin)*, `عبد` bab I / `فَٱتَّقُونِ` *(benden sakının)*,
+`وقي` bab VIII). Arada altı kelime birebir özdeş. İkinci ayette ayrışma çok daha
+geniş: ortak gövde yalnız iki kelime, `زُبُرًۭا` *(parçalara)* eklenmiş, ikinci
+yarılar tamamen farklı.
+
+**DERS — ÖN-KAYIT DİSİPLİNİ:** "tam olarak X'te fark" iddiaları ön-kayıtta
+**bağlaç ve edat düzeyinde de** belirtilmeli. Bölüt ikizi taramasında (450, 456,
+457, 465, 473) farklılaşan öğe sınıflarına **BAĞLAÇ** eklenecek.
+
+**YENİ — SÛRENİN İKİNCİ SIFAT ZİNCİRİ (aday 477).** 23:57-61, 23:2-9 ile aynı
+kalıbı (`ٱلَّذِينَ هُمْ` *(onlar ki)* + mecrur + ism-i fâil) kullanıyor ama ekseni
+farklı: birinci zincir **eylemlere**, ikincisi **Rab'be** bağlı — dört halkanın
+dördünde de `رَبّ` *(Rab)*, üçünde `rab z ≥ 1,81`, ikisi bu yüzden ★★★. İsim-fiil
+geçişi de yer değiştiriyor: birincide kapanışta (23:9), ikincide ikinci halkada
+(23:58). 469 ile aynı ön-kayıtlı test kümesinde; **23:61 henüz okunmadı**,
+zincirin kapanışı sonraki blokta ölçülecek.
+
+**Aday 472 için ek kanıt.** Sûre 23'te bugüne dek okunan **yedi ★★★ ayetin
+yedisinde de** biyolog ve uzay merceği atlandı (çıpa yok). Bu blokta ★★★ olan
+23:58 ve 23:59 n=5 ve tek kaynakları `rab z=3,94`; buna karşılık coğrafî/maddî
+öğe taşıyan 23:50 (`رَبْوَة` *(tepe)* · `مَعِين` *(akan su)*) ve 23:41
+(`غُثَاء` *(sel süprüntüsü)*) ★ almadı.
+
+**Devam noktası: 23:61.**
+
+### DÖRDÜNCÜ BLOK EKİ (23:61-80) — ADAYLAR 480-485
+
+**ADAY 438'E OKUMA İÇİNDEN İLK TEMİZ VAKA KÜMESİ (aday 483).** 23:68-72 arasında
+dört `أَمْ` geçişi ölçüldü: 23:68'de `أَمْ` ayet İÇİNDE (muttasıla) ve ayet INTG
+alıyor — ama INTG'yi veren `أَفَلَمْ` *(…mediler mi)* açılışı, `أَمْ` değil.
+23:69, 23:70 ve 23:72'de `أَمْ` ayet BAŞINDA (munkatı'a) ve **üçü de 'haber'
+etiketli, hiçbiri INTG almıyor** — yani bu sûrede munkatı'a `أَمْ`in **3/3'ü
+kaçırılmış.** Aday 438'in korpus ölçümüyle (61 ayetin 4'ü INTG) birebir uyumlu.
+**438'in onarımı bu dört ayetle sınanabilir:** onarım sonrası 23:69/70/72 INTG
+almalı, 23:68'inki değişmemeli.
+
+**YENİ P0 VAKASI — ESMÂ TABLOSU AYNI YAPIYI ÜÇ YERDE ÜÇ FARKLI SAYIYOR (aday 484).**
+Sûre 23'te üstünlük tamlaması kalıbı üç kez ve hep aynı yapıda (üstünlük ismi +
+belirli ism-i fâil çoğulu): `أَحْسَنُ ٱلْخَٰلِقِينَ` *(yaratanların en güzeli)* 23:14 ·
+`خَيْرُ ٱلْمُنزِلِينَ` *(indirenlerin en hayırlısı)* 23:29 · `خَيْرُ ٱلرَّٰزِقِينَ`
+*(rızık verenlerin en hayırlısı)* 23:72. **Yalnız birincisi esmâ sayılıyor.**
+Onarımda üçü BİRLİKTE karara bağlanmalı — 1/3 savunulamaz. Korpus çapında
+"üstünlük ismi + ism-i fâil çoğulu" envanteri çıkarılacak.
+
+**KARŞILIK TABLOSU DÜZELTMESİ (aday 480).** `سمر` için `kok_turkce` yalnız "Sâmirî"
+veriyordu; kökün dört geçişinin üçü 20:85/87/95'te `سَامِرِيّ` *(Sâmirî, özel ad)*,
+biri 23:67'de `سَامِر` *(gece sohbeti eden)*. Karşılık genişletildi. Bu bir araç
+onarımı değil, görüntü tablosunun bir maddesinin düzeltilmesidir. **Tur sonu işi:**
+`kok_anlam_tablosu`'nda 2+ anlam taşıyan kaç kökün `kok_turkce` karşılığı tek anlam
+veriyor?
+
+**Aday 472/468 için ek ölçüm.** Bu blokta ★★★ ayet YOK; en yüksek ★★. Sûrede
+okunan 80 ayetin yedi ★★★'ı da (16, 22, 26, 36, 39, 58, 59) n=4-5 aralığında ve
+hepsinde iki uzman merceği atlandı. Blokta duyu adları taşıyan 23:78
+(`سمع` *(işitme)* · `بصر` *(görme)* · `فأد` *(gönül, fuâd)*) ★ almadı.
+
+**Devam noktası: 23:81.** Sûrede 38 ayet kaldı.
+
+### BEŞİNCİ BLOK EKİ (23:81-100) — ADAYLAR 486-490
+
+**YENİ P0 — KAYNAK METİN SORUSU İLK KEZ AÇILDI (aday 487).** 23:85, 23:87 ve
+23:89'un üçünde de korpus (`morph.txt`, mustafa0x/quran-morphology) `لِلَّهِ`
+okuyor: P+PN|GEN. Yaygın Hafs an Âsım baskılarında 23:85 `لِلَّهِ`, ama 23:87 ve
+23:89 `ٱللَّهُ` merfû okunur. **Gerekçe ölçülebilir:** 23:86'nın sorusu
+`مَن رَّبُّ` *(kim Rabbidir)*, 23:88'inki `مَنۢ بِيَدِهِۦ` *(kimin elindedir)* — ikisi de
+merfû cevap ister; yalnız 23:84'ün `لِمَنِ` *(kimin)* sorusu mecrur cevabı
+gerektirir. Korpusun okuyuşu iki ayette soru-cevap uyumsuzluğu üretiyor.
+
+**Etki alanı:** (a) bu iki ayetin i'râb sayımı; (b) aday 486'nın "üç cevap birebir
+aynı" ölçümü; (c) **korpusun hangi kıraati taşıdığı sorusu — projede DAHA ÖNCE HİÇ
+SORULMADI.** `nuzul.json` ve `varlik_katalog` zaman alanıyla **aynı statüde**:
+bu ayetlere dayanan hiçbir bulgu basılı bir mushafla doğrulanmadan kapatılamaz.
+**Tur sonu işi:** korpusun kıraat tabanı belirlenecek, kıraat farkı taşıyan ayetler
+taranacak. Bu, "kontrol korpusu yok" eksiğiyle aynı sınıfta bir kaynak sorusu.
+
+**BİYOLOG MERCEĞİ SÛREDE HÂLÂ HİÇ YAZILMADI; İLK MERCEK 23:86'DA (adaylar 468, 472).**
+100 ayetin on beş ★★★'ından **on dördünde iki mercek de atlandı.** İlk ve tek
+mercek 23:86'nın 🜂 uzayı, çıpası `ٱلسَّمَٰوَٰتِ ٱلسَّبْعِ` *(yedi gök)*. Mercek satırı
+yalnız ölçülebilir olanla sınırlandı: gök sayılmış bir çokluk olarak veriliyor,
+sayı marife tamlamada sıfat konumunda, aynı kök çifti 23:17'de `طَرَآئِق` *(yollar)*
+ile eşleşiyor. **Fiziksel katman modeli KURULMADI** — ayet gök cismi, hareket,
+yörünge ya da ölçü terimi vermiyor.
+
+**Yeni yapı ölçümleri:** üçlü soru-cevap nakaratı 23:84-89 (aday 486) · dört
+ardışık `رَبِّ` çağrısı ve konum kayması 23:93-98 (aday 488) · `جور` kökü tek
+ayette etken ve edilgen 23:88 (aday 489) · sûrenin TEK KELLA'sı 23:100 (aday 490).
+
+**GERİYE DÖNÜK ONARIM:** `جور` karşılığı eklenince sûre 9'da (9:6) eski bir
+karşılıksız anma açığa çıktı ve onarıldı — bilinen desenin bu oturumdaki ikinci
+örneği (ilki 14:22 `لوم`).
+
+### ALTINCI BLOK EKİ (23:101-118) — SÛRE 23 TAM, ADAYLAR 491-497
+
+**SÛRE 23 (MÜ'MİNÛN) TAM OKUNDU — 118/118.** Okunan ayet 1463 → **1581**
+(korpusun %25,4'ü). Tam okunan sûreler: 1, 9-23.
+
+**SÛRENİN BÜYÜK HALKASI ÖLÇÜLDÜ (aday 491).** `فلح` *(kurtuluşa erme, felâh)*
+kökü üç kez: 23:1 `قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ` PERF ve olumlu · 23:102
+`فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ` ism-i fâil ve olumlu · 23:117
+`لَا يُفْلِحُ ٱلْكَٰفِرُونَ` IMPF ve **olumsuz**. Üçünde de fâsıla belirli ism-i
+fâil çoğulu. Null gerekli: bir sûrenin ilk ve son ayetlerinin ortak kök taşıması
+şansa göre ne kadar seyrek? Kök sıklığı ve sûre uzunluğu kontrol edilecek.
+
+**İKİ YENİ BÖLÜT İKİZİ.** 23:66 ↔ 23:105 (aday 492): ortak gövde beş kelime, iki
+uçta ayrışıyor — **kip haberden soruya** (CERT → INTG), kapanış kökü değişiyor,
+sahne dünyadan âhirete geçiyor. Taramanın "aynı gövde, kip değişimi" alt sınıfının
+ilk temiz vakası. 23:109 ↔ 23:118 (aday 494): **sûre kendi içinden bir alıntıyla
+kapanıyor** — aktarılan dua son ayette emre çevriliyor, nesne zamirleri düşüyor.
+
+**ESMÂ TABLOSUNUN İKİNCİ TUTARSIZLIK VAKASI (aday 497, 484 ile aynı sınıf).**
+23:86 `رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ` ve 23:116 `رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ` — aynı terkip,
+aynı sözdizimsel konum, ama `كَرِيم` esmâ sayılıyor, `عَظِيم` sayılmıyor. Onarımın
+ölçüt (c) maddesi bu iki vakayla sınanabilir: onarım sonrası **ikisi de düşmeli.**
+
+**MERCEK — SÛRE ÇAPINDA SONUÇ.** 118 ayette on altı ★★★; **on beşinde iki mercek
+de atlandı**, yalnız 23:86'da bir mercek (🜂 uzay) yazılabildi.
+**Biyolog merceği sûre 23'te hiç yazılmadı.** Sûrenin biyolojik olarak en yoğun
+ayetleri — 23:12-14 yaratılış zinciri, 23:21 davar/karın/süt, 23:78 duyular,
+23:104 yüz — ya ★ almadı ya çıpasız kaldı. Adaylar 468 ve 472 için sûre çapında
+kanıt; **tur sonu uzunluk-eşli null'unun ilk tam sûre veri kümesi.**
+
+### DEVAM NOKTASI
+
+**Sûre 24 (Nûr)** — makro profilden başla, sonra 24:1'den oku. Sûre 24 **Medenî**;
+Hac'tan (22) sonra okunan ikinci Medenî sûre olacak, dolayısıyla A/R oranı
+karşılaştırması için tip-eşli ikinci veri noktası (aday 470).
+
+
+---
+
+## 2026-09-01 — SÛRE 24 (NÛR) AÇILDI; MAKRO + 24:1-20
+
+Okunan ayet **1581 → 1601** (korpusun %25,7'si). Kök tablosu **916 → 928**.
+Adaylar **497 → 502** (yeni `AF_nur` kümesi). Bağlar: yeni `AD_nur` kümesi, 15 bağ.
+`turkce_denetim.py` → 0 · `anahtar_denetim.py` (PYTHONHASHSEED=0) → 58 ihlâl,
+taban listesiyle diff = 0 (taranan anahtar 21576).
+
+### YENİ P1 — KORPUSUN EN UZUN SIFIR-RAB SÛRESİ (aday 498)
+
+Sûre 24'te `رَبّ` *(Rab)* **hiç geçmiyor** (64 ayet, 1316 kelime); Allah lafzı 80 kez
+(1,74x). Korpus taraması: Rab'bin sıfır olduğu 20 sûre var, ama 24 açık farkla en
+büyüğü — ikincisi 48 (Fetih) 560 kelime, üçüncüsü 58 (Mücâdele) 472. Öteki
+sıfır-Rab sûrelerin çoğu kısa Mekkî ve onlarda lafız da sıfıra yakın.
+
+**TAM AYNA BULUNDU:** sûre 55 (Rahmân) — Allah 0, Rab 36 (8,08x), 78 ayet, Medenî.
+İki Medenî sûre iki uçta. Aday 470 (A/R oranı) ile aynı kümede; **uzunluk-kontrollü
+ve tip-eşli null gerekli.**
+
+### ESMÂ ONARIMI İÇİN İKİNCİ YÖNLÜ KANIT (aday 501)
+
+Sûre 24: esmâ 62 token / 36 ayet / **mühür 12** — okumada en yüksek. Ve iki taraf
+temiz biçimde ayrışıyor: **mühürlü konumların hepsi çift kapanış ve geçerli**
+(`غَفُور|رَحِيم` · `تَوّاب|حَكِيم` · `عَلِيم|حَكِيم` · `رَءُوف|رَحِيم` …);
+**mühürsüz konumlar sistematik kirli** — `مُؤْمِن` 9 tokenin dokuzu da çoğul ve
+insanlar, `آخِر` 4 tokenin hepsi âhiret, `شَهِيد` 4 tokenin hepsi tanıklar.
+
+Sûre 23'te mühür sıfırdı ve hata %67'ye çıkmıştı. **Yedinci onarım ölçütü artık iki
+yönden de kanıtlı.** Onarımda "mühürlü konum otomatik geçerli" kuralı düşünülebilir
+— ama bu bir HİPOTEZ, test edilmedi; sûre 24'ün tamamı okunmadan kapatılmayacak.
+
+### İKİ YENİ BÖLÜT İKİZİ
+
+**Aday 499 — okumada ölçülen EN DAR ikiz.** 24:7 ↔ 24:9: dokuz kelimenin **yedisi**
+birebir aynı; fark tam olarak iki kelimede (`لَعْنَت` *(lânet)* → `غَضَب` *(gazap)*,
+`ٱلْكَٰذِبِينَ` → `ٱلصَّٰدِقِينَ`). Mora 43 → 46, **harf 35 = 35**. Aynı yapıda
+ikinci katman: 24:6 ↔ 24:8 aynalı ve fâsılalar çaprazlanmış.
+
+**Aday 500 — üçlü şart kalıbı ve cevapsızlık.** 24:10 · 24:14 · 24:20 aynı altı
+kelimeyle açılıyor. 24:10 ve 24:20 şartın **cevabını yazmıyor**, ikisi de n=9,
+ikisinde de çekimli fiil yok, ikisi de esmâ mühürlü, ikisinin de `allah z=3,92`,
+ikisi de ★★★. 24:14 cevabı veriyor, n=15, iki fiilli, mühürsüz, ★ yok.
+**YENİ ÖLÇÜ İHTİYACI:** `defter.json`'da "şart cevabı var/yok" alanı yok.
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 21.** Uyarı: **24:31 (n=78)** okumada görülen en uzun ayet —
+yıldız formülünün UZUN ayet davranışı orada ölçülecek; şimdiye dek adaylar 468 ve
+472 yalnız **kısa ayet yanlılığını** belgeliyordu.
+
+
+### 24:21-30 EKİ — ADAYLAR 503-506
+
+Okunan ayet **1601 → 1611**. Kök tablosu **928 → 944**. `turkce_denetim.py` → 0
+(42 ihlâl onarıldı; dokuzu sûre 9-12'den geriye dönük `برأ`). `anahtar_denetim.py`
+→ 58 ihlâl, diff = 0 (taranan anahtar 21596).
+
+**BLOK BÖLÜNDÜ.** 24:21-40 yerine 24:21-30 okundu. Gerekçe ölçüm: ikinci yarıda
+üç ayet korpusun en uzunları arasında — **24:31 (n=78, okumada görülen en uzun
+ayet)**, 24:33 (n=48), 24:35 (n=48), toplam 174 kelime. Bölme, okuma HIZI kararıdır;
+ölçüm ve kayıt biçimi değişmedi. Gerekçe `okuma_metni.json` →
+`24/_blok_bolme_notu` alanına yazıldı.
+
+### ADAY 472 DÜZELTİLDİ (aday 503) — ÖNEMLİ
+
+472, sûre 23 verisiyle "yıldız formülü **kısa ayete** kayıyor" diyordu (16 ★★★'ın
+hepsi n=4-12). **Sûre 24 tersini veriyor:** 15 ★★★'ın kaynağı allah 6 · **n 5** ·
+hapaks 4, ve n kaynaklı beşi **n=78 · 76 · 49 · 48 · 48**. Yani z-tabanlı yıldız
+uzunluğu değil, **ortalamadan sapmayı** seçiyor; hangi uç görüleceği sûrenin kendi
+dağılımına bağlı (23'ün ortalaması 8,90 ve en uzunu 32; 24'ünki 20,56 ve 78).
+
+**472'nin metni bu kayıtla değiştirilmelidir.** Tur sonu uzunluk-eşli null hâlâ
+gerekli ama artık "kısa yanlılığı" değil **"uç-değer seçimi"** sınanacak.
+Aday 468 (mercek kapsamı) bundan etkilenmiyor — ayrı ölçü.
+
+**DERS:** tek sûreden çıkarılan formül-davranışı iddiaları o sûrenin dağılımıyla
+karışıyor. Aynı ders ikinci kez de düştü: aday 500'ün "mühür ↔ cevapsızlık"
+örüntüsü dördüncü örnekte (24:21) bozuldu (aday 505). **Kalıp iddiaları, kalıbın
+sûredeki TÜM geçişleri sayılmadan kaydedilmeyecek.**
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 31.** Uyarı: **24:35**'te (Nûr âyeti) hem biyolog hem uzay merceği
+için ilk kez gerçek çıpa var — `زَيْتُونَة` *(zeytin ağacı)* ve `كَوْكَب` *(yıldız)*.
+Sûre 23'te biyolog merceği hiç yazılamamıştı; orada ölçülecek. Ayrıca 24:35'te
+`نُور` *(nûr)* kökü ALTI kez ve esmâ tablosu bunların BEŞİNİ esmâ sayıyor —
+aday 461 için büyük bir vaka.
+
+
+### 24:31-40 EKİ — ADAYLAR 507-510
+
+Okunan ayet **1611 → 1621**. `turkce_denetim.py` → 0 (52 ihlâl onarıldı).
+`anahtar_denetim.py` → 58 ihlâl, diff = 0 (taranan anahtar 21597). Bağlar
+`AD_nur` 26 → 36.
+
+### BİYOLOG MERCEĞİ SONUNDA YAZILDI — 24:35
+
+Sûre 23 boyunca (118 ayet, on altı ★★★) biyolog merceği **hiç** yazılamamıştı.
+24:35'te ilk kez çıpa bulundu: `شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ` *(bereketli bir zeytin
+ağacı)*. **Ölçülen:** sûrede adı verilen tek bitki türü; tür konumla değil
+**konumun reddiyle** niteleniyor (`لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ`), yani seçilen
+değişken toprak/su/meyve değil **ışık maruziyeti**; ve yüklemin öznesi ağaç değil
+ürünü. **Sınır açıkça yazıldı:** ayet bileşim, büyüme ya da mekanizma hakkında
+hiçbir şey söylemiyor; bitki fizyolojisi çıkarılmadı.
+
+Aynı ayette uzay merceği de yazıldı: `كَوْكَبٌ دُرِّىٌّ` *(inci gibi parlayan yıldız)*
+— yıldız **parlaklık** için çağrılıyor, konum ya da hareket için değil; yön ekseni
+(`شرق`/`غرب`) var ama **iki ucu birden reddediliyor**. Yörünge, ölçü, sayı ya da
+hareket terimi yok; gök modeli kurulmadı.
+
+### YENİ P0 VAKASI — 24:35'TE ESMÂ `نُور` BEŞ KEZ SAYILIYOR (aday 508)
+
+Sûre 24'te esmâ `نُور` toplam 7 token ve **tamamı iki ayette**: 24:35'te beş,
+24:40'ta iki. Bağlam denetimi: yalnız `ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ` geçerli; kalan altısı
+iyelikli tamlama (×3) ya da **nekre** (×3) — ölçüt (b) ikisini de dışlıyor.
+**Tek ayette ölçülen en yoğun esmâ hatası (5/48 kelime).** Onarım sonrası
+24:35'te bir, 24:40'ta sıfır esmâ kalmalı. İki ayet de **mühürsüz** — aday 501'in
+"mühürsüz konumlar kirli" ölçümüyle birebir uyumlu.
+
+### YENİ P1 — KAFİYE KIRILMASI TEK BİTİŞİK KUŞAKTA (aday 509)
+
+Sûre 24'ün dört kafiye sınıfı rastgele dağılmıyor: N dışına çıkan **on ayet
+ardışık** — 24:36 (ل, sûrenin tek ل'si) · 37 (R) · 38 (ب) · 39 (ب) · 40 (R) ·
+41 (N ama **kırık** işaretli) · 42-45 (R ×4); 24:46'da N'ye dönülüyor. Kuşak tam
+olarak **Nûr âyetinin ardından** açılıyor. Permütasyon null gerekli: fâsıla
+sınıflarını sûre içinde karıştır, en uzun bitişik azınlık kuşağını ölç.
+**24:41-45 henüz okunmadı — kapatılmayacak.**
+
+### ADAY 503 İÇİN DOĞRUDAN VERİ
+
+Bu bloğun dört ★★★'ından **üçü uzunluk kaynaklı**: 24:31 (n=78, z=6,96) ·
+24:33 (n=48, z=3,78) · 24:35 (n=48, z=3,78); dördüncüsü 24:32 hapaks kaynaklı.
+472'nin "kısa ayet yanlılığı" iddiası bu blokla bir kez daha düşüyor.
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 41.** Kafiye kuşağı sürüyor; 24:41 kafiye kırık işaretli.
+
+
+### 24:41-45 EKİ — ADAYLAR 511-513
+
+Okunan ayet **1621 → 1626**. Kök tablosu **944 → 951**. `turkce_denetim.py` → 0
+(14 ihlâl). `anahtar_denetim.py` → 58 ihlâl, diff = 0 (taranan anahtar 21604).
+Bağlar `AD_nur` 36 → 43. **İkinci blok bölmesi:** 24:41-55 yerine 24:41-45;
+gerekçe `okuma_metni.json` → `24/_blok_bolme_notu` alanında.
+
+### ADAY 468 İÇİN EN TEMİZ VAKA (aday 512)
+
+Mercek eşiği ★★★. Sûre 24'te uzman merceği için gerçek çıpa taşıyan **üç** ayet var:
+
+| ayet | alan | yıldız | mercek |
+|---|---|---|---|
+| 24:35 | zeytin ağacı + yıldız | ★★★ | **yazıldı** |
+| 24:43 | meteoroloji (`سحب`·`ودق`·`برد`·`برق`) | ★★ | **eşik tutmuyor** |
+| 24:45 | biyoloji (`دبب`·`موه`·`مشي`×3·`بطن`·`رجل`) | ★ | **eşik tutmuyor** |
+
+Sûrenin **biyolojik olarak en yoğun ayeti ★ alıyor**; meteorolojik olarak en yoğun
+ayeti ★★. Buna karşılık ★★★ alan on beş ayetin **on dördünde çıpa yok**. Çıpa ile
+yıldız birbirinden bağımsız ölçüler ve sûre 24'te **ters yönde ayrışıyorlar**.
+
+**TUR SONU İŞİ — ÖNCE ÇIPA TANIMI YAZILMALI.** Şu an "çıpa" okuma sırasında elle
+veriliyor ve ölçülebilir bir ölçütü yok. Korpus çapında karşılaştırma ancak
+tanım yazıldıktan sonra yapılabilir.
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 46.** Kafiye kuşağı (aday 509) 24:46'da kapanıyor — N sınıfına
+dönüş orada doğrulanacak. Sûrede 19 ayet kaldı.
+
+
+---
+
+## 2026-09-03 — SÛRE 24, 24:46-52
+
+Okunan ayet **1626 → 1633**. Kök tablosu **951 → 959**. `turkce_denetim.py` → 0
+(9 ihlâl; üçü sûre 9'dan geriye dönük `قعد`/`حذر`). `anahtar_denetim.py` → 58 ihlâl,
+diff = 0 (taranan anahtar 21613). Adaylar **513 → 515**; bağlar `AD_nur` 43 → 50.
+
+**Kafiye kuşağı kapanışı DOĞRULANDI (aday 509):** 24:46 م fâsılası, N sınıfı;
+24:36-45 on ayetlik kuşak kapandı. Ve kuşak iki ucundan aynı formülle çevreleniyor —
+24:34 ve 24:46 `أَنزَلْنَآ ءَايَٰتٍ مُّبَيِّنَٰتٍ` (aday 507 dördüncü geçiş).
+
+**Aynalı çağrı kalıbı (aday 514):** 24:48 ↔ 24:51 sekiz kelime birebir, sonuç ters
+(`مُّعْرِضُونَ` / `سَمِعْنَا وَأَطَعْنَا`). Arada ardışık iki hapaks (24:49 `ذعن`,
+24:50 `حيف`), ikisi de z=3,38 ★★★. 24:50'deki iki `أَمْ` muttasıla ve ayet INTG
+alıyor — **aday 438'in karşı kontrolü**: muttasıla doğru işleniyor, yalnız munkatı'a
+kaçırılıyor.
+
+**Kurtuluş çifti iki sûrede (aday 515):** 23:102/23:111 ↔ 24:51/24:52 aynı iki
+fâsıla (`ٱلْمُفْلِحُونَ` → `ٱلْفَآئِزُونَ`), aynı sıra, ara 9 → 0.
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 53.** Sûrede 12 ayet kaldı. 24:53 sûrenin tek QASEM'i; 24:55
+(n=38) sûrenin uzun ayetlerinden; 24:58 ve 24:61 ★★★ ve n kaynaklı (aday 503 verisi).
+
+
+### 24:53-60 EKİ — ADAYLAR 516-520
+
+Okunan ayet **1633 → 1641**. `turkce_denetim.py` → 0 (20 ihlâl). `anahtar_denetim.py`
+→ 58 ihlâl, diff = 0. Bağlar `AD_nur` 50 → 60.
+
+**YENİ ARAÇ SORUSU — İLTİFÂT TAGGER'I LAFIZ→ZAMİR GEÇİŞİNİ KAÇIRIYOR OLABİLİR
+(aday 517, P1).** 24:55'te lafız 3MS ile açılıyor, üç te'kid nûnlu fiil 3MS'de
+sürüyor, sonra ayet ortasında `يَعْبُدُونَنِى … بِى` ile 1S'e geçiyor — aynı özne.
+Ölçüm `ilt=0`. Sûre 23'te sayılan yedi iltifâtın hepsi zamir→zamir'di. **Eğer
+tagger lafız→zamir geçişini işlemiyorsa, sûre 24'ün "iltifât sıfır" ölçümü ve
+23↔24 karşılaştırması (7 → 0, aday 502) GEÇERSİZ.** Tur sonu onarım kalemi; 462
+ile aynı sırada ele alınacak. Sûre 24'ün iltifât ölçümüne dayanan hiçbir bulgu
+onarım öncesi kapatılmayacak.
+
+**Sûre 24 mühür sayımı tamamlandı (aday 501):** on iki mühürün on ikincisi 24:60'ta
+(`سَمِيع|عَلِيم`). `عَلِيم|حَكِيم` üç kez (24:18, 58, 59), ikisi ardışık (aday 519).
+
+**Aday 509 ekleme (aday 518):** kuşak dışındaki tek R ayeti (24:57) kuşağın
+24:42'siyle aynı fâsıla kelimesini taşıyor (`ٱلْمَصِيرُ`) — kuşağın yankısı.
+
+### DEVAM NOKTASI
+
+**Sûre 24, ayet 61.** Dört ayet kaldı: 24:61 (n=76, `بيت` ×10, ★★★ n kaynaklı) ·
+24:62 (n=39, `أذن` ×4) · 24:63 (hapaks `لوذ`, ★★★) · 24:64 (kapanış).
+
+
+### 24:61-64 — SÛRE 24 TAM (64/64), ADAYLAR 521-524
+
+Okunan ayet **1641 → 1645** (korpusun %26,4'ü). Tam okunan sûreler: **1, 9-24**.
+`turkce_denetim.py` → 0 (24 ihlâl). `anahtar_denetim.py` → 58 ihlâl, diff = 0
+(taranan anahtar 21614). Bağlar `AD_nur` 60 → 65.
+
+**SÛRENİN HALKASI (aday 524):** 24:42 ↔ 24:64. Ortak terkip
+`لِلَّهِ` + `ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ`; nesne `مُلْك` *(mülk, sahiplik)* →
+`مَا فِى` *(içindekiler, kapsam)*. **NOT — YENİ ALT SINIF:** sûre 24'ün halkası
+AÇILIŞTAN değil **ortadan** (24:42) kapanışa; sûre 23'ünki açılıştan (23:1)
+kapanışa (aday 491). İki halka türü ayrı kodlanmalı.
+
+**İKİ KÖK DORUĞU:** `بيت` *(ev)* 24:61'de **tek ayette on kez** (sûredeki 14
+geçişin onu) — dokuz akrabalık evi + iki akraba olmayan öğe (aday 521).
+`أذن` *(izin)* 24:62'de dört kez, dördü de bab X; sûrede 14 geçiş dört bölümde
+ve ilerleme ölçüldü: mekâna giriş → mekânın kendisi → ev içi vakit → topluluktan
+ayrılma (aday 522). **Tek ayette kök tekrarı rekoru KORPUS TARAMASI YAPILMADI** —
+tur sonu, `defter.json` `ikile` alanından.
+
+**SÛRE 24 MERCEK BİLANÇOSU:** 64 ayet, on beş ★★★, **on dördünde iki mercek de
+atlandı**; yalnız 24:35'te ikisi de yazıldı. Sûrenin çıpa taşıyan öteki iki ayeti
+(24:43 meteoroloji ★★, 24:45 biyoloji ★) eşiğin **altında** kaldı (aday 512).
+
+### DEVAM NOKTASI
+
+**Sûre 25 (Furkān)** — makro profilden başla, sonra 25:1'den oku. Sûre 25 Mekkî;
+sûre 23'ten (Mekkî) sonra okunan ikinci Mekkî, 24 (Medenî) arada — A/R eksen
+karşılaştırması (adaylar 470, 498) için üçüncü veri noktası.

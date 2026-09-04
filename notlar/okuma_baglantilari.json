@@ -8799,5 +8799,724 @@
    "guven": "yuksek",
    "not": "BÖLÜT İKİZİ: لِكُلِّ أُمَّةٍۢ جَعَلْنَا مَنسَكًۭا *(her ümmet için bir menâsik kıldık)*, 33 ayet arayla. 22:34 tevhide ve teslimiyete gidiyor (فَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ), 22:67 çekişmenin yasaklanmasına (فَلَا يُنَٰزِعُنَّكَ فِى ٱلْأَمْرِ). Aynı öncül, iki ayrı sonuç."
   }
+ ],
+ "AC_muminun": [
+  {
+   "bag": "23:2 ↔ 23:9",
+   "kural": "L1",
+   "not": "Sıfat zincirinin dış halkası: aynı kök صلو *(namaz, salât)*, birinci ve altıncı halkada. 23:2 صَلَاة *(namaz)* tekil ve yüklem ism-i fâil خَٰشِعُونَ *(huşû duyanlar)*; 23:9 صَلَوَٰت *(namazlar)* çoğul ve yüklem çekimli fiil يُحَافِظُونَ *(korurlar)*."
+  },
+  {
+   "bag": "23:5 ↔ 23:9",
+   "kural": "L1",
+   "not": "Zincirin iç halkası: aynı kök حفظ *(koruma)*, dördüncü ve altıncı halkada. 23:5 حَٰفِظُونَ *(koruyanlar)* bab I ism-i fâil, nesnesi فُرُوج *(ırzlar)*; 23:9 يُحَافِظُونَ bab III çekimli fiil, nesnesi صَلَوَٰت *(namazlar)*."
+  },
+  {
+   "bag": "23:5-8 ↔ 70:29-32",
+   "kural": "L1",
+   "not": "Dört ardışık ayet birebir aynı — korpus taramasına göre en uzun ardışık tam-ayet ikizi dizisi (aday 465)."
+  },
+  {
+   "bag": "23:4 ↔ 21:73",
+   "kural": "L1",
+   "not": "Ortak iki kök زكو *(arınma, zekât)* ve فعل *(yapma, işleme)*, sözdizimsel eşleşme ters: 21:73'te فِعْلَ ٱلْخَيْرَٰتِ *(hayırlar işlemek)* ve إِيتَآءَ ٱلزَّكَوٰةِ *(zekât vermek)*; 23:4'te لِلزَّكَوٰةِ فَٰعِلُونَ *(zekâtı işleyenler)*. Korpusta zekâtın doğrudan فعل ile eşleştiği tek yer 23:4 (aday 471)."
+  },
+  {
+   "bag": "23:7 ↔ 23:10",
+   "kural": "L1",
+   "not": "Aynı kalıp أُو۟لَٰٓئِكَ هُمُ *(işte onlar)* + ism-i fâil çoğulu: biri ihlâli (ٱلْعَادُونَ *(haddi aşanlar)*), öteki ödülü (ٱلْوَٰرِثُونَ *(vâris olanlar)*) işaretliyor."
+  },
+  {
+   "bag": "23:1 ↔ 23:10",
+   "kural": "L2",
+   "not": "Zincirin açılışı ve kapanışı: ikisi de n=3, ikisi de fâsılada ism-i fâil çoğulu. Fark: 23:1 fiille (أَفْلَحَ *(kurtuluşa erdi)*), 23:10 fiilsiz."
+  },
+  {
+   "bag": "23:12 ↔ 23:17",
+   "kural": "L1",
+   "not": "Aynı açılış وَلَقَدْ خَلَقْنَا *(andolsun yarattık)*; nesne varlıktan (ٱلْإِنسَٰن *(insan)*) konuma (فَوْقَكُمْ *(üstünüzde)*) geçiyor."
+  },
+  {
+   "bag": "23:15 ↔ 23:16",
+   "kural": "L1",
+   "not": "Aynı açılış ثُمَّ إِنَّكُمْ *(sonra siz)*; ilki fiilsiz ism-i fâil (مَيِّتُونَ *(ölecek olanlar)*), ikincisi çekimli edilgen (تُبْعَثُونَ *(diriltilirsiniz)*)."
+  },
+  {
+   "bag": "23:14 ↔ 23:19",
+   "kural": "L2",
+   "not": "Ortak kök نشأ *(inşâ etme, yeni bir şey var etme)*: 23:14'te insanın son aşaması, 23:19'da bahçeler. Aynı fiil iki ayrı diziyi bitiriyor."
+  },
+  {
+   "bag": "23:19 ↔ 23:20",
+   "kural": "L1",
+   "not": "Ortak kök أكل *(yeme)*: 23:19'da muhatap yiyor (تَأْكُلُونَ *(yersiniz)*), 23:20'de yiyenler üçüncü şahıs ism-i fâil (ٱلْءَاكِلِينَ *(yiyenler)*)."
+  },
+  {
+   "bag": "23:19 ↔ 23:21",
+   "kural": "L1",
+   "not": "İki ayet de aynı kapanışla bitiyor: وَمِنْهَا تَأْكُلُونَ *(onlardan yersiniz)*. Biri bahçe, öteki davar."
+  },
+  {
+   "bag": "23:23 ↔ 23:32",
+   "kural": "L1",
+   "not": "Sûre-içi bölüt ikizi, sekiz kelime birebir: ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ أَفَلَا تَتَّقُونَ *(Allah'a kulluk edin; O'ndan başka ilâhınız yok; sakınmaz mısınız)*. Elçi birinde adlı (نُوح *(Nûh)*), ötekinde adsız; birinde nidâ var, ötekinde yok (aday 473)."
+  },
+  {
+   "bag": "23:24 ↔ 23:33",
+   "kural": "L1",
+   "not": "Sûre-içi bölüt ikizi: مَا هَٰذَآ إِلَّا بَشَرٌۭ مِّثْلُكُمْ *(bu ancak sizin gibi bir beşer)*. Gerekçe farklı: 23:24 melek beklentisi, 23:33 yeme-içme (aday 473)."
+  },
+  {
+   "bag": "23:25 ↔ 23:38",
+   "kural": "L1",
+   "not": "Sûre-içi kalıp ikizi: إِنْ هُوَ إِلَّا رَجُلٌ *(o bir adamdan başkası değil)*. Devamı ayrışıyor: 23:25 بِهِۦ جِنَّةٌ *(kendisinde delilik var)* hâl ve edilgin, 23:38 ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا *(Allah'a karşı yalan uydurdu)* fiil ve iradî, bab VIII (aday 473)."
+  },
+  {
+   "bag": "23:26 ↔ 23:39",
+   "kural": "L1",
+   "not": "Tam-ayet ikizi, sûre içi, 13 ayet arayla: قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ *(Rabbim, yalanlamalarına karşı bana yardım et)*. İki döngünün de kapanışı (aday 473)."
+  },
+  {
+   "bag": "23:16 ↔ 23:35 ↔ 23:37",
+   "kural": "L1",
+   "not": "Aynı diriliş olayı üç kipte: 23:16 haber ve edilgen (تُبْعَثُونَ *(diriltilirsiniz)*), 23:35 soru ve edilgen (مُّخْرَجُونَ *(çıkarılacak olanlar)*), 23:37 olumsuzlanmış ism-i mef'ûl (بِمَبْعُوثِينَ *(diriltilecek olanlar)*)."
+  },
+  {
+   "bag": "23:12-16 ↔ 23:35",
+   "kural": "L1",
+   "not": "Yaratılış dizisinin maddeleri itirazın malzemesi oluyor: تُرَاب *(toprak)* ve عِظَام *(kemik)*, ama dizinin yönü ters — orada topraktan insana, burada insandan toprağa."
+  },
+  {
+   "bag": "23:14 ↔ 23:29",
+   "kural": "L2",
+   "not": "Aynı üstünlük tamlaması kalıbı: أَحْسَنُ ٱلْخَٰلِقِينَ *(yaratanların en güzeli)* ve خَيْرُ ٱلْمُنزِلِينَ *(indirenlerin en hayırlısı)* — ikisi de üstünlük ismi + ism-i fâil çoğulu."
+  },
+  {
+   "bag": "23:14 ↔ 23:19 ↔ 23:31",
+   "kural": "L1",
+   "not": "نشأ *(inşâ etme, yeni bir şey var etme)* kökü üç kez ve üçünde de dizinin bir sonraki basamağına geçiş: beden, bitki, topluluk."
+  },
+  {
+   "bag": "23:25 ↔ 23:40",
+   "kural": "L1",
+   "not": "Süre karşıtlığı: itiraz حَتَّىٰ حِينٍۢ *(bir süreye kadar)* der, cevap عَمَّا قَلِيلٍۢ *(az sonra)*. İkisi de belirsiz süre, iki uçta."
+  },
+  {
+   "bag": "23:31 ↔ 23:42",
+   "kural": "L1",
+   "not": "Sûre-içi bölüt ikizi: أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا *(onların ardından bir nesil inşa ettik)*; xref ayrıca 6:6."
+  },
+  {
+   "bag": "23:22 ↔ 21:33 ↔ 22:65",
+   "kural": "L2",
+   "not": "فلك *(gemi, felek)* kökünün üçüncü rolü: 21:33 gök cisimlerinin yörüngesi, 22:65 denizde akan gemi, 23:22 üzerinde taşınılan gemi."
+  },
+  {
+   "bag": "23:41 ↔ 23:44",
+   "kural": "L1",
+   "not": "Aynı kapanış kalıbı فَبُعْدًۭا لِّـ *(uzak olsun)*, sûrede iki kez. Sıfat değişiyor: ٱلظَّٰلِمِينَ *(zalimler)* / لَّا يُؤْمِنُونَ *(inanmayanlar)*."
+  },
+  {
+   "bag": "23:31 ↔ 23:42",
+   "kural": "L1",
+   "not": "BEKLEYEN BAĞ KAPANDI. Sûre-içi bölüt ikizi; tek fark قَرْنًا *(bir nesil)* tekil → قُرُونًا *(nesiller)* çoğul. Birinci geçişte tek topluluk anlatılıyor (23:31-41), ikincisinde kalanlar tek çoğulda toplanıp anlatılmıyor."
+  },
+  {
+   "bag": "23:43 ↔ 15:5",
+   "kural": "L1",
+   "not": "Tam-ayet ikizi, tek harf farkla (مَّا / مَا)."
+  },
+  {
+   "bag": "21:92 ↔ 23:52",
+   "kural": "L1",
+   "not": "BEKLEYEN BAĞ (aday 456) ÖLÇÜLDÜ ve ÖN-KAYIT DÜZELTİLDİ (aday 476). Gövde altı kelime birebir aynı; ayrışma iki uçta: açılışta bağlaç (إِنَّ / وَإِنَّ), kapanışta imperatif (فَٱعْبُدُونِ *(bana kulluk edin)*, عبد *(kul, kulluk)* bab I / فَٱتَّقُونِ *(benden sakının)*, وقي *(sakınma, koruma)* bab VIII)."
+  },
+  {
+   "bag": "21:93 ↔ 23:53",
+   "kural": "L1",
+   "not": "Çiftin ikinci ayeti; ortak gövde yalnız أَمْرَهُم بَيْنَهُمْ *(işlerini aralarında)*. 23:53'e زُبُرًۭا *(parçalara)* eklenmiş, ikinci yarılar tamamen farklı ama kalıp aynı: ikisi de كُلّ *(her)* ile açılıp ism-i fâil çoğuluyla kapanıyor."
+  },
+  {
+   "bag": "21:93 ↔ 23:60",
+   "kural": "L2",
+   "not": "23:53'te düşen رجع *(dönme, geri döndürme)* kökü yedi ayet sonra geri geliyor: إِلَىٰ رَبِّهِمْ رَٰجِعُونَ *(Rablerine dönecekler)*; gönderge إِلَيْنَا *(bize)* yerine Rab tamlaması, özne inkârcı yerine mü'min (aday 478)."
+  },
+  {
+   "bag": "23:2-9 ↔ 23:57-61",
+   "kural": "L1",
+   "not": "Sûrenin İKİ sıfat zinciri. Aynı kalıp (ٱلَّذِينَ هُمْ + mecrur + ism-i fâil), ayrı eksen: birincisi eylemlere, ikincisi Rab'be bağlı (dört halkada dört رَبّ). Fiile geçiş birincide kapanışta (23:9), ikincide ikinci halkada (23:58) (aday 477)."
+  },
+  {
+   "bag": "23:58 ↔ 23:59",
+   "kural": "L1",
+   "not": "Bitişik ikiz kalıp: aynı n=5, aynı bab IV, aynı IMPF; tek fark لَا *(değil)* parçacığı. Biri kabul biri ret."
+  },
+  {
+   "bag": "23:25 ↔ 23:54",
+   "kural": "L1",
+   "not": "Aynı zaman kalıbı حَتَّىٰ حِينٍ *(bir süreye kadar)*, taraf değiştiriyor: 23:25 reddedenlerin elçi hakkındaki buyruğu (ربص *(bekleyip gözetme)* bab V), 23:54 elçiye verilen buyruk (وذر *(bırakma)* bab I) (aday 479)."
+  },
+  {
+   "bag": "23:33 ↔ 23:51",
+   "kural": "L1",
+   "not": "Ortak kök أكل *(yeme)*: 23:33'te yemek elçiliğe itiraz gerekçesi, 23:51'de elçilere verilen emir (كُلُوا۟ مِنَ ٱلطَّيِّبَٰتِ *(temiz şeylerden yiyin)*)."
+  },
+  {
+   "bag": "23:13 ↔ 23:50",
+   "kural": "L2",
+   "not": "Ortak kök قرر *(karar kılma; göz aydınlığı)*: 23:13 قَرَارٍۢ مَّكِينٍ *(sağlam karargâh)* rahim bağlamında, 23:50 ذَاتِ قَرَارٍۢ *(oturmaya elverişli)* tepe bağlamında. İkisinde de kök bir korunma yerini niteliyor."
+  },
+  {
+   "bag": "23:24 ↔ 23:33 ↔ 23:34 ↔ 23:47",
+   "kural": "L1",
+   "not": "بَشَر مِثْل *(bizim gibi beşer)* kalıbı dört kez; ilk üçü tekil (بَشَرٌ مِّثْلُكُم), 23:47'de İKİL (بَشَرَيْنِ مِثْلِنَا) çünkü elçi iki kişi. Kalıp gönderdiğine göre çekimleniyor."
+  },
+  {
+   "bag": "23:12 ↔ 23:17 ↔ 23:23 ↔ 23:49",
+   "kural": "L1",
+   "not": "وَلَقَدْ *(andolsun)* + PERF açılışı dört kez; nesneler sırayla insan, konum, kişi, kitap."
+  },
+  {
+   "bag": "23:56 ↔ 23:61",
+   "kural": "L1",
+   "not": "Aynı kök çifti (سرع *(hız, sürat)* + خير *(hayır, daha iyi)*), aynı bab III, beş ayet arayla, karşıt kutupta: 23:56 IDRAB ile reddedilen bir sanı (birinci çoğul), 23:61 onaylanan bir nitelik (üçüncü çoğul) (aday 481)."
+  },
+  {
+   "bag": "23:10 ↔ 23:61",
+   "kural": "L1",
+   "not": "İki sıfat zincirinin kapanışı aynı hamleyi yapıyor: ٱلَّذِينَ هُمْ *(onlar ki)* dizisi أُو۟لَٰٓئِكَ *(işte onlar)* işaret zamiriyle kapanıyor."
+  },
+  {
+   "bag": "23:60 ↔ 23:63",
+   "kural": "L1",
+   "not": "Aynı organ iki hâlde: قُلُوبُهُمْ وَجِلَةٌ *(kalpleri ürperir)* / قُلُوبُهُمْ فِى غَمْرَةٍ *(kalpleri gaflet içinde)*, üç ayet arayla."
+  },
+  {
+   "bag": "23:64 ↔ 23:65",
+   "kural": "L1",
+   "not": "Bitişik ortak جأر *(feryat etme, yalvarıp bağırma)*: haber ve üçüncü şahıs → yasak ve muhatap. Kök korpusta üç geçişli, ikisi bu iki ayette."
+  },
+  {
+   "bag": "23:26 ↔ 23:39 ↔ 23:65",
+   "kural": "L1",
+   "not": "نصر *(yardım)* kökü sûrede üç kez: iki kez elçinin ağzında emir kipinde istek, üçüncüsünde edilgen ve olumsuz reddediliş (aday 482)."
+  },
+  {
+   "bag": "23:64 ↔ 23:77",
+   "kural": "L1",
+   "not": "Aynı kalıp حَتَّىٰٓ إِذَا … إِذَا هُمْ *(nihayet … dığında, işte o zaman)*, sûrede iki kez. Sonuç değişiyor: feryat (يَجْـَٔرُونَ) / umut kesme (مُبْلِسُونَ)."
+  },
+  {
+   "bag": "23:58 ↔ 23:74",
+   "kural": "L1",
+   "not": "Tam karşıtlık: aynı kök أمن *(güven; iman)*, aynı bab IV, aynı IMPF; biri olumlu (يُؤْمِنُونَ), öteki olumsuz (لَا يُؤْمِنُونَ)."
+  },
+  {
+   "bag": "23:73 ↔ 23:74",
+   "kural": "L1",
+   "not": "Bitişik صرط *(yol, sırât)* çifti, i'râb ile yön değişiyor: إِلَىٰ *(...e)* ile hedef / عَنِ *(...den)* ile terk edilen."
+  },
+  {
+   "bag": "23:71 ↔ 23:75",
+   "kural": "L1",
+   "not": "İki ters şart cümlesi, aynı yapı (لَوْ + PERF, cevapta لَـ + PERF): hak heveslere uysaydı kozmos bozulurdu / merhamet edilseydi azgınlık sürerdi."
+  },
+  {
+   "bag": "23:14 ↔ 23:29 ↔ 23:72",
+   "kural": "L1",
+   "not": "Üstünlük tamlaması kalıbı üç kez, hep aynı yapıda (üstünlük ismi + belirli ism-i fâil çoğulu): أَحْسَنُ ٱلْخَٰلِقِينَ *(yaratanların en güzeli)* · خَيْرُ ٱلْمُنزِلِينَ *(indirenlerin en hayırlısı)* · خَيْرُ ٱلرَّٰزِقِينَ *(rızık verenlerin en hayırlısı)*. Üçünden yalnız biri esmâ sayılıyor (aday 484)."
+  },
+  {
+   "bag": "23:78 ↔ 23:79 ↔ 23:80",
+   "kural": "L1",
+   "not": "Üç ardışık وَهُوَ ٱلَّذِى *(O'dur ki)* açılışı; kapanışları da muhataba dönük üç fiil: تَشْكُرُونَ *(şükredersiniz)* · تُحْشَرُونَ *(toplanırsınız)* · تَعْقِلُونَ *(akledersiniz)* (aday 485)."
+  },
+  {
+   "bag": "23:37 ↔ 23:80",
+   "kural": "L1",
+   "not": "Aynı iki kök (حيي *(hayat)* + موت *(ölüm)*) ters sırada ve ters öznede: 23:37 نَمُوتُ وَنَحْيَا *(ölürüz ve yaşarız)*, insana ait ve diriliş reddediliyor; 23:80 يُحْىِۦ وَيُمِيتُ *(diriltir ve öldürür)*, ilâhî fiil."
+  },
+  {
+   "bag": "23:14 ↔ 23:19 ↔ 23:31 ↔ 23:78",
+   "kural": "L1",
+   "not": "نشأ *(inşâ etme, yeni bir şey var etme)* kökü dört kez, nesnesi her seferinde başka: insanın son aşaması · bahçeler · bir nesil · duyular."
+  },
+  {
+   "bag": "23:3 ↔ 23:71",
+   "kural": "L2",
+   "not": "Aynı kök عرض *(sunma; yüz çevirme)* iki kutupta: 23:3'te boş sözden yüz çevirmek övgü, 23:71'de zikirden yüz çevirmek yergi."
+  },
+  {
+   "bag": "23:33 ↔ 23:64",
+   "kural": "L1",
+   "not": "Ortak kök ترف *(refah içinde şımartma)*: 23:33 أَتْرَفْنَٰهُمْ *(onları refaha boğduk)* fiil ve anlatıcının kaydı, 23:64 مُتْرَفِيهِم *(refaha boğulmuşları)* ism-i mef'ûl ve azabın nesnesi."
+  },
+  {
+   "bag": "23:35 ↔ 23:82",
+   "kural": "L1",
+   "not": "Aynı itiraz iki ağızda: 23:35 üçüncü şahıs alay (أَيَعِدُكُمْ *(size vaat mi ediyor)*), 23:82 birinci çoğul itiraz (أَءِنَّا لَمَبْعُوثُونَ *(gerçekten diriltilecek miyiz)*). Maddeler aynı (توپraq → kemik), fâsıla değişiyor: مُّخْرَجُونَ *(çıkarılacaklar)* / مَبْعُوثُونَ *(diriltilecekler)*."
+  },
+  {
+   "bag": "23:84-89",
+   "kural": "L1",
+   "not": "Üçlü soru-cevap nakaratı. Sorular genişliyor (yer → gökler ve arş → her şey), cevaplar n=5 sabit ve ilk üç kelimesi birebir aynı; yalnız son fiil değişiyor (bab V → bab VIII → bab I) ve üçüncüsü EDİLGEN (aday 486). KAYNAK NOTU: korpus üç ayette de لِلَّهِ okuyor, Hafs baskısında 23:87 ve 23:89 ٱللَّهُ merfû — doğrulanmadı (aday 487)."
+  },
+  {
+   "bag": "23:17 ↔ 23:86",
+   "kural": "L1",
+   "not": "Ortak سَبْع *(yedi)* + سمو *(ad; gök)* çifti: 23:17 سَبْعَ طَرَآئِقَ *(yedi yol)*, 23:86 ٱلسَّمَٰوَٰتِ ٱلسَّبْعِ *(yedi gök)*. Aynı sayı, iki ayrı isim."
+  },
+  {
+   "bag": "23:23 ↔ 23:32 ↔ 23:52 ↔ 23:87",
+   "kural": "L1",
+   "not": "وقي *(sakınma, koruma)* kökü çağrı kapanışında dört kez: iki elçinin ağzında أَفَلَا تَتَّقُونَ *(sakınmaz mısınız)*, 23:52'de emir فَٱتَّقُونِ *(benden sakının)*, 23:87'de doğrudan muhataba."
+  },
+  {
+   "bag": "23:70 ↔ 23:71 ↔ 23:90",
+   "kural": "L1",
+   "not": "بَلْ *(hayır)* + getirme kalıbı üç kez; nesne değişiyor: hak · kendi zikirleri · hak. Ayet uzunluğu daralıyor: 10 → 16 → 5."
+  },
+  {
+   "bag": "23:46 ↔ 23:91 ↔ 23:92",
+   "kural": "L1",
+   "not": "علو *(yücelik; böbürlenme)* kökü üç kez ve üç ayrı konumda: Firavun'un kavmi üstünlük taslıyor (bab X çevresinde), varsayılan ilâhlar birbirine üstün gelirdi (bab I), tek tarafın aşkınlığı (bab VI)."
+  },
+  {
+   "bag": "23:91 ↔ 23:96",
+   "kural": "L1",
+   "not": "Aynı fâsıla kelimesi يَصِفُونَ *(nitelendirirler)*, beş ayet arayla: 23:91'de tenzih formülünün nesnesi, 23:96'da bilginin nesnesi."
+  },
+  {
+   "bag": "23:93 ↔ 23:95",
+   "kural": "L1",
+   "not": "Aynı iki kök (رأي *(görme)* + وعد *(vaat)*) ters çatıda: duada gösterme istenen ve vaat edilgen, cevapta gösterme vaat edilen ve vaat etken. Duanın dilbilgisi cevapta aynalanıyor."
+  },
+  {
+   "bag": "23:18 ↔ 23:95",
+   "kural": "L2",
+   "not": "Aynı fâsıla kelimesi لَقَٰدِرُونَ *(güç yetirenler)*: 23:18'de suyun giderilmesi, 23:95'te vaadin gösterilmesi. İkisinde de bir yeti kapanışa konuyor."
+  },
+  {
+   "bag": "23:93 ↔ 23:94 ↔ 23:97 ↔ 23:98",
+   "kural": "L1",
+   "not": "Dört ardışık رَبِّ *(Rabbim)* çağrısı ve konum kayması: 2→1 (öne), sonra 2→3 (arkaya, cümle ortasına gömülü). Dördünün de rab z ≥ 2,72 (aday 488)."
+  },
+  {
+   "bag": "23:28 ↔ 23:94",
+   "kural": "L1",
+   "not": "Ortak terkip ٱلْقَوْمِ ٱلظَّٰلِمِينَ *(zalim kavim)*: 23:28'de kurtuluşun hamdinde, 23:94'te korunma isteğinde."
+  },
+  {
+   "bag": "23:64 ↔ 23:77 ↔ 23:99",
+   "kural": "L1",
+   "not": "حَتَّىٰٓ إِذَا *(nihayet … dığında)* kalıbı üç kez; ölçek daralıyor: topluluk (azap) → topluluk (kapı) → tek kişi (أَحَدَهُم *(onlardan biri)*)."
+  },
+  {
+   "bag": "23:51 ↔ 23:100",
+   "kural": "L1",
+   "not": "Ortak عمل *(iş, amel)* + صلح *(iyi, elverişli olma; ıslah)*: 23:51'de elçilere emir (ٱعْمَلُوا۟ صَٰلِحًا *(iyi iş yapın)*), 23:100'de ölüm anındaki geciktirilmiş dilek."
+  },
+  {
+   "bag": "23:7 ↔ 23:100",
+   "kural": "L2",
+   "not": "Ortak kök وري *(arka, öte; gizleme)*: 23:7'de sınırın ötesini arama (وَرَآءَ ذَٰلِكَ *(bunun ötesi)*), 23:100'de önlerindeki engel (وَمِن وَرَآئِهِم بَرْزَخٌ *(önlerinde bir berzah)*)."
+  },
+  {
+   "bag": "23:1 ↔ 23:102 ↔ 23:117",
+   "kural": "L1",
+   "not": "SÛRENİN BÜYÜK HALKASI. فلح *(kurtuluşa erme, felâh)* kökü üç kez: açılış PERF ve olumlu (أَفْلَحَ *(kurtuluşa erdi)*), 23:102 ism-i fâil ve olumlu (ٱلْمُفْلِحُونَ *(kurtuluşa erenler)*), 23:117 IMPF ve OLUMSUZ (لَا يُفْلِحُ ٱلْكَٰفِرُونَ *(inkârcılar kurtuluşa ermez)*). Üçünde de fâsıla belirli ism-i fâil çoğulu (aday 491)."
+  },
+  {
+   "bag": "23:102 ↔ 23:111",
+   "kural": "L1",
+   "not": "Aynı sonuç iki ayrı kökle: ٱلْمُفْلِحُونَ *(kurtuluşa erenler)*, kök فلح / ٱلْفَآئِزُونَ *(kurtuluşa erenler)*, kök فوز *(kurtuluş, fevz)*."
+  },
+  {
+   "bag": "23:11 ↔ 23:103",
+   "kural": "L1",
+   "not": "Ortak kök خلد *(ebedî kalma)*: 23:11'de Firdevs'te kalıcılık, 23:103'te cehennemde."
+  },
+  {
+   "bag": "23:66 ↔ 23:105",
+   "kural": "L1",
+   "not": "Sûre-içi bölüt ikizi, ortak gövde beş kelime. İki uçta ayrışıyor: açılış CERT'ten INTG'ye (haber → soru), kapanış نكص *(geri dönme)*'den كذب *(yalanlama)*'ya. Sahne dünyadan âhirete geçiyor (aday 492)."
+  },
+  {
+   "bag": "23:93-94 ↔ 23:106-107",
+   "kural": "L1",
+   "not": "Aynı çift yapısı: iki ayet, ikisinde de رَبّ *(Rab)* çağrısı, ikincisinde çağrı ayet başına geçiyor (konum 2 → 1). İçerik tersine: elçi zalimlerin arasına konmamayı ister, zalimler oradan çıkmayı; ikisi de ظلم *(zulüm)* köküyle biter (aday 493)."
+  },
+  {
+   "bag": "23:100 ↔ 23:108",
+   "kural": "L1",
+   "not": "Ortak kök كلم *(söz, konuşma)*: 23:100'de geri dönüş isteğinin 'bir söz' sayılması, 23:108'de söz alışverişinin kesilmesi (وَلَا تُكَلِّمُونِ *(bana konuşmayın)*)."
+  },
+  {
+   "bag": "23:36 ↔ 23:108",
+   "kural": "L2",
+   "not": "Sûrede i'râb kaydı boş iki ayet: ikisinde de îrablanan isim yok (aday 475)."
+  },
+  {
+   "bag": "23:109 ↔ 23:118",
+   "kural": "L1",
+   "not": "Sûre kendi içinden bir alıntıyla kapanıyor. 23:109 bir bölüğün duasını aktarıyor, 23:118 aynı duayı muhataba emir olarak veriyor. Altı kelime ortak; şahıs 1P→1S, nesne zamirleri düşüyor, çerçeve aktarımdan emre geçiyor (aday 494)."
+  },
+  {
+   "bag": "23:71 ↔ 23:110",
+   "kural": "L1",
+   "not": "Ortak kök ذكر *(anma, zikir)*: 23:71'de zikirden yüz çevirmek, 23:110'da zikri unutmak."
+  },
+  {
+   "bag": "23:112 ↔ 23:113 ↔ 23:114",
+   "kural": "L1",
+   "not": "Ölçüm diyaloğu: soru birimi iki kez veriyor (عَدَد *(sayı)* + سِنِين *(yıllar)*), cevap birimi yıldan güne indirip günü de bölüyor ve sorumluluğu devrediyor, düzeltme birimi tartışmadan HASR ile ölçüyü bağlıyor. لبث *(kalma, durma)* kökü sûrede yalnız bu üç ardışık ayette (aday 495)."
+  },
+  {
+   "bag": "23:12-14 ↔ 23:115",
+   "kural": "L1",
+   "not": "خلق *(yaratma)* kökünün sûredeki ilk yoğunlaşması ve son geçişi: orada 'nasıl' (madde dizisi), burada 'niçin' (عَبَثًۭا *(boş yere)*) (aday 496)."
+  },
+  {
+   "bag": "23:55 ↔ 23:115",
+   "kural": "L2",
+   "not": "Aynı fiil kökü حسب *(hesap, sayma)* soru kipinde: أَيَحْسَبُونَ *(sanıyorlar mı)* / أَفَحَسِبْتُمْ *(sandınız mı)*; biri üçüncü çoğul, öteki muhatap."
+  },
+  {
+   "bag": "23:86 ↔ 23:116",
+   "kural": "L1",
+   "not": "Soru-cevap çifti, otuz ayet ara. Ortak terkip رَبُّ ٱلْعَرْشِ *(arşın Rabbi)*; değişen yalnız sıfat: ٱلْعَظِيمِ *(büyük)* → ٱلْكَرِيمِ *(şerefli)*. Sûrenin dört م-fâsılalı ayetinin ikisi bu çift. Esmâ tablosu ikisini FARKLI işliyor (aday 497)."
+  },
+  {
+   "bag": "23:14 ↔ 23:29 ↔ 23:72 ↔ 23:109 ↔ 23:118",
+   "kural": "L1",
+   "not": "Üstünlük tamlaması kalıbı sûrede BEŞ kez, hep aynı yapıda (üstünlük ismi + belirli ism-i fâil çoğulu): yaratanların en güzeli · indirenlerin en hayırlısı · rızık verenlerin en hayırlısı · merhamet edenlerin en hayırlısı ×2 (adaylar 484, 497)."
+  }
+ ],
+ "AD_nur": [
+  {
+   "bag": "24:1 ↔ 24:18",
+   "kural": "L1",
+   "not": "Bölüm halkası: 24:1'de âyetler indiriliyor ve sıfatı بَيِّنَٰت *(apaçık)*, 24:18'de aynı kök fiil oluyor — يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ *(Allah size âyetleri açıklıyor)*. Bölüm kendi açılış terimiyle kapanıyor."
+  },
+  {
+   "bag": "24:2 ↔ 24:4",
+   "kural": "L1",
+   "not": "Ortak kök جلد *(deri; kırbaçlama)*: sayı yüzden seksene iniyor, ama ikinci cezaya süresiz tanıklık reddi ekleniyor. Bedensel ceza azalırken hukukî ceza ekleniyor."
+  },
+  {
+   "bag": "24:2 ↔ 24:3",
+   "kural": "L1",
+   "not": "Cinsiyet sırası ters: 24:2'de ٱلزَّانِيَةُ *(zina eden kadın)* önce, 24:3'te ٱلزَّانِى *(zina eden erkek)* önce."
+  },
+  {
+   "bag": "24:5 ↔ 3:89",
+   "kural": "L1",
+   "not": "Tam-ayet ikizi — sûre 24'ün tek tam ikizi."
+  },
+  {
+   "bag": "24:6 ↔ 24:8",
+   "kural": "L1",
+   "not": "Aynalı çift: aynı sayı (dört tanıklık), aynı yemin (بِٱللَّهِ *(Allah adına)*), fark tek fiilde (درأ *(savma, def etme)*); fâsılalar ÇAPRAZLANMIŞ — 24:6 ٱلصَّٰدِقِينَ *(doğru söyleyenler)*, 24:8 ٱلْكَٰذِبِينَ *(yalancılar)* (aday 499)."
+  },
+  {
+   "bag": "24:7 ↔ 24:9",
+   "kural": "L1",
+   "not": "DAR İKİZ: dokuz kelimenin yedisi birebir aynı; fark tam olarak iki kelimede — لَعْنَت *(lânet)* → غَضَب *(gazap)*, ٱلْكَٰذِبِينَ → ٱلصَّٰدِقِينَ. Mora 43 → 46, harf 35 = 35. Okumada ölçülen en dar bölüt ikizi (aday 499)."
+  },
+  {
+   "bag": "24:10 ↔ 24:14 ↔ 24:20",
+   "kural": "L1",
+   "not": "Üçlü şart kalıbı, altı kelimelik ortak açılış وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ *(Allah'ın size lütfu ve merhameti olmasaydı)*. 24:10 ve 24:20 cevapsız, fiilsiz, mühürlü ve ★★★; 24:14 cevaplı, iki fiilli, mühürsüz ve ★ yok (aday 500)."
+  },
+  {
+   "bag": "24:10 ↔ 24:20",
+   "kural": "L1",
+   "not": "Sûre-içi bölüt ikizi: dokuz kelimenin yedisi birebir aynı, değişen yalnız esmâ çifti — تَوّاب|حَكِيم → رَءُوف|رَحِيم. İkisinin de allah z=3,92 ve ikisi de ★★★ (aday 500)."
+  },
+  {
+   "bag": "24:12 ↔ 24:16",
+   "kural": "L1",
+   "not": "Aynı açılış لَّوْلَآ إِذْ سَمِعْتُمُوهُ *(onu işittiğinizde … deseydiniz ya)*, arada üç ayet. İkinci kalıp üç adımlı (çekimserlik → tenzih → hüküm) ve terim değişiyor: إِفْك *(iftira)* → بُهْتَٰن *(bühtan)*."
+  },
+  {
+   "bag": "24:4 ↔ 24:13",
+   "kural": "L1",
+   "not": "Dört-tanık ölçütü: 24:4'te hüküm koşulu, 24:13'te sonuç çıkarma aracı — koşul yerine gelmediyse hüküm otomatik."
+  },
+  {
+   "bag": "24:4 ↔ 24:17",
+   "kural": "L2",
+   "not": "Ortak süre belirteci أَبَدًا *(asla)*: orada tanıklığın süresiz reddi, burada tekrarın süresiz yasağı."
+  },
+  {
+   "bag": "24:13 ↔ 24:15",
+   "kural": "L1",
+   "not": "Ortak ifade عِندَ ٱللَّهِ *(Allah katında)*: 24:13'te insan mahkemesinden ayrılan hüküm yeri, 24:15'te önemsiz sanılan şeyin gerçek ölçüsü."
+  },
+  {
+   "bag": "24:15 ↔ 24:19",
+   "kural": "L1",
+   "not": "Ortak kök علم *(bilme)*: 24:15'te bilginin yokluğu (مَّا لَيْسَ لَكُم بِهِۦ عِلْمٌ *(hakkında bilginiz olmayan)*), 24:19'da bilgi asimetrisi (وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ *(Allah bilir, siz bilmezsiniz)*)."
+  },
+  {
+   "bag": "24 ↔ 55",
+   "kural": "L2",
+   "not": "SÛRE DÜZEYİNDE TAM AYNA: sûre 24 Allah 80 / Rab 0; sûre 55 (Rahmân) Allah 0 / Rab 36. İkisi de Medenî (aday 498)."
+  },
+  {
+   "bag": "23 ↔ 24",
+   "kural": "L2",
+   "not": "Ardışık iki sûre eksende karşıt: 23 A 0,35x / R 1,72x; 24 A 1,74x / R 0. Ayrıca ayet uzunluğu 8,90 → 20,56, iltifât 7 → 0, yasak 3 → 12 (adaylar 470, 498, 502)."
+  },
+  {
+   "bag": "24:10 ↔ 24:14 ↔ 24:20 ↔ 24:21",
+   "kural": "L1",
+   "not": "Kalıp DÖRT kez. Cevapsız: 24:10, 24:20 (n=9, fiilsiz, mühürlü, ★★★). Cevaplı: 24:14 (n=15, iki fiil, mühürsüz) ve 24:21 (n=34, yedi fiil, MÜHÜRLÜ). 'Cevapsızlık ↔ fiilsizlik' dörtte dört tutuyor; 'mühür ↔ cevapsızlık' 24:21'de bozuluyor (aday 505)."
+  },
+  {
+   "bag": "24:21 ↔ 24:22",
+   "kural": "L1",
+   "not": "Bitişik ayetlerde aynı kök فضل *(üstün kılma, lütuf)* iki konumda: فَضْلُ ٱللَّهِ *(Allah'ın lütfu)* / أُو۟لُوا۟ ٱلْفَضْلِ *(lütuf sahipleri)* — ilâhî ve beşerî."
+  },
+  {
+   "bag": "24:4 ↔ 24:23",
+   "kural": "L1",
+   "not": "Ortak رمي *(atma)* + حصن *(iffet)*: 24:4'te ceza sayısı ve tanıklık reddi, 24:23'te lânet. 24:23'te nesne üç sıfatla nitelenmiş, 24:4'te tek."
+  },
+  {
+   "bag": "24:7 ↔ 24:23",
+   "kural": "L1",
+   "not": "Ortak kök لعن *(lânet, kovma)*: 24:7'de şarta bağlı bedduâ ve fâili lafız, 24:23'te edilgen ve gerçekleşmiş hüküm (لُعِنُوا۟ *(lânetlendiler)*)."
+  },
+  {
+   "bag": "24:15 ↔ 24:24",
+   "kural": "L1",
+   "not": "Ortak kök لسن *(dil)*: 24:15'te iftiranın aracı (بِأَلْسِنَتِكُمْ *(dillerinizle)*), 24:24'te aleyhe tanıklığın öznesi."
+  },
+  {
+   "bag": "24:2 ↔ 24:25",
+   "kural": "L2",
+   "not": "Ortak kök دين *(din; borç)* iki ayrı anlamda: دِينِ ٱللَّهِ *(Allah'ın dini)* / دِينَهُمُ ٱلْحَقَّ *(hak ettikleri karşılık)*."
+  },
+  {
+   "bag": "24:3 ↔ 24:26",
+   "kural": "L1",
+   "not": "Aynı sözdizim genişletilmiş: 24:3'te iki cinsiyet-çevirmeli eşleştirme ve HASR kalıbı; 24:26'da dört eşleştirme, fiilsiz, i'râbda hiç mansûb yok (aday 504)."
+  },
+  {
+   "bag": "24:1 ↔ 24:27",
+   "kural": "L1",
+   "not": "Aynı fâsıla تَذَكَّرُونَ *(düşünürsünüz)*: sûrenin açılış ayeti ve ev-âdâbı bölümünün açılış ayeti aynı kelimeyle bitiyor."
+  },
+  {
+   "bag": "24:27 ↔ 24:29",
+   "kural": "L1",
+   "not": "Aynı üç kök (دخل *(girme)* · بيت *(ev)* · غير *(başka)*): 24:27 yasak, 24:29 muafiyet. Muafiyetin ölçütü mülkiyet değil ikamet (غَيْرَ مَسْكُونَةٍ *(oturulmayan)*)."
+  },
+  {
+   "bag": "24:21 ↔ 24:28 ↔ 24:30",
+   "kural": "L2",
+   "not": "زكو *(arınma, temizlik)* kökü üç kez: 24:21'de lafız arındırıyor, 24:28 ve 24:30'da bir davranış 'daha arıtıcı' (أَزْكَىٰ) sayılıyor."
+  },
+  {
+   "bag": "23:5 ↔ 24:30 ↔ 24:31",
+   "kural": "L1",
+   "not": "حفظ *(koruma)* + فرج *(ırz)* çifti üç kez, üçü de ayrı kip/şahıs: 23:5 ism-i fâil ve fiilsiz cümle; 24:30 emre bağlı muzâri, eril çoğul; 24:31 emre bağlı muzâri, dişil çoğul (aday 506)."
+  },
+  {
+   "bag": "24:30 ↔ 24:31",
+   "kural": "L1",
+   "not": "İkiz açılış: قُل لِّلْمُؤْمِنِينَ *(mü'min erkeklere söyle)* / وَقُل لِّلْمُؤْمِنَٰتِ *(mü'min kadınlara söyle)*. İlk üç buyruk aynı kök ve aynı sırada (غضض *(indirme, kısma)* · بصر *(görme)* · حفظ *(koruma)* + فرج *(ırz)*); 24:31 sonrasında on bir üyeli istisna listesiyle uzuyor (n=15 → n=78)."
+  },
+  {
+   "bag": "24:32 ↔ 24:33",
+   "kural": "L1",
+   "not": "Bitişik ayetler aynı üçlüyü paylaşıyor: أله *(lafza-i celâl)* + فضل *(lütuf)* + غني *(zenginleştirme)*; xref her ikisinde de 9:28'e bağlanıyor. 24:32 evlendirmeyi buyuruyor, 24:33 imkân bulunamadığında iffeti."
+  },
+  {
+   "bag": "24:1 ↔ 24:18 ↔ 24:34",
+   "kural": "L1",
+   "not": "نزل *(indirme)* + أيي *(âyet)* + بين *(açıklama)* üçlüsü üç kez; âyetlerin konumu her seferinde değişiyor: açık (بَيِّنَٰت, sıfat) → açıklanan (يُبَيِّنُ, fiil) → açıklayan (مُّبَيِّنَٰت, ism-i fâil) (aday 507)."
+  },
+  {
+   "bag": "23:14 ↔ 24:35",
+   "kural": "L2",
+   "not": "Aynı sözdizimsel işlem: zincirin her halkası önce nekre tanıtılıyor, sonra marife geri alınıyor. 23:14'te نُطْفَة → ٱلْعَلَقَة dizisi, 24:35'te مِصْبَاحٌ → ٱلْمِصْبَاحُ ve زُجَاجَةٍ → ٱلزُّجَاجَةُ."
+  },
+  {
+   "bag": "24:35 ↔ 24:39 ↔ 24:40",
+   "kural": "L1",
+   "not": "Üçlü mesel dizisi: nûr (içe doğru zincir, aydınlatma), serap (arayış boşa çıkıyor), karanlık (yukarı doğru zincir, örtme). 24:35 ve 24:40 aynı نور *(nûr, ışık)* köküyle kapanıyor — biri veriliş, öteki yokluk (aday 510)."
+  },
+  {
+   "bag": "24:35 ↔ 24:40 (esmâ)",
+   "kural": "L1",
+   "not": "Sûredeki yedi نُور esmâsının TAMAMI bu iki ayette (5 + 2). Altısı yanlış pozitif: iyelikli tamlama ×3, nekre ×3; yalnız ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ geçerli. İkisi de MÜHÜRSÜZ — aday 501'in 'mühürsüz konumlar kirli' ölçümüyle uyumlu (aday 508)."
+  },
+  {
+   "bag": "24:36-45 kafiye kuşağı",
+   "kural": "L1",
+   "not": "Sûrenin azınlık kafiye sınıfları tek bitişik kuşakta: 24:36 (ل, sûrenin tek ل'si) · 37 (R) · 38 (ب) · 39 (ب) · 40 (R) · 41 (N ama kırık) · 42-45 (R ×4). 24:46'da N'ye dönülüyor. Kuşak Nûr âyetinin hemen ardından açılıyor (aday 509)."
+  },
+  {
+   "bag": "24:27-29 ↔ 24:36",
+   "kural": "L1",
+   "not": "بيت *(ev, mesken)* kökü sûrenin en zengin kökü (×11,21): 24:27-29'da girme âdâbının konusu, 24:36'da tesbih yeri. Yasak konusundan ibadet mekânına."
+  },
+  {
+   "bag": "21:73 ↔ 24:37",
+   "kural": "L1",
+   "not": "إقام *(ikame)* + صلاة *(namaz)* + إيتاء *(verme)* + زكاة *(zekât)* dörtlüsü birebir aynı. NOT: 23:4'te aynı zekât kökü olağandışı biçimde فعل *(yapma)* ile eşleşmişti (aday 471); burada olağan kalıp dönüyor."
+  },
+  {
+   "bag": "24:11 ↔ 24:15 ↔ 24:38 ↔ 24:39",
+   "kural": "L1",
+   "not": "حسب *(hesap, sayma)* kökü dört ayette iki ayrı işlevde: 24:11 ve 24:15'te 'sanmak', 24:38'de 'hesap' (بِغَيْرِ حِسَابٍ *(hesapsız)*), 24:39'da ÜÇ KEZ ve ikisi 'hesap' biri 'sanmak' — yanılgının yerini ölçü alıyor."
+  },
+  {
+   "bag": "24:36 ↔ 24:41",
+   "kural": "L1",
+   "not": "Ortak kök سبح *(tesbih, tenzih)*: 24:36'da belirli evlerdeki adamlar, 24:41'de göklerde ve yerde olan herkes ve kuşlar. Kapsam evden kozmosa açılıyor."
+  },
+  {
+   "bag": "24:18 ↔ 24:42",
+   "kural": "L1",
+   "not": "Aynı allah z=5,18, aynı n=7, aynı iki lafız. Ayrışma: 24:18 م fâsılalı (N sınıfı) ve esmâ MÜHÜRLÜ; 24:42 ر fâsılalı (R kuşağı), esmâsız, FİİLSİZ ve şahıs eki yok (aday 511)."
+  },
+  {
+   "bag": "24:40 ↔ 24:43",
+   "kural": "L1",
+   "not": "Ortak kök سحب *(bulut; sürükleme)*: 24:40'ta karanlık zincirinin son katmanı, 24:43'te meteorolojik sürecin ilk öğesi. Karanlık meselinin bittiği yerden bu ayet başlıyor."
+  },
+  {
+   "bag": "24:37 ↔ 24:44",
+   "kural": "L1",
+   "not": "قلب *(çevirme; kalp)* kökü iki ölçekte: 24:37 bab V dönüşlü, özne kalpler, fâilsiz; 24:44 bab II ettirgen, nesne gece-gündüz, fâil lafız (aday 513)."
+  },
+  {
+   "bag": "24:43 ↔ 24:44 (fâsıla)",
+   "kural": "L2",
+   "not": "Aynı fâsıla kelimesi ٱلْأَبْصَٰرِ *(gözler)* iki ardışık ayette; 24:37 de aynı kelimeyle bitiyor (merfû). Üç ayette üç kez بصر *(görme)*, üçü de fâsılada — kafiye kuşağıyla (aday 509) ilişkisi ayrıştırılmalı."
+  },
+  {
+   "bag": "23:12-14 ↔ 24:45",
+   "kural": "L1",
+   "not": "خلق *(yaratma)* kökünün iki ölçeği: 23:12-14 tek türün aşamalarını sayıyor (nutfe → alaka → çiğnem et → kemik → et), 24:45 bütün türlerin ortak maddesini (su) ve üç hareket sınıfını (karın · iki ayak · dört ayak) veriyor."
+  },
+  {
+   "bag": "24:35 ↔ 24:43 ↔ 24:45 (mercek)",
+   "kural": "L1",
+   "not": "Sûre 24'te uzman merceği için çıpa taşıyan üç ayet. Yalnız 24:35 ★★★ ve mercek yazıldı; 24:43 (meteoroloji) ★★ ve 24:45 (biyoloji) ★ — ikisi de eşiğin altında. Çıpa ile yıldız ters yönde ayrışıyor (aday 512, 468'in en temiz vakası)."
+  },
+  {
+   "bag": "24:34 ↔ 24:46",
+   "kural": "L1",
+   "not": "Aynı biçim: أَنزَلْنَآ ءَايَٰتٍ مُّبَيِّنَٰتٍ *(açıklayıcı âyetler indirdik)*. Kafiye kuşağı (24:36-45) iki ucundan bu üçlüyle çevreleniyor — 24:34 hemen önce, 24:46 kapanışta (adaylar 507, 509)."
+  },
+  {
+   "bag": "24:47 ↔ 24:48",
+   "kural": "L1",
+   "not": "Ferîk çifti: aynı adsız aktör, aynı hareket (yüz çevirme) iki ayrı kökle — ولي *(velâyet)* bab V / عرض *(yüz çevirme)* (aday 514)."
+  },
+  {
+   "bag": "24:48 ↔ 24:51",
+   "kural": "L1",
+   "not": "Aynalı çağrı kalıbı: إِذَا دُعُوٓا۟ إِلَى ٱللَّهِ وَرَسُولِهِۦ لِيَحْكُمَ بَيْنَهُمْ sekiz kelime birebir; sonuç ters — مُّعْرِضُونَ *(yüz çevirenler)* / سَمِعْنَا وَأَطَعْنَا *(işittik ve itaat ettik)* (aday 514)."
+  },
+  {
+   "bag": "24:47 ↔ 24:51 (alıntı)",
+   "kural": "L1",
+   "not": "İki alıntı aynı fiili paylaşıyor: ءَامَنَّا … وَأَطَعْنَا *(inandık … itaat ettik)* reddediliyor, سَمِعْنَا وَأَطَعْنَا *(işittik ve itaat ettik)* onaylanıyor. Fark birinci fiilde: iman → işitme."
+  },
+  {
+   "bag": "24:49 ↔ 24:50 (hapaks)",
+   "kural": "L1",
+   "not": "Ardışık iki hapaks: ذعن *(boyun eğerek koşma)* ve حيف *(haksızlık)*; ikisi de z=3,38 ile ★★★; حيف'in Allah medyan mesafesi 1."
+  },
+  {
+   "bag": "23:102/23:111 ↔ 24:51/24:52",
+   "kural": "L1",
+   "not": "Kurtuluş çifti iki sûrede aynı sırada: ٱلْمُفْلِحُونَ *(kurtuluşa erenler)* sonra ٱلْفَآئِزُونَ *(kazananlar)*, ikisi de فَأُو۟لَٰٓئِكَ هُمُ kalıbıyla. Ara 9 → 0 (aday 515)."
+  },
+  {
+   "bag": "23:57-61 ↔ 24:52",
+   "kural": "L2",
+   "not": "خشي *(haşyet)* ve وقي *(takvâ)* çifti: sûre 23'ün ikinci sıfat zincirinde Rab'be bağlı, 24:52'de lafza bağlı — sûre 24'ün Rab-sızlığı (aday 498) bu çiftte de görünüyor."
+  },
+  {
+   "bag": "24:47 ↔ 24:53",
+   "kural": "L1",
+   "not": "Aynı yapı: söz verilip yüz çevrilmesi (24:47) / yemin edilip yeminin reddedilmesi (24:53). İkisinde de itaat sözü (وَأَطَعْنَا / طَاعَةٌ مَّعْرُوفَةٌ) ve ikisinde de karşı hüküm."
+  },
+  {
+   "bag": "24:53 ↔ 24:54 ↔ 24:56",
+   "kural": "L1",
+   "not": "طوع *(güç yetirme, itaat)* kökü üç ardışık ayette beş kez: nitelik (24:53, isim) → eylem (24:54 ×3, 24:56). Nesne ağırlıkla Elçi (aday 516)."
+  },
+  {
+   "bag": "24:37 ↔ 24:56",
+   "kural": "L1",
+   "not": "Aynı ibadet çifti: إِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ masdar (24:37) / أَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ emir (24:56)."
+  },
+  {
+   "bag": "24:4 ↔ 24:55",
+   "kural": "L2",
+   "not": "Aynı fâsıla ٱلْفَٰسِقُونَ *(fâsıklar)*: 24:4'te tanıklığı reddedilenler, 24:55'te vaatten sonra inkâr edenler."
+  },
+  {
+   "bag": "24:42 ↔ 24:57",
+   "kural": "L1",
+   "not": "Aynı fâsıla kelimesi ٱلْمَصِيرُ *(varış)*, iki yön: إِلَى ٱللَّهِ / ٱلنَّارُ. İkisi de R sınıfı; 24:42 kuşakta, 24:57 tek başına ve kırık işaretli (aday 518)."
+  },
+  {
+   "bag": "24:58 ↔ 24:59",
+   "kural": "L1",
+   "not": "Bitişik ikiz kapanış: son yedi kelime birebir, tek fark ٱلْءَايَٰتِ → ءَايَٰتِهِ. Ardışık aynı mühür عَلِيم|حَكِيم. Eşik حلم *(ergenlik)* ilkinde olumsuz, ikincide olumlu (aday 519)."
+  },
+  {
+   "bag": "24:31 ↔ 24:58",
+   "kural": "L2",
+   "not": "عور *(mahrem yer, avret; gedik)* iki ölçekte: 24:31'de beden (عَوْرَٰتِ ٱلنِّسَآءِ), 24:58'de zaman (ثَلَٰثُ عَوْرَٰتٍ)."
+  },
+  {
+   "bag": "24:31 ↔ 24:60",
+   "kural": "L1",
+   "not": "زين *(süsleme)* kökü kural ve istisnada: 24:31 gizlenecek şey (yasak), 24:60 gösterilmeyecek şey (muafiyet koşulu). Aynı kelime, ters işaretli iki koşul (aday 520)."
+  },
+  {
+   "bag": "24:21 ↔ 24:60",
+   "kural": "L2",
+   "not": "Aynı mühür سَمِيع|عَلِيم: sûrenin on iki mühründen üçüncüsü ve on ikincisi (sonuncusu)."
+  },
+  {
+   "bag": "24:29 ↔ 24:58 ↔ 24:60 ↔ 24:61",
+   "kural": "L1",
+   "not": "لَيْسَ … جُنَاحٌ *(vebal yok)* muafiyet kalıbı sûrede dört kez."
+  },
+  {
+   "bag": "24:27 ↔ 24:61",
+   "kural": "L1",
+   "not": "Ev bölümünün halkası: 24:27 girme yasağı + selâm emri (ev halkına), 24:61 muafiyet + selâm emri (kendinize). Ortak kökler دخل *(girme)* · بيت *(ev, mesken)* · سلم *(esenlik)* (aday 521)."
+  },
+  {
+   "bag": "24:47 ↔ 24:62",
+   "kural": "L1",
+   "not": "Mü'min tanımı: 24:47'de 'inandık' diyenler mü'min sayılmıyor (وَمَآ أُو۟لَٰٓئِكَ بِٱلْمُؤْمِنِينَ), 24:62'de tanım HASR ile bir davranışa bağlanıyor (إِنَّمَا ٱلْمُؤْمِنُونَ … لَّمْ يَذْهَبُوا۟ حَتَّىٰ يَسْتَـْٔذِنُوهُ) (aday 522)."
+  },
+  {
+   "bag": "24:27-29 ↔ 24:36 ↔ 24:58-59 ↔ 24:62",
+   "kural": "L1",
+   "not": "أذن *(izin verme; kulak)* zinciri dört bölümde, 14 geçiş: mekâna giriş → mekânın kendisi → ev içi vakit → topluluktan ayrılma. 24:62'de dört geçiş ve dördü de bab X (aday 522)."
+  },
+  {
+   "bag": "23:12 ↔ 24:63",
+   "kural": "L2",
+   "not": "سلل *(süzülüp çıkan öz, sülâle)* kökü iki uçta: 23:12 yaratılış maddesi (isim), 24:63 topluluktan gizlice ayrılma (bab V). Kök korpusta üç geçişli (aday 523)."
+  },
+  {
+   "bag": "24:42 ↔ 24:64",
+   "kural": "L1",
+   "not": "SÛRE HALKASI: ortak terkip لِلَّهِ + ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ; nesne مُلْك *(mülk, sahiplik)* → مَا فِى *(içindekiler, kapsam)*. 24:42 R sınıfı ve ★★★, 24:64 N sınıfı ve ★ yok. Sûre son kelimesi عَلِيم — sûrenin on عَلِيم tokeninin sonuncusu (aday 524)."
+  }
  ]
 }
