@@ -3523,3 +3523,40 @@ uzun ayeti (n=61)** · 27:22-26 hüdhüdün Sebe haberi · **27:23'te `imrae`
 adsız aktörü — DENETLENECEK** (önceki hata oranı %67) · **27:25 ★★★** ve hapaks
 `خبأ` · 27:26 ★★ · **27:30'da besmele** (`بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ
 ٱلرَّحِيمِ`) ve `رَحْمٰن|رَحِيم` mührü.
+
+
+### DEPO DENETİMİ — 2026-09-09, YÜKLEME SONRASI
+
+**Depo klonlandı ve denetimler koşuldu. Bir hata bulundu ve onarıldı.**
+
+## ★★★ SÜREÇ HATASI: BLOK BETİKLERİ OTURUM BOYUNCA DENETLENMEMİŞ
+
+`anahtar_denetim.py` **yalnız `betikler/` dizinini tarıyor**. Oturum boyunca blok
+betiklerini düz çalışma dizininde (`/home/claude/duz/`) yazdım ve `betikler/`
+içine hiç kopyalamadım. **Sonuç: bu oturumda üretilen yirmi iki blok betiği
+oturum boyunca hiç denetlenmedi.** Oturum içi "diff = 0" raporları bu betikleri
+kapsamıyordu.
+
+Betikler depoya yüklendikten sonra koşulan denetim **21910 anahtar / 59 ihlâl**
+verdi — taban 58. **Yirmi iki betikte tek bir yeni ihlâl:**
+
+```
+── betikler/blok_26_151_160.py (1)
+   ✗ sat.158 نَاقَة   T2 YAZIM → korpustaki hâli: ناقَة
+```
+
+26:157'nin mercek satırında `نَاقَة` yazmıştım (nûn üzerinde fazladan fetha);
+korpus lemma biçimi `ناقَة`. **Onarıldı** — betik, `okuma_metni.json` ve
+`mercek_kayit.json` üçünde de.
+
+**Onarım sonrası: 21910 anahtar / 58 ihlâl · taban ile diff = 0 ·
+`turkce_denetim.py` → 0.**
+
+## ÖNLEM (yeni, ölçülebilir)
+
+**Blok betiği yazıldıktan sonra `betikler/` içine kopyalanacak ve
+`anahtar_denetim.py` ORADAN koşulacak.** Aksi hâlde denetim betiği görmez.
+
+Bu, aday 785/796'nın "ölçüm aracının kapsamı denetlenmeli" dersinin araç tarafı:
+**bir denetimin ne taradığı, sonucundan önce bilinmeli.** Oturum boyunca
+"diff = 0" gördüm ama denetim yeni yazdığım dosyaların hiçbirine bakmıyordu.
