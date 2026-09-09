@@ -1,49 +1,33 @@
-# Depo güncellemesi — 2026-08-26 oturumu
+# PAKET İÇERİĞİ — oturum 2026-09-04 (son)
 
-Bu klasördeki dosyalar depodaki **aynı yollara** kopyalanır (üzerine yazılır).
-Klasör yapısı depoyla birebir aynıdır.
+Bu zip, depo köküne (`claude_kuran_okuma/`) **olduğu gibi açılacak**; dizin
+yapısı depoyla birebir aynıdır ve yalnız bu oturumda **değişen** dosyalar vardır.
 
-    cp -r depo_guncelleme/* /depo/yolunuz/
+```
+notlar/
+  okuma_metni.json              ← 1969 ayet (sûre 26 tam + sûre 27 1-20)
+  mercek_kayit.json             ← mercek ve atlama kayıtları
+  okuma_baglantilari.json       ← AF_suara 192 · AG_neml 19 (yeni öbek)
+  YAPILACAKLAR.md               ← blok ekleri + biçim ihlâli kaydı
+  OTURUM_2026-09-04_KAPANIS.md  ← OTURUM KAPANIŞI (önce bunu oku)
+  OTURUM_2026-09-04_ARA.md      ← oturumun erken bölümünün kapanış notu
+tablolar/
+  kok_turkce.json               ← 1017 kök
+bulgular/
+  aday_bulgular.json            ← 799 aday (AH_neml yeni öbek)
+betikler/
+  blok_25_*.py  blok_26_*.py  blok_27_*.py   ← blok üretim betikleri
+  makro27.py                                 ← sûre 27 makro profili
+```
 
-## Değişen 19 dosya
+## Denetim durumu (paketleme anında)
 
-### Okuma kaydı (bunlar oturumun asıl çıktısı)
-- `notlar/okuma_metni.json` — sûre 20 TAM (135 ayet) + sûre 21 makro ve 1-20.
-  **154 dikey satırı yeniden üretildi** (komşuluk zenginleşmesi geri geldi).
-- `notlar/mercek_kayit.json` — sûre 20: 135 mercek + biyolog 13 + uzay 15 ·
-  sûre 21: 20 mercek + biyolog 3 + uzay 5
-- `notlar/okuma_baglantilari.json` — `Z_taha` 68 bağ · `AA_enbiya` 9 bağ
-- `bulgular/aday_bulgular.json` — 415 → **437** aday
+```
+python3 turkce_denetim.py                     → 0 ihlâl   (1017 kök)
+PYTHONHASHSEED=0 python3 anahtar_denetim.py   → 58 ihlâl · taban ile diff = 0
+                                                 (21686 anahtar tarandı)
+```
 
-### Tablo
-- `tablolar/kok_turkce.json` — **314 → 720** kök karşılığı
+## Devam noktası
 
-### Betik
-- `betikler/turkce_denetim.py` — alan kapsamı genişletildi:
-  `olcum`, `mercek`, **`dikey`, `derin`, `derin2`**
-
-### Standart ve borçlar
-- `notlar/OKUMA_STANDARDI.md` — dört yeni kural bölümü
-- `notlar/YAPILACAKLAR.md` — 435 P0'ın başına alındı
-- `notlar/OTURUM_2026-08-26_KAPANIS.md` — YENİ, açılış promptu bunu okuyor
-
-### Yeni ölçüm dosyaları
-- `notlar/derin_bakis_gorme_soyleme.json` — YENİ
-- `ciktilar/allah_hizalama.html` — YENİ, görselleştirme
-- `ciktilar/anahtar_denetim_raporu_tohum0.txt` — YENİ, sabit tohumlu taban
-
-### Geçerlilik uyarısı düşülen ESKİ bulgu dosyaları (7)
-İçerik silinmedi, yalnız `GECERLILIK_UYARISI_2026_08_26` alanı eklendi:
-`bulgu_allah_gradyan` · `bulgu_allah_ekseni_dikey` · `bulgu_gradyan_cetveli` ·
-`bulgu_karsi_kutup_mesafe` · `bulgu_zikir_ekseni` · `bulgu_hudud_ekseni` ·
-`bulgu_kevser_koridoru`
-
-## DEĞİŞMEYENLER
-`veri/` · `ciktilar/defter.json` (boru hattından üretilir) · diğer `betikler/` ·
-diğer `tablolar/` · diğer `bulgular/`
-
-## Kopyaladıktan sonra doğrulama
-
-    cd betikler && python3 turkce_denetim.py          # 0 dönmeli
-    PYTHONHASHSEED=0 python3 anahtar_denetim.py        # 58, taban ile aynı
-
+**Sûre 27, ayet 21.**
