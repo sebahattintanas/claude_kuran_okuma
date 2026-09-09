@@ -155,7 +155,7 @@ M = {
 157: ("Üç kelime ve üç fiil-adı: فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ *(onu boğazladılar, sonra "
  "pişman oldular)*. عقر *(deve boğazlama; kısırlık)* korpusta 9 geçişli ve dikey ölçümü ▸önce نوق "
  "*(dişi deve, nâka)* x113,1 veriyor — **çift korpusta neredeyse ayrılmaz**, iki ayet önceki "
- "نَاقَة'nın komşuluğu. Ve صبح *(sabah; sabaha çıkma)* burada 'olmak, hâle gelmek' anlamında; kök "
+ "ناقَة'nın komşuluğu. Ve صبح *(sabah; sabaha çıkma)* burada 'olmak, hâle gelmek' anlamında; kök "
  "korpusta 46 geçişli ve ağırlıkla 'sabah' vakti anlamında — 529 sınıfı, sûre 26'nın on dördüncü "
  "vakası. ندم *(pişmanlık)* korpusta 6 geçişli ve sûrede tek geçiş."),
 158: ("**Aday 707'nin ikinci sınama vakası.** Ayet sûrenin birinci nakaratını **içeriyor** ama "
