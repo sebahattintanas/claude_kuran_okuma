@@ -9518,5 +9518,1546 @@
    "kural": "L1",
    "not": "SÛRE HALKASI: ortak terkip لِلَّهِ + ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ; nesne مُلْك *(mülk, sahiplik)* → مَا فِى *(içindekiler, kapsam)*. 24:42 R sınıfı ve ★★★, 24:64 N sınıfı ve ★ yok. Sûre son kelimesi عَلِيم — sûrenin on عَلِيم tokeninin sonuncusu (aday 524)."
   }
+ ],
+ "AE_furkan": [
+  {
+   "bag": "25:1 ↔ 25:10",
+   "kural": "L1",
+   "not": "Blok halkası: aynı fiil تَبَارَكَ *(ne yücedir)*, برك *(bereket)* kökü bab VI PERF, ikisinde de hemen ardından ٱلَّذِى *(o ki)*. 25:61'de üçüncü geçiş (aday 528)."
+  },
+  {
+   "bag": "25:1 ↔ 25:6",
+   "kural": "L1",
+   "not": "Aynı özne (ٱلَّذِى *(o ki)*), aynı nesne (Furkān/o), نزل *(inme, indirme)* kökü bab değiştiriyor: نَزَّلَ bab II → أَنزَلَهُ bab IV (aday 534)."
+  },
+  {
+   "bag": "25:2 ↔ 25:3",
+   "kural": "L1",
+   "not": "Karşıt çift: ملك *(mülk; melik)* ve خلق *(yaratma)* 25:2'de olumlu ve tek özneye, 25:3'te olumsuz, çoğul özneye ve biri edilgen (يُخْلَقُونَ). NEG 2 → 6 (aday 532)."
+  },
+  {
+   "bag": "25:4 · 25:5 · 25:7 · 25:8 ↔ 25:6",
+   "kural": "L1",
+   "not": "İtiraz zinciri dört ayette قول *(söz söyleme)* köküyle açılıyor; araya giren tek cevap 25:6 ve o da aynı kökle, ama IMPV: قُلْ *(de ki)*. SÛRE SONUNDA TAM SAYIM ŞART (aday 533)."
+  },
+  {
+   "bag": "25:7 ↔ 25:20",
+   "kural": "L1",
+   "not": "Bölüt ikizi, itiraz → cevap: يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى ٱلْأَسْوَاقِ tekil ve INTG, 25:20'de çoğul, te'kid lâmlı ve HASR. 25:20 henüz okunmadı (aday 535)."
+  },
+  {
+   "bag": "25:8 ↔ 25:10",
+   "kural": "L1",
+   "not": "İstek listesi ve karşılığı: كَنز *(hazine)* ve جَنَّة *(bahçe)* nekre tekil isteniyor; 25:10'da جَنَّٰت *(bahçeler)* ve قُصُور *(köşkler)* çoğul veriliyor. Ölçülebilir ortak kök yalnız جنن *(örtme, gizleme; cennet; cin)* (aday 536)."
+  },
+  {
+   "bag": "25:8-9 ↔ 17:47-48",
+   "kural": "L1",
+   "not": "ARDIŞIK BÖLÜT İKİZİ. 25:8'in son yedi kelimesi 17:47'nin son yedi kelimesiyle birebir (bağlaç ve kip farklı: وَقَالَ PERF / إِذْ يَقُولُ IMPF); 25:9 ile 17:48 TAM AYET ÖZDEŞ, tek fark imlâ (ٱلْأَمْثَٰلَ / ٱلْأَمْثَالَ). defter.json esit alanı BOŞ — ölçü tanımı eksiği (aday 530)."
+  },
+  {
+   "bag": "25:2 ↔ 17:111",
+   "kural": "L2",
+   "not": "xref: üç ayrı lemma 3-gramı (اتّخذ ولد كان · ولد كان شريك · كان شريك ملك) tek ayete düşüyor. Ortak yapı iki olumsuzlama: çocuk ve ortak."
+  },
+  {
+   "bag": "25:6 ↔ 4:23 · 4:106 · 4:129 · 33:24",
+   "kural": "L2",
+   "not": "xref: كان غفور رحيم *(bağışlayan ve merhamet eden oldu)* — sûre 25'in iki mühüründen ilki, dört Medenî ayete bağlanıyor."
+  },
+  {
+   "bag": "25:3 ↔ 10:49",
+   "kural": "L2",
+   "not": "xref: ملكت نفس ضرّ · نفس ضرّ نفع — zarar/fayda çifti; 25:3'te sahte ilâhlar için olumsuz, 10:49'da elçi için."
+  },
+  {
+   "bag": "25:13 ↔ 25:14",
+   "kural": "L1",
+   "not": "Bitişik çift: ortak kökler دعو *(çağırma, dua)* ve ثبر *(helâk, sabûr)*; 25:13 anlatı (3MP, PERF), 25:14 hitap (2MP, PRO+IMPV) ve ikisi de ikileme. Sûrenin ilk iltifâtı bu geçişte, yön 3>2 (aday 539)."
+  },
+  {
+   "bag": "25:12 ↔ 25:13",
+   "kural": "L1",
+   "not": "مَكَان *(mekân, yer)* iki bitişik ayette, sıfat değişiyor: بَعِيد *(uzak)* → ضَيِّق *(dar)*. Kök كون *(olmak; mekân, yer)* (aday 539 kümesi)."
+  },
+  {
+   "bag": "25:10 ↔ 25:15",
+   "kural": "L1",
+   "not": "جنن *(örtme, gizleme; cennet; cin)* iki dünyada: 25:10 çoğul, nekre, şarta bağlı, muhatap tekil; 25:15 tekil, marife tamlama (جَنَّةُ ٱلْخُلْدِ *(ebedîlik bahçesi)*), vaade bağlı (aday 540)."
+  },
+  {
+   "bag": "25:15 ↔ 25:16",
+   "kural": "L1",
+   "not": "وعد *(vaat)* kökü edilgen fiilden (وُعِدَ, fâil adsız) isme (وَعْد, fâil رَبّ *(Rab)*) geçiyor. Sûrenin ilk Rab'bi 25:16'da (aday 541)."
+  },
+  {
+   "bag": "25:9 ↔ 25:17",
+   "kural": "L1",
+   "not": "Ortak kökler ضلل *(sapma, saptırma)* ve سبل *(yol)*. 25:9'da sapanlar yol bulamıyor (geçişsiz), 25:17'de sapmanın faili soruluyor (أَضْلَلْتُمْ geçişli / ضَلُّوا۟ geçişsiz, aynı ayette) (aday 542)."
+  },
+  {
+   "bag": "25:3 ↔ 25:18",
+   "kural": "L1",
+   "not": "Aynı terkip ters işaretle: أخذ *(alma, edinme)* bab VIII + دون *(beriki, başkası)* + nekre çoğul nesne. 25:3 anlatıcı ve olumlu (ءَالِهَة *(ilâhlar)* edinildi); 25:18 tapılanların sözü ve olumsuz (أَوْلِيَآء *(veliler)* edinmek yakışmazdı), zamir دُونِهِ → دُونِكَ (aday 543)."
+  },
+  {
+   "bag": "25:11 ↔ 25:19",
+   "kural": "L1",
+   "not": "كذب *(yalan; yalanlama)* bab II'de rol takası: 25:11'de fâil inkârcılar / mef'ûl ٱلسَّاعَة *(o saat)*; 25:19'da fâil tapılanlar / mef'ûl muhatap (كَذَّبُوكُم *(sizi yalanladılar)*). Sûrede kök dört geçişli, 25:77 okunmadı (aday 544)."
+  },
+  {
+   "bag": "25:7 ↔ 25:20",
+   "kural": "L1",
+   "not": "KAPANDI — ön-kayıt tuttu (aday 545). Dört farklılaşan öğenin dördü doğrulandı: şahıs 3MS→3MP · te'kid yok→EMPH لَ · biçim INTG+DIKKAT→HASR · kapsam tekil elçi→ٱلْمُرْسَلِينَ *(gönderilen elçiler)*, artı مِن قَبْلِكَ *(senden önce)* eklenmiş."
+  },
+  {
+   "bag": "25:18 ↔ 5:116",
+   "kural": "L2",
+   "not": "xref: قال *(dedi)* + سبحان *(tenzih)* + كان *(oldu)* — ikisinde de tapılan varlık tenzih formülüyle kendini ayırıyor."
+  },
+  {
+   "bag": "25:18 ↔ 48:12",
+   "kural": "L2",
+   "not": "xref: كان *(oldu)* + قوم *(kavim)* + بور *(helâk)* — قَوْمًۢا بُورًۭا *(helâke uğramış topluluk)* donmuş kalıbı; بور korpusta beş geçişli."
+  },
+  {
+   "bag": "25:19 ↔ 22:25",
+   "kural": "L2",
+   "not": "xref: ظلم *(zulüm)* + أذاق *(tattırdı)* + عذاب *(azap)* — şart-cevap yapısı ikisinde de aynı."
+  },
+  {
+   "bag": "25:7 → 25:21 → 25:22 · 25:25",
+   "kural": "L1",
+   "not": "Melek isteğinin tırmanması ve karşılanması: 25:7 tekil nekre مَلَك *(melek)*, bab IV → 25:21 çoğul marife ٱلْمَلَٰٓئِكَة *(melekler)* + ikinci istek نَرَىٰ رَبَّنَا *(Rabbimizi görsek)* → 25:22 görme karşılanıyor ama لَا بُشْرَىٰ *(müjde yok)* → 25:25 iniş karşılanıyor, bab II ve mef'ûl-i mutlakla pekiştirilmiş (aday 547)."
+  },
+  {
+   "bag": "25:15 ↔ 25:24",
+   "kural": "L1",
+   "not": "Soru ve cevabı aynı kökle: 25:15 أَذَٰلِكَ خَيْرٌ *(bu mu hayırlı)* INTG, 25:24 خَيْرٌۭ مُّسْتَقَرًّۭا *(kalınacak yer bakımından daha hayırlı)* haber. Ortak kökler خير *(hayır, daha iyi)* ve جنن *(örtme, gizleme; cennet; cin)*. 25:24 okunan ayetler içinde FİİLSİZ tek ayet (aday 548)."
+  },
+  {
+   "bag": "25:2 ↔ 25:26",
+   "kural": "L1",
+   "not": "Mülkün sahibi adlandırılıyor ama Allah lafzıyla değil: 25:2'de ملك *(mülk; melik)* göndergesiz ٱلَّذِى *(o ki)*'ye ait, 25:26'da لِلرَّحْمَٰنِ *(Rahmân'a)*. Sûrenin ilk رَحْمٰن *(rahmân)*'ı; esmâ mı özel ad mı sorusu açık (aday 549, 546 kümesi)."
+  },
+  {
+   "bag": "25:9 · 25:17 · 25:27",
+   "kural": "L1",
+   "not": "سبل *(yol)* üç geçiş üç kip: bulunamayan yol (olumsuz haber, 25:9) · kaybedilen yol (soru, 25:17, sûrenin tek kafiye kırılması) · tutulmamış yol (temenni, 25:27). Üçü de fâsıla konumunda — karıştırıcı (aday 550)."
+  },
+  {
+   "bag": "25:27 · 25:28 · 25:30",
+   "kural": "L1",
+   "not": "أخذ *(alma, edinme)* bab VIII üç ardışık ayette: olumlu temenni (yol) → olumsuz temenni (dost) → gerçekleşmiş (Kur'ân). Sûrede aynı bab 25:3 ve 25:18'de de var (aday 551)."
+  },
+  {
+   "bag": "25:17 → 25:18 · 25:29",
+   "kural": "L1",
+   "not": "Soru → iki cevap. 25:17 çatı sorusunu soruyor (أَضْلَلْتُمْ *(siz mi saptırdınız)* / ضَلُّوا۟ *(kendileri mi saptı)*); 25:18 dolaylı sebep veriyor (مَتَّعْتَهُمْ *(nimetlendirdin)* → نَسُوا۟ ٱلذِّكْرَ *(zikri unuttular)*), 25:29 doğrudan fâil veriyor (أَضَلَّنِى *(beni saptırdı)*, fâil شَيْطان *(şeytan)*). Ortak nesne ٱلذِّكْر *(zikir)* (aday 552)."
+  },
+  {
+   "bag": "25:23 ↔ 25:24",
+   "kural": "L1",
+   "not": "Bitişik karşıtlık: 25:23 bir yok oluş fiiliyle bitiyor (جَعَلْنَٰهُ هَبَآءًۭ مَّنثُورًا *(onu savrulmuş toz kıldık)*), 25:24 fiilsiz bir yerleşme cümlesi (yedi kelimenin yedisi isim)."
+  },
+  {
+   "bag": "25:21 ↔ 10:15",
+   "kural": "L2",
+   "not": "xref: قال *(dedi)* + يرجوا۟ *(ummuyorlar)* + لقاء *(kavuşma)* — 'bize kavuşmayı ummayanlar' kalıbı."
+  },
+  {
+   "bag": "25:24 ↔ 36:55",
+   "kural": "L2",
+   "not": "xref: أصحاب *(ehli)* + جنّة *(cennet)* + يوم *(gün)* — ikisinde de cennet ehlinin o günkü hâli."
+  },
+  {
+   "bag": "25:29 ↔ 34:32",
+   "kural": "L2",
+   "not": "xref: بعد *(sonra)* + جاء *(geldi)* + كان *(oldu)* — ikisinde de sorumluluk devri sahnesi."
+  },
+  {
+   "bag": "25:9 · 25:33 · 25:39",
+   "kural": "L1",
+   "not": "مثل *(benzer, mesel)* üçlüsü: 25:9 ضَرَبُوا۟ لَكَ ٱلْأَمْثَٰلَ *(sana misaller getirdiler)*, 25:33 يَأْتُونَكَ بِمَثَلٍ *(sana mesel getirirler)* + HASR'lı cevap, 25:39 ضَرَبْنَا لَهُ ٱلْأَمْثَٰلَ *(ona misaller getirdik)*. 25:9 ↔ 25:39 aynı fiille ve fâil-mef'ûl tam ters (aday 557)."
+  },
+  {
+   "bag": "25:32 · 25:36 · 25:39",
+   "kural": "L1",
+   "not": "Fiil + mef'ûl-i mutlak üç kez, üçü de bab II, üçü de 1P, üçü de fâsıla: رَتَّلْنَٰهُ تَرْتِيلًۭا · دَمَّرْنَٰهُمْ تَدْمِيرًۭا · تَبَّرْنَا تَتْبِيرًۭا (aday 559)."
+  },
+  {
+   "bag": "25:24 ↔ 25:34",
+   "kural": "L1",
+   "not": "Aynı kalıp, ters kutup: 25:24 خَيْرٌۭ مُّسْتَقَرًّۭا وَأَحْسَنُ مَقِيلًۭا *(kalınacak yer bakımından daha hayırlı, dinlenilecek yer bakımından daha güzel)*, 25:34 شَرٌّۭ مَّكَانًۭا وَأَضَلُّ سَبِيلًۭا *(yerce daha kötü, yolca daha sapkın)*. İkisi de iki temyizli üstünlük sıfatı; 25:24 tam fiilsiz, 25:34'ün tek fiili edilgen."
+  },
+  {
+   "bag": "25:11 ↔ 25:40",
+   "kural": "L1",
+   "not": "Sûrenin okunan iki IDRAB'ı: بَلْ كَذَّبُوا۟ بِٱلسَّاعَةِ *(hayır, o saati yalanladılar)* ve بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًۭا *(hayır, dirilişi ummuyorlardı)*. İkisi de bir inkâr fiilini düzeltiyor, ikisi de âhiret alanında (aday 560)."
+  },
+  {
+   "bag": "25:3 ↔ 25:40",
+   "kural": "L1",
+   "not": "Fâsıla özdeşliği: نُشُورًۭا *(diriliş)*. 25:3'te sahte ilâhların yetersizlik listesinin son terimi, 25:40'ta inkârın son gerekçesi. esit alanı yakalamıyor (496/530 kümesi)."
+  },
+  {
+   "bag": "25:21 ↔ 25:40",
+   "kural": "L1",
+   "not": "رجو *(umma, bekleme)* iki geçiş: لَا يَرْجُونَ لِقَآءَنَا *(bize kavuşmayı ummayanlar)* ve كَانُوا۟ لَا يَرْجُونَ نُشُورًۭا *(dirilişi ummuyorlardı)*. İkisi de olumsuz, ikisi de âhiret nesnesiyle."
+  },
+  {
+   "bag": "25:25 ↔ 25:32",
+   "kural": "L1",
+   "not": "Aynı fiil نُزِّلَ *(indirildi)*, نزل *(inme, indirme)* bab II: 25:25'te melekler, 25:32'de Kur'ân. 25:30'da mef'ûl olan قُرْءان *(Kur'ân)* 25:32'de fâil oluyor."
+  },
+  {
+   "bag": "25:11 ↔ 25:37",
+   "kural": "L1",
+   "not": "عتد *(hazırlama)* iki geçiş, aynı fiil farklı nesne: سَعِيرًا *(çılgın alev)* ve عَذَابًا أَلِيمًۭا *(acı bir azap)*; ikisi de fâsıla konumunda."
+  },
+  {
+   "bag": "25:31 ↔ 6:112",
+   "kural": "L2",
+   "not": "xref: iki ayrı 3-gram (جعل *(kıldı)* + كلّ *(her)* + نبيّ *(nebî)* ve كلّ + نبيّ + عدوّ *(düşman)*) tek ayete. Her peygambere düşman atanması formülü."
+  },
+  {
+   "bag": "25:35 ↔ 17:2 · 19:30",
+   "kural": "L2",
+   "not": "xref: آتى *(verdi)* + كتاب *(kitap)* + جعل *(kıldı)* — kitap verme ve bir şey kılma sahnesi."
+  },
+  {
+   "bag": "25:37 ↔ 14:22 · 42:21",
+   "kural": "L2",
+   "not": "xref: ظالم *(zalim)* + عذاب *(azap)* + أليم *(acı veren)* — zalimler için acı azap kalıbı."
+  },
+  {
+   "bag": "25:34 ↔ 5:60",
+   "kural": "L2",
+   "not": "xref: شرّ *(şer)* + مكان *(mekân)* + أضلّ *(daha sapkın)* — iki temyizli üstünlük kalıbı."
+  },
+  {
+   "bag": "25:7 ↔ 25:41",
+   "kural": "L1",
+   "not": "Aynı itiraz iki biçimde: 25:7'de رَسُول marife ve işaretli, lafız yok; 25:41'de nekre temyiz ve **Allah lafzı itiraz edenlerin ağzında** (aday 562)."
+  },
+  {
+   "bag": "25:3 · 25:18 · 25:42 · 25:43",
+   "kural": "L1",
+   "not": "أله *(ilâh)* sahte-ilâh geçişleri, üç konuşan: anlatıcı çoğul nekre (25:3), tapılanlar reddediyor (25:18), tapanlar iyelikle sahipleniyor ءَالِهَتِنَا *(ilâhlarımız)* (25:42), ve hevâ ilâh ediniliyor (25:43) (aday 563)."
+  },
+  {
+   "bag": "25:34 · 25:42 · 25:44",
+   "kural": "L1",
+   "not": "أَضَلُّ سَبِيلا *(yolca daha sapkın)* üç kez, üçü de fâsıla, üçü de aynı iki kelime; değişen yalnız özne yapısı (işaret / soru / IDRAB+zamir). سبل *(yol)* sûrede altı geçiş ve altısı da fâsıla (adaylar 550, 564)."
+  },
+  {
+   "bag": "25:45 ↔ 25:46",
+   "kural": "L1",
+   "not": "Tek cümlenin iki yarısı: gölgenin uzatılması, gerçekleşmemiş alternatif (سَاكِنًۭا *(durgun)*), güneşin gösterge kılınması, gölgenin kademeli çekilmesi. Sûrenin en ayrıntılı süreç tasviri — **yıldızı sıfır** (aday 565)."
+  },
+  {
+   "bag": "25:3 · 25:40 · 25:47",
+   "kural": "L1",
+   "not": "نُشُور *(diriliş, kalkış)* üç katmanda ve üçü de fâsıla: ilâhî güç (25:3), inanç (25:40), doğa (25:47). Fâsıla kısıtı karıştırıcı (aday 566)."
+  },
+  {
+   "bag": "25:3 ↔ 25:49",
+   "kural": "L1",
+   "not": "حيي *(hayat)* + موت *(ölüm)* çifti: 25:3'te sahte ilâhlar bu ikisi üzerinde güçsüz, iki ayrı nesne; 25:49'da ikisi tek eylemde birleşiyor — ölü belde diriltiliyor (aday 568)."
+  },
+  {
+   "bag": "25:19 ↔ 25:50",
+   "kural": "L1",
+   "not": "صرف *(çevirme; türlü türlü açıklama)* iki anlamda: 25:19 'azabı çevirme' (bab I, korpus tabanına aykırı), 25:50 'türlü türlü açıklama' (bab II, taban anlamı). Anlam ayrımı tam bab sınırında (aday 569)."
+  },
+  {
+   "bag": "25:9 · 25:17 · 25:45",
+   "kural": "L1",
+   "not": "Bakma çağrısı üç kez: ٱنظُرْ كَيْفَ *(bak nasıl)* meseller için (25:9), haşir sahnesi (25:17), ve أَلَمْ تَرَ … كَيْفَ *(görmedin mi nasıl)* ilk kez DOĞAYA (25:45) (aday 565)."
+  },
+  {
+   "bag": "25:48 ↔ 7:57 · 27:63",
+   "kural": "L2",
+   "not": "xref: DÖRT 3-gram ve dördü de bu iki ayete. أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِ terkibi korpusta üç ayette neredeyse birebir — donmuş kalıp adayı (adaylar 437, 567)."
+  },
+  {
+   "bag": "25:43 ↔ 45:23",
+   "kural": "L2",
+   "not": "xref: iki 3-gram (رأى *(gördü)* + اتّخذ *(edindi)* + إله *(ilâh)* ve اتّخذ + إله + هواء *(hevâ)*) tek ayete. 'Hevâyı ilâh edinme' korpusta sabit eşleşme."
+  },
+  {
+   "bag": "25:47 ↔ 78:10",
+   "kural": "L2",
+   "not": "xref: جعل *(kıldı)* + ليل *(gece)* + لباس *(giysi)* — gecenin giysi kılınması."
+  },
+  {
+   "bag": "25:49 ↔ 50:11",
+   "kural": "L2",
+   "not": "xref: أحيا *(diriltti)* + بلدة *(belde)* + ميت *(ölü)* — ölü beldenin diriltilmesi."
+  },
+  {
+   "bag": "25:50 ↔ 17:89",
+   "kural": "L2",
+   "not": "xref: iki 3-gram (أبى *(direndi)* + أكثر *(çoğu)* + ناس *(insanlar)* ve أكثر + ناس + كفور *(nankörlük)*). İkisinde de türlü türlü açıklama ve nankörlükte direnme."
+  },
+  {
+   "bag": "25:45 ↔ 25:51",
+   "kural": "L1",
+   "not": "لَوْ + شيأ *(dileme)* gerçekleşmemiş alternatif kalıbı iki fâille: وَلَوْ شَآءَ *(dileseydi)* 3MS (gölge) ve وَلَوْ شِئْنَا *(dileseydik)* 1P (uyarıcı) (aday 571)."
+  },
+  {
+   "bag": "25:22 ↔ 25:53",
+   "kural": "L1",
+   "not": "حِجْرا مَّحْجُورا *(engel, engellenmiş)* terkibi birebir iki kez, ikisi de fâsıla: 25:22'de suçluların SÖZÜ, 25:53'te iki su arasındaki NESNE. Terkip korpusta yalnız bu iki ayette (aday 573)."
+  },
+  {
+   "bag": "25:3 ↔ 25:55",
+   "kural": "L1",
+   "not": "Birebir kök dizisi (دون + أله + نفع + ضرر) iki farkla: gönderge belirliliği (ءَالِهَة / مَا) ve sıralama tersine (zarar-fayda / fayda-zarar). 25:55 sûrede ilk kez lafız ve Rab'bi aynı ayette taşıyor (aday 575)."
+  },
+  {
+   "bag": "25:7 ↔ 25:56",
+   "kural": "L1",
+   "not": "İstek → gönderge kayması: 25:7'de yanında ikinci bir نَذِير *(uyarıcı)* isteniyordu; 25:56'da elçinin KENDİSİ نَذِير olarak tanımlanıyor, HASR ile. Yeni alt sınıf (aday 576)."
+  },
+  {
+   "bag": "25:1 · 25:7 · 25:51 · 25:56",
+   "kural": "L1",
+   "not": "نَذِير *(uyarıcı)* dört geçiş, dördü de fâsıla: kitap → istenen melek → çoğaltılmayan uyarıcı → elçinin kendisi (aday 576)."
+  },
+  {
+   "bag": "25:3 · 25:49 · 25:58",
+   "kural": "L1",
+   "not": "حيي *(hayat)* + موت *(ölüm)* üç karşılaşma, üç yapı: iki ayrı nesne (25:3) → tek eylem (25:49) → tek gönderge, ٱلْحَىِّ ٱلَّذِى لَا يَمُوتُ *(ölmeyen Diri)* (25:58) (aday 577)."
+  },
+  {
+   "bag": "25:26 · 25:59 · 25:60",
+   "kural": "L1",
+   "not": "رَحْمٰن *(rahmân)* dizisi: mülkün sahibi (25:26) → yaratanın adı, merfû ve tek başına (25:59) → **TANINMAYAN AD: وَمَا ٱلرَّحْمَٰنُ** (25:60). Üçüncüsü özel-ad kullanımının doğrudan metin içi kanıtı (adaylar 549, 578)."
+  },
+  {
+   "bag": "25:27 ↔ 25:57",
+   "kural": "L1",
+   "not": "أخذ *(alma, edinme)* bab VIII + سَبِيل *(yol)*: 25:27'de geçmiş temenni (ٱتَّخَذْتُ *(tutsaydım)*), 25:57'de gelecek imkân (يَتَّخِذَ *(tutsun)*). سبل sûrede yedinci geçiş ve yedisi de fâsıla (adaylar 551, 564)."
+  },
+  {
+   "bag": "25:31 ↔ 25:58",
+   "kural": "L1",
+   "not": "كَفَىٰ بِ… + temyiz kalıbı iki kez: 25:31'de İKİ temyiz (هَادِيا · نَصِيرا) ve tablo yalnız fâsıla olanı esmâ sayıyor; 25:58'de tek temyiz (خَبِيرا) ve sayılıyor. Aday 555'in konum-yanlılığı savıyla uyumlu."
+  },
+  {
+   "bag": "25:2 ↔ 25:26 ↔ 25:59",
+   "kural": "L1",
+   "not": "Yaratma/mülk halkası üç aşamada: 25:2 göndergesiz ٱلَّذِى *(o ki)*, 25:26 لِلرَّحْمَٰنِ *(Rahmân'a)*, 25:59 yaratma fiili + ٱلرَّحْمَٰنُ adı (aday 549)."
+  },
+  {
+   "bag": "25:53 ↔ 35:12",
+   "kural": "L2",
+   "not": "xref: بحر *(deniz)* + عذب *(tatlı)* + فرات *(fırat)*. İki su kütlesi terkibi; فرت · ملح · أجج üçlüsü korpusta yalnız bu iki ayette."
+  },
+  {
+   "bag": "25:55 ↔ 6:71 · 10:106",
+   "kural": "L2",
+   "not": "xref: ٱللَّه *(Allah)* + نفع *(fayda)* + يضرّ *(zarar verir)* — Allah'ın yanı sıra fayda/zarar veremeyene tapınma kalıbı."
+  },
+  {
+   "bag": "25:56 ↔ 17:105",
+   "kural": "L2",
+   "not": "xref: أرسل *(gönderdi)* + مبشّر *(müjdeci)* + نذير *(uyarıcı)* — elçinin iki işlevle tanımlanması."
+  },
+  {
+   "bag": "25:57 ↔ 73:19 · 76:29",
+   "kural": "L2",
+   "not": "xref: اتّخذ *(edindi)* + ربّ *(Rab)* + سبيل *(yol)* — 'Rabbine bir yol tutsun' kalıbı."
+  },
+  {
+   "bag": "25:58 ↔ 17:17",
+   "kural": "L2",
+   "not": "xref: ذنب *(günah)* + عبد *(kul)* + خبير *(haberdar)* — kulların günahlarından haberdar olma."
+  },
+  {
+   "bag": "25:59 ↔ 32:4 · 50:38",
+   "kural": "L2",
+   "not": "xref: iki 3-gram (أرض *(yer)* + بين *(ara)* + ستّة *(altı)* ve بين + ستّة + يوم *(gün)*). 'Altı gün + istivâ + arş' donmuş dizi adayı; ستت korpusta 8 geçişli ve dikey ölçümü ▸sonra arş ×179,3 (aday 437)."
+  },
+  {
+   "bag": "25:1 · 25:10 · 25:61",
+   "kural": "L1",
+   "not": "**KAPANDI (aday 581):** تَبَارَكَ *(ne yücedir)* üç geçiş, üçü de برك *(bereket)* bab VI PERF ve üçünde de ardından ٱلَّذِى *(o ki)*. Göreli konumlar 0,013 · 0,130 · 0,792."
+  },
+  {
+   "bag": "25:47 ↔ 25:62",
+   "kural": "L1",
+   "not": "Gece-gündüz ikinci geçişi, sadeleşmiş: 25:47'de üç öğe üç sıfat (giysi/dinlenme/kalkış), 25:62'de iki öğe tek sıfat — خِلْفَة *(birbiri ardınca)* (aday 581)."
+  },
+  {
+   "bag": "25:7 · 25:20 · 25:63",
+   "kural": "L1",
+   "not": "مشي *(yürüme)* üç geçiş, ters değer: elçinin çarşıda yürümesi kusur (25:7) → normalleştirme (25:20) → kulların alçak gönüllü yürüyüşü erdem (25:63) (aday 582)."
+  },
+  {
+   "bag": "25:60 ↔ 25:64",
+   "kural": "L1",
+   "not": "سجد *(secde)* karşıtlığı: 25:60'ta secde emri reddediliyor (وَمَا ٱلرَّحْمَٰنُ *(Rahmân da ne)*), 25:64'te secde geceyi dolduran hâl. 25:64 sûrenin dördüncü ★★★'ı ve yıldızın tek kaynağı rab z=3,94 (aday 583)."
+  },
+  {
+   "bag": "25:19 · 25:50 · 25:65",
+   "kural": "L1",
+   "not": "صرف *(çevirme; türlü türlü açıklama)* üç geçiş: olumsuz haber + azap (25:19, bab I) → türlü türlü açıklama (25:50, bab II) → dua + azap (25:65, bab I, IMPV). Anlam ayrımı tam bab sınırında (adaylar 569, 584)."
+  },
+  {
+   "bag": "25:24 ↔ 25:66",
+   "kural": "L1",
+   "not": "Aynı kalıp ters kutup, sûrenin ikinci böyle çifti: خَيْرٌۭ مُّسْتَقَرًّۭا وَأَحْسَنُ مَقِيلا / سَآءَتْ مُسْتَقَرًّۭا وَمُقَاما. Ortak kök قرر *(karar kılma, yerleşme)*. 25:24 iki ayrı ayetle (25:34 ve 25:66) karşıt çift kuruyor (aday 585)."
+  },
+  {
+   "bag": "25:64 · 25:66 · 25:67 · 25:69",
+   "kural": "L1",
+   "not": "قوم *(kalkma; kavim; kıyamet)* altı ayet içinde dört ayrı lemma: قِيَام *(kıyam)* · مُقَام *(konak)* · قَوَام *(denge)* · قِيَامَة *(kıyamet)*; dördü de fâsıla ya da ona bitişik (adaylar 529, 586)."
+  },
+  {
+   "bag": "25:63 ↔ 25:69",
+   "kural": "L1",
+   "not": "هون *(hafiflik; alçak gönüllülük; aşağılama)* iki geçiş, ters kutup, ikisi de hâl ve fâsıla: هَوْنا *(alçak gönüllülükle)* övgü, مُهَانا *(aşağılanmış)* ceza (aday 588)."
+  },
+  {
+   "bag": "25:6 ↔ 25:70",
+   "kural": "L1",
+   "not": "Sûrenin İKİ MÜHRÜ aynı çift ve aynı fâsıla: غَفُور|رَحِيم *(gafûr | rahîm)*. 25:6 sûrenin ilk cevabı (özne zamir), 25:70 son bölütün istisnası (özne LAFIZ). Sûre-boyu halkanın üçüncü alt sınıfı olabilir (aday 589)."
+  },
+  {
+   "bag": "25:61 ↔ 15:16",
+   "kural": "L2",
+   "not": "xref: جعل *(kıldı)* + سماء *(gök)* + بروج *(burçlar)* — gökte burçlar var etme."
+  },
+  {
+   "bag": "25:62 ↔ 17:12 · 28:73",
+   "kural": "L2",
+   "not": "xref: جعل *(kıldı)* + ليل *(gece)* + نهار *(gündüz)* — gece ve gündüzün kılınması."
+  },
+  {
+   "bag": "25:68 ↔ 6:151 · 17:33",
+   "kural": "L2",
+   "not": "xref: ÜÇ 3-gram ve üçü de bu iki ayete. قتل *(öldürme)* + نفس *(can)* + حرّم *(haram kıldı)* + اللّه *(Allah)* + حقّ *(hak)* terkibi — donmuş kalıp adayı (adaylar 437, 587)."
+  },
+  {
+   "bag": "25:69 ↔ 5:36 · 39:24 · 39:47",
+   "kural": "L2",
+   "not": "xref: عذاب *(azap)* + يوم *(gün)* + قيامة *(kıyamet)* — terkip korpusta üç ayrı ayette; 25:69 blokta en yüksek dış düğüm (3)."
+  },
+  {
+   "bag": "25:70 ↔ 18:110",
+   "kural": "L2",
+   "not": "xref: عمل *(işledi)* + عمل *(amel)* + صالح *(sâlih)* — sâlih amel kök ikilemesi."
+  },
+  {
+   "bag": "25:70 ↔ 25:71",
+   "kural": "L1",
+   "not": "Bitişik çift: 25:70'te istisna üç fiille (tövbe + iman + amel), 25:71'de iki fiile iniyor ve توب *(tövbe, dönüş)* ÜÇ KEZ tekrarlanıyor — sûrede bir ayette aynı kökün üç kez geçtiği tek yer (aday 591)."
+  },
+  {
+   "bag": "25:4 ↔ 25:72",
+   "kural": "L1",
+   "not": "زور *(yalan, uydurma)* iki geçiş, ters özne: itirazcılar yalanı GETİRİYOR (25:4), kullar yalandan UZAK DURUYOR (25:72). Kök korpusta altı geçişli; ikisi sûrenin iki ucunda (aday 592)."
+  },
+  {
+   "bag": "25:18 · 25:29 · 25:62 · 25:73",
+   "kural": "L1",
+   "not": "ذكر *(anma, zikir)* dört rol: unutuldu (25:18) → ondan saptırıldı (25:29) → amaç oldu (25:62) → hatırlatılıyor (25:73) (aday 593)."
+  },
+  {
+   "bag": "25:65 ↔ 25:74",
+   "kural": "L1",
+   "not": "Sûrenin iki duası, ikisi de رَبَّنَا *(Rabbimiz)* ile: savma isteği (ٱصْرِفْ *(çevir)*, 25:65) ve verme isteği (هَبْ *(bağışla)* + وَٱجْعَلْنَا *(bizi kıl)*, 25:74) (aday 594)."
+  },
+  {
+   "bag": "25:24 · 25:66 · 25:76",
+   "kural": "L1",
+   "not": "قرر *(karar kılma, yerleşme)* çekirdeği üç ayette, iki kutup. **25:66 ↔ 25:76 tek fark FİİL**: سَآءَتْ *(ne kötü)* / حَسُنَتْ *(ne güzel)*; kalan üç kelime birebir aynı. defter.json esit alanı ÜÇÜNDE DE boş (adaylar 585, 596)."
+  },
+  {
+   "bag": "25:11 · 25:19 · 25:77",
+   "kural": "L1",
+   "not": "**KAPANDI (aday 597):** كذب *(yalan; yalanlama)* dört geçiş, üç ayrı fâil — inkârcılar/o saat (25:11) → tapılanlar/muhatap (25:19) → muhatabın kendisi (25:77). Sûrenin ilk bloğunda başlayıp SON AYETİNDE kapanıyor."
+  },
+  {
+   "bag": "25:15 ↔ 25:75",
+   "kural": "L1",
+   "not": "جزي *(karşılık verme)* iki geçiş: 25:15'te cennet جَزَآء *(karşılık)* ve مَصِير *(varış yeri)*, 25:75'te ٱلْغُرْفَة *(yüksek makam)*. 25:75'te kullar bölüt boyunca özneyken ilk kez NESNE oluyor (aday 595)."
+  },
+  {
+   "bag": "25:65 ↔ 25:77",
+   "kural": "L1",
+   "not": "Sûrenin son üçte birinde iki 'yakayı bırakmayan' fâsılası: غَرَاما *(yakayı bırakmayan belâ)* (25:65, غرم n=6) ve لِزَاما *(ayrılmaz)* (25:77, لزم n=3). İkisi de seyrek kök, ikisi de fâsıla."
+  },
+  {
+   "bag": "25:73 ↔ 18:57 · 32:22",
+   "kural": "L2",
+   "not": "xref: ذكّر *(hatırlatıldı)* + آية *(âyet)* + ربّ *(Rab)* — Rabbin âyetlerinin hatırlatılması."
+  },
+  {
+   "bag": "25:74 ↔ 3:38",
+   "kural": "L2",
+   "not": "xref: قال *(dedi)* + ربّ *(Rab)* + وهب *(bağışla)* — zürriyet için dua kalıbı."
+  }
+ ],
+ "AF_suara": [
+  {
+   "bag": "26:8 ↔ 26:9",
+   "kural": "L1",
+   "not": "Sûrenin nakarat çifti: وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ *(çoğu inanmıyor)* + وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ *(Rabbin azîzdir, rahîmdir)*; sekiz kıssanın kapanışında tekrarlanıyor (aday 606)."
+  },
+  {
+   "bag": "25:21 ↔ 26:4",
+   "kural": "L1",
+   "not": "Gökten indirme: 25:21'de itirazcıların isteği (edilgen, melekler), 26:4'te ilâhî alternatif (1P etken, âyet) ve sonucu zorlama teslimiyet (aday 603)."
+  },
+  {
+   "bag": "25:60 ↔ 26:5",
+   "kural": "L1",
+   "not": "رَحْمٰن *(rahmân)*: 25:60'ta itirazcılar adı tanımıyor, 26:5'te tanıma sorunu yok ama zikre yüz çeviriyorlar. Altı tokenin altısı da gönderge konumunda (adaylar 578, 604)."
+  },
+  {
+   "bag": "25:9 · 25:45 · 26:7",
+   "kural": "L1",
+   "not": "Bakma çağrısı üç nesne: meseller (2MS) → gölge (2MS) → bitki (3MP). 26:7 blokta çıpa taşıyan tek ayet ve yıldızsız (aday 605)."
+  },
+  {
+   "bag": "25:36 ↔ 26:10-16",
+   "kural": "L1",
+   "not": "Aynı görevlendirme sahnesi: sûre 25'te bir ayet (emir + helâk birlikte), sûre 26'da dört ayet (nidâ, adlandırma, ikil emir + eşlik vaadi, varış). Anlatı sıkıştırma oranı ölçülebilir (aday 607)."
+  },
+  {
+   "bag": "25:30 ↔ 26:12",
+   "kural": "L1",
+   "not": "Elçinin رَبِّ nidası: 25:30 gerçekleşmiş şikâyet (PERF), 26:12 gerçekleşmemiş korku (IMPF). İkisinde de yıldızın tek kaynağı rab oranı — KARIŞTIRICI (adaylar 602, 608)."
+  },
+  {
+   "bag": "25:13 ↔ 26:13",
+   "kural": "L1",
+   "not": "ضيق *(darlık)*: fiziksel mekân sıfatı (25:13) → içsel hâl fiili (26:13). Ayrıca 26:13'te طلق bab VII 'çözülme' — 529 kümesine sûre 26'nın ilk vakası (aday 609)."
+  },
+  {
+   "bag": "26:12 ↔ 26:14",
+   "kural": "L1",
+   "not": "Aynı ek (ـُونِ), aynı kip, iki korku: يُكَذِّبُونِ *(beni yalanlarlar)* / يَقْتُلُونِ *(beni öldürürler)*. Arada 26:13'ün fâsılası özel ad — A-B-A dizilimi (aday 610)."
+  },
+  {
+   "bag": "26:16 ↔ 26:18",
+   "kural": "L1",
+   "not": "ربب *(rab, terbiye etme)* ve ربو *(yetiştirme)* iki ayet arayla karşı karşıya: Mûsâ 'âlemlerin Rabbi' diyor, Firavun 'seni biz yetiştirdik' diyor (aday 613)."
+  },
+  {
+   "bag": "25:71 ↔ 26:19",
+   "kural": "L1",
+   "not": "Bir ayette kök üç kez: توب *(tövbe)* olumlu (25:71) / فعل *(yapma)* suçlama (26:19). 26:20'de dördüncü geçiş, suçlamadan itirafa (aday 614)."
+  },
+  {
+   "bag": "26:2 ↔ 28:2",
+   "kural": "L2",
+   "not": "TAM AYET ÖZDEŞ ve esit alanı YAKALIYOR — sûre 25'te esit sûre boyunca boştu. xref: آية *(âyet)* + كتاب *(kitap)* + مبين *(apaçık)* → 12:1 · 28:2."
+  },
+  {
+   "bag": "26:6 ↔ 6:5",
+   "kural": "L2",
+   "not": "xref: iki 3-gram (أتى + نبأ + كان ve نبأ + كان + استهزئ) tek ayete. Tekzip ve alay terkibi."
+  },
+  {
+   "bag": "26:7 ↔ 31:10",
+   "kural": "L2",
+   "not": "xref: كلّ *(her)* + زوج *(çift)* + كريم *(güzel)* — bitki çeşitliliği terkibi."
+  },
+  {
+   "bag": "26:12 ↔ 20:45",
+   "kural": "L2",
+   "not": "xref: قال *(dedi)* + ربّ *(Rab)* + خاف *(korktu)* — elçinin korku bildirimi."
+  },
+  {
+   "bag": "26:16 ↔ 7:61 · 7:67 · 7:104 · 43:46",
+   "kural": "L2",
+   "not": "xref: رسول *(elçi)* + ربّ *(Rab)* + عالم *(âlem)* — DÖRT ayete bağlanan terkip, donmuş kalıp adayı (adaylar 437, 611). Blokta en yüksek dış düğüm (5)."
+  },
+  {
+   "bag": "26:12 · 26:14 · 26:21",
+   "kural": "L1",
+   "not": "خوف *(korku)* üç geçiş, üçü de 1S: iki gelecek korkusu (tekzip, ölüm) ve bir geçmiş korku (فَفَرَرْتُ مِنكُمْ لَمَّا خِفْتُكُمْ) (aday 615)."
+  },
+  {
+   "bag": "25:60 ↔ 26:23",
+   "kural": "L1",
+   "not": "Aynı soru kalıbı: وَمَا ٱلرَّحْمَٰنُ / وَمَا رَبُّ ٱلْعَٰلَمِينَ. Biri özel ada, öteki sıfat tamlamasına — **578'in üçüncü kanıtını zayıflatan karşı örnek** (aday 616)."
+  },
+  {
+   "bag": "26:24 ↔ 26:28",
+   "kural": "L1",
+   "not": "Paralel kapsam tanımı: dikey eksen (gök-yer-ara, şart cevabı يقن *(yakîn)*) ve yatay eksen (doğu-batı-ara, şart cevabı عقل *(akletme)*). Aralarında Firavun'un iki alaycı sözü (aday 617)."
+  },
+  {
+   "bag": "26:15 ↔ 26:25",
+   "kural": "L1",
+   "not": "سمع *(işitme)* bab X, ters değer: إِنَّا مَعَكُم مُّسْتَمِعُونَ *(biz sizinle beraber işitenleriz)* ilâhî eşlik / أَلَا تَسْتَمِعُونَ *(işitmiyor musunuz)* alay (aday 618)."
+  },
+  {
+   "bag": "26:17 ↔ 26:22",
+   "kural": "L1",
+   "not": "Sûrenin iki kafiye kırılması AYNI ÖZEL ADLA: إِسْرَٰٓءِيلَ. Biri Mûsâ'nın isteği, öteki Firavun'a itiraz (aday 612)."
+  },
+  {
+   "bag": "26:32-33 ↔ 7:107-108",
+   "kural": "L2",
+   "not": "ARDIŞIK BÖLÜT İKİZİ ve **esit alanı ikisini de yakalıyor** — 25:8-9 ↔ 17:47-48'in (aday 530) tam karşıtı; orada imlâ farkı yüzünden kaçırmıştı (aday 621)."
+  },
+  {
+   "bag": "25:8 ↔ 26:34 · 26:40",
+   "kural": "L1",
+   "not": "سحر *(büyü, sihir)* ters çatı ve ters kutup: 25:8'de elçi büyünün NESNESİ (رَجُلا مَّسْحُورا), 26:34'te ÖZNESİ (سَٰحِرٌ عَلِيمٌ); تبع *(uyma)* 25:8'de olumsuz suçlama, 26:40'ta şartlı niyet (adaylar 622, 625)."
+  },
+  {
+   "bag": "26:38 ↔ 26:39",
+   "kural": "L1",
+   "not": "**Okumada ilk kez iki ardışık ayet aynı kaynaktan ★★★**: ikisinde de n=5, tek fiil edilgen, oran 1,00, pas z=5,38. جمع *(toplama)* iki çatıda (aday 624)."
+  },
+  {
+   "bag": "26:26 ↔ 18:14 · 21:56 · 37:126 · 44:8",
+   "kural": "L2",
+   "not": "xref: üç 3-gram; **rab z=8,20 — okumada en yüksek z** (n=5, iki Rab). Aday 602'nin en uç vakası."
+  },
+  {
+   "bag": "26:24 ↔ 13:16 · 23:86 · 44:7",
+   "kural": "L2",
+   "not": "xref: قال + ربّ + سماء ve أرض + بين + كان + موقن. Kapsam tanımı terkibi."
+  },
+  {
+   "bag": "26:28 ↔ 70:40 · 73:9",
+   "kural": "L2",
+   "not": "xref: ربّ *(Rab)* + مشرق *(doğu)* + مغرب *(batı)* — yatay eksen terkibi."
+  },
+  {
+   "bag": "26:35 ↔ 7:110 · 20:57 · 20:63",
+   "kural": "L2",
+   "not": "xref: أراد + أخرج + أرض ve أخرج + أرض + سحر — 'büyüyle yurdundan çıkarma' suçlaması; donmuş kalıp adayı (aday 437)."
+  },
+  {
+   "bag": "26:36 ↔ 7:111",
+   "kural": "L2",
+   "not": "xref: قال + ترجي + أخ. Ayrıca رجو *(umma; erteleme)* bab IV — 529 kümesine yeni vaka (aday 623)."
+  },
+  {
+   "bag": "26:38 ↔ 56:50",
+   "kural": "L2",
+   "not": "xref: ميقات *(belirlenmiş vakit)* + يوم *(gün)* + معلوم *(bilinen)*."
+  },
+  {
+   "bag": "25:57 ↔ 26:41",
+   "kural": "L1",
+   "not": "أجر *(ücret, karşılık)*: elçi reddediyor (HASR ile) / büyücüler istiyor (soru + şart). Sûre 26'nın nakaratlarından biri de bu cümle (aday 626)."
+  },
+  {
+   "bag": "26:43 · 26:44 · 26:45 · 26:46",
+   "kural": "L1",
+   "not": "لقي *(atma)* dört ardışık ayette beş geçiş, fâil ve çatı yörüngesi: emir → çoğul fâil → tekil fâil → **edilgen**. Atma eyleminden atılma hâline (aday 628)."
+  },
+  {
+   "bag": "26:9 ↔ 26:44",
+   "kural": "L1",
+   "not": "عزز *(izzet, üstünlük)* iki gönderge: nakarat mührünün ilâhî ٱلْعَزِيزُ / Firavun'un izzetine yemin. Esmâ tablosu ikincisini saymıyor — **doğru sonuç ama muhtemelen yanlış sebeple** (aday 629)."
+  },
+  {
+   "bag": "26:23 · 26:24 · 26:28 · 26:47 · 26:48",
+   "kural": "L1",
+   "not": "رَبُّ ٱلْعَٰلَمِينَ zinciri: Firavun'un sorusu → Mûsâ'nın iki kapsam cevabı (dikey, yatay) → **büyücülerin ikrarı** (terkip birebir) → özelleştirme (Mûsâ'nın ve Hârûn'un Rabbi). Soruyu kapatan taraf üçüncü (aday 631)."
+  },
+  {
+   "bag": "26:47-48 ↔ 7:121-122",
+   "kural": "L2",
+   "not": "ARDIŞIK BÖLÜT İKİZİ ve **esit alanı ikisini de yakalıyor** — sûre 26'da ikinci ardışık ikiz (birincisi 26:32-33 ↔ 7:107-108). Aday 621'e ikinci veri."
+  },
+  {
+   "bag": "26:29 · 26:49 ↔ 26:50",
+   "kural": "L1",
+   "not": "Tehdit zinciri (zindan → kesme → asma) ve cevap: لَا ضَيْرَ *(zarar yok)*. Cevap tehdidin içeriğine değil YÖNÜNE bakıyor. 26:50 sûre 26'da yıldızını iki kaynaktan alan ilk ayet (aday 633)."
+  },
+  {
+   "bag": "26:36 ↔ 26:53",
+   "kural": "L1",
+   "not": "Öneri ve uygulama neredeyse aynı kelimelerle: فِى ٱلْمَدَآئِنِ حَٰشِرِينَ birebir, fâsıla aynı; değişen fiil kökü (بعث → رسل) ve fâilin adlandırılması. **esit alanı yakalamıyor** — `esit_yakin` için sınama vakası (aday 636)."
+  },
+  {
+   "bag": "26:54 · 26:55 · 26:56",
+   "kural": "L1",
+   "not": "**Okumada ilk kez üç ardışık ayet aynı yapısal kalıpla**: üçü de kısa (4, 3, 3), üçü de إِنَّ ile açılıyor, üçünde de fiil yok. Yalnız 26:54 ★★★ ve ayrım tek bir hapakstan (aday 637)."
+  },
+  {
+   "bag": "26:35 ↔ 26:57",
+   "kural": "L1",
+   "not": "خرج *(çıkma, çıkarma)* bab IV: suçlama (Mûsâ sizi yurdunuzdan çıkarmak istiyor) → gerçekleşme (onları bahçelerden çıkardık), fâil değişiyor (aday 638)."
+  },
+  {
+   "bag": "26:40 · 26:52 · 26:60",
+   "kural": "L1",
+   "not": "تبع *(uyma, ardından gitme)* üç çatı üç değer: niyet (etken) → uyarı (edilgen) → gerçekleşme (etken bab IV) (aday 635)."
+  },
+  {
+   "bag": "26:17 · 26:22 · 26:59",
+   "kural": "L1",
+   "not": "Sûrenin dört kafiye kırılmasından **üçü aynı özel adla**: إِسْرَٰٓءِيلَ. Kırılma adın ses yapısına bağlı (aday 612 güçlendi)."
+  },
+  {
+   "bag": "26:42 ↔ 26:58",
+   "kural": "L1",
+   "not": "Konum alanı: vaat edilen ٱلْمُقَرَّبِينَ *(yakınlar)* ve kaybedilen مَقَامٍ كَرِيمٍ *(değerli konum)*. İki ayrı kök (قرب · قوم), aynı alan — 26:16↔26:18 desenıyle aynı (aday 627)."
+  },
+  {
+   "bag": "26:41 ↔ 7:113 · 10:80",
+   "kural": "L2",
+   "not": "xref: dört 3-gram, dördü de 7:113'e. Büyücülerin ücret pazarlığı terkibi."
+  },
+  {
+   "bag": "26:49 ↔ 7:123 · 7:124 · 20:71",
+   "kural": "L2",
+   "not": "xref: **yedi 3-gram** üç ayete. Sûrenin en uzun ayeti (n=21) ve yıldızsız — aday 632."
+  },
+  {
+   "bag": "26:38 · 26:39 · 26:49 · 26:56 · 26:61 · 26:65",
+   "kural": "L1",
+   "not": "جمع *(toplama)* altı geçiş, altı biçim: edilgen fiil → etken ism-i fâil → pekiştirme (tehdit) → sıfat → tesniye isim → pekiştirme (kurtuluş) (aday 639)."
+  },
+  {
+   "bag": "26:12 ↔ 26:62",
+   "kural": "L1",
+   "not": "Aynı konuşan, aynı nida, korkudan güvene: أَخَافُ *(korkuyorum)* / إِنَّ مَعِىَ رَبِّى *(Rabbim benimledir)*. İkisi de ★★★ ve ikisinde de kaynak rab oranı — karıştırıcı (aday 640)."
+  },
+  {
+   "bag": "25:1 ↔ 26:63",
+   "kural": "L1",
+   "not": "فرق *(ayırma, parçalara bölme)*: 25:1'de ٱلْفُرْقَان *(Furkān)* sûrenin adı ve tek geçişi, 26:63'te denizin fiziksel parçası (aday 641)."
+  },
+  {
+   "bag": "26:64 ↔ 26:66",
+   "kural": "L1",
+   "not": "Eşyapılı çift, tek öğe farkı: n=3, bab IV, 1P ×2, fâsıla ٱلْءَاخَرِينَ ikisinde de; değişen yalnız fiil (أَزْلَفْنَا *(yaklaştırdık)* / أَغْرَقْنَا *(boğduk)*). Arada 26:65 (kurtarma). **esit yakalamıyor** — `esit_yakin` için dördüncü sınama vakası (aday 642)."
+  },
+  {
+   "bag": "26:49 ↔ 26:65",
+   "kural": "L1",
+   "not": "أَجْمَعِينَ *(hepsi)* aynı fâsıla ters kutup: tehdit kapsamı (hepinizi asacağım) / kurtuluş kapsamı (beraberindekilerin hepsi) (aday 643)."
+  },
+  {
+   "bag": "26:8-9 ↔ 26:67-68",
+   "kural": "L1",
+   "not": "Nakarat çifti ikinci kez, arada elli dokuz ayet. **26:9 ve 26:68 AYNI AYET ve ikisi de ★★★** — bağımsız gözlem değil (aday 606)."
+  },
+  {
+   "bag": "26:6 ↔ 26:69",
+   "kural": "L1",
+   "not": "نبأ *(haber)* tehditten anlatıya. Ve kıssa açılış biçimleri farklı: Mûsâ nidâ ile (26:10), İbrâhîm emirle (26:69) (aday 644)."
+  },
+  {
+   "bag": "26:18 ↔ 26:70",
+   "kural": "L1",
+   "not": "Ata-oğul sahnesi ters yön: Firavun borç hatırlatıyor (نُرَبِّكَ *(seni yetiştirdik)*), İbrâhîm soru soruyor (مَا تَعْبُدُونَ *(neye tapıyorsunuz)*). Ortak kök YOK — zayıf bağ (aday 645)."
+  },
+  {
+   "bag": "26:66 ↔ 37:82",
+   "kural": "L2",
+   "not": "TAM AYET ÖZDEŞ ve esit alanı yakalıyor."
+  },
+  {
+   "bag": "26:70 ↔ 37:85",
+   "kural": "L2",
+   "not": "xref: أب *(baba)* + قوم *(kavim)* + عبد *(kulluk)* — İbrâhîm'in babasına ve kavmine sorusu."
+  },
+  {
+   "bag": "26:70 ↔ 26:71",
+   "kural": "L1",
+   "not": "صنم *(put, sanem)* ↔ عبد *(kul, kulluk)* çifti korpusta İKİ YÖNDEN bağlı (26:70'te عبد ▸sonra صنم ×16,6; 26:71'de صنم ▸önce عبد ×14,1) — terkip ayete özgü değil, donmuş kalıp adayı (aday 647)."
+  },
+  {
+   "bag": "26:15 · 26:25 · 26:72",
+   "kural": "L1",
+   "not": "سمع *(işitme)* üç özne üç işlev: ilâhî eşlik vaadi → Firavun'un alayı → putların yetisinin sorgulanması (aday 648)."
+  },
+  {
+   "bag": "25:3 · 25:55 · 26:73",
+   "kural": "L1",
+   "not": "نفع *(fayda)* / ضرر *(zarar)* çifti okumada üçüncü kez: sahte ilâhların kendileri (zarar-fayda) → tapanlar (fayda-zarar) → tapanlar, soru kipinde (fayda-zarar). Çift dikey ölçümde iki yönden bağlı (adaylar 575, 649)."
+  },
+  {
+   "bag": "26:19-20 ↔ 26:74",
+   "kural": "L1",
+   "not": "فعل *(yapma, işleme)* kişisel eylemden atalar geleneğine. **Ölçüm notu: 26:74 IDRAB alıyor ama makro sayım 2 veriyor — makro fig sayımı denetlenecek** (aday 650)."
+  },
+  {
+   "bag": "26:70 ↔ 26:75",
+   "kural": "L1",
+   "not": "Beş ayetlik bölüt halkası: soru aynı fâsılayla açılıp aynı fâsılayla kapanıyor (تَعْبُدُونَ). Arada dört ayet (aday 651)."
+  },
+  {
+   "bag": "26:26 ↔ 26:76",
+   "kural": "L1",
+   "not": "'Önceki atalarınız' iki ayrı kökle: ٱلْأَوَّلِينَ (أول) / ٱلْأَقْدَمُونَ (قدم). Sûre 26'da 'iki ayrı kök, aynı anlam alanı' deseninin üçüncü vakası (aday 652)."
+  },
+  {
+   "bag": "26:16 · 26:23 · 26:47 · 26:77",
+   "kural": "L1",
+   "not": "رَبَّ ٱلْعَٰلَمِينَ dört konuşan dört işlev: elçilik iddiası → soru → ikrar → istisna. Üçü ★★★ ve üçünde de kaynak rab oranı — karıştırıcı (adaylar 631, 653)."
+  },
+  {
+   "bag": "26:62 ↔ 26:78",
+   "kural": "L1",
+   "not": "هدي *(yol gösterme)* iki elçi iki zaman, aynı ـِينِ eki ve aynı fâsıla konumu: سَيَهْدِينِ (Mûsâ, FUT, ★★★) / يَهْدِينِ (İbrâhîm, IMPF, yıldızsız). Fark içerikten değil, ayette Rab bulunmasından (aday 654)."
+  },
+  {
+   "bag": "25:1-2 ↔ 26:78-80",
+   "kural": "L1",
+   "not": "ٱلَّذِى zinciri iki sûrede: sûre 25'te gönderge üçüncü şahsa ait ve lafız/Rab yerine geçiyor; sûre 26'da birinci şahsın kendi Rabbine ait ve konuşma içinde. 26:80'de biçim kırılıyor (şart cümlesi) ama fâsıla eki sürüyor (adaylar 527, 655)."
+  },
+  {
+   "bag": "25:49 ↔ 26:79",
+   "kural": "L1",
+   "not": "سقي *(sulama)* türden bireye: çoğul davar ve insan (1P fâil) / tekil kişisel içirme (3MS fâil) (aday 656)."
+  },
+  {
+   "bag": "26:75 ↔ 41:52 · 46:10",
+   "kural": "L2",
+   "not": "xref: قال *(dedi)* + رأى *(gördü)* + كان *(oldu)* — 'gördünüz mü' sorgusu kalıbı."
+  },
+  {
+   "bag": "25:3 · 25:49 · 25:58 · 26:81",
+   "kural": "L1",
+   "not": "موت *(ölüm)* / حيي *(hayat)* çifti dört yapı: iki ayrı nesne → tek eylem → tek gönderge → sıralı iki eylem (aday 658)."
+  },
+  {
+   "bag": "26:51 ↔ 26:82",
+   "kural": "L1",
+   "not": "طمع *(umma)* + غفر *(bağışlama)* + خطأ *(hata)* üçlüsü ve aynı yapı; büyücüler çoğul, İbrâhîm tekil. **esit yakalamıyor** — `esit_yakin` için beşinci ve en zorlayıcı sınama vakası (aday 659)."
+  },
+  {
+   "bag": "26:21 ↔ 26:83",
+   "kural": "L1",
+   "not": "وهب *(bağışlama)* + حكم *(hüküm)* çifti, aynı sıra ve aynı yapı: Mûsâ'da gerçekleşmiş (PERF), İbrâhîm'de istenen (IMPV) (aday 660)."
+  },
+  {
+   "bag": "26:13 ↔ 26:84",
+   "kural": "L1",
+   "not": "لسن *(dil)* yetersizlikten isteğe: dilim çözülmez (Mûsâ) / doğruluk dili nasip et (İbrâhîm). 529 kümesine yeni vaka (aday 661)."
+  },
+  {
+   "bag": "26:59 ↔ 26:85",
+   "kural": "L1",
+   "not": "ورث *(vâris olma)* yurt mirasından cennet mirasına; gerçekleşmişten istenene (aday 662)."
+  },
+  {
+   "bag": "26:20 ↔ 26:86",
+   "kural": "L1",
+   "not": "ٱلضَّآلِّينَ *(sapkınlar)* aynı fâsıla: Mûsâ kendisi için (itiraf), İbrâhîm babası için (şefaat gerekçesi) (aday 663)."
+  },
+  {
+   "bag": "25:3 · 25:55 · 26:73 · 26:88",
+   "kural": "L1",
+   "not": "نفع *(fayda)* dördüncü geçiş ve **ilk kez ضرر *(zarar)* olmadan** — karşıtlı kökün tek uçlu kullanımı; okumada dördüncü vaka (25:6 سرر, 25:46 يسر, 26:60 شرق ile) (aday 664)."
+  },
+  {
+   "bag": "25:17 ↔ 26:89",
+   "kural": "L1",
+   "not": "İki Mekkî sûrenin ilk Allah lafzı: göreli konum 0,22 / **0,39**. Sûre 26'nın on üç lafız tokeninin hepsi 89'dan sonra (adaylar 527, 665)."
+  },
+  {
+   "bag": "26:64 ↔ 26:90",
+   "kural": "L1",
+   "not": "زلف *(yaklaştırma)* kutup düzeliyor: helâke yaklaştırma (etken, azınlık anlamı) / cennete yaklaştırma (edilgen, korpus taban anlamı). **Ayrıca aktör tablosu tanısı: ölçüt BELİRLİLİK** (aday 666)."
+  },
+  {
+   "bag": "26:84 ↔ 19:50",
+   "kural": "L2",
+   "not": "xref: جعل *(kıldı)* + لسان *(dil)* + صدق *(doğruluk)* — 'doğruluk dili' terkibi."
+  },
+  {
+   "bag": "26:90 ↔ 50:31",
+   "kural": "L2",
+   "not": "xref: أزلفت *(yaklaştırıldı)* + جنّة *(cennet)* + متّقي *(sakınan)* — cennetin yaklaştırılması terkibi."
+  },
+  {
+   "bag": "26:90 ↔ 26:91",
+   "kural": "L1",
+   "not": "**Okumada en simetrik ayet çifti:** n=3, tek fiil edilgen, oran 1,00, pas z=5,38, ★★★ — ikisinde de. Değişen: fiil kökü, özne (cennet/cehennem), muhatap (sakınanlar/azgınlar). `esit` ve `esit_yakin` ikisini de yakalamaz; **üçüncü alan gerekiyor: yapı özdeşliği** (aday 667)."
+  },
+  {
+   "bag": "26:70 · 26:75 · 26:92",
+   "kural": "L1",
+   "not": "مَا تَعْبُدُونَ üç geçiş iki sahne: İbrâhîm dünyada iki kez sorar, mahşerde edilgen olarak üçüncü kez sorulur ve soru 'ne' değil 'nerede' (aday 668)."
+  },
+  {
+   "bag": "25:3 · 25:55 · 26:73 · 26:93 · 26:100",
+   "kural": "L1",
+   "not": "Sorgu ölçütü değişiyor: نفع/ضرر → نصر (iki çatıda) → شفع. **Ama dikey ölçüm üçünün de مِن دُونِ terkibine bağlı olduğunu gösteriyor** — ölçüt çeşitliliği korpus tabanının yansıması olabilir (adaylar 669, 675)."
+  },
+  {
+   "bag": "26:91 ↔ 26:94",
+   "kural": "L1",
+   "not": "غوي *(azma, azdırma)* üç ayet arayla mecrurdan merfûya: gösterilen taraf → atılan taraf. 26:94 okumada üçüncü iki kaynaklı ★★★ ve ilk kez iki kaynak da uçta (aday 670)."
+  },
+  {
+   "bag": "26:38 · 39 · 49 · 56 · 61 · 65 · 95",
+   "kural": "L1",
+   "not": "جمع *(toplama)* yedi geçiş yedi biçim: edilgen fiil → ism-i fâil → ACC pekiştirme → sıfat → tesniye isim → ACC pekiştirme → NOM pekiştirme (aday 671)."
+  },
+  {
+   "bag": "25:59 ↔ 26:98",
+   "kural": "L1",
+   "not": "سوي *(düzenleme, denk kılma)* bab sınırında anlam ayrımı: bab VIII 'istivâ' / bab II 'denk kılma'. 569/584'ün bab önerisine dördüncü destek (aday 673)."
+  },
+  {
+   "bag": "25:17 → 25:29 · 26:99",
+   "kural": "L1",
+   "not": "ضلل sorumluluk zinciri: çatı sorusu → fâil şeytan (25:29) → fâil insanlar, HASR ile (26:99). Ayrıca 26:97 ↔ 26:99 hâlden faile (aday 674)."
+  },
+  {
+   "bag": "26:97 ↔ 43:40",
+   "kural": "L2",
+   "not": "xref: كان *(oldu)* + ضلال *(sapkınlık)* + مبين *(apaçık)*. **26:97 aynı zamanda aday 443'ün canlı sınama vakası: تَٱللَّهِ yemini QASEM etiketi almıyor** (aday 672)."
+  },
+  {
+   "bag": "26:100 ↔ 26:101",
+   "kural": "L1",
+   "not": "Bitişik çift, ikisi de fiilsiz ve olumsuz: şefaatçi yok / candan dost yok. حمم *(hamîm)* 529 kümesine sekizinci vaka (aday 677)."
+  },
+  {
+   "bag": "26:8-9 · 26:67-68 · 26:103-104",
+   "kural": "L1",
+   "not": "Nakarat çifti üç konumda: kıssaların önü, Mûsâ sonu, İbrâhîm sonu. **İltifât yönü sabit (1>3)** — bağımsızlık ihlâli iltifât sayımına da yayılıyor (adaylar 606, 679)."
+  },
+  {
+   "bag": "25:37 ↔ 26:105",
+   "kural": "L1",
+   "not": "Aynı tekzip formülü: sûre 25'te kıssanın TAMAMI (tek ayet), sûre 26'da kıssanın AÇILIŞI (on sekiz ayet). 607 ile aynı yönde (aday 680)."
+  },
+  {
+   "bag": "26:11 ↔ 26:106",
+   "kural": "L1",
+   "not": "أَلَا يَتَّقُونَ / أَلَا تَتَّقُونَ: anlatıcının üçüncü şahıs sorusu / elçinin ikinci şahıs sorusu (aday 681)."
+  },
+  {
+   "bag": "25:56 ↔ 26:107",
+   "kural": "L1",
+   "not": "Elçinin kendini tanımlaması: مُبَشِّرا وَنَذِيرا *(müjdeci ve uyarıcı)* / رَسُولٌ أَمِينٌ *(güvenilir elçi)*. **26:107'de أَمِين esmâ sayılmıyor ve bu doğru — ama aynı kökten مُؤْمِن on beş kez yanlış sayılıyor** (aday 682)."
+  },
+  {
+   "bag": "25:57 · 26:41 · 26:109",
+   "kural": "L1",
+   "not": "**KAPANDI (aday 684):** أجر *(ücret)* üç işlev — reddetme (istisna bir eylem) → isteme → reddetme (istisna bir adres, kök ikilemesiyle). Dikey ölçüm terkibin korpusta sabit olduğunu gösteriyor."
+  },
+  {
+   "bag": "26:108 · 26:109 · 26:110",
+   "kural": "L1",
+   "not": "**Üç ardışık ayetin üçü de nakarat, örgü A-B-A.** Bu örgü kalan dört kıssada tekrarlanacak (26:125-127, 143-145, 162-164, 178-180) — **sûrenin mimarisi önceden ölçülebilir** (aday 685, ön-kayıt yazıldı)."
+  },
+  {
+   "bag": "26:40 · 26:52 · 26:60 · 26:111",
+   "kural": "L1",
+   "not": "تبع *(uyma)* dört değer üç çatı: niyet → uyarı (edilgen) → gerçekleşme → **kusur** (aday 686)."
+  },
+  {
+   "bag": "26:74 ↔ 26:112",
+   "kural": "L1",
+   "not": "فعل *(yapma)* / عمل *(amel)* — 'iki ayrı kök, aynı anlam alanı' deseninin dördüncü vakası, ama öncekilerden zayıf (alan çok geniş) (aday 687)."
+  },
+  {
+   "bag": "26:113 ↔ 26:224",
+   "kural": "L1",
+   "not": "شعر *(şair; farkında olma)* — **sûrenin adını veren kök, ilk geçişi 'farkında olma' anlamında**; korpusta 'şair' anlamı azınlık (aday 688)."
+  },
+  {
+   "bag": "25:56 · 26:107 · 26:115",
+   "kural": "L1",
+   "not": "Elçi tanımı üçlüsü, üçünde de sınırlama ve fiilsiz tanım. **26:107'de أَمِين esmâ sayılmıyor, 26:115'te مُبِين sayılıyor — aynı yapı, iki hüküm; gönderge denetiminin hiç çalışmadığının en temiz gösterimi** (adaylar 682, 690)."
+  },
+  {
+   "bag": "26:29 ↔ 26:116",
+   "kural": "L1",
+   "not": "Tehdit kalıbı iki kıssada: لَئِن + şart + لَ + EMPH + مِنَ + ism-i mef'ûl çoğulu. Zindan / taşlanma. Dikey ölçüm 'vazgeçme + taşlanma' çiftinin korpusta bağlı olduğunu gösteriyor (aday 691)."
+  },
+  {
+   "bag": "26:12 ↔ 26:117",
+   "kural": "L1",
+   "not": "قَالَ رَبِّ إِنَّ + كذب + ـُونِ: Mûsâ'da korku (IMPF), Nûh'ta gerçekleşme (PERF). İkisi de ★★★ ve ikisinde de kaynak rab oranı — karıştırıcı (aday 692)."
+  },
+  {
+   "bag": "26:83 ↔ 26:118",
+   "kural": "L1",
+   "not": "İki elçi, aynı iki-emirli dua yapısı: هَبْ + أَلْحِقْنِى (İbrâhîm) / ٱفْتَحْ + نَجِّنِى (Nûh). 26:118 okumada bir ayette **iki ayrı kökün birden ikilendiği ilk yer** (aday 693)."
+  },
+  {
+   "bag": "26:65 ↔ 26:119",
+   "kural": "L1",
+   "not": "نجو *(kurtarma)* + وَمَن مَّعَهُ yapısı iki kıssada. Ve شحن *(yükleme)* ▸önce فلك ×301,6 — **okumada en yüksek tek komşuluk katı**, n=3 kökte; zenginleşme hesabının seyrek köklerde güvenilmezliği (aday 694)."
+  },
+  {
+   "bag": "26:66 ↔ 26:120",
+   "kural": "L1",
+   "not": "Aynı boğulma cümlesi, tek zarf farkı (بَعْدُ). **esit yakalamıyor** — 621'in sınama kümesine altıncı vaka; **üç alan gerekiyor: esit_tam · esit_yakin · esit_yapi** (aday 695)."
+  },
+  {
+   "bag": "26:112 ↔ 27:84",
+   "kural": "L2",
+   "not": "xref: علم *(ilim)* + كان *(oldu)* + عمل *(amel)*."
+  },
+  {
+   "bag": "26:118 ↔ 7:89",
+   "kural": "L2",
+   "not": "xref: فتح *(açtı)* + بين *(ara)* + بين — 'aramızı aç' duası."
+  },
+  {
+   "bag": "26:8-9 · 26:67-68 · 26:103-104 · 26:121-122",
+   "kural": "L1",
+   "not": "Nakarat çifti **dört konumda**: kıssaların önü, Mûsâ sonu, İbrâhîm sonu, Nûh sonu. Dördünde de iltifât yönü 1>3 (adaylar 679, 683)."
+  },
+  {
+   "bag": "26:105-107 ↔ 26:123-125",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT SINAMASI (aday 696):** Hûd kıssasında altı öğenin altısı da var. (i) ve (ii) öğeleri Nûh'unkiyle birebir aynı yapıda ama **esit yakalamıyor** — tek fark kavim/elçi adı; `esit_yakin` için yedinci ve sekizinci sınama vakası."
+  },
+  {
+   "bag": "26:8 · 26:128",
+   "kural": "L1",
+   "not": "أيي *(âyet, işaret)* aynı sûrede iki anlamda: nakaratta 'ilâhî âyet' (dört ayet), 26:128'de 'yapı, anıt'. **Kök korpusta 597 geçişli — 529 kümesine okumadaki en sık kök vakası** (aday 697)."
+  },
+  {
+   "bag": "26:119 ↔ 26:129",
+   "kural": "L1",
+   "not": "صنع *(yapma)* korpus yatağı GEMİ YAPIMI (▸sonra فلك ×40,2) ama 26:129'da kale yapımı; gemi kıssası dokuz ayet önce bitti — **dikey satırının yanıltma riski** (aday 698)."
+  },
+  {
+   "bag": "26:54-56 · 26:128-130",
+   "kural": "L1",
+   "not": "Üç ardışık ayette şahıs sabitliği: 26:54-56'da fiilsiz `إِنَّ` üçlüsü, 26:128-130'da 2MP dışında şahıs yok. Sûre 26'nın karakteristik özelliği gibi (adaylar 637, 699)."
+  },
+  {
+   "bag": "26:131 ↔ 26:132",
+   "kural": "L1",
+   "not": "وقي *(sakınma)* bitişik iki ayette: nesne lafız (nakarat) → nesne gönderge ٱلَّذِى. 527/655 kümesine üçüncü ve en kısa zincir (aday 701)."
+  },
+  {
+   "bag": "26:88 ↔ 26:133 · 26:57 ↔ 26:134",
+   "kural": "L1",
+   "not": "Nimet/kayıp tersliği: `مال/بنون` âhirette işe yaramaz / dünyada nimet; `جَنَّٰت وَعُيُون` **birebir aynı iki kelime**, kayıp / nimet (77 ayet arayla). esit yakalamıyor (aday 702)."
+  },
+  {
+   "bag": "26:12 · 26:14 · 26:21 · 26:135",
+   "kural": "L1",
+   "not": "خوف *(korku)* dört geçiş: üçü Mûsâ kendisi için, dördüncüsü Hûd **başkası için** ve ilk kez عَلَىٰ edatıyla (aday 703)."
+  },
+  {
+   "bag": "25:59 · 26:98 · 26:136",
+   "kural": "L1",
+   "not": "سوي üç biçim üç anlam: bab VIII 'istivâ' → bab II 'denk kılma' → isim 'eşit'. **Bab önerisi üçüncüde yetmiyor** (aday 704)."
+  },
+  {
+   "bag": "26:128 · 26:137",
+   "kural": "L1",
+   "not": "529 kümesinin en sık iki kökü: `أيي` (n=597, 'yapı') ve `خلق` (n=261, 'huy'). İkisinde de lemma aynı, ayrım yalnız bağlamdan — **onarımın üçüncü katmanı zorunlu** (adaylar 697, 705)."
+  },
+  {
+   "bag": "26:135 ↔ 26:138",
+   "kural": "L1",
+   "not": "عذب *(azap)* korkudan reddetmeye. **Ve yeni ölçü tanımı eksiği: edilgen ism-i mef'ûl `pas` alanına girmiyor** (aday 706)."
+  },
+  {
+   "bag": "26:139 · 26:158",
+   "kural": "L1",
+   "not": "**Nakarat GÖMÜLÜ biçimde** (n=10, başına `فَكَذَّبُوهُ فَأَهْلَكْنَٰهُمْ` eklenmiş) ve `nakarat` alanı 0, `esit` boş. **Nakarat sayımı 6 değil en az 8** (aday 707)."
+  },
+  {
+   "bag": "26:123-131 ↔ 26:141-150",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT SINAMASI 2 (aday 708):** Sâlih kıssasında da altı öğenin altısı var. **Ve örgü Hûd'unkiyle aynı** ((iv) → üç suçlama → (vi)), Nûh'unkinden farklı — ön-kaydın öngörmediği alt kalıp."
+  },
+  {
+   "bag": "26:107 · 26:125 · 26:143 · 26:146",
+   "kural": "L1",
+   "not": "أمن *(güven; iman)* üç lemma üç hüküm: `مُؤْمِن` on token esmâ sayılıyor (artefakt), `أَمِين` üç token sayılmıyor (doğru), `ءَامِنِين` sayılmıyor (doğru). **Üçünün de göndergesi insan — gönderge denetiminin yokluğu kesinleşti** (aday 709)."
+  },
+  {
+   "bag": "26:57 · 26:134 · 26:147",
+   "kural": "L1",
+   "not": "جَنَّٰتٍ وَعُيُونٍ üç geçiş iki işaret (kayıp / nimet / nimet). **esit 26:147'yi 44:52 ile yakalıyor ama 26:134 ile eşleşmeyi kaçırıyor** — alanın davranışını en net gösteren örnek (aday 710)."
+  },
+  {
+   "bag": "26:128-129 ↔ 26:149",
+   "kural": "L1",
+   "not": "Yapı suçlaması iki kavimde: Âd tepelere işaret dikiyor / Semûd dağlardan ev yontuyor. Ortak biçim: 2MP muzâri + yapı nesnesi + tarz (aday 712)."
+  },
+  {
+   "bag": "26:147 ↔ 44:52",
+   "kural": "L2",
+   "not": "TAM AYET ÖZDEŞ ve esit yakalıyor."
+  },
+  {
+   "bag": "26:149 ↔ 7:74 · 15:82",
+   "kural": "L2",
+   "not": "xref: ينحت *(yontuyor)* + جبل *(dağ)* + بيت *(ev)* — üçlü korpusta neredeyse ayrılmaz (نحت ▸sonra dağ ×107,4)."
+  },
+  {
+   "bag": "26:150 ↔ 26:151",
+   "kural": "L1",
+   "not": "طوع *(itaat)* bitişik iki ayette emirden yasağa; 25:52 ile üç geçiş (aday 713)."
+  },
+  {
+   "bag": "26:142 ↔ 26:152",
+   "kural": "L1",
+   "not": "صلح *(salâh; Sâlih)* aynı sûrede özel ad ve fiil karşı karşıya — 26:124'ün هود vakasının tersi (aday 714)."
+  },
+  {
+   "bag": "26:153 ↔ 26:185",
+   "kural": "L1",
+   "not": "**Sûrenin ALTINCI nakarat kümesi ve en küçüğü — iki üyeli.** Nakarat tanımının eşiği belirsiz (aday 715)."
+  },
+  {
+   "bag": "26:31 ↔ 26:154",
+   "kural": "L1",
+   "not": "Meydan okuma kalıbı iki kavimde: `فَأْتِ بِ… إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ`; ortak parça dört kelime, **`esit_yakin` bunu yakalar** (aday 716)."
+  },
+  {
+   "bag": "26:38 ↔ 26:155",
+   "kural": "L1",
+   "not": "يَوْمٍ مَّعْلُومٍ iki bölüşüm: toplanma vakti / su nöbeti günü (aday 717)."
+  },
+  {
+   "bag": "26:135 · 26:156 · 26:158",
+   "kural": "L1",
+   "not": "عَذَابُ يَوْمٍ عَظِيمٍ üç aşama: korku (Hûd) → tehdit (Sâlih) → gerçekleşme (anlatıcı) (aday 718)."
+  },
+  {
+   "bag": "26:139-140 ↔ 26:158-159",
+   "kural": "L1",
+   "not": "**Nakarat çifti ikinci kez kırık** (birinci gömülü, ikincisi ayrı). **Çift Mûsâ/İbrâhîm/Nûh'ta bütün, Hûd/Sâlih'te kırık** — ölçüm alanı bunu göstermiyor (adaylar 707, 720)."
+  },
+  {
+   "bag": "26:105 · 26:123 · 26:141 · 26:160",
+   "kural": "L1",
+   "not": "Kıssa açılış tipolojisi: elçi adıyla → tamlama (n=4), kavim adıyla → tek ad (n=3). **Ön-kayıt: Şuayb açılışı 26:176'da sınanacak** (aday 721)."
+  },
+  {
+   "bag": "26:152 ↔ 27:48",
+   "kural": "L2",
+   "not": "xref: أفسد + أرض + أصلح."
+  },
+  {
+   "bag": "26:154 ↔ 21:3",
+   "kural": "L2",
+   "not": "xref: بشر *(beşer)* + مثل *(benzer)* + أتى *(getir)*."
+  },
+  {
+   "bag": "26:156 ↔ 7:73 · 11:64",
+   "kural": "L2",
+   "not": "xref: iki 3-gram, ikisi de aynı iki ayete — donmuş kalıp adayı (aday 437)."
+  },
+  {
+   "bag": "26:106 · 26:124 · 26:142 · 26:161",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT ASIL SINAMASI (aday 722): TAHMİN TUTMADI.** أَلَا تَتَّقُونَ Lût kıssasında da VAR. Gerekçem de yanlıştı: `esit` alanının bilinen eksiğini kalıbın yokluğu sanmışım."
+  },
+  {
+   "bag": "26:5 · 26:165",
+   "kural": "L1",
+   "not": "ذكر *(anma, zikir)* aynı sûrede iki anlam: ilâhî zikir / erkekler. **Dikey satırı ▸sonra أنث *(dişi)* ×13,4 veriyor — iki anlam da komşulukta** (aday 723; 711'in ikinci vakası)."
+  },
+  {
+   "bag": "26:137 ↔ 26:166",
+   "kural": "L1",
+   "not": "خلق *(yaratma; huy)* aynı sûrede iki anlam, 29 ayet arayla. 26:142↔26:152'nin صلح vakasıyla aynı sınıf (aday 724)."
+  },
+  {
+   "bag": "26:29 · 26:116 · 26:167",
+   "kural": "L1",
+   "not": "Tehdit kalıbı üç kıssa üç ceza: zindan / taşlanma / sürgün. **26:116 ↔ 26:167 yalnız iki kelime farklı ve `esit` yakalamıyor — `esit_yakin` (n−1) de kaçırır, n−2 eşiği gerekebilir** (aday 725)."
+  },
+  {
+   "bag": "26:112 ↔ 26:168",
+   "kural": "L1",
+   "not": "عمل *(iş, amel)* iki elçi iki tutum: bilgisizlik (Nûh) / öfke (Lût). قلي korpusta iki geçişli ve dikey satırı boş — 'boş komşuluk' listesi on bire çıktı (aday 726)."
+  },
+  {
+   "bag": "26:65 · 26:119 · 26:170",
+   "kural": "L1",
+   "not": "نجو *(kurtarma)* üç kıssa üç kapsam: topluluk / gemidekiler / aile. Dua kapsamı (26:118, 26:169) ile gerçekleşme kapsamı örtüşüyor (aday 727)."
+  },
+  {
+   "bag": "26:170 ↔ 37:134",
+   "kural": "L2",
+   "not": "xref: نجّى *(kurtardı)* + أهل *(aile)* + أجمع *(hepsi)*."
+  },
+  {
+   "bag": "26:171 ↔ 26:173",
+   "kural": "L1",
+   "not": "غبر *(geride kalma)* ▸sonra yağmur ×399,0 ve مطر *(yağmur)* ▸önce geride-kalan ×502,7 — **karşılıklı bağ ve okumadaki en yüksek iki kat**; iki komşu da bu bölütte (aday 729)."
+  },
+  {
+   "bag": "26:64 · 26:66 · 26:172",
+   "kural": "L1",
+   "not": "Eşyapılı üçlü tamamlandı: n=3, 1P ×2, fâsıla ٱلْءَاخَرِينَ; değişen yalnız fiil (زلف / غرق / دمر). **esit üçünü de bağlamıyor** — `esit_yapi` gereksinimi üçüncü kez (aday 730)."
+  },
+  {
+   "bag": "25:40 ↔ 26:173",
+   "kural": "L1",
+   "not": "مطر *(yağmur)*: helâk ADI (isim tamlaması) / EYLEM yapısı (fiil + MM + isim, üç kez). 27:58 ile tam özdeş (aday 731)."
+  },
+  {
+   "bag": "26:174-175",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT TUTTU (aday 732):** nakarat çifti Lût kıssasında BÜTÜN. Tablo: Mûsâ/İbrâhîm/Nûh bütün · Hûd/Sâlih **kırık** · Lût bütün — kırıklık ardışık iki kıssada kümeleniyor."
+  },
+  {
+   "bag": "26:105 · 123 · 141 · 160 · 176",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT TUTTU (aday 733):** Şuayb açılışı üçüncü biçim (`أَصْحَٰبُ لْـَٔيْكَةِ`, n=4). **Öngörmediğim öğe: fiil `كَذَّبَ` ERİL; öteki dördü `كَذَّبَتْ` dişil.**"
+  },
+  {
+   "bag": "26:106 · 124 · 142 · 161 · 177",
+   "kural": "L1",
+   "not": "**TAHMİN DÜŞTÜ (aday 734):** öğe (ii) beş kıssanın beşinde de var. **Ama öngörmediğim gerçek fark: Şuayb'da `أخو` *(kardeş)* YOK** (n=6, ötekiler n=7)."
+  },
+  {
+   "bag": "26:171 ↔ 37:135 · 26:172 ↔ 37:136 · 26:173 ↔ 27:58",
+   "kural": "L2",
+   "not": "Üç ardışık ayet, üç tam özdeşlik — ikisi 37. sûreye, biri 27. sûreye. esit üçünü de yakalıyor."
+  },
+  {
+   "bag": "26:181 · 26:182 · 26:183",
+   "kural": "L1",
+   "not": "**Okumadaki en yüksek komşuluk katı: `كيل` ▸sonra `قسطس` ×661,4** — ve beş kök (`وفي`·`كيل`·`وزن`·`قسطس`·`بخس`) birbirine kilitli, hepsi üç ayette. Seyrek köklerde zenginleşme hesabı güvenilmez (aday 735)."
+  },
+  {
+   "bag": "26:182 ↔ 17:35",
+   "kural": "L2",
+   "not": "xref: وزن + قسطاس + مستقيم. **Okumada ilk kez bir ölçü aracı adı — ama çıpa sayılmadı: ölçü fizik değil ADALET ölçütü** (aday 736)."
+  },
+  {
+   "bag": "26:152 ↔ 26:183",
+   "kural": "L1",
+   "not": "فسد *(fesat)*: Semûd'un ileri gelenlerinin niteliği / Eyke halkına yasak. `عثو` ↔ `فسد` karşılıklı bağ ve xref 7:85, 11:85'e — donmuş kalıp (aday 737)."
+  },
+  {
+   "bag": "26:131 · 26:132 · 26:184",
+   "kural": "L1",
+   "not": "وقي *(sakınma)* bab VIII üç gönderge: lafız → yardım eden → yaratan. `جبل` burada 'nesil', 26:149'da 'dağ' — aynı sûrede iki anlam (aday 738)."
+  },
+  {
+   "bag": "26:153 ↔ 26:185",
+   "kural": "L1",
+   "not": "Altıncı ve en küçük nakarat kümesi kapandı (2/2). **Nakarat envanteri tam: 34 standalone + 2 gömülü = 36 ayet (%15,9)** (aday 739)."
+  },
+  {
+   "bag": "26:154 ↔ 26:186",
+   "kural": "L1",
+   "not": "Eşitleme kalıbı: aynı ilk yarı (`أَنتَ إِلَّا بَشَرٌ مِّثْلُنَا`), iki ayrı ikinci yarı (talep / zan). Ortak parça dört kelime ve bitişik — **`k-ardışık` eşiği gerekiyor** (aday 740)."
+  },
+  {
+   "bag": "26:31 · 26:154 · 26:187",
+   "kural": "L1",
+   "not": "Meydan okuma kalıbı üç geçiş, talep somutlaşıyor: zamir → âyet → gökten parça. `سقط` ↔ `كسف` karşılıklı bağ (×520,0 / ×554,4) (aday 741)."
+  },
+  {
+   "bag": "26:112 · 26:168 · 26:188",
+   "kural": "L1",
+   "not": "عمل *(iş, amel)* üç elçi üç tutum: bilgisizlik (Nûh) / öfke (Lût) / bilgiyi Rabbe havale (Şuayb). 26:188 dış düğüm 4 — sûrede en yüksek (aday 742)."
+  },
+  {
+   "bag": "26:135 · 26:156 · 26:189",
+   "kural": "L1",
+   "not": "عَذَابُ يَوْمٍ عَظِيمٍ üç aşama tamam: korku → tehdit → **gerçekleşme**. 26:189'da iki kök birden ikileniyor (`عذب`, `يوم`) — okumada ikinci vaka (aday 743)."
+  },
+  {
+   "bag": "26:190",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT TAM TUTTU (aday 744):** nakarat çifti Şuayb'da da bütün. Tam tablo: Mûsâ/İbrâhîm/Nûh bütün · **Hûd/Sâlih kırık** · Lût/Şuayb bütün — kırıklık ardışık iki kıssada, iki yandan çevrelenmiş."
+  },
+  {
+   "bag": "26:187 ↔ 34:9 · 26:189 ↔ 16:113",
+   "kural": "L2",
+   "not": "xref: تسقط + كسف + سماء · كذّب + أخذ + عذاب."
+  },
+  {
+   "bag": "26:9 · 68 · 104 · 122 · 140 · 159 · 175 · 191",
+   "kural": "L1",
+   "not": "**İkinci nakarat kümesi tamam (8/8); sekiz mühürlü konumun sekizi de geçerli.** Ama sekizi tek ayetin tekrarı — bağımsız gözlem 1 (adaylar 745, 606)."
+  },
+  {
+   "bag": "26:16 · 23 · 47 · 77 · 98 · 192",
+   "kural": "L1",
+   "not": "رَبّ ٱلْعَٰلَمِينَ yedinci konum ve **ilk kez anlatıcı sesinde** — öncekiler kıssada ya da nakaratta (aday 746)."
+  },
+  {
+   "bag": "26:107 · 26:193",
+   "kural": "L1",
+   "not": "أَمِين esmâ sayılmıyor; 26:107'de gönderge ELÇİ, 26:193'te MELEK. **Esmâ sınama kümesine üçüncü sınıf: melek göndergesi — hüküm tanımsız** (aday 747)."
+  },
+  {
+   "bag": "26:89 · 26:194 · 26:200",
+   "kural": "L1",
+   "not": "قلب *(kalp)* üç işlev: kurtuluş şartı → vahyin indiği yer → vahyin sokulduğu yer. Son ikisi ters yönde (نزل / سلك) (aday 748)."
+  },
+  {
+   "bag": "26:13 · 26:84 · 26:195",
+   "kural": "L1",
+   "not": "لسن *(dil)* **üç anlam aynı sûrede**: konuşma yetisi → nam → lisan. **Dikey satırı yalnız baskın anlamı gösteriyor — 711/723'ün sinyali bu vakada ÇALIŞMIYOR** (aday 749)."
+  },
+  {
+   "bag": "26:26 · 137 · 184 · 196",
+   "kural": "L1",
+   "not": "ٱلْأَوَّلِينَ dört fâsıla dört gönderge: atalar / âdet / nesiller / kitaplar (aday 750)."
+  },
+  {
+   "bag": "26:17 · 22 · 59 · 197",
+   "kural": "L1",
+   "not": "**ADAY 612 TAMAMLANDI: dört kafiye kırılmasının dördü de `إِسْرَٰٓءِيلَ` ile.** Kırılma adın son harfine bağlı — 'anlamlı vurgu' yorumu zayıflıyor; ve dördü de o ayetlerde yıldızın tek kaynağı (aday 751)."
+  },
+  {
+   "bag": "26:195 ↔ 26:198",
+   "kural": "L1",
+   "not": "عرب *(Arapça)* ↔ عجم *(a'cemî)*: **iki ayrı kök, karşıt anlam** — 613/627/652/687 deseninin aynası (aday 752)."
+  },
+  {
+   "bag": "25:1 ↔ 26:199",
+   "kural": "L1",
+   "not": "قرأ *(okuma)* sûre 26'da tek geçiş ve dikey satırı ▸önce فرق *(Furkān kökü)* ×22,4 veriyor (aday 753)."
+  },
+  {
+   "bag": "26:192 ↔ 56:80 · 69:43 · 26:195 ↔ 16:103 · 26:200 ↔ 15:12",
+   "kural": "L2",
+   "not": "xref: تنزيل + ربّ + عالم · لسان + عربيّ + مبين · سلك + قلب + مجرم."
+  },
+  {
+   "bag": "26:199 ↔ 26:201",
+   "kural": "L1",
+   "not": "أمن *(iman)* farazîden gerçeğe, aynı zamirle (بِهِ). Uyarı: kök çok sık, bağ rastlantısal olabilir (aday 754)."
+  },
+  {
+   "bag": "26:113 ↔ 26:202",
+   "kural": "L1",
+   "not": "شعر ikinci geçiş, yine 'farkına varma'. **ÖN-KAYIT: üçüncü geçiş 26:224'te `ٱلشُّعَرَآء` olacak ve korpusta azınlık anlam — sûre adı, sûre içi anlamla örtüşmeyecek** (aday 755)."
+  },
+  {
+   "bag": "26:33 ↔ 26:203",
+   "kural": "L1",
+   "not": "نظر *(bakma; mühlet verme)* aynı sûrede iki anlam — sınıfın altıncı vakası. **Dikey sinyal burada çalışmıyor** (aday 756)."
+  },
+  {
+   "bag": "26:203 ↔ 26:204",
+   "kural": "L1",
+   "not": "Bitişik çift, ters zaman yönü: mühlet isteği / acele suçlaması; ikisi de soru. 26:204 sûrenin en kısa ayetlerinden (n=2) (aday 757)."
+  },
+  {
+   "bag": "26:205 · 26:206 · 26:207",
+   "kural": "L1",
+   "not": "Üç ayetlik şart-cevap yapısı, **iki ucunda aynı kök iki çatıda** (متع etken/edilgen). `سِنِينَ` süre ADI, ölçü değil — çıpa sayılmadı (aday 758)."
+  },
+  {
+   "bag": "26:139 ↔ 26:208",
+   "kural": "L1",
+   "not": "هلك *(helâk)* olaydan kurala; fâsıla `مُنذِرُونَ` 26:194'ünkiyle aynı lemma farklı i'râb (aday 759)."
+  },
+  {
+   "bag": "26:165 ↔ 26:209",
+   "kural": "L1",
+   "not": "ذكر azınlık anlamdan (erkekler) baskın anlama (hatırlatma). **711/723 sinyali bu kökte ÇALIŞIYOR** — لسن ve نظر'de çalışmamıştı; tablo dört vakalı (aday 760)."
+  },
+  {
+   "bag": "26:192 · 193 · 198 · 210",
+   "kural": "L1",
+   "not": "نزل dört biçim bir kaynak zinciri: masdar (Rab) → bab I (Rûh) → bab II (farazî alıcı) → **bab V, olumsuz (şeytanlar)**. Bab alanı `vf`'te var — **elle kodlama gerektirmeyen ilk yörünge vakası** (aday 761)."
+  },
+  {
+   "bag": "26:201 ↔ 10:88 · 10:97 · 26:202 ↔ 29:53 · 43:66",
+   "kural": "L2",
+   "not": "xref: آمن + رأى + عذاب · أتى + بغتة + يشعر."
+  },
+  {
+   "bag": "26:151 · 26:211 · (nakarat 8)",
+   "kural": "L1",
+   "not": "طوع *(itaat; güç yetirme)* aynı sûrede iki anlam. **İlk kez bir 529 vakası nakarat düzeltmesi gerektiriyor: dokuz geçişin sekizi tek nakarattan** (aday 762)."
+  },
+  {
+   "bag": "26:15 · 25 · 72 · 212 · 220",
+   "kural": "L1",
+   "not": "سمع *(işitme)* beş özne katmanı: ilâhî → Firavun → putlar → şeytanlar → **ilâhî sıfat (esmâ)**; dizi kapanıyor (aday 763)."
+  },
+  {
+   "bag": "25:68 ↔ 26:213",
+   "kural": "L1",
+   "not": "Lafız ve sahte ilâh aynı ayette, iki sûrede: 3MP bildirim / 2MS emir. Ortak parça beş kelime ve bitişik — **`k-ardışık` eşiği bunu yakalar** (aday 764)."
+  },
+  {
+   "bag": "26:214",
+   "kural": "L1",
+   "not": "**Sayı dedektöründe artefakt: `عشر` kökü 'on' sanıldı, oysa `عَشِيرَة` *(aşiret)*. ÜÇÜNCÜ ALAN aynı tasarım hatasını taşıyor** (aktör, esmâ, sayı) — ortak kök sebep: lemma + bağlam denetimi yok (aday 765)."
+  },
+  {
+   "bag": "26:40 · 52 · 60 · 111 · 215",
+   "kural": "L1",
+   "not": "تبع *(uyma)* beş değer üç çatı: niyet → uyarı → gerçekleşme → kusur → **olumlu bağlılık** (aday 766)."
+  },
+  {
+   "bag": "26:112 · 168 · 188 · 216",
+   "kural": "L1",
+   "not": "عمل *(iş, amel)* dört tutum: bilgisizlik → öfke → bilgiyi havale → **uzak durma**; dördü de fâsılada (aday 767)."
+  },
+  {
+   "bag": "26:9 (×8) ↔ 26:217",
+   "kural": "L1",
+   "not": "**EN TEMİZ GÖSTERİM (aday 768):** aynı esmâ çifti, aynı mühür konumu — nakaratta ★★★ (rab var), 26:217'de **yıldızsız** (rab yok). **Sekiz ★★★'ın kaynağı esmâ değil, Rab oranı.**"
+  },
+  {
+   "bag": "26:58 · 182 · 218 · (kıssalar)",
+   "kural": "L1",
+   "not": "قوم *(kalkma; kavim; kıyamet)* **dört anlam alanı tek sûrede** — 529'un en geniş vakası; bab da lemma da çözmez, **bağlam gerekir** (aday 769)."
+  },
+  {
+   "bag": "26:46 ↔ 26:219",
+   "kural": "L1",
+   "not": "سجد *(secde)*: edilgen ★★★ / topluluk adı yıldızsız. Ve قلب *(kalp; dolaşma)* dördüncü geçişte ilk kez 'dolaşma' — **bu vakada bab girdisi çözer** (aday 770)."
+  },
+  {
+   "bag": "26:217 · 26:220",
+   "kural": "L1",
+   "not": "**Sûrenin mühür envanteri tam: 10 mühür, 2 çift (`عَزِيز|رَحِيم` ×9, `سَمِيع|عَلِيم` ×1), hepsi GEÇERLİ. Ama bağımsız mühür sayısı 10 değil 3** (aday 771)."
+  },
+  {
+   "bag": "26:192 · 193 · 198 · 210 · 221",
+   "kural": "L1",
+   "not": "نزل *(inme)* kaynak zinciri BEŞ halkalı: masdar → bab I → bab II → bab V olumsuz → bab V soru. **Bab alanı hepsini otomatik veriyor** (aday 772)."
+  },
+  {
+   "bag": "25:4 · 26:45 · 26:222",
+   "kural": "L1",
+   "not": "أفك *(uydurma)* üç gönderge: Kur'ân'a atılan iftira / büyücülerin uydurması / şeytanların indiği kişi (aday 773)."
+  },
+  {
+   "bag": "26:15 · 25 · 72 · 212 · 220 · 223",
+   "kural": "L1",
+   "not": "سمع *(işitme)* ALTI geçiş. **Aday 763'ün 'dizi esmâda kapanıyor' yorumu DÜŞTÜ** — altıncı geçiş var ve gayb'a dönüyor (aday 774)."
+  },
+  {
+   "bag": "26:113 · 26:202 · 26:224",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT TUTTU (aday 775):** `شعر` üçüncü geçişi 26:224'te `ٱلشُّعَرَآء` ve korpusta azınlık anlam; sûre içi iki geçiş 'farkına varma'. **Dördüncü ön-kayıt başarısı.**"
+  },
+  {
+   "bag": "26:225",
+   "kural": "L1",
+   "not": "`ودي` ▸sonra `نمل` ×534,8 ve `هيم` ▸önce `شرب` ×297,4 — **iki kat da tek sahneden** (27:18 karınca vadisi, 56:55 susuz deve). 735'in uyarısı dördüncü kez; sûre 26'da dokuz böyle vaka (aday 776)."
+  },
+  {
+   "bag": "26:19 · 20 · 74 · 226",
+   "kural": "L1",
+   "not": "فعل *(yapma)* beş geçiş; **sûre ilk kıssada açtığı kökle kapanıyor** ve üç fâsıla aynı kelime. Uyarı: fâsıla kısıtı (aday 777)."
+  },
+  {
+   "bag": "26:89 · 194 · 200 · 219 · 227",
+   "kural": "L1",
+   "not": "قلب *(kalp; dolaşma; devriliş)* beş geçiş, üç anlam alanı. 26:227'de **iki kök birden ikileniyor** (`ظلم`, `قلب`) — okumada üçüncü vaka (aday 778)."
+  },
+  {
+   "bag": "26:227 ↔ 4:124 · 42:41",
+   "kural": "L2",
+   "not": "xref: عمل + صالحة + ذكر · انتصر + بعد + ظلم."
+  }
+ ],
+ "AG_neml": [
+  {
+   "bag": "26 ↔ 27 (makro)",
+   "kural": "L1",
+   "not": "**A/R tersine dönüyor: 0,36 → 2,25 (okumada ilk kez >1).** Ve nakarat 36 → **0**, kafiye kırılması 4 → **0**, `esit` 44 → **3**, iltifât 15 → **3**, ortalama kelime 5,81 → **12,38**. **Sûre 27, sûre 26'nın doğal kontrolü** (adaylar 780, 781)."
+  },
+  {
+   "bag": "26:1 ↔ 27:1",
+   "kural": "L1",
+   "not": "Akraba harf öbeği (`طسٓمٓ` / `طسٓ`) ama 26:1'de kök YOKTU (▽ yazılamayan tek ayet), 27:1'de dört kök var (aday 780)."
+  },
+  {
+   "bag": "27:3 · 27:4 · 27:5",
+   "kural": "L1",
+   "not": "Üç ardışık ayette `ٱلْءَاخِرَة` ve üç işlev (yakîn / red / sonuç); **üçü de esmâ artefaktı — hata ayet düzeyinde kümeleniyor** (aday 783)."
+  },
+  {
+   "bag": "26:21 · 26:83 · 27:6",
+   "kural": "L1",
+   "not": "حكم *(hüküm)* üç alma biçimi: bağışlandı / bağışla / katından alınmakta. Uyarı: `لدن` ▸önce `وهب` ×44,0 — çift korpusta bağlı (aday 784)."
+  },
+  {
+   "bag": "26:10 ↔ 27:7",
+   "kural": "L1",
+   "not": "Mûsâ kıssası iki giriş noktası: **nidâ** / **ateş görme**; sûre 27 bir ayet önceden başlıyor. 607/680 kümesine üçüncü vaka (aday 785)."
+  },
+  {
+   "bag": "26 (×7) ↔ 27:8",
+   "kural": "L1",
+   "not": "رَبِّ ٱلْعَٰلَمِينَ: sûre 26'da yedi geçişin hiçbirinde lafız yoktu; **sûre 27'de ilk geçiş lafızla birlikte** ve sûrenin ilk lafzı da burada (aday 786)."
+  },
+  {
+   "bag": "26:32 ↔ 27:10",
+   "kural": "L1",
+   "not": "Asâ-yılan: `ثُعْبَانٌ مُّبِينٌ` / `كَأَنَّهَا جَآنٌّ` — ikincisinde BENZETME var. Ve `جنن` üçüncü anlamda (aday 788)."
+  },
+  {
+   "bag": "27:10 ↔ 28:31",
+   "kural": "L2",
+   "not": "**Altı 3-gram'ın altısı da tek ayete** — okumada ilk kez; `esit` boş. **Yeni ölçüt önerisi: 'xref yoğunluğu', `xref` alanından otomatik çıkarılabilir** (aday 788)."
+  },
+  {
+   "bag": "27:3 ↔ 31:4",
+   "kural": "L2",
+   "not": "TAM AYET ÖZDEŞ ve `esit` yakalıyor — sûre 27'nin üç `esit` ayetinden biri."
+  },
+  {
+   "bag": "27:6 · 27:9 · 27:11",
+   "kural": "L1",
+   "not": "**Beş ayet içinde üç ayrı mühür çifti** (`حَكِيم|عَلِيم` · `عَزِيز|حَكِيم` · `غَفُور|رَحِيم`), üçü de geçerli — sûre 26'nın tersi (aday 789)."
+  },
+  {
+   "bag": "27:12 ↔ 38:23",
+   "kural": "L1",
+   "not": "**`تسع` *(dokuz)* ▸sonra `نعج` *(dişi koyun)* ×948,5 — okumadaki en yüksek komşuluk katı** ve tek sahneden (38:23). 735/776 kümesinin beşinci ve en uç vakası (aday 790)."
+  },
+  {
+   "bag": "26:34 ↔ 27:13",
+   "kural": "L1",
+   "not": "سحر *(büyü)* kişiden olaya; **ve ikisinde de fâsıladaki esmâ artefakt** — `هَٰذَا + isim + sıfat` kalıbı iki sûrede de hata üretiyor (aday 791)."
+  },
+  {
+   "bag": "27:3 ↔ 27:14",
+   "kural": "L1",
+   "not": "يقن *(yakîn)* aynı sûrede iki kutup, iki bab: müminlerin inancı (bab IV) / inkârcıların iç çelişkisi (bab X) (aday 792)."
+  },
+  {
+   "bag": "26:21 · 26:83 · 27:15",
+   "kural": "L1",
+   "not": "'Verilen şey' üç ayet: hüküm (PERF) / hüküm (IMPV) / **ilim** (PERF, 1P). Ve `حكم`+`علم` sûre 27'de hem mühür esmâsı (27:6) hem verilen şey (aday 793)."
+  },
+  {
+   "bag": "26:38-39 ↔ 27:17",
+   "kural": "L1",
+   "not": "'Toplanma' iki ayrı kökle (`جمع` / `حشر`) — 613/627/652/687 kümesinin **sûreler arası** ilk vakası (aday 795)."
+  },
+  {
+   "bag": "26:225 ↔ 27:18",
+   "kural": "L1",
+   "not": "**ÖN-KAYIT TUTTU (aday 796):** 26:225'te `ودي` ▸sonra `نمل` ×534,8'in kaynağını 27:18 diye tahmin etmiştim. **Doğrulandı:** `نمل` ▸önce vadi ×520,0, `سكن` ▸önce karınca ×99,1 — üç kök kilitli ve üçü tek ayette."
+  },
+  {
+   "bag": "26:83 ↔ 27:19",
+   "kural": "L1",
+   "not": "İki elçi, iki emirli dua, **aynı fâsıla** (`ٱلصَّٰلِحِينَ`). Ve 27:19'da **üç kök birden ikileniyor — okumada ilk kez** (aday 797)."
+  },
+  {
+   "bag": "27:16 · 27:17 · 27:20",
+   "kural": "L1",
+   "not": "طير *(kuş)* üç ölçek: dil (yeti) → ordu (topluluk) → hüdhüd (birey) (aday 798)."
+  },
+  {
+   "bag": "27:19 ↔ 46:15",
+   "kural": "L2",
+   "not": "**Dokuz 3-gram'ın sekizi tek ayete** — 27:10'un altı bağını geçiyor; 'xref yoğunluğu' ölçütüne ikinci veri (aday 797)."
+  }
  ]
 }
