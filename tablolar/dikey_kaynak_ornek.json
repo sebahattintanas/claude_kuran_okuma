@@ -1,0 +1,486 @@
+{
+ "عظم|مضغ": {
+  "ayri_ayet": 1,
+  "ifade_ortakligi": 0.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 128,
+  "n_ortak": 3,
+  "kaynak": [
+   [
+    23,
+    14
+   ]
+  ]
+ },
+ "سجد|شطر": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 1.0,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 92,
+  "n_ortak": 5,
+  "kaynak": [
+   [
+    2,
+    144
+   ],
+   [
+    2,
+    149
+   ],
+   [
+    2,
+    150
+   ]
+  ]
+ },
+ "مرأ|عقر": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 0.667,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 38,
+  "n_ortak": 8,
+  "kaynak": [
+   [
+    3,
+    40
+   ],
+   [
+    19,
+    5
+   ],
+   [
+    19,
+    8
+   ]
+  ]
+ },
+ "عرش|ستت": {
+  "ayri_ayet": 6,
+  "ifade_ortakligi": 1.0,
+  "sinif": "B2-donmus-kalip",
+  "n_hedef": 33,
+  "n_ortak": 8,
+  "kaynak": [
+   [
+    7,
+    54
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    11,
+    7
+   ],
+   [
+    25,
+    59
+   ],
+   [
+    32,
+    4
+   ],
+   [
+    57,
+    4
+   ]
+  ]
+ },
+ "شمس|قمر": {
+  "ayri_ayet": 20,
+  "ifade_ortakligi": 0.25,
+  "sinif": "C-birliktelik",
+  "n_hedef": 33,
+  "n_ortak": 27,
+  "kaynak": [
+   [
+    6,
+    96
+   ],
+   [
+    7,
+    54
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    12,
+    4
+   ],
+   [
+    13,
+    2
+   ],
+   [
+    14,
+    33
+   ],
+   [
+    16,
+    12
+   ],
+   [
+    21,
+    33
+   ]
+  ]
+ },
+ "ذبح|حيي": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 0.667,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 9,
+  "n_ortak": 189,
+  "kaynak": [
+   [
+    2,
+    49
+   ],
+   [
+    14,
+    6
+   ],
+   [
+    28,
+    4
+   ]
+  ]
+ },
+ "تسع|نعج": {
+  "ayri_ayet": 1,
+  "ifade_ortakligi": 0.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 7,
+  "n_ortak": 4,
+  "kaynak": [
+   [
+    38,
+    23
+   ]
+  ]
+ },
+ "طير|هيأ": {
+  "ayri_ayet": 2,
+  "ifade_ortakligi": 1.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 29,
+  "n_ortak": 4,
+  "kaynak": [
+   [
+    3,
+    49
+   ],
+   [
+    5,
+    110
+   ]
+  ]
+ },
+ "سوق|لفف": {
+  "ayri_ayet": 1,
+  "ifade_ortakligi": 0.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 17,
+  "n_ortak": 3,
+  "kaynak": [
+   [
+    75,
+    29
+   ]
+  ]
+ },
+ "بيت|عنكب": {
+  "ayri_ayet": 1,
+  "ifade_ortakligi": 0.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 73,
+  "n_ortak": 2,
+  "kaynak": [
+   [
+    29,
+    41
+   ]
+  ]
+ },
+ "مرد|شطن": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 0.333,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 5,
+  "n_ortak": 88,
+  "kaynak": [
+   [
+    4,
+    117
+   ],
+   [
+    22,
+    3
+   ],
+   [
+    37,
+    7
+   ]
+  ]
+ },
+ "مرأ|غبر": {
+  "ayri_ayet": 5,
+  "ifade_ortakligi": 0.6,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 38,
+  "n_ortak": 8,
+  "kaynak": [
+   [
+    7,
+    83
+   ],
+   [
+    15,
+    60
+   ],
+   [
+    27,
+    57
+   ],
+   [
+    29,
+    32
+   ],
+   [
+    29,
+    33
+   ]
+  ]
+ },
+ "خوي|عرش": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 1.0,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 5,
+  "n_ortak": 33,
+  "kaynak": [
+   [
+    2,
+    259
+   ],
+   [
+    18,
+    42
+   ],
+   [
+    22,
+    45
+   ]
+  ]
+ },
+ "هات|برهن": {
+  "ayri_ayet": 4,
+  "ifade_ortakligi": 0.75,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 4,
+  "n_ortak": 8,
+  "kaynak": [
+   [
+    2,
+    111
+   ],
+   [
+    21,
+    24
+   ],
+   [
+    27,
+    64
+   ],
+   [
+    28,
+    75
+   ]
+  ]
+ },
+ "رسو|ميد": {
+  "ayri_ayet": 3,
+  "ifade_ortakligi": 1.0,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 14,
+  "n_ortak": 5,
+  "kaynak": [
+   [
+    16,
+    15
+   ],
+   [
+    21,
+    31
+   ],
+   [
+    31,
+    10
+   ]
+  ]
+ },
+ "سير|مور": {
+  "ayri_ayet": 1,
+  "ifade_ortakligi": 0.0,
+  "sinif": "A-tek-ayet",
+  "n_hedef": 27,
+  "n_ortak": 3,
+  "kaynak": [
+   [
+    52,
+    9
+   ]
+  ]
+ },
+ "سطر|أول": {
+  "ayri_ayet": 9,
+  "ifade_ortakligi": 0.556,
+  "sinif": "B2-donmus-kalip",
+  "n_hedef": 16,
+  "n_ortak": 125,
+  "kaynak": [
+   [
+    6,
+    25
+   ],
+   [
+    8,
+    31
+   ],
+   [
+    16,
+    24
+   ],
+   [
+    23,
+    83
+   ],
+   [
+    25,
+    5
+   ],
+   [
+    27,
+    68
+   ],
+   [
+    46,
+    17
+   ],
+   [
+    68,
+    15
+   ]
+  ]
+ },
+ "عمي|صمم": {
+  "ayri_ayet": 8,
+  "ifade_ortakligi": 0.25,
+  "sinif": "C-birliktelik",
+  "n_hedef": 33,
+  "n_ortak": 15,
+  "kaynak": [
+   [
+    2,
+    18
+   ],
+   [
+    2,
+    171
+   ],
+   [
+    5,
+    71
+   ],
+   [
+    11,
+    24
+   ],
+   [
+    17,
+    97
+   ],
+   [
+    25,
+    73
+   ],
+   [
+    43,
+    40
+   ],
+   [
+    47,
+    23
+   ]
+  ]
+ },
+ "كنن|وقر": {
+  "ayri_ayet": 4,
+  "ifade_ortakligi": 0.75,
+  "sinif": "B-tek-sahne",
+  "n_hedef": 12,
+  "n_ortak": 9,
+  "kaynak": [
+   [
+    6,
+    25
+   ],
+   [
+    17,
+    46
+   ],
+   [
+    18,
+    57
+   ],
+   [
+    41,
+    5
+   ]
+  ]
+ },
+ "نفخ|صور": {
+  "ayri_ayet": 10,
+  "ifade_ortakligi": 0.6,
+  "sinif": "B2-donmus-kalip",
+  "n_hedef": 20,
+  "n_ortak": 19,
+  "kaynak": [
+   [
+    6,
+    73
+   ],
+   [
+    18,
+    99
+   ],
+   [
+    20,
+    102
+   ],
+   [
+    23,
+    101
+   ],
+   [
+    27,
+    87
+   ],
+   [
+    36,
+    51
+   ],
+   [
+    39,
+    68
+   ],
+   [
+    50,
+    20
+   ]
+  ]
+ }
+}

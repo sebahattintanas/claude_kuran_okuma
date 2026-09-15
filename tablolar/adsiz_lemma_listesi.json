@@ -1,0 +1,393 @@
+[
+ {
+  "i": 0,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فَرِيق",
+  "pos": "N",
+  "n": 33,
+  "cins": [
+   "M",
+   "MD"
+  ]
+ },
+ {
+  "i": 1,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فَرَّقُ",
+  "pos": "V",
+  "n": 9,
+  "cins": []
+ },
+ {
+  "i": 2,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "تَفَرَّقَ",
+  "pos": "V",
+  "n": 8,
+  "cins": []
+ },
+ {
+  "i": 3,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فُرْقان",
+  "pos": "N",
+  "n": 7,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 4,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فَرَقْ",
+  "pos": "V",
+  "n": 5,
+  "cins": []
+ },
+ {
+  "i": 5,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فِراق",
+  "pos": "N",
+  "n": 2,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 6,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "تَفْرِيق",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 7,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فارِقَة",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "FP"
+  ]
+ },
+ {
+  "i": 8,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فارِقُ",
+  "pos": "V",
+  "n": 1,
+  "cins": []
+ },
+ {
+  "i": 9,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فَرْق",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 10,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فِرْق",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 11,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "فِرْقَة",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "F"
+  ]
+ },
+ {
+  "i": 12,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "مُتَفَرِّق",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "MP"
+  ]
+ },
+ {
+  "i": 13,
+  "capa_etiket": "ferîk",
+  "kok": "فرق",
+  "lemma": "مُتَفَرِّقَة",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "F"
+  ]
+ },
+ {
+  "i": 14,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "امْرَأَت",
+  "pos": "N",
+  "n": 26,
+  "cins": [
+   "F",
+   "FD"
+  ]
+ },
+ {
+  "i": 15,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "امْرِئ",
+  "pos": "N",
+  "n": 5,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 16,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "مَرْء",
+  "pos": "N",
+  "n": 4,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 17,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "امْرَأ",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 18,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "امْرُؤٌا",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 19,
+  "capa_etiket": "imrae",
+  "kok": "مرأ",
+  "lemma": "مَرِيئ",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "MS"
+  ]
+ },
+ {
+  "i": 20,
+  "capa_etiket": "karye",
+  "kok": "قري",
+  "lemma": "قَرْيَة",
+  "pos": "N",
+  "n": 57,
+  "cins": [
+   "F",
+   "FD"
+  ]
+ },
+ {
+  "i": 21,
+  "capa_etiket": "nefer",
+  "kok": "نفر",
+  "lemma": "نَفَرَ",
+  "pos": "V",
+  "n": 8,
+  "cins": []
+ },
+ {
+  "i": 22,
+  "capa_etiket": "nefer",
+  "kok": "نفر",
+  "lemma": "نُفُور",
+  "pos": "N",
+  "n": 5,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 23,
+  "capa_etiket": "nefer",
+  "kok": "نفر",
+  "lemma": "نَفَر",
+  "pos": "N",
+  "n": 3,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 24,
+  "capa_etiket": "nefer",
+  "kok": "نفر",
+  "lemma": "مُسْتَنفِرَة",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "F"
+  ]
+ },
+ {
+  "i": 25,
+  "capa_etiket": "nefer",
+  "kok": "نفر",
+  "lemma": "نَفِير",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 26,
+  "capa_etiket": "racül",
+  "kok": "رجل",
+  "lemma": "رَجُل",
+  "pos": "N",
+  "n": 29,
+  "cins": [
+   "M",
+   "MD"
+  ]
+ },
+ {
+  "i": 27,
+  "capa_etiket": "racül",
+  "kok": "رجل",
+  "lemma": "رِجال",
+  "pos": "N",
+  "n": 28,
+  "cins": [
+   "MP"
+  ]
+ },
+ {
+  "i": 28,
+  "capa_etiket": "racül",
+  "kok": "رجل",
+  "lemma": "رِجْل",
+  "pos": "N",
+  "n": 15,
+  "cins": [
+   "FP",
+   "M",
+   "MD"
+  ]
+ },
+ {
+  "i": 29,
+  "capa_etiket": "racül",
+  "kok": "رجل",
+  "lemma": "رَجِل",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 30,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "طائِفَة",
+  "pos": "N",
+  "n": 24,
+  "cins": [
+   "F",
+   "FD",
+   "FS"
+  ]
+ },
+ {
+  "i": 31,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "طافَ",
+  "pos": "V",
+  "n": 8,
+  "cins": []
+ },
+ {
+  "i": 32,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "طائِف",
+  "pos": "N",
+  "n": 4,
+  "cins": [
+   "M",
+   "MP"
+  ]
+ },
+ {
+  "i": 33,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "طُوفان",
+  "pos": "N",
+  "n": 2,
+  "cins": [
+   "M"
+  ]
+ },
+ {
+  "i": 34,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "يَطَّوَّفَ",
+  "pos": "V",
+  "n": 2,
+  "cins": []
+ },
+ {
+  "i": 35,
+  "capa_etiket": "tâife",
+  "kok": "طوف",
+  "lemma": "طَوّاف",
+  "pos": "N",
+  "n": 1,
+  "cins": [
+   "MP"
+  ]
+ }
+]
