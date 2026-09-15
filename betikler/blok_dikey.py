@@ -8,6 +8,10 @@ from collections import OrderedDict
 import kuran_akis
 from kuran_akis import kelime_akisi
 from dikey_oku import dikey_oku
+sys.path.insert(0, 'onarim')
+import importlib.util as _iu
+_sp = _iu.spec_from_file_location('KAYNAK', 'onarim/09_dikey_kaynak.py')
+KAYNAK = _iu.module_from_spec(_sp); _sp.loader.exec_module(KAYNAK)
 
 S = int(sys.argv[1]); A1 = int(sys.argv[2]); A2 = int(sys.argv[3])
 KOK = json.load(open('kok_turkce.json', encoding='utf-8'))
@@ -47,7 +51,14 @@ for (s, a), kokler in ayet_kok.items():
         def fmt(zs):
             zs = [z for z in zs if z[0] >= 1.5][:3]
             if not zs: return "—"
-            return ' · '.join("%s ×%.1f" % (tr(z[1]), z[0]) for z in zs)
+            out = []
+            for z in zs:
+                sn = KAYNAK.sinif(k, z[1])           # ONARIM 7 (aday 806/835/850)
+                et = {'A-tek-ayet': ' [A tek ayet]', 'B-tek-sahne': ' [B tek sahne %d ayet]',
+                      'B2-donmus-kalip': ' [B2 donmuş kalıp %d ayet]', 'C-birliktelik': ''}[sn['sinif']]
+                if '%d' in et: et = et % sn['ayri_ayet']
+                out.append("%s ×%.1f%s" % (tr(z[1]), z[0], et))
+            return ' · '.join(out)
         satirlar.append("  · %s n=%d%s  ▸önce: %s  ▸sonra: %s  ▸Allah med=%d"
                         % (tr(k), n, uy, fmt(r.get('oncesi_zengin', [])),
                            fmt(r.get('sonrasi_zengin', [])), r['allah_medyan']))
