@@ -18974,6 +18974,4088 @@
    "kaynak": "okuma blok 27:11-20",
    "etiket": "okuma sırasında ölçüldü",
    "test_notu": "**ADAY 599/602'NİN SÛRE 27'DEKİ İLK VE EN TEMİZ GÖSTERİMİ.** Sûre 26'da 41 ★★★'ın 40'ında çıpa yoktu (aday 779); burada beş ayetlik bir bölütte **ters ilişki doğrudan görülüyor**: çıpası en güçlü ayet yıldızsız. **TUR SONU: çıpa tanımı yazıldıktan sonra çıpa/yıldız korelasyonu iki sûre için birlikte hesaplanacak — 26 ve 27, kısa/uzun ayet ve nakaratlı/nakaratsız olarak zaten kontrollü bir çift (aday 781).**"
+  },
+  {
+   "no": 800,
+   "aday": "27:21 KORPUSUN EN YÜKSEK TEKİT YOĞUNLUĞU. n=9'luk ayette EMPH 6 → oran 0,67. Aynı orana ulaşan iki ayet daha var (29:11 ve 7:6, ikisi de 4/6); **mutlak tekit sayısında 27:21 hepsinden yüksek.** Mutlak en yüksek EMPH 4:119'da (12) ama oran 0,57.",
+   "olculen": {
+    "ayet": "27:21",
+    "n": 9,
+    "EMPH": 6,
+    "oran": 0.67,
+    "korpus_esdeger": [
+     "29:11 (4/6)",
+     "7:6 (4/6)"
+    ],
+    "mutlak_en_yuksek": "4:119 (12/21, oran 0,57)"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "ararken bulundu (tam korpus sayımı koşuldu)",
+   "test_notu": "Tam korpus sayımı koşuldu; kip alanı çalışan alan (aday 722 dersi karşılanıyor). Oran ölçütü n>=6 ayetlerde anlamlı; n<6 ayetlerde payda küçüklüğü nedeniyle hesaplanmadı."
+  },
+  {
+   "no": 801,
+   "aday": "DÜŞEN KAYIT — 27:21'İN 'SÛRENİN EN UZUN AYETİ (n=61)' KAYDI YANLIŞ. Kapanış notu (2026-09-04) devam noktasında 27:21'i sûrenin en uzun ayeti ve n=61 olarak kaydetmişti. **Ölçülen n=9.** Sûrenin en uzun ayetleri: 27:40 (n=38) · 27:44 (n=28) · 27:60 (n=27) · 27:19 (n=24) · 27:61 (n=21). Kayıt, sıralı listedeki (n=21, ayet=61) ikilisinin ters okunmasından gelmiş.",
+   "olculen": {
+    "iddia": "27:21 n=61, sûrenin en uzunu",
+    "olculen_n": 9,
+    "gercek_en_uzun": [
+     [
+      "27:40",
+      38
+     ],
+     [
+      "27:44",
+      28
+     ],
+     [
+      "27:60",
+      27
+     ],
+     [
+      "27:19",
+      24
+     ],
+     [
+      "27:61",
+      21
+     ]
+    ],
+    "hata_mekanizmasi": "(n, ayet) ikilisinin ters okunması"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Kayıt sessizce değiştirilmedi, düşürüldüğü belgelendi.** Ders: oturum kapanış notlarındaki sayısal beklentiler bloğa girmeden önce defterden doğrulanacak. Bu, aday 780'in (dört sûrelik aralıktan hipotez) not tarafı: **not alma sırasında da ölçüm ile hafıza karışabiliyor.**"
+  },
+  {
+   "no": 802,
+   "aday": "ADSIZ AKTÖR 'imrae' ALANININ TAM KORPUS DENETİMİ — 11 TOKENİN 7'Sİ HATALI (%63,6). Alan kök düzeyinde eşleşiyor; مرأ kökü üç lemma taşıyor ve üçü de tek etikete iniyor. DOĞRU 4: 4:12 · 4:128 · 27:23 · 33:50 (lemma امْرَأَت, dişil, gerçek kişi). ERİL 6: 4:176 (امْرُؤٌا) · 24:11 · 52:21 · 70:38 · 74:52 · 80:37 (امْرِئ) — 'adam' dişil etiketle işaretlenmiş. KİŞİ DEĞİL 1: 4:4 (مَّرِيٓـًٔا, sıfat: 'afiyetli').",
+   "olculen": {
+    "toplam_token": 11,
+    "dogru": 4,
+    "eril_ters": 6,
+    "kisi_degil": 1,
+    "hata_orani": 0.636,
+    "dogru_ayetler": [
+     "4:12",
+     "4:128",
+     "27:23",
+     "33:50"
+    ],
+    "eril_ayetler": [
+     "4:176",
+     "24:11",
+     "52:21",
+     "70:38",
+     "74:52",
+     "80:37"
+    ],
+    "kisi_degil_ayetler": [
+     "4:4"
+    ],
+    "lemmalar": {
+     "امْرَأَت": 4,
+     "امْرِئ": 5,
+     "امْرُؤٌا": 1,
+     "مَرِيئ": 1
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "ararken bulundu (denetim istendi, tam sayıma genişletildi)",
+   "test_notu": "**Aday 765'in (dört alanın ortak lemma+bağlam eksiği) aktör ayağı için ilk TAM SAYIMLI vaka.** Önceki vakalar tekildi: نُفُورا→nefer (462/579), فِرْقٍ→ferîk (641). **Ve yeni bir hata sınıfı: CİNSİYET TERSİNMESİ** — sözcük kişi ama karşı cinsiyet; 11 tokenin 6'sı. Onarım: kök eşleşmesi yerine lemma eşleşmesi yeterli (üç lemma zaten ayrı), bağlam denetimi gerekmiyor. **Bu alan, dört alan içinde en ucuz onarılanı.** Daha önce bildirilen '%67 hata' tahmini doğrulandı (%63,6)."
+  },
+  {
+   "no": 803,
+   "aday": "مُبِين ESMÂ ARTEFAKTI SÛRE 27'DE DÖRT/DÖRT — KAPATILAMAZ. Sûrenin altı مُبِين tokeninden okunan dördü de artefakt: 27:1 gönderge كِتاب · 27:13 gönderge سِحْر · 27:16 gönderge فَضْل · 27:21 gönderge سُلْطان. Dördünde de gönderge ilâhî değil; dördünde de fâsıla konumunda; dördü de mühürsüz.",
+   "olculen": {
+    "sure_toplam_token": 6,
+    "okunan": 4,
+    "artefakt": 4,
+    "okunmayan": [
+     "27:75",
+     "27:79"
+    ],
+    "gondergeler": {
+     "27:1": "كِتاب",
+     "27:13": "سِحْر",
+     "27:16": "فَضْل",
+     "27:21": "سُلْطان"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**KAPATILAMAZ — 27:75 ve 27:79 okunmadı** (ders 774). Sûre 26'da مُؤْمِن 15/15 artefakttı (682/709); burada مُبِين 4/4. **İki sûre, iki ayrı lemma, aynı desen: fâsıla konumundaki sıfat-esmâ lemması gönderge denetimi olmadan token üretiyor.** Esmâ gönderge sınıfları envanterine (aday 747) 'yapı/nesne niteliği' sınıfı için beş vaka birikti."
+  },
+  {
+   "no": 804,
+   "aday": "SÛRE 27'DE AZINLIK KAFİYESİ م İLE MÜHÜR TAM ÖRTÜŞÜYOR. 93 ayetin 84'ü ن, 9'u م fâsılalı. **Altı mühür ayetinin ALTISI da م fâsılalı** (27:6, 9, 11, 30, 40, 78). Kalan üç م ayeti mühürsüz ve ÜÇÜ DE bu blokta: 27:23 (عَظِيم) · 27:26 (ٱلْعَظِيم) · 27:29 (كَرِيم). Dokuz م fâsılasının dokuzu da فَعِيل vezninde.",
+   "olculen": {
+    "sure": 27,
+    "ayet": 93,
+    "nun": 84,
+    "mim": 9,
+    "muhur": 6,
+    "muhur_mim": 6,
+    "mim_ayetler": [
+     6,
+     9,
+     11,
+     23,
+     26,
+     29,
+     30,
+     40,
+     78
+    ],
+    "mim_muhursuz": [
+     23,
+     26,
+     29
+    ],
+    "vezin": "hepsi فَعِيل"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "ararken bulundu (tam sûre sayımı koşuldu)",
+   "test_notu": "**Kafiye tarafı KAPALI: fs alanı çalışan alan, tam sayım koşuldu (9/9, 6/6).** **Mühür tarafı KAPATILAMAZ: 27:40 ve 27:78 okunmadı, mühür geçerliliği okuma denetiminden geçmedi** (esmâ tablosu güvenilmez, aday 444/461). ÖN-KAYIT: sûre sonuna kadar okuduğumuzda 27:40 ve 27:78'in mühürleri GEÇERLİ çıkacak; gerekçe okunan dört mührün dördünün de geçerli çıkmış olması. **Bu ön-kayıt ÇALIŞAN alan (fs) üzerine değil, EKSİK alan (esma_k) üzerine kuruluyor — aday 722'nin dersi gereği ZAYIF etiketiyle kaydedildi.** Sonraki sûrelerde sınanacak genelleme: 'azınlık fâsıla harfi esmâ mührüne ayrılır' — sûre 26'da fâsıla neredeyse tekdüzeydi, sınama için uygun değil."
+  },
+  {
+   "no": 805,
+   "aday": "27:23 ↔ 27:26 — عَرْش + عَظِيم ÇİFTİ, BELİRSİZDEN BELİRLİYE. 27:23 عَرْشٌ عَظِيمٌ (belirsiz, kraliçenin tahtı, fâsıla) · 27:26 ٱلْعَرْشِ ٱلْعَظِيمِ (belirli, Rabbin arşı, fâsıla). Aynı iki kök, aynı sıra, aynı fâsıla konumu, üç ayet arayla. **`esit` alanı İKİSİNDE DE BOŞ.**",
+   "olculen": {
+    "ayetler": [
+     "27:23",
+     "27:26"
+    ],
+    "ortak_kokler": [
+     "عرش",
+     "عظم"
+    ],
+    "mesafe": 3,
+    "belirlilik": [
+     "INDEF",
+     "DEF"
+    ],
+    "fasila_konumu": true,
+    "esit_alani": [
+     [],
+     []
+    ],
+    "sure_ici_arş_ayetleri": [
+     23,
+     26,
+     38,
+     41,
+     42
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**`esit`in yedi eşik türünden 'esit_yapi (iskelet)' türü için temiz sınama vakası** — mevcut sınama kümesindeki 26:90≈26:91 ve 26:64·66·172 üçlüsüne ek. Bu vakanın farkı: **kelime örtüşmesi iki kökle sınırlı ama belirlilik karşıtlığı anlamlı ve fâsıla konumu ortak.** Eşik tanımı yazılırken 'ortak kök sayısı' tek başına yetmiyor; 'fâsıla konumunda ortak' bir alt ölçüt adayı. NOT: sûre içi عرش beş ayette (23, 26, 38, 41, 42); üçü okunmadı, dizi KAPATILAMAZ."
+  },
+  {
+   "no": 806,
+   "aday": "DİKEY KATMANDA YÜKSEK KAT, HEDEF KÖKÜN DEĞİL ORTAK KÖKÜN SEYREKLİĞİNDEN GELİYOR — MEVCUT KORUMA YANLIŞ DEĞİŞKENDE. Kural 'n<=25 köklerin yüksek katları güvenilmez' diyor ve hedef kökün n'sine bakıyor. Bu blokta n'si yüksek üç kök yine de çok yüksek kat verdi: عظم (n=128) ▸ مضغ ×69,8 · سجد (n=92) ▸ شطر ×43,3 · مرأ (n=38) ▸ عقر ×177,0. Ölçüldü: ortak kökün korpus sıklığı ve kaç AYRI ayetten geldiği belirleyici.",
+   "olculen": {
+    "vakalar": [
+     {
+      "hedef": "عظم",
+      "n_hedef": 128,
+      "ortak": "مضغ",
+      "n_ortak": 3,
+      "komsulukta": 2,
+      "ayri_ayet": 1,
+      "kaynak_ayet": [
+       "23:14"
+      ],
+      "kat": 69.8
+     },
+     {
+      "hedef": "سجد",
+      "n_hedef": 92,
+      "ortak": "شطر",
+      "n_ortak": 5,
+      "komsulukta": 3,
+      "ayri_ayet": 3,
+      "kaynak_ayet": [
+       "2:144",
+       "2:149",
+       "2:150"
+      ],
+      "kat": 43.3,
+      "not": "üç ayet ama tek sahne (kıble bölütü)"
+     },
+     {
+      "hedef": "مرأ",
+      "n_hedef": 38,
+      "ortak": "عقر",
+      "n_ortak": 8,
+      "komsulukta": 3,
+      "ayri_ayet": 3,
+      "kaynak_ayet": [
+       "3:40",
+       "19:5",
+       "19:8"
+      ],
+      "kat": 177.0
+     },
+     {
+      "hedef": "عرش",
+      "n_hedef": 33,
+      "ortak": "ستت",
+      "n_ortak": 8,
+      "komsulukta": 6,
+      "ayri_ayet": 6,
+      "kat": 145.0
+     },
+     {
+      "hedef": "شمس",
+      "n_hedef": 33,
+      "ortak": "قمر",
+      "n_ortak": 27,
+      "komsulukta": 21,
+      "ayri_ayet": 21,
+      "kat": 129.3,
+      "not": "YÜKSEK KAT AMA ARTEFAKT DEĞİL — çok sayıda ayrı ayetten"
+     },
+     {
+      "hedef": "ذبح",
+      "n_hedef": 9,
+      "ortak": "حيي",
+      "n_ortak": 189,
+      "komsulukta": 3,
+      "ayri_ayet": 3,
+      "kat": 232.7
+     }
+    ],
+    "ayirt_edici": "ortak kökün n'si ve katkı veren AYRI AYET sayısı"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü (dikey satır denetlenirken)",
+   "test_notu": "**P0 #2'nin ('aynı sahne' alanı) işlevsel tanımı buradan çıkıyor: alan hedef kökün n'sini değil, KATKI VEREN AYRI AYET SAYISINI saymalı.** شمس ▸ قمر ×129,3 yirmi bir ayrı ayetten geliyor ve gerçek bir birliktelik; عظم ▸ مضغ ×69,8 TEK ayetten (23:14) geliyor ve artefakt. **İkisi de mevcut n<=25 korumasının dışında kalıyor — koruma yanlış değişkeni hedefliyor.** Bu, biçim ihlâli önleminin ('blok boyu ON') aynı hatasının ölçüm tarafındaki karşılığı: doğru sonucu yanlış değişkenle korumak. ÖNERİLEN EŞİK (ön-kayıt, TUR SONU'nda sınanacak): katkı veren ayrı ayet sayısı <=2 ise satır yorumlanmaz; 3-5 ise 'tek sahne' uyarısı; >5 ise serbest. Sûre 26'nın dokuz vakası ve sûre 27'nin üç vakası bu eşikle yeniden etiketlenecek."
+  },
+  {
+   "no": 807,
+   "aday": "27:24-25-26 — SÛRE 27'DE İLK KEZ ÜÇ ARDIŞIK AYETTE ALLAH LAFZI. Sûrenin ilk yirmi ayetinde üç lafız vardı ve üçü dağınıktı (27:8, 27:9, 27:15). Bu blokta dört lafız var ve üçü art arda (27:24, 25, 26). Okunan sûrelerde 3+ ardışık lafız dizisi 60 kez geçiyor ve hepsi on sûrede toplanıyor: 9, 10, 11, 12, 13, 14, 16, 18, 22, 24.",
+   "olculen": {
+    "dizi": [
+     24,
+     25,
+     26
+    ],
+    "sure_27_ilk_20_lafiz": [
+     8,
+     9,
+     15
+    ],
+    "blok_lafiz": [
+     24,
+     25,
+     26,
+     30
+    ],
+    "okunan_sürelerde_3plus_dizi": 60,
+    "dizi_bulunan_sureler": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     18,
+     22,
+     24
+    ],
+    "dizi_bulunmayan_okunan_sureler": [
+     1,
+     15,
+     17,
+     19,
+     20,
+     21,
+     23,
+     25,
+     26
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "ararken bulundu (okunan korpus taraması koşuldu)",
+   "test_notu": "Dizi bulunan on sûrenin tamamı ya Medenî ya lafız-yoğun; 27 Mekkî ve A/R = 2,25. **Sûre 27, ardışık lafız dizisi veren ilk Mekkî-anlatı sûresi olabilir — ama bu KAPATILAMAZ: dizi taraması yalnız okunan sûrelerde koşuldu, korpusun tamamında değil.** TUR SONU: tüm korpusta 3+ ardışık lafız dizisi taranıp Mekkî/Medenî ve A/R ile çapraz kurulacak. Konum-eşli null gerektirir (aday 435)."
+  },
+  {
+   "no": 808,
+   "aday": "سمو KÖKÜ TEK BLOKTA İKİ ANLAM ALANINDA — 529 KÜMESİNİN BLOK İÇİ VAKASI. 27:25'te ٱلسَّمَٰوَٰت (gökler), 27:30'da ٱسْم (ad); beş ayet arayla, aynı blokta, aynı kök. Kök sözlüğünde iki anlam zaten yazılı ('ad; gök') ama dikey katman ikisini tek satırda topluyor ve iki ayetin سمو satırı BİRBİRİNİN AYNISI.",
+   "olculen": {
+    "kok": "سمو",
+    "n": 381,
+    "ayetler": [
+     "27:25",
+     "27:30"
+    ],
+    "anlamlar": [
+     "gökler",
+     "ad"
+    ],
+    "lemmalar": [
+     "سَماء",
+     "اسْم"
+    ],
+    "dikey_satiri_ayni": true,
+    "mesafe": 5
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**529'un üç katmanlı onarımında 'lemma' katmanının temiz vakası** — سَماء ve اسْم ayrı lemmalar, bağlam denetimine gerek yok. جنن·صلح·جبل kümesine dördüncü vaka. **Ve bu vaka, otomatik tespit ölçütünün ('iki anlam da dikey satırında görünüyor') SINIRINI gösteriyor: burada ölçüt ÇALIŞMIYOR** — dikey satır 'mühlet ×13,9 · كسف ×11,1 · kandil ×18,5' veriyor, hepsi gök anlamından; 'ad' anlamı satırda hiç görünmüyor çünkü ٱسْم geçişleri sayıca ezilmiş. **Ölçüt dört vakada 2/4 çalışmıştı (طلع, ذكر çalıştı; لسن, نظر çalışmadı); bu beşinci vaka ve ÇALIŞMADI → 2/5.** Hipotez güçleniyor: ikinci anlamın korpus sıklığı belirleyici."
+  },
+  {
+   "no": 809,
+   "aday": "ÇIPA/YILDIZ TERS İLİŞKİSİ — SÛRE 27'DE İKİNCİ GÖSTERİM. 27:24 sûrenin okunan tek gök cismi ayeti (شمس, güneşe secde) → YILDIZSIZ. 27:25 hiçbir gök cismi anmıyor, bir süreç ve bir alan adlandırıyor → ★★★ ve kaynağı yalnız hapaks (خبأ). Birinci gösterim 27:16-20 bölütüydü (aday 799).",
+   "olculen": {
+    "tablo": [
+     {
+      "ayet": "27:24",
+      "icerik": "güneş (gök cismi) + secde yönü",
+      "cipa": "adlandırma",
+      "yildiz": 0
+     },
+     {
+      "ayet": "27:25",
+      "icerik": "gizli olanın çıkarılması + gökler/yer",
+      "cipa": "adlandırma+alan",
+      "yildiz": 3,
+      "kaynak": "hapaks"
+     },
+     {
+      "ayet": "27:26",
+      "icerik": "arş",
+      "cipa": "adlandırma",
+      "yildiz": 2,
+      "kaynak": "eksen"
+     },
+     {
+      "ayet": "27:29",
+      "icerik": "mektup",
+      "cipa": "yok",
+      "yildiz": 2,
+      "kaynak": "pas"
+     }
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Aday 599/602/799 kümesine. **İki bağımsız bölütte aynı desen: sûre 27'de yıldız kaynakları hapaks, edilgenlik ve eksen; içerik hiçbirinde kaynak değil.** TUR SONU: çıpa tanımı yazıldıktan sonra 26 ve 27 için çıpa/yıldız korelasyonu birlikte hesaplanacak (aday 781'in kontrollü çifti). Aday 602'nin korpus taraması (r=-0,367) nakarat düzeltmeli yeniden koşulacak."
+  },
+  {
+   "no": 810,
+   "aday": "BLOK 27:21-30 BİLANÇOSU. Yıldız: ★★★ 1 (27:25) · ★★ 2 (27:26, 27:29) · ★ 2 (27:23, 27:30) · yıldızsız 5. Kaynaklar: hapaks 1 · pas 2 · eksen 2 — içerikten sıfır. İltifât 0/10. Esmâ token 3 (2 artefakt, 1 geçerli mühür). Allah lafzı 4 (27:24, 25, 26, 30) · Rab 1 (27:26). Adlı aktör 3 (سَبَإ, شَيْطان, سُلَيْمان) · adsız aktör 1 (imrae, DOĞRU). Yeni kök 2 (سبأ, خبأ). Hapaks 1 (خبأ). Kafiye kırılması 0.",
+   "olculen": {
+    "blok": "27:21-30",
+    "ayet": 10,
+    "yildiz": {
+     "3": 1,
+     "2": 2,
+     "1": 2,
+     "0": 5
+    },
+    "yildiz_kaynak": {
+     "hapaks": 1,
+     "pas": 2,
+     "eksen": 2,
+     "icerik": 0
+    },
+    "iltifat": 0,
+    "esma_token": 3,
+    "esma_artefakt": 2,
+    "muhur": 1,
+    "allah_lafzi": 4,
+    "rab": 1,
+    "adli_aktor": 3,
+    "adsiz_aktor": 1,
+    "yeni_kok": 2,
+    "hapaks": 1,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 4,
+    "ort_n": 10.7
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:21-30",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk otuz ayet toplamı: ★★★ 4 · ★★ 3 · ★ 2 · yıldızsız 21. Esmâ token 15, geçerli mühür 4, artefakt 5. Allah lafzı 6 · Rab 3 → A/R = 2,00 (makro 2,25; ilk otuz ayet biraz aşağıda). İltifât 1/30 (27:6)."
+  },
+  {
+   "no": 811,
+   "aday": "27:31 — İLTİFÂT BİR ALINTI METNİN İÇİNDE. 27:30 mektubu üçüncü şahısla açıyor (إِنَّهُۥ مِن سُلَيْمَٰنَ), 27:31 birinci-ikinci şahsa geçiyor; alan bunu ilt=1, yön 3>12 diye kaydediyor. Sûrenin ikinci iltifâtı (birincisi 27:6, anlatı kipinde).",
+   "olculen": {
+    "ayet": "27:31",
+    "ilt": 1,
+    "yon": "3>12",
+    "sure_iltifat_ayetleri": [
+     "27:6",
+     "27:31",
+     "27:69"
+    ],
+    "fark": "27:6 anlatı katmanında, 27:31 alıntı katmanının sınırında"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**İltifât alanının bilinen eksiği ad→zamir geçişleri (aday 461/517); bu vaka farklı bir tür ve alan onu YAKALADI.** TUR SONU: iltifât vakaları 'anlatı içi' / 'alıntı sınırında' / 'alıntı içi' diye sınıflandırılacak; sınıf dağılımı bilinmeden iltifât sayımları karşılaştırılamaz. Sûre 26'nın 15 iltifâtı (nakarat düzeltmeli ≤11) bu sınıflandırmadan geçmedi."
+  },
+  {
+   "no": 812,
+   "aday": "27:34 ↔ 27:37 — ذلل İKİ AĞIZDA, AYNI KALIPTA. 27:34'te kraliçe kralların yaptığını anlatıyor: أَعِزَّةَ أَهْلِهَآ أَذِلَّةً. 27:37'de Süleymân tehdit ediyor: وَلَنُخْرِجَنَّهُم مِّنْهَآ أَذِلَّةً. Aynı kök, aynı kalıp (أَذِلَّة), üç ayet arayla. **Kraliçenin kralların yapacağını söylediği şey, cevabında ona söyleniyor.** 27:34 ayrıca عزز/ذلل karşıt çiftini tek cümlede taşıyor.",
+   "olculen": {
+    "ayetler": [
+     "27:34",
+     "27:37"
+    ],
+    "kok": "ذلل",
+    "n": 24,
+    "kalip": "أَذِلَّة",
+    "mesafe": 3,
+    "agiz": [
+     "kraliçe",
+     "Süleymân"
+    ],
+    "karsit_cift_ayeti": "27:34",
+    "karsit": [
+     "عزز",
+     "ذلل"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "26:16↔26:18 ve 26:42↔26:58 sınıfından, ama bu kez **iki ayrı KONUŞMACI arasında**. `esit` alanının hiçbir eşiğine takılmıyor (kelime örtüşmesi tek). **'Konuşmacı-arası kalıp yankısı' `esit`in sekizinci eşik türü adayı** — mevcut yedi türün hiçbiri konuşmacı bilgisini kullanmıyor."
+  },
+  {
+   "no": 813,
+   "aday": "27:33 — 2FS KORPUSTA SEYREK VE 27:33 EN ÜSTTE. 2FS işareti korpusun 6236 ayetinden yalnız 30'unda (%0,48). 27:33'te DÖRT işaret — en yüksek dördüncü değer (28:7 ve 19:26 dokuzla başta, 3:43 yediyle, 12:29 altıyla). Sûre 27'de üç 2FS ayeti var (27:33, 27:42, 27:44) ve üçü de aynı kişiye.",
+   "olculen": {
+    "korpus_2fs_ayet": 30,
+    "oran": 0.0048,
+    "27:33": 4,
+    "sira": "ortak 7.",
+    "en_yuksek": [
+     [
+      "28:7",
+      9
+     ],
+     [
+      "19:26",
+      9
+     ],
+     [
+      "3:43",
+      7
+     ],
+     [
+      "12:29",
+      6
+     ]
+    ],
+    "sure_27_2fs": [
+     [
+      "27:33",
+      4
+     ],
+     [
+      "27:44",
+      2
+     ],
+     [
+      "27:42",
+      1
+     ]
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "ararken bulundu (tam korpus sayımı koşuldu)",
+   "test_notu": "`sah` çalışan alan; tam sayım koşuldu. **Sûre 27, tek bir kadın muhataba yönelen üç ayet taşıyan tek Mekkî anlatı sûresi olabilir — KAPATILAMAZ, korpus çapında muhatap sürekliliği taraması koşulmadı.** 2FS'nin dağılımı 'anlatıda kadın muhatap' ölçüsü için ham veri; kavram alanına bağlanmadı."
+  },
+  {
+   "no": 814,
+   "aday": "هدي KÖKÜ SÛRE 27'DE İKİ ANLAM ALANINDA — 529 KÜMESİNE İKİNCİ SÛRE İÇİ VAKA. 27:24'te ٱهْتَدَى (yol bulma), 27:35 ve 27:36'da هَدِيَّة (hediye). Aynı kök, on bir ayet arayla. Dikey satırı YALNIZ 'yol gösterme' anlamından geliyor (صرط ×13,7 · furkan ×10,6 · yol ×8,2); 'hediye' anlamı satırda hiç görünmüyor.",
+   "olculen": {
+    "kok": "هدي",
+    "n": 316,
+    "ayetler": [
+     "27:24",
+     "27:35",
+     "27:36"
+    ],
+    "anlamlar": [
+     "yol bulma",
+     "hediye"
+    ],
+    "dikey_satiri_ayni": true,
+    "otomatik_olcut_calisti": false
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Otomatik tespit ölçütü ('iki anlam da dikey satırında görünüyor') ALTINCI vakada da çalışmadı → 2/6.** Çalışan: طلع, ذكر. Çalışmayan: لسن, نظر, سمو (aday 808), هدي. **Hipotez artık desteklenmiş sayılabilir: ikinci anlamın korpus sıklığı belirleyici; azınlık anlamı ezildiğinde ölçüt kör.** TUR SONU: ölçüt terk edilip lemma katmanına geçilecek — هدي'de هُدَى/هَدِيَّة ayrı lemmalar, bağlam denetimi gerekmiyor."
+  },
+  {
+   "no": 815,
+   "aday": "عرش SÛRE 27'DE ÜÇÜNCÜ KİPTE — ADAY 805'İN ÇİFTİNE ÜÇÜNCÜ ÜYE. 27:23 عَرْشٌ عَظِيمٌ (belirsiz, kraliçenin) · 27:26 ٱلْعَرْشِ ٱلْعَظِيمِ (belirli, Rabbin) · 27:38 بِعَرْشِهَا (iyelikli, kraliçenin). Üç ayet, üç belirlilik kipi.",
+   "olculen": {
+    "kok": "عرش",
+    "n": 33,
+    "sure_ici_ayetler": [
+     23,
+     26,
+     38,
+     41,
+     42
+    ],
+    "okunan": [
+     23,
+     26,
+     38
+    ],
+    "kipler": [
+     "INDEF",
+     "DEF",
+     "POSS"
+    ],
+    "fasila_konumu": [
+     true,
+     true,
+     false
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 805'in 'fâsıla konumunda ortak' alt ölçütünü sınıyor ve ayırıyor: 27:38 fâsıla konumunda DEĞİL** ve yapısal benzerlik belirgin biçimde daha zayıf. Bu, alt ölçütün ayırt edici olduğuna ilk veri. **KAPATILAMAZ — 27:41 ve 27:42 okunmadı** (ders 774)."
+  },
+  {
+   "no": 816,
+   "aday": "27:39 — ESMÂ ALANINDA YENİ GÖNDERGE SINIFI: GAYB VARLIĞI, BİRİNCİ ŞAHIS. قَوِيّ tokeninin göndergesi bir CİN (ifrît) ve cin KENDİ HAKKINDA konuşuyor: إِنِّى عَلَيْهِ لَقَوِىٌّ أَمِينٌ. Şimdiye kadar sayılan gönderge sınıfları: ilâhî / insan (tekil ve çoğul) / nesne / soyut kavram / yapı. **Gayb varlığının kendini nitelemesi yeni.**",
+   "olculen": {
+    "ayet": "27:39",
+    "esma": "قَوِيّ",
+    "konum": 15,
+    "n": 16,
+    "muhur": false,
+    "gonderge": "عِفْرِيت (cin)",
+    "sahis": "birinci",
+    "artefakt": true,
+    "sinif_envanteri": [
+     "ilâhî",
+     "insan tekil",
+     "insan çoğul",
+     "nesne",
+     "soyut kavram",
+     "yapı",
+     "GAYB VARLIĞI 1. şahıs (YENİ)"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 747'nin gönderge sınıfları envanterine yedinci sınıf.** Bu sınıf için hüküm açık (artefakt) ama **onarım kuralı zor: gönderge bir zamir ve merci cümle başındaki özne** — lemma denetimi yetmez, bağlam denetimi gerekir. **Aday 765'in dört alanı içinde esmânın en pahalı onarılanı olduğuna ek kanıt.** 27:34'ün iki 'çoğul insan' tokeniyle birlikte blokta üç artefakt, üç ayrı sınıf."
+  },
+  {
+   "no": 817,
+   "aday": "ADAY 804'ÜN ÖN-KAYDI SINANDI VE TUTTU — 27:40 MÜHRÜ GEÇERLİ. Ön-kayıt: 27:40 ve 27:78'in mühürleri geçerli çıkacak; gerekçe okunan dört mührün dördünün de geçerli olması. **27:40 okundu: غَنِيّ|كَرِيم, gönderge رَبّ + iyelik, GEÇERLİ.** Fâsıla harfi م — sûrenin dokuz م fâsılasından beşincisi ve altı mührün beşincisi.",
+   "olculen": {
+    "ayet": "27:40",
+    "cift": "غَنِيّ|كَرِيم",
+    "gonderge": "رَبّ + iyelik (Rabbim)",
+    "gecerli": true,
+    "fasila_harfi": "م",
+    "muhur_sirasi": 5,
+    "farkli_cift_sirasi": 5,
+    "kalan_sinama": "27:78"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "ön-kayıt sınaması",
+   "test_notu": "**Ön-kayıt EKSİK alan (esma_k geçerliliği) üzerine kurulmuştu ve ZAYIF etiketliydi; ilk gözlemde TUTTU.** Aday 722'nin desenine göre eksik alan üzerine kurulan tahminlerin düşmesi bekleniyordu; bu vaka desene UYMADI. **Tek gözlem; 27:78 okunmadan dizi KAPATILAMAZ.** Not: mühür bayrağı yapısal olarak hesaplanıyor (iki esmânın bitişikliği + son konum), yani ön-kayıt aslında yapısal bir bayrak ile okuma denetimi arasındaki örtüşmeyi sınıyor — aday 818'e bak."
+  },
+  {
+   "no": 818,
+   "aday": "SÛRE 27:1-40'TA MÜHÜR BAYRAĞI GÖNDERGE GEÇERLİLİĞİNİ KUSURSUZ AYIRIYOR. 23 esmâ tokeni: **10'u mühür tokeni (beş mühür) ve onunun onu da GEÇERLİ; 13'ü mühürsüz ve on üçünün on üçü de ARTEFAKT.** Mühürsüz tokenlerde geçerlilik oranı 0/13.",
+   "olculen": {
+    "aralik": "27:1-40",
+    "toplam_token": 23,
+    "muhur_token": 10,
+    "muhur_gecerli": 10,
+    "muhursuz_token": 13,
+    "muhursuz_gecerli": 0,
+    "muhur_ayetleri": [
+     6,
+     9,
+     11,
+     30,
+     40
+    ],
+    "muhursuz_ayetler": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     13,
+     15,
+     16,
+     21,
+     29,
+     34,
+     34,
+     39
+    ],
+    "artefakt_sinif": {
+     "nesne/yapı": [
+      "27:1",
+      "27:13",
+      "27:16",
+      "27:21",
+      "27:29"
+     ],
+     "insan tekil": [
+      "27:2",
+      "27:15"
+     ],
+     "zaman/yer": [
+      "27:3",
+      "27:4",
+      "27:5"
+     ],
+     "insan çoğul": [
+      "27:34 مَلِك",
+      "27:34 عَزِيز"
+     ],
+     "gayb 1. şahıs": [
+      "27:39"
+     ]
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "ararken bulundu (aralık içinde tam sayım koşuldu)",
+   "test_notu": "**P0 (esmâ tablosu onarımı) için en güçlü tek veri: mühür bayrağı, tablonun yapamadığı gönderge denetimini bu bölütte kusursuz yapıyor.** AMA bayrak YAPISAL (iki esmânın bitişikliği + son konum); **tek başına gelen geçerli bir ilâhî ismi tanım gereği yakalayamaz.** ÖN-KAYIT: sûrenin kalan sekiz mühürsüz tokeni (27:49 وَلِيّ · 27:59 سَلام · 27:63 بَرّ · 27:66 آخِر · 27:75 مُبِين · 27:77 مُؤْمِن · 27:79 مُبِين · 27:88 خَبِير) içinde **en az biri GEÇERLİ çıkacak ve ayrım bozulacak**; gerekçe bayrağın yapısal olması, gönderge bilgisi taşımaması. **Bu ön-kayıt ÇALIŞAN alan (esma_k.muhur, yapısal hesap) üzerine kurulu ve bilinçli olarak AYRIMIN BOZULACAĞI yönünde** — tuttuğunda bayrağın yeterli değil ama gerekli olmadığı gösterilmiş olur."
+  },
+  {
+   "no": 819,
+   "aday": "DÜŞEN KAYIT — 27:19'UN 'OKUMADA İLK KEZ ÜÇ KÖK BİRDEN İKİLENİYOR' İDDİASI YANLIŞ. Aday 797 ve blok 27:11-20 metni 27:19'u (قول, نعم, صلح) 'okumada ilk kez üç kök' diye kaydetmişti. **Tam sayım: okunan sûrelerde 3+ farklı kökü ikilenen 107 ayet var; en yükseği 24:31 (ON BİR farklı kök, toplam 27 tekrar).** Korpus geneli rekoru 2:282 (on altı kök).",
+   "olculen": {
+    "iddia": "27:19 okumada ilk kez üç kök ikileniyor",
+    "okunan_sürelerde_3plus": 107,
+    "okunan_rekor": {
+     "ayet": "24:31",
+     "farkli_kok": 11,
+     "toplam": 27
+    },
+    "korpus_rekor": {
+     "ayet": "2:282",
+     "farkli_kok": 16,
+     "toplam": 52
+    },
+    "27:19": 3,
+    "27:40": 5,
+    "sure_27_en_yuksek": {
+     "ayet": "27:40",
+     "farkli_kok": 5
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü (yeni kayıt eskiyi düşürdü)",
+   "test_notu": "**Kayıt sessizce değiştirilmedi, düşürüldüğü belgelendi.** Doğru ifade: 27:40 SÛRE 27'nin en çok ikilenen ayeti (beş kök, biri üç kez); 27:19 sûrenin üçüncüsü. **Ders (aday 728'in kardeşi): 'okumada ilk kez' demeden önce okunan bölüt üzerinde tam sayım koşulmalı.** Aday 801 ile aynı sınıf: iki blok üst üste, kapanış/okuma notundaki bir sayısal iddia tam sayımla düştü."
+  },
+  {
+   "no": 820,
+   "aday": "SÜREÇ HATASI — TABAN DOSYASI KİRLETİLDİ VE ONARILDI. Blok 27:21-30 kapanışında `anahtar_denetim_raporu_tohum0.txt` yeniden yazılırken `kok_turkce.json` `betikler/` içinde UNUTULMUŞTU; taban başlığı 22976 anahtar olarak kaydedildi. Doğru sayı `kok_turkce.json` dışarıdayken 21910 (o an) idi.",
+   "olculen": {
+    "kirli_taban": 22976,
+    "kok_turkce_katkisi": 1066,
+    "dogru_taban_blok_27_21_30_sonrasi": 21910,
+    "dogru_taban_blok_27_31_40_sonrasi": 21977,
+    "ihlal": 58,
+    "ihlal_listesi_degisti": false
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü (kendi hatam)",
+   "test_notu": "**İhlâl listesi hiç değişmedi (58, birebir); yalnız başlıktaki anahtar sayısı şişmişti.** Onarıldı: taban `kok_turkce.json` `betikler/` dışındayken yeniden yazıldı → 21977 / 58, tam diff = 0. **YENİ KURAL: taban dosyası yalnızca `kok_turkce.json` `betikler/` dışındayken yazılır; `turkce_denetim.py` koşulduktan sonra dosya HEMEN silinir.** Bu, 2026-09-09'un 'bir denetimin ne taradığı sonucundan önce bilinmeli' dersinin ikinci vakası — bu kez fazla taranıyordu, az değil."
+  },
+  {
+   "no": 821,
+   "aday": "BLOK 27:31-40 BİLANÇOSU. Yıldız: ★★★ 1 (27:39) · ★★ 1 (27:40) · ★ 0 · yıldızsız 8. Kaynaklar: hapaks 1 · uzunluk (n z) 1 — içerikten sıfır. İltifât 1/10. Esmâ token 5: üçü artefakt (27:34 x2, 27:39), ikisi geçerli mühür (27:40). Allah lafzı 1 · Rab 2 (ikisi de 27:40'ta). Adlı aktör 1 · adsız aktör 0. Yeni kök 2 (صغر, عفر). Hapaks 1. Kafiye kırılması 0.",
+   "olculen": {
+    "blok": "27:31-40",
+    "ayet": 10,
+    "yildiz": {
+     "3": 1,
+     "2": 1,
+     "1": 0,
+     "0": 8
+    },
+    "yildiz_kaynak": {
+     "hapaks": 1,
+     "uzunluk": 1,
+     "icerik": 0
+    },
+    "iltifat": 1,
+    "esma_token": 5,
+    "esma_artefakt": 3,
+    "muhur": 1,
+    "allah_lafzi": 1,
+    "rab": 2,
+    "adli_aktor": 1,
+    "adsiz_aktor": 0,
+    "yeni_kok": 2,
+    "hapaks": 1,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 1,
+    "ort_n": 14.3
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:31-40",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk kırk ayet toplamı: ★★★ 5 · ★★ 4 · ★ 2 · yıldızsız 29. Esmâ token 23 (13 artefakt, 10 geçerli mühür tokeni). Allah lafzı 7 · Rab 5 → A/R = 1,40 (makro 2,25; ilk kırk ayet belirgin biçimde aşağıda — **sûre içi eksen dalgalanması, aday 780'in konum-eşli null gereğine veri**). İltifât 2/40. **Blokta yıldızsız oran %80 — okumada görülen en düşük yıldız payı olabilir; KAPATILAMAZ, blok bazlı tam sayım koşulmadı.**"
+  },
+  {
+   "no": 822,
+   "aday": "27:50 — KORPUSUN İKİNCİ EN YÜKSEK TEK-KÖK YOĞUNLUĞU. n=7'lik ayette مكر *(tuzak)* DÖRT kez; oran 0,57. Daha yüksek tek vaka 53:38 (3/5 = 0,60) ama mutlak sayıda 27:50 önde. Yapı simetrik: iki kez onlar, iki kez biz.",
+   "olculen": {
+    "ayet": "27:50",
+    "kok": "مكر",
+    "tekrar": 4,
+    "n": 7,
+    "oran": 0.571,
+    "korpus_en_yuksek_oran": {
+     "ayet": "53:38",
+     "tekrar": 3,
+     "n": 5,
+     "oran": 0.6
+    },
+    "mutlak_en_yuksek": {
+     "ayet": "24:61",
+     "tekrar": 10,
+     "n": 76,
+     "oran": 0.13
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "ararken bulundu (tam korpus sayımı koşuldu)",
+   "test_notu": "`ikile` çalışan alan; tam sayım koşuldu. **Blokta üç kez aynı yapı: kök sabit, konum sabit, özne ya da muhatap karşıt** — 27:36 (أتي, muhatap değişiyor), 27:43 (صدد, fâil değişiyor), 27:50 (مكر, özne değişiyor). Bu yapı `esit`in hiçbir eşiğine takılmıyor; **'tek ayet içi özne-karşıtlığı' dokuzuncu eşik türü adayı** (aday 812'nin sekizincisiyle birlikte)."
+  },
+  {
+   "no": 823,
+   "aday": "طير SÛRE 27'DE İKİ ANLAM ALANINDA — 529 KÜMESİNİN ÜÇÜNCÜ SÛRE İÇİ VAKASI VE EN KESKİNİ. 27:16, 27:17, 27:20'de 'kuş' (canlı); 27:47'de ٱطَّيَّرْنَا / طَٰٓئِرُكُمْ, yani 'uğursuzluk, fal'. Aynı kök, aynı sûre, yirmi yedi ayet arayla. Dikey satırı yalnız 'kuş' anlamından geliyor (şekil-biçim ×474,2 · طين ×59,3 · dağ ×18,2).",
+   "olculen": {
+    "kok": "طير",
+    "n": 29,
+    "sure_ici": [
+     16,
+     17,
+     20,
+     47
+    ],
+    "anlamlar": {
+     "kuş": [
+      16,
+      17,
+      20
+     ],
+     "uğur/fal": [
+      47
+     ]
+    },
+    "dikey_ortaklar": [
+     "هيأ",
+     "طين",
+     "جبل"
+    ],
+    "otomatik_olcut_calisti": false,
+    "mesafe": 27
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Otomatik tespit ölçütü YEDİNCİ vakada da çalışmadı → 2/7.** Ve bu vaka ölçütün neden kör olduğunu netleştiriyor: **azınlık anlamı burada korpusta seyrek DEĞİL** (27:47 dışında 7:131, 17:13, 36:19 gibi 'uğur' geçişleri var). Ölçüt sıklık yüzünden değil, **birlikte geçen köklerin anlam alanını hiç kullanmadığı için** kör. Sûre 27'de üç 529 vakası: سمو (aday 808), هدي (aday 814, ÜÇ anlam alanı — 27:41 ile 'tanıma' eklendi), طير. **Tek sûrede üç vaka; 529 kümesi seyrek bir arıza değil.**"
+  },
+  {
+   "no": 824,
+   "aday": "ADAY 806'NIN ÖLÇÜTÜ BEŞ YENİ VAKADA SINANDI VE SÛRE 27'NİN ÜÇ UYARI VAKASINI AÇIKLADI. Ölçüt: yüksek kat, hedef kökün değil ORTAK kökün seyrekliğinden ve katkı veren AYRI AYET sayısının azlığından gelir. Bu blokta ölçülen beş vakanın beşinde de ortak kök n≤4 ve ayrı ayet ≤2.",
+   "olculen": {
+    "yeni_vakalar": [
+     {
+      "hedef": "تسع",
+      "n": 7,
+      "ortak": "نعج",
+      "n_ortak": 4,
+      "kat": 948.5,
+      "ayri_ayet": 1,
+      "kaynak": [
+       "38:23"
+      ]
+     },
+     {
+      "hedef": "طير",
+      "n": 29,
+      "ortak": "هيأ",
+      "n_ortak": 4,
+      "kat": 474.2,
+      "ayri_ayet": 2,
+      "kaynak": [
+       "3:49",
+       "5:110"
+      ]
+     },
+     {
+      "hedef": "سوق",
+      "n": 17,
+      "ortak": "لفف",
+      "n_ortak": 3,
+      "kat": 389.7,
+      "ayri_ayet": 1,
+      "kaynak": [
+       "75:29"
+      ]
+     },
+     {
+      "hedef": "بيت",
+      "n": 73,
+      "ortak": "عنكب",
+      "n_ortak": 2,
+      "kat": 147.0,
+      "ayri_ayet": 1,
+      "kaynak": [
+       "29:41"
+      ]
+     },
+     {
+      "hedef": "مرد",
+      "n": 5,
+      "ortak": "شطن",
+      "n_ortak": 88,
+      "kat": 45.1,
+      "ayri_ayet": 3,
+      "kaynak": [
+       "4:117",
+       "22:3",
+       "37:7"
+      ]
+     }
+    ],
+    "sure_27_uyari_vakalari_cozuldu": [
+     {
+      "hedef": "تسع",
+      "ortak": "نعج",
+      "kat": 948.5,
+      "ayri_ayet": 1
+     },
+     {
+      "hedef": "ودي",
+      "ortak": "نمل",
+      "kat": 534.8,
+      "ayri_ayet": 1,
+      "kaynak": [
+       "27:18"
+      ]
+     },
+     {
+      "hedef": "نمل",
+      "ortak": "ودي",
+      "kat": 520.0,
+      "ayri_ayet": 1,
+      "kaynak": [
+       "27:18"
+      ]
+     }
+    ],
+    "n25_korumasinin_kacirdigi": [
+     "بيت (n=73)",
+     "طير (n=29)",
+     "عظم (n=128)",
+     "سجد (n=92)",
+     "مرأ (n=38)",
+     "عرش (n=33)"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü (dikey satır denetlenirken)",
+   "test_notu": "**Toplam ölçülen vaka on iki oldu ve ölçüt on ikisinde de ayırıyor.** En güçlü kanıt: **sûre 27'nin ÜÇ uyarı vakasının üçü de TEK ayetten geliyor** (38:23 doksan dokuz koyun; 27:18 karınca vadisi ×2) — yani 'aynı sahne' gerçekten tek sahne. Karşı örnek olarak şمس▸قمر ×129,3 yirmi bir ayrı ayetten geliyor ve artefakt değil. **Mevcut n≤25 koruması on iki vakanın altısını kaçırıyor.** ÖN-KAYIT ayakta: ayrı ayet ≤2 → yorumlanmaz; 3-5 → uyarı; >5 → serbest. TUR SONU'nda sûre 26'nın dokuz vakası bu eşikle yeniden etiketlenecek."
+  },
+  {
+   "no": 825,
+   "aday": "27:49 — SÛRENİN TEK YEMİNİ VE BİR SUİKAST YEMİNİ. Korpusta 71 QASEM ayeti var; sûre 27'de yalnız 27:49. Yemin edenler bir peygamberi ve ailesini geceleyin öldürmeye ant içiyor ve bunu بِٱللَّهِ diyerek yapıyor. Ayette EMPH 5 — sûrenin ikinci en tekitli ayeti (27:21'de altı).",
+   "olculen": {
+    "ayet": "27:49",
+    "fig": "QASEM",
+    "korpus_qasem_ayet": 71,
+    "sure_27_qasem": [
+     "27:49"
+    ],
+    "EMPH": 5,
+    "n": 14,
+    "sure_en_tekitli": [
+     [
+      "27:21",
+      6
+     ],
+     [
+      "27:49",
+      5
+     ],
+     [
+      "27:37",
+      4
+     ]
+    ],
+    "allah_lafzi_konumu": 3,
+    "yemin_edenler": "dokuz kişilik grup (27:48)"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**QASEM alanının bilinen eksiği taggerin eksikliği (P0 #6).** Bu vaka alanın DOĞRU çalıştığı bir örnek: تَقَاسَمُوا۟ بِٱللَّهِ açık bir yemin formülü ve alan yakaladı. **Ama asıl soru gönderge sınıfı: 71 QASEM'in kaçı olumlu bir ağızda, kaçı olumsuz bir ağızda?** Bu sûrede tek yemin ve olumsuz ağızda. **KAPATILAMAZ — korpus çapında QASEM konuşmacı sınıflandırması koşulmadı.** TUR SONU: QASEM tagger yazılırken 'yemin eden kim' alanı da üretilecek."
+  },
+  {
+   "no": 826,
+   "aday": "ADAY 818'İN ÖN-KAYDI İLK KEZ SINANDI — 27:49 وَلِيّ ARTEFAKT ÇIKTI, AYRIM BOZULMADI. Ön-kayıt: sûrenin kalan sekiz mühürsüz esmâ tokeninden en az biri GEÇERLİ çıkacak ve mühür bayrağının kusursuz ayrımı bozulacak. Birinci sınama: 27:49 وَلِيّ, gönderge لِوَلِيِّهِۦ (Sâlih'in kan yakını), İNSAN TEKİL, ARTEFAKT.",
+   "olculen": {
+    "sinama_no": 1,
+    "ayet": "27:49",
+    "esma": "وَلِيّ",
+    "gonderge": "insan tekil (Sâlih'in velisi)",
+    "gecerli": false,
+    "muhursuz_token_toplam": 14,
+    "muhursuz_gecerli": 0,
+    "muhur_token_toplam": 10,
+    "muhur_gecerli": 10,
+    "kalan_sinama": [
+     "27:59 سَلام",
+     "27:63 بَرّ",
+     "27:66 آخِر",
+     "27:75 مُبِين",
+     "27:77 مُؤْمِن",
+     "27:79 مُبِين",
+     "27:88 خَبِير"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "ön-kayıt sınaması",
+   "test_notu": "**Ayrım 24/24'e çıktı: mühür tokeninde 10/10 geçerli, mühürsüz tokende 0/14 geçerli.** Ön-kayıt hâlâ ayakta (sekiz sınamanın biri geçti). **Gönderge sınıfları envanterine sekizinci vaka türü eklenmiyor — 'insan tekil' sınıfı zaten vardı (27:2, 27:15).** Not: وَلِيّ korpusta ilâhî gönderge ile de geçen bir lemma; **bu, alanın lemma seviyesinde ayırt edilemeyeceğinin kanıtı — bağlam denetimi şart** (aday 816 ile aynı sonuç)."
+  },
+  {
+   "no": 827,
+   "aday": "27:44 — SÛRENİN EN YOĞUN EKSEN AYETİ, EKSENDEN YILDIZ ALMIYOR. Lafız bir kez (26. sırada), رَبّ İKİ kez (19. ve 27. sırada); sûrede iki Rab taşıyan ilk ayet. Yıldız ★ ve kaynağı YALNIZ uzunluk (n z=1,65); allah z=0,19 ve rab z=1,20 eşiği aşmıyor.",
+   "olculen": {
+    "ayet": "27:44",
+    "A": [
+     26
+    ],
+    "R": [
+     [
+      19,
+      "رَبّ"
+     ],
+     [
+      27,
+      "رَبّ"
+     ]
+    ],
+    "rab_sayisi": 2,
+    "z": {
+     "n": 1.65,
+     "allah": 0.19,
+     "rab": 1.2
+    },
+    "yildiz": 1,
+    "yildiz_kaynak": "uzunluk",
+    "sure_lafiz_rab_bulusan": [
+     "27:8",
+     "27:26",
+     "27:44"
+    ],
+    "rab_kipleri": [
+     "seslenme (رَبِّ)",
+     "tamlama (رَبِّ ٱلْعَٰلَمِينَ)"
+    ],
+    "ikisi_de_bagli": true
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**z ölçütünün yapısal sonucu: eksen yoğunluğu UZUNLUKLA seyreltiliyor.** allah z ve rab z, eksen işaretinin ayet içindeki KONUMUNA ve ayetin uzunluğuna göre hesaplandığı için n=28'lik bir ayette üç eksen işareti bile eşiği aşmıyor; n=8'lik 27:26'da iki işaret ★★ üretmişti. **Bu, yıldız alanının uzun ayetlerde eksen körü olduğu anlamına gelir.** TUR SONU: z hesabında uzunluk normalizasyonu denetlenecek — aday 599/602'nin 'yıldız içeriği ölçmüyor' bulgusuna yapısal bir mekanizma daha."
+  },
+  {
+   "no": 828,
+   "aday": "27:43-49 — SÛRE 27'NİN İLK EKSEN KÜMESİ. Yedi ayetin ALTISINDA Allah lafzı (27:43, 44, 45, 46, 47, 49). Sûrenin ilk kırk iki ayetinde toplam sekiz lafız vardı; burada yedi ayette altı. Semûd bölütünün açılışıyla çakışıyor.",
+   "olculen": {
+    "pencere": "27:43-49",
+    "lafiz": 6,
+    "ayet": 7,
+    "sure_ilk_42_lafiz": 8,
+    "sure_toplam_lafiz": 25,
+    "okunan_korpusta_7lik_pencere_azami": 7,
+    "7over7_goruldugu_sureler": [
+     24
+    ],
+    "sure_27_kendi_azamisi": {
+     "pencere": "27:59-65",
+     "deger": 7,
+     "okundu": false
+    },
+    "anlati_bolutleri": {
+     "Mûsâ": "27:7-14",
+     "Dâvûd-Süleymân": "27:15-44",
+     "Semûd": "27:45-53"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "ararken bulundu (okunan korpus pencere taraması koşuldu)",
+   "test_notu": "Aday 807 üç ardışık lafız dizisini kaydetmişti; **bu onun büyük ölçekli biçimi ve yine bir anlatı bölütü sınırında.** KAPATILAMAZ — pencere taraması yalnız okunan sûrelerde koşuldu. **TUR SONU: eksen kümelerinin anlatı bölütü sınırlarıyla çakışması korpus çapında sınanacak; konum-eşli null gerekir (aday 435).** Not: sûre 27'nin kendi azamisi 27:59-65'te ve okunmadı; **bölüt sınırı hipotezi orada da sınanacak.**"
+  },
+  {
+   "no": 829,
+   "aday": "27:48 ↔ 26:152 — İKİ SÛRENİN SEMÛD BÖLÜTÜNDE BİREBİR AYNI FORMÜL. xref: أفسد + أرض + أصلح. 27:48 'يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ'; 26:152 aynı terkip. İki sûre, aynı kavim, aynı formül.",
+   "olculen": {
+    "bag": "27:48 ↔ 26:152",
+    "xref": "أفسد أرض أصلح",
+    "sure_26_semud": "26:141-159",
+    "sure_27_semud": "27:45-53",
+    "27:48_karsit_cift": [
+     "فسد",
+     "صلح"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 781'in kontrollü çiftine (sûre 26 ve 27) ANLATI düzeyinde ilk örtüşme.** İki sûre aynı kavmi anlatıyor ve aynı formülü kullanıyor — ama sûre 26'da bölüt nakaratlı, sûre 27'de nakaratsız. **Bu, nakarat alanının yeniden tanımı (P0 #4) için doğal bir sınama çifti: aynı içerik, farklı nakarat yapısı.** KAPATILAMAZ — 27:49-53 henüz okunmadı, bölüt kapanmadı."
+  },
+  {
+   "no": 830,
+   "aday": "عرش DİZİSİ KAPANDI — SÛRE 27'DE BEŞ GEÇİŞ, BEŞ FARKLI KİP. 27:23 عَرْشٌ عَظِيمٌ (belirsiz, fâsıla) · 27:26 ٱلْعَرْشِ ٱلْعَظِيمِ (belirli, fâsıla) · 27:38 بِعَرْشِهَا (iyelikli) · 27:41 عَرْشَهَا (iyelikli, nesne) · 27:42 عَرْشُكِ (iyelikli, soru). Beş geçişin beşi de okundu.",
+   "olculen": {
+    "kok": "عرش",
+    "n": 33,
+    "sure_ici": [
+     23,
+     26,
+     38,
+     41,
+     42
+    ],
+    "hepsi_okundu": true,
+    "kipler": [
+     "INDEF fâsıla",
+     "DEF fâsıla",
+     "POSS mecrur",
+     "POSS mef'ûl",
+     "POSS mübtedâ"
+    ],
+    "fasila_konumunda": [
+     23,
+     26
+    ],
+    "esit_alani_dolu": []
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Dizi sûre sonuna kadar okunmadan kapatılmadı (ders 774 karşılandı): beş geçişin beşi de bu okumada geçti.** Sonuç: `esit` alanı BEŞİNDE DE BOŞ. **27:23-27:26 çifti (aday 805) yapısal olarak diğer üçünden ayrılıyor — ikisi de fâsıla konumunda, ikisi de sıfat tamlaması; diğer üçü iyelikli ve fâsıla dışı.** 'Fâsıla konumunda ortak' alt ölçütü beş vakalık bir dizide iki/üç ayrımını doğru yapıyor. `esit_yapi` eşiği yazılırken bu dizi sınama kümesine girsin."
+  },
+  {
+   "no": 831,
+   "aday": "BLOK 27:41-50 BİLANÇOSU — OKUMADA İLK KEZ BİR BLOKTA ★★ VE ÜSTÜ HİÇ YOK. Yıldız: ★★★ 0 · ★★ 0 · ★ 2 (27:42 pas z=1,95; 27:44 n z=1,65) · yıldızsız 8. Kaynaklar: pas 1 · uzunluk 1 — içerikten sıfır. İltifât 0/10. Esmâ token 1 (artefakt). Allah lafzı 6 — blok rekoru. Rab 2 (ikisi 27:44'te). Adlı aktör 3 · adsız aktör 0. Yeni kök 2 (صرح, رهط). Hapaks 0. Kafiye kırılması 0.",
+   "olculen": {
+    "blok": "27:41-50",
+    "ayet": 10,
+    "yildiz": {
+     "3": 0,
+     "2": 0,
+     "1": 2,
+     "0": 8
+    },
+    "yildiz_kaynak": {
+     "pas": 1,
+     "uzunluk": 1,
+     "icerik": 0
+    },
+    "iltifat": 0,
+    "esma_token": 1,
+    "esma_artefakt": 1,
+    "muhur": 0,
+    "allah_lafzi": 6,
+    "rab": 2,
+    "adli_aktor": 3,
+    "adsiz_aktor": 0,
+    "yeni_kok": 2,
+    "hapaks": 0,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 0,
+    "ort_n": 13.5
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk elli ayet: ★★★ 5 · ★★ 4 · ★ 4 · yıldızsız 37. Esmâ token 24 (14 artefakt, 10 geçerli mühür tokeni). Allah lafzı 14 · Rab 5 → **A/R = 2,80** (makro 2,25; ilk kırk ayette 1,40 idi — **eksen oranı sûre içinde iki kat dalgalanıyor**). İltifât 2/50. **Üç blok üst üste yıldızsız oran ≥%80** (27:31-40 %80, 27:41-50 %80, 27:21-30 %50). **Kraliçe 27:23'ten 27:44'e kadar yirmi iki ayet boyunca sahnede ve 27:23 dışında hiçbir aktör alanına girmiyor** (aday 802'nin ikinci yüzü, ikinci gösterim)."
+  },
+  {
+   "no": 832,
+   "aday": "SÛRE 27'DE 529 KÜMESİ ÜÇ VAKA — TEK SÛREDE ÜÇ. سمو (27:25 gök / 27:30 ad) · هدي (27:24 yol bulma / 27:35-36 hediye / 27:41 tanıma — ÜÇ anlam alanı) · طير (27:16,17,20 kuş / 27:47 uğur). Üçünde de otomatik tespit ölçütü çalışmadı.",
+   "olculen": {
+    "sure": 27,
+    "vaka_sayisi": 3,
+    "vakalar": [
+     {
+      "kok": "سمو",
+      "alan_sayisi": 2,
+      "aday": 808
+     },
+     {
+      "kok": "هدي",
+      "alan_sayisi": 3,
+      "aday": 814
+     },
+     {
+      "kok": "طير",
+      "alan_sayisi": 2,
+      "aday": 823
+     }
+    ],
+    "olcut_skoru": "2/7",
+    "karsi_ornek": "نظر — sûrede beş geçiş, tek anlam alanı"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:41-50",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**529 kümesi seyrek bir arıza değil: elli ayette üç vaka.** Ve iyi bir karşı örnek var: نظر sûrede beş kez geçiyor ve tek anlam alanında kalıyor — **yani sorun 'çok geçen kök' değil, kökün kendi lemma yapısı.** Üç vakanın üçünde de ayrı lemmalar var (سَماء/اسْم · هُدَى/هَدِيَّة · طَيْر/طائِر), bağlam denetimi gerekmiyor. **P0 #5'in (529'un üç katmanlı onarımı) lemma katmanı için sınama kümesi artık yedi vakalık.**"
+  },
+  {
+   "no": 833,
+   "aday": "ADSIZ AKTÖR ALANININ YANLIŞ NEGATİFLERİ ÖLÇÜLDÜ — MEKANİZMA KESİN: ALAN 'ADSIZ'I 'BELİRSİZ'LE KARIŞTIRIYOR. Korpusta امْرَأَت lemmalı 25 ayet var; alan yalnız DÖRDÜNÜ yakalıyor. Yakalanan dördünün dördü de INDEF; kaçan yirmi ikisinin yirmi ikisi de belirli ya da izâfetli. **İstisna sıfır.** Duyarlılık 4/25 = %16; kesinlik 4/11 = %36,4.",
+   "olculen": {
+    "gercek_ayet": 25,
+    "etiketli_ayet": 11,
+    "dogru": 4,
+    "yanlis_pozitif": 7,
+    "yanlis_negatif": 21,
+    "duyarlilik": 0.16,
+    "kesinlik": 0.364,
+    "yakalanan": [
+     "4:12",
+     "4:128",
+     "27:23",
+     "33:50"
+    ],
+    "kacan": [
+     "2:282",
+     "3:35",
+     "3:40",
+     "7:83",
+     "11:71",
+     "11:81",
+     "12:21",
+     "12:30",
+     "12:51",
+     "15:60",
+     "19:5",
+     "19:8",
+     "27:57",
+     "28:9",
+     "28:23",
+     "29:32",
+     "29:33",
+     "51:29",
+     "66:10",
+     "66:11",
+     "111:4"
+    ],
+    "ayirt_edici": "INDEF",
+    "istisna": 0,
+    "kacan_ornekler": {
+     "Lût'un karısı": [
+      "7:83",
+      "15:60",
+      "27:57",
+      "29:32",
+      "29:33"
+     ],
+     "Firavun'un karısı": [
+      "28:9",
+      "66:11"
+     ],
+     "İmrân'ın karısı": [
+      "3:35"
+     ],
+     "Nûh ve Lût'un karıları": [
+      "66:10"
+     ],
+     "Ebû Leheb'in karısı": [
+      "111:4"
+     ]
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü (27:57'de alan boş çıkınca tarandı)",
+   "test_notu": "**Aday 802'yi tamamlıyor ve ağırlaştırıyor: orada yalnız kesinlik ölçülmüştü (%36,4); şimdi duyarlılık da var (%16).** F1 ≈ 0,22. **Mekanizma tek bir ayrımda: alan belirsizlik işaretine bakıyor, adlandırılmışlığa değil.** Anlatının en tanınmış adsız kadın aktörleri — Lût'un karısı, Firavun'un karısı, İmrân'ın karısı, Ebû Leheb'in karısı — hepsi izâfetli olduğu için görünmez. **Onarım hâlâ ucuz: lemma eşleşmesi + belirlilik koşulunun KALDIRILMASI.** Aday 765'in dört alanı içinde en ucuz onarılanı olduğu kaydı korunuyor, ama arızanın boyutu iki kat büyüdü."
+  },
+  {
+   "no": 834,
+   "aday": "27:58 — `esit` ALANI OKUMADA İLK KEZ DOLU: [[26,173]]. Sûre 27'de esit dolu üç ayet var (27:3, 27:58, 27:71); okumada bu ilki. Eşleşme sağlam: üç xref 3-gram'ın üçü de 26:173'e düşüyor ve iki ayet neredeyse birebir.",
+   "olculen": {
+    "ayet": "27:58",
+    "esit": [
+     [
+      26,
+      173
+     ]
+    ],
+    "sure_27_esit_dolu": [
+     "27:3",
+     "27:58",
+     "27:71"
+    ],
+    "xref_3gram": 3,
+    "hepsi_ayni_hedefe": true,
+    "hedef": "26:173",
+    "27:58_ikile": {
+     "مطر": 3
+    },
+    "n": 6,
+    "tek_kok_orani": 0.5
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 829'un sınama çiftini AYET düzeyine indiriyor: aynı kavim, aynı cümle, iki sûre — biri nakaratlı bölütte (26:160-175, on altı ayet), diğeri nakaratsız bölütte (27:54-58, beş ayet).** Nakarat alanının yeniden tanımı (P0 #4) için bundan temiz bir çift zor bulunur: **içerik sabit, nakarat yapısı değişken, bölüt uzunluğu 16'ya 5.** TUR SONU: nakarat tanımı yazıldıktan sonra bu çift ilk sınama olsun."
+  },
+  {
+   "no": 835,
+   "aday": "ADAY 806'NIN RAFİNESİ — 'TEK AYET' İLE 'TEK SAHNE' AYRI ŞEYLER VE İKİNCİSİ BİLGİ TAŞIYOR. 27:57'ye gelindiğinde görüldü ki 27:23'te uyarıyla geçilen مرأ ▸ geride-kalan ×126,4 satırı bu ayeti ÖNCEDEN işaret ediyormuş: satır beş ayrı ayetten geliyor (7:83, 15:60, 27:57, 29:32, 29:33) ve beşi de AYNI SAHNE (Lût'un karısının geride kalması). Aynı şey خوي ▸ arş-taht ×167,7 için de geçerli: üç ayet (2:259, 18:42, 22:45), tek KALIP.",
+   "olculen": {
+    "tur_A_tek_ayet": [
+     {
+      "cift": [
+       "تسع",
+       "نعج"
+      ],
+      "ayri_ayet": 1
+     },
+     {
+      "cift": [
+       "بيت",
+       "عنكب"
+      ],
+      "ayri_ayet": 1
+     },
+     {
+      "cift": [
+       "سوق",
+       "لفف"
+      ],
+      "ayri_ayet": 1
+     },
+     {
+      "cift": [
+       "عظم",
+       "مضغ"
+      ],
+      "ayri_ayet": 1
+     },
+     {
+      "cift": [
+       "ودي",
+       "نمل"
+      ],
+      "ayri_ayet": 1
+     }
+    ],
+    "tur_B_tek_sahne": [
+     {
+      "cift": [
+       "مرأ",
+       "غبر"
+      ],
+      "ayri_ayet": 5,
+      "sahne": "Lût'un karısı geride kaldı",
+      "kat": 126.4
+     },
+     {
+      "cift": [
+       "خوي",
+       "عرش"
+      ],
+      "ayri_ayet": 3,
+      "sahne": "çatısı üstüne çökmüş ıssız yapı",
+      "kat": 167.7
+     },
+     {
+      "cift": [
+       "شجر",
+       "زقم"
+      ],
+      "ayri_ayet": 3,
+      "sahne": "zakkum ağacı"
+     },
+     {
+      "cift": [
+       "سجد",
+       "شطر"
+      ],
+      "ayri_ayet": 3,
+      "sahne": "kıble bölütü (2:144-150)"
+     }
+    ],
+    "tur_C_gercek_birliktelik": [
+     {
+      "cift": [
+       "شمس",
+       "قمر"
+      ],
+      "ayri_ayet": 21
+     }
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Onarım 'bu satırları sil' değil, 'kaynak ayetlerini etiketle' olmalı.** Tür A (tek ayet) bilgi taşımıyor. **Tür B (tek sahne, çok ayet) taşıyor: 27:57'ye vardığımızda satır doğrulandı.** Tür C gerçek birliktelik. ÖN-KAYIT GÜNCELLENDİ: ayrı ayet ≤2 → satır bastırılır; 3-5 → satır **kaynak ayetleriyle birlikte** gösterilir ('tek sahne: 7:83, 15:60, 27:57, 29:32, 29:33'); >5 → serbest. **Bu, 'aynı sahne' alanının çıktı biçimini de belirliyor: alan bir bayrak değil, bir KAYNAK LİSTESİ üretmeli.**"
+  },
+  {
+   "no": 836,
+   "aday": "ADAY 818'İN ÖN-KAYDI İKİNCİ KEZ SINANDI — 27:59 سَلام ARTEFAKT, AYRIM BOZULMADI. Gönderge وَسَلَٰمٌ عَلَىٰ عِبَادِهِ, yani bir selamlama; ilâhî isim değil. Mühür bayrağının ayrımı: mühür tokeninde 10/10 geçerli, mühürsüz tokende 0/15.",
+   "olculen": {
+    "sinama_no": 2,
+    "ayet": "27:59",
+    "esma": "سَلام",
+    "gonderge": "selamlama (soyut)",
+    "gecerli": false,
+    "muhursuz_token_toplam": 15,
+    "muhursuz_gecerli": 0,
+    "muhur_token_toplam": 10,
+    "muhur_gecerli": 10,
+    "kalan_sinama": [
+     "27:63 بَرّ",
+     "27:66 آخِر",
+     "27:75 مُبِين",
+     "27:77 مُؤْمِن",
+     "27:79 مُبِين",
+     "27:88 خَبِير"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "ön-kayıt sınaması",
+   "test_notu": "**Sekiz sınamanın ikisi geçti; ön-kayıt (en az biri geçerli çıkacak) hâlâ ayakta ve altı sınama kaldı.** Gönderge sınıfı 'soyut kavram' — envanterde zaten vardı. **Not: ayrım 25/25'e çıktı ve bu, mühür bayrağının ne kadar güçlü bir vekil ölçü olduğunu gösteriyor; ama bayrak yapısal olduğu için TEK BAŞINA gelen geçerli bir ismi yakalayamaz — ön-kaydın dayanağı bu ve 27:88 gibi bir ayet kaldıkça sınama sürüyor.**"
+  },
+  {
+   "no": 837,
+   "aday": "27:59 — SÛRENİN EN YÜKSEK EKSEN Z'Sİ (allah z=2,80) VE OKUMADA İLK KEZ TEK BAŞINA EKSENDEN ★★. n=12'lik ayette lafız İKİ kez (3. ve 9. sıra), ikisi de ilk yarıda. 27:44 bunun tersi: n=28'de üç eksen işareti (bir lafız, iki Rab) ve allah z=0,19 · rab z=1,20 — yıldız uzunluktan geldi.",
+   "olculen": {
+    "ayet": "27:59",
+    "n": 12,
+    "A": [
+     3,
+     9
+    ],
+    "allah_z": 2.8,
+    "yildiz": 2,
+    "yildiz_kaynak": "eksen",
+    "karsit_vaka": {
+     "ayet": "27:44",
+     "n": 28,
+     "eksen_isareti": 3,
+     "allah_z": 0.19,
+     "rab_z": 1.2,
+     "yildiz_kaynak": "uzunluk"
+    },
+    "onceki_eksen_yildizi": {
+     "ayet": "27:26",
+     "n": 8,
+     "kaynak": "allah+rab"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 827'nin çift kanıtı tamamlandı: aynı sûre içinde iki karşıt vaka.** 27:44 (uzun, eksen yoğun, eksenden yıldız YOK) ve 27:59 (kısa, eksen yoğun, eksenden ★★). **Fark yalnız n.** z hesabının uzunluk normalizasyonu eksen işaretini ayet uzunluğuyla seyreltiyor; **bu, yıldız alanının ölçtüğü şeyin 'eksen yoğunluğu' değil 'eksen yoğunluğu ÷ uzunluk' olduğu anlamına gelir ve bu ikisi farklı ölçülerdir.** TUR SONU: z tanımı denetlenip her iki ölçü ayrı hesaplanacak."
+  },
+  {
+   "no": 838,
+   "aday": "27:60 — SÛRENİN DOĞA BÖLÜTÜ AÇILIYOR VE ÇIPA EŞİĞİNİN NEREDE DURDUĞUNU EN İYİ GÖSTEREN AYET. Ayet bir NEDENSEL BAĞIMLILIK (gökten su → göz alıcı bahçeler) ve bir YETİ SINIRI (ağacını siz bitiremezdiniz) kuruyor. Ölçü, mekanizma ve sınıflandırma yok; eşik aşılmadı. Ve ayet ★ alıyor, kaynağı YALNIZ uzunluk (n z=1,55); eksen işareti 23. sırada, z=0,21.",
+   "olculen": {
+    "ayet": "27:60",
+    "n": 27,
+    "yildiz": 1,
+    "yildiz_kaynak": "uzunluk",
+    "allah_z": 0.21,
+    "bolut": "27:60-64 (doğa, beş ayet)",
+    "yapi": [
+     "nedensel bağımlılık: gökten su → bahçe",
+     "yeti sınırı: ağacı siz bitiremezdiniz"
+    ],
+    "eksik": [
+     "ölçü",
+     "mekanizma",
+     "sınıflandırma"
+    ],
+    "cipa": false,
+    "ikile": {
+     "سمو": 2,
+     "نبت": 2,
+     "أله": 2
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 599/602/809 dizisine DÖRDÜNCÜ gösterim: sûrenin doğaya en yakın ayeti doğadan değil uzunluktan yıldız alıyor.** Ve aday 799'un çıpa tanımı için en değerli sınır vakası: **'adlandırma'nın üstünde ama 'mekanizma'nın altında bir kat var — nedensel bağımlılık + yeti sınırı.** Çıpa tanımı yazılırken bu katın çıpa sayılıp sayılmayacağına karar verilmeli; **karar verilmeden 26/27 çıpa-yıldız korelasyonu hesaplanamaz** (aday 781)."
+  },
+  {
+   "no": 839,
+   "aday": "SÛRE 27'NİN ANLATI BÖLÜTLERİ — DÖRT BÖLÜT, UZUNLUKLAR 8 · 30 · 9 · 5. Mûsâ 27:7-14 (sekiz) · Dâvûd-Süleymân 27:15-44 (otuz) · Semûd 27:45-53 (dokuz) · Lût 27:54-58 (beş). Ortadaki bölüt diğer üçünün toplamının (22) üstünde. Doğa bölütü 27:60-64 ile anlatı biter.",
+   "olculen": {
+    "bolutler": [
+     [
+      "Mûsâ",
+      "27:7-14",
+      8
+     ],
+     [
+      "Dâvûd-Süleymân",
+      "27:15-44",
+      30
+     ],
+     [
+      "Semûd",
+      "27:45-53",
+      9
+     ],
+     [
+      "Lût",
+      "27:54-58",
+      5
+     ],
+     [
+      "doğa",
+      "27:60-64",
+      5
+     ]
+    ],
+    "sure_26_karsiliklari": {
+     "Semûd": [
+      "26:141-159",
+      19
+     ],
+     "Lût": [
+      "26:160-175",
+      16
+     ]
+    },
+    "sure_26_nakaratli": true,
+    "sure_27_nakaratli": false
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 781'in kontrollü çifti (26/27) artık bölüt düzeyinde ölçülü: aynı iki kavim, sûre 26'da 19+16=35 ayet ve nakaratlı, sûre 27'de 9+5=14 ayet ve nakaratsız.** Oran 2,5:1. **Nakaratın ne kadar yer kapladığı doğrudan ölçülebilir hale geldi.** KAPATILAMAZ — 27:60-93 okunmadı, doğa bölütünün sınırı doğrulanmadı. TUR SONU: nakarat alanının yeniden tanımı bu çiftle sınanacak (aday 834)."
+  },
+  {
+   "no": 840,
+   "aday": "XREF YOĞUNLUĞU ORTAK KELİMEYİ DEĞİL ORTAK SAHNEYİ ÖLÇÜYOR — ÜÇÜNCÜ VERİ. 27:55'te DÖRT 3-gram var ve dördü de TEK ayete düşüyor: 7:81. Önceki iki vaka: 27:10'da altı bağ, 27:19'da dokuz 3-gram'ın sekizi tek ayete. Üç vakanın üçünde de hedef, başka bir sûrede aynı sahnenin anlatımı.",
+   "olculen": {
+    "vakalar": [
+     {
+      "ayet": "27:55",
+      "gram_3": 4,
+      "hepsi_tek_hedefe": true,
+      "hedef": "7:81",
+      "sahne": "Lût kavmine hitap"
+     },
+     {
+      "ayet": "27:19",
+      "gram_3": 9,
+      "tek_hedefe": 8,
+      "hedef": "46:15"
+     },
+     {
+      "ayet": "27:10",
+      "bag": 6
+     }
+    ],
+    "27:56_ek": {
+     "gram_3": 4,
+     "hedefler": [
+      "7:82",
+      "29:24",
+      "29:29"
+     ]
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 797'nin 'xref yoğunluğu' ölçütü netleşti: ölçtüğü şey ortak kelime değil ortak SAHNE.** Bu, ölçütü zenginleştiriyor ama aynı zamanda sınırlıyor: **yüksek xref yoğunluğu bir keşif değil, korpusta aynı olayın birden çok kez anlatıldığının göstergesi.** KAPATILAMAZ — korpus çapında 'xref yoğunluğu yüksek ayetler' listesi çıkarılıp kaçının paralel anlatı olduğu sayılmadı. TUR SONU: bu sayım koşulacak; **eğer oran yüksek çıkarsa ölçüt bir keşif aracı olarak DÜŞER ve yalnız paralel-anlatı tespiti için kullanılır.**"
+  },
+  {
+   "no": 841,
+   "aday": "27:57 — DİKEY SATIRIN BİR AYETİ ÖNCEDEN İŞARET ETTİĞİ İLK BELGELENMİŞ VAKA. 27:23'te مرأ satırı ▸sonra geride-kalan ×126,4 veriyordu ve n≤25 kuralı gereği değil ama 'tek sahne' şüphesiyle yorumlanmadan geçilmişti. Otuz dört ayet sonra 27:57'ye gelindiğinde ayetin fâsılası غبر kökünden çıktı (geride kalanlar) — yani satırın işaret ettiği sahne.",
+   "olculen": {
+    "satir_ayeti": "27:23",
+    "satir": "مرأ ▸sonra geride-kalan ×126,4",
+    "varilan_ayet": "27:57",
+    "fasila": "غبر kökünden çoğul (geride kalanlar)",
+    "mesafe": 34,
+    "kaynak_ayetler": [
+     "7:83",
+     "15:60",
+     "27:57",
+     "29:32",
+     "29:33"
+    ],
+    "hepsi_ayni_sahne": true
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Yöntemsel değeri var: dikey katmanın 'artefakt' dediğimiz satırları bazen ileriyi gösteriyor.** Ama dikkat — **bu bir doğrulama değil, bir tesadüf sınıfı: satır 27:57'yi işaret ediyordu çünkü 27:57 zaten satırın kaynak ayetlerinden biriydi.** Yani satır bir tahmin yapmadı, kendi kaynağını gösterdi. **Bu ayrım kayda geçirildi ki ileride 'dikey katman öngörü yaptı' diye yanlış okunmasın** (aday 728'in dersiyle aynı sınıf: döngüsel doğrulama)."
+  },
+  {
+   "no": 842,
+   "aday": "BLOK 27:51-60 BİLANÇOSU. Yıldız: ★★★ 0 · ★★ 1 (27:59, kaynak EKSEN) · ★ 1 (27:60, kaynak uzunluk) · yıldızsız 8. **Okumada ilk kez bir ayet ★★'yi tek başına eksenden aldı.** İltifât 0/10. Esmâ token 1 (artefakt). Allah lafzı 3 · **Rab 0 — okumada ilk kez bir blokta Rab hiç yok.** Adlı aktör 2 (لُوط x2) · adsız aktör 0 (ama 27:57'de gerçek bir adsız aktör var, alan kaçırıyor). Yeni kök 1 (حدق). Hapaks 0. `esit` okumada ilk kez dolu (27:58).",
+   "olculen": {
+    "blok": "27:51-60",
+    "ayet": 10,
+    "yildiz": {
+     "3": 0,
+     "2": 1,
+     "1": 1,
+     "0": 8
+    },
+    "yildiz_kaynak": {
+     "eksen": 1,
+     "uzunluk": 1,
+     "icerik": 0
+    },
+    "iltifat": 0,
+    "esma_token": 1,
+    "esma_artefakt": 1,
+    "muhur": 0,
+    "allah_lafzi": 3,
+    "rab": 0,
+    "adli_aktor": 2,
+    "adsiz_aktor": 0,
+    "yeni_kok": 1,
+    "hapaks": 0,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 0,
+    "esit_dolu": 1,
+    "ort_n": 10.1
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:51-60",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk altmış ayet: ★★★ 5 · ★★ 5 · ★ 5 · yıldızsız 45. Esmâ token 25 (15 artefakt, 10 geçerli mühür tokeni). Allah lafzı 17 · Rab 5 → **A/R = 3,40** (makro 2,25; ilk kırkta 1,40, ilk ellide 2,80 idi — **oran monoton artıyor ve sûrenin ikinci yarısı eksen yoğun**). İltifât 2/60. **Dört blok üst üste yıldızsız oran ≥%80** (%50, %80, %80, %80, %80 — 27:21-30 hariç). Ortalama n blok başına: 10,7 · 14,3 · 13,5 · 10,1."
+  },
+  {
+   "no": 843,
+   "aday": "DÜŞEN KAYIT — 27:51'DE 'نظر SÛREDE ALTINCI GEÇİŞ' YANLIŞTI, YEDİNCİ. Bir önceki blokta 27:51 mercek metni 27:27, 28, 33, 35, 41, 51 diye saymış ve **27:14'ü atlamıştı**. 27:14 de aynı kalıbı taşıyor (fânzur keyfe kâne âkıbetü'l-müfsidîn). Doğru sayım: sûrede sekiz geçiş (27:14, 27, 28, 33, 35, 41, 51, 69); 27:51 yedincisi.",
+   "olculen": {
+    "iddia": "27:51'de نظر altıncı geçiş",
+    "dogru": "yedinci",
+    "sure_27_nazar_ayetleri": [
+     14,
+     27,
+     28,
+     33,
+     35,
+     41,
+     51,
+     69
+    ],
+    "toplam": 8,
+    "atlanan": "27:14",
+    "onarildi": true,
+    "onarim_yeri": [
+     "okuma_metni.json 27:51 mercek",
+     "mercek_kayit.json 27:51"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü (kendi hatam)",
+   "test_notu": "**Üçüncü blok içinde üçüncü sayım hatası** (aday 801: kapanış notundaki n=61; aday 819: '27:19 ilk kez üç kök'; burası). **Ortak mekanizma: sayımı okunan bloktan yapıp daha önceki blokları taramamak.** KURAL: bir kök/kalıp için 'sûrede kaçıncı geçiş' denecekse **sayım defterden tam koşulacak, hafızadan değil.** Metin sessizce değiştirilmedi; düzeltme notu ayetin mercek satırına gömüldü."
+  },
+  {
+   "no": 844,
+   "aday": "★ NAKARAT ALANININ MEKANİZMASI BULUNDU — ALAN AYET DÜZEYİNDE EŞLEŞİYOR, AYET-İÇİ NAKARATI GÖRMÜYOR. `أَءِلَٰهٌ مَّعَ ٱللَّهِ` ifadesi KORPUSUN TAMAMINDA yalnız beş ayette geçiyor ve beşi de ardışık: 27:60, 61, 62, 63, 64. Beşi de `أَمَّنْ` ile açılıyor. **`nakarat` alanı beşinde de SIFIR.** Buna karşılık sûre 26'da alan 34 ayette dolu — çünkü orada nakarat TAM AYET (26:8 'إنّ في ذلك لآية وما كان أكثرهم مؤمنين' bir bütün ayet olarak tekrar ediyor).",
+   "olculen": {
+    "ifade": "أَءِلَٰهٌ مَّعَ ٱللَّهِ",
+    "korpus_ayet_sayisi": 5,
+    "ayetler": [
+     [
+      27,
+      60
+     ],
+     [
+      27,
+      61
+     ],
+     [
+      27,
+      62
+     ],
+     [
+      27,
+      63
+     ],
+     [
+      27,
+      64
+     ]
+    ],
+    "ardisik": true,
+    "acilis_kalibi": "emmen (أمن yazımlı soru kalıbı)",
+    "acilis_korpus": [
+     [
+      27,
+      60
+     ],
+     [
+      27,
+      61
+     ],
+     [
+      27,
+      62
+     ],
+     [
+      27,
+      63
+     ],
+     [
+      27,
+      64
+     ],
+     [
+      38,
+      28
+     ],
+     [
+      39,
+      9
+     ],
+     [
+      67,
+      20
+     ],
+     [
+      67,
+      21
+     ]
+    ],
+    "nakarat_alani_sure_27": 0,
+    "nakarat_alani_sure_26": 34,
+    "sure_26_nakarat_birimi": "tam ayet",
+    "sure_27_nakarat_birimi": "ayet-içi kalıp",
+    "mekanizma": "alan yalnız ayet düzeyinde tekrarı eşliyor"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**P0 #4 (nakarat alanının yeniden tanımı) için aranan mekanizma bu.** Ve **aday 833'le aynı hata sınıfı: alan yanlış dilbilgisel birime bağlanmış.** Adsız aktör alanı 'adsız'ı 'belirsiz'le karıştırıyordu; nakarat alanı 'tekrar'ı 'ayet tekrarı'yla karıştırıyor. **İki P0 alanı, aynı tür arıza: doğru kavram, yanlış birim.** ONARIM: nakarat alanı n-gram düzeyinde çalışmalı (ayet-içi, sabit uzunlukta kalıp). **Ve bu, aday 700/739/771'in sûre 26 nakarat düzeltmesini de etkiliyor: orada sayılan 34 ayet YALNIZ ayet düzeyindekiler; sûre 26'da ayet-içi nakaratlar da varsa sayı eksik.**"
+  },
+  {
+   "no": 845,
+   "aday": "SÛRE 27'NİN İKİNCİ AYET-İÇİ NAKARATI: `كَيْفَ كَانَ عَٰقِبَةُ` ÜÇ KEZ. 27:14 (ٱلْمُفْسِدِينَ), 27:51 (مَكْرِهِمْ), 27:69 (ٱلْمُجْرِمِينَ). Korpusta yirmi bir ayette geçiyor. `nakarat` alanı üçünde de sıfır.",
+   "olculen": {
+    "kalip": "كَيْفَ كَانَ عَٰقِبَةُ",
+    "sure_27": [
+     14,
+     51,
+     69
+    ],
+    "korpus_ayet": 21,
+    "nakarat_alani": 0,
+    "degisen_oge": [
+     "el-müfsidîn",
+     "mekrihim",
+     "el-mücrimîn"
+    ],
+    "sure_27_ayet_ici_nakaratlar": 2
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 844'e ikinci vaka ve bu kez DEĞİŞKEN SONLU bir kalıp** — sabit gövde + değişen tamlanan. Yani onarılmış nakarat alanının iki şeyi ayırt etmesi gerekiyor: **sabit kalıp** (أَءِلَٰهٌ مَّعَ ٱللَّهِ, birebir) ve **şablon kalıp** (كَيْفَ كَانَ عَٰقِبَةُ + X). Sûre 26'nın tam-ayet nakaratları birinci türden. **Üç tür nakarat: tam ayet · sabit ayet-içi kalıp · şablon kalıp.** TUR SONU: tanım üçünü de kapsamalı."
+  },
+  {
+   "no": 846,
+   "aday": "ADAY 818'İN ÖN-KAYDI ÜÇÜNCÜ VE DÖRDÜNCÜ KEZ SINANDI — 27:63 بَرّ VE 27:66 آخِر, İKİSİ DE ARTEFAKT. 27:63'te gönderge ٱلْبَرِّ وَٱلْبَحْرِ (kara ve deniz), bir yer/alan adı. 27:66'da gönderge ٱلْءَاخِرَة (âhiret), bir zaman/yer adı; sûrenin dört آخِر tokeninin dördüncüsü ve dördü de aynı gönderge. Ayrım: mühür tokeninde 10/10 geçerli, mühürsüz tokende 0/17.",
+   "olculen": {
+    "sinama_no": [
+     3,
+     4
+    ],
+    "ayetler": [
+     "27:63",
+     "27:66"
+    ],
+    "esma": [
+     "بَرّ",
+     "آخِر"
+    ],
+    "gondergeler": [
+     "yer/alan adı",
+     "zaman/yer adı"
+    ],
+    "gecerli": [
+     false,
+     false
+    ],
+    "muhursuz_token_toplam": 17,
+    "muhursuz_gecerli": 0,
+    "muhur_token_toplam": 10,
+    "muhur_gecerli": 10,
+    "kalan_sinama": [
+     "27:75 مُبِين",
+     "27:77 مُؤْمِن",
+     "27:79 مُبِين",
+     "27:88 خَبِير"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "ön-kayıt sınaması",
+   "test_notu": "**Sekiz sınamanın dördü geçti, dördü kaldı; ayrım 27/27.** Ön-kayıt (en az biri geçerli çıkacak) hâlâ ayakta ama **kalan dört sınamadan üçü tekrar eden lemma** (مُبِين x2, مُؤْمِن) ve bu lemmaların sûredeki tüm geçişleri artefakt çıkmıştı. **Ön-kaydın kaderi büyük ölçüde 27:88 خَبِير'e bağlı.**"
+  },
+  {
+   "no": 847,
+   "aday": "27:63 — YILDIZ EŞİĞİNİN ALTINDA KALAN EN YÜKSEK EKSEN Z'Sİ: allah z=1,47. İki lafız (16. ve 18. sıra) ama n=20 olduğu için seyreliyor. Okunan ayetlerde yıldız veren en düşük z'ler 1,55 (27:60, n) ve 1,57 (27:23, pas); eşik 1,5 civarında.",
+   "olculen": {
+    "ayet": "27:63",
+    "n": 20,
+    "A": [
+     16,
+     18
+    ],
+    "allah_z": 1.47,
+    "yildiz": 0,
+    "esik_tahmini": 1.5,
+    "esik_ustu_en_dusuk": [
+     [
+      "27:60",
+      "n z",
+      1.55
+     ],
+     [
+      "27:23",
+      "pas z",
+      1.57
+     ]
+    ],
+    "karsilastirma": {
+     "27:59": {
+      "n": 12,
+      "lafiz": 2,
+      "allah_z": 2.8,
+      "yildiz": 2
+     },
+     "27:63": {
+      "n": 20,
+      "lafiz": 2,
+      "allah_z": 1.47,
+      "yildiz": 0
+     }
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 827/837'nin ÜÇÜNCÜ vakası ve en temizi: 27:59 ile 27:63 aynı eksen içeriğini taşıyor (iki lafız) ve tek fark n (12'ye 20); sonuç ★★ ile SIFIR.** Eşik 1,5 civarında olduğu için 27:63 kılpayı düşüyor. **Yıldız alanının eksen ölçümü uzunluğa aşırı duyarlı.** TUR SONU: eksen yoğunluğu hem ham hem normalize hesaplanıp hangisinin anlamlı olduğu sınanacak."
+  },
+  {
+   "no": 848,
+   "aday": "27:68 — PAS Z KORPUS TAVANINDA (5,38) VE TAVAN 124 AYETLE PAYLAŞILIYOR. Ayetin tek fiili var ve o da edilgen (وُعِدْنَا), oran 1/1 = 1,00. Yıldız ★★★ ve kaynağı YALNIZ edilgenlik. **Yani z burada bir sıralama değil, bir doygunluk noktası.**",
+   "olculen": {
+    "ayet": "27:68",
+    "n": 12,
+    "fiil": 1,
+    "edilgen": 1,
+    "oran": 1.0,
+    "pas_z": 5.38,
+    "korpus_tavani": 5.38,
+    "tavani_paylasan_ayet": 124,
+    "yildiz": 3,
+    "yildiz_kaynak": "pas",
+    "blok_karsilastirma": {
+     "doga_boluту_27:60-64": {
+      "ayet": 5,
+      "toplam_yildiz": 1
+     },
+     "27:68": {
+      "ayet": 1,
+      "yildiz": 3
+     }
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**pas z tek fiilli ayetlerde otomatik tavana çıkıyor** — oran her zaman 0 ya da 1. **Yani ★★★'ların bir bölümü yalnızca 'ayette tek fiil var ve o edilgen' demek.** Korpusta 124 ayet bu durumda. TUR SONU: pas z'nin payda küçüklüğüne karşı düzeltilmesi gerekip gerekmediği sınanacak (n=1 paydalı oranlar için güven aralığı). **Ve içerik tarafı: doğa bölütünün beş ayeti toplam bir ★ alırken bir inkâr cümlesi ★★★ alıyor — aday 599/602'ye bu bloktan en keskin veri.**"
+  },
+  {
+   "no": 849,
+   "aday": "DOĞA BÖLÜTÜ (27:60-64) YILDIZ ÜRETMİYOR — ÇIPA TABLOSUNA BEŞİNCİ VE EN GENİŞ GÖSTERİM. Beş ayet: 27:60 ★ (kaynak uzunluk) · 27:61, 62, 63, 64 YILDIZSIZ. 27:61 sûrenin en 'yerbilimsel' ayeti (karar yeri, ırmaklar, sabit dağlar, iki deniz arasında engel — جعل dört kez) ve yıldızsız. Aynı blokta 27:68 (bir inkâr cümlesi) ★★★ alıyor.",
+   "olculen": {
+    "bolut": "27:60-64",
+    "ayet": 5,
+    "yildiz": [
+     [
+      "27:60",
+      1,
+      "uzunluk"
+     ],
+     [
+      "27:61",
+      0,
+      null
+     ],
+     [
+      "27:62",
+      0,
+      null
+     ],
+     [
+      "27:63",
+      0,
+      null
+     ],
+     [
+      "27:64",
+      0,
+      null
+     ]
+    ],
+    "27:61_icerik": [
+     "karar yeri",
+     "ırmaklar",
+     "sabit dağlar",
+     "iki deniz arasında engel"
+    ],
+    "27:61_jaal_tekrari": 4,
+    "blok_tek_yildizli": "27:68 (★★★, kaynak pas)",
+    "27:64_dis_dugum": 7
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 599/602/809/838 dizisine beşinci ve en geniş gösterim: artık tek ayet değil, BEŞ AYETLİK bir bölüt.** Sûre 27'nin doğaya ayrılmış tek bölütü ve toplam yıldız verimi bir ★, o da uzunluktan. **Ayrıca 27:64 sûrenin en çok dış bağı olan ayeti (dış düğüm 7) ve hiçbir yıldız kaynağı taşımıyor** — 'dış bağ yoğunluğu' ile 'yıldız' arasında da ilişki yok. TUR SONU: çıpa tanımı yazıldıktan sonra bu bölüt 26/27 korelasyonunun çekirdek verisi olacak."
+  },
+  {
+   "no": 850,
+   "aday": "ADAY 806/835'İN SINIRI — 'AYRI AYET SAYISI' DONMUŞ KALIBI ANLAMSAL BİRLİKTELİKTEN AYIRAMIYOR. Bu blokta iki örnek aynı sayıyı verdi ama farklı şeyler: سطر ▸ أول ×49,7 dokuz ayrı ayetten geliyor ama hepsi TEK donmuş ifade (أساطير الأوّلين); عمي ▸ صمم ×93,1 sekiz ayrı ayetten geliyor ve gerçek bir anlamsal birliktelik (körlük-sağırlık). Sayı neredeyse aynı, tür farklı.",
+   "olculen": {
+    "donmus_kalip": {
+     "cift": [
+      "سطر",
+      "أول"
+     ],
+     "ayri_ayet": 9,
+     "kat": 49.7,
+     "ifade": "أساطير الأوّلين"
+    },
+    "anlamsal_birliktelik": {
+     "cift": [
+      "عمي",
+      "صمم"
+     ],
+     "ayri_ayet": 8,
+     "kat": 93.1
+    },
+    "blok_diger_olcumler": [
+     {
+      "cift": [
+       "هات",
+       "برهن"
+      ],
+      "ayri_ayet": 4,
+      "kat": 810.8,
+      "tur": "donmuş kalıp (هاتوا برهانكم)",
+      "kaynak": [
+       "2:111",
+       "21:24",
+       "27:64",
+       "28:75"
+      ]
+     },
+     {
+      "cift": [
+       "رسو",
+       "ميد"
+      ],
+      "ayri_ayet": 3,
+      "kat": 452.9,
+      "tur": "donmuş kalıp",
+      "kaynak": [
+       "16:15",
+       "21:31",
+       "31:10"
+      ]
+     },
+     {
+      "cift": [
+       "سير",
+       "مور"
+      ],
+      "ayri_ayet": 1,
+      "kat": 301.9,
+      "tur": "tek ayet",
+      "kaynak": [
+       "52:9"
+      ]
+     },
+     {
+      "cift": [
+       "ترب",
+       "نطف"
+      ],
+      "ayri_ayet": 4,
+      "kat": 103.4,
+      "tur": "yaratılış dizisi kalıbı"
+     }
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Kendi ölçütümün sınırını kaydediyorum: ayrı ayet sayısı ARTEFAKTI ayırıyor ama DONMUŞ KALIBI anlamsal birliktelikten ayırmıyor.** Bunun için ikinci bir alan gerekiyor: **ortak geçişlerin aynı n-gram'ı paylaşıp paylaşmadığı.** أساطير الأوّلين dokuz yerde ama tek ifade; عمي/صمم sekiz yerde ve her seferinde farklı terkip. **Yani 'aynı sahne' alanının yanına 'aynı ifade' alanı da gerekiyor — ve bu, aday 844'ün nakarat n-gram altyapısıyla AYNI altyapı.** İki P0 tek bir araçla çözülebilir."
+  },
+  {
+   "no": 851,
+   "aday": "SÛRE 27'NİN ÜÇ İLTİFÂTI ÜÇ AYRI KATMANDA — TAM KÜME. 27:6 (3>2, anlatı içi) · 27:31 (3>12, alıntı sınırında) · 27:69 (1>23, emir zincirinde). Sûrede başka iltifât yok.",
+   "olculen": {
+    "sure": 27,
+    "iltifat_ayetleri": [
+     [
+      6,
+      "3>2"
+     ],
+     [
+      31,
+      "3>12"
+     ],
+     [
+      69,
+      "1>23"
+     ]
+    ],
+    "katmanlar": [
+     "anlatı içi",
+     "alıntı sınırı",
+     "emir zinciri"
+    ],
+    "tam_kume": true
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 811'in sınıflandırma önerisine sûre içi TAM küme: üç iltifât, üç farklı katman, tekrar yok.** Sûre sonuna kadar okunmadan kapatılmadı — defterden doğrulandı ki sûrede toplam üç iltifât var (ders 774 karşılandı). **Sûre 26'nın on beş iltifâtı bu sınıflandırmadan geçmediği için 26/27 iltifât karşılaştırması hâlâ yapılamaz.**"
+  },
+  {
+   "no": 852,
+   "aday": "27:61 ↔ 27:62 — ARDIŞIK AYETLERDE ZIT SAYI ALANI. 27:61 fâsıla öncesi أَكْثَرُهُمْ (çoğu), 27:62 fâsıla öncesi قَلِيلًا (az). Aynı bölüt, aynı konum, zıt nicelik.",
+   "olculen": {
+    "ayetler": [
+     "27:61",
+     "27:62"
+    ],
+    "say_alani": [
+     [
+      "كثر",
+      "أَكْثَر"
+     ],
+     [
+      "قلل",
+      "قَلِيل"
+     ]
+    ],
+    "konum": "fâsıla öncesi",
+    "sure_27_say_alani_dolu": [
+     "27:48 تسع",
+     "27:61 كثر",
+     "27:62 قلل"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "`say` alanı sûre 27'de üç ayette dolu (27:48, 61, 62) ve ikisi ardışık ve zıt. **Sayı alanı 'nicelik' değil 'sayı sözcüğü' sayıyor — أَكْثَر ve قَلِيل sayı değil, nicelik belirteci; تِسْعَة gerçek sayı.** Alan bu ikisini ayırmıyor. Küçük ama kayda değer bir tür karışıklığı; P2."
+  },
+  {
+   "no": 853,
+   "aday": "BLOK 27:61-70 BİLANÇOSU. Yıldız: ★★★ 1 (27:68, kaynak PAS) · ★★ 0 · ★ 0 · yıldızsız 9. **Doğa bölütünün gövdesi (27:61-64) tamamen yıldızsız.** İltifât 1/10 (27:69, sûrenin sonuncusu). Esmâ token 2, ikisi de artefakt. Allah lafzı 6 · **Rab 0 — iki blok üst üste.** Adlı aktör 0 · adsız aktör 0 — **okumada ilk kez bir blokta hiç aktör yok.** Yeni kök 1 (حجز). Hapaks 0. Kafiye kırılması 0.",
+   "olculen": {
+    "blok": "27:61-70",
+    "ayet": 10,
+    "yildiz": {
+     "3": 1,
+     "2": 0,
+     "1": 0,
+     "0": 9
+    },
+    "yildiz_kaynak": {
+     "pas": 1,
+     "icerik": 0
+    },
+    "iltifat": 1,
+    "esma_token": 2,
+    "esma_artefakt": 2,
+    "muhur": 0,
+    "allah_lafzi": 6,
+    "rab": 0,
+    "adli_aktor": 0,
+    "adsiz_aktor": 0,
+    "yeni_kok": 1,
+    "hapaks": 0,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 0,
+    "nakarat_alani_dolu": 0,
+    "ort_n": 13.4
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:61-70",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk yetmiş ayet: ★★★ 6 · ★★ 5 · ★ 5 · yıldızsız 54. Esmâ token 27 (17 artefakt, 10 geçerli mühür tokeni). Allah lafzı 23 · Rab 5 → **A/R = 4,60** (ilk kırkta 1,40 · ellide 2,80 · altmışta 3,40; makro 2,25). **Oran monoton artıyor ve makronun iki katına çıktı — sûrenin ikinci yarısı belirgin biçimde eksen yoğun.** İltifât 3/70 (tamamlandı). **Beş blok üst üste yıldızsız oran ≥%80.**"
+  },
+  {
+   "no": 854,
+   "aday": "★ `esit` ALANININ MEKANİZMASI BULUNDU — TAM DİZGE EŞLEŞMESİ; BAŞTAKİ TEK BAĞLAÇ HARFİ EŞLEŞMEYİ BOZUYOR. 27:80 ile 30:52 arasındaki TEK fark baştaki فَ; başka hiçbir fark yok. **`esit` alanı İKİSİNDE DE BOŞ.** Oysa dokuz ayet önce 27:71'de aynı alan beş hedefi birden yakalamıştı (altı ayet birebir aynı). Tam ölçüm: korpusta tam aynı metinli 87 küme (257 ayet); baştaki و/ف atılınca 94 küme (273 ayet).",
+   "olculen": {
+    "tam_esleme_kume": 87,
+    "tam_esleme_ayet": 257,
+    "esit_alani_dolu_ayet": 253,
+    "vf_kirpilinca_kume": 94,
+    "vf_kirpilinca_ayet": 273,
+    "yalniz_vf_farkiyla_kacan_kume": 9,
+    "kacan_ayet": 29,
+    "ornekler": [
+     [
+      "1:2",
+      "37:182"
+     ],
+     [
+      "3:51",
+      "19:36"
+     ],
+     [
+      "7:120",
+      "26:46"
+     ],
+     [
+      "20:9",
+      "79:15"
+     ],
+     [
+      "27:80",
+      "30:52"
+     ],
+     [
+      "37:174",
+      "37:178"
+     ],
+     [
+      "94:5",
+      "94:6"
+     ]
+    ],
+    "not": "94:5 ↔ 94:6 ARDIŞIK iki ayet ve alan görmüyor"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Üçüncü 'yanlış birim / yanlış tolerans' alanı; aday 833 ve 844 ile aynı aile.** adsız aktör: adlandırılmamışlık yerine BELİRSİZLİK · nakarat: tekrar yerine AYET TEKRARI · esit: benzerlik yerine TAM DİZGE. **Üçünün onarımı da aynı altyapıyı istiyor: n-gram / yaklaşık eşleme.** Ve aday 850'nin ihtiyacı (donmuş kalıbı anlamsal birliktelikten ayırmak) da aynı altyapı. **DÖRT P0 tek araçla çözülebilir.** ONARIM (ucuz): eşleme öncesi baştaki و/ف kırpılsın → 29 ayet kazanılır, maliyet sıfır. **KAPATILAMAZ: yalnız baştaki bağlaç farkı tarandı; ara farklar (tek kelime ekleme/çıkarma) ölçülmedi.**"
+  },
+  {
+   "no": 855,
+   "aday": "27:71 — OKUMADA İLK ÇOK HEDEFLİ `esit`: BEŞ HEDEF. 10:48 · 21:38 · 34:29 · 36:48 · 67:25. Altı ayetin altısı da BİREBİR aynı metin (وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَٰدِقِينَ). `nakarat` alanı altısında da sıfır — doğru, çünkü tekrar sûre içi değil, sûreler arası.",
+   "olculen": {
+    "ayet": "27:71",
+    "esit_hedef": 5,
+    "hedefler": [
+     [
+      10,
+      48
+     ],
+     [
+      21,
+      38
+     ],
+     [
+      34,
+      29
+     ],
+     [
+      36,
+      48
+     ],
+     [
+      67,
+      25
+     ]
+    ],
+    "hepsi_birebir": true,
+    "nakarat_alani": 0,
+    "dis_dugum": 5,
+    "fasila": "aynı (صَٰدِقِينَ) — 27:64 ile de ortak"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Alan burada tam olarak yapması gerekeni yapıyor ve bu, aday 854'ün kontrol vakası: aynı sûrede, dokuz ayet arayla, alan bir kez mükemmel çalışıyor bir kez tümüyle kör kalıyor — tek fark bir harf.** Ayrıca `nakarat` ile `esit` arasındaki iş bölümü netleşti: nakarat sûre içi, esit sûreler arası. **İkisinin de ayet-altı katmanı yok.**"
+  },
+  {
+   "no": 856,
+   "aday": "ADAY 804 KAPANDI — SÛRE 27'DE ALTI MÜHÜR, ALTI FARKLI ÇİFT, ALTISI DA `م` FÂSILALI VE ALTISI DA GEÇERLİ. Son sınama 27:78 (`عَزِيز|عَلِيم`, gönderge هُوَ, mercii رَبّ) tuttu. Sûrenin dokuz `م` fâsılasının altısı mühür; kalan üçü (27:23, 26, 29) mühürsüz ve üçü de okundu.",
+   "olculen": {
+    "sure": 27,
+    "muhur_sayisi": 6,
+    "farkli_cift": 6,
+    "hepsi_gecerli": true,
+    "muhurler": [
+     [
+      6,
+      "حَكِيم|عَلِيم"
+     ],
+     [
+      9,
+      "عَزِيز|حَكِيم"
+     ],
+     [
+      11,
+      "غَفُور|رَحِيم"
+     ],
+     [
+      30,
+      "رَحْمٰن|رَحِيم"
+     ],
+     [
+      40,
+      "غَنِيّ|كَرِيم"
+     ],
+     [
+      78,
+      "عَزِيز|عَلِيم"
+     ]
+    ],
+    "mim_fasila_toplam": 9,
+    "mim_muhur": 6,
+    "mim_muhursuz": [
+     23,
+     26,
+     29
+    ],
+    "on_kayit_sinamalari": [
+     [
+      "27:40",
+      "tuttu"
+     ],
+     [
+      "27:78",
+      "tuttu"
+     ]
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "ön-kayıt sınaması (tamamlandı)",
+   "test_notu": "**Ön-kayıt EKSİK alan (esma_k geçerliliği) üzerine kurulmuştu, ZAYIF etiketliydi ve İKİ SINAMANIN İKİSİNDE DE TUTTU.** Aday 722'nin deseni (eksik alan üzerine kurulan tahminler düşer) burada tutmadı. **Neden: mühür bayrağı aslında eksik alanın kendisi değil, onun üzerine kurulu YAPISAL bir hesap (bitişiklik + son konum) ve yapısal hesap çalışıyor** (aday 818). Genelleme adayı: **'azınlık fâsıla harfi esmâ mührüne ayrılır' — sûre 27'de 6/9. Sonraki sûrelerde sınanacak; sûre 26 fâsıla tekdüzeliği nedeniyle uygun değil.**"
+  },
+  {
+   "no": 857,
+   "aday": "ADAY 803 KAPANDI — `مُبِين` SÛRE 27'DE 6/6 ARTEFAKT. 27:1 (gönderge kitâb) · 27:13 (sihr) · 27:16 (fadl) · 27:21 (sultân) · 27:75 (kitâb) · 27:79 (hak). Hiçbirinde gönderge ilâhî değil; altısı da fâsıla konumunda; altısı da mühürsüz. Aynı blokta `مُؤْمِن` dizisi de kapandı: 3/3 artefakt (27:2, 15, 77), üçünde de gönderge insan. `آخِر` 4/4 artefakt (27:3, 4, 5, 66), dördünde de gönderge âhiret.",
+   "olculen": {
+    "mubin": {
+     "token": 6,
+     "artefakt": 6,
+     "ayetler": [
+      1,
+      13,
+      16,
+      21,
+      75,
+      79
+     ],
+     "gondergeler": [
+      "kitâb",
+      "sihr",
+      "fadl",
+      "sultân",
+      "kitâb",
+      "hak"
+     ]
+    },
+    "mumin": {
+     "token": 3,
+     "artefakt": 3,
+     "ayetler": [
+      2,
+      15,
+      77
+     ],
+     "gonderge": "insan"
+    },
+    "ahir": {
+     "token": 4,
+     "artefakt": 4,
+     "ayetler": [
+      3,
+      4,
+      5,
+      66
+     ],
+     "gonderge": "âhiret"
+    },
+    "sure_26_mumin": {
+     "token": 15,
+     "artefakt": 15
+    },
+    "iki_surede_mumin_toplam": 18
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü (dizi sûre sonuna kadar okundu)",
+   "test_notu": "**Ders 774 karşılandı: dizi sûre sonuna kadar okunmadan kapatılmadı.** Üç lemma, üç dizi, on üç token, **hepsi artefakt.** Sûre 26'nın 15 `مُؤْمِن` tokeniyle birlikte **iki sûrede on sekiz `مُؤْمِن` tokeni ve hepsi artefakt.** **Esmâ tablosunun sıfat-esmâ lemmaları (مُبِين, مُؤْمِن, آخِر) için gönderge denetimi olmadan token üretmesi artık tam sayımla belgelenmiş.** ONARIM: bu üç lemma için 'fâsıla konumunda ve mühürsüzse artefakt say' kuralı **bu iki sûrede %100 doğru** — ama genelleme korpus taramasıyla sınanmalı."
+  },
+  {
+   "no": 858,
+   "aday": "ADAY 818'İN ÖN-KAYDI BEŞİNCİ, ALTINCI VE YEDİNCİ KEZ SINANDI — ÜÇÜ DE ARTEFAKT. 27:75 مُبِين (kitâb) · 27:77 مُؤْمِن (insan çoğul) · 27:79 مُبِين (hak). Ayrım: mühür tokeninde 12/12 geçerli, mühürsüz tokende 0/20. **Sekiz sınamanın yedisi geçti; TEK sınama kaldı: 27:88 خَبِير.**",
+   "olculen": {
+    "sinama_no": [
+     5,
+     6,
+     7
+    ],
+    "ayetler": [
+     "27:75",
+     "27:77",
+     "27:79"
+    ],
+    "gecerli": [
+     false,
+     false,
+     false
+    ],
+    "muhursuz_token_toplam": 20,
+    "muhursuz_gecerli": 0,
+    "muhur_token_toplam": 12,
+    "muhur_gecerli": 12,
+    "ayrim": "32/32",
+    "kalan_sinama": [
+     "27:88 خَبِير"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "ön-kayıt sınaması",
+   "test_notu": "**Ayrım 32/32 oldu ve ön-kaydın kaderi tek bir ayete indi.** Ön-kayıt: 'en az biri geçerli çıkacak ve ayrım bozulacak'; gerekçe mühür bayrağının YAPISAL olması ve tek başına gelen geçerli bir ismi yakalayamaması. **27:88 okunduğunda ön-kayıt ya tutacak ya düşecek; iki sonuç da bilgi verir:** tutarsa bayrak 'yeterli ama gerekli değil' olarak kalır; düşerse sûre 27'de bayrak kusursuz bir vekil ölçü olmuş olur ve genelleme korpus taramasına havale edilir."
+  },
+  {
+   "no": 859,
+   "aday": "z'NİN UZUNLUK NORMALİZASYONU — DÖRDÜNCÜ VE EN ÇARPICI VAKA: TEK LAFIZ, İKİ LAFIZDAN YÜKSEK z. 27:79'da n=7 ve TEK lafız → allah z=2,33 ve ★★. 27:63'te n=20 ve İKİ lafız → allah z=1,47 ve SIFIR. Sûrenin en yüksek eksen z'si 27:59 (n=12, iki lafız, z=2,80).",
+   "olculen": {
+    "vakalar": [
+     {
+      "ayet": "27:79",
+      "n": 7,
+      "lafiz": 1,
+      "allah_z": 2.33,
+      "yildiz": 2
+     },
+     {
+      "ayet": "27:63",
+      "n": 20,
+      "lafiz": 2,
+      "allah_z": 1.47,
+      "yildiz": 0
+     },
+     {
+      "ayet": "27:59",
+      "n": 12,
+      "lafiz": 2,
+      "allah_z": 2.8,
+      "yildiz": 2
+     },
+     {
+      "ayet": "27:44",
+      "n": 28,
+      "eksen_isareti": 3,
+      "allah_z": 0.19,
+      "rab_z": 1.2,
+      "yildiz": 1,
+      "kaynak": "uzunluk"
+     }
+    ],
+    "sonuc": "z eksen SAYISINI değil eksen/uzunluk ORANINI ölçüyor"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 827/837/847'nin dördüncü ve en net vakası: tek lafız iki lafızdan yüksek z veriyor.** Dört vaka aynı sûrede ve tek değişken n. **Yıldız alanının 'eksen' ölçüsü aslında 'eksen yoğunluğu' — bu ayrı bir ölçüdür ve adı alanda görünmüyor.** TUR SONU: ham sayı ve normalize oran ayrı alanlar olarak üretilip hangisinin yorumda kullanıldığı kayda geçirilecek."
+  },
+  {
+   "no": 860,
+   "aday": "XREF YOĞUNLUĞU DÖRDÜNCÜ VERİ — 27:80'DE BEŞ 3-GRAM VE BEŞİ DE TEK AYETE (30:52). Önceki üç vaka: 27:10 (altı bağ), 27:19 (dokuz 3-gram'ın sekizi 46:15'e), 27:55 (dört 3-gram'ın dördü 7:81'e). **Dördünde de hedef tek bir ayet ve o ayet neredeyse birebir aynı metin.**",
+   "olculen": {
+    "vakalar": [
+     {
+      "ayet": "27:80",
+      "gram_3": 5,
+      "hedef": "30:52",
+      "fark": "baştaki فَ"
+     },
+     {
+      "ayet": "27:55",
+      "gram_3": 4,
+      "hedef": "7:81"
+     },
+     {
+      "ayet": "27:19",
+      "gram_3": 9,
+      "tek_hedefe": 8,
+      "hedef": "46:15"
+     },
+     {
+      "ayet": "27:10",
+      "bag": 6
+     }
+    ],
+    "sonuc": "yüksek xref yoğunluğu = korpusta neredeyse aynı ayetin başka bir yerde bulunması"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 797/840 netleşti ve bir işlev kazandı: xref yoğunluğu, `esit`in kaçırdığı yakın-eşleşmeleri BULUYOR.** 27:80'de `esit` boş ama beş 3-gram tek hedefe düşüyor — **yani xref yoğunluğu, aday 854'ün onarımı için hazır bir aday üreteci.** ÖN-KAYIT: korpusta 'dört veya daha fazla 3-gram'ı tek hedefe düşen ve `esit`i boş olan' ayetler taranırsa, çıkanların büyük çoğunluğu yakın-eşleşme olacak. TUR SONU'nda koşulacak."
+  },
+  {
+   "no": 861,
+   "aday": "SÛRE 27'DE 529 KÜMESİ BEŞ VAKAYA ÇIKTI VE `هدي` DÖRT ANLAM ALANINA ULAŞTI. Vakalar: سمو (gök/ad) · هدي (yol bulma / hediye / tanıma / hidâyet) · طير (kuş/uğur) · كشف (açma/giderme) · خلف (halife/ayrılığa düşme). Otomatik tespit ölçütü beşinde de çalışmadı; skor 2/9.",
+   "olculen": {
+    "sure": 27,
+    "vaka_sayisi": 5,
+    "vakalar": [
+     {
+      "kok": "سمو",
+      "alan": 2
+     },
+     {
+      "kok": "هدي",
+      "alan": 4,
+      "ayetler": [
+       24,
+       35,
+       36,
+       41,
+       63,
+       77
+      ]
+     },
+     {
+      "kok": "طير",
+      "alan": 2
+     },
+     {
+      "kok": "كشف",
+      "alan": 2
+     },
+     {
+      "kok": "خلف",
+      "alan": 2,
+      "ayetler": [
+       62,
+       76
+      ]
+     }
+    ],
+    "olcut_skoru": "2/9",
+    "karsi_ornek": {
+     "kok": "نظر",
+     "gecis": 8,
+     "alan": 1
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**`هدي` sûrede altı geçiş ve DÖRT anlam alanı — 529 kümesinin en dallanmış vakası.** Ve karşı örnek güçlendi: `نظر` sûrede SEKİZ geçiş ve tek anlam alanı. **Sorun kesinlikle sıklık değil, kökün lemma yapısı** (هُدَى/هَدِيَّة ayrı lemmalar; نظر tek lemma ailesi). **P0 #5'in lemma katmanı için sınama kümesi dokuz vakalık.** Otomatik ölçüt 2/9'da; **terk edilmesi önerisi güçleniyor.**"
+  },
+  {
+   "no": 862,
+   "aday": "BLOKTA YILDIZLARIN TAMAMI EKSENDEN — OKUMADA İLK KEZ. ★★ 3 (27:74 Rab z=2,34 · 27:78 Rab z=2,34 · 27:79 allah z=2,33) · ★ 1 (27:73 Rab z=1,81). Dördünde de tek kaynak eksen; hapaks, pas, uzunluk katkısı sıfır.",
+   "olculen": {
+    "blok": "27:71-80",
+    "yildizlar": [
+     [
+      "27:73",
+      1,
+      "rab",
+      1.81
+     ],
+     [
+      "27:74",
+      2,
+      "rab",
+      2.34
+     ],
+     [
+      "27:78",
+      2,
+      "rab",
+      2.34
+     ],
+     [
+      "27:79",
+      2,
+      "allah",
+      2.33
+     ]
+    ],
+    "diger_kaynaklar": 0,
+    "sure_rab_ayetleri": [
+     8,
+     19,
+     26,
+     40,
+     44,
+     73,
+     74,
+     78,
+     91,
+     93
+    ],
+    "blok_rab": 3
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Okumada ilk kez bir blokta yıldız kaynaklarının tamamı eksen.** Önceki bloklarda kaynaklar hapaks, pas ve uzunluktu; içerik hiçbirinde kaynak olmamıştı ve burada da değil. **Not: 27:78'de mühür var ve mühür yıldıza KATKI VERMİYOR — yıldızı üreten yalnız Rab.** Esmâ ve yıldız alanları birbirinden bağımsız çalışıyor; bu, çıpa/yıldız korelasyonu hesaplanırken esmâ'nın kontrol değişkeni olarak kullanılabileceği anlamına gelir."
+  },
+  {
+   "no": 863,
+   "aday": "27:46 ↔ 27:72 — AYNI FİİL, AYNI VEZİN, İKİ AYRI KAVİM. 27:46'da Sâlih Semûd'a: لِمَ تَسْتَعْجِلُونَ بِٱلسَّيِّئَةِ. 27:72'de Mekke'ye: بَعْضُ ٱلَّذِى تَسْتَعْجِلُونَ. Aynı bab X fiili, yirmi altı ayet arayla, ikisi de azabın çabuklaştırılmasını isteme bağlamında.",
+   "olculen": {
+    "ayetler": [
+     "27:46",
+     "27:72"
+    ],
+    "kok": "عجل",
+    "n": 47,
+    "fiil": "testa'cilûn (عجل kökü, bab X)",
+    "bab": "X",
+    "mesafe": 26,
+    "muhataplar": [
+     "Semûd",
+     "Mekke"
+    ],
+    "esit_alani": [
+     [],
+     []
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 812'nin ('konuşmacı-arası kalıp yankısı') ikinci vakası ve bu kez MUHATAP değişiyor, konuşmacı değil.** 27:34↔27:37'de kraliçe/Süleymân, burada Semûd/Mekke. **`esit` alanı ikisinde de boş** (kelime örtüşmesi tek). **`esit`in sekizinci eşik türü adayı iki vakaya çıktı; ayrıca 'muhatap değişimi' ile 'konuşmacı değişimi' ayrı alt türler olabilir.**"
+  },
+  {
+   "no": 864,
+   "aday": "BLOK 27:71-80 BİLANÇOSU. Yıldız: ★★★ 0 · ★★ 3 · ★ 1 · yıldızsız 6. **Kaynakların tamamı eksen (Rab x3, lafız x1); içerikten sıfır.** İltifât 0/10. Esmâ token 5: üçü artefakt, ikisi geçerli mühür. Allah lafzı 1 · **Rab 3 — okumada en yüksek blok Rab sayısı.** Adlı aktör 2 (قُرْءان türü KİTAB — sûrede ilk ve tek) · adsız aktör 0. Yeni kök 2 (ردف, كنن). Hapaks 0. **Üç dizi kapandı.** Yıldızsız oran %60 — altı blok sonra ilk kez %80'in altında.",
+   "olculen": {
+    "blok": "27:71-80",
+    "ayet": 10,
+    "yildiz": {
+     "3": 0,
+     "2": 3,
+     "1": 1,
+     "0": 6
+    },
+    "yildiz_kaynak": {
+     "rab": 3,
+     "lafiz": 1,
+     "icerik": 0
+    },
+    "iltifat": 0,
+    "esma_token": 5,
+    "esma_artefakt": 3,
+    "muhur": 1,
+    "allah_lafzi": 1,
+    "rab": 3,
+    "adli_aktor": 2,
+    "adsiz_aktor": 0,
+    "yeni_kok": 2,
+    "hapaks": 0,
+    "kafiye_kirilmasi": 0,
+    "mim_fasila": 1,
+    "esit_dolu": 1,
+    "ort_n": 8.6,
+    "kapanan_diziler": [
+     "مُبِين 6/6 artefakt",
+     "مُؤْمِن 3/3 artefakt",
+     "mühür 6/6 geçerli"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:71-80",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Sûre 27 ilk seksen ayet: ★★★ 6 · ★★ 8 · ★ 6 · yıldızsız 60. Esmâ token 32 (20 artefakt, 12 geçerli mühür tokeni). Allah lafzı 24 · Rab 8 → **A/R = 3,00** (kırkta 1,40 · ellide 2,80 · altmışta 3,40 · yetmişte 4,60; makro 2,25). **Oran yetmişte tepe yapıp düştü — monoton artış kaydı DÜŞTÜ; bu blokta üç Rab geldi ve oran geriledi.** İltifât 3/80. **Ortalama n=8,6 — okumadaki en kısa blok.**"
+  },
+  {
+   "no": 865,
+   "aday": "★ ADAY 818'İN ÖN-KAYDI TUTTU — 27:88 خَبِير GEÇERLİ, AYRIM BOZULDU. Ön-kayıt: 'sûrenin kalan mühürsüz esmâ tokenlerinden en az biri GEÇERLİ çıkacak ve mühür bayrağının kusursuz ayrımı bozulacak'; gerekçe bayrağın YAPISAL olması (iki esmânın bitişikliği + son konum) ve tek başına gelen geçerli bir ismi tanım gereği yakalayamaması. 27:88'de خَبِير mühürsüz ve göndergesi İLÂHÎ (إِنَّهُۥ, mercii صُنْعَ ٱللَّهِ). **Düştüğü yer de öngörülen yer: son ta'lîl cümlesinde tek başına duran bir isim.**",
+   "olculen": {
+    "sinama_no": 8,
+    "ayet": "27:88",
+    "esma": "خَبِير",
+    "konum": 16,
+    "n": 18,
+    "muhur": false,
+    "gecerli": true,
+    "gonderge": "ilâhî (zamir, mercii lafza-i celâl)",
+    "sure_muhursuz_token": 21,
+    "muhursuz_gecerli": 1,
+    "sure_muhur_token": 12,
+    "muhur_gecerli": 12,
+    "ayrim_once": "32/32",
+    "ayrim_sonra": "33/34",
+    "on_kayit": "tuttu",
+    "dayanak": "yapısal"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "ön-kayıt sınaması (tamamlandı)",
+   "test_notu": "**Bu, okumada YAPISAL GEREKÇEYLE kurulup KENDİ DESENİNİN BOZULACAĞINI öngören ilk ön-kayıt ve tuttu.** Sonuç: **mühür bayrağı gönderge geçerliliği için YETERLİ ama GEREKLİ DEĞİL.** Sûre 27'de 12/12 mühür tokeni geçerli (yanlış pozitif sıfır) ve 20/21 mühürsüz token artefakt (yanlış negatif bir). **Esmâ tablosunun onarımında bayrak güvenilir bir POZİTİF filtre olarak kullanılabilir; negatif filtre olarak kullanılamaz.** TUR SONU: korpus çapında mühür/mühürsüz × geçerli/artefakt çapraz tablosu çıkarılacak."
+  },
+  {
+   "no": 866,
+   "aday": "27:88 — SÛRENİN EN YÜKSEK z DEĞERİ: hapaks z=6,98, İKİ HAPAKS BİRDEN (تقن, جمد). Sûrenin tek çift-hapaks ayeti. Ayet ayrıca korpusta yalnız üç ayette bulunan `MM` (mef'ûl-i mutlak) biçimini taşıyor.",
+   "olculen": {
+    "ayet": "27:88",
+    "hapaks": [
+     "تقن",
+     "جمد"
+    ],
+    "hapaks_z": 6.98,
+    "sure_hapaks_ayetleri": {
+     "27:19": [
+      "بسم"
+     ],
+     "27:20": [
+      "هدهد"
+     ],
+     "27:25": [
+      "خبأ"
+     ],
+     "27:39": [
+      "عفر"
+     ],
+     "27:88": [
+      "تقن",
+      "جمد"
+     ]
+    },
+    "sure_hapaks_kok_sayisi": 6,
+    "korpus_en_yuksek_hapaks_z": {
+     "2:61": 17.8,
+     "5:3": 14.19
+    },
+    "fig": "MM",
+    "MM_korpus_ayet": 3
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "Korpus azamisi 2:61'de (beş hapaks, z=17,8); 27:88 sûre içi azami. **Sûrenin beş hapaks ayetinin dördü ★★★, biri (27:19) ★★★ — yani hapaks alanı sûrede kusursuz bir ★★★ üreticisi.** Bu, yıldız alanının içerikten bağımsızlığına ek veri: **hapaks bir 'nadirlik' ölçüsüdür, bir 'önem' ölçüsü değil.**"
+  },
+  {
+   "no": 867,
+   "aday": "`MM` (MEF'ÛL-İ MUTLAK) ALANININ ONARIMI AŞIRI DARALTMIŞ — 175'TEN 3'E. defter5.py'nin kendi çıktısı bunu kaydediyor: eski kural (V + aynı kökten N, bitişik) 175 ayet; yeni kural (V + aynı kökten VN) **3 ayet** (17:26, 27:88, 84:8). Sûre 27'de eski kurala uyan üç ayet var (27:21 عَذَابًا, 27:50 مَكْرًا x2, 27:88) ve yeni kural yalnız 27:88'i etiketliyor.",
+   "olculen": {
+    "eski_kural_ayet": 175,
+    "yeni_kural_ayet": 3,
+    "yeni_kural_ayetleri": [
+     "17:26",
+     "27:88",
+     "84:8"
+    ],
+    "sure_27_eski": [
+     "27:21",
+     "27:50",
+     "27:88"
+    ],
+    "sure_27_yeni": [
+     "27:88"
+    ],
+    "kacan_ornekler": {
+     "27:21": "لَأُعَذِّبَنَّهُۥ عَذَابًا",
+     "27:50": "مَكَرُوا۟ مَكْرًا (iki kez)"
+    },
+    "daralma_orani": 58.3
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Bir ONARIMIN kendisi yeni bir arıza üretmiş: 175 → 3, elli sekiz kat daralma.** مَكَرُوا۟ مَكْرًا ders kitabı örneğidir ve alan görmüyor; sebep ikinci tokenin morfolojide 'VN' değil 'N' etiketli olması. **DERS: onarımlar kendi yanlış negatif denetiminden geçmeli.** Eski kural yanlış pozitif üretiyordu (175 fazla geniş), yeni kural yanlış negatif üretiyor (3 fazla dar); **doğru ölçüt ikisinin arasında: V + aynı kök + ACC/INDEF isim.** TUR SONU: ara ölçüt koşulup sayı ölçülecek. **Bu, aday 806'nın 'koruma yanlış değişkende' bulgusunun onarım tarafındaki eşi.**"
+  },
+  {
+   "no": 868,
+   "aday": "ADLI AKTÖR ALANINDA CİNS İSİM ARTEFAKTI — مُسْلِم 14 TOKEN, HEPSİ 'KAVİM' TÜRÜNDE. 27:91'de ٱلْمُسْلِمِينَ adlı aktör olarak sayılmış; ama bu bir cins isim, özel ad değil. Korpus taraması: alanın 105 adlık envanterinde مُسْلِم (14 token) ve نَصْرانِيّ (15 token) gibi cins isimler var.",
+   "olculen": {
+    "ad": "مُسْلِم",
+    "token": 14,
+    "tur": "kavim",
+    "hepsi_ayni_tur": true,
+    "ornek_ayetler": [
+     "6:163",
+     "10:72",
+     "10:90",
+     "16:89",
+     "16:102",
+     "22:78",
+     "27:91",
+     "33:35",
+     "39:12",
+     "41:33"
+    ],
+    "benzer": "نَصْرانِيّ (15 token)",
+    "envanter_boyu": 105,
+    "sure_27_etkisi": "adlı aktör 25 tokenin en az 1'i artefakt"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 802/833'ün ADSIZ aktör tarafında bulduğu arızanın ADLI taraftaki karşılığı: alan 'özel ad'ı 'sözlükteki ad listesinde bulunma' ile karıştırıyor.** Envantere cins isimler girmiş. **Dört alanın (aday 765) aktör ayağı artık iki yönden de arızalı: adsız tarafta hem yanlış pozitif hem yanlış negatif, adlı tarafta yanlış pozitif.** KAPATILAMAZ — 105 adlık envanterin tamamı cins isim açısından taranmadı. TUR SONU: envanter elden geçirilecek; **ölçüt 'morfolojide PN etiketi var mı' olmalı** (korpus 106 PN lemma taşıyor, envanter 105 ad — sayılar yakın ama küme aynı değil)."
+  },
+  {
+   "no": 869,
+   "aday": "`esit` YANLIŞ NEGATİFİNİN İKİNCİ VAKASI — VE BU KEZ FARK KELİME İÇİNDE. 27:81 ile 30:53 arasındaki tek fark بِهَٰدِى / بِهَٰدِ, yani bir yâ harfi. `esit` ikisinde de boş. Bir önceki vakada (27:80 ↔ 30:52) fark baştaki bir bağlaçtı. **İki ardışık ayet (27:80-81) iki ardışık ayetle (30:52-53) neredeyse birebir eşleşiyor ve alan hiçbirini görmüyor.**",
+   "olculen": {
+    "cift": [
+     "27:81",
+     "30:53"
+    ],
+    "fark": "kelime içi bir yâ harfi",
+    "esit": [
+     [],
+     []
+    ],
+    "xref_3gram": 4,
+    "hepsi_tek_hedefe": true,
+    "onceki_vaka": {
+     "cift": [
+      "27:80",
+      "30:52"
+     ],
+     "fark": "baştaki bağlaç"
+    },
+    "ardisik_ciftler": true
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 854'ün önerdiği ucuz onarım (baştaki و/ف'yi kırp) bu vakayı YAKALAMAZ** — fark kelime içinde. **Yani `esit` onarımı gerçekten yaklaşık eşleme istiyor, kırpma yetmiyor.** Ve xref yine doğru çalışıyor (dört 3-gram, tek hedef): **aday 860'ın 'xref yoğunluğu esit'in kaçırdıklarını buluyor' kaydı ikinci vakada da doğrulandı.** ÖN-KAYIT (aday 860'ın): korpusta 'dört+ 3-gram tek hedefe VE esit boş' taraması çalıştırılırsa çıkanların çoğu yakın-eşleşme olacak — **iki vaka da bu yönde.**"
+  },
+  {
+   "no": 870,
+   "aday": "SÛRE 27'DE ÜÇ AYET-İÇİ NAKARAT VAR VE ALAN ÜÇÜNÜ DE GÖRMÜYOR. (1) `أَءِلَٰهٌ مَّعَ ٱللَّهِ` — beş kez, 27:60-64, korpusta başka yerde yok. (2) `كَيْفَ كَانَ عَٰقِبَةُ` + değişen tamlanan — üç kez, 27:14, 51, 69. (3) `وَقَعَ ٱلْقَوْلُ عَلَيْهِم` — iki kez, 27:82 ve 27:85, üç ayet arayla, birebir. **`nakarat` alanı sûre 27'de SIFIR.**",
+   "olculen": {
+    "sure": 27,
+    "nakarat_alani_dolu": 0,
+    "ayet_ici_nakaratlar": [
+     {
+      "kalip": "أَءِلَٰهٌ مَّعَ ٱللَّهِ",
+      "kez": 5,
+      "ayetler": [
+       60,
+       61,
+       62,
+       63,
+       64
+      ],
+      "tur": "sabit"
+     },
+     {
+      "kalip": "كَيْفَ كَانَ عَٰقِبَةُ",
+      "kez": 3,
+      "ayetler": [
+       14,
+       51,
+       69
+      ],
+      "tur": "şablon"
+     },
+     {
+      "kalip": "وَقَعَ ٱلْقَوْلُ عَلَيْهِم",
+      "kez": 2,
+      "ayetler": [
+       82,
+       85
+      ],
+      "tur": "sabit"
+     }
+    ],
+    "sure_26_nakarat_alani_dolu": 34,
+    "sure_26_nakarat_birimi": "tam ayet"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü (sûre tamamlandı)",
+   "test_notu": "**Aday 844/845 tam sûre sayımıyla kapandı: üç nakarat, iki tür (sabit / şablon), alan sıfır.** Buna karşılık sûre 26'da alan 34 ayette dolu çünkü orada nakarat TAM AYET. **Onarılmış nakarat alanının kapsaması gereken üç tür: tam ayet · sabit ayet-içi kalıp · şablon kalıp.** VE BİR UYARI: aday 700/739/771'in sûre 26 nakarat düzeltmesi yalnız tam-ayet türünü saymıştı; **sûre 26'da da ayet-içi nakaratlar varsa o sayım eksik ve 26/27 karşılaştırması şu an YAPILAMAZ.**"
+  },
+  {
+   "no": 871,
+   "aday": "★ SÛRE 27 KAPANIŞ BİLANÇOSU — HAM SAYIMLAR. 93 ayet · ortalama n=12,38 · fâsıla 84 `ن` + 9 `م` · kafiye kırılması 0. YILDIZ: ★★★ 9 · ★★ 9 · ★ 10 · yıldızsız 65 (%69,9). EKSEN: lafız 27 token / 25 ayet · Rab 12 token / 10 ayet → A/R = 2,25. ESMÂ: 33 token. İLTİFÂT 3. HAPAKS 5 ayet / 6 kök. EDİLGEN 16 ayet. Adlı aktör 25 token, adsız aktör 1 token.",
+   "olculen": {
+    "sure": 27,
+    "ayet": 93,
+    "ort_n": 12.38,
+    "fasila": {
+     "ن": 84,
+     "م": 9
+    },
+    "kafiye_kirilmasi": 0,
+    "yildiz": {
+     "3": 9,
+     "2": 9,
+     "1": 10,
+     "0": 65
+    },
+    "yildizsiz_oran": 0.699,
+    "yildizli_ayet": 28,
+    "lafiz_token": 27,
+    "lafiz_ayet": 25,
+    "rab_token": 12,
+    "rab_ayet": 10,
+    "A_R": 2.25,
+    "esma_token": 33,
+    "muhur": 6,
+    "muhur_token": 12,
+    "muhursuz_token": 21,
+    "iltifat": 3,
+    "hapaks_ayet": 5,
+    "hapaks_kok": 6,
+    "pas_ayet": 16,
+    "adli_token": 25,
+    "adsiz_token": 1,
+    "esit_dolu": [
+     3,
+     58,
+     71
+    ],
+    "nakarat_dolu": 0,
+    "anlati_bolutleri": {
+     "Mûsâ": 8,
+     "Dâvûd-Süleymân": 30,
+     "Semûd": 9,
+     "Lût": 5,
+     "doğa": 5
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü (sûre tamamlandı)",
+   "test_notu": "Sûre 26 ile karşılaştırma için ham taban. **Aday 781'in kontrollü çiftinin sûre 27 tarafı tamamlandı.** Sûre 26: 227 ayet, ★★★ 41 (%18,1), iltifât 15, esmâ 51 token, mühür 10, nakarat alanı 34 ayet. Sûre 27: 93 ayet, ★★★ 9 (%9,7), iltifât 3, esmâ 33 token, mühür 6, nakarat alanı 0. **★★★ oranı sûre 26'da neredeyse iki katı — ama sûre 26'nın nakarat düzeltmesi (aday 700/739/771) yapılmadan bu oran karşılaştırılamaz.**"
+  },
+  {
+   "no": 872,
+   "aday": "★ SÛRE 27'DE YILDIZ KAYNAKLARI — İÇERİK SIFIR. Yıldızlı 28 ayetin kaynak dağılımı: **edilgenlik 11 · hapaks 5 · lafız 5 · Rab 5 · uzunluk 3** (27:26 hem lafız hem Rab). **İçerik hiçbirinde kaynak değil.** Sûrenin doğaya değen ayetleri (27:24 güneş, 27:60-64 doğa bölütü, 27:61 yer yapıları, 27:86 gece-gündüz, 27:88 dağlar) toplam iki yıldız alıyor ve ikisinin de kaynağı başka: 27:60 uzunluk, 27:88 hapaks.",
+   "olculen": {
+    "yildizli_ayet": 28,
+    "kaynak": {
+     "pas": 11,
+     "hapaks": 5,
+     "allah": 5,
+     "rab": 5,
+     "n": 3
+    },
+    "icerik": 0,
+    "pas_ayetleri": [
+     6,
+     8,
+     16,
+     17,
+     23,
+     29,
+     42,
+     68,
+     83,
+     90,
+     91
+    ],
+    "hapaks_ayetleri": [
+     19,
+     20,
+     25,
+     39,
+     88
+    ],
+    "doga_ayetleri": {
+     "27:24": 0,
+     "27:60": 1,
+     "27:61": 0,
+     "27:62": 0,
+     "27:63": 0,
+     "27:64": 0,
+     "27:86": 0,
+     "27:88": 3
+    },
+    "doga_yildiz_kaynaklari": {
+     "27:60": "uzunluk",
+     "27:88": "hapaks"
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü (sûre tamamlandı)",
+   "test_notu": "**Aday 599/602/799/809/838/849 dizisinin SÛRE ÇAPINDA TAM SAYIMLI kapanışı: 28 yıldızlı ayet, kaynakların hiçbiri içerik değil.** En çarpıcı: **edilgenlik tek başına yıldızların %39'unu üretiyor.** Ve sûrenin doğaya değen sekiz ayetinin toplam yıldızı iki, ikisi de başka kaynaktan. **TUR SONU: çıpa tanımı yazıldıktan sonra 26/27 korelasyonu hesaplanacak; bu sayım sûre 27 tarafının hazır verisi.**"
+  },
+  {
+   "no": 873,
+   "aday": "27:17 ↔ 27:83 — NADİR BİR FİİLİN SÛRE İKİ UCUNDAKİ YANKISI. `وزع` korpusta BEŞ geçişli ve ikisi bu sûrede: 27:17'de Süleymân'ın orduları toplanıp 'bir arada tutuluyordu' (يُوزَعُونَ), 27:83'te mahşerde toplananlar aynı fiille tutuluyor. Aynı vezin, aynı edilgen çatı, altmış altı ayet arayla.",
+   "olculen": {
+    "kok": "وزع",
+    "n": 5,
+    "sure_27": [
+     17,
+     83
+    ],
+    "mesafe": 66,
+    "cati": "edilgen (ikisinde de)",
+    "vezin": "aynı",
+    "baglam": [
+     "Süleymân'ın orduları",
+     "mahşerde toplananlar"
+    ],
+    "esit_alani": [
+     [],
+     []
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Sûrenin iki ucundaki iki toplanma sahnesi tek nadir kelimeyle bağlanıyor.** `esit` ikisinde de boş (kelime örtüşmesi tek). Aday 812/863'ün ('konuşmacı/muhatap-arası kalıp yankısı') üçüncü vakası ve bu kez değişen SAHNE. **`esit`in sekizinci eşik türü artık üç vakalı: konuşmacı değişimi (27:34↔37) · muhatap değişimi (27:46↔72) · sahne değişimi (27:17↔83).**"
+  },
+  {
+   "no": 874,
+   "aday": "529 KÜMESİ SÛRE 27'DE ALTI VAKA — TAM SAYIM. سمو (gök/ad) · هدي (yol bulma / hediye / tanıma / hidâyet — DÖRT alan, sekiz geçiş) · طير (kuş/uğur) · كشف (açma/giderme) · خلف (halife/ihtilaf) · أمن (iman/güvende olma). Karşı örnek: نظر sekiz geçiş, tek anlam alanı. Otomatik tespit ölçütü altısında da çalışmadı.",
+   "olculen": {
+    "sure": 27,
+    "vaka": 6,
+    "vakalar": [
+     {
+      "kok": "سمو",
+      "alan": 2
+     },
+     {
+      "kok": "هدي",
+      "alan": 4,
+      "gecis": 8
+     },
+     {
+      "kok": "طير",
+      "alan": 2
+     },
+     {
+      "kok": "كشف",
+      "alan": 2
+     },
+     {
+      "kok": "خلف",
+      "alan": 2
+     },
+     {
+      "kok": "أمن",
+      "alan": 2
+     }
+    ],
+    "karsi_ornek": {
+     "kok": "نظر",
+     "gecis": 8,
+     "alan": 1
+    },
+    "olcut_skoru": "2/10"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü (sûre tamamlandı)",
+   "test_notu": "**Tek sûrede altı vaka — 529 seyrek bir arıza değil, yapısal bir arıza.** `هدي` sekiz geçişte dört anlam alanına yayılıyor; `نظر` sekiz geçişte tek alanda kalıyor. **Sorun kesinlikle sıklık değil, kökün lemma yapısı.** Otomatik ölçüt **2/10**; **TERK EDİLMESİ ÖNERİLİYOR.** P0 #5'in lemma katmanı için sınama kümesi on vakalık ve altısı tek sûreden."
+  },
+  {
+   "no": 875,
+   "aday": "BLOK 27:81-93 BİLANÇOSU (on üç ayet). Yıldız: ★★★ 1 (27:88 hapaks) · ★★ 0 · ★ 4 (27:83, 90, 91 pas; 27:93 Rab) · yıldızsız 8. Kaynaklar: hapaks 1 · pas 3 · Rab 1 — içerikten sıfır. İltifât 0/13. Esmâ token 1 (27:88, **GEÇERLİ**). Allah lafzı 3 · Rab 2. Adlı aktör 2 (biri ARTEFAKT) · adsız aktör 0. Yeni kök 5. Hapaks 2.",
+   "olculen": {
+    "blok": "27:81-93",
+    "ayet": 13,
+    "yildiz": {
+     "3": 1,
+     "2": 0,
+     "1": 4,
+     "0": 8
+    },
+    "yildiz_kaynak": {
+     "hapaks": 1,
+     "pas": 3,
+     "rab": 1,
+     "icerik": 0
+    },
+    "iltifat": 0,
+    "esma_token": 1,
+    "esma_gecerli": 1,
+    "muhur": 0,
+    "allah_lafzi": 3,
+    "rab": 2,
+    "adli_aktor": 2,
+    "adsiz_aktor": 0,
+    "yeni_kok": 5,
+    "hapaks": 2,
+    "kafiye_kirilmasi": 0,
+    "ort_n": 13.8
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Sûrenin son altı yıldızlı ayetinin dördü edilgenlikten** (27:68, 83, 90, 91). Sûre kapanışında edilgenlik oranı artıyor. Blokta beş yeni kök (فوج, دخر, جمد, تقن, كبب) — **okumadaki en yüksek blok-başı yeni kök sayısı;** sûre sonu bölütü kelime dağarcığı açısından en yoğun bölüt."
+  },
+  {
+   "no": 876,
+   "aday": "SÛRE 27 OKUMASININ ALAN BİLANÇOSU — DÖRT ALANDA MEKANİZMA BULUNDU, HEPSİ AYNI AİLE. (1) adsız aktör: adlandırılmamışlığı BELİRSİZLİK ile karıştırıyor (duyarlılık %16, kesinlik %36,4). (2) nakarat: tekrarı AYET TEKRARI ile karıştırıyor (sûre 27'de 0/3). (3) esit: benzerliği TAM DİZGE ile karıştırıyor (en az iki yanlış negatif). (4) MM: onarım aşırı daraltmış (175 → 3). Ve beşinci: adlı aktör envanterinde cins isimler var (مُسْلِم 14 token).",
+   "olculen": {
+    "alanlar": [
+     {
+      "alan": "adsız aktör",
+      "hata": "INDEF ≠ adsız",
+      "duyarlilik": 0.16,
+      "kesinlik": 0.364,
+      "aday": 833
+     },
+     {
+      "alan": "nakarat",
+      "hata": "ayet düzeyi ≠ n-gram düzeyi",
+      "sure_27": "0/3",
+      "aday": 844
+     },
+     {
+      "alan": "esit",
+      "hata": "tam dizge ≠ yakın eşleşme",
+      "yanlis_negatif": ">=2",
+      "aday": 854
+     },
+     {
+      "alan": "MM",
+      "hata": "onarım aşırı daraltma",
+      "eski": 175,
+      "yeni": 3,
+      "aday": 867
+     },
+     {
+      "alan": "adlı aktör",
+      "hata": "cins isim envanterde",
+      "token": 14,
+      "aday": 868
+     }
+    ],
+    "ortak_onarim": "n-gram / yaklaşık eşleme altyapısı"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma blok 27:81-93",
+   "etiket": "okuma sırasında ölçüldü (sûre tamamlandı)",
+   "test_notu": "**Sûre 27 okumasının asıl çıktısı bu: beş alanda mekanizma bulundu ve dördü aynı aileden — doğru kavram, yanlış birim.** Ve **üçünün onarımı tek bir altyapıyı paylaşıyor: n-gram / yaklaşık eşleme** (nakarat, esit, aday 850'nin 'aynı ifade' alanı). **TUR SONU ONARIM EVRESİ İÇİN ÖNCELİK SIRASI: (a) n-gram altyapısı — üç alanı birden açar; (b) adsız aktör belirlilik koşulunun kaldırılması — en ucuz, tek satır; (c) adlı aktör envanterinin PN etiketiyle denetimi; (d) MM ara ölçütü; (e) dikey katmanın 'aynı sahne' kaynak listesi (aday 835).**"
+  }
+ ],
+ "AI_onarim": [
+  {
+   "no": 877,
+   "aday": "★ ONARIM 1 — ADSIZ AKTÖR ALANI ONARILDI. Üç değişiklik: (a) kök eşleşmesi → LEMMA eşleşmesi, (b) INDEF (belirsizlik) koşulu KALDIRILDI, (c) `aktor2.py`'deki altı kök anahtarından biri YANLIŞ YAZILMIŞTI ve korpusta hiç eşleşmiyordu — 57 token ölüydü. Lemma seçimi korpustan üretilen `adsiz_lemma_listesi.json` üzerinden İNDEKSLE yapıldı; hiçbir Arapça dizge elle yazılmadı. Kökler ÇAPA KONUMLARDAN (sûre:ayet:kelime) türetildi.",
+   "olculen": {
+    "eski": {
+     "token": 119,
+     "ayet": 101
+    },
+    "yeni": {
+     "token": 214,
+     "ayet": 185
+    },
+    "dusen_ayet": 15,
+    "kazanilan_ayet": 99,
+    "ortak": 86,
+    "olu_anahtar": {
+     "etiket": "karye",
+     "olu_token": 57,
+     "sebep": "ى/ي yazım farkı"
+    },
+    "dislanan_lemma_token": 44,
+    "yeni_etiket": "mer (eril kişi) — امْرِئ/مَرْء ailesi imrae'den ayrıldı",
+    "etiket_dagilimi_yeni": {
+     "racül": 58,
+     "karye": 57,
+     "ferîk": 34,
+     "imrae": 26,
+     "tâife": 24,
+     "mer": 11,
+     "nefer": 4
+    },
+    "alan_adi": "adsiz2 (eski 'adsiz' KORUNDU)"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**Eski alan yalnız yanlış pozitif değil, yanlış negatif de üretiyordu ve üstelik anahtarlarından biri hiç çalışmıyordu.** Alan adı `adsiz2`; eski `adsiz` korundu ki sûre 27 okumasının ölçümleri yeniden üretilebilir kalsın. **Çapa konumlarının kendisi de iki kez yanlış çıktı ve düzeltildi (racül → أله'ye, karye → أول'e düşmüştü); çapa yöntemi doğrulama olmadan güvenli değil.**"
+  },
+  {
+   "no": 878,
+   "aday": "ONARIM 1'İN DOĞRULAMASI — DÜŞEN 15 AYETİN 15'İ DE ARTEFAKT, SINAMA 11/11, imrae DUYARLILIĞI %16 → %100. Düşen ayetlerin lemmaları: مَرِيئ (afiyetli), رِجْل (ayak), طائِف, فُرْقان, تَفْرِيق, مُتَفَرِّقَة, نُفُور (×5), فِرْق, طافَ, مُسْتَنفِرَة, فارِقَة. Hiçbiri kişi/topluluk değil — sıfır gerçek kayıp.",
+   "olculen": {
+    "dusen": 15,
+    "dusen_hepsi_artefakt": true,
+    "sinama_kumesi": 11,
+    "gecen": 11,
+    "imrae": {
+     "gercek_ayet": 25,
+     "eski_yakalanan": 4,
+     "yeni_yakalanan": 25,
+     "eski_duyarlilik": 0.16,
+     "yeni_duyarlilik": 1.0,
+     "eski_kesinlik": 0.364,
+     "yeni_kesinlik": 1.0,
+     "yeni_yanlis_pozitif": 0
+    },
+    "sinama_ayetleri": [
+     "27:23",
+     "27:57",
+     "7:83",
+     "15:60",
+     "28:9",
+     "3:35",
+     "111:4",
+     "4:4",
+     "4:12",
+     "4:128",
+     "33:50"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım doğrulaması",
+   "test_notu": "**Aday 867'nin dersi uygulandı: onarım kendi yanlış negatif denetiminden geçirildi.** Anlatının adsız kadın aktörlerinin tamamı artık görünüyor: Lût'un karısı (beş ayet), Firavun'un karısı, İmrân'ın karısı, Ebû Leheb'in karısı. **Aday 802 ve 833 böylece KAPANDI.**"
+  },
+  {
+   "no": 879,
+   "aday": "★ VERİ ARIZASI — `kuran_veri.json`'da 112 AYETİN METNİNE BESMELE GÖMÜLÜ ve `harf` ALANI BUNDAN KİRLİ. 39:1 ile 45:2 birebir aynı ayet; harf 47'ye 28, fark tam 19 (besmelenin harf sayısı). `mora` ve `n` temiz (`ar_saf` üzerinden hesaplanıyor), `harf` kirli.",
+   "olculen": {
+    "etkilenen_ayet": 112,
+    "kirli_alan": [
+     "harf"
+    ],
+    "temiz_alan": [
+     "n",
+     "mora",
+     "fs"
+    ],
+    "ornek": {
+     "39:1": {
+      "harf": 47
+     },
+     "45:2": {
+      "harf": 28
+     },
+     "fark": 19
+    },
+    "sure_27_etkilenen": [
+     "27:1"
+    ],
+    "27:1_kayitli_harf": 46,
+    "27:1_dogru_harf": 27
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "ararken bulundu (onarım sırasında)",
+   "test_notu": "**Okuma sırasında hiç fark edilmedi çünkü `harf` yorumda kullanılmıyordu; ama ölçüm satırlarında yazıldı.** Sûre 27'de yalnız 27:1 etkileniyor: kaydedilen harf=46, doğrusu 27. **Onarım: `harf` `ar_saf`tan yeniden hesaplanmalı.** KAPATILAMAZ — `harf` alanının başka hangi ölçümlere girdiği (fHz, ebced, bits gibi kuran_veri alanları) taranmadı; **bu alanlar da kirli olabilir ve bu proje için ciddi bir borçtur.**"
+  },
+  {
+   "no": 880,
+   "aday": "★ ONARIM 2 — N-GRAM ALTYAPISI KURULDU (morfoloji tabanlı). Ayet iskeleti `morph.txt`'nin BÖLÜTLERİNDEN kurulur ve `CONJ|PREF` bölütleri (bağlaç önekleri) atılır. Üç alanı birden açıyor: nakarat, esit, 'aynı ifade'.",
+   "olculen": {
+    "ayet": 6236,
+    "kelime": 77429,
+    "cok_ayetli_ngram": 15098,
+    "n_dagilimi": {
+     "3": 6081,
+     "4": 3764,
+     "5": 2317,
+     "6": 1436,
+     "7": 909,
+     "8": 591
+    },
+    "v1_arizasi": "iskelet ham metinden kuruluyordu; 27:82 'ووقع' ile 27:85 'وقع' eşleşmiyordu",
+    "cozulen": [
+     "baştaki bağlaç farkı (27:80↔30:52)",
+     "kelimeye kaynamış bağlaç (27:82↔27:85)"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**Aday 876'nın öngördüğü gibi tek altyapı üç alanı birden açtı.** Ve v1'in kendi arızası, aday 854'ün bulduğu arızanın kelime-bölütleme tarafındaki eşiydi: **aynı hata iki ayrı katmanda.** Morfoloji zaten bağlaç öneklerini ayırmış; ham metin yerine morfolojiyi taban almak sorunu kökten çözdü."
+  },
+  {
+   "no": 881,
+   "aday": "★ ONARIM 3 — `esit` YAKIN EŞLEŞMEYE AÇILDI (eşik 0,95). Korpusta 253 → 336 ayet. Eşik taranarak seçildi; yedi sınama çiftinin yedisi de geçiyor (en düşük benzerlik 94:5↔94:6'da 0,963). Kazanılan 84 yakın bağın tamamı elle denetlendi ve hepsi gerçek yakın-aynı ayet.",
+   "olculen": {
+    "eski_ayet": 253,
+    "yeni_ayet": 336,
+    "kazanilan": 83,
+    "kaybedilen": 0,
+    "tam_bag": 1622,
+    "yakin_bag": 84,
+    "esik": 0.95,
+    "sinama": 7,
+    "gecen": 7,
+    "sinama_benzerlikleri": {
+     "27:80↔30:52": 0.989,
+     "27:81↔30:53": 0.991,
+     "1:2↔37:182": 0.971,
+     "94:5↔94:6": 0.963,
+     "27:71↔10:48": 1.0,
+     "27:58↔26:173": 1.0,
+     "26:108↔26:110": 1.0
+    },
+    "alan_adi": "esit2 (tür alanı: 'tam' | 'yakin')"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**ONARIMIN KENDİ YANLIŞ NEGATİFİ ÇIKTI VE DÜZELTİLDİ.** İlk sürüm yalnız 4-gram bloklama kullanıyordu; üç kelimelik ayetlerin 4-gram'ı olmadığı için **46 ayet kayboldu — içlerinde sûre 26'nın nakarat ayetleri de vardı.** İkinci sürümde tam eşleşmeler karma ile doğrudan bulunuyor (kayıp imkânsız), yakın eşleşmeler 3-gram bloklama ile aranıyor. **Aday 867'nin dersi bu turda İKİ KEZ tekrarladı: hem MM'de hem burada. Onarımın kendi denetimi artık zorunlu adım.**"
+  },
+  {
+   "no": 882,
+   "aday": "★ ONARIM 4 — `nakarat` AYET DÜZEYİNDEN N-GRAM DÜZEYİNE. Yeni tanım: aynı sûrede en az iki ayrı ayette geçen, en az üç kelimelik AZAMİ kelime n-gramı; tür 'tam' (ayetin tamamı) ya da 'ic' (ayet içi). Korpus 119 → 1950 ayet, sıfır kayıp. Sûre 27: 0 → 30 ayet, 17 kalıp.",
+   "olculen": {
+    "eski_ayet": 119,
+    "yeni_ayet": 1950,
+    "kaybedilen": 0,
+    "tur": {
+     "ic": 3147,
+     "tam": 133
+    },
+    "sure_26": {
+     "eski": 34,
+     "yeni": 62,
+     "kalip": 18
+    },
+    "sure_27": {
+     "eski": 0,
+     "yeni": 30,
+     "kalip": 17
+    },
+    "sure_27_guclu_kaliplar": [
+     {
+      "kalip": "aeile mea allah",
+      "ayet": [
+       60,
+       61,
+       62,
+       63,
+       64
+      ],
+      "n": 3
+     },
+     {
+      "kalip": "keyfe kane akibete",
+      "ayet": [
+       14,
+       51,
+       69
+      ],
+      "n": 3
+     },
+     {
+      "kalip": "vakaa'l-kavlu aleyhim",
+      "ayet": [
+       82,
+       85
+      ],
+      "n": 3
+     },
+     {
+      "kalip": "ene atike bihi kable en",
+      "ayet": [
+       39,
+       40
+      ],
+      "n": 5
+     }
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**Aday 844/845/870'in üç nakaratının ÜÇÜ DE yakalandı.** Ve okumada fark edilmeyen dördüncü bir kalıp çıktı: **27:39 ↔ 27:40, beş kelimelik `ene âtîke bihî kable en` — ifrît ile kitaptan ilim sahibinin aynı cümleyi kurması.** Okumada bu iki ayet ayrı ayrı işlendi ama ortak kalıp görülmedi; **alan onarıldığında okumanın kaçırdığını gösterdi.** UYARI: 1950 ayet korpusun %31'i — alan artık çok geniş; yorumda `>=3 ayet` ya da `>=4 kelime` süzgeci kullanılmalı (sûre 27'de bu süzgeç 17 kalıbı 6'ya indiriyor)."
+  },
+  {
+   "no": 883,
+   "aday": "TEŞHİS DÜZELTMESİ — ADAY 868 YANLIŞTI. 868 'alanın 105 adlık envanterine cins isimler girmiş' diyordu. Ölçüldü: `pn_lemma_listesi.json` korpusla BİREBİR AYNI (106 = 106); listede olup morfolojide PN olmayan sıfır, tersi de sıfır. **`مُسْلِم` ve `نَصْرانِيّ`'yi PN etiketleyen MORFOLOJİNİN KENDİSİ.** Arıza envanterde değil, kaynak veride.",
+   "olculen": {
+    "iddia": "envantere cins isimler girmiş",
+    "dogru": "morfoloji PN etiketliyor",
+    "pn_lemma_morfolojide": 106,
+    "envanterde": 106,
+    "fark": 0,
+    "cins_isim_adaylari": 8,
+    "cins_token": 52
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım sırasında ölçüldü (kendi kaydım düştü)",
+   "test_notu": "**Dördüncü düşen kayıt** (801, 819, 843, burası). Ortak mekanizma bu kez farklı: **bir alanın çıktısındaki arızayı gördüm ve sebebini DOĞRULAMADAN alana yükledim.** Ders: 'alan X'i yanlış yapıyor' demeden önce X'in girdisi denetlenecek. Envanter korpustan üretildiği için (projenin kendi kuralı) doğruydu; hata bir katman yukarıdaydı."
+  },
+  {
+   "no": 884,
+   "aday": "ONARIM 5 — ADLI AKTÖRDE 'cins' TÜRÜ. Korpusun PN etiketindeki mensubiyet/soyut adlar silinmedi, YENİDEN SINIFLANDI: نَصْرانِيّ 15 · مُسْلِم 14 · يَهُود 9 · إِسْلام 6 · صابِئ 3 · جاهِلِيَّة 3 · سِلْم 1 · مَجُوس 1 = 52 token. Kayıp sıfır.",
+   "olculen": {
+    "ayrilan_token": 52,
+    "secim": "indeksle (elle Arapça yazılmadı)",
+    "eski_tur": {
+     "kisi": 660,
+     "yer": 173,
+     "kavim": 150,
+     "gayb": 101,
+     "kitab": 101,
+     "diger": 17,
+     "sahte-ilah": 10
+    },
+    "yeni_tur": {
+     "kisi": 660,
+     "yer": 173,
+     "kavim": 108,
+     "gayb": 101,
+     "kitab": 101,
+     "cins": 52,
+     "sahte-ilah": 10,
+     "diger": 7
+    },
+    "sure_27_etkilenen": 1,
+    "alan_adi": "adli2"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**Silme yerine yeniden sınıflama seçildi: hiçbir token kaybolmuyor, aktör sayımından ayrılıyor, karar geri alınabilir.** Sınırda bırakılanlar (جَنَّة, مَدِينَة, رَمَضان, جُمُعَة) kasten korundu — bunlar özel ad işlevi de taşıyor. **KAPATILAMAZ: 106 lemmanın tamamı tek tek denetlenmedi, yalnız açık mensubiyet/soyut adlar ayrıldı.**"
+  },
+  {
+   "no": 885,
+   "aday": "ONARIM 6 — MM (MEF'ÛL-İ MUTLAK) ARA ÖLÇÜTÜ. Geniş kural (V + aynı kök N, bitişik) 175 ayet; dar kural (V + aynı kök VN) 3 ayet; YENİ ara kural (w. kelimede V, w+1. kelimede aynı kökten ACC isim) **125 ayet.** Dar kuralın üç ayeti de yeni kuralın içinde. Sınama 4/4.",
+   "olculen": {
+    "genis": 175,
+    "dar": 3,
+    "ara": 125,
+    "dar_kural_kapsandi": true,
+    "sinama": [
+     [
+      "27:50",
+      true
+     ],
+     [
+      "27:21",
+      true
+     ],
+     [
+      "27:88",
+      true
+     ],
+     [
+      "27:58",
+      false
+     ]
+    ],
+    "sure_27_eski": [
+     88
+    ],
+    "sure_27_yeni": [
+     21,
+     50,
+     88
+    ],
+    "alan_adi": "mm2"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**ONARIMIN İLK SÜRÜMÜ DE DÜŞTÜ: segment düzeyinde eşleşiyordu ve مَكَرُوا۟ fiilinden sonra zamir bölütü geldiği için 27:50'yi kaçırıyordu.** Kelime düzeyine çekilince 4/4. **Aday 867'nin dersi bu turda üçüncü kez tekrarladı.** Not: 27:58 (أَمْطَرْنَا ... مَطَرًا) bitişik olmadığı için hâlâ dışarıda; **'araya kelime girmiş mef'ûl-i mutlak' ayrı bir ölçüt ister ve bu KAPATILAMAZ.**"
+  },
+  {
+   "no": 886,
+   "aday": "ONARIM 7 — DİKEY KATMANIN 'AYNI SAHNE' ALANI. Her (hedef, ortak) çifti için katkı veren AYRI AYET sayısı ve ortak geçişlerin AYNI n-gram'ı paylaşma oranı hesaplanıyor; dört sınıf: A-tek-ayet (<=2, bastırılır) · B-tek-sahne (3-5) · B2-donmuş-kalıp (>5 ama ifade ortaklığı >=0,50) · C-birliktelik. `blok_dikey.py` çıktısına etiket olarak basılıyor.",
+   "olculen": {
+    "sinif": {
+     "A-tek-ayet": 6,
+     "B-tek-sahne": 9,
+     "B2-donmus-kalip": 3,
+     "C-birliktelik": 2
+    },
+    "eski_koruma_isaretledigi": 7,
+    "yeni_siniflama_isaretledigi": 18,
+    "vaka": 20,
+    "ayirt_edici_ornek": {
+     "سطر|أول": {
+      "ayet": 9,
+      "ifade": 0.56,
+      "sinif": "B2"
+     },
+     "عمي|صمم": {
+      "ayet": 8,
+      "ifade": 0.25,
+      "sinif": "C"
+     }
+    },
+    "olcut_v1_arizasi": "kesişim kullanıyordu; سطر▸أول 0,00 veriyordu"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım",
+   "test_notu": "**Aday 850'nin sınırı çözüldü: ayrı ayet sayısı tek başına donmuş kalıbı anlamsal birliktelikten ayırmıyordu; ikinci ölçüt (aynı n-gram paylaşımı) ayırıyor** — سطر▸أول 0,56 (donmuş) ile عمي▸صمم 0,25 (gerçek) arasında net fark. **Eski koruma (hedef n<15) yirmi vakanın 7'sini işaretliyordu; yeni sınıflama 18'ini.** Ve ölçütün ilk sürümü de düştü (kesişim yerine en sık ortak n-gram oranı gerekti)."
+  },
+  {
+   "no": 887,
+   "aday": "★ SÛRE 27 ONARILMIŞ ALANLARLA YENİDEN ÖLÇÜLDÜ — OKUMA KAYITLARINDAN DEĞİŞENLER. adsız aktör 1 → 6 token (27:23, 34, 45, 55, 56, 57) · nakarat 0 → 30 ayet / 17 kalıp · esit 3 → 6 ayet (dört yakın bağ) · adlı aktör 25 → 24 + 1 cins · MM 1 → 3 ayet (27:21, 50, 88) · 27:1 harf 46 → 27.",
+   "olculen": {
+    "sure": 27,
+    "adsiz": {
+     "eski": 1,
+     "yeni": 6,
+     "yeni_ayetler": [
+      23,
+      34,
+      45,
+      55,
+      56,
+      57
+     ]
+    },
+    "nakarat": {
+     "eski": 0,
+     "yeni": 30,
+     "kalip": 17,
+     "guclu_kalip": 6
+    },
+    "esit": {
+     "eski": [
+      3,
+      58,
+      71
+     ],
+     "yeni": [
+      3,
+      53,
+      58,
+      71,
+      80,
+      81
+     ],
+     "yakin_baglar": [
+      [
+       "27:53",
+       "41:18",
+       0.9811
+      ],
+      [
+       "27:71",
+       "67:25",
+       0.9825
+      ],
+      [
+       "27:80",
+       "30:52",
+       0.9888
+      ],
+      [
+       "27:81",
+       "30:53",
+       0.9905
+      ]
+     ]
+    },
+    "adli": {
+     "eski_kavim": 4,
+     "yeni_kavim": 3,
+     "cins": 1
+    },
+    "mm": {
+     "eski": [
+      88
+     ],
+     "yeni": [
+      21,
+      50,
+      88
+     ]
+    },
+    "harf_duzeltmesi": {
+     "27:1": {
+      "kayitli": 46,
+      "dogru": 27
+     }
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım sonrası yeniden ölçüm",
+   "test_notu": "**Okuma metni (okuma_metni.json) ESKİ alanlarla yazıldı ve DEĞİŞTİRİLMEDİ** — eski ölçümler yeniden üretilebilir kalsın diye. Bu kayıt, hangi ölçüm satırlarının artık aşıldığını gösterir. **Üç yeni bulgu okuma sırasında görülmemişti: (1) 27:53 ↔ 41:18 yakın eşleşme, (2) 27:71 ↔ 67:25'in de yakın olduğu, (3) 27:39 ↔ 27:40 beş kelimelik ortak kalıp.** **Ve 27:34, 27:45, 27:55, 27:56'da adsız aktör var; okumada 'aktör yok' yazılmıştı.**"
+  },
+  {
+   "no": 888,
+   "aday": "ONARIM TURU 1 BİLANÇOSU — YEDİ ONARIM, ÜÇÜ KENDİ YANLIŞ NEGATİFİNİ ÜRETTİ VE DÜZELTİLDİ. Onarılan alanlar: adsız aktör · n-gram altyapısı · esit · nakarat · adlı aktör · MM · dikey kaynak sınıflaması. Kapanan adaylar: 802, 833, 844, 845, 850, 854, 867, 868 (teşhis düzeltmesiyle), 869, 870, 876.",
+   "olculen": {
+    "onarim": 7,
+    "kendi_yanlis_negatifini_ureten": [
+     {
+      "onarim": "esit v1",
+      "kayip": 46,
+      "sebep": "4-gram bloklama kısa ayetleri atlıyordu"
+     },
+     {
+      "onarim": "MM ara v1",
+      "kayip": "27:21, 27:50",
+      "sebep": "segment düzeyinde eşleşme"
+     },
+     {
+      "onarim": "dikey ifade ölçütü v1",
+      "kayip": "donmuş kalıplar",
+      "sebep": "kesişim yerine oran gerekliydi"
+     }
+    ],
+    "kapanan_aday": [
+     802,
+     833,
+     844,
+     845,
+     850,
+     854,
+     867,
+     868,
+     869,
+     870,
+     876
+    ],
+    "yeni_alanlar": [
+     "adsiz2",
+     "esit2",
+     "nakarat2",
+     "adli2",
+     "mm2"
+    ],
+    "eski_alanlar_korundu": true,
+    "yeni_veri": [
+     "adsiz_lemma_listesi.json",
+     "ayet_iskelet.json",
+     "ngram_indeks.json",
+     "nakarat_kaliplari.json",
+     "dikey_kaynak_ornek.json"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 1",
+   "etiket": "onarım bilançosu",
+   "test_notu": "**Turun asıl dersi: YEDİ onarımın ÜÇÜ ilk sürümünde kendi yanlış negatifini üretti.** Aday 867 (MM'in 175→3 aşırı daralması) bunu bir kez göstermişti; bu turda üç kez daha tekrarladı. **Onarım protokolüne kalıcı madde: hiçbir onarım, eski alanın yakaladıklarının tamamını yakaladığı gösterilmeden kabul edilmez (`kaybedilen == 0` savı).** KALAN BORÇ: (a) `harf` alanının besmele kirliliği onarılmadı (aday 879) ve `fHz/ebced/bits` alanları hiç denetlenmedi; (b) esit yakın eşleşme yalnız 0,95 üstünü alıyor, 0,80-0,95 bandı (54 çift) denetlenmedi; (c) 26/27 nakarat karşılaştırması artık YAPILABİLİR ama yapılmadı (aday 781)."
+  },
+  {
+   "no": 889,
+   "aday": "★ VERİ KİRLİLİĞİNİN TAM TABLOSU VE `harf` ONARIMI (aday 879 genişletildi). Birebir aynı iki ayet (39:1 / 45:2) üzerinden ölçüldü. KİRLİ: harf (+19) · fHz (−20) · sesli (−2) · ebced (+786) · mod19 (+7) · bits. TEMİZ: ar_saf · mora · ritim_kod · fasila_tipi · med_yuku_waqf · p0110 · mukattaa. Kirlilik 112 ayette.",
+   "olculen": {
+    "etkilenen_ayet": 112,
+    "kirli": [
+     "harf",
+     "fHz",
+     "sesli",
+     "ebced",
+     "mod19",
+     "bits"
+    ],
+    "temiz": [
+     "ar_saf",
+     "mora",
+     "ritim_kod",
+     "fasila_tipi",
+     "med_yuku_waqf",
+     "p0110",
+     "mukattaa"
+    ],
+    "deftere_giren_kirli_alan": [
+     "harf"
+    ],
+    "harf_kullanan_betikler": [
+     "dis_sinav.py",
+     "genelleme.py",
+     "oku_blok.py"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım sırasında ölçüldü",
+   "test_notu": "**`harf` dis_sinav.py ve genelleme.py'de İSTATİSTİĞE giriyor** — o betiklerin sonuçları 112 ayet için kirli girdiyle üretilmiş. **fHz, sesli, ebced, mod19, bits BU PROJEDE kullanılmıyor ama kardeş projenin (fonetik analiz) çekirdek alanları; orada denetlenmeli — bu, projeler arası bir borç.**"
+  },
+  {
+   "no": 890,
+   "aday": "`harf`İN TANIMI GERİ ÇIKARILAMADI — ALAN YENİDEN HESAPLANAMAZ, YALNIZ BESMELE KATKISI ÇIKARILABİLDİ. kuran_veri.json'un üreteci depoda YOK. Düz Arapça harf sayımı `harf`i üretmiyor: temiz 6124 ayette r=0,99915 ama **ortalama +2,94 (std 3,01) sabit bir fazla** var (hançer elif / hemze kürsüsü gibi işaretler de sayılıyor olmalı).",
+   "olculen": {
+    "r": 0.99915,
+    "ortalama_sapma": 2.94,
+    "sapma_std": 3.01,
+    "uretec_depoda": false,
+    "onarim": "gömülü ayetlerde harf2 = harf − 19 (19 = 1:1'in kendi harf değeri)",
+    "dogrulama": {
+     "gomulu_sapma_once": {
+      "ort": 20.44,
+      "std": 2.78,
+      "z": 5.81
+     },
+     "gomulu_sapma_sonra": {
+      "ort": 1.44,
+      "std": 2.78,
+      "z": -0.5
+     }
+    },
+    "27:1": {
+     "eski": 46,
+     "yeni": 27
+    },
+    "alan_adi": "harf2"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım",
+   "test_notu": "**Doğrulama güçlü: düzeltmeden sonra 112 ayetin sapması temiz dağılımın içine düşüyor (z 5,81 → −0,50).** Ama **alanın kuralı hâlâ bilinmiyor ve bu, tek başına ciddi bir borç: kullanımda olan, istatistiğe giren, tanımı belgelenmemiş bir alan.** KAPATILAMAZ — üreteç bulunana kadar `harf`in ne saydığı bilinmiyor; ortalama +2,94'lük fazlanın kaynağı doğrulanmadı."
+  },
+  {
+   "no": 891,
+   "aday": "★ ADAY 781'İN KONTROLLÜ ÇİFTİ HESAPLANDI — VE OKUMANIN 'SÛRE 26 NAKARATLI / SÛRE 27 NAKARATSIZ' İKİLİSİ DÜŞTÜ. Onarılmış nakarat2 ile: nakaratlı ayet oranı sûre 26'da %27,3, sûre 27'de %32,3 — **neredeyse eşit.** Fark PRESENCE'ta değil TÜR ve AĞIRLIK'ta: sûre 26'da TAM AYET nakaratı 34, sûre 27'de 0; nakaratın kelime payı %23,1'e %8,7 (2,7 kat).",
+   "olculen": {
+    "sure_26": {
+     "ayet": 227,
+     "nakaratli": 62,
+     "oran": 0.273,
+     "tam": 34,
+     "ic": 28,
+     "kalip": 18,
+     "guclu_kalip": 9,
+     "kelime_orani": 0.231
+    },
+    "sure_27": {
+     "ayet": 93,
+     "nakaratli": 30,
+     "oran": 0.323,
+     "tam": 0,
+     "ic": 30,
+     "kalip": 17,
+     "guclu_kalip": 2,
+     "kelime_orani": 0.087
+    },
+    "sure_26_en_uzun_kalip": "11 kelime, 5 ayet",
+    "sure_27_en_uzun_guclu": "3 kelime, 5 ayet"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım sonrası ölçüm",
+   "test_notu": "**Okuma boyunca 'sûre 26 nakaratlı, sûre 27 nakaratsız' diye yazdım; bu ikili YANLIŞ.** Doğrusu: **her iki sûrede de ayetlerin üçte biri bir nakarat kalıbına değiyor; sûre 26'nın nakaratları TAM AYET ve UZUN (11 kelimeye kadar), sûre 27'ninkiler AYET-İÇİ ve KISA (3 kelime).** Ayrım ikili değil, iki boyutlu: birim (ayet/ayet-içi) ve ağırlık (kelime payı). **Beşinci düşen kayıt** (801, 819, 843, 883, burası)."
+  },
+  {
+   "no": 892,
+   "aday": "★★★ SÛRE 26'NIN 41 ★★★'ININ 16'SI İKİ NAKARATIN SEKİZER TEKRARI — VE HER KÜMEDE KAYNAK TEK. `inne rabbeke le-hüve'l-azîzu'r-rahîm` sekiz ayette ★★★ ve sekizinde de tek kaynak `rab`. `fe'ttekû'llâhe ve etîûn` sekiz ayette ★★★ ve sekizinde de tek kaynak `allah`. Kalan 25 ★★★ nakaratsız ayetlerde ve kaynakları karışık.",
+   "olculen": {
+    "sure_26_yildiz3": 41,
+    "nakarat_kumeleri": [
+     {
+      "kalip": "inne rabbeke le-hüve'l-azîzu'r-rahîm",
+      "ayet": 8,
+      "kaynak": "rab",
+      "farkli_kaynak": 1
+     },
+     {
+      "kalip": "fe'ttekû'llâhe ve etîûn",
+      "ayet": 8,
+      "kaynak": "allah",
+      "farkli_kaynak": 1
+     }
+    ],
+    "nakaratsiz_yildiz3": 25,
+    "nakaratsiz_kaynaklar": {
+     "rab": 13,
+     "pas": 6,
+     "hapaks": 4,
+     "rab+hapaks": 1,
+     "hapaks+pas": 1
+    },
+    "nakarat_duzeltmeli_yildiz3": 27,
+    "oran_once": 0.181,
+    "oran_sonra": 0.119,
+    "sure_27_yildiz3": 9,
+    "sure_27_nakaratli_yildiz3": 2,
+    "sure_27_duzeltme": 0,
+    "sure_27_oran": 0.097
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım sonrası ölçüm",
+   "test_notu": "**Aday 700/739/771'in nakarat düzeltmesi artık SAYISAL: sûre 26'nın 41 ★★★'ı, 27 AYRI YAPIya iner** (41 − 16 + 2). Oran %18,1 → **%11,9.** Sûre 27'de düzeltme gerekmiyor (dokuz ★★★'ın ikisi nakaratlı ama kaynakları ayrı hapakslar), oran %9,7. **KONTROLLÜ ÇİFTİN SONUCU: 26 ile 27 arasındaki ★★★ farkı %18,1'e %9,7 değil, %11,9'a %9,7 — aradaki uçurum büyük ölçüde NAKARAT TEKRARINDAN geliyordu.** Aday 779 ve 781 bu sayıyla güncellenmeli."
+  },
+  {
+   "no": 893,
+   "aday": "`esit`E ÜÇÜNCÜ KADEME: 'benzer' (0,85-0,95). 0,80-0,95 bandında 217 çift var ve bandın üstü açıkça gerçek: 27:74 ↔ 28:69 (0,945) · 23:83 ↔ 27:68 (0,935) · 82:17 ↔ 82:18 (0,944, ARDIŞIK ayetler). Alan üç kademeli oldu: tam (1622 bağ) · yakin (84) · benzer (280). Ayet 253 → 520, kayıp 0.",
+   "olculen": {
+    "esik": 0.85,
+    "kademe": {
+     "tam": 1622,
+     "yakin": 84,
+     "benzer": 280
+    },
+    "ayet_eski": 253,
+    "ayet_yeni": 520,
+    "kayip": 0,
+    "band_0.80_0.95": 217,
+    "sure_27_esit2": [
+     3,
+     53,
+     55,
+     56,
+     57,
+     58,
+     68,
+     69,
+     71,
+     74,
+     80,
+     81
+    ],
+    "bagimsiz_dogrulama": [
+     "27:74↔28:69 okumada xref ile bulunmuştu",
+     "23:83↔27:68 okumada xref ile bulunmuştu"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım",
+   "test_notu": "**Bağımsız doğrulama: 'benzer' kademesinin iki vakası okuma sırasında XREF ile zaten bulunmuştu** (27:74↔28:69 ve 27:68↔23:83) — yani kademe gerçek bağları yakalıyor. **KAPATILAMAZ: 0,85 eşiği örneklemeyle doğrulanmadı; 0,85-0,88 aralığının paraphrase mı yoksa ortak formül mü olduğu denetlenmedi.** Sûre 27'de esit dolu ayet 3 → 12."
+  },
+  {
+   "no": 894,
+   "aday": "SÛRE 27'DE `esit2` DOKUZ YENİ AYET AÇTI — OKUMADA GÖRÜLMEYEN BAĞLAR. Eski alan [3, 58, 71] veriyordu; yeni alan [3, 53, 55, 56, 57, 58, 68, 69, 71, 74, 80, 81]. Yeni bağların bir kısmı okumada xref ile görülmüştü (27:68↔23:83, 27:74↔28:69), bir kısmı hiç görülmedi (27:53↔41:18, 27:55, 27:56, 27:57, 27:69).",
+   "olculen": {
+    "eski": [
+     3,
+     58,
+     71
+    ],
+    "yeni": [
+     3,
+     53,
+     55,
+     56,
+     57,
+     58,
+     68,
+     69,
+     71,
+     74,
+     80,
+     81
+    ],
+    "okumada_xrefle_gorulen": [
+     "27:68↔23:83",
+     "27:74↔28:69",
+     "27:80↔30:52",
+     "27:81↔30:53"
+    ],
+    "okumada_hic_gorulmeyen": [
+     "27:53↔41:18",
+     "27:55",
+     "27:56",
+     "27:57",
+     "27:69"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım sonrası ölçüm",
+   "test_notu": "**Lût bölütünün (27:54-58) neredeyse tamamı artık başka sûrelerdeki paralel anlatımlarla eşleşiyor** — okumada bunu yalnız xref üzerinden ve tek tek görmüştüm. **`esit2` bu bölütün korpusta üç sûrede anlatıldığını tek bakışta gösteriyor; aday 840'ın 'xref yoğunluğu ortak SAHNE ölçüyor' bulgusunun doğrudan doğrulaması.**"
+  },
+  {
+   "no": 895,
+   "aday": "ONARIM TURU 2 BİLANÇOSU. Üç iş: (1) veri kirliliğinin tam tablosu ve `harf` onarımı — ama tanım geri çıkarılamadı; (2) aday 781'in kontrollü çifti nihayet hesaplandı ve okumanın ikilisi düştü; (3) `esit`e üçüncü kademe. Toplam onarım (iki tur): on.",
+   "olculen": {
+    "tur_2_onarim": 3,
+    "toplam_onarim": 10,
+    "kapanan_aday": [
+     781,
+     870,
+     891,
+     892
+    ],
+    "yeni_alanlar_tur2": [
+     "harf2",
+     "esit2 üçüncü kademe"
+    ],
+    "kalan_borc": [
+     "harf tanımı bilinmiyor",
+     "fHz/sesli/ebced/mod19/bits kardeş projede kirli",
+     "esit 0,85 eşiği örneklemeyle doğrulanmadı",
+     "esit'in yedi eşik türü hâlâ yazılmadı (P0 #3)",
+     "çıpa tanımı hâlâ yazılmadı (P0 #6)"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "onarım turu 2",
+   "etiket": "onarım bilançosu",
+   "test_notu": "**Turun asıl kazancı ölçüm değil, bir İDDİANIN DÜŞMESİ: okuma boyunca kurulan 'sûre 26 nakaratlı / sûre 27 nakaratsız' karşıtlığı yanlıştı ve bu karşıtlık üzerine kurulan bütün karşılaştırmalar (aday 779, 781, 829, 834, 839) yeniden yazılmalı.** **Beşinci düşen kayıt ve en pahalısı: bu, bir blokta değil, altı blok boyunca tekrarlanan bir çerçeveydi.** Ders: **okuma sırasında kurulan İKİLİ KARŞITLIKLAR (X'li / X'siz) ölçülmeden kullanılmamalı; ölçüldüğünde çoğu iki boyuta ayrışıyor.**"
+  },
+  {
+   "no": 896,
+   "aday": "★★★ `harf` ALANININ KURALI GERİ ÇIKARILDI — VE ALAN HARF SAYMIYOR. Artık (harf − düz harf sayımı), ar_saf'taki harf-dışı 33 kod noktasının sayımlarına en küçük karelerle çözüldü; bütün ağırlıklar +1 ya da 0 çıktı. SAYILANLAR: Arapça harfler + elif vasla + YİRMİ adet tilâvet/vakf işareti (küçük sîn, küçük mîm, secde işareti, rub'u'l-hizb, küçük vâv/yâ, vakf durakları). SAYILMAYANLAR: harekeler, şedde, sükûn, medde, hemze-üstü, hançer elif.",
+   "olculen": {
+    "temiz_ayet": 6124,
+    "kural_birebir_tutan": 6115,
+    "oran": 0.9985,
+    "tutmayan": [
+     "1:2",
+     "1:4",
+     "1:6",
+     "1:7",
+     "2:2",
+     "2:5",
+     "2:7",
+     "2:255",
+     "55:13"
+    ],
+    "sayilan_ek_kodnoktasi": 21,
+    "toplam_harf_degeri": 341021,
+    "vakf_tilavet_isareti": 18009,
+    "isaret_payi": 0.053,
+    "isaretsiz_ayet": 1160,
+    "yeni_alanlar": {
+     "harf3": "saf harf sayımı (belgeli)",
+     "isaret": "vakf/tilâvet işareti sayısı"
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım (aday 890 kapandı)",
+   "test_notu": "**Alan HARF + VAKF/TİLÂVET İŞARETİ sayıyor ve işaretler değerin %5,3'ünü oluşturuyor.** Bu işaretler ayet uzunluğuyla değil DURAK KONUMLARIYLA dağılıyor — yani `harf` düz uzunluğun SAPMALI bir vekili. **Ve `harf` dis_sinav.py ile genelleme.py'de istatistiğe giriyor; o betiklerin uzunluk temelli bütün sonuçları bu karışımla üretilmiş.** Onarım: `harf3` (saf harf) ve `isaret` ayrı alanlar olarak yazıldı; eski `harf` ve `harf2` korundu. 1160 ayette hiç işaret yok, o ayetlerde harf = harf3."
+  },
+  {
+   "no": 897,
+   "aday": "★ ÇIPA TANIMI YAZILDI (P0 #6) — BEŞ KADEME. L0 adlandırma · L1 adlandırma+alan/yeti · L2 nedensel bağımlılık ya da yeti sınırı · L3 görünüş-durum ayrımı + karşılaştırma · L4 mekanizma/ölçü/sınıflandırma. Sûre 27'nin olgu içeren 17 ayeti kademelere yerleştirildi (yerleştirme okuma kayıtlarından).",
+   "olculen": {
+    "kademeler": [
+     "L0 adlandırma",
+     "L1 adlandırma+alan",
+     "L2 nedensellik/yeti sınırı",
+     "L3 görünüş-durum ayrımı",
+     "L4 mekanizma/ölçü/sınıf"
+    ],
+    "sure_27_dagilim": {
+     "L0": 4,
+     "L1": 8,
+     "L2": 5,
+     "L3": 1,
+     "L4": 0
+    },
+    "L3_ayet": "27:88",
+    "L4_ayet": [],
+    "esik_L2_cipa": [
+     60,
+     62,
+     64,
+     86,
+     88
+    ],
+    "esik_L3_cipa": [
+     88
+    ],
+    "esik_L4_cipa": []
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım",
+   "test_notu": "**En önemli sonuç: L4 eşiğiyle sûre 27'de SIFIR çıpa var.** Yani 'mekanizma/ölçü/sınıflandırma' şartı konursa bu sûrede tek bir çıpa bile yok ve çıpa/yıldız sorusu bu sûre için ANLAMSIZ hale geliyor. L3 eşiğiyle tek ayet (27:88), L2 ile beş ayet. **Eşik kararı, sonucuna bakılarak verilemez (döngüsel olur); bu yüzden üç eşik de raporlandı ve karar sonraki sûrelerin verisine bırakıldı.**"
+  },
+  {
+   "no": 898,
+   "aday": "★★★ DÜŞEN KAYIT — 'ÇIPA/YILDIZ TERS İLİŞKİSİ' İDDİASI YANLIŞ YÖNDE. Okuma boyunca altı kez (aday 599/602/799/809/838/849/872) 'çıpası güçlü ayetler yıldızsız kalıyor' yazdım. Ölçüldü: sûre 27'de olgu içeren 17 ayetin %47,1'i yıldızlı, diğer 76 ayetin %26,3'ü. **İlişki TERS değil, DÜZ.**",
+   "olculen": {
+    "olgu_iceren": {
+     "ayet": 17,
+     "yildizli": 8,
+     "oran": 0.471,
+     "ort_n": 18.4,
+     "hapaksli_oran": 0.24
+    },
+    "digerleri": {
+     "ayet": 76,
+     "yildizli": 20,
+     "oran": 0.263,
+     "ort_n": 11.0,
+     "hapaksli_oran": 0.01
+    },
+    "uzunluk_eslemeli_n13": {
+     "olgu": {
+      "ayet": 15,
+      "yildizli": 6,
+      "oran": 0.4,
+      "hapaksli": 0.2
+     },
+     "diger": {
+      "ayet": 23,
+      "yildizli": 6,
+      "oran": 0.26,
+      "hapaksli": 0.04
+     }
+    },
+    "olgu_ayetlerinin_yildiz_kaynaklari": {
+     "hapaks": 4,
+     "pas": 2,
+     "n": 2,
+     "icerik": 0
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım sırasında ölçüldü (kendi kaydım düştü)",
+   "test_notu": "**ALTINCI ve en yaygın düşen kayıt** (801, 819, 843, 883, 891, burası). **İki ayrı hata birleşmiş:** (a) iddia hiç sayılmadı, el ile seçilmiş çiftlere dayandırıldı (27:24 yıldızsız / 27:25 ★★★ gibi) — bu çiftler gerçek ama TEMSİLİ DEĞİL; (b) örnekler okuma sırasında dikkat çektikleri için seçildi, yani **örneklem yıldızın kendisiyle ilişkili bir süreçle oluştu.** **DOĞRU İFADE: yıldız içeriği ölçmüyor (olgu ayetlerinin 8 yıldızının 8'i de hapaks/pas/uzunluktan, sıfırı içerikten) AMA içerikle DÜZ korele — çünkü doğa olgusu anlatan ayetler daha uzun (18,4'e 11,0) ve nadir kelime taşıma olasılıkları 24 kat yüksek (%24'e %1).** Yani bağıntı bir KARIŞTIRICIDAN geliyor, içerik duyarlılığından değil."
+  },
+  {
+   "no": 899,
+   "aday": "OKUMA SIRASINDA KURULAN İDDİALARIN ÖRNEKLEM ARIZASI — YAPISAL BİR SORUN. Aday 891 (nakarat ikilisi) ve 898 (çıpa/yıldız) aynı kusuru paylaşıyor: **okuma sırasında dikkat çeken vakalardan genelleme.** Dikkat çekme süreci, ölçülmek istenen değişkenin kendisiyle ilişkili olduğu için örneklem taraflı oluyor.",
+   "olculen": {
+    "vakalar": [
+     {
+      "aday": 891,
+      "iddia": "sûre 26 nakaratlı / 27 nakaratsız",
+      "gercek": "%27,3'e %32,3 — birim ve ağırlık farkı"
+     },
+     {
+      "aday": 898,
+      "iddia": "çıpa/yıldız ters ilişki",
+      "gercek": "düz ilişki, karıştırıcı kaynaklı"
+     },
+     {
+      "aday": 819,
+      "iddia": "27:19 okumada ilk kez üç kök",
+      "gercek": "okunan bölütte 107 ayet"
+     },
+     {
+      "aday": 843,
+      "iddia": "نظر altıncı geçiş",
+      "gercek": "yedinci"
+     }
+    ],
+    "ortak_kusur": "sayılmadan genelleme + taraflı örneklem"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım sırasında ölçüldü",
+   "test_notu": "**PROTOKOLE KALICI MADDE: okuma sırasında 'X'li ayetler Y oluyor' biçiminde bir iddia kurulursa, iddia KAPATILAMAZ etiketiyle kaydedilir ve tur sonunda TAM SAYIMLA sınanır. Okuma notlarından toplanan örneklerle sınanamaz — o örnekler okuma dikkatinin ürünüdür.** Bu, mevcut 'sûrenin sonuna kadar okunmadan dizi kapatılmaz' (774) kuralının örneklem tarafındaki eşi ve ondan daha geniş: 774 EKSİK sayıma karşı koruyor, bu TARAFLI sayıma karşı."
+  },
+  {
+   "no": 900,
+   "aday": "OLGU AYETLERİNİN YILDIZ KAYNAKLARI — İÇERİK SIFIR TEYİDİ AYAKTA. Sûre 27'nin olgu içeren 17 ayetinden 8'i yıldızlı ve kaynakları: hapaks 4 (27:20, 25, 39, 88) · edilgenlik 2 (27:16, 17) · uzunluk 2 (27:40, 60). İçerikten sıfır.",
+   "olculen": {
+    "yildizli_olgu_ayeti": 8,
+    "kaynak": {
+     "hapaks": 4,
+     "pas": 2,
+     "n": 2,
+     "icerik": 0
+    },
+    "ayet_kaynak": {
+     "27:16": "pas",
+     "27:17": "pas",
+     "27:20": "hapaks",
+     "27:25": "hapaks",
+     "27:39": "hapaks",
+     "27:40": "n",
+     "27:60": "n",
+     "27:88": "hapaks"
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım sırasında ölçüldü",
+   "test_notu": "**Aday 872'nin 'içerik sıfır' kısmı AYAKTA ve şimdi olgu ayetleri alt kümesinde ayrıca doğrulandı.** Düşen yalnız 'ters ilişki' kısmı (aday 898). **Ayrım önemli: alanın içeriğe DUYARSIZ olması ile içerikle KORELE OLMAMASI ayrı şeyler; birincisi doğru, ikincisi yanlıştı.**"
+  },
+  {
+   "no": 901,
+   "aday": "27:88'İN ÇIPA KARARI — L3, VE SÛRENİN TEK L3'Ü. Görünüş-durum ayrımı (dağları donuk SANIRSIN, oysa GEÇERLER) + karşılaştırma (bulutların geçişi gibi). Sûre 27'de L4 hiç yok; 27:88 kademe tablosunun tepesi.",
+   "olculen": {
+    "ayet": "27:88",
+    "kademe": "L3",
+    "sure_27_L4": 0,
+    "yildiz": 3,
+    "yildiz_kaynagi": "hapaks (تقن, جمد)",
+    "esik_L2_ile": "çıpa",
+    "esik_L3_ile": "çıpa",
+    "esik_L4_ile": "çıpa DEĞİL"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım",
+   "test_notu": "**Ayet, üç aday eşikten ikisinde çıpa sayılıyor, birinde sayılmıyor — yani eşik kararının pratik sonucu sûre 27'de neredeyse tümüyle bu ayete bağlı.** Ve ★★★'ını içerikten değil iki hapakstan alıyor; **çıpa kademesi ile yıldız kaynağı arasında bu ayette de bağ yok.** KAPATILAMAZ: kademe tablosu tek sûreden; L4 örneği görülmeden eşik kararı verilemez."
+  },
+  {
+   "no": 902,
+   "aday": "ONARIM TURU 3 BİLANÇOSU. Üç iş: (1) `harf`in kuralı geri çıkarıldı ve alan ikiye ayrıldı; (2) çıpa tanımı beş kademeyle yazıldı (P0 #6); (3) çıpa/yıldız ters ilişkisi iddiası düştü. Üç turda toplam onarım: on üç.",
+   "olculen": {
+    "tur_3_onarim": 3,
+    "toplam_onarim": 13,
+    "kapanan_aday": [
+     890,
+     896,
+     898,
+     900
+    ],
+    "yeni_alanlar": [
+     "harf3",
+     "isaret"
+    ],
+    "kalan_borc": [
+     "fHz/sesli/ebced/mod19/bits kardeş projede kirli",
+     "esit 0,85 eşiği örneklemeyle doğrulanmadı",
+     "esit'in yedi eşik türü yazılmadı (P0 #3)",
+     "çıpa eşiği (L2/L3/L4) seçilmedi — ikinci sûre verisi gerekli",
+     "aday 779/781 sayıları güncellenmedi",
+     "dis_sinav.py ve genelleme.py harf ile koşulmuş, yeniden koşulmadı"
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "onarım turu 3",
+   "etiket": "onarım bilançosu",
+   "test_notu": "**Üç turun toplam dersi: on üç onarımın üçü kendi yanlış negatifini üretti, ve okumanın ALTI kaydı düştü — dördü sayım hatası, ikisi (891, 898) ÖRNEKLEM hatası.** İkinci tür daha pahalı: sayım hatası bir bloğu, örneklem hatası bir ÇERÇEVEYİ bozuyor. **Aday 899 bunun için protokol maddesi öneriyor.** P0 borçlarının durumu: #1 aktör (kapandı) · #2 aynı sahne (kapandı) · #3 esit eşik türleri (AÇIK) · #4 nakarat (kapandı) · #5 529 lemma katmanı (altyapı hazır, uygulanmadı) · #6 çıpa (tanım yazıldı, eşik açık)."
   }
  ]
 }
