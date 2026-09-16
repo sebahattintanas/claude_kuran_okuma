@@ -4799,7 +4799,7 @@ Bağlar → `okuma_baglantilari.json/AH_kasas` (22 kayıt).
 |---|---|---|---|
 | #3 | `esit`in eşik türleri | **AÇIK — ama sınama kümesi HAZIR** | dokuz vakalık küme + 111 çiftlik tam sayım (aday 904) |
 | #5 | 529'un lemma katmanı | **AÇIK — kapsam BÜYÜDÜ** | on iki yeni gloss vakası + iki ÖLÇÜM vakası (aday 906) |
-| #6 | çıpa eşiği | **KARARA HAZIR** | ikinci sûre verisi tamam (aday 910) |
+| #6 | çıpa eşiği | **KAPANDI** | ölçüt seçildi + mekanikleştirildi (aday 920-923) |
 
 **#6 için karar verisi:** L4 iki sûrede de **0**, L3 iki sûrede de **0**. L2 sûre 28'de
 üç kayıt veriyor ve ikisi (28:71, 28:72) **ilk kez gerçek bir doğa olgusuna** bağlı
@@ -4875,3 +4875,88 @@ yönlü `أَئِمَّةً` kalıbı; 28:30↔28:46 ters çatılı `ندي`). S
    KAPATILAMAZ — korpus sayımı yapılmadı
 9. **Orta konum × artefakt (aday 908):** sûre 28 içinde 6/6, korpus çapında sınanmadı.
    KAPATILAMAZ
+
+
+---
+
+## P0 #6 KAPANDI — ÇIPA EŞİĞİ
+
+**ÖLÇÜT: çıpa = (L2+) VE (olgu = evet).**
+
+| eşik | iki sûrede (181 ayet) | karar |
+|---|---|---|
+| **L4+** | **0 ayet** | kullanılamaz |
+| **L3+** | **1 ayet** (27:88), %0,55 | kullanılamayacak kadar seyrek |
+| **L2+** | 9 ayet, **tekdüze değil** — 2'si olgu-dışı (27:62, 28:10) | tek başına yetmiyor |
+| **(L2+) ∧ olgu** | **7 ayet (%3,9)** | **SEÇİLDİ** |
+
+Çıpalar: **27:60 · 27:64 · 27:86 · 27:88 · 28:71 · 28:72 · 28:73**
+
+Karar eşiğin *sonucuna* bakılarak verilmedi (`14_cipa_tanimi.py`'nin döngüsellik
+şartı); kademelerin **tekdüzeliğine** bakılarak verildi: L4 ve L3 boş ya da tek
+elemanlı, L2 dolu ama iki türü karıştırıyor → ikinci bayrak şart.
+
+### Ölçüt mekanikleştirildi — anma %100 (aday 921)
+
+Çıpa artık okuma dikkatiyle aranmıyor. Beş morfolojik işaret ailesi:
+
+| aile | işaret | korpus aday |
+|---|---|---|
+| A_şart | edim şart / kip COND / `لولا` | 339 + 20 |
+| B_ta'lîl | `PRP\|PREF` (amaç lâmı) | 132 |
+| C_recâ | `لعل` / `كي` | 98 |
+| D_yeti | olumsuzluk + `كون` + `أَن`; 'başka ilâh' kalıbı | 77 |
+| E_görünüş | sanma fiili + `CIRC\|PREF` (hâl vâvı) | 23 |
+
+Aday = olgu alanından en az bir kök **VE** en az bir işaret → **586 ayet (korpusun
+%9,4'ü)**, anma elle kurulmuş yedi çıpaya karşı **7/7 (%100)**, kesinlik iki okunan
+sûrede **7/21 (%33)**.
+
+İlk sürüm (yalnız şart + sözlük) %57'de kalmıştı; kaçan üç çıpanın (27:60, 27:86,
+27:88) işaretleri **morfolojide zaten vardı ama taranmıyordu.** Ders: bir ölçütün
+"okumayla bulunur" sayılması çoğu zaman ölçütün morfolojiye bağlanmamış olmasından
+kaynaklanıyor.
+
+### Çıpa ile yıldız BAĞIMSIZ (aday 922)
+
+Eşik seçildikten **sonra** hesaplandı:
+
+- yedi çıpanın 3'ü yıldızlı (%42,9) · iki sûre tabanı %30,4
+- **binom P(X≥3 | n=7, p=0,304) = 0,362 — ANLAMLI DEĞİL**
+- kademe × yıldız tekdüze değil ve **yönü ters**: L0 %44 · L1 %50 · **L2 %25** · L3 %100 (n=1)
+- üç yıldızlı çıpanın kaynakları: 27:60 → `n` · 27:88 → `hapaks` · 28:71 → `allah`;
+  **hiçbiri içerikten**
+- tarama havuzunun yıldız oranı %50 (taban %35,4) ama bu **uzunluk artefaktı**:
+  havuz ort n=23,00, korpus 12,42 — **1,9 kat** (aday 903/909)
+
+**KARAR: 🜁/🜂 ★★★ koşuluna BAĞLANAMAZ.** Bağlansaydı yedi çıpanın altısı düşerdi
+(yalnız 27:88 ★★★ kalırdı). Semboller yıldızdan bağımsızlaştırıldı.
+
+### P0 #6'nın tavanını P0 #5 belirliyor (aday 923)
+
+Sûre 27-28'deki 14 yanlış pozitifin **6'sı (%43) lemma kusurundan**: `ظلم` →
+ظُلْم/ظالِم (karanlık değil zulüm) · `صبح` → أَصْبَحَ (sabah değil yardımcı fiil) ·
+`حيي` → اسْتِحْياء (hayat değil hayâ) · `قدر` → قَدَرَ. **Lemma katmanı yazılsaydı
+kesinlik %33'ten %47'ye çıkardı.**
+
+Bu, aday 906'nın "lemma borcu yalnız gloss değil **ölçüm** borcu" kaydının **ikinci
+bağımsız doğrulaması** — birincisi `nakarat2`'nin iki çifti kaçırmasıydı. İki ayrı
+alan aynı eksik katman yüzünden sakat.
+
+### DÜŞEN KAYITLAR — aday 910 düşürüldü, silinmedi
+
+Okuma sırasında kurduğum **dört kayıt** P0 #6 kapatılırken düştü:
+
+1. "L3 iki sûrede de sıfır" → **yanlış**, 27:88 L3
+2. "sûre 27'de L2 kayıtları olgu-dışıydı" → **yanlış**, dört L2'den ikisi gerçek olgu
+   (27:60, 27:86)
+3. "28:71-72 ilk kez L2 gerçek bir doğa olgusuna uygulanıyor" → korpus düzeyinde
+   **yanlış**; doğrusu "sûre 28'de ilk kez"
+4. 28:73 okuma sırasında L1 kaydedilmişti → emsaliyle (27:86) **L2** olmalı
+
+**Ortak sebep: dördü de sûre 27'nin tablosuna bakılmadan, okuma anındaki hatıradan
+kuruldu — aday 843'ün ("sayım defterden koşulur, hafızadan değil") çıpa tarafındaki
+eşi.** Alınan önlem: `15_cipa_kademe_28.py`'nin her satırı sûre 27'den hangi ayetle
+aynı kademeye konduğunu (emsal) taşımak zorunda.
+
+Aday 910'un özgün `olculen` alanı korundu; yanına `dusuruldu` alanı eklendi.

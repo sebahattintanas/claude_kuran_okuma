@@ -92,3 +92,37 @@ dosya düzeyinde de ayrıldı.
 
 Sûre 29 (Ankebût) ya da sûre 2'nin 21. ayeti. **Ama önce P0 #6 kapatılabilir:**
 karar verisi tamam ve tek başına bir oturum gerektirmiyor.
+
+---
+
+## EK — P0 #6 KAPATILDI (aynı oturum, okuma sonrası)
+
+**ÇIPA ÖLÇÜTÜ: (L2+) VE (olgu = evet).** İki sûrelik (181 ayet) sonuç: L4+ → 0 ·
+L3+ → 1 (27:88) · L2+ → 9 ama tekdüze değil (2'si olgu-dışı) → ikinci bayrak şart.
+**Çıpa: 27:60 · 27:64 · 27:86 · 27:88 · 28:71 · 28:72 · 28:73 (7 ayet, %3,9).**
+
+**Ölçüt mekanikleştirildi (aday 921):** beş morfolojik işaret ailesi — A_şart (339+14) ·
+B_ta'lîl `PRP|PREF` (132) · C_recâ (52) · D_yeti (93) · E_görünüş `CIRC|PREF` (12).
+**537 aday ayet (%8,6), anma 7/7 (%100), kesinlik 7/17 (%41).**
+
+**Çıpa ile yıldız BAĞIMSIZ (aday 922):** 3/7 yıldızlı (%42,9) vs taban %30,4;
+binom p=0,362, anlamlı değil. Kademe × yıldız ters yönde: L0 %44 · L1 %50 · L2 %25.
+**🜁/🜂 ★★★ koşuluna bağlanamaz** — bağlansaydı yedi çıpanın altısı düşerdi.
+
+**P0 #6'nın tavanını P0 #5 belirliyor (aday 923):** yanlış pozitiflerin %40'ı lemma
+kusurundan; lemma katmanıyla kesinlik %41 → %54.
+
+**Dört kaydım düştü, silinmedi (aday 910'a `dusuruldu` alanı):** L3 sayısı, sûre 27'nin
+L2'lerinin olgu durumu, "ilk kez" iddiası ve 28:73'ün kademesi. Ortak sebep: dördü de
+sûre 27'nin tablosuna bakılmadan hatıradan kuruldu — **aday 843'ün çıpa tarafındaki eşi.**
+
+**Denetimin yakaladığı kendi kusurum:** `anahtar_denetim.py` yeni betiklerimde elle
+yazılmış Arapça edatları (لولا/لعل/حتا/لكيلا) BOZUK işaretledi — ikisi yazım hatası,
+ikisi korpusta hiç yok. Eşleme morfoloji lemmasına taşındı; havuz 586→537, **anma 7/7
+korundu, kesinlik %33→%41 yükseldi.** Ayrıca Arapça sabitlerin içine kaçan Latin ok
+karakteri (0x2192) 35 yerde ayrıldı.
+
+Denetimler: `turkce_denetim.py` → **0** · `anahtar_denetim.py` → **22601 anahtar,
+58 ihlâl, diff = 0**.
+
+Adaylar **920-923** (`AJ_kasas` 17 → 21 kayıt).

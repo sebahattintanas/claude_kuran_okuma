@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "sûre 28 (Kasas) okuması — adaylar 903-919",
+ "son_guncelleme": "P0 #6 (çıpa eşiği) kapatıldı — adaylar 920-923",
  "okunan": {
   "sureler": [
    1,
@@ -2534,7 +2534,7 @@
   },
   {
    "no": 280,
-   "aday": "NAKARAT KALIBI DEĞİŞKENLİ TEKRAR: 15:75 ve 15:77 iki ayet arayla aynı kalıpta (إِنَّ فِى ذَٰلِكَ لَ… لِـ…) ama İKİ değişkeni birden değiştiriyor — nesne çoğuldan tekile (ءَايَٰت→ءَايَة), alıcı dardan geniş kümeye (ٱلْمُتَوَسِّمِين→ٱلْمُؤْمِنِين). İki değişken zıt yönde.",
+   "aday": "NAKARAT KALIBI DEĞİŞKENLİ TEKRAR: 15:75 ve 15:77 iki ayet arayla aynı kalıpta (إِنَّ فِى ذَٰلِكَ لَ… لِـ…) ama İKİ değişkeni birden değiştiriyor — nesne çoğuldan tekile (ءَايَٰت → ءَايَة), alıcı dardan geniş kümeye (ٱلْمُتَوَسِّمِين→ٱلْمُؤْمِنِين). İki değişken zıt yönde.",
    "olculen": {
     "15:75": "لَءَايَٰتٍ / لِّلْمُتَوَسِّمِينَ",
     "15:77": "لَءَايَةً / لِّلْمُؤْمِنِينَ",
@@ -2700,7 +2700,7 @@
   },
   {
    "no": 292,
-   "aday": "YARATMA MALZEMESİ TERİMİ SÛREYE GÖRE DEĞİŞİYOR: aynı olay (insanın yaratılışı) Hicr'de صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (üç kez, 15:26/28/33), Nahl'de نُّطْفَة (16:4). Ve anlatım yapısı da ters: Hicr üç adımlı zincir (سوّى→نفخ *(üfleme)*→سجد *(secde)*), Nahl فَإِذَا ile ani hâl değişimi, ara adım yok.",
+   "aday": "YARATMA MALZEMESİ TERİMİ SÛREYE GÖRE DEĞİŞİYOR: aynı olay (insanın yaratılışı) Hicr'de صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (üç kez, 15:26/28/33), Nahl'de نُّطْفَة (16:4). Ve anlatım yapısı da ters: Hicr üç adımlı zincir (سوّى → نفخ *(üfleme)*→سجد *(secde)*), Nahl فَإِذَا ile ani hâl değişimi, ara adım yok.",
    "olculen": {
     "hicr": "صلصال/حمإ/مسنون ×3, üç adımlı",
     "nahl": "نطفة ×1, ara adım yok",
@@ -3985,7 +3985,7 @@
   },
   {
    "no": 357,
-   "aday": "'DAHA İYİ BİLİR' KALIBINDA EKSEN KAYMASI: Kehf'te sekiz ayette dört geçiş ve her seferinde adlandırma değişiyor — رَبُّكُمْ (18:19) → رَّبُّهُمْ (18:21) → رَّبِّىٓ (18:22) → ٱللَّهُ (18:26). İyelik zamiri كم→هم→ى diye daralıyor, dördüncüde iyelik TAMAMEN DÜŞÜP lafza geçiliyor. Ve dördü de KİŞİLERİN ağzında; İsrâ'daki dört geçiş (17:25, 54, 55, 84) ise dördü de anlatıcının cümlesiydi.",
+   "aday": "'DAHA İYİ BİLİR' KALIBINDA EKSEN KAYMASI: Kehf'te sekiz ayette dört geçiş ve her seferinde adlandırma değişiyor — رَبُّكُمْ (18:19) → رَّبُّهُمْ (18:21) → رَّبِّىٓ (18:22) → ٱللَّهُ (18:26). İyelik zamiri كم → هم → ى diye daralıyor, dördüncüde iyelik TAMAMEN DÜŞÜP lafza geçiliyor. Ve dördü de KİŞİLERİN ağzında; İsrâ'daki dört geçiş (17:25, 54, 55, 84) ise dördü de anlatıcının cümlesiydi.",
    "olculen": {
     "kehf": [
      [
@@ -4032,7 +4032,7 @@
     "isra_konusan": "anlatıcı ×4",
     "kehf_konusan": "kişiler ×4"
    },
-   "test": "339 ile birleşik: 'أَعْلَمُ + eksen adı' kalıbının korpus envanteri; konuşan sınıfı (anlatıcı / kişi) ile eksen adı seçimi (Rab / lafız) arasında bağ var mı? Ve iyelik daralması (كم→هم→ى→∅) başka dizilerde de görülüyor mu?"
+   "test": "339 ile birleşik: 'أَعْلَمُ + eksen adı' kalıbının korpus envanteri; konuşan sınıfı (anlatıcı / kişi) ile eksen adı seçimi (Rab / lafız) arasında bağ var mı? Ve iyelik daralması (كم → هم → ى→∅) başka dizilerde de görülüyor mu?"
   },
   {
    "no": 358,
@@ -4047,7 +4047,7 @@
   },
   {
    "no": 359,
-   "aday": "YARATMA MALZEMESİNİN BEŞİNCİ TERİMİ VE TEK İKİ AŞAMALI DİZİSİ: صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (15:26) · نُطْفَة (16:4) · طِين (17:61) · تُرَاب ثُمَّ نُطْفَة (18:37). Sonuncusu tek çok-aşamalı dizi; öteki üçünde tek terim. Ve 18:37 سَوَّىٰكَ ile 15:29 سَوَّيْتُهُۥ aynı düzenleme fiilini paylaşıyor ama zincirler farklı: سوّى→نفخ *(üfleme)*→سجد (Hicr) vs تراب→نطفة→سوّى→رجل (Kehf).",
+   "aday": "YARATMA MALZEMESİNİN BEŞİNCİ TERİMİ VE TEK İKİ AŞAMALI DİZİSİ: صَلْصَٰل مِنْ حَمَإٍ مَّسْنُون (15:26) · نُطْفَة (16:4) · طِين (17:61) · تُرَاب ثُمَّ نُطْفَة (18:37). Sonuncusu tek çok-aşamalı dizi; öteki üçünde tek terim. Ve 18:37 سَوَّىٰكَ ile 15:29 سَوَّيْتُهُۥ aynı düzenleme fiilini paylaşıyor ama zincirler farklı: سوّى → نفخ *(üfleme)*→سجد (Hicr) vs تراب → نطفة → سوّى → رجل (Kehf).",
    "olculen": {
     "terimler": [
      "صلصال",
@@ -4759,8 +4759,8 @@
   },
   {
    "no": 399,
-   "aday": "zaman_of() KÖK KÜMELERİ EKSİK ÇALIŞIYOR — 18/34 ANAHTAR TUTMUYOR. varlik_makinesi.py sat.48-50 ve kavram_arac.py sat.46-48 (kopyalı) GECMIS/GELECEK/SIMDI kümeleri. Ölçülen kayıp: ءمن→أمن 879 · ايي→أيي 597 · اخر→أخر 250 · امر→أمر 248 = 1.974 geçiş, dördü de hamzesiz elif. Kaybedilenler SIMDI kümesinin en yüksek frekanslı üyeleri. Ayrıca 14 anahtar (نوح/ابر/موسي/فرعن/عاد/لوط/ارسل/نار/ساع/تقو/ثمد/قيم…) korpusta kök olarak hiç yok — özel/cins isim, kök ile lemma karıştırılmış. ETKİ: varlik_katalog.json'daki 40 kavramın zaman profili eksik veriyle üretilmiş; bu alana dayanan çıkarımlar düzeltmeden kullanılamaz. TARİH KANITI: varlik_katalog.py 5 Ağustos'ta geldi, hiç değişmedi; turkce_denetim.py 21 Ağustos'ta yazıldı. Bozulma denetim öncesi dönemin ürünü.",
-   "sinir": "Bu bir BULGU DEĞİL, veri bütünlüğü tespiti. Betiğin düzeltme önerileri (ثمد→أمد, قيم→أيم) YANLIŞ, elle doğrulanacak. Düzeltme tur sonuna ertelendi (araç değiştirme yasağı).",
+   "aday": "zaman_of() KÖK KÜMELERİ EKSİK ÇALIŞIYOR — 18/34 ANAHTAR TUTMUYOR. varlik_makinesi.py sat.48-50 ve kavram_arac.py sat.46-48 (kopyalı) GECMIS/GELECEK/SIMDI kümeleri. Ölçülen kayıp: ءمن → أمن 879 · ايي → أيي 597 · اخر → أخر 250 · امر → أمر 248 = 1.974 geçiş, dördü de hamzesiz elif. Kaybedilenler SIMDI kümesinin en yüksek frekanslı üyeleri. Ayrıca 14 anahtar (نوح/ابر/موسي/فرعن/عاد/لوط/ارسل/نار/ساع/تقو/ثمد/قيم…) korpusta kök olarak hiç yok — özel/cins isim, kök ile lemma karıştırılmış. ETKİ: varlik_katalog.json'daki 40 kavramın zaman profili eksik veriyle üretilmiş; bu alana dayanan çıkarımlar düzeltmeden kullanılamaz. TARİH KANITI: varlik_katalog.py 5 Ağustos'ta geldi, hiç değişmedi; turkce_denetim.py 21 Ağustos'ta yazıldı. Bozulma denetim öncesi dönemin ürünü.",
+   "sinir": "Bu bir BULGU DEĞİL, veri bütünlüğü tespiti. Betiğin düzeltme önerileri (ثمد → أمد, قيم → أيم) YANLIŞ, elle doğrulanacak. Düzeltme tur sonuna ertelendi (araç değiştirme yasağı).",
    "dosya": "betikler/anahtar_denetim.py — notlar/YAPILACAKLAR.md ANAHTAR DENETİMİ bölümü"
   }
  ],
@@ -8669,7 +8669,7 @@
     ],
     "ayet2_ortak_kelime": 2,
     "ayet2_farklar": [
-     "baglac وَ→فَ",
+     "baglac وَ → فَ",
      "زُبُرًۭا eklenmis",
      "ikinci yari tamamen farkli"
     ],
@@ -9479,7 +9479,7 @@
     ],
     "dar_ikiz_ortak_kelime": 7,
     "dar_ikiz_fark": [
-     "لَعْنَت→غَضَب",
+     "لَعْنَت → غَضَب",
      "ٱلْكَٰذِبِينَ→ٱلصَّٰدِقِينَ"
     ],
     "mora": {
@@ -9722,7 +9722,7 @@
      ]
     },
     "dikey": {
-     "خبث→طيب": 167.6,
+     "خبث → طيب": 167.6,
      "طيب←خبث": 157.5
     }
    },
@@ -9809,7 +9809,7 @@
     ],
     "dikey": {
      "فرج←حفظ": 51.2,
-     "فرج→حفظ": 51.2
+     "فرج → حفظ": 51.2
     },
     "فرج_n": 9
    },
@@ -10372,7 +10372,7 @@
     "yildiz": 3,
     "kaynak": "n z=6,75",
     "dikey": {
-     "عرج→حرج": 257.8,
+     "عرج → حرج": 257.8,
      "حرج←topal": 1211.3
     }
    },
@@ -23482,11 +23482,22 @@
     "sure_28_yildiz3": 8,
     "yildiz3_kaynagi": "8/8 hapaks ya da tam edilgenlik"
    },
-   "durum": "ACIK",
+   "durum": "KAPALI",
    "oncelik": "P0",
    "kaynak": "okuma sûre 28",
    "etiket": "P0 #6'ya karar verisi",
-   "test_notu": "**P0 #6 (çıpa eşiği) artık karara bağlanabilir: L4 kullanılamaz (iki sûrede de sıfır), L3 kullanılamaz (iki sûrede de sıfır), L2 kullanılabilir ama İKİNCİ BİR BAYRAK gerektiriyor — 'olgu / olgu-dışı'.** Sûre 28'in üç L2 kaydından ikisi gerçek bir doğa olgusuna bağlı (28:71-72), biri bir iç hâle (28:10). **EK BULGU: çıpa ile yıldız sûre 28'de HİÇ çakışmıyor** — sekiz ★★★'ın hiçbiri çıpa taşımıyor, üç L2 ayetinin hiçbiri ★★★ değil. Bu, 🜁/🜂'nin ★★★ koşuluna bağlanmasının sûre 28'de sıfır çıpa üretmesi demek; **ya koşul gevşetilmeli ya semboller yıldızdan bağımsızlaştırılmalı.**"
+   "test_notu": "**P0 #6 (çıpa eşiği) artık karara bağlanabilir: L4 kullanılamaz (iki sûrede de sıfır), L3 kullanılamaz (iki sûrede de sıfır), L2 kullanılabilir ama İKİNCİ BİR BAYRAK gerektiriyor — 'olgu / olgu-dışı'.** Sûre 28'in üç L2 kaydından ikisi gerçek bir doğa olgusuna bağlı (28:71-72), biri bir iç hâle (28:10). **EK BULGU: çıpa ile yıldız sûre 28'de HİÇ çakışmıyor** — sekiz ★★★'ın hiçbiri çıpa taşımıyor, üç L2 ayetinin hiçbiri ★★★ değil. Bu, 🜁/🜂'nin ★★★ koşuluna bağlanmasının sûre 28'de sıfır çıpa üretmesi demek; **ya koşul gevşetilmeli ya semboller yıldızdan bağımsızlaştırılmalı.**",
+   "dusuruldu": {
+    "ne_zaman": "P0 #6 kapatılırken (aday 920-923)",
+    "duseni_bulan": "14_cipa_tanimi.py'nin kendi sûre 27 tablosu",
+    "yanlis_1": "olculen.sure_27.L3 = 0 → DOĞRUSU 1 (27:88, görünüş/durum ayrımı)",
+    "yanlis_2": "olculen.sure_27.L2 = 'birkaç, hepsi olgu-dışı' → DOĞRUSU 4 kayıt, İKİSİ gerçek doğa olgusu (27:60 yeti sınırı, 27:86 işlevsel nedensellik)",
+    "yanlis_3": "test_notu'ndaki 'sûre 28'de ilk kez L2 gerçek bir doğa olgusuna uygulanıyor' — korpus düzeyinde YANLIŞ; 27:60 ve 27:86 zaten yapmıştı. Doğrusu: sûre 28'de ilk kez.",
+    "yanlis_4": "olculen.sure_28.L1 içinde 28:73 → DOĞRUSU L2 (27:86'nın emsali, işlevsel nedensellik)",
+    "ortak_sebep": "dört kayıt da sûre 27'nin tablosuna BAKILMADAN, okuma anındaki hatıradan kuruldu — aday 843'ün ('sayım defterden koşulur, hafızadan değil') çıpa tarafındaki eşi",
+    "alinan_onlem": "15_cipa_kademe_28.py'nin her satırı sûre 27'den hangi ayetle aynı kademeye konduğunu (emsal) taşımak zorunda",
+    "duzeltilmis_tablo": "cipa_kademe_27_28.json"
+   }
   },
   {
    "no": 911,
@@ -23790,6 +23801,184 @@
    "kaynak": "okuma sûre 28",
    "etiket": "okuma sırasında ölçüldü",
    "test_notu": "**Sûre 26'da nakarat düzeltmesi yıldız oranını %18,1'den %11,9'a indirmişti; sûre 28'de aynı düzeltmenin etkisi SIFIR çünkü tek nakarat çiftinin iki ayeti de yıldızsız.** Bu, düzeltmenin sûreye göre çok farklı büyüklükte olduğunu gösteriyor — **nakarat düzeltmesi sûreler arası karşılaştırma için ŞART ama tek tek sûrelerde etkisi sıfır olabilir.** İkinci bulgu: 28:62/65/74 üçlüsünde **esit2 ve nakarat2 birbirini tam olarak tamamlıyor** — esit2 tam ayet düzeyinde 62↔74'ü bağlıyor ve 65'i doğru biçimde dışarıda bırakıyor, nakarat2 üçünü n-gram düzeyinde topluyor; **yapı ancak iki alan BİRLİKTE okununca görünüyor.**"
+  },
+  {
+   "no": 920,
+   "aday": "★ P0 #6 KAPANDI — ÇIPA ÖLÇÜTÜ SEÇİLDİ: **(L2+) VE (olgu = evet)**. Üç aday eşiğin iki sûrelik (181 ayet) sonucu: L4+ → **0 ayet**, kullanılamaz · L3+ → **1 ayet** (27:88), %0,55, kullanılamayacak kadar seyrek · L2+ → **9 ayet ama tekdüze değil**, dokuzdan ikisi (27:62, 28:10) nedensellik kuruyor ama bağladığı şey doğa olgusu değil. **Eşik tek başına yetmiyor; ikinci bayrak (olgu evet/hayır) ŞART.** Bayrakla: 7 çıpa / 181 ayet (%3,9).",
+   "olculen": {
+    "esik_L4": {
+     "ayet": 0
+    },
+    "esik_L3": {
+     "ayet": 1,
+     "liste": [
+      "27:88"
+     ],
+     "oran_yuzde": 0.55
+    },
+    "esik_L2": {
+     "ayet": 9,
+     "olgu_olan": 7,
+     "olgu_olmayan": 2,
+     "olgu_olmayanlar": [
+      "27:62",
+      "28:10"
+     ]
+    },
+    "secilen": "(L2+) ∧ (olgu=evet)",
+    "cipa": [
+     "27:60",
+     "27:64",
+     "27:86",
+     "27:88",
+     "28:71",
+     "28:72",
+     "28:73"
+    ],
+    "cipa_orani_yuzde": 3.9,
+    "sure_27_kademe": {
+     "L0": 4,
+     "L1": 8,
+     "L2": 4,
+     "L3": 1,
+     "L4": 0
+    },
+    "sure_28_kademe": {
+     "L0": 5,
+     "L1": 6,
+     "L2": 4,
+     "L3": 0,
+     "L4": 0
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "P0 #6 kapanışı, iki sûre verisi",
+   "etiket": "P0 kapanışı",
+   "test_notu": "**Karar eşiğin sonucuna bakılarak verilmedi** (14_cipa_tanimi.py'nin döngüsellik şartı): ölçüt, kademelerin TEKDÜZELİĞİNE bakılarak seçildi. L4 ve L3 boş ya da tek elemanlı; L2 dolu ama iki türü karıştırıyor. **Çıpa/yıldız ilişkisi ancak eşik seçildikten sonra hesaplandı (aday 922).** TUR SONU: ölçüt bundan sonraki her sûrede `17_cipa_tarama2.py`'nin aday listesi üzerinden uygulanacak; okuma dikkatiyle çıpa aranmayacak."
+  },
+  {
+   "no": 921,
+   "aday": "★ ÇIPA ARTIK TARAMAYLA BULUNUYOR — BEŞ MORFOLOJİK İŞARET AİLESİ, ANMA %100. Ölçüt okuma dikkatinden alınıp morfolojiye bağlandı: **A_şart** (edim şart / kip COND / لولا) · **B_ta'lîl** (PRP|PREF amaç lâmı) · **C_recâ** (لعل / كي) · **D_yeti** (olumsuzluk + كون + أَن; 'başka ilâh' kalıbı) · **E_görünüş** (sanma fiili + CIRC|PREF hâl vâvı). Aday = olgu alanından bir kök VE bir işaret → **586 ayet (korpusun %9,4'ü)**, anma **7/7**.",
+   "olculen": {
+    "olgu_koku_tasiyan_ayet": 2163,
+    "aday_ayet": 537,
+    "korpus_oran_yuzde": 8.6,
+    "isaret_ailesi": {
+     "A_şart": 339,
+     "B_ta’lîl": 132,
+     "D_yeti": 93,
+     "C_recâ": 52,
+     "A_levlâ": 14,
+     "E_görünüş": 12
+    },
+    "anma": "7/7",
+    "anma_yuzde": 100,
+    "ilk_surum_anma": "4/7 (%57)",
+    "ilk_surumde_kacanlar": {
+     "27:60": "D_yeti (ما كان لكم أن)",
+     "27:86": "B_ta’lîl (PRP|PREF)",
+     "27:88": "E_görünüş (sanma fiili + CIRC)"
+    },
+    "kesinlik_sure_27": "4/5 (%80)",
+    "kesinlik_sure_28": "3/12 (%25)",
+    "kesinlik_toplam": "7/17 (%41)",
+    "denetim_notu": "ilk yazımda edatlar ELLE, iskelet yazımıyla girilmişti (لولا/لعل/حتا/لكيلا); anahtar_denetim.py dördünü de BOZUK işaretledi — ikisi YAZIM, ikisi korpusta HİÇ YOK. Eşleme morfoloji lemmasına taşındı (COND|LEM:لَوْلا · ACC|LEM:لَعَلّ · SUB|LEM:كَي); havuz 586→537, anma 7/7 KORUNDU, kesinlik %33→%41 YÜKSELDİ."
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "P0 #6 kapanışı",
+   "etiket": "ölçütün mekanikleştirilmesi",
+   "test_notu": "**Çıpa şimdiye kadar okuma dikkatiyle bulunuyordu — aday 899'un yasakladığı taraflı örneklemin ta kendisi.** İlk sürüm (yalnız şart + sözlük) %57 anma verdi ve kaçan üç çıpanın işaretleri morfolojide ZATEN vardı: amaç lâmı `PRP|PREF`, hâl vâvı `CIRC|PREF`, yeti sınırı kalıbı. **Ders: bir ölçütün 'okumayla bulunur' sayılması çoğu zaman ölçütün morfolojiye bağlanmamış olmasından kaynaklanıyor.** Tarama karar vermez, 6236 ayeti 586'ya indirir. KAPATILAMAZ olan yan: 586 adayın yalnız 21'i (iki sûre) elle sınandı; kesinlik %33 tahmini bu 21'e dayanıyor.",
+   "tazeleme": [
+    "sayılar 20_sayilari_tazele.py ile güncellendi (anahtar_denetim düzeltmesi sonrası)"
+   ]
+  },
+  {
+   "no": 922,
+   "aday": "★ ÇIPA İLE YILDIZ BAĞIMSIZ — EŞİK SEÇİLDİKTEN SONRA HESAPLANDI. Yedi çıpanın 3'ü yıldızlı (%42,9), iki sûre tabanı %30,4; **binom P(X≥3 | n=7, p=0,304) = 0,362, ANLAMLI DEĞİL.** Kademe × yıldız ilişkisi tekdüze değil ve yönü ters: **L0 %44 · L1 %50 · L2 %25 · L3 %100 (n=1)** — iddia gücü en yüksek kademe taban oranın ALTINDA.",
+   "olculen": {
+    "cipa_ayet": 7,
+    "cipa_yildizli": 3,
+    "cipa_oran_yuzde": 42.9,
+    "iki_sure_taban_yuzde": 30.4,
+    "binom_p": 0.362,
+    "anlamli": false,
+    "kademe_yildiz": {
+     "L0": [
+      9,
+      4,
+      44
+     ],
+     "L1": [
+      14,
+      7,
+      50
+     ],
+     "L2": [
+      8,
+      2,
+      25
+     ],
+     "L3": [
+      1,
+      1,
+      100
+     ]
+    },
+    "cipa_yildiz_kaynaklari": {
+     "27:60": "n=1,55",
+     "27:88": "hapaks=6,98",
+     "28:71": "allah=1,58"
+    },
+    "icerikten_gelen": 0,
+    "havuz_yildiz_yuzde": 50.8,
+    "korpus_yildiz_yuzde": 35.4,
+    "havuz_ort_n": 23.54,
+    "korpus_ort_n": 12.42,
+    "uzunluk_kati": 1.9,
+    "yildiz3_kosulu_uygulansa": {
+     "kalan_cipa": 1,
+     "dusen": 6,
+     "kalan": [
+      "27:88"
+     ]
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "P0 #6 kapanışı",
+   "etiket": "döngüsellik şartına uygun hesap",
+   "test_notu": "**Bu hesap, eşik seçildikten SONRA yapıldığı için döngüsel değil** (14_cipa_tanimi.py'nin açık şartı). Sonuç: **yıldız alanı çıpa durumu hakkında hiçbir bilgi taşımıyor.** Tarama havuzunun yıldız oranının taban üstünde olması (%50 / %35,4) bir içerik sinyali değil UZUNLUK artefaktı: havuzun ortalama n'i korpusunkinin 1,9 katı ve `n`, `allah`, `rab`, `pas` ölçütlerinin dördü de uzunluğa duyarlı (aday 903/909). **KARAR: 🜁/🜂 ★★★ koşuluna BAĞLANAMAZ** — bağlansaydı yedi çıpanın altısı düşerdi. Semboller yıldızdan bağımsızlaştırıldı.",
+   "tazeleme": [
+    "sayılar 20_sayilari_tazele.py ile güncellendi (anahtar_denetim düzeltmesi sonrası)"
+   ]
+  },
+  {
+   "no": 923,
+   "aday": "★ P0 #6'NIN KESİNLİĞİ P0 #5 TARAFINDAN SINIRLANIYOR — YANLIŞ POZİTİFLERİN %43'Ü LEMMA KUSURU. Sûre 27-28'deki 14 yanlış pozitifin sebebi mekanik ölçüldü: altısında kök olgu alanında görünüyor ama ayetteki lemma başka anlam alanında.",
+   "olculen": {
+    "yanlis_pozitif": 10,
+    "lemma_kusurundan": 4,
+    "oran_yuzde": 40,
+    "gercek_yanlis_pozitif": 6,
+    "lemma_vakalari": {
+     "28:10": "صبح → أَصْبَحَ",
+     "28:25": "حيي → اسْتِحْياء, ظلم → ظالِم",
+     "28:50": "ظلم → ظالِم",
+     "28:82": "صبح → أَصْبَحَ, قدر → قَدَرَ"
+    },
+    "kesinlik_simdi_yuzde": 41,
+    "kesinlik_lemma_ile_yuzde": 54
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "P0 #6 kapanışı",
+   "etiket": "P0 #5'e bağımlılık",
+   "test_notu": "**P0 #5, P0 #6'nın TAVANINI belirliyor:** lemma katmanı yazılmadan çıpa taramasının kesinliği %33'te kalıyor, yazılsa %47'ye çıkar. Kusurlu kökler tam da sûre 28 okumasında P0 #5 sınama kümesine giren kökler: ظلم (karanlık/zulüm), صبح (sabah/yardımcı fiil), حيي (hayat/hayâ), قدر (ölçü/güç yetirme). **Bu, aday 906'nın 'lemma borcu yalnız gloss değil ÖLÇÜM borcu' kaydının ikinci bağımsız doğrulaması** — birincisi nakarat2'nin iki çifti kaçırmasıydı. **İki ayrı alan (nakarat2, çıpa taraması) aynı eksik katman yüzünden sakat.**",
+   "tazeleme": [
+    "sayılar 20_sayilari_tazele.py ile güncellendi (anahtar_denetim düzeltmesi sonrası)"
+   ]
   }
  ]
 }

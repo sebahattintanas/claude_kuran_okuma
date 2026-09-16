@@ -83,8 +83,7 @@ Ve sûre 26'nın 41 ★★★'ı, nakarat düzeltmesiyle **27 ayrı yapıya** in
 tamamlandı: 88 ayet, dokuz blok, okunan toplam 2130/6236 (%34,2).
 
 Açık P0: #3 esit eşik türleri (**sınama kümesi HAZIR**, aday 904) · #5 529 lemma
-katmanı (**kapsam büyüdü: gloss + ölçüm borcu**, aday 906) · #6 çıpa eşiği
-(**KARARA HAZIR**, ikinci sûre verisi tamam, aday 910).
+katmanı (**kapsam büyüdü: gloss + ölçüm borcu**, aday 906) · #6 çıpa eşiği **KAPANDI** (ölçüt: (L2+) ∧ olgu; mekanikleştirildi, anma %100 — aday 920-923).
 
 Yeni P0: #7 yıldız formülünün iki otomatik ★★★ tetikleyicisi (aday 903) ·
 #8 `adsiz2` envanteri taraflı örneklemden (aday 905) · #9 esmâ mührü token
