@@ -2,7 +2,7 @@
  "ad": "aday_bulgular",
  "kural": "Bu dosyadaki HİÇBİR MADDE BULGU DEĞİLDİR. Tam-tur okuması sırasında dikkat çeken, tur sonunda ön-kayıtlı olarak test edilecek adaylardır. Hiçbiri alıntılanamaz, hiçbirine dayanılarak başka iddia kurulamaz. Bonferroni tur sonunda toplu uygulanacak.",
  "acilis": "2026-08-08",
- "son_guncelleme": "2026-09-04 — SÛRE 25-26 TAM; SÛRE 27 (NEML) 20/93. Adaylar 525-799",
+ "son_guncelleme": "sûre 28 (Kasas) okuması — adaylar 903-919",
  "okunan": {
   "sureler": [
    1,
@@ -23056,6 +23056,740 @@
    "kaynak": "onarım turu 3",
    "etiket": "onarım bilançosu",
    "test_notu": "**Üç turun toplam dersi: on üç onarımın üçü kendi yanlış negatifini üretti, ve okumanın ALTI kaydı düştü — dördü sayım hatası, ikisi (891, 898) ÖRNEKLEM hatası.** İkinci tür daha pahalı: sayım hatası bir bloğu, örneklem hatası bir ÇERÇEVEYİ bozuyor. **Aday 899 bunun için protokol maddesi öneriyor.** P0 borçlarının durumu: #1 aktör (kapandı) · #2 aynı sahne (kapandı) · #3 esit eşik türleri (AÇIK) · #4 nakarat (kapandı) · #5 529 lemma katmanı (altyapı hazır, uygulanmadı) · #6 çıpa (tanım yazıldı, eşik açık)."
+  }
+ ],
+ "AJ_kasas": [
+  {
+   "no": 903,
+   "aday": "★ YILDIZ FORMÜLÜNÜN İKİ OTOMATİK ★★★ TETİKLEYİCİSİ BULUNDU — VE İKİSİ DE İÇERİKLE İLGİSİZ. (1) Bir ayette EN AZ BİR hapaks kök bulunması `hapaks` z değerini 3,38 yapıyor ve ★★★ eşiği mx>3: **hapaks içeren 358 ayetin 358'i de ★★★, İSTİSNASIZ.** (2) Bir ayetin BÜTÜN fiillerinin edilgen olması (oran 1,00) `pas` z değerini tam olarak 5,38 yapıyor: **böyle 124 ayet var ve 124'ü de ★★★, İSTİSNASIZ.** Kesişim 11, birleşim 471 = korpustaki 880 ★★★ ayetin **%53,5'i**.",
+   "olculen": {
+    "hapaks_ayet": 358,
+    "hapaks_hepsi_yildiz3": true,
+    "tek_hapaks_z": 3.38,
+    "tam_edilgen_ayet": 124,
+    "tam_edilgen_z": 5.38,
+    "tam_edilgen_hepsi_yildiz3": true,
+    "kesisim": 11,
+    "birlesim": 471,
+    "toplam_yildiz3": 880,
+    "kapsanan_oran": 53.5,
+    "kalan_409_kaynagi": {
+     "rab": 180,
+     "allah": 123,
+     "n": 86,
+     "pas": 23
+    },
+    "sure_28_dogrulama": {
+     "yildiz3": [
+      15,
+      23,
+      29,
+      30,
+      34,
+      42,
+      70,
+      76
+     ],
+     "hapaks_ayetleri": [
+      15,
+      23,
+      29,
+      30,
+      34,
+      42,
+      76
+     ],
+     "tam_edilgen": [
+      70
+     ],
+     "birebir_ortusuyor": true
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "tam sayımla kapatıldı",
+   "test_notu": "**Sûre 27 kapanışındaki 'yıldız kaynakları: hapaks 5' satırı yeniden okunmalı: hapaks bir KATKI değil, YETER ŞART.** Aynı şey tam edilgenlik için de geçerli. Sonuç: ★★★ nişanının yarısından fazlası iki mekanik koşuldan üretiliyor — biri bir kökün korpus sıklığı, öteki bir ayetteki fiil sayısının küçüklüğü. **Yıldız alanı bir 'önem' ölçüsü olarak KULLANILAMAZ; bir dağılımsal aykırılık ölçüsüdür ve iki ölçütü ikili (var/yok) gibi davranıyor.** TUR SONU: ★★★ sınıfı, 'otomatik tetikleyici' ve 'süreklilik ölçütü' diye ikiye ayrılmalı; aday 700/739/771/779/781'in nakarat düzeltmesiyle güncellenecek sayıları bu ayrımdan SONRA hesaplanmalı."
+  },
+  {
+   "no": 904,
+   "aday": "★ `esit2` EŞİK BANDI KALİBRE DEĞİL — GERÇEK BAĞLAR 0,82-0,95 BANDINDA YOĞUNLAŞIYOR, KADEME SINIRI (0,95) BANDIN ÜSTÜNDE. Sûre 28'de ölçülen dokuz vaka: üç TAM (1,0), üç BENZER (0,9455 · 0,9412 · 0,9231) ve **üç GERÇEK AMA YAZILMAYAN** (0,8333 · 0,8252 · 0,7152). 'yakin' kademesi (≥0,95) sûre boyunca BİR KEZ BİLE tetiklenmedi.",
+   "olculen": {
+    "tam": [
+     [
+      "28:1",
+      "26:1",
+      1.0
+     ],
+     [
+      "28:2",
+      "26:2",
+      1.0
+     ],
+     [
+      "28:62",
+      "28:74",
+      1.0
+     ]
+    ],
+    "benzer": [
+     [
+      "28:69",
+      "27:74",
+      0.9455,
+      "fark: te'kid إِنَّ + lâm"
+     ],
+     [
+      "28:14",
+      "12:22",
+      0.9412,
+      "fark: tek kelime ٱسْتَوَىٰ"
+     ],
+     [
+      "28:2",
+      "12:1",
+      0.9231,
+      "fark: bir mukattaa"
+     ]
+    ],
+    "yazilmayan": [
+     [
+      "28:2",
+      "31:2",
+      0.8333,
+      "fark: tek sıfat, EŞİKTEN düştü"
+     ],
+     [
+      "28:31",
+      "27:10",
+      0.8252,
+      "12 kelime birebir ortak, uzunluk farkı 0,014 — eleme geçildi, EŞİKTEN düştü (0,025 farkla)"
+     ],
+     [
+      "28:32",
+      "27:12",
+      0.7152,
+      "8 kelime ortak, uzunluk farkı 0,281 — ÖN ELEMEYE takıldı, orana hiç bakılmadı"
+     ]
+    ],
+    "yakin_tetiklenme": 0,
+    "tam_sayim_10kelime_cift": 111,
+    "esit2_gordugu": 31,
+    "gorme_orani": 27.9,
+    "gormedigi": 80,
+    "gormediginin_capraz_sure": 66
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "P0 #3'e doğrudan veri",
+   "test_notu": "**P0 #3 (esit'in yedi eşik türü) için hazır dokuz vakalık sınama kümesi.** İki ayrı eleme mekanizması ayrı ayrı gösterildi: 28:31 EŞİKTEN düştü, 28:32 UZUNLUK ELEMESİNE takıldı — ikisi de aynı sahnenin ardışık ayetleri (28:31↔27:10, 28:32↔27:12) ve alan ikisini de kaçırdı. **TAM SAYIM: korpusta en az on kelimelik birebir ortak iskelet dizisi paylaşan 111 ayet çifti var; esit2 31'ini görüyor (%27,9), 80'ini görmüyor ve görmediklerinin 66'sı çapraz-sûre yani nakarat2 de ulaşamıyor — üçte ikiden fazlası hiçbir alanda görünmüyor.** ÖNERİ: eşik 0,80'e indirilsin ve uzunluk elemesi 0,25'ten 0,40'a çıkarılsın; ardından yanlış pozitif sayımı yapılsın. Aday 869'un 'esit onarımı gerçekten yaklaşık eşleme istiyor' kaydı ikinci sûrede de doğrulandı."
+  },
+  {
+   "no": 905,
+   "aday": "★ `adsiz2` ONARIMININ ENVANTERİ TARAFLI ÖRNEKLEMDEN TÜRETİLMİŞ — İKİ AKTÖR TİPİ BÜTÜNÜYLE ALANIN DIŞINDA. Alanın yedi etiketi (karye 57 · racül 58 · ferîk 34 · imrae 26 · tâife 24 · mer 11 · nefer 4) `01_adsiz_lemma_listesi.py`'deki ALTI okuma çıpasından türemiş. Kaçan iki tip: **(1) akrabalık yoluyla anılan aktör** — أُمِّ مُوسَىٰ (28:7, 10, 13), adı hiç verilmiyor, alan boş; **(2) ismi mevsûlle anılan aktör** — ٱلَّذِى ٱسْتَنصَرَهُ (28:18), aynı kişi 28:15'te رَجُلَيْنِ olarak YAKALANIYOR.",
+   "olculen": {
+    "etiket_envanteri": {
+     "racül": 58,
+     "karye": 57,
+     "ferîk": 34,
+     "imrae": 26,
+     "tâife": 24,
+     "mer": 11,
+     "nefer": 4
+    },
+    "cipa_sayisi": 6,
+    "akrabalik_kategorisi": false,
+    "lemma_umm_ayet": 31,
+    "bunlardan_adsiz2_bos": 26,
+    "dolu_olan_5": [
+     "6:92",
+     "19:28",
+     "28:59",
+     "33:4",
+     "42:7"
+    ],
+    "dolu_olma_sebebi": "başka etiketlerden (karye/imrae) dolu, 'anne' yüzünden değil",
+    "ayni_aktor_iki_ayet": {
+     "28:15": "رَجُلَيْنِ — YAKALANIYOR",
+     "28:18": "ٱلَّذِى ٱسْتَنصَرَهُ — GÖRÜNMÜYOR"
+    },
+    "sure_28_dogru_vaka": [
+     "28:9 imrae",
+     "28:15 racül",
+     "28:20 racül",
+     "28:23 imrae",
+     "28:4 tâife",
+     "28:58 karye",
+     "28:59 karye ×2"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "onarımın kendi taraflı örneklemi",
+   "test_notu": "**Onarım, aday 899'un yasakladığı taraflı örneklemin KENDİSİNDEN türetilmiş: envanter okuma dikkatinin yakaladığı altı çıpadan büyütülmüş.** Kavram doğru (adlandırılmamışlık), envanter eksik. **DERS: aday 899 yalnız okuma sırasındaki iddialar için değil, ONARIM ENVANTERLERİ için de geçerli** — bir alanın tohum kümesi okumadan geliyorsa alan da okuma dikkatinin sınırlarını miras alır. ÖNERİ: ölçüt lemma listesi değil, 'aktör konumunda ve morfolojide PN etiketi TAŞIMAYAN baş isim' olmalı; bu, akrabalık isimlerini ve ismi mevsûlleri de kapsar. Aday 868'in adlı taraftaki 'cins isim artefaktı' bulgusunun adsız taraftaki eşi."
+  },
+  {
+   "no": 906,
+   "aday": "★ LEMMA KATMANININ YOKLUĞU YALNIZ GLOSS SORUNU DEĞİL — `nakarat2`'Yİ DE SAKAT BIRAKIYOR. İki vaka: **(1) 28:5 ↔ 28:41** — نَجْعَلَهُمْ أَئِمَّةً / جَعَلْنَٰهُمْ أَئِمَّةً, aynı fiil + aynı nesne, aynı sûre, otuz altı ayet arayla ve TERS YÖN (ezilenler öncü kılınıyor / Firavun hanedanı ateşe çağıran öncü kılınıyor). **(2) 28:30 ↔ 28:46** — نُودِىَ / نَادَيْنَا, aynı sahne, ters çatı. **İkisini de alan göremiyor çünkü yüzey biçimleri farklı; lemma düzeyinde aynılar.**",
+   "olculen": {
+    "tam_sayim_aymh_iskelet": 5,
+    "ayetler": {
+     "9:12": "ايمه الكفر",
+     "21:73": "جعلنهم ايمه يهدون بامرنا",
+     "28:5": "نجعلهم ايمه",
+     "28:41": "جعلنهم ايمه يدعون الا النار",
+     "32:24": "جعلنا منهم ايمه يهدون بامرنا"
+    },
+    "jal_ile_kurulan": 4,
+    "hidayete_cagiran": 3,
+    "atese_cagiran": 1,
+    "nakarat2_gordu": false,
+    "sebep": "yüzey biçimi farkı (نجعلهم / جعلنهم)",
+    "ikinci_vaka": {
+     "28:30": "نُودِىَ (edilgen)",
+     "28:46": "نَادَيْنَا (etken)"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "P0 #5'e doğrudan veri",
+   "test_notu": "**P0 #5 (529 kümesinin lemma katmanı) bugüne kadar bir GLOSS borcu sayılıyordu; bu iki vaka onun aynı zamanda bir ÖLÇÜM borcu olduğunu gösteriyor.** Lemma katmanı yazılsaydı nakarat2 iki çifti de görürdü. Sûre 28'den gelen gloss vakaları ayrıca on iki: ظلل (gölge/sürme) · حيي (hayat/hayâ) · بني (bina/kız evlat) · أنس (insan/fark etme) · نور (ışık/ATEŞ — sûredeki dört tokenin dördü de ateş) · مدن (şehir/Medyen) · قصص (anlatma/iz sürme) · سلم (teslim/selâm) · خير (hayır/seçme) · ظهر (arka çıkma/destekleşme, 'zuhur' hiç yok) · أمم (ümmet/anne) · نهر (ırmak/gündüz). İKİ OLUMLU ÖRNEK de var: علو ve كبر karşılıkları iki anlam alanını da taşıyor. Sınama kümesi sûre 27'nin altı vakasıyla birlikte **on sekize** çıktı."
+  },
+  {
+   "no": 907,
+   "aday": "`nakarat2`'NİN ÜÇ KELİMELİK ALT SINIRI ÖLÇÜLMEYEN BİR KATMAN BIRAKIYOR — SÛRE 28'DE SEKİZ TEKRAR. Alan üç kelimenin altındaki hiçbir tekrarı görmüyor; sûre 28'de bu katmanda sekiz gerçek tekrar var ve biri ÜÇ ARDIŞIK AYETE yayılıyor (ما كنت, 28:44 ×2 · 45 · 46).",
+   "olculen": {
+    "alt_sinir": 3,
+    "kacan_tekrarlar": {
+     "خَآئِفًا يَتَرَقَّبُ": [
+      "28:18",
+      "28:21"
+     ],
+     "أَخَافُ أَن": [
+      "28:33",
+      "28:34"
+     ],
+     "فِى ٱلْيَمِّ": [
+      "28:7",
+      "28:40"
+     ],
+     "ما كنت": [
+      "28:44 ×2",
+      "28:45",
+      "28:46",
+      "28:86"
+     ],
+     "نمكن لهم": [
+      "28:6",
+      "28:57"
+     ],
+     "عسا ان": [
+      "28:9",
+      "28:22",
+      "28:67"
+     ],
+     "تسكنوا فيه": [
+      "28:72",
+      "28:73"
+     ],
+     "ظَهِيرًا لِ": [
+      "28:17",
+      "28:86"
+     ]
+    },
+    "ma_kunta_korpus_ayet": 14,
+    "bunlardan_sure_28": 4,
+    "suzgec_gecen_kalip": 11,
+    "suzgec_gecemeyen": 7,
+    "gecemeyenlerin_hepsi": "2 ayet / 3 kelime"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "okuma sûre 28",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Süzgecin kendisi tutarlı ve sınır keskin: geçen 11 kalıbın hepsi ya ≥4 kelime ya 3 ayet, geçemeyen 7'sinin hepsi 2 ayet ve 3 kelime.** Sorun eşikte değil, üretim tarafındaki alt sınırda. TAM SAYIM: ما + كنت ikilisi korpusta 14 ayette ve dördü sûre 28'de — korpusun hiçbir yerinde bu yoğunlukta değil, ama alan göremiyor. ÖNERİ: alt sınır 2 kelimeye indirilip 'en az 3 ayet' ölçütüyle birlikte koşulsun; iki kelimelik kalıplar tek başına yoruma girmesin ama SAYILSIN. KAPATILAMAZ: iki kelimelik katmanın korpus çapındaki büyüklüğü ölçülmedi."
+  },
+  {
+   "no": 908,
+   "aday": "★ ESMÂ MÜHÜR BAYRAĞININ İÇ SINIRI — AYNI TOKEN AYNI SÛREDE İKİ KEZ, HÜKÜMLER ZIT. 28:5'te وارِث göndergesi ezilen halk (ARTEFAKT), 28:58'de aynı token göndergesi konuşan ilâhî ses (GEÇERLİ). İkisi de SON konumda, ikisi de MÜHÜRSÜZ. **Mühür alanı ikisini ayırt edemiyor; ayıran tek şey gönderge ve onu tutan alan yok.**",
+   "olculen": {
+    "token": "وارِث",
+    "korpus_esma_token": 7,
+    "hepsi_muhursuz": true,
+    "gecerli": [
+     "15:23",
+     "21:89",
+     "28:58"
+    ],
+    "artefakt": [
+     "2:233",
+     "23:10",
+     "26:85",
+     "28:5"
+    ],
+    "sure_28_toplam_token": 19,
+    "muhurlu": 2,
+    "muhurlu_gecerli": 2,
+    "muhursuz": 17,
+    "muhursuz_gecerli": 2,
+    "muhursuz_artefakt": 15,
+    "konum_orta": 7,
+    "orta_gecerli": 1,
+    "konum_son": 12,
+    "son_gecerli": 3,
+    "muhursuz_orta_artefakt": "6/6",
+    "muhursuz_son_artefakt": "9/11",
+    "en_sert_artefakt": {
+     "28:15": "مُبِين — göndergesi ŞEYTAN"
+    },
+    "sure_27_karsilastirma": {
+     "muhurlu": "12/12 geçerli",
+     "muhursuz": "20/21 artefakt"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "aday 865'in ikinci sûre doğrulaması",
+   "test_notu": "**Aday 865'in bulgusu ikinci sûrede de doğrulandı: mühür bayrağı gönderge geçerliliği için YETERLİ ama GEREKLİ DEĞİL.** İki sûrede de mühürlü tokenlerde yanlış pozitif SIFIR; mühürsüzlerde yanlış negatif sûre 27'de 1/21, sûre 28'de 2/17. **Yeni bilgi: aynı tokenin aynı sûrede zıt hüküm alması, ayrımın token düzeyinde YAPILAMAYACAĞINI gösteriyor — gönderge çözümlemesi şart.** KAPATILAMAZ: 'orta konum artefakt üretiyor' iddiası sûre 28 içinde 6/6 ama korpus çapında sınanmadı. TUR SONU: korpus çapında mühür × konum × geçerli çapraz tablosu (aday 865'in tur sonu işi) bu iki sûrelik veriyle birlikte çıkarılacak."
+  },
+  {
+   "no": 909,
+   "aday": "YILDIZ FORMÜLÜNÜN BEŞ ÖLÇÜTÜNDEN DÖRDÜ PAYDAYA DUYARLI VE PAYDA İÇERİKLE İLGİSİZ — DÖRT ÖLÇÜTTE DÖRT VAKA. En saf olanı: **28:71 ve 28:72 dokuz kelimelik nakaratı BİREBİR paylaşıyor, i'râb profilleri aynı (NOM 3 · ACC 2 · GEN 4), lafız sayıları aynı (2), أله ikilemeleri aynı (3) — tek fark iki kelimelik uzunluk (n=19 / n=21) ve YALNIZ BİRİ nişanlanıyor** (allah z 1,58 → ★ / 1,38 → yıldızsız).",
+   "olculen": {
+    "rab": {
+     "28:17": {
+      "n": 9,
+      "token": 1,
+      "z": 2.05,
+      "yildiz": 2
+     },
+     "28:24": {
+      "n": 15,
+      "token": 1,
+      "z": 1.1,
+      "yildiz": 0
+     }
+    },
+    "hapaks": {
+     "28:41": {
+      "n": 9,
+      "pas": 1,
+      "yildiz": 1
+     },
+     "28:42": {
+      "n": 10,
+      "pas": 0,
+      "hapaks": 1,
+      "yildiz": 3
+     }
+    },
+    "pas": {
+     "28:64": {
+      "pas": 1,
+      "fiil": 7,
+      "oran": 0.14,
+      "z": 0.48,
+      "yildiz": 0
+     },
+     "28:70": {
+      "pas": 1,
+      "fiil": 1,
+      "oran": 1.0,
+      "z": 5.38,
+      "yildiz": 3
+     }
+    },
+    "allah": {
+     "28:71": {
+      "n": 19,
+      "token": 2,
+      "z": 1.58,
+      "yildiz": 1
+     },
+     "28:72": {
+      "n": 21,
+      "token": 2,
+      "z": 1.38,
+      "yildiz": 0
+     }
+    },
+    "paydalar": {
+     "n": "mutlak",
+     "allah": "kelime sayısı",
+     "rab": "kelime sayısı",
+     "pas": "toplam fiil sayısı",
+     "hapaks": "mutlak"
+    },
+    "birlestirme": "YOK — formül mx=max|z| alıyor, toplamıyor",
+    "toplamama_vakasi": {
+     "28:50": {
+      "allah": 1.21,
+      "n": 1.12,
+      "yildiz": 0
+     },
+     "28:68": {
+      "rab": 1.2,
+      "allah": 0.9,
+      "yildiz": 0
+     }
+    }
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma sûre 28",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Aday 903'ün tamamlayıcısı: ★★★ iki mekanik koşuldan geliyorsa, ★ ve ★★ de büyük ölçüde paydadan geliyor.** 28:71/28:72 çifti bunun laboratuvar vakası — iki ayet arasında ölçülebilir TEK fark uzunluk. İkinci bulgu: **formül `mx = max|z|` alıyor, toplamıyor**; 28:50 (allah 1,21 + n 1,12) ve 28:68 (rab 1,20 + allah 0,90) iki ölçütü birden eşiğe yaklaştırıp ikisi de geçemiyor ve yıldızsız kalıyor. **Yıldız sayıları sûreler arası karşılaştırmada ORTALAMA AYET UZUNLUĞUNA göre düzeltilmeden kullanılamaz** (sûre 27 ort n=12,38 → 28 yıldızlı ayet/93; sûre 28 ort n=16,25 → 27 yıldızlı ayet/88)."
+  },
+  {
+   "no": 910,
+   "aday": "★ ÇIPA EŞİĞİ İÇİN İKİNCİ SÛRE VERİSİ TAMAM — L4 VE L3 İKİ SÛREDE DE SIFIR; L2 SÛRE 28'DE İLK KEZ GERÇEK BİR DOĞA OLGUSUNA UYGULANDI. Sûre 28 kayıtları: L0 1 (28:7) · L1 3 (28:4, 28:14, 28:73) · **L2 3 (28:10 iç hâl · 28:71 ve 28:72 gece-gündüz döngüsü)** · L3 0 · L4 0.",
+   "olculen": {
+    "sure_27": {
+     "L4": 0,
+     "L3": 0,
+     "L2": "birkaç, hepsi olgu-dışı"
+    },
+    "sure_28": {
+     "L0": [
+      "28:7"
+     ],
+     "L1": [
+      "28:4",
+      "28:14",
+      "28:73"
+     ],
+     "L2": [
+      "28:10",
+      "28:71",
+      "28:72"
+     ],
+     "L3": [],
+     "L4": []
+    },
+    "L2_olgu_olan": [
+     "28:71",
+     "28:72"
+    ],
+    "L2_olgu_olmayan": [
+     "28:10"
+    ],
+    "28_71_72_yapi": "إِن جَعَلَ ... سَرْمَدًا — karşı-olgusal nedensellik + gerçek doğa olgusu",
+    "cipa_yildiz_cakismasi": 0,
+    "sure_28_yildiz3": 8,
+    "yildiz3_kaynagi": "8/8 hapaks ya da tam edilgenlik"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28",
+   "etiket": "P0 #6'ya karar verisi",
+   "test_notu": "**P0 #6 (çıpa eşiği) artık karara bağlanabilir: L4 kullanılamaz (iki sûrede de sıfır), L3 kullanılamaz (iki sûrede de sıfır), L2 kullanılabilir ama İKİNCİ BİR BAYRAK gerektiriyor — 'olgu / olgu-dışı'.** Sûre 28'in üç L2 kaydından ikisi gerçek bir doğa olgusuna bağlı (28:71-72), biri bir iç hâle (28:10). **EK BULGU: çıpa ile yıldız sûre 28'de HİÇ çakışmıyor** — sekiz ★★★'ın hiçbiri çıpa taşımıyor, üç L2 ayetinin hiçbiri ★★★ değil. Bu, 🜁/🜂'nin ★★★ koşuluna bağlanmasının sûre 28'de sıfır çıpa üretmesi demek; **ya koşul gevşetilmeli ya semboller yıldızdan bağımsızlaştırılmalı.**"
+  },
+  {
+   "no": 911,
+   "aday": "★ KAPATILAMAZ DÜŞTÜ — 'SÛRE 28 SÛRE 12'YE YOĞUN BAĞLANIYOR' İZLENİMİ TAM SAYIMLA YANLIŞ ÇIKTI. Okuma sırasında üç blok boyunca biriken izlenim (28:2↔12:1, 28:9↔12:21, 28:14↔12:22, 28:23↔12:78, 28:28↔12:66 ve لقط kökünün iki ayetlik dağılımı) aday 899 gereği KAPATILAMAZ kaydedilmişti. Tam sayım: **sûre 12 kaynak ayet sayısında ALTINCI sırada.**",
+   "olculen": {
+    "xref_hedef_kaynak_ayet": {
+     "6": 10,
+     "27": 7,
+     "28": 6,
+     "18": 6,
+     "20": 5,
+     "12": 5
+    },
+    "xref_hedef_token": {
+     "27": 21,
+     "6": 15,
+     "20": 14,
+     "28": 12,
+     "18": 10,
+     "12": 8
+    },
+    "izlenimin_dayanagi": [
+     "28:2↔12:1",
+     "28:9↔12:21 (6 kelimelik birebir dizi)",
+     "28:14↔12:22",
+     "28:23↔12:78",
+     "28:28↔12:66",
+     "لقط kökü korpusta 2 ayet: 12:10 ve 28:8"
+    ],
+    "sonuc": "izlenim DÜŞTÜ — sûre 6 kaynak ayet sayısında iki katı, sûre 27 token sayısında üç katı"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P0",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "taraflı örneklem yasağının ilk düşürdüğü izlenim",
+   "test_notu": "**Aday 899'un (taraflı örneklem yasağı) bu oturumda İLK KEZ bir okuma izlenimini düşürdüğü vaka.** Okuma dikkati sûre 12'yi seçti çünkü oradaki koşutluklar ANLAMCA çarpıcıydı — iki ayetlik bir kök (لقط), altı kelimelik birebir bir dizi (عسى أن ينفعنا أو نتخذه ولدا), bir deyim (أبا شيخا كبيرا). Ölçüm ise sûre 6'yı (10 kaynak ayet) ve sûre 27'yi (21 token) öne çıkarıyor. **DERS: bir bağın DİKKAT ÇEKİCİLİĞİ ile SIKLIĞI bağımsız değişkenler ve okuma yalnız birincisini görüyor.** Sûre 12 bağları gerçek ve kayda değer; ama 'yoğun' nitelemesi ölçümle desteklenmiyor."
+  },
+  {
+   "no": 912,
+   "aday": "`fig` ENVANTERİNDE KARŞILAŞTIRMA YAPISI İÇİN ETİKET YOK — SÛRE 28'DE BEŞ VAKA. İsm-i tafdîl + مِن yapısı (açık üstünlük karşılaştırması) hiçbir alanda etiketlenmiyor: 28:34 أَفْصَحُ مِنِّى · 28:49 أَهْدَىٰ مِنْهُمَآ · 28:78 أَشَدُّ مِنْهُ ve وَأَكْثَرُ (iki tane) · 28:68 ٱلْخِيَرَة (dolaylı).",
+   "olculen": {
+    "fig_envanteri": [
+     "HASR",
+     "MM",
+     "NEHY",
+     "DIKKAT",
+     "QASEM",
+     "KELLA",
+     "AMMA"
+    ],
+    "karsilastirma_etiketi": false,
+    "sure_28_vakalari": [
+     "28:34",
+     "28:49",
+     "28:78 ×2",
+     "28:68 (dolaylı)"
+    ],
+    "kip_alani_tuttugu": "INTG/NEG/CERT — karşılaştırmayı taşımıyor"
+   },
+   "durum": "ACIK",
+   "oncelik": "P2",
+   "kaynak": "okuma sûre 28",
+   "etiket": "KAPATILAMAZ — envanter boşluğu",
+   "test_notu": "**KAPATILAMAZ: korpus çapında ism-i tafdîl + مِن yapısının kaç ayette bulunduğu sayılmadı.** Bu bir arıza değil envanter boşluğu — `fig` alanı belirli retorik biçimleri tutuyor ve karşılaştırma onlardan biri değil. TUR SONU: morfolojide ism-i tafdîl etiketi taranıp sayı çıkarılacak; sayı anlamlıysa alana yeni bir biçim etiketi eklenecek. Sûre 28'de en az beş vaka var ve ikisi (28:34, 28:49) sûrenin anlatı dönüm noktalarında."
+  },
+  {
+   "no": 913,
+   "aday": "`kafiye_kirik` ÖLÇÜTÜ HARFE DEĞİL SINIFA BAKIYOR — ALAN TUTARLI, DOĞRULANDI. Sûre 28'de ن dışı YEDİ fâsıla var ama yalnız BİRİ kırılma sayılıyor (28:28). Sebep iki katmanlı: (1) ölçüt sapmanın kendisi değil KOMŞULARIN AYNI SINIFTA olması; (2) `fs` alanının üçüncü ögesi harf değil SINIF ve -îm ile -ûn/-în aynı N sınıfında.",
+   "olculen": {
+    "sure_28_n_disi_fasila": {
+     "28:1": [
+      "ٓ",
+      "ٓ",
+      0
+     ],
+     "28:16": [
+      "م",
+      "N",
+      0
+     ],
+     "28:22": [
+      "ل",
+      "ل",
+      0
+     ],
+     "28:23": [
+      "ر",
+      "R",
+      0
+     ],
+     "28:24": [
+      "ر",
+      "R",
+      0
+     ],
+     "28:28": [
+      "ل",
+      "ل",
+      1
+     ],
+     "28:79": [
+      "م",
+      "N",
+      0
+     ]
+    },
+    "28_22_neden_0": "komşular N ve R — farklı sınıf, ölçüt tetiklenmiyor",
+    "28_28_neden_1": "komşuların ikisi de N, ayetin sınıfı ل",
+    "28_16_ve_79_neden_0": "harf م ama SINIF N — komşularla aynı sınıf",
+    "korpus_kafiye_kirik": 230,
+    "yalniz_bundan_yildiz": 141
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "alan doğrulaması (olumlu)",
+   "test_notu": "**Bu oturumda bir alanın YANLIŞ değil DOĞRU çalıştığının gösterildiği üç kayıttan biri** (öbürleri aday 915 ve `A` alanının lafız/cins isim ayrımı). Alan tam olarak yazıldığı şeyi ölçüyor ve sapan harfi kırılma saymıyor, sapan sınıfı sayıyor. **Yan bulgu: korpusta kafiye_kirik=1 olan 230 ayetin 141'i yıldızını YALNIZ bu ölçütten alıyor** — yani ★ sınıfının önemli bir bölümü bir kafiye olgusundan geliyor, içerikten değil (aday 903/909 ile aynı yönde)."
+  },
+  {
+   "no": 914,
+   "aday": "`A` ALANI KÖK SAYACI İLE LAFIZ SAYACINI DOĞRU AYIRIYOR — ÜÇ VAKA. 28:38'de أله kökü iki kez ve İKİSİ DE cins isim (إِلَٰهٍ غَيْرِى, إِلَٰهِ مُوسَىٰ): `A` alanı BOŞ. 28:71-72'de üç kez ve ikisi lafız biri cins isim: `A` iki token sayıyor. 28:88'de üç kez ve biri lafız ikisi cins isim: `A` bir token sayıyor.",
+   "olculen": {
+    "28:38": {
+     "kok_gecis": 2,
+     "A_token": 0,
+     "tur": "ikisi de cins isim"
+    },
+    "28:70": {
+     "kok_gecis": 2,
+     "A_token": 1
+    },
+    "28:71": {
+     "kok_gecis": 3,
+     "A_token": 2
+    },
+    "28:72": {
+     "kok_gecis": 3,
+     "A_token": 2
+    },
+    "28:77": {
+     "kok_gecis": 3,
+     "A_token": 3
+    },
+    "28:88": {
+     "kok_gecis": 3,
+     "A_token": 1,
+     "tur": "biri lafız ikisi cins isim"
+    },
+    "sure_28_kok_gecis": 34,
+    "sure_28_A_token": 27
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma sûre 28",
+   "etiket": "alan doğrulaması (olumlu)",
+   "test_notu": "**Esmâ tablosunun yaptığı hatanın (cins ismi ilâhî ad sayma, aday 908'de 15 artefakt) tam tersini `A` alanı DOĞRU yapıyor.** Sûre 28'de أله kökü 34 kez geçiyor ve `A` yalnız 27'sini lafız sayıyor: yedi cins isim doğru biçimde dışarıda. **İki alan aynı kökü ölçüyor ve biri güvenilir öbürü değil — esmâ tablosunun onarımında `A`'nın ayrım ölçütü örnek alınmalı.**"
+  },
+  {
+   "no": 915,
+   "aday": "`mm2` ONARIMI SÛRE 28'DE HEM DOĞRU POZİTİF HEM DOĞRU NEGATİF VERDİ — TANIM AYRIŞTIRICI. **Doğru pozitif:** 28:61, iki kayıt birden (وَعَدْنَٰهُ وَعْدًا, مَتَّعْنَٰهُ مَتَٰعَ) — sûrenin tek mm2 ayeti. **Doğru negatif:** 28:47, benzer görünen iki yapı (تُصِيبَهُم مُّصِيبَةٌ, أَرْسَلْتَ ... رَسُولًا) ve alan BOŞ — çünkü birincisi NOM (fâil), ikincisi mef'ûl-i bih.",
+   "olculen": {
+    "mm2_korpus_ayet": 125,
+    "sure_28_mm2": [
+     "28:61"
+    ],
+    "28_61_kayit_sayisi": 2,
+    "dogru_negatif": "28:47",
+    "negatif_sebebi": "مُّصِيبَةٌ NOM, رَسُولًا mef'ûl-i bih",
+    "onarim_tanimi": "V + aynı kök + ACC isim",
+    "aday_867_eski_kural": 175,
+    "aday_867_ilk_onarim": 3,
+    "simdiki": 125
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma sûre 28",
+   "etiket": "onarım doğrulaması (olumlu)",
+   "test_notu": "**Aday 867'nin kaydettiği arıza (onarım 175'ten 3'e daralttı) giderilmiş: ara ölçüt (V + aynı kök + ACC isim) koşulmuş ve 125 ayet veriyor.** Sûre 28 bu ölçütü iki yönden sınadı ve ikisinde de doğru sonuç verdi — **onarım protokolünün 'kaybedilen == 0' kuralının işlediği temiz vaka.** Aday 867 KAPATILABİLİR."
+  },
+  {
+   "no": 916,
+   "aday": "`harf3`/`isaret` AYRIMI SÛRE 28'DE ÖLÇÜLDÜ — İŞARET ORANI %4,4 VE AYETTEN AYETE 13 KAT DEĞİŞİYOR. Sûre toplamı: harf 6150 → harf3 5861, isaret 270. En sert vaka 28:1: ham alan 22 yazıyor, harf3 3 (besmele gömülü, oran 0,136). İşaret yükü 28:15'te 13, 28:20'de 1, 28:30 ve 28:44'te 0.",
+   "olculen": {
+    "sure_harf": 6150,
+    "sure_harf3": 5861,
+    "sure_isaret": 270,
+    "oran_yuzde": 4.4,
+    "onarim_turu_tahmini": 5.3,
+    "28_1": {
+     "harf": 22,
+     "harf2": 3,
+     "harf3": 3,
+     "isaret": 0,
+     "sebep": "besmele gömülü"
+    },
+    "isaret_tavani": {
+     "28:15": 13
+    },
+    "isaret_tabani": {
+     "28:30": 0,
+     "28:44": 0,
+     "28:62": 0,
+     "28:65": 0,
+     "28:69": 0
+    },
+    "blok_isaret": [
+     22,
+     43,
+     29,
+     32,
+     30,
+     29,
+     16,
+     37,
+     32
+    ]
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma sûre 28",
+   "etiket": "onarım doğrulaması (olumlu)",
+   "test_notu": "**Onarım turunun 'harf alanı %5,3 işaret taşıyor' tahmini sûre 28'de %4,4 çıktı — aynı büyüklük sınıfında.** Asıl bulgu dağılımda: **işaret yükü ayetten ayete 13 kat değişiyor** (28:15'te 13, beş ayette 0). Eski `harf` alanı tek sayı olarak kullanıldığında bu fark ölçüme sessizce giriyordu. **Aday: `dis_sinav.py` ve `genelleme.py` kirli `harf` ile koşulmuştu ve yeniden koşulmadı — bu sûrenin verisiyle fark büyüklüğü artık tahmin edilebilir.**"
+  },
+  {
+   "no": 917,
+   "aday": "RETROAKTİF DENETİM BORCU — YENİ KÖKLER ESKİ SÛRELERDE KARŞILIKSIZ ANMA AÇIĞA ÇIKARDI. Sûre 28'de `وصل` ve `صرخ` kökleri kok_turkce.json'a İLK KEZ eklendi; alan artık bu kökleri tanıdığı için 13:21 ve 14:22 okumalarındaki karşılıksız Arapça anmaları geriye dönük olarak göründü. `turkce_denetim.py` → 2 ihlâl.",
+   "olculen": {
+    "ihlal_sayisi": 2,
+    "ihlaller": {
+     "13:21": "وصل",
+     "14:22": "صرخ"
+    },
+    "sebep": "kök kok_turkce'ye yeni eklendi; önceden tabloda olmadığı için denetim atlıyordu",
+    "kok_turkce_once": 1032,
+    "kok_turkce_sonra": 1052,
+    "yeni_kok": 20,
+    "protokol": "blok kapanışı turkce_denetim → 0 şartı koyuyor"
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "sûre 28 kapanış denetimi",
+   "etiket": "onarım borcu (retroaktif)",
+   "test_notu": "**Bu bir hata değil TASARLANMIŞ davranış** ('newly added roots expose unglossed mentions in previously read surahs') — ama blok kapanış protokolü turkce_denetim → 0 şartı koyuyor. **Bu oturumda düzeltildi: okuma_metni.json'daki iki anmaya Türkçe karşılık eklendi.** DERS: her yeni kök eklemesi bir retroaktif denetim turu gerektirir ve bu tur blok kapanışının parçasıdır. **Yan bulgu: yirmi yeni kök yalnız iki retroaktif ihlâl açtı — yani daha önce okunan sûrelerde bu kökler nadiren anılmış; oran düşük olduğu için düzeltme ucuz.**"
+  },
+  {
+   "no": 918,
+   "aday": "28:7 — 2FS İŞARET YOĞUNLUĞUNDA KORPUS TAVANI (19:26 İLE ORTAK). Ayet dokuz ikinci-tekil-dişil işareti taşıyor. TAM SAYIM: korpusta 2FS işareti taşıyan ayet yalnız 30 tane ve en yüksek değer 9, iki ayette: **28:7 ve 19:26.**",
+   "olculen": {
+    "ayet": "28:7",
+    "2FS": 9,
+    "n": 22,
+    "korpus_2FS_tasiyan_ayet": 30,
+    "tavan": {
+     "28:7": 9,
+     "19:26": 9
+    },
+    "sonraki": {
+     "3:43": 7,
+     "12:29": 6,
+     "16:69": 5,
+     "11:44": 5
+    },
+    "uzunlukla_iliski": "YOK — 16:69 n=24 ve yalnız 5 işaret taşıyor; 19:26 n=18"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P2",
+   "kaynak": "okuma sûre 28, tam sayım",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**2FS yoğunluğu ayet uzunluğunun türevi değil** — 16:69 daha uzun ve yarı yarıya az işaret taşıyor. Korpusta 2FS işaretli ayet sayısının 30'da kalması başlı başına bir dağılım bilgisi: **ikinci tekil dişil muhatap korpusun %0,5'inden azında görünüyor.** Ayet ★★★ ALMIYOR (yıldız kaynakları arasında şahıs yoğunluğu yok) — aday 903/909 ile aynı yönde: **ölçülebilir bir uç değer, formülün görmediği bir eksende.**"
+  },
+  {
+   "no": 919,
+   "aday": "TAM-AYET NAKARATI VE `temsil` ALANI SÛRE 28'DE TEK KEZ ÇALIŞTI VE YILDIZ ETKİSİ SIFIR. 28:62 ile 28:74 kelimesi kelimesine aynı (esit2 1,0); nakarat2 tür='tam' etiketliyor, `dugum.nakarat`=2 ve `temsil`=[28,62]. **Sûrenin tek tam-ayet nakaratı ve iki ayet de YILDIZSIZ.**",
+   "olculen": {
+    "cift": [
+     "28:62",
+     "28:74"
+    ],
+    "esit2_oran": 1.0,
+    "nakarat2_tur": "tam",
+    "kelime": 8,
+    "temsil": [
+     28,
+     62
+    ],
+    "iki_ayet_yildiz": [
+     0,
+     0
+    ],
+    "yildiz_duzeltme_etkisi": 0,
+    "sure_26_karsilastirma": {
+     "yildiz3_once": 41,
+     "ayri_yapi": 27,
+     "yuzde_once": 18.1,
+     "yuzde_sonra": 11.9
+    },
+    "ucuncu_uc": "28:65 — aynı açılışı (يوم يناديهم يقول) taşıyor ama farklı soru; esit2 DIŞARIDA bırakıyor (doğru), nakarat2 üçünü bir kalıpta topluyor"
+   },
+   "durum": "KAPALI",
+   "oncelik": "P1",
+   "kaynak": "okuma sûre 28",
+   "etiket": "okuma sırasında ölçüldü",
+   "test_notu": "**Sûre 26'da nakarat düzeltmesi yıldız oranını %18,1'den %11,9'a indirmişti; sûre 28'de aynı düzeltmenin etkisi SIFIR çünkü tek nakarat çiftinin iki ayeti de yıldızsız.** Bu, düzeltmenin sûreye göre çok farklı büyüklükte olduğunu gösteriyor — **nakarat düzeltmesi sûreler arası karşılaştırma için ŞART ama tek tek sûrelerde etkisi sıfır olabilir.** İkinci bulgu: 28:62/65/74 üçlüsünde **esit2 ve nakarat2 birbirini tam olarak tamamlıyor** — esit2 tam ayet düzeyinde 62↔74'ü bağlıyor ve 65'i doğru biçimde dışarıda bırakıyor, nakarat2 üçünü n-gram düzeyinde topluyor; **yapı ancak iki alan BİRLİKTE okununca görünüyor.**"
   }
  ]
 }

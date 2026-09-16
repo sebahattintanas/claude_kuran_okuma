@@ -11439,5 +11439,117 @@
    "kural": "L1",
    "not": "Sûrenin iki 'kitab' türü adlı aktörü de `قُرْءان` — biri anlatıyor, diğeri okunuyor."
   }
+ ],
+ "AH_kasas": [
+  {
+   "bag": "28:31 ↔ 27:10",
+   "kural": "L2",
+   "not": "**ON İKİ KELİME birebir ortak iskelet dizisi, oran 0,8252, uzunluk farkı 0,014 — eleme geçiliyor, eşiğin 0,025 altında düşüyor ve bağ HİÇ yazılmıyor.** Yalnız xref görüyor, o da altı ayrı 3-gram olarak (aday 904)."
+  },
+  {
+   "bag": "28:32 ↔ 27:12",
+   "kural": "L2",
+   "not": "Sekiz kelime birebir ortak; uzunluk farkı 0,281 ile ÖN ELEMEYE takılıyor, orana hiç bakılmıyor. **İki ardışık ayet iki ardışık ayetle eşleşiyor ve esit2 ikisini de kaçırıyor — biri eşikten biri elemeden** (aday 904)."
+  },
+  {
+   "bag": "28:69 ↔ 27:74",
+   "kural": "L1",
+   "not": "Fark yalnız baştaki إِنَّ ve fiilin te'kid lâmı; oran 0,9455, 'yakin' eşiğinin 0,0045 altında. **'yakin' kademesi sûre boyunca bir kez bile tetiklenmedi** (aday 904)."
+  },
+  {
+   "bag": "28:2 ↔ 31:2",
+   "kural": "L1",
+   "not": "Fark tek sıfat (ٱلْمُبِين/ٱلْحَكِيم), oran 0,8333 — eşiğin altında, yazılmadı. TAM SAYIM: iskeletinde تلك + ءايت geçen 11 ayet var (aday 904)."
+  },
+  {
+   "bag": "28:5 ↔ 28:41",
+   "kural": "L1",
+   "not": "**نَجْعَلَهُمْ أَئِمَّةً / جَعَلْنَٰهُمْ أَئِمَّةً — aynı fiil, aynı nesne, aynı sûre, otuz altı ayet arayla, TERS YÖN.** TAM SAYIM: ايمه korpusta 5 ayette, dördü جعل ile kurulmuş, üçü hidâyete biri ateşe. nakarat2 göremiyor: yüzey biçimleri farklı (aday 906)."
+  },
+  {
+   "bag": "28:30 ↔ 28:46",
+   "kural": "L1",
+   "not": "نُودِىَ (edilgen, Mûsâ çağrılıyor) / نَادَيْنَا (etken, muhatap çağrılmıyor) — aynı sahne, ters çatı. Lemma düzeyinde aynı, yüzey düzeyinde farklı; alan göremiyor (aday 906)."
+  },
+  {
+   "bag": "28:5 ↔ 28:58",
+   "kural": "L1",
+   "not": "**Aynı esmâ tokeni (وارِث) aynı sûrede iki kez ve hükümler ZIT:** 28:5 gönderge ezilen halk (ARTEFAKT), 28:58 gönderge konuşan ilâhî ses (GEÇERLİ). İkisi de son konumda, ikisi de mühürsüz (aday 908)."
+  },
+  {
+   "bag": "28:7 ↔ 28:40",
+   "kural": "L1",
+   "not": "**يَمّ kökü sûrede iki geçişli ve ikisi aynı yer belirteciyle, otuz üç ayet arayla, ters yönde:** anne bebeği denize bırakıyor / Firavun ve orduları denize atılıyor. TAM SAYIM: يمم korpusta 10 ayette. Hiçbir alan bağlamıyor — فى اليم iki kelime, nakarat2'nin alt sınırının altında (aday 907)."
+  },
+  {
+   "bag": "28:4 ↔ 28:83",
+   "kural": "L1",
+   "not": "**عُلُوًّا فِى ٱلْأَرْضِ — 28:4'te Firavun için kullanılan tam ifade, 28:83'te olumsuzlanarak âhiret yurdunun şartı hâline geliyor.** فسد de aynı şekilde: ilk geçişi 28:4, son geçişi 28:83. Sûrenin ilk on ayetinde Firavun'a atfedilen iki nitelik, son on ayette kapanış şartı olarak yeniden kuruluyor."
+  },
+  {
+   "bag": "28:3 ↔ 28:66",
+   "kural": "L1",
+   "not": "نبأ kökü sûrede iki geçişli ve altmış üç ayet arayla: مِن نَّبَإِ مُوسَىٰ وَفِرْعَوْنَ (sana okuduğumuz haber) / فَعَمِيَتْ عَلَيْهِمُ ٱلْأَنۢبَآءُ (haberler onlara kapandı) — **biri açılan haber biri kapanan haber; esit2, nakarat2, xref üçü de boş.**"
+  },
+  {
+   "bag": "28:10 · 28:18 ↔ 28:82",
+   "kural": "L1",
+   "not": "**صبح kökünün üç geçişi anlatının üç dönüm noktasını tutuyor ve üçü de أَصْبَحَ + hâl yapısında:** annenin boşalan gönlü · Mûsâ'nın korkusu · temenni edenlerin dönüşü. Hiçbir ölçüm aracı görmüyor (aday 906/907)."
+  },
+  {
+   "bag": "28:17 ↔ 28:86",
+   "kural": "L1",
+   "not": "ظَهِيرًا لِ + mefûl kalıbı altmış dokuz ayet arayla: ظَهِيرًا لِّلْمُجْرِمِينَ (Mûsâ'nın kendi ahdi) / ظَهِيرًا لِّلْكَٰفِرِينَ (muhataba verilen emir). İki kelimelik olduğu için nakarat2'nin alt sınırının altında (aday 907)."
+  },
+  {
+   "bag": "28:37 ↔ 28:85",
+   "kural": "L1",
+   "not": "**Sûrenin TEK iç düğümü:** قَالَ رَبِّى أَعْلَمُ kalıbı kırk sekiz ayet arayla; dugum.ic=1 iki ayette de kayıtlı. Aynı iki ayet nakarat2'de de bağlanıyor (جاء بالهدا من) ama o kalıp süzgeçten geçemiyor — **aynı bağ, iki alanda iki kalıpla, biri geçerli biri değil.**"
+  },
+  {
+   "bag": "28:62 ↔ 28:74 (· 28:65)",
+   "kural": "L1",
+   "not": "**Sûrenin tek tam-ayet nakaratı** (esit2 1,0, nakarat2 tür='tam', temsil=[28,62]); 28:65 aynı açılışı taşıyıp farklı soruyla devam ediyor. **esit2 65'i doğru biçimde dışarıda bırakıyor, nakarat2 üçünü bir kalıpta topluyor — yapı ancak iki alan birlikte okununca görünüyor** (aday 919)."
+  },
+  {
+   "bag": "28:32 ↔ 28:75",
+   "kural": "L1",
+   "not": "برهن kökü sûrede iki geçişli, kırk üç ayet arayla: فَذَٰنِكَ بُرْهَٰنَانِ مِن رَّبِّكَ (Mûsâ'ya verilen) / هَاتُوا۟ بُرْهَٰنَكُمْ (ortak koşanlardan istenen) — biri verilen biri istenen delil."
+  },
+  {
+   "bag": "28:8 · 28:9 ↔ 12:10 · 12:21",
+   "kural": "L1",
+   "not": "İki ardışık ayet iki ayrı alanla sûre 12'ye bağlanıyor: لقط korpusta yalnız iki ayette (12:10, 28:8) ve 28:9 ile 12:21 **altı kelimelik birebir iskelet n-gramı** paylaşıyor. **Ama 'sûre 12'ye yoğun bağ' izlenimi tam sayımla DÜŞTÜ** (aday 911)."
+  },
+  {
+   "bag": "28:13 ↔ 28:57",
+   "kural": "L1",
+   "not": "لكن اكثرهم لا يعلمون — dört kelime, kırk dört ayetlik açıklık; ≥4 kelime ölçütüyle süzgeci GEÇEN kalıpların en geniş açıklıklısı."
+  },
+  {
+   "bag": "28:70 ↔ 28:88",
+   "kural": "L1",
+   "not": "İki dört-kelimelik kalıp birlikte (لا اله الا هو · له الحكم اليه ترجعون), on sekiz ayet arayla; ikisi de süzgeci geçiyor. **Ama esit2 iki ayeti bağlamıyor — nakarat2 iki kalıbı ayrı ayrı görüyor, esit2 bütünü görmüyor.**"
+  },
+  {
+   "bag": "28:71 ↔ 28:72",
+   "kural": "L2",
+   "not": "**Dokuz kelimelik birebir nakarat, i'râb profilleri aynı, lafız sayıları aynı — tek fark iki kelimelik uzunluk ve YALNIZ BİRİ ★ alıyor** (allah z 1,58 / 1,38). Yıldız formülünün payda duyarlılığının laboratuvar vakası (aday 909)."
+  },
+  {
+   "bag": "28:71 · 28:72 ↔ 28:73",
+   "kural": "L2",
+   "not": "**Sûrenin tek gerçek doğa-olgusu çıpası:** 28:71-72 gece/gündüz döngüsü üzerine karşı-olgusal nedensellik kuruyor (kademe **L2**), 28:73 aynı olguyu adlandırıp işlevini veriyor (kademe **L1**). Okumada L2'nin ilk kez bir olguya uygulandığı yer (aday 910)."
+  },
+  {
+   "bag": "28:15 ↔ 28:18 · 28:20",
+   "kural": "L1",
+   "not": "`adsiz2` aynı aktörü bir ayette görüyor bir ayette görmüyor: 28:15 رَجُلَيْنِ (yakalanıyor) / 28:18 ٱلَّذِى ٱسْتَنصَرَهُ (görünmüyor) — **fark kişide değil, kullanılan isim türünde.** 28:20 رَجُلٌ yine yakalanıyor (aday 905)."
+  },
+  {
+   "bag": "28:11 ↔ 28:25",
+   "kural": "L1",
+   "not": "**Sûrenin adını taşıyan kök (قصص) sûre içinde her iki anlamıyla da geçiyor:** 28:11 قُصِّيهِ 'izini sür', 28:25 وَقَصَّ عَلَيْهِ ٱلْقَصَصَ 'anlattı'. Üç token / iki ayet, iki anlam alanı (aday 906)."
+  }
  ]
 }

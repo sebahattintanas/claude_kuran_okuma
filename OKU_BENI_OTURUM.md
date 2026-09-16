@@ -79,8 +79,15 @@ Ve sûre 26'nın 41 ★★★'ı, nakarat düzeltmesiyle **27 ayrı yapıya** in
 
 ## 4. Devam noktası
 
-**Sûre 28 (Kasas), ayet 1.** Gerekçe: çıpa eşiği (L2/L3/L4) tek sûreyle
-karara bağlanamıyor, ikinci sûre verisi gerekli (aday 897). Sûre 28 ayrıca
-sûre 27 ile üç xref bağı paylaşıyor (28:38, 28:69, 28:84).
+**Sûre 29 (Ankebût) ya da sûre 2'nin 21. ayeti.** Sûre 28 (Kasas) bu oturumda
+tamamlandı: 88 ayet, dokuz blok, okunan toplam 2130/6236 (%34,2).
 
-Açık P0: #3 esit eşik türleri · #5 529 lemma katmanı · #6 çıpa eşiği.
+Açık P0: #3 esit eşik türleri (**sınama kümesi HAZIR**, aday 904) · #5 529 lemma
+katmanı (**kapsam büyüdü: gloss + ölçüm borcu**, aday 906) · #6 çıpa eşiği
+(**KARARA HAZIR**, ikinci sûre verisi tamam, aday 910).
+
+Yeni P0: #7 yıldız formülünün iki otomatik ★★★ tetikleyicisi (aday 903) ·
+#8 `adsiz2` envanteri taraflı örneklemden (aday 905) · #9 esmâ mührü token
+düzeyinde çalışamıyor (aday 908).
+
+Ayrıntı: `notlar/OTURUM_2026-09-16_KAPANIS.md`

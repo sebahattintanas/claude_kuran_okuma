@@ -4781,3 +4781,97 @@ bloğu, örneklem hatası bir ÇERÇEVEYİ bozuyor.**
 4. Çıpa eşiği (L2/L3/L4) seçilmedi — **ikinci sûrenin verisi gerekli**
 5. 529'un lemma katmanı uygulanmadı (P0 #5)
 6. Aday 779/781'in sayıları nakarat düzeltmesiyle güncellenmedi
+
+---
+
+## OTURUM EKİ — SÛRE 28 (KASAS) OKUNDU, 88 AYET
+
+Okunan: **2130 / 6236 ayet (%34,2)** · tam: sûre 1, 9-28 · kısmi: sûre 2 (1-20).
+`kok_turkce.json` 1032 → **1052** (20 yeni kök).
+Denetimler: `turkce_denetim.py` → **0** · `anahtar_denetim.py` → **22486 anahtar, 58
+ihlâl, ihlâl listesi diff = 0** (taban tazelendi).
+Adaylar **903-919** → `aday_bulgular.json/AJ_kasas` (17 kayıt).
+Bağlar → `okuma_baglantilari.json/AH_kasas` (22 kayıt).
+
+### P0 BORÇLARININ YENİ DURUMU
+
+| P0 | konu | durum | sûre 28'den gelen |
+|---|---|---|---|
+| #3 | `esit`in eşik türleri | **AÇIK — ama sınama kümesi HAZIR** | dokuz vakalık küme + 111 çiftlik tam sayım (aday 904) |
+| #5 | 529'un lemma katmanı | **AÇIK — kapsam BÜYÜDÜ** | on iki yeni gloss vakası + iki ÖLÇÜM vakası (aday 906) |
+| #6 | çıpa eşiği | **KARARA HAZIR** | ikinci sûre verisi tamam (aday 910) |
+
+**#6 için karar verisi:** L4 iki sûrede de **0**, L3 iki sûrede de **0**. L2 sûre 28'de
+üç kayıt veriyor ve ikisi (28:71, 28:72) **ilk kez gerçek bir doğa olgusuna** bağlı
+(gece-gündüz döngüsü üzerine karşı-olgusal nedensellik). Öneri: **L2 + 'olgu/olgu-dışı'
+ikinci bayrağı.** Ek bulgu: çıpa ile yıldız sûre 28'de **hiç çakışmıyor** — sekiz
+★★★'ın hiçbiri çıpa taşımıyor, üç L2 ayetinin hiçbiri ★★★ değil. 🜁/🜂'nin ★★★
+koşuluna bağlı kalması sûre 28'de **sıfır çıpa** üretirdi.
+
+**#3 için hazır küme (aday 904):** TAM 3 (1,0) · BENZER 3 (0,9455 · 0,9412 · 0,9231) ·
+**GERÇEK AMA YAZILMAYAN 3** (0,8333 eşikten · **0,8252 eşikten, on iki kelime birebir
+ortak** · 0,7152 ön elemeden). **'yakin' kademesi (≥0,95) sûre boyunca bir kez bile
+tetiklenmedi.** TAM SAYIM: en az on kelimelik birebir ortak dizi paylaşan 111 ayet
+çiftinin yalnız 31'ini (%27,9) görüyor; görmediği 80'in 66'sı çapraz-sûre.
+
+**#5 için yeni kapsam (aday 906):** borç yalnız gloss değil, **ölçüm** borcu da —
+lemma katmanı olmadığı için `nakarat2` iki gerçek çifti göremiyor (28:5↔28:41 ters
+yönlü `أَئِمَّةً` kalıbı; 28:30↔28:46 ters çatılı `ندي`). Sınama kümesi **on sekize**
+çıktı.
+
+### YENİ P0 BORÇLARI
+
+7. **Yıldız formülünün iki otomatik ★★★ tetikleyicisi (aday 903).** Hapaks içeren
+   358 ayetin **358'i** ve tüm fiilleri edilgen olan 124 ayetin **124'ü** istisnasız
+   ★★★; birleşim 471 = tüm ★★★'ların **%53,5'i**. ★★★ sınıfı 'otomatik tetikleyici'
+   ve 'süreklilik ölçütü' diye ikiye ayrılmalı. **Aday 700/739/771/779/781'in nakarat
+   düzeltmesiyle güncellenecek sayıları bu ayrımdan SONRA hesaplanmalı.**
+8. **`adsiz2` envanteri taraflı örneklemden türetilmiş (aday 905).** Yedi etiket, altı
+   okuma çıpasından; akrabalık yoluyla ve ismi mevsûlle anılan aktörler bütünüyle
+   dışarıda (lemma `أُمّ` 31 ayette, 26'sında alan boş). Ölçüt lemma listesi değil,
+   'aktör konumunda ve morfolojide PN etiketi taşımayan baş isim' olmalı.
+9. **Esmâ mühür bayrağının token düzeyinde çalışamayacağı kanıtlandı (aday 908).**
+   `وارِث` sûre 28'de iki kez ve hükümler zıt (28:5 artefakt / 28:58 geçerli), ikisi
+   de mühürsüz ve son konumda. Korpusta yedi `وارِث` tokeni, yedisi mühürsüz, üçü
+   geçerli. Gönderge çözümlemesi şart.
+
+### KAPANAN BORÇLAR
+
+- **Aday 867 KAPANDI:** `mm2` onarımının aşırı daralması giderilmiş (175 → 3 → **125**);
+  sûre 28 hem doğru pozitif (28:61, iki kayıt) hem doğru negatif (28:47) verdi (aday 915).
+- **Aday 865 ikinci sûrede doğrulandı:** mühür pozitif filtre olarak kusursuz, negatif
+  filtre olarak değil (sûre 27: 12/12 ve 20/21; sûre 28: 2/2 ve 15/17).
+- **KAPATILAMAZ DÜŞTÜ (aday 911):** 'sûre 28 sûre 12'ye yoğun bağlanıyor' izlenimi tam
+  sayımla yanlış çıktı — kaynak ayet sayısında sûre 6 (10) ve sûre 27 (7) önde, sûre 12
+  altıncı (5). **Taraflı örneklem yasağının bu oturumda ilk kez bir izlenimi düşürdüğü
+  vaka.**
+- **Retroaktif denetim borcu kapatıldı (aday 917):** yeni eklenen `وصل` ve `صرخ`
+  kökleri 13:21 ve 14:22'de karşılıksız anma açtı; `yama_retroaktif_gloss.py` ile
+  düzeltildi, `turkce_denetim.py` → 0.
+
+### ALAN DOĞRULAMALARI (olumlu kayıtlar)
+
+- `kafiye_kirik` harfe değil **sınıfa** bakıyor ve tutarlı: sûre 28'de ن dışı yedi
+  fâsıla var, yalnız biri (28:28) kırılma; `-îm` ile `-ûn`/`-în` aynı N sınıfında
+  (aday 913).
+- `A` alanı kök sayacı ile lafız sayacını **doğru** ayırıyor: sûre 28'de `أله` 34 kez
+  geçiyor, `A` yalnız 27'sini sayıyor; 28:38'de iki cins isim var ve alan boş kalıyor
+  (aday 914). **Esmâ tablosunun onarımında bu ölçüt örnek alınmalı.**
+- `harf3`/`isaret` ayrımı çalışıyor: sûre 28'de işaret oranı **%4,4**, ama ayetten
+  ayete **13 kat** değişiyor (28:15'te 13, beş ayette 0) — eski `harf` ile koşulan
+  `dis_sinav.py` ve `genelleme.py` için fark büyüklüğü artık tahmin edilebilir (aday 916).
+
+### KALAN BORÇ (güncellenmiş)
+
+1. `fHz` · `sesli` · `ebced` · `mod19` · `bits` kardeş projede kirli, denetlenmedi
+2. `dis_sinav.py` ve `genelleme.py` kirli `harf` ile koşulmuş — yeniden koşulmadı
+3. P0 #3 — sınama kümesi hazır, eşik türleri hâlâ yazılmadı
+4. P0 #6 — karar verisi tamam, eşik hâlâ seçilmedi
+5. P0 #5 — on sekiz vakalık küme hazır, lemma katmanı uygulanmadı
+6. Aday 700/739/771/779/781 — nakarat düzeltmesi + **aday 903'ün ★★★ ayrımı** birlikte
+7. **`nakarat2` alt sınırı (aday 907):** üç kelimenin altındaki katman hiç ölçülmüyor;
+   sûre 28'de sekiz gerçek tekrar bu katmanda. KAPATILAMAZ — korpus büyüklüğü ölçülmedi
+8. **`fig` envanterinde karşılaştırma etiketi yok (aday 912):** sûre 28'de beş vaka.
+   KAPATILAMAZ — korpus sayımı yapılmadı
+9. **Orta konum × artefakt (aday 908):** sûre 28 içinde 6/6, korpus çapında sınanmadı.
+   KAPATILAMAZ
