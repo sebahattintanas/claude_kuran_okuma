@@ -4960,3 +4960,113 @@ eşi.** Alınan önlem: `15_cipa_kademe_28.py`'nin her satırı sûre 27'den han
 aynı kademeye konduğunu (emsal) taşımak zorunda.
 
 Aday 910'un özgün `olculen` alanı korundu; yanına `dusuruldu` alanı eklendi.
+
+---
+
+## OTURUM EKİ — SÛRE 29 (ANKEBÛT) OKUNDU, 69 AYET
+
+Okunan: **2199 / 6236 ayet (%35,3)** · tam: sûre 1, 9-29 · kısmi: sûre 2 (1-20).
+`kok_turkce.json` 1052 → **1059** (7 yeni kök; üç sûrede toplam 27).
+Denetimler: `turkce_denetim.py` → **0** · `anahtar_denetim.py` → **22754 anahtar, 58
+ihlâl, ihlâl listesi diff = 0** (taban tazelendi).
+Adaylar **924-936** → `aday_bulgular.json/AK_ankebut` (13 kayıt).
+Bağlar → `okuma_baglantilari.json/AI_ankebut` (23 kayıt).
+
+### P0 #6'NIN İLK BAĞIMSIZ SINAMASI — VE ADAY 921'İN DÜZELTİLMESİ
+
+**Çıpa tarayıcısı sûre 29'da kurulum kümesi dışında ilk kez sınandı ve üç çıpayı
+kaçırdı** (29:14 L4 · 29:19 L2 · 29:20 L2). **Aday 921'in "anma 7/7 (%100)" kaydı
+DÖNGÜSELDİ** — ölçüm, tarayıcının yakalamak için yazıldığı yedi ayet üzerindeydi.
+Tutulan kümede ilk anma **0/3**.
+
+İki yeni işaret ailesi eklendi ve yeniden ölçüldü (aday 924):
+
+| aile | işaret | korpus aday |
+|---|---|---|
+| **F_ölçü** | iki ya da daha fazla sayı işareti | 110 |
+| **G_bakış** | `رأي`/`نظر` + olgu kökü + (soru ya da EMİR kipi), `عقب` HARİÇ | 100 |
+
+`G_bakış`ı emir kipine açmak ilk denemede `فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ` kalıbını
+topladı (27:14, 27:51, 27:69, 28:40) — **o tarihe bakış çağrısıdır, olguya değil** — ve
+`عقب` kökü dışlanarak ayrıldı. **Havuz 537 → 772 → 680 (korpusun %10,9'u) · kurulum
+kümesinde anma 7/7 · TUTULAN kümede anma 3/3 · kesinlik 27 %57, 28 %23, 29 %30.**
+
+**DERS (aday 924): bir tarayıcının kendi kurulum kümesindeki anması bilgi taşımaz.**
+Aday 899'un (taraflı örneklem yasağı) ölçüm tarafındaki eşi. Her ölçüt, yazıldıktan
+sonra bulunan bir tutulan küme üzerinde sınanmalı.
+
+### OKUMANIN İLK İKİ L4 KAYDI (aday 925)
+
+- **29:14 — ÖLÇÜ kolu:** `أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا`, birimli nicelik, iki
+  ayrı birim adı, bir çıkarma işlemi. 27:39/40 **birim olmadığı için** L1'de kalmıştı.
+- **29:40 — SINIFLAMA kolu:** dört helâk türü ayrı adlandırılıyor (`حاصِب` · `صَيْحَة` ·
+  `خَسْف` · `إغراق`). 27:17'de üç sınıflı ordu L1 kalmıştı çünkü sınıflanan şey olgu
+  değildi; burada **fiziksel olaylar** ve her birinin mekanizma adı var.
+- **Üçüncü kol — MEKANİZMA — hâlâ boş.** Dört sûrede 319 ayet, iki L4: **%0,6.**
+
+P0 #6'nın "L4 kullanılamaz" kararı **değişmiyor** (ölçüt hâlâ (L2+) ∧ olgu) ama **L4'ün
+boş olmadığı artık ölçülü ve iki kolu da örneklendi.**
+
+**Çıpa ölçütünün ayırt ediciliğinin en temiz gösterimi 29:61/29:63 çifti:** ikisi de aynı
+`لَئِن سَأَلْتَهُم` kalıbıyla açılıyor, **29:61 daha ÇOK olgu kökü taşıyor (altı) ve
+L1'de kalıyor, 29:63 daha AZ taşıyor (dört) ve L2'ye çıkıyor.**
+
+### YENİ P0 BORÇLARI
+
+10. **`hapaks` alanı ayet değil token sayıyor (aday 926).** Korpusta tek ayette geçen
+    **420** kökün **399'u** hapaks sayılıyor, **21'i sayılmıyor** — o ayette birden çok
+    token taşıdıkları için. **29:41'in `عنكب` kökü (sûrenin adı) korpusta tek ayette ve
+    ayet YILDIZSIZ**; yedi ayet sonra `خطط` tek token olduğu için ★★★. Kaçan 21 ayetin
+    beşi bütünüyle nişansız. **Onarım: ölçüt "tek AYETTE geçen kök" olmalı; hapaks kök
+    399 → 420, hapaks ayeti 358 → 379, beş yeni ★★★. Aday 903'ün korpus sayıları bu
+    onarımdan sonra yeniden hesaplanmalı.**
+11. **`fig` KELLA'yı `كُلّ` ile karıştırıyor (aday 927).** `fig`=KELLA olan **48** ayetin
+    **15'inde (%31)** morfolojide `LEM:كَلّا` yok; 14'ünde `كلل` kökü var. Yanlış negatif
+    **sıfır**. **Onarım: ölçüt `LEM:كَلّا` olmalı.** Yan bulgu: alan üç sûrelik okumada
+    ilk kez tetiklendi ve ilk tetiklenişinde yanlış çıktı — **seyrek etiketlerin denetlenme
+    fırsatı çok az** (`QASEM` 71, `AMMA` 52, `MM` 3 aynı yöntemle denetlenmeli).
+12. **Esmâ mühür bayrağı token düzeyinde çalışamıyor — ikinci vaka (aday 930).** `شَهِيد`
+    tokeni 28:75'te orta konumda **artefakt**, 29:52'de orta konumda **geçerli**. Birinci
+    vaka (`وارِث`, aday 908) aynı sûre içindeydi; **bu ikisi iki ayrı sûrede, yani kusur
+    sûre bağlamıyla da açıklanamıyor.**
+
+### KAPANAN / DOĞRULANAN
+
+- **`esit2` onarımı yanlış negatif üretmemiş (aday 928, olumlu).** Eski `esit` **253**
+  ayette dolu, `esit2` **520**'de, **kesişim tam 253**; eski dolu ama yeni boş **sıfır**.
+  **`mm2`'nin (175 → 3 → 125) tersi: kaybetmeden genişlemiş bir onarım.** DERS: gevşeten
+  onarımlar yanlış negatif riski taşımıyor, **daraltanlar taşıyor.**
+- **`esit2`'nin 'yakin' kademesi ilk kez tetiklendi (aday 929):** 29:28 ↔ 7:80, oran
+  0,9615. **TAM SAYIM — korpus kademe dağılımı: tam 1622 · benzer 280 · yakin 84.**
+  Aday 904'ün kaydı çürümüyor, **niceliğe bağlanıyor: üst bant 'benzer'in üçte biri.**
+- **`kafiye_kirik` yerel komşuluğu ölçüyor (aday 933, olumlu).** 29:21-22 ardışık kırılma
+  — okumada ilk kez; **29:21 sûre normuna (N) UYUYOR ve yine de kırılma sayılıyor.**
+  TAM SAYIM: 230 kırılmanın **35'i ardışık çift.** Aday 913'e ikinci boyut: alan "sûre
+  normundan sapma"yı değil **yerel kafiye tekilliği**ni ölçüyor.
+- **Payda etkisi beşinci doğrulama (aday 931).** `rab` tek sûrede 1,45 → 3,23 → **3,94**
+  (aynı token sayısı, üç payda). `allah`: 29:5 (2/12) ve 29:11 (**1/6**) ikisi de **z=2,80**
+  — aynı oran, aynı z, aynı yıldız. `pas` determinizmi dört vakayla (28:60, 28:88, 29:18,
+  29:49 → hepsi 2,52).
+- **Retroaktif denetim borcu ikinci kez (aday 917'nin tekrarı):** yeni eklenen `ركب` ve
+  `يأس` kökleri 11:42, 12:87 ve 12:110'da karşılıksız anma açtı;
+  `yama_retroaktif_gloss_29.py` ile düzeltildi, `turkce_denetim.py` → 0. **Her yeni kök
+  eklemesi bir retroaktif tur gerektiriyor ve bu artık iki sûrede de gerçekleşti.**
+
+### KALAN BORÇ (güncellenmiş)
+
+1. `fHz` · `sesli` · `ebced` · `mod19` · `bits` kardeş projede kirli, denetlenmedi
+2. `dis_sinav.py` ve `genelleme.py` kirli `harf` ile koşulmuş — yeniden koşulmadı
+3. **P0 #3** — sınama kümesi hazır (dokuz vaka + korpus kademe dağılımı), eşik türleri
+   yazılmadı
+4. **P0 #5** — sınama kümesi **yirmi iki vakaya** çıktı (27: 6 · 28: 12 · 29: 4); artık
+   **üç ayrı alanın** (nakarat2, çıpa taraması, gloss) tavanını belirliyor
+5. Aday 700/739/771/779/781 — nakarat düzeltmesi + aday 903'ün ★★★ ayrımı + **aday
+   926'nın hapaks onarımı** birlikte
+6. **`nakarat2` alt sınırı (aday 907/935):** sûre 29'da beş kez ısırdı; ayrıca **iki alan
+   aynı büyüklükteki kalıba farklı davranıyor** — 29:32↔33 `dugum.ic`=1 alıyor, 29:31↔34
+   almıyor (sebep: `dugum` lemma 3-gram'ı, `nakarat2` yüzey n-gram'ı kullanıyor)
+7. `fig` envanterinde karşılaştırma etiketi yok (aday 912) · **ve merdivende
+   karşılaştırmalı sıralama için basamak yok** (29:41 `أَوْهَنَ ٱلْبُيُوتِ`) — KAPATILAMAZ
+8. Orta konum × artefakt (aday 908/930): iki sûrede iki karşı vaka, korpus sınanmadı
+9. **A/R oranı üç sûrede 2,25 → 1,42 → 8,4 (aday 932)** — korpus dağılımı çıkarılmadı,
+   KAPATILAMAZ

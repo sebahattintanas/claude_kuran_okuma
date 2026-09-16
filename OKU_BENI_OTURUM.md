@@ -79,14 +79,14 @@ Ve sûre 26'nın 41 ★★★'ı, nakarat düzeltmesiyle **27 ayrı yapıya** in
 
 ## 4. Devam noktası
 
-**Sûre 29 (Ankebût) ya da sûre 2'nin 21. ayeti.** Sûre 28 (Kasas) bu oturumda
-tamamlandı: 88 ayet, dokuz blok, okunan toplam 2130/6236 (%34,2).
+**Sûre 30 (Rûm) ya da sûre 2'nin 21. ayeti.** Sûre 28 (Kasas, 88 ayet) ve sûre 29
+(Ankebût, 69 ayet) bu oturumda tamamlandı; P0 #6 (çıpa eşiği) kapatıldı ve sûre 29'da
+ilk bağımsız sınamasından geçirilip düzeltildi. Okunan toplam **2199/6236 (%35,3)**.
 
-Açık P0: #3 esit eşik türleri (**sınama kümesi HAZIR**, aday 904) · #5 529 lemma
-katmanı (**kapsam büyüdü: gloss + ölçüm borcu**, aday 906) · #6 çıpa eşiği **KAPANDI** (ölçüt: (L2+) ∧ olgu; mekanikleştirildi, anma %100 — aday 920-923).
-
-Yeni P0: #7 yıldız formülünün iki otomatik ★★★ tetikleyicisi (aday 903) ·
-#8 `adsiz2` envanteri taraflı örneklemden (aday 905) · #9 esmâ mührü token
-düzeyinde çalışamıyor (aday 908).
+Açık P0: #3 esit eşik türleri (sınama kümesi hazır) · #5 529 lemma katmanı (**yirmi iki
+vaka; üç ayrı alanın tavanını belirliyor**) · #7 yıldızın iki otomatik ★★★ tetikleyicisi
+· #8 `adsiz2` envanteri · #9 esmâ mührü · **#10 `hapaks` ayet değil token sayıyor** ·
+**#11 `fig` KELLA'yı `كُلّ` ile karıştırıyor** · **#12 esmâ mührü token düzeyinde
+çalışamıyor (ikinci vaka, sûreler arası)**.
 
 Ayrıntı: `notlar/OTURUM_2026-09-16_KAPANIS.md`

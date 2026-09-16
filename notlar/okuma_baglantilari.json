@@ -11551,5 +11551,122 @@
    "kural": "L1",
    "not": "**Sûrenin adını taşıyan kök (قصص) sûre içinde her iki anlamıyla da geçiyor:** 28:11 قُصِّيهِ 'izini sür', 28:25 وَقَصَّ عَلَيْهِ ٱلْقَصَصَ 'anlattı'. Üç token / iki ayet, iki anlam alanı (aday 906)."
   }
+ ],
+ "AI_ankebut": [
+  {
+   "bag": "29:14 (L4)",
+   "kural": "L2",
+   "not": "**Okumanın İLK L4 kaydı — ÖLÇÜ kolundan.** أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا: birimli nicelik, iki ayrı birim adıyla ve bir çıkarma işlemiyle. 27:39 ve 27:40 birim olmadığı için L1'de kalmıştı (aday 925). **Tarayıcı kaçırdı** → `F_ölçü` ailesi eklendi (aday 924)."
+  },
+  {
+   "bag": "29:40 (L4)",
+   "kural": "L2",
+   "not": "**İKİNCİ L4 — SINIFLAMA kolundan.** Dört helâk türü ayrı adlandırılıyor ve her biri ayrı gruba eşleniyor. 27:17'de üç sınıflı ordu L1 kalmıştı çünkü sınıflanan şey olgu değildi; burada fiziksel olaylar (aday 925)."
+  },
+  {
+   "bag": "29:19 · 29:20 ↔ 27:64",
+   "kural": "L1",
+   "not": "`بدأ`+`عود` döngü iddiası, emsal 27:64. 29:20'de iddia gözleme çağrısına dönüşüyor (`سِيرُوا۟ ... فَٱنظُرُوا۟`). **Dikey katmanın haber verdiği `بدأ`+`عود` ikilisi [B2 donmuş kalıp 10 ayet] burada metinde bizzat kuruluyor.**"
+  },
+  {
+   "bag": "29:63 ↔ 27:60",
+   "kural": "L1",
+   "not": "Gökten su → yerin ölümünden sonra dirilmesi; 27:60'ta yeti sınırı da vardı, burada yalnız nedensellik — L2 tanımı ikisini de kabul ediyor. **Sûre 29'un tek gerçek doğa-olgusu çıpasının çekirdeği `موه` kökü ve sûrede yalnız burada.**"
+  },
+  {
+   "bag": "29:61 ↔ 29:63",
+   "kural": "L2",
+   "not": "**Çıpa ölçütünün ayırt ediciliğinin en temiz gösterimi:** ikisi de aynı `لَئِن سَأَلْتَهُم` kalıbıyla açılıyor, **29:61 daha ÇOK olgu kökü taşıyor (altı) ve L1'de kalıyor, 29:63 daha AZ taşıyor (dört) ve L2'ye çıkıyor** — fark kök sayısında değil, fiiller arasında `بِهِ` ile kurulan nedensel bağda."
+  },
+  {
+   "bag": "29:41 ↔ 29:48",
+   "kural": "L2",
+   "not": "**`hapaks` alanının kör noktası:** `عنكب` korpusta tek ayette ama iki token → hapaks DEĞİL, ayet yıldızsız; `خطط` tek ayette ve tek token → hapaks, ayet ★★★. **Aynı sûre, aynı nadirlik, iki farklı sonuç** (aday 926)."
+  },
+  {
+   "bag": "29:28 ↔ 7:80",
+   "kural": "L1",
+   "not": "**Okumada ilk 'yakin' kademesi** — oran 0,9615, fark bir kip (soru → te'kidli haber). Beş xref 3-gram'ın beşi de aynı ayete düşüyor. TAM SAYIM: korpusta yakin 84 kayıt, benzer 280, tam 1622 (aday 929)."
+  },
+  {
+   "bag": "29:37 ↔ 7:78 · 7:91",
+   "kural": "L1",
+   "not": "**`esit2` iki ayrı ayete AYNI oranla bağlanıyor (0,8986):** aynı helâk formülü iki farklı kavim için. `xref`in üçüncü 3-gram'ı ayrıca 11:67 ve 11:94'e düşüyor — **korpusta beş ayetlik bir formül** ve `nakarat2` çapraz-sûre olduğu için göremiyor."
+  },
+  {
+   "bag": "29:66 ↔ 16:55 · 30:34",
+   "kural": "L1",
+   "not": "İkinci aynı-oranlı ikili bağ (0,9275). **İki vaka da aynı formülün korpusta üç kez tekrarlandığını gösteriyor; esit2 üçlüyü İKİLİ bağlarla veriyor ve üçlüyü tek küme olarak gören alan yok** (aday 929)."
+  },
+  {
+   "bag": "29:59 ↔ 16:42",
+   "kural": "L1",
+   "not": "**Eski `esit` ile `esit2`'nin aynı anda dolu olduğu nadir vaka.** TAM SAYIM: eski 253 ayet, yeni 520, kesişim tam 253 — **onarım kaybetmeden genişlemiş** (aday 928)."
+  },
+  {
+   "bag": "29:52 ↔ 28:75",
+   "kural": "L1",
+   "not": "**Aynı esmâ tokeni (شَهِيد), aynı ORTA konum, iki ayrı sûre, ZIT hüküm:** 28:75 artefakt (her ümmetten çıkarılan tanık), 29:52 geçerli (göndergesi اللَّه). Aday 908'in `وارِث` vakasının ikinci örneği ve bu kez sûreler arası (aday 930)."
+  },
+  {
+   "bag": "29:62 ↔ 28:82",
+   "kural": "L1",
+   "not": "`يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ` — **aynı cümle, iki sûre, biri insan sözü (28:82, temenni edenlerin ağzından) biri ilâhî beyan (29:62).** `xref` iki 3-gram'la bağlıyor, `esit2` boş."
+  },
+  {
+   "bag": "29:39 ↔ sûre 28 kadrosu",
+   "kural": "L1",
+   "not": "**Sûre 28'in bütün anlatı kadrosu tek ayette:** Kārûn, Firavun, Hâmân, Mûsâ. TAM SAYIM: korpusta 4+ adlı aktörlü 32 ayet. **İki sûre arasındaki kadro örtüşmesini tutan alan yok** — xref boş, esit2 boş (aday 936)."
+  },
+  {
+   "bag": "29:38 ↔ 27:24",
+   "kural": "L1",
+   "not": "`وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ` — Sebe melikesinin kavmi için kurulan cümle burada Âd ve Semûd için birebir tekrarlanıyor. **Aynı açıklama kalıbı, üç ayrı kavim, iki sûre arayla** — ve `esit2` boş."
+  },
+  {
+   "bag": "29:2 ↔ 29:35",
+   "kural": "L1",
+   "not": "`ترك` kökü sûrede iki geçişli, otuz üç ayet arayla: `أَن يُتْرَكُوٓا۟` (sınanmadan bırakılmak, edilgen) / `تَّرَكْنَا مِنْهَآ ءَايَةً` (işaret bırakmak, etken). Sûre 28'de `يَمّ`in 28:7↔28:40 karşıtlığıyla aynı yapı; **yine hiçbir alan bağlamıyor.**"
+  },
+  {
+   "bag": "29:6 · 29:8 ↔ 29:69",
+   "kural": "L1",
+   "not": "**Sûre açılış bölütüyle halka kapatıyor:** `جهد` kökü dört geçişli — 29:6 'kendisi için' (iki token), 29:8 anne babanın olumsuz çabası, 29:69 'bizim uğrumuzda'. Altmış üç ayetlik açıklık ve arada bir kez olumsuz yön."
+  },
+  {
+   "bag": "29:24 ↔ 29:29",
+   "kural": "L1",
+   "not": "**Sûrenin ilk iç düğümü:** `مَا كَانَ جَوَابَ قَوْمِهِ إِلَّآ أَن قَالُوا۟`, beş ayet arayla, birebir **yedi kelime** — sûre 29'un en uzun nakaratı; iki ayrı peygamber, iki ayrı kavim, aynı formül. `xref` kalıbı 7:82 ve 27:56'ya da bağlıyor."
+  },
+  {
+   "bag": "29:32 ↔ 29:33",
+   "kural": "L1",
+   "not": "**Okumanın en dar iç düğümü: bir ayet.** `كَانَتْ مِنَ ٱلْغَٰبِرِينَ`, ardışık iki ayet, birebir üç kelime; `dugum.ic` ikisinde de 1 ama `nakarat2` süzgeci geçmiyor. **İki alan aynı büyüklükteki kalıba farklı davranıyor** (aday 935)."
+  },
+  {
+   "bag": "29:21 ↔ 29:22",
+   "kural": "L2",
+   "not": "**Ardışık kafiye kırılması — okumada ilk kez.** 29:20 (R) → 29:21 (N) → 29:22 (R) → 29:23 (N): dört ayetlik salınım, ortadaki ikisi ayrı ayrı koşulu sağlıyor. **29:21 sûre normuna UYUYOR ve yine de kırılma sayılıyor** — ölçüt yerel komşuluğu ölçüyor (aday 933)."
+  },
+  {
+   "bag": "29:5 ↔ 29:11",
+   "kural": "L2",
+   "not": "**Aynı oran, aynı z, aynı yıldız, farklı girdi:** 29:5 iki lafız / on iki kelime, 29:11 bir lafız / altı kelime, ikisinde de `allah` z=**2,80**. Payda etkisinin doğrudan kanıtı (aday 931)."
+  },
+  {
+   "bag": "29:26 ↔ 29:30 ↔ 29:59",
+   "kural": "L2",
+   "not": "**`rab` ölçütünün tek sûrede 1,45'ten 3,94'e uzanan yayı:** aynı token sayısı (1), üç payda (12, 6, 5), biri yıldızsız ikisi ★★★. Korpus tavanı 10,34 (aday 931)."
+  },
+  {
+   "bag": "29:57 ↔ 28:70",
+   "kural": "L1",
+   "not": "**Aday 903'ün ikinci otomatik ★★★ tetikleyicisi iki sûrede iki bağımsız doğrulama:** tek fiil, edilgen, oran 1,00, pas z=5,38, ★★★. TAM SAYIM: korpusta bütün fiilleri edilgen olan 124 ayet ve 124'ünün de yıldızı 3."
+  },
+  {
+   "bag": "29:40 `fig` KELLA",
+   "kural": "L2",
+   "not": "**Alan arızası:** ayette `كَلَّا` yok, `فَكُلًّا` var (ROOT:كلل|LEM:كُلّ). TAM SAYIM: `fig`=KELLA olan 48 ayetin 15'inde (%31) morfolojide LEM:كَلّا yok; yanlış negatif sıfır (aday 927)."
+  }
  ]
 }

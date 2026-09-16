@@ -126,3 +126,58 @@ Denetimler: `turkce_denetim.py` → **0** · `anahtar_denetim.py` → **22601 an
 58 ihlâl, diff = 0**.
 
 Adaylar **920-923** (`AJ_kasas` 17 → 21 kayıt).
+
+---
+
+## EK 2 — SÛRE 29 (ANKEBÛT) OKUNDU, 69 AYET, YEDİ BLOK
+
+Bloklar: 29:1-10 · 11-20 · 21-30 · 31-40 · 41-50 · 51-60 · 61-69
+Okunan toplam **2199 / 6236 ayet (%35,3)**; sûre 1 ve 9-29 tam.
+Aday **924-936** (`AK_ankebut`, 13 kayıt) · bağ **AI_ankebut** 23 kayıt
+`kok_turkce.json` 1052 → **1059** (üç sûrede toplam 27 yeni kök)
+
+### Sûre 29 kapanış bilançosu
+69 ayet · ort n=14,14 · fâsıla sınıf 65 N + 3 R + 1 mukattaa · **kafiye kırılması 2 ve
+ARDIŞIK** (29:21-22) · ★★★ 4 · ★★ 7 · ★ 11 · yıldızsız 47 (%68,1)
+Yıldız kaynakları: **allah 9 · pas 6 · kafiye 2 · n 2 · rab 2 · hapaks 1 · içerik 0**
+Lafız **42 token / 30 ayet** · Rab **5 / 5** → **A/R = 8,4** (27'de 2,25, 28'de 1,42)
+Esmâ 25 token: **mühürlü 8 → 8 geçerli** · mühürsüz 17 → 3 geçerli, 14 artefakt
+İltifât **1** (29:23) · hapaks **1 ayet** · edilgen 15 ayet
+Adlı aktör **21 token / 16 ad** — sûre 28'in 37 tokenine karşı çok daha dağınık
+`harf` 4498 → `harf3` **4256**, isaret 223 (%5,0) · `mm2` 1 · iç düğüm 4 ayet / 2 çift
+
+### Bu turun ana bulgusu — P0 #6'nın ilk bağımsız sınaması
+
+Tarayıcı kurulum kümesi dışında ilk kez sınandı ve **üç çıpayı kaçırdı.** Aday 921'in
+"anma %100" kaydı **döngüseldi**. İki yeni işaret ailesi (`F_ölçü`, `G_bakış`) eklendi;
+havuz 537 → 680, **tutulan kümede anma 3/3.**
+
+**DERS: bir tarayıcının kendi kurulum kümesindeki anması bilgi taşımaz** — aday 899'un
+ölçüm tarafındaki eşi.
+
+### Okumanın ilk iki L4 kaydı
+
+**29:14 (ölçü)** ve **29:40 (sınıflama)** — L4'ün üç kolundan ikisi örneklendi, üçüncüsü
+(mekanizma) hâlâ boş. Dört sûrede 319 ayet, iki L4: **%0,6.**
+
+### Üç alan denetimi
+
+- **`hapaks` ayet değil token sayıyor** (aday 926): tek ayette geçen 420 kökün 21'i
+  nişandan düşüyor; **29:41'in `عنكب`'i (sûrenin adı) bunlardan biri ve ayet yıldızsız.**
+- **`fig` KELLA'yı `كُلّ` ile karıştırıyor** (aday 927): 48 ayetin 15'i (%31) yanlış
+  pozitif, yanlış negatif sıfır.
+- **`esit2` onarımı yanlış negatif üretmemiş** (aday 928, olumlu): eski 253, yeni 520,
+  **kesişim tam 253.**
+
+### Denetimler
+- `turkce_denetim.py` → **0 ihlâl** (1059 kök)
+- `anahtar_denetim.py` → **22754 anahtar, 58 ihlâl, ihlâl listesi diff = 0**
+- **Denetimin yakaladığı kendi kusurum:** lafza-i celâl'i korpus lemma biçiminden farklı
+  yazmışım (`ٱللَّه` yerine `اللَّه` olmalıydı) — sekiz yerde düzeltildi.
+- **Retroaktif onarım (aday 917'nin ikinci vakası):** yeni eklenen `ركب` ve `يأس` kökleri
+  11:42, 12:87 ve 12:110'da karşılıksız anma açtı; `yama_retroaktif_gloss_29.py` ile
+  düzeltildi.
+
+### Devam noktası
+Sûre 30 (Rûm) ya da sûre 2'nin 21. ayeti. Açık P0: #3 · #5 (kapsam üçüncü kez büyüdü) ·
+#7 · #8 · #9 · **#10 hapaks tanımı · #11 fig KELLA · #12 esmâ mührü (ikinci vaka)**.
