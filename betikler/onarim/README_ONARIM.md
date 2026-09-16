@@ -1,7 +1,20 @@
-# TUR SONU ONARIM EVRESİ — üç tur, on üç onarım
+# TUR SONU ONARIM EVRESİ — üç tur (on üç onarım) + iki ek onarım
 
-Bu dizin, sûre 27 okumasından sonra yapılan alan onarımlarını içerir.
-Adaylar: `bulgular/aday_bulgular.json` → **`AI_onarim`** kümesi (877-902).
+Bu dizin, sûre 27 okumasından sonra yapılan alan onarımlarını ve sûre 28-29
+okumasından sonra yapılan iki ek onarımı içerir.
+Adaylar: `bulgular/aday_bulgular.json` → **`AI_onarim`** (877-902) ve
+**`AL_onarim2`** (937-939).
+
+## Ek onarımlar (sûre 29 sonrası)
+
+| no | betik | arıza | aday |
+|---|---|---|---|
+| **14** | `22_hapaks_onarim.py` | `hapaks` nadirliği TOKEN sayarak ölçüyordu, AYET değil | 926 → 937 |
+| **15** | `23_fig_kella_onarim.py` | `fig` KELLA'yı `كُلّ` ile karıştırıyordu (%31 yanlış pozitif) | 927 → 938 |
+
+Sınama: `24_onarim_sinama.py` — **onarım 14: 12/12 · onarım 15: 8/8**, iki sınama
+kümesi de okuma kayıtlarından kuruldu (onarım yazılırken değil).
+Kapanış ve aday 903'ün tazelenmesi: `25_onarim_14_15_kapanis.py`.
 Ayrıntılı kayıt: `notlar/YAPILACAKLAR.md` sonundaki üç "ONARIM TURU" bölümü.
 
 ## Temel kural
@@ -16,6 +29,8 @@ Ayrıntılı kayıt: `notlar/YAPILACAKLAR.md` sonundaki üç "ONARIM TURU" böl�
 | `adli` | `adli2` | mensubiyet/soyut adlar `cins` türüne ayrıldı |
 | `fig` içindeki `MM` | `mm2` | V+VN (3 ayet) → V + aynı kök + ACC isim (125 ayet) |
 | `harf` | `harf2`, `harf3`, `isaret` | besmele kirliliği çıkarıldı; alan harf ve vakf işareti diye ayrıldı |
+| `hapaks` | `hapaks2` | ölçüt TOKEN'dan AYET'e taşındı (399 → 420 kök); `yildiz2`, `z2` ayrıca yazıldı |
+| `fig` içindeki `KELLA` | `fig2` | yüzey biçimi → `LEM:كَلّا`; 48 → 33 ayet, yanlış pozitif %31 ayıklandı |
 
 Böylece sûre 27 okumasının (okuma_metni.json) ölçümleri yeniden üretilebilir kalır.
 **`okuma_metni.json` DEĞİŞTİRİLMEDİ.**

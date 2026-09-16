@@ -5070,3 +5070,81 @@ L1'de kalıyor, 29:63 daha AZ taşıyor (dört) ve L2'ye çıkıyor.**
 8. Orta konum × artefakt (aday 908/930): iki sûrede iki karşı vaka, korpus sınanmadı
 9. **A/R oranı üç sûrede 2,25 → 1,42 → 8,4 (aday 932)** — korpus dağılımı çıkarılmadı,
    KAPATILAMAZ
+
+---
+
+## ONARIM 14 ve 15 — P0 #10 ve #11 KAPANDI
+
+Protokole uygun: **hiçbir eski alan silinmedi**, onarımlar yeni adlarla yazıldı ve
+`okuma_metni.json` değiştirilmedi.
+
+| eski | yeni | ne değişti | aday |
+|---|---|---|---|
+| `hapaks` | **`hapaks2`** (+ `z2`, `yildiz2`) | ölçüt TOKEN'dan AYET'e; 399 → **420** kök | 926 → **937** |
+| `fig` içindeki `KELLA` | **`fig2`** | yüzey biçimi → `LEM:كَلّا`; 48 → **33** ayet | 927 → **938** |
+
+### Onarım 14 — `hapaks2`
+
+`hapaks` bir kökün *nadirliğini* ölçmek istiyordu ama **token** sayıyordu. Korpusta tek
+ayette geçen **420** kökün **21'i**, o ayette birden çok token taşıdığı için düşüyordu.
+
+- **kaybedilen = 0** (`hapaks2 ⊇ hapaks`; eski dolu ama yeni boş olan ayet **sıfır**)
+- **sınama kümesi 12/12** — okuma kayıtlarından kuruldu: sûre 28-29'un sekiz belgelenmiş
+  hapaks ayeti korundu · 29:41 (okumada "sayılmıyor" diye kaydedilen vaka) artık sayılıyor
+  · 28:12 ve 29:40 (okumada "nadirlik yığılması ile hapaks ayrı şeyler" diye kaydedilen
+  vakalar) boş kaldı
+- **hapaks ayeti 358 → 375 · yıldız değiştiren ayet 10** (beşi ★0 → ★★★):
+  2:197 · 7:176 · 11:99 · 13:4 · **19:83** · **29:41** · **43:79** · **55:33** · **79:2** · 84:6
+- **En çarpıcı düzeltme 29:41:** sûrenin adını taşıyan kök (`عنكب`) korpusta yalnız o
+  ayette geçiyor ve ayet **yıldızsızdı**, artık ★★★.
+
+### Onarım 15 — `fig2`
+
+KELLA etiketli **48** ayetin **15'inde (%31)** morfolojide `LEM:كَلّا` yok; 14'ünde `كلل`
+kökü var.
+
+- **kaybedilen = 0 iki yönden:** gerçek KELLA'ların hiçbiri düşmedi (**yanlış negatif
+  sıfır**) ve KELLA dışındaki sekiz etiketin hiçbiri değişmedi
+- **sınama kümesi 8/8**
+- düşen 15 ayet: 4:95 · 4:130 · 6:84 · 6:86 · 7:46 · 11:111 · 11:120 · 17:20 · 17:23 ·
+  19:49 · 21:72 · 21:79 · **25:39** · **29:40** · **57:10**
+- Aday 927'nin listesi on üç vakayla yazılmıştı; **tam sayım on beş verdi** (25:39, 57:10
+  eklendi)
+
+### Aday 903 tazelendi (aday 939)
+
+İki otomatik ★★★ tetikleyicisi `hapaks2` ile yeniden hesaplandı:
+
+| tetikleyici | ayet | hepsi ★★★ mi |
+|---|---|---|
+| ≥1 hapaks2 kök | **375** | **evet, istisnasız** |
+| bütün fiilleri edilgen | **124** | **evet, istisnasız** |
+| kesişim | 13 | — |
+| **birleşim** | **486** | `yildiz2` ile ★★★ olan **890** ayetin **%54,6'sı** (eskiden %53,5) |
+
+Tek hapaks kökün z'si **3,38 → 3,28** (dağılım değişti) ama hâlâ eşiğin (>3) üstünde:
+**hapaks tek başına yeter şart olmayı sürdürüyor.**
+
+### DÜŞEN KAYITLAR — aday 926'nın iki öngörüsü
+
+| öngörü | gerçek |
+|---|---|
+| "hapaks ayeti 358 → **379**" | 358 → **375** |
+| "**beş** yeni ★★★" | **10 ayet** yıldız değiştirdi, **beşi** yıldızsızdan ★★★'a |
+
+**Ortak sebep: kaçan 21 kökün AYET dağılımı hesaplanmadan kök sayısından ayet sayısına
+doğrudan geçilmişti.** Aday 843'ün ("sayım defterden koşulur, hafızadan değil") üçüncü
+tekrarı — bu kez hafızadan değil, **koşulmamış bir aritmetikten.** Özgün `olculen`
+korundu, yanına `dusuruldu` alanı eklendi.
+
+### Açık P0'ların yeni durumu
+
+| P0 | konu | durum |
+|---|---|---|
+| #3 | `esit` eşik türleri | AÇIK — sınama kümesi hazır |
+| #5 | 529 lemma katmanı | AÇIK — **yirmi iki vaka, üç alanın tavanı** |
+| #7 | yıldızın iki otomatik ★★★ tetikleyicisi | AÇIK — sayılar tazelendi (aday 939) |
+| #8 | `adsiz2` envanteri | AÇIK |
+| #9/#12 | esmâ mührü token düzeyinde çalışamıyor | AÇIK — iki vaka (908, 930) |
+| **#10** | **`hapaks` ayet değil token sayıyor** | **KAPANDI** (aday 937) |
+| **#11** | **`fig` KELLA'yı `كُلّ` ile karıştırıyor** | **KAPANDI** (aday 938) |

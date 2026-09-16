@@ -181,3 +181,32 @@ havuz 537 → 680, **tutulan kümede anma 3/3.**
 ### Devam noktası
 Sûre 30 (Rûm) ya da sûre 2'nin 21. ayeti. Açık P0: #3 · #5 (kapsam üçüncü kez büyüdü) ·
 #7 · #8 · #9 · **#10 hapaks tanımı · #11 fig KELLA · #12 esmâ mührü (ikinci vaka)**.
+
+---
+
+## EK 3 — ONARIM 14 ve 15 (P0 #10 ve #11 kapandı)
+
+Protokole uygun: **hiçbir eski alan silinmedi**, `okuma_metni.json` değiştirilmedi.
+Yeni alanlar: **`hapaks2`** · **`z2`** · **`yildiz2`** · **`fig2`** (defter 47 → 51 alan).
+
+**Onarım 14 — `hapaks2`:** ölçüt TOKEN'dan AYET'e taşındı. Korpusta tek ayette geçen
+420 kökün 21'i, o ayette birden çok token taşıdığı için düşüyordu. **kaybedilen = 0 ·
+sınama 12/12 · hapaks ayeti 358 → 375 · yıldız değiştiren 10 ayet (beşi ★0 → ★★★).**
+En çarpıcı düzeltme **29:41**: sûrenin adını taşıyan kök (`عنكب`) korpusta yalnız o
+ayette geçiyor ve ayet yıldızsızdı, artık ★★★.
+
+**Onarım 15 — `fig2`:** KELLA etiketi `LEM:كَلّا`ya bağlandı. 48 → 33 ayet, **yanlış
+pozitif %31, yanlış negatif sıfır, sınama 8/8.** Aday 927'nin on üç vakalık listesi tam
+sayımla **on beşe** tamamlandı (25:39, 57:10).
+
+**Aday 903 tazelendi:** hapaks2 içeren 375 ayetin 375'i ★★★, tam-edilgen 124 ayetin
+124'ü ★★★, birleşim **486** = ★★★'ların **%54,6'sı**. Tek hapaksın z'si 3,38 → 3,28,
+hâlâ eşiğin üstünde — **hapaks tek başına yeter şart olmayı sürdürüyor.**
+
+**Düşen iki kayıt (aday 926'nın kendi öngörüleri):** "358 → 379" gerçekte 358 → 375;
+"beş yeni ★★★" gerçekte on ayet değişti, beşi yıldızsızdan. **Ortak sebep: kaçan 21
+kökün AYET dağılımı hesaplanmadan kök sayısından ayet sayısına geçilmişti** — aday
+843'ün üçüncü tekrarı, bu kez hafızadan değil koşulmamış bir aritmetikten.
+
+Adaylar **937-939** (`AL_onarim2`). Denetimler: `turkce_denetim.py` → **0** ·
+`anahtar_denetim.py` → **22793 anahtar, 58 ihlâl, diff = 0**.
