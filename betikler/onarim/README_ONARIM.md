@@ -11,6 +11,11 @@ Adaylar: `bulgular/aday_bulgular.json` → **`AI_onarim`** (877-902) ve
 |---|---|---|---|
 | **14** | `22_hapaks_onarim.py` | `hapaks` nadirliği TOKEN sayarak ölçüyordu, AYET değil | 926 → 937 |
 | **15** | `23_fig_kella_onarim.py` | `fig` KELLA'yı `كُلّ` ile karıştırıyordu (%31 yanlış pozitif) | 927 → 938 |
+| **16** | `26_lemma_katmani.py` | P0 #5a: lemma kimliği hiç kullanılmıyordu (maliyet 0) | 940 → 941 |
+| **17** | `27_nakarat3.py` | `nakarat2` YÜZEY n-gramı kullanıyor, lemmayı değil | 906 → 942 |
+| **18** | `28_olgu_lemma.py` | çıpa taramasında olgu eşleşmesi KÖK düzeyindeydi | 923 → 944 |
+| **19** | `29_cipa_tarama4.py` | tarayıcı v4: olgu eşleşmesi (kök, lemma) çiftinde | 923 → 944 |
+| **20** | `31_ikili.py` | `nakarat` alt sınırı: 3'te kaldı, 2 kelimelik köklü çiftler ayrı alanda | 907/935/943 → 947 |
 
 Sınama: `24_onarim_sinama.py` — **onarım 14: 12/12 · onarım 15: 8/8**, iki sınama
 kümesi de okuma kayıtlarından kuruldu (onarım yazılırken değil).
@@ -31,6 +36,8 @@ Ayrıntılı kayıt: `notlar/YAPILACAKLAR.md` sonundaki üç "ONARIM TURU" böl�
 | `harf` | `harf2`, `harf3`, `isaret` | besmele kirliliği çıkarıldı; alan harf ve vakf işareti diye ayrıldı |
 | `hapaks` | `hapaks2` | ölçüt TOKEN'dan AYET'e taşındı (399 → 420 kök); `yildiz2`, `z2` ayrıca yazıldı |
 | `fig` içindeki `KELLA` | `fig2` | yüzey biçimi → `LEM:كَلّا`; 48 → 33 ayet, yanlış pozitif %31 ayıklandı |
+| `nakarat2` | `nakarat3` | yüzey n-gram → LEMMA n-gramı; 1950 → 2260 ayet, bir yanlış pozitif düştü |
+| çıpa taraması v3 | v4 | olgu eşleşmesi kök → (kök, lemma); havuz 680 → 477, kesinlik %35 → %47 |
 
 Böylece sûre 27 okumasının (okuma_metni.json) ölçümleri yeniden üretilebilir kalır.
 **`okuma_metni.json` DEĞİŞTİRİLMEDİ.**

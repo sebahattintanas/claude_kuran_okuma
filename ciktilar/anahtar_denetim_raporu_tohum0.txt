@@ -1,5 +1,5 @@
 korpus: 1651 kök, 106 PN lemma
-taranan anahtar/sabit: 22793   BOZUK: 58
+taranan anahtar/sabit: 31102   BOZUK: 70
 
 ── betikler/aktor.py (7)
    ✗ sat.28 داوُۥد           T2 YAZIM → korpustaki hâli: داوُد
@@ -41,6 +41,20 @@ taranan anahtar/sabit: 22793   BOZUK: 58
    ✗ sat.34 فإما             T4 korpusta HİÇ YOK
 ── betikler/kuran_akis.py (1)
    ✗ sat.62 الله             T2 YAZIM → korpustaki hâli: اللَّه
+── betikler/onarim/28_olgu_lemma.py (6)
+   ✗ sat.75 ثلج              T4 korpusta HİÇ YOK
+   ✗ sat.76 زتن              T4 korpusta HİÇ YOK
+   ✗ sat.91 روس              T4 korpusta HİÇ YOK
+   ✗ sat.92 ريح              T2 YAZIM → korpustaki hâli: رِيح
+   ✗ sat.93 زتن              T4 korpusta HİÇ YOK
+   ✗ sat.94 ثلج              T4 korpusta HİÇ YOK
+── betikler/onarim/30_lemma_kapanis.py (6)
+   ✗ sat.96 روس              T4 korpusta HİÇ YOK
+   ✗ sat.102 روس              T4 korpusta HİÇ YOK
+   ✗ sat.113 ريح              T2 YAZIM → korpustaki hâli: رِيح
+   ✗ sat.113 زتن              T4 korpusta HİÇ YOK
+   ✗ sat.114 روس              T4 korpusta HİÇ YOK
+   ✗ sat.115 ثلج              T4 korpusta HİÇ YOK
 ── betikler/sicak_anlati.py (1)
    ✗ sat.31 الا              T4 korpusta HİÇ YOK
 ── betikler/tilavet_sentez.py (1)

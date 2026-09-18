@@ -5148,3 +5148,286 @@ korundu, yanına `dusuruldu` alanı eklendi.
 | #9/#12 | esmâ mührü token düzeyinde çalışamıyor | AÇIK — iki vaka (908, 930) |
 | **#10** | **`hapaks` ayet değil token sayıyor** | **KAPANDI** (aday 937) |
 | **#11** | **`fig` KELLA'yı `كُلّ` ile karıştırıyor** | **KAPANDI** (aday 938) |
+
+---
+
+## P0 #5 — LEMMA KATMANI: (a) PARÇASI KAPANDI, (b) AÇIK
+
+Proje kendi kaydı: **"Envanter çıkarılmadan onarım kararı verilmeyecek."** Envanter
+çıkarıldı ve üç katman önerisi ölçüldü.
+
+### Katman ölçümü — 28 belgelenmiş vaka (aday 940)
+
+| katman | çözdüğü vaka |
+|---|---|
+| **LEMMA** | **22** |
+| BAĞLAM | 6 — `كشف` · `عوم` · `أيي` · `صبح` · `قدر` · `هوي` |
+| **BAB** | **0** |
+
+**Aday 569/584'ün bab önerisi DÜŞTÜ: lemma katmanı onu kapsıyor.** Önerinin çözdüğünü
+iddia ettiği vakaları (`صرف` · `قرن` · `رجو` · `طلق`) lemma zaten ayırıyor; bab hiçbir
+ek vaka çözmüyor ve daha ucuz da değil (aynı morfoloji alanından geliyor).
+
+**İkinci bulgu:** çok alanlı karşılık taşıyan 173 kökün **12'si TEK LEMMALI** — onları
+lemma katmanı hiçbir koşulda çözemez.
+
+### Maliyet ve ikiye ayırma (aday 941)
+
+| parça | ne ister | maliyet | durum |
+|---|---|---|---|
+| **(a) LEMMA KİMLİĞİ** | morfolojideki `LEM` alanı | **0** | **KAPANDI** |
+| (b) LEMMA GLOSSU | (kök, lemma) Türkçe karşılık | 3737 satır (okunanda **2537**) | AÇIK |
+
+**Ayrımın kendisi bulgu:** P0 #5 üç oturumdur "pahalı" diye bekletiliyordu, ama pahalı
+olan yalnız gloss tarafı. Ölçüm tarafı morfolojide zaten duruyordu ve kullanılmıyordu.
+
+Üretilen: `tablolar/lemma_iskelet.json` (6236 ayet) · `ciktilar/lemma_envanteri.json`
+(1651 kök, **4635 çift**). Yüzey iskeletiyle **uzunluk farkı 0**.
+
+### Onarım 17 — `nakarat3` (aday 942)
+
+`nakarat2` 1950 ayet → `nakarat3` **2260 ayet (+%15,9)**; süzgeci geçen 1303 → 1517.
+
+**Kaybedilen 1 ayet (10:2) ve gerçek kayıp DEĞİL:** 10:2'de `لَسَٰحِرٌ` (LEM:ساحِر,
+büyücü), 10:76'da `لَسِحْرٌ` (LEM:سِحْر, büyü). Harekesiz yüzey iskeleti ikisini de
+`لسحر` yazıp aynı sayıyordu — **bir yanlış pozitifin düşmesi.**
+
+### DÜŞEN KAYIT — aday 906'nın iddiası iki vakada da yanlış
+
+| vaka | iddia | gerçek |
+|---|---|---|
+| 28:5 ↔ 28:41 | lemma katmanı görür | ortak lemma dizisi **2 kelime**, alt sınır 3 |
+| 28:30 ↔ 28:46 | lemma katmanı görür | ortak birim **TEK lemma** — hiçbir n-gram alanı göremez |
+
+**İki borç birbirine bağlıymış ve hiçbiri tek başına çözmüyor.** Hata, lemma katmanının
+kalıbı *görünür* kılmasıyla alanın onu *sayması*nı aynı şey sanmaktı. İkinci vaka bir
+**kök seyri** olgusu, nakarat değil. Aday 906'nın "lemma borcu yalnız gloss değil ÖLÇÜM
+borcu" kaydı ise **doğru çıktı.**
+
+### Alt sınır kararı artık hesaplanabilir (aday 943)
+
+| | yüzey | **lemma** |
+|---|---|---|
+| alt sınır **3** kelime | 1950 ayet / 1354 kalıp | **2260 ayet / 1729 kalıp** |
+| alt sınır **2** kelime | 3747 ayet / 3978 kalıp | **4230 ayet / 5491 kalıp (korpusun %68'i)** |
+
+**Öneri:** alt sınır 3'te kalsın (yorumda kullanılan alan), 2 kelimelik lemma çiftleri
+**ayrı bir alanda sayılsın ve yoruma sokulmasın.** Karar verilmedi.
+
+### Onarım 18-19 — çıpa tarayıcısı v4 (aday 944)
+
+Olgu eşleşmesi **kök → (kök, lemma)**. Tablo: 50 çok lemmalı kök + 22 tek lemmalı +
+1 bağlam-gerekli; olgu alanı dışındaki token payı **%34,4**.
+
+| | v3 | v4 |
+|---|---|---|
+| korpus havuzu | 680 | **481** (-%29) |
+| kesinlik (sûre 27-28) | %35 | **%47** |
+| kesinlik (sûre 27-29) | %40 | **%46** |
+| anma — kurulum kümesi | 7/7 | **7/7** |
+| anma — tutulan küme | 3/3 | **3/3** |
+| çıpa kaybı | — | **0** |
+
+### DÜŞEN KAYIT — aday 923'ün sayıları
+
+Öngörü **"%41 → %54"**, gerçek **"%35 → %47"**. Yön ve kazanç büyüklüğü (+12 puan,
+öngörü +13) tuttu; **taban ve hedefin ikisi de fazla yüksek yazılmıştı.** Sebep:
+kesinlik okuma notlarındaki sayılardan hesaplanmıştı, tarayıcı çıktısından değil —
+**aday 843'ün dördüncü tekrarı.** Ayrıca beşinci bir aday da düştü (27:44) ve
+sayılmamıştı. Dört lemma vakasının **dördü de** düştü.
+
+### KENDİ TABLOMDA İKİ ARIZA (aday 945)
+
+1. **KAPSAM AÇIĞI:** `موه` *(su)* hiçbir listede değildi ve **sessizce olgu-dışı
+   sayılıyordu**; `روس` korpusta hiç yok. Aday 905 ve 927'nin ailesinden: **alan bir
+   kümeye bakıyor ve kümenin eksikliği çıktıda görünmüyor.** Betiğe **durduran kapsam
+   denetimi** kondu.
+2. **`هوي` yanlış sınıflandı:** `هَواء` lemması hem "hava" (14:43) hem "heva" (28:50)
+   taşıyor. Olgu kümesinden çıkarıldı, `BAGLAM_GEREKLI` listesine alındı.
+3. **Şedde/hareke sırası:** elle yazılan 16 lemma girdisinde şedde ile harekenin sırası
+   korpustan farklıydı (NFC'de aynı, dizge eşleşmesinde değil). Çözüm: **tablo girdileri
+   NFC üzerinden korpus biçimine çözülür, çözülemeyen varsa betik durur.**
+
+### ★★ DENETİMİN YAKALADIĞI SESSİZ ARIZA — `ريح` HİÇ EŞLEŞMİYORMUŞ (aday 946)
+
+`anahtar_denetim.py` olgu kümesinde **dört yanlış kök** işaretledi:
+
+| yazılan | gerçek |
+|---|---|
+| **`ريح`** (rüzgâr) | korpusta **`روح`** kökü altında (`LEM:رِيح`) |
+| `زتن` (zeytin) | `زيت` |
+| `روس` | `رسو` — zaten kümedeydi |
+| `ثلج` (kar) | **korpusta HİÇ YOK** |
+
+**Yani tarayıcının v2 ve v3 sürümleri boyunca rüzgâr ve zeytin olgu kökleri hiçbir
+ayette eşleşmedi.** Düzeltme iki yeni aday getirdi (12:94, 33:9) ve ikisi de gerçek
+rüzgâr ayeti. `روح` ayrıca lemma ayrımı istiyor: `رِيح` olgu, `رُوح` (rûh) değil.
+
+**Bu, `anahtar_denetim.py`'nin okuma dışı bir betikte bulduğu ilk gerçek ÖLÇÜM
+arızası** — şimdiye kadar yakaladıkları yazım tutarsızlığıydı. **Arıza sinsi: yanlış
+yazılmış kök hata vermiyor, sadece hiçbir zaman eşleşmiyor.** DERS: **küme hâlinde
+yazılan Arapça kök listeleri, kullanılmadan önce korpusa karşı doğrulanmalı.**
+
+### Açık P0'ların yeni durumu
+
+| P0 | konu | durum |
+|---|---|---|
+| #3 | `esit` eşik türleri | AÇIK |
+| **#5a** | **lemma kimliği** | **KAPANDI** (aday 941) |
+| #5b | lemma glossu (2537 satır) | AÇIK |
+| #7 | yıldızın iki otomatik ★★★ tetikleyicisi | AÇIK |
+| #8 | `adsiz2` envanteri | AÇIK |
+| #9/#12 | esmâ mührü token düzeyinde | AÇIK |
+| #10, #11 | hapaks · fig KELLA | KAPANDI |
+
+### DENETİM TABANI 58 → 70 (kasıtlı, 12 ihlâl)
+
+`anahtar_denetim.py`'nin ihlâl sayısı bu turda **58'den 70'e** çıktı. Yeni on ikisi
+**kasıtlı ve belgeleyicidir**: `28_olgu_lemma.py`'nin `KORPUSTA_YOK` sözlüğü ile aday
+946'nın kaydı, yanlış yazılmış kökleri (`ريح` · `زتن` · `روس` · `ثلج`) **hatanın kendisini
+göstermek için** içeriyor. Denetim onları doğru biçimde işaretliyor; kayıt da onların
+yanlış olduğunu söylüyor.
+
+**Kural:** bir ihlâl ancak belgeleme amaçlıysa tabanda kalabilir ve tabanda kalan her
+ihlâlin bir aday kaydı olmalı. Taban tazelendi; bundan sonraki turlarda ölçüt yine
+**ihlâl listesi diff = 0.**
+
+---
+
+## ONARIM 20 — `nakarat` ALT SINIRI KARARI VERİLDİ (aday 907/935/943 kapandı)
+
+Üç oturumdur açık duran soru: alt sınır 2 mi 3 mü? İki seçenek de kötüydü — 3 gerçek
+tekrarları kaçırıyor, 2 korpusun **%67,8'ini** dolduruyor.
+
+**Kararı mümkün kılan şey eşik değil BİLEŞİM ölçümüydü.** Alt sınır 2 ile eklenen 3762
+kalıbın içine bakıldı:
+
+| bileşim | kalıp | pay |
+|---|---|---|
+| iki kelimesi de **kök** taşıyan | 1088 | **%28,9** |
+| biri kök biri edat/zamir | 2264 | %60,2 |
+| ikisi de edat/zamir (`الذين هم`, `حتا اذا`) | 410 | %10,9 |
+
+**Üçüncü seçenek buradan çıktı: iki kelimenin de kök taşıması şartı.**
+
+| sürüm | dolu ayet | karar |
+|---|---|---|
+| `nakarat3` — 3 kelime, lemma | 2260 (%36,2) | **yorumda kullanılır** |
+| **`ikili` — 2 kelime, ikisi de köklü** | **2635 (%42,3)**, 2030 kalıp | **sayılır, yoruma sokulmaz** |
+| 2 kelime, kısıtsız | 4230 (%67,8) | **reddedildi** |
+
+**Sınama kümesi 4/6 — ve aslında 4/4.** Yakalananlar: 28:5↔28:41 (aday 906'nın vakası) ·
+29:53↔29:54 · 29:5↔29:60 · 29:26↔29:42 (iki mühürlü esmâ kalıbı). Kaçan ikisi **tanım
+gereği iki kelimelik kalıp değil**: 29:2↔29:4'te ortak kök taşıyan tek lemma var
+(`حسب`), 28:30↔28:46'da ortak çift iki ayette de bitişik değil.
+
+**`ikili` iddia üretmez** — okuma sırasında "alt sınırın altında kaldı" diye elle
+kaydedilen tekrarları ölçülebilir kılar.
+
+---
+
+## OTURUM EKİ — SÛRE 30 (RÛM) OKUNDU, 60 AYET
+
+Okunan: **2259 / 6236 ayet (%36,2)** · tam: sûre 1, 9-30 · kısmi: sûre 2 (1-20).
+`kok_turkce.json` 1059 → **1069** (10 yeni kök).
+Denetimler: `turkce_denetim.py` → **0** · `anahtar_denetim.py` → **31101 anahtar, 70
+ihlâl, ihlâl listesi diff = 0** (taban tazelendi).
+Adaylar **948-958** → `AN_rum` (11 kayıt) · bağlar → `AJ_rum` (24 kayıt).
+
+**Okuma bu sûrede ilk kez ONARILMIŞ alanlarla koşuldu:** `hapaks2` · `fig2` ·
+`nakarat3` · `yildiz2` · `z2` ve tarayıcı **v4**. Sûre 30 onarımlardan **etkilenmedi**
+(yıldız değişimi 0, hapaks aynı) — **yani sûre 27-29 ile karşılaştırılabilir kalıyor.**
+
+### ★★ ANA BULGU — TARAYICI ÇÖKTÜ VE SEBEP YAPISAL (aday 948)
+
+| | 27 | 28 | 29 | **30** |
+|---|---|---|---|---|
+| anma | 4/4 | 3/3 | 3/3 | **2/9** |
+| kesinlik | %67 | %33 | %30 | %40 |
+
+**Yedi çıpa kaçtı ve yedisinin ortak özelliği tek: DÜZ HABER CÜMLESİ.** Tarayıcının
+sekiz işaret ailesi bir **söz eylemi** işareti arıyor — ama **Kur'an'ın en yoğun olgu
+katalogları düz haberdir.**
+
+**TAM SAYIM:** 3+ olgu kökü taşıyan **221** ayetin **135'i (%61)** hiçbir aile
+tetiklemiyor; **22'si `أيي` kökü taşıyor.** Sûre 30'da 3+ olgu köklü on ayetin sekizi
+kaçıyor.
+
+**Bu, aday 924'ün ölçümüne ÜÇÜNCÜ katman:** v2 kök listesine, v3 işaret ailelerine, v4
+lemmaya bağlandı — **ama üç sürümün ortak varsayımı "çıpa bir söz eylemi işareti taşır"
+ve bu yanlış.** Sûre 27-29 varsayımı doğrulamış *görünüyordu* çünkü **o sûrelerin
+çıpaları tesadüfen işaretliydi.**
+
+**Önerilen çözüm ölçülmeden yazılmayacak:** bir `H_katalog` ailesi (`أيي` + 2+ olgu
+lemması) havuzu ne kadar büyütür ve kesinliği ne kadar düşürür, korpus çapında
+ölçülmeli.
+
+### ★★ OKUMANIN ÜÇÜNCÜ L4'Ü — ÜÇÜNCÜ KOL DOLDU (aday 949)
+
+**30:48, MEKANİZMA kolundan.** Beş aşamalı süreç, her aşama adlandırılmış ve her biri
+bir öncekinden `فَ` ile türetilmiş; ara durumlar adlandırılıyor (`سَحاب`, `كِسَف`,
+`وَدْق`), çıkışın yeri belirtiliyor.
+
+| kol | ayet |
+|---|---|
+| ölçü | 29:14 |
+| sınıflama | 29:40 |
+| **mekanizma** | **30:48** |
+
+**Merdivenin çalıştığının kanıtı 30:24 → 30:48:** aynı olgu (yağmur), 30:24'te iki
+aşamada verilip **L2**, 30:48'de ara aşamalar açılınca **L4**. **Kademe konuyu değil
+İDDİA YAPISINI ölçüyor.** Beş sûrede 379 ayet, üç L4: **%0,8.**
+
+### `esit2` — okumanın en yüksek değerleri (aday 950, 951)
+
+**İki ardışık ayet, iki ardışık ayete:** 30:52 ↔ 27:80 (**0,9888**) ve 30:53 ↔ 27:81
+(**0,9905** — mukattaa TAM'ları dışında okumanın en yükseği). **Okumada ilk kez bir ayet
+ÇİFTİ, başka bir sûredeki ayet ÇİFTİNE sırasıyla bağlanıyor** ve karşı uç **okunmuş**
+olduğu için doğrulanabilir. **`esit2` bunu iki ayrı ikili bağla veriyor — alan AYET
+düzeyinde çalışıyor, BÖLÜT düzeyinde değil.**
+
+**Aday 929'un üçlüsü tamamlandı ve eşkenar olmadığı çıktı:** 30:34↔16:55 = **1,0 TAM**,
+ötekiler 0,9275. **Bağların ağırlıkları farklı; küme yapısı ancak üç uç da okununca
+görünüyor.**
+
+### ONARIMLAR TUTULAN KÜMEDE SINANDI — DÖRDÜ DE TUTTU (aday 956)
+
+| onarım | sınama | sonuç |
+|---|---|---|
+| **`ريح` → `روح`** (aday 946) | 30:46 | **çıpa ANCAK düzeltmeyle görünüyor** |
+| `هوي` bağlam listesine (945) | 30:29 | `أَهْوَآءَهُم` = hevesler ✓ |
+| `قدر` lemma süzgeci (944) | 30:37 | `يَقْدِرُ` olgu sayılmıyor ✓ |
+| `عقب` dışlaması (924) | 30:9, 30:42 | iki kez doğru negatif ✓ |
+
+**Okumanın bir onarım turunu doğrudan sınadığı ilk vaka.** En değerlisi `ريح` → `روح`:
+`anahtar_denetim.py`'nin yakaladığı sessiz arıza olmasaydı **sûrenin en açık
+L2'lerinden biri (30:46) havuza hiç girmeyecekti.**
+
+### YENİ AÇIK BORÇLAR
+
+13. **`say` alanı ölçüyü görmüyor (aday 953).** `بضع` on yedi sayı kökü arasında yok;
+    kökün geçtiği altı ayetin altısında da alan boş. Ayrıca **sıralı diziler** hiç
+    görülmüyor (30:17-18 dört vakit, 30:40 dört aşama). **Onarım: (a) `بضع` eklenmeli,
+    (b) sıralı dizi için ayrı ölçüt gerekip gerekmediği sınanmalı.**
+14. **Merdivende iki boşluk + bayrak tanım açığı (aday 955).** Karşılaştırmalı sıralama
+    **dört vaka** (29:41, 30:10, 30:27, 30:38), değişmezlik iddiası bir vaka (30:30) —
+    hepsi L1'e sıkışıyor. **Ve 30:41'de "olgu" bayrağı ilk kez BELİRLEYİCİ oldu:**
+    bayrak olgunun *konusu* mu *yeri* mi sayılacağını söylemiyor. **Tanım netleşmeden
+    okuyucu kararları yeniden üretilebilir değil.**
+15. **Yıldız formülü iki bağımsız ölçütü toplamıyor (aday 952).** TAM SAYIM: korpusta
+    iki+ ölçütü |z|>2 olan **89 ayet** ve formül hiçbirine ek ağırlık vermiyor. Bir
+    arıza değil, **sonucu ölçülmemiş bir tasarım kararı.**
+
+### KALAN BORÇ (güncellenmiş)
+
+1. `fHz` · `sesli` · `ebced` · `mod19` · `bits` kardeş projede kirli
+2. `dis_sinav.py` ve `genelleme.py` kirli `harf` ile koşulmuş
+3. **P0 #3** — `esit` eşik türleri; sûre 30 üç 'yakin' kaydı ekledi
+4. **P0 #5b** — lemma glossu, 2537 satır; sınama kümesi **yirmi sekiz vakaya** çıktı ve
+   **ikisi TEK AYETTE iki anlam taşıyor** (30:8 `سمو`, 30:55 `سوع`)
+5. Aday 700/739/771/779/781 — nakarat düzeltmesi + aday 903 + 926
+6. **P0 #8** `adsiz2` envanteri · **#9/#12** esmâ mührü token düzeyinde
+7. **Aday 948** — tarayıcının söz-eylemi varsayımı (yeni, en büyük açık borç)
+8. Aday 932/936/957 — A/R ve adlı aktör korpus dağılımları çıkarılmadı
+9. **Retroaktif gloss turu ÜÇÜNCÜ kez gerekti** (9:94 `عذر`, 12:65 `بضع`) — artık
+   kural: **her yeni kök eklemesi bir retroaktif tur gerektirir**

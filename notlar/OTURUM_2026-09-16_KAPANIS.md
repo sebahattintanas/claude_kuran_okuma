@@ -210,3 +210,86 @@ kökün AYET dağılımı hesaplanmadan kök sayısından ayet sayısına geçil
 
 Adaylar **937-939** (`AL_onarim2`). Denetimler: `turkce_denetim.py` → **0** ·
 `anahtar_denetim.py` → **22793 anahtar, 58 ihlâl, diff = 0**.
+
+---
+
+## EK 4 — P0 #5 LEMMA KATMANI: (a) PARÇASI KAPANDI
+
+Proje kendi kaydı gereği önce **envanter** çıkarıldı. Okumada belgelenmiş 28 vaka üç
+katmana karşı koşuldu: **LEMMA 22 · BAĞLAM 6 · BAB 0** — **aday 569/584'ün bab önerisi
+düştü, lemma katmanı onu kapsıyor.**
+
+**P0 #5 ikiye ayrıldı:** (a) lemma kimliği **maliyet 0** (morfolojide zaten var) ·
+(b) lemma glossu 2537 satır elle iş. (a) kapandı, (b) açık. **Ayrımın kendisi bulgu:
+P0 #5 üç oturumdur "pahalı" diye bekletiliyordu, ama pahalı olan yalnız gloss tarafı.**
+
+**Onarım 16-19:** `lemma_iskelet.json` (6236 ayet, yüzey iskeletiyle uzunluk farkı 0) ·
+`nakarat3` (1950 → **2260 ayet**, bir yanlış pozitif düştü) · olgu lemma tablosu ·
+çıpa tarayıcısı **v4** (havuz 680 → **481**, kesinlik **%35 → %47**, anma 7/7 ve 3/3
+korundu, çıpa kaybı 0).
+
+**İki kaydım düştü:** aday 906'nın "lemma katmanı nakarat2'nin iki çiftini görür"
+iddiası **iki vakada da yanlış** (biri 2 kelimelik, alt sınırın altında; öbürünün ortak
+birimi tek lemma — hiçbir n-gram alanı göremez) · aday 923'ün "%41 → %54" öngörüsü
+gerçekte **%35 → %47** (taban okuma notlarından hesaplanmıştı, tarayıcı çıktısından
+değil — aday 843'ün dördüncü tekrarı).
+
+**Kendi tablomda üç arıza** (aday 945): kapsam açığı (`موه` sessizce düşüyordu) ·
+`هوي` yanlış sınıflandı · şedde/hareke sırası 16 girdide korpustan farklı.
+
+**Ve denetimin yakaladığı dördüncü** (aday 946): olgu kümesinde `ريح` · `زتن` · `روس` ·
+`ثلج` — **rüzgâr ve zeytin kökleri v2'den beri hiç eşleşmiyormuş.** `anahtar_denetim`in
+okuma dışı bir betikte bulduğu ilk gerçek ölçüm arızası.
+
+Adaylar **940-946** (`AM_lemma`).
+
+**EK 4 devamı — ONARIM 20:** `nakarat` alt sınırı kararı da bu turda kapandı (aday 907/
+935/943 → **947**). Kararı mümkün kılan eşik değil **bileşim ölçümü** oldu: alt sınır 2
+ile gelen 3762 kalıbın yalnız **%28,9'u** iki köklü kelimeden kurulu. Üçüncü seçenek
+buradan çıktı — `ikili` alanı (2 kelime, ikisi de köklü): **2635 ayet (%42,3), 2030
+kalıp, sayılır ama yoruma sokulmaz.** Sınama 4/6 ve kaçan ikisi tanım gereği iki
+kelimelik kalıp değil. Adaylar **940-947**.
+
+---
+
+## EK 5 — SÛRE 30 (RÛM) OKUNDU, 60 AYET, ALTI BLOK
+
+Okunan toplam **2259 / 6236 ayet (%36,2)**; sûre 1 ve 9-30 tam.
+Aday **948-958** (`AN_rum`, 11 kayıt) · bağ **AJ_rum** 24 kayıt
+`kok_turkce.json` 1059 → **1069**
+
+**Okuma ilk kez ONARILMIŞ alanlarla koşuldu** (`hapaks2`, `fig2`, `nakarat3`,
+`yildiz2`, `z2`, tarayıcı v4) ve sûre 30 onarımlardan etkilenmedi — **karşılaştırılabilirlik
+korundu.**
+
+### Sûre 30 bilançosu
+60 ayet · ort n=13,62 · ★★★ 3 · ★★ 3 · ★ 9 · yıldızsız 45 (**%25,0 — en düşük**)
+Yıldız kaynakları: **pas 4 · allah 4 · n 3 · kafiye 2 · hapaks 1 · rab 1 · içerik 0**
+Lafız **24 / 21 ayet** · Rab **3 / 2** → **A/R = 8,00** (29'da 8,4)
+Esmâ 14 token: **mühürlü 6 → 6 geçerli** · mühürsüz 8 → 1 geçerli, 7 artefakt
+**Dört sûrede mühürlü yanlış pozitif SIFIR**
+Adlı aktör **2 token** (`رُوم` kavim, `قُرْءان` kitab) — **okumanın en azı**
+Çıpa **9** (L2 ×8, **L4 ×1**) · iltifât 1 · kafiye kırılması 2 · hapaks 1
+`harf` 3654 → `harf3` **3434**, isaret 201 (%5,5) · iç düğüm 9 ayet / 4 küme
+
+### Turun iki ana bulgusu
+**(1) Tarayıcı çöktü: anma 2/9.** Yedi çıpa da düz haber cümlesi. TAM SAYIM: 3+ olgu
+köklü 221 ayetin **%61'i** hiçbir işaret ailesi tetiklemiyor. **Üç tarayıcı sürümünün
+ortak varsayımı ("çıpa bir söz eylemi işareti taşır") yanlış çıktı.**
+
+**(2) Okumanın üçüncü L4'ü ve mekanizma kolu doldu (30:48).** Ve **30:24 → 30:48
+karşılaştırması merdivenin çalıştığını kanıtlıyor:** aynı olgu, iki aşamada L2, beş
+aşamada L4.
+
+### Denetimler
+- `turkce_denetim.py` → **0** (1069 kök)
+- `anahtar_denetim.py` → **31101 anahtar, 70 ihlâl, ihlâl listesi diff = 0**
+- **Denetimin yakaladığı kendi kusurlarım (dokuz ihlâl):** Arapça sabitlerde hareke ile
+  şedde sırası korpustan farklı (aday 945'te kaydedilen hatanın tekrarı) ve Arapça
+  dizgelerin içine kaçan Latin `→`/`+` işaretleri. Hepsi düzeltildi.
+- **Retroaktif gloss turu ÜÇÜNCÜ kez gerekti** (9:94 `عذر`, 12:65 `بضع`);
+  `yama_retroaktif_gloss_30.py`.
+
+### Devam noktası
+Sûre 31 (Lokmân) ya da sûre 2'nin 21. ayeti. **En büyük açık borç aday 948** —
+tarayıcının söz-eylemi varsayımı.

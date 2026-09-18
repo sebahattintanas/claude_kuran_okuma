@@ -55,12 +55,12 @@ def olcum(s, a, ek=''):
     # eksen
     if r['A']:
         P.append('**ALLAH LAFZI** %s. sırada (%d token, allah z=%s)'
-                 % (', '.join(str(x) for x in r['A']), len(r['A']), ('%.2f' % r['z']['allah']).replace('.', ','))) \
+                 % (', '.join(str(x) for x in r['A']), len(r['A']), ('%.2f' % r['z2']['allah']).replace('.', ','))) \
             if len(r['A']) > 1 else P.append('**ALLAH LAFZI** %d. sırada (allah z=%s)'
-                                             % (r['A'][0], ('%.2f' % r['z']['allah']).replace('.', ',')))
+                                             % (r['A'][0], ('%.2f' % r['z2']['allah']).replace('.', ',')))
     if r['R']:
         P.append('**رَبّ** %s. sırada (rab z=%s)'
-                 % (', '.join(str(x[0]) for x in r['R']), ('%.2f' % r['z']['rab']).replace('.', ',')))
+                 % (', '.join(str(x[0]) for x in r['R']), ('%.2f' % r['z2']['rab']).replace('.', ',')))
     if not r['A'] and not r['R']:
         P.append('**lafız YOK · Rab YOK**')
 
@@ -86,7 +86,7 @@ def olcum(s, a, ek=''):
     # edim / kip / biçim
     P.append('edim ' + (', '.join(r['edim']) if r['edim'] else 'haber')
              + (', kip ' + _tr(r['kip'], ' · ') if r['kip'] else ', kip yok')
-             + (', **biçim %s**' % ' + '.join(r['fig']) if r['fig'] else ''))
+             + (', **biçim %s**' % ' + '.join(r['fig2']) if r['fig'] else ''))
 
     # şahıs
     P.append('şahıs %s, sahset %s, baskın %s, iltifât %d'
@@ -95,8 +95,8 @@ def olcum(s, a, ek=''):
 
     # ölçü
     P.append('n=%d (n z=%s), fâsıla %s → %s, %s sınıfı%s'
-             % (r['n'], ('%.2f' % r['z']['n']).replace('.', ','), r['fs'][0], r['fs'][1], r['fs'][2],
-                ' — **KAFİYE KIRILMASI**' if r['z']['kafiye_kirik'] else ''))
+             % (r['n'], ('%.2f' % r['z2']['n']).replace('.', ','), r['fs'][0], r['fs'][1], r['fs'][2],
+                ' — **KAFİYE KIRILMASI**' if r['z2']['kafiye_kirik'] else ''))
     P.append('i\u2019râb ' + (_tr(r['irab']) if r['irab'] else '—')
              + '; bab ' + (_bab(r['vf']) if r['vf'] else 'yok')
              + '; zaman ' + (_tr(r['zmn']) if r['zmn'] else 'yok'))
@@ -104,11 +104,11 @@ def olcum(s, a, ek=''):
     tf = sum(r['vf'].values())
     if r['pas']:
         P.append('**EDİLGEN %d/%d fiil, pas z=%s**'
-                 % (r['pas'], tf, ('%.2f' % r['z']['pas']).replace('.', ',')))
-    if r['hapaks']:
+                 % (r['pas'], tf, ('%.2f' % r['z2']['pas']).replace('.', ',')))
+    if r['hapaks2']:
         P.append('**HAPAKS: %s — hapaks z=%s**'
-                 % (', '.join(_gloss(k) for k in r['hapaks']),
-                    ('%.2f' % r['z']['hapaks']).replace('.', ',')))
+                 % (', '.join(_gloss(k) for k in r['hapaks2']),
+                    ('%.2f' % r['z2']['hapaks']).replace('.', ',')))
     if r['ikile']:
         P.append('kök ikilemesi ' + ' · '.join('%s ×%d' % (_gloss(k), v) for k, v in sorted(r['ikile'].items())))
     if r['mm2']:
@@ -123,7 +123,7 @@ def olcum(s, a, ek=''):
                 ' · İÇ düğüm %d' % r['dugum']['ic'] if r['dugum']['ic'] else '',
                 ' · nakarat %d (temsil %s)' % (r['dugum']['nakarat'], r['dugum']['temsil'])
                 if r['dugum']['nakarat'] else '',
-                '★' * r['yildiz'] if r['yildiz'] else 'yok'))
+                '★' * r['yildiz2'] if r['yildiz2'] else 'yok'))
 
     # kökler — sûre içi geçiş sayacıyla
     sk = collections.defaultdict(list)
@@ -148,15 +148,15 @@ def olcum(s, a, ek=''):
         bg.append('**esit2 → ' + ' · '.join('%d:%d oran %s kademe %s'
                                             % (x[0], x[1], ('%.4f' % x[2]).replace('.', ','), x[3].upper())
                                             for x in r['esit2']) + '**')
-    if r['nakarat2']:
-        for ng, cnt, tip in r['nakarat2']:
+    if r['nakarat3']:
+        for ng, cnt, tip in r['nakarat3']:
             w = len(ng.split())
-            bg.append('`nakarat2` %r (%d kelime / %d ayet, tür %s) → süzgeç **%s**'
+            bg.append('`nakarat3` %r (%d kelime / %d ayet, tür %s) → süzgeç **%s**'
                       % (ng, w, cnt, tip, 'GEÇER' if (cnt >= 3 or w >= 4) else 'GEÇMEZ'))
     if r['xref']:
         bg.append('xref ' + ' · '.join('%s → %s' % (g, ', '.join('%d:%d' % tuple(h) for h in hs))
                                        for g, hs in r['xref']))
-    P.append('bağ: ' + (' | '.join(bg) if bg else 'YOK (esit2, nakarat2, xref üçü de boş)'))
+    P.append('bağ: ' + (' | '.join(bg) if bg else 'YOK (esit2, nakarat3, xref üçü de boş)'))
 
     if ek:
         P.append(ek)

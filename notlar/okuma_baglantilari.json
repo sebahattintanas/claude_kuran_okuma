@@ -11668,5 +11668,127 @@
    "kural": "L2",
    "not": "**Alan arızası:** ayette `كَلَّا` yok, `فَكُلًّا` var (ROOT:كلل|LEM:كُلّ). TAM SAYIM: `fig`=KELLA olan 48 ayetin 15'inde (%31) morfolojide LEM:كَلّا yok; yanlış negatif sıfır (aday 927)."
   }
+ ],
+ "AJ_rum": [
+  {
+   "bag": "30:48 (L4)",
+   "kural": "L2",
+   "not": "**Okumanın ÜÇÜNCÜ L4'ü ve MEKANİZMA kolunu dolduran ilk ayet.** Beş aşamalı süreç, ara durumlar adlandırılmış (`سَحاب`, `كِسَف`, `وَدْق`), çıkışın yeri belirtilmiş. **L4'ün üç kolu artık örneklenmiş: ölçü 29:14 · sınıflama 29:40 · mekanizma 30:48** (aday 949)."
+  },
+  {
+   "bag": "30:24 ↔ 30:48",
+   "kural": "L2",
+   "not": "**Merdivenin çalıştığının kanıtı: aynı olgu (yağmur), 30:24'te iki aşamada verilip L2, 30:48'de ara aşamalar açılınca L4.** Kademe konuyu değil İDDİA YAPISINI ölçüyor (aday 949)."
+  },
+  {
+   "bag": "30:11 ↔ 30:27 ↔ 29:19 ↔ 27:64",
+   "kural": "L1",
+   "not": "`بدأ`+`عود` döngü iddiası dört ayette. **30:11 ve 30:27 düz haber, 29:19 soru kipinde — kademe aynı: iddia yapısı ölçülüyor, konuşma edimi değil.** `nakarat3` 30:11↔30:27'yi bağlıyor (dört kelime); `xref` 27:64'ü de gösteriyor. **Tarayıcı üçünü de kaçırdı.**"
+  },
+  {
+   "bag": "30:19 ↔ 30:24 ↔ 30:50 ↔ 29:63",
+   "kural": "L1",
+   "not": "`يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا` kalıbı üç L2 çıpasında ve emsali 29:63'te. **`nakarat3` yalnız 30:19↔30:24'ü bağlıyor; üçünü birden gören alan yok** (30:50'de araya `كَيْفَ` giriyor)."
+  },
+  {
+   "bag": "30:52 ↔ 27:80",
+   "kural": "L2",
+   "not": "**Okumanın en yüksek `esit2` değerlerinden: 0,9888.** Beş `xref` 3-gram'ının beşi de aynı ayete düşüyor — **okumada ölçülen en tam örtüşme**; fark tek kelimede (aday 950)."
+  },
+  {
+   "bag": "30:53 ↔ 27:81",
+   "kural": "L2",
+   "not": "**0,9905 — mukattaa TAM'ları dışında okumanın en yüksek `esit2` değeri.** Ve 30:52↔27:80 ile birlikte **okumada ilk kez bir ayet ÇİFTİ, başka bir sûredeki ayet ÇİFTİNE sırasıyla bağlanıyor.** `esit2` bunu iki ayrı ikili bağla veriyor; **alan AYET düzeyinde çalışıyor, BÖLÜT düzeyinde değil** (aday 950)."
+  },
+  {
+   "bag": "30:34 ↔ 16:55 ↔ 29:66",
+   "kural": "L2",
+   "not": "**Aday 929'un üçlüsü tamamlandı ve eşkenar olmadığı ortaya çıktı:** 30:34↔16:55 = **1,0 TAM**, ötekiler 0,9275. **Bağların ağırlıkları farklı; küme yapısı ancak üç uç da okununca görünüyor** (aday 951)."
+  },
+  {
+   "bag": "30:37 ↔ 39:52",
+   "kural": "L1",
+   "not": "**Okumada ikinci 'yakin' kademesi (0,9649).** Ayrıca `يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ` cümlesinin **üçüncü geçişi**: 28:82 (insan sözü) · 29:62 (ilâhî beyan) · 30:37 (soru). **Aynı önerme, üç sûre, üç konuşma edimi — üçünü bağlayan alan yok.**"
+  },
+  {
+   "bag": "30:9 ↔ 30:42",
+   "kural": "L2",
+   "not": "**`عقب` dışlama kuralının tutulan kümedeki iki sınaması ve ikisi de tuttu.** 30:42 kalıbı hem `نظر` hem EMİR kipiyle taşıyor — dışlama olmasaydı kesin aday olurdu. `nakarat3` ikisini bağlıyor (beş kelime), `dugum.ic` ikisinde de 1 (aday 956)."
+  },
+  {
+   "bag": "30:30 ↔ 30:43",
+   "kural": "L1",
+   "not": "`فَأَقِمْ وَجْهَكَ لِلدِّينِ` on üç ayet arayla birebir. **`nakarat3` kalıbı görüyor ama süzgeci geçiremiyor (2 ayet / 3 kelime); `dugum.ic` ikisini de 1 sayıyor** — 29:32↔29:33'te kaydedilen 'iki alan aynı kalıba farklı davranıyor' deseninin üçüncü örneği."
+  },
+  {
+   "bag": "30:12 ↔ 30:14 ↔ 30:55",
+   "kural": "L1",
+   "not": "`وَيَوْمَ تَقُومُ ساعَة (Kıyamet)ُ` **üç uçlu iç düğüm, kırk üç ayetlik açıklık.** Sûrenin ilk bloğunda açılıp kapanış bloğunda üçüncü ucunu veriyor. `nakarat3` üçünü de sayıyor (3 kelime / 3 ayet → geçer)."
+  },
+  {
+   "bag": "30:46 ↔ aday 946",
+   "kural": "L2",
+   "not": "**Çıpa ANCAK bu oturumdaki onarım sayesinde görünüyor.** `anahtar_denetim.py` olgu kümesindeki `ريح` yazımının korpusta bulunmadığını, rüzgârın `روح` kökü altında (`LEM:رِيح`) olduğunu yakalamıştı; **düzeltme olmasaydı sûrenin en açık L2'lerinden biri havuza hiç girmeyecekti** (aday 956)."
+  },
+  {
+   "bag": "30:29 ↔ aday 945",
+   "kural": "L1",
+   "not": "`هوي` kökü lemma turunda `BAGLAM_GEREKLI` listesine alınmıştı (`هَواء` hem 'hava' hem 'heva'). **30:29'da `أَهْوَآءَهُم` açıkça 'hevesler' ve olgu değil — karar tutulan kümede doğrulandı.**"
+  },
+  {
+   "bag": "30:37 ↔ aday 944",
+   "kural": "L1",
+   "not": "**Lemma süzgecinin doğru negatifi:** `رأي` + `INTG` var, yani `G_bakış`ın iki şartı sağlanıyor; üçüncü şart sağlanmıyor çünkü `قدر` burada `يَقْدِرُ` (lemma `قَدَرَ`) ve onarılmış tabloda bu lemma olgu değil. **Rızkın genişletilmesi bir doğa olgusu değil.**"
+  },
+  {
+   "bag": "30:59 ↔ 29:21",
+   "kural": "L2",
+   "not": "**Komşuluk ölçümünün ilk SÛRE-AŞIRI doğrulaması.** 29:21'de `قلب` profilinde `طبع` ×39,4 durmuş ve 'lemma yanlış: P0 #5 vakası' diye kaydedilmişti; **otuz dokuz ayet ve bir sûre sonra kalıp DOĞRU lemmayla metne giriyor** (aday 958)."
+  },
+  {
+   "bag": "30:8 · 30:55",
+   "kural": "L1",
+   "not": "**P0 #5'in en keskin iki vakası: TEK AYETTE iki anlam.** 30:8'de `سمو` = gökler + adlandırılmış; 30:55'te `سوع` = Kıyamet + bir saat. **30:55'te ayetin bütün retorik yükü tam bu ayrımın üzerinde.** Bağlam bile ayırt edici değil; ayrım kelime düzeyinde yapılmak zorunda (aday 954)."
+  },
+  {
+   "bag": "30:2",
+   "kural": "L1",
+   "not": "**Okumada ★★★ alan en kısa ayet: İKİ kelime.** Tek fiil, edilgen, oran 1,00, pas z=**5,38** — aday 903'ün ikinci otomatik tetikleyicisi dördüncü sûrede (28:70 · 29:57 · 30:2). `dis`=0 ve üç bağ alanı boş: **hiçbir yere bağlanmayan iki kelime, en yüksek nişanla.**"
+  },
+  {
+   "bag": "30:17",
+   "kural": "L2",
+   "not": "**Okumada ★★★'ı iki bağımsız kaynaktan alan ilk ayet:** hapaks z=3,38 VE allah z=2,80. **TAM SAYIM: korpusta iki+ ölçütü |z|>2 olan 89 ayet.** Formül en büyüğünü alıyor, toplamıyor — **iki bağımsız olgunun birlikteliği ölçümde kayboluyor** (aday 952)."
+  },
+  {
+   "bag": "30:5 · 30:11 · 30:59",
+   "kural": "L2",
+   "not": "**Aynı oran üç kez aynı z'yi veriyor:** üçü de 1 lafız / 8 kelime → allah z=**1,97** → ★. Aday 931'in payda etkisi kaydının yedinci, sekizinci ve dokuzuncu vakası."
+  },
+  {
+   "bag": "29:6 · 29:44 · 30:60",
+   "kural": "L2",
+   "not": "**`allah` z=1,47 üç kez ve üçü de eşiğin 0,03 altında, üçü de yıldızsız.** Üçünde de bir lafız ve uzunluk 10-11 kelime — **eşiğin dibinde kümelenme.**"
+  },
+  {
+   "bag": "30:50 · 30:54",
+   "kural": "L2",
+   "not": "**Sûre 30'un iki kafiye kırılması ve ikisi de yalnız kafiyeden ★.** Okumada dördüncü ve beşinci vaka (28:28, 29:21, 29:22). Aday 933'ün 'alan yerel komşuluğu ölçüyor' kaydı beşinci kez."
+  },
+  {
+   "bag": "30:15 · 30:48 · 30:54 · 30:57",
+   "kural": "L1",
+   "not": "**Nadirlik yığılması ≠ hapaks — sûrede dört vaka.** `روض` 2 · `ودق` 2 · `شيب` 3 · `عتب` 4 ayet; hiçbiri `hapaks2` değil. **30:48 okumada ölçülen en yoğun örnek: üç dar kök (2, 5, 11 ayet) tek ayette ve ayetin yıldızı yalnız uzunluktan.** 28:12'nin ayrımı."
+  },
+  {
+   "bag": "30:41",
+   "kural": "L2",
+   "not": "**'Olgu' bayrağının tanım açığı ilk kez BELİRLEYİCİ oldu.** Kara ve deniz olgu kökleri, iddia onlarda gerçekleşen bir değişimi bildiriyor, nedensellik açık — ama öznesi `ٱلْفَسَاد`. **Bayrak olgunun KONUSU mu YERİ mi sayılacağını söylemiyor.** L2/olgu-hayır verildi, KAPATILAMAZ kaydedildi (aday 955)."
+  },
+  {
+   "bag": "30:33 ↔ 29:65",
+   "kural": "L1",
+   "not": "**Aynı davranış düzenliliği, iki sûre, ve ölçüm bağlamıyor.** Orada gemiye binince ihlâs / karaya çıkınca şirk; burada zarar dokununca yakarış / rahmet tadınca şirk. `esit2` boş, `nakarat3` boş, `xref` başka ayetlere gidiyor."
+  }
  ]
 }
