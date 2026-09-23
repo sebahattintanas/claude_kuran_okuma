@@ -1,0 +1,498 @@
+{
+ "m_test": 636,
+ "esik": 7.861635220125787e-05,
+ "M_havuz_kelime": 13600,
+ "havuz_ayet": 964,
+ "ad": {
+  "Âdem": {
+   "anma_ayet": 25,
+   "pencere": 61,
+   "ozel_ayet": 52,
+   "ozel_kelime": 832,
+   "ait": [
+    [
+     "سجد",
+     14,
+     29,
+     14.7,
+     "2.1e-10",
+     [
+      2,
+      7,
+      17,
+      18,
+      20
+     ]
+    ],
+    [
+     "شجر",
+     5,
+     6,
+     79.0,
+     "4.2e-06",
+     [
+      2,
+      7,
+      17,
+      20
+     ]
+    ],
+    [
+     "شطن",
+     7,
+     18,
+     10.0,
+     "4.6e-05",
+     [
+      2,
+      7,
+      20,
+      36
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "İdrîs": {
+   "anma_ayet": 2,
+   "pencere": 6,
+   "ozel_ayet": 1,
+   "ozel_kelime": 8,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Nûh": {
+   "anma_ayet": 43,
+   "pencere": 123,
+   "ozel_ayet": 78,
+   "ozel_kelime": 924,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Hûd": {
+   "anma_ayet": 10,
+   "pencere": 29,
+   "ozel_ayet": 17,
+   "ozel_kelime": 234,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Sâlih": {
+   "anma_ayet": 9,
+   "pencere": 23,
+   "ozel_ayet": 16,
+   "ozel_kelime": 230,
+   "ait": [],
+   "tek_sure": []
+  },
+  "İbrâhim": {
+   "anma_ayet": 63,
+   "pencere": 163,
+   "ozel_ayet": 95,
+   "ozel_kelime": 1307,
+   "ait": [
+    [
+     "حنف",
+     6,
+     7,
+     58.4,
+     "4.2e-06",
+     [
+      3,
+      4,
+      6,
+      16
+     ]
+    ],
+    [
+     "شرك",
+     8,
+     16,
+     9.7,
+     "3.6e-05",
+     [
+      3,
+      6,
+      9,
+      16,
+      22
+     ]
+    ],
+    [
+     "حجج",
+     6,
+     9,
+     19.5,
+     "4.3e-05",
+     [
+      2,
+      3,
+      22
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "Lût": {
+   "anma_ayet": 27,
+   "pencere": 72,
+   "ozel_ayet": 38,
+   "ozel_kelime": 389,
+   "ait": [
+    [
+     "نجو",
+     7,
+     35,
+     8.8,
+     "4.0e-05",
+     [
+      15,
+      21,
+      27,
+      29,
+      37,
+      54
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "İsmâil": {
+   "anma_ayet": 12,
+   "pencere": 35,
+   "ozel_ayet": 0,
+   "ozel_kelime": 0,
+   "ait": [],
+   "tek_sure": []
+  },
+  "İshak": {
+   "anma_ayet": 16,
+   "pencere": 46,
+   "ozel_ayet": 2,
+   "ozel_kelime": 9,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Yakub": {
+   "anma_ayet": 16,
+   "pencere": 46,
+   "ozel_ayet": 2,
+   "ozel_kelime": 40,
+   "ait": [],
+   "tek_sure": [
+    [
+     "وكل",
+     3,
+     14,
+     92.5,
+     "8.4e-06",
+     [
+      12
+     ]
+    ]
+   ]
+  },
+  "Yûsuf": {
+   "anma_ayet": 26,
+   "pencere": 61,
+   "ozel_ayet": 53,
+   "ozel_kelime": 865,
+   "ait": [],
+   "tek_sure": [
+    [
+     "أبو",
+     19,
+     48,
+     9.9,
+     "1.9e-11",
+     [
+      12
+     ]
+    ],
+    [
+     "أخو",
+     12,
+     45,
+     5.5,
+     "1.2e-05",
+     [
+      12
+     ]
+    ],
+    [
+     "جهز",
+     4,
+     4,
+     "inf",
+     "1.5e-05",
+     [
+      12
+     ]
+    ],
+    [
+     "سرق",
+     4,
+     4,
+     "inf",
+     "1.5e-05",
+     [
+      12
+     ]
+    ]
+   ]
+  },
+  "Eyyûb": {
+   "anma_ayet": 4,
+   "pencere": 12,
+   "ozel_ayet": 4,
+   "ozel_kelime": 33,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Şuayb": {
+   "anma_ayet": 10,
+   "pencere": 28,
+   "ozel_ayet": 25,
+   "ozel_kelime": 390,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Mûsâ": {
+   "anma_ayet": 131,
+   "pencere": 331,
+   "ozel_ayet": 258,
+   "ozel_kelime": 3797,
+   "ait": [
+    [
+     "لقي",
+     29,
+     41,
+     6.5,
+     "7.2e-09",
+     [
+      6,
+      7,
+      10,
+      20,
+      26,
+      27,
+      28,
+      32
+     ]
+    ],
+    [
+     "عصو",
+     10,
+     10,
+     "inf",
+     "2.1e-06",
+     [
+      2,
+      7,
+      20,
+      26,
+      27,
+      28
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "Hârûn": {
+   "anma_ayet": 20,
+   "pencere": 59,
+   "ozel_ayet": 12,
+   "ozel_kelime": 88,
+   "ait": [
+    [
+     "خوف",
+     4,
+     36,
+     20.1,
+     "6.9e-05",
+     [
+      26,
+      28
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "Dâvûd": {
+   "anma_ayet": 16,
+   "pencere": 42,
+   "ozel_ayet": 18,
+   "ozel_kelime": 310,
+   "ait": [
+    [
+     "بعض",
+     8,
+     32,
+     14.6,
+     "3.7e-07",
+     [
+      2,
+      17,
+      38
+     ]
+    ]
+   ],
+   "tek_sure": [
+    [
+     "نعج",
+     4,
+     4,
+     "inf",
+     "2.4e-07",
+     [
+      38
+     ]
+    ]
+   ]
+  },
+  "Süleyman": {
+   "anma_ayet": 16,
+   "pencere": 39,
+   "ozel_ayet": 16,
+   "ozel_kelime": 265,
+   "ait": [],
+   "tek_sure": [
+    [
+     "نمل",
+     3,
+     3,
+     "inf",
+     "6.7e-06",
+     [
+      27
+     ]
+    ]
+   ]
+  },
+  "İlyâs": {
+   "anma_ayet": 3,
+   "pencere": 9,
+   "ozel_ayet": 6,
+   "ozel_kelime": 24,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Elyesa": {
+   "anma_ayet": 2,
+   "pencere": 6,
+   "ozel_ayet": 0,
+   "ozel_kelime": 0,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Yûnus": {
+   "anma_ayet": 4,
+   "pencere": 12,
+   "ozel_ayet": 6,
+   "ozel_kelime": 56,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Zekeriyyâ": {
+   "anma_ayet": 6,
+   "pencere": 16,
+   "ozel_ayet": 6,
+   "ozel_kelime": 77,
+   "ait": [],
+   "tek_sure": [
+    [
+     "وضع",
+     3,
+     6,
+     182.8,
+     "3.1e-06",
+     [
+      3
+     ]
+    ]
+   ]
+  },
+  "Yahyâ": {
+   "anma_ayet": 5,
+   "pencere": 15,
+   "ozel_ayet": 5,
+   "ozel_kelime": 52,
+   "ait": [],
+   "tek_sure": []
+  },
+  "Îsâ": {
+   "anma_ayet": 31,
+   "pencere": 85,
+   "ozel_ayet": 53,
+   "ozel_kelime": 1140,
+   "ait": [
+    [
+     "بني",
+     22,
+     72,
+     4.9,
+     "3.4e-08",
+     [
+      2,
+      3,
+      4,
+      5,
+      9,
+      19,
+      61
+     ]
+    ],
+    [
+     "حور",
+     5,
+     5,
+     "inf",
+     "3.7e-06",
+     [
+      3,
+      5,
+      61
+     ]
+    ],
+    [
+     "نصر",
+     11,
+     31,
+     6.2,
+     "2.0e-05",
+     [
+      3,
+      4,
+      5,
+      9,
+      61
+     ]
+    ],
+    [
+     "كفر",
+     18,
+     80,
+     3.3,
+     "6.5e-05",
+     [
+      2,
+      3,
+      4,
+      5,
+      9,
+      61
+     ]
+    ]
+   ],
+   "tek_sure": []
+  },
+  "Muhammed": {
+   "anma_ayet": 4,
+   "pencere": 11,
+   "ozel_ayet": 11,
+   "ozel_kelime": 212,
+   "ait": [],
+   "tek_sure": []
+  }
+ }
+}

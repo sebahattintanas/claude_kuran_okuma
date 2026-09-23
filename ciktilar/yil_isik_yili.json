@@ -1,0 +1,52 @@
+{
+ "L1": {
+  "gozlenen": 5,
+  "eslesenler": {
+   "28:27": [
+    "Sirius"
+   ],
+   "5:26": [
+    "Arcturus"
+   ],
+   "46:15": [
+    "Arcturus"
+   ],
+   "29:14": [
+    "Galaksi disk kalınlığı"
+   ],
+   "2:96": [
+    "Galaksi disk kalınlığı"
+   ]
+  },
+  "N1": {
+   "bos_ort": 2.555,
+   "p": 0.0804
+  },
+  "N2": {
+   "bos_ort": 3.595,
+   "p": 0.2633
+  }
+ },
+ "L2": {
+  "gozlenen": 3,
+  "eslesenler": {
+   "28:27": [
+    "Sirius"
+   ],
+   "5:26": [
+    "Arcturus"
+   ],
+   "46:15": [
+    "Arcturus"
+   ]
+  },
+  "N1": {
+   "bos_ort": 2.407,
+   "p": 0.4484
+  },
+  "N2": {
+   "bos_ort": 3.006,
+   "p": 0.6252
+  }
+ }
+}

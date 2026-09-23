@@ -1,0 +1,238 @@
+{
+ "sayim": {
+  "INS": 71,
+  "NAS": 241,
+  "BES": 37
+ },
+ "A": {
+  "m": 604,
+  "esik": 8.278145695364238e-05,
+  "bolge": {
+   "INS": {
+    "anma_ayet": 69,
+    "pencere": 195,
+    "ozel": 182
+   },
+   "NAS": {
+    "anma_ayet": 225,
+    "pencere": 603,
+    "ozel": 577
+   },
+   "BES": {
+    "anma_ayet": 37,
+    "pencere": 103,
+    "ozel": 88
+   }
+  },
+  "INS": [
+   [
+    "خلق",
+    33,
+    79,
+    4.6,
+    "5.9e-10",
+    21
+   ],
+   [
+    "وزر",
+    7,
+    8,
+    44.6,
+    "5.9e-06",
+    3
+   ]
+  ],
+  "NAS": [
+   [
+    "أله",
+    494,
+    565,
+    2.4,
+    "1.3e-14",
+    38
+   ]
+  ],
+  "BES": [
+   [
+    "قول",
+    48,
+    288,
+    2.1,
+    "6.6e-06",
+    17
+   ],
+   [
+    "مثل",
+    16,
+    59,
+    3.9,
+    "2.6e-05",
+    10
+   ]
+  ]
+ },
+ "profil": {
+  "INS": {
+   "hitap_yok": 69,
+   "DET_yok": 7,
+   "GEN": 14,
+   "tip_D": 10,
+   "son_degil": 70,
+   "DET": 64,
+   "NOM": 29,
+   "tip_M": 61,
+   "ACC": 28,
+   "son": 1,
+   "hitap": 2
+  },
+  "NAS": {
+   "hitap_yok": 221,
+   "DET": 241,
+   "GEN": 151,
+   "tip_D": 122,
+   "son_degil": 236,
+   "NOM": 42,
+   "hitap": 20,
+   "ACC": 48,
+   "tip_M": 119,
+   "son": 5
+  },
+  "BES": {
+   "hitap_yok": 37,
+   "DET_yok": 32,
+   "NOM": 16,
+   "tip_D": 4,
+   "son_degil": 33,
+   "GEN": 11,
+   "tip_M": 33,
+   "ACC": 10,
+   "DET": 5,
+   "son": 4
+  }
+ },
+ "B": {
+  "B1_hitap": {
+   "tablo": {
+    "INS": {
+     "hitap": 2,
+     "hitap_yok": 69
+    },
+    "NAS": {
+     "hitap": 20,
+     "hitap_yok": 221
+    },
+    "BES": {
+     "hitap": 0,
+     "hitap_yok": 37
+    }
+   },
+   "oran": {
+    "INS": 0.028,
+    "NAS": 0.083,
+    "BES": 0.0
+   },
+   "chi2": 5.57,
+   "p": "6.14e-02",
+   "yontem": "MC"
+  },
+  "B2_DET": {
+   "tablo": {
+    "INS": {
+     "DET": 64,
+     "DET_yok": 7
+    },
+    "NAS": {
+     "DET": 241,
+     "DET_yok": 0
+    },
+    "BES": {
+     "DET": 5,
+     "DET_yok": 32
+    }
+   },
+   "oran": {
+    "INS": 0.901,
+    "NAS": 1.0,
+    "BES": 0.135
+   },
+   "chi2": 241.87,
+   "p": "5.00e-05",
+   "yontem": "MC"
+  },
+  "B3_hal": {
+   "tablo": {
+    "INS": {
+     "NOM": 29,
+     "ACC": 28,
+     "GEN": 14
+    },
+    "NAS": {
+     "NOM": 42,
+     "ACC": 48,
+     "GEN": 151
+    },
+    "BES": {
+     "NOM": 16,
+     "ACC": 10,
+     "GEN": 11
+    }
+   },
+   "oran": {
+    "INS": 0.408,
+    "NAS": 0.174,
+    "BES": 0.432
+   },
+   "chi2": 49.78,
+   "p": "4.02e-10",
+   "yontem": "asimptotik"
+  },
+  "B4_nuzul": {
+   "tablo": {
+    "INS": {
+     "tip_M": 61,
+     "tip_D": 10
+    },
+    "NAS": {
+     "tip_M": 119,
+     "tip_D": 122
+    },
+    "BES": {
+     "tip_M": 33,
+     "tip_D": 4
+    }
+   },
+   "oran": {
+    "INS": 0.859,
+    "NAS": 0.494,
+    "BES": 0.892
+   },
+   "chi2": 44.58,
+   "p": "2.08e-10",
+   "yontem": "asimptotik"
+  },
+  "B5_son": {
+   "tablo": {
+    "INS": {
+     "son": 1,
+     "son_degil": 70
+    },
+    "NAS": {
+     "son": 5,
+     "son_degil": 236
+    },
+    "BES": {
+     "son": 4,
+     "son_degil": 33
+    }
+   },
+   "oran": {
+    "INS": 0.014,
+    "NAS": 0.021,
+    "BES": 0.108
+   },
+   "chi2": 9.48,
+   "p": "2.18e-02",
+   "yontem": "MC"
+  }
+ }
+}
