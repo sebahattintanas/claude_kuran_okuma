@@ -11790,5 +11790,64 @@
    "kural": "L1",
    "not": "**Aynı davranış düzenliliği, iki sûre, ve ölçüm bağlamıyor.** Orada gemiye binince ihlâs / karaya çıkınca şirk; burada zarar dokununca yakarış / rahmet tadınca şirk. `esit2` boş, `nakarat3` boş, `xref` başka ayetlere gidiyor."
   }
+ ],
+ "AK_lokman": [
+  {
+   "bag": "31:1 ↔ 2:1 · 3:1 · 29:1 · 30:1 · 32:1",
+   "kural": "esit2 TAM",
+   "not": "Altı ALM açılışı. Bu oturumun ön-kayıtlı ALM pilotunda ayet başı ve kelime başı dizilişi rastgeleden ayırt EDİLEMEDİ (Ö3 p=0,58 · Ö4 p=0,33); dizilişe dair iddia kurulmaz."
+  },
+  {
+   "bag": "31:4 → 27:3 (TAM) · 31:5 → 2:5 (TAM)",
+   "kural": "esit2",
+   "not": "**Lokmân'ın açılışı Neml ve Bakara açılışlarının tanım cümlelerini art arda taşıyor.**"
+  },
+  {
+   "bag": "31:12 → 27:40",
+   "kural": "okuma gözlemi",
+   "not": "'Kim şükrederse kendisi için şükreder' yapısı Süleyman'ın sözüyle aynı (doğrulandı). شكر, Süleyman merceğinde üç sahneli köklerden biriydi."
+  },
+  {
+   "bag": "31:26 → 22:64 (BENZER) · 31:30 → 22:62 (YAKIN 0,98)",
+   "kural": "esit2",
+   "not": "**Sûre 31'in bağ hedeflerinde Hac başta: 12 bağ.** Kapanışa yakın bölüm Hac 22:61-65 dizisiyle örtüşüyor."
+  },
+  {
+   "bag": "31:8 (sâlihât köprüsü)",
+   "kural": "ölçüm bağı",
+   "not": "33 köprü çapasından biri: öncül 31:6-7'de azap, ardılda cennetler. Blok yapıyı birebir taşıyor."
+  }
+ ],
+ "AL_secde": [
+  {
+   "bag": "32:4 → 7:54, 10:3, 25:59, 57:4",
+   "kural": "yaratılış sırası grafiği",
+   "not": "'Altı günde yaratma → SONRA Arş'a istivâ' kalıbını taşıyan beş ayetten biri. Kenar gök-yer arasında DEĞİL, yaratılış ile istivâ arasında."
+  },
+  {
+   "bag": "32:7 → 32:8 → 32:9",
+   "kural": "yaratılış sırası grafiği",
+   "not": "**Grafiğin üç kenarının kaynağı bu ayet zinciri:** طِين → سُلالَة (32:7-8) ve سُلالَة → سَوَّى/نَفَخَ (32:8-9). Tesviye ve nefh HER ZAMAN maddeden sonra (15:28-29, 32:7-9, 38:71-72)."
+  },
+  {
+   "bag": "32:19 → 53:15",
+   "kural": "TAM SAYIM (me'vâ + cennet 4 ayet: 5:72, 32:19, 53:15, 79:41)",
+   "not": "Necm'de sidrenin yanındaki Me'vâ cenneti, burada iman + sâlih amelin karşılığı. 32:19 ayrıca bir köprü çapası."
+  },
+  {
+   "bag": "32:23 → 17:2",
+   "kural": "xref",
+   "not": "Mûsâ'ya Kitap ve İsrâiloğullarına hidayet. 17:1 (gece yolculuğu) bu oturumda ayrıca incelendi; 17:2 onun hemen ardılı."
+  },
+  {
+   "bag": "32:16 → 7:56",
+   "kural": "TAM SAYIM (دعو + خوف + طمع: yalnız iki ayet)",
+   "not": "'Korku ve umutla dua'. 7:56 'Allah'ın rahmeti muhsinlere YAKINDIR' ile sürüyor — dua taramasındaki yakınlık hattı (2:186, 40:60)."
+  },
+  {
+   "bag": "32:26 → 20:128 (BENZER 0,88)",
+   "kural": "esit2",
+   "not": "'İşitmiyorlar mı' (32:26) ve 'görmüyorlar mı' (32:27): 32:9'da verilen yetiler sûrenin kapanışında soruya dönüşüyor."
+  }
  ]
 }

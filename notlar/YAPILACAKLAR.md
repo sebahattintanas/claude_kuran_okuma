@@ -5431,3 +5431,57 @@ L2'lerinden biri (30:46) havuza hiç girmeyecekti.**
 8. Aday 932/936/957 — A/R ve adlı aktör korpus dağılımları çıkarılmadı
 9. **Retroaktif gloss turu ÜÇÜNCÜ kez gerekti** (9:94 `عذر`, 12:65 `بضع`) — artık
    kural: **her yeni kök eklemesi bir retroaktif tur gerektirir**
+
+## SÛRE 31 TUR SONU — YAPILMADI (oturum kararı: sûre 32'ye geçildi)
+Okuma tamamlandı (34 ayet), meal/mercek `lokman_metin_1.py` ve `lokman_metin_2.py`'de.
+Yapılmayanlar: blok betikleri (`uret_blok_31.py`), `lokman_kapanis.py`, aday kaydı,
+**16 yeni kökün retroaktif gloss turu** (بثث عمد وقر حمر خدد سبغ صخر صعر فخر قصد عرو غلظ قلم وثق ختر غيث),
+`turkce_denetim.py` ve `anahtar_denetim.py`.
+Aday adayları: tarayıcı v4 sûre 31'de anma 0/3 ve kesinlik 0/7 · hapaks tetikleyicili ★★★ iki vaka (31:18, 31:32)
+· esmâ mühürsüzlerinde 6/8 yanlış pozitif · kafiye kırığı geçiş bölgesinde çift işaret (31:14-15) · A/R = 16,0.
+
+## SÛRE 31-32 TUR SONU — TAMAMLANDI
+- Blok betikleri: `blok_31_1_10/11_20/21_30/31_34.py`, `blok_32_1_10/11_20/21_30.py` (7 blok, okuma_metni.json'a yazıldı).
+- Kapanış: `lokman_kapanis.py` (6 not), `secde_kapanis.py` (6 not). **İlerleme artık defterden koşuluyor: 2325 ayet (%37,3).**
+- Aday kaydı: `aday_ekle_31_32.py` → AO_lokman (7), AP_secde (11), AQ_onkayit (2). Havuz **978**.
+- Bağlar: okuma_baglantilari.json → AK_lokman (5), AL_secde (6).
+- Retroaktif gloss: `yama_retroaktif_gloss_31_32.py` — 21 yeni kökün daha önce okunmuş 56 ayetinde tarandı; **1 yama** (12:66 ölçüm, وثق). Genel geçişte ek yama 0.
+- Denetimler: `turkce_denetim.py` **0** · `anahtar_denetim.py` **70 = taban** (diff 0).
+  - Tur sonunda 6 YENİ ihlâl çıktı, hepsi bu oturumun betiklerinden ve giderildi:
+    blok_goster.py besmele sabiti → kelime sayısına çevrildi · alm_pilot.py ve suleyman_mercek.py'deki rasm hedefleri korpustan TÜRETİLİR hale getirildi · aday_ekle metnindeki hatalı lemma dizgesi tanımla değiştirildi.
+
+## YENİ AÇIK BORÇLAR (bu oturum)
+| no | konu | öncelik |
+|---|---|---|
+| 967 | Morfoloji: 2:111/135/140'ta هُودًا ('Yahudi') PN Hûd etiketli — adlı aktör alanları kontrol edilmedi | P0 |
+| 968 | Morfoloji i'râb: nesne konumundaki ٱلسَّمَٰوَٰت 29 vakanın 20'sinde GEN — defter `irab` alanını etkiliyor | P0 |
+| 961 | Esmâ mührü iki ayrı hata türü üretiyor (ilâhî olmayan sıfat / tekil gerçek esmâ) | P0 |
+| 965 | Çıpa merdiveninde 'yeti sınırı' tanım açığı: bilgi sınırı L2 sayılır mı (31:34, 32:17) | P0 |
+| 962 | Kafiye kırığı kuralı geçiş bölgesinde çift işaret koyuyor (31:14-15) | P1 |
+| 972 | Köksüz özel adlar `ikili` alanında görünmez (21:81 ↔ 34:12) | P1 |
+| 971 | EXP/RES etiketi istisnayı ayırmıyor (11:11 RES) | P1 |
+| 969 | 'Gök' ve 'isim' aynı kökte (سمو) — kök düzeyi gök sayımları kirli | P1 |
+| 970 | LEM إِنسان, أُناس biçimlerini içeriyor (6 token) | P2 |
+| 976 | `dokum.py` depoda yok — protokol adımı karşılıksız | P2 |
+
+## DONDURULMUŞ ÖN-KAYIT — esmâ katmanlarına göre dikey sınıflandırma
+Dosya: `notlar/ONKAYIT_esma_katmanlari.md` — **depoya kondu** (durumu TASLAK, henüz dondurulmadı).
+
+- **Kapsam:** üç eksen (isim katmanı a/r/e · mühür tonu · Allah-mesafesi bandı), sure profilleri, dört doğrulayıcı hipotez (H1 isim ayrışması · H2 ton × sınıf · H3 mühür × bant · H4 küme yapısı).
+- **Uygulama zamanı:** TAM OKUMA bittikten sonra, tur sonu toplu testle. Dört test global Bonferroni paydasına eklenir; yerel taban α = 0,0125.
+- **H3 kapı koşulu:** 35 kavramlık gradyan önce pozisyon-eşli null ile yeniden test edilecek (aday 435 borcu). Kapı açılmazsa H3 "test edilemedi" kalır.
+- Tanımlar, kümeler ve tahminler kendi dosyasındadır; buraya KOPYALANMAZ.
+
+### Dondurmadan ÖNCE karara bağlanacak üç nokta (2026-09 kontrolü)
+1. **`nakarat2` mi `nakarat3` mü?** Ön-kayıt §3 ana analizi `nakarat2` ile tekilleştirilmiş veri üzerinde tanımlıyor. Defterde İKİSİ de var ama okuma **onarılmış `nakarat3`** ile koşuluyor. Dondurmadan önce alan seçimi netleşmeli; aksi hâlde ön-kayıt onarılmamış alana bağlanır.
+2. **Esmâ listesinde iki girdi korpusla eşleşmiyor** (72 lemmanın 70'i eşleşiyor): `هادٍ` ve `حَىّ`. Korpusta karşılıkları başka yazımla var: `هادُ` (11) / `هاد` (7) ve `حَىَّ` (7). §4.2'nin katı kuralı bunları DÜŞÜRÜR; ama düşürme "Hayy"ı (Âyetü'l-Kürsî) setten çıkarır. Karar: tenvin/son hareke normalizasyonu mu, yoksa düşürme mi? Kural dondurmadan önce yazılmalı.
+3. **Uzunluk ölçüsü kontrolü YAPILDI ve temiz çıktı:** §3'ün seçtiği `mora` ve `ar_saf` besmele kirliliğinden etkilenmiyor (30:1, 31:1, 32:1, 2:1 → ar_saf 1 kelime, mora 13). Kirlilik yalnız `ar` alanında. Bu maddede değişiklik gerekmiyor.
+
+### Bu oturumdan ön-kayda hazır tutulan sınama kümesi
+§4.2'nin "esmâ yalnız yüklem/sıfat konumunda sayılır" kuralı için elle doğrulanmış **on vaka** (sûre 31-32 okuması, aday 961):
+- İlâhî OLMAYAN, yani kuralın elemesi gerekenler (8): 31:2 حَكِيم (Kitab) · 31:4 آخِر (âhiret) · 31:10 كَرِيم (bitki çifti) · 31:11 مُبِين (dalâl) · 31:31 شَكُور (insan) · 31:32 بَرّ ("kara") · 32:4 وَلِيّ · 32:18 مُؤْمِن.
+- Gerçek esmâ ama ayet sonunda çift oluşturmadığı için mühürsüz kalanlar (2): 31:23 عَلِيم · 31:29 خَبِير.
+Bu on vaka, §4.3'teki yeni mühür tanımının (son üç içerik lemması, lemma düzeyi) defterdeki `esma_k` tanımından farkını ölçmek için doğrudan kullanılabilir.
+
+### İlgili ama AYRI olan eski borç
+Yukarıdaki (52. satır) `bulgu_allah_ekseni_dikey.json` içindeki "esmâ katmanı eksen-nötr" bulgusunun yeniden ölçülmesi borcu. İkisi karıştırılmamalı.
