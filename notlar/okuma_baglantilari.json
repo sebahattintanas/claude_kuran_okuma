@@ -11849,5 +11849,62 @@
    "kural": "esit2",
    "not": "'İşitmiyorlar mı' (32:26) ve 'görmüyorlar mı' (32:27): 32:9'da verilen yetiler sûrenin kapanışında soruya dönüşüyor."
   }
+ ],
+ "AM_ahzab": [
+  {
+   "bag": "33:4 ↔ 33:6",
+   "kural": "okuma gözlemi (أمم kökü sûrede 2 kez, TAM SAYIM)",
+   "not": "Aynı etiket iki ayette ters yönde: 'eşlerinizi analarınız KILMADI' / 'eşleri onların ANALARIDIR'. Fark etiketi koyanda: ağızlarınızdaki söz / Kitap'ta yazılmış."
+  },
+  {
+   "bag": "33:4 → 33:5",
+   "kural": "okuma gözlemi",
+   "not": "Soy etiketinin reddi ve pozitif kuralı: babalarına nispet edin; baba bilinmezse dinde kardeş ve mevlâ."
+  },
+  {
+   "bag": "33:4 · 33:5 · 33:10 · 33:12",
+   "kural": "kök [x/y] (قلب, sûrede 11)",
+   "not": "Kalp dört ayette dört işlevde: bedensel organ · niyet eden kalp · gırtlağa dayanan kalp · hastalıklı kalp."
+  },
+  {
+   "bag": "33:3 → 33:48",
+   "kural": "nakarat3 TAM (6 kelime / 2 ayet)",
+   "not": "Tevekkül formülü sûrede aynen tekrarlanıyor."
+  },
+  {
+   "bag": "33:7 → 4:21 · 4:154",
+   "kural": "xref (mîsâkan galîzan)",
+   "not": "Aynı ifade üç ilişkide: peygamberler · evlilik · İsrâiloğulları. Sûre 4 okunmadığı için DOĞRULANMADI."
+  },
+  {
+   "bag": "33:7-8 → 33:15",
+   "kural": "okuma gözlemi (سأل sûre içi 1-4/7; عهد ×2)",
+   "not": "Ahit ve sorgu çifti: peygamberlerden ahit alınıp sâdıklara sorulacak (33:8) · kaçmayacaklarına ahit verenlerin ahdi sorulacak (33:15)."
+  },
+  {
+   "bag": "33:10 ↔ 33:11",
+   "kural": "mm2 karşıt çifti",
+   "not": "İki ardışık mef'ûl-i mutlak: 33:10 yakalanmıyor (araya lafız), 33:11 yakalanıyor (bitişik). Aday 982."
+  },
+  {
+   "bag": "33:12 → 33:60",
+   "kural": "xref",
+   "not": "Münafıklar ve kalplerinde hastalık olanlar sûrede ikinci kez."
+  },
+  {
+   "bag": "33:13 → 33:16",
+   "kural": "kök (فرر)",
+   "not": "33:13 firârâ ile kapanıyor, 33:16 kaçışın fayda vermediğini ölçüyor."
+  },
+  {
+   "bag": "33:4 ↔ 33:67",
+   "kural": "fâsıla TAM SAYIM (sûre)",
+   "not": "Aynı lemma: 33:4 elifsiz (sûrenin tek A-dışı fâsılası), 33:67 elifli. Aday 984."
+  },
+  {
+   "bag": "33:20 → 33:22",
+   "kural": "kök (حزب, sûrede 3: 20'de iki, 22'de bir)",
+   "not": "Sûrenin adı metinde ilk kez 33:20'de."
+  }
  ]
 }

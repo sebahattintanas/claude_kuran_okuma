@@ -81,7 +81,10 @@ for L_ in LEMS:
             if any(b[2] and b[0]<j and i<b[1] for b in sin): continue
             g2.append((f'{k[0]}:{k[1]}',dz[max(0,i-4):j+4]))
     OUT[L_]['gizli']={'dizi':hed,'G1':g1,'G2':g2}
-json.dump(OUT,open('ciktilar/dikey_kisi_%s.json'%'_'.join(LEMS),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+# dosya adı ASCII (Buckwalter rasm): Arapça dosya adı Windows yüklemesinde bozuluyordu
+BW = dict(zip(map(chr, range(0x621, 0x64B)), "'|>&<}AbptvjHxd*rzs$SDTZEg______fqklmnhwYy"))
+asc = lambda s: ''.join(BW.get(c, '') for c in rasm(s)).replace('_', '')
+json.dump(OUT,open('ciktilar/dikey_kisi_%s.json'%'_'.join(asc(x) for x in LEMS),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print(json.dumps({k:v for k,v in OUT.items() if not k.startswith(('ORTAK','YALNIZ'))},ensure_ascii=False,indent=1))
 for ad in bolge: print(ad,OUT[ad]['ayet'],OUT[ad]['sahne']); print('  güçlü:',OUT[ad]['guclu'])
 for ad in bolge: print(ad,{r:OUT[ad]['tum_sayim'].get(r,0) for r in ['نمل','طير','جند','حدد','جبل']})

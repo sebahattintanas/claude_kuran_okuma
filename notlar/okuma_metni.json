@@ -174,15 +174,16 @@
    8
   ],
   "kismi": {
-   "2": "1-20 ayet düzeyinde"
+   "2": "1-20 ayet düzeyinde",
+   "33": "1-20 ayet düzeyinde (blok başı kayıt; 20 ayet)"
   },
   "bekleyen": {
    "2": "21-286 blok özeti"
   },
   "not": "Sûre 1, 9-31 ve **32 TAM**. Devam: sûre 33'ten ya da sûre 2'nin 21. ayetinden.",
-  "okunan_ayet": 2325,
+  "okunan_ayet": 2345,
   "son_oturum": "OTURUM_2026-09-16_KAPANIS.md",
-  "korpus_yuzde": 37.3,
+  "korpus_yuzde": 37.6,
   "sayim_notu": "okunan_ayet defter.json'dan koşulur; elle artırılmaz (eski sayaç −2 kaymıştı)."
  },
  "7": {
@@ -17019,6 +17020,692 @@
    "_yildiz_kaynagi_32": "YILDIZ KAYNAKLARI (TAM SAYIM) — ★★★ 1 · ★★ 4 · ★ 2 · yıldızsız 23. Kaynaklar: **hapaks 1 (32:16 جفو *(uzaklaşma, ayrılma (yataktan))*, otomatik tetikleyici, borç #7) · edilgenlik 2 (32:11, 32:22) · rab 3 · kafiye kırığı 1 (32:23)**. İçerikten gelen yıldız yok. **32:23 sûrenin tek kafiye kırığı:** fâsıla إسرٓءيل → ل, yirmi sekiz ن'lik akışı tek başına bozuyor ve ayetin ★'ının tek kaynağı bu.",
    "_esma_arizasi_32": "ESMÂ — 5 token, 3 ayette. **Mühürlü 3/3 geçerli** (hepsi 32:6: عالِم + عَزِيز + رَحِيم). **Mühürsüz 2 ve ikisi de yanlış pozitif:** 32:4 وَلِيّ ('O'ndan başka dost yok' — ilâhî değil, ORTA konum) · 32:18 مُؤْمِن ('inanan kişi', P0 şüpheli lemma listesindeki vaka). Sûre 31 ile birlikte mühürsüzlerde yanlış pozitif **8/10**.",
    "_kapanis_32": "SÛRE 32 KAPANIŞI — 30 ayet, 372 kelime, tamamı Mekkî. KAFİYE: N 28 · ل 1 · mukattaa 1 — sûre 31'in aksine tek akış. ADLI AKTÖR: Mûsâ ve İsrâiloğulları (32:23) · Cehennem (32:13). İltifât yalnız 32:28. BAĞ HEDEFLERİ: 10, 21, 22 (üçer) · 25, 30, 67 (ikişer) — sûre 31'in Hac'a yaslanan yapısı burada yok. YENİ KÖK **5** (جدد *(yenilik, yeni olma)* مهن *(hor görülme, değersizlik)* جفو *(uzaklaşma, ayrılma (yataktan))* ضجع *(yatak, uzanma yeri)* جرز *(kurak, bitkisiz (yer))*) → kok_turkce **1090**. YAPI: sûre yaratılışla açılıyor (32:4-9), insana verilen yetileri sayıyor (32:9: işitme, gözler, gönüller) ve tam o yetilere yapılan iki soruyla kapanıyor: 'işitmiyorlar mı?' (32:26) · 'görmüyorlar mı?' (32:27). SÛRE İÇİ KÖK: سوي *(düzenleme, denk kılma)* üç kez, üç ayrı anlamda — istivâ (32:4) · düzenleme (32:9) · eşitlik (32:18). أوي *(sığınma)* iki kez, iki karşıt yer — Me'vâ cenneti (32:19) · ateş (32:20). عرض *(sunma; yüz çevirme)* iki kez, ters yönlerde — onlar yüz çeviriyor (32:22) · 'sen yüz çevir' (32:30)."
+  }
+ },
+ "33": {
+  "33:1": {
+   "ar": "يَٰٓأَيُّهَا ٱلنَّبِىُّ ٱتَّقِ ٱللَّهَ وَلَا تُطِعِ ٱلْكَٰفِرِينَ وَٱلْمُنَٰفِقِينَ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًۭا",
+   "meal": "Ey Peygamber! Allah'tan sakın; kâfirlere ve münafıklara boyun eğme. Şüphesiz Allah bilendir, hikmet sahibidir.",
+   "olcum": "eksen: **ALLAH LAFZI** 4, 10. sırada (2 token, allah z=2,55) · esmâ عَلِيم 12. sırada, SON konum, MÜHÜR | حَكِيم 13. sırada, SON konum, MÜHÜR · aktör yok · edim emir, yasak, nida, kip IMPV 1 · PRO 1 · VOC 1, **biçim DIKKAT + NEHY** · şahıs 2MS 2 · 3MS 1, sahset ['2', '3'], baskın 2, iltifât 0 · n=13 (n z=0,06), fâsıla حكيما → ا, A sınıfı · i’râb ACC 8 · NOM 1; bab I. bab ×1 · IV. bab ×1 · VIII. bab ×1; zaman IMPF 1 · IMPV 1 · PERF 1 · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · harf 79 → **harf3 58**, isaret 0 · dış düğüm 5 · **yıldız ★★** · kökler أيي *(âyet, işaret)* [1/13] · نبأ *(haber)* [1/18] · وقي *(sakınma, koruma)* [1/5] · أله *(ilâh; lafza-i celâl)* [1,2/90] · طوع *(güç yetirme, itaat)* [1/7] · كفر *(inkâr, nankörlük)* [1/5] · نفق *(infak, harcama; nifak)* [1/7] · كون *(olmak; mekân, yer)* [1/42] · علم *(bilme)* [1/9] · حكم *(hüküm verme, hikmet)* [1/2] · bağ: `nakarat3` 'لا طوع *(güç yetirme, itaat)*|أَطاعَ كفر *(inkâr, nankörlük)*|كافِر نفق *(infak, harcama; nifak)*|مُنافِق' (4 kelime / 2 ayet, tür ic) → süzgeç **GEÇER** | `nakarat3` 'ان أله *(ilâh; lafza-i celâl)*|اللَّه كون *(olmak; mekân, yer)*|كانَ' (3 kelime / 5 ayet, tür ic) → süzgeç **GEÇER** | xref اللّه كان عليم → 4:11, 4:24, 4:35, 4:127, 76:30 · كان عليم حكيم → 4:11, 4:24, 76:30",
+   "mercek": "◇ Sûre nidâ ile açılıyor ve muhatap adıyla değil KONUMUYLA çağrılıyor (yâ eyyühe'n-nebiyy). Bir emir, bir yasak, sonra çift mühür (alîm-hakîm). ikili alanı bu ayette BEŞ köklü çift veriyor — blokun en yoğunu; ama beşinin ikisi kalıp: mühür formülü (kâne-Allah, 6 ayet) ve nidâ formülü (eyy-nebî, 5 ayet). Esmâ kaydı: a=1 · e_el=1 · mühür ÇİFT, ton cemâl.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · أيي *(âyet, işaret)* n=597  ▸önce: tafsil ×6.2 [A tek ayet] · جحد *(inkâr, bile bile reddetme)* ×5.8 · نوق *(deve)* ×4.9 [B tek sahne 3 ayet]  ▸sonra: âlâ-nimet ×11.5 [A tek ayet] · فكر *(düşünme, tefekkür)* ×7.0 [B2 donmuş kalıp 11 ayet] · جحد *(inkâr, bile bile reddetme)* ×5.8  ▸Allah med=13\n  · نبأ *(haber)* n=160  ▸önce: وهب *(bağışlama, hibe)* ×7.0 [B tek sahne 4 ayet] · kıssa-anlatma ×6.8 [A tek ayet] · رجع *(dönme, geri döndürme)* ×5.5  ▸sonra: tevil ×10.3 [A tek ayet] · هزأ *(alay etme)* ×5.2 [B tek sahne 4 ayet] · nifak ×3.6 [A tek ayet]  ▸Allah med=11\n  · وقي *(sakınma, koruma)* n=258  ▸önce: زود *(azık)* ×56.3 [A tek ayet] · سربل *(giysi, zırh)* ×28.2 [A tek ayet] · birr ×14.1 [A tek ayet]  ▸sonra: köşk-oda ×14.1 [A tek ayet] · güvenilir ×12.1 [A tek ayet] · imdad ×9.4 [A tek ayet]  ▸Allah med=6\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · طوع *(güç yetirme, itaat)* n=129  ▸önce: güvenilir ×20.3 [A tek ayet] · zekât ×7.1 [A tek ayet] · فلح *(kurtuluşa erme, felâh)* ×4.3 [B tek sahne 3 ayet]  ▸sonra: hoşlanmama ×6.7 [A tek ayet] · maruf ×4.2 [A tek ayet] · sanma ×3.9 [A tek ayet]  ▸Allah med=6\n  · كفر *(inkâr, nankörlük)* n=525  ▸önce: مقت *(öfke, gazap)* ×6.9 [A tek ayet] · عتد *(hazırlama)* ×6.9 · temenni ×5.7 [A tek ayet]  ▸sonra: مقت *(öfke, gazap)* ×9.2 [A tek ayet] · tâğût ×5.2 [A tek ayet] · نيل *(erişme, nail olma)* ×4.6 [B tek sahne 3 ayet]  ▸Allah med=9\n  · نفق *(infak, harcama; nifak)* n=111  ▸önce: bedevî ×20.1 [A tek ayet] · فوز *(kurtuluş, fevz)* ×13.8 [B tek sahne 4 ayet] · فسق *(fâsıklık)* ×6.2 [B tek sahne 4 ayet]  ▸sonra: adak ×38.2 [A tek ayet] · علن *(açığa vurma, alenî)* ×16.7 [B tek sahne 4 ayet] · sır-gizleme ×10.5 [A tek ayet]  ▸Allah med=6\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · علم *(bilme)* n=854  ▸önce: رذل *(rezil, aşağılık)* ×11.3 [B tek sahne 3 ayet] · كلب *(köpek)* ×6.0 [A tek ayet] · hazine ×4.5 [A tek ayet]  ▸sonra: علن *(açığa vurma, alenî)* ×6.2 · gayb ×5.5 [A tek ayet] · sır-gizleme ×4.2 [A tek ayet]  ▸Allah med=7\n  · حكم *(hüküm verme, hikmet)* n=210  ▸önce: izzet ×14.1 [A tek ayet] · kıst-adalet ×6.2 [A tek ayet] · arınma ×5.3 [A tek ayet]  ▸sonra: talâk ×10.2 [A tek ayet] · سرع *(hız, sürat)* ×4.7 [A tek ayet] · kıst-adalet ×4.7 [A tek ayet]  ▸Allah med=4",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": true,
+    "ton": "cemâl",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:2": {
+   "ar": "وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ مِن رَّبِّكَ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا",
+   "meal": "Rabbinden sana vahyolunana uy. Şüphesiz Allah yaptıklarınızdan haberdardır.",
+   "olcum": "eksen: **ALLAH LAFZI** 8. sırada (allah z=1,14) · **رَبّ** 6. sırada (rab z=1,45) · esmâ خَبِير 12. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, kip IMPV 1 · şahıs 2MP 2 · 2MS 3 · 3MS 2, sahset ['2', '3'], baskın 2, iltifât 0 · n=12 (n z=-0,04), fâsıla خبيرا → ا, A sınıfı · i’râb ACC 3 · GEN 1; bab I. bab ×2 · IV. bab ×1 · VIII. bab ×1; zaman IMPF 2 · IMPV 1 · PERF 1 · **EDİLGEN 1/4 fiil, pas z=1,10** · simetri [3, 2, 5, 1] · harf 45 → **harf3 43**, isaret 2 · dış düğüm 5 · **yıldız yok** · kökler تبع *(uyma, ardından gitme)* [1/1] · وحي *(vahiy, gizli bildirim)* [1/1] · ربب *(rab, terbiye etme)* [1/3] · أله *(ilâh; lafza-i celâl)* [3/90] · كون *(olmak; mekân, yer)* [2/42] · عمل *(iş, amel)* [1/5] · خبر *(haber; haberdar olma)* [1/2] · bağ: `nakarat3` 'ان أله *(ilâh; lafza-i celâl)*|اللَّه كون *(olmak; mekân, yer)*|كانَ' (3 kelime / 5 ayet, tür ic) → süzgeç **GEÇER** | xref اللّه كان عمل *(iş, amel)* → 4:94, 4:128, 4:135 · كان عمل *(iş, amel)* خبير → 4:94, 4:128, 4:135 · اتّبع أوحى ربّ → 6:106, 7:203",
+   "mercek": "◇ Blokun TEK Rab'i ve tek edilgeni aynı kelimede değil ama aynı cümlede: 'sana vahyolunan' (edilgen) + 'Rabbinden'. Rab özel hitap (2MS) içinde, lafız ise genel hitap (2MP) içinde: 'Rabbin' sana, 'Allah' hepinizin yaptığına. Eski esma_k MÜHÜRSÜZ diyor (tek esmâ, çift yok); ön-kaydın §4.3 tanımıyla MÜHÜR — aday 961'in 'tekil gerçek esmâ' türü.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · تبع *(uyma, ardından gitme)* n=172  ▸önce: kıble ×18.4 [A tek ayet] · gece-yürüyüşü ×18.4 [A tek ayet] · varış ×14.3 [A tek ayet]  ▸sonra: خطو *(adım)* ×51.6 [B tek sahne 4 ayet] · hevâ ×38.4 [A tek ayet] · kıble ×30.7 [A tek ayet]  ▸Allah med=13\n  · وحي *(vahiy, gizli bildirim)* n=78  ▸önce: beşer ×8.5 [A tek ayet] · gayb ×5.5 [A tek ayet] · adam ×5.5 [A tek ayet]  ▸sonra: قذف *(atma, fırlatma)* ×34.8 [A tek ayet] · anne ×9.2 [A tek ayet] · ilâh ×6.4 [A tek ayet]  ▸Allah med=24\n  · ربب *(rab, terbiye etme)* n=980  ▸önce: âlâ-nimet ×7.5 [A tek ayet] · mühlet ×5.2 [A tek ayet] · دكك *(darmadağın etme)* ×3.9 [B tek sahne 3 ayet]  ▸sonra: جلل *(büyüklük, celâl)* ×10.3 [A tek ayet] · أفل *(batma (ay))* ×6.9 [B tek sahne 3 ayet] · فرغ *(boşalma, bitirme)* ×4.6 [B tek sahne 4 ayet]  ▸Allah med=23\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · عمل *(iş, amel)* n=360  ▸önce: حبط *(boşa çıkma, silinme)* ×18.8 · زين *(süsleme)* ×6.5 · غفل *(gaflet, habersizlik)* ×6.3 [B2 donmuş kalıp 11 ayet]  ▸sonra: kesintisiz ×15.0 [A tek ayet] · salâh ×11.5 [A tek ayet] · zerre ×10.0 [A tek ayet]  ▸Allah med=13\n  · خبر *(haber; haberdar olma)* n=52  ▸önce: لطف *(lütuf, incelik)* ×90.3 [B tek sahne 5 ayet] · haber ×7.2 [A tek ayet] · عمل *(iş, amel)* ×6.0  ▸sonra: بصر *(görme)* ×5.9 · عمل *(iş, amel)* ×3.2 · hangi ×2.7 [A tek ayet]  ▸Allah med=4",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "AR",
+    "sinif_el": "AR",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "cemâl",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:3": {
+   "ar": "وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا",
+   "meal": "Allah'a dayan; vekil olarak Allah yeter.",
+   "olcum": "eksen: **ALLAH LAFZI** 3, 5. sırada (2 token, allah z=6,14) · esmâ وَكِيل 6. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, kip IMPV 1 · şahıs 2MS 1 · 3MS 1, sahset ['2', '3'], baskın 2, iltifât 0 · n=6 (n z=-0,68), fâsıla وكيلا → ا, A sınıfı · i’râb ACC 1 · GEN 2; bab I. bab ×1 · V. bab ×1; zaman IMPV 1 · PERF 1 · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · وكل *(vekil kılma, tevekkül)* ×2 · harf 28 → **harf3 26**, isaret 2 · dış düğüm 4 · İÇ düğüm 2 · **yıldız ★★★** · kökler وكل *(vekil kılma, tevekkül)* [1,2/4] · أله *(ilâh; lafza-i celâl)* [4,5/90] · كفي *(yetme)* [1/4] · bağ: `nakarat3` 'وكل *(vekil kılma, tevekkül)*|تَوَكَّلْ علا أله *(ilâh; lafza-i celâl)*|اللَّه كفي *(yetme)*|كَفَى أله *(ilâh; lafza-i celâl)*|اللَّه وكل *(vekil kılma, tevekkül)*|وَكِيل' (6 kelime / 2 ayet, tür tam) → süzgeç **GEÇER** | `nakarat3` 'أله *(ilâh; lafza-i celâl)*|اللَّه كفي *(yetme)*|كَفَى أله *(ilâh; lafza-i celâl)*|اللَّه' (3 kelime / 3 ayet, tür ic) → süzgeç **GEÇER** | xref اللّه كفى اللّه → 4:70, 4:81, 33:39, 33:48 · توكّل اللّه كفى → 4:81, 33:48 · كفى اللّه وكيل → 4:81, 4:132, 4:171, 33:48",
+   "mercek": "◇ Altı kelime, iki lafız, iki وكل *(vekil kılma, tevekkül)*: ayet kendi içinde kapalı bir halka — tevekkül et → vekil olarak yeter. ★★★'ın TEK kaynağı allah z=6,14, yani 2/6 lafız yoğunluğu; kısa ayette oran büyür (içerik değil ölçek). nakarat3 'tam' türünde tüm ayeti 33:48 ile eşliyor (6 kelime / 2 ayet) — sûre bu formülü 45 ayet sonra aynen tekrarlıyor. Esmâ vekîl katalogda TON TAŞIMIYOR (aşağıda borç).",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · وكل *(vekil kılma, tevekkül)* n=70  ▸önce: yetme ×33.2 [A tek ayet] · كفي *(yetme)* ×22.1 [B2 donmuş kalıp 6 ayet] · أذي *(eziyet)* ×20.3 [A tek ayet]  ▸sonra: نوب *(yönelme, gönülden dönüş (inâbe))* ×20.3 [B tek sahne 3 ayet] · كفي *(yetme)* ×11.1 [B2 donmuş kalıp 6 ayet] · Kurân ×5.2 [A tek ayet]  ▸Allah med=3\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · كفي *(yetme)* n=33  ▸önce: وكل *(vekil kılma, tevekkül)* ×9.3 [B2 donmuş kalıp 6 ayet] · düşmanlık ×8.9 [A tek ayet] · ليس *(değil)* ×7.3 [B tek sahne 3 ayet]  ▸sonra: وكل *(vekil kılma, tevekkül)* ×18.6 [B2 donmuş kalıp 6 ayet] · hesap ×16.0 [A tek ayet] · شهد *(şahitlik)* ×12.2  ▸Allah med=1",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "katalog-dışı",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:4": {
+   "ar": "مَّا جَعَلَ ٱللَّهُ لِرَجُلٍۢ مِّن قَلْبَيْنِ فِى جَوْفِهِۦ ۚ وَمَا جَعَلَ أَزْوَٰجَكُمُ ٱلَّٰٓـِٔى تُظَٰهِرُونَ مِنْهُنَّ أُمَّهَٰتِكُمْ ۚ وَمَا جَعَلَ أَدْعِيَآءَكُمْ أَبْنَآءَكُمْ ۚ ذَٰلِكُمْ قَوْلُكُم بِأَفْوَٰهِكُمْ ۖ وَٱللَّهُ يَقُولُ ٱلْحَقَّ وَهُوَ يَهْدِى ٱلسَّبِيلَ",
+   "meal": "Allah bir adamın göğsünde iki kalp yaratmadı. Zıhar yaptığınız eşlerinizi analarınız kılmadı, evlatlıklarınızı da oğullarınız kılmadı. Bu, sizin ağızlarınızdaki sözünüzdür. Allah ise gerçeği söyler ve O yola iletir.",
+   "olcum": "eksen: **ALLAH LAFZI** 3, 23. sırada (2 token, allah z=0,90) · esmâ yok · aktör: adsız `racül` 4. sırada · edim haber, kip NEG 3 · şahıs 2MP 8 · 3FP 1 · 3MS 7, sahset ['2', '3'], baskın 2, iltifât 0 · n=28 (n z=1,65), fâsıla ٱلسبيل → ل, ل sınıfı — **KAFİYE KIRILMASI** · i’râb ACC 5 · GEN 5 · NOM 3; bab I. bab ×5 · III. bab ×1; zaman IMPF 3 · PERF 3 · **HAPAKS: جوف *(iç, oyuk (göğüs boşluğu))* — hapaks z=3,28** · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · جعل *(kılma, var etme)* ×3 · قول *(söz söyleme)* ×2 · sayı işareti زَوْج · simetri [6, 5, 12, 2] · harf 127 → **harf3 121**, isaret 6 · dış düğüm 0 · **yıldız ★★★** · kökler جعل *(kılma, var etme)* [1,2,3/3] · أله *(ilâh; lafza-i celâl)* [6,7/90] · رجل *(adam; yaya)* [1/3] · قلب *(çevirme; kalp)* [1/11] · جوف *(iç, oyuk (göğüs boşluğu))* [1/1] · زوج *(eş, çift)* [1/11] · ظهر *(sırt; zuhur, açığa çıkma)* [1/2] · أمم *(ümmet, topluluk)* [1/2] · دعو *(çağırma, dua)* [1/5] · بني *(bina, yapma)* [1/10] · قول *(söz söyleme)* [1,2/21] · فوه *(ağız)* [1/1] · حقق *(hak, gerçek)* [1/3] · هدي *(yol gösterme)* [1/1] · سبل *(yol)* [1/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ ÜÇ olumsuz kılma (mâ ce'ale ×3), aynı sözdizimi, üç ayrı alan: beden (bir göğüste iki kalp) · evlilik (zıhar edilen eş anne değil) · soy (evlatlık oğul değil). Matematikçi okuması: üç yeniden-etiketleme reddi — bir nesneye verilen AD onun sınıfını değiştirmiyor; kapanış bunu adıyla söylüyor: 'bu sizin ağızlarınızdaki sözünüz'. İlk önerme bedensel bir olgu (🜁 kademe L1, olgu EVET: sayı + organ + yer; mekanizma yok), ama ayet onu olgu olarak değil ANALOJİNİN TABANI olarak kullanıyor. Tarayıcı v4 aday vermedi — doğru negatif (L4 değil). ★★★: hapaks جوف (z=3,28); ayrıca n z=1,65 ve sûrenin TEK kafiye kırığı — üç bağımsız işaret, formül yalnız birini sayıyor (borç #15). Fâsıla ile ilgili TAM SAYIM aşağıda.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · جعل *(kılma, var etme)* n=346  ▸önce: dinlenme ×29.1 [A tek ayet] · نوم *(uyku)* ×6.5 [A tek ayet] · مكن *(yerleştirme, imkân)* ×6.5  ▸sonra: سرج *(kandil, sirâc)* ×24.3 [B tek sahne 3 ayet] · ندد *(denk, eş koşma)* ×16.2 [B tek sahne 5 ayet] · رحل *(göç, yolculuk)* ×14.6 [B tek sahne 3 ayet]  ▸Allah med=20\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · رجل *(adam; yaya)* n=73  ▸önce: قطع *(kesme)* ×10.4 [B tek sahne 5 ayet] · üst ×6.8 [A tek ayet] · ضرب *(vurma; mesel getirme)* ×6.4  ▸sonra: asma-salb ×46.6 [A tek ayet] · karıştırma ×23.3 [A tek ayet] · نسو *(kadınlar)* ×15.8  ▸Allah med=13\n  · قلب *(çevirme; kalp)* n=168  ▸önce: طبع *(mühürleme)* ×39.4 · قسو *(katılaşma, kasvet)* ×31.0 · ربط *(bağlama)* ×26.0 [B tek sahne 3 ayet]  ▸sonra: رعب *(korku salma)* ×34.7 [B tek sahne 4 ayet] · مرض *(hastalık)* ×23.5 [B2 donmuş kalıp 12 ayet] · kulak-ağırlığı ×21.7 [A tek ayet]  ▸Allah med=7\n  · جوف *(iç, oyuk (göğüs boşluğu))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=5\n  · زوج *(eş, çift)* n=81  ▸önce: نبت *(bitki, bitme)* ×12.9 [B2 donmuş kalıp 6 ayet] · نكح *(nikâh, evlenme)* ×11.0 [B tek sahne 3 ayet] · وهب *(bağışlama, hibe)* ×10.1 [B tek sahne 3 ayet]  ▸sonra: iki ×16.8 [A tek ayet] · erkek ×14.0 [A tek ayet] · zürriyet ×13.1 [A tek ayet]  ▸Allah med=13\n  · ظهر *(sırt; zuhur, açığa çıkma)* n=59  ▸önce: öte-arka ×24.9 [A tek ayet] · din ×6.3 [A tek ayet] · haram ×4.5 [A tek ayet]  ▸sonra: bâtın-iç ×99.7 [A tek ayet] · hoşlanmama ×10.6 [A tek ayet] · أثم *(günah, ism)* ×10.0 [B tek sahne 3 ayet]  ▸Allah med=13\n  · أمم *(ümmet, topluluk)* n=118  ▸önce: karın ×10.0 [A tek ayet] · برك *(bereket)* ×5.3 [A tek ayet] · بعث *(gönderme; diriltme)* ×4.2  ▸sonra: نسك *(kurban ibadeti, nüsük)* ×32.2 [B tek sahne 3 ayet] · رضع *(emzirme)* ×15.4 [A tek ayet] · خلو *(boş kalma, baş başa kalma)* ×14.1 [B2 donmuş kalıp 8 ayet]  ▸Allah med=19\n  · دعو *(çağırma, dua)* n=212  ▸önce: نصي *(alın perçemi)* ×34.7 [A tek ayet] · ثبر *(helâk, sabûr)* ×20.8 [B tek sahne 3 ayet] · عزل *(ayırma, tecrit)* ×13.9 [B tek sahne 4 ayet]  ▸sonra: ثبر *(helâk, sabûr)* ×41.7 [B tek sahne 3 ayet] · icabet ×10.7 [A tek ayet] · خشع *(huşû, boyun eğme)* ×10.2 [B tek sahne 5 ayet]  ▸Allah med=9\n  · بني *(bina, yapma)* n=184  ▸önce: عمم *(amca; genel)* ×54.2 [A tek ayet] · Mesih ×38.7 [A tek ayet] · قفو *(izinden gitme)* ×31.0 [B tek sahne 3 ayet]  ▸sonra: dayı ×58.0 [A tek ayet] · teyze ×51.6 [A tek ayet] · بذر *(saçıp savurma)* ×38.7 [A tek ayet]  ▸Allah med=14\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · فوه *(ağız)* n=13 ⚠  ▸önce: küfür ×2.9 [A tek ayet]  ▸sonra: kalp ×11.2 [A tek ayet] · küfür ×3.9 [A tek ayet]  ▸Allah med=7\n  · حقق *(hak, gerçek)* n=287  ▸önce: karıştırma ×8.2 [A tek ayet] · قذف *(atma, fırlatma)* ×8.2 [A tek ayet] · بطل *(bâtıl, boş)* ×4.8  ▸sonra: برم *(yıpranma, bezginlik)* ×37.1 [A tek ayet] · زهق *(yok olma)* ×14.8 [A tek ayet] · بطل *(bâtıl, boş)* ×9.6  ▸Allah med=9\n  · هدي *(yol gösterme)* n=316  ▸önce: ictibâ-seçme ×12.3 [A tek ayet] · زيغ *(eğrilme, kayma)* ×8.2 [A tek ayet] · ضلل *(sapma, saptırma)* ×3.7  ▸sonra: صرط *(yol, sırât)* ×13.7 · furkan ×10.6 [A tek ayet] · yol ×8.2 [A tek ayet]  ▸Allah med=8\n  · سبل *(yol)* n=176  ▸önce: alıkoyma ×21.3 [A tek ayet] · cihad ×17.9 [A tek ayet] · akrabalık ×17.2 [A tek ayet]  ▸sonra: بذر *(saçıp savurma)* ×41.7 [A tek ayet] · عوج *(eğrilik, çarpıklık)* ×23.2 [B tek sahne 5 ayet] · رشد *(doğruyu bulma)* ×6.6 [B tek sahne 3 ayet]  ▸Allah med=4",
+   "cipa": {
+    "kademe": "L1",
+    "olgu": true,
+    "cipa": false,
+    "not_": "bir göğüste iki kalp: sayı + organ + yer, mekanizma yok; ayette analojinin tabanı"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:5": {
+   "ar": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌۭ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا",
+   "meal": "Onları babalarına nispet ederek çağırın; bu, Allah katında daha adildir. Babalarını bilmiyorsanız, onlar dinde kardeşleriniz ve dostlarınızdır. Yanıldığınız şeyde size bir günah yok; ama kalplerinizin kastettiğinde var. Allah bağışlayandır, esirgeyendir.",
+   "olcum": "eksen: **ALLAH LAFZI** 6, 26. sırada (2 token, allah z=0,90) · esmâ غَفُور 27. sırada, SON konum, MÜHÜR | رَحِيم 28. sırada, SON konum, MÜHÜR · aktör yok · edim emir, şart, kip COND 1 · IMPV 1 · NEG 1 · şahıs 2MP 10 · 3FS 1 · 3MP 3 · 3MS 4, sahset ['2', '3'], baskın 2, iltifât 0 · n=28 (n z=1,65), fâsıla رحيما → ا, A sınıfı · i’râb ACC 4 · GEN 4 · NOM 5; bab I. bab ×4 · IV. bab ×1 · V. bab ×1; zaman IMPF 1 · IMPV 1 · PERF 4 · kök ikilemesi أبو *(baba)* ×2 · أله *(ilâh; lafza-i celâl)* ×2 · simetri [3, 7, 20, 1] · harf 133 → **harf3 126**, isaret 7 · dış düğüm 1 · **yıldız ★** · kökler دعو *(çağırma, dua)* [2/5] · أبو *(baba)* [1,2/4] · قسط *(kıst, adalet; sapma)* [1/1] · عند *(kat, yan)* [1/4] · أله *(ilâh; lafza-i celâl)* [8,9/90] · علم *(bilme)* [2/9] · أخو *(kardeş)* [1/5] · دين *(din; borç)* [1/1] · ولي *(dost, veli; velâyet)* [1/7] · ليس *(değil)* [1/2] · جنح *(kanat; yan taraf)* [1/3] · خطأ *(hata, günah)* [1/1] · عمد *(direk, sütun; kasıt)* [1/1] · قلب *(çevirme; kalp)* [2/11] · كون *(olmak; mekân, yer)* [3/42] · غفر *(bağışlama, mağfiret)* [1/7] · رحم *(rahmet, merhamet)* [1/8] · bağ: `nakarat3` 'كون *(olmak; mekân, yer)*|كانَ أله *(ilâh; lafza-i celâl)*|اللَّه غفر *(bağışlama, mağfiret)*|غَفُور رحم *(rahmet, merhamet)*|رَحِيم' (4 kelime / 4 ayet, tür ic) → süzgeç **GEÇER** | `nakarat3` 'قلب *(çevirme; kalp)*|قَلْب كون *(olmak; mekân, yer)*|كانَ أله *(ilâh; lafza-i celâl)*|اللَّه' (3 kelime / 2 ayet, tür ic) → süzgeç **GEÇMEZ** | xref أقسط عند *(kat, yan)* اللّه → 2:282",
+   "mercek": "◇ 33:4'ün soy yasağının pozitif karşılığı: 'babalarına nispet edin'. Baba bilinmiyorsa YENİ sınıf veriliyor: dinde kardeş ve mevlâ. Yani 33:4-5 birlikte bir sınıflama kuralı: soy etiketi yalnız soya verilir; soy bilinmezse başka bir ilişki adı kullanılır. Hata/kasıt ayrımı ('yanıldığınız' / 'kalplerinizin kastettiği') — sorumluluk niyete bağlanıyor. قلب *(çevirme; kalp)* ikinci kez (33:4 bedensel kalp · 33:5 niyet eden kalp · 33:10 gırtlağa dayanan kalp): üç ayette üç ayrı işlev.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · دعو *(çağırma, dua)* n=212  ▸önce: نصي *(alın perçemi)* ×34.7 [A tek ayet] · ثبر *(helâk, sabûr)* ×20.8 [B tek sahne 3 ayet] · عزل *(ayırma, tecrit)* ×13.9 [B tek sahne 4 ayet]  ▸sonra: ثبر *(helâk, sabûr)* ×41.7 [B tek sahne 3 ayet] · icabet ×10.7 [A tek ayet] · خشع *(huşû, boyun eğme)* ×10.2 [B tek sahne 5 ayet]  ▸Allah med=9\n  · أبو *(baba)* n=117  ▸önce: لفو *(bulma, rastlama (elfâ))* ×62.3 [A tek ayet] · kemik ×12.5 [A tek ayet] · toprak ×11.0 [A tek ayet]  ▸sonra: بعل *(koca; Ba'l)* ×26.7 [A tek ayet] · iz ×12.5 [A tek ayet] · كيل *(ölçme (hacim))* ×11.7 [A tek ayet]  ▸Allah med=23\n  · قسط *(kıst, adalet; sapma)* n=25  ▸önce: وزن *(tartı, mîzan)* ×72.4 · sevgi ×10.0 [A tek ayet] · ara ×6.1 [A tek ayet]  ▸sonra: sevgi ×10.0 [A tek ayet] · hüküm ×6.0 [A tek ayet] · ind ×5.6 [A tek ayet]  ▸Allah med=7\n  · عند *(kat, yan)* n=201  ▸önce: مقت *(öfke, gazap)* ×17.9 [B tek sahne 3 ayet] · sevap ×9.4 [A tek ayet] · kıst-adalet ×6.2 [A tek ayet]  ▸sonra: hazine ×26.8 [A tek ayet] · زلف *(yaklaştırma, zülfe)* ×10.7 [B tek sahne 3 ayet] · طرف *(uç, kenar)* ×9.7 [B tek sahne 4 ayet]  ▸Allah med=6\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · علم *(bilme)* n=854  ▸önce: رذل *(rezil, aşağılık)* ×11.3 [B tek sahne 3 ayet] · كلب *(köpek)* ×6.0 [A tek ayet] · hazine ×4.5 [A tek ayet]  ▸sonra: علن *(açığa vurma, alenî)* ×6.2 · gayb ×5.5 [A tek ayet] · sır-gizleme ×4.2 [A tek ayet]  ▸Allah med=7\n  · أخو *(kardeş)* n=96  ▸önce: جهز *(donatma, hazırlama)* ×73.5 [A tek ayet] · بذر *(saçıp savurma)* ×73.5 [A tek ayet] · kap ×58.8 [A tek ayet]  ▸sonra: عمم *(amca; genel)* ×58.8 [A tek ayet] · aşiret ×55.1 [A tek ayet] · سدس *(altıda bir)* ×44.1 [A tek ayet]  ▸Allah med=20\n  · دين *(din; borç)* n=101  ▸önce: ihlas ×29.9 [A tek ayet] · وصي *(vasiyet)* ×18.1 [B tek sahne 3 ayet] · zuhur ×6.4 [A tek ayet]  ▸sonra: حنف *(hanîf, dosdoğru)* ×24.1 [B tek sahne 4 ayet] · لعب *(oyun oynama)* ×10.8 [B tek sahne 3 ayet] · zuhur ×10.6 [A tek ayet]  ▸Allah med=9\n  · ولي *(dost, veli; velâyet)* n=232  ▸önce: مطو *(uzatma, mühlet)* ×98.1 [A tek ayet] · بخل *(cimrilik)* ×8.2 [A tek ayet] · Hristiyan ×6.5 [A tek ayet]  ▸sonra: شطر *(yarı, taraf)* ×39.2 [B tek sahne 3 ayet] · ne-güzel ×12.7 [A tek ayet] · arka ×8.8 [A tek ayet]  ▸Allah med=8\n  · ليس *(değil)* n=89  ▸önce: وقع *(düşme, vuku)* ×10.6 [B tek sahne 3 ayet] · yük-günah ×10.6 [A tek ayet] · takdim ×5.6 [A tek ayet]  ▸sonra: vebal ×25.3 [A tek ayet] · ثوي *(ikamet etme)* ×18.1 [B tek sahne 3 ayet] · كفي *(yetme)* ×7.7 [B tek sahne 3 ayet]  ▸Allah med=8\n  · جنح *(kanat; yan taraf)* n=34  ▸önce: خفض *(indirme, alçaltma)* ×172.2 [B tek sahne 3 ayet] · ليس *(değil)* ×23.2 · başka ×4.7 [A tek ayet]  ▸sonra: başka ×4.7 [A tek ayet]  ▸Allah med=10\n  · خطأ *(hata, günah)* n=22  ▸önce: حمل *(yüklenme, taşıma)* ×14.8 [B tek sahne 3 ayet] · غفر *(bağışlama, mağfiret)* ×9.5 · قتل *(öldürme)* ×5.6 [A tek ayet]  ▸sonra: حمل *(yüklenme, taşıma)* ×14.8 [B tek sahne 3 ayet]  ▸Allah med=18\n  · عمد *(direk, sütun; kasıt)* n=7 ⚠  ▸önce: —  ▸sonra: görme ×9.2 [A tek ayet]  ▸Allah med=8\n  · قلب *(çevirme; kalp)* n=168  ▸önce: طبع *(mühürleme)* ×39.4 · قسو *(katılaşma, kasvet)* ×31.0 · ربط *(bağlama)* ×26.0 [B tek sahne 3 ayet]  ▸sonra: رعب *(korku salma)* ×34.7 [B tek sahne 4 ayet] · مرض *(hastalık)* ×23.5 [B2 donmuş kalıp 12 ayet] · kulak-ağırlığı ×21.7 [A tek ayet]  ▸Allah med=7\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · غفر *(bağışlama, mağfiret)* n=234  ▸önce: صفح *(hoşgörü, bağışlama)* ×12.1 [A tek ayet] · عفو *(af)* ×11.1 · فيض *(taşma, feyz)* ×10.7 [A tek ayet]  ▸sonra: genişlik ×19.3 [A tek ayet] · günah ×16.6 [A tek ayet] · عزم *(azim, kararlılık)* ×10.7 [B tek sahne 3 ayet]  ▸Allah med=6\n  · رحم *(rahmet, merhamet)* n=339  ▸önce: قنط *(umut kesme)* ×17.5 [B tek sahne 5 ayet] · رأف *(şefkat, raafet)* ×16.1 · غفر *(bağışlama, mağfiret)* ×9.2  ▸sonra: eman-koruma ×9.0 [A tek ayet] · هبط *(inme, alçalma)* ×7.9 [B tek sahne 3 ayet] · yetme ×5.7 [A tek ayet]  ▸Allah med=13",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": true,
+    "ton": "cemâl",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:6": {
+   "ar": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًۭا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًۭا",
+   "meal": "Peygamber mü'minlere kendilerinden daha yakındır; eşleri onların analarıdır. Akrabalar, Allah'ın Kitabı'nda birbirlerine, mü'minlerden ve muhacirlerden daha yakındır — dostlarınıza bir iyilik yapmanız müstesna. Bu, Kitap'ta yazılmıştır.",
+   "olcum": "eksen: **ALLAH LAFZI** 15. sırada (allah z=0,16) · esmâ مُؤْمِن 3. sırada, ORTA konum, MÜHÜRSÜZ | مُؤْمِن 17. sırada, ORTA konum, MÜHÜRSÜZ | وَلِيّ 23. sırada, ORTA konum, MÜHÜRSÜZ · aktör yok · edim haber, kip RES 1, **biçim HASR** · şahıs 2MP 3 · 3MP 3 · 3MS 2, sahset ['2', '3'], baskın 3, iltifât 0 · n=29 (n z=1,76), fâsıla مسطورا → ا, A sınıfı · i’râb ACC 2 · GEN 10 · NOM 7; bab I. bab ×2; zaman IMPF 1 · PERF 1 · kök ikilemesi أمن *(güven; iman)* ×2 · بعض *(bir kısım)* ×2 · كتب *(yazma, kitap)* ×2 · ولي *(dost, veli; velâyet)* ×3 · sayı işareti زَوْج · simetri [3, 2, 11, 1] · harf 149 → **harf3 139**, isaret 10 · dış düğüm 2 · **yıldız ★** · kökler نبأ *(haber)* [2/18] · ولي *(dost, veli; velâyet)* [2,3,4/7] · أمن *(güven; iman)* [1,2/31] · نفس *(nefis, can)* [1/3] · زوج *(eş, çift)* [2/11] · أمم *(ümmet, topluluk)* [2/2] · رحم *(rahmet, merhamet)* [2/8] · بعض *(bir kısım)* [1,2/2] · كتب *(yazma, kitap)* [1,2/3] · أله *(ilâh; lafza-i celâl)* [10/90] · هجر *(hicret, terk etme)* [1/2] · فعل *(yapma, işleme)* [1/2] · عرف *(tanıma)* [1/3] · كون *(olmak; mekân, yer)* [4/42] · سطر *(satır, yazma; esâtîr (masallar))* [1/1] · bağ: xref أرحام بعض *(bir kısım)* أولى → 8:75 · بعض *(bir kısım)* أولى بعض *(bir kısım)* → 8:75 · أولى بعض *(bir kısım)* كتاب → 8:75 · بعض *(bir kısım)* كتاب اللّه → 8:75 · كان كتاب مسطور → 17:58",
+   "mercek": "◇ 33:4'ün simetrik karşıtı: orada 'eşlerinizi ANALARINIZ kılmadı', burada Peygamber'in 'eşleri ONLARIN ANALARIDIR'. أمم *(ümmet, topluluk)* kökü iki ayette iki kez ve iki kez ters yönde: aynı etiket bir yerde reddediliyor, bir yerde veriliyor. Fark etiketi kimin koyduğu: 33:4'te 'ağızlarınızdaki söz', 33:6'da 'Kitap'ta yazılmış'. Esmâ üç token (mü'min ×2, velî) ve ÜÇÜ DE ilâhî değil — mü'minler ve dostlar; e_oto=1, e_el=0. Sınama kümesine 32:4/32:18 ile aynı iki lemma ekleniyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · نبأ *(haber)* n=160  ▸önce: وهب *(bağışlama, hibe)* ×7.0 [B tek sahne 4 ayet] · kıssa-anlatma ×6.8 [A tek ayet] · رجع *(dönme, geri döndürme)* ×5.5  ▸sonra: tevil ×10.3 [A tek ayet] · هزأ *(alay etme)* ×5.2 [B tek sahne 4 ayet] · nifak ×3.6 [A tek ayet]  ▸Allah med=11\n  · ولي *(dost, veli; velâyet)* n=232  ▸önce: مطو *(uzatma, mühlet)* ×98.1 [A tek ayet] · بخل *(cimrilik)* ×8.2 [A tek ayet] · Hristiyan ×6.5 [A tek ayet]  ▸sonra: شطر *(yarı, taraf)* ×39.2 [B tek sahne 3 ayet] · ne-güzel ×12.7 [A tek ayet] · arka ×8.8 [A tek ayet]  ▸Allah med=8\n  · أمن *(güven; iman)* n=879  ▸önce: رسخ *(sağlamlaşma, râsih)* ×12.6 [A tek ayet] · havârî ×6.7 [A tek ayet] · kınama ×6.3 [A tek ayet]  ▸sonra: عزر *(kuvvetlendirme, tazim)* ×8.4 [B tek sahne 3 ayet] · صبأ *(sâbiî)* ×8.4 [B tek sahne 3 ayet] · خدع *(aldatma)* ×6.7 [A tek ayet]  ▸Allah med=8\n  · نفس *(nefis, can)* n=298  ▸önce: كلف *(yükümlülük, külfet)* ×21.2 [B2 donmuş kalıp 7 ayet] · سول *(süsleyip çekici kılma)* ×18.2 [B tek sahne 3 ayet] · ayartma ×18.2 [A tek ayet]  ▸sonra: burun ×48.4 [A tek ayet] · رأف *(şefkat, raafet)* ×5.6 [B tek sahne 3 ayet] · sükûn ×5.1 [A tek ayet]  ▸Allah med=10\n  · زوج *(eş, çift)* n=81  ▸önce: نبت *(bitki, bitme)* ×12.9 [B2 donmuş kalıp 6 ayet] · نكح *(nikâh, evlenme)* ×11.0 [B tek sahne 3 ayet] · وهب *(bağışlama, hibe)* ×10.1 [B tek sahne 3 ayet]  ▸sonra: iki ×16.8 [A tek ayet] · erkek ×14.0 [A tek ayet] · zürriyet ×13.1 [A tek ayet]  ▸Allah med=13\n  · أمم *(ümmet, topluluk)* n=118  ▸önce: karın ×10.0 [A tek ayet] · برك *(bereket)* ×5.3 [A tek ayet] · بعث *(gönderme; diriltme)* ×4.2  ▸sonra: نسك *(kurban ibadeti, nüsük)* ×32.2 [B tek sahne 3 ayet] · رضع *(emzirme)* ×15.4 [A tek ayet] · خلو *(boş kalma, baş başa kalma)* ×14.1 [B2 donmuş kalıp 8 ayet]  ▸Allah med=19\n  · رحم *(rahmet, merhamet)* n=339  ▸önce: قنط *(umut kesme)* ×17.5 [B tek sahne 5 ayet] · رأف *(şefkat, raafet)* ×16.1 · غفر *(bağışlama, mağfiret)* ×9.2  ▸sonra: eman-koruma ×9.0 [A tek ayet] · هبط *(inme, alçalma)* ×7.9 [B tek sahne 3 ayet] · yetme ×5.7 [A tek ayet]  ▸Allah med=13\n  · بعض *(bir kısım)* n=158  ▸önce: yönelme ×36.1 [A tek ayet] · هبط *(inme, alçalma)* ×33.8 [B tek sahne 3 ayet] · kıble ×25.8 [A tek ayet]  ▸sonra: emanet ×25.8 [A tek ayet] · derece ×17.5 [A tek ayet] · hicret ×9.4 [A tek ayet]  ▸Allah med=10\n  · كتب *(yazma, kitap)* n=319  ▸önce: borç ×15.3 [A tek ayet] · نقص *(eksiltme)* ×6.9 [B tek sahne 3 ayet] · أهل *(halk, aile)* ×5.9  ▸sonra: yazma ×13.7 [A tek ayet] · درس *(ders, okuyup silme)* ×11.4 [B tek sahne 3 ayet] · hikmet ×11.4 [A tek ayet]  ▸Allah med=10\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · هجر *(hicret, terk etme)* n=31  ▸önce: وسع *(genişlik, kuşatma)* ×22.2 [B tek sahne 3 ayet] · kısım ×7.6 [A tek ayet] · edinme ×5.6 [A tek ayet]  ▸sonra: cihad ×40.6 [A tek ayet] · سبل *(yol)* ×12.1 [B2 donmuş kalıp 9 ayet] · مول *(mal)* ×8.3 [B tek sahne 3 ayet]  ▸Allah med=6\n  · فعل *(yapma, işleme)* n=108  ▸önce: ömür ×15.1 [A tek ayet] · yıl ×11.1 [A tek ayet] · zarar ×4.3 [A tek ayet]  ▸sonra: maruf ×5.2 [A tek ayet] · iftira ×3.6 [A tek ayet] · hayır ×3.0 [A tek ayet]  ▸Allah med=9\n  · عرف *(tanıma)* n=71  ▸önce: talâk ×19.5 [A tek ayet] · tutma ×17.5 [A tek ayet] · ecel ×6.6 [A tek ayet]  ▸sonra: sîmâ ×106.1 [A tek ayet] · نكر *(tanımama, inkâr; çirkin)* ×29.5 · nehiy ×20.8 [A tek ayet]  ▸Allah med=9\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · سطر *(satır, yazma; esâtîr (masallar))* n=16  ▸önce: كتب *(yazma, kitap)* ×4.3 [B tek sahne 4 ayet] · قول *(söz söyleme)* ×2.1  ▸sonra: evvel ×49.7 [A tek ayet]  ▸Allah med=38",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:7": {
+   "ar": "وَإِذْ أَخَذْنَا مِنَ ٱلنَّبِيِّۦنَ مِيثَٰقَهُمْ وَمِنكَ وَمِن نُّوحٍۢ وَإِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَى ٱبْنِ مَرْيَمَ ۖ وَأَخَذْنَا مِنْهُم مِّيثَٰقًا غَلِيظًۭا",
+   "meal": "Hani peygamberlerden ahitlerini almıştık: senden, Nûh'tan, İbrâhîm'den, Mûsâ'dan ve Meryem oğlu Îsâ'dan. Onlardan ağır bir ahit almıştık —",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör: adlı نُوح 8. sırada (kisi, rol mecrur) · adlı إِبْراهِيم 9. sırada (kisi, rol mecrur) · adlı مُوسَى 10. sırada (kisi, rol mecrur) · adlı عِيسَى 11. sırada (kisi, rol mecrur) · adlı مَرْيَم 13. sırada (kisi, rol mecrur) · edim haber, kip yok · şahıs 1P 4 · 2MS 1 · 3MP 2, sahset ['1', '2', '3'], baskın 1, iltifât 0 · n=17 (n z=0,49), fâsıla غليظا → ا, A sınıfı · i’râb ACC 3 · GEN 7; bab I. bab ×2; zaman PERF 2 · kök ikilemesi أخذ *(alma, edinme)* ×2 · وثق *(sağlam bağ, güven; ahit)* ×2 · simetri [4, 1, 13, 1] · harf 80 → **harf3 76**, isaret 4 · dış düğüm 2 · **yıldız yok** · kökler أخذ *(alma, edinme)* [1,2/3] · نبأ *(haber)* [3/18] · وثق *(sağlam bağ, güven; ahit)* [1,2/2] · بني *(bina, yapma)* [2/10] · غلظ *(kalınlık, sertlik)* [1/1] · bağ: xref أخذ *(alma, edinme)* ميثاق غليظ → 4:21, 4:154",
+   "mercek": "◇ Lafız YOK, Rab YOK, esmâ YOK — ama fiil 1P (almıştık): konuşan açık. Beş adlı peygamber ve ADSIZ bir altıncı: 'senden' (2MS) — muhatap adlı listenin başında ama adsız. mîsâkan galîzan: xref 4:21 ve 4:154 — aynı ifade korpusta üç ayrı ilişkiye veriliyor (evlilik ahdi · İsrâiloğulları · peygamberler); sûre 4 okunmadığı için bağ DOĞRULANMADI, yalnız kaydedildi.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · أخذ *(alma, edinme)* n=273  ▸önce: ganimet ×9.3 [A tek ayet] · ملو *(uzun süre, mele; yazdırma (imlâ))* ×7.5 [B tek sahne 3 ayet] · جهر *(açığa vurma, sesi yükseltme)* ×4.7 [A tek ayet]  ▸sonra: جثم *(çöküp kalma)* ×15.0 [B tek sahne 3 ayet] · dostluk-halîl ×15.0 [A tek ayet] · misak ×14.5 [A tek ayet]  ▸Allah med=13\n  · نبأ *(haber)* n=160  ▸önce: وهب *(bağışlama, hibe)* ×7.0 [B tek sahne 4 ayet] · kıssa-anlatma ×6.8 [A tek ayet] · رجع *(dönme, geri döndürme)* ×5.5  ▸sonra: tevil ×10.3 [A tek ayet] · هزأ *(alay etme)* ×5.2 [B tek sahne 4 ayet] · nifak ×3.6 [A tek ayet]  ▸Allah med=11\n  · وثق *(sağlam bağ, güven; ahit)* n=34  ▸önce: bozma ×137.2 [A tek ayet] · alma ×29.1 [A tek ayet] · عهد *(ahit, antlaşma)* ×14.3 [B tek sahne 3 ayet]  ▸sonra: غلظ *(kalınlık, sertlik)* ×50.7 [B tek sahne 3 ayet] · evlat ×4.1 [A tek ayet] · سمع *(işitme)* ×3.6 [A tek ayet]  ▸Allah med=7\n  · بني *(bina, yapma)* n=184  ▸önce: عمم *(amca; genel)* ×54.2 [A tek ayet] · Mesih ×38.7 [A tek ayet] · قفو *(izinden gitme)* ×31.0 [B tek sahne 3 ayet]  ▸sonra: dayı ×58.0 [A tek ayet] · teyze ×51.6 [A tek ayet] · بذر *(saçıp savurma)* ×38.7 [A tek ayet]  ▸Allah med=14\n  · غلظ *(kalınlık, sertlik)* n=13 ⚠  ▸önce: misak ×46.8 [A tek ayet] · alma ×10.7 [A tek ayet] · azap ×5.2 [A tek ayet]  ▸sonra: küfür ×2.9 [A tek ayet]  ▸Allah med=8",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:8": {
+   "ar": "لِّيَسْـَٔلَ ٱلصَّٰدِقِينَ عَن صِدْقِهِمْ ۚ وَأَعَدَّ لِلْكَٰفِرِينَ عَذَابًا أَلِيمًۭا",
+   "meal": "— doğrulara doğruluklarını sorsun diye. Kâfirlere de acıklı bir azap hazırladı.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MP 1 · 3MS 2, sahset ['3'], baskın 3, iltifât 0 · n=8 (n z=-0,47), fâsıla أليما → ا, A sınıfı · i’râb ACC 3 · GEN 2; bab I. bab ×1 · IV. bab ×1; zaman IMPF 1 · PERF 1 · kök ikilemesi صدق *(doğruluk)* ×2 · sayı işareti أَعَدَّ · harf 42 → **harf3 40**, isaret 2 · dış düğüm 1 · **yıldız yok** · kökler سأل *(isteme, dileme)* [1/7] · صدق *(doğruluk)* [1,2/10] · عدد *(sayma, sayı)* [1/8] · كفر *(inkâr, nankörlük)* [2/5] · عذب *(azap)* [1/6] · ألم *(elem, acı)* [1/1] · bağ: xref أعدّ كافر عذاب → 4:102",
+   "mercek": "◇ Amaç cümlesi: ahit alınması bir sorgunun ÖN KOŞULU (doğrulara doğruluklarını sormak). صدق *(doğruluk)* ×2 aynı cümlede (sâdıkîn / sıdk) — ölçen ve ölçülen aynı kök. say alanı a'adde fiilini sayı işareti diye yakalıyor: عدد *(sayma, sayı)* kökü ama anlam 'hazırlamak' — yanlış pozitif (borç #13 ailesi).",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · سأل *(isteme, dileme)* n=129  ▸önce: güvenilir ×19.8 [A tek ayet] · yönelme ×16.6 [A tek ayet] · يقن *(yakîn, kesin bilgi)* ×5.9 [B tek sahne 3 ayet]  ▸sonra: حفو *(ihata etme, çevreleme)* ×55.5 [A tek ayet] · أجر *(ücret, karşılık)* ×12.8 · ثقل *(ağırlık)* ×5.9 [B tek sahne 4 ayet]  ▸Allah med=15\n  · صدق *(doğruluk)* n=155  ▸önce: قنت *(gönülden itaat, kunût)* ×14.0 [B tek sahne 3 ayet] · خشع *(huşû, boyun eğme)* ×10.7 [A tek ayet] · ثوي *(ikamet etme)* ×9.8 [A tek ayet]  ▸sonra: قمص *(gömlek)* ×22.8 [B tek sahne 4 ayet] · karz-borç ×15.2 [A tek ayet] · oruç ×14.0 [A tek ayet]  ▸Allah med=10\n  · عدد *(sayma, sayı)* n=57  ▸önce: genişlik ×68.9 [A tek ayet] · حصي *(sayıp kuşatma)* ×41.7 · talâk ×32.8 [A tek ayet]  ▸sonra: سرح *(salıverme)* ×65.6 [A tek ayet] · حصي *(sayıp kuşatma)* ×41.7 · yıl ×18.1 [A tek ayet]  ▸Allah med=9\n  · كفر *(inkâr, nankörlük)* n=525  ▸önce: مقت *(öfke, gazap)* ×6.9 [A tek ayet] · عتد *(hazırlama)* ×6.9 · temenni ×5.7 [A tek ayet]  ▸sonra: مقت *(öfke, gazap)* ×9.2 [A tek ayet] · tâğût ×5.2 [A tek ayet] · نيل *(erişme, nail olma)* ×4.6 [B tek sahne 3 ayet]  ▸Allah med=9\n  · عذب *(azap)* n=373  ▸önce: azap-sürme ×18.9 [A tek ayet] · ذوق *(tatma)* ×10.2 · عتد *(hazırlama)* ×8.3  ▸sonra: ألم *(elem, acı)* ×19.7 · aşağılama ×17.1 [A tek ayet] · bağlama ×15.1 [A tek ayet]  ▸Allah med=11\n  · ألم *(elem, acı)* n=75  ▸önce: عتد *(hazırlama)* ×23.6 [B tek sahne 4 ayet] · azap ×19.8 [A tek ayet] · müjde ×7.9 [A tek ayet]  ▸sonra: ummak ×16.4 [A tek ayet] · icabet ×6.7 [A tek ayet] · ليس *(değil)* ×3.2 [B tek sahne 3 ayet]  ▸Allah med=10",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:9": {
+   "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
+   "meal": "Ey iman edenler! Allah'ın üzerinizdeki nimetini anın: hani size ordular gelmişti; biz de üzerlerine bir rüzgâr ve sizin görmediğiniz ordular göndermiştik. Allah yaptıklarınızı görendir.",
+   "olcum": "eksen: **ALLAH LAFZI** 6, 18. sırada (2 token, allah z=1,38) · esmâ بَصِير 21. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, nida, kip IMPV 1 · NEG 1 · VOC 1, **biçim DIKKAT** · şahıs 1P 2 · 2MP 8 · 3FS 2 · 3MP 3 · 3MS 1, sahset ['1', '2', '3'], baskın 2, iltifât 0 · n=21 (n z=0,91), fâsıla بصيرا → ا, A sınıfı · i’râb ACC 5 · GEN 1 · NOM 2; bab I. bab ×5 · IV. bab ×2; zaman IMPF 2 · IMPV 1 · PERF 4 · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · جند *(ordu, asker)* ×2 · simetri [3, 6, 18, 1] · harf 104 → **harf3 98**, isaret 6 · dış düğüm 1 · İÇ düğüm 1 · **yıldız yok** · kökler أيي *(âyet, işaret)* [2/13] · أمن *(güven; iman)* [3/31] · ذكر *(anma, zikir)* [1/7] · نعم *(nimet; davar)* [1/3] · أله *(ilâh; lafza-i celâl)* [11,12/90] · جيأ *(gelme)* [1/3] · جند *(ordu, asker)* [1,2/2] · رسل *(gönderme, elçi)* [1/17] · روح *(ruh; rüzgâr)* [1/1] · رأي *(görme)* [1/3] · كون *(olmak; mekân, yer)* [5/42] · عمل *(iş, amel)* [2/5] · بصر *(görme)* [1/2] · bağ: `nakarat3` 'أيي *(âyet, işaret)*|أَيّ الذين أمن *(güven; iman)*|آمَنَ ذكر *(anma, zikir)*|ذَكَرَ' (4 kelime / 2 ayet, tür ic) → süzgeç **GEÇER** | `nakarat3` 'أيي *(âyet, işaret)*|أَيّ الذين أمن *(güven; iman)*|آمَنَ' (3 kelime / 7 ayet, tür ic) → süzgeç **GEÇER** | xref أيّ آمن ذكر *(anma, zikir)* → 5:11, 33:41 · آمن ذكر *(anma, zikir)* نعمة → 5:11",
+   "mercek": "◇ Olay anlatısı başlıyor ve ilk anılan şey NİMET: 'anın'. İki ordu karşılaştırılıyor: size gelen ordular (جند *(ordu, asker)* ×2) ve sizin görmediğiniz ordular — aynı kelime, biri görülen biri görülmeyen. Rüzgâr: روح *(ruh; rüzgâr)* kökü (aday 946 onarımı burada doğru eşledi). 🜁 kademe L0, olgu evet (rüzgâr adlandırılıyor, başka iddia yok). Tarayıcı v4 bu ayeti G_bakış ile ADAY VERDİ ('görmediğiniz') — çıpa değil: kesinlik 0/1. Eski esma_k mühürsüz, §4.3 ile mühür (tekil basîr).",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · أيي *(âyet, işaret)* n=597  ▸önce: tafsil ×6.2 [A tek ayet] · جحد *(inkâr, bile bile reddetme)* ×5.8 · نوق *(deve)* ×4.9 [B tek sahne 3 ayet]  ▸sonra: âlâ-nimet ×11.5 [A tek ayet] · فكر *(düşünme, tefekkür)* ×7.0 [B2 donmuş kalıp 11 ayet] · جحد *(inkâr, bile bile reddetme)* ×5.8  ▸Allah med=13\n  · أمن *(güven; iman)* n=879  ▸önce: رسخ *(sağlamlaşma, râsih)* ×12.6 [A tek ayet] · havârî ×6.7 [A tek ayet] · kınama ×6.3 [A tek ayet]  ▸sonra: عزر *(kuvvetlendirme, tazim)* ×8.4 [B tek sahne 3 ayet] · صبأ *(sâbiî)* ×8.4 [B tek sahne 3 ayet] · خدع *(aldatma)* ×6.7 [A tek ayet]  ▸Allah med=8\n  · ذكر *(anma, zikir)* n=292  ▸önce: نسك *(kurban ibadeti, nüsük)* ×10.8 [A tek ayet] · kolaylık ×9.0 [A tek ayet] · لهو *(oyalanma, eğlence)* ×7.9 [B tek sahne 4 ayet]  ▸sonra: لبب *(öz, akıl (lübb))* ×14.2 · أنث *(dişi)* ×13.4 · sabah-erken ×11.2 [A tek ayet]  ▸Allah med=15\n  · نعم *(nimet; davar)* n=140  ▸önce: ilham-nasip ×102.3 [A tek ayet] · بهم *(dilsizlik, belirsizlik)* ×51.1 [B tek sahne 3 ayet] · تمم *(tamamlama)* ×16.3  ▸sonra: değiştirme ×17.0 [A tek ayet] · karın ×9.0 [A tek ayet] · سقي *(sulama)* ×6.1 [B tek sahne 4 ayet]  ▸Allah med=12\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · جيأ *(gelme)* n=278  ▸önce: دكك *(darmadağın etme)* ×14.3 [A tek ayet] · şaşma ×6.3 [A tek ayet] · صفف *(saf, dizi)* ×5.4 [A tek ayet]  ▸sonra: büyü ×6.2 [A tek ayet] · beyan ×4.5 [A tek ayet] · şehir ×4.4 [A tek ayet]  ▸Allah med=16\n  · جند *(ordu, asker)* n=29  ▸önce: yardım ×6.7 [A tek ayet] · تبع *(uyma, ardından gitme)* ×4.5 [B tek sahne 3 ayet] · indirme ×2.7 [A tek ayet]  ▸sonra: deniz ×15.7 [A tek ayet] · görme ×3.3 [A tek ayet] · gök ×2.5 [A tek ayet]  ▸Allah med=11\n  · رسل *(gönderme, elçi)* n=513  ▸önce: karşı-gelme ×14.4 [A tek ayet] · mesele ×11.5 [A tek ayet] · Muhammed ×10.8 [A tek ayet]  ▸sonra: taş-kasırgası ×14.4 [A tek ayet] · bol-yağmur ×14.4 [A tek ayet] · güvenilir ×7.2 [A tek ayet]  ▸Allah med=9\n  · روح *(ruh; rüzgâr)* n=57  ▸önce: destekleme ×51.7 [A tek ayet] · نفخ *(üfleme)* ×29.1 [B tek sahne 5 ayet] · düzenleme ×23.3 [A tek ayet]  ▸sonra: صرصر *(uğultulu şiddetli rüzgâr)* ×116.4 [B tek sahne 3 ayet] · fırtına ×116.4 [A tek ayet] · قدس *(kutsallık, arınmışlık)* ×46.5 [B tek sahne 4 ayet]  ▸Allah med=19\n  · رأي *(görme)* n=328  ▸önce: direk ×16.4 [A tek ayet] · حلي *(süs, zinet)* ×7.3 [B tek sahne 3 ayet] · رأف *(şefkat, raafet)* ×5.0 [B tek sahne 3 ayet]  ▸sonra: وقف *(durdurma, vakfe)* ×16.4 [B tek sahne 3 ayet] · صفر *(sarılık)* ×13.1 [B tek sahne 3 ayet] · bulut ×8.7 [A tek ayet]  ▸Allah med=15\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · عمل *(iş, amel)* n=360  ▸önce: حبط *(boşa çıkma, silinme)* ×18.8 · زين *(süsleme)* ×6.5 · غفل *(gaflet, habersizlik)* ×6.3 [B2 donmuş kalıp 11 ayet]  ▸sonra: kesintisiz ×15.0 [A tek ayet] · salâh ×11.5 [A tek ayet] · zerre ×10.0 [A tek ayet]  ▸Allah med=13\n  · بصر *(görme)* n=148  ▸önce: şimşek ×24.4 [A tek ayet] · ibret ×20.9 [A tek ayet] · زيغ *(eğrilme, kayma)* ×16.2 [B tek sahne 3 ayet]  ▸sonra: قبض *(avuçlama, kabzetme)* ×21.6 [A tek ayet] · فأد *(gönül, fuâd)* ×21.3 [B2 donmuş kalıp 7 ayet] · deri ×16.2 [A tek ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": "L0",
+    "olgu": true,
+    "cipa": false,
+    "not_": "rüzgâr adlandırılıyor, başka iddia yok"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "cemâl",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:10": {
+   "ar": "إِذْ جَآءُوكُم مِّن فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنكُمْ وَإِذْ زَاغَتِ ٱلْأَبْصَٰرُ وَبَلَغَتِ ٱلْقُلُوبُ ٱلْحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠",
+   "meal": "Hani üstünüzden ve aşağınızdan size gelmişlerdi; hani gözler kaymış, yürekler gırtlaklara dayanmıştı ve Allah hakkında türlü zanlarda bulunuyordunuz.",
+   "olcum": "eksen: **ALLAH LAFZI** 15. sırada (allah z=0,72) · esmâ yok · aktör yok · edim haber, kip yok · şahıs 2MP 5 · 3FS 2 · 3MP 2, sahset ['2', '3'], baskın 2, iltifât 0 · n=16 (n z=0,38), fâsıla ٱلظنونا → ا, A sınıfı · i’râb ACC 2 · GEN 3 · NOM 2; bab I. bab ×4; zaman IMPF 1 · PERF 3 · kök ikilemesi ظنن *(zan, sanma)* ×2 · simetri [3, 1, 5, 1] · harf 76 → **harf3 75**, isaret 1 · dış düğüm 0 · **yıldız yok** · kökler جيأ *(gelme)* [2/3] · فوق *(üst, üstünde)* [1/1] · سفل *(alt, aşağı)* [1/1] · زيغ *(eğrilme, kayma)* [1/1] · بصر *(görme)* [2/2] · بلغ *(ulaşma, tebliğ)* [1/2] · قلب *(çevirme; kalp)* [3/11] · حنجر *(gırtlak, boğaz)* [1/1] · ظنن *(zan, sanma)* [1,2/2] · أله *(ilâh; lafza-i celâl)* [13/90] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Kuşatma iki eksenle çiziliyor: üst/alt (fevk / esfel) ve dış/iç — dışarıda ordular geliyor, içeride gözler kayıyor, yürekler gırtlağa çıkıyor, zanlar çoğalıyor. Beden hareketi DİKEY: yürek aşağıdan yukarı. ظنن *(zan, sanma)* ×2 (fiil + aynı kökten belirli çoğul isim, ACC) — biçim olarak mef'ûl-i mutlak, ama mm2 YAKALAMIYOR: araya lafız giriyor, mm2 bitişiklik istiyor (27:58'deki bilinen negatifin ikinci vakası; araç açığı, metin hakkında bilgi değil — aday 924). Fâsıla 'ez-zunûnâ': sonda uzatma elifi.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · جيأ *(gelme)* n=278  ▸önce: دكك *(darmadağın etme)* ×14.3 [A tek ayet] · şaşma ×6.3 [A tek ayet] · صفف *(saf, dizi)* ×5.4 [A tek ayet]  ▸sonra: büyü ×6.2 [A tek ayet] · beyan ×4.5 [A tek ayet] · şehir ×4.4 [A tek ayet]  ▸Allah med=16\n  · فوق *(üst, üstünde)* n=43  ▸önce: موج *(dalga)* ×85.0 [A tek ayet] · رفع *(yükseltme)* ×35.9 · غشو *(bürüme, kaplama)* ×15.4 [B tek sahne 3 ayet]  ▸sonra: Tûr ×44.6 [A tek ayet] · ayak ×29.7 [A tek ayet] · رأس *(baş)* ×24.8 [B tek sahne 3 ayet]  ▸Allah med=15\n  · سفل *(alt, aşağı)* n=10 ⚠  ▸önce: جعل *(kılma, var etme)* ×9.7 [B tek sahne 5 ayet]  ▸sonra: —  ▸Allah med=15\n  · زيغ *(eğrilme, kayma)* n=9 ⚠  ▸önce: —  ▸sonra: kalp ×33.4 [A tek ayet] · بصر *(görme)* ×17.9 [B tek sahne 3 ayet] · hidâyet ×8.6 [A tek ayet]  ▸Allah med=14\n  · بصر *(görme)* n=148  ▸önce: şimşek ×24.4 [A tek ayet] · ibret ×20.9 [A tek ayet] · زيغ *(eğrilme, kayma)* ×16.2 [B tek sahne 3 ayet]  ▸sonra: قبض *(avuçlama, kabzetme)* ×21.6 [A tek ayet] · فأد *(gönül, fuâd)* ×21.3 [B2 donmuş kalıp 7 ayet] · deri ×16.2 [A tek ayet]  ▸Allah med=15\n  · بلغ *(ulaşma, tebliğ)* n=77  ▸önce: sebep-yol ×42.2 [A tek ayet] · kurbanlık ×40.6 [A tek ayet] · غلم *(oğlan, delikanlı)* ×21.9 [B tek sahne 3 ayet]  ▸sonra: نصح *(öğüt, nasihat)* ×29.2 [B tek sahne 4 ayet] · doğma-çıkma ×19.0 [A tek ayet] · ecel ×13.8 [A tek ayet]  ▸Allah med=13\n  · قلب *(çevirme; kalp)* n=168  ▸önce: طبع *(mühürleme)* ×39.4 · قسو *(katılaşma, kasvet)* ×31.0 · ربط *(bağlama)* ×26.0 [B tek sahne 3 ayet]  ▸sonra: رعب *(korku salma)* ×34.7 [B tek sahne 4 ayet] · مرض *(hastalık)* ×23.5 [B2 donmuş kalıp 12 ayet] · kulak-ağırlığı ×21.7 [A tek ayet]  ▸Allah med=7\n  · حنجر *(gırtlak, boğaz)* n=2 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=9\n  · ظنن *(zan, sanma)* n=69  ▸önce: nifak ×12.5 [A tek ayet] · أبد *(ebedîlik)* ×12.4 [A tek ayet] · زين *(süsleme)* ×7.5 [B tek sahne 3 ayet]  ▸sonra: خرص *(atma, yalan söyleme)* ×69.2 [B tek sahne 3 ayet] · زلزل *(sarsıntı, zelzele)* ×57.6 [A tek ayet] · kizb ×14.4 [A tek ayet]  ▸Allah med=14\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0",
+   "cipa": {
+    "kademe": "L0",
+    "olgu": false,
+    "cipa": false,
+    "not_": "gözlerin kayması, yüreklerin gırtlağa dayanması: korku betimi (mecaz)"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-10": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 10,
+    "kelime_toplam": 178,
+    "lafiz_token": 13,
+    "lafiz_ayet": 8,
+    "rab_token": 1,
+    "edilgen_ayet": [
+     2
+    ],
+    "iltifat_ayet": [],
+    "kafiye_kirik_ayet": [
+     4
+    ],
+    "hapaks2": {
+     "4": [
+      "جوف"
+     ]
+    },
+    "yildiz_dagilim": {
+     "0": 5,
+     "1": 2,
+     "2": 1,
+     "3": 2
+    },
+    "yildiz_kaynak": {
+     "1": {
+      "yildiz": 2,
+      "kaynak": "allah",
+      "z": 2.55,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "3": {
+      "yildiz": 3,
+      "kaynak": "allah",
+      "z": 6.14,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "4": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {
+       "n": 1.65
+      },
+      "kafiye_kirik": true
+     },
+     "5": {
+      "yildiz": 1,
+      "kaynak": "n",
+      "z": 1.65,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "6": {
+      "yildiz": 1,
+      "kaynak": "n",
+      "z": 1.76,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [
+     1,
+     2,
+     3,
+     5,
+     9
+    ],
+    "say_isareti": {
+     "4": [
+      "زَوْج"
+     ],
+     "6": [
+      "زَوْج"
+     ],
+     "8": [
+      "أَعَدَّ"
+     ]
+    },
+    "esma_token_oto": 10,
+    "esma_sinif_oto": {
+     "A": 7,
+     "AR": 1,
+     "0": 2
+    },
+    "esma_sinif_el": {
+     "A": 7,
+     "AR": 1,
+     "0": 2
+    },
+    "esma_muhur_43": [
+     1,
+     2,
+     3,
+     5,
+     9
+    ],
+    "esma_muhur_43_gecerli": [
+     1,
+     2,
+     3,
+     5,
+     9
+    ],
+    "tarayici_v4_aday": [
+     "33:9"
+    ],
+    "ariza": [
+     "blok_goster.py besmele ayıklaması 33:1'de besmeleyi bırakıyordu (eski kural 26/112) — okumayı bloke ettiği için ONARILDI (112/112, 1:1'deki BOM ayrıca)",
+     "say: zevc 'eş' anlamında iki kez (33:4, 33:6) ve a'adde 'hazırladı' (33:8) sayı işareti sayılıyor — yanlış pozitif (borç #13)",
+     "mm2: 33:10 zann fiili + ez-zunûn (ACC, aynı kök) araya lafız girdiği için yakalanmadı — bitişiklik koşulu (27:58 ile ikinci vaka)",
+     "yıldız: 33:4 hapaks + n + kafiye kırığı, formül yalnız birini sayıyor (borç #15)",
+     "esmâ: 33:6 mü'min ×2 + velî insan göndergeli; e_oto sınıfı etkilemedi (lafız var) ama §4.2 sınama kümesine girer",
+     "ton: vekîl (33:3) varlik_katalog'da tonsuz — katalog 72 lemmanın 26'sını kapsıyor"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   },
+   "11-20": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 10,
+    "kelime_toplam": 182,
+    "lafiz_token": 8,
+    "lafiz_ayet": 5,
+    "rab_token": 0,
+    "edilgen_ayet": [
+     11,
+     14,
+     16,
+     19
+    ],
+    "iltifat_ayet": [],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {
+     "18": [
+      "عوق"
+     ],
+     "19": [
+      "سلق"
+     ]
+    },
+    "yildiz_dagilim": {
+     "0": 5,
+     "2": 2,
+     "3": 3
+    },
+    "yildiz_kaynak": {
+     "11": {
+      "yildiz": 3,
+      "kaynak": "pas",
+      "z": 5.38,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "14": {
+      "yildiz": 2,
+      "kaynak": "pas",
+      "z": 2.52,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "15": {
+      "yildiz": 2,
+      "kaynak": "allah",
+      "z": 2.55,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "18": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "19": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {
+       "n": 2.4
+      },
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [
+     11
+    ],
+    "nakarat3_ayet": [
+     12,
+     17,
+     19
+    ],
+    "say_isareti": {
+     "16": [
+      "قَلِيل"
+     ],
+     "18": [
+      "قَلِيل"
+     ],
+     "20": [
+      "قَلِيل"
+     ]
+    },
+    "esma_token_oto": 3,
+    "esma_sinif_oto": {
+     "E": 1,
+     "A": 5,
+     "0": 4
+    },
+    "esma_sinif_el": {
+     "0": 5,
+     "A": 5
+    },
+    "esma_muhur_43": [
+     11,
+     17
+    ],
+    "esma_muhur_43_gecerli": [],
+    "tarayici_v4_aday": [
+     "33:16"
+    ],
+    "ariza": [
+     "gloss: belâ kökü 'eskiyip yıpranma' (33:11'de ve kökün baskın lemmalarında anlam SINAMA); devr kökü 'yurt, ev' (33:19 tedûru = dönmek); velî kökü 'dost, veli' (33:15 yüvellûne = arka çevirmek)",
+     "say: qalîl üç kez (33:16, 33:18, 33:20) sayı işareti — miktar sözcüğü, tartışmalı",
+     "mm2: 33:11 zülzilû zilzâlen YAKALANDI (bitişik) — 33:10 ile karşıt çift",
+     "yıldız: 33:19 hapaks z=3,28 + n z=2,40, formül yalnız birini sayıyor (borç #15)",
+     "esmâ: 33:11 mü'min (insan) sınıfı E yapıyor (e_oto) ve §4.3 son-üç tanımıyla MÜHÜR; 33:17 velî + nasîr ('Allah'tan başka') ÇİFT MÜHÜR — ikisi de yanlış",
+     "ikili: Yesrib (33:13) köksüz özel ad, ikili alanında görünmüyor (borç 972)"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "33:11": {
+   "ar": "هُنَالِكَ ٱبْتُلِىَ ٱلْمُؤْمِنُونَ وَزُلْزِلُوا۟ زِلْزَالًۭا شَدِيدًۭا",
+   "meal": "Orada mü'minler imtihan edildi ve şiddetli bir sarsıntıyla sarsıldılar.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ مُؤْمِن 3. sırada, ORTA konum, MÜHÜRSÜZ · aktör yok · edim haber, kip yok · şahıs 3MP 2 · 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=6 (n z=-0,68), fâsıla شديدا → ا, A sınıfı · i’râb ACC 2 · NOM 1; bab I. bab ×1 · VIII. bab ×1; zaman PERF 2 · **EDİLGEN 2/2 fiil, pas z=5,38** · kök ikilemesi زلزل *(sarsıntı, zelzele)* ×2 · **mm2: [4, زلزل *(sarsıntı, zelzele)*]** · harf 39 → **harf3 36**, isaret 3 · dış düğüm 0 · **yıldız ★★★** · kökler بلو *(eskiyip yıpranma)* [1/1] · أمن *(güven; iman)* [4/31] · زلزل *(sarsıntı, zelzele)* [1,2/2] · شدد *(şiddet, katılık)* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Altı kelime, iki fiil, ikisi de EDİLGEN (pas z=5,38 → ★★★'ın tek kaynağı): imtihan eden ve sarsan adlandırılmıyor. zülzilû zilzâlen — mm2 BURADA YAKALIYOR (fiil ve masdar bitişik). 33:10 ile yan yana: iki ardışık ayet, iki mef'ûl-i mutlak, alan birini görüyor birini görmüyor — fark metinde değil bitişiklik koşulunda. بلو *(eskiyip yıpranma)* kökünün glossu 'eskiyip yıpranma', ama burada ve kökün baskın lemmalarında anlam SINAMA (aşağıda borç). Esmâ mü'min yine insan: e_oto=1 → sınıf E, e_el=0 → sınıf 0; §4.3 son-üç tanımı bunu MÜHÜR sayıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · بلو *(eskiyip yıpranma)* n=38  ▸önce: رمي *(atma)* ×82.7 [A tek ayet] · sağ-bırakma ×62.1 [A tek ayet] · ümmet ×11.6 [A tek ayet]  ▸sonra: azamet ×6.6 [A tek ayet] · حسن *(güzellik, iyilik)* ×5.8 · سمع *(işitme)* ×3.0 [B tek sahne 3 ayet]  ▸Allah med=21\n  · أمن *(güven; iman)* n=879  ▸önce: رسخ *(sağlamlaşma, râsih)* ×12.6 [A tek ayet] · havârî ×6.7 [A tek ayet] · kınama ×6.3 [A tek ayet]  ▸sonra: عزر *(kuvvetlendirme, tazim)* ×8.4 [B tek sahne 3 ayet] · صبأ *(sâbiî)* ×8.4 [B tek sahne 3 ayet] · خدع *(aldatma)* ×6.7 [A tek ayet]  ▸Allah med=8\n  · زلزل *(sarsıntı, zelzele)* n=6 ⚠  ▸önce: ظنن *(zan, sanma)* ×46.5 [A tek ayet] · Rab ×3.3 [A tek ayet]  ▸sonra: أرض *(yer, yeryüzü)* ×7.0 [A tek ayet] · قول *(söz söyleme)* ×3.1 [B tek sahne 3 ayet]  ▸Allah med=9\n  · شدد *(şiddet, katılık)* n=102  ▸önce: şiddet ×20.0 [A tek ayet] · kuvvet ×8.1 [A tek ayet] · بلغ *(ulaşma, tebliğ)* ×6.9  ▸sonra: ceza ×34.6 [A tek ayet] · kuvvet ×16.3 [A tek ayet] · şefaat ×8.9 [A tek ayet]  ▸Allah med=11",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "E",
+    "sinif_el": "0",
+    "e_oto": true,
+    "e_el": false,
+    "muhur": true,
+    "cift": false,
+    "ton": "katalog-dışı",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:12": {
+   "ar": "وَإِذْ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ مَّا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥٓ إِلَّا غُرُورًۭا",
+   "meal": "Hani münafıklar ve kalplerinde hastalık olanlar, 'Allah ve Resûlü bize aldatmacadan başka bir şey vaat etmedi' diyorlardı.",
+   "olcum": "eksen: **ALLAH LAFZI** 10. sırada (allah z=1,01) · esmâ yok · aktör yok · edim haber, kip NEG 1 · RES 1, **biçim HASR** · şahıs 1P 1 · 3MP 1 · 3MS 3, sahset ['1', '3'], baskın 3, iltifât 0 · n=13 (n z=0,06), fâsıla غرورا → ا, A sınıfı · i’râb ACC 1 · GEN 1 · NOM 4; bab I. bab ×2; zaman IMPF 1 · PERF 1 · harf 60 → **harf3 57**, isaret 3 · dış düğüm 1 · İÇ düğüm 1 · **yıldız yok** · kökler قول *(söz söyleme)* [3/21] · نفق *(infak, harcama; nifak)* [2/7] · قلب *(çevirme; kalp)* [4/11] · مرض *(hastalık)* [1/3] · وعد *(vaat)* [1/2] · أله *(ilâh; lafza-i celâl)* [14/90] · رسل *(gönderme, elçi)* [2/17] · غرر *(aldanış, gurur)* [1/1] · bağ: `nakarat3` 'نفق *(infak, harcama; nifak)*|مُنافِق الذين فا قلب *(çevirme; kalp)*|قَلْب مرض *(hastalık)*|مَرَض' (5 kelime / 2 ayet, tür ic) → süzgeç **GEÇER** | `nakarat3` 'ما وعد *(vaat)*|وَعَدَ أله *(ilâh; lafza-i celâl)*|اللَّه رسل *(gönderme, elçi)*|رَسُول' (4 kelime / 2 ayet, tür ic) → süzgeç **GEÇER** | `nakarat3` 'فا قلب *(çevirme; kalp)*|قَلْب مرض *(hastalık)*|مَرَض' (3 kelime / 3 ayet, tür ic) → süzgeç **GEÇER** | xref قال منافق قلب *(çevirme; kalp)* → 8:49 · منافق قلب *(çevirme; kalp)* مرض *(hastalık)* → 8:49, 33:60",
+   "mercek": "◇ 33:1'in yasak muhataplarından münafıklar burada konuşuyor; bir grup ekleniyor: 'kalplerinde hastalık olanlar' (قلب *(çevirme; kalp)* dördüncü kez). Söz HASR kalıbında (mâ ... illâ): vaat = aldatmaca. xref 33:60 — aynı üçlü sûrede tekrar gelecek.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · نفق *(infak, harcama; nifak)* n=111  ▸önce: bedevî ×20.1 [A tek ayet] · فوز *(kurtuluş, fevz)* ×13.8 [B tek sahne 4 ayet] · فسق *(fâsıklık)* ×6.2 [B tek sahne 4 ayet]  ▸sonra: adak ×38.2 [A tek ayet] · علن *(açığa vurma, alenî)* ×16.7 [B tek sahne 4 ayet] · sır-gizleme ×10.5 [A tek ayet]  ▸Allah med=6\n  · قلب *(çevirme; kalp)* n=168  ▸önce: طبع *(mühürleme)* ×39.4 · قسو *(katılaşma, kasvet)* ×31.0 · ربط *(bağlama)* ×26.0 [B tek sahne 3 ayet]  ▸sonra: رعب *(korku salma)* ×34.7 [B tek sahne 4 ayet] · مرض *(hastalık)* ×23.5 [B2 donmuş kalıp 12 ayet] · kulak-ağırlığı ×21.7 [A tek ayet]  ▸Allah med=7\n  · مرض *(hastalık)* n=24  ▸önce: kalp ×31.5 [A tek ayet] · nifak ×26.0 [A tek ayet] · olmak ×1.9 [A tek ayet]  ▸sonra: yolculuk ×183.0 [A tek ayet]  ▸Allah med=10\n  · وعد *(vaat)* n=151  ▸önce: cayma ×34.8 [A tek ayet] · أبد *(ebedîlik)* ×5.1 [B tek sahne 3 ayet] · acele ×4.0 [A tek ayet]  ▸sonra: cayma ×28.5 [A tek ayet] · غرر *(aldanış, gurur)* ×14.1 · doğruluk ×6.9 [A tek ayet]  ▸Allah med=15\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · رسل *(gönderme, elçi)* n=513  ▸önce: karşı-gelme ×14.4 [A tek ayet] · mesele ×11.5 [A tek ayet] · Muhammed ×10.8 [A tek ayet]  ▸sonra: taş-kasırgası ×14.4 [A tek ayet] · bol-yağmur ×14.4 [A tek ayet] · güvenilir ×7.2 [A tek ayet]  ▸Allah med=9\n  · غرر *(aldanış, gurur)* n=27  ▸önce: وعد *(vaat)* ×14.6 · dünya ×14.3 [A tek ayet] · hayat ×9.9 [A tek ayet]  ▸sonra: dünya ×14.3 [A tek ayet] · düşmanlık ×11.3 [A tek ayet] · hayat ×9.9 [A tek ayet]  ▸Allah med=5",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:13": {
+   "ar": "وَإِذْ قَالَت طَّآئِفَةٌۭ مِّنْهُمْ يَٰٓأَهْلَ يَثْرِبَ لَا مُقَامَ لَكُمْ فَٱرْجِعُوا۟ ۚ وَيَسْتَـْٔذِنُ فَرِيقٌۭ مِّنْهُمُ ٱلنَّبِىَّ يَقُولُونَ إِنَّ بُيُوتَنَا عَوْرَةٌۭ وَمَا هِىَ بِعَوْرَةٍ ۖ إِن يُرِيدُونَ إِلَّا فِرَارًۭا",
+   "meal": "Hani onlardan bir grup, 'Ey Yesrib halkı! Sizin için durulacak yer yok, geri dönün' demişti. Onlardan bir kısmı da 'Evlerimiz korunmasız' diyerek Peygamber'den izin istiyordu; oysa evleri korunmasız değildi. Onlar yalnızca kaçmak istiyorlardı.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör: adlı يَثْرِب 6. sırada (yer, rol meful) · adsız `tâife` 3. sırada · adsız `ferîk` 12. sırada · edim emir, nida, kip IMPV 1 · NEG 3 · RES 1 · VOC 1, **biçim HASR** · şahıs 1P 1 · 2MP 3 · 3FS 2 · 3MP 6 · 3MS 1, sahset ['1', '2', '3'], baskın 3, iltifât 0 · n=25 (n z=1,34), fâsıla فرارا → ا, A sınıfı · i’râb ACC 7 · GEN 1 · NOM 3; bab I. bab ×3 · IV. bab ×1 · X. bab ×1; zaman IMPF 3 · IMPV 1 · PERF 1 · kök ikilemesi عور *(mahrem yer, avret; gedik)* ×2 · قول *(söz söyleme)* ×2 · simetri [4, 6, 19, 1] · harf 111 → **harf3 104**, isaret 7 · dış düğüm 1 · **yıldız yok** · kökler قول *(söz söyleme)* [4,5/21] · طوف *(dolaşma, tavaf)* [1/1] · أهل *(halk, aile)* [1/3] · قوم *(kalkma; kavim; kıyamet)* [1/2] · رجع *(dönme, geri döndürme)* [1/1] · أذن *(izin verme; kulak)* [1/3] · فرق *(ayırma, parçalara bölme)* [1/3] · نبأ *(haber)* [4/18] · بيت *(ev, mesken)* [1/5] · عور *(mahrem yer, avret; gedik)* [1,2/2] · رود *(isteme, dileme)* [1/7] · فرر *(kaçma, firar)* [1/3] · bağ: xref قال طائفة أهل *(halk, aile)* → 3:72",
+   "mercek": "◇ Sûrenin tek adlı yeri: Yesrib (PN, yer). İki grup iki eylem: biri 'geri dönün' diyor (tâife), öbürü izin istiyor (ferîk) — adsiz2 ikisini de yakalıyor. عور *(mahrem yer, avret; gedik)* ×2, iddia ve düzeltme aynı ayette: 'evlerimiz korunmasız' / 'korunmasız değildi'. Beyan ile durum açıkça ayrılıyor; yapı L3'e (görünüş-durum) benziyor ama konu olgu değil niyet: 🜁 olgu HAYIR, çıpa değil. Kapanış niyeti adlandırıyor: firar.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · طوف *(dolaşma, tavaf)* n=41  ▸önce: بعد *(sonra; uzaklık)* ×2.2 [B tek sahne 3 ayet] · iman ×1.7 [A tek ayet]  ▸sonra: كوب *(testi, kupa)* ×129.1 [B tek sahne 3 ayet] · secde ×8.1 [A tek ayet] · أهل *(halk, aile)* ×4.1 [B tek sahne 4 ayet]  ▸Allah med=14\n  · أهل *(halk, aile)* n=127  ▸önce: teslim-etme ×13.2 [A tek ayet] · temenni ×9.3 [A tek ayet] · قري *(şehir, kasaba (karye))* ×9.3  ▸sonra: geride-kalan ×45.4 [A tek ayet] · ünsiyet ×30.2 [A tek ayet] · ضيف *(konuk)* ×26.5 [A tek ayet]  ▸Allah med=15\n  · قوم *(kalkma; kavim; kıyamet)* n=660  ▸önce: صرط *(yol, sırât)* ×8.7 · خدع *(aldatma)* ×6.3 [A tek ayet] · tafsil ×5.7 [A tek ayet]  ▸sonra: zekât ×7.9 [A tek ayet] · مصر *(şehir, Mısır)* ×6.3 [A tek ayet] · بور *(helâk, boşa gitme)* ×6.3 [B tek sahne 3 ayet]  ▸Allah med=12\n  · رجع *(dönme, geri döndürme)* n=104  ▸önce: yük-günah ×11.8 [A tek ayet] · büyüklük ×3.5 [A tek ayet] · ظنن *(zan, sanma)* ×3.1 [B tek sahne 4 ayet]  ▸sonra: haber ×10.6 [A tek ayet] · أبو *(baba)* ×4.8 [B tek sahne 4 ayet] · ihtilaf ×3.9 [A tek ayet]  ▸Allah med=19\n  · أذن *(izin verme; kulak)* n=102  ▸önce: burun ×145.3 [A tek ayet] · كمه *(körlük (doğuştan))* ×109.0 [A tek ayet] · برص *(alaca hastalık)* ×109.0 [A tek ayet]  ▸sonra: diş ×145.3 [A tek ayet] · iyileştirme ×109.0 [A tek ayet] · kulak-ağırlığı ×72.6 [A tek ayet]  ▸Allah med=7\n  · فرق *(ayırma, parçalara bölme)* n=72  ▸önce: düşme ×48.3 [A tek ayet] · yayma-açma ×32.2 [A tek ayet] · maruf ×7.1 [A tek ayet]  ▸sonra: sanma ×6.6 [A tek ayet] · خشي *(haşyet, saygıyla korkma)* ×6.0 [B tek sahne 3 ayet] · yurt ×6.0 [A tek ayet]  ▸Allah med=12\n  · نبأ *(haber)* n=160  ▸önce: وهب *(bağışlama, hibe)* ×7.0 [B tek sahne 4 ayet] · kıssa-anlatma ×6.8 [A tek ayet] · رجع *(dönme, geri döndürme)* ×5.5  ▸sonra: tevil ×10.3 [A tek ayet] · هزأ *(alay etme)* ×5.2 [B tek sahne 4 ayet] · nifak ×3.6 [A tek ayet]  ▸Allah med=11\n  · بيت *(ev, mesken)* n=73  ▸önce: عنكب *(örümcek)* ×147.0 [A tek ayet] · عمم *(amca; genel)* ×78.4 [A tek ayet] · نحت *(yontma)* ×73.5 [B tek sahne 3 ayet]  ▸sonra: عنكب *(örümcek)* ×147.0 [A tek ayet] · عمم *(amca; genel)* ×78.4 [A tek ayet] · teslim-etme ×24.5 [A tek ayet]  ▸Allah med=12\n  · عور *(mahrem yer, avret; gedik)* n=4 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=21\n  · رود *(isteme, dileme)* n=148  ▸önce: كيد *(tuzak, düzen)* ×5.9 · zarar ×3.1 [A tek ayet] · büyü ×2.7 [A tek ayet]  ▸sonra: وفق *(uyum, muvaffakiyet)* ×38.9 [B tek sahne 3 ayet] · حرث *(ekin, tarla)* ×11.1 [A tek ayet] · sevap ×10.9 [A tek ayet]  ▸Allah med=9\n  · فرر *(kaçma, firar)* n=11 ⚠  ▸önce: قول *(söz söyleme)* ×2.0 [B tek sahne 4 ayet]  ▸sonra: —  ▸Allah med=19",
+   "cipa": {
+    "kademe": "L3-benzeri",
+    "olgu": false,
+    "cipa": false,
+    "not_": "beyan / durum ayrımı (evler korunmasız değil) — konu niyet, olgu değil"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:14": {
+   "ar": "وَلَوْ دُخِلَتْ عَلَيْهِم مِّنْ أَقْطَارِهَا ثُمَّ سُئِلُوا۟ ٱلْفِتْنَةَ لَءَاتَوْهَا وَمَا تَلَبَّثُوا۟ بِهَآ إِلَّا يَسِيرًۭا",
+   "meal": "Eğer (şehrin) çevresinden üzerlerine girilse, sonra kendilerinden fitne istenseydi, onu hemen yaparlardı ve bunda pek az dururlardı.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim şart, kip COND 1 · EMPH 1 · NEG 1 · RES 1, **biçim HASR** · şahıs 3FS 4 · 3MP 7, sahset ['3'], baskın 3, iltifât 0 · n=14 (n z=0,17), fâsıla يسيرا → ا, A sınıfı · i’râb ACC 2 · GEN 1; bab I. bab ×3 · IV. bab ×1; zaman PERF 4 · **EDİLGEN 2/4 fiil, pas z=2,52** · simetri [4, 1, 10, 1] · harf 64 → **harf3 61**, isaret 3 · dış düğüm 0 · **yıldız ★★** · kökler دخل *(girme)* [1/3] · قطر *(yan, çevre (aktâr); erimiş bakır (kıtr))* [1/1] · سأل *(isteme, dileme)* [2/7] · فتن *(sınama, fitne)* [1/1] · أتي *(gelme, getirme)* [1/9] · لبث *(kalma, durma)* [1/1] · يسر *(kolaylık)* [1/3] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Karşı-olgusal şart (lev): gerçekleşmemiş bir kuşatma ve gerçekleşmemiş bir itaat. İki edilgen (dühılet · süilû) → ★★'ın tek kaynağı pas z=2,52. سأل *(isteme, dileme)* kökü sûrede ikinci kez ve ters yönde: 33:8'de sâdıklara sorulur, burada onlardan fitne istenir.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · دخل *(girme)* n=126  ▸önce: karınca ×53.4 [A tek ayet] · kefâret ×20.8 [A tek ayet] · بوب *(kapı)* ×5.9  ▸sonra: تبر *(yerle bir etme)* ×26.7 [A tek ayet] · بوب *(kapı)* ×21.8 · جري *(akma)* ×14.2 [B2 donmuş kalıp 17 ayet]  ▸Allah med=11\n  · قطر *(yan, çevre (aktâr); erimiş bakır (kıtr))* n=5 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=76\n  · سأل *(isteme, dileme)* n=129  ▸önce: güvenilir ×19.8 [A tek ayet] · yönelme ×16.6 [A tek ayet] · يقن *(yakîn, kesin bilgi)* ×5.9 [B tek sahne 3 ayet]  ▸sonra: حفو *(ihata etme, çevreleme)* ×55.5 [A tek ayet] · أجر *(ücret, karşılık)* ×12.8 · ثقل *(ağırlık)* ×5.9 [B tek sahne 4 ayet]  ▸Allah med=15\n  · فتن *(sınama, fitne)* n=60  ▸önce: isabet ×4.8 [A tek ayet] · قتل *(öldürme)* ×3.6 · kısım ×3.1 [A tek ayet]  ▸sonra: لبث *(kalma, durma)* ×11.7 [A tek ayet] · صبر *(sabır)* ×3.5 [B tek sahne 3 ayet] · قتل *(öldürme)* ×2.9  ▸Allah med=11\n  · أتي *(gelme, getirme)* n=549  ▸önce: سبط *(sıbt, torun)* ×10.4 [B tek sahne 3 ayet] · ünsiyet ×7.4 [A tek ayet] · Sebt ×5.5 [A tek ayet]  ▸sonra: قبس *(kor, ateş parçası)* ×12.9 [A tek ayet] · zekât ×11.3 [A tek ayet] · بغت *(ansızın gelme)* ×11.0  ▸Allah med=13\n  · لبث *(kalma, durma)* n=31  ▸önce: فتن *(sınama, fitne)* ×10.3 [A tek ayet] · بعث *(gönderme; diriltme)* ×9.3 [B tek sahne 5 ayet] · سأل *(isteme, dileme)* ×4.8 [B tek sahne 4 ayet]  ▸sonra: yıl ×65.3 [A tek ayet] · saat ×12.9 [A tek ayet] · بعث *(gönderme; diriltme)* ×9.3 [B tek sahne 5 ayet]  ▸Allah med=38\n  · يسر *(kolaylık)* n=44  ▸önce: عسر *(zorluk)* ×82.4 · خمر *(şarap, örtü)* ×70.6 [B tek sahne 3 ayet] · uyarı ×4.0 [A tek ayet]  ▸sonra: عسر *(zorluk)* ×41.2 · لسن *(dil)* ×19.8 [B tek sahne 3 ayet] · Kurân ×11.8 [A tek ayet]  ▸Allah med=12",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:15": {
+   "ar": "وَلَقَدْ كَانُوا۟ عَٰهَدُوا۟ ٱللَّهَ مِن قَبْلُ لَا يُوَلُّونَ ٱلْأَدْبَٰرَ ۚ وَكَانَ عَهْدُ ٱللَّهِ مَسْـُٔولًۭا",
+   "meal": "Oysa daha önce arkalarını dönüp kaçmayacaklarına dair Allah'a ahit vermişlerdi. Allah'a verilen ahit sorulacaktır.",
+   "olcum": "eksen: **ALLAH LAFZI** 4, 12. sırada (2 token, allah z=2,55) · esmâ yok · aktör yok · edim haber, kip CERT 1 · EMPH 1 · NEG 1 · şahıs 3MP 6 · 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=13 (n z=0,06), fâsıla مسـٔولا → ا, A sınıfı · i’râb ACC 3 · GEN 2 · NOM 1; bab I. bab ×2 · II. bab ×1 · III. bab ×1; zaman IMPF 1 · PERF 3 · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · عهد *(ahit, antlaşma)* ×2 · كون *(olmak; mekân, yer)* ×2 · simetri [3, 2, 10, 1] · harf 57 → **harf3 53**, isaret 4 · dış düğüm 0 · **yıldız ★★** · kökler كون *(olmak; mekân, yer)* [6,7/42] · عهد *(ahit, antlaşma)* [1,2/3] · أله *(ilâh; lafza-i celâl)* [15,16/90] · قبل *(ön, önce; kabul)* [1/4] · ولي *(dost, veli; velâyet)* [5/7] · دبر *(arka)* [1/1] · سأل *(isteme, dileme)* [3/7] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 33:7-8'in ahit-sorgu çiftinin geri dönüşü: orada peygamberlerden ahit alınıp sâdıklara sorulacaktı; burada bunlar Allah'a ahit vermiş ve 'Allah'ın ahdi sorulacak' (عهد *(ahit, antlaşma)* ×2, سأل *(isteme, dileme)* üçüncü kez). ولي *(dost, veli; velâyet)* kökü burada 'arka çevirmek' anlamında; gloss 'dost, veli' bu kullanımı taşımıyor. ★★: allah z=2,55.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · عهد *(ahit, antlaşma)* n=46  ▸önce: bozma ×61.0 [A tek ayet] · ifa ×51.6 [A tek ayet] · فسق *(fâsıklık)* ×9.0 [B tek sahne 3 ayet]  ▸sonra: bozma ×81.3 [A tek ayet] · كيل *(ölçme (hacim))* ×30.5 [A tek ayet] · şiddet ×16.3 [A tek ayet]  ▸Allah med=8\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · قبل *(ön, önce; kabul)* n=294  ▸önce: خلو *(boş kalma, baş başa kalma)* ×13.4 [B2 donmuş kalıp 15 ayet] · دأب *(gidiş, âdet)* ×12.5 [B tek sahne 3 ayet] · divan ×12.5 [A tek ayet]  ▸sonra: nesil ×9.8 [A tek ayet] · batı ×7.8 [A tek ayet] · iz ×6.7 [A tek ayet]  ▸Allah med=16\n  · ولي *(dost, veli; velâyet)* n=232  ▸önce: مطو *(uzatma, mühlet)* ×98.1 [A tek ayet] · بخل *(cimrilik)* ×8.2 [A tek ayet] · Hristiyan ×6.5 [A tek ayet]  ▸sonra: شطر *(yarı, taraf)* ×39.2 [B tek sahne 3 ayet] · ne-güzel ×12.7 [A tek ayet] · arka ×8.8 [A tek ayet]  ▸Allah med=8\n  · دبر *(arka)* n=44  ▸önce: yırtılma ×112.9 [A tek ayet] · قمص *(gömlek)* ×75.3 [B tek sahne 3 ayet] · صمم *(sağırlık)* ×30.1 [B tek sahne 3 ayet]  ▸sonra: nidâ ×9.0 [A tek ayet] · emir ×3.0 [A tek ayet] · yardım ×3.0 [A tek ayet]  ▸Allah med=15\n  · سأل *(isteme, dileme)* n=129  ▸önce: güvenilir ×19.8 [A tek ayet] · yönelme ×16.6 [A tek ayet] · يقن *(yakîn, kesin bilgi)* ×5.9 [B tek sahne 3 ayet]  ▸sonra: حفو *(ihata etme, çevreleme)* ×55.5 [A tek ayet] · أجر *(ücret, karşılık)* ×12.8 · ثقل *(ağırlık)* ×5.9 [B tek sahne 4 ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:16": {
+   "ar": "قُل لَّن يَنفَعَكُمُ ٱلْفِرَارُ إِن فَرَرْتُم مِّنَ ٱلْمَوْتِ أَوِ ٱلْقَتْلِ وَإِذًۭا لَّا تُمَتَّعُونَ إِلَّا قَلِيلًۭا",
+   "meal": "De ki: 'Ölümden ya da öldürülmekten kaçıyorsanız, kaçmak size fayda vermez; o zaman da ancak az bir süre yararlandırılırsınız.'",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim emir, şart, kip COND 1 · IMPV 1 · NEG 2 · RES 1, **biçim HASR** · şahıs 2MP 5 · 2MS 1 · 3MS 1, sahset ['2', '3'], baskın 2, iltifât 0 · n=15 (n z=0,27), fâsıla قليلا → ا, A sınıfı · i’râb ACC 1 · GEN 2 · NOM 1; bab I. bab ×3 · II. bab ×1; zaman IMPF 2 · IMPV 1 · PERF 1 · **EDİLGEN 1/4 fiil, pas z=1,10** · kök ikilemesi فرر *(kaçma, firar)* ×2 · sayı işareti قَلِيل · simetri [3, 5, 9, 1] · harf 59 → **harf3 57**, isaret 2 · dış düğüm 0 · **yıldız yok** · kökler قول *(söz söyleme)* [6/21] · نفع *(fayda)* [1/1] · فرر *(kaçma, firar)* [2,3/3] · موت *(ölüm)* [1/2] · قتل *(öldürme)* [1/6] · متع *(faydalanma, geçimlik)* [1/4] · قلل *(azlık)* [1/4] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Kaçış kendi başına ölçülüyor: fayda vermez, verse de 'az'. فرر *(kaçma, firar)* ×2 ve 33:13'ün son kelimesi firârâ — iki ayet aynı kökle bağlı. Fâsıla qalîlâ bu blokta 16, 18 ve 20'de: ÇİFT sıradaki üç ayet aynı kelimeyle kapanıyor (TAM SAYIM bilançoda). Tarayıcı v4 A_şart ile aday verdi — çıpa değil.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · نفع *(fayda)* n=50  ▸önce: zarar ×20.5 [A tek ayet] · mülk ×10.8 [A tek ayet] · دون *(beriki, başkası)* ×6.3 [B2 donmuş kalıp 7 ayet]  ▸sonra: şefaat ×30.1 [A tek ayet] · zarar ×18.2 [A tek ayet] · ولد *(doğurma, çocuk)* ×4.4 [B tek sahne 3 ayet]  ▸Allah med=8\n  · فرر *(kaçma, firar)* n=11 ⚠  ▸önce: قول *(söz söyleme)* ×2.0 [B tek sahne 4 ayet]  ▸sonra: —  ▸Allah med=19\n  · موت *(ölüm)* n=165  ▸önce: hayat ×15.2 [A tek ayet] · حضر *(hazır bulundurma)* ×14.0 · بلد *(belde, şehir)* ×13.9 [B2 donmuş kalıp 6 ayet]  ▸sonra: خنزر *(domuz)* ×35.1 [B tek sahne 4 ayet] · adak-kesim ×32.9 [A tek ayet] · diriltme ×19.5 [A tek ayet]  ▸Allah med=12\n  · قتل *(öldürme)* n=170  ▸önce: شهر *(ay, şehir)* ×6.3 [A tek ayet] · fırka ×6.2 [A tek ayet] · أذي *(eziyet)* ×5.6 [A tek ayet]  ▸sonra: topyekûn ×26.7 [A tek ayet] · azat ×16.7 [A tek ayet] · رمي *(atma)* ×14.8 [A tek ayet]  ▸Allah med=7\n  · متع *(faydalanma, geçimlik)* n=70  ▸önce: nasip ×10.7 [A tek ayet] · dünya ×6.7 [A tek ayet] · hayat ×4.6 [A tek ayet]  ▸sonra: سرح *(salıverme)* ×55.1 [A tek ayet] · حين *(vakit)* ×22.1 · nasip ×14.3 [A tek ayet]  ▸Allah med=16\n  · قلل *(azlık)* n=76  ▸önce: bedel ×77.9 [A tek ayet] · شري *(satın alma, satma)* ×34.3 · فأد *(gönül, fuâd)* ×17.9 [B tek sahne 3 ayet]  ▸sonra: ne-kötü ×7.1 [A tek ayet] · شكر *(şükür)* ×6.3 [B tek sahne 5 ayet] · قضي *(hükmetme, bitirme)* ×4.5 [A tek ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:17": {
+   "ar": "قُلْ مَن ذَا ٱلَّذِى يَعْصِمُكُم مِّنَ ٱللَّهِ إِنْ أَرَادَ بِكُمْ سُوٓءًا أَوْ أَرَادَ بِكُمْ رَحْمَةًۭ ۚ وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا",
+   "meal": "De ki: 'Allah size bir kötülük dilerse ya da size bir rahmet dilerse, sizi Allah'tan kim koruyabilir?' Kendileri için Allah'tan başka ne bir dost ne bir yardımcı bulurlar.",
+   "olcum": "eksen: **ALLAH LAFZI** 7, 21. sırada (2 token, allah z=1,14) · esmâ وَلِيّ 22. sırada, SON konum, MÜHÜRSÜZ | نَصِير 24. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, şart, kip COND 1 · IMPV 1 · NEG 2 · şahıs 2MP 3 · 2MS 1 · 3MP 3 · 3MS 3, sahset ['2', '3'], baskın 3, iltifât 0 · n=24 (n z=1,23), fâsıla نصيرا → ا, A sınıfı · i’râb ACC 4 · GEN 3; bab I. bab ×3 · IV. bab ×2; zaman IMPF 2 · IMPV 1 · PERF 2 · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · رود *(isteme, dileme)* ×2 · simetri [4, 6, 10, 1] · harf 84 → **harf3 80**, isaret 4 · dış düğüm 3 · **yıldız yok** · kökler قول *(söz söyleme)* [7/21] · عصم *(tutunma, korunma)* [1/1] · أله *(ilâh; lafza-i celâl)* [17,18/90] · رود *(isteme, dileme)* [2,3/7] · سوأ *(kötülük)* [1/1] · رحم *(rahmet, merhamet)* [3/8] · وجد *(bulma)* [1/3] · دون *(beriki, başkası)* [1/2] · ولي *(dost, veli; velâyet)* [6/7] · نصر *(yardım)* [1/2] · bağ: `nakarat3` 'ولي *(dost, veli; velâyet)*|وَلِيّ لا نصر *(yardım)*|نَصِير' (3 kelime / 2 ayet, tür ic) → süzgeç **GEÇMEZ** | xref وجد *(bulma)* دون *(beriki, başkası)* اللّه → 4:123, 4:173, 71:25",
+   "mercek": "◇ Simetrik soru: kötülük de rahmet de aynı fiille (رود *(isteme, dileme)* ×2) Allah'ın dilemesine bağlanıyor ve ikisinden de 'korunma' soruluyor. Esmâ velî + nasîr ÇİFT olarak ayet sonunda, ama olumsuzlanan 'Allah'tan başka' birinin sıfatı: e_el=0. §4.3 tanımı bunu ÇİFT MÜHÜR sayıyor — 32:4 velî vakasının çift hâli ve ön-kayıt sınama kümesi için şimdiye kadarki en temiz yanlış mühür.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · عصم *(tutunma, korunma)* n=13 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=2\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · رود *(isteme, dileme)* n=148  ▸önce: كيد *(tuzak, düzen)* ×5.9 · zarar ×3.1 [A tek ayet] · büyü ×2.7 [A tek ayet]  ▸sonra: وفق *(uyum, muvaffakiyet)* ×38.9 [B tek sahne 3 ayet] · حرث *(ekin, tarla)* ×11.1 [A tek ayet] · sevap ×10.9 [A tek ayet]  ▸Allah med=9\n  · سوأ *(kötülük)* n=167  ▸önce: azap-sürme ×41.9 [A tek ayet] · gizlenme ×34.9 [A tek ayet] · kefâret ×32.6 [A tek ayet]  ▸sonra: حيق *(kuşatma, başına gelme)* ×20.9 [B tek sahne 5 ayet] · sağ-bırakma ×14.0 [A tek ayet] · فرح *(sevinç, şımarma)* ×5.7 [B tek sahne 4 ayet]  ▸Allah med=9\n  · رحم *(rahmet, merhamet)* n=339  ▸önce: قنط *(umut kesme)* ×17.5 [B tek sahne 5 ayet] · رأف *(şefkat, raafet)* ×16.1 · غفر *(bağışlama, mağfiret)* ×9.2  ▸sonra: eman-koruma ×9.0 [A tek ayet] · هبط *(inme, alçalma)* ×7.9 [B tek sahne 3 ayet] · yetme ×5.7 [A tek ayet]  ▸Allah med=13\n  · وجد *(bulma)* n=107  ▸önce: لمس *(dokunma, lems)* ×41.4 [B tek sahne 3 ayet] · sebep-yol ×23.0 [A tek ayet] · حيث *(yer, nere)* ×6.7 [B tek sahne 3 ayet]  ▸sonra: sünnet ×30.2 [A tek ayet] · oruç ×21.2 [A tek ayet] · güvenlik ×9.2 [A tek ayet]  ▸Allah med=10\n  · دون *(beriki, başkası)* n=144  ▸önce: edinme ×13.5 [A tek ayet] · iddia ×11.2 [A tek ayet] · دعو *(çağırma, dua)* ×9.0 [B2 donmuş kalıp 35 ayet]  ▸sonra: şefaat ×9.3 [A tek ayet] · zarar ×7.6 [A tek ayet] · نفع *(fayda)* ×6.7 [B2 donmuş kalıp 7 ayet]  ▸Allah med=2\n  · ولي *(dost, veli; velâyet)* n=232  ▸önce: مطو *(uzatma, mühlet)* ×98.1 [A tek ayet] · بخل *(cimrilik)* ×8.2 [A tek ayet] · Hristiyan ×6.5 [A tek ayet]  ▸sonra: شطر *(yarı, taraf)* ×39.2 [B tek sahne 3 ayet] · ne-güzel ×12.7 [A tek ayet] · arka ×8.8 [A tek ayet]  ▸Allah med=8\n  · نصر *(yardım)* n=158  ▸önce: havârî ×30.6 [A tek ayet] · yahudi ×25.5 [A tek ayet] · destekleme ×17.0 [A tek ayet]  ▸sonra: حنف *(hanîf, dosdoğru)* ×12.8 [B tek sahne 3 ayet] · yahudi ×7.7 [A tek ayet] · جند *(ordu, asker)* ×7.0 [B tek sahne 4 ayet]  ▸Allah med=5",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": false,
+    "muhur": true,
+    "cift": true,
+    "ton": "katalog-dışı",
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:18": {
+   "ar": "۞ قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ وَٱلْقَآئِلِينَ لِإِخْوَٰنِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ ٱلْبَأْسَ إِلَّا قَلِيلًا",
+   "meal": "Allah içinizden (savaştan) alıkoyanları ve kardeşlerine 'Bize gelin' diyenleri bilir. Onlar savaşa pek az gelirler.",
+   "olcum": "eksen: **ALLAH LAFZI** 3. sırada (allah z=0,90) · esmâ yok · aktör yok · edim emir, kip CERT 1 · IMPV 1 · NEG 1 · RES 1, **biçim HASR** · şahıs 1P 1 · 2MP 2 · 3MP 3 · 3MS 1, sahset ['1', '2', '3'], baskın 3, iltifât 0 · n=14 (n z=0,17), fâsıla قليلا → ا, A sınıfı · i’râb ACC 4 · GEN 1 · NOM 1; bab I. bab ×2; zaman IMPF 2 · **HAPAKS: عوق *(engelleme, alıkoyma)* — hapaks z=3,28** · sayı işareti قَلِيل · harf 69 → **harf3 67**, isaret 2 · dış düğüm 0 · **yıldız ★★★** · kökler علم *(bilme)* [3/9] · أله *(ilâh; lafza-i celâl)* [19/90] · عوق *(engelleme, alıkoyma)* [1/1] · قول *(söz söyleme)* [8/21] · أخو *(kardeş)* [2/5] · هلم *(haydi, gel)* [1/1] · أتي *(gelme, getirme)* [2/9] · بأس *(şiddet, azap; savaş gücü)* [1/1] · قلل *(azlık)* [2/4] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Allah bilen — 33:1'in alîm'i burada fiil (ya'lemu). ★★★ hapaks عوق (mu'avvikîn, 'alıkoyanlar'); هلم *(haydi, gel)* sûrede tek ama korpusta iki kez, hapaks değil. Kapanış yine 'az'.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · علم *(bilme)* n=854  ▸önce: رذل *(rezil, aşağılık)* ×11.3 [B tek sahne 3 ayet] · كلب *(köpek)* ×6.0 [A tek ayet] · hazine ×4.5 [A tek ayet]  ▸sonra: علن *(açığa vurma, alenî)* ×6.2 · gayb ×5.5 [A tek ayet] · sır-gizleme ×4.2 [A tek ayet]  ▸Allah med=7\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · عوق *(engelleme, alıkoyma)* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=1\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · أخو *(kardeş)* n=96  ▸önce: جهز *(donatma, hazırlama)* ×73.5 [A tek ayet] · بذر *(saçıp savurma)* ×73.5 [A tek ayet] · kap ×58.8 [A tek ayet]  ▸sonra: عمم *(amca; genel)* ×58.8 [A tek ayet] · aşiret ×55.1 [A tek ayet] · سدس *(altıda bir)* ×44.1 [A tek ayet]  ▸Allah med=20\n  · هلم *(haydi, gel)* n=2 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=5\n  · أتي *(gelme, getirme)* n=549  ▸önce: سبط *(sıbt, torun)* ×10.4 [B tek sahne 3 ayet] · ünsiyet ×7.4 [A tek ayet] · Sebt ×5.5 [A tek ayet]  ▸sonra: قبس *(kor, ateş parçası)* ×12.9 [A tek ayet] · zekât ×11.3 [A tek ayet] · بغت *(ansızın gelme)* ×11.0  ▸Allah med=13\n  · بأس *(şiddet, azap; savaş gücü)* n=73  ▸önce: أوي *(sığınma)* ×22.4 · صلي *(ateşe girme, yaslanma)* ×10.8 [B tek sahne 3 ayet] · بوب *(kapı)* ×10.0 [B tek sahne 3 ayet]  ▸sonra: yakarış ×38.4 [A tek ayet] · döşek ×37.3 [A tek ayet] · صير *(dönüşme, varış)* ×34.0  ▸Allah med=15\n  · قلل *(azlık)* n=76  ▸önce: bedel ×77.9 [A tek ayet] · شري *(satın alma, satma)* ×34.3 · فأد *(gönül, fuâd)* ×17.9 [B tek sahne 3 ayet]  ▸sonra: ne-kötü ×7.1 [A tek ayet] · شكر *(şükür)* ×6.3 [B tek sahne 5 ayet] · قضي *(hükmetme, bitirme)* ×4.5 [A tek ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:19": {
+   "ar": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى يُغْشَىٰ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ سَلَقُوكُم بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًۭا",
+   "meal": "Size karşı cimridirler. Korku gelince, ölüm baygınlığı geçiren kimse gibi gözleri dönerek sana baktıklarını görürsün. Korku gidince de mala düşkünlükle sizi keskin dillerle incitirler. Onlar iman etmemişlerdir; Allah da amellerini boşa çıkarmıştır. Bu, Allah'a kolaydır.",
+   "olcum": "eksen: **ALLAH LAFZI** 29, 34. sırada (2 token, allah z=0,61) · esmâ yok · aktör yok · edim haber, kip NEG 1 · şahıs 2MP 2 · 2MS 3 · 3FS 1 · 3MP 9 · 3MS 6, sahset ['2', '3'], baskın 3, iltifât 0 · n=35 (n z=2,40), fâsıla يسيرا → ا, A sınıfı · i’râb ACC 4 · GEN 5 · NOM 4; bab I. bab ×8 · IV. bab ×2; zaman IMPF 4 · PERF 6 · **EDİLGEN 1/10 fiil, pas z=0,24** · **HAPAKS: سلق *(dille saldırma, iğneleme)* — hapaks z=3,28** · kök ikilemesi أله *(ilâh; lafza-i celâl)* ×2 · خوف *(korku)* ×2 · شحح *(cimrilik, hırs)* ×2 · simetri [4, 11, 23, 1] · harf 161 → **harf3 154**, isaret 7 · dış düğüm 2 · İÇ düğüm 1 · **yıldız ★★★** · kökler شحح *(cimrilik, hırs)* [1,2/2] · جيأ *(gelme)* [3/3] · خوف *(korku)* [1,2/2] · رأي *(görme)* [2/3] · نظر *(bakma; mühlet verme)* [1/3] · دور *(yurt, ev)* [1/3] · عين *(göz; pınar)* [1/2] · غشو *(bürüme, kaplama)* [1/1] · موت *(ölüm)* [2/2] · ذهب *(gitme, götürme)* [1/3] · سلق *(dille saldırma, iğneleme)* [1/1] · لسن *(dil)* [1/1] · حدد *(demir; sınır koyma)* [1/1] · خير *(hayır, daha iyi)* [1/3] · أمن *(güven; iman)* [5/31] · حبط *(boşa çıkma, silinme)* [1/1] · أله *(ilâh; lafza-i celâl)* [20,21/90] · عمل *(iş, amel)* [3/5] · كون *(olmak; mekân, yer)* [8/42] · يسر *(kolaylık)* [2/3] · bağ: `nakarat3` 'كون *(olmak; mekân, yer)*|كانَ ذلك علا أله *(ilâh; lafza-i celâl)*|اللَّه يسر *(kolaylık)*|يَسِير' (5 kelime / 2 ayet, tür ic) → süzgeç **GEÇER** | xref كان اللّه يسير → 4:30, 4:169, 33:30",
+   "mercek": "◇ Blokun en uzun ayeti (n=35, n z=2,40) ve bir teşbih: gözleri 'ölüm baygınlığı geçiren gibi' dönüyor. Korku iki kez (خوف *(korku)* ×2), iki yönde: gelince bakakalıyorlar, gidince dil uzatıyorlar — iki davranış korkunun varlığına ve yokluğuna bağlanıyor. شحح *(cimrilik, hırs)* ×2 çerçeve. ★★★ hapaks سلق *(dille saldırma, iğneleme)*; ikinci bağımsız ölçüt n z=2,40 de eşiği geçiyor ve formül eklemiyor (borç #15'in yeni vakası). دور *(yurt, ev)* glossu 'yurt, ev' — tedûru (dönmek) için yanlış. 🜁 kademe L1 (davranış + karşılaştırma), olgu HAYIR.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شحح *(cimrilik, hırs)* n=5 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=7\n  · جيأ *(gelme)* n=278  ▸önce: دكك *(darmadağın etme)* ×14.3 [A tek ayet] · şaşma ×6.3 [A tek ayet] · صفف *(saf, dizi)* ×5.4 [A tek ayet]  ▸sonra: büyü ×6.2 [A tek ayet] · beyan ×4.5 [A tek ayet] · şehir ×4.4 [A tek ayet]  ▸Allah med=16\n  · خوف *(korku)* n=124  ▸önce: وجس *(içinde duyma, hissetme)* ×98.7 [B tek sahne 3 ayet] · ardıl ×10.4 [A tek ayet] · arka ×5.6 [A tek ayet]  ▸sonra: حزن *(hüzün, tasalanma)* ×26.8 [B2 donmuş kalıp 19 ayet] · طمع *(tamah, hırs)* ×19.7 [B tek sahne 4 ayet] · kadın ×6.8 [A tek ayet]  ▸Allah med=14\n  · رأي *(görme)* n=328  ▸önce: direk ×16.4 [A tek ayet] · حلي *(süs, zinet)* ×7.3 [B tek sahne 3 ayet] · رأف *(şefkat, raafet)* ×5.0 [B tek sahne 3 ayet]  ▸sonra: وقف *(durdurma, vakfe)* ×16.4 [B tek sahne 3 ayet] · صفر *(sarılık)* ×13.1 [B tek sahne 3 ayet] · bulut ×8.7 [A tek ayet]  ▸Allah med=15\n  · نظر *(bakma; mühlet verme)* n=129  ▸önce: yürüme ×28.0 [A tek ayet] · halifelik ×10.7 [A tek ayet] · خفف *(hafifletme)* ×9.5 [B tek sahne 3 ayet]  ▸sonra: âkıbet ×29.7 [A tek ayet] · كيف *(nasıl, keyfiyet)* ×23.3 [B2 donmuş kalıp 37 ayet] · غشو *(bürüme, kaplama)* ×5.6 [A tek ayet]  ▸Allah med=16\n  · دور *(yurt, ev)* n=55  ▸önce: sarsıntı ×53.1 [A tek ayet] · âkıbet ×19.5 [A tek ayet] · sabah ×15.1 [A tek ayet]  ▸sonra: جثم *(çöküp kalma)* ×123.8 [B tek sahne 5 ayet] · عقل *(akletme, akıl)* ×7.6 [B tek sahne 3 ayet] · son ×7.2 [A tek ayet]  ▸Allah med=11\n  · عين *(göz; pınar)* n=65  ▸önce: مزج *(karıştırma, mizaç)* ×98.0 [B tek sahne 3 ayet] · göz-aydınlığı ×85.7 [A tek ayet] · huri ×73.5 [A tek ayet]  ▸sonra: burun ×196.0 [A tek ayet] · diş ×147.0 [A tek ayet] · kulak ×32.7 [A tek ayet]  ▸Allah med=44\n  · غشو *(bürüme, kaplama)* n=29  ▸önce: نظر *(bakma; mühlet verme)* ×5.4 [A tek ayet] · kalp ×5.2 [A tek ayet] · جعل *(kılma, var etme)* ×2.7 [B tek sahne 4 ayet]  ▸sonra: موج *(dalga)* ×98.8 [A tek ayet] · üst ×16.9 [A tek ayet] · gündüz ×12.1 [A tek ayet]  ▸Allah med=16\n  · موت *(ölüm)* n=165  ▸önce: hayat ×15.2 [A tek ayet] · حضر *(hazır bulundurma)* ×14.0 · بلد *(belde, şehir)* ×13.9 [B2 donmuş kalıp 6 ayet]  ▸sonra: خنزر *(domuz)* ×35.1 [B tek sahne 4 ayet] · adak-kesim ×32.9 [A tek ayet] · diriltme ×19.5 [A tek ayet]  ▸Allah med=12\n  · ذهب *(gitme, götürme)* n=56  ▸önce: bilezik ×102.9 [A tek ayet] · حلي *(süs, zinet)* ×42.9 [B tek sahne 3 ayet] · hamd ×6.1 [A tek ayet]  ▸sonra: tuğyan ×12.4 [A tek ayet] · صبر *(sabır)* ×3.7 [A tek ayet] · gelme ×3.3 [A tek ayet]  ▸Allah med=16\n  · سلق *(dille saldırma, iğneleme)* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=10\n  · لسن *(dil)* n=25  ▸önce: kolaylık ×19.9 [A tek ayet] · azamet ×7.4 [A tek ayet] · جعل *(kılma, var etme)* ×4.0  ▸sonra: Arapça ×76.2 [A tek ayet] · beyan ×3.3 [A tek ayet] · كتب *(yazma, kitap)* ×2.6 [B tek sahne 3 ayet]  ▸Allah med=14\n  · حدد *(demir; sınır koyma)* n=25  ▸önce: haddi-aşma ×42.2 [A tek ayet] · خوف *(korku)* ×7.6 [A tek ayet] · kavim ×2.7 [A tek ayet]  ▸sonra: haddi-aşma ×31.6 [A tek ayet] · رسل *(gönderme, elçi)* ×3.7 · beyan ×3.7 [A tek ayet]  ▸Allah med=1\n  · خير *(hayır, daha iyi)* n=196  ▸önce: gönüllülük ×36.4 [A tek ayet] · sevap ×9.6 [A tek ayet] · بقي *(kalıcı olma)* ×8.7  ▸sonra: زود *(azık)* ×54.6 [A tek ayet] · بقي *(kalıcı olma)* ×8.7 · sevap ×5.8 [A tek ayet]  ▸Allah med=9\n  · أمن *(güven; iman)* n=879  ▸önce: رسخ *(sağlamlaşma, râsih)* ×12.6 [A tek ayet] · havârî ×6.7 [A tek ayet] · kınama ×6.3 [A tek ayet]  ▸sonra: عزر *(kuvvetlendirme, tazim)* ×8.4 [B tek sahne 3 ayet] · صبأ *(sâbiî)* ×8.4 [B tek sahne 3 ayet] · خدع *(aldatma)* ×6.7 [A tek ayet]  ▸Allah med=8\n  · حبط *(boşa çıkma, silinme)* n=16  ▸önce: küfür ×3.8 [A tek ayet]  ▸sonra: خسر *(hüsran, ziyan)* ×22.1 [B tek sahne 3 ayet] · عمل *(iş, amel)* ×19.9 · dünya ×12.5 [A tek ayet]  ▸Allah med=11\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · عمل *(iş, amel)* n=360  ▸önce: حبط *(boşa çıkma, silinme)* ×18.8 · زين *(süsleme)* ×6.5 · غفل *(gaflet, habersizlik)* ×6.3 [B2 donmuş kalıp 11 ayet]  ▸sonra: kesintisiz ×15.0 [A tek ayet] · salâh ×11.5 [A tek ayet] · zerre ×10.0 [A tek ayet]  ▸Allah med=13\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · يسر *(kolaylık)* n=44  ▸önce: عسر *(zorluk)* ×82.4 · خمر *(şarap, örtü)* ×70.6 [B tek sahne 3 ayet] · uyarı ×4.0 [A tek ayet]  ▸sonra: عسر *(zorluk)* ×41.2 · لسن *(dil)* ×19.8 [B tek sahne 3 ayet] · Kurân ×11.8 [A tek ayet]  ▸Allah med=12",
+   "cipa": {
+    "kademe": "L1",
+    "olgu": false,
+    "cipa": false,
+    "not_": "korkudan göz dönmesi, ölüm baygınlığına benzetme — davranış betimi"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "33:20": {
+   "ar": "يَحْسَبُونَ ٱلْأَحْزَابَ لَمْ يَذْهَبُوا۟ ۖ وَإِن يَأْتِ ٱلْأَحْزَابُ يَوَدُّوا۟ لَوْ أَنَّهُم بَادُونَ فِى ٱلْأَعْرَابِ يَسْـَٔلُونَ عَنْ أَنۢبَآئِكُمْ ۖ وَلَوْ كَانُوا۟ فِيكُم مَّا قَٰتَلُوٓا۟ إِلَّا قَلِيلًۭا",
+   "meal": "Ahzâb'ın gitmediğini sanıyorlar. Ahzâb yeniden gelse, bedevîler arasında çölde olup sizin haberlerinizi uzaktan sormayı isterler. Aranızda olsalardı da pek az savaşırlardı.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim şart, kip COND 2 · NEG 2 · RES 1, **biçim HASR** · şahıs 2MP 2 · 3MP 13 · 3MS 1, sahset ['2', '3'], baskın 3, iltifât 0 · n=23 (n z=1,12), fâsıla قليلا → ا, A sınıfı · i’râb ACC 3 · GEN 2 · NOM 2; bab I. bab ×6 · III. bab ×1; zaman IMPF 5 · PERF 2 · kök ikilemesi حزب *(hizip, taraf tutan grup)* ×2 · sayı işareti قَلِيل · simetri [4, 9, 19, 1] · harf 109 → **harf3 101**, isaret 8 · dış düğüm 0 · **yıldız yok** · kökler حسب *(hesap, sayma)* [1/2] · حزب *(hizip, taraf tutan grup)* [1,2/3] · ذهب *(gitme, götürme)* [2/3] · أتي *(gelme, getirme)* [3/9] · ودد *(sevgi, meveddet)* [1/1] · بدو *(açığa çıkma, görünme)* [1/3] · عرب *(Arap, Arapça)* [1/1] · سأل *(isteme, dileme)* [4/7] · نبأ *(haber)* [5/18] · كون *(olmak; mekân, yer)* [9/42] · قتل *(öldürme)* [2/6] · قلل *(azlık)* [3/4] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ Sûrenin adı ilk kez burada: el-ahzâb ×2 (حزب *(hizip, taraf tutan grup)* sûrede 3 kez: 20'de iki, 22'de bir) — ad metinde 20. ayete kadar geçmiyor. İki karşı-olgusal şart daha: 'gelseler' / 'aranızda olsalardı'. عرب *(Arap, Arapça)* kökü (a'râb) sûrede tek. Blok üçüncü qalîlâ ile kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · حسب *(hesap, sayma)* n=109  ▸önce: سرع *(hız, sürat)* ×25.4 [B2 donmuş kalıp 9 ayet] · كفي *(yetme)* ×7.9 [B tek sahne 4 ayet] · fırka ×5.4 [A tek ayet]  ▸sonra: çevrilme ×7.2 [A tek ayet] · karanlık ×7.2 [A tek ayet] · ترك *(bırakma, terk)* ×6.0 [B tek sahne 4 ayet]  ▸Allah med=8\n  · حزب *(hizip, taraf tutan grup)* n=20  ▸önce: kavim ×3.3 [A tek ayet]  ▸sonra: شطن *(şeytan)* ×13.3 [A tek ayet] · رسل *(gönderme, elçi)* ×2.3 [B tek sahne 4 ayet]  ▸Allah med=9\n  · ذهب *(gitme, götürme)* n=56  ▸önce: bilezik ×102.9 [A tek ayet] · حلي *(süs, zinet)* ×42.9 [B tek sahne 3 ayet] · hamd ×6.1 [A tek ayet]  ▸sonra: tuğyan ×12.4 [A tek ayet] · صبر *(sabır)* ×3.7 [A tek ayet] · gelme ×3.3 [A tek ayet]  ▸Allah med=16\n  · أتي *(gelme, getirme)* n=549  ▸önce: سبط *(sıbt, torun)* ×10.4 [B tek sahne 3 ayet] · ünsiyet ×7.4 [A tek ayet] · Sebt ×5.5 [A tek ayet]  ▸sonra: قبس *(kor, ateş parçası)* ×12.9 [A tek ayet] · zekât ×11.3 [A tek ayet] · بغت *(ansızın gelme)* ×11.0  ▸Allah med=13\n  · ودد *(sevgi, meveddet)* n=29  ▸önce: düşmanlık ×12.6 [A tek ayet] · وجد *(bulma)* ×6.5 [B tek sahne 3 ayet] · ara ×4.2 [A tek ayet]  ▸sonra: أهل *(halk, aile)* ×5.4 [B tek sahne 3 ayet] · küfür ×3.6 [A tek ayet] · ara ×2.5 [A tek ayet]  ▸Allah med=12\n  · بدو *(açığa çıkma, görünme)* n=31  ▸önce: خفي *(gizleme, gizli olan)* ×22.2 · zulüm ×2.6 [A tek ayet] · nefs ×2.6 [A tek ayet]  ▸sonra: خفي *(gizleme, gizli olan)* ×51.7 · كتم *(gizleme)* ×35.9 [B tek sahne 3 ayet] · سوأ *(kötülük)* ×9.0  ▸Allah med=11\n  · عرب *(Arap, Arapça)* n=22  ▸önce: عجم *(yabancı, acem)* ×217.9 [A tek ayet] · لسن *(dil)* ×34.9 [B tek sahne 3 ayet] · Kurân ×24.9 [A tek ayet]  ▸sonra: uyarı ×9.4 [A tek ayet] · iman ×1.8 [A tek ayet]  ▸Allah med=11\n  · سأل *(isteme, dileme)* n=129  ▸önce: güvenilir ×19.8 [A tek ayet] · yönelme ×16.6 [A tek ayet] · يقن *(yakîn, kesin bilgi)* ×5.9 [B tek sahne 3 ayet]  ▸sonra: حفو *(ihata etme, çevreleme)* ×55.5 [A tek ayet] · أجر *(ücret, karşılık)* ×12.8 · ثقل *(ağırlık)* ×5.9 [B tek sahne 4 ayet]  ▸Allah med=15\n  · نبأ *(haber)* n=160  ▸önce: وهب *(bağışlama, hibe)* ×7.0 [B tek sahne 4 ayet] · kıssa-anlatma ×6.8 [A tek ayet] · رجع *(dönme, geri döndürme)* ×5.5  ▸sonra: tevil ×10.3 [A tek ayet] · هزأ *(alay etme)* ×5.2 [B tek sahne 4 ayet] · nifak ×3.6 [A tek ayet]  ▸Allah med=11\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · قتل *(öldürme)* n=170  ▸önce: شهر *(ay, şehir)* ×6.3 [A tek ayet] · fırka ×6.2 [A tek ayet] · أذي *(eziyet)* ×5.6 [A tek ayet]  ▸sonra: topyekûn ×26.7 [A tek ayet] · azat ×16.7 [A tek ayet] · رمي *(atma)* ×14.8 [A tek ayet]  ▸Allah med=7\n  · قلل *(azlık)* n=76  ▸önce: bedel ×77.9 [A tek ayet] · شري *(satın alma, satma)* ×34.3 · فأد *(gönül, fuâd)* ×17.9 [B tek sahne 3 ayet]  ▸sonra: ne-kötü ×7.1 [A tek ayet] · شكر *(şükür)* ×6.3 [B tek sahne 5 ayet] · قضي *(hükmetme, bitirme)* ×4.5 [A tek ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "bant": "KAPI_KAPALI"
+   }
   }
  }
 }
