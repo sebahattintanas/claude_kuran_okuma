@@ -11905,6 +11905,341 @@
    "bag": "33:20 → 33:22",
    "kural": "kök (حزب, sûrede 3: 20'de iki, 22'de bir)",
    "not": "Sûrenin adı metinde ilk kez 33:20'de."
+  },
+  {
+   "bag": "33:12 ↔ 33:22",
+   "kural": "nakarat3 (4 kelime / 2 ayet) + iki HASR",
+   "not": "Aynı vaat kalıbı, aynı olay: münafıklar 'aldatmaca', mü'minler 'doğru söylemişler'. Aday 991."
+  },
+  {
+   "bag": "33:15 ↔ 33:23",
+   "kural": "kök (عهد sûrede 3/3)",
+   "not": "Bozulan ahit / sadık kalınan ahit."
+  },
+  {
+   "bag": "33:8 ↔ 33:24",
+   "kural": "okuma gözlemi (li- + sâdıkîn + sıdkıhim)",
+   "not": "Sorsun diye → karşılık versin diye. Ahit-sorgu ipliği kapanıyor."
+  },
+  {
+   "bag": "33:3 → 33:25",
+   "kural": "kök (كفي sûrede 2/4)",
+   "not": "Vekil olarak Allah yeter (ilke) → Allah mü'minlere savaşta yetti (olay)."
+  },
+  {
+   "bag": "33:9-10 ↔ 33:26",
+   "kural": "okuma gözlemi",
+   "not": "Kuşatma tersine: ordular geliyor / destekçiler kalelerinden indiriliyor; yürekler gırtlağa / kalplere korku atılıyor."
+  },
+  {
+   "bag": "33:4 ↔ 33:26",
+   "kural": "kök (ظهر sûrede 2/2)",
+   "not": "Aynı kök iki anlam: zıhar / destek vermek (zâherûhum)."
+  },
+  {
+   "bag": "33:8 ↔ 33:29",
+   "kural": "lemma (a'adde, sûrede 2)",
+   "not": "Aynı fiil iki uç: kâfirlere acıklı azap / muhsinelere büyük ecir."
+  },
+  {
+   "bag": "33:19 ↔ 33:30",
+   "kural": "nakarat3 (5 kelime / 2 ayet)",
+   "not": "'Bu Allah'a kolaydır': amellerin boşa çıkarılması / azabın katlanması."
+  },
+  {
+   "bag": "33:1 → 33:28",
+   "kural": "nidâ kalıbı (eyy-nebî)",
+   "not": "İkinci nidâ bölüm geçişi: hitap ilk kez 2FP (ilk 27 ayette yok)."
+  },
+  {
+   "bag": "33:28 ↔ 33:29",
+   "kural": "okuma gözlemi (aynı şart fiili iki dal)",
+   "not": "İkili seçim: dünya hayatı ve süsü / Allah, Resûl ve âhiret yurdu."
+  },
+  {
+   "bag": "33:21 → 60:6",
+   "kural": "xref (üsve hasene)",
+   "not": "Aynı ifade İbrâhîm için. Sûre 60 okunmadı — DOĞRULANMADI."
+  },
+  {
+   "bag": "33:30 ↔ 33:31",
+   "kural": "okuma gözlemi (ikil: di'fayn / merrateyn)",
+   "not": "Azap iki kat / ecir iki kere. İkisi de say alanında görünmüyor (aday 992)."
+  },
+  {
+   "bag": "33:4 ↔ 33:32",
+   "kural": "okuma gözlemi",
+   "not": "Sınıflama: 33:4 üç sınıf reddi / 33:32 'siz kadınlardan herhangi biri gibi değilsiniz'."
+  },
+  {
+   "bag": "33:12 ↔ 33:32",
+   "kural": "nakarat3 (fî kalbihî maradun)",
+   "not": "Kalbinde hastalık olan sûrede ikinci kez."
+  },
+  {
+   "bag": "33:33 → 33:34",
+   "kural": "kök (بيت 2-4/5)",
+   "not": "Evlerinizde oturun → evlerinizde okunanı anın."
+  },
+  {
+   "bag": "33:8 · 33:29 · 33:35",
+   "kural": "lemma (a'adde, sûrede 3)",
+   "not": "Hazırladı: azap / ecir / mağfiret ve ecir."
+  },
+  {
+   "bag": "33:21 → 33:35",
+   "kural": "okuma gözlemi",
+   "not": "'Allah'ı çok anmak' 33:21'de örneğin koşulu, 33:35'te on çiftlik listenin son maddesi."
+  },
+  {
+   "bag": "33:4 → 33:37",
+   "kural": "lemma (ed'iyâ, دعو)",
+   "not": "Evlatlık kuralı (33:4) bir olayda uygulanıyor (33:37). Adlı aktör Zeyd, korpusta tek ayet."
+  },
+  {
+   "bag": "33:37 ↔ 33:39",
+   "kural": "kök (خشي sûrede 4/4)",
+   "not": "İnsanlardan çekinmek, Allah daha lâyık / Allah'tan başka kimseden çekinmemek."
+  },
+  {
+   "bag": "33:37 → 33:38",
+   "kural": "nakarat3 (kâne emrullâh)",
+   "not": "Emir yerine geldi / emir takdir edilmiş kaderdir."
+  },
+  {
+   "bag": "33:38 → 33:62",
+   "kural": "nakarat3 (7 kelime)",
+   "not": "Sünnetullah formülü sûrede ileride tekrar — 33:62 henüz okunmadı."
+  },
+  {
+   "bag": "33:3 · 33:25 · 33:39",
+   "kural": "kök (كفي sûrede 3/4) + nakarat3",
+   "not": "Vekil olarak yeter / savaşta yetti / hesap görücü olarak yeter."
+  },
+  {
+   "bag": "33:4 · 33:5 · 33:40",
+   "kural": "kök (أبو 1-3/4, رجل 1/3/3)",
+   "not": "Soy ekseni kapanıyor: evlatlık oğul değil / babalarına nispet / Muhammed hiçbirinizin babası değil. racül üç kez: 33:4 · 33:23 · 33:40."
+  },
+  {
+   "bag": "33:1 · 33:3 → 33:48",
+   "kural": "nakarat3 (4 kelime + 6 kelime)",
+   "not": "Açılış üçlüsü tek ayette birleşik tekrar: 'kâfirlere ve münafıklara boyun eğme' + 'Allah'a dayan; vekil olarak Allah yeter'. وكل ve كفي 4/4 burada tamamlanıyor."
+  },
+  {
+   "bag": "33:9 → 33:41",
+   "kural": "nakarat3 (yâ eyyühe'llezîne âmenû + ذكر)",
+   "not": "'Anın' emri ikinci kez: 33:9 nimeti, 33:41 Allah'ı."
+  },
+  {
+   "bag": "33:21 · 33:35 · 33:41",
+   "kural": "okuma gözlemi (zikr-i kesîr)",
+   "not": "Allah'ı çok anmak: örneğin koşulu / listenin son maddesi / emir."
+  },
+  {
+   "bag": "33:43 → 33:46",
+   "kural": "kök (نور 1-2/3)",
+   "not": "Karanlıklardan nura çıkarmak (Allah'ın işi) → aydınlatan kandil (Peygamber'in rolü)."
+  },
+  {
+   "bag": "33:45 → 33:47",
+   "kural": "kök (بشر 2/2)",
+   "not": "Müjdeci rolü → 'müjdele' emri."
+  },
+  {
+   "bag": "33:28 ↔ 33:49",
+   "kural": "nakarat3 (4 kelime)",
+   "not": "Faydalandırıp güzellikle salıverme formülü: Peygamber'in eşleri / mü'minlerin dokunulmadan boşanan eşleri."
+  },
+  {
+   "bag": "33:8 · 33:29 · 33:35 · 33:44",
+   "kural": "lemma (a'adde, sûrede 4)",
+   "not": "Hazırladı: azap / ecir / mağfiret+ecir / kerîm ecir. Aynı kökten 'idde (33:49) say alanının tek açık doğru pozitifi."
+  },
+  {
+   "bag": "33:37 · 33:38 · 33:50",
+   "kural": "kök (حرج 3/3)",
+   "not": "Güçlük olmasın: mü'minlere / Peygamber'e / sana."
+  },
+  {
+   "bag": "33:5 · 33:24 · 33:50",
+   "kural": "nakarat3 (kâne'llâhu gafûran rahîmâ)",
+   "not": "Gafûr-rahîm çift mührü sûrede üçüncü kez."
+  },
+  {
+   "bag": "33:50 ↔ 33:52",
+   "kural": "kök (حلل 2/2)",
+   "not": "Sana helâl kıldık / sana helâl değil — izin kümesi tanımlanıp kapanıyor; istisna ikisinde de 'mâ meleket yemînuk'."
+  },
+  {
+   "bag": "33:33 ↔ 33:51",
+   "kural": "kök (قرر 2/2)",
+   "not": "Evlerinizde oturun / gözleri aydın olsun — aynı kök iki anlam."
+  },
+  {
+   "bag": "33:51 ↔ 33:59",
+   "kural": "nakarat3 (zâlike ednâ en)",
+   "not": "Daha uygun: razı olmalarına / tanınıp incitilmemelerine."
+  },
+  {
+   "bag": "33:27 · 33:40 · 33:52 · 33:54 · 33:55",
+   "kural": "kök (كلل/شيأ) + nakarat3",
+   "not": "'Her şey' formülü beş kez: kadîr · alîm · rakîb · alîm · şehîd. كلل ve شيأ 33:55'te tamamlanıyor."
+  },
+  {
+   "bag": "33:37 → 33:54",
+   "kural": "kök (خفي 2/2, بدو 3/3)",
+   "not": "Tek olayda gizlemek-açığa çıkmak → genel kural: açığa vursanız da gizleseniz de."
+  },
+  {
+   "bag": "33:50 ↔ 33:55",
+   "kural": "okuma gözlemi",
+   "not": "İki akrabalık listesi birbirini dışlıyor: 33:50 evlenilebilenler (amca/hala/dayı/teyze kızları) · 33:55 mahremler (baba/oğul/kardeş/yeğen)."
+  },
+  {
+   "bag": "33:53 → 33:55",
+   "kural": "okuma gözlemi",
+   "not": "Perde kuralı / istisna kümesi (yedi kategori)."
+  },
+  {
+   "bag": "33:43 ↔ 33:56",
+   "kural": "kök (صلو) + okuma gözlemi",
+   "not": "O ve melekleri size salât eder / Allah ve melekleri Peygamber'e salât eder — aynı iki özne, nesne değişiyor."
+  },
+  {
+   "bag": "33:57 ↔ 33:58",
+   "kural": "okuma gözlemi (ellezîne yü'zûne ×2)",
+   "not": "Allah'ı ve Resûlü incitmek → lânet+azap / mü'minleri incitmek → bühtan ve günah yüklenmek."
+  },
+  {
+   "bag": "33:48 · 33:53 · 33:57 · 33:58 · 33:59",
+   "kural": "kök (أذي 1-6/7)",
+   "not": "Eziyet ipliği: yedi geçişin altısı 33:48-59 arasında."
+  },
+  {
+   "bag": "33:12 → 33:60",
+   "kural": "nakarat3 (5 kelime)",
+   "not": "Münafıklar ve kalbinde hastalık olanlar; üçüncü grup ekleniyor: mürcifûn."
+  },
+  {
+   "bag": "33:13 ↔ 33:60",
+   "kural": "aktör (PN yer)",
+   "not": "Aynı şehir iki adla: Yesrib (münafıkların sözünde) / el-Medîne (Allah'ın sözünde)."
+  },
+  {
+   "bag": "33:16 · 33:18 · 33:20 · 33:60",
+   "kural": "fâsıla TAM SAYIM",
+   "not": "qalîlâ sûrede 4/4 ile tamamlanıyor."
+  },
+  {
+   "bag": "33:11 ↔ 33:61",
+   "kural": "okuma gözlemi (pas: 2/2 → 3/3)",
+   "not": "Failsiz edilgen dizisi: iki fiil ikisi edilgen / üç fiil üçü edilgen. İkisi de ★★★ tek kaynak pas."
+  },
+  {
+   "bag": "33:23 ↔ 33:62",
+   "kural": "kök (بدل) + fâsıla tebdîlâ",
+   "not": "Sadıklar hiç değiştirmediler / Allah'ın sünnetinde değişme bulamazsın."
+  },
+  {
+   "bag": "33:38 → 33:62",
+   "kural": "nakarat3 (7 kelime)",
+   "not": "Sünnetullah formülü ikinci kez; 33:62'de 'değişmez' cümlesiyle. esit2: 48:23 BENZER (okunmadı)."
+  },
+  {
+   "bag": "33:8 · 33:14 · 33:15 · 33:20 · 33:53 · 33:63",
+   "kural": "kök (سأل 7/7)",
+   "not": "Sorgu ipliği: Allah'ın sorusuyla açılıyor, insanların saati sormasıyla kapanıyor."
+  },
+  {
+   "bag": "33:8 · 33:29 · 33:35 · 33:44 · 33:57 · 33:64",
+   "kural": "lemma (a'adde 6/6)",
+   "not": "Üç iyi karşılık, üç kötü karşılık. say alanı altısını da sayı sayıyor."
+  },
+  {
+   "bag": "33:17 ↔ 33:65",
+   "kural": "nakarat3 (veliyyen ve lâ nasîrâ)",
+   "not": "Aynı olumsuz formül; ikisi de çift yanlış mühür."
+  },
+  {
+   "bag": "33:1 · 33:33 · 33:48 · 33:66 · 33:67 · 33:71",
+   "kural": "kök (طوع)",
+   "not": "İtaat ipliği: boyun eğme (1, 48) / itaat edin (33) / keşke itaat etseydik (66) / efendilere itaat ettik (67) / Allah'a itaat eden (71)."
+  },
+  {
+   "bag": "33:2 · 33:67 · 33:68",
+   "kural": "eksen (Rab 3/3)",
+   "not": "Rab: vahyin kaynağı (33:2) / cehennemliklerin yakarışı (33:67, 33:68)."
+  },
+  {
+   "bag": "33:4 ↔ 33:67",
+   "kural": "lemma (sebîl) + kök (ضلل)",
+   "not": "Allah yola iletir / büyükler yoldan saptırdı; fâsıla elifsiz / elifli."
+  },
+  {
+   "bag": "33:30 · 33:68",
+   "kural": "kök (ضعف 1-3/3)",
+   "not": "Azabın iki katı: Peygamber'in hanımları için şart / saptıranlar için yakarış. say alanı ikisini de görmüyor."
+  },
+  {
+   "bag": "33:7 → 33:69",
+   "kural": "aktör (Mûsâ)",
+   "not": "Peygamber listesindeki ad, sûrede ikinci kez bir örnek olarak."
+  },
+  {
+   "bag": "33:66 ↔ 33:69",
+   "kural": "kök (وجه 2/2)",
+   "not": "Yüzleri ateşte çevrilenler / Allah katında vecîh."
+  },
+  {
+   "bag": "33:48 · 33:53 · 33:57 · 33:58 · 33:59 · 33:69",
+   "kural": "kök (أذي 7/7)",
+   "not": "Eziyet ipliği Mûsâ örneğiyle kapanıyor."
+  },
+  {
+   "bag": "33:32 ↔ 33:70",
+   "kural": "mm2 + okuma gözlemi",
+   "not": "Kavlen ma'rûfâ / kavlen sedîdâ — sözün iki niteliği; قول 21/21 33:70'te tamamlanıyor."
+  },
+  {
+   "bag": "33:1 → 33:70",
+   "kural": "kök (وقي 1/5 → 5/5)",
+   "not": "Sakınma emri sûreyi açıyor (Peygamber'e) ve blokta kapanıyor (mü'minlere)."
+  },
+  {
+   "bag": "33:1 · 33:48 · 33:66 · 33:67 · 33:71",
+   "kural": "kök (طوع 7/7)",
+   "not": "İtaat ipliği kapanıyor: boyun eğme yasağı → keşke itaat etseydik → efendilere itaat → Allah'a ve Resûlüne itaat eden büyük başarıya erdi."
+  },
+  {
+   "bag": "33:33 ↔ 33:72",
+   "kural": "kök (جهل 2/2)",
+   "not": "İlk câhiliye / insan çok cahil."
+  },
+  {
+   "bag": "33:43 ↔ 33:72",
+   "kural": "kök (ظلم 2/2)",
+   "not": "Karanlıklar / insan çok zalim."
+  },
+  {
+   "bag": "33:58 ↔ 33:72",
+   "kural": "kök (حمل 3/3)",
+   "not": "Bühtanı yüklendiler / emaneti insan yüklendi."
+  },
+  {
+   "bag": "33:24 → 33:73",
+   "kural": "okuma gözlemi (li- + azap + tevbe; توب 2/2)",
+   "not": "Münafıklara şartlı azap/tevbe → münafık ve müşriklere azap, mü'minlere tevbe; üç eril-dişil çift."
+  },
+  {
+   "bag": "33:35 · 33:73",
+   "kural": "okuma gözlemi (eril-dişil çift listesi)",
+   "not": "On çiftlik sıfat listesi / üç çiftlik kapanış."
+  },
+  {
+   "bag": "33:1 ↔ 33:73",
+   "kural": "mühür",
+   "not": "Sûre alîm-hakîm çift mührüyle açılıyor, gafûr-rahîm çift mührüyle kapanıyor."
   }
  ]
 }

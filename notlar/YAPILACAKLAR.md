@@ -5485,3 +5485,47 @@ Bu on vaka, §4.3'teki yeni mühür tanımının (son üç içerik lemması, lem
 
 ### İlgili ama AYRI olan eski borç
 Yukarıdaki (52. satır) `bulgu_allah_ekseni_dikey.json` içindeki "esmâ katmanı eksen-nötr" bulgusunun yeniden ölçülmesi borcu. İkisi karıştırılmamalı.
+
+---
+
+## SÛRE 33 TUR SONU (2026-09-28)
+
+**Okunan: 2398 / 6236 ayet (%38,5)** — sûre 1 ve 9-33 TAM, sûre 2 kısmi (1-20). İlerleme `ahzab_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` 1090 → **1112** (22 kök, `kok_ekle_33.py`). Aday **979-996** (`AR_ahzab`, 18). Bağ **AM_ahzab** 78.
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0.
+
+### Protokol değişikliği — BLOK BAŞI KAYIT (kullanıcı onayı, aday 990)
+Tur sonunu beklemeden her blokta: `uret_blok_33.py` → `blok_33_A_B.py` (okuma_metni + mercek_kayit + çıpa + esmâ + blok bilançosu + ilerleme), `aday_ekle_33_ahzab.py` (idempotent; adaylar ve bağlar), `yama_retroaktif_gloss_33.py`, iki denetim. Blok dosyası ve yükleme paketi sûre sonunda tek pakette verilir.
+Yeni yardımcılar: `blok_bilanco.py` (TAM SAYIM, elle sayı yok) · `ahzab_kayit.py` (okuyucu kararları: çıpa, alan arızası) · `esma_kayit.py` + `esma_el.py` (esmâ kaydı; KAYIT, ölçüm değil).
+
+### Onarılan (okumayı bloke eden)
+* **979** `blok_goster.py` besmele ayıklaması: eski kural 26/112 → yeni 112/112 (1:1 iskeletinden, BOM ayıklanarak).
+* `blok_dikey.py` komşulukta glossuz kök (حمأ) → gloss eklendi.
+* İlk yükleme temizliği: `betikler/onarım` + `betikler/onar─▒m` silindi, `dikey_kisi_slymAn_dAwd.json` ASCII ad, `kisi_mercek.py` Buckwalter ile ASCII yazıyor. **GitHub'da üç silme hâlâ bekliyor** (SILINECEKLER.txt).
+
+### YENİ AÇIK BORÇLAR (dondurulmuş — kaydet, onarma)
+| no | konu | öncelik |
+|---|---|---|
+| 980 | okuma_metni'nde besmele kalıntısı: 23 sûrenin 6'sı (20, 21, 22, 25, 26, 27) | P2 |
+| 981/992 | `say`: kök düzeyi, anlam ayırmıyor — a'adde 6/6 yanlış pozitif, sûredeki 3 gerçek ikil (30, 31, 68) 0/3 işaretli, tek doğru pozitif 33:49 | P1 |
+| 982 | `mm2` bitişiklik: 33:10, 33:41 kaçırıldı (araya lafız) | P2 |
+| 983 | ★★★ tetikleyicileri: sûre 33'te 14 ★★★'ın 14'ü otomatik (hapaks 5 · lafız 4 · uzunluk 3 · edilgen 2), içerik 0 | P1 |
+| 985 | ön-kayıt §4.3 mühür tanımı e_oto üzerinden: sûre 33'te 32 mühürden 12'si yanlış; çift ve ton alanları da yanlış tokenlerden kirleniyor | **P0 — dondurma öncesi** |
+| 986/993 | ton kapsamı: 72 lemmanın 26'sı tonlu; azîm katalogda var listede yok; 'karma' etiketi eksik tonu ayırmıyor | **P0 — dondurma öncesi** |
+| 987 | kök glossu baskın anlamı taşımıyor: بلو · دور · ولي · حيي · نور (nâr 145 / nûr 43) · سدد | P1 — retroaktif tur gerekir |
+| 994 | iltifât ayet içi cinsiyet/sayı geçişini (2FP→2MP, 33:33) görmüyor | P1 |
+| 991 | sûre içi ayna çiftleri (33:12↔22, 15↔23, 8↔24, 3↔25, 9-10↔26) | KAPATILAMAZ (boş model yok) |
+
+### Aday 948 birikimi (tarayıcı v4) — ölçüt değişmedi
+27 → 4/4 · 28 → 3/3 · 29 → 3/3 · 30 → 2/9 · 31 → 0/3 (kesinlik 0/7) · 32 → 2/2 · **33 → 0/0 (kesinlik 0/12)**
+
+### Esmâ ön-kaydı — DONDURMA ÖNCESİ BEŞ KARAR NOKTASI (kullanıcı kararı bekliyor)
+1. §3 `nakarat2` mi, onarılmış `nakarat3` mü?
+2. `هادٍ` / `حَىّ` korpusla eşleşmiyor: tenvin/son hareke normalizasyonu mu, düşürme mi? (Şu an düşüyor; iskelet eşleri 'bekleyen' diye işaretleniyor.)
+3. Ton kapsamı (986/993).
+4. §4.3 mühür, çift, ton ve sınıf e_oto'dan mı e_el'den mi tanımlanır (985)? Sûre 33 kaydı ikisini de tutuyor.
+5. Kök glossu retroaktif turu yapılsın mı (987)?
+Sûre 33 profili: `esma_kayit.json → _profil_33`, `okuma_metni['33']['_esma_profil_33']` (aday 996). H1-H4 KOŞULMADI.
+
+### Devam
+Sûre 34 (Sebe'). Blok başı kayıt için `uret_blok_34.py`'yi `uret_blok_33.py`'den S=34 ile türet; `sebe_metin_1.py`, `sebe_kayit.py`, `aday_ekle_34_sebe.py`, `kok_ekle_34.py`, `yama_retroaktif_gloss_34.py` aynı şablonla.

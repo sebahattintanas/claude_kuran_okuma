@@ -14,10 +14,16 @@ import sys
 S = 33
 METIN = 'ahzab_metin_1'          # ileride ahzab_metin_2 eklenirse listeye çevrilir
 KAYIT = 'ahzab_kayit'
-BLOKLAR = [(1, 10), (11, 20)]
+BLOKLAR = [(1, 10), (11, 20), (21, 30), (31, 40), (41, 50), (51, 60), (61, 70), (71, 73)]
 BASLIK = {
  (1, 10): "sûre 33 (Ahzâb) birinci blok — üç yeniden-etiketleme reddi, peygamberlerden ahit, kuşatmanın başlangıcı.",
  (11, 20): "sûre 33 ikinci blok — imtihan, münafıkların izin istemesi, ahdin sorgusu ve 'az' ile kapanan üç ayet.",
+ (21, 30): "sûre 33 üçüncü blok — üsve hasene, ikinci blokun aynaları (vaat, ahit, sorgu→karşılık), miras ve eşlere ikili seçim.",
+ (31, 40): "sûre 33 dördüncü blok — iki kat ecir, on çiftlik sıfat listesi, Zeyd olayı ve 'hiçbirinizin babası değil' ile soy ekseninin kapanışı.",
+ (41, 50): "sûre 33 beşinci blok — zikir emri, karanlıktan nura, beş rol, açılış üçlüsünün tekrarı ve 2×2 akrabalık tablosu.",
+ (51, 60): "sûre 33 altıncı blok — helâl kümesinin kapanışı, ev adabı ve perde, istisna kümesi, salât aynası, eziyetin iki yüzü ve Medîne.",
+ (61, 70): "sûre 33 yedinci blok — değişmeyen sünnet, saatin sorusu, cehennemliklerin Rab'bi ve ters dönen itaat, Mûsâ örneği ve doğru söz.",
+ (71, 73): "sûre 33 son blok — itaatin karşılığı, emanet sahnesi ve eril-dişil üç çiftle sûrenin kapanışı.",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-
