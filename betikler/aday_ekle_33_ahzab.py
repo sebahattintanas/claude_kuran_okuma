@@ -71,7 +71,8 @@ AHZAB = [
 {"no":986,
  "aday":"★★ ESMÂ TONU KAPSAMI — esma_listesi.json'un 72 lemmasından yalnız 26'sı varlik_katalog.json'da ton (cemâl/denge/celâl) taşıyor; 46'sı katalog-dışı. Katalogdaki azîm (denge) listede yok.",
  "olculen":{"liste":72,"katalogda_tonlu":26,"katalog_disi":46,"katalogda_listede_olmayan":["azîm"],"ilk_vaka":"33:3 vekîl"},
- "durum":"ACIK","oncelik":"P0","kaynak":"esmâ kaydı, sûre 33","etiket":"ön-kayıt dondurma öncesi karar noktası (3)",
+ "karar_D3":"2026-09-28: ön-kaydın kendi 72 lemmalık tablosu (esma_ton.json), onaylı ölçüt; katalog kullanılmıyor — kapsam 72/72, belirsiz 7",
+ "durum":"KAPALI","oncelik":"P0","kaynak":"esmâ kaydı, sûre 33","etiket":"ön-kayıt dondurma öncesi karar noktası (3)",
  "test_notu":"Bu kapsamla H2'nin mühürlerinin çoğu tonsuz kalır. Ton ataması katalogdan mı genişletilir, yoksa H2 yalnız tonlu 26 lemmayla mı koşulur — dondurmadan önce karar."},
 # ---------------- blok 11-20 ----------------
 {"no":987,
@@ -144,12 +145,13 @@ AHZAB = [
 {"no":996,
  "aday":"SÛRE 33 ESMÂ PROFİLİ (KAYIT, ölçüm değil) — sınıf e_oto: A 50 · AR 1 · E 6 · R 2 · 0 14; e_el: A 50 · AR 1 · E 1 · R 2 · 0 19. Esmâ tokeni 65, ilâhî 29. §4.3 mühür 32, geçerli 20, yanlış 12. Geçerli mühürlerin tonu: cemâl 13 · katalog-dışı 5 · karma 2.",
  "olculen":{"kaynak":"esma_kayit.json → _profil_33","bant":"KAPI_KAPALI","esma_listesi_sha256":"19fb1b12d6745b1c…"},
+ "guncelleme_D3":{"tarih":"2026-09-28","ton_kaynagi":"esma_ton.json (§4.3.1) — katalog bırakıldı","ton_gecerli_muhur":{"denge":8,"cemâl":7,"celâl":3,"karma":2},"onceki_katalog_tonu":{"cemâl":13,"katalog-dışı":5,"karma":2}},
  "durum":"KAYIT","oncelik":"P0","kaynak":"ön-kayıt esmâ takibi, ilk sûre","etiket":"ONKAYIT_esma_katmanlari §6 sûre profili",
  "test_notu":"H1-H4 KOŞULMADI. Tek sûrelik profil, dondurma öncesi beş karar noktasının (nakarat2/3 · Hâdî/Hayy · ton kapsamı · §4.3'ün e_oto/e_el tanımı · kök glossu) hepsinin de gerçek veride nasıl çalıştığını gösteriyor: e_oto ile e_el arasında E sınıfında 6 → 1, 0 sınıfında 14 → 19 fark var; mühürlerin %37,5'i (12/32) yanlış."},
 {"no":997,
  "aday":"ESMÂ ÖN-KAYDI — DONDURMA ÖNCESİ BEŞ KARAR (kullanıcı, 2026-09-28): D1 nakarat3 ana / nakarat2 duyarlılık · D2 Hâdî ve Hayy girdi bazında eşleme (yalnız N) · D3 önce ölçüt, sonra 72 lemmalık esma_ton.json (katalog kullanılmaz) · D4 ana tanım otomatik konum süzgeci, e_el geliştirme/doğrulama ve yedek, e_oto duyarlılık; geriye dönük e_el turu tam okuma bitince · D5 6 kök glossu şimdi düzeltildi, sistematik tarama borç.",
- "olculen":{"onkayit":"notlar/ONKAYIT_esma_katmanlari.md §3, §4.2, §4.3, §6, §8.0","d2_esleme":"esma_kayit.py (korpustan bulunur, tek N adayı yoksa DUR; sûre 33 kaydı değişmedi)","d5_yama":"yama_gloss_duzeltme_987.py — 380 anma, 119 ayet kaydı, 63 dikey dosya; ikinci koşu 0","bekleyen_onay":["D3 ton ölçütü (§4.3.1)","D4 süzgeç kabul eşiği"]},
- "durum":"ACIK","oncelik":"P0","kaynak":"sûre 33 tur sonu","etiket":"ön-kayıt dondurma öncesi kararlar",
+ "olculen":{"onkayit":"notlar/ONKAYIT_esma_katmanlari.md §3, §4.2, §4.3, §6, §8.0","d2_esleme":"esma_kayit.py (korpustan bulunur, tek N adayı yoksa DUR; sûre 33 kaydı değişmedi)","d5_yama":"yama_gloss_duzeltme_987.py — 380 anma, 119 ayet kaydı, 63 dikey dosya; ikinci koşu 0","bekleyen_onay":[],"onaylar":{"D3":"ölçüt onaylı, eşitlikte belirsiz; esma_ton.json cemâl 23 · denge 28 · celâl 14 · belirsiz 7","D4":"eşik κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90; doğrulama tek koşu"},"dondurma":"§9 dolduruldu 2026-09-28; commit yükleme sonrası"},
+ "durum":"KAPALI","oncelik":"P0","kaynak":"sûre 33 tur sonu","etiket":"ön-kayıt dondurma öncesi kararlar → DONDURULDU",
  "test_notu":"H testi koşulmadı. Karar anında görülen tek veri sûre 33 KAYDI (aday 996) — bulaşma riski ön-kayıt §8.0'da yazılı. §9 dondurma kaydı iki onaydan sonra doldurulacak."}
 ]
 

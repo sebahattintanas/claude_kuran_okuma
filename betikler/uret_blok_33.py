@@ -65,7 +65,7 @@ for n in range(A1, A2 + 1):
                      "mercek": M[n],
                      "dikey": DIK.get(k, "  · (ayette kök bulunmuyor — dikey satır yok)"),
                      "cipa": CIPA.get(n, dict(kademe=None, olgu=False, cipa=False)),
-                     "esma": {x: e.get(x) for x in ('sinif_oto', 'sinif_el', 'e_oto', 'e_el', 'muhur', 'cift', 'ton', 'bant')}}
+                     "esma": {x: e.get(x) for x in ('sinif_oto', 'sinif_el', 'e_oto', 'e_el', 'muhur', 'cift', 'ton', 'ton_kismi', 'bant')}}
     gloss_gecis.gecir_kayit(OM[str(S)][k])
 bil = blok_bilanco.bilanco(S, A1, A2)
 bil['ariza'] = ARIZA.get((A1, A2), [])

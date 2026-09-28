@@ -76,10 +76,20 @@ SET += list(ESLEME.values())
 for x in ESLEME.values(): assert TUM_LEM[x] > 0
 BEKLEYEN = {}
 
-# ---- ton: varlik_katalog alt_tur, lem alanından (NFC)
-KAT = json.load(open('varlik_katalog.json', encoding='utf-8'))
-TON = {nfc(v['lem']): v['alt_tur'] for v in KAT.values()
-       if v.get('tur') == 'ilâhî-isim' and v.get('lem')}
+# ---- ton: ön-kayıt §4.3 / §4.3.1 (D3) — tablolar/esma_ton.json; varlik_katalog KULLANILMAZ
+TT = json.load(open('esma_ton.json', encoding='utf-8'))
+TON = {nfc(k): v['ton'] for k, v in TT['tablo'].items()}
+for x, c in ESLEME.items(): TON[c] = TON[nfc(x)]           # D2 eşlemesi tonu da taşır
+for x in SET: assert x in TON, 'tonsuz set lemması: %r — DUR' % x
+GERCEK = {'cemâl', 'denge', 'celâl'}
+def ton_hesap(lemler):
+    t = [TON.get(L, 'eksik') for L in lemler]
+    R = sorted(set(x for x in t if x in GERCEK))
+    if len(R) > 1: v = 'karma'
+    elif R: v = R[0]
+    elif 'belirsiz' in t: v = 'belirsiz'
+    else: v = 'eksik'
+    return v, bool(R) and any(x not in GERCEK for x in t)
 
 ZAMIR = {'PRON', 'DEM', 'REL', 'T', 'LOC', 'COND', 'INTG'}
 def icerik(f):
@@ -107,8 +117,7 @@ for a in range(A1, A2 + 1):
     B_ = [(w, L) for w, L in toks if isk(L) in BEKLEYEN]
     son3 = ic[-3:]
     mh = [(w, L) for w, L in son3 if L in SET]
-    tonlar = sorted({TON.get(L, 'katalog-dışı') for w, L in mh})
-    ton = None if not mh else (tonlar[0] if len(tonlar) == 1 else 'karma')
+    ton, ton_kismi = ton_hesap([L for w, L in mh]) if mh else (None, False)
     key = '%d:%d' % (S, a)
     el = {}
     for w, L in E_:
@@ -124,20 +133,20 @@ for a in range(A1, A2 + 1):
                       bekleyen=[[w, L] for w, L in B_],
                       son3=[[w, L] for w, L in son3],
                       muhur=bool(mh), cift=len(mh) >= 2, muhur_lem=[L for w, L in mh],
-                      ton=ton, bant='KAPI_KAPALI')
+                      ton=ton, ton_kismi=ton_kismi, bant='KAPI_KAPALI')
 
 p = 'esma_kayit.json'
 T = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {}
 T.setdefault('_meta', {})
 T['_meta'].update(onkayit='notlar/ONKAYIT_esma_katmanlari.md', esma_listesi_sha256=SHA,
-                  set_boyutu=len(SET), dusen=[], d2_esleme=ESLEME, ton_katalogda=len(TON),
+                  set_boyutu=len(SET), dusen=[], d2_esleme=ESLEME, ton_tablosu='esma_ton.json (§4.3.1)',
                   capalar={'allah': '1:1:2', 'rab': '1:2:3', 'humme': '3:26:2'},
                   uyari='KAYIT — ölçüm değil. H1-H4 tam okuma bitmeden koşulmaz.')
 T.update(KAYIT)
 json.dump(T, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
 
-print('esmâ listesi SHA-256: %s…  set %d (D2 eşlemesi %s) · ton katalogda %d lemma'
-      % (SHA[:16], len(SET), ESLEME, len(TON)))
+print('esmâ listesi SHA-256: %s…  set %d (D2 eşlemesi %s) · ton tablosu esma_ton.json'
+      % (SHA[:16], len(SET), ESLEME))
 for key, r in KAYIT.items():
     print('%-6s a=%d r=%d e_oto=%d e_el=%s · sınıf %s/%s · esmâ %s · mühür %s%s ton %s · son3 %s%s'
           % (key, r['a'], r['r'], r['e_oto'], {None: '?', True: 1, False: 0}[r['e_el']],

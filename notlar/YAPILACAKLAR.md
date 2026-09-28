@@ -5536,3 +5536,10 @@ D2 `esma_kayit.py`'de uygulandı (sûre 33 kaydı değişmedi). D5 uygulandı: `
 (380 anma · 119 ayet kaydı damgalı · 63 dikey dosya; eski glosslar `tablolar/kok_gloss_duzeltme.json`).
 **Dondurma için iki onay bekleniyor:** D3 ton ölçütü (§4.3.1) · D4 süzgeç kabul eşiği. §9 bunlardan sonra.
 Yeni borç: 1112 kökün gloss taraması (P1, araç dondurması bitince).
+
+### Esmâ ön-kaydı DONDURULDU (2026-09-28)
+D3 ölçütü onaylandı (eşitlikte **belirsiz**); `esma_ton.json` kuruldu: cemâl 23 · denge 28 · celâl 14 · belirsiz 7 (SHA `1e01912d…`).
+`esma_kayit.py` artık bu tabloyu kullanıyor; sûre 33 profili yeniden koşuldu (geçerli mühür tonu: denge 8 · cemâl 7 · celâl 3 · karma 2).
+D4 kabul eşiği onaylandı: κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90; doğrulama tek koşu.
+§9 dolduruldu. **Commit alanı yükleme sonrası doldurulacak.** Bundan sonra ön-kayıttaki her değişiklik §8'e.
+Tam okuma bitince sırayla: (1) `e_suzgec` kodla — geliştirme kümesi okuma boyunca toplanan `e_el` · (2) geriye dönük `e_el` turu, 794 token — doğrulama kümesi · (3) süzgeç doğrulaması, tek koşu · (4) H1-H4.

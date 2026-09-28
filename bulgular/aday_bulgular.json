@@ -26410,7 +26410,8 @@
     ],
     "ilk_vaka": "33:3 vekîl"
    },
-   "durum": "ACIK",
+   "karar_D3": "2026-09-28: ön-kaydın kendi 72 lemmalık tablosu (esma_ton.json), onaylı ölçüt; katalog kullanılmıyor — kapsam 72/72, belirsiz 7",
+   "durum": "KAPALI",
    "oncelik": "P0",
    "kaynak": "esmâ kaydı, sûre 33",
    "etiket": "ön-kayıt dondurma öncesi karar noktası (3)",
@@ -26780,6 +26781,21 @@
     "bant": "KAPI_KAPALI",
     "esma_listesi_sha256": "19fb1b12d6745b1c…"
    },
+   "guncelleme_D3": {
+    "tarih": "2026-09-28",
+    "ton_kaynagi": "esma_ton.json (§4.3.1) — katalog bırakıldı",
+    "ton_gecerli_muhur": {
+     "denge": 8,
+     "cemâl": 7,
+     "celâl": 3,
+     "karma": 2
+    },
+    "onceki_katalog_tonu": {
+     "cemâl": 13,
+     "katalog-dışı": 5,
+     "karma": 2
+    }
+   },
    "durum": "KAYIT",
    "oncelik": "P0",
    "kaynak": "ön-kayıt esmâ takibi, ilk sûre",
@@ -26793,15 +26809,17 @@
     "onkayit": "notlar/ONKAYIT_esma_katmanlari.md §3, §4.2, §4.3, §6, §8.0",
     "d2_esleme": "esma_kayit.py (korpustan bulunur, tek N adayı yoksa DUR; sûre 33 kaydı değişmedi)",
     "d5_yama": "yama_gloss_duzeltme_987.py — 380 anma, 119 ayet kaydı, 63 dikey dosya; ikinci koşu 0",
-    "bekleyen_onay": [
-     "D3 ton ölçütü (§4.3.1)",
-     "D4 süzgeç kabul eşiği"
-    ]
+    "bekleyen_onay": [],
+    "onaylar": {
+     "D3": "ölçüt onaylı, eşitlikte belirsiz; esma_ton.json cemâl 23 · denge 28 · celâl 14 · belirsiz 7",
+     "D4": "eşik κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90; doğrulama tek koşu"
+    },
+    "dondurma": "§9 dolduruldu 2026-09-28; commit yükleme sonrası"
    },
-   "durum": "ACIK",
+   "durum": "KAPALI",
    "oncelik": "P0",
    "kaynak": "sûre 33 tur sonu",
-   "etiket": "ön-kayıt dondurma öncesi kararlar",
+   "etiket": "ön-kayıt dondurma öncesi kararlar → DONDURULDU",
    "test_notu": "H testi koşulmadı. Karar anında görülen tek veri sûre 33 KAYDI (aday 996) — bulaşma riski ön-kayıt §8.0'da yazılı. §9 dondurma kaydı iki onaydan sonra doldurulacak."
   }
  ]

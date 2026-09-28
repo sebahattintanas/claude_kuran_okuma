@@ -66,17 +66,25 @@ Bu tanımda `e` bayrağı sınıfı yalnızca A ya da R olmadığında belirler.
   - **`e_suzgec` — ANA TANIM.** Morfoloji ve sözdiziminden otomatik konum süzgeci. Bir esmâ tokeni şu konumlardan birindeyse ilâhî sayılır: (i) öznesi Allah lafzı ya da O'na dönen zamir olan kâne / inne cümlesinin haberi; (ii) kefâ bi-llâhi kalıbında temyiz; (iii) Allah lafzının ya da O'na dönen zamirin sıfatı / bedeli; (iv) nidâ ya da isnatla doğrudan Allah'a verilen ad. Olumsuzlanan 'Allah'tan başka' birine verilen sıfat, başka bir ismin sıfatı ve insan göndergeli kullanım sayılmaz. Süzgeç kodu, araç dondurması gereği **tam okuma bittikten sonra** yazılır.
   - **`e_el` — geliştirme ve doğrulama referansı; süzgeç eşiği geçemezse YEDEK ANA TANIM.** Okuyucu kararı, yukarıdaki kuralın elle uygulanması; `esma_el.py` içinde konum anahtarıyla. Okuma boyunca toplanan kararlar süzgecin **geliştirme kümesi**dir. Okuma bitince, testlerden hemen önce, daha önce okunan sûrelerdeki (1, 9-32, 2:1-20) 794 token için yapılacak geriye dönük karar turu süzgecin görmediği **doğrulama kümesi**dir.
   - **`e_oto` — üst sınır, duyarlılık kolu.** Lemma eşleşmesi, konum bakılmaz.
-  - **Kabul eşiği:** *(onay bekliyor — bkz. §8 D4)*.
+  - **Kabul eşiği (kullanıcı onayı 2026-09-28):** süzgeç, doğrulama kümesinde `e_el`'e karşı **üç koşulun üçünü birden** sağlarsa ana tanım olur: (1) token düzeyinde Cohen κ ≥ **0,80**; (2) ilâhî sınıfında duyarlılık ≥ **0,90** ve kesinlik ≥ **0,90**; (3) ayet düzeyinde §4.3 mühür bayrağında uyum ≥ **0,90**. Doğrulama **tek koşudur**; sonrasında süzgeç değiştirilmez, eşik gevşetilmez. Geçemezse `e_el` ana tanım olur, süzgeç yalnız raporlanır. Her durumda karışıklık matrisi ve uyuşmayan tokenlerin listesi yayımlanır.
 
 ### 4.3 Eksen B — Mühür tonu (ayet düzeyi)
 
 - **Mühür:** Ayetin son üç içerik lemmasında (N, ADJ ya da PN) §4.2'nin ana tanımına (`e_suzgec`) göre ilâhî sayılan en az bir esmâ tokeni bulunması. Çift mühür, ton ve A/R/E/0 sınıfı da aynı ana tanımdan türetilir; `e_el` ve `e_oto` sürümleri ayrıca hesaplanır (D4). Tanım token düzeyinde değil lemma düzeyindedir, çünkü token düzeyindeki bayrağın iki vakada çalışmadığı görüldü.
 - **Çift mühür:** Son üç içerik lemmasından ikisinin esmâ olması.
-- **Ton (D3):** Ön-kaydın kendi tablosu `esma_ton.json`'dan: 72 lemmanın her biri için cemâl, denge ya da celâl ve tek satırlık gerekçe. Tablo, **önceden yazılıp onaylanan bir ölçütün** mekanik uygulamasıdır; ölçüt §4.3.1'de. `varlik_katalog.json` kullanılmaz ve değiştirilmez. Tonsuz kalan durum 'eksik' değerini alır. Çift mühürde iki farklı ton varsa 'karma'; bir üye tonsuzsa diğerinin tonu alınır ve 'kısmi' işareti konur. azîm listede olmadığı için tabloya girmez (bilinen eksik).
+- **Ton (D3):** Ön-kaydın kendi tablosu `tablolar/esma_ton.json`'dan: 72 lemmanın her biri için cemâl, denge, celâl ya da **belirsiz**, tek satırlık gerekçeyle. Tablo §4.3.1 ölçütünün mekanik uygulamasıdır. `varlik_katalog.json` kullanılmaz ve değiştirilmez. Mühür tonunun hesabı: mühür lemmalarının tonlarından gerçek tonlar (cemâl/denge/celâl) ayrılır; birden çok farklı gerçek ton → **karma**; tek gerçek ton → o ton; gerçek ton yoksa ve üyelerden biri belirsizse → **belirsiz**; hiçbiri yoksa → **eksik**. Gerçek tonun yanında belirsiz ya da eksik bir üye varsa **`ton_kismi`** işareti konur. H2 ana analizinde belirsiz ve eksik tonlu mühürler dışarıda kalır; duyarlılık kolunda belirsiz 'denge'ye katılır. azîm listede olmadığı için tabloya girmez (bilinen eksik).
 
-#### 4.3.1 Ton ölçütü
+#### 4.3.1 Ton ölçütü (kullanıcı onayı 2026-09-28)
 
-*(onay bekliyor — bkz. §8 D3)*
+1. **Birim lemmadır, ayet bağlamı değil.** Ton, ismin sözlük anlamının ana bileşeninden belirlenir.
+2. **cemâl:** anlamın merkezinde kula yönelen iyilik — rahmet, bağış, lütuf, koruma, yakınlık, kabul.
+   **celâl:** anlamın merkezinde güç ve üstünlük — kudret, üstün gelme, zorlama, azamet, büyüklük, hesaba çekme, egemenlik.
+   **denge:** iyilik ya da güç merkezde değil — bilgi, algı, yaratma, varlık/zât, zaman, kapsama.
+3. **Eşitlik kuralı:** iki bileşen eşit ağırlıktaysa ya da ana bileşen belirsizse **belirsiz** (kullanıcı değişikliği; taslakta 'denge' idi). Tahminle sınıf verilmez.
+4. **Kaynak sırası:** kök anlamı, sonra Kur'an'daki baskın kullanım. Ayet sayımı yapılmaz.
+5. Katalogla karşılaştırma tablo bittikten sonra yalnız rapor olarak yapılabilir; tabloyu değiştirmez.
+
+**Uygulama sonucu:** `tablolar/esma_ton.json` (`esma_ton_kur.py`) — cemâl 23 · denge 28 · celâl 14 · belirsiz 7 (hakîm, latîf, mevlâ, selâm, müheymin, fettâh, mukît). SHA-256 başlangıcı: `1e01912d59e48990`.
 - **Uyarı:** Ton etiketi geleneksel sınıflandırmaya dayanır. Bu yüzden ton dağılımının kendisi (örneğin "cemâl-baskın") **hipotez değildir**. Yalnızca tonun başka, bağımsız ölçülen değişkenlerle ilişkisi test edilir.
 
 ### 4.4 Eksen C — Mesafe bandı (ayet düzeyi)
@@ -153,12 +161,17 @@ Hiçbir H testi koşulmadan verildi. Karar sırasında görülen tek veri sûre 
 
 - **D1 — nakarat:** ana `nakarat3`, duyarlılık `nakarat2`. Gerekçe: `nakarat2` onarılmamış, bilinen yanlış pozitifi var (10:2 ↔ 10:76); okuma `nakarat3` ile koşuluyor. §3'te işlendi.
 - **D2 — Hâdî / Hayy:** girdi bazında düzeltme, yalnız isim (N), eşleme tablosu; genel normalizasyon yok. Gerekçe: iki girdinin eşleşmeme nedeni farklı (tenvin; ى/ي harfi) ve aynı iskelette fiiller var (`هادُ` 11, `حَيَّ` 4). Düşürme el-Hayy'ı setten çıkarırdı. §4.2'de işlendi.
-- **D3 — ton:** ön-kaydın kendi 72 lemmalık tablosu, önce yazılıp onaylanan ölçüte göre; katalog kullanılmaz. Gerekçe: katalog 72 lemmanın yalnız 26'sını kapsıyor ve 26'nın 21'i cemâl (azîz, kadîr, kebîr, alîm dahil) — H2 ekseni neredeyse tek değerli. §4.3'te işlendi. **Ölçüt onayı bekleniyor.**
-- **D4 — esmâ bayrağı:** ana tanım otomatik konum süzgeci (`e_suzgec`); `e_el` geliştirme/doğrulama referansı ve yedek ana tanım; `e_oto` duyarlılık. Geriye dönük `e_el` turu tam okuma bitince, testlerden hemen önce. Gerekçe: sûre 33'te `e_oto` ile §4.3 mühürlerinin 12/32'si yanlış, E sınıfı 6'ya karşı 1. §4.2 ve §4.3'te işlendi. **Kabul eşiği onayı bekleniyor.**
+- **D3 — ton:** ön-kaydın kendi 72 lemmalık tablosu, önce yazılıp onaylanan ölçüte göre; katalog kullanılmaz. Gerekçe: katalog 72 lemmanın yalnız 26'sını kapsıyor ve 26'nın 21'i cemâl (azîz, kadîr, kebîr, alîm dahil) — H2 ekseni neredeyse tek değerli. §4.3'te işlendi. Ölçüt onaylandı (eşitlikte 'belirsiz'); tablo kuruldu, SHA §4.3.1'de.
+- **D4 — esmâ bayrağı:** ana tanım otomatik konum süzgeci (`e_suzgec`); `e_el` geliştirme/doğrulama referansı ve yedek ana tanım; `e_oto` duyarlılık. Geriye dönük `e_el` turu tam okuma bitince, testlerden hemen önce. Gerekçe: sûre 33'te `e_oto` ile §4.3 mühürlerinin 12/32'si yanlış, E sınıfı 6'ya karşı 1. §4.2 ve §4.3'te işlendi. Kabul eşiği onaylandı (κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90).
 - **D5 — kök glossu:** 6 kök (نور بلو ولي حيي دور سدد) şimdi düzeltildi, eski gloss `tablolar/kok_gloss_duzeltme.json`'da, yamalanan ayet kayıtlarında `_gloss_duzeltildi` damgası (`yama_gloss_duzeltme_987.py`). 1112 kökün sistematik taraması borç (P1). Ölçüm etkisi yok.
 
 ## 9. Dondurma kaydı
 
-- commit: `________`
-- `esma_listesi.json` SHA-256: `________`
-- doğrulanmış esmâ seti boyutu / düşen girdiler: `________`
+- dondurma tarihi: **2026-09-28** (sûre 33 tur sonu; okunan 2398 / 6236 ayet)
+- commit: `________` *(bu dosyayı içeren yükleme paketinin commit'i; yükleme sonrası doldurulur — dosya içeriği o commit'te sabittir)*
+- `esma_listesi.json` SHA-256: `19fb1b12d6745b1c75c14d3411e4c2037b9fac84bc9794885c1b4dfd7e2aca1e`
+- `esma_ton.json` SHA-256: `1e01912d59e48990bda16dd7e9e4f850b301033053d080a47798c2dc3bf3c1f0`
+- doğrulanmış esmâ seti boyutu / düşen girdiler: **72 / 0** (D2 eşlemesi: `هادٍ`→`هاد`, `حَىّ`→`حَيّ`; yalnız N)
+- ana tanımlar: nakarat `nakarat3` (D1) · ton `esma_ton.json` (D3) · esmâ bayrağı `e_suzgec`, eşiği geçemezse `e_el` (D4)
+- testler: H1-H4 **koşulmadı**; tam okuma bitince, global Bonferroni paydasıyla
+- bundan sonraki her değişiklik §8'e tarih, gerekçe ve etkiyle yazılır

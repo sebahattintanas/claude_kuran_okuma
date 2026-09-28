@@ -43,7 +43,8 @@
     "حَكِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": true
  },
  "33:10": {
   "a": true,
@@ -74,7 +75,8 @@
     "ظَنّ"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:11": {
   "a": false,
@@ -114,7 +116,8 @@
     "شَدِيد"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:12": {
   "a": true,
@@ -145,7 +148,8 @@
     "غُرُور"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:13": {
   "a": false,
@@ -176,7 +180,8 @@
     "فِرار"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:14": {
   "a": false,
@@ -207,7 +212,8 @@
     "يَسِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:15": {
   "a": true,
@@ -238,7 +244,8 @@
     "مَسْئُول"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:16": {
   "a": false,
@@ -269,7 +276,8 @@
     "قَلِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:17": {
   "a": true,
@@ -315,7 +323,8 @@
     "نَصِير"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:18": {
   "a": true,
@@ -346,7 +355,8 @@
     "قَلِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:19": {
   "a": true,
@@ -377,7 +387,8 @@
     "يَسِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:2": {
   "a": true,
@@ -417,7 +428,8 @@
     "خَبِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:20": {
   "a": false,
@@ -448,7 +460,8 @@
     "قَلِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:21": {
   "a": true,
@@ -488,7 +501,8 @@
     "كَثِير"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:22": {
   "a": true,
@@ -526,7 +540,8 @@
     "تَسْلِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:23": {
   "a": true,
@@ -564,7 +579,8 @@
     "تَبْدِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:24": {
   "a": true,
@@ -610,7 +626,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:25": {
   "a": true,
@@ -661,7 +678,8 @@
     "عَزِيز"
    ]
   ],
-  "ton": "karma"
+  "ton": "celâl",
+  "ton_kismi": false
  },
  "33:26": {
   "a": false,
@@ -692,7 +710,8 @@
     "فَرِيق"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:27": {
   "a": true,
@@ -732,7 +751,8 @@
     "قَدِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "celâl",
+  "ton_kismi": false
  },
  "33:28": {
   "a": false,
@@ -763,7 +783,8 @@
     "جَمِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:29": {
   "a": true,
@@ -801,7 +822,8 @@
     "عَظِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:3": {
   "a": true,
@@ -841,7 +863,8 @@
     "وَكِيل"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:30": {
   "a": true,
@@ -872,7 +895,8 @@
     "يَسِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:31": {
   "a": true,
@@ -912,7 +936,8 @@
     "كَرِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:32": {
   "a": false,
@@ -950,7 +975,8 @@
     "مَعْرُوف"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:33": {
   "a": true,
@@ -988,7 +1014,8 @@
     "تَطْهِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:34": {
   "a": true,
@@ -1034,7 +1061,8 @@
     "خَبِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": true
  },
  "33:35": {
   "a": true,
@@ -1072,7 +1100,8 @@
     "عَظِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:36": {
   "a": true,
@@ -1117,7 +1146,8 @@
     "مُبِين"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:37": {
   "a": true,
@@ -1155,7 +1185,8 @@
     "مَفْعُول"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:38": {
   "a": true,
@@ -1186,7 +1217,8 @@
     "مَقْدُور"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:39": {
   "a": true,
@@ -1231,7 +1263,8 @@
     "حَسِيب"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "celâl",
+  "ton_kismi": false
  },
  "33:4": {
   "a": true,
@@ -1262,7 +1295,8 @@
     "سَبِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:40": {
   "a": true,
@@ -1307,7 +1341,8 @@
     "عَلِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:41": {
   "a": true,
@@ -1338,7 +1373,8 @@
     "كَثِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:42": {
   "a": false,
@@ -1356,7 +1392,8 @@
   "sinif_el": "0",
   "sinif_oto": "0",
   "son3": [],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:43": {
   "a": false,
@@ -1408,7 +1445,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "karma"
+  "ton": "karma",
+  "ton_kismi": false
  },
  "33:44": {
   "a": false,
@@ -1454,7 +1492,8 @@
     "كَرِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": true
  },
  "33:45": {
   "a": false,
@@ -1485,7 +1524,8 @@
     "نَذِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:46": {
   "a": true,
@@ -1516,7 +1556,8 @@
     "مُنِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:47": {
   "a": true,
@@ -1561,7 +1602,8 @@
     "كَبِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "celâl",
+  "ton_kismi": false
  },
  "33:48": {
   "a": true,
@@ -1601,7 +1643,8 @@
     "وَكِيل"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:49": {
   "a": false,
@@ -1632,7 +1675,8 @@
     "جَمِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:5": {
   "a": true,
@@ -1678,7 +1722,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:50": {
   "a": true,
@@ -1729,7 +1774,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:51": {
   "a": true,
@@ -1775,7 +1821,8 @@
     "حَلِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "karma",
+  "ton_kismi": false
  },
  "33:52": {
   "a": true,
@@ -1815,7 +1862,8 @@
     "رَقِيب"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:53": {
   "a": true,
@@ -1846,7 +1894,8 @@
     "عَظِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:54": {
   "a": true,
@@ -1886,7 +1935,8 @@
     "عَلِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:55": {
   "a": true,
@@ -1926,7 +1976,8 @@
     "شَهِيد"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:56": {
   "a": true,
@@ -1957,7 +2008,8 @@
     "تَسْلِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:57": {
   "a": true,
@@ -1997,7 +2049,8 @@
     "مُهِين"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:58": {
   "a": false,
@@ -2042,7 +2095,8 @@
     "مُبِين"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "33:59": {
   "a": true,
@@ -2093,7 +2147,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:6": {
   "a": true,
@@ -2141,7 +2196,8 @@
     "مَسْطُور"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:60": {
   "a": false,
@@ -2172,7 +2228,8 @@
     "قَلِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:61": {
   "a": false,
@@ -2199,7 +2256,8 @@
     "تَقْتِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:62": {
   "a": true,
@@ -2230,7 +2288,8 @@
     "تَبْدِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:63": {
   "a": true,
@@ -2270,7 +2329,8 @@
     "قَرِيب"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:64": {
   "a": true,
@@ -2301,7 +2361,8 @@
     "سَعِير"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:65": {
   "a": false,
@@ -2347,7 +2408,8 @@
     "نَصِير"
    ]
   ],
-  "ton": "katalog-dışı"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:66": {
   "a": true,
@@ -2378,7 +2440,8 @@
     "رَسُول"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:67": {
   "a": false,
@@ -2409,7 +2472,8 @@
     "سَبِيل"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:68": {
   "a": false,
@@ -2449,7 +2513,8 @@
     "كَبِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "celâl",
+  "ton_kismi": false
  },
  "33:69": {
   "a": true,
@@ -2480,7 +2545,8 @@
     "وَجِيه"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:7": {
   "a": false,
@@ -2511,7 +2577,8 @@
     "غَلِيظ"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:70": {
   "a": true,
@@ -2542,7 +2609,8 @@
     "سَدِيد"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:71": {
   "a": true,
@@ -2573,7 +2641,8 @@
     "عَظِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:72": {
   "a": false,
@@ -2604,7 +2673,8 @@
     "جَهُول"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:73": {
   "a": true,
@@ -2655,7 +2725,8 @@
     "رَحِيم"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "cemâl",
+  "ton_kismi": false
  },
  "33:8": {
   "a": false,
@@ -2686,7 +2757,8 @@
     "أَلِيم"
    ]
   ],
-  "ton": null
+  "ton": null,
+  "ton_kismi": false
  },
  "33:9": {
   "a": true,
@@ -2726,7 +2798,8 @@
     "بَصِير"
    ]
   ],
-  "ton": "cemâl"
+  "ton": "denge",
+  "ton_kismi": false
  },
  "_meta": {
   "capalar": {
@@ -2743,6 +2816,7 @@
   "onkayit": "notlar/ONKAYIT_esma_katmanlari.md",
   "set_boyutu": 72,
   "ton_katalogda": 27,
+  "ton_tablosu": "esma_ton.json (§4.3.1)",
   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitmeden koşulmaz."
  },
  "_profil_33": {
@@ -2780,9 +2854,10 @@
    "R": 2
   },
   "ton_gecerli_muhur": {
-   "cemâl": 13,
-   "karma": 2,
-   "katalog-dışı": 5
+   "celâl": 3,
+   "cemâl": 7,
+   "denge": 8,
+   "karma": 2
   },
   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile."
  }

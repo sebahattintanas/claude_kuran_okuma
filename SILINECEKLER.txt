@@ -1,5 +1,8 @@
-SÛRE 33 BİRİKİMLİ YÜKLEME PAKETİ (33:1-73 + tur sonu + ön-kayıt kararları D1-D5 + gloss yaması)
+SÛRE 33 BİRİKİMLİ YÜKLEME PAKETİ
+33:21-73 + tur sonu + esmâ ön-kaydı D1-D5 ve DONDURMA + gloss yaması + esma_ton.json
 Depodaki son durum: 2345 ayet. Bu paketle 2398.
+
+Yükleme sonrası: notlar/ONKAYIT_esma_katmanlari.md §9 commit alanı bu yüklemenin commit kimliğiyle doldurulacak.
 
 GitHub’dan elle SİLİNECEK dosyalar:
   betikler/onarım

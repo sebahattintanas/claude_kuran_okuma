@@ -1,0 +1,374 @@
+{
+ "_meta": {
+  "dagilim": {
+   "belirsiz": 7,
+   "celâl": 14,
+   "cemâl": 23,
+   "denge": 28
+  },
+  "olcut": "ONKAYIT §4.3.1 (D3)",
+  "onay": "kullanıcı 2026-09-28, eşitlikte belirsiz"
+ },
+ "tablo": {
+  "آخِر": {
+   "ad": "âhir",
+   "gerekce": "zaman",
+   "ton": "denge"
+  },
+  "أَحَد": {
+   "ad": "ehad",
+   "gerekce": "zât",
+   "ton": "denge"
+  },
+  "أَوَّل": {
+   "ad": "evvel",
+   "gerekce": "zaman",
+   "ton": "denge"
+  },
+  "بارِئ": {
+   "ad": "bâri",
+   "gerekce": "yaratma",
+   "ton": "denge"
+  },
+  "باطِن": {
+   "ad": "bâtın",
+   "gerekce": "zât",
+   "ton": "denge"
+  },
+  "بَدِيع": {
+   "ad": "bedî",
+   "gerekce": "eşsiz yaratma",
+   "ton": "denge"
+  },
+  "بَرّ": {
+   "ad": "berr",
+   "gerekce": "iyilik",
+   "ton": "cemâl"
+  },
+  "بَصِير": {
+   "ad": "basîr",
+   "gerekce": "algı",
+   "ton": "denge"
+  },
+  "تَوّاب": {
+   "ad": "tevvâb",
+   "gerekce": "tevbeyi kabul",
+   "ton": "cemâl"
+  },
+  "جَبّار": {
+   "ad": "cebbâr",
+   "gerekce": "zorlama, üstünlük",
+   "ton": "celâl"
+  },
+  "حَسِيب": {
+   "ad": "hasîb",
+   "gerekce": "hesaba çekme",
+   "ton": "celâl"
+  },
+  "حَفِيظ": {
+   "ad": "hafîz",
+   "gerekce": "koruma",
+   "ton": "cemâl"
+  },
+  "حَكِيم": {
+   "ad": "hakîm",
+   "gerekce": "hüküm (celâl) ile hikmet (bilgi) eşit",
+   "ton": "belirsiz"
+  },
+  "حَلِيم": {
+   "ad": "halîm",
+   "gerekce": "yumuşaklık, cezayı ertelemek",
+   "ton": "cemâl"
+  },
+  "حَمِيد": {
+   "ad": "hamîd",
+   "gerekce": "övülmeye layık: zât niteliği",
+   "ton": "denge"
+  },
+  "حَىّ": {
+   "ad": "hayy",
+   "gerekce": "varlık",
+   "ton": "denge"
+  },
+  "خالِق": {
+   "ad": "hâlık",
+   "gerekce": "yaratma",
+   "ton": "denge"
+  },
+  "خَبِير": {
+   "ad": "habîr",
+   "gerekce": "bilgi",
+   "ton": "denge"
+  },
+  "خَلّاق": {
+   "ad": "hallâk",
+   "gerekce": "yaratma",
+   "ton": "denge"
+  },
+  "رَءُوف": {
+   "ad": "raûf",
+   "gerekce": "şefkat",
+   "ton": "cemâl"
+  },
+  "رَحِيم": {
+   "ad": "rahîm",
+   "gerekce": "rahmet",
+   "ton": "cemâl"
+  },
+  "رَحْمٰن": {
+   "ad": "rahmân",
+   "gerekce": "rahmet",
+   "ton": "cemâl"
+  },
+  "رَزّاق": {
+   "ad": "rezzâk",
+   "gerekce": "rızık verme",
+   "ton": "cemâl"
+  },
+  "رَقِيب": {
+   "ad": "rakîb",
+   "gerekce": "gözetme: algı",
+   "ton": "denge"
+  },
+  "سَلام": {
+   "ad": "selâm",
+   "gerekce": "esenlik veren (cemâl) ile kusursuz (zât) eşit",
+   "ton": "belirsiz"
+  },
+  "سَمِيع": {
+   "ad": "semî",
+   "gerekce": "algı",
+   "ton": "denge"
+  },
+  "شاكِر": {
+   "ad": "şâkir",
+   "gerekce": "iyiliğin karşılığını vermek",
+   "ton": "cemâl"
+  },
+  "شَكُور": {
+   "ad": "şekûr",
+   "gerekce": "iyiliğin karşılığını vermek",
+   "ton": "cemâl"
+  },
+  "شَهِيد": {
+   "ad": "şehîd",
+   "gerekce": "tanıklık: algı/bilgi",
+   "ton": "denge"
+  },
+  "صَمَد": {
+   "ad": "samed",
+   "gerekce": "zât",
+   "ton": "denge"
+  },
+  "ظاهِر": {
+   "ad": "zâhir",
+   "gerekce": "zât",
+   "ton": "denge"
+  },
+  "عالِم": {
+   "ad": "âlim",
+   "gerekce": "bilgi",
+   "ton": "denge"
+  },
+  "عَزِيز": {
+   "ad": "azîz",
+   "gerekce": "üstün gelme, güç",
+   "ton": "celâl"
+  },
+  "عَفُوّ": {
+   "ad": "afüv",
+   "gerekce": "af",
+   "ton": "cemâl"
+  },
+  "عَلِيم": {
+   "ad": "alîm",
+   "gerekce": "bilgi",
+   "ton": "denge"
+  },
+  "عَلِيّ": {
+   "ad": "aliyy",
+   "gerekce": "yücelik, azamet",
+   "ton": "celâl"
+  },
+  "غَفُور": {
+   "ad": "gafûr",
+   "gerekce": "bağış",
+   "ton": "cemâl"
+  },
+  "غَفّار": {
+   "ad": "gaffâr",
+   "gerekce": "bağış",
+   "ton": "cemâl"
+  },
+  "غَنِيّ": {
+   "ad": "ganî",
+   "gerekce": "muhtaç olmama: zât",
+   "ton": "denge"
+  },
+  "فَتّاح": {
+   "ad": "fettâh",
+   "gerekce": "açma (cemâl) ile hükmetme (celâl) eşit",
+   "ton": "belirsiz"
+  },
+  "قَدِير": {
+   "ad": "kadîr",
+   "gerekce": "kudret",
+   "ton": "celâl"
+  },
+  "قَرِيب": {
+   "ad": "karîb",
+   "gerekce": "yakınlık",
+   "ton": "cemâl"
+  },
+  "قَهّار": {
+   "ad": "kahhâr",
+   "gerekce": "kahır",
+   "ton": "celâl"
+  },
+  "قَوِيّ": {
+   "ad": "kavî",
+   "gerekce": "güç",
+   "ton": "celâl"
+  },
+  "قَيُّوم": {
+   "ad": "kayyûm",
+   "gerekce": "varlığı sürdürme: zât",
+   "ton": "denge"
+  },
+  "قُدُّوس": {
+   "ad": "kuddûs",
+   "gerekce": "arınmışlık: zât",
+   "ton": "denge"
+  },
+  "كَبِير": {
+   "ad": "kebîr",
+   "gerekce": "büyüklük",
+   "ton": "celâl"
+  },
+  "كَرِيم": {
+   "ad": "kerîm",
+   "gerekce": "cömertlik",
+   "ton": "cemâl"
+  },
+  "لَطِيف": {
+   "ad": "latîf",
+   "gerekce": "lütuf (cemâl) ile incelik/ince bilgi (denge) eşit",
+   "ton": "belirsiz"
+  },
+  "مَتِين": {
+   "ad": "metîn",
+   "gerekce": "sarsılmaz güç",
+   "ton": "celâl"
+  },
+  "مَجِيد": {
+   "ad": "mecîd",
+   "gerekce": "şan, azamet",
+   "ton": "celâl"
+  },
+  "مَلِك": {
+   "ad": "melik",
+   "gerekce": "egemenlik",
+   "ton": "celâl"
+  },
+  "مَلِيك": {
+   "ad": "melîk",
+   "gerekce": "egemenlik",
+   "ton": "celâl"
+  },
+  "مَوْلَى": {
+   "ad": "mevlâ",
+   "gerekce": "koruyucu (cemâl) ile efendi (celâl) eşit",
+   "ton": "belirsiz"
+  },
+  "مُؤْمِن": {
+   "ad": "mü'min",
+   "gerekce": "güven veren",
+   "ton": "cemâl"
+  },
+  "مُبِين": {
+   "ad": "mübîn",
+   "gerekce": "açıklık: bilgi",
+   "ton": "denge"
+  },
+  "مُتَكَبِّر": {
+   "ad": "mütekebbir",
+   "gerekce": "büyüklük",
+   "ton": "celâl"
+  },
+  "مُجِيب": {
+   "ad": "mücîb",
+   "gerekce": "duaya icabet, kabul",
+   "ton": "cemâl"
+  },
+  "مُحِيط": {
+   "ad": "muhît",
+   "gerekce": "kuşatma: kapsama",
+   "ton": "denge"
+  },
+  "مُصَوِّر": {
+   "ad": "musavvir",
+   "gerekce": "biçim verme",
+   "ton": "denge"
+  },
+  "مُقِيت": {
+   "ad": "mukît",
+   "gerekce": "azık veren (cemâl) ile güç yetiren (celâl) eşit",
+   "ton": "belirsiz"
+  },
+  "مُقْتَدِر": {
+   "ad": "muktedir",
+   "gerekce": "kudret",
+   "ton": "celâl"
+  },
+  "مُهَيْمِن": {
+   "ad": "müheymin",
+   "gerekce": "gözetim (denge) ile hâkimiyet (celâl) eşit",
+   "ton": "belirsiz"
+  },
+  "نَصِير": {
+   "ad": "nasîr",
+   "gerekce": "yardım",
+   "ton": "cemâl"
+  },
+  "نُور": {
+   "ad": "nûr",
+   "gerekce": "aydınlık: zât, iyilik/güç merkezde değil",
+   "ton": "denge"
+  },
+  "هادٍ": {
+   "ad": "hâdî",
+   "gerekce": "yol gösterme",
+   "ton": "cemâl"
+  },
+  "وارِث": {
+   "ad": "vâris",
+   "gerekce": "sonunda kalan: zaman/varlık",
+   "ton": "denge"
+  },
+  "واسِع": {
+   "ad": "vâsi",
+   "gerekce": "kapsama",
+   "ton": "denge"
+  },
+  "وَدُود": {
+   "ad": "vedûd",
+   "gerekce": "sevgi",
+   "ton": "cemâl"
+  },
+  "وَكِيل": {
+   "ad": "vekîl",
+   "gerekce": "işi üstlenip koruma",
+   "ton": "cemâl"
+  },
+  "وَلِيّ": {
+   "ad": "velî",
+   "gerekce": "dostluk, koruma",
+   "ton": "cemâl"
+  },
+  "وَهّاب": {
+   "ad": "vehhâb",
+   "gerekce": "bağışlama (hibe)",
+   "ton": "cemâl"
+  }
+ }
+}

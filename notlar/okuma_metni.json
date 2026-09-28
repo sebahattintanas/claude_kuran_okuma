@@ -17352,7 +17352,8 @@
     "e_el": true,
     "muhur": true,
     "cift": true,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": true,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17374,7 +17375,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17396,7 +17398,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17420,6 +17423,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17442,6 +17446,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -17467,6 +17472,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -17492,6 +17498,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17514,6 +17521,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17536,7 +17544,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -17560,6 +17569,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18524,7 +18534,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18550,6 +18561,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18573,6 +18585,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18595,6 +18608,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18617,6 +18631,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18642,6 +18657,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18663,7 +18679,8 @@
     "e_el": false,
     "muhur": true,
     "cift": true,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18689,6 +18706,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18712,6 +18730,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18737,6 +18756,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18758,7 +18778,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18781,6 +18802,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18803,6 +18825,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18825,6 +18848,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18846,7 +18870,8 @@
     "e_el": true,
     "muhur": true,
     "cift": true,
-    "ton": "karma",
+    "ton": "celâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18869,6 +18894,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18890,7 +18916,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "celâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18916,6 +18943,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18941,6 +18969,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -18966,6 +18995,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -18988,6 +19018,7 @@
     "muhur": true,
     "cift": false,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19010,6 +19041,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19032,6 +19064,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19053,7 +19086,8 @@
     "e_el": true,
     "muhur": true,
     "cift": true,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": true,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19076,6 +19110,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19097,7 +19132,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19120,6 +19156,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19142,6 +19179,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19163,7 +19201,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "celâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19185,7 +19224,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19208,6 +19248,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19230,6 +19271,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19252,6 +19294,7 @@
     "muhur": true,
     "cift": true,
     "ton": "karma",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19277,6 +19320,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": true,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19302,6 +19346,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19324,6 +19369,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19348,7 +19394,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "celâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19370,7 +19417,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19393,6 +19441,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19415,6 +19464,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19436,7 +19486,8 @@
     "e_el": true,
     "muhur": true,
     "cift": true,
-    "ton": "cemâl",
+    "ton": "karma",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19458,7 +19509,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19481,6 +19533,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19505,7 +19558,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19527,7 +19581,8 @@
     "e_el": true,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19550,6 +19605,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19571,7 +19627,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19593,7 +19650,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "denge",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19616,6 +19674,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19638,6 +19697,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19660,6 +19720,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19682,6 +19743,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19703,7 +19765,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19726,6 +19789,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19747,7 +19811,8 @@
     "e_el": false,
     "muhur": true,
     "cift": true,
-    "ton": "katalog-dışı",
+    "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19773,6 +19838,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19798,6 +19864,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19819,7 +19886,8 @@
     "e_el": false,
     "muhur": true,
     "cift": false,
-    "ton": "cemâl",
+    "ton": "celâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19842,6 +19910,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19864,6 +19933,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    },
    "_gloss_duzeltildi": [
@@ -19889,6 +19959,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19912,6 +19983,7 @@
     "muhur": false,
     "cift": false,
     "ton": null,
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -19934,6 +20006,7 @@
     "muhur": true,
     "cift": true,
     "ton": "cemâl",
+    "ton_kismi": false,
     "bant": "KAPI_KAPALI"
    }
   },
@@ -20099,8 +20172,9 @@
     68
    ],
    "ton_gecerli_muhur": {
-    "cemâl": 13,
-    "katalog-dışı": 5,
+    "denge": 8,
+    "cemâl": 7,
+    "celâl": 3,
     "karma": 2
    },
    "bant": "KAPI_KAPALI (§4.4, aday 435)"
