@@ -5529,3 +5529,10 @@ Sûre 33 profili: `esma_kayit.json → _profil_33`, `okuma_metni['33']['_esma_pr
 
 ### Devam
 Sûre 34 (Sebe'). Blok başı kayıt için `uret_blok_34.py`'yi `uret_blok_33.py`'den S=34 ile türet; `sebe_metin_1.py`, `sebe_kayit.py`, `aday_ekle_34_sebe.py`, `kok_ekle_34.py`, `yama_retroaktif_gloss_34.py` aynı şablonla.
+
+### Esmâ ön-kaydı — beş karar verildi (2026-09-28)
+D1-D5 ön-kayda işlendi (`ONKAYIT_esma_katmanlari.md` §3, §4.2, §4.3, §6, §8.0; aday 997).
+D2 `esma_kayit.py`'de uygulandı (sûre 33 kaydı değişmedi). D5 uygulandı: `yama_gloss_duzeltme_987.py`
+(380 anma · 119 ayet kaydı damgalı · 63 dikey dosya; eski glosslar `tablolar/kok_gloss_duzeltme.json`).
+**Dondurma için iki onay bekleniyor:** D3 ton ölçütü (§4.3.1) · D4 süzgeç kabul eşiği. §9 bunlardan sonra.
+Yeni borç: 1112 kökün gloss taraması (P1, araç dondurması bitince).

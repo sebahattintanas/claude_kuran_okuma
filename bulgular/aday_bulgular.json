@@ -26461,7 +26461,12 @@
      "سدد"
     ]
    },
-   "durum": "ACIK",
+   "karar_D5": {
+    "tarih": "2026-09-28",
+    "yapilan": "6 kök glossu çok anlamlı yapıldı (yama_gloss_duzeltme_987.py); eski gloss tablolar/kok_gloss_duzeltme.json",
+    "kalan": "1112 kökün sistematik taraması — borç P1"
+   },
+   "durum": "KISMEN KAPALI",
    "oncelik": "P1",
    "kaynak": "sûre 33 okuması, blok 11-20",
    "etiket": "borç #5b'nin kök düzeyi eşi",
@@ -26780,6 +26785,24 @@
    "kaynak": "ön-kayıt esmâ takibi, ilk sûre",
    "etiket": "ONKAYIT_esma_katmanlari §6 sûre profili",
    "test_notu": "H1-H4 KOŞULMADI. Tek sûrelik profil, dondurma öncesi beş karar noktasının (nakarat2/3 · Hâdî/Hayy · ton kapsamı · §4.3'ün e_oto/e_el tanımı · kök glossu) hepsinin de gerçek veride nasıl çalıştığını gösteriyor: e_oto ile e_el arasında E sınıfında 6 → 1, 0 sınıfında 14 → 19 fark var; mühürlerin %37,5'i (12/32) yanlış."
+  },
+  {
+   "no": 997,
+   "aday": "ESMÂ ÖN-KAYDI — DONDURMA ÖNCESİ BEŞ KARAR (kullanıcı, 2026-09-28): D1 nakarat3 ana / nakarat2 duyarlılık · D2 Hâdî ve Hayy girdi bazında eşleme (yalnız N) · D3 önce ölçüt, sonra 72 lemmalık esma_ton.json (katalog kullanılmaz) · D4 ana tanım otomatik konum süzgeci, e_el geliştirme/doğrulama ve yedek, e_oto duyarlılık; geriye dönük e_el turu tam okuma bitince · D5 6 kök glossu şimdi düzeltildi, sistematik tarama borç.",
+   "olculen": {
+    "onkayit": "notlar/ONKAYIT_esma_katmanlari.md §3, §4.2, §4.3, §6, §8.0",
+    "d2_esleme": "esma_kayit.py (korpustan bulunur, tek N adayı yoksa DUR; sûre 33 kaydı değişmedi)",
+    "d5_yama": "yama_gloss_duzeltme_987.py — 380 anma, 119 ayet kaydı, 63 dikey dosya; ikinci koşu 0",
+    "bekleyen_onay": [
+     "D3 ton ölçütü (§4.3.1)",
+     "D4 süzgeç kabul eşiği"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "sûre 33 tur sonu",
+   "etiket": "ön-kayıt dondurma öncesi kararlar",
+   "test_notu": "H testi koşulmadı. Karar anında görülen tek veri sûre 33 KAYDI (aday 996) — bulaşma riski ön-kayıt §8.0'da yazılı. §9 dondurma kaydı iki onaydan sonra doldurulacak."
   }
  ]
 }

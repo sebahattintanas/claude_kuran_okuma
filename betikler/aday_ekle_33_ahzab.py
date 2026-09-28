@@ -82,7 +82,8 @@ AHZAB = [
    "blok":"33:11-20"},
  "guncelleme_51_60":{"hayy":{"gloss":"diri olma, hayat","tasimayan":"istihyâ (utanmak; envanterde 9+1) — 33:53 ×2 · tahiyye (selamlama; 6) — 33:44"},"karar_ayni":"kaydedildi, onarılmadı"},
  "guncelleme_61_70":{"nur":{"gloss":"nûr, ışık","envanter":"nâr 145 · nûr 43 · münîr 6","33:66":"fi'n-nâr (ateş)","not":"gloss baskın lemmanın tersini gösteriyor — belâ ile aynı tür"},"sedd":{"gloss":"set","33:70":"kavlen sedîdâ (doğru söz)"},"sure_33_toplam_kok":["بلو","دور","ولي","حيي","نور","سدد"]},
- "durum":"ACIK","oncelik":"P1","kaynak":"sûre 33 okuması, blok 11-20","etiket":"borç #5b'nin kök düzeyi eşi",
+ "karar_D5":{"tarih":"2026-09-28","yapilan":"6 kök glossu çok anlamlı yapıldı (yama_gloss_duzeltme_987.py); eski gloss tablolar/kok_gloss_duzeltme.json","kalan":"1112 kökün sistematik taraması — borç P1"},
+ "durum":"KISMEN KAPALI","oncelik":"P1","kaynak":"sûre 33 okuması, blok 11-20","etiket":"borç #5b'nin kök düzeyi eşi",
  "test_notu":"belâ glossu daha önce okunan her ayette yanlış anlam basmış olabilir. Onarım retroaktif gloss turu ister; özgün gloss korunup 'duzeltildi' alanı eklenmeli."},
 {"no":988,
  "aday":"★ QALÎLÂ FÂSILASI — sûre 33'te qalîlâ ile biten 4 ayet: 16, 18, 20, 60. Üçü ikinci blokta, çift sıradaki ayetlerde.",
@@ -144,7 +145,12 @@ AHZAB = [
  "aday":"SÛRE 33 ESMÂ PROFİLİ (KAYIT, ölçüm değil) — sınıf e_oto: A 50 · AR 1 · E 6 · R 2 · 0 14; e_el: A 50 · AR 1 · E 1 · R 2 · 0 19. Esmâ tokeni 65, ilâhî 29. §4.3 mühür 32, geçerli 20, yanlış 12. Geçerli mühürlerin tonu: cemâl 13 · katalog-dışı 5 · karma 2.",
  "olculen":{"kaynak":"esma_kayit.json → _profil_33","bant":"KAPI_KAPALI","esma_listesi_sha256":"19fb1b12d6745b1c…"},
  "durum":"KAYIT","oncelik":"P0","kaynak":"ön-kayıt esmâ takibi, ilk sûre","etiket":"ONKAYIT_esma_katmanlari §6 sûre profili",
- "test_notu":"H1-H4 KOŞULMADI. Tek sûrelik profil, dondurma öncesi beş karar noktasının (nakarat2/3 · Hâdî/Hayy · ton kapsamı · §4.3'ün e_oto/e_el tanımı · kök glossu) hepsinin de gerçek veride nasıl çalıştığını gösteriyor: e_oto ile e_el arasında E sınıfında 6 → 1, 0 sınıfında 14 → 19 fark var; mühürlerin %37,5'i (12/32) yanlış."}
+ "test_notu":"H1-H4 KOŞULMADI. Tek sûrelik profil, dondurma öncesi beş karar noktasının (nakarat2/3 · Hâdî/Hayy · ton kapsamı · §4.3'ün e_oto/e_el tanımı · kök glossu) hepsinin de gerçek veride nasıl çalıştığını gösteriyor: e_oto ile e_el arasında E sınıfında 6 → 1, 0 sınıfında 14 → 19 fark var; mühürlerin %37,5'i (12/32) yanlış."},
+{"no":997,
+ "aday":"ESMÂ ÖN-KAYDI — DONDURMA ÖNCESİ BEŞ KARAR (kullanıcı, 2026-09-28): D1 nakarat3 ana / nakarat2 duyarlılık · D2 Hâdî ve Hayy girdi bazında eşleme (yalnız N) · D3 önce ölçüt, sonra 72 lemmalık esma_ton.json (katalog kullanılmaz) · D4 ana tanım otomatik konum süzgeci, e_el geliştirme/doğrulama ve yedek, e_oto duyarlılık; geriye dönük e_el turu tam okuma bitince · D5 6 kök glossu şimdi düzeltildi, sistematik tarama borç.",
+ "olculen":{"onkayit":"notlar/ONKAYIT_esma_katmanlari.md §3, §4.2, §4.3, §6, §8.0","d2_esleme":"esma_kayit.py (korpustan bulunur, tek N adayı yoksa DUR; sûre 33 kaydı değişmedi)","d5_yama":"yama_gloss_duzeltme_987.py — 380 anma, 119 ayet kaydı, 63 dikey dosya; ikinci koşu 0","bekleyen_onay":["D3 ton ölçütü (§4.3.1)","D4 süzgeç kabul eşiği"]},
+ "durum":"ACIK","oncelik":"P0","kaynak":"sûre 33 tur sonu","etiket":"ön-kayıt dondurma öncesi kararlar",
+ "test_notu":"H testi koşulmadı. Karar anında görülen tek veri sûre 33 KAYDI (aday 996) — bulaşma riski ön-kayıt §8.0'da yazılı. §9 dondurma kaydı iki onaydan sonra doldurulacak."}
 ]
 
 BAGLAR = {"AM_ahzab": [

@@ -1,7 +1,7 @@
-SÛRE 33 BİRİKİMLİ YÜKLEME PAKETİ (33:1-73 + tur sonu)
-Depodaki son durum: 2345 ayet (33:1-20). Bu paket 33:21-73 ve tur sonunu ekler → 2398.
+SÛRE 33 BİRİKİMLİ YÜKLEME PAKETİ (33:1-73 + tur sonu + ön-kayıt kararları D1-D5 + gloss yaması)
+Depodaki son durum: 2345 ayet. Bu paketle 2398.
 
-GitHub’dan elle SİLİNECEK dosyalar (hâlâ depoda):
+GitHub’dan elle SİLİNECEK dosyalar:
   betikler/onarım
   betikler/onar─▒m
-  ciktilar/dikey_kisi_<Arapça ad>.json   (yerine: ciktilar/dikey_kisi_slymAn_dAwd.json — önceki pakette gitti)
+  ciktilar/dikey_kisi_<Arapça ad>.json

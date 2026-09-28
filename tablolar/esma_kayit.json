@@ -2734,13 +2734,14 @@
    "humme": "3:26:2",
    "rab": "1:2:3"
   },
-  "dusen": [
-   "هادٍ",
-   "حَىّ"
-  ],
+  "d2_esleme": {
+   "حَىّ": "حَيّ",
+   "هادٍ": "هاد"
+  },
+  "dusen": [],
   "esma_listesi_sha256": "19fb1b12d6745b1c75c14d3411e4c2037b9fac84bc9794885c1b4dfd7e2aca1e",
   "onkayit": "notlar/ONKAYIT_esma_katmanlari.md",
-  "set_boyutu": 70,
+  "set_boyutu": 72,
   "ton_katalogda": 27,
   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitmeden koşulmaz."
  },

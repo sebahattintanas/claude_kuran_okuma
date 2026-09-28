@@ -1,0 +1,57 @@
+{
+ "نور": {
+  "eski": "nûr, ışık",
+  "yeni": "nûr, ışık; nâr, ateş",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "بلو": {
+  "eski": "eskiyip yıpranma",
+  "yeni": "sınama, imtihan (belâ); eskiyip yıpranma",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "ولي": {
+  "eski": "dost, veli; velâyet",
+  "yeni": "dost, veli; velâyet; yüz ya da arka çevirme (tevellî)",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "حيي": {
+  "eski": "diri olma, hayat",
+  "yeni": "diri olma, hayat; utanma (istihyâ); selamlama (tahiyye)",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "دور": {
+  "eski": "yurt, ev",
+  "yeni": "yurt, ev; dönme, devir",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "سدد": {
+  "eski": "set",
+  "yeni": "set, engel; doğru, isabetli (sedîd)",
+  "aday": 987,
+  "karar": "kullanıcı, dondurma öncesi 5/5",
+  "tarih": "2026-09-28"
+ },
+ "_ozet": {
+  "yama_sayisi": {
+   "نور": 88,
+   "بلو": 16,
+   "ولي": 97,
+   "حيي": 132,
+   "دور": 43,
+   "سدد": 4
+  },
+  "damgali_ayet": 119,
+  "dikey_dosya": 63,
+  "not": "ikinci koşuda yama 0 olmalı (idempotent)"
+ }
+}

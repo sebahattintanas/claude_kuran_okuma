@@ -57,7 +57,24 @@ SET, DUSEN = [], []
 for x in EL:
     (SET if nfc(x) in TUM_LEM else DUSEN).append(nfc(x))
 for x in SET: assert TUM_LEM[x] > 0          # ölü etiket koruması (§4.1)
-BEKLEYEN = {isk(x).rstrip('ٍ'): x for x in DUSEN}   # iskelet → düşen girdi (karar bekliyor)
+# D2 (ön-kayıt §4.2, 2026-09-28): yazım farkıyla düşen girdiler girdi bazında, YALNIZ isim (N)
+# konumundaki TEK korpus lemmasına bağlanır. Aday lemma korpustan bulunur (elle yazılmaz): iskelet
+# (hareke + tenvin silinmiş, ى→ي) eşit ve etiketi N olan lemmalar; tam bir aday yoksa DUR.
+# Genel normalizasyon DEĞİL: kural yalnız bu iki girdi için onaylandı (assert).
+_isk2 = lambda w: isk(w).replace('\u0649', '\u064A')
+N_LEM = defaultdict(int)
+for k, v in W.items():
+    for t, f in v:
+        if t == 'N' and lem(f): N_LEM[lem(f)] += 1
+ESLEME = {}
+for x in DUSEN:
+    ad = [L for L in N_LEM if _isk2(L) == _isk2(x)]
+    assert len(ad) == 1, 'eşleme belirsiz ya da yok: %r → %r — DUR' % (x, ad)
+    ESLEME[x] = ad[0]
+assert len(ESLEME) == 2, 'D2 yalnız iki girdi için onaylı; düşen sayısı değişti — DUR'
+SET += list(ESLEME.values())
+for x in ESLEME.values(): assert TUM_LEM[x] > 0
+BEKLEYEN = {}
 
 # ---- ton: varlik_katalog alt_tur, lem alanından (NFC)
 KAT = json.load(open('varlik_katalog.json', encoding='utf-8'))
@@ -113,14 +130,14 @@ p = 'esma_kayit.json'
 T = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {}
 T.setdefault('_meta', {})
 T['_meta'].update(onkayit='notlar/ONKAYIT_esma_katmanlari.md', esma_listesi_sha256=SHA,
-                  set_boyutu=len(SET), dusen=DUSEN, ton_katalogda=len(TON),
+                  set_boyutu=len(SET), dusen=[], d2_esleme=ESLEME, ton_katalogda=len(TON),
                   capalar={'allah': '1:1:2', 'rab': '1:2:3', 'humme': '3:26:2'},
                   uyari='KAYIT — ölçüm değil. H1-H4 tam okuma bitmeden koşulmaz.')
 T.update(KAYIT)
 json.dump(T, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
 
-print('esmâ listesi SHA-256: %s…  set %d / düşen %d %s  · ton katalogda %d lemma'
-      % (SHA[:16], len(SET), len(DUSEN), DUSEN, len(TON)))
+print('esmâ listesi SHA-256: %s…  set %d (D2 eşlemesi %s) · ton katalogda %d lemma'
+      % (SHA[:16], len(SET), ESLEME, len(TON)))
 for key, r in KAYIT.items():
     print('%-6s a=%d r=%d e_oto=%d e_el=%s · sınıf %s/%s · esmâ %s · mühür %s%s ton %s · son3 %s%s'
           % (key, r['a'], r['r'], r['e_oto'], {None: '?', True: 1, False: 0}[r['e_el']],
