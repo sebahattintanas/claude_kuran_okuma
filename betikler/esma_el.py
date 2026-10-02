@@ -61,4 +61,36 @@ KARAR = {
  # sûre 33, blok 71-73
  '33:73:10': 'degil',                         # mü'minler (insan)
  '33:73:14': 'ilahi', '33:73:15': 'ilahi',   # kâne'nin haberi
+ # sûre 34, blok 1-10
+ '34:1:14':  'degil',                         # el-âhira (yurt)
+ '34:1:16':  'ilahi', '34:1:17': 'ilahi',    # 'huve'nin haberi (Allah'a dönen zamir)
+ '34:2:17':  'ilahi', '34:2:18': 'ilahi',    # 'huve'nin haberi
+ '34:3:11':  'ilahi',                         # Rabbî'nin sıfatı — âlimi'l-gayb
+ '34:3:32':  'degil',                         # kitâbin mübîn (kitabın sıfatı)
+ '34:4:10':  'degil',                         # rızkun kerîm (rızkın sıfatı)
+ '34:6:15':  'ilahi', '34:6:16': 'ilahi',    # sırâtı'l-azîzi'l-hamîd — isim olarak Allah (muzâfun ileyh; sınır vakası)
+ '34:8:12':  'degil',                         # bi'l-âhira (yurt)
+ # sûre 34, blok 11-20
+ '34:11:12': 'ilahi',                         # inne'nin haberi — innî (Allah, 1S) ... basîr
+ '34:13:19': 'degil',                         # ibâdiye'ş-şekûr (insan)
+ '34:15:20': 'ilahi',                         # ve Rabbun gafûr — Rab'bin sıfatı
+ '34:19:19': 'degil',                         # sabbârin şekûr (insan)
+ '34:20:10': 'degil',                         # mü'minler (insan)
+ # sûre 34, blok 21-30
+ '34:21:11': 'degil',                         # bi'l-âhira (yurt)
+ '34:21:21': 'ilahi',                         # ve Rabbüke ... hafîz — Rab'bin haberi
+ '34:23:21': 'ilahi', '34:23:22': 'ilahi',   # 'huve'nin haberi
+ '34:24:17': 'degil',                         # dalâlin mübîn (sapıklığın sıfatı)
+ '34:26:10': 'ilahi', '34:26:11': 'ilahi',   # 'huve'nin haberi
+ '34:27:11': 'ilahi', '34:27:12': 'ilahi',   # huve'llâhu'l-azîzu'l-hakîm — lafzın sıfatı
+ # sûre 34, blok 31-40
+ '34:31:32': 'degil',                         # lekünnâ mü'minîn (insan)
+ # sûre 34, blok 41-50
+ '34:41:4':  'ilahi',                         # ente veliyyunâ — meleklerin Allah'a hitabı (sübhâneke)
+ '34:41:13': 'degil',                         # mü'minûn (insan)
+ '34:43:34': 'degil',                         # sihrun mübîn (sihrin sıfatı)
+ '34:47:17': 'ilahi',                         # ve huve ... şehîd — Allah'a dönen zamirin haberi
+ '34:50:15': 'ilahi', '34:50:16': 'ilahi',   # innehû semî'un karîb
+ # sûre 34, blok 51-54
+ '34:51:10': 'degil',                         # mekânin karîb (mekânın sıfatı)
 }

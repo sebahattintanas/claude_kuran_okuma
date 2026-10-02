@@ -165,10 +165,14 @@ Hiçbir H testi koşulmadan verildi. Karar sırasında görülen tek veri sûre 
 - **D4 — esmâ bayrağı:** ana tanım otomatik konum süzgeci (`e_suzgec`); `e_el` geliştirme/doğrulama referansı ve yedek ana tanım; `e_oto` duyarlılık. Geriye dönük `e_el` turu tam okuma bitince, testlerden hemen önce. Gerekçe: sûre 33'te `e_oto` ile §4.3 mühürlerinin 12/32'si yanlış, E sınıfı 6'ya karşı 1. §4.2 ve §4.3'te işlendi. Kabul eşiği onaylandı (κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90).
 - **D5 — kök glossu:** 6 kök (نور بلو ولي حيي دور سدد) şimdi düzeltildi, eski gloss `tablolar/kok_gloss_duzeltme.json`'da, yamalanan ayet kayıtlarında `_gloss_duzeltildi` damgası (`yama_gloss_duzeltme_987.py`). 1112 kökün sistematik taraması borç (P1). Ölçüm etkisi yok.
 
+### 8.1 Commit alanı dolduruldu (sûre 34 oturumu başı)
+
+- §9'daki boş commit alanı, depoda bu dosyayı içeren son commit'in kimliğiyle dolduruldu (`git log -- notlar/ONKAYIT_esma_katmanlari.md`). Dondurma sonrası ilk ve tek izinli dokunuş. Tanım, küme, eşik ya da hipotezlerde değişiklik YOK. `esma_listesi.json` ve `esma_ton.json` SHA-256 değerleri yeniden hesaplandı, §9 ile aynı.
+
 ## 9. Dondurma kaydı
 
 - dondurma tarihi: **2026-09-28** (sûre 33 tur sonu; okunan 2398 / 6236 ayet)
-- commit: `________` *(bu dosyayı içeren yükleme paketinin commit'i; yükleme sonrası doldurulur — dosya içeriği o commit'te sabittir)*
+- commit: `b58c430c3a2ba8e8056f8d590f3001d7be303d5c` (2026-09-28 19:08:40 +0300; dondurulmuş içerik bu commit'tedir)
 - `esma_listesi.json` SHA-256: `19fb1b12d6745b1c75c14d3411e4c2037b9fac84bc9794885c1b4dfd7e2aca1e`
 - `esma_ton.json` SHA-256: `1e01912d59e48990bda16dd7e9e4f850b301033053d080a47798c2dc3bf3c1f0`
 - doğrulanmış esmâ seti boyutu / düşen girdiler: **72 / 0** (D2 eşlemesi: `هادٍ`→`هاد`, `حَىّ`→`حَيّ`; yalnız N)

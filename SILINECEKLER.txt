@@ -1,10 +1,8 @@
-SÛRE 33 BİRİKİMLİ YÜKLEME PAKETİ
-33:21-73 + tur sonu + esmâ ön-kaydı D1-D5 ve DONDURMA + gloss yaması + esma_ton.json
-Depodaki son durum: 2345 ayet. Bu paketle 2398.
+SÛRE 34 YÜKLEME PAKETİ
+34:1-54 (6 blok, blok başı kayıt) + tur sonu + ONKAYIT §9 commit alanı (b58c430, §8.1)
+Depodaki son durum: 2398 ayet. Bu paketle 2452.
 
-Yükleme sonrası: notlar/ONKAYIT_esma_katmanlari.md §9 commit alanı bu yüklemenin commit kimliğiyle doldurulacak.
-
-GitHub’dan elle SİLİNECEK dosyalar:
+GitHub'dan elle SİLİNECEK dosyalar (hâlâ depoda — 2026-10-01 klonunda görüldü):
   betikler/onarım
   betikler/onar─▒m
-  ciktilar/dikey_kisi_<Arapça ad>.json
+  ciktilar/dikey_kisi_<Arapça ad>.json   (ASCII adlı eşi dikey_kisi_slymAn_dAwd.json kalır)

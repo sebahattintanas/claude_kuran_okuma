@@ -5543,3 +5543,43 @@ D3 ölçütü onaylandı (eşitlikte **belirsiz**); `esma_ton.json` kuruldu: cem
 D4 kabul eşiği onaylandı: κ ≥ 0,80 · recall ve precision ≥ 0,90 · mühür uyumu ≥ 0,90; doğrulama tek koşu.
 §9 dolduruldu. **Commit alanı yükleme sonrası doldurulacak.** Bundan sonra ön-kayıttaki her değişiklik §8'e.
 Tam okuma bitince sırayla: (1) `e_suzgec` kodla — geliştirme kümesi okuma boyunca toplanan `e_el` · (2) geriye dönük `e_el` turu, 794 token — doğrulama kümesi · (3) süzgeç doğrulaması, tek koşu · (4) H1-H4.
+
+## SÛRE 34 TUR SONU (2026-10-01)
+
+**Okunan: 2452 / 6236 ayet (%39,3)** — sûre 1 ve 9-34 TAM, sûre 2 kısmi (1-20). İlerleme `sebe_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` 1112 → **1126** (14 kök, `kok_ekle_34.py`; retroaktif yama 0). Aday **998-1006** (`AS_sebe`, 9). Bağ **AN_sebe** 75.
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0. Ön-kayıt §9 commit alanı dolduruldu (`b58c430`, §8.1).
+
+### Sûre 34 bilançosu (TAM SAYIM, `okuma_metni['34']['_bilanco_sure']`)
+883 kelime · lafız 8 token/8 ayet · Rab 14 token/13 ayet (A/R 0,57 — Rab baskın) · edilgen 11 ayet · iltifât 0 · mm2 0 · hapaks 4 ayet (11, 13, 16, 52).
+Yıldız 0:32 · ★11 · ★★7 · ★★★4 — ★★★'ın 4'ü de hapaks (aday 983 birikimi: içerik 0).
+**Kaynak düzeltmesi (aday 1001):** kayıt `allah 2` diyor; bu iki ★ (34:18, 34:49) ve `rab` dördünden biri (34:19) aslında KAFİYE KIRIĞI. Doğru dağılım: n 7 · pas 5 · hapaks 4 · rab 3 · kafiye 3.
+Kafiye kırığı 7 (9, 14, 16, 18, 19, 48, 49). En uzun 34 kelime (34:33 ve 34:43 eşit; kayıt yalnız 43'ü yazıyor).
+
+### Yeni açık borçlar ve girdiler (dondurulmuş — kaydet, onarma)
+| no | konu | öncelik |
+|---|---|---|
+| 1001 | `blok_bilanco.yildiz_kaynagi` eşik altı bileşeni kaynak yazıyor; kafiye-kaynaklı ★: sûre 31: 1, 32: 1, 33: 0, 34: 3 | P1 |
+| 1002 | çıpa: L4 biçimli ama olgusuz ayet (34:12 rüzgâr, birim 'ay') — eşik olgu koşulunu açık yazmıyor (965 ailesi) | P0 |
+| 1003 | KENDİ HATAM: nakarat3 'N ayet, tür ic' sûre içi sayı; ölçüm satırı eşi basmıyor, 34:3'te xref ile karıştırıldı → `duzeltildi` | P2 |
+| 1004/1005 | say (981): sûre 34'te 8 ayet işaretli — qalîl ×2, ekser ×3 belirteç (yanlış pozitif); ekser 34:35 karşılaştırma (sınır); mi'şâr 34:45, vâhide/mesnâ 34:46 doğru; yanlış negatif: 'bir ay' (34:12), ikil 'iki bahçe' (34:15-16), furâdâ (34:46) | P1 |
+| 1006 | tarayıcı v4 sûre 34: 3 aday (9, 14, 46), çıpa 0 | P0 (948) |
+| 999 | esmâ sınır vakası: tamlama içinde ad olarak esmâ (34:6) — e_suzgec tanımı kapsamıyor | P1 |
+| 1000 | gloss baskınlığı (987): أخر, حدد; ayrıca جبي (cevâb), أول (âl), ملك (melek) | P1 |
+| 998 | gözlem: rahîm→gafûr sırası korpusta tek (34:2; ters sıra 71) | KAYIT |
+
+### Aday 948 birikimi (tarayıcı v4) — ölçüt değişmedi
+… 32 → 2/2 · 33 → 0/0 (kesinlik 0/12) · **34 → 0/0 (kesinlik 0/3; toplam 0/15)**
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+33 e_oto tokeni → ilâhî 20, değil 13. Sınıf oto A8 E8 R13 0:25 → el A8 E3 R13 0:30.
+§4.3 mühür 21 → geçerli 11, yanlış 10 (3, 4, 13, 19, 20, 24, 31, 41, 43, 51 — hepsi insan/nesne sıfatı). Geçerli mühür tonu: denge 4 · cemâl 3 · karma 2 · celâl 2.
+Esmâ el kararları sûre boyunca 33/33 dolduruldu (`esma_el.py`, geliştirme kümesi).
+
+### Süreç dersleri (bu tur)
+* Blok betiği `esma_kayit.py`'den ÖNCE koşulursa bilançoya bayat e_el yazılıyor (41-50'de oldu, yeniden koşuldu). `sebe_kapanis.py` artık önkoşul olarak tüm blokların esmâ kaydını yeniliyor.
+* `duzeltme_34.py` blok betikleri yeniden koşulduğunda tekrar koşulmalı (kapanış koşuyor).
+* nakarat3 eşi yazılmadan önce defterden kalıp → ayet listesi koşulur.
+
+### Devam
+Sûre 35 (Fâtır). Şablonlar S=35 ile `*_34` / `sebe_*` dosyalarından türetilir (set `AT_fatir`, bağ `AO_fatir`, numara 1007'den).
