@@ -27244,7 +27244,8 @@
    "oncelik": "P1",
    "kaynak": "sûre 36 okuması, blok 11-20",
    "etiket": "999 ailesi — e_suzgec tanımı; ön-kayıt DONDURULMUŞ, tanım değiştirilmedi",
-   "test_notu": "Süzgeç kodlanırken (tam okuma sonrası) 'esmâ özel ad olarak' sınıfı açıkça karar verilmeli: lafız gibi mi sayılır, esmâ mı? Geriye dönük e_el turunda Rahmân'ın ad kullanımları (sûre 19, 20, 21, 25…) TAM SAYIMLA bulunmalı."
+   "test_notu": "Süzgeç kodlanırken (tam okuma sonrası) 'esmâ özel ad olarak' sınıfı açıkça karar verilmeli: lafız gibi mi sayılır, esmâ mı? Geriye dönük e_el turunda Rahmân'ın ad kullanımları (sûre 19, 20, 21, 25…) TAM SAYIMLA bulunmalı.",
+   "guncelleme_36_21_30": "Üçüncü vaka 36:23 'in yuridni'r-rahmân' — şart cümlesinde özne, konuşan şehrin ucundan gelen adam; e_el 'ilahi' (gönderge ölçütü). Sûrede Rahmân bağımsız ad ×3 (36:11, 36:15, 36:23). Tanım değiştirilmedi."
   },
   {
    "no": 1020,
@@ -27261,7 +27262,88 @@
    "oncelik": "P1",
    "kaynak": "sûre 36 okuması, blok 11-20",
    "etiket": "983/1012 — ★★★ otomatik kaynak; uzunluk karıştırıcısı",
-   "test_notu": "Onarılmadı. Tur sonunda allah- ve rab-kaynaklı ★★★'ların n dağılımı birlikte TAM SAYIMLA (1012 ile tek test)."
+   "test_notu": "Onarılmadı. Tur sonunda allah- ve rab-kaynaklı ★★★'ların n dağılımı birlikte TAM SAYIMLA (1012 ile tek test).",
+   "guncelleme_36_21_30": {
+    "36:25": {
+     "n": 4,
+     "rab": 1,
+     "rab_z": 5.01,
+     "yildiz": 3,
+     "kaynak": "rab (tek)"
+    },
+    "36:27": {
+     "n": 7,
+     "rab": 1,
+     "rab_z": 2.72,
+     "yildiz": 2,
+     "kaynak": "rab (tek)"
+    },
+    "not": "İkinci ★★★ vaka (36:25) ve aynı ailede ★★ (36:27); kafiye kırığı yok, kaynak etiketi doğru (1001 dışı). Onarılmadı."
+   }
+  },
+  {
+   "no": 1021,
+   "aday": "GLOSS TARAMASI — SÛRE 36 GİRDİLERİ (1015 ailesi): okunan ayetteki anlam kökün gloss'unda yok. (a) نهر 'ırmak' — BASKIN lemma nehâr (gündüz) yok: TAM SAYIM 113 token, nehâr 57 · nehar 54 · tenher 2 (36:37, 36:40). (b) حبب 'sevgi, sevme' — habb/habbe (tane) yok: 12/95 (36:33). (c) سبح 'tesbih, tenzih' — yüzme lemmaları (yesbah 2, sabh 2, sâbiha 1) yok: 5/92 (36:40). (d) حسر 'yorgunluk' — pişmanlık lemmaları (hasra, hasrat, hasratâ) yok: 9/12, baskın (36:30).",
+   "olculen": {
+    "نهر": {
+     "toplam": 113,
+     "nehâr": 57,
+     "nehar": 54,
+     "tenher": 2
+    },
+    "حبب": {
+     "toplam": 95,
+     "tane": 12
+    },
+    "سبح": {
+     "toplam": 92,
+     "yüzme": 5
+    },
+    "حسر": {
+     "toplam": 12,
+     "pişmanlık": 9,
+     "yorgunluk": 3
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 36 okuması, blok 21-30 ve 31-40",
+   "etiket": "987/1000/1015 ailesi — gloss taraması; araç dondurulmuş, gloss DEĞİŞTİRİLMEDİ",
+   "test_notu": "Tam okuma sonrası sistematik gloss taramasında baskın lemması gloss'ta olmayan kökler TAM SAYIMLA listelenmeli (ظلل ve نهر iki baskın-lemma vakası). Dikey okumadaki komşu etiketleri gloss'tan geldiği için bu köklerin ▽ satırları yanlış anlamla etiketli olabilir — test öncesi kontrol.",
+   "guncelleme_36_51_60": {
+    "بني": {
+     "toplam": 184,
+     "akrabalık (benî 80, ibn 63, bint 17)": 160,
+     "yapı (binâ 11, bunyân 7, binâ' 2)": 20,
+     "ayet": "36:60",
+     "not": "BASKIN anlam gloss'ta yok — ظلل ve نهر ile üçüncü baskın-lemma vakası"
+    },
+    "ظلم": "36:37 karanlık / 36:54 zulüm (1015 kaydı)",
+    "ظلل": "36:56 zılâl (1015 kaydı)"
+   }
+  },
+  {
+   "no": 1022,
+   "aday": "ÖLÇÜM SATIRI ESMÂ ALANI ↔ ESMÂ KAYDI AYRIŞMASI: ölçüm satırının 'esmâ' alanı D2 eşlemesine giren ya da esmâ listesindeki bazı lemmaları yazmıyor, esma_kayit e_oto=1 sayıyor — 36:70 hayy ('men kâne hayyen', ölçüm 'esmâ yok') ve 36:79 evvel ('evvele merratin', ölçüm yalnız alîm). Okuyucu kararları ölçüm satırından toplanınca iki token kararsız kaldı; esma_kayit çıktısı ve eksik denetimi (e_oto var, e_el yok) ile yakalandı.",
+   "olculen": {
+    "36:70": {
+     "lemma": "hayy",
+     "olcum_esma": "yok",
+     "e_oto": 1,
+     "e_el": "degil"
+    },
+    "36:79": {
+     "lemma": "evvel",
+     "olcum_esma": "yalnız alîm",
+     "e_oto": 1,
+     "e_el": "degil"
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P2",
+   "kaynak": "sûre 36 okuması, blok 61-70 ve 71-83",
+   "etiket": "esmâ ön-kaydı veri toplama süreci; ön-kayıt DONDURULMUŞ, tanım değiştirilmedi",
+   "test_notu": "Süreç kuralı (araç değil): esmâ el kararları her blokta esma_kayit çıktısından ve 'e_oto var, e_el yok' eksik denetiminden toplanır. Geriye dönük: önceki sûrelerde e_el boş kalmış e_oto tokenleri TAM SAYIMLA listelenmeli (geriye dönük e_el turu öncesi)."
   }
  ]
 }
