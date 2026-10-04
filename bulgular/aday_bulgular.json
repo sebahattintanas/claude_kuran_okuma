@@ -26994,5 +26994,274 @@
    "etiket": "948 tarayıcı borcu — sûre 33: 0/0, kesinlik 0/12 birikimine ek",
    "test_notu": "Sûre kapanışında 51-54 eklenerek son sayı koşulacak."
   }
+ ],
+ "AT_fatir": [
+  {
+   "no": 1007,
+   "aday": "HAMD AÇILIŞI ARDIŞIK ÇİFT — ilk kelimesi hamd kökü olan sûreler korpusta dört (6, 18, 34, 35); ardışık olan tek çift 34-35.",
+   "olculen": {
+    "sureler": [
+     6,
+     18,
+     34,
+     35
+    ],
+    "ardisik": "34-35",
+    "yontem": "morph.txt, her sûrenin 1. ayet 1. kelimesinin kökü (TAM SAYIM); Fâtiha'da hamd 1:2'de, sayılmadı"
+   },
+   "durum": "KAYIT",
+   "oncelik": "-",
+   "kaynak": "sûre 35 okuması, blok 1-10",
+   "etiket": "gözlem — TAM SAYIM, yorum yok",
+   "test_notu": "Dört sûrenin dizilişi hakkında 'neden' iddiası kurulmadı; mushaf sırası ile tertip arasında bağ aranırsa KAPATILAMAZ (tek dizilim, boş model yok)."
+  },
+  {
+   "no": 1008,
+   "aday": "SAY ALANI DOĞRU POZİTİF — 35:1 mesnâ · sülâs · rubâ' üçü de yakalandı. Üçlü korpusta yalnız 4:3 ve 35:1'de; mesnâ ayrıca 34:46'da.",
+   "olculen": {
+    "35:1": [
+     "mesnâ",
+     "sülâs",
+     "rubâ'"
+    ],
+    "uclu_ayet": [
+     "4:3",
+     "35:1"
+    ],
+    "mesna_ayet": [
+     "4:3",
+     "34:46",
+     "35:1"
+    ]
+   },
+   "durum": "KAYIT",
+   "oncelik": "-",
+   "kaynak": "sûre 35 okuması, blok 1-10",
+   "etiket": "981/1004/1005 say alanı — doğru pozitif girdisi",
+   "test_notu": "981 ailesinin yanlış pozitif/negatif sayımına karşı kolon: dağıtıcı sayı sıfatları (fu'âl/mef'al) doğru yakalanıyor. furâdâ (34:46) hâlâ yanlış negatif."
+  },
+  {
+   "no": 1009,
+   "aday": "★★★ KAYNAĞI EDİLGEN — 35:4 (11 kelime, 3 fiilin 2'si edilgen) ★★★ tek kaynak pas z=3,48; hapaks değil, uzunluk değil.",
+   "olculen": {
+    "ayet": "35:4",
+    "z2": {
+     "pas": 3.48,
+     "n": -0.15,
+     "allah": 1.29
+    },
+    "yildiz2": 3
+   },
+   "durum": "KAYIT",
+   "oncelik": "P1",
+   "kaynak": "sûre 35 okuması, blok 1-10",
+   "etiket": "983 birikimi — ★★★ otomatik kaynak dağılımı",
+   "test_notu": "983: sûre 34'te ★★★ 4/4 hapakstan. Burada kısa ayette iki edilgen z'yi uca taşıyor; pas z'nin fiil sayısına duyarlılığı (2/3 küçük payda) ★★★'ı şişiriyor olabilir — KAPATILAMAZ, tur sonunda pas kaynaklı ★★★'ların fiil sayısı dağılımı TAM SAYIMLA."
+  },
+  {
+   "no": 1010,
+   "aday": "ÇIPA MERDİVENİ — AYNI OLGU, ÜÇ KADEME: rüzgâr → bulut → yağmur/dirilme 30:24'te L2 (iki aşama), 30:48'de L4 (ara durumlar adlı), 35:9'da L2 (ara durum yalnız bulut). Kademe olgunun değil anlatımın ayrıntısını ölçüyor.",
+   "olculen": {
+    "30:24": "L2",
+    "30:48": "L4 (mekanizma kolu)",
+    "35:9": "L2",
+    "olcut": "ara durumların adlandırılması (bulut, parça, yağmur, çıkış yeri)"
+   },
+   "durum": "ACIK",
+   "oncelik": "P2",
+   "kaynak": "sûre 35 okuması, blok 1-10",
+   "etiket": "965 ailesi (çıpa merdiveni tanımı) — gözlem, tanım değişikliği değil",
+   "test_notu": "Tanım değiştirilmedi. Çıpa/olgu ilişkisi analiz edilirken birim 'ayet' olduğu için aynı olgu farklı kademelerle birden çok kez sayılıyor; olgu kümesi ayrıca tutulmalı mı sorusu tur sonuna."
+  },
+  {
+   "no": 1011,
+   "aday": "İKİ AYETLİK TEKRAR — 35:16-17 = 14:19'un son cümlesi + 14:20'nin tamamı, aynı sırayla. esit2 yalnız 35:17'yi (14:20, TAM 1,0000) yakalıyor; 35:16 yalnız xref'te (üç üçlü → 14:19).",
+   "olculen": {
+    "35:16": "xref 3/3 → 14:19 (son cümle)",
+    "35:17": "esit2 → 14:20 oran 1,0000 TAM",
+    "ardisik": "14:19-20 ↔ 35:16-17"
+   },
+   "durum": "KAYIT",
+   "oncelik": "P2",
+   "kaynak": "sûre 35 okuması, blok 11-20",
+   "etiket": "bağ alanları ayet birimli: ardışık ayet bloğu tekrarı tek alanda görünmüyor",
+   "test_notu": "Araç açığı değil, birim seçimi sonucu. Tur sonunda: esit2/xref ile ardışık iki ayeti aynı ardışık çifte bağlayan kaç blok var — TAM SAYIM. Okurken bulunan örnek kanıt değil."
+  },
+  {
+   "no": 1012,
+   "aday": "★★★ KISA AYET LAFIZ ŞİŞMESİ (983 ailesi) — 35:15 (10 kelime, 2 lafız) ve 35:17 (5 kelime, 1 lafız) aynı allah z=3,47 ile ★★★; z lafız/kelime oranından geliyor, iki ayette oran aynı (0,2).",
+   "olculen": {
+    "35:15": {
+     "n": 10,
+     "lafiz": 2,
+     "allah_z": 3.47,
+     "yildiz2": 3
+    },
+    "35:17": {
+     "n": 5,
+     "lafiz": 1,
+     "allah_z": 3.47,
+     "yildiz2": 3
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 35 okuması, blok 11-20",
+   "etiket": "983 — ★★★ otomatik kaynak; uzunluk karıştırıcısı (827/837 ailesinin ters yönü)",
+   "test_notu": "Onarılmadı (dondurma). 827/837'de uzun ayette lafız seyreliyordu; burada kısa ayette tek lafız uca çıkıyor. KAPATILAMAZ — tur sonunda allah-kaynaklı ★★★'ların n dağılımı TAM SAYIMLA."
+  },
+  {
+   "no": 1013,
+   "aday": "TARAYICI v4 TERKİP DUYARSIZLIĞI (948 ailesi) — 31:29 ve 35:13 aynı dört kök (ولج ليل نهر سخر, korpusta yalnız bu iki ayette) ve aynı kademe (L1); tarayıcı 31:29'da aday verdi (G_bakış: 'e lem tera'), 35:13'te vermedi.",
+   "olculen": {
+    "31:29": "aday, G_bakış, L1",
+    "35:13": "aday değil, L1",
+    "ortak_kok": 4
+   },
+   "durum": "ACIK",
+   "oncelik": "P0",
+   "kaynak": "sûre 35 okuması, blok 11-20",
+   "etiket": "948 tarayıcı kesinlik/duyarlılık — olgu değil işaret kelimesi tetikliyor",
+   "test_notu": "Kesinlik birikimine (0/19) ek olarak duyarlılık tarafı: tetik, olgunun kendisine değil çerçeve kelimesine bağlı. Onarılmadı."
+  },
+  {
+   "no": 1014,
+   "aday": "ÇIPA L4 SINIFLAMA KOLU — ÖLÇÜT İKİ EMSALDE FARKLI İFADE EDİLMİŞ: 30:22 'sınıflar adlandırılmıyor → L1', 29:40 'türler ayrı adlandırılıp ayrı gruplara eşlendi → L4'. 35:27'de sınıflar ADLI (beyaz, kırmızı, siyah) ama üye eşlemesi yok; 35:12'de iki sınıf adlı ve nitelikli, eşleme yok. İkisi de eşleme ölçütüyle L4 dışında tutuldu.",
+   "olculen": {
+    "30:22": "L1 (sınıf adı yok)",
+    "29:40": "L4 (adlandırma + eşleme)",
+    "35:12": "L1 (adlı, eşleme yok)",
+    "35:27": "L2 (nedensellik; sınıflar adlı, eşleme yok)"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 35 okuması, blok 21-30",
+   "etiket": "965 ailesi (çıpa merdiveni tanımı) — tanım DEĞİŞTİRİLMEDİ",
+   "test_notu": "Okuma sırasında sabit ölçüt: eşleme (29:40). Kendi kaydım düştü: 35:12 gerekçesi 'ölçütsüz, 27:61 emsali' yanlıştı → DUZELTME (kademe aynı). Tam okuma sonunda 'adlı sınıf, eşlemesiz' ayetler ayrı sayılmalı; eşik analizinde iki okuma da raporlanmalı (duyarlılık)."
+  },
+  {
+   "no": 1015,
+   "aday": "GLOSS TARAMASI GİRDİLERİ (987/1000) — sûre 35'te okunan anlamı taşımayan gloss'lar: ملك (melek, 35:1), عذب (tatlı su, 35:12), ظلم (karanlık, 35:20; zulumât 23 ayet), ظلل (gölge, 35:21; BASKIN lemma zıll 14 — gloss azınlık anlamını veriyor), جدد (çizgi/yol, 35:27).",
+   "olculen": {
+    "ظلل": {
+     "zıll": 14,
+     "zalle": 9,
+     "zulle": 6
+    },
+    "ظلم": {
+     "zulumât": 23
+    },
+    "kaynak": "kok_envanteri.json lemmalar"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 35 okuması, blok 1-30",
+   "etiket": "987/1000 — gloss baskın lemmayı karşılamıyor",
+   "test_notu": "Onarılmadı (araç dondurma; gloss yazımı yalnız yeni kökte). ظلل en ağır vaka: baskın lemma gloss'ta hiç yok. Tur sonu tarama: her kökün gloss'u baskın lemmayı içeriyor mu — TAM SAYIM.",
+   "ek": {
+    "blok 31-40": "ذهب 'gitme, götürme' — 35:33 zeheb (altın, lemma 8) gloss'ta yok"
+   }
+  },
+  {
+   "no": 1016,
+   "aday": "KÖK YOĞUNLUĞU TEPESİ — 35:39'da كفر kökü 6 token (24 kelime); korpusta bu kökün bir ayette geçtiği en yüksek sayı. Sonraki 3 (2:89, 2:102, 4:137, 9:37).",
+   "olculen": {
+    "35:39": 6,
+    "sonraki": 3,
+    "ayetler_3": [
+     "2:89",
+     "2:102",
+     "4:137",
+     "9:37"
+    ],
+    "yontem": "morph.txt ROOT:كفر token sayımı, ayet başına (TAM SAYIM)"
+   },
+   "durum": "KAYIT",
+   "oncelik": "-",
+   "kaynak": "sûre 35 okuması, blok 31-40",
+   "etiket": "gözlem — TAM SAYIM; kök ikilemesi alanının uç değeri",
+   "test_notu": "Okurken görüldü, sonra sayıldı. Ayet içi kök tekrarının korpus dağılımı (her kök için ayet-başı tepe) ölçülmeden 'olağanüstü' denemez — bu yalnız bir kökün tepesi. KAPATILAMAZ değil: tur sonunda tüm kökler için tepe dağılımı TAM SAYIMLA."
+  },
+  {
+   "no": 1017,
+   "aday": "ŞAHIS SAYIMI KONUŞMACIYI AYIRMIYOR — 35:37'de 'biz' (1P 7) iki konuşmacıya ait: cehennem ehlinin alıntılanan sözü ('Rabbimiz, bizi çıkar') ve Allah'ın cevabı ('sizi yaşatmadık mı'). sahset/baskın tek havuzda sayıyor; ayrıca 35:34-35'te cennet ehlinin 'biz'i.",
+   "olculen": {
+    "35:37": {
+     "1P": 7,
+     "konusmaci": [
+      "cehennem ehli (alıntı)",
+      "Allah"
+     ]
+    },
+    "35:34-35": "1P cennet ehli (alıntı)"
+   },
+   "durum": "ACIK",
+   "oncelik": "P2",
+   "kaynak": "sûre 35 okuması, blok 31-40",
+   "etiket": "sah/sahset/ilt alanları — alıntı sınırı yok (517 ile komşu)",
+   "test_notu": "Araç açığı, metin hakkında kanıt değil (aday 924). Onarılmadı. İltifât ve baskın şahıs alanları alıntı içeren ayetlerde karışık; analizde alıntılı ayetler ayrı raporlanmalı."
+  },
+  {
+   "no": 1018,
+   "aday": "FÂSILA SINIFI GEÇİŞİ SÛRE SONUNDA — 35:39-45 yedi ayet kesintisiz ا sınıfı (hasârâ, ğurûrâ, ğafûrâ, nufûrâ, tahvîlâ, qadîrâ, basîrâ); 35:1-38'de ا fâsıla yok. kafiye_kirik alanı bu yedi ayetin hiçbirini işaretlemiyor; sûrede kırık sayılanlar 35:8 (ن), 35:12 (ن), 35:27 (د), 35:35 (ب).",
+   "olculen": {
+    "A_sinifi": [
+     "35:39",
+     "35:40",
+     "35:41",
+     "35:42",
+     "35:43",
+     "35:44",
+     "35:45"
+    ],
+    "A_oncesi": 0,
+    "kafiye_kirik": [
+     "35:8",
+     "35:12",
+     "35:27",
+     "35:35"
+    ],
+    "kaynak": "ölçüm satırı fâsıla alanı, 45/45"
+   },
+   "durum": "KAYIT",
+   "oncelik": "P2",
+   "kaynak": "sûre 35 okuması, blok 41-45",
+   "etiket": "kafiye alanı tanımı — kırık komşu-göreli; blok geçişi ile tekil kırık ayrımı yok",
+   "test_notu": "Araç açığı değil, tanım sonucu: sürekli yeni sınıfa geçiş 'kırık' sayılmıyor, tek ayetlik sapma sayılıyor. Sûre sonu fâsıla geçişinin korpus sıklığı ölçülmedi — KAPATILAMAZ değil, tur sonunda sûre-son-blok fâsıla sınıfı dağılımı TAM SAYIMLA."
+  }
+ ],
+ "AU_yasin": [
+  {
+   "no": 1019,
+   "aday": "ESMÂ TANIM DIŞI — RAHMÂN BAĞIMSIZ AD: 36:11 (haşiye'r-rahmân, nesne) ve 36:15 (enzele'r-rahmân, özne). e_el 'ilahi' tanımı (kâne/inne haberi, kefâ temyizi, Allah'ın ya da O'na dönen zamirin sıfatı) bu kullanımı kapsamıyor; okuyucu gönderge ölçütüyle 'ilahi' verdi (999 emsali).",
+   "olculen": {
+    "36:11": "nesne",
+    "36:15": "özne (inkârcıların sözünde)",
+    "e_el": "ilahi ×2",
+    "emsal": "999 (34:6, 35:14, 36:5 — tamlama içinde ad)"
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 36 okuması, blok 11-20",
+   "etiket": "999 ailesi — e_suzgec tanımı; ön-kayıt DONDURULMUŞ, tanım değiştirilmedi",
+   "test_notu": "Süzgeç kodlanırken (tam okuma sonrası) 'esmâ özel ad olarak' sınıfı açıkça karar verilmeli: lafız gibi mi sayılır, esmâ mı? Geriye dönük e_el turunda Rahmân'ın ad kullanımları (sûre 19, 20, 21, 25…) TAM SAYIMLA bulunmalı."
+  },
+  {
+   "no": 1020,
+   "aday": "★★★ KISA AYET RAB ŞİŞMESİ (1012'nin Rab karşılığı) — 36:16: 6 kelimede 1 Rab, rab z=3,23, ★★★ tek kaynak.",
+   "olculen": {
+    "36:16": {
+     "n": 6,
+     "rab": 1,
+     "rab_z": 3.23,
+     "yildiz2": 3
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 36 okuması, blok 11-20",
+   "etiket": "983/1012 — ★★★ otomatik kaynak; uzunluk karıştırıcısı",
+   "test_notu": "Onarılmadı. Tur sonunda allah- ve rab-kaynaklı ★★★'ların n dağılımı birlikte TAM SAYIMLA (1012 ile tek test)."
+  }
  ]
 }
