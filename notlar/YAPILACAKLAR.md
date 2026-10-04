@@ -5647,3 +5647,46 @@ Denetimler her blokta: türkçe 0 · anahtar 70, diff 0.
 Ayrıca: 999 üçüncü vaka (36:5) · 983 hapaks ★★★ (36:8 قمح) · 1004/1005 say (36:7 ekser yanlış pozitif; 36:14 isneyn/sâlis doğru) · 1000 gloss (طير 'uğursuzluk' yok) · 948 tarayıcı 36:14, 36:19 aday, çıpa değil (toplam 0/28).
 Süreç: `aday_ekle_36_yasin.py` boş sette yazdırmada çöktü (benim türettiğim betik) — dayanıklı yapıldı. İlk koşuda bağlar yazılmamıştı, ikinci koşuda yazıldı.
 Sûre 36 sonunda kapanış `yasin_kapanis.py` ile (fatir_kapanis şablonu, S=36, N=83, 1001 düzeltilmiş alan dahil).
+
+## SÛRE 36 TUR SONU (2026-10-04)
+
+**Okunan: 2580 / 6236 ayet (%41,4)** — sûre 1 ve 9-36 TAM, sûre 2 kısmi (1-20). İlerleme `yasin_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1144** (değişmedi; sûre 36'nın 12 kökü ara kayıtta eklenmişti; retroaktif yama 0). Aday **1019-1022** (`AU_yasin`, 4). Bağ **AP_yasin** 122.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0.
+Bu oturumda: 36:21-83 (7 blok, 63 ayet) okundu; ek mercekler (◈K ◈B ◈D ◈A, `ONKAYIT_mercekler.md` a7e9628) 36:21'den itibaren her ayette uygulandı; sunum `blok_goster_v2.py` (v1 ile ›-satırı ve dikey sayı farkı 0, 36:11-20 üzerinde programla doğrulandı; HTML Amiri Quran).
+
+### Sûre 36 bilançosu (TAM SAYIM, `okuma_metni['36']['_bilanco_sure']`)
+725 kelime · lafız 3 token/2 ayet (36:47 ×2, 36:74 — sûrede ilk lafız 36:47; 36:1-46 lafız 0) · Rab 6 token/6 ayet (16, 25, 27, 46, 51, 58; A/R 0,5) · edilgen 12 ayet · iltifât 2 (45, 59 — ikisi de alıntı/nidâ sınırı, 1017/517 ailesi) · mm2 0 · hapaks 3 ayet (8 قمح, 39 عرجن, 67 مسخ).
+Yıldız 0:66 · ★3 · ★★6 · ★★★8 — kaynak pas 9 · rab 5 · hapaks 3. ★★★: hapaks 3 (8, 39, 67) · rab 3 (16, 25, 58 — kısa ayet Rab şişmesi, aday 1020) · pas 2 (45, 83 — edilgen kaynaklı, 1009 ailesi).
+Kafiye kırığı **0** → `yildiz_kaynak_duzeltilmis` = özgün (1001 farkı 0). Fâsıla sınıfı N 82 + 36:1 (mukattaa).
+En uzun 36:47 (24, tek); en kısa 36:1 (tek). say işareti 8 ayet: doğru 14 (isneyn, sâlis), 29, 49, 53 (vâhide) · yanlış pozitif 7 (ekser), 62 (kesîr), 36, 56 (zevc).
+
+### Yeni adaylar
+| no | konu | öncelik |
+|---|---|---|
+| 1019 | esmâ tanım dışı: Rahmân bağımsız ad — 36:11 nesne · 15 özne · 23 şart öznesi · 52 özne (4 vaka); gönderge ölçütüyle 'ilahi' | P1 (999) |
+| 1020 | ★★★ kısa ayet Rab şişmesi — 36:16 (6 kelime) · 25 (4) · 58 (5); 36:27 ★★ aynı aile | P1 (983/1012) |
+| 1021 | gloss taraması sûre 36 girdileri: نهر baskın 'gündüz' yok (57/113) · بني baskın akrabalık yok (160/184) · حسر pişmanlık yok (9/12) · حبب tane (12/95) · سبح yüzme (5/92); baskın olmayan: جبل cibille, رجل ricl; ظلل/ظلم 1015 kaydı | P1 (987/1000/1015) |
+| 1022 | ölçüm satırı esmâ alanı ↔ esmâ kaydı ayrışması: 36:70 hayy, 36:79 evvel — okuyucu kararları esma_kayit çıktısından ve eksik denetiminden toplanmalı | P2 |
+Ayrıca mevcut ailelere girdi: 999 tamlama içinde ad (36:5, 36:38) · 1009 edilgen ★★★ (36:45, 36:83) · 1004/1005 say (36:7, 36:36, 36:56, 36:62) · 1017 alıntı konuşmacısı (36:45 iltifât yanlış pozitif; 36:47, 36:52 alıntı içi 'biz') · 1003 nakarat3 eşi satırda yok (sûrede 9 kalıp; bekleyen eşlerin tümü sûre içinde doğrulandı: 7↔70, 15↔47, 23↔74, 29↔53, 30↔46, 32↔53, 45↔47, 29/49/53) · 924 araç: أيي ipliği 36:59 eyyuhâ (nidâ edatı) tokenini âyetle birleştiriyor; 'innemâ' biçim alanında HASR değil (36:11, 36:82).
+Kayıt (nakarat3 alt sınırının altında, okumada görüldü): 36:33/37/41 've âyetun lehum' · 36:35↔73 'e-felâ yeşkurûn' · 36:22↔83 've ileyhi turja'ûn' · 36:50↔67 istitâ'a + lâ yerci'ûn.
+
+### Aday 948 birikimi (tarayıcı v4) — ölçüt değişmedi
+… 35 → 0/11 (toplam 0/26) · **36 → L4 yok (kesinlik 0/7; toplam 0/33)**. Sûre 36 adayları: 14, 19, 35, 66, 70, 71, 77.
+Çıpa kademeleri (36:21-83): L0 ×3 (28, 78, 81) · L1 ×10 (34, 36, 38, 39, 41, 71, 72, 73, 77, 80) · L2 ×5 (33, 35, 37, 40, 68). 36:35 kademesi i'râba bağlı (KAPATILAMAZ); 36:39 L4 ölçü koluna sınırda (birim var, sayı yok); 36:41 olgu hayır.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+24 e_oto tokeni → ilâhî 12. Sınıf oto 0:59 E16 R6 A2 → el 0:67 E8 R6 A2.
+§4.3 mühür 17 → geçerli 7, yanlış 10 (2 hakîm · 11 kerîm · 12, 17, 24, 47, 60, 69, 77 mübîn · 70 hayy). **mübîn'in sûredeki 7 e_oto tokeninin 7'si 'degil'.** Geçerli mühür tonu: cemâl 3 · karma 2 · denge 2.
+Esmâ el kararları sûre boyunca 24/24 dolduruldu (e_oto var / e_el yok denetimi 0).
+
+### Süreç dersleri (bu oturum)
+* Kayıttan ÖNCE her [x/y] ve üstünlük iddiası sayıldı; kayda düşen tek hata 36:25 mercek cümlesi ('Rab'bin iyelik eki: 36:22 …' — 36:22'de Rab yok) → `DUZELTME`, özgün alan korundu.
+* Esmâ el kararlarını ölçüm satırından toplamak iki tokeni kaçırdı (36:70 hayy, 36:79 evvel); esma_kayit çıktısı yakaladı (aday 1022). Kural: kararlar esma_kayit çıktısından ve eksik denetiminden.
+* `aday_ekle_36_yasin.py`'ye 1022 eklenirken metin eşleşmesi bağ listesine düştü; koşu çıktısındaki sayaç (AU_yasin 3) uyuşmazlığı gösterdi, aday listesine taşındı, iki kez yeniden koşuldu.
+* `fâsıla 'fe-izâ hum'` gibi kalıp sayımları kuran_veri metninden yapıldı; harekesiz eşleşmede elif-medde (آ) bir vakayı (36:80) dışarıda bıraktı — elle eklendi. Metin sayımı okuma gözlemidir, defter alanı değil.
+
+* Sohbetteki blok bilançolarında 'tamamlanan kök iplikleri' sayısı geçici bir düzenli ifadeyle sayıldı; iç içe iki parantezli gloss'lu kökleri (سلخ رقد شغل مضي حيي) atladı. Doğru sayılar (ölçüm satırının kök alanı ' · ' ile bölünerek): 21-30 16 · 31-40 **24** (23 yazılmıştı) · 41-50 20 · 51-60 **34** (32) · 61-70 **31** (30) · 71-83 53. Sayı yalnız sohbette yanlıştı; kayda (okuma_metni) bu alan yazılmıyor.
+
+### Devam
+Sûre 37 (Sâffât, 182 ayet) — `*_36` / `yasin_*` şablonlarından S=37 (set `AV_saffat`, bağ `AQ_saffat`, numara 1023'ten). Önce eksik kök kontrolü (sûrenin tümü), gloss çok anlamlı, baskın lemma sayılarak. Sûre 2'nin 21-286'sı hâlâ sonraya.
