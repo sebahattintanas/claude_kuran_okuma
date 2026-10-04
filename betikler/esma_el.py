@@ -93,4 +93,42 @@ KARAR = {
  '34:50:15': 'ilahi', '34:50:16': 'ilahi',   # innehû semî'un karîb
  # sûre 34, blok 51-54
  '34:51:10': 'degil',                         # mekânin karîb (mekânın sıfatı)
+ # sûre 35, blok 1-10
+ '35:1:24':  'ilahi',                         # inne'llâhe ... qadîr — inne'nin haberi
+ '35:2:18':  'ilahi', '35:2:19': 'ilahi',     # ve huve'l-azîzu'l-hakîm — Allah'a dönen zamirin haberi
+ '35:3:9':   'degil',                         # hel min hâlıkın ğayru'llâh — olumsuzlanan 'Allah'tan başka'
+ '35:7:13':  'degil',                         # ecrun kebîr (ecrin sıfatı)
+ '35:8:23':  'ilahi',                         # inne'llâhe alîmun — inne'nin haberi
+ # sûre 35, blok 11-20
+ '35:14:18': 'ilahi',                         # mislu habîr — tamlama içinde ad, göndergesi Allah (aday 999 sınır vakası, 34:6 emsali)
+ '35:15:9':  'ilahi', '35:15:10': 'ilahi',   # ve'llâhu huve'l-ğaniyyu'l-hamîd — huve'nin haberi
+ '35:17:5':  'degil',                         # ve mâ zâlike ... bi-azîz — 'güç, zor' işin sıfatı
+ '35:19:4':  'degil',                         # el-a'mâ ve'l-basîr (gören insan)
+ '35:20:4':  'degil',                         # ve le'n-nûr (ışık)
+ # sûre 35, blok 21-30
+ '35:22:3':  'degil',                         # el-ahyâ' (diriler, insan)
+ '35:28:13': 'degil',                         # el-'ulemâ' (âlimler, insan)
+ '35:28:16': 'ilahi', '35:28:17': 'ilahi',   # inna'llâha azîzun ğafûr — inne'nin haberi
+ '35:30:7':  'ilahi', '35:30:8':  'ilahi',   # innehû ğafûrun şekûr — O'na dönen zamir, inne'nin haberi
+ # sûre 35, blok 31-40
+ '35:31:15': 'ilahi', '35:31:16': 'ilahi',   # inna'llâhe bi-ibâdihî le-habîrun basîr — inne'nin haberi
+ '35:32:21': 'degil',                         # el-fadlu'l-kebîr (fadlın sıfatı)
+ '35:34:10': 'ilahi', '35:34:11': 'ilahi',   # inne rabbenâ le-ğafûrun şekûr — inne'nin haberi
+ '35:37:25': 'degil',                         # fe-mâ li'z-zâlimîne min nasîr — olumsuzlanan, insan göndergeli
+ '35:38:3':  'ilahi', '35:38:8':  'ilahi',   # inna'llâhe âlimu ğayb... / innehû alîmun — inne'nin haberi
+ # sûre 35, blok 41-45
+ '35:41:13': 'degil',                         # min ehadin min ba'dih — 'kimse', olumsuzlanan
+ '35:41:18': 'ilahi', '35:41:19': 'ilahi',   # innehû kâne halîmen ğafûrâ — kâne haberi
+ '35:43:16': 'degil',                         # sünnete'l-evvelîn (öncekiler, insan)
+ '35:44:29': 'ilahi', '35:44:30': 'ilahi',   # innehû kâne alîmen qadîrâ — kâne haberi
+ '35:45:25': 'ilahi',                         # kâne bi-ibâdihî basîrâ — kâne haberi
+ # sûre 36, blok 1-10
+ '36:2:2':   'degil',                         # ve'l-qur'âni'l-hakîm — Kur'an'ın sıfatı
+ '36:5:2':   'ilahi', '36:5:3':   'ilahi',   # tenzîle'l-azîzi'r-rahîm — tamlama içinde ad, göndergesi Allah (aday 999, üçüncü vaka)
+ # sûre 36, blok 11-20
+ '36:11:7':  'ilahi',                         # haşiye'r-rahmâne — bağımsız ad (nesne), göndergesi Allah; tanım dışı (aday 1019, 999 emsali)
+ '36:11:12': 'degil',                         # ecrin kerîm (ödülün sıfatı)
+ '36:12:14': 'degil',                         # fî imâmin mübîn (kitabın sıfatı)
+ '36:15:9':  'ilahi',                         # ve mâ enzele'r-rahmânu — bağımsız ad (özne), göndergesi Allah (aday 1019)
+ '36:17:5':  'degil',                         # el-belâğu'l-mübîn (tebliğin sıfatı)
 }
