@@ -5583,3 +5583,67 @@ Esmâ el kararları sûre boyunca 33/33 dolduruldu (`esma_el.py`, geliştirme k�
 
 ### Devam
 Sûre 35 (Fâtır). Şablonlar S=35 ile `*_34` / `sebe_*` dosyalarından türetilir (set `AT_fatir`, bağ `AO_fatir`, numara 1007'den).
+
+## SÛRE 35 TUR SONU (2026-10-04)
+
+**Okunan: 2497 / 6236 ayet (%40,0)** — sûre 1 ve 9-35 TAM, sûre 2 kısmi (1-20). İlerleme `fatir_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` 1126 → **1132** (6 kök: صعد سوغ طرو مخر قطمر زول, `kok_ekle_35.py`; retroaktif yama 0). Aday **1007-1018** (`AT_fatir`, 12). Bağ **AO_fatir** 85.
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 (her blok sonunda ve kapanışta).
+Paket durumu: bu tur GitHub'a YÜKLENMEDİ (kullanıcı kararı) — depo hâlâ `57fdb46` (2452). Sonraki paket 57fdb46'ya göre birleşik fark olacak.
+
+### Sûre 35 bilançosu (TAM SAYIM, `okuma_metni['35']['_bilanco_sure']`)
+775 kelime · lafız 36 token/27 ayet · Rab 5 token/5 ayet (13, 18, 34, 37, 39; A/R 7,2 — lafız baskın; sûre 34'ün tersi) · edilgen 7 ayet · iltifât 0 · mm2 0 · hapaks 1 ayet (13, kıtmîr).
+Yıldız 0:27 · ★9 · ★★5 · ★★★4 — ★★★ kaynakları pas 1 (35:4) · hapaks 1 (35:13) · allah 2 (35:15, 35:17; kısa ayet, aday 1012).
+**Kaynak düzeltmesi (aday 1001):** kayıt `allah 5 · n 7`; üç ★ (35:8, 35:27, 35:35) aslında KAFİYE KIRIĞI. Doğru dağılım (`yildiz_kaynak_duzeltilmis`, kapanışta kayıttan hesaplandı): n 5 · pas 4 · allah 4 · kafiye 3 · hapaks 1 · rab 1. 35:35'te kayıt negatif z'yi (allah −0,53) kaynak yazıyor — vakaların en açığı.
+Kafiye kırığı 4 (8, 12, 27, 35). Fâsıla sınıfı R 29 · A 7 · N 4 · د 3 · ز 1 · ب 1; A sınıfı yalnız 35:39-45 (aday 1018). En uzun 34 kelime (35:11 ve 35:18 eşit; kayıt yalnız 18'i yazıyor — 34:33/43 ile aynı alan davranışı).
+say işareti 4 ayet: 35:1 mesnâ/sülâs/rubâ' doğru ×3 · 35:11 zevc yanlış pozitif · 35:41 ehad yanlış pozitif · 35:42 ihdâ sınırda.
+
+### Yeni açık borçlar ve girdiler (dondurulmuş — kaydet, onarma)
+| no | konu | öncelik |
+|---|---|---|
+| 1013 | tarayıcı v4 terkip duyarsızlığı: 31:29 ve 35:13 aynı dört kök + aynı kademe; yalnız 'e lem tera' olan aday | P0 (948) |
+| 1009 | ★★★ edilgen kaynaklı (35:4, 11 kelime, 2/3 edilgen) — 983 birikimine karşı vaka | P1 (983) |
+| 1012 | ★★★ kısa ayet lafız şişmesi: 35:15 (2/10) ve 35:17 (1/5) aynı allah z=3,47 | P1 (983) |
+| 1014 | çıpa L4 sınıflama kolu ölçütü iki emsalde farklı (30:22 'sınıf adı' / 29:40 'eşleme'); okumada eşleme sabit uygulandı; 35:12 gerekçesi düzeltildi | P1 (965) |
+| 1015 | gloss taraması (987/1000): ملك (melek), عذب (tatlı su), ظلم (karanlık, zulumât 23), ظلل (gölge — BASKIN lemma zıll 14 gloss'ta yok), جدد (çizgi), ek: ذهب (altın) | P1 |
+| 1010 | çıpa: aynı olgu (rüzgâr-bulut-dirilme) üç ayette üç kademe (30:24 L2, 30:48 L4, 35:9 L2) | P2 (965) |
+| 1011 | iki ayetlik tekrar 35:16-17 = 14:19-20; esit2 yalnız 35:17'yi görüyor | P2 |
+| 1017 | şahıs sayımı alıntı içi konuşmacıyı ayırmıyor (35:37 1P 7) | P2 |
+| 1018 | fâsıla sınıfı geçişi sûre sonunda (35:39-45 ا), kafiye_kirik işaretlemiyor | P2 |
+| 1007 | gözlem: hamd açılışlı sûreler 6, 18, 34, 35 — ardışık tek çift 34-35 | KAYIT |
+| 1008 | say doğru pozitif 35:1 (mesnâ/sülâs/rubâ'; üçlü korpusta 4:3 ve 35:1) | KAYIT |
+| 1016 | كفر 35:39'da 6 token — korpusta kökün ayet-başı tepesi (sonraki 3) | KAYIT |
+Ayrıca mevcut ailelere girdi: 517 iltifât (35:9, 35:27 lafız→1P; 35:32 1P→lafız) · 999 esmâ tamlama sınır vakası ikinci vaka (35:14 'mislu habîr') · #9/#12 eski esma_k MÜHÜRSÜZ (35:1, 8, 38) · 981 say (35:11, 35:41).
+
+### Aday 948 birikimi (tarayıcı v4) — ölçüt değişmedi
+… 33 → 0/0 (kesinlik 0/12) · 34 → 0/0 (kesinlik 0/3; toplam 0/15) · **35 → L4 yok (kesinlik 0/11; toplam 0/26)**
+Sûre 35 adayları: 1, 3, 12, 16, 25, 27, 40, 41, 43, 44, 45. Çıpa kademeleri: L0 ×8 · L1 ×4 (11, 12, 13, 28) · L2 ×3 (9, 27, 41) · merdiven dışı 3 (16, 25, 32).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+33 e_oto tokeni → ilâhî 22, değil 11. Sınıf oto A24 0:11 E5 AR3 R2 → el A24 0:14 AR3 E2 R2.
+§4.3 mühür 19 → geçerli 13, yanlış 6 (7, 17, 19, 20, 32, 37 — ödül/lütuf sıfatı kebîr ×2, işin sıfatı azîz, insan basîr, ışık nûr, olumsuzlanan nasîr). Geçerli mühür tonu: denge 6 · cemâl 3 · celâl 2 · karma 2.
+Esmâ el kararları sûre boyunca 33/33 dolduruldu (`esma_el.py`, geliştirme kümesi).
+
+### Süreç dersleri (bu tur)
+* Kayıttan ÖNCE her [x/y] ölçüm satırıyla karşılaştırıldı: beş kez kendi yazımım yakalandı (35:1-10'da beş payda, 35:33/36/40/45'te kapanan iplik sayısı, 35:26'da sayılmadan yazılmış 'hepsi'). Hiçbiri kayda düşmedi. Ders: üstünlük ve 'hepsi' iddiaları yazılırken değil yazılmadan önce sayılır.
+* Kayda düşen tek hata 35:12 çıpa gerekçesi ('ölçütsüz, 27:61 emsali') → `DUZELTME` (aday 1014), kademe değişmedi.
+* `head` ile boru kesilince `esitle.py` BrokenPipe verdi; borusuz yeniden koşuldu (0 dosya) — tuzak doğrulandı. `cut -c` çok baytlı Arapçayı bölüyor: çıktı dosyaya yazılıp sed ile okunmalı.
+* `fatir_kapanis.py` 1001 düzeltilmiş kaynak dağılımını ayrı alanda hesaplıyor (özgün alan korunur) — sonraki kapanışlarda şablon bu.
+
+### Devam
+Sûre 36 (Yâsîn, 83 ayet, 725 kelime). Şablonlar S=36 ile `*_35` / `fatir_*` dosyalarından türetilir (set `AU_yasin`, bağ `AP_yasin`, numara 1019'dan).
+Eksik kökler (12; gloss YAZILMADI, baskın lemma sayıldı): ذقن (8; ezkân 3) · قمح (8; muqmah 1, hapaks) · سلخ (37; inseleha 2/3) · عرجن (39; urcûn 1, hapaks) · جدث (51; ecdâs 3) · رقد (52; rukûd 1/2) · شغل (55; şuğul 1/2) · أرك (56; erâik 5) · طمس (66; tumiset 5) · مسخ (67; hapaks) · مضي (67; mezâ 4/5) · رمم (78; ramîm 2).
+
+## SÛRE 36 ARA KAYIT — 36:1-20 (2026-10-04, bağlam sınırında durduruldu)
+
+**Okunan: 2517 / 6236 (%40,4)** — sûre 36 kısmi (1-20, blok başı kayıt, 2 blok). Devam: **36:21**.
+`kok_turkce.json` 1132 → **1144** (sûre 36'nın 12 kökünün tümü baştan eklendi: ذقن قمح سلخ عرجن جدث رقد شغل أرك طمس مسخ مضي رمم). Aday **1019-1020** (`AU_yasin`). Bağ **AP_yasin** 19.
+Denetimler her blokta: türkçe 0 · anahtar 70, diff 0.
+
+| no | konu | öncelik |
+|---|---|---|
+| 1019 | esmâ tanım dışı: Rahmân bağımsız ad (36:11 nesne, 36:15 özne) — e_el tanımı kapsamıyor, gönderge ölçütüyle 'ilahi' (999 ailesi) | P1 |
+| 1020 | ★★★ kısa ayet Rab şişmesi: 36:16 (6 kelime, rab z=3,23) — 1012'nin Rab karşılığı | P1 (983) |
+Ayrıca: 999 üçüncü vaka (36:5) · 983 hapaks ★★★ (36:8 قمح) · 1004/1005 say (36:7 ekser yanlış pozitif; 36:14 isneyn/sâlis doğru) · 1000 gloss (طير 'uğursuzluk' yok) · 948 tarayıcı 36:14, 36:19 aday, çıpa değil (toplam 0/28).
+Süreç: `aday_ekle_36_yasin.py` boş sette yazdırmada çöktü (benim türettiğim betik) — dayanıklı yapıldı. İlk koşuda bağlar yazılmamıştı, ikinci koşuda yazıldı.
+Sûre 36 sonunda kapanış `yasin_kapanis.py` ile (fatir_kapanis şablonu, S=36, N=83, 1001 düzeltilmiş alan dahil).

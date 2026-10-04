@@ -12619,5 +12619,529 @@
    "kural": "kök (شكك 2/2)",
    "not": "Şüphede olanı ayırmak / kuşku verici şüphe — sûrenin son kelimesi."
   }
+ ],
+ "AO_fatir": [
+  {
+   "bag": "34:1 ↔ 35:1",
+   "kural": "kök (حمد, ilk kelime; TAM SAYIM 4 sûre)",
+   "not": "Hamdla açılan iki ardışık sûre; ötekiler 6 ve 18."
+  },
+  {
+   "bag": "4:3 ↔ 35:1",
+   "kural": "xref + lemma (mesnâ, sülâs, rubâ' — üçlü yalnız bu iki ayette)",
+   "not": "Aynı sayı dizisi: nikâh sayısı / meleklerin kanatları."
+  },
+  {
+   "bag": "34:46 ↔ 35:1",
+   "kural": "lemma (mesnâ, 3 ayet)",
+   "not": "İkişer ve teker teker kalkın / ikişer, üçer, dörder kanat — bitişik iki sûrede."
+  },
+  {
+   "bag": "35:1 · 35:2 · 35:4 · 35:9",
+   "kural": "kök (رسل 1-4/6)",
+   "not": "Bir kök dört gönderge: melek elçiler, rahmetin salıverilmesi, peygamber elçiler, rüzgârların gönderilmesi."
+  },
+  {
+   "bag": "35:1 → 35:3",
+   "kural": "kök (خلق 1-2/5)",
+   "not": "Yaratmada artırma / Allah'tan başka yaratıcı var mı."
+  },
+  {
+   "bag": "35:3 ↔ 35:5",
+   "kural": "okuma gözlemi (nidâ 'ey insanlar', iki ayet arayla)",
+   "not": "Nimeti anın / vaat gerçektir — iki nidâ."
+  },
+  {
+   "bag": "31:33 ↔ 35:5",
+   "kural": "xref (beş üçlü) + lemma (ğarûr 3 ayet)",
+   "not": "Dünya hayatı aldatmasın, aldatıcı Allah hakkında aldatmasın — iki sûrede aynı cümle."
+  },
+  {
+   "bag": "35:5 → 35:6",
+   "kural": "okuma gözlemi",
+   "not": "Adsız aldatıcı → adıyla şeytan; ölçüm bu bağı kurmuyor."
+  },
+  {
+   "bag": "35:4 → 35:25",
+   "kural": "nakarat3 ('in kezzebe fe-qad kezzebe', sûre içi)",
+   "not": "Yalanlanmanın teselli kalıbı; 35:25 henüz okunmadı."
+  },
+  {
+   "bag": "35:7 → 35:36",
+   "kural": "nakarat3 ('ellezîne keferû lehüm', sûre içi)",
+   "not": "35:36 henüz okunmadı."
+  },
+  {
+   "bag": "35:7 ↔ 35:10",
+   "kural": "nakarat3 ('lehüm azâbün şedîd', sûre içi; kalıp ayrıca 42:16, 42:26)",
+   "not": "İnkâr edenler / kötülük tuzağı kuranlar — aynı ceza cümlesi."
+  },
+  {
+   "bag": "34:4-5 ↔ 35:7",
+   "kural": "okuma gözlemi (ayna çifti)",
+   "not": "Aynı ayna iki ayette / tek ayette."
+  },
+  {
+   "bag": "9:37 · 35:8 · 40:37 · 47:14",
+   "kural": "kök (زين + سوأ + عمل, TAM SAYIM 4 ayet)",
+   "not": "Kötü amelin süslenmesi."
+  },
+  {
+   "bag": "30:24 · 30:48 ↔ 35:9",
+   "kural": "xref (30:48, üç üçlü) + çıpa kademesi",
+   "not": "Aynı olgu: iki aşama L2 / beş aşama L4 / dört aşama L2."
+  },
+  {
+   "bag": "35:2 ↔ 35:10",
+   "kural": "kök (عزز 1-3/5)",
+   "not": "Azîz mührü / izzetin tamamı Allah'ın."
+  },
+  {
+   "bag": "35:11 ↔ 35:17",
+   "kural": "nakarat3 ('zâlike ale'llâh', sûre içi) — DOĞRULANDI",
+   "not": "Bu Allah'a kolay (yesîr) / bu Allah'a güç değil (bi-azîz) — aynı çerçeve, olumlu ve olumsuz."
+  },
+  {
+   "bag": "35:11 ↔ 41:47 · 22:70",
+   "kural": "xref",
+   "not": "Dişinin gebeliği ve doğumu O'nun bilgisiyle / kitapta, Allah'a kolay."
+  },
+  {
+   "bag": "35:12 ↔ 16:14",
+   "kural": "xref (dokuz üçlü)",
+   "not": "Taze et, süs, suyu yaran gemiler, lütfu aramak."
+  },
+  {
+   "bag": "25:53 ↔ 35:12",
+   "kural": "kök (بحر + عذب + ملح, TAM SAYIM 2 ayet)",
+   "not": "İki deniz: arada engel / farklı ama aynı ürünler."
+  },
+  {
+   "bag": "35:7 · 35:10 · 35:12",
+   "kural": "kök (عذب 1-3/4)",
+   "not": "Azap, azap, tatlı su — tek kök iki anlam."
+  },
+  {
+   "bag": "31:29 ↔ 35:13",
+   "kural": "kök (ولج + ليل + نهر + سخر, TAM SAYIM 2 ayet) + xref",
+   "not": "Aynı terkip, aynı kademe (L1); tarayıcı yalnız 31:29'da (aday 1013)."
+  },
+  {
+   "bag": "35:13 → 35:40",
+   "kural": "nakarat3 ('ellezîne ted'ûne min dûnih', sûre içi)",
+   "not": "35:40 henüz okunmadı."
+  },
+  {
+   "bag": "34:3 · 34:22 ↔ 35:13",
+   "kural": "okuma gözlemi (en küçük birim ölçeği)",
+   "not": "Zerre ağırlığı (bilgi, mülk) / kıtmîr (sahiplik)."
+  },
+  {
+   "bag": "35:13 → 35:14",
+   "kural": "kök (دعو 2-4/6)",
+   "not": "Çağırdıklarınız kıtmîre sahip değil / çağırsanız işitmezler."
+  },
+  {
+   "bag": "35:3 · 35:5 · 35:15",
+   "kural": "kök (أيي 3/3, üçü de nidâ)",
+   "not": "Sûrenin üç 'ey insanlar'ı; 'âyet' kelimesi sûrede yok."
+  },
+  {
+   "bag": "35:1 → 35:15",
+   "kural": "kök (حمد 1-2/3)",
+   "not": "Hamd açılışı / ganî-hamîd mührü."
+  },
+  {
+   "bag": "35:15 ↔ 47:38 · 3:181",
+   "kural": "lemma (fakîr + ganî)",
+   "not": "Siz fukarâ, Allah ganî (35:15, 47:38) / ters yönde iddia (3:181)."
+  },
+  {
+   "bag": "35:16-17 ↔ 14:19-20",
+   "kural": "xref (14:19) + esit2 TAM (14:20)",
+   "not": "İki ardışık ayet aynı sırayla (aday 1011)."
+  },
+  {
+   "bag": "35:18 ↔ 6:164 · 17:15 · 39:7 · 53:38",
+   "kural": "lemma (vâzira, TAM SAYIM 5 ayet)",
+   "not": "Hiçbir yük taşıyan başkasının yükünü taşımaz."
+  },
+  {
+   "bag": "35:12 → 35:19",
+   "kural": "kök (سوي 1-2/3)",
+   "not": "İki deniz bir değil / kör ile gören bir değil."
+  },
+  {
+   "bag": "13:16 ↔ 35:19-20",
+   "kural": "kök (عمي + بصر + سوي; ظلم + نور + سوي yalnız 13:16)",
+   "not": "Kör/gören ve karanlık/ışık: tek ayette / iki ayete bölünmüş."
+  },
+  {
+   "bag": "34:6 ↔ 35:14",
+   "kural": "esmâ sınır vakası (aday 999)",
+   "not": "Tamlama içinde ad olarak esmâ: sırâtı'l-azîzi'l-hamîd / mislu habîr."
+  },
+  {
+   "bag": "35:19 · 35:20 · 35:21 · 35:22",
+   "kural": "okuma gözlemi (dört eşitsizlik çifti) + kök (سوي 2-3/3)",
+   "not": "Kör/gören, karanlık/ışık, gölge/sıcak, diri/ölü; ilk ikisi 13:16'da tek ayette."
+  },
+  {
+   "bag": "16:81 ↔ 35:21",
+   "kural": "kök (ظلل + حرر, TAM SAYIM 2 ayet)",
+   "not": "Gölge ve sıcak."
+  },
+  {
+   "bag": "45:21 ↔ 35:22",
+   "kural": "kök (حيي + موت + سوي, TAM SAYIM 2 ayet)",
+   "not": "Diriler ve ölüler bir olmaz."
+  },
+  {
+   "bag": "35:14 → 35:22",
+   "kural": "kök (سمع 1-4/4)",
+   "not": "Çağrılanlar işitmez / Allah işittirir, sen işittiremezsin."
+  },
+  {
+   "bag": "35:23 ↔ 35:24",
+   "kural": "okuma gözlemi (fâsıla nezîr ardışık) + kök (نذر 2-4/7)",
+   "not": "Sen ancak uyarıcısın / her ümmete bir uyarıcı."
+  },
+  {
+   "bag": "35:4 ↔ 35:25",
+   "kural": "nakarat3 ('in kezzebe fe-qad kezzebe', sûre içi) — DOĞRULANDI",
+   "not": "Elçiler yalanlandı (edilgen) / öncekiler yalanladı (etken)."
+  },
+  {
+   "bag": "3:184 ↔ 35:25",
+   "kural": "xref + kök (زبر + بين + نور, 3 ayet)",
+   "not": "Beyyinât, zübür, kitâb münîr — aynı üçlü."
+  },
+  {
+   "bag": "35:25 → 35:44",
+   "kural": "nakarat3 ('ellezîne min qablihim', sûre içi)",
+   "not": "35:44 henüz okunmadı."
+  },
+  {
+   "bag": "34:45 ↔ 35:26",
+   "kural": "kalıp (keyfe kâne nekîr, TAM SAYIM 4 ayet: 22:44, 34:45, 35:26, 67:18; lemma 5, 42:47 başka kalıp)",
+   "not": "Fe-keyfe kâne nekîr — bitişik iki sûrede."
+  },
+  {
+   "bag": "35:24 → 35:26",
+   "kural": "okuma gözlemi (sahset 1P → 1S)",
+   "not": "Biz gönderdik / ben yakaladım."
+  },
+  {
+   "bag": "35:9 ↔ 35:27",
+   "kural": "okuma gözlemi (lafız → 1P iltifâtı, ilt=0; 517 ailesi)",
+   "not": "Gökten su / ölü belde — iki ayette aynı fail geçişi."
+  },
+  {
+   "bag": "35:27 · 35:28 ↔ 16:13 · 16:69 · 30:22 · 39:21",
+   "kural": "kök (خلف + لون, TAM SAYIM 6 ayet)",
+   "not": "Renkleri farklı; sûrede üç alan (ürün, dağ, canlı)."
+  },
+  {
+   "bag": "35:16 → 35:27",
+   "kural": "kök (جدد 1-2/2)",
+   "not": "Yeni halk / dağdaki çizgiler — tek kök, iki anlam."
+  },
+  {
+   "bag": "35:18 → 35:28",
+   "kural": "kök (خشي 1-2/2)",
+   "not": "Rablerinden korkanlar / Allah'tan korkan âlimler."
+  },
+  {
+   "bag": "35:2 · 35:10 · 35:17 · 35:28",
+   "kural": "kök (عزز 1-5/5)",
+   "not": "Azîz, izzet ×2, 'güç değil', azîz — kök kapandı."
+  },
+  {
+   "bag": "35:10 ↔ 35:29",
+   "kural": "kök (بور 1-2/2) — AYNA",
+   "not": "Tuzakları boşa çıkar / boşa çıkmayacak ticaret."
+  },
+  {
+   "bag": "35:18 ↔ 35:29",
+   "kural": "kök (صلو 1-2/2)",
+   "not": "'Namazı dosdoğru kıldılar' iki ayette."
+  },
+  {
+   "bag": "2:274 · 13:22 · 14:31 ↔ 35:29",
+   "kural": "kök (سرر + علن + نفق, TAM SAYIM 4 ayet) + xref",
+   "not": "Gizli ve açık harcama."
+  },
+  {
+   "bag": "35:7 → 35:30",
+   "kural": "kök (أجر 1-2/2)",
+   "not": "Büyük ödül / ödüllerini tam verme."
+  },
+  {
+   "bag": "35:12 ↔ 35:30",
+   "kural": "kök (شكر 1-2/3)",
+   "not": "Şükredesiniz diye (insan) / şekûr (Allah)."
+  },
+  {
+   "bag": "35:19 ↔ 35:31",
+   "kural": "lemma (basîr) + esmâ el kararı",
+   "not": "Aynı kelime: gören insan (değil) / Allah (ilâhî)."
+  },
+  {
+   "bag": "35:14 → 35:31",
+   "kural": "kök (خبر 1-2/2)",
+   "not": "Mislu habîr / le-habîrun basîr."
+  },
+  {
+   "bag": "17:17 · 17:30 · 17:96 · 42:27 ↔ 35:31",
+   "kural": "kök (عبد + خبر + بصر, TAM SAYIM 5 ayet) + xref",
+   "not": "Kullarından haberdar, gören."
+  },
+  {
+   "bag": "29:40 · 27:17 ↔ 35:32",
+   "kural": "çıpa tanımı (aday 1014 sınaması)",
+   "not": "Üç adlı sınıf + bölüntü: eşleme ölçütü dolu, olgu değil."
+  },
+  {
+   "bag": "35:7 ↔ 35:32",
+   "kural": "kök (كبر 1-2/3) + esmâ yanlış mühür",
+   "not": "Ecrun kebîr / el-fadlu'l-kebîr — aynı kalıp, iki yanlış mühür."
+  },
+  {
+   "bag": "35:12 → 35:33",
+   "kural": "kök (حلي 1-2/2, لبس 1-2/2)",
+   "not": "Denizden süs çıkarırsınız / cennette süslenirler, giysileri."
+  },
+  {
+   "bag": "35:21 → 35:33",
+   "kural": "kök (حرر 1-2/2)",
+   "not": "Sıcak (harûr) / ipek (harîr)."
+  },
+  {
+   "bag": "22:23 · 18:31 ↔ 35:33",
+   "kural": "xref (dört üçlü 22:23)",
+   "not": "Altın bilezik, inci, ipek."
+  },
+  {
+   "bag": "35:1 · 35:15 · 35:34",
+   "kural": "kök (حمد 1-3/3)",
+   "not": "Hamd açılışı / hamîd mührü / cennet ehlinin hamdı."
+  },
+  {
+   "bag": "35:30 ↔ 35:34",
+   "kural": "esmâ çifti (ğafûr-şekûr) ×2",
+   "not": "Aynı mühür çifti dört ayet arayla; شكر 3/3 kapanıyor."
+  },
+  {
+   "bag": "35:35 ↔ 35:36",
+   "kural": "okuma gözlemi (NEG 2 / NEG 2) — AYNA",
+   "not": "Cennette yorgunluk dokunmaz ×2 / cehennemde ölüm yok, hafifleme yok."
+  },
+  {
+   "bag": "35:7 ↔ 35:36",
+   "kural": "nakarat3 ('ellezîne keferû lehüm', sûre içi) — DOĞRULANDI",
+   "not": "Çetin azap / cehennem ateşi."
+  },
+  {
+   "bag": "35:20 · 35:25 · 35:36",
+   "kural": "kök (نور 1-3/3)",
+   "not": "Işık / aydınlatıcı kitap / ateş."
+  },
+  {
+   "bag": "35:34 ↔ 35:37",
+   "kural": "okuma gözlemi (iki 'Rabbimiz' sözü) — AYNA",
+   "not": "Cennet ehli hamd eder / cehennem ehli çığlık atar."
+  },
+  {
+   "bag": "35:11 → 35:37",
+   "kural": "kök (عمر 1-4/4)",
+   "not": "Ömrü uzatılan/eksiltilen / sizi yaşatmadık mı."
+  },
+  {
+   "bag": "35:18 → 35:38",
+   "kural": "kök (غيب 1-2/2)",
+   "not": "Gaybda korkanlar / göklerin ve yerin gaybı."
+  },
+  {
+   "bag": "35:27 · 35:28 → 35:39",
+   "kural": "kök (خلف 1-4/4)",
+   "not": "Renkleri farklı ×3 / halifeler."
+  },
+  {
+   "bag": "35:13 ↔ 35:40",
+   "kural": "nakarat3 ('ellezîne ted'ûne min dûnih', sûre içi) — DOĞRULANDI",
+   "not": "Kıtmîre sahip değiller / ne yarattılar."
+  },
+  {
+   "bag": "35:3 ↔ 35:40",
+   "kural": "okuma gözlemi (yaratıcı sorusu)",
+   "not": "Allah'tan başka yaratıcı var mı / ortaklar yerden ne yarattı."
+  },
+  {
+   "bag": "35:5 ↔ 35:40",
+   "kural": "kök (وعد 1-2/2 + غرر 1-4/4) — AYNA",
+   "not": "Allah'ın vaadi hak, aldatıcı aldatmasın / zalimlerin vaadi aldatmaca."
+  },
+  {
+   "bag": "35:2 ↔ 35:41",
+   "kural": "kök (مسك 1-4/4, iki ayette ikişer)",
+   "not": "Rahmeti tutma / gökleri ve yeri tutma."
+  },
+  {
+   "bag": "17:44 ↔ 35:41",
+   "kural": "xref (kâne halîmen ğafûrâ)",
+   "not": "Aynı mühür kalıbı."
+  },
+  {
+   "bag": "35:24 → 35:42",
+   "kural": "kök (أمم 1-2/2, نذر)",
+   "not": "Her ümmete bir uyarıcı / ümmetlerin herhangi birinden daha doğru olacaklardı."
+  },
+  {
+   "bag": "35:1 · 35:30 · 35:39 · 35:42",
+   "kural": "kök (زيد 1-5/5)",
+   "not": "Allah artırır (yaratma, lütuf) / inkâra karşı ancak gazap, ziyan, nefret artar."
+  },
+  {
+   "bag": "35:10 ↔ 35:43",
+   "kural": "kök (مكر 1-4/4 + سوأ) — iki ayette ikişer",
+   "not": "Tuzakları boşa çıkar / kötü tuzak ancak sahibini kuşatır."
+  },
+  {
+   "bag": "33:62 · 48:23 ↔ 35:43",
+   "kural": "xref",
+   "not": "Allah'ın sünnetinde değişme bulamazsın."
+  },
+  {
+   "bag": "35:25 ↔ 35:44",
+   "kural": "nakarat3 ('ellezîne min qablihim', sûre içi) — DOĞRULANDI",
+   "not": "Öncekiler yalanladı / öncekilerin sonu."
+  },
+  {
+   "bag": "35:26 ↔ 35:44",
+   "kural": "kök (كيف 1-2/2)",
+   "not": "İnkârım nasıl oldu / sonları nasıl oldu."
+  },
+  {
+   "bag": "35:1 ↔ 35:44",
+   "kural": "kök (قدر 1-2/2 + شيأ 1-8/8) + esmâ qadîr",
+   "not": "Her şeye gücü yeten / hiçbir şey âciz bırakamaz, gücü yeten — ilk ayet ve sondan ikinci."
+  },
+  {
+   "bag": "16:61 ↔ 35:45",
+   "kural": "xref (beş üçlü) + lemma hizası 22/32",
+   "not": "Neredeyse aynı ayet; farklar: zulüm/kazanç, üzerinde/sırtında, kapanış."
+  },
+  {
+   "bag": "35:13 ↔ 35:45",
+   "kural": "kök (أجل 1-3/3, ecel müsemmâ)",
+   "not": "Güneş ve ay belirli süreye akar / insanlar belirli süreye ertelenir."
+  },
+  {
+   "bag": "35:31 ↔ 35:45",
+   "kural": "kalıp (bi-ibâdihî … basîr) + kök (بصر 2-3/3)",
+   "not": "Kullarından haberdar, gören / kullarını görendir."
+  },
+  {
+   "bag": "35:39 → 35:45",
+   "kural": "fâsıla sınıfı (ا, yedi ayet; aday 1018)",
+   "not": "Sûrenin son yedi ayeti kesintisiz ا."
+  }
+ ],
+ "AP_yasin": [
+  {
+   "bag": "36:7 → 36:70",
+   "kural": "nakarat3 ('haqqa'l-qavlu alâ', sûre içi; kalıp korpusta yalnız bu iki ayet)",
+   "not": "Söz çoğu üzerine hak oldu / kâfirler üzerine hak olsun."
+  },
+  {
+   "bag": "2:6 ↔ 36:10",
+   "kural": "lemma dizisi (9 segment aynı) + xref",
+   "not": "Uyarsan da uyarmasan da birdir, iman etmezler."
+  },
+  {
+   "bag": "17:107 · 17:109 ↔ 36:8",
+   "kural": "lemma (ezkân, TAM SAYIM 3 ayet)",
+   "not": "Çeneleri üzerine secdeye kapanırlar / çenelere kadar halka, başlar yukarı."
+  },
+  {
+   "bag": "36:8 ↔ 36:9",
+   "kural": "okuma gözlemi (جعل 1-2/5; dikey ve yatay eksen)",
+   "not": "Boyun → çene → baş / ön ↔ arka set + örtü."
+  },
+  {
+   "bag": "34:6 · 35:14 ↔ 36:5",
+   "kural": "esmâ sınır vakası (aday 999)",
+   "not": "Tamlama içinde ad olarak esmâ — üçüncü vaka."
+  },
+  {
+   "bag": "36:6 → 36:10",
+   "kural": "kök (نذر 1-4/6)",
+   "not": "Uyarman için, ataları uyarılmadı / uyarsan da uyarmasan da."
+  },
+  {
+   "bag": "36:7 ↔ 36:10",
+   "kural": "okuma gözlemi (fâsıla 'lâ yu'minûn')",
+   "not": "Blok aynı sonuçla iki kez kapanıyor."
+  },
+  {
+   "bag": "35:18 ↔ 36:11 ↔ 50:33",
+   "kural": "kalıp (haşye + gayb) + xref",
+   "not": "Gaybda Rablerinden korkanlar / gaybda Rahmân'dan korkan."
+  },
+  {
+   "bag": "35:7 ↔ 36:11",
+   "kural": "okuma gözlemi (mağfiret + ecr)",
+   "not": "Büyük ödül (kebîr) / değerli ödül (kerîm)."
+  },
+  {
+   "bag": "36:9 ↔ 36:12",
+   "kural": "okuma gözlemi (ön/arka)",
+   "not": "Önde ve arkada set / önden gönderdikleri ve bıraktıkları izler."
+  },
+  {
+   "bag": "78:29 ↔ 36:12",
+   "kural": "xref",
+   "not": "Her şeyi saydık."
+  },
+  {
+   "bag": "36:5 → 36:14",
+   "kural": "kök (عزز 1-2/3)",
+   "not": "Azîz (esmâ) / üçüncüyle destekledik."
+  },
+  {
+   "bag": "36:14 ↔ 36:16",
+   "kural": "nakarat3 ('innâ ileykum murselûn', sûre içi) — DOĞRULANDI",
+   "not": "İddia / lâm-ı tekitli iddia."
+  },
+  {
+   "bag": "36:15 → 36:47",
+   "kural": "nakarat3 ('in entum illâ', sûre içi)",
+   "not": "36:47 henüz okunmadı."
+  },
+  {
+   "bag": "36:11 ↔ 36:15",
+   "kural": "kök (بشر 1-2/2) + esmâ Rahmân ×2 (aday 1019)",
+   "not": "Müjdele / beşer; Rahmân'dan korkan / Rahmân indirmedi."
+  },
+  {
+   "bag": "36:18 ↔ 36:19",
+   "kural": "kök (طير 1-2/2)",
+   "not": "Sizin yüzünüzden uğursuzluk / uğursuzluğunuz sizinle."
+  },
+  {
+   "bag": "36:13 ↔ 36:20",
+   "kural": "okuma gözlemi (karye / medîne)",
+   "not": "Aynı yer iki adla."
+  },
+  {
+   "bag": "36:11 → 36:20",
+   "kural": "kök (تبع 1-2/3)",
+   "not": "Zikre uyan / elçilere uyun."
+  },
+  {
+   "bag": "35:15 · 35:17 ↔ 36:16",
+   "kural": "yıldız kaynağı (kısa ayet; aday 1012/1020)",
+   "not": "Lafız ★★★ / Rab ★★★."
+  }
  ]
 }
