@@ -56,7 +56,7 @@ Tetik: adlı/adsız aktör, `qâle/qâlû` (قول), sahne/mekân adı, anlatı 
 
 ## 7. Kilit
 
-Bu belgenin commit hash'i: ______ (depoya girince yazılır). Uygulama 36:21'de başlar; 36:1-20 ve önceki sûreler geriye dönük doldurulmaz. Geriye dönük doldurma ayrı ön-kayıt ister.
+Bu belgenin commit hash'i: **a7e9628** (2026-10-04 21:32 +0300; içerik o commit'teki hâliyle birebir aynı — yalnız bu satır sonradan dolduruldu). Uygulama 36:21'de başlar; 36:1-20 ve önceki sûreler geriye dönük doldurulmaz. Geriye dönük doldurma ayrı ön-kayıt ister.
 
 ## 8. Sapmalar
 
