@@ -15,9 +15,15 @@ S = 36
 METIN = 'yasin_metin_1'
 KAYIT = 'yasin_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 10), (11, 20)]
+BLOKLAR = [(1, 10), (11, 20), (21, 30), (31, 40), (41, 50), (51, 60), (61, 70), (71, 83)]
 BASLIK = {
  (1, 10): "sûre 36 (Yâsîn) birinci blok — Kur'an'a yemin, elçilik, uyarılmamış kavim, hak olan söz, boyun-çene ve ön-arka setleri, uyarının eşitliği.",
+ (71, 83): "sûre 36 sekizinci ve son blok — davarlar ve şükür, Allah'tan başka edinilen ilâhlar, elçiye teselli, nutfeden hasım insan, çürümüş kemikler sorusu ve ilk kez var edenin cevabı, yeşil ağaçtan ateş, 'Ol' emri, her şeyin melekûtu.",
+ (61, 70): "sûre 36 yedinci blok — 'bana kulluk edin', şeytanın saptırdığı topluluklar, vaat edilen cehennem, konuşan eller ve tanık ayaklar, 'dileseydik' şartları (göz, şekil), ömürde tersine dönüş, şiir değil Kur'an, söz hak olsun diye.",
+ (51, 60): "sûre 36 altıncı blok — sûra üfürülmesi, kabirden kalkış ve 'bu Rahmân'ın vaadi', tek çığlıkla huzura toplanma, zulmün olmadığı gün, cennet halkı (gölgeler, koltuklar, meyve, Rab'den selâm), suçluların ayrılması ve Âdemoğullarına ahit.",
+ (41, 50): "sûre 36 beşinci blok — dolu gemi ve binekler, boğulma şartı ve süreli rahmet, ön/arkadan sakınma çağrısı, âyetlerden yüz çevirme, sûrenin ilk lafzı (infak ve doyurma tartışması), vaadin zamanı, tek çığlık ve dönüşün kesilmesi.",
+ (31, 40): "sûre 36 dördüncü blok — helâk edilen nesiller, huzura getirilme, ölü yerin dirilmesi, bahçeler ve pınarlar, bütün çiftler, gece-gündüz, güneşin akışı, ayın konakları ve her birinin yörüngesi.",
+ (21, 30): "sûre 36 üçüncü blok — şehrin ucundan gelen adamın konuşması (uyun · beni yaratan · başka ilâh mı · Rabbinize iman ettim), cennete gir denilmesi, kavme gökten ordu inmemesi, tek çığlık ve kullara hasret.",
  (11, 20): "sûre 36 ikinci blok — Rahmân'dan korkanın uyarılması, yazılan izler, kasaba meseli, iki ve üçüncü elçi, tekitlenen iddia, uğursuzluğun yönü ve şehrin ucundan koşan adam.",
 }
 

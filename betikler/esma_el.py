@@ -131,4 +131,26 @@ KARAR = {
  '36:12:14': 'degil',                         # fî imâmin mübîn (kitabın sıfatı)
  '36:15:9':  'ilahi',                         # ve mâ enzele'r-rahmânu — bağımsız ad (özne), göndergesi Allah (aday 1019)
  '36:17:5':  'degil',                         # el-belâğu'l-mübîn (tebliğin sıfatı)
+ # sûre 36, blok 21-30
+ '36:23:7':  'ilahi',                         # in yuridni'r-rahmânu — bağımsız ad (şart cümlesinde özne), göndergesi Allah; tanım dışı (aday 1019, üçüncü vaka)
+ '36:24:5':  'degil',                         # fî dalâlin mübîn (sapıklığın sıfatı)
+ # sûre 36, blok 31-40
+ '36:38:7':  'ilahi', '36:38:8':  'ilahi',   # zâlike taqdîru'l-azîzi'l-alîm — tamlama içinde ad, göndergesi Allah (aday 999, dördüncü vaka)
+ # sûre 36, blok 41-50
+ '36:47:24': 'degil',                         # in entum illâ fî dalâlin mübîn (sapıklığın sıfatı; inkârcıların sözü)
+ # sûre 36, blok 51-60
+ '36:52:10': 'ilahi',                         # hâzâ mâ va'ade'r-rahmânu — bağımsız ad (özne), göndergesi Allah; tanım dışı (aday 1019, dördüncü vaka)
+ '36:58:1':  'degil',                         # selâmun qavlen — esenlik sözü (nekre), ad olarak es-Selâm değil
+ '36:58:5':  'ilahi',                         # min rabbin rahîm — Rab'bin sıfatı
+ '36:60:13': 'degil',                         # aduvvun mübîn (düşmanın sıfatı, şeytan)
+ # sûre 36, blok 61-70
+ '36:69:12': 'degil',                         # zikrun ve qur'ânun mübîn (Kur'an'ın sıfatı)
+ # sûre 36, blok 61-70 (ek)
+ '36:70:4':  'degil',                         # men kâne hayyen — diri olan (insan; kâne haberi ama gönderge insan)
+ # sûre 36, blok 71-83
+ '36:77:11': 'degil',                         # hasîmun mübîn (insanın sıfatı)
+ '36:79:10': 'ilahi',                         # ve huve bi-kulli halqin alîm — O'na dönen zamirin haberi
+ '36:81:13': 'ilahi', '36:81:14': 'ilahi',   # ve huve'l-hallâqu'l-alîm — O'na dönen zamirin haberi
+ # sûre 36, blok 71-83 (ek)
+ '36:79:5':  'degil',                         # enşeehâ evvele merratin — 'ilk kez' (zaman, sıfat değil)
 }
