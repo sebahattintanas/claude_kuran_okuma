@@ -5690,3 +5690,8 @@ Esmâ el kararları sûre boyunca 24/24 dolduruldu (e_oto var / e_el yok denetim
 
 ### Devam
 Sûre 37 (Sâffât, 182 ayet) — `*_36` / `yasin_*` şablonlarından S=37 (set `AV_saffat`, bağ `AQ_saffat`, numara 1023'ten). Önce eksik kök kontrolü (sûrenin tümü), gloss çok anlamlı, baskın lemma sayılarak. Sûre 2'nin 21-286'sı hâlâ sonraya.
+
+## SÛRE 37 HAZIRLIK (2026-10-04, oturum sonu)
+`kok_turkce.json` 1144 → **1165**: sûre 37'nin 21 eksik kökünün tümü baştan eklendi (`kok_ekle_37.py`; gloss çok anlamlı, baskın lemma sayıldı): دحر (9) · وصب (9) · ثقب (10) · لزب (11) · كأس (45; ke's 6) · لذذ (46) · غول (47; hapaks) · نزف (47) · شوب (67; hapaks) · هرع (70) · سقم (89, 145) · روغ (91, 93) · زفف (94; hapaks) · تلل (103; hapaks) · جبن (103; hapaks) · أبق (140; hapaks) · سهم (141; hapaks) · دحض (141; mudhad / yudhidu-dâhida iki anlam) · لقم (142; hapaks) · حوت (142; hût 5) · سوح (177; hapaks).
+Retroaktif yama: yeni kök taşıyan önceden okunmuş 9 ayet, hedefli yama 0; genel geçişte **1** — 21:87 `derin` alanında çıplak حوت (21:87 metninde kök yok; okuma notundaki kelime köprüsü). turkce_denetim bu kökler eklenince 1 verdi: 36 şablonundaki yama betiği `derin`/`derin2` alanlarını yamamıyordu, denetim ise tarıyordu — `yama_retroaktif_gloss_37.py` alan kümesi denetimle eşitlendi (okumayı bloke eden arıza istisnası). Sonra denetimler: türkçe 0 · anahtar 70, diff 0.
+Şablonlar hazır (boş): `saffat_metin_1.py`, `saffat_kayit.py`, `uret_blok_37.py`, `aday_ekle_37_saffat.py` (boş sette sınandı, geçici kopyada), `yama_retroaktif_gloss_37.py`, `duzeltme_37.py`. Okuma 37:1'den.

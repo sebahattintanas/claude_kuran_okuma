@@ -2,9 +2,10 @@
 
 **Okunan: 2580 / 6236 ayet (%41,4)** — sûre 1 ve 9-36 TAM, sûre 2 kısmi (1-20).
 Devam: **sûre 37 (Sâffât, 182 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1144** kök · aday havuzu **1-1022** (`AU_yasin` 1019-1022) · bağ seti `AP_yasin` 122.
+kok_turkce **1165** kök (sûre 37'nin 21 eksik kökünün TÜMÜ eklendi, `kok_ekle_37.py`; retroaktif yama 1: 21:87 derin) · aday havuzu **1-1022** (`AU_yasin` 1019-1022) · bağ seti `AP_yasin` 122.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
 Paket: depo `e14addf`'e (2517) göre fark; yüklenince 2580.
+Sûre 37 şablonları HAZIR (boş): `saffat_metin_1.py` · `saffat_kayit.py` · `uret_blok_37.py` (BLOKLAR boş) · `aday_ekle_37_saffat.py` (set `AV_saffat`, bağ `AQ_saffat`, numara 1023'ten; boş sette sınandı) · `yama_retroaktif_gloss_37.py` · `duzeltme_37.py`. Kapanış ve paket_md sûre sonunda `yasin_*`'dan S=37.
 Sûre 36 dosyaları: `yasin_metin_1.py` (MEAL1-8/M1-8) · `yasin_kayit.py` · `uret_blok_36.py` · `aday_ekle_36_yasin.py` · `yama_retroaktif_gloss_36.py` · `duzeltme_36.py` · `yasin_kapanis.py` · `yasin_paket_md.py` → `notlar/sure36_yasin_okuma.md`.
 
 Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 36 TUR SONU".
