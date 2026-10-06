@@ -9,7 +9,10 @@ Sûre okumasının DIŞINDA yapılan keşif oturumu. Ana okuma konumu DEĞİŞME
 4. **Mercek ön-kaydı denetimi (◈B, ◈K)** — `betikler/aralik_biyolog.py`, `aralik_kozmolog.py`. Biyoloji sözlüğü lafza göre DÜZ; gök-yer sözlüğü lafızdan sonra yoğun. **Ön-kayıt tetik kusurları ölçüldü** (aşağıda).
 5. **Ters okuma (mushafın sonundan)** — `ciktilar/sondan_01_30_ters_mushaf.html` (114:6→108:3), `sondan_31_60_ters_mushaf.html` (108:2→103:1); üretici `betikler/ters_onluk_sayfa.py`, `sondan_*_uret.py`. Sûre 103–114 okunmadı: meal çalışma çevirisi, gözlemler KAPATILAMAZ.
 6. **KATMAN 1 — bütün Kur'an** — `ciktilar/kuran_aralik_sayfalari.html` (tek dosya ~4 MB): lafız-çapalı bloklar, eşik 200 kelime (kullanıcı kararı) → 320 sayfa; Mushaf/Ters gezinme. Üretici `betikler/kuran_aralik_sayfalari.py` + `kuran_aralik_sablon.html`. İşaretler otomatik, doğrulanmamış.
-7. **Araç onarımı:** `kok_turkce.json` 1165 → **1167** (سوم, سمد; `betikler/kok_ekle_aralik.py`, `yama_retroaktif_gloss_aralik.py`). Yama 0, türkçe 0, anahtar 70 (PYTHONHASHSEED=0, ihlal farkı 0).
+7. **Eşzamanlı okuyucu (ONAYLI tasarım):** `ciktilar/okuyucu_ornek_sondan.html`, `betikler/okuyucu_ornek.py`; taslak meal tohumu `tablolar/calisma_meali.json` (90 ayet, 100–114). Tam Kur'an sürümü yeni oturumda.
+8. **Yön testi (ön-kayıtlı):** `notlar/ONKAYIT_yon_testi.md` — omnibus, L→O, L→E TUTTU; R→O KISMİ; dilbilgisi kontrolü önerildi.
+9. **Simetri testleri (keşif):** `betikler/simetri_olcum.py` — genel palindrom/halka yok; yerel ritim tutarlı.
+10. **Araç onarımı:** `kok_turkce.json` 1165 → **1167** (سوم, سمد; `betikler/kok_ekle_aralik.py`, `yama_retroaktif_gloss_aralik.py`). Yama 0, türkçe 0, anahtar 70 (PYTHONHASHSEED=0, ihlal farkı 0).
 
 ## Açık kararlar / borçlar (onarılmadı)
 * **Mercek ön-kaydı (`ONKAYIT_mercekler.md`, dondurulmuş) kusurlu:** ◈K ölü kök `ريح` (korpus روح) ve `ساعة` (korpus سوع); yanlış kök `سنن` (yıl = سنو); سمو'da ad lemmaları. ◈B: نعم'un 107/140 tokeni nimet. Öneri §8 sapması olarak `ARALIK_OKUMASI.md`'de — UYGULANMADI.

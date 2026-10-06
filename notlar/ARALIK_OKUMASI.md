@@ -98,3 +98,19 @@ Kullanıcı kararı: blok eşiği **200 kelime**. `betikler/kuran_aralik_sayfala
 * Sonuç: **320 sayfa**, medyan 219 kelime, en az 136 (mushafın son sayfası 108:1→114:6), en çok 584. Sayfa açılışları: lafız 293 · sûre başı 18 · Rab 9.
 * Görüntüleyici: Mushaf/Ters düğmesi, sayfa numarası, kaydırıcı, sûre seçici, 'sûre:ayet' ile atlama; sayfa başına aralık şeridi; sol aralıklar, sağ mushaf ayetleri + kayıtlı meal (2.578 ayet).
 * İşaretler otomatik, doğrulanmamış: lafız · Rab · esmâ? · 1P? · edilgen · Allâhümme (lafız sayılmaz, 1030). Okunmamış ayete not yok.
+
+## Matematikçi — düz/ters simetri testleri (KEŞİF, ön-kayıtsız; NUMARASIZ)
+Betik `betikler/simetri_olcum.py` → `ciktilar/simetri_olcum.json`. Null: sûre içi karıştırma / aynı uzaklıkta çift; tek/çift sûre yarıları ayrı (keşif/doğrulama).
+* **T1 ayet uzunluğu palindromu:** 5'li pencere tek sûrelerde 76 (null 44), çift sûrelerde 33 (null 31) — YARILAR TUTMUYOR. Katkı 37, 55, 81, 77 (nakarat ve eşit uzunluklu diziler). Trivial olmayan (≥3 farklı değer): tek 23/15 (p .036), çift 12/15 (p .83) → genel palindrom örüntüsü YOK; 10:6–10 tekil vaka.
+* **T1d yerel düzen:** komşu ayetlerin eşit uzunlukta olması her iki yarıda null'un 1,17–1,18 katı — TUTARLI. Palindrom fazlalığının asıl kaynağı ayna değil, yerel ritim dizileri.
+* **T2 aralık halkası:** iki lafız ayetinin kök örtüşmesi rastgele ayet çiftine göre 1,11 / 1,20 — ama null 'ikisi de lafız içeren ayet çifti' olunca 1,00 / 0,99 → halka değil, lafız ayetlerinin ortak kalıp sözlüğü.
+* **T3 sûre halkası (ilk–son ayet):** yüzdelik ort. 0,49 / 0,54 → genel bir başlangıç–son yankısı YOK.
+* Sonuç: korpus düzeyinde düz/ters simetri yok; tutarlı olanlar (a) yerel ritim dizileri, (b) lafız çevresindeki YÖNLÜ asimetri (1027 profili, gök-yer eğimi). Elle görülen aynalar (10:6–10, 35:19–22) yerel.
+
+## Yön testi (ÖN-KAYITLI: `notlar/ONKAYIT_yon_testi.md`)
+Ayet içi sıra rastgele çevrilen null'a karşı, iki yarıda: omnibus asimetri TUTTU (2,5×), L→O TUTTU, L→E TUTTU, R→O KISMİ. Yön var; dilbilgisinden ayrıştırılmadı — kontrol isimli ön-kayıt önerildi.
+
+## Eşzamanlı okuyucu — ONAYLANAN tasarım (2026-10-05)
+Örnek `ciktilar/okuyucu_ornek_sondan.html` (sayfa 320 + 319, 90 ayet), üretici `betikler/okuyucu_ornek.py` — kullanıcı onayladı.
+Satır = ayet çifti (sol ters, sağ düz), tek kaydırma, sayfa ortasında buluşma; hücrede numara · sûre adı (değişince) · aralık etiketi · mushaf metni · meal (taslak etiketi). Varsayılan yalnız lafız; Rab/esmâ?/1P?/edilgen düğmeyle.
+Taslak meal tohumu: `tablolar/calisma_meali.json` — 90 ayet (100:1–114:6), durum 'taslak'. okuma_metni.json mealleri önceliklidir.

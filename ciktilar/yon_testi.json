@@ -1,0 +1,71 @@
+{
+ "onkayit": "notlar/ONKAYIT_yon_testi.md",
+ "tek": {
+  "A": {
+   "gozlenen": 0.0815,
+   "null_ort": 0.0322,
+   "p_tek_yonlu": 0.001
+  },
+  "P1": {
+   "gozlenen": 47,
+   "null_ort": 1.756,
+   "p_tek_yonlu": 0.003
+  },
+  "P2": {
+   "gozlenen": 24,
+   "null_ort": -0.556,
+   "p_tek_yonlu": 0.031
+  },
+  "P3": {
+   "gozlenen": 9,
+   "null_ort": -10.489,
+   "p_tek_yonlu": 0.039
+  },
+  "sayimlar": {
+   "L>O": 362,
+   "O>L": 315,
+   "L>E": 267,
+   "E>L": 243,
+   "R>O": 122,
+   "O>R": 113
+  },
+  "olay_gecis_toplam": 4468
+ },
+ "çift": {
+  "A": {
+   "gozlenen": 0.0855,
+   "null_ort": 0.0316,
+   "p_tek_yonlu": 0.001
+  },
+  "P1": {
+   "gozlenen": 53,
+   "null_ort": 12.714,
+   "p_tek_yonlu": 0.011
+  },
+  "P2": {
+   "gozlenen": 38,
+   "null_ort": -4.717,
+   "p_tek_yonlu": 0.002
+  },
+  "P3": {
+   "gozlenen": 20,
+   "null_ort": 7.018,
+   "p_tek_yonlu": 0.1179
+  },
+  "sayimlar": {
+   "L>O": 445,
+   "O>L": 392,
+   "L>E": 315,
+   "E>L": 277,
+   "R>O": 143,
+   "O>R": 123
+  },
+  "olay_gecis_toplam": 4973
+ },
+ "karar": {
+  "A": "TUTTU",
+  "P1": "TUTTU",
+  "P2": "TUTTU",
+  "P3": "KISMİ"
+ }
+}
