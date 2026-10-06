@@ -3,7 +3,7 @@
 
 BLOK BAŞI KAYIT: her blok sonunda bu dosyaya o bloğun adayları ve bağları EKLENİR ve betik
 yeniden koşulur. Set bütünüyle yeniden yazılır (idempotent): iki kez koşmak çift kayıt üretmez.
-Numaralar havuzun sonundan devam eder (1023'dan); betik sıranın kopmadığını doğrular.
+Numaralar havuzun sonundan devam eder (1037'den — X_aralik 1023-1036 araya girdi, 2026-10-05); betik sıranın kopmadığını doğrular.
 """
 import json
 

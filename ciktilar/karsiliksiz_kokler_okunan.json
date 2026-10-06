@@ -1,0 +1,949 @@
+{
+ "tarih": "2026-10-05",
+ "not": "kok_turkce.json (1166) içinde OLMAYAN ama okunmuş ayetlerde geçen kökler. turkce_denetim yalnız KOK içindeki kökleri tarıyor — bu kökler ona GÖRÜNMEZ. Kayıtlı metinler bu kökleri Arapça anmadığı sürece biçim ihlali yok; ama olcum_bicim/blok_dikey yeniden üretimi ??? / KARŞILIK YOK verir.",
+ "kok_sayisi": 145,
+ "korpusta_karsiliksiz_toplam": 485,
+ "sure_dagilimi": {
+  "2": 2,
+  "9": 50,
+  "10": 6,
+  "11": 19,
+  "12": 37,
+  "13": 8,
+  "14": 8,
+  "15": 5,
+  "16": 9,
+  "17": 15,
+  "18": 40,
+  "19": 3
+ },
+ "kokler": {
+  "كهف": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "18:9",
+    "18:10",
+    "18:11",
+    "18:16",
+    "18:17",
+    "18:25"
+   ]
+  },
+  "ذمم": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "9:8",
+    "9:10",
+    "17:18",
+    "17:22"
+   ]
+  },
+  "قدد": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "12:25",
+    "12:26",
+    "12:27",
+    "12:28"
+   ]
+  },
+  "همم": {
+   "korpus_token": 9,
+   "okunan_ayet": [
+    "9:13",
+    "9:74",
+    "12:24"
+   ]
+  },
+  "غور": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "9:40",
+    "9:57",
+    "18:41"
+   ]
+  },
+  "جدر": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "9:97",
+    "18:77",
+    "18:82"
+   ]
+  },
+  "خلط": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "9:102",
+    "10:24",
+    "18:45"
+   ]
+  },
+  "حرص": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "9:128",
+    "12:103",
+    "16:37"
+   ]
+  },
+  "أون": {
+   "korpus_token": 8,
+   "okunan_ayet": [
+    "10:51",
+    "10:91",
+    "12:51"
+   ]
+  },
+  "لفت": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "10:78",
+    "11:81",
+    "15:65"
+   ]
+  },
+  "ركن": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "11:80",
+    "11:113",
+    "17:74"
+   ]
+  },
+  "عير": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "12:70",
+    "12:82",
+    "12:94"
+   ]
+  },
+  "رفق": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "18:16",
+    "18:29",
+    "18:31"
+   ]
+  },
+  "سيح": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "9:2",
+    "9:112"
+   ]
+  },
+  "حصر": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "9:5",
+    "17:8"
+   ]
+  },
+  "رصد": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "9:5",
+    "9:107"
+   ]
+  },
+  "ألل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:8",
+    "9:10"
+   ]
+  },
+  "رحب": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "9:25",
+    "9:118"
+   ]
+  },
+  "مسح": {
+   "korpus_token": 15,
+   "okunan_ayet": [
+    "9:30",
+    "9:31"
+   ]
+  },
+  "لجأ": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "9:57",
+    "9:118"
+   ]
+  },
+  "لمز": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "9:58",
+    "9:79"
+   ]
+  },
+  "أسس": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "9:108",
+    "9:109"
+   ]
+  },
+  "أوه": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:114",
+    "11:75"
+   ]
+  },
+  "زخرف": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "10:24",
+    "17:93"
+   ]
+  },
+  "جوز": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "10:90",
+    "18:62"
+   ]
+  },
+  "غيض": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:44",
+    "13:8"
+   ]
+  },
+  "سعد": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:105",
+    "11:108"
+   ]
+  },
+  "جبب": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "12:10",
+    "12:15"
+   ]
+  },
+  "حوش": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "12:31",
+    "12:51"
+   ]
+  },
+  "عصر": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "12:36",
+    "12:49"
+   ]
+  },
+  "بعر": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "12:65",
+    "12:72"
+   ]
+  },
+  "كظم": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "12:84",
+    "16:58"
+   ]
+  },
+  "أمل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "15:3",
+    "18:46"
+   ]
+  },
+  "كلو": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:23",
+    "18:33"
+   ]
+  },
+  "ستر": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "17:45",
+    "18:90"
+   ]
+  },
+  "رفت": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:49",
+    "17:98"
+   ]
+  },
+  "هيأ": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "18:10",
+    "18:16"
+   ]
+  },
+  "حور": {
+   "korpus_token": 13,
+   "okunan_ayet": [
+    "18:34",
+    "18:37"
+   ]
+  },
+  "غدر": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:47",
+    "18:49"
+   ]
+  },
+  "سفه": {
+   "korpus_token": 11,
+   "okunan_ayet": [
+    "2:13"
+   ]
+  },
+  "ربح": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "2:16"
+   ]
+  },
+  "طعن": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:12"
+   ]
+  },
+  "قرف": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "9:24"
+   ]
+  },
+  "كسد": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:24"
+   ]
+  },
+  "وطن": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:25"
+   ]
+  },
+  "نجس": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:28"
+   ]
+  },
+  "عيل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:28"
+   ]
+  },
+  "ضهأ": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:30"
+   ]
+  },
+  "فضض": {
+   "korpus_token": 9,
+   "okunan_ayet": [
+    "9:34"
+   ]
+  },
+  "حمي": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "9:35"
+   ]
+  },
+  "كوي": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:35"
+   ]
+  },
+  "جبه": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:35"
+   ]
+  },
+  "أيد": {
+   "korpus_token": 11,
+   "okunan_ayet": [
+    "9:40"
+   ]
+  },
+  "ثبط": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:46"
+   ]
+  },
+  "خبل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:47"
+   ]
+  },
+  "كسل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:54"
+   ]
+  },
+  "جمح": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:57"
+   ]
+  },
+  "سخط": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "9:58"
+   ]
+  },
+  "دمع": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:92"
+   ]
+  },
+  "شفو": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:109"
+   ]
+  },
+  "جرف": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "9:109"
+   ]
+  },
+  "هور": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:109"
+   ]
+  },
+  "خمص": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "9:120"
+   ]
+  },
+  "عنت": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "9:128"
+   ]
+  },
+  "حبس": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:8"
+   ]
+  },
+  "زري": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "11:31"
+   ]
+  },
+  "بلع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "11:44"
+   ]
+  },
+  "قلع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "11:44"
+   ]
+  },
+  "جود": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:44"
+   ]
+  },
+  "حنذ": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "11:69"
+   ]
+  },
+  "مجد": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "11:73"
+   ]
+  },
+  "روع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "11:74"
+   ]
+  },
+  "نضد": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "11:82"
+   ]
+  },
+  "رفد": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:99"
+   ]
+  },
+  "تبب": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "11:101"
+   ]
+  },
+  "شهق": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "11:106"
+   ]
+  },
+  "طرح": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:9"
+   ]
+  },
+  "رتع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:12"
+   ]
+  },
+  "دلو": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "12:19"
+   ]
+  },
+  "درهم": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:20"
+   ]
+  },
+  "زهد": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:20"
+   ]
+  },
+  "غلق": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:23"
+   ]
+  },
+  "هيت": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:23"
+   ]
+  },
+  "شغف": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:30"
+   ]
+  },
+  "خبز": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:36"
+   ]
+  },
+  "حصحص": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:51"
+   ]
+  },
+  "مير": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:65"
+   ]
+  },
+  "حوج": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "12:68"
+   ]
+  },
+  "صوع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:72"
+   ]
+  },
+  "وعي": {
+   "korpus_token": 7,
+   "okunan_ayet": [
+    "12:76"
+   ]
+  },
+  "فتأ": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:85"
+   ]
+  },
+  "حرض": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "12:85"
+   ]
+  },
+  "ثرب": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:92"
+   ]
+  },
+  "فند": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "12:94"
+   ]
+  },
+  "صنو": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "13:4"
+   ]
+  },
+  "رعد": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "13:13"
+   ]
+  },
+  "صعق": {
+   "korpus_token": 11,
+   "okunan_ayet": [
+    "13:13"
+   ]
+  },
+  "محل": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "13:13"
+   ]
+  },
+  "زبد": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "13:17"
+   ]
+  },
+  "جفأ": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "13:17"
+   ]
+  },
+  "قرع": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "13:31"
+   ]
+  },
+  "جرع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "14:17"
+   ]
+  },
+  "رمد": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "14:18"
+   ]
+  },
+  "جزع": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "14:21"
+   ]
+  },
+  "حيص": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "14:21"
+   ]
+  },
+  "فرع": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "14:24"
+   ]
+  },
+  "جثث": {
+   "korpus_token": 1,
+   "okunan_ayet": [
+    "14:26"
+   ]
+  },
+  "هطع": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "14:43"
+   ]
+  },
+  "صفد": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "14:49"
+   ]
+  },
+  "سمم": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "15:27"
+   ]
+  },
+  "جزأ": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "15:44"
+   ]
+  },
+  "وسم": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "15:75"
+   ]
+  },
+  "كمل": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "16:25"
+   ]
+  },
+  "لبن": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "16:66"
+   ]
+  },
+  "نحل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "16:68"
+   ]
+  },
+  "لمح": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "16:77"
+   ]
+  },
+  "زلل": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "16:94"
+   ]
+  },
+  "رغد": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "16:112"
+   ]
+  },
+  "هلل": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "16:115"
+   ]
+  },
+  "حظر": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:20"
+   ]
+  },
+  "وسل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:57"
+   ]
+  },
+  "غسق": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "17:78"
+   ]
+  },
+  "نأي": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "17:83"
+   ]
+  },
+  "شكل": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:84"
+   ]
+  },
+  "نبع": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "17:90"
+   ]
+  },
+  "رقم": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "18:9"
+   ]
+  },
+  "أمد": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "18:12"
+   ]
+  },
+  "شطط": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "18:14"
+   ]
+  },
+  "قرض": {
+   "korpus_token": 13,
+   "okunan_ayet": [
+    "18:17"
+   ]
+  },
+  "وصد": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "18:18"
+   ]
+  },
+  "عثر": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:21"
+   ]
+  },
+  "مهل": {
+   "korpus_token": 6,
+   "okunan_ayet": [
+    "18:29"
+   ]
+  },
+  "شوي": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:29"
+   ]
+  },
+  "حفف": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:32"
+   ]
+  },
+  "زلق": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:40"
+   ]
+  },
+  "هشم": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:45"
+   ]
+  },
+  "ذرو": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "18:45"
+   ]
+  },
+  "وبق": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:52"
+   ]
+  },
+  "حقب": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:60"
+   ]
+  },
+  "صدف": {
+   "korpus_token": 5,
+   "okunan_ayet": [
+    "18:96"
+   ]
+  },
+  "نقب": {
+   "korpus_token": 3,
+   "okunan_ayet": [
+    "18:97"
+   ]
+  },
+  "غطو": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "18:101"
+   ]
+  },
+  "رطب": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "19:25"
+   ]
+  },
+  "جني": {
+   "korpus_token": 2,
+   "okunan_ayet": [
+    "19:25"
+   ]
+  },
+  "شور": {
+   "korpus_token": 4,
+   "okunan_ayet": [
+    "19:29"
+   ]
+  }
+ }
+}

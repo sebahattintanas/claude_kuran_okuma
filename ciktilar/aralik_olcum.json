@@ -1,0 +1,186 @@
+{
+ "tanim": "aralik_olcum.py — LAFIZDAN LAFZA ARALIK OKUMASI (2026-10-05, ayrı oturum) için tüm sayımlar.\nDepo kökünden koşulur: python3 betikler/aralik_olcum.py  →  ciktilar/aralik_olcum.json\nTanım: aralık = sûre içinde ardışık iki LEM=اللَّه tokeni arasındaki kelimeler (sûre sınırını geçenler dışlanır).\nDİKKAT: اللَّهُمَّ ayrı lemma (5 token) — bu tanımda SINIR DEĞİL (aday 1030). Anahtarlar korpustan kopyalanır, NFC.\nBütün sayılar BETİMLEYİCİ; null model yok. Örneklem tohumları 2026/2027/2028/2029 (oturumdaki sırayla).",
+ "allah_token": 2699,
+ "aralik": 2614,
+ "uzunluk": {
+  "medyan": 13.0,
+  "ort": 23.4,
+  "max": 735
+ },
+ "sinif": {
+  "B": 1514,
+  "C": 164,
+  "A": 878,
+  "D": 58
+ },
+ "orneklem": {
+  "2026": [
+   "3:31:5→3:31:8",
+   "9:28:25→9:29:5",
+   "24:61:72→24:62:5",
+   "35:34:3→35:38:2",
+   "37:23:3→37:35:9"
+  ],
+  "2027": [
+   "3:4:11→3:4:15",
+   "22:32:5→22:34:7",
+   "2:285:11→2:286:3",
+   "2:126:16→2:132:8",
+   "12:52:8→12:64:12"
+  ],
+  "2028": [
+   "9:127:16→9:129:5",
+   "10:6:8→10:10:12",
+   "3:23:12→3:28:14"
+  ],
+  "2029": [
+   "64:16:2→64:17:3",
+   "35:18:33→35:22:7",
+   "26:163:2→26:179:2"
+  ]
+ },
+ "tasiyici": {
+  "A": {
+   "n": 878,
+   "kelime": 6806,
+   "rab_100": 0.38,
+   "1P_100": 1.62,
+   "rab_var_%": 3,
+   "1P_var_%": 8,
+   "ikisi_yok_%": 91
+  },
+  "B": {
+   "n": 1514,
+   "kelime": 31159,
+   "rab_100": 0.8,
+   "1P_100": 2.81,
+   "rab_var_%": 13,
+   "1P_var_%": 23,
+   "ikisi_yok_%": 69
+  },
+  "C": {
+   "n": 164,
+   "kelime": 12116,
+   "rab_100": 1.67,
+   "1P_100": 5.27,
+   "rab_var_%": 63,
+   "1P_var_%": 79,
+   "ikisi_yok_%": 12
+  },
+  "D": {
+   "n": 58,
+   "kelime": 11129,
+   "rab_100": 1.92,
+   "1P_100": 6.7,
+   "rab_var_%": 93,
+   "1P_var_%": 95,
+   "ikisi_yok_%": 2
+  },
+  "korpus": {
+   "rab_100": 1.26,
+   "1P_100": 4.03
+  }
+ },
+ "tasiyicisiz_4plus": [
+  "16:9:2→16:18:4 (111 kel.)",
+  "4:19:31→4:23:51 (98 kel.)",
+  "40:35:18→40:42:3 (90 kel.)",
+  "46:17:21→46:21:19 (78 kel.)",
+  "26:213:4→26:227:7 (72 kel.)",
+  "4:1:25→4:5:7 (67 kel.)",
+  "5:76:13→5:80:14 (66 kel.)",
+  "9:123:14→9:127:16 (63 kel.)",
+  "42:27:3→42:31:10 (62 kel.)",
+  "3:103:30→3:107:7 (55 kel.)",
+  "51:51:4→51:58:2 (52 kel.)",
+  "7:196:3→7:200:7 (41 kel.)",
+  "19:30:4→19:35:3 (41 kel.)",
+  "42:40:10→42:44:3 (38 kel.)",
+  "7:190:10→7:194:6 (33 kel.)",
+  "37:152:2→37:159:2 (32 kel.)",
+  "35:18:33→35:22:7 (19 kel.)",
+  "26:89:4→26:93:3 (16 kel.)",
+  "26:93:3→26:97:1 (15 kel.)",
+  "53:58:5→53:62:2 (11 kel.)"
+ ],
+ "hal": {
+  "dagilim": {
+   "GEN": 1127,
+   "NOM": 980,
+   "ACC": 592
+  },
+  "matris_bas_son": {
+   "NOM>NOM": 379,
+   "NOM>ACC": 184,
+   "NOM>GEN": 384,
+   "ACC>NOM": 192,
+   "ACC>ACC": 189,
+   "ACC>GEN": 196,
+   "GEN>NOM": 382,
+   "GEN>ACC": 208,
+   "GEN>GEN": 500
+  },
+  "farkli_gozlenen": 0.591,
+  "farkli_bagimsizlik": 0.646
+ },
+ "ayet_ici_konum_ARTEFAKT": {
+  "n": 1736,
+  "bas_medyan": 0.69,
+  "son_medyan": 0.4,
+  "not": "ayet sınırını geçen aralıkta baş lafzı tanım gereği o ayetin SON, bitiş lafzı İLK lafzı — seçim artefaktı"
+ },
+ "onda_birlik_profil_10plus": {
+  "n": 1626,
+  "3MS_zamir": [
+   7.0,
+   5.9,
+   5.2,
+   5.0,
+   5.1,
+   4.7,
+   4.9,
+   4.6,
+   4.5,
+   3.8
+  ],
+  "esma": [
+   6.5,
+   3.0,
+   2.2,
+   2.3,
+   2.1,
+   2.1,
+   2.2,
+   2.4,
+   1.9,
+   1.5
+  ],
+  "rab": [
+   1.3,
+   1.1,
+   1.1,
+   1.2,
+   1.6,
+   1.4,
+   1.3,
+   1.3,
+   0.9,
+   0.7
+  ]
+ },
+ "allahumme": [
+  "3:26:2:1",
+  "5:114:5:1",
+  "8:32:3:1",
+  "10:10:4:1",
+  "39:46:2:1"
+ ],
+ "zulumat_nur": {
+  "ظُلُمَة (35:20:2:2)": {
+   "çoğul": 23
+  },
+  "نُور (35:20:4:2)": {
+   "tekil": 43
+  }
+ }
+}

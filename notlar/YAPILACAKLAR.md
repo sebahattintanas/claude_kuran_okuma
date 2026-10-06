@@ -5695,3 +5695,21 @@ Sûre 37 (Sâffât, 182 ayet) — `*_36` / `yasin_*` şablonlarından S=37 (set 
 `kok_turkce.json` 1144 → **1165**: sûre 37'nin 21 eksik kökünün tümü baştan eklendi (`kok_ekle_37.py`; gloss çok anlamlı, baskın lemma sayıldı): دحر (9) · وصب (9) · ثقب (10) · لزب (11) · كأس (45; ke's 6) · لذذ (46) · غول (47; hapaks) · نزف (47) · شوب (67; hapaks) · هرع (70) · سقم (89, 145) · روغ (91, 93) · زفف (94; hapaks) · تلل (103; hapaks) · جبن (103; hapaks) · أبق (140; hapaks) · سهم (141; hapaks) · دحض (141; mudhad / yudhidu-dâhida iki anlam) · لقم (142; hapaks) · حوت (142; hût 5) · سوح (177; hapaks).
 Retroaktif yama: yeni kök taşıyan önceden okunmuş 9 ayet, hedefli yama 0; genel geçişte **1** — 21:87 `derin` alanında çıplak حوت (21:87 metninde kök yok; okuma notundaki kelime köprüsü). turkce_denetim bu kökler eklenince 1 verdi: 36 şablonundaki yama betiği `derin`/`derin2` alanlarını yamamıyordu, denetim ise tarıyordu — `yama_retroaktif_gloss_37.py` alan kümesi denetimle eşitlendi (okumayı bloke eden arıza istisnası). Sonra denetimler: türkçe 0 · anahtar 70, diff 0.
 Şablonlar hazır (boş): `saffat_metin_1.py`, `saffat_kayit.py`, `uret_blok_37.py`, `aday_ekle_37_saffat.py` (boş sette sınandı, geçici kopyada), `yama_retroaktif_gloss_37.py`, `duzeltme_37.py`. Okuma 37:1'den.
+
+## ARALIK OKUMASI — ayrı oturum (2026-10-05)
+Sûre okumasının dışında "lafızdan lafza aralık" keşif turu; özet `notlar/ARALIK_OKUMASI.md`, sayımlar `betikler/aralik_olcum.py`.
+Adaylar **1023–1036**, set `X_aralik` (sûre dizisi dışında adlandırıldı). **Sûre 37 adayları bundan sonra 1037'den başlar**; set adı `AV_saffat` değişmedi. `aday_ekle_37_saffat.py` sırayı kendisi doğruluyor.
+### Yeni açık borçlar (dondurulmuş — kaydet, onarma)
+* **1030 — `اللَّهُمَّ` ayrı lemma (5 token):** defter lafız alanı ve aday 435 bunları nasıl sayıyor, kontrol. Karar: vokatif lafız lafız mı?
+* **1027 — aday 435 yeniden testine iki yönlü mesafe:** "lafızdan beri" / "lafza kadar" ayrı.
+* **1025 — 435 duyarlılık katmanları:** yalnız lafız · +Rab+tanrısal 1P · +edilgen · +gönderge-esmâ.
+* **1032 — nakarat sınırlı aralıklar** her aralık istatistiğinden önce işaretlenecek.
+* **1031 — esmâ taşıyıcı** ancak e_el = ilahi ise.
+### Süreç dersleri
+* NFC/anahtar: elle yazılan `اللَّه` lemma iki kez 0 eşleşme verdi — kural yine doğrulandı, anahtar korpustan kopyalandı.
+* Küçük örneklemde "5/5" ve "9/10" cazipti; tam sayım tersini verdi (1023). Örneklem gözlemi yalnız aday üretir.
+### Aralık oturumu ek (2026-10-05) — سوم onarımı ve açığa çıkan borç
+* `kok_turkce.json` **1165 → 1167** (سوم, سمد eklendi; `kok_ekle_aralik.py`). Sûre 37 oturumu 1165 bekliyordu — yeniden klonla.
+* **YENİ BORÇ (P1, dondurulmuş):** okunmuş ayetlerde **145 karşılıksız kök** (sûre 9–19 ağırlıklı: 9→50, 12→37, 18→40 kök). `turkce_denetim.py` KÖR NOKTASI: tabloda olmayan kökü hiç görmüyor; denetim "0" verirken bu kökler ölçüm satırı yeniden üretilince `???` basıyor. Liste `ciktilar/karsiliksiz_kokler_okunan.json`. Onarım: kök başına baskın lemma sayılarak gloss + retroaktif yama + denetime "okunan ayette tabloda olmayan kök" testi.
+* Aralık ağır okuması 16:9→18 gözlemleri NUMARASIZ (`ARALIK_OKUMASI.md`); numara sûre 37'den sonra.
+* **P1 — mercek ön-kaydı tetik kusurları (`ONKAYIT_mercekler.md`, dondurulmuş):** ◈K: ölü kök ريح (→روح), ساعة (→سوع); yanlış kök سنن (yıl = سنو); سمو'da ad lemmaları. ◈B: نعم'un 107/140 tokeni nimet. Elle yazılmış ön-kayıt kökleri anahtar_denetim'e girmiyor (.md taranmıyor). Sapma §8'e yazılmalı mı — karar bekliyor (`ARALIK_OKUMASI.md`).

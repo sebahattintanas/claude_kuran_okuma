@@ -1,0 +1,107 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kur'an · lafız-çapalı aralık sayfaları (mushaf ↔ ters)</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fbfaf6;--fg:#1d1b16;--mut:#6b665a;--ln:#e3dfd3;--card:#fff;--acc:#8a5a00;
+--laf:#b4471f;--lafbg:#fae8df;--rab:#0f6e56;--rabbg:#d4f0e6;--es:#3c3489;--pas:#5f5e5a;--bz:#0c447c;--bzbg:#e6f1fb;
+--bL:#D85A30;--bR:#1D9E75;--bE:#7F77DD;--bB:#378ADD;--bP:#B4B2A9;--bN:transparent}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--fg:#ece8dc;--mut:#a39d8c;--ln:#33302a;--card:#1d1c16;--acc:#e0b45a;
+--laf:#f0997b;--lafbg:#4a1b0c;--rab:#9fe1cb;--rabbg:#04342c;--es:#cecbf6;--pas:#b4b2a9;--bz:#b5d4f4;--bzbg:#042c53}}
+:root[data-theme="dark"]{--bg:#15140f;--fg:#ece8dc;--mut:#a39d8c;--ln:#33302a;--card:#1d1c16;--acc:#e0b45a;--laf:#f0997b;--lafbg:#4a1b0c;--rab:#9fe1cb;--rabbg:#04342c;--es:#cecbf6;--pas:#b4b2a9;--bz:#b5d4f4;--bzbg:#042c53}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:12px}
+h1{font-size:1.15rem;margin:.2rem 0}.mut{color:var(--mut);font-size:.85rem}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--ln);padding:8px 0;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+button,select,input{font:inherit;font-size:.9rem;color:var(--fg);background:var(--card);border:1px solid var(--ln);border-radius:8px;padding:5px 9px}
+button.on{border-color:var(--acc);color:var(--acc);font-weight:600}
+input[type=range]{flex:1;min-width:120px;padding:0}
+.info{font-size:.85rem;margin:.5rem 0}.info b{color:var(--acc)}
+.lg{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.78rem;color:var(--mut);margin:.3rem 0 .6rem}
+.lg span{white-space:nowrap}.sw{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin-right:4px}
+.st{display:flex;align-items:flex-end;gap:2px;min-height:60px;border-bottom:1px solid var(--ln);margin-bottom:10px}
+.st div{flex:1;min-width:3px;border-radius:2px 2px 0 0;border-top:3px solid var(--bL)}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+@media (max-width:760px){.cols{grid-template-columns:minmax(0,1fr)}}
+.ch{font-weight:600;font-size:.85rem;margin:.2rem 0 .4rem;color:var(--mut)}
+.row,.vs{background:var(--card);border:1px solid var(--ln);border-radius:10px;padding:8px 10px;margin-bottom:8px}
+.rh{font-size:.75rem;color:var(--mut);display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap}
+.ar{font-family:"Amiri Quran","Amiri","Traditional Arabic",serif;font-size:1.5rem;line-height:2.1;direction:rtl;text-align:right}
+@media (max-width:560px){.ar{font-size:1.25rem;line-height:1.95}}
+.tr{font-size:.88rem}.tr.yok{color:var(--mut);font-style:italic}
+.laf{color:var(--laf);background:var(--lafbg);border-radius:4px;padding:0 2px}
+.rab{color:var(--rab);background:var(--rabbg);border-radius:4px;padding:0 2px}
+.es{color:var(--es);text-decoration:underline dotted 2px;text-underline-offset:6px}
+.pas{text-decoration:underline dashed var(--pas) 1.5px;text-underline-offset:6px}
+.bz{color:var(--bz)}.umm{color:var(--laf);text-decoration:underline wavy var(--laf) 1px;text-underline-offset:6px}
+.vm{color:var(--mut);font-size:.8em}.sd{display:block;text-align:center;font-family:system-ui;font-size:.75rem;color:var(--acc);direction:ltr;margin:4px 0;border-top:1px dashed var(--ln)}
+.tg{font-size:.72rem;color:var(--mut)}
+</style></head><body><main>
+<h1>Kur'an · lafız-çapalı aralık sayfaları</h1>
+<p class="mut">Sayfa = lafızdan lafza aralıklardan kurulan ≥200 kelimelik blok (uzun sessizlikler Rab içeren ayette, Rab yoksa 400 kelimede ayet sınırında bölünür). Satır = aralık. Sağ sütun: sayfanın değdiği ayetler, mushaf metni. İşaretler OTOMATİKTİR ve doğrulanmamıştır (esmâ göndergesi, 1P'nin kimin sesi olduğu, edilgenin faili ölçülmez). Meal yalnız okunmuş ayetlerde, Claude'un çalışma çevirisi (Diyanet meali değildir). Aralık okuması, 2026-10-05.</p>
+<div class="bar">
+<button id="mM" class="on">Mushaf</button><button id="mT">Ters</button>
+<button id="pv" aria-label="önceki">◀</button><input id="pn" type="number" min="1" style="width:4.2em"><span id="pt" class="mut"></span><button id="nx" aria-label="sonraki">▶</button>
+<input id="sl" type="range" min="1">
+<select id="ss" aria-label="sûre"></select><input id="ja" placeholder="sûre:ayet" style="width:6.5em"><button id="jb">Git</button>
+</div>
+<div class="info" id="inf"></div>
+<div class="lg"><span><span class="sw" style="background:var(--lafbg);border:1px solid var(--laf)"></span>lafız</span><span><span class="sw" style="background:var(--rabbg);border:1px solid var(--rab)"></span>Rab</span><span><span class="es">esmâ?</span></span><span><span class="bz">1P?</span></span><span><span class="pas">edilgen</span></span><span><span class="umm">Allâhümme</span> (lafız sayılmaz)</span><span>· şerit: sütun = aralık, yükseklik = kelime, renk = aralıktaki baskın işaret (Rab › esmâ › 1P › edilgen), turuncu kenar = lafızla açılan aralık</span></div>
+<div class="st" id="strip"></div>
+<div class="cols"><div><div class="ch" id="lh">Aralıklar</div><div id="L"></div></div><div><div class="ch" id="rh">Mushaf düzeni</div><div id="R"></div></div></div>
+</main>
+<script>
+const D=/*__DATA__*/null;
+const T=D.tok,P=D.pg,NP=P.length;let mode='M',pg=1;
+const AI=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const $=id=>document.getElementById(id);
+$('pn').max=NP;$('sl').max=NP;$('pt').textContent='/ '+NP;
+const firstPg={};P.forEach((p,i)=>{for(const r of p){for(let j=r[0];j<r[1];j++){const k=T[j][0];if(!(k in firstPg))firstPg[k]=i+1}}});
+Object.keys(D.ad).forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s+' · '+D.ad[s];$('ss').appendChild(o)});
+function pageOf(s,a){for(let i=0;i<NP;i++){const p=P[i],a0=T[p[0][0]],a1=T[p[p.length-1][1]-1];
+ const c0=a0[0]*1000+a0[1],c1=a1[0]*1000+a1[1],c=s*1000+a;if(c>=c0&&c<=c1)return i+1}return null}
+function rowHtml(r,i){let h='',pv=null,ws=r[1]-r[0],c={R:0,E:0,B:0,P:0};
+ for(let j=r[0];j<r[1];j++){const t=T[j],b=t[3];
+  if(pv&&t[0]!==pv[0])h+='<span class="sd">— sûre '+t[0]+' · '+esc(D.ad[t[0]]||'')+' —</span>';
+  let cl=b&1?'laf':b&32?'umm':b&2?'rab':'';let w=esc(t[2]);
+  if(b&4&&!(b&1)){w='<span class="es">'+w+'</span>';c.E++}
+  if(b&8){w='<span class="pas">'+w+'</span>';c.P++}
+  if(b&16&&!(b&1)){w='<span class="bz">'+w+'</span>';c.B++}
+  if(b&2)c.R++;
+  h+=(cl?'<span class="'+cl+'">'+w+'</span>':w)+' ';
+  const nx=T[j+1];if(!nx||nx[1]!==t[1]||nx[0]!==t[0])h+='<span class="vm">﴿'+AI(t[1])+'﴾</span> ';pv=t}
+ const a=T[r[0]],z=T[r[1]-1];
+ const tip={'lafız':'lafızla açılıyor','sûre':'sûre başı','Rab':'Rab ayetinde kesim','düz':'düz kesim (400)'}[r[2]];
+ const tags=[c.R&&'Rab '+c.R,c.E&&'esmâ? '+c.E,c.B&&'1P? '+c.B,c.P&&'edilgen '+c.P].filter(Boolean).join(' · ')||'işaret yok';
+ return '<div class="row"><div class="rh"><span>aralık '+i+' · '+a[0]+':'+a[1]+' → '+z[0]+':'+z[1]+' · '+ws+' kelime</span><span>'+tip+'</span></div><div class="ar">'+h+'</div><div class="tg">'+tags+'</div></div>'}
+function render(){const p=P[pg-1];let rows=p.map((r,i)=>[r,i+1]);
+ const vs=[];for(const r of p)for(let j=r[0];j<r[1];j++){const k=T[j][0]+':'+T[j][1];if(vs[vs.length-1]!==k)vs.push(k)}
+ let V=[...new Set(vs)];if(mode==='T'){rows=rows.reverse();V=V.reverse()}
+ $('L').innerHTML=rows.map(([r,i])=>rowHtml(r,i)).join('');
+ $('R').innerHTML=V.map(k=>{const m=D.meal[k];return '<div class="vs"><div class="rh"><span>'+k+'</span></div><div class="ar">'+esc(D.ar[k]||'')+'</div><div class="tr'+(m?'':' yok')+'">'+(m?esc(m):'meal kayıtlı değil (henüz okunmadı)')+'</div></div>'}).join('');
+ const ws=p[p.length-1][1]-p[0][0];let lf=0;for(let j=p[0][0];j<p[p.length-1][1];j++)if(T[j][3]&1)lf++;
+ const a=T[p[0][0]],z=T[p[p.length-1][1]-1];const shown=mode==='T'?NP-pg+1:pg;
+ $('inf').innerHTML='<b>'+(mode==='T'?'Ters sırada '+shown+'. sayfa':'Sayfa '+pg)+'</b> · '+a[0]+':'+a[1]+' → '+z[0]+':'+z[1]+' · '+ws+' kelime · '+p.length+' aralık · '+lf+' lafız';
+ const mx=Math.max(...p.map(r=>r[1]-r[0]));
+ $('strip').innerHTML=(mode==='T'?[...p].reverse():p).map(r=>{let b=0;for(let j=r[0];j<r[1];j++)b|=T[j][3];
+  const col=b&2?'--bR':b&4?'--bE':b&16?'--bB':b&8?'--bP':'--bN';const h=8+52*(r[1]-r[0])/mx;
+  return '<div title="'+(r[1]-r[0])+' kelime" style="height:'+h+'px;background:var('+col+');border:1px solid var(--ln);'+(r[2]==='lafız'?'':'border-top:1px solid var(--ln)')+'"></div>'}).join('');
+ $('pn').value=mode==='T'?NP-pg+1:pg;$('sl').value=mode==='T'?NP-pg+1:pg;
+ $('lh').textContent=mode==='T'?'Aralıklar (sondan başa)':'Aralıklar';$('rh').textContent=mode==='T'?'Ayetler (sondan başa)':'Mushaf düzeni';
+ $('ss').value=a[0];history.replaceState(null,'','#p='+pg+'&m='+mode)}
+function go(p){pg=Math.min(NP,Math.max(1,p));render();window.scrollTo(0,0)}
+const disp2pg=v=>mode==='T'?NP-v+1:v;
+$('mM').onclick=()=>{mode='M';$('mM').classList.add('on');$('mT').classList.remove('on');render()};
+$('mT').onclick=()=>{mode='T';$('mT').classList.add('on');$('mM').classList.remove('on');render()};
+$('pv').onclick=()=>go(mode==='T'?pg+1:pg-1);$('nx').onclick=()=>go(mode==='T'?pg-1:pg+1);
+$('pn').onchange=e=>go(disp2pg(+e.target.value||1));$('sl').oninput=e=>go(disp2pg(+e.target.value));
+$('ss').onchange=e=>go(firstPg[e.target.value]);
+$('jb').onclick=()=>{const m=$('ja').value.match(/(\d+)\s*[:.]\s*(\d+)/);if(!m){$('ja').style.borderColor='var(--laf)';return}
+ const p=pageOf(+m[1],+m[2]);if(p){$('ja').style.borderColor='';go(p)}else $('ja').style.borderColor='var(--laf)'};
+$('ja').oninput=()=>$('ja').style.borderColor='';
+const h=location.hash.match(/p=(\d+)(?:&m=([MT]))?/);if(h){pg=+h[1];if(h[2]==='T'){mode='T';$('mT').classList.add('on');$('mM').classList.remove('on')}}
+render();
+</script></body></html>
