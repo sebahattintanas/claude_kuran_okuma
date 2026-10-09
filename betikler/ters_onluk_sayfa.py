@@ -3,6 +3,14 @@
 Aralık okuması, 2026-10-05. Vurgu kalıpları NFC'ye çevrilerek uygulanır (şedde/hareke sırası hatası iki kez görüldü)."""
 import json, html, unicodedata as ud
 N = lambda s: ud.normalize('NFC', s)
+_KT = None
+def W(s, a, i, n=1):
+    """Korpus metninden (veri/kuran_veri.json, ar_saf — sayfa_genel'in gösterdiği metin) s:a ayetinin
+    i. kelimesinden başlayan n kelime. Betiklere elle Arapça yazılmaz (anahtar_denetim); alıntılar konumla okunur."""
+    global _KT
+    if _KT is None:
+        _KT = {(x['no'], y['no']): y['ar_saf'].replace('\ufeff', '').split() for x in json.load(open('veri/kuran_veri.json', encoding='utf-8'))['sureler'] for y in x['ayetler']}
+    return ' '.join(_KT[(s, a)][i - 1:i - 1 + n])
 def sayfa(S, V, K, HL, NOT, baslik, baglam, gozlem, cikti):
     o = json.load(open('notlar/okuma_metni.json', encoding='utf-8'))[str(S)]
     cnt = {}
@@ -42,23 +50,23 @@ def sayfa(S, V, K, HL, NOT, baslik, baglam, gozlem, cikti):
 if __name__ == '__main__':
     V = list(range(64, 74))
     K = {64: 'N', 65: 'B', 66: 'B', 67: 'B', 68: 'B', 69: 'B', 70: 'N', 71: 'B', 72: 'B', 73: 'N'}
-    HL = {65: [('نَخْتِمُ', 'car'), ('وَتُكَلِّمُنَآ', 'car')], 66: [('نَشَآءُ', 'car'), ('لَطَمَسْنَا', 'car')], 67: [('نَشَآءُ', 'car'), ('لَمَسَخْنَٰهُمْ', 'car')],
-          68: [('نُّعَمِّرْهُ', 'car'), ('نُنَكِّسْهُ', 'car')], 69: [('عَلَّمْنَٰهُ', 'car')], 71: [('أَنَّا', 'car'), ('خَلَقْنَا', 'car'), ('أَيْدِينَآ', 'car')], 72: [('وَذَلَّلْنَٰهَا', 'car')]}
-    NOT = {64: "Taşıyıcı yok: cehennemliklere emir (ٱصْلَوْهَا, 2MP); konuşan adlandırılmıyor.",
-           65: "Biz: ağızları mühürleriz. Organlar konuşuyor — eller BİZE konuşur (تُكَلِّمُنَا), ayaklar şahitlik eder.",
-           66: "Biz, şart (لَوْ نَشَآءُ): gözleri silmek.", 67: "Biz, şart (لَوْ نَشَآءُ) ikinci kez: yerinde başka şekle çevirmek.",
-           68: "Biz: ömür ver(ir)iz → yaratılışta tersine çeviririz (yaşlanma). أَفَلَا يَعْقِلُونَ.",
-           69: "Biz: ona şiir öğretmedik. هُوَ burada Kur'an — Tanrı değil (3MS göndergesi ayrı).",
-           70: "Taşıyıcı yok: لِيُنذِرَ'nin öznesi Kur'an/elçi — 3MS ama Tanrıya gitmiyor.",
+    HL = {65: [(W(36, 65, 2), 'car'), (W(36, 65, 5), 'car')], 66: [(W(36, 66, 2), 'car'), (W(36, 66, 3), 'car')], 67: [(W(36, 67, 2), 'car'), (W(36, 67, 3), 'car')],
+          68: [(W(36, 68, 2), 'car'), (W(36, 68, 3), 'car')], 69: [(W(36, 69, 2), 'car')], 71: [(W(36, 71, 3), 'car'), (W(36, 71, 4), 'car'), (W(36, 71, 8), 'car')], 72: [(W(36, 72, 1), 'car')]}
+    NOT = {64: 'Taşıyıcı yok: cehennemliklere emir (' + W(36, 64, 1) + ', 2MP); konuşan adlandırılmıyor.',
+           65: 'Biz: ağızları mühürleriz. Organlar konuşuyor — eller BİZE konuşur (' + W(36, 65, 5) + '), ayaklar şahitlik eder.',
+           66: 'Biz, şart (' + W(36, 66, 1, 2) + '): gözleri silmek.', 67: 'Biz, şart (' + W(36, 66, 1, 2) + ') ikinci kez: yerinde başka şekle çevirmek.',
+           68: 'Biz: ömür ver(ir)iz → yaratılışta tersine çeviririz (yaşlanma). ' + W(36, 68, 7, 2) + '.',
+           69: 'Biz: ona şiir öğretmedik. ' + W(36, 69, 9) + " burada Kur'an — Tanrı değil (3MS göndergesi ayrı).",
+           70: 'Taşıyıcı yok: ' + W(36, 70, 1) + "'nin öznesi Kur'an/elçi — 3MS ama Tanrıya gitmiyor.",
            71: "Biz: ELLERİMİZin yaptığından davar yarattık — 65'te 'onların elleri', burada 'bizim ellerimiz'.",
-           72: "Biz: boyun eğdirdik — binme ve yeme.", 73: "Taşıyıcı yok: faydalar, içecekler — أَفَلَا يَشْكُرُونَ."}
+           72: "Biz: boyun eğdirdik — binme ve yeme.", 73: 'Taşıyıcı yok: faydalar, içecekler — ' + W(36, 35, 8, 2) + '.'}
     baglam = ('<b>Aralık bağlamı.</b> Bu on ayette lafız YOK: 36:47 ile 36:74 arasındaki 27 ayetlik aralığın içindeler. '
               'Taşıyıcıların neredeyse hepsi <b>Biz</b> (on ayetin yedisi). İlk onluktaki Biz bloğu (76–78) burada genişliyor: ters okumada Biz sesi 78\'den 65\'e kadar, aralarda üç boşlukla sürüyor.')
     gozlem = ('1. <b>Biz baskın, ama Biz\'in iki modu var:</b> fiilen yapan (65 mühürleriz, 69 öğretmedik, 71 yarattık, 72 boyun eğdirdik) ve şartlı yapabilecek olan (66–67 <i>lev neşâu</i> ×2, 68 ömür ve tersine çevirme).<br>'
-              '2. <b>Eller iki sahibe:</b> 65 أَيْدِيهِمْ (onların elleri Bize konuşur) / 71 أَيْدِينَآ (Bizim ellerimizin yaptığı). Aynı organ, iki taraf.<br>'
-              '3. <b>3MS her zaman Tanrı değil:</b> 69–70\'te هُوَ ve لِيُنذِرَ Kur\'an\'a/elçiye gidiyor. 3MS sayımı (aday 1027) bu ayetleri yanlışlıkla taşıyıcı sayar.<br>'
+              '2. <b>Eller iki sahibe:</b> 65 ' + W(36, 9, 4) + ' (onların elleri Bize konuşur) / 71 ' + W(36, 71, 8) + ' (Bizim ellerimizin yaptığı). Aynı organ, iki taraf.<br>'
+              "3. <b>3MS her zaman Tanrı değil:</b> 69–70'te " + W(36, 69, 9) + ' ve ' + W(36, 70, 1) + " Kur'an'a/elçiye gidiyor. 3MS sayımı (aday 1027) bu ayetleri yanlışlıkla taşıyıcı sayar.<br>"
               '4. <b>Yön:</b> ileri okumada ceza (64–67) → ömür (68) → vahiy (69–70) → nimet (71–73) → şükür sorusu. Ters okumada nimetten cezaya iniliyor.<br>'
-              '5. <b>Biyolog için yoğun:</b> ağız, el, ayak, göz (65–66), yaşlanma (68 نُنَكِّسْهُ), davar, binme, yeme, içme (71–73).')
+              '5. <b>Biyolog için yoğun:</b> ağız, el, ayak, göz (65–66), yaşlanma (68 ' + W(36, 68, 3) + '), davar, binme, yeme, içme (71–73).')
     print(sayfa(36, V, K, HL, NOT, 'Yâsîn 36:64–73 · ters okuma ↔ mushaf düzeni (ikinci onluk)', baglam, gozlem, 'ciktilar/yasin_36_64_73_ters_mushaf.html'))
 
 def sayfa_genel(KEYS, K, HL, NOT, MEAL, baslik, baglam, gozlem, cikti, meal_notu):

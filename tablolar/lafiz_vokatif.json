@@ -1,0 +1,33 @@
+{
+ "karar": "aday 1030 — vokatif Allâhümme lafız SAYILMAZ (defter lafız alanı ve ONKAYIT_435_ek K0 değişmez); bu tablo ayrı bayraktır, aralık/mesafe raporlarında ayrıca işaretlenir.",
+ "tarih": "2026-10-06",
+ "lemma": "اللَّهُمَّ",
+ "token_sayisi": 5,
+ "tokenler": {
+  "3:26:2:1": {
+   "ayet": "3:26",
+   "yuzey": "ٱللَّهُ",
+   "etiket": "PN|ROOT:أله|LEM:اللَّهُمَّ|ACC"
+  },
+  "5:114:5:1": {
+   "ayet": "5:114",
+   "yuzey": "ٱللَّهُ",
+   "etiket": "PN|ROOT:أله|LEM:اللَّهُمَّ|ACC"
+  },
+  "8:32:3:1": {
+   "ayet": "8:32",
+   "yuzey": "ٱللَّهُ",
+   "etiket": "PN|ROOT:أله|LEM:اللَّهُمَّ|ACC"
+  },
+  "10:10:4:1": {
+   "ayet": "10:10",
+   "yuzey": "ٱللَّهُ",
+   "etiket": "PN|ROOT:أله|LEM:اللَّهُمَّ|ACC"
+  },
+  "39:46:2:1": {
+   "ayet": "39:46",
+   "yuzey": "ٱللَّهُ",
+   "etiket": "PN|ROOT:أله|LEM:اللَّهُمَّ|ACC"
+  }
+ }
+}

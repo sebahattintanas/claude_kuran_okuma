@@ -60,4 +60,14 @@ Bu belgenin commit hash'i: **a7e9628** (2026-10-04 21:32 +0300; içerik o commit
 
 ## 8. Sapmalar
 
-(boş)
+### S1 — Tetik düzeltmesi (2026-10-06, sûre 37 oturumu; kullanıcı kararı)
+**Gerekçe:** 2026-10-05 aralık oturumu tetik listelerini korpusla ölçtü (`notlar/ARALIK_OKUMASI.md`, `betikler/aralik_kozmolog.py`, `aralik_biyolog.py`): iki ölü kök, bir yanlış kök, iki çok anlamlılık. Bu kayıt, düzeltmenin sonuçlara bakılmadan, yalnız tetiğin korpusta neyi yakaladığına göre yapıldığını belgeler.
+**Değişiklik (yalnız kesinlik/eşleşme düzeltmesi; yeni tetik sınıfı EKLENMEDİ):**
+- ◈K `ريح` → kök روح, yalnız lemma رِيح (29 token; روح'un rûh/ravh lemmaları tetiklemez).
+- ◈K `ساعة` → kök سوع, yalnız lemma ساعَة (48 token).
+- ◈K `سنن` → çıkarıldı (korpusta sünnet/sinn/mesnûn); yerine kök سنو, lemma سِنِين (12) ve سَنَة (7).
+- ◈K `سمو` → yalnız lemma سَماء (310 token); ad lemmaları (isim, müsemmâ, semmâ…) tetiklemez.
+- ◈B `نعم` → yalnız lemma نَعَم (33 token, davar); nimet lemmaları (nimet, naîm, en'ame, ni'me…) tetiklemez.
+**Uygulanmayanlar (ayrı karar ister):** duyarlılık genişletmeleri — ◈K ışık/karanlık/gölge/sıcaklık (نور ظلم ظلل حرر ضوأ), ◈B besin/ürün ve beden eylemi alt sınıfları. Bunlar yeni tetik sınıfıdır, düzeltme değil.
+**Uygulama:** 37:31'den itibaren, yalnız ileriye. 36:21–37:30 satırları DEĞİŞMEZ (§7). Sayım (morph.txt): okunmuş mercekli aralıkta düzeltilen köklerden yalnız سمو/gök lemması ×4 (36:28, 36:81, 37:5, 37:6) ve نعم/davar lemması ×1 (36:71) geçiyor — hepsi düzeltilmiş tetikle de aynı sonucu veriyor; ölü köklerin (روح/رِيح, سوع) ve سنو'nun hiçbir tokeni yok. Yani düzeltme önceki satırların hiçbirini değiştirmezdi.
+**Not:** `anahtar_denetim.py` .md dosyalarını taramıyor; bu bölümdeki lemma dizgeleri elle yazılmadı, `morph.txt`'ten token sayısıyla seçilerek kopyalandı.

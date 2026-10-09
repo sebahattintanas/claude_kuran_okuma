@@ -153,4 +153,18 @@ KARAR = {
  '36:81:13': 'ilahi', '36:81:14': 'ilahi',   # ve huve'l-hallâqu'l-alîm — O'na dönen zamirin haberi
  # sûre 36, blok 71-83 (ek)
  '36:79:5':  'degil',                         # enşeehâ evvele merratin — 'ilk kez' (zaman, sıfat değil)
+ # sûre 37, blok 11-20
+ '37:15:6':  'degil',                         # sihrun mübîn — sihrin sıfatı (inkârcıların sözü)
+ '37:17:2':  'degil',                         # âbâunâ'l-evvelûn — 'ilk atalar', insanın sıfatı (ölçüm satırı 'esmâ yok', 1022)
+ # sûre 37, blok 21-30
+ '37:29:5':  'degil',                         # lem tekûnû mu'minîn — insanların sıfatı (kâne haberi, gönderge insan)
+ # sûre 37, blok 51-60
+ '37:59:3':  'degil',                         # mevtetene'l-ûlâ — 'ilk ölümümüz' (ölümün sıfatı, zaman sırası)
+ # sûre 37, blok 71-80
+ '37:71:5':  'degil',                         # ekseru'l-evvelîn — 'öncekiler' (insanlar, zaman sırası)
+ '37:75:5':  'ilahi',                         # fe-le-ni'me'l-mucîbûn — övülen 'biz' (Tanrı); çoğul biçim (azamet çoğulu), SINIR VAKASI (999/1019 ailesi)
+ '37:78:4':  'degil',                         # fi'l-âhirîn — 'sonrakiler' (insanlar)
+ '37:79:1':  'degil',                         # selâmun alâ Nûh — selam/esenlik dileği, ad değil
+ # sûre 37, blok 81-90
+ '37:81:4':  'degil',                         # min ibâdine'l-mu'minîn — kulların sıfatı (insan)
 }

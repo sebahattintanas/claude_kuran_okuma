@@ -27604,5 +27604,44 @@
    "etiket": "bulunurken bulundu; tam sayım — dış literatürde bilinen gözlem",
    "test_notu": "Test gerektirmiyor (istisnasız sayım). Gloss: ظلم kökünün gloss'u 'zulüm' — zulumât anlamı yok (aday 1000/1015 ailesi)."
   }
+ ],
+ "AV_saffat": [
+  {
+   "no": 1037,
+   "aday": "MORFOLOJİ ETİKET TUTARSIZLIĞI — mâte 'mit-' biçimi: korpusta mâte fiilinin kesreli 'mit-' biçimi 8 token; 6'sı PASS etiketli (23:35, 23:82, 37:16, 37:53, 50:3, 56:47 — hepsi 'e-izâ mitnâ/mittum … turâben ve izâmen' itiraz kalıbında), 2'si etken (19:23, 19:66 'mittu'). defter2 'pas' alanı PASS etiketini sayıyor; bu 6 ayetin 5'inde ★/★★ kaynağı pas (23:35 ★, 23:82 ★, 37:16 ★★; 37:53 ★★, 50:3 ★★ defter alanı, henüz okunmadı; 56:47 yıldız yok). Okumada 37:16 ★★ kaynağı incelenirken bulundu (TAM SAYIM morph.txt üzerinden).",
+   "olculen": {
+    "mit_bicimi_token": 8,
+    "PASS": [
+     "23:35",
+     "23:82",
+     "37:16",
+     "37:53",
+     "50:3",
+     "56:47"
+    ],
+    "etken": [
+     "19:23",
+     "19:66"
+    ],
+    "yildiz_kaynagi_pas": [
+     "23:35",
+     "23:82",
+     "37:16",
+     "37:53",
+     "50:3"
+    ]
+   },
+   "durum": "ACIK",
+   "oncelik": "P1",
+   "kaynak": "sûre 37 okuması, blok 11-20",
+   "etiket": "araç açığı (aday 924): metin hakkında kanıt DEĞİL; araç geliştirme dondurulmuş, onarım tam okuma sonrası (1009 ailesine komşu)",
+   "ek_vaka": [
+    {
+     "ayet": "37:47",
+     "not": "ters yön: 'yunzefûn' (IV. bab, fethalı = edilgen biçim) PASS etiketsiz, edilgen alanı 0; aynı lemmanın 56:19 kesreli 'yunzifûn' biçimi etken. Edilgen etiketi biçimle iki yönde uyuşmuyor (fazla: mâte mit-; eksik: 37:47).",
+     "blok": "37:41-50"
+    }
+   ]
+  }
  ]
 }

@@ -15,8 +15,17 @@ S = 37
 METIN = 'saffat_metin_1'
 KAYIT = 'saffat_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = []
+BLOKLAR = [(1, 10), (11, 20), (21, 30), (31, 40), (41, 50), (51, 60), (61, 70), (71, 80), (81, 90)]
 BASLIK = {
+ (1, 10): 'sûre 37 (Sâffât) birinci blok — üç adsız topluluğa yemin, ilâhın birliği, göklerin ve doğuların Rabbi, dünya göğünün yıldızlarla süslenmesi, azgın şeytandan korunma, kulak verenin atışa tutulması ve kapanı izleyen alev.',
+ (11, 20): "sûre 37 ikinci blok — 'onlara sor': yapışkan çamurdan yaratılış, şaşma ve alay, hatırlatılınca hatırlamama, 'apaçık büyü', 'toprak ve kemik olunca mı', 'evet, boyun eğmiş olarak', tek haykırış, 'vay bize, bu din günü'.",
+ (21, 30): "sûre 37 üçüncü blok — ayrım günü, zalimlerin eşleriyle ve taptıklarıyla toplanması, cahîmin yoluna sevk ve durdurma, 'neden yardımlaşmıyorsunuz', teslimiyet, birbirine dönüp soruşma: 'sağ yandan gelirdiniz' / 'hayır, siz inanmıyordunuz, azgın bir kavimdiniz'.",
+ (31, 40): "sûre 37 dördüncü blok — 'Rabbimizin sözü hak oldu', 'sizi azdırdık, biz de azgındık', azapta ortaklık, 'lâ ilâhe illa'llâh' denince büyüklenme, 'deli bir şair için mi', 'o hakkı getirdi', 'siz tadacaksınız', yalnız yaptığınızla — Allah'ın ihlâsa erdirilmiş kulları müstesna.",
+ (41, 50): "sûre 37 beşinci blok — muhlas kullar: bilinen rızık, meyveler, nimet cennetleri, karşılıklı tahtlar, pınardan dolaştırılan beyaz kadeh (sersemletmez, sarhoş etmez), bakışını sınırlayan iri gözlü eşler — saklı yumurta gibi; ve 37:27'nin tekrarı: birbirine dönüp soruşma.",
+ (51, 60): "sûre 37 altıncı blok — cennetteki biri: 'bir arkadaşım vardı, sen de mi doğrulayanlardansın, ölüp toprak ve kemik olunca mı cezalandırılacağız derdi'; yukarıdan bakış, cahîmin ortası; 'Allah'a yemin, az kalsın beni de helak edecektin; Rabbimin nimeti olmasa'; ilk ölümden başka ölüm yok — büyük kurtuluş.",
+ (61, 70): "sûre 37 yedinci blok — 'çalışanlar bunun için çalışsın'; konukluk mu hayırlı, zakkum ağacı mı: zalimlere sınama, cahîmin dibinden çıkan, tomurcukları şeytan başları gibi; karınlar dolar, üstüne kaynar su, dönüş cahîme — çünkü atalarını sapmış buldular ve izlerinde koşturuluyorlar.",
+ (71, 80): "sûre 37 sekizinci blok — öncekilerin çoğu saptı, uyarıcılar gönderildi, uyarılanların sonuna bak (Allah'ın muhlas kulları müstesna); Nûh kıssası: seslendi, icabet edildi, ailesiyle büyük sıkıntıdan kurtarıldı, soyu kalıcı kılındı, sonrakiler arasında 'Nûh'a selâm' bırakıldı — iyileri böyle ödüllendiririz.",
+ (81, 90): "sûre 37 dokuzuncu blok — Nûh kıssasının kapanışı (inanan kullarımızdan; sonra ötekileri boğduk); İbrâhîm, Nûh'un yolundan: Rabbine sağlam kalple geldi; babasına ve kavmine: neye tapıyorsunuz, Allah'ı bırakıp uydurma ilâhlar mı, âlemlerin Rabbi hakkında ne sanıyorsunuz; yıldızlara bir bakış, 'ben hastayım', yüz çevirip gittiler.",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

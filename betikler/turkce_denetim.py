@@ -51,7 +51,40 @@ def main():
         if len(ayet_eksik) > 5: print("    … (+%d ayet daha)" % (len(ayet_eksik)-5))
     print("\nTOPLAM karşılıksız kök anması:", top)
     print("kok_turkce.json kapsamı:", len(ROOTS), "kök")
-    return top
+    kap = kapsam(d) if not sys.argv[1:] else 0
+    return top + kap
+
+def kapsam(d):
+    """İKİNCİ TEST (2026-10-06, sûre 37 oturumu): okunmuş ayetlerde morfolojide geçen ama kok_turkce.json'da
+    OLMAYAN kökler. Birinci test yalnız tablodaki kökleri tarar; tabloda olmayan kök ona görünmez (aralık
+    oturumunda 145 kök böyle bulundu). Bu test o kör noktayı kapatır."""
+    import unicodedata as ud
+    yol = next((y for y in ('../veri/morph.txt', 'morph.txt', 'veri/morph.txt') if os.path.exists(y)), None)
+    if yol is None:
+        print('kapsam testi: morph.txt bulunamadı'); return 1
+    okunan = set()
+    for s in d:
+        if not s.isdigit(): continue
+        for k in d[s]:
+            m = re.fullmatch(r'(\d+):(\d+)(?:-(\d+))?', k)   # birleşik kayıt anahtarı da (2:11-12)
+            if m:
+                for a in range(int(m.group(2)), int(m.group(3) or m.group(2)) + 1):
+                    okunan.add((int(m.group(1)), a))
+    tablo = {ud.normalize('NFC', k) for k in ROOTS}
+    eksik = {}
+    for l in open(yol, encoding='utf-8'):
+        p = l.rstrip('\n').split('\t')
+        if len(p) < 4: continue
+        m = re.search(r'ROOT:([^|]+)', p[3])
+        if not m: continue
+        sa = tuple(map(int, p[0].split(':')[:2]))
+        r = ud.normalize('NFC', m.group(1))
+        if sa in okunan and r not in tablo:
+            eksik.setdefault(r, set()).add(sa)
+    print("okunan ayette tabloda OLMAYAN kök:", len(eksik), "(okunan ayet: %d)" % len(okunan))
+    for r in sorted(eksik)[:10]:
+        print("    %s  %s" % (r, ' '.join('%d:%d' % x for x in sorted(eksik[r])[:3])))
+    return len(eksik)
 
 if __name__ == '__main__':
     sys.exit(0 if main() == 0 else 1)
