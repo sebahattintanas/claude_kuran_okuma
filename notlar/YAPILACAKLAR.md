@@ -5778,3 +5778,50 @@ Sûre 38 (Sâd, 88 ayet) — `*_37` / `saffat_*` şablonlarından S=38 (yeni ada
 * Onarım: `aday_ekle_37_saffat.py` yeniden koşuldu (1037, 1038 + iki ek vaka geri); calisma kopyası repo'yla eşitlendi; `esitle.py` artık hedef kaynaktan yeniyse kopyalamıyor ('ATLANDI' yazar) — okumayı bloke eden arıza istisnası.
 * Etkilenen teslimler: ara zip'ler `sure37_ara_1_120` ve `sure37_ara_1_182` AV_saffat'sız `aday_bulgular.json` içeriyordu — **kullanmayın**; tur sonu zip'i yeniden üretildi. Diğer repo'ya doğrudan yazılan dosyalar (`notlar/` altındakiler) esitle kapsamında değil, etkilenmedi; calisma–k farkı taranan başka bayat dosya yok.
 * Ders: denetimlere "aday havuzu sonu = beklenen" kontrolü (repo dosyasından okunarak) eklenmeli.
+
+## SÛRE 38 TUR SONU (2026-10-10)
+
+**Okunan: 2850 / 6236 ayet (%45,7)** — sûre 1 ve 9-38 TAM, sûre 2 kısmi (1-20). İlerleme `sad_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1324** (sûre 38 hazırlığında 1313 → 1324, `kok_ekle_38.py`: 11 kök). Aday havuzu **1038** (sûre 38'de yeni aday yok; `AW_sad` boş). Bağ **AR_sad** 103.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · mercek tetik taraması temiz · `AV_saffat` [1037, 1038] repo dosyasından her blokta doğrulandı (esitle onarımı sonrası).
+Sûrenin 88 ayeti 9 blokta okundu (son blok 81-88, 8 ayet); ek mercekler sûrenin tamamında. Paket `notlar/sure38_sad_okuma.md` (`sad_paket_md.py`).
+
+### Sûre 38 bilançosu (TAM SAYIM, `okuma_metni['38']['_bilanco_sure']`)
+733 kelime · lafız 3 token/2 ayet (26, 65) · Rab 10 token/10 ayet (9, 16, 24, 32, 35, 41, 61, 66, 71, 79; A/R 0,3 — sonuncusu İblîs'in ağzında) · edilgen 6 ayet (6, 8, 31, 53, 70, 79) · iltifât alanı 7 ayet (7, 43, 48, 50, 53, 54, 66) · mm2 1 (32) · hapaks 4 ayet (3, 16, 31, 36).
+Yıldız 0:64 · ★12 · ★★5 · ★★★7. ★★★: hapaks 3 (3, 16, 36) · pas 3 (31, 53, 70) · rab 1 (79). ★★: pas 8 · rab 9, 66, 71 · n 24. Düzeltilmiş kaynak (1001): kafiye 8 (12, 15, 18, 22, 33, 54, 55, 84).
+Fâsıla sınıfı ب 35 · N 21 · R 15 · ق 6 · د 6 · ص 2 · ط 1 · ج 1 · ل 1; kafiye kırığı 9 (12, 15, 18, 22, 31, 33, 54, 55, 84). En uzun 38:24 (32, tek); en kısa 38:68 (3, tek). Say işareti 9 ayet; doğru 4: 5 (vâhid), 15 (vâhide), 23 (tis' ×2, vâhide), 65 (vâhid) · yanlış pozitif 5: 24 (kesîr, qalîl), 51 (kesîra) — 37:71 ekser emsali; 35 (ehad = 'kimse'); 58 (zevc = 'çeşitler'); 62 ('nauddu' fiil).
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**38 → L4 yok (kesinlik 0/2; tarayıcı v4 adayları 38:23, 38:24 F_ölçü — koyun sayıları; toplam 0/36)**.
+Kademeler: L0 ×2 (10, 66) · L1 ×12 (18, 19, 23, 24, 27, 31, 33, 36, 42, 71, 72, 76 — 18 ve 19 L0'dan L1'e DÜZELTME).
+**DUZELTME 18/19:** blok 11-20'de 🜁 L0 yazılmıştı; `onarim/14_cipa_tanimi.py` kademe tanımı (L1 = adlandırma + alan/yeti/nitelik; 27:16-18 emsali) ile L1. Mercek metni korunur, `okuma_metni['38']['38:18'/'38:19']['duzeltildi']`.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+10 e_oto tokeni → ilâhî 7 (9 azîz+vehhâb, 35 vehhâb, 65 qahhâr, 66 azîz+ğaffâr, 71 hâliq) · değil 3 (7 âhir, 35 ehad, 70 mubîn). Sınıf oto 0:74 E2 R10 A2 → el 0:76 R10 A2.
+§4.3 mühür 7 → geçerli 5, yanlış 2 (7, 70). Geçerli mühür tonu: karma 3 · celâl 1 · denge 1.
+Ölçüm satırı ↔ bilanço ayrışması: 38:35, 38:65, 38:71'de ölçüm satırı 'MÜHÜRSÜZ' (71'de 'ORTA konum'), bilanço §4.3 geçerli — 1022 ailesine ek vaka.
+
+### Mevcut ailelere girenler (yeni aday açılmadı)
+* 924 araç açığı: özel ad kök alanına giriyor (38:12 'Âd' → عود 'geri dönme'); 38:13 'Eyke' ne ROOT ne PN; 38:48 'Zü'l-Kifl' ذو + كفل ayrışıyor, aktör dışı, كفل ipliğine (38:23 'ekfilnîhâ') katılıyor; 'melâike' (38:71, 73) ملك (mülk) ipliğine sayılıyor.
+* 987/1015 gloss: خلق ihtilâq (7) · فوق fevâq (15) · فجر fuccâr (28) · دبر tedebbür (29) · سوق sâq (33) · رجل ricl/ayak (42) · ترب etrâb (52) · سخر sihriyy (63) · ملك melek (71).
+* ◈B tetik listesi (S1 gereği yalnız ileri): نعج (23-24), جسد (34), رجل (42) listede yok → '—'; ters yönde زوج 'ezvâc = çeşitler' (58) ve يدي 'eydî = güç' (45) tetikliyor.
+* 1017 alıntı sınırı: 38:8 ayet içi 1P (onlar) → 1S ('zikrî', 'azâbi') alan 0; 38:14 'ıqâbi' 1S yâsı düşmüş.
+* Kafiye: 38:66 ر → 38:67 م (R → N) geçişi kırık alanında işaretlenmiyor.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AR_sad'da)
+* Sûre zikirle açılıp zikirle kapanıyor: 38:1 'zi'z-zikr' → 38:87 'zikrun li'l-âlemîn' (ذكر 13/13); حين 38:3 'lâte hîne menâs' → 38:88 'ba'de hîn'.
+* 38:5 inkârcıların itirazı 'ilâhen vâhidâ' → 38:65 'qul … illa'llâhu'l-vâhid' (وحد 4/4).
+* 'innehû evvâb' Dâvûd (17), Süleymân (30), Eyyûb (44); أوب 8 token: evvâb ×4 → meâb ×4, son 'meâb' azgınların (55). 38:25 = 38:40 son altı kelime (Dâvûd / Süleymân kapanışı).
+* Dâvûd 'fetennâhu … enâb' (24) → Süleymân 'fetennâ … thumme enâb' (34): فتن + نوب aynı sırayla.
+* 21:83-85 ve 38:41-48 anılanlar dizisi (Eyyûb → … → Zü'l-Kifl); 12:104 tek ayeti burada 38:86-87 iki ayete bölünmüş; 14:29'un iki yarısı 38:56 ve 38:60'ta.
+* 38:72-80: esit2 sûre 15 ile TAM 5 (72, 73, 77, 79, 80), BENZER 1 (78); 74-76 sûre 15'ten ayrılıp 2:34 / 7:12'ye yaslanıyor; 38:81, 83 → 15:38, 15:40 TAM.
+
+### Süreç dersleri (bu oturum)
+* **Kayıt sayımı denetimi:** mercek metnindeki her `KÖK [x/y]` ölçüm satırının kök alanıyla karşılaştırıldı (oturum betiği, 393 sayım): bir hata (38:42 رجل [1/1] → [1/2]) sunumdan önce yakalandı. Öneri: tetik2 ile birlikte repo denetimi olsun.
+* **Tetik taraması iki yönlü yakaladı:** 38:27 ◈B (خلق) boş, 38:72 ◈B tetiksiz dolu.
+* **sad_kayit ARIZA ekleme:** üç kez sözlük kapanış parantezi düştü (SyntaxError, koşmadan önce yakalandı) — blok sonu ekleme kalıbı `" ],\n}"` ile yapılmalı.
+* Meal parantezi metinde adlanmayan konuşanı adlandırmamalı: 38:75 '(Allah) dedi ki' → 'Dedi ki' (37:164 emsali).
+* Ara zip'ler: 38:1-30, 38:1-60 (0793015 tabanı; ikisi de AV_saffat'lı, doğrulandı).
+
+### Devam
+Sûre 39 (Zümer, 75 ayet) — `sad_*` şablonlarından S=39 (aday numarası 1039'dan, yeni set adları). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss.
