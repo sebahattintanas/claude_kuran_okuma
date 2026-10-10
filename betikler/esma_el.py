@@ -184,4 +184,14 @@ KARAR = {
  '37:156:4': 'degil', # sultânun mubîn — delilin sıfatı
  '37:168:6': 'degil', # mine'l-evvelîn — öncekiler (37:17 emsali)
  '37:181:1': 'degil', # selâmun ale'l-murselîn — selam cümlesi (37:79:1 kararı)
+ '38:7:6': 'degil', # fi'l-milleti'l-âhira — dinin sıfatı (son/öteki)
+ '38:9:6': 'ilahi', # rabbike'l-azîz — Rab'bin sıfatı
+ '38:9:7': 'ilahi', # rabbike'l-vehhâb — Rab'bin sıfatı
+ '38:35:10': 'degil', # lâ yenbeğî li-ehadin min ba'dî — 'kimse' (olumsuz bağlamda belirsiz zamir), ilahi gönderge yok
+ '38:35:15': 'ilahi', # inneke ente'l-vehhâb — Rab'be hitap (2MS), haber
+ '38:65:11': 'ilahi', # illa'llâhu'l-vâhidu'l-qahhâr — lafzın sıfatı
+ '38:66:6': 'ilahi', # rabbu's-semâvâti … el-azîz — Rab'bin sıfatı
+ '38:66:7': 'ilahi', # … el-ğaffâr — Rab'bin sıfatı
+ '38:70:8': 'degil', # nezîrun mubîn — uyarıcının (1S) sıfatı
+ '38:71:6': 'ilahi', # innî hâliqun beşeren — inne'nin haberi, 1S konuşan Rab (34:11 emsali)
 }
