@@ -27642,6 +27642,48 @@
      "blok": "37:41-50"
     }
    ]
+  },
+  {
+   "no": 1038,
+   "aday": "MORFOLOJİ İ'RÂB TUTARSIZLIĞI — gayr-i munsarif özel ad mecrur konumda ACC: 37:114 ve 37:120 'alâ mûsâ ve hârûn' — harf-i cerden sonra atıfla mecrur Hârûn ACC etiketli (Mûsâ GEN). Aynı dizge 'rabbi mûsâ ve hârûn' 7:122'de Hârûn GEN, 26:48'de ACC; 40:24 'ilâ fir'avne ve hâmâne ve qârûn' — Fir'avn GEN, Hâmân ACC, Qârûn GEN. Aktör alanı rolü i'râb etiketinden türetiyor (aktor.py: ACC → 'meful'), bu yüzden 37:114 ve 37:120'de Hârûn 'rol meful' yazılıyor. Korpusta Hârûn 20 token: GEN 7, ACC 10, NOM 3 (morph.txt).",
+   "olculen": {
+    "harun_token": 20,
+    "GEN": 7,
+    "ACC": 10,
+    "NOM": 3,
+    "mecrur_konumda_ACC": [
+     "26:48",
+     "37:114",
+     "37:120"
+    ],
+    "ayni_dizge_farkli_etiket": {
+     "7:122": "GEN",
+     "26:48": "ACC"
+    },
+    "ayni_ayette_karisik": {
+     "40:24": {
+      "fir'avn": "GEN",
+      "hâmân": "ACC",
+      "qârûn": "GEN"
+     }
+    }
+   },
+   "durum": "ACIK",
+   "oncelik": "P2",
+   "kaynak": "sûre 37 okuması, blok 111-120",
+   "etiket": "araç açığı (aday 924): metin hakkında kanıt DEĞİL; rol alanı (adlı aktör) etkileniyor; araç geliştirme dondurulmuş, onarım tam okuma sonrası (1037 ailesine komşu: morfoloji etiketi)",
+   "ek_vaka": [
+    {
+     "ayet": "37:123",
+     "not": "ters yön: 've inne ilyâse le-mine'l-murselîn' — İlyâs inne'nin ismi (mansub), morfoloji GEN etiketliyor; rol alanı 'mecrur' yazıyor. Gayr-i munsarif adın fethası i'râb etiketine iki yönde yanlış yansıyor (mecrur→ACC: Hârûn; mansub→GEN: İlyâs).",
+     "blok": "37:121-130"
+    },
+    {
+     "ayet": "37:139",
+     "not": "'ve inne yûnuse le-mine'l-murselîn' — Yûnus inne'nin ismi (mansub), morfoloji GEN; rol 'mecrur'. Aynı kalıp üç ayette: 37:123 İlyâs GEN (rol mecrur), 37:133 Lût ACC (rol meful; munsarif, tenvinli), 37:139 Yûnus GEN (rol mecrur) — yalnız munsarif ad doğru etiketli. Yûnus korpusta 4 token: 4:163 GEN, 6:86 ACC, 10:98 GEN, 37:139 GEN (morph.txt).",
+     "blok": "37:131-140"
+    }
+   ]
   }
  ]
 }
