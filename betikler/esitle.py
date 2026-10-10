@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """esitle.py — calisma/ (düz) → repo/ (ağaç). Yalnız DEĞİŞMİŞ ya da YENİ dosyalar kopyalanır;
 repo'ya doğrudan yazılan dosyalar (okuma_metni, mercek_kayit, aday_bulgular, okuma_baglantilari)
-calisma'daki bayat kopyalarla ezilmez (değişmedikleri için atlanır). Üretilen büyük dosyalar hariç."""
+calisma'daki bayat kopyalarla ezilmez: hedef kaynaktan yeniyse atlanır (2026-10-10 düzeltmesi —
+k yeniden klonlanınca eski kural aday_bulgular.json'u her koşuda eziyordu). Üretilen büyük dosyalar hariç."""
 import os, filecmp, shutil
 K, C, R = '/home/claude/k', '/home/claude/calisma', '/home/claude/repo'
 HARIC = {'ayet_iskelet.json', 'ngram_indeks.json'}
@@ -22,5 +23,8 @@ for f in sorted(os.listdir(C)):
     else: continue
     hedef = os.path.join(R, d, f)
     if os.path.exists(hedef) and filecmp.cmp(p, hedef, shallow=False): continue
+    if os.path.exists(hedef) and os.path.getmtime(hedef) > os.path.getmtime(p):
+        # repo kopyası daha yeni (repo'ya doğrudan yazan betik): bayat calisma kopyasıyla EZME (2026-10-10: aday_bulgular AV_saffat kaybı)
+        print('ATLANDI (repo daha yeni):', '%s/%s' % (d, f)); continue
     shutil.copy2(p, hedef); kop.append('%s/%s' % (d, f))
 print('eşitlenen:', len(kop)); [print('  ', x) for x in kop]
