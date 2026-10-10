@@ -1,14 +1,15 @@
-# OTURUM — sûre 37 (Sâffât) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 38 (Sâd) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 2762 / 6236 ayet (%44,3)** — sûre 1 ve 9-37 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 38 (Sâd, 88 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1313** kök · aday havuzu **1-1038** (`X_aralik` 1023-1036, `AV_saffat` 1037-1038) · bağ seti `AQ_saffat` 110.
-Denetim tabanı: türkçe **0** (iki test: gloss + okunan ayette tabloda olmayan kök) · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
+**Okunan: 2850 / 6236 ayet (%45,7)** — sûre 1 ve 9-38 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 39 (Zümer, 75 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1324** kök · aday havuzu **1-1038** (sûre 38'de yeni aday yok; `AW_sad` boş) · bağ seti `AR_sad` 103.
+Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
 Paket: depo `0793015`'e göre fark.
-Sûre 37 dosyaları: `saffat_metin_1.py` (MEAL1-18/M1-18) · `saffat_kayit.py` (CIPA, ARIZA, DUZELTME 155/176) · `uret_blok_37.py` · `aday_ekle_37_saffat.py` · `yama_retroaktif_gloss_37.py` · `duzeltme_37.py` · `saffat_kapanis.py` · `saffat_paket_md.py` → `notlar/sure37_saffat_okuma.md`.
-Sûre 38 için şablonlar `saffat_*`'tan S=38 (yeni set adları; numara 1039'dan, `aday_ekle` sırayı doğruluyor).
+Sûre 38 dosyaları: `kok_ekle_38.py` · `sad_metin_1.py` (MEAL1-9/M1-9) · `sad_kayit.py` (CIPA, ARIZA, DUZELTME 18/19) · `uret_blok_38.py` · `aday_ekle_38_sad.py` · `yama_retroaktif_gloss_38.py` · `duzeltme_38.py` · `sad_kapanis.py` · `sad_paket_md.py` → `notlar/sure38_sad_okuma.md`.
+Sûre 39 için şablonlar `sad_*`'tan S=39 (yeni set adları; numara 1039'dan, `aday_ekle` sırayı doğruluyor).
+Her blokta ayrıca: tetik taraması (mercek satırı ↔ morph kökleri) ve [x/y] sayım karşılaştırması (mercek metni ↔ ölçüm satırı) — ikisi de oturum betiği.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 37 TUR SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 38 TUR SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -47,5 +48,5 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
-Karar bekleyen: ◈K tetik فلك kesinlik düzeltmesi (S2) · مأي gloss ('ne zaman' → yüz).
+Karar bekleyen (kullanıcı: açık kalsın): ◈K tetik فلك kesinlik düzeltmesi (S2) · مأي gloss ('ne zaman' → yüz).
 Esmâ ön-kaydı DONDURULDU; §9 commit `b58c430`. Yalnız veri toplanır.
