@@ -167,4 +167,21 @@ KARAR = {
  '37:79:1':  'degil',                         # selâmun alâ Nûh — selam/esenlik dileği, ad değil
  # sûre 37, blok 81-90
  '37:81:4':  'degil',                         # min ibâdine'l-mu'minîn — kulların sıfatı (insan)
+ '37:101:3': 'degil', # halîm gulâmın sıfatı (bi-ğulâmin halîm)
+ '37:106:5': 'degil', # el-belâu'l-mubîn — belânın sıfatı
+ '37:108:4': 'degil', # fi'l-âhirîn — sonrakiler (nakarat, 37:78:4 ile aynı karar)
+ '37:109:1': 'degil', # selâmun alâ İbrâhîm — selam cümlesi (37:79:1 ile aynı karar)
+ '37:111:4': 'degil', # mu'minîn — kulların sıfatı (37:81 nakaratı)
+ '37:113:10': 'degil', # zâlimun li-nefsihî mubîn — sıfat
+ '37:119:4': 'degil', # fi'l-âhirîn — sonrakiler (37:78:4 kararı)
+ '37:120:1': 'degil', # selâmun alâ Mûsâ ve Hârûn — selam cümlesi (37:79:1 kararı)
+ '37:122:4': 'degil', # mu'minîn — kulların sıfatı (37:111 kararı)
+ '37:125:5': 'ilahi', # ahsene'l-hâlikîn — gönderge Allah (37:126 'Allâhe' bedel); çoğul sıfat tamlaması, sınır vakası (37:75:5 emsali)
+ '37:126:5': 'degil', # âbâikumu'l-evvelîn — ataların sıfatı (37:17 emsali)
+ '37:129:4': 'degil', # fi'l-âhirîn (37:78:4 kararı)
+ '37:130:1': 'degil', # selâmun alâ il yâsîn (37:79:1 kararı)
+ '37:132:4': 'degil', # mu'minîn — kulların sıfatı (37:111 kararı)
+ '37:156:4': 'degil', # sultânun mubîn — delilin sıfatı
+ '37:168:6': 'degil', # mine'l-evvelîn — öncekiler (37:17 emsali)
+ '37:181:1': 'degil', # selâmun ale'l-murselîn — selam cümlesi (37:79:1 kararı)
 }
