@@ -31,7 +31,7 @@ Her istatistikten önce: iki sınır lafız tokeninin İKİSİ de aynı nakarat3
 Tam okuma biter → süzgeç → geriye dönük e_el turu → süzgeç doğrulaması → tanrısal 1P işaret turu (K1 için) → aday 435 yeniden testi: birincil + Ek A/B/C → H1-H4 (H3 kapısı birincil teste bağlı).
 
 ## 7. Kilit
-Bu belgenin commit hash'i depoya yüklendiğinde buraya yazılır; içerik o andan sonra değiştirilmez.
+Bu belgenin commit hash'i: **0793015** (2026-10-09 11:15 +0300; içerik o commit'teki hâliyle birebir aynı — yalnız bu satır sonradan dolduruldu). İçerik bundan sonra değiştirilmez; sapma §8'e.
 
 ## 8. Sapmalar
 (boş)

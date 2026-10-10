@@ -5722,3 +5722,59 @@ Adaylar **1023–1036**, set `X_aralik` (sûre dizisi dışında adlandırıldı
 * **Karar 1 — anahtar denetimi 122 → 70:** aralık oturumunun dört ters okuma betiğindeki (`ters_onluk_sayfa.py`, `sondan_01_30/11_20/31_60_uret.py`) 152 elle yazılmış harekeli Arapça dizge, korpus metnini (kuran_veri `ar_saf`) konumla okuyan `W(sûre, ayet, kelime, n)` çağrısına çevrildi; harekesiz kök anması (أله) istisna. Vurgu sayıları dört sayfada aynı (52 · 16 · 40 · 26). Notlardaki alıntılar artık korpustaki tam kelime (önek ve hareke dahil). Denetim: BOZUK **70**, tohum0 ile ihlal farkı **0**.
 * **Karar 2 — karşılıksız kökler onarıldı:** `betikler/kok_ekle_okunan.py` (146 kök: aralık oturumunun 145'i + birleşik kayıt anahtarı 2:19-20 içindeki صبع), gloss çok anlamlı, baskın lemma önce; `kok_turkce.json` 1167 → **1313**. Geriye dönük yama `yama_retroaktif_gloss_okunan.py`. `turkce_denetim.py`'ye **ikinci test**: okunan ayette morfolojide geçip tabloda olmayan kök (birleşik anahtarlar dahil) — 0 değilse çıkış kodu 1.
 * **Karar 3 — aday 1030:** vokatif Allâhümme lafız SAYILMAZ; defter lafız alanı ve 435 K0 değişmez. Ayrı bayrak: `tablolar/lafiz_vokatif.json` (`betikler/lafiz_vokatif_bayrak.py`; 5 token: 3:26, 5:114, 8:32, 10:10, 39:46).
+
+## SÛRE 37 TUR SONU (2026-10-10)
+
+**Okunan: 2762 / 6236 ayet (%44,3)** — sûre 1 ve 9-37 TAM, sûre 2 kısmi (1-20). İlerleme `saffat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1313** (sûre 37 hazırlığında 1144 → 1165; aralık oturumu 1167; karşılıksız kök onarımı 1313). Aday **1037-1038** (`AV_saffat`, 2). Bağ **AQ_saffat** 110.
+Denetimler her blokta ve kapanışta: türkçe **0** (tabloda olmayan kök 0) · anahtar **70 = taban**, diff 0.
+Sûrenin 182 ayeti 18 blokta okundu (son blok 171-182, 12 ayet); ek mercekler sûrenin tamamında, §8 S1 tetik düzeltmesi 37:31'den. Paket `notlar/sure37_saffat_okuma.md` (`saffat_paket_md.py`).
+
+### Sûre 37 bilançosu (TAM SAYIM, `okuma_metni['37']['_bilanco_sure']`)
+860 kelime · lafız 15 token/15 ayet (23, 35, 40, 56, 74, 86, 96, 102, 126, 128, 152, 159, 160, 169, 182) · Rab 14 token/11 ayet (5, 31, 57, 84, 87, 99, 100, 126, 149, 180, 182; A/R 1,07) · edilgen 10 ayet · iltifât alanı 28 ayet (çoğu alıntı sınırı, 1017; gerçek muhatap geçişleri 6, 137, 140, 154, 161) · mm2 2 (10, 88) · hapaks 9 ayet (11, 47, 67, 94, 103, 140, 141, 142, 177).
+Yıldız 0:141 · ★3 · ★★6 · ★★★32 — kaynak rab 11 · allah 11 · pas 9 · hapaks 9 · n 1 (37:7 kafiye kırığı → düzeltilmiş kaynak 'kafiye', 1001). ★★★: rab 11 (5, 31, 57, 84, 87, 99, 100, 126, 149, 180, 182) · allah 10 (40, 56, 74, 86, 96, 128, 152, 159, 160, 169) · hapaks 9 · pas 2 (45, 70).
+Fâsıla sınıfı N 171 · ب 5 · A 3 · د 2 · ق 1; kafiye kırığı 37:7. En uzun 37:102 (26, tek); en kısa 2 kelime: 1, 2, 3, 17, 155, 176. say işareti 5: doğru 4 (vâhid), 19 (vâhide), 147 (elf; mi'e alana girmiyor) · yanlış pozitif 22 (zevc), 71 (ekser).
+
+### Yeni adaylar
+| no | konu | öncelik |
+|---|---|---|
+| 1037 | morfoloji edilgen etiketi biçimle iki yönde uyuşmuyor: mâte 'mit-' biçimi 8 token, 6'sı PASS (23:35, 23:82, 37:16, 37:53, 50:3, 56:47); ters yön 37:47 'yunzefûn' PASS'sız | P1 (924; 1009 komşu) |
+| 1038 | gayr-i munsarif özel ad i'râb etiketi: mecrur Hârûn ACC (37:114, 37:120; 26:48 — aynı dizge 7:122'de GEN), 40:24 Hâmân ACC; mansub İlyâs (37:123) ve Yûnus (37:139) GEN — aynı kalıpta munsarif Lût (37:133) doğru; aktör rol alanı ACC→meful türettiği için etkileniyor | P2 (924; 1037 komşu) |
+Ayrıca mevcut ailelere girdi: 983 hapaks ★★★ (9 ayet) · 1012 kısa ayet lafız ★★★ (allah kaynaklı 10 ayet) · 1020 kısa ayet Rab ★★★ (rab kaynaklı 11 ayet) · 1017 alıntı sınırı iltifât (93, 127, 167, 168, 170 …) · 1022 ölçüm satırı esmâ ↔ esma_kayit (17, 101, 125) · 517 biçim alanı (100 edatsız nidâ VOC yok; 167 in-i muhaffefe COND) · 999/1019 çoğul tamlama içinde esmâ 'ilahi' (75 mucîbûn, 125 hâlikîn — sınır vakası) · 987/1015 gloss: بني (bunayye, benât/benûn), ملك (melâike), **مأي 'ne zaman' — 10/10 token lemma mi'e (yüz), gloss tek lemmayı hiç karşılamıyor** · 1003/esit2 satırında eş ayet iki kez (araç tekrarı: 108, 111, 121, 128, 129, 131, 132, 160).
+
+### Karar bekleyen (kullanıcı)
+* **S2 — ◈K tetik فلك:** kök 25 token, lemma fulk (gemi) 23, felek 2. 37:140'ta tetik gemi için çalıştı ('kozmik öğe değil' notuyla yazıldı). S1 türünden kesinlik düzeltmesi (yalnız felek lemması) — ön-kayıt §8'e S2 olarak yazılsın mı, ileriye mi?
+* **مأي gloss onarımı:** 'ne zaman' → 'yüz (sayı)'. Araç dondurma kuralı nedeniyle onarılmadı; tur sonu gloss taramasına mı, şimdi mi?
+
+### Aday 948 birikimi (tarayıcı v4) — ölçüt değişmedi
+… 36 → 0/7 (toplam 0/33) · **37 → L4 yok (kesinlik 0/1; toplam 0/34)**. Sûre 37 adayı: 102 (نوم; işaretler şart + bakış konuşmanın yapısından).
+Çıpa kademeleri: L0 ×3 (5, 88, 102) · L1 ×4 (6, 10, 11, 16). Sûrede doğa olgusu az; 37:6-10 gök/yıldız/şihâb bölütü en yoğun.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+26 e_oto tokeni → ilâhî 2 (37:75 mucîbûn, 37:125 hâlikîn — ikisi de çoğul biçim, sınır vakası). Sınıf oto 0:133 E25 R9 A13 AR2 → el 0:156 E2 R9 A13 AR2.
+§4.3 mühür 26 → geçerli 2, yanlış 24 (mubîn, âhir, selâm, mu'min, evvel, halîm … — kapanış formüllerindeki âhirîn/selâm/mu'minîn tekrarları dahil). Geçerli mühür tonu: cemâl 1 · denge 1.
+Esmâ el kararları sûre boyunca dolduruldu (e_oto var / e_el yok denetimi her blokta 0).
+
+### Okumada görülenler (KAPATILAMAZ, defter bağı olanlar AQ_saffat'ta)
+* Kıssa kapanış dörtlüsü (tereknâ · selâm · kezâlike · innehû) dört kez aynı sırada: Nûh 78-81, İbrâhîm 108-111, Mûsâ-Hârûn 119-122 (ikil), İlyâs 129-132; Lût (133-138) ve Yûnus (139-148) kıssalarında yok. Selam formülü beşinci kez 181'de adsız çoğulla ('ale'l-murselîn').
+* Açılış kalıbı 've inne X le-mine'l-murselîn' üç kıssada (123, 133, 139).
+* 'illâ ibâda'llâhi'l-muhlasîn' dört kez anlatıcıda istisna (40, 74, 128, 160), bir kez inkârcıların ağzında şartın cevabı (169).
+* صفف yalnız 37:1 ve 37:165'te; 'biz'in göndergesi metinde işaretli değil.
+* Sûre 37:182 'el-hamdu li'llâhi rabbi'l-âlemîn' (esit2 1:2 TAM) ile kapanıyor.
+
+### Süreç dersleri (bu oturum)
+* **Mercek tetik taraması:** 37:93 ◈B (يمن), 37:99 ◈K, 37:100 ◈B (وهب) tetiksiz yazılmıştı; 37:101-110'da korpus taramasıyla bulundu ve '—' yapıldı. Ters yönde 37:175/179 ◈B (بصر) tetiklenmişken '—' yazılmıştı — tarama yakaladı. Her bloktan sonra M satırlarını morph kökleriyle karşılaştıran tarama koşuldu (oturum betiği; repoya alınmadı — lemma dizgeleri elle yazılmış olurdu). Öneri: tarama `ONKAYIT_mercekler.md` listesinden ve morph.txt'ten okuyan bir denetim olarak repoya girsin.
+* **Okunmuş ayet denetimi:** okuma_metni anahtarları iki biçimde ('S:A' / 'A-B'); yalnız birini okuyan geçici denetim 2:252'yi 'henüz okunmadı' saydı — düzeltildi; başka etkilenen ifade yok.
+* **Esmâ sırası:** 37:156 kararından sonra esma_kayit koşulmadan blok yazıldı, bilanço bir an 'E' gösterdi; yeniden koşuldu. Kural OKU_BENI'de zaten var (adım 3 → 5).
+* **Kelime sayımı kaynağı:** kuran_veri 37:1 metnine besmeleyi katıyor; boşlukla sayım 'iki kelimelik ayet' listesinde 37:1'i kaçırdı (155, 176 mercekleri) → `DUZELTME` (özgün alan korundu); doğru liste defterden (`en_kisa_esit`).
+* Meal parantezi metinde adlanmayan konuşanı adlandırmamalı (37:164 '(Melekler derler:)' kaldırıldı).
+* Ortam kaybı sonrası ara zip: 1-90 (4e57971 tabanı), 1-120 ve 1-182 (0793015 tabanı) teslim edildi.
+
+### Devam
+Sûre 38 (Sâd, 88 ayet) — `*_37` / `saffat_*` şablonlarından S=38 (yeni aday seti ve bağ seti; numara 1039'dan). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss.
+
+### Kapanış sonrası onarım (2026-10-10) — esitle aday_bulgular'ı eziyordu
+* `esitle.py` bir dosyayı k (temiz klon) ile farklıysa calisma → repo kopyalıyordu. k 0793015'ten yeniden klonlanınca (2026-10-09) `calisma/aday_bulgular.json` (2026-10-07, AV_saffat'sız) k'dan farklı sayıldı ve **her blokta** `aday_ekle_37_saffat.py`'nin repo'ya yazdığı `AV_saffat` setini (1037-1038) ezdi. Blok çıktısındaki sayaç doğruydu (yazma anı), kalıcı dosya değildi.
+* Onarım: `aday_ekle_37_saffat.py` yeniden koşuldu (1037, 1038 + iki ek vaka geri); calisma kopyası repo'yla eşitlendi; `esitle.py` artık hedef kaynaktan yeniyse kopyalamıyor ('ATLANDI' yazar) — okumayı bloke eden arıza istisnası.
+* Etkilenen teslimler: ara zip'ler `sure37_ara_1_120` ve `sure37_ara_1_182` AV_saffat'sız `aday_bulgular.json` içeriyordu — **kullanmayın**; tur sonu zip'i yeniden üretildi. Diğer repo'ya doğrudan yazılan dosyalar (`notlar/` altındakiler) esitle kapsamında değil, etkilenmedi; calisma–k farkı taranan başka bayat dosya yok.
+* Ders: denetimlere "aday havuzu sonu = beklenen" kontrolü (repo dosyasından okunarak) eklenmeli.
