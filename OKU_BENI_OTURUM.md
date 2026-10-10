@@ -1,14 +1,14 @@
-# OTURUM — sûre 36 (Yâsîn) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 37 (Sâffât) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 2580 / 6236 ayet (%41,4)** — sûre 1 ve 9-36 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 37 (Sâffât, 182 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1165** kök (sûre 37'nin 21 eksik kökünün TÜMÜ eklendi, `kok_ekle_37.py`; retroaktif yama 1: 21:87 derin) · aday havuzu **1-1022** (`AU_yasin` 1019-1022) · bağ seti `AP_yasin` 122.
-Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
-Paket: depo `e14addf`'e (2517) göre fark; yüklenince 2580.
-Sûre 37 şablonları HAZIR (boş): `saffat_metin_1.py` · `saffat_kayit.py` · `uret_blok_37.py` (BLOKLAR boş) · `aday_ekle_37_saffat.py` (set `AV_saffat`, bağ `AQ_saffat`, numara 1023'ten; boş sette sınandı) · `yama_retroaktif_gloss_37.py` · `duzeltme_37.py`. Kapanış ve paket_md sûre sonunda `yasin_*`'dan S=37.
-Sûre 36 dosyaları: `yasin_metin_1.py` (MEAL1-8/M1-8) · `yasin_kayit.py` · `uret_blok_36.py` · `aday_ekle_36_yasin.py` · `yama_retroaktif_gloss_36.py` · `duzeltme_36.py` · `yasin_kapanis.py` · `yasin_paket_md.py` → `notlar/sure36_yasin_okuma.md`.
+**Okunan: 2762 / 6236 ayet (%44,3)** — sûre 1 ve 9-37 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 38 (Sâd, 88 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1313** kök · aday havuzu **1-1038** (`X_aralik` 1023-1036, `AV_saffat` 1037-1038) · bağ seti `AQ_saffat` 110.
+Denetim tabanı: türkçe **0** (iki test: gloss + okunan ayette tabloda olmayan kök) · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
+Paket: depo `0793015`'e göre fark.
+Sûre 37 dosyaları: `saffat_metin_1.py` (MEAL1-18/M1-18) · `saffat_kayit.py` (CIPA, ARIZA, DUZELTME 155/176) · `uret_blok_37.py` · `aday_ekle_37_saffat.py` · `yama_retroaktif_gloss_37.py` · `duzeltme_37.py` · `saffat_kapanis.py` · `saffat_paket_md.py` → `notlar/sure37_saffat_okuma.md`.
+Sûre 38 için şablonlar `saffat_*`'tan S=38 (yeni set adları; numara 1039'dan, `aday_ekle` sırayı doğruluyor).
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 36 TUR SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 37 TUR SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -18,8 +18,8 @@ Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 36 TUR SONU".
     # esitle.py: calisma → repo (yalnız değişen/yeni dosyalar)
 
 ## Okuma biçimi (2026-10-04)
-Sunum `blok_goster_v2.py S A B <metin> [--html yol]`: `### S:N` · `## ` Arapça · **meal** · › ölçüm · ◇ mercek · ◈K ◈B ◈D ◈A · ▽ kök başına tablo (açıklama blok başında bir kez). İçerik v1 (`blok_goster.py`) ile aynı. Her blok ayrıca Amiri Quran fontlu HTML.
-Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628): her ayette dört satır, tetik yoksa "—"; tetik kök listesi ölçüm satırından.
+Sunum `blok_goster_v2.py S A B <metin> [--html yol]`: `### S:N` · `## ` Arapça · **meal** · › ölçüm · ◇ mercek · ◈K ◈B ◈D ◈A · ▽ kök başına tablo (açıklama blok başında bir kez). Her blok ayrıca Amiri Quran fontlu HTML.
+Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37:31'den): her ayette dört satır, tetik yoksa "—"; tetik kök listesi ölçüm satırından — yazdıktan sonra morph kökleriyle karşılaştır (tetiksiz satır da, tetiklenmiş '—' de hata).
 
 ## Blok akışı (blok başı kayıt)
 1. eksik kök kontrolü → `kok_ekle_<S>.py` (NFC eşleşmesi yoksa DUR; gloss çok anlamlı, baskın lemma sayılır)
@@ -31,17 +31,21 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628): her ayette dört satır, t
 7. `blok_goster_v2.py S A B <metin> --html …` → okuma SOHBETTE, ölçüm ve dikeye dokunulmaz
 8. `turkce_denetim.py` (tablolar/'dan) = 0 · `PYTHONHASHSEED=0 anahtar_denetim.py` = 70, diff 0
 9. Sûre sonunda: `<sure>_kapanis.py`, YAPILACAKLAR eki, bu dosya, SILINECEKLER, `<sure>_paket_md.py`, fark zip
+10. Uzun oturumda her ~3 blokta ARA ZİP (ortam kaybı dersi, 2026-10-07)
 
 ## Dikkat
-* nakarat3 satırındaki "N ayet, tür ic" SÛRE İÇİ sayıdır; eş ayet satırda yok — defterden koş (aday 1003). Kalıp dizgesini elle yazma; defterden al (Unicode farkı eşleşmeyi bozar).
+* nakarat3 satırındaki "N ayet, tür ic" SÛRE İÇİ sayıdır; eş ayet satırda yok — defterden koş (aday 1003). esit2 satırı eşi bazen iki kez yazıyor (araç tekrarı).
 * Bilanço ★ kaynağı kafiye kırığında yanlış etiketli (aday 1001) — okumada elle düzelt.
-* Esmâ tokenlerini ölçüm satırından toplama; esma_kayit çıktısından topla (aday 1022: 36:70 hayy, 36:79 evvel).
+* Esmâ tokenlerini ölçüm satırından toplama; esma_kayit çıktısından topla (aday 1022).
 * Kendi kaydı düzeltme: `duzeltme_<S>.py` + `<sure>_kayit.DUZELTME` (özgün alan korunur).
-* Mercekteki her [x/y] ve üstünlük/'hepsi' iddiası kayıttan önce ölçüm satırı/korpusla sayılır.
+* Mercekteki her [x/y] ve üstünlük/'hepsi'/'ilk' iddiası kayıttan önce ölçüm satırı/korpusla sayılır. Kelime sayısı defterden (kuran_veri ilk ayete besmeleyi katar).
+* "Henüz okunmadı" demeden önce okuma_metni'ni iki anahtar biçimiyle de oku ('S:A' ve 'A-B').
+* Aktör rol alanı i'râb etiketinden türer; gayr-i munsarif adlarda yanlış (aday 1038).
 * Boruyu `head` ile kesme (esitle BrokenPipe); Arapça çıktıyı `cut -c` ile kesme.
-* Metin kalıbı sayarken harekesiz eşleşmede elif-medde (آ) ayrı karakter — sayım kaçırır.
+* Metin kalıbı sayarken harekesiz eşleşmede elif-medde (آ) ve hemze-elif (ءا) ayrı karakter — sayım kaçırır.
 * Çıpa L4 sınıflama kolu: okumada 29:40 'eşleme' ölçütü sabit (aday 1014).
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
+Karar bekleyen: ◈K tetik فلك kesinlik düzeltmesi (S2) · مأي gloss ('ne zaman' → yüz).
 Esmâ ön-kaydı DONDURULDU; §9 commit `b58c430`. Yalnız veri toplanır.
