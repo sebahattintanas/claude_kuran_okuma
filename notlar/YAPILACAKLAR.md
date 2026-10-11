@@ -5825,3 +5825,56 @@ Kademeler: L0 ×2 (10, 66) · L1 ×12 (18, 19, 23, 24, 27, 31, 33, 36, 42, 71, 7
 
 ### Devam
 Sûre 39 (Zümer, 75 ayet) — `sad_*` şablonlarından S=39 (aday numarası 1039'dan, yeni set adları). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss.
+
+## SÛRE 39 TUR SONU (2026-10-11)
+
+**Okunan: 2925 / 6236 ayet (%46,9)** — sûre 1 ve 9-39 TAM, sûre 2 kısmi (1-20). İlerleme `zumer_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1331** (`kok_ekle_39.py`). Aday havuzu **1039** (yeni: 1039, `AX_zumer`). Bağ **AS_zumer** 171. Esmâ okuyucu kararı (KARAR) **221**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik2 temiz · [x/y] sayım karşılaştırması **422 sayım, 0 uyuşmaz** · `AV_saffat` [1037, 1038] ve `AX_zumer` [1039] repo dosyasından doğrulandı.
+Sûrenin 75 ayeti 8 blokta okundu (son blok 71-75, 5 ayet); ek mercekler sûrenin tamamında. Paket `notlar/sure39_zumer_okuma.md` (`zumer_paket_md.py`). Ara zip'ler: 39:1-30, 39:1-60.
+
+### Sûre 39 bilançosu (TAM SAYIM, `okuma_metni['39']['_bilanco_sure']`)
+1172 kelime · lafız 59 token / 43 ayet · Rab 18 token / 17 ayet (A/R 3,28) · edilgen 18 ayet · iltifât alanı 4 ayet (32, 40, 64, 67) · hapaks 3 ayet (23, 29, 45) · mm2 yok.
+Yıldız 0:43 · ★10 · ★★18 · ★★★4 (hapaks 3, pas 1 — 39:69). Kaynak: allah 10 · n 8 · pas 8 · rab 3 · hapaks 3; düzeltilmiş (1001): 39:41 kafiye.
+Fâsıla sınıfı N 58 · R 6 · ب 4 · د 4 · ل 2 · A 1; kafiye kırığı 6 (6, 14, 23, 36, 41, 62). En uzun 39:6 ve 39:38 (36); en kısa 39:30. Say işareti 7 ayet: 4 vâhid, 6 (vâhide, zevc ×2, semâniye, selâs), 45 vahdehû, 23 'mesânî' (kök ثني — sayı değil, öz-tanım sıfatı), 8 qalîl, 29 ve 49 ekser (yanlış pozitif, 37:71 emsali).
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**39:21 → L4, cipa=True** (gökten su → yerde pınarlar → renkleri farklı ekin → kuruma, sararma → çer-çöp; mekanizma, 30:48 emsali). Sûre 32'den beri ilk L4; tarayıcı v4 isabeti. Kesinlik **1/8** (adaylar 4, 6, 8, 10, 21, 26, 38, 47), anma 1/1.
+39:42 **L4-biçim** (canların ölüm ve uyku anında alınışı; olgu sınırda, cipa=False — 1002 ailesi). L1 ×4 (5, 6, 10, 69) · L0 ×8 (9, 38, 44, 46, 63, 67, 68, 74) · olgusuz tarayıcı adayı ×4 (4, 8, 26, 47). DUZELTME yok.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+30 e_oto tokeni → ilâhî 13 · değil 17. §4.3 mühür 20 → geçerli 7, yanlış 13. Geçerli mühür tonu: celâl 3 · cemâl 2 · karma 1 · denge 1.
+Ölçüm satırı 'MÜHÜRSÜZ' ↔ bilanço geçerli (1022): 39:62 (hâliq + vekîl) ve önceki bloklardaki vakalar.
+
+### ★ ADAY 1039 — öz-tanım ve ölçülen benzerlik: ÖLÇÜM KOLU H0 REDDEDİLMEDİ
+Kullanıcı gözlemi (blok 21-30): 39:23 kitabı 'muteşâbih' ve 'mesânî' diye niteliyor; 39:27 'min kulli mesel'. Önceden yazılan test sûre sonunda koşuldu (`aday1039_test.py`, `bulgular/aday1039_test.json`, tohum 0):
+* Sûre 39 ayet oranları: esit2 herhangi 6/75 · esit2 TAM 2/75 · nakarat3 GEÇER 22/75 · birleşik 27/75.
+* Uzunluk eşli band (öz-tanım ayeti içermeyen; ±15 ayet, ±%25 kelime): sûre 8, 22, 24, 25, 28, 29, 33, 40. Sûre 39'un 9 içindeki sırası: esit2 2. · TAM 3. · nakarat3 5. · birleşik 5. — **ortada**.
+* Tek kontrol sûre 8 (75 ayet): nakarat3 22/75 vs 36/75, Fisher p=0,029 — **yön ters** (39 daha az) ve Bonferroni eşiği 0,0063'ün üstünde; öteki ölçüler p≥0,099.
+* Öz-tanım ayetleri (3:7, 15:87, 17:89, 18:54, 30:58, 39:23, 39:27) ±10 ayet penceresi: pencere − sûre farkı dört ölçüde de negatif (−0,010 … −0,024); sûre içi permütasyon p=0,62-0,74.
+* **Karar:** esit2 / nakarat3 ile ölçülen benzerlik, öz-tanım taşıyan sûrede ya da öz-tanım ayetlerinin çevresinde yüksek değil. Öz-tanım bu iki ölçüyle desteklenmiyor. Öncelik P2 → P3.
+* **Açık kalan kol:** karşıt çift (okuma). Sûre 39'da ◇ satırlarında 16 ayet (39:21-75) + 39:1-20 için aday listesinde 7 çift. Kontrol sûresi aynı protokolle okunmadan karşılaştırma yapılamaz — iddia yok. Önerilen: sûre 40'tan itibaren ◇'de 'karşıt çift' notunu aynı biçimde sürdürmek; böylece okuma kolu için kontrol verisi birikir.
+* Ölçülen tek güçlü yapı: sûrenin adı 'zumeran' korpusta yalnız 39:71 ve 39:73'te — 9 kelimelik ortak gövdeli karşıt çift (nakarat3 GEÇER). Bu tek vaka; genelleme yok.
+
+### Mevcut ailelere girenler (yeni aday açılmadı, 1039 dışında)
+* 1021/987 gloss: نهر, ظلم, أمم, أخر, ظلل, جنب, نور (nâr/nûr tek iplik), كفر (tekfîr), سخر (alay), حسر (hasret), وفي (tam verme / vefat ettirme ayrımı), ملك (melek), حول (çevre), علم (âlem).
+* 517 biçim: 'innemâ' ve takdim hasrı işaretsiz (39:64 'e-fe-ğayra'llâh', 39:66 'beli'llâhe fa'bud'); 39:73 izâ cevabının düşmesi alanda yok.
+* 1017 iltifât / alıntı sınırı: 39:53-58 iç içe alıntı (1S içinde 1S), 39:59 3FS → 2MS hitap alan 0; 39:64 alıntı içi, 39:67 ayet içi zamir değişimi aynı alanda; 39:71 've lâkin haqqat' cevabın parçası mı anlatıcı mı — KAPATILAMAZ.
+* 924 araç: 39:46 'Allâhumme' lafız ekseninde yok; esit2 39:13'te 6:15'i iki kez yazıyor; sayı işareti yanlış pozitifleri.
+* Zaman alanı: 39:68-70 kıyamet sahnesi PERF ile anlatılıyor; alan geçmiş sayıyor.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_zumer'de)
+* 39:23 öz-tanım (muteşâbih, mesânî; deri ürperir → yumuşar) · 39:27 'min kulli mesel' · 39:29 iki adam örneği + 'hel yesteviyân'.
+* 39:53 'yâ ibâdiye' — 'qul' içinde 1S 'kullarım'; alıntı 39:58'e kadar sürüyor; 39:56-58 bir canın üç sözü (pişmanlık / bahane / dönüş dileği), 39:59 'belâ' cevabı; 39:71 inkâr edenlerin 'qâlû belâ'sı.
+* 39:11-12 'umirtu' (bana emredildi) ↔ 39:64 'te'murûnnî' (bana emrediyorsunuz); 39:64 soru ↔ 39:66 emir, aynı iki öğe aynı sırada.
+* 39:68 iki üfleniş: 'saiqa' (bayılma) ↔ 'qiyâm' (kalkış); 39:69 edilgen 4/5, faillerin hepsi adsız.
+* 39:71 ↔ 39:73 sûrenin adı olan çift; 39:72 'udhulû … hâlidîne fîhâ' ↔ 39:73 'fedhulûhâ hâlidîn'.
+* 39:75 son ayet 14 kökün hepsini kapatıyor (قول 29/29, أله 61/61, ربب 18/18 dahil); 'el-hamdu lillâhi rabbi'l-âlemîn' 6 ayet (1:2, 37:182 de sûre sonu).
+
+### Süreç dersleri (bu oturum)
+* Önceden yazılmış testin olumsuz sonucu kayda aynen geçti; aday kapatılmadı, ölçüm kolu ile okuma kolu ayrıldı.
+* say.py normalizasyonu: ٰ → ا (ىٰ → ى), 'وجيء' gibi hemzeli kalıplar eşleşmiyor — o sayım iddia edilmedi.
+* Kapanış öncesi karşıt çift notu yalnız 39:21'den itibaren sistematik — okuma kolunun kontrol verisi için sûre 40'tan aynı biçim.
+
+### Devam
+Sûre 40 (Ğâfir, 85 ayet) — `zumer_*` şablonlarından S=40 (aday numarası 1040'tan, yeni set adları). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss.
