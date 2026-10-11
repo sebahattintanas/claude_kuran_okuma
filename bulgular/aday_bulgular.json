@@ -27736,5 +27736,25 @@
    "kaynak": "sûre 39 okuması, blok 21-30 (kullanıcı gözlemi, 2026-10-11)",
    "etiket": "okuma gözlemi + ölçüm; metnin bu kelimelerle araçların ölçtüğü şeyi kastettiği metinden çıkarılamaz — KAPATILAMAZ; 'mesânî'nin 'ikişer' mi 'tekrarlanan' mı olduğu açık"
   }
+ ],
+ "AX_gafir": [
+  {
+   "no": 1040,
+   "aday": "ARDIŞIK SÛRE SINIRINDA SÜREKLİLİK (test edilecek, iddia değil): sûre 39'un açılışı ve kapanışı sûre 40'ın başında tekrar ediyor — (a) 39:1 'tenzîlu'l-kitâbi mina'llâhi'l-azîz …' → 40:2 aynı terkip (son sıfat hakîm → alîm); (b) 39:75 son sahnesi (Arş'ın çevresi + Rablerini hamd ile tesbih) → 40:7 'ellezîne yahmilûne'l-arşa ve men havlehû yusebbihûne bi-hamdi rabbihim'.",
+   "olculen": {
+    "metin_sayimi": {
+     "tenzîlu'l-kitâbi mina'llâh": "4 ayet: 39:1, 40:2, 45:2, 46:2",
+     "yusebbihûne bi-hamdi rabbihim": "3 ayet: 39:75, 40:7, 42:5",
+     "kök birlikteliği حول + عرش": "2 ayet: 39:75, 40:7",
+     "kök birlikteliği سبح + حمد + عرش": "2 ayet: 39:75, 40:7"
+    },
+    "esit2": "40:2 → 39:1 oran 0,9286 BENZER"
+   },
+   "test": "korpus sonunda (tam okuma bitince): her ardışık sûre çifti (n, n+1) için n'nin son 10 ayeti ile n+1'in ilk 10 ayeti arasındaki ölçülen bağ yoğunluğu (esit2 + nakarat3 + xref + kök birlikteliği) — ardışık olmayan, uzunluk eşli sûre çiftleriyle karşılaştırma (permütasyon). Sıfır hipotez: ardışık sınırlar rastgele çiftlerden farklı değil.",
+   "durum": "AÇIK — kayıt; okuma sırasında test edilmez",
+   "oncelik": "P3",
+   "kaynak": "sûre 40 okuması, blok 1-10 (2026-10-11)",
+   "etiket": "okuma gözlemi; iki vaka, ikisi de aynı sınırda — genelleme yok, KAPATILAMAZ. Dikkat: sûre 40-46 kendi aralarında da ortak açılışlı (Hâ Mîm; 45:2, 46:2 'tenzîl'), ardışıklık etkisi aile etkisinden ayrılmadan sayılmamalı"
+  }
  ]
 }
