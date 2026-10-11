@@ -5878,3 +5878,56 @@ Kullanıcı gözlemi (blok 21-30): 39:23 kitabı 'muteşâbih' ve 'mesânî' diy
 
 ### Devam
 Sûre 40 (Ğâfir, 85 ayet) — `zumer_*` şablonlarından S=40 (aday numarası 1040'tan, yeni set adları). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss.
+
+## SÛRE 40 TUR SONU (2026-10-11)
+
+**Okunan: 3010 / 6236 ayet (%48,3)** — sûre 1 ve 9-40 TAM, sûre 2 kısmi (1-20). İlerleme `gafir_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1334** (`kok_ekle_40.py`: فوض, سلسل, سجر). Aday havuzu **1040** (yeni: 1040, `AX_gafir`). Bağ **AS_gafir** 202. Esmâ okuyucu kararı (KARAR) **250**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik2 kayıtta temiz (iki blokta ilk koşuda uyuşmaz, kayıttan önce düzeltildi) · [x/y] sayım karşılaştırması **549 sayım, 0 uyuşmaz** · `AV_saffat` [1037, 1038], `AX_zumer` [1039], `AX_gafir` [1040] repo dosyasından doğrulandı.
+Sûrenin 85 ayeti 9 blokta okundu (son blok 81-85, 5 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure40_gafir_okuma.md` (`gafir_paket_md.py`). Ara zip'ler: 40:1-30, 40:1-60, 40:1-85 (de1a347 tabanı).
+
+### Sûre 40 bilançosu (TAM SAYIM, `okuma_metni['40']['_bilanco_sure']`)
+1219 kelime · lafız 53 token / 37 ayet · Rab 19 token / 14 ayet (A/R 2,79) · edilgen 18 ayet · iltifât alanı 8 ayet (23, 24, 32, 41, 45, 53, 55, 75) · hapaks 1 ayet (44 — فوض) · mm2 1 ayet (78, رسل).
+Yıldız 0:48 · ★17 · ★★16 · ★★★4 (pas 3 — 40:62, 71, 72; hapaks 1 — 40:44). Kaynak: pas 13 · allah 12 · n 8 · rab 3 · hapaks 1; düzeltilmiş (1001): 40:23, 29, 30 kafiye.
+Fâsıla sınıfı N 36 · ب 17 · R 15 · د 10 · ل 3 · ق 2 · ع 1 · (40:1 Hâ Mîm) 1; kafiye kırığı 5 (23, 29, 30, 35, 40). En uzun 40:28 (39); en kısa 40:1 (n=1 — besmele ayet metnine bitişik, veri biçimi). Sayı işareti 10 ayet: 11 isneteyn ×2 (iki ölüm, iki dirim), 12 ve 84 vahd, 16 vâhid, 8 zevc, 58 qalîl, 57/59/61/82 ekser (yanlış pozitif).
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**L4 yok.** En yüksek L2: 40:61 (gece dinlenme için, gündüz gösterici — 27:86 emsali) ve 40:67 (toprak → nutfe → alaka → bebek → güçlü çağ → yaşlılık; ara aşamalar adlı, L4 süreç koluna sınırda, mekanizma/birim yok — KAPATILAMAZ). L1 ×6 (11, 13, 57, 64, 79, 80) · L0 ×5 (21, 37, 46, 55, 82) · olgusuz tarayıcı adayı ×1 (29). Tarayıcı v4 adayları 5 (11, 29, 61, 67, 80), kesinlik **0/5**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+29 e_oto tokeni → ilâhî 17 · değil 12. §4.3 mühür 15 → geçerli 9, yanlış 6 (23, 27, 33, 35, 39, 76). Geçerli mühür tonu: celâl 4 · denge 3 · karma 2.
+Ölçüm satırı ↔ esma_kayit ayrışması (1022): 40:44 (ölçüm 'MÜHÜRSÜZ', kayıt mühür), 40:65 'hayy' (ölçüm 'esmâ yok', D2 eşlemesi), 40:76 'mutekebbirîn' (ölçüm 'esmâ yok', kayıt mühür — okuyucu kararı değil).
+
+### ★ ADAY 1040 — ardışık sûre sınırında süreklilik (YENİ, P3, AÇIK)
+Okuma gözlemi (blok 1-10): 39:1 'tenzîlu'l-kitâbi mina'llâhi'l-azîz' → 40:2 aynı terkip (esit2 0,9286 BENZER); 39:75 Arş'ın çevresi + 'yusebbihûne bi-hamdi rabbihim' → 40:7 Arş'ı taşıyanlar + aynı kalıp. Test önceden yazıldı, **korpus sonunda** koşulacak (ardışık sûre çiftleri ↔ uzunluk eşli ardışık olmayan çiftler, permütasyon). Okuma sırasında test edilmez. Dikkat: sûre 40-46 Hâ Mîm ailesi ortak açılışlı — aile etkisi ardışıklıktan ayrılmalı. 40:85 → 41:1 sınırı sûre 41 okunmadan yazılmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+Sûre 40'ın 85 ayetinin hepsinde ◇ 'Karşıt çift (aday 1039, okuma)' notu yazıldı; dolu 33 ayet. Sûre 39'un (16 + 7) verisiyle karşılaştırma için ölçüt sabit tutulmalı; karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler (yeni aday açılmadı, 1040 dışında)
+* 1021/987 gloss: حول (çevre), بني (oğullar / bina), قوم (kavim / kalkma / kıyamet), سمو ('musemmâ' ad), شدد ('eşudd'), حمم (40:18 yakın dost), نور (sûredeki 8 geçişin hepsi nâr), أيي ('eyye' hangi), أثر ('âsâr' eserler).
+* 517 biçim: takdimli haber ve câr-mecrûr ('lehum', 'ileynâ', 'minhâ', 'aleyhâ'), ayırma zamiri 'huve', 'innemâ' (40:68) işaretsiz.
+* 1017 alıntı sınırı: 40:7-9 dua (giriş fiili söz fiili değil), 40:28-44 iman edenin konuşması (40:30 → 40:31-33 sürüyor — DUZELTME), 40:66 'qul' alıntısının bitişi, 40:73-74 soru ayet sınırını aşıyor, 40:75-76 konuşanı adsız, 40:76 'fe-bi'se' içeride mi dışarıda mı.
+* 924 araç: tek fiilli ayette edilgen oranından ★★★ (40:62, 71, 72); 40:3 dört tamlama esmâ satırında yok; sayı işareti yanlış pozitifleri.
+* 1001: kafiye kırığı ★ kaynağı 40:23, 29, 30.
+* Tetik ön-kayıt §2: سحب (40:71 sürüklenme), فلك (40:80 gemi — S2 açık), قلب/حمل/زوج (40:4, 7, 8) — tetik kökü kozmik/organ anlamında değil, satırlar dolu.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_gafir'de)
+* Sûre içi üçlü diziler: 'ellezîne yucâdilûne fî âyâti'llâh' 40:35, 56, 69 — üç yüklem (öfke / kibir / çevrilme); 'allâhu'llezî ce'ale lekum' 40:61, 64, 79 (gece-gündüz / yer-gök / davarlar); 'lâkinne ekserâ'n-nâsi lâ …' 40:57, 59, 61 (bilmez / inanmaz / şükretmez).
+* Edilgen 'çevrilme' üç kez, çeviren adsız: 40:62 'tu'fekûn', 40:63 'yu'fek', 40:69 'yusrafûn'.
+* 40:12 ↔ 40:84: aynı dört kök (وحد, كفر, شرك, أمن) ters dizilişte — tek anılınca inkâr / ortak koşulunca iman → tek O'na iman / ortaklara inkâr.
+* 40:21 ↔ 40:82 yeryüzünde gezme kalıbı (nakarat3 8 kelime), 40:82'de 'eksera' eklenmiş.
+* 40:28 iman eden 'ba'du'llezî ya'idukum' ↔ 40:77 1P 'ba'da'llezî ne'iduhum'.
+* 40:49-50-60 aynı emir ('ud'û') üç konuşanda; 40:11 'emettenâ … ahyeytenâ' ↔ 40:68 'yuhyî ve yumît' sıra ters.
+* 40:52 özür fayda vermez ↔ 40:85 iman fayda vermedi; 40:78 'el-mubtılûn' ↔ 40:85 'el-kâfirûn' ('ve hasira hunâlike').
+* 40:85 son ayet ölçüm satırındaki 11 kökün hepsini kapatıyor (كون 25/25, أله 57/57, أمن 17/17, كفر 13/13); كفر sûrenin ilk (40:4) ve son kelimesi (40:85) arasında.
+* Sûrenin adı (ğâfir) lemma olarak korpusta 2 ayette: 7:155, 40:3.
+
+### Süreç dersleri (bu oturum)
+* gafir_kayit ARIZA ekleme: son blok listesi `" ]\n}"` ile bitiyor; ekleme bu dizgeye göre yapılmalı (bir kez kısmi koşu → uret/aday ayrıca yeniden koşuldu).
+* uret_blok_40 BASLIK satırına yeni blok eklerken önceki satırın virgülü kontrol edilmeli ((71, 80) virgülsüz kalmış, (81, 85) eklenince SyntaxError).
+* Osmânî imlâ kalıpları: 'el-leyl' tek lam, 'yuhyî' küçük ye, 'sunnete'llâh' açık te — harekesiz kalıp kök/imlâ biçimiyle kurulmalı; 've' önekli kalıp sûre içi eşi kaçırabiliyor (40:13).
+* Betik sabitlerine Arapça kelime biçimi yazılmadı (ARIZA satırında ilk yazışta girmişti, kayıttan önce Latin anlatıma çevrildi).
+
+### Devam
+Sûre 41 (Fussilet, 54 ayet) — `gafir_*` şablonlarından S=41 (aday numarası 1041'den, yeni set adları). Önce eksik kök kontrolü (sûrenin tümü). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك), مأي gloss. Aday 1040 testi korpus sonunda.

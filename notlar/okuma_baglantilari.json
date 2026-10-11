@@ -15584,5 +15584,1017 @@
    "kural": "metin sayımı 'el-hamdu lillâhi rabbi'l-âlemîn' 6 ayet; okundu",
    "not": "âlemlerin Rabbi."
   }
+ ],
+ "AS_gafir": [
+  {
+   "bag": "39:1 → 40:2",
+   "kural": "metin sayımı 'tenzîlu'l-kitâbi mina'llâh' 4 ayet (39:1, 40:2, 45:2, 46:2) + esit2 BENZER 0,9286; 39:1 okundu; aday 1040",
+   "not": "kitabın indirilişi."
+  },
+  {
+   "bag": "27:78 · 36:38 → 40:2",
+   "kural": "metin sayımı 'el-azîzi'l-alîm' 6 ayet; 27:78, 36:38 okundu",
+   "not": "azîz, alîm."
+  },
+  {
+   "bag": "40:2 → 40:3",
+   "kural": "okuma — dört tamlama 40:2’nin lafzına bağlı; 40:3’te lafız ve Rab yok (esmâ satırı yok, ARIZA); okumada görüldü",
+   "not": "sıfat dizisi."
+  },
+  {
+   "bag": "9:86 → 40:3",
+   "kural": "lemma iskeleti 'tavl' 4 ayet (4:25, 9:86, 17:37, 40:3); 9:86 'ulu't-tavl' okundu",
+   "not": "bolluk sahibi."
+  },
+  {
+   "bag": "39:6 → 40:3",
+   "kural": "metin sayımı 'lâ ilâhe illâ hu' 29 ayet, okunan 12; sûre içi nakarat3 GEÇER (40:62, 40:65 henüz okunmadı)",
+   "not": "tevhid."
+  },
+  {
+   "bag": "3:196 → 40:4",
+   "kural": "xref (aldatmama + teqallub + el-bilâd); henüz okunmadı — KAYIT",
+   "not": "beldelerde dolaşma."
+  },
+  {
+   "bag": "16:46 · 26:219 → 40:4",
+   "kural": "morph lemma 'teqallub' 5 ayet; 16:46, 26:219 okundu",
+   "not": "dolaşma."
+  },
+  {
+   "bag": "40:4 → 40:5",
+   "kural": "kök ipliği جدل — 'yucâdilu' / 'câdelû'; 'qablehum' 40:4'teki inkâr edenlere döner; okumada görüldü",
+   "not": "tartışma."
+  },
+  {
+   "bag": "13:32 → 40:5",
+   "kural": "metin sayımı 'keyfe kâne iqâb' 2 ayet; okundu",
+   "not": "cezalandırmam nasıl oldu."
+  },
+  {
+   "bag": "18:56 → 40:5",
+   "kural": "metin sayımı 'bi'l-bâtıli li-yudhidû bihi'l-haqq' 2 ayet; okundu",
+   "not": "bâtılla hakkı çürütmek."
+  },
+  {
+   "bag": "40:3 → 40:5",
+   "kural": "kök ipliği عقب — 'şedîdi'l-iqâb' / 'iqâb'; okumada görüldü",
+   "not": "ceza."
+  },
+  {
+   "bag": "40:5 → 40:6",
+   "kural": "kök ipliği حقق — 'el-haqq' / 'haqqat'; okumada görüldü",
+   "not": "hak, gerçekleşme."
+  },
+  {
+   "bag": "10:33 · 10:96 → 40:6",
+   "kural": "xref (حقّ كلمة ربّ) + metin sayımı 'haqqat kelimetu rabbik' 2 ayet (10:33, 40:6); okundu",
+   "not": "Rabbin sözü."
+  },
+  {
+   "bag": "39:75 → 40:7",
+   "kural": "metin sayımı 'yusebbihûne bi-hamdi rabbihim' 3 ayet + kök birlikteliği حول + عرش yalnız 39:75, 40:7; okundu; aday 1040",
+   "not": "Arş çevresinde tesbih."
+  },
+  {
+   "bag": "20:98 → 40:7",
+   "kural": "xref (وسع كلّ شىء); okundu — orada yalnız ilim, burada rahmet ve ilim",
+   "not": "her şeyi kuşatma."
+  },
+  {
+   "bag": "40:3 → 40:7",
+   "kural": "kök ipliği توب kapanıyor [2/2] — 'qâbili't-tevb' / 'tâbû'; okumada görüldü",
+   "not": "tevbe."
+  },
+  {
+   "bag": "40:6 ↔ 40:7",
+   "kural": "karşıt çift (aday 1039, okuma) — inkâr edenler ateşin halkı / iman edenler için dua; okumada görüldü",
+   "not": "ateş / bağışlanma."
+  },
+  {
+   "bag": "13:23 → 40:8",
+   "kural": "xref (صلح آباء زوج ذرّيّة); okundu — orada anlatı, burada dua",
+   "not": "atalar, eşler, soylar."
+  },
+  {
+   "bag": "40:2 → 40:8",
+   "kural": "kök ipliği عزز — azîz + alîm / azîz + hakîm, ikisi de SON konum mühür ÇİFT; okumada görüldü",
+   "not": "azîz."
+  },
+  {
+   "bag": "40:7 ↔ 40:8",
+   "kural": "karşıt çift (aday 1039, okuma) — 'qıhim azâbe'l-cahîm' / 'edhilhum cennâti adn'",
+   "not": "koru / sok."
+  },
+  {
+   "bag": "40:7 → 40:9",
+   "kural": "kök ipliği وقي + رحم — 'qıhim' tekrarı; 'rahmeten' / 'rahimtehû'; okumada görüldü",
+   "not": "koruma, rahmet."
+  },
+  {
+   "bag": "9:72 · 9:111 · 10:64 → 40:9",
+   "kural": "metin sayımı 'zâlike huve'l-fevzu'l-azîm' 6 ayet; okundu",
+   "not": "büyük kurtuluş."
+  },
+  {
+   "bag": "35:39 → 40:10",
+   "kural": "kök مقت 5 ayet; 35:39 okundu — KAYIT (40:35, 61:3 henüz okunmadı)",
+   "not": "öfke."
+  },
+  {
+   "bag": "40:10 → 40:11",
+   "kural": "okuma — 'yunâdevne' seslenişine 'qâlû rabbenâ' cevabı; konuşan adsız 3MP; okumada görüldü",
+   "not": "cevap."
+  },
+  {
+   "bag": "40:3 → 40:11",
+   "kural": "kök ipliği ذنب — 'ğâfiri'z-zenb' / 'zunûbinâ'; okumada görüldü",
+   "not": "günah."
+  },
+  {
+   "bag": "39:45 → 40:12",
+   "kural": "metin sayımı 'Allâhu vahdeh' 5 ayet; 39:45 'izâ zukira'llâhu vahdeh' okundu — karşıt çift kalıbı (aday 1039, okuma)",
+   "not": "Allah tek anılınca."
+  },
+  {
+   "bag": "22:62 · 31:30 · 34:23 → 40:12",
+   "kural": "metin sayımı 'el-aliyyu'l-kebîr' 4 ayet + xref 22:62, 31:30; okundu",
+   "not": "yüce, büyük."
+  },
+  {
+   "bag": "40:10 → 40:12",
+   "kural": "kök ipliği كبر — 'ekber' / 'el-kebîr'; okumada görüldü",
+   "not": "büyük."
+  },
+  {
+   "bag": "40:2 → 40:13",
+   "kural": "kök ipliği نزل kapanıyor [2/2] — 'tenzîl' (kitap) / 'yunezzil' (rızık); okumada görüldü",
+   "not": "indirme."
+  },
+  {
+   "bag": "39:2 · 39:11 → 40:14",
+   "kural": "metin sayımı 'muhlis… lehu'd-dîn' — tekil emir (39) / çoğul emir (40:14); 'muhlisîne lehu'd-dîn' 7 ayet, okunan 10:22, 29:65, 31:32",
+   "not": "dini hâlis kılarak."
+  },
+  {
+   "bag": "9:32 → 40:14",
+   "kural": "metin sayımı 've lev kerihe'l-kâfirûn' 3 ayet; 9:32 okundu",
+   "not": "hoşlanmasalar da."
+  },
+  {
+   "bag": "40:10 → 40:12 → 40:14",
+   "kural": "kök ipliği دعو — 'tud'avne' / 'du'iye' / 'fed'û': edilgen 2MP, edilgen 3MS, emir 2MP; okumada görüldü",
+   "not": "çağrı."
+  },
+  {
+   "bag": "40:7 → 40:15",
+   "kural": "kök ipliği عرش kapanıyor [2/2] — 'yahmilûne'l-arş' / 'zu'l-arş'; okumada görüldü",
+   "not": "Arş."
+  },
+  {
+   "bag": "16:2 → 40:15",
+   "kural": "xref (روح أمر شاء عبد أنذر) + metin sayımı 'er-rûha min emrih' 2 ayet; 16:2 okundu",
+   "not": "rûh, emir, uyarı."
+  },
+  {
+   "bag": "40:15 → 40:16",
+   "kural": "okuma — 'yevme't-telâq' / 'yevme hum bârizûn': gün iki ayet sınırında açılıyor; okumada görüldü",
+   "not": "buluşma günü."
+  },
+  {
+   "bag": "14:48 → 40:16",
+   "kural": "kök birlikteliği برز + 'el-vâhidu'l-qahhâr' 2 ayet (14:48, 40:16); okundu",
+   "not": "ortaya çıkma."
+  },
+  {
+   "bag": "39:4 → 40:16",
+   "kural": "metin sayımı 'el-vâhidu'l-qahhâr' 6 ayet, 5'i okundu (12:39, 13:16, 14:48, 38:65, 39:4)",
+   "not": "bir, kahredici."
+  },
+  {
+   "bag": "14:38 → 40:16",
+   "kural": "xref (يخفى اللّه شىء); okundu",
+   "not": "gizli kalmaz."
+  },
+  {
+   "bag": "20:15 → 40:17",
+   "kural": "xref + metin sayımı 'tuczâ kullu nefs' 2 ayet; okundu",
+   "not": "her can karşılık bulur."
+  },
+  {
+   "bag": "13:41 · 14:51 · 24:39 → 40:17",
+   "kural": "metin sayımı 'serî'u'l-hisâb' 8 ayet; okunanlar",
+   "not": "hesap çabuk."
+  },
+  {
+   "bag": "40:15 → 40:18",
+   "kural": "kök ipliği نذر kapanıyor [2/2] — 'li-yunzira' (3MS) / 've enzirhum' (2MS emir); okumada görüldü",
+   "not": "uyarı."
+  },
+  {
+   "bag": "33:10 → 40:18",
+   "kural": "lemma 'hanâcir' 2 ayet; 33:10 okundu — kalpler gırtlakta",
+   "not": "gırtlak."
+  },
+  {
+   "bag": "19:39 → 40:18",
+   "kural": "metin sayımı 've enzirhum yevm' 2 ayet; okundu",
+   "not": "onları uyar."
+  },
+  {
+   "bag": "40:16 → 40:19",
+   "kural": "kök ipliği خفي kapanıyor [2/2] — 'lâ yahfâ' / 'mâ tuhfî'; okumada görüldü",
+   "not": "gizli."
+  },
+  {
+   "bag": "40:14 → 40:20",
+   "kural": "kök ipliği دعو — 'fed'u'llâh' / 'yed'ûne min dûnih'; karşıt çift (aday 1039, okuma)",
+   "not": "kimi çağırdıkları."
+  },
+  {
+   "bag": "17:1 → 40:20",
+   "kural": "metin sayımı 'huve's-semî'u'l-basîr' 4 ayet; 17:1 okundu",
+   "not": "işiten, gören."
+  },
+  {
+   "bag": "30:9 · 35:44 → 40:21",
+   "kural": "metin sayımı 'e-ve-lem yesîrû fi'l-ardı fe-yenzurû keyfe kâne âqibetu'llezîne' 3 ayet + 'eşedde minhum quvveten' 4 ayet; okundu; sûre içi nakarat3 → 40:82",
+   "not": "öncekilerin sonu."
+  },
+  {
+   "bag": "13:34 → 40:21",
+   "kural": "metin sayımı 'mine'llâhi min vâq' 2 ayet; okundu",
+   "not": "koruyucu yok."
+  },
+  {
+   "bag": "40:7 · 40:9 → 40:21",
+   "kural": "kök ipliği وقي — 'qıhim' (koru!) / 'min vâq' (koruyucu yok); okumada görüldü",
+   "not": "koruma."
+  },
+  {
+   "bag": "40:5 → 40:21 → 40:22",
+   "kural": "kök ipliği أخذ kapanıyor [4/4] — 1S 'ehaztuhum' / 3MS 'ehazehumu'llâh' ×2; okumada görüldü",
+   "not": "yakalama."
+  },
+  {
+   "bag": "40:3 → 40:22",
+   "kural": "sûre içi tekrar 'şedîdu'l-iqâb' — tamlama olarak (40:3) / haber olarak (40:22)",
+   "not": "cezası çetin."
+  },
+  {
+   "bag": "40:21 → 40:22",
+   "kural": "kök ipliği قوي — insanların 'quvve'si / Allah 'qaviyy'; okumada görüldü",
+   "not": "güç."
+  },
+  {
+   "bag": "11:96 → 40:23",
+   "kural": "esit2 TAM 1,0000 + metin sayımı 2 ayet; okundu",
+   "not": "Mûsâ, ayetler ve yetki."
+  },
+  {
+   "bag": "23:45 → 40:23",
+   "kural": "xref (آية سلطان مبين); okundu",
+   "not": "apaçık yetki."
+  },
+  {
+   "bag": "40:23 → 40:24",
+   "kural": "okuma — 'erselnâ Mûsâ … ilâ Fir'avn': cümle ayet sınırını aşıyor; okumada görüldü",
+   "not": "gönderilen kime."
+  },
+  {
+   "bag": "29:39 → 40:24",
+   "kural": "lemma: Firavun + Hâmân + Kârûn birlikte (29:39, 40:24); okundu",
+   "not": "üç ad."
+  },
+  {
+   "bag": "38:4 → 40:24",
+   "kural": "metin sayımı 'sâhirun kezzâb' 2 ayet + kök birlikteliği سحر + كذب aynı 2 ayet; okundu",
+   "not": "büyücü, yalancı."
+  },
+  {
+   "bag": "14:6 · 28:4 → 40:25",
+   "kural": "kök birlikteliği حيي + نسو + بني 7 ayet; okunan 14:6, 28:4",
+   "not": "oğullar / kadınlar."
+  },
+  {
+   "bag": "13:14 → 40:25",
+   "kural": "metin sayımı 'el-kâfirîne illâ fî dalâl' 3 ayet; okundu; sûre içi → 40:50",
+   "not": "sapıp gitmek."
+  },
+  {
+   "bag": "40:25 → 40:26 → 40:28",
+   "kural": "kök ipliği قتل kapanıyor [3/3] — emir 'uqtulû' / 1S 'aqtul' / soru 'e-taqtulûn'; okumada görüldü",
+   "not": "öldürme."
+  },
+  {
+   "bag": "40:26 → 40:27",
+   "kural": "kök ipliği ربب — Firavun 'rabbeh' / Mûsâ 'rabbî ve rabbikum'; okumada görüldü",
+   "not": "kimin Rabbi."
+  },
+  {
+   "bag": "38:16 · 38:26 · 38:53 → 40:27",
+   "kural": "metin sayımı 'yevmi'l-hisâb' 4 ayet; okundu",
+   "not": "hesap günü."
+  },
+  {
+   "bag": "11:47 · 23:97 → 40:27",
+   "kural": "kök birlikteliği عوذ + ربب 9 ayet, okunan 11:47, 12:23, 23:97, 23:98; xref 44:20 (henüz okunmadı)",
+   "not": "Rabbe sığınma."
+  },
+  {
+   "bag": "39:3 → 40:28",
+   "kural": "metin sayımı 'inna'llâhe lâ yehdî men huve' 2 ayet — 'kâzibun keffâr' / 'musrifun kezzâb'; okundu",
+   "not": "yola iletmez."
+  },
+  {
+   "bag": "40:16 → 40:29",
+   "kural": "kök ipliği ملك kapanıyor [2/2] — 'li-meni'l-mulku'l-yevm' (soru) / 'lekumu'l-mulku'l-yevm' (iddia); okumada görüldü",
+   "not": "bugün mülk."
+  },
+  {
+   "bag": "40:28 → 40:29",
+   "kural": "kök ipliği هدي — Allah 'lâ yehdî' / Firavun 'ehdîkum'; okumada görüldü",
+   "not": "yola iletme."
+  },
+  {
+   "bag": "40:5 → 40:30",
+   "kural": "kök ipliği حزب kapanıyor [2/2] — 've'l-ahzâbu min ba'dihim' / 'yevmi'l-ahzâb'; okumada görüldü",
+   "not": "gruplar."
+  },
+  {
+   "bag": "40:26 → 40:30",
+   "kural": "kök ipliği خوف — Firavun 'innî ehâfu' / iman eden 'innî ehâfu aleykum'; okumada görüldü",
+   "not": "korku."
+  },
+  {
+   "bag": "40:21 ↔ 40:29",
+   "kural": "karşıt çift kalıbı (aday 1039, okuma) — güçte üstünlük / Allah karşısında korumasızlık, iki kez; okumada görüldü",
+   "not": "güç ve çaresizlik."
+  },
+  {
+   "bag": "40:30 → 40:31",
+   "kural": "okuma — 'misle yevmi'l-ahzâb' / 'misle de'bi qavmi Nûh…' bedel; alıntı sürüyor (40:30 meali tırnağı erken kapattı — DUZELTME)",
+   "not": "alıntı sınırı."
+  },
+  {
+   "bag": "40:5 → 40:31",
+   "kural": "okuma — 'qavmu Nûhin ve'l-ahzâbu min ba'dihim' / 'qavmi Nûhin ve Âdin ve Semûde ve'llezîne min ba'dihim': ahzâb adlanıyor; okumada görüldü",
+   "not": "gruplar kim."
+  },
+  {
+   "bag": "9:70 · 14:9 · 22:42 → 40:31",
+   "kural": "metin sayımı 'qavmu Nûhin ve Âdin ve Semûd' 4 ayet; okundu",
+   "not": "Nûh, Âd, Semûd."
+  },
+  {
+   "bag": "40:10 → 40:32",
+   "kural": "kök ipliği ندي kapanıyor [2/2] — 'yunâdevne' / 'yevme't-tenâd'; okumada görüldü",
+   "not": "seslenme, çağrışma."
+  },
+  {
+   "bag": "40:15 · 40:32",
+   "kural": "okuma — 'yevme't-telâq' / 'yevme't-tenâd': iki tefâ'ul mastarlı gün adı; ikisi de ertesi ayette 'yevme' bedeliyle açılıyor; KAPATILAMAZ",
+   "not": "günün adları."
+  },
+  {
+   "bag": "40:26 → 40:30 → 40:32",
+   "kural": "kök ipliği خوف kapanıyor [3/3] — Firavun / iman eden ×2; okumada görüldü",
+   "not": "korku."
+  },
+  {
+   "bag": "40:21 → 40:33",
+   "kural": "okuma — 'mâ kâne lehum mine'llâhi min vâq' / 'mâ lekum mine'llâhi min âsım': aynı kalıp; okumada görüldü",
+   "not": "koruyucu yok."
+  },
+  {
+   "bag": "13:33 · 39:23 · 39:36 → 40:33",
+   "kural": "metin sayımı + xref 've men yudlili'llâhu fe-mâ lehû min hâd' 4 ayet; okundu",
+   "not": "yola iletecek yok."
+  },
+  {
+   "bag": "12 → 40:34",
+   "kural": "PN lemma Yûsuf 27 ayet: 6:84, sûre 12'de 25 (okundu), 40:34",
+   "not": "Yûsuf."
+  },
+  {
+   "bag": "17:94 → 40:34",
+   "kural": "xref (قال بعث اللّه); okundu",
+   "not": "Allah elçi gönderir mi."
+  },
+  {
+   "bag": "40:28 → 40:34",
+   "kural": "okuma — 'men huve musrifun kezzâb' / 'men huve musrifun murtâb' (nakarat3 GEÇMEZ); okumada görüldü",
+   "not": "aşırı giden."
+  },
+  {
+   "bag": "40:4 → 40:35",
+   "kural": "sûre içi 'yucâdilu fî âyâti'llâh' tekil / çoğul; nakarat3 GEÇER",
+   "not": "tartışanlar."
+  },
+  {
+   "bag": "40:10 → 40:35",
+   "kural": "kök ipliği مقت kapanıyor [3/3] — 'le-maqtu'llâhi ekber' / 'kebura maqtan inda'llâh'; okumada görüldü",
+   "not": "öfke."
+  },
+  {
+   "bag": "30:59 → 40:35",
+   "kural": "metin sayımı 'kezâlike yatba'u'llâhu alâ' 3 ayet; okundu",
+   "not": "mühürleme."
+  },
+  {
+   "bag": "40:4 → 40:18 → 40:35",
+   "kural": "kök ipliği قلب kapanıyor [3/3] — teqallub / qulûb / qalb; okumada görüldü",
+   "not": "kalp."
+  },
+  {
+   "bag": "28:38 → 40:36 · 40:37",
+   "kural": "lemma birlikteliği Hâmân + sarh (28:38, 40:36) + metin sayımı 'ilâ ilâhi Mûsâ' 2 ayet + xref; okundu",
+   "not": "kule."
+  },
+  {
+   "bag": "38:10 → 40:36",
+   "kural": "lemma 'sebeb' — 'fe'l-yertaqû fi'l-esbâb' (göklere yükselme meydan okuması) / 'le'allî ebluğu'l-esbâb'; okundu",
+   "not": "yollar."
+  },
+  {
+   "bag": "40:25 → 40:37",
+   "kural": "sûre içi kalıp 've mâ keydu … illâ fî …' — kâfirîn/dalâl → Fir'avn/tebâb; كيد kapanıyor [2/2]; okumada görüldü",
+   "not": "tuzak."
+  },
+  {
+   "bag": "27:24 · 29:38 → 40:37",
+   "kural": "xref (عمل صدّ سبيل); okundu",
+   "not": "yoldan alıkonma."
+  },
+  {
+   "bag": "40:29 ↔ 40:38",
+   "kural": "lemma 'reşâd' 2 ayet — aynı terkip iki karşıt konuşanda; karşıt çift (aday 1039, okuma)",
+   "not": "doğru yol."
+  },
+  {
+   "bag": "40:7 → 40:38",
+   "kural": "kök ipliği تبع — 've'ttebeû sebîlek' / 'ittebiûnî'; okumada görüldü",
+   "not": "uyma."
+  },
+  {
+   "bag": "16:97 → 40:40",
+   "kural": "metin sayımı + xref 'min zekerin ev unsâ ve huve mu'min' 3 ayet; okundu",
+   "not": "erkek ya da kadın."
+  },
+  {
+   "bag": "39:10 · 38:39 → 40:40",
+   "kural": "metin sayımı 'bi-ğayri hisâb' 7 ayet, okunan 24:38, 38:39, 39:10",
+   "not": "hesapsız."
+  },
+  {
+   "bag": "40:17 · 40:27 → 40:40",
+   "kural": "kök ipliği حسب kapanıyor [3/3] + جزي [2/2]; okumada görüldü",
+   "not": "hesap, karşılık."
+  },
+  {
+   "bag": "40:5 → 40:41 → 40:42",
+   "kural": "aynı fiil iki yönde kalıbı — أخذ (40:5) / دعو ×2 (40:41, 40:42): 1S çağırır / 2MP çağırır; okumada görüldü",
+   "not": "karşılıklı çağrı."
+  },
+  {
+   "bag": "11:47 → 40:42",
+   "kural": "metin sayımı 'mâ leyse lî bihî ilm' 2 ayet; okundu",
+   "not": "bilgim olmayan."
+  },
+  {
+   "bag": "29:8 · 31:15 → 40:42",
+   "kural": "xref (أشرك ليس علم); okundu",
+   "not": "ortak koşmaya zorlama."
+  },
+  {
+   "bag": "38:66 · 39:5 → 40:42",
+   "kural": "metin sayımı 'el-azîzu'l-ğaffâr' 3 ayet; okundu",
+   "not": "azîz, ğaffâr."
+  },
+  {
+   "bag": "40:2 → 40:8 → 40:42",
+   "kural": "kök ipliği عزز kapanıyor [3/3] — azîz + alîm / + hakîm / + ğaffâr, üçü de SON konum ikili mühür; okumada görüldü",
+   "not": "azîz."
+  },
+  {
+   "bag": "16:23 · 16:109 → 40:43",
+   "kural": "metin sayımı 'lâ cerame' 5 ayet; okundu",
+   "not": "şüphe yok."
+  },
+  {
+   "bag": "40:28 → 40:34 → 40:43",
+   "kural": "kök ipliği سرف kapanıyor [3/3] — musrif kezzâb / musrif murtâb / el-musrifîn; okumada görüldü",
+   "not": "aşırı gidenler."
+  },
+  {
+   "bag": "40:6 → 40:43",
+   "kural": "kök ipliği صحب kapanıyor [2/2] — 'ashâbu'n-nâr' iki kez: inkâr edenler / aşırı gidenler; okumada görüldü",
+   "not": "ateşin halkı."
+  },
+  {
+   "bag": "40:7 · 40:9 · 40:21 → 40:45",
+   "kural": "kök ipliği وقي kapanıyor [5/5] — dua 'qıhim' / 'min vâq' / 'fe-vaqâhu'llâh'; okumada görüldü",
+   "not": "koruma gerçekleşiyor."
+  },
+  {
+   "bag": "14:6 · 39:24 · 39:47 → 40:45",
+   "kural": "metin sayımı 'sû'u'l-azâb' 9 ayet, okunan 14:6, 27:5, 39:24, 39:47",
+   "not": "azabın kötüsü."
+  },
+  {
+   "bag": "6:52 · 18:28 → 40:46",
+   "kural": "lemma birlikteliği غدو + عشو 3 ayet; 18:28 okundu",
+   "not": "sabah akşam."
+  },
+  {
+   "bag": "30:12 · 30:14 · 30:55 → 40:46",
+   "kural": "metin sayımı 've yevme taqûmu's-sâ'a' 5 ayet + xref; okundu",
+   "not": "kıyamet günü."
+  },
+  {
+   "bag": "14:21 → 40:47",
+   "kural": "xref dört kalıp + metin sayımı 'ed-du'afâ', 'innâ kunnâ lekum tebe'â', 'muğnûne annâ' — üçü de yalnız 14:21, 40:47; okundu",
+   "not": "zayıflar / büyüklenenler."
+  },
+  {
+   "bag": "40:7 → 40:38 → 40:47",
+   "kural": "kök ipliği تبع kapanıyor [3/3] — Rab'bin yoluna uyanlar / bana uyun / size uymuştuk; okumada görüldü",
+   "not": "uyma."
+  },
+  {
+   "bag": "39:46 → 40:48",
+   "kural": "xref (حكم بين عبد) — 'ente tahkumu' (2MS IMPF) / 'qad hakeme' (3MS PERF); okundu",
+   "not": "kullar arasında hüküm."
+  },
+  {
+   "bag": "40:8 · 40:12 → 40:48",
+   "kural": "kök ipliği حكم kapanıyor [3/3]; okumada görüldü",
+   "not": "hüküm."
+  },
+  {
+   "bag": "39:71 · 39:73 → 40:49 · 40:50",
+   "kural": "metin sayımı 'hazenetuhâ' (39:71, 39:73) / 'hazenetu cehennem' (40:49) + 'qâlû belâ' 7 ayet (39:71 okundu); bekçilerin sorusu ve 'evet' cevabı iki sahnede; okundu",
+   "not": "cehennem bekçileri."
+  },
+  {
+   "bag": "40:22 → 40:50",
+   "kural": "sûre içi nakarat3 GEÇER — 'te'tîhim rusuluhum bi'l-beyyinât' anlatıda / 'te'tîkum rusulukum' soruda",
+   "not": "elçiler gelmedi mi."
+  },
+  {
+   "bag": "40:14 → 40:50",
+   "kural": "metin sayımı 'fed'û' 2 ayet — Allah'a hâlis dua emri / bekçilerin 'dua edin'i; sûre içi; okumada görüldü",
+   "not": "dua edin."
+  },
+  {
+   "bag": "13:14 · 40:25 → 40:50",
+   "kural": "xref 'duâu'l-kâfirîne … dalâl' (13:14 okundu) + sûre içi nakarat3 (keyd / duâ)",
+   "not": "sapıp gitmek."
+  },
+  {
+   "bag": "40:41 · 40:42 · 40:45 · 40:46 · 40:47",
+   "kural": "karşıt çift (aday 1039, okuma) — necât/nâr, inkâr/azîz-ğaffâr, korunma/azap, sabah/akşam, zayıflar/büyüklenenler; okumada görüldü",
+   "not": "karşıt çiftler."
+  },
+  {
+   "bag": "40:29 → 40:51",
+   "kural": "kök ipliği نصر kapanıyor [2/2] — 'fe-men yensurunâ' (kim yardım eder?) / 'innâ le-nensuru' (biz yardım ederiz); okumada görüldü, KAPATILAMAZ",
+   "not": "yardım."
+  },
+  {
+   "bag": "40:15 → 40:32 → 40:51 · 40:52",
+   "kural": "okuma — 'yevm' ayet sınırında üçüncü kez bedelle açılıyor (40:15→16, 40:32→33, 40:51→52)",
+   "not": "günün açılımı."
+  },
+  {
+   "bag": "30:57 → 40:52",
+   "kural": "metin sayımı 'ma'ziratuhum' 2 ayet; okundu",
+   "not": "özür fayda vermez."
+  },
+  {
+   "bag": "13:25 → 40:52",
+   "kural": "xref + metin sayımı 'sû'u'd-dâr' 2 ayet; okundu",
+   "not": "yurdun kötüsü."
+  },
+  {
+   "bag": "40:39 → 40:52",
+   "kural": "kök ipliği دور kapanıyor [2/2] — 'dâru'l-qarâr' / 'sû'u'd-dâr'; okumada görüldü",
+   "not": "yurt."
+  },
+  {
+   "bag": "40:23 → 40:53",
+   "kural": "okuma — 've le-qad … Mûsâ' 1P PERF açılışı iki kez; okumada görüldü",
+   "not": "Mûsâ."
+  },
+  {
+   "bag": "12:111 · 38:43 · 39:21 → 40:54",
+   "kural": "metin sayımı 'li-uli'l-elbâb' 5 ayet; okundu",
+   "not": "akıl sahipleri."
+  },
+  {
+   "bag": "40:28 → 40:54",
+   "kural": "kök ipliği هدي kapanıyor [6/6] — esirgenen / iddia / yokluk / davet / verilen / kitabın niteliği; okumada görüldü",
+   "not": "hidâyet."
+  },
+  {
+   "bag": "30:60 → 40:55",
+   "kural": "metin sayımı 'fasbir inne va'da'llâhi haqq' 3 ayet (30:60 okundu; 40:77 sûre içi) + xref",
+   "not": "sabret."
+  },
+  {
+   "bag": "20:130 → 40:55",
+   "kural": "metin sayımı 've sebbih bi-hamdi rabbik' 4 ayet; okundu",
+   "not": "tesbih."
+  },
+  {
+   "bag": "40:7 → 40:55",
+   "kural": "kök ipliği سبح + حمد + غفر — Arş'ı taşıyanlar tesbih eder ve bağışlanma diler / 2MS'ye tesbih ve istiğfar emri; okumada görüldü",
+   "not": "tesbih, istiğfar."
+  },
+  {
+   "bag": "40:46 → 40:55",
+   "kural": "kök ipliği عشو kapanıyor [2/2] — günün iki ucu: ateşe sunuluş / tesbih; okumada görüldü, KAPATILAMAZ",
+   "not": "akşam."
+  },
+  {
+   "bag": "40:35 ↔ 40:56",
+   "kural": "nakarat3 GEÇER (8 kelime) — aynı gövde, iki yüklem: 'kebura maqtan' / 'in fî sudûrihim illâ kibr'",
+   "not": "tartışanlar."
+  },
+  {
+   "bag": "40:36 → 40:56",
+   "kural": "kök ipliği بلغ — Firavun 'le'allî ebluğu'l-esbâb' / 'mâ hum bi-bâliğîh'; okumada görüldü, KAPATILAMAZ",
+   "not": "erişmek."
+  },
+  {
+   "bag": "40:27 → 40:56",
+   "kural": "kök ipliği عوذ kapanıyor [2/2] — Mûsâ 'uztu' / 2MS'ye 'fe'stei'z'; okumada görüldü",
+   "not": "sığınma."
+  },
+  {
+   "bag": "16:98 → 40:56",
+   "kural": "metin sayımı 'fe'stei'z bi'llâh' 4 ayet; okundu",
+   "not": "Allah'a sığın."
+  },
+  {
+   "bag": "17:1 · 40:20 → 40:56",
+   "kural": "metin sayımı 'huve's-semî'u'l-basîr' (17:1 okundu) + sûre içi nakarat3 GEÇMEZ",
+   "not": "işiten, gören."
+  },
+  {
+   "bag": "40:56 → 40:57",
+   "kural": "kök ipliği كبر — 'kibr' (göğüsteki) / 'ekber' (göklerin yaratılışı); okumada görüldü, KAPATILAMAZ",
+   "not": "büyüklük."
+  },
+  {
+   "bag": "30:6 · 30:30 · 34:28 → 40:57",
+   "kural": "metin sayımı 've lâkinne ekserâ'n-nâsi lâ ya'lemûn' 11 ayet, okunan 8; sûre içi nakarat3 GEÇER",
+   "not": "çoğu bilmez."
+  },
+  {
+   "bag": "35:19 · 13:16 → 40:58",
+   "kural": "metin sayımı 'el-a'mâ ve'l-basîr' 4 ayet + 've mâ yestevi'l-a'mâ ve'l-basîr' 2 ayet; okundu",
+   "not": "kör ile gören."
+  },
+  {
+   "bag": "15:85 → 40:59",
+   "kural": "metin sayımı 'inne's-sâ'ate le-âtiya' 2 ayet; okundu",
+   "not": "o saat gelecek."
+  },
+  {
+   "bag": "40:49 · 40:50 → 40:60",
+   "kural": "kök ipliği دعو — 'ud'û rabbekum' / 'fed'û' / 'ud'ûnî' — aynı emir üç konuşanda; okumada görüldü, KAPATILAMAZ",
+   "not": "dua edin."
+  },
+  {
+   "bag": "27:87 · 37:18 → 40:60",
+   "kural": "lemma 'dâhir' 4 ayet; 16:48, 27:87, 37:18 okundu",
+   "not": "aşağılanmış."
+  },
+  {
+   "bag": "10:67 → 40:61",
+   "kural": "metin sayımı 'ce'ale lekumu'l-leyle li-teskunû fîhi ve'n-nehâra mubsırâ' 2 ayet; okundu",
+   "not": "gece ve gündüz."
+  },
+  {
+   "bag": "40:57 · 40:59 → 40:61",
+   "kural": "nakarat3 GEÇER — 'lâkinne ekserâ'n-nâsi lâ' 3 ayet, üç fiil: ya'lemûn / yu'minûn / yeşkurûn; okumada görüldü",
+   "not": "insanların çoğu."
+  },
+  {
+   "bag": "40:61 → 40:64",
+   "kural": "nakarat3 GEÇER — 'allâhu'llezî ce'ale lekum' sûre içi 3 ayet (40:79 ileride)",
+   "not": "kılan Allah."
+  },
+  {
+   "bag": "40:20 · 40:44 · 40:56 · 40:58 → 40:61",
+   "kural": "kök ipliği بصر kapanıyor [5/5] — esmâ / gören insan / gündüzün sıfatı; okumada görüldü",
+   "not": "görme."
+  },
+  {
+   "bag": "10:3 · 10:32 · 35:13 · 39:6 → 40:62",
+   "kural": "metin sayımı 'zâlikumu'llâhu rabbukum' 7 ayet; okundu",
+   "not": "işte Rabbiniz Allah."
+  },
+  {
+   "bag": "13:16 · 25:2 · 39:62 → 40:62",
+   "kural": "metin sayımı 'hâliqu kulli şey'' 6 ayet; okundu",
+   "not": "her şeyin yaratıcısı."
+  },
+  {
+   "bag": "10:34 · 35:3 → 40:62",
+   "kural": "metin sayımı 'fe-ennâ tu'fekûn' 4 ayet; okundu",
+   "not": "nasıl çevriliyorsunuz."
+  },
+  {
+   "bag": "40:62 → 40:63 → 40:69",
+   "kural": "okuma — edilgen 'çevrilme' üç kez ('tu'fekûn', 'yu'fek', 'yusrafûn'), çeviren üçünde de adsız; okumada görüldü",
+   "not": "çevrilme."
+  },
+  {
+   "bag": "27:61 → 40:64",
+   "kural": "metin sayımı 'el-arda qarârâ' 2 ayet; okundu",
+   "not": "yer durak."
+  },
+  {
+   "bag": "40:39 → 40:64",
+   "kural": "kök ipliği قرر kapanıyor [2/2] — 'dâru'l-qarâr' (âhiret) / 'el-arda qarârâ' (yer); okumada görüldü, KAPATILAMAZ",
+   "not": "karar yeri."
+  },
+  {
+   "bag": "40:36 → 40:64",
+   "kural": "kök ipliği بني kapanıyor [4/4] — Firavun 'ibni lî sarhan' / 've's-semâe binâen'; okumada görüldü, KAPATILAMAZ",
+   "not": "bina."
+  },
+  {
+   "bag": "16:72 → 40:64",
+   "kural": "metin sayımı 've razaqakum mine't-tayyibât' 3 ayet; okundu",
+   "not": "temiz rızık."
+  },
+  {
+   "bag": "23:14 → 40:64",
+   "kural": "metin sayımı 'fe-tebâreka'llâh' 2 ayet; okundu (23:14 yaratılış aşamalarının ardından)",
+   "not": "ne yüce."
+  },
+  {
+   "bag": "40:14 → 40:65",
+   "kural": "kök ipliği خلص kapanıyor [2/2] — 'muhlisîne lehu'd-dîn' emri iki kez; okumada görüldü",
+   "not": "hâlis kılarak dua."
+  },
+  {
+   "bag": "10:22 · 29:65 · 31:32 → 40:65",
+   "kural": "metin sayımı 'muhlisîne lehu'd-dîn' 7 ayet; okundu",
+   "not": "dini hâlis kılarak."
+  },
+  {
+   "bag": "1:2 · 10:10 · 37:182 · 39:75 → 40:65",
+   "kural": "metin sayımı 'el-hamdu li'llâhi rabbi'l-âlemîn' 6 ayet; okundu (39:75 Zümer'in son ayeti)",
+   "not": "hamd."
+  },
+  {
+   "bag": "40:7 · 40:55 → 40:65",
+   "kural": "kök ipliği حمد kapanıyor [3/3] — Arş'ı taşıyanlar / 2MS'ye emir / konuşanı adsız 'el-hamdu'",
+   "not": "hamd."
+  },
+  {
+   "bag": "40:28 → 40:66",
+   "kural": "nakarat3 GEÇER (4 kelime / 2 ayet) — 'câekum bi'l-beyyinâti min rabbikum' / 'câe'niye'l-beyyinâtu min rabbî': 2MP'ye / 1S'ye",
+   "not": "açık deliller."
+  },
+  {
+   "bag": "40:60 → 40:66",
+   "kural": "kök ipliği دعو + عبد — 'ud'ûnî' / 'an ibâdetî' → 'ted'ûne' / 'a'bude'; okumada görüldü",
+   "not": "dua ve kulluk."
+  },
+  {
+   "bag": "22:5 → 40:67",
+   "kural": "xref + metin sayımı: 'min turâbin summe min nutfetin summe min alaqa', 'li-teblüğû eşuddekum', 've minkum men yuteveffâ' — üçü de 2 ayet; okundu",
+   "not": "yaratılış aşamaları."
+  },
+  {
+   "bag": "35:11 → 40:67",
+   "kural": "metin sayımı 'min turâbin summe min nutfa' 2 ayet; okundu",
+   "not": "topraktan, nutfeden."
+  },
+  {
+   "bag": "40:11 → 40:67",
+   "kural": "kök ipliği خرج kapanıyor [2/2] — 'hurûc' (ateştekilerin çıkış sorusu) / 'yuhricukum tıflâ'; okumada görüldü, KAPATILAMAZ",
+   "not": "çıkış."
+  },
+  {
+   "bag": "40:11 → 40:68",
+   "kural": "kök ipliği موت kapanıyor [2/2] (حيي [6/6]) — 'emettenâ … ahyeytenâ' (ölüm önce) / 'yuhyî ve yumît' (dirim önce); okumada görüldü",
+   "not": "diriltme, öldürme."
+  },
+  {
+   "bag": "23:80 → 40:68",
+   "kural": "metin sayımı 'huve'llezî yuhyî ve yumît' 2 ayet; okundu",
+   "not": "dirilten, öldüren."
+  },
+  {
+   "bag": "16:40 · 19:35 · 36:82 → 40:68",
+   "kural": "metin sayımı 'kun fe-yekûn' 8 ayet; okundu (19:35 aynı şart kalıbıyla)",
+   "not": "ol der, olur."
+  },
+  {
+   "bag": "40:35 · 40:56 → 40:69",
+   "kural": "metin sayımı 'ellezîne yucâdilûne fî âyâti'llâh' 3 ayet, üçü de sûre içi — üç yüklem: öfke / kibir / çevrilme; okumada görüldü",
+   "not": "tartışanlar."
+  },
+  {
+   "bag": "40:2 · 40:53 → 40:70",
+   "kural": "kök ipliği كتب kapanıyor [3/3] — 'el-kitâb' indirilen / mirasçı kılınan / yalanlanan; okumada görüldü",
+   "not": "kitap."
+  },
+  {
+   "bag": "15:3 · 15:96 · 29:66 · 37:170 → 40:70",
+   "kural": "metin sayımı 'fe-sevfe ya'lemûn' 6 ayet; okundu",
+   "not": "yakında bilecekler."
+  },
+  {
+   "bag": "40:51 → 40:70",
+   "kural": "kök ipliği رسل — 'rusulenâ' (yardım edilen) / 'erselnâ … rusulenâ' (yalanlanan); okumada görüldü",
+   "not": "elçilerimiz."
+  },
+  {
+   "bag": "40:70 → 40:71 → 40:72",
+   "kural": "okuma — cümle iki ayet sınırını aşıyor: 'fe-sevfe ya'lemûn' / 'iz …' / 'yushabûne' + 'fi'l-hamîm'",
+   "not": "taşan cümle."
+  },
+  {
+   "bag": "13:5 → 40:71",
+   "kural": "metin sayımı 'el-ağlâlu fî a'nâqihim' 2 ayet; okundu",
+   "not": "boyunlarda halkalar."
+  },
+  {
+   "bag": "40:18 → 40:72",
+   "kural": "kök ipliği حمم kapanıyor [2/2] — 'hamîm' yakın dost / kaynar su; okumada görüldü (gloss 1021)",
+   "not": "hamîm."
+  },
+  {
+   "bag": "26:92 → 40:73",
+   "kural": "metin sayımı 'qîle lehum ayne' 2 ayet; okundu ('ayne mâ kuntum ta'budûn')",
+   "not": "nerede?"
+  },
+  {
+   "bag": "40:34 → 40:74",
+   "kural": "metin sayımı 'kezâlike yudillu'llâh' 3 ayet (sûre içi 2) — musrif murtâb / kâfirîn; nakarat3 GEÇMEZ",
+   "not": "böyle saptırır."
+  },
+  {
+   "bag": "40:60 · 40:66 → 40:74",
+   "kural": "kök ipliği دعو kapanıyor [18/18] — 'ud'ûnî' / 'ted'ûne' / 'lem nekun ned'û'; okumada görüldü",
+   "not": "dua."
+  },
+  {
+   "bag": "10:23 · 28:39 → 40:75",
+   "kural": "metin sayımı 'bi-ğayri'l-haqq' 9 ayet; okunan 2",
+   "not": "haksız yere."
+  },
+  {
+   "bag": "16:29 · 39:72 → 40:76",
+   "kural": "esit2 YAKIN (0,9630) + metin sayımı 'udhulû ebvâbe cehenneme hâlidîne fîhâ' 3 ayet; okundu",
+   "not": "cehennemin kapıları."
+  },
+  {
+   "bag": "40:8 · 40:40 · 40:46 · 40:60 → 40:76",
+   "kural": "kök ipliği دخل kapanıyor [5/5] — iki cennet girişi, üç azap/cehennem girişi; okumada görüldü",
+   "not": "girme."
+  },
+  {
+   "bag": "40:35 · 40:56 · 40:60 → 40:76",
+   "kural": "kök ipliği كبر kapanıyor [11/11] — 'mutekebbir' … 'el-mutekebbirîn'; okumada görüldü",
+   "not": "büyüklenme."
+  },
+  {
+   "bag": "30:60 · 40:55 → 40:77",
+   "kural": "nakarat3 GEÇER (5 kelime / 2 ayet) + metin sayımı 'fasbir inne va'da'llâhi haqq' 3 ayet",
+   "not": "sabret."
+  },
+  {
+   "bag": "10:46 · 13:40 → 40:77",
+   "kural": "metin sayımı 'nuriyenneke ba'da'llezî ne'iduhum' 3 ayet; okundu",
+   "not": "vaadin bir kısmı."
+  },
+  {
+   "bag": "40:28 → 40:77",
+   "kural": "kök ipliği بعض kapanıyor [2/2] — 'ba'du'llezî ya'idukum' (iman eden) / 'ba'da'llezî ne'iduhum' (1P); okumada görüldü, KAPATILAMAZ",
+   "not": "vaat edilenin bir kısmı."
+  },
+  {
+   "bag": "40:67 → 40:77",
+   "kural": "kök ipliği وفي kapanıyor [2/2] — 'yuteveffâ' (edilgen) / 'neteveffeyenneke' (1P)",
+   "not": "vefat."
+  },
+  {
+   "bag": "13:38 → 40:78",
+   "kural": "xref + metin sayımı: 've le-qad erselnâ rusulen min qablik' ve 'mâ kâne li-rasûlin en ye'tiye bi-âyetin illâ bi-izni'llâh' — ikisi de 2 ayet; okundu",
+   "not": "izinsiz ayet yok."
+  },
+  {
+   "bag": "16:118 → 40:78",
+   "kural": "metin sayımı 'qasasnâ aleyk' 2 ayet; okundu",
+   "not": "anlattık."
+  },
+  {
+   "bag": "40:20 · 40:68 → 40:78",
+   "kural": "kök ipliği قضي kapanıyor [4/4] — 'yaqdî bi'l-haqq' (etken) / 'qudiye bi'l-haqq' (edilgen); okumada görüldü",
+   "not": "hak ile hüküm."
+  },
+  {
+   "bag": "40:5 → 40:78",
+   "kural": "kök ipliği بطل kapanıyor [2/2] — 'bi'l-bâtıl' / 'el-mubtılûn'",
+   "not": "bâtıl."
+  },
+  {
+   "bag": "40:61 · 40:64 → 40:79",
+   "kural": "nakarat3 GEÇER — 'allâhu'llezî ce'ale lekum' sûre içi 3 ayetin sonuncusu; جعل [3/3]",
+   "not": "kılan Allah."
+  },
+  {
+   "bag": "23:21 · 23:22 → 40:79 · 40:80",
+   "kural": "metin sayımı 've minhâ te'kulûn' 4, 've lekum fîhâ menâfi'' 2, 've aleyhâ ve ale'l-fulki tuhmelûn' 2 ayet; okundu",
+   "not": "davarlar ve gemiler."
+  },
+  {
+   "bag": "40:36 · 40:56 · 40:67 → 40:80",
+   "kural": "kök ipliği بلغ kapanıyor [5/5] — Firavun'un ulaşma isteği / erişemeyecekleri / güçlü çağ / göğüsteki isteğe erme; okumada görüldü",
+   "not": "erişme."
+  },
+  {
+   "bag": "40:19 · 40:56 → 40:80",
+   "kural": "kök ipliği صدر kapanıyor [3/3] — göğüslerin gizlediği / göğüsteki kibir / göğüsteki istek; okumada görüldü",
+   "not": "göğüsler."
+  },
+  {
+   "bag": "40:7 → 40:80",
+   "kural": "kök ipliği حمل kapanıyor [2/2] — 'yahmilûne'l-arş' (etken) / 'tuhmelûn' (edilgen); okumada görüldü, KAPATILAMAZ",
+   "not": "taşıma."
+  },
+  {
+   "bag": "40:13 → 40:81",
+   "kural": "metin sayımı 'yurîkum âyâtih' 3 ayet (sûre içi 2)",
+   "not": "ayetlerini gösteriyor."
+  },
+  {
+   "bag": "40:21 → 40:82",
+   "kural": "nakarat3 GEÇER (8 kelime) + 'quvveten ve âsâran fi'l-ard' 2 ayet, ikisi sûre içi — sûre ortası / sonu, 40:82'de 'eksera' eklenmiş; okumada görüldü",
+   "not": "yeryüzünde gezmek."
+  },
+  {
+   "bag": "12:109 → 40:82",
+   "kural": "metin sayımı 'e-fe-lem yesîrû fi'l-ardı fe-yenzurû keyfe kâne âqibetu'llezîne min qablihim' 3 ayet; okundu",
+   "not": "öncekilerin sonu."
+  },
+  {
+   "bag": "15:84 · 39:50 → 40:82",
+   "kural": "metin sayımı 'fe-mâ ağnâ anhum mâ kânû yeksibûn' 3 ayet; okundu",
+   "not": "kazandıkları fayda vermedi."
+  },
+  {
+   "bag": "10:13 · 14:9 · 30:9 · 35:25 → 40:83",
+   "kural": "metin sayımı 'câethum rusuluhum bi'l-beyyinât' 6 ayet; okundu",
+   "not": "açık delillerle elçiler."
+  },
+  {
+   "bag": "11:8 · 16:34 · 39:48 → 40:83",
+   "kural": "metin sayımı 've hâqa bihim mâ kânû bihî yestehzi'ûn' 6 ayet; okundu",
+   "not": "alay ettikleri kuşattı."
+  },
+  {
+   "bag": "40:75 → 40:83",
+   "kural": "kök ipliği فرح kapanıyor [2/2] — yeryüzünde haksız sevinç / yanlarındaki bilgiyle sevinç; okumada görüldü",
+   "not": "sevinme."
+  },
+  {
+   "bag": "40:7 → 40:83",
+   "kural": "kök ipliği علم kapanıyor [10/10] — 'rahmeten ve ilmâ' / 'mine'l-ilm'; okumada görüldü, KAPATILAMAZ",
+   "not": "bilgi."
+  },
+  {
+   "bag": "40:12 → 40:84",
+   "kural": "kök ipliği وحد + كفر + شرك + أمن — aynı dört kök ters dizilişte; okumada görüldü, KAPATILAMAZ",
+   "not": "tek O'na iman."
+  },
+  {
+   "bag": "40:52 → 40:85",
+   "kural": "kök ipliği نفع kapanıyor [3/3] — özür fayda vermez / iman fayda vermedi; okumada görüldü",
+   "not": "fayda vermez."
+  },
+  {
+   "bag": "35:43 · 33:38 · 33:62 → 40:85",
+   "kural": "metin sayımı 'sunnete'llâh' 2 ayet + xref; okundu",
+   "not": "Allah'ın yolu."
+  },
+  {
+   "bag": "40:78 → 40:85",
+   "kural": "metin sayımı 've hasira hunâlike' 2 ayet, ikisi sûre içi — el-mubtılûn / el-kâfirûn",
+   "not": "orada hüsran."
+  },
+  {
+   "bag": "40:4 → 40:85",
+   "kural": "kök ipliği كفر kapanıyor [13/13] — 'illa'llezîne keferû' / sûrenin son kelimesi 'el-kâfirûn'; okumada görüldü",
+   "not": "inkâr edenler."
+  }
  ]
 }
