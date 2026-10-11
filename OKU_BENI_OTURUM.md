@@ -1,15 +1,16 @@
-# OTURUM — sûre 38 (Sâd) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 39 (Zümer) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 2850 / 6236 ayet (%45,7)** — sûre 1 ve 9-38 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 39 (Zümer, 75 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1324** kök · aday havuzu **1-1038** (sûre 38'de yeni aday yok; `AW_sad` boş) · bağ seti `AR_sad` 103.
+**Okunan: 2925 / 6236 ayet (%46,9)** — sûre 1 ve 9-39 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 40 (Ğâfir, 85 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1331** kök · aday havuzu **1-1039** (sûre 39'da yeni: 1039, `AX_zumer`) · bağ seti `AS_zumer` 171 · esmâ KARAR 221.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
 Paket: depo `0793015`'e göre fark.
-Sûre 38 dosyaları: `kok_ekle_38.py` · `sad_metin_1.py` (MEAL1-9/M1-9) · `sad_kayit.py` (CIPA, ARIZA, DUZELTME 18/19) · `uret_blok_38.py` · `aday_ekle_38_sad.py` · `yama_retroaktif_gloss_38.py` · `duzeltme_38.py` · `sad_kapanis.py` · `sad_paket_md.py` → `notlar/sure38_sad_okuma.md`.
-Sûre 39 için şablonlar `sad_*`'tan S=39 (yeni set adları; numara 1039'dan, `aday_ekle` sırayı doğruluyor).
+Sûre 39 dosyaları: `kok_ekle_39.py` · `zumer_metin_1.py` (MEAL1-8/M1-8) · `zumer_kayit.py` (CIPA, ARIZA) · `uret_blok_39.py` · `aday_ekle_39_zumer.py` · `yama_retroaktif_gloss_39.py` · `duzeltme_39.py` · `zumer_kapanis.py` · `zumer_paket_md.py` → `notlar/sure39_zumer_okuma.md` · **`aday1039_test.py` → `bulgular/aday1039_test.json`**.
+Sûre 40 için şablonlar `zumer_*`'tan S=40 (yeni set adları; numara 1040'tan, `aday_ekle` sırayı doğruluyor).
 Her blokta ayrıca: tetik taraması (mercek satırı ↔ morph kökleri) ve [x/y] sayım karşılaştırması (mercek metni ↔ ölçüm satırı) — ikisi de oturum betiği.
+**Aday 1039:** ölçüm kolu H0 reddedilmedi; okuma kolu (karşıt çift) açık — sûre 40'tan ◇'de 'Karşıt çift (aday 1039, okuma)' notu aynı biçimde sürsün (kontrol verisi).
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 38 TUR SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 39 TUR SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
