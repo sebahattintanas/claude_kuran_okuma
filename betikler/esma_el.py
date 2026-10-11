@@ -224,4 +224,41 @@ KARAR = {
     '39:69:9': 'degil',  # ve'ş-şuhedâ — şahitler (insanlar, çoğul)
     '39:72:9': 'degil',  # mesve'l-mutekebbirîn — büyüklenenler (insanlar, çoğul)
     '39:73:16': 'degil',  # selâmun aleykum — bekçilerin selamlaması (esenlik dileği)
+    # sûre 40 (Ğâfir) blok 1-10 (2026-10-11)
+    '40:2:5': 'ilahi',  # mina'llâhi'l-azîz — lafzın sıfatı
+    '40:2:6': 'ilahi',  # el-alîm — aynı terkip
+    '40:8:15': 'ilahi',  # inneke ente'l-azîz — meleklerin Rabbe hitabı, zamir Rab'be döner
+    '40:8:16': 'ilahi',  # el-hakîm — aynı terkip
+    # sûre 40 (Ğâfir) blok 11-20 (2026-10-11)
+    '40:12:14': 'ilahi',  # fe'l-hukmu li'llâhi'l-aliyy — lafzın sıfatı
+    '40:12:15': 'ilahi',  # el-kebîr — aynı terkip
+    '40:16:15': 'ilahi',  # li'llâhi'l-vâhidi'l-qahhâr — lafzın sıfatı
+    '40:20:14': 'ilahi',  # inna'llâhe huve's-semî' — zamir lafza döner
+    '40:20:15': 'ilahi',  # el-basîr — aynı terkip
+    # sûre 40 (Ğâfir) blok 21-30 (2026-10-11)
+    '40:22:11': 'ilahi',  # innehû qaviyyun şedîdu'l-iqâb — zamir lafza döner
+    '40:23:6': 'degil',  # sultânin mubîn — Mûsâ'ya verilen delilin sıfatı
+    '40:27:9': 'degil',  # min kulli mutekebbir — büyüklenen insan (nekre)
+    '40:28:3': 'degil',  # racülun mu'min — inanan adam
+    '40:29:5': 'degil',  # zâhirîne fi'l-ard — üstün olanlar (insanlar, çoğul)
+    # sûre 40 (Ğâfir) blok 31-40 (2026-10-11)
+    '40:33:16': 'degil',  # fe-mâ lehû min hâd — olumsuz nekre (39:23 emsali)
+    '40:35:22': 'degil',  # kulli qalbi mutekebbir — büyüklenen kalp (insan)
+    '40:35:23': 'degil',  # cebbâr — aynı terkip, kalbin sıfatı
+    '40:39:8': 'degil',  # el-âhira — âhiret sıfatı
+    '40:40:16': 'degil',  # ve huve mu'min — iman eden insan
+    # sûre 40 (Ğâfir) blok 41-50 (2026-10-11)
+    '40:42:14': 'ilahi',  # ed'ûkum ile'l-azîz — çağrılan Allah'ın sıfatı
+    '40:42:15': 'ilahi',  # el-ğaffâr — aynı terkip
+    '40:43:13': 'degil',  # fi'l-âhira — âhiret sıfatı
+    '40:44:11': 'ilahi',  # inna'llâhe basîrun bi'l-ibâd — lafzın haberi
+    # sûre 40 (Ğâfir) blok 51-60 (2026-10-11)
+    '40:56:22': 'ilahi',  # innehû huve's-semî' — zamir Allah'a döner
+    '40:56:23': 'ilahi',  # el-basîr — aynı terkip
+    '40:58:4': 'degil',  # el-a'mâ ve'l-basîr — gören (insan), körün karşıtı
+    # sûre 40 (Ğâfir) blok 61-70 (2026-10-11)
+    '40:62:4': 'ilahi',  # zâlikumu'llâhu rabbukum hâliqu kulli şey' — Allah'ın sıfatı
+    '40:65:2': 'ilahi',  # huve'l-hayy — zamir Allah'a döner (40:64)
+    # sûre 40 (Ğâfir) blok 71-80 (2026-10-11)
+    '40:76:8': 'degil',  # fe-bi'se mesve'l-mutekebbirîn — büyüklenenler (insan), çoğul
 }
