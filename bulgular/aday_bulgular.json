@@ -27686,5 +27686,55 @@
    ]
   }
  ],
- "AW_sad": []
+ "AW_sad": [],
+ "AX_zumer": [
+  {
+   "no": 1039,
+   "aday": "METNİN ÖZ-TANIMI İLE ÖLÇÜLEN YAPI ARASINDA UYUM (test edilecek, iddia değil): 39:23 kitabı 'muteşâbih' (birbirine benzeyen) ve 'mesânî' (ikişer / tekrarlanan; kök ثني, gloss 'iki') diye niteliyor; araçların ölçtüğü iki yapı bu iki sıfata karşılık geliyor: (a) benzerlik — esit2 / nakarat3 / xref; (b) çiftlik — okumada görülen karşıt çiftler. 39:27 ('min kulli mesel' — her türlü örnek; kök مثل 'benzer') öz-tanımı sürdürüyor ve 39:29 örneği hemen veriyor: iki adam + 'hel yesteviyân' (ikisi eşit olur mu) — eşitlik sorusu.",
+   "olculen": {
+    "esit2_TAM_39_1_30": [
+     "39:1 → 45:2",
+     "39:1 → 46:2",
+     "39:13 → 6:15"
+    ],
+    "nakarat3_GECER_ayet_39_1_30": [
+     2,
+     8,
+     11,
+     14,
+     21,
+     23,
+     24,
+     25
+    ],
+    "karsit_cift_okumada_39_1_30": [
+     "39:7 inkâr/şükür",
+     "39:9 bilenler/bilmeyenler",
+     "39:16↔39:20 ateş gölgelikleri üst-alt / gurfeler üst, ırmaklar alt",
+     "39:22↔39:23 katı kalp / yumuşayan kalp",
+     "39:23 ürperen deri → yumuşayan deri",
+     "39:29 ortaklı adam / tek sahipli adam",
+     "39:30 sen / onlar"
+    ],
+    "metin_sayimi": {
+     "muteşâbih": "5 ayet: 2:25, 3:7, 6:99, 6:141, 39:23 — 3:7'de kitabın bir kısmı ('uharu muteşâbihât'), 39:23'te tamamı",
+     "mesânî": "2 ayet: 15:87, 39:23",
+     "min kulli mesel": "4 ayet: 17:89, 18:54, 30:58, 39:27",
+     "yestevî (eşitlik sorusu/olumsuzu)": "14 ayet; sûre 39'da 39:9 ve 39:29"
+    }
+   },
+   "test": "sûre 39 sonunda: (1) karşıt çift sayısı (okuma) ve esit2-TAM / nakarat3-GEÇER sayısı (ölçüm), (2) aynı sayımlar öz-tanım ayeti içermeyen bir sûrede (uzunluk eşleştirilmiş), (3) korpus düzeyinde öz-tanım ayetleri (muteşâbih/mesânî/mesel) çevresinde benzerlik yoğunluğu ±10 ayet. Sıfır hipotez: fark yok.",
+   "durum": "ÖLÇÜM KOLU: H0 REDDEDİLMEDİ (2026-10-11) · OKUMA KOLU (karşıt çift) AÇIK",
+   "test_sonucu": {
+    "dosya": "bulgular/aday1039_test.json (aday1039_test.py, tohum 0)",
+    "1_sure39": "ayet oranları — esit2 herhangi 6/75, esit2 TAM 2/75, nakarat3 GEÇER 22/75, birleşik 27/75",
+    "2_kontrol": "uzunluk eşli band (öz-tanım ayeti yok; ±15 ayet, ±%25 kelime): 8, 22, 24, 25, 28, 29, 33, 40. Sûre 39 sırası (9 içinde): esit2 2., TAM 3., nakarat3 5., birleşik 5. Tek kontrol sûre 8 (75 ayet): nakarat3 22/75 vs 36/75, Fisher p=0,0289 — YÖN TERS (39 daha az) ve Bonferroni eşiği 0,0063'ün üstünde; diğer ölçüler p>=0,099",
+    "3_pencere": "öz-tanım ayetleri (3:7, 15:87, 17:89, 18:54, 30:58, 39:23, 39:27) ±10 ayet: pencere − sûre farkı dört ölçüde de negatif (−0,010 … −0,024), sûre içi permütasyon p=0,62-0,74",
+    "karar": "Ölçülen benzerlik (esit2 / nakarat3) sûre 39'da ya da öz-tanım ayetleri çevresinde uzunluk eşli kontrollerden yüksek DEĞİL. 'Muteşâbih/mesânî' öz-tanımı bu iki ölçüyle desteklenmiyor. Karşıt çift kolu yalnız sûre 39'da okuma kaydı (16 ayet, 39:21-75) — kontrol sûresi aynı protokolle okunmadan karşılaştırılamaz; o kol AÇIK, iddia yok."
+   },
+   "oncelik": "P3",
+   "kaynak": "sûre 39 okuması, blok 21-30 (kullanıcı gözlemi, 2026-10-11)",
+   "etiket": "okuma gözlemi + ölçüm; metnin bu kelimelerle araçların ölçtüğü şeyi kastettiği metinden çıkarılamaz — KAPATILAMAZ; 'mesânî'nin 'ikişer' mi 'tekrarlanan' mı olduğu açık"
+  }
+ ]
 }
