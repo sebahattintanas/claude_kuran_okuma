@@ -194,4 +194,34 @@ KARAR = {
  '38:66:7': 'ilahi', # … el-ğaffâr — Rab'bin sıfatı
  '38:70:8': 'degil', # nezîrun mubîn — uyarıcının (1S) sıfatı
  '38:71:6': 'ilahi', # innî hâliqun beşeren — inne'nin haberi, 1S konuşan Rab (34:11 emsali)
+    '39:1:5': 'ilahi',  # lafzın sıfatı (el-azîz)
+    '39:1:6': 'ilahi',  # lafzın sıfatı (el-hakîm)
+    '39:3:9': 'degil',  # evliyâ: edinilen dostlar, isim değil
+    '39:4:16': 'ilahi',  # lafzın sıfatı (el-vâhidu'l-qahhâr)
+    '39:5:22': 'ilahi',  # elâ huve'l-azîz — huve Allah'a döner
+    '39:5:23': 'ilahi',  # elâ huve'l-ğaffâr — huve Allah'a döner
+    '39:7:5': 'ilahi',  # inne'llâhe ğaniyyun — inne haberi
+    '39:7:29': 'ilahi',  # innehû alîm — inne haberi, zamir Rab'a döner
+    '39:9:9': 'degil',  # el-âhira: âhiret sıfatı, isim değil
+    '39:12:4': 'degil',  # evvele'l-muslimîn — 'ilk', isim değil
+    '39:15:19': 'degil',  # el-husrânu'l-mubîn — husrânın sıfatı
+    '39:22:8': 'degil',  # alâ nûrin min rabbih — Rab'den gelen ışık, isim değil
+    '39:22:20': 'degil',  # dalâlin mubîn — sapkınlığın sıfatı
+    '39:23:34': 'degil',  # fe-mâ lehû min hâd — olumsuz nekre, 'yol gösteren yok'
+    '39:26:8': 'degil',  # el-âhira — âhiret sıfatı
+    '39:36:15': 'degil',  # fe-mâ lehû min hâd — olumsuz nekre (39:23 emsali)
+    '39:37:10': 'ilahi',  # e-leyse'llâhu bi-azîzin — lafzın haberi
+    '39:41:18': 'degil',  # ve mâ ente aleyhim bi-vekîl — 2MS'ye olumsuz haber
+    '39:45:10': 'degil',  # el-âhira — âhiret sıfatı
+    '39:46:6': 'ilahi',  # Allâhumme … âlime'l-ğayb — nidâ edilen Allah'ın sıfatı
+    '39:53:19': 'ilahi',  # innehû huve'l-ğafûr — zamir Allah'a döner
+    '39:53:20': 'ilahi',  # er-rahîm — aynı terkip
+    '39:60:14': 'degil',  # li'l-mutekebbirîn — büyüklenen insanlar (çoğul)
+    '39:62:2': 'ilahi',  # Allâhu hâliqu kulli şey' — lafzın haberi
+    '39:62:9': 'ilahi',  # ve huve alâ kulli şey'in vekîl — zamir Allah'a döner
+    '39:66:6': 'degil',  # mine'ş-şâkirîn — 2MS'ye emir, şükredenler (insanlar, çoğul)
+    '39:69:3': 'degil',  # bi-nûri rabbihâ — Rabbin nuru (Rab'dan ışık; nûr emsali)
+    '39:69:9': 'degil',  # ve'ş-şuhedâ — şahitler (insanlar, çoğul)
+    '39:72:9': 'degil',  # mesve'l-mutekebbirîn — büyüklenenler (insanlar, çoğul)
+    '39:73:16': 'degil',  # selâmun aleykum — bekçilerin selamlaması (esenlik dileği)
 }
