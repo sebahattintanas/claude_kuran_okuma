@@ -261,4 +261,77 @@ KARAR = {
     '40:65:2': 'ilahi',  # huve'l-hayy — zamir Allah'a döner (40:64)
     # sûre 40 (Ğâfir) blok 71-80 (2026-10-11)
     '40:76:8': 'degil',  # fe-bi'se mesve'l-mutekebbirîn — büyüklenenler (insan), çoğul
+    # sûre 41 (Fussilet) blok 1-10 (2026-10-11)
+    '41:2:3': 'ilahi',  # tenzîlun mine'r-rahmân — indirenin adı
+    '41:2:4': 'ilahi',  # er-rahîm — aynı terkip
+    '41:7:6': 'degil',  # bi'l-âhira — âhiret (son yurt), esmâ 'el-âhir' değil
+    # sûre 41 (Fussilet) blok 11-20 (2026-10-11)
+    '41:12:18': 'ilahi',  # zâlike taqdîru'l-azîz — takdirin sahibi
+    '41:12:19': 'ilahi',  # el-alîm — aynı terkip
+    '41:16:15': 'degil',  # ve le-azâbu'l-âhira — âhiret
+    # sûre 41 (Fussilet) blok 21-30 (2026-10-11)
+    '41:21:15': 'degil',  # halaqakum evvele merra — ilk kez (zarf), esmâ 'el-evvel' değil
+    # sûre 41 (Fussilet) blok 31-40 (2026-10-11)
+    '41:31:2': 'degil',  # nahnu evliyâukum — meleklerin sözü, dostlarınız (çoğul)
+    '41:31:7': 'degil',  # ve fi'l-âhira — âhiret
+    '41:32:3': 'ilahi',  # nuzulen min ğafûrin rahîm
+    '41:32:4': 'ilahi',  # aynı terkip
+    '41:34:16': 'degil',  # ke-ennehu veliyyun hamîm — sıcak dost (benzetme)
+    '41:36:10': 'ilahi',  # innehu huve's-semî'u'l-alîm
+    '41:36:11': 'ilahi',  # aynı terkip
+    '41:39:22': 'ilahi',  # innehu alâ kulli şey'in qadîr
+    '41:40:26': 'ilahi',  # innehu bi-mâ ta'melûne basîr
+    # sûre 41 (Fussilet) blok 41-50 (2026-10-11)
+    '41:41:9': 'degil',  # ve innehû le-kitâbun azîz — kitabın sıfatı
+    '41:42:12': 'ilahi',  # tenzîlun min hakîmin hamîd
+    '41:42:13': 'ilahi',  # aynı terkip
+    '41:47:28': 'degil',  # mâ minnâ min şehîd — şahit (çağrılanların sözü)
+    # sûre 41 (Fussilet) blok 51-54 (2026-10-11)
+    '41:53:19': 'ilahi',  # e-ve lem yekfi bi-rabbike ennehû alâ kulli şey'in şehîd
+    '41:54:12': 'ilahi',  # e-lâ innehû bi-kulli şey'in muhît
+    # sûre 42 (Şûrâ) blok 1-10 (2026-10-11)
+    '42:3:9': 'ilahi',  # allâhu'l-azîzu'l-hakîm
+    '42:3:10': 'ilahi',  # aynı terkip
+    '42:4:9': 'ilahi',  # ve huve'l-aliyyu'l-azîm
+    '42:5:18': 'ilahi',  # inne'llâhe huve'l-ğafûru'r-rahîm
+    '42:5:19': 'ilahi',  # aynı terkip
+    '42:6:5': 'degil',  # min dûnihî evliyâ — edinilen dostlar (çoğul)
+    '42:6:7': 'ilahi',  # allâhu hafîzun aleyhim
+    '42:6:12': 'degil',  # ve mâ ente aleyhim bi-vekîl — muhatap (2MS)
+    '42:8:17': 'degil',  # mâ lehum min veliyyin — olumsuz, genel
+    '42:8:19': 'degil',  # ve lâ nasîr — aynı
+    '42:9:5': 'degil',  # min dûnihî evliyâ — edinilen dostlar
+    '42:9:8': 'ilahi',  # fe'llâhu huve'l-veliyy
+    '42:9:16': 'ilahi',  # ve huve alâ kulli şey'in qadîr
+    # sûre 42 (Şûrâ) blok 11-20 (2026-10-12)
+    '42:11:18': 'ilahi',  # ve huve's-semî'u'l-basîr
+    '42:11:19': 'ilahi',  # aynı terkip
+    '42:12:13': 'ilahi',  # innehû bi-kulli şey'in alîm
+    '42:17:11': 'degil',  # la'alle's-sâ'ate qarîb — saatin yakınlığı
+    '42:19:2': 'ilahi',  # allâhu latîfun bi-ibâdih
+    '42:19:8': 'ilahi',  # ve huve'l-qaviyyu'l-azîz
+    '42:19:9': 'ilahi',  # aynı terkip
+    '42:20:5': 'degil',  # harse'l-âhira — âhiret
+    '42:20:20': 'degil',  # fi'l-âhira — âhiret
+    # sûre 42 (Şûrâ) blok 21-30 (2026-10-12)
+    '42:22:24': 'degil',  # zâlike huve'l-fadlu'l-kebîr — lütfun sıfatı
+    '42:23:28': 'ilahi',  # inne'llâhe ğafûrun şekûr
+    '42:23:29': 'ilahi',  # aynı terkip
+    '42:24:20': 'ilahi',  # innehû alîmun bi-zâti's-sudûr
+    '42:27:16': 'ilahi',  # innehû bi-ibâdihî habîrun basîr
+    '42:27:17': 'ilahi',  # aynı terkip
+    '42:28:12': 'ilahi',  # ve huve'l-veliyyu'l-hamîd
+    '42:28:13': 'ilahi',  # aynı terkip
+    '42:29:16': 'ilahi',  # ve huve alâ cem'ihim … qadîr
+'42:31:12': 'degil',  # 'min dûni'llâhi min veliyy' — Allah'tan başka dost yok; olumsuzlanan sıfat (42:8 emsali)
+'42:31:14': 'degil',  # 've lâ nasîr' — olumsuzlanan yardımcı (42:8 emsali)
+'42:33:15': 'degil',  # 'li-kulli sabbârin şekûr' — insan sıfatı
+'42:44:7': 'degil',  # 'fe-mâ lehû min veliyy' — olumsuzlanan dost
+'42:46:5': 'degil',  # 'min evliyâe yansurûnehum' — olumsuzlanan dostlar
+'42:48:6': 'degil',  # 'fe-mâ erselnâke aleyhim hafîzâ' — muhatap için, olumsuz
+'42:50:10': 'ilahi',  # innehû alîmun qadîr
+'42:50:11': 'ilahi',  # aynı terkip
+'42:51:21': 'ilahi',  # innehû aliyyun hakîm
+'42:51:22': 'ilahi',  # aynı terkip
+'42:52:16': 'degil',  # 'ce'alnâhu nûran' — vahyedilen ruh/kitap için
 }
