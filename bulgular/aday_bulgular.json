@@ -27756,5 +27756,28 @@
    "kaynak": "sûre 40 okuması, blok 1-10 (2026-10-11)",
    "etiket": "okuma gözlemi; iki vaka, ikisi de aynı sınırda — genelleme yok, KAPATILAMAZ. Dikkat: sûre 40-46 kendi aralarında da ortak açılışlı (Hâ Mîm; 45:2, 46:2 'tenzîl'), ardışıklık etkisi aile etkisinden ayrılmadan sayılmamalı"
   }
+ ],
+ "AX_fussilet": [],
+ "AX_shura": [
+  {
+   "no": 1041,
+   "aday": "AYNI KELİMENİN ALLAH VE İNSAN İÇİN KULLANILMASI (test edilecek, iddia değil): sûre 42'de bir kök önce Allah'ın sıfatı/fiili, birkaç ayet sonra insanın sıfatı/fiili olarak geliyor — şekûr 42:23 (Allah) → 42:33 (sabreden-şükreden insan); ğafr 42:5 / 42:23 (Allah) → 42:37 'hum yağfirûn' (insan); afv 42:25, 30, 34 (Allah 'ya'fû') → 42:40 'fe-men afâ' (insan); istecâbe 42:26 'yestecîbu' (fâili iki okumaya açık) → 42:38 'istecâbû li-rabbihim' (insan). Ters yönde aynı yapı insan grupları arasında: şera'a 42:13 (Allah) → 42:21 (ortaklar); işfâk 42:18 (iman edenler) → 42:22 (zalimler).",
+   "olculen": {
+    "kok_konumlari_sure42_morph": {
+     "شكر": "42:23, 42:33",
+     "غفر": "42:5 (×2), 42:23, 42:37, 42:43",
+     "عفو": "42:25, 42:30, 42:34, 42:40",
+     "جوب": "42:16, 42:26, 42:38, 42:47",
+     "شرع": "42:13, 42:21",
+     "شفق": "42:18, 42:22"
+    },
+    "esma_kayit_kararlari": "42:23 şekûr ilâhî · 42:33 şekûr değil (blok 31-40)"
+   },
+   "test": "korpus sonunda (tam okuma bitince): esma_kayit'te 'ilahi' kararı verilmiş her esmâ kökü için aynı sûrede aynı kökün insan fâil/sıfatı olarak geçtiği (okuma kaydı) sûre oranı; sûre 42'nin oranı ile uzunluk eşli sûrelerin oranı karşılaştırılır (permütasyon). Sıfır hipotez: sûre 42 farklı değil. Gönderge ayrımı (Allah / insan) okuma kararıdır; ölçüm yalnız kök konumlarını verir.",
+   "durum": "AÇIK — kayıt; okuma sırasında test edilmez",
+   "oncelik": "P3",
+   "kaynak": "sûre 42 okuması, blok 31-40 (2026-10-12)",
+   "etiket": "okuma gözlemi; dört kök, tek sûre — genelleme yok, KAPATILAMAZ. 42:26 'yestecîbu'nun fâili iki okumaya açık (Allah / iman edenler); 42:43 ve 42:47 henüz okunmadı"
+  }
  ]
 }
