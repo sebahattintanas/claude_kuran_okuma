@@ -334,4 +334,92 @@ KARAR = {
 '42:51:21': 'ilahi',  # innehû aliyyun hakîm
 '42:51:22': 'ilahi',  # aynı terkip
 '42:52:16': 'degil',  # 'ce'alnâhu nûran' — vahyedilen ruh/kitap için
+    # sûre 43 (Zuhruf) blok 1-10 (2026-10-12)
+'43:2:2': 'degil',  # ve'l-kitâbi'l-mubîn — kitabın sıfatı (34:3, 36:12 emsali)
+'43:4:6': 'degil',  # innehû fî ummi'l-kitâbi ledeynâ le-aliyyun — zamir 'hû' kitap/Kur'an (43:2-3); kitabın sıfatı (41:41 emsali)
+'43:4:7': 'degil',  # aynı terkip — kitabın sıfatı (36:2 'el-qur'âni'l-hakîm' emsali)
+'43:6:6': 'degil',  # fi'l-evvelîn — öncekiler (insanlar)
+'43:8:7': 'degil',  # meselu'l-evvelîn — öncekiler (insanlar)
+'43:9:9': 'ilahi',  # halaqahunne'l-azîzu'l-alîm — yaratma fiilinin fâili; alıntı içinde (sorulanların cevabı)
+'43:9:10': 'ilahi',  # aynı terkip
+    # sûre 43 (Zuhruf) blok 11-20 (2026-10-12)
+'43:15:9': 'degil',  # inne'l-insâne le-kefûrun mubîn — insanın sıfatı
+'43:17:3': 'degil',  # ehaduhum — 'onlardan biri'
+'43:17:6': 'ilahi',  # bi-mâ darabe li'r-rahmâni meselen — bağımsız ad, göndergesi Allah (aday 1019, 36:11 emsali)
+'43:18:9': 'degil',  # ve huve fi'l-hisâmi ğayru mubîn — olumsuzlanan, insan sıfatı
+'43:19:6': 'ilahi',  # ibâdu'r-rahmân — bağımsız ad, göndergesi Allah (aday 1019)
+'43:20:4': 'ilahi',  # lev şâe'r-rahmânu — bağımsız ad (özne), alıntı içinde (onların sözü)
+    # sûre 43 (Zuhruf) blok 21-30 (2026-10-12)
+'43:29:9': 'degil',  # ve rasûlun mubîn — elçinin sıfatı
+    # sûre 43 (Zuhruf) blok 31-40 (2026-10-12)
+'43:33:10': 'ilahi',  # li-men yekfuru bi'r-rahmân — bağımsız ad, göndergesi Allah (aday 1019)
+'43:35:9': 'degil',  # ve'l-âhiratu inde rabbike — âhiret (yurt), sıfat değil
+'43:36:5': 'ilahi',  # an zikri'r-rahmân — bağımsız ad, göndergesi Allah (aday 1019)
+'43:40:11': 'degil',  # fî dalâlin mubîn — sapkınlığın sıfatı
+    # sûre 43 (Zuhruf) blok 41-50 (2026-10-12)
+'43:42:7': 'ilahi',  # fe-innâ aleyhim muqtedirûn — 1P (azamet çoğulu) yüklemi; SINIR VAKASI (37:75:5 emsali)
+'43:45:11': 'ilahi',  # min dûni'r-rahmân — bağımsız ad, göndergesi Allah (aday 1019)
+    # sûre 43 (Zuhruf) blok 51-60 (2026-10-12)
+'43:56:4': 'degil',  # mesel li'l-âhirîn — sonrakiler (insanlar)
+    # sûre 43 (Zuhruf) blok 61-70 (2026-10-12)
+'43:62:7': 'degil',  # aduwwun mubîn — şeytan sıfatı
+    # sûre 43 (Zuhruf) blok 81-89 (2026-10-13)
+'43:81:4': 'ilahi',  # in kâne li'r-rahmâni veled — bağımsız ad, göndergesi Allah (aday 1019)
+'43:81:7': 'degil',  # fe-ene evvelu'l-âbidîn — kulluk edenlerin ilki (1S, insan)
+'43:84:10': 'ilahi',  # ve huve'l-hakîmu'l-alîm — zamir 'huve' (43:84 başı 'ellezî fi's-semâi ilâh')
+'43:84:11': 'ilahi',  # aynı terkip
+'43:89:4': 'degil',  # ve qul selâm — selam sözü (nekre), ad olarak es-Selâm değil (36:58 kararı)
+    # sûre 44 (Duhân) blok 1-10 (2026-10-13)
+'44:2:2': 'degil',  # ve'l-kitâbi'l-mubîn — kitabın sıfatı (43:2 kararı)
+'44:4:5': 'degil',  # kullu emrin hakîm — işin (emr) sıfatı
+'44:6:6': 'ilahi',  # innehû huve's-semî'u'l-alîm — zamir 'huve' (Rab)
+'44:6:7': 'ilahi',  # aynı terkip
+'44:8:10': 'degil',  # âbâikumu'l-evvelîn — önceki atalar (insanlar)
+'44:10:6': 'degil',  # bi-duhânin mubîn — dumanın sıfatı
+    # sûre 44 (Duhân) blok 11-20 (2026-10-14)
+'44:12:6': 'degil',  # innâ mu'minûn — azabın kalkmasını isteyenlerin sözü (insanlar)
+'44:13:7': 'degil',  # rasûlun mubîn — elçinin sıfatı
+'44:17:8': 'degil',  # rasûlun kerîm — elçinin sıfatı
+'44:19:9': 'degil',  # bi-sultânin mubîn — delilin sıfatı
+    # sûre 44 (Duhân) blok 21-30 (2026-10-14)
+'44:26:3': 'degil',  # ve maqâmin kerîm — makamın (yerin) sıfatı
+    # sûre 44 (Duhân) blok 31-40 (2026-10-14)
+'44:33:7': 'degil',  # belâun mubîn — sınavın sıfatı
+'44:35:5': 'degil',  # mevtetune'l-ûlâ — ilk ölüm (sıfat)
+    # sûre 44 (Duhân) blok 41-50 (2026-10-14)
+'44:41:4': 'degil',  # lâ yuğnî mevlen an mevlâ — dost / yakın (insan)
+'44:41:6': 'degil',  # aynı terkip — ikinci 'mevlâ' (insan)
+'44:42:7': 'ilahi',  # innehû huve'l-azîzu'r-rahîm — zamir 'huve', 44:42 lafız
+'44:42:8': 'ilahi',  # aynı terkip
+'44:49:4': 'degil',  # zuq inneke ente'l-azîzu'l-kerîm — azaptakine hitap (insan; alay işaretsiz), aday 1041 alanı
+'44:49:5': 'degil',  # aynı terkip
+    # sûre 44 (Duhân) blok 51-59 (2026-10-14)
+'44:56:7': 'degil',  # ille'l-mevtete'l-ûlâ — 'ilk ölüm' sıfatı (ölüm), Allah değil
+    # sûre 45 (Câsiye) blok 1-10 (2026-10-14)
+'45:2:5': 'ilahi',  # mina'llâhi'l-azîzi'l-hakîm — lafzın sıfatı
+'45:2:6': 'ilahi',  # aynı terkip
+'45:3:6': 'degil',  # li'l-mu'minîn — inananlar (insan)
+'45:10:16': 'degil',  # min dûni'llâhi evliyâ' — edinilen dostlar
+    # sûre 45 (Câsiye) blok 11-20 (2026-10-14)
+'45:19:11': 'degil',  # ba'duhum evliyâu ba'd — zâlimler birbirinin dostu (insan), aday 1041 alanı
+'45:19:14': 'ilahi',  # va'llâhu veliyyu'l-muttaqîn — lafzın haberi, aday 1041 alanı
+    # sûre 45 (Câsiye) blok 21-30 (2026-10-14)
+'45:30:13': 'degil',  # zâlike huve'l-fevzu'l-mubîn — kurtuluşun sıfatı
+    # sûre 45 (Câsiye) blok 31-37 (2026-10-14)
+'45:37:7': 'ilahi',  # ve huve'l-azîzu'l-hakîm — zamir 'huve' (45:36 lafız, Rab); 45:2 ile aynı ikili
+'45:37:8': 'ilahi',  # aynı terkip
+    # sûre 46 (Ahkâf) blok 1-10 (2026-10-14)
+'46:2:5': 'ilahi',  # mina'llâhi'l-azîzi'l-hakîm — lafzın sıfatı (45:2 ile aynı)
+'46:2:6': 'ilahi',  # aynı terkip
+'46:7:14': 'degil',  # sihrun mubîn — büyünün sıfatı (söyleyenlerin sözü)
+'46:8:20': 'ilahi',  # kefâ bihî şehîden — 'bihî' lafız (46:8 'mina'llâh')
+'46:8:24': 'ilahi',  # ve huve'l-ğafûru'r-rahîm — zamir 'huve'
+'46:8:25': 'ilahi',  # aynı terkip
+'46:9:24': 'degil',  # nezîrun mubîn — uyarıcının sıfatı (1S konuşan)
+    # sûre 46 (Ahkâf) blok 11-20 (2026-10-14)
+'46:17:28': 'degil',  # esâtîru'l-evvelîn — öncekilerin masalları (inkârcının sözü)
+    # sûre 46 (Ahkâf) blok 31-35 (2026-10-14)
+'46:32:14': 'degil',  # min dûnihî evliyâ' — Allah'tan başka dostlar (yokluğu söyleniyor)
+'46:32:18': 'degil',  # fî dalâlin mubîn — sapıklığın sıfatı
+'46:33:22': 'ilahi',  # innehû alâ kulli şey'in qadîr — zamir 'hû' (aynı ayette lafız)
 }
