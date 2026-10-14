@@ -6035,3 +6035,203 @@ Kayıt (blok 31-40): şekûr 42:23 → 33; ğafr 42:5/23 → 37/43; afv 42:25/30
 
 ### Devam
 Sûre 43 (Zuhruf, 89 ayet) — `shura_*` şablonlarından S=43 (yeni set adları; aday numarası 1042'den). Önce eksik kök kontrolü. 42:51 → 43:4 ('aliyyun hakîm') aday 1040 alanında kayıt olarak yazılabilir. Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك tetik kesinliği), مأي gloss.
+
+## SÛRE 43 TUR SONU (2026-10-13)
+
+**Okunan: 3206 / 6236 ayet (%51,4)** — sûre 1 ve 9-43 TAM, sûre 2 kısmi (1-20). İlerleme `zuhruf_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1344** (`kok_ekle_43.py`: قدو). Aday havuzu **1041** (sûre 43'te yeni aday yok; `AX_zuhruf` boş). Bağ **AS_zuhruf** 135. Esmâ okuyucu kararı (KARAR) **341**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik: 43:11-20'de ilk koşuda 1 uyuşmaz (43:17 ◈B satırına tetiksiz gözlem yazılmıştı, kayıttan önce "—"), öbür sekiz blok ilk koşuda 0 · [x/y] sayım karşılaştırması **487 sayım (42 + 66 + 57 + 75 + 47 + 55 + 53 + 40 + 52), 0 uyuşmaz** · e_el=? her blokta 0 · `AV_saffat` [1037, 1038], `AX_zumer` [1039], `AX_gafir` [1040], `AX_fussilet` [], `AX_shura` [1041], `AX_zuhruf` [] repo dosyasından doğrulandı · retroaktif gloss yaması 0.
+Sûrenin 89 ayeti 9 blokta okundu (son blok 81-89, 9 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure43_zuhruf_okuma.md` (`zuhruf_paket_md.py`, 89 başlık). Ara zip'ler: 43:1-30, 43:1-60; tur sonu fark zip'i 5e26cf0 tabanı.
+
+### Oturum yardımcıları (YENİDEN KURULDU — salt-okur denetim aracı)
+Önceki oturumların `oturum_*` betikleri klonda yoktu; bu oturumda yeniden yazıldı ve pakete kondu: `oturum_ortak.py` (korpus, morph, okundu/† durumu), `oturum_say.py` (harekesiz kalıp), `oturum_lem.py` (lemma / kök sayımı), `oturum_lemdizi.py` (lemma dizisi), `oturum_tetik.py` (◈K/◈B tetik ↔ satır), `oturum_xy.py` ([x/y] ↔ ölçüm). Ölçüm ya da kayıt üretmezler; yalnız okuma iddialarını sayar ve denetler. Araç dondurma kuralına uygunluğu kullanıcı onayına açık.
+
+### Sûre 43 bilançosu (TAM SAYIM, `okuma_metni['43']['_bilanco_sure']`)
+830 kelime · lafız **3 token / 3 ayet** (43:63, 64, 87; 43:1-62'de lafız yok) · Rab 13 token / 10 ayet (A/R 0,23) · edilgen 18 ayet (11, 17, 18, 19, 24, 31, 43, 44, 45, 53, 57, 70, 71, 72, 75, 83, 85, 87) · iltifât alanı 6 (7, 15, 35, 36, 68, 70) · hapaks 1 (43:79 برم; kök korpusta yalnız bu ayette) · mm2 0.
+Yıldız 0:66 · ★7 · ★★9 (19, 31, 43, 53, 57, 70, 77, 85, 88) · ★★★7 (14, 18, 44, 64, 75, 79, 82). Kaynak: pas 14 · rab 6 · allah 2 · hapaks 1; düzeltilmiş (1001): kafiye 1 (43:59).
+Fâsıla sınıfı N 87 · ل 1 (43:59) · 43:1 hurûf-ı mukattaa; kafiye kırığı 1 (43:59 'isrâîl'). En uzun 43:32 (25); en kısa 43:1. Sayı işareti 6 ayet: 12 ve 70 zevc, 17 ehad, 33 vâhide, 73 kesîre, 78 ekser.
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**L4 yok.** En yüksek L2: 43:11 (gökten ölçüyle su → ölü beldenin dirilmesi; nedensel bağ adlı, mekanizma yok). L1 ×4 (10, 12, 13, 51) · L0 ×5 (9, 82, 84, 85, 87) · olgusuz tarayıcı adayı ×2 (32, 60). Tarayıcı v4 adayları 6 (9, 10, 13, 32, 60, 87), kesinlik **0/6**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+27 e_oto tokeni → ilâhî 12 · değil 15. §4.3 mühür 19 → geçerli 6, yanlış 13 (2, 4, 6, 8, 15, 18, 29, 35, 40, 56, 62, 81, 89). Geçerli mühür tonu: cemâl 3 · celâl 1 · denge 1 · karma 1.
+'er-rahmân' bağımsız ad olarak ilâhî (aday 1019; 43:17, 19, 20, 33, 36, 45, 81). Kitap / insan / şeytan sıfatı 'mubîn', 'hakîm', 'aliyy', 'evvel', 'âhir' ve selam sözü 'selâm' değil (1022 ayrışmaları blok ARIZA kayıtlarında).
+
+### Aday 1041 — kayıt (test korpus sonunda)
+أسف: 20:86 Mûsâ 'ğadbâne esifâ' → 43:55 1P 'âsefûnâ'. برم: 43:79 3MP 'ebramû' / 1P 'mubrimûn' (tek ayet, kök korpusta yalnız burada). Sınırda (gönderge kitap, insan değil): 42:51 → 43:4 'aliyyun hakîm'; 43:4 → 43:84 'hakîm'.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+42:7 → 43:3 ('qur'ânen arabiyyâ'), 42:51 → 43:4 ('aliyyun hakîm'), 42:48 → 43:15 ('el-insân … kefûr') AS_zuhruf'ta kayıt. 43:89 → 44:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+89 ayetin hepsinde not yazıldı; dolu 25 ayet. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: ملك (mulk / melâike / Mâlik / yemliku), ذهب (götürme / altın), قرن (güç yetirme / arkadaş / dizi dizi), خلف (yerine geçme / ayrılık), برم (yıpranma → kesin karar), سرر (tahtlar / gizli), لقي (atılma / kavuşma), نعم (davar / nimet), ظهر (sırt / üstüne çıkma), بني (bina → kız / oğul), أسف, خفف, صدد, نظر, حبر, قوم ('mustaqîm'), أيي ('eyyuhâ').
+* 517 biçim: 'em' soruları, 'levlâ', tekit 'inne', müfâcee 'izâ', 'belâ', 'kezâlike' benzetmesi ölçümde işaretsiz.
+* 1017 alıntı / şahıs geçişi: 43:10 alıntı sınırı; 43:11 3MS → 1P → 2MP; 43:63-64 Îsâ alıntısının sınırı; 43:61, 68 1S konuşan adsız; 43:68 → 69 1S → 1P; 43:71 3MP → 2MP; 43:77 'qâle' öznesi adsız; 43:78 1P; 43:88 'qîlihî' bağlantısı — ölçüm iltifât 0 (iltifât alanı 6 ayet hariç).
+* 1022: ölçüm satırı esmâ ↔ esma_kayit mühür ayrışması (yukarıdaki 13 yanlış mühür).
+* 1001: 43:59 ★ kaynağı 'allah z=-0,53' etiketli, düzeltilmiş kaynak kafiye kırığı.
+* 1038 aktör rolü: 43:57 Meryem 'rol meful' (tamlamada muzâfun ileyh).
+* 924 araç: 43:32 ölçüm 'biçim QASEM' — kök قسم paylaştırma, yemin yok; metin hakkında kanıt değil.
+* Tetik ön-kayıt §2: سوع (43:61, 66, 85), يوم (43:39, 65, 67, 68, 83), زوج (43:12, 70), عين (43:71), سمع (43:40, 80), بصر (43:51), نهر (43:51), أرض mekân (43:60) — satırlar dolu; 43:38 'meşriqayn' (شرق listede değil) tetik değil.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_zuhruf'ta)
+* 'in se'eltehum men halaqa' sûrede iki kez: 43:9 (gökler ve yer → 'el-azîzu'l-alîm') / 43:87 (kendileri → 'Allah'); 43:9 'el-azîzu'l-alîm' → 43:84 'el-hakîmu'l-alîm'.
+* 'muhtedûn' fâsılası 43:22, 37, 49; 43:22 'muhtedûn' / 43:23 'muqtedûn'. Üç 'hayr' karşılaştırması 43:32, 52, 58. 'mesel' zinciri 43:8, 17, 56, 57, 59.
+* Mûsâ anlatısı 43:46-56 (Firavun'un nutku 51-53: mülk, ırmaklar, 'ene hayr' — 38:76 İblis ile aynı söz); Meryem oğlu 43:57-59, adı 'Îsâ' ilk kez 43:63.
+* 43:61-62 ↔ 36:60-61: aynı iki cümle ters sırada; 43:61-62 ↔ 20:15-16: sâ'a, ardından 'lâ yesuddenne'; 43:64-65 ↔ 19:36-37: aynı iki ayetlik sıra, ikinci yarı farklı.
+* 43:61 'le-ilmun li's-sâ'a' → 43:85 'indehû ilmu's-sâ'a'. Cennet 43:70-73 / cehennem 43:74-77, 'hâlidûn' iki tarafta; 43:73 ↔ 23:19 aynı cümle (dünya bahçesi / cennet).
+* Kök صفح sûrenin başında (43:5 'safhan') ve son ayetinde (43:89 'fa'sfah'). Sûrenin adı 'zuhruf' yalnız 43:35'te.
+
+### Dersler
+* Lemma dizisi sayımı kişi/önek farkını gizler — alıntı yazmadan önce ayet metni okunur (43:27 21:56, 43:51 32:27, 43:62 28:87 düzeltmeleri).
+* Sûre içi kök geçiş listesi yazarken `oturum_lem.py --kok` "sûre içi" satırı esas alınır (43:69 أيي 'eyyuhâ', 43:86 ملك 43:19).
+* "Emsallerde iddia reddediliyor" türü özetler yazılmadan önce emsal metni okunur (43:81).
+* Büyük lemma listeleri (kâne, inne, lâ) sohbete dökülmez; çıktı kesilir.
+
+### Devam
+Sûre 44 (Duhân, 59 ayet) — `zuhruf_*` şablonlarından S=44 (yeni set adları; aday numarası 1042'den). Önce eksik kök kontrolü. 43:89 → 44:1 aday 1040 alanında kayıt olarak yazılabilir. Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك tetik kesinliği), مأي gloss.
+
+## SÛRE 44 TUR SONU (2026-10-14)
+
+**Okunan: 3265 / 6236 ayet (%52,4)** — sûre 1 ve 9-44 TAM, sûre 2 kısmi (1-20). İlerleme `duhan_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1348** (`kok_ekle_44.py`: أدي, رهو, غلي, عتل). Aday havuzu **1041** (sûre 44'te yeni aday yok; `AX_duhan` boş). Bağ **AS_duhan** 67. Esmâ okuyucu kararı (KARAR) **361**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik: altı blokta da ilk koşuda 0 uyuşmaz · [x/y] sayım karşılaştırması **213 sayım (39 + 43 + 36 + 36 + 31 + 28), 0 uyuşmaz** · e_el=? her blokta 0 · `AV_saffat` [1037, 1038], `AX_zumer` [1039], `AX_gafir` [1040], `AX_fussilet` [], `AX_shura` [1041], `AX_zuhruf` [], `AX_duhan` [] repo dosyasından doğrulandı · retroaktif gloss yaması 0.
+Sûrenin 59 ayeti 6 blokta okundu (son blok 51-59, 9 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure44_duhan_okuma.md` (`duhan_paket_md.py`, 59 başlık). Ara zip: 44:1-30; tur sonu fark zip'i 5e26cf0 tabanı.
+
+### Sûre 44 bilançosu (TAM SAYIM, `okuma_metni['44']['_bilanco_sure']`)
+346 kelime · lafız **3 token / 3 ayet** (44:18, 19 elçinin sözü içinde; 44:42) · Rab 9 token / 7 ayet (6, 7, 8, 12, 20, 22, 57; A/R 0,33) · edilgen 2 ayet (4, 41) · iltifât alanı 9 (5, 6, 12, 13, 15, 22, 23, 30, 31) · hapaks 1 (44:24 رهو) · mm2 1 (44:16).
+Yıldız 0:46 · ★3 (18, 19, 42; kaynak allah) · ★★4 (6, 7, 57 rab; 41 pas) · ★★★6 (8, 12, 20, 22 rab; 4 pas; 24 hapaks). Kaynak: rab 7 · allah 3 · pas 2 · hapaks 1; 1001 düzeltmesi yok.
+Fâsıla sınıfı N 58 · 44:1 hurûf-ı mukattaa; kafiye kırığı yok. En uzun 44:37 (12); en kısa 44:1. Sayı işareti 3 ayet: 15 qalîl, 39 ekser, 54 'zevvecnâ' (yanlış pozitif — eşleştirme).
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**L4 yok.** En yüksek L1: 44:10 (göğün getireceği apaçık duman), 44:24 (deniz 'rehv'). L0 ×3 (7, 29, 38). Tarayıcı v4 adayı 1 (44:7), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+20 e_oto tokeni → ilâhî 4 · değil 16. §4.3 mühür 16 → geçerli 2 (44:6 semî' + alîm; 44:42 azîz + rahîm), yanlış 14 (2, 4, 8, 10, 12, 13, 17, 19, 26, 33, 35, 41, 49, 56). Geçerli mühür tonu: denge 1 · karma 1.
+Sıfat olarak geçen esmâ kelimeleri değil: 'mubîn' (kitap, duman, elçi, delil, sınav), 'hakîm' (iş), 'evvel/ûlâ' (atalar, ölüm), 'kerîm' (elçi, makam), 'mu'min', 'mevlâ' (insanlar); 44:49 'azîz' + 'kerîm' azaptakine hitap (1022).
+
+### Aday 1041 — kayıt (test korpus sonunda)
+'munzir' 1P 44:3 / Peygamber 13:7, 38:65. 'bataşa' insan 26:130, 28:19 / 1P 44:16. 'el-azîz' Allah 44:42 / azaptaki insan 44:49 / Mısır yöneticisi 12:30, 12:78. 'mevlâ' Allah 22:78 / insanlar 44:41.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+43:2 → 44:2 ('ve'l-kitâbi'l-mubîn', esit2 TAM; devamı farklı), 43:83 → 44:9, 43:41 → 44:16 ('muntaqimûn'), 43:49-50 → 44:12-15, 43:88 → 44:22, 43:52 · 58 → 44:37; sûre sonları 43:89 / 44:59 ('fe' + 2MS emir + 3MP hakkında cümle). 44:59 → 45:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+59 ayetin hepsinde not yazıldı; dolu 5 ayet (7, 8, 29, 35, 38). Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: ولي (yüz çevirme / dost), أمر (iş / emir), جنن ('mecnûn' / cennet), عين (pınar / göz), قوم ('maqâm'), نظر ('munzar' mühlet), علو, علم ('ilm' / 'âlemîn'), خير ('ihtâra'), مهل (erimiş maden), حور (hûr).
+* 517 biçim: tekit 'inne' / 'innâ', benzetme 'ke', 'kem', 'kezâlike', 'innemâ' ölçümde işaretsiz.
+* 1017 konuşan / şahıs geçişi: 44:11 'hâzâ azâbun elîm' kimin sözü işaretsiz; 44:12 1P konuşanlar adsız; 44:17-24 elçi ve emir veren adsız (26:52'de adlı Mûsâ); 44:28 'qavmen âharîn' adsız; 44:34 'hâulâi'; 44:47-50 emir veren / konuşan adsız; 44:56 'vekâhum' öznesi; 44:58 'yessernâhu' zamiri — ölçüm iltifât 0 (iltifât alanı 9 ayet hariç).
+* 1022: ölçüm satırı esmâ ↔ esma_kayit mühür ayrışması (yukarıdaki 14 yanlış mühür).
+* Tetik ön-kayıt §2: ليل (44:3, 23), سمو/أرض (44:7, 10, 29, 38), يوم (44:10, 16, 40, 41), حيي/موت (44:8), موت (44:35, 56), أنس (44:11), بحر (44:24), عين (44:25, 52 pınar; 44:54 göz), خلق (44:38, 39), شجر (44:43), زوج (44:54), سمع (44:6 esmâ) — satırlar dolu.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_duhan'da)
+* 'fe-rtaqib' 2MS emri sûrede iki kez: 44:10 (duman günü) ve son ayet 44:59. 1P + 'hu': 44:3 'enzelnâhu' / 44:58 'yessernâhu'; 44:58 ↔ 19:97 aynı açılış, amaç farklı.
+* 28:45-46 → 44:5-6; 26:24, 26:26 → 44:7-8 (Mûsâ'nın iki cevabı art arda, 26:25 yok).
+* Firavun anlatısı 44:17-33; 44:23-28 Şuarâ 26:52-59 sırasıyla. 44:25-26 bırakılan 'cennât, uyûn, maqâm kerîm' / 44:51-52 takvâ sahiplerinin 'maqâm emîn, cennât, uyûn'.
+* 'el-mevtetu'l-ûlâ' üç ağızda: 37:59 cennet ehli, 44:35 inkârcılar, 44:56 anlatı; 37:58-60 → 44:56-57 aynı sıra ('huve'l-fevzu'l-azîm').
+* 37:62-68 zakkum dörtlüsü (zakkum, butûn, hamîm, cahîm) → 44:43-48; 22:19 → 44:48 (edilgen çoğul / emir tekil). Cehennem 44:43-50 / cennet 44:51-57 art arda.
+* 44:38-39 = 21:16 + 15:85; 44:9 'yel'abûn' → 44:38 'lâ'ibîn'. Sûrenin adı 'duhân' yalnız 44:10'da (lemma korpusta 41:11, 44:10).
+
+### Dersler
+* Yarıda kalan bir turun dosyaya yazdığı taslak kendi işi sayılmaz; her sayı ve alıntı kayıttan önce yeniden koşulur (44:41-50: bir doğrulanmamış iddia çıkarıldı).
+* Sûre içi liste (Rab, 1P vb.) yazmadan önce `oturum_lem.py --kok` ya da morph sayımı; hafızadan liste yazılmaz (44:54, 44:57 düzeltmeleri).
+* Görülmemiş ayet anılmaz (44:56'da 52:18 anması çıkarıldı).
+
+### Devam
+Sûre 45 (Câsiye, 37 ayet) — `duhan_*` şablonlarından S=45 (yeni set adları; aday numarası 1042'den). Önce eksik kök kontrolü. 44:59 → 45:1 aday 1040 alanında kayıt olarak yazılabilir; 44:36 → 45:25 xref var. Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك tetik kesinliği), مأي gloss.
+
+## SÛRE 45 TUR SONU (2026-10-14)
+
+**Okunan: 3302 / 6236 ayet (%53,0)** — sûre 1 ve 9-45 TAM, sûre 2 kısmi (1-20). İlerleme `casiye_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1351** (`kok_ekle_45.py`: صرر, جرح, دهر). Aday havuzu **1041** (sûre 45'te yeni aday yok; `AX_casiye` boş). Bağ **AS_casiye** 47. Esmâ okuyucu kararı (KARAR) **370**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik: dört blokta da ilk koşuda 0 uyuşmaz · [x/y] **292 sayım (67 + 80 + 96 + 49), 0 uyuşmaz** · e_el=? her blokta 0 · `AV_saffat` [1037, 1038], `AX_zumer` [1039], `AX_gafir` [1040], `AX_fussilet` [], `AX_shura` [1041], `AX_zuhruf` [], `AX_duhan` [], `AX_casiye` [] repo dosyasından doğrulandı · retroaktif gloss yaması 0.
+Sûrenin 37 ayeti 4 blokta okundu (son blok 31-37, 7 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında (dolu 17 ayet). Paket `notlar/sure45_casiye_okuma.md` (`casiye_paket_md.py`, 37 başlık). Ara zip: 45:1-30; tur sonu fark zip'i 5e26cf0 tabanı.
+
+### Sûre 45 bilançosu (TAM SAYIM, `okuma_metni['45']['_bilanco_sure']`)
+488 kelime · lafız **18 token / 15 ayet** · Rab 7 token / 5 ayet (11, 15, 17, 30, 36 ×3; A/R 2,57) · edilgen 9 ayet (8, 15, 22, 25, 28, 31, 32, 34, 35) · iltifât alanı 0 · hapaks 0 · mm2 0.
+Yıldız 0:27 · ★4 (11, 15 rab; 28, 34 pas) · ★★5 (2, 6, 19 allah; 22, 35 pas) · ★★★1 (36 rab, z=7,67). 1001 düzeltmesi yok.
+Fâsıla sınıfı N 36 · 45:1 hurûf-ı mukattaa; kafiye kırığı yok. En uzun 45:17 ve 45:23 (24); en kısa 45:1. Sayı işareti 1 ayet: 26 ekser.
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**L4 yok.** En yüksek L2: 45:5 (gökten indirilen rızıkla ölü yerin diriltilmesi; 16:65, 30:24, 35:9 emsali). L1 ×3 (4, 12, 13) · L0 ×5 (3, 22, 24 olgusuz, 36, 37). Tarayıcı v4 adayları 2 (12, 22), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+9 e_oto tokeni → ilâhî 5 (45:2 ×2, 19 'veliyy', 37 ×2) · değil 4 (3 'mu'min', 10 'evliyâ'', 19 'evliyâ'', 30 'mubîn'). §4.3 mühür 6 → geçerli 3 (2, 19, 37), yanlış 3 (3, 10, 30). Geçerli mühür tonu: celâl 2 · cemâl 1.
+**Kayıt düzeltmesi (DUZELTME 45:37, 1022):** 45:2, 19, 37 için sohbet metninde ve blok ARIZA kayıtlarında "bilanço geçerli mühür değil" yazılmıştı; bu, okuyucu kararı eklenmeden ÖNCE koşulan bilançoya bakılarak yazılmıştı. Kayıtlı bilanço üçünü de geçerli sayıyor. Özgün alan korunur.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+'veliyy' 45:19 aynı ayette zâlimler ('ba'duhum evliyâu ba'd') / Allah ('va'llâhu veliyyu'l-muttaqîn'); 45:10 edinilen 'evliyâ''; 9:71 mü'minler 'ba'duhum evliyâu ba'd'. 'kibriyâ'' 10:78 (Firavun'un ileri gelenlerinin Mûsâ ve Hârûn'a isnadı) / 45:37 (O'nun).
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+44:59 → 45:1; 44:44 → 45:7 ('esîm'); 44:32 → 45:16 ('ale'l-âlemîn'); 44:4-5 → 45:17-18 ('emr'); 44:35-36 → 45:24-25 (inkâr + ''tû bi-âbâinâ in kuntum sâdiqîn', xref ölçüm); 44:57 → 45:30 ('el-fevzu'l-azîm' / '… el-mubîn'). 45:37 → 46:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+37 ayetin hepsinde not yazıldı; dolu 17 ayet. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: روح (rüzgâr), بغي (arama / azgınlık), شرع ('şerî'a'), نور (ateş).
+* 517 biçim: ta'lîl 'li-', şart 'men' / 'izâ', soru 'em', zem 'sâe', tekit, 'ke-en', 'kemâ' ölçümde işaretsiz.
+* 1017 konuşan / şahıs geçişi: 45:4, 14 adsız özne; 45:8 okuyan ve muhatap; 45:11, 20 'hâzâ' göndergesi; 45:24-25 söyleyenler; 45:28-29 alıntı sınırı ve 1P konuşan; 45:31 1S konuşan ('âyâtî'; 23:105 aynı); 45:32, 34 'qîle'; 45:35 2MP → 3MP — ölçüm iltifât 0.
+* 1022: yukarıdaki 3 yanlış mühür; geçerli mühür iddiası düzeltmesi (DUZELTME 45:37).
+* Tetik ön-kayıt §2: سمو/أرض (45:3, 5, 13, 22, 27, 36, 37), ليل/نهر/روح (45:5), بحر/فلك (45:12; 'fulk' gemi, S2 açık), يوم (45:14, 17, 26, 27, 28, 34, 35), سوع (45:27, 32), دهر (45:24), حيي/موت (45:5, 21, 24, 26; 45:35 حيي), خلق (45:4, 22), دبب (45:4), سمع (45:8, 23), قلب/بصر (45:23), بصر/أنس (45:20), أنس (45:26) — satırlar dolu.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_casiye'de)
+* 45:2 / 45:37 'el-azîz el-hakîm' — sûrenin ikinci ve son ayeti.
+* 'Âyât + kavim niteliği' dizisi: 45:3 mu'minîn, 45:4 yûqinûn, 45:5 ya'qilûn, 45:13 yetefekkerûn, 45:20 yûqinûn; 2:164 (henüz okunmadı) 45:4-5'in dört lemma dizisinde de var.
+* 31:6-7 → 45:8-9 aynı iki unsur ters sırada; 10:93 → 45:16-17 aynı dört öğe ve aynı kapanış cümlesi (42:14 ifadesiyle); 2:7 → 45:23 üç organ, mühür, perde (sıra ve sayı farklı); 23:37 + 43:20 → 45:24; 23:62 → 45:22 + 45:29.
+* 45:24 'nemûtu ve nahyâ' / 45:26 'yuhyîkum summe yumîtukum summe yecma'ukum'; 45:24 'in hum illâ yezunnûn' / 45:32 'in nezunnu illâ zannâ'.
+* 45:30-31 'emmâ' taksimi; 32:14 → 45:34 karşılıklı unutma (sıra ters); 39:48 + 16:34 → 45:33; 1:2 → 45:36. Sûrenin adı 'câsiye' korpusta yalnız 45:28'de.
+
+### Dersler
+* Esmâ bilanço iddiası (geçerli / yanlış mühür) okuyucu kararı eklendikten SONRA koşulan bilançodan yazılır; ön-tarama bilançosu karar öncesidir (sûre 45: 45:2, 19, 37).
+* Lemma dizisi sayımı ardışık iki kelimeyi terkip sanabilir — terkip iddiasından önce eş ayetlerin metni okunur (45:14, 40:16).
+
+### Devam
+Sûre 46 (Ahkâf, 35 ayet) — `casiye_*` şablonlarından S=46 (yeni set adları; aday numarası 1042'den). Önce eksik kök kontrolü. 45:37 → 46:1 aday 1040 alanında kayıt olarak yazılabilir (46:1-2 = 45:1-2 esit2 TAM). Sûre 2'nin 21-286'sı hâlâ sonraya. Açık kararlar: S2 (فلك tetik kesinliği), مأي gloss.
+
+## SÛRE 46 TUR SONU (2026-10-14)
+
+**Okunan: 3337 / 6236 ayet (%53,5)** — sûre 1 ve 9-46 TAM, sûre 2 kısmi (1-20). İlerleme `ahkaf_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1354** (`kok_ekle_46.py`: بدع, حقف, عيي). Aday havuzu **1041** (sûre 46'da yeni aday yok; `AX_ahkaf` boş). Bağ **AS_ahkaf** 56. Esmâ okuyucu kararı (KARAR) **381**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik: dört blokta da ilk koşuda 0 uyuşmaz · [x/y] **364 sayım (88 + 114 + 106 + 56), 0 uyuşmaz** · e_el=? her blokta 0 · `AV_saffat` [1037, 1038], `AX_zumer` [1039], `AX_gafir` [1040], `AX_fussilet` [], `AX_shura` [1041], `AX_zuhruf` [], `AX_duhan` [], `AX_casiye` [], `AX_ahkaf` [] repo dosyasından doğrulandı · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 35 ayeti 4 blokta okundu (son blok 31-35, 5 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında (dolu 19 ayet). Paket `notlar/sure46_ahkaf_okuma.md` (`ahkaf_paket_md.py`, 35 başlık). Ara zip: 46:1-30; tur sonu fark zip'i 5e26cf0 tabanı.
+
+### Sûre 46 bilançosu (TAM SAYIM, `okuma_metni['46']['_bilanco_sure']`)
+643 kelime · lafız **16 token / 14 ayet** · Rab 4 token / 4 ayet (13, 15, 25, 34) · edilgen 14 ayet · iltifât alanı 0 · hapaks 1 (46:21 حقف 'ahqâf', sûrenin adı).
+Yıldız 0:22 · ★9 · ★★2 · ★★★2 (46:15 n z=3,46; 46:21 hapaks z=3,28). Kaynak: n 7, pas 4, allah 1, hapaks 1.
+Fâsıla sınıfı N 33 · 46:1 hurûf-ı mukattaa · 46:33 ر **kafiye kırılması**. En uzun 46:15 (45).
+
+### Çıpa (aday 948 birikimi — ölçüt değişmedi)
+**46:15 L4 adayı, TARTIŞMALI** — ölçü kolu tek başına ('selâsûne şehrâ' taşıma + sütten kesme, 'erba'îne sene'; mekanizma yok); 31:14 emsali ('iki yıl'), iki ölçü arasındaki hesap metinde yok. L1 ×5 (3, 24, 26, 33, 35) · L0 ×1 (4). 46:24 ve 46:35 L3 koluna sınırda (algı/durum, karşılaştırma ya da durum söylenmiyor). Tarayıcı v4 adayları 4 (4, 15, 33, 35), kesinlik **1/4**, anma 1/1.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+11 e_oto tokeni → ilâhî 6 (46:2 ×2, 8 ×3, 33 'qadîr') · değil 5 (7 'mubîn', 9 'mubîn', 17 'evvel', 32 'velî', 32 'mubîn'). §4.3 mühür 7 → geçerli 3 (2, 8, 33), yanlış 4 (7, 9, 17, 32). Geçerli mühür tonu: celâl 2 · karma 1.
+Her blokta bilanço okuyucu kararı eklendikten SONRA koşuldu (sûre 45 dersi uygulandı).
+
+### Aday 1041 — kayıt (test korpus sonunda)
+شهد 46:8 'şehîd' (Allah) / 46:10 'şâhid' (İsrâiloğullarından biri) — kök ortak, sınırda. وعد 46:16 'va'de's-sıdq … yû'adûn', 46:17 anne babanın vaadi 'ete'idâninî' ile 'va'da'llâh' aynı ayette — kök ortak, sınırda. 'velî' lemması 42:9 'fe'llâhu huve'l-veliyy' / 46:32 'min dûnihî evliyâ''.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+45:37 → 46:1-2 ('el-azîz el-hakîm'; 46:1-2 = 45:1-2 esit2 TAM). 46:1 'Hâ Mîm' dizisinin son sûresi (40:1-45:1 esit2 TAM, hepsi okundu). 46:35 → 47:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+35 ayetin hepsinde not yazıldı; dolu 19 ayet. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: أثر (46:4 'esâre' kalıntı; gloss 'tercih etme'); نهر (46:35 'nehâr' gündüz; gloss 'ırmak' — tetik satırı dolu, anlam okumayla).
+* 517 biçim: 'men' / 'em' sorusu, 'izâ', şart cevabı hazfi (46:10), tekit 'inne', nidâ, 'innemâ', 'lâkinne', 'lev lâ', emrin cevabı cezmi, 'belâ', yemin, 'ke-enne' ölçümde işaretsiz.
+* 1017 konuşan / gönderge: 'qul' muhatabı ve alıntı içi 1S (46:4, 8, 9); 46:5-6 3MP göndergeleri; 46:10 şahit; 46:11 'bihî'; 46:12 'li-yunzira' öznesi; 46:17 'ellezî'; 46:19 fâil; 46:20, 24, 34 alıntının söyleyeni; 46:21 Âd'ın kardeşi (11:50, 26:124'te adlı); 46:21, 29, 35 muhatap 2MS; 46:31 'dâ'iya'llâh' — ölçüm iltifât 0.
+* 1022: yukarıdaki 4 yanlış mühür; 46:17 'evvel' ölçümde esmâ yok, 46:32-33 ölçümde MÜHÜRSÜZ.
+* Tetik ön-kayıt §2: سمو/أرض (46:3, 4, 33; أرض 20, 32), أجل (3), خلق (3, 4, 33), يوم (5, 20, 21, 34, 35), أنس (6, 15, 18), سنو/حمل/وضع (15), حيي (20, 33), موت (33), يدي (21, 30), روح (24), سمع (26, 29, 30), بصر (26), سوع/نهر (35) — satırlar dolu.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_ahkaf'ta)
+* 46:3 / 46:33 gökler-yer yaratması (1P / 3MS lafız); 46:20 / 46:34 aynı açılıştan iki alıntı; 46:12 / 46:30 Mûsâ'nın kitabı 'önce' / 'sonra'.
+* 15:85 + 30:8 → 46:3; 35:40 → 46:4; 41:52'nin iki parçası 46:5 ve 46:10'da; 34:43 → 46:7; 11:35 + 13:43 + 29:52 → 46:8; 10:15 + 38:70 → 46:9; 11:17 sırası (şahit, Mûsâ'nın kitabı) 46:10 → 46:12.
+* 41:30 → 46:13 (devamı farklı); 29:8 + 31:14 + 27:19 + 41:33 → 46:15; 17:23 → 46:17 ('uff' yasaklanan söz söyleniyor); 41:25 → 46:18 (15 lemma).
+* Âd anlatısı: 41:14 + 26:135 → 46:21; 11:32 → 46:22; 11:29, 11:57, 33:63 → 46:23 (11:29, 11:32 Nûh anlatısında); 41:16 → 46:24; 10:13, 29:38 → 46:25; 16:78, 23:78, 32:9 → 46:26 (üç organ; şükür yerine 'yarar sağlamadı').
+* 17:99, 42:9 → 46:33; 34:3 → 46:34; 10:45 → 46:35. أمم kökü üç ayrı kelimeyle (46:12 'imâm', 46:15 'umm', 46:18 'umem').

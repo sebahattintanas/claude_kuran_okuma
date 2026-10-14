@@ -17555,5 +17555,1538 @@
    "kural": "okuma — صير [2/2]: 'ileyhi'l-masîr' / 'tesîru'l-umûr'",
    "not": "varış."
   }
+ ],
+ "AS_zuhruf": [
+  {
+   "bag": "40:1 · 41:1 · 42:1 → 43:1",
+   "kural": "esit2 TAM — 'Hâ Mîm' (ölçüm); okundu",
+   "not": "Hâ Mîm ailesi."
+  },
+  {
+   "bag": "12:1 · 26:2 · 28:2 → 43:2",
+   "kural": "lemma dizisi 'kitâb + mubîn' 12 ayet; okundu — 43:2'de yemin (QASEM)",
+   "not": "apaçık kitap."
+  },
+  {
+   "bag": "12:2 → 43:3",
+   "kural": "esit2 BENZER (0,9153, ölçüm); okundu — 'innâ enzelnâhu' / 'innâ ce'alnâhu'",
+   "not": "Arapça Kur'an, akıl erdiresiniz diye."
+  },
+  {
+   "bag": "42:7 → 43:3",
+   "kural": "lemma dizisi 'qur'ân + arabiyy' 6 ayet; okundu — aday 1040 alanında kayıt, test yok",
+   "not": "Arapça Kur'an."
+  },
+  {
+   "bag": "13:39 → 43:4",
+   "kural": "harekesiz kalıp 'ummi'l-kitâb' 3 ayet; okundu — 'indehû' (3MS) / 'ledeynâ' (1P)",
+   "not": "Ana Kitap."
+  },
+  {
+   "bag": "42:51 → 43:4",
+   "kural": "lemma dizisi 'aliyy + hakîm' 2 ayet; okundu — gönderge Allah / kitap; aday 1040 alanında kayıt, test yok; aday 1041 alanına sınırda (insan değil, kitap)",
+   "not": "yüce, hakîm."
+  },
+  {
+   "bag": "15:11 · 36:30 → 43:7",
+   "kural": "lemma dizisi 'illâ kânû bihî yestehziûn' 3 ayet; esit2 BENZER 15:11 (ölçüm); okundu — 'rasûl' / 'nebiyy'",
+   "not": "peygamberle alay."
+  },
+  {
+   "bag": "43:6 → 43:8",
+   "kural": "okuma — 'el-evvelîn' fâsılası ×2; öncekiler anlatısı 43:6-8",
+   "not": "öncekiler."
+  },
+  {
+   "bag": "29:61 · 31:25 · 39:38 → 43:9",
+   "kural": "lemma dizisi 'men halaqa + semâ + ard' 4 ayet; okundu — cevap 'Allah' / 'el-azîzu'l-alîm'",
+   "not": "gökleri ve yeri kim yarattı."
+  },
+  {
+   "bag": "43:9 → 43:87",
+   "kural": "lemma dizisi 'in se'eltehum men halaqa' 5 ayet, sûre içi nakarat3 GEÇER (ölçüm); 43:87 henüz okunmadı — kayıt",
+   "not": "kim yarattı sorusu."
+  },
+  {
+   "bag": "36:38 · 41:12 → 43:9",
+   "kural": "lemma dizisi 'azîz + alîm' 6 ayet; okundu — iki emsal kozmik düzen bağlamında; KAPATILAMAZ",
+   "not": "Azîz, Alîm."
+  },
+  {
+   "bag": "20:53 → 43:10",
+   "kural": "lemma dizisi 'ce'ale … ard mehd' 2 ayet; xref (ölçüm); okundu — yollar: 'seleke' / 'ce'ale'",
+   "not": "yer döşek, yollar."
+  },
+  {
+   "bag": "16:15 · 21:31 → 43:10",
+   "kural": "lemma dizisi 'sebîl + le'alle + ihtedâ' 3 ayet; okundu",
+   "not": "yol bulasınız diye."
+  },
+  {
+   "bag": "19:29 → 43:10",
+   "kural": "okuma — مهد: 'fi'l-mehd' beşik / 'el-arda mehden' döşek (gloss iki kullanım, 1021)",
+   "not": "beşik / döşek."
+  },
+  {
+   "bag": "23:18 → 43:11",
+   "kural": "lemma dizisi 'semâ + mâ' + qader' 2 ayet; xref (ölçüm); okundu — 'enzelnâ' (1P) / 'nezzele' (3MS)",
+   "not": "ölçüyle su."
+  },
+  {
+   "bag": "25:49 → 43:11",
+   "kural": "lemma dizisi 'belde + meyt' 3 ayet; okundu",
+   "not": "ölü belde."
+  },
+  {
+   "bag": "30:19 → 43:11",
+   "kural": "okuma — 've kezâlike tuhracûn' aynı biçim; ölü yerin dirilmesi → çıkarılma benzetmesi; okundu",
+   "not": "böyle çıkarılacaksınız."
+  },
+  {
+   "bag": "36:36 → 43:12 · 43:13",
+   "kural": "lemma dizisi 'halaqa + zevc + kull' 2 ayet; xref (ölçüm); okundu — 36:36 'subhâna'llezî halaqa'l-ezvâce kullehâ' / 43:12 'halaqa'l-ezvâce kullehâ' + 43:13 'subhâna'llezî sahhara'",
+   "not": "bütün çiftler."
+  },
+  {
+   "bag": "40:79 → 43:12",
+   "kural": "okuma — davar + gemi + binme ('li-terkebû' / 'mâ terkebûn'); okundu",
+   "not": "binek."
+  },
+  {
+   "bag": "26:50 → 43:14",
+   "kural": "lemma dizisi 'ilâ + rabb + munqalib' 3 ayet; okundu; esit2 BENZER 7:125 (henüz okunmadı)",
+   "not": "Rabbimize döneceğiz."
+  },
+  {
+   "bag": "42:48 → 43:15",
+   "kural": "lemma dizisi 'insân + kefûr' 4 ayet; okundu — aday 1040 alanında kayıt, test yok",
+   "not": "insan nankör."
+  },
+  {
+   "bag": "16:57 → 43:15 · 43:16",
+   "kural": "okuma — 'yec'alûne li'llâhi'l-benât' / 'ce'alû lehû … cuz'â', 'ittehaze … benât'; okundu",
+   "not": "kızlar ithâmı."
+  },
+  {
+   "bag": "17:40 · 37:153 → 43:16",
+   "kural": "okuma — 'asfâkum … bi'l-benîn' + 'ittehaze' (17:40, ters sıra), 'astafa'l-benâti ale'l-benîn' (37:153); okundu",
+   "not": "kızlar / oğullar."
+  },
+  {
+   "bag": "16:58 → 43:17",
+   "kural": "esit2 BENZER (0,8608, ölçüm); lemma dizisi 'izâ + buşşira + ehad' 2 ayet; okundu — 'bi'l-unsâ' / 'bi-mâ darabe li'r-rahmâni meselâ'",
+   "not": "yüzü kararır."
+  },
+  {
+   "bag": "13:17 · 16:14 · 35:12 → 43:18",
+   "kural": "lemma 'hilye' 4 ayet; okundu — çıkarılan süs / içinde yetiştirilen süs",
+   "not": "süs."
+  },
+  {
+   "bag": "25:63 → 43:19",
+   "kural": "lemma dizisi 'abd + rahmân' 2 ayet; okundu",
+   "not": "Rahmân'ın kulları."
+  },
+  {
+   "bag": "37:150 · 17:40 → 43:19",
+   "kural": "okuma — melekler dişi; 37:150 've hum şâhidûn' / 43:19 'e-şehidû halqahum'; okundu",
+   "not": "tanık mıydılar."
+  },
+  {
+   "bag": "16:35 → 43:20",
+   "kural": "okuma — 'lev şâe'llâhu mâ abednâ' / 'lev şâe'r-rahmânu mâ abednâhum'; okundu",
+   "not": "dileseydi kulluk etmezdik."
+  },
+  {
+   "bag": "10:66 → 43:20",
+   "kural": "lemma dizisi 'in hum illâ yahrusûn' 4 ayet; okundu",
+   "not": "tahmin yürütürler."
+  },
+  {
+   "bag": "43:16 → 43:21",
+   "kural": "okuma — 'em' soruları: 'emi'ttehaze' / 'em âteynâhum'",
+   "not": "em soruları."
+  },
+  {
+   "bag": "43:22 → 43:23",
+   "kural": "lemma dizisi 'vecede + âbâ' + alâ + ummet' 2 ayet, ikisi sûre içi (nakarat3 GEÇER, ölçüm) — son kelime 'muhtedûn' / 'muqtedûn'",
+   "not": "atalar izinde."
+  },
+  {
+   "bag": "37:70 → 43:22",
+   "kural": "okuma — 'alâ âsârihim': 'yuhra'ûn' / 'muhtedûn'; okundu",
+   "not": "atalarının izinde."
+  },
+  {
+   "bag": "34:34 → 43:23 · 43:24",
+   "kural": "lemma dizisi 'qarye … nezîr illâ qâle mutraf' 2 ayet; xref (ölçüm); okundu — 34:34'ün sonu 43:24'ün sonunda",
+   "not": "şımarmışların cevabı."
+  },
+  {
+   "bag": "41:14 → 43:24",
+   "kural": "lemma dizisi 'innâ bi-mâ ursiltum bihî kâfirûn' 3 ayet; okundu",
+   "not": "gönderileni inkâr."
+  },
+  {
+   "bag": "43:24 → 43:30",
+   "kural": "okuma — 'innâ bi-mâ ursiltum bihî kâfirûn' / 've innâ bihî kâfirûn' (sûre içi)",
+   "not": "inkâr ediyoruz."
+  },
+  {
+   "bag": "16:36 → 43:25",
+   "kural": "lemma dizisi 'keyfe kâne âqıbetu'l-mukezzibîn' 4 ayet; okundu",
+   "not": "yalanlayanların sonu."
+  },
+  {
+   "bag": "15:79 · 30:47 → 43:25",
+   "kural": "lemma dizisi 'intaqamnâ min' 5 ayet; okundu; sûre içi 43:55 henüz okunmadı",
+   "not": "öç alma."
+  },
+  {
+   "bag": "21:52 · 26:70 · 37:85 → 43:26",
+   "kural": "lemma dizisi 'eb + qavm' 4 ayet; okundu — üçünde soru, 43:26'da teberrî ('berâ'' korpusta 1)",
+   "not": "İbrâhîm, babası ve kavmi."
+  },
+  {
+   "bag": "26:78 → 43:27",
+   "kural": "okuma — 'ellezî halaqanî fe-huve yehdîn' / 'ellezî fataranî fe-innehû se-yehdîn'; okundu",
+   "not": "beni yaratan, iletir."
+  },
+  {
+   "bag": "36:22 · 11:51 → 43:27",
+   "kural": "lemma dizisi 'ellezî fatara' 8 ayet; 1S 'fataranî' üç ayette; okundu",
+   "not": "beni yaratan."
+  },
+  {
+   "bag": "43:25 → 43:28",
+   "kural": "okuma — عقب [2/2]: 'âqıbe' (son) / 'aqıb' (ardından gelenler)",
+   "not": "son / soy."
+  },
+  {
+   "bag": "21:44 → 43:29",
+   "kural": "lemma dizisi 'bel metta'a hâulâ' âbâ'' 2 ayet; okundu — 1P / 1S, 'tâle aleyhimu'l-umur' / 'câehumu'l-haqq'",
+   "not": "yararlandırdık."
+  },
+  {
+   "bag": "10:76 · 28:48 → 43:30",
+   "kural": "lemma dizisi 'lemmâ câehumu'l-haqq' 4 ayet; okundu — Mûsâ bağlamında 'sihr', burada adsız",
+   "not": "hak gelince sihir dediler."
+  },
+  {
+   "bag": "43:3 · 43:11 → 43:31",
+   "kural": "okuma — قرأ [2/2] ve نزل [2/2] kapanıyor: Kur'an kılındı / su indirildi → 'nuzzile hâze'l-qur'ân'",
+   "not": "Kur'an'ın indirilmesi."
+  },
+  {
+   "bag": "43:13 → 43:32",
+   "kural": "okuma — سخر [2/2]: 'sahhara lenâ' (binek) / 'suhriyyen' (insanın insanı hizmete alması)",
+   "not": "boyun eğdirme / hizmete alma."
+  },
+  {
+   "bag": "10:58 → 43:32",
+   "kural": "lemma dizisi 'hayr + mimmâ + cema'a' 3 ayet; okundu — iki ayette rahmet + 'hayrun mimmâ yecma'ûn'",
+   "not": "topladıklarından hayırlı."
+  },
+  {
+   "bag": "11:118 → 43:33",
+   "kural": "lemma dizisi 'nâs + ummet + vâhide' 3 ayet; okundu",
+   "not": "tek ümmet."
+  },
+  {
+   "bag": "17:93 → 43:33 · 43:35",
+   "kural": "okuma — 'beytun min zuhruf' + göğe yükselme / evler + merdivenler + zuhruf; okundu",
+   "not": "altın süslü ev."
+  },
+  {
+   "bag": "15:47 · 37:44 → 43:34",
+   "kural": "lemma 'surur' 6 ayet; okundu — cennet tahtları / inkârcıların evlerindeki tahtlar (varsayım)",
+   "not": "tahtlar."
+  },
+  {
+   "bag": "42:36 → 43:35",
+   "kural": "lemma dizisi 'metâ' + hayât + dunyâ' 7 ayet; okundu",
+   "not": "dünya hayatının geçimliği."
+  },
+  {
+   "bag": "41:25 → 43:36",
+   "kural": "lemma 'qayyada' 2 ayet; okundu — çoğul 'quranâ'' / tekil şeytan 'qarîn'",
+   "not": "musallat edilen arkadaş."
+  },
+  {
+   "bag": "43:22 → 43:37",
+   "kural": "okuma — 'muhtedûn': atalar izinde (söz) / şeytan arkadaşlığında (sanı)",
+   "not": "doğru yolda sanma."
+  },
+  {
+   "bag": "43:36 → 43:38",
+   "kural": "okuma — قرن: 'qarîn' fâsılası ×2",
+   "not": "yakın arkadaş."
+  },
+  {
+   "bag": "23:41 · 11:44 → 43:38",
+   "kural": "lemma 'bu'd' 7 ayet; okundu — beddua kalıbı 'bu'den li-' / mesafe 'bu'de'l-meşriqayn'",
+   "not": "uzaklık."
+  },
+  {
+   "bag": "37:33 → 43:39",
+   "kural": "okuma — 'fi'l-azâbi muşterikûn' 3MP / 2MP; okundu",
+   "not": "azapta ortaklık."
+  },
+  {
+   "bag": "10:42 · 10:43 → 43:40",
+   "kural": "okuma — 'e-fe-ente tusmi'u's-summe' + 'e-fe-ente tehdi'l-umye' iki ayet / tek ayet; xref 10:43 (ölçüm); okundu",
+   "not": "sağırlar, körler."
+  },
+  {
+   "bag": "10:46 · 13:40 · 40:77 → 43:41 · 43:42",
+   "kural": "okuma — 'nuriyenneke … ev neteveffeyenneke' / 'nezhebenne bike … ev nuriyenneke' (sıra ters); okundu",
+   "not": "götürme ya da gösterme."
+  },
+  {
+   "bag": "43:25 → 43:41",
+   "kural": "okuma — نقم: 'fe'ntaqamnâ' / 'muntaqimûn'",
+   "not": "öç alma."
+  },
+  {
+   "bag": "43:21 → 43:43",
+   "kural": "okuma — مسك [2/2]: 'mustemsikûn' (soru, onlar) / 'fe'stemsik' (emir, sen)",
+   "not": "tutunma."
+  },
+  {
+   "bag": "43:5 · 43:36 → 43:44",
+   "kural": "okuma — ذكر [4/4] kapanıyor: 'ez-zikr' / 'zikri'r-rahmân' / 'le-zikrun leke'",
+   "not": "zikir."
+  },
+  {
+   "bag": "43:19 → 43:44",
+   "kural": "okuma — سأل edilgen: 've yus'elûn' (3MP) / 've sevfe tus'elûn' (2MP)",
+   "not": "sorguya çekilme."
+  },
+  {
+   "bag": "43:9 → 43:45",
+   "kural": "okuma — سأل: 'se'eltehum' (onlara) / 've's'el' (elçilere)",
+   "not": "sorma."
+  },
+  {
+   "bag": "26:16 → 43:46",
+   "kural": "lemma dizisi 'inne + rasûl + rabb + âlem' 2 ayet; xref (ölçüm); okundu — ikil / tekil",
+   "not": "âlemlerin Rabbinin elçisi."
+  },
+  {
+   "bag": "43:47 → 43:50",
+   "kural": "okuma — müfâcee 'izâ hum': 'yadhakûn' / 'yenkusûn'",
+   "not": "bir de baktın ki."
+  },
+  {
+   "bag": "43:28 → 43:48",
+   "kural": "okuma — 'le'allehum yerci'ûn' sûre içi ikinci kez (lemma dizisi 'le'alle + raca'a')",
+   "not": "dönsünler diye."
+  },
+  {
+   "bag": "43:22 · 43:37 → 43:49",
+   "kural": "lemma 'muhtedî' sûre içi 3 ayet, üçü de fâsılada — atalar izinde / sanı / Mûsâ'ya söz",
+   "not": "doğru yolu bulmuşuz."
+  },
+  {
+   "bag": "43:30 → 43:49",
+   "kural": "okuma — سحر [2/2]: 'hâzâ sihrun' / 'yâ eyyuhe's-sâhir'",
+   "not": "sihir / sihirbaz."
+  },
+  {
+   "bag": "7:134 · 7:135 → 43:49 · 43:50",
+   "kural": "lemma dizileri 2'şer ayet; xref 7:134 (ölçüm); 7. sûre henüz okunmadı — 'yâ mûsâ' / 'yâ eyyuhe's-sâhir'; kayıt",
+   "not": "dua iste, sözünden dön."
+  },
+  {
+   "bag": "6:6 → 43:51",
+   "kural": "xref (ölçüm) — 'ce'alne'l-enhâra tecrî min tahtihim' (helâk edilen nesiller) / Firavun 'tecrî min tahtî'; 6. sûre henüz okunmadı — kayıt",
+   "not": "altından akan ırmaklar."
+  },
+  {
+   "bag": "38:76 → 43:52",
+   "kural": "okuma — İblis 'ene hayrun minhu' / Firavun 'em ene hayrun min hâzâ'; okundu; KAPATILAMAZ",
+   "not": "ben daha hayırlıyım."
+  },
+  {
+   "bag": "43:18 → 43:52",
+   "kural": "okuma — بين: 'ğayru mubîn' / 'lâ yekâdu yubîn'",
+   "not": "açık konuşamama."
+  },
+  {
+   "bag": "18:31 · 22:23 · 35:33 → 43:53",
+   "kural": "lemma 'esâvir' 5 ayet; okundu — cennette 'esâvira min zeheb' / Firavun'un istediği",
+   "not": "altın bilezikler."
+  },
+  {
+   "bag": "11:12 → 43:53",
+   "kural": "lemma dizisi 'ev câe mea' 2 ayet; okundu — 'kenzun ev câe meahû melek' / 'esviratun … ev câe meahu'l-melâike'",
+   "not": "yanında melek gelseydi."
+  },
+  {
+   "bag": "27:12 · 28:32 → 43:54",
+   "kural": "lemma dizisi 'kâne qavm fâsiq' 5 ayet; okundu — üçü Firavun bağlamında 'innehum kânû qavmen fâsiqîn'",
+   "not": "yoldan çıkmış kavim."
+  },
+  {
+   "bag": "20:86 → 43:55",
+   "kural": "okuma — أسف: Mûsâ 'ğadbâne esifâ' / 1P 'âsefûnâ'; okundu — aday 1041 alanında kayıt, test yok",
+   "not": "öfke / esef."
+  },
+  {
+   "bag": "21:77 → 43:55",
+   "kural": "lemma dizisi 'ağraqa ecma'' 2 ayet; okundu — Nûh kavmi / Firavun kavmi",
+   "not": "hepsini boğduk."
+  },
+  {
+   "bag": "43:25 · 43:41 → 43:55",
+   "kural": "okuma — نقم [3/3] kapanıyor",
+   "not": "öç alma."
+  },
+  {
+   "bag": "43:8 → 43:56",
+   "kural": "okuma — 'meselu'l-evvelîn' / 'meselen li'l-âhirîn'",
+   "not": "öncekiler / sonrakiler."
+  },
+  {
+   "bag": "43:17 → 43:57 · 43:58",
+   "kural": "okuma — ضرب: 'darabe li'r-rahmâni meselâ' / 'duribe'bnu meryeme meselâ' / 'mâ darabûhu'",
+   "not": "mesel getirme."
+  },
+  {
+   "bag": "43:32 · 43:52 → 43:58",
+   "kural": "okuma — خير [3/3]: üç 'hayr' karşılaştırması",
+   "not": "daha hayırlı."
+  },
+  {
+   "bag": "43:8 · 43:17 · 43:56 · 43:57 → 43:59",
+   "kural": "okuma — مثل [5/5] kapanıyor",
+   "not": "örnek."
+  },
+  {
+   "bag": "43:19 → 43:60",
+   "kural": "okuma — ce'ale + melâike: onlar 'inâsâ' kıldı / 1P 'lev neşâu le-ce'alnâ'",
+   "not": "melekler."
+  },
+  {
+   "bag": "31:34 · 41:47 → 43:61",
+   "kural": "lemma dizisi 'ilm + sâ'a' 4 ayet; okundu — 'ilmu's-sâ'a' Allah katında / 'le-ilmun li's-sâ'a'; 43:85 henüz okunmadı",
+   "not": "saatin bilgisi."
+  },
+  {
+   "bag": "19:34 → 43:61",
+   "kural": "okuma — 'imterâ' lemma: 19:34 Îsâ hakkında 'fîhi yemterûn' / 43:61 'fe-lâ temterunna bihâ'; okundu",
+   "not": "şüphe etmeyin."
+  },
+  {
+   "bag": "19:36 · 36:61 → 43:61 · 43:64",
+   "kural": "lemma dizisi 'hâzâ sırâtun mustaqîm' 6 ayet; okundu; sûre içi nakarat3 GEÇMEZ (ölçüm, tür iç)",
+   "not": "dosdoğru yol."
+  },
+  {
+   "bag": "20:15 · 20:16 → 43:61 · 43:62",
+   "kural": "okuma — sâ'a, ardından 'lâ yesuddenne' sırası; lemma dizisi 'lâ + sadda' 3 ayet; okundu",
+   "not": "saat ve alıkoyma."
+  },
+  {
+   "bag": "36:60 → 43:62",
+   "kural": "lemma dizisi 'inne … aduvv mubîn' 5 ayet; okundu — 36:60-61 düşman → dosdoğru yol / 43:61-62 ters sıra",
+   "not": "apaçık düşman."
+  },
+  {
+   "bag": "43:37 · 43:57 → 43:62",
+   "kural": "okuma — صدد [3/3] kapanıyor: alıkoyma / gürültü / alıkoyma",
+   "not": "alıkoyma."
+  },
+  {
+   "bag": "26:108 · 26:110 · 26:126 · 26:131 · 26:144 · 26:150 · 26:163 · 26:179 → 43:63",
+   "kural": "lemma dizisi 'ittaqâ + Allah + etâ'a' 10 ayet; okundu — Şuarâ'daki elçilerin nakaratı / Îsâ; 3:50 henüz okunmadı",
+   "not": "Allah'tan sakının, bana itaat edin."
+  },
+  {
+   "bag": "43:54 → 43:63",
+   "kural": "okuma — طوع [2/2]: Firavun'a itaat / 'etî'ûn'",
+   "not": "itaat."
+  },
+  {
+   "bag": "19:36 → 43:64",
+   "kural": "esit2 YAKIN (0,9697, ölçüm); okundu — fark 'huve' ve baştaki 've'; 3:51 henüz okunmadı",
+   "not": "benim de Rabbim, sizin de Rabbiniz."
+  },
+  {
+   "bag": "19:37 → 43:65",
+   "kural": "lemma dizisi 'ihtelefe + hizb + min + beyn' 2 ayet; xref (ölçüm); okundu — 19:36-37 / 43:64-65 aynı sıra, ikinci yarı 'keferû … meşhedi yevmin azîm' / 'zalemû … azâbi yevmin elîm'",
+   "not": "gruplar ayrılığa düştü."
+  },
+  {
+   "bag": "11:26 → 43:65",
+   "kural": "lemma dizisi 'azâb + yevm + elîm' 2 ayet; xref (ölçüm); okundu",
+   "not": "acı günün azabı."
+  },
+  {
+   "bag": "43:60 · 43:63 → 43:65",
+   "kural": "okuma — خلف [3/3] kapanıyor: yerine geçme / ayrılığa düşme (gloss iki anlam, 1021)",
+   "not": "ayrılık."
+  },
+  {
+   "bag": "26:202 · 29:53 → 43:66",
+   "kural": "lemma dizisi 'etâ + bağte … lâ şa'ara' 3 ayet; okundu — azabın / sâ'anın ansızın gelişi; esit dizisi 47:18 henüz okunmadı",
+   "not": "ansızın, farkında olmadan."
+  },
+  {
+   "bag": "25:28 → 43:67",
+   "kural": "okuma — 'halîl' lemma 4 ayet; okundu — 'lem ettehiz fulânen halîlâ' / 'el-ehillâ'",
+   "not": "dostlar."
+  },
+  {
+   "bag": "20:123 → 43:67",
+   "kural": "lemma dizisi 'ba'd + ba'd + aduvv' 4 ayet; okundu — inişte / o gün",
+   "not": "birbirine düşman."
+  },
+  {
+   "bag": "43:62 → 43:67",
+   "kural": "okuma — عدو [2/2] kapanıyor: şeytan düşman / dostlar düşman",
+   "not": "düşman."
+  },
+  {
+   "bag": "10:62 → 43:68",
+   "kural": "lemma dizisi 'lâ … hazine' 15 ayet; okundu — 3MP / 2MP hitap + 'el-yevm'",
+   "not": "korku yok, üzülmeyeceksiniz."
+  },
+  {
+   "bag": "30:15 → 43:70",
+   "kural": "okuma — 'yuhbaru' lemma 2 ayet; okundu",
+   "not": "sevindirilme."
+  },
+  {
+   "bag": "36:56 → 43:70",
+   "kural": "okuma — 'hum ve ezvâcuhum' (3MP) / 'entum ve ezvâcukum' (2MP); okundu",
+   "not": "siz ve eşleriniz."
+  },
+  {
+   "bag": "43:12 → 43:70",
+   "kural": "okuma — زوج [2/2] kapanıyor: bütün çiftler / eşleriniz",
+   "not": "eşler."
+  },
+  {
+   "bag": "43:53 → 43:71",
+   "kural": "okuma — 'min zeheb': Firavun'un istediği bilezikler / cennette tepsiler",
+   "not": "altın."
+  },
+  {
+   "bag": "21:102 · 41:31 → 43:71",
+   "kural": "lemma dizisi 'mâ + iştehâ + nefs' 3 ayet; okundu",
+   "not": "canların çektiği."
+  },
+  {
+   "bag": "19:63 → 43:72",
+   "kural": "okuma — 'tilke'l-cennetu'lletî': 1P etken 'nûrisu' / edilgen 'ûristumûhâ'; okundu; 7:43 (henüz okunmadı) lemma dizisi ve xref",
+   "not": "miras kılınan cennet."
+  },
+  {
+   "bag": "23:19 → 43:73",
+   "kural": "okuma — 'lekum fîhâ fevâkihu kesîretun ve minhâ te'kulûn' dünya bahçeleri / cennet; okundu",
+   "not": "bol meyve."
+  },
+  {
+   "bag": "43:71 → 43:74",
+   "kural": "okuma — خلد [2/2] kapanıyor: cennette / cehennem azabında 'hâlidûn'",
+   "not": "ebedî kalma."
+  },
+  {
+   "bag": "23:77 → 43:75",
+   "kural": "lemma 'mublis' 4 ayet; okundu — 'hum fîhi mublisûn' aynı üç kelime",
+   "not": "ümitsizlik."
+  },
+  {
+   "bag": "21:20 → 43:75",
+   "kural": "okuma — kök فتر: melekler 'lâ yefterûn' / azap 'lâ yufetteru'; okundu",
+   "not": "ara vermeme."
+  },
+  {
+   "bag": "11:101 · 16:118 → 43:76",
+   "kural": "lemma dizisi 'mâ + zaleme' 11 ayet; okundu — 've mâ zalemnâhum ve lâkin …' kapanışları farklı",
+   "not": "biz zulmetmedik."
+  },
+  {
+   "bag": "18:3 → 43:77",
+   "kural": "lemma 'mâkis' 2 ayet; okundu — cennet / cehennem",
+   "not": "kalacaksınız."
+  },
+  {
+   "bag": "43:51 → 43:77",
+   "kural": "okuma — ندي [2/2] kapanıyor: Firavun seslendi / suçlular seslendi",
+   "not": "seslenme."
+  },
+  {
+   "bag": "23:70 → 43:78",
+   "kural": "lemma dizisi 'ekser + haqq + kârih' 2 ayet; xref (ölçüm); okundu — 3MP / 2MP + 1P",
+   "not": "haktan hoşlanmama."
+  },
+  {
+   "bag": "43:79 (iç)",
+   "kural": "okuma — kök برم korpusta yalnız 43:79: 3MP 'ebramû' / 1P 'mubrimûn' — aday 1041 alanında kayıt, test yok",
+   "not": "karar."
+  },
+  {
+   "bag": "9:78 → 43:80",
+   "kural": "okuma — 'sirrahum ve necvâhum': 'ya'lemu' (lafız) / 'nesma'u' (1P); okundu",
+   "not": "gizli ve fısıltı."
+  },
+  {
+   "bag": "10:21 → 43:80",
+   "kural": "okuma — 'rusulunâ yektubûn'; okundu",
+   "not": "yazıcı elçiler."
+  },
+  {
+   "bag": "43:37 → 43:80",
+   "kural": "okuma — حسب [2/2] kapanıyor: 'yahsebûne ennehum muhtedûn' / 'yahsebûne ennâ lâ nesma''",
+   "not": "sanma."
+  },
+  {
+   "bag": "19:88 · 19:91 · 21:26 → 43:81",
+   "kural": "lemma dizisi 'rahmân + veled' 4 ayet; okundu — iddia başkalarının sözü / 43:81 şart 'in kâne' + 1S cevap",
+   "not": "Rahmân'ın çocuğu."
+  },
+  {
+   "bag": "43:6 · 43:8 → 43:81",
+   "kural": "okuma — أول [3/3] kapanıyor: 'el-evvelîn' öncekiler / 'evvelu'l-âbidîn'",
+   "not": "ilk."
+  },
+  {
+   "bag": "21:22 · 37:180 → 43:82",
+   "kural": "lemma dizisi 'rabb + arş + an mâ + vasafe' 2 ayet; xref 21:22 (ölçüm); okundu — ikinci tamlama arş / izzet",
+   "not": "nitelendirmelerinden uzak."
+  },
+  {
+   "bag": "43:13 → 43:82",
+   "kural": "okuma — سبح [2/2] kapanıyor: 'subhâne'llezî sahhara' / 'subhâne rabbi's-semâvât'",
+   "not": "tesbih."
+  },
+  {
+   "bag": "70:42 → 43:83",
+   "kural": "esit2 TAM (1,0000, ölçüm); 70:42 henüz okunmadı — kayıt",
+   "not": "bırak onları."
+  },
+  {
+   "bag": "43:53 → 43:83",
+   "kural": "okuma — لقي [2/2]: 'ulqiye' atılma / 'yulâqû' kavuşma (gloss iki anlam, 1021)",
+   "not": "karşılaşma / atma."
+  },
+  {
+   "bag": "43:4 → 43:84",
+   "kural": "okuma — 'hakîm': kitap için / 'huve' için — aday 1041 alanına sınırda (insan değil, kitap); حكم [3/3] kapanıyor",
+   "not": "hakîm."
+  },
+  {
+   "bag": "43:9 → 43:84",
+   "kural": "okuma — 'el-azîzu'l-alîm' / 'el-hakîmu'l-alîm'",
+   "not": "esmâ çifti."
+  },
+  {
+   "bag": "25:1 · 25:2 → 43:85",
+   "kural": "lemma dizileri 'tebârake + ellezî' 5 ayet ve 'ellezî … mulk + semâ + ard' 4 ayet; okundu — 25:2'de mülk + veled reddi yan yana; KAPATILAMAZ",
+   "not": "göklerin ve yerin mülkü."
+  },
+  {
+   "bag": "31:34 → 43:85",
+   "kural": "lemma dizisi 'ind + ilm + sâ'a' 2 ayet; xref (ölçüm); okundu",
+   "not": "saatin bilgisi O katında."
+  },
+  {
+   "bag": "43:61 → 43:85",
+   "kural": "okuma — 'le-ilmun li's-sâ'a' / 'indehû ilmu's-sâ'a'; سوع [3/3] kapanıyor",
+   "not": "saatin bilgisi."
+  },
+  {
+   "bag": "19:87 → 43:86",
+   "kural": "okuma — 'lâ yemlikûne'ş-şefâ'ate illâ …' istisnâsı: ahd edinen / hakka şahitlik eden; okundu",
+   "not": "şefaat."
+  },
+  {
+   "bag": "43:9 · 29:61 → 43:87",
+   "kural": "lemma dizisi 'in se'eltehum men halaqa' 5 ayet, sûre içi nakarat3 GEÇER (ölçüm); xref 29:61; okundu — cevap 'el-azîzu'l-alîm' / 'Allah'; 'fe-ennâ yu'fekûn' 29:61 ile ortak",
+   "not": "kim yarattı."
+  },
+  {
+   "bag": "25:30 → 43:88",
+   "kural": "okuma — 'yâ rabbi inne' + kavim şikâyeti; okundu",
+   "not": "ey Rabbim."
+  },
+  {
+   "bag": "43:69 → 43:88",
+   "kural": "okuma — أمن [2/2] kapanıyor: 'âmenû' / 'lâ yu'minûn'",
+   "not": "iman."
+  },
+  {
+   "bag": "43:5 → 43:89",
+   "kural": "okuma — صفح [2/2] kapanıyor: 'safhan' (sûre başı) / 'fa'sfah' (sûre sonu)",
+   "not": "yüz çevirme."
+  },
+  {
+   "bag": "15:85 → 43:89",
+   "kural": "okuma — kök صفح: 'fa'sfahi's-safha'l-cemîl' / 'fa'sfah anhum'; okundu",
+   "not": "yüz çevir."
+  },
+  {
+   "bag": "25:63 → 43:89",
+   "kural": "lemma dizisi 'qâle + selâm' 8 ayet; okundu — 'qâlû selâmâ' / 'qul selâm'",
+   "not": "selâm de."
+  }
+ ],
+ "AS_duhan": [
+  {
+   "bag": "40:1 · 41:1 · 42:1 · 43:1 → 44:1",
+   "kural": "esit2 TAM — 'Hâ Mîm' (ölçüm); okundu; 45:1, 46:1 henüz okunmadı",
+   "not": "Hâ Mîm ailesi."
+  },
+  {
+   "bag": "43:89 → 44:1",
+   "kural": "okuma — ardışık sûre sınırı; aday 1040 alanında kayıt, test yok",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "43:2 → 44:2",
+   "kural": "esit2 TAM (ölçüm); okundu — aynı yemin, devamı 'ce'alnâhu qur'ânen arabiyyâ' / 'enzelnâhu fî leyletin mubârake'; aday 1040 alanında kayıt",
+   "not": "apaçık Kitap."
+  },
+  {
+   "bag": "28:30 · 24:35 · 24:61 → 44:3",
+   "kural": "lemma 'mubârake' 4 ayet; okundu — yer / ağaç / selam / gece",
+   "not": "mübarek."
+  },
+  {
+   "bag": "13:7 · 38:65 → 44:3",
+   "kural": "lemma 'munzir' 15 ayet; okundu — Peygamber 'munzir' / 1P 'munzirîn'; aday 1041 alanında kayıt, test yok",
+   "not": "uyarıcı."
+  },
+  {
+   "bag": "17:106 → 44:4",
+   "kural": "okuma — 'faraqa': Kur'an'ı ayırdık / her hikmetli iş ayrılır; okundu",
+   "not": "ayırma."
+  },
+  {
+   "bag": "43:4 · 43:84 → 44:4",
+   "kural": "okuma — 'hakîm': kitap / 'huve' / iş — aday 1041 alanına sınırda",
+   "not": "hakîm."
+  },
+  {
+   "bag": "28:45 · 28:46 → 44:5 · 44:6",
+   "kural": "okuma — 'kunnâ mursilîn' → 'rahmeten min rabbik' aynı iki parça aynı sırayla; okundu",
+   "not": "gönderenleriz; Rabbinden rahmet."
+  },
+  {
+   "bag": "26:24 → 44:7",
+   "kural": "esit2 YAKIN (0,9565, ölçüm); lemma dizisi 2 ayet; okundu — Mûsâ'nın Firavun'a cevabı / 'qâle'siz bedel",
+   "not": "göklerin ve yerin Rabbi."
+  },
+  {
+   "bag": "26:26 · 37:126 → 44:8",
+   "kural": "lemma dizisi 'rabbukum ve rabbu âbâikumu'l-evvelîn' 3 ayet; okundu — Mûsâ / İlyâs; 44:7-8'de 26:24 ve 26:26 art arda (26:25 yok), KAPATILAMAZ",
+   "not": "atalarınızın Rabbi."
+  },
+  {
+   "bag": "43:83 → 44:9",
+   "kural": "okuma — 'la'ibe': 'yehûdû ve yel'abû' / 'fî şekkin yel'abûn'; aday 1040 alanında kayıt, test yok",
+   "not": "oynama."
+  },
+  {
+   "bag": "41:11 → 44:10",
+   "kural": "lemma 'duhân' korpusta 2 ayet; okundu — göğün yaratılıştaki duman hâli / göğün duman getireceği gün; KAPATILAMAZ",
+   "not": "duman."
+  },
+  {
+   "bag": "11:93 → 44:10",
+   "kural": "lemma 'irtaqib' 4 ayet; okundu; sûre içi 44:59 henüz okunmadı",
+   "not": "gözetle."
+  },
+  {
+   "bag": "44:10 → 44:11",
+   "kural": "okuma — 'yağşe' öznesi 'duhân'",
+   "not": "duman bürür."
+  },
+  {
+   "bag": "43:49 · 43:50 → 44:12 · 44:15",
+   "kural": "lemma dizisi 'keşefe + an + azâb' 3 ayet; okundu — istek, vaat, kaldırma, dönüş sırası ardışık sûrelerde; aday 1040 alanında kayıt, test yok",
+   "not": "azabı kaldır."
+  },
+  {
+   "bag": "10:98 → 44:12",
+   "kural": "lemma dizisi 'keşefe + an + azâb'; okundu — Yûnus kavmi iman edince kaldırıldı",
+   "not": "azabın kaldırılması."
+  },
+  {
+   "bag": "37:36 → 44:14",
+   "kural": "okuma — elçiye 'şâirun mecnûn' / 'mu'allemun mecnûn'; okundu",
+   "not": "deli dediler."
+  },
+  {
+   "bag": "26:130 · 28:19 → 44:16",
+   "kural": "lemma 'bataşa' 4 ayet; okundu — insan / 1P; aday 1041 alanında kayıt, test yok",
+   "not": "yakalayış."
+  },
+  {
+   "bag": "43:41 · 32:22 → 44:16",
+   "kural": "lemma 'muntaqim' 3 ayet; okundu — 43:41 → 44:16 aday 1040 alanında kayıt",
+   "not": "öç alanlarız."
+  },
+  {
+   "bag": "43:46 → 44:17",
+   "kural": "okuma — Firavun anlatısı ardışık sûrede yeniden açılıyor (43:46-56 / 44:17-); aday 1040 alanında kayıt",
+   "not": "Firavun kavmi."
+  },
+  {
+   "bag": "26:107 · 26:125 · 26:143 · 26:162 · 26:178 → 44:18",
+   "kural": "lemma dizisi 'innî lekum rasûlun emîn' 6 ayet; okundu — Şuarâ'daki elçilerin nakaratı",
+   "not": "güvenilir elçi."
+  },
+  {
+   "bag": "27:31 → 44:19",
+   "kural": "okuma — 'ellâ ta'lû aleyye' (Süleyman) / 'en lâ ta'lû ala'llâh'; okundu",
+   "not": "büyüklenmeyin."
+  },
+  {
+   "bag": "14:10 · 27:21 → 44:19",
+   "kural": "lemma dizisi 'etâ + sultân + mubîn' 3 ayet; xref (ölçüm); okundu — istenen delil / getirilen delil",
+   "not": "apaçık delil."
+  },
+  {
+   "bag": "40:27 → 44:20",
+   "kural": "lemma dizisi 'âze + rabb + rabb' 2 ayet; xref (ölçüm); okundu — 40:27 konuşan adlı Mûsâ, 44:20 adsız elçi",
+   "not": "Rabbime sığındım."
+  },
+  {
+   "bag": "19:48 → 44:21",
+   "kural": "okuma — 'i'tezele': İbrâhîm 'e'tezilukum' / elçi 'fa'tezilûn'; okundu",
+   "not": "uzak durun."
+  },
+  {
+   "bag": "43:88 → 44:22",
+   "kural": "okuma — 'hâulâi qavmun …' şikâyeti: 'lâ yu'minûn' / 'mucrimûn'; aday 1040 alanında kayıt, test yok",
+   "not": "suçlu kavim."
+  },
+  {
+   "bag": "26:52 · 20:77 · 17:1 → 44:23",
+   "kural": "lemma dizisi 'esrâ + abd' 4 ayet; 'inne + muttebe'' 2 ayet (26:52); xref 17:1 (ölçüm); okundu — 26:52'de muhatap adlı Mûsâ",
+   "not": "geceleyin yola çık."
+  },
+  {
+   "bag": "20:77 → 44:24",
+   "kural": "okuma — deniz: 'tarîqan fi'l-bahri yebesâ' / 'rehvâ'; okundu",
+   "not": "deniz."
+  },
+  {
+   "bag": "11:37 · 11:43 · 23:27 → 44:24",
+   "kural": "lemma 'muğraq' 4 ayet; okundu — Nûh kavmi / Firavun ordusu",
+   "not": "boğulacaklar."
+  },
+  {
+   "bag": "26:57 · 26:58 → 44:25 · 44:26",
+   "kural": "okuma — 'min cennâtin ve uyûn … ve maqâmin kerîm'; lemma dizisi 'maqâm + kerîm' 2 ayet; okundu — 'ahracnâhum' / 'terakû', 'kunûz' / 'zurû''",
+   "not": "bahçeler, pınarlar."
+  },
+  {
+   "bag": "36:55 → 44:27",
+   "kural": "lemma 'fâkih' 3 ayet; okundu — cennet ehli / Firavun'un kavmi",
+   "not": "keyif sürenler."
+  },
+  {
+   "bag": "26:59 → 44:28",
+   "kural": "okuma — 'kezâlike ve evrasnâhâ': 'benî isrâîl' / 'qavmen âharîn'; okundu; KAPATILAMAZ",
+   "not": "miras."
+  },
+  {
+   "bag": "20:80 → 44:30",
+   "kural": "okuma — İsrâiloğullarının kurtarılması: 'enceynâ' / 'neccaynâ'; okundu",
+   "not": "kurtardık."
+  },
+  {
+   "bag": "10:83 → 44:31",
+   "kural": "okuma — Firavun 'âlî' ve 'musrif'; okundu",
+   "not": "büyüklenen, aşırı giden."
+  },
+  {
+   "bag": "44:19 → 44:31",
+   "kural": "okuma — علو [2/2] kapanıyor: 'lâ ta'lû' / 'âliyen'",
+   "not": "büyüklenme."
+  },
+  {
+   "bag": "37:106 → 44:33",
+   "kural": "lemma dizisi 'belâ' + mubîn' 2 ayet; okundu",
+   "not": "apaçık sınav."
+  },
+  {
+   "bag": "37:58 · 37:59 → 44:35",
+   "kural": "okuma — 'mevtetune'l-ûlâ … ve mâ nahnu bi-': cennet ehli 'mu'azzebîn' / inkârcılar 'munşerîn'; okundu",
+   "not": "ilk ölüm."
+  },
+  {
+   "bag": "44:36 → 45:25",
+   "kural": "lemma dizisi 'etâ + âbâ' + in kâne + sâdiq' 2 ayet; xref (ölçüm); 45:25 henüz okunmadı — aday 1040 alanında kayıt",
+   "not": "atalarımızı getirin."
+  },
+  {
+   "bag": "43:52 · 43:58 → 44:37",
+   "kural": "okuma — 'hayr … em' karşılaştırması ardışık sûrede; aday 1040 alanında kayıt",
+   "not": "onlar mı hayırlı."
+  },
+  {
+   "bag": "21:16 · 38:27 → 44:38",
+   "kural": "esit2 BENZER 21:16 (0,9355, ölçüm); lemma dizisi 2 ayet; okundu — 'lâ'ibîn' / 'bâtılâ'",
+   "not": "oyun için yaratmadık."
+  },
+  {
+   "bag": "44:9 → 44:38",
+   "kural": "okuma — لعب [2/2]: onlar oynuyor / oynayarak yaratmadık",
+   "not": "oyun."
+  },
+  {
+   "bag": "15:85 → 44:39",
+   "kural": "okuma — 'mâ halaqnâ … illâ bi'l-haqq'; okundu; 44:38-39 = 21:16 + 15:85, KAPATILAMAZ",
+   "not": "hak ile."
+  },
+  {
+   "bag": "10:55 · 28:13 → 44:39",
+   "kural": "lemma dizisi 'lâkinne ekserehum lâ ya'lemûn' 9 ayet; xref (ölçüm); okundu",
+   "not": "çokları bilmez."
+  },
+  {
+   "bag": "37:21 → 44:40",
+   "kural": "okuma — 'yevmu'l-fasl'; okundu; 78:17 henüz okunmadı",
+   "not": "ayrım günü."
+  },
+  {
+   "bag": "22:78 · 22:13 · 16:76 → 44:41",
+   "kural": "lemma 'mevlâ' 14 ayet; okundu — Allah / yalvarılan / sahip / insanlar; aday 1041 alanında kayıt, test yok",
+   "not": "dost dosta."
+  },
+  {
+   "bag": "44:14 → 44:41",
+   "kural": "okuma — ولي [3/3] kapanıyor: 'tevellev' yüz çevirme / 'mevlâ' dost (gloss iki anlam, 1021)",
+   "not": "velî."
+  },
+  {
+   "bag": "11:43 → 44:42",
+   "kural": "okuma — 'illâ men rahim' istisnâsı; okundu",
+   "not": "rahmet ettikleri hariç."
+  },
+  {
+   "bag": "26:9 · 26:68 · 26:104 · 26:122 · 26:140 · 26:159 · 26:175 · 26:191 · 30:5 → 44:42",
+   "kural": "lemma dizisi '… azîz + rahîm' 10 ayet; okundu — Şuarâ nakaratı",
+   "not": "Azîz, Rahîm."
+  },
+  {
+   "bag": "37:62 · 37:66 · 37:67 · 37:68 → 44:43 · 44:45 · 44:46 · 44:47",
+   "kural": "lemma dizisi 'şecere + zaqqûm' 2 ayet; okundu — zakkum, karınlar, hamîm, cahîm dörtlüsü",
+   "not": "zakkum ağacı."
+  },
+  {
+   "bag": "18:29 → 44:45",
+   "kural": "lemma 'muhl' 3 ayet; okundu — yüzleri kavuran su / karınlarda kaynayan yiyecek",
+   "not": "erimiş maden."
+  },
+  {
+   "bag": "37:55 → 44:47",
+   "kural": "okuma — 'sevâi'l-cahîm'; okundu",
+   "not": "cehennemin ortası."
+  },
+  {
+   "bag": "22:19 → 44:48",
+   "kural": "xref (ölçüm); okundu — 'yusabbu min fevqi ruûsihimu'l-hamîm' edilgen çoğul / 'subbû fevqa ra'sihî' emir tekil",
+   "not": "başın üstüne dökün."
+  },
+  {
+   "bag": "44:42 · 12:30 · 12:78 → 44:49",
+   "kural": "okuma — 'el-azîz': Allah / Mısır yöneticisi / azaptaki insan; aday 1041 alanında kayıt, test yok",
+   "not": "azîz."
+  },
+  {
+   "bag": "43:61 · 15:63 → 44:50",
+   "kural": "okuma — 'imterâ': 'fe-lâ temterunna bihâ' / 'bi-mâ kânû fîhi yemterûn' / 'mâ kuntum bihî temterûn'; okundu",
+   "not": "şüphe ettiğiniz."
+  },
+  {
+   "bag": "44:26 → 44:51",
+   "kural": "okuma — 'maqâm': 'maqâmin kerîm' (Firavun ve ordusunun bıraktığı) / 'maqâmin emîn' (takvâ sahiplerinin)",
+   "not": "makam."
+  },
+  {
+   "bag": "15:45 · 26:147 · 44:25 → 44:52",
+   "kural": "esit2 TAM 26:147 (ölçüm); lemma dizisi 'fî + cennet + uyûn' 4 ayet; okundu — 44:25 bırakılan bahçeler ve pınarlar",
+   "not": "bahçeler ve pınarlar."
+  },
+  {
+   "bag": "18:31 · 15:47 · 37:44 → 44:53",
+   "kural": "lemma dizisi 'sundus + istebraq' 2 ayet; 'mutaqâbil' 4 ayet; okundu",
+   "not": "ipek, karşı karşıya."
+  },
+  {
+   "bag": "37:48 → 44:54",
+   "kural": "lemma 'în' 4 ayet; okundu; xref 52:20 henüz okunmadı",
+   "not": "iri gözlü."
+  },
+  {
+   "bag": "38:51 · 15:46 → 44:55",
+   "kural": "lemma dizisi 'de'â + fî' 3 ayet; 'âmin' 16 ayet; okundu",
+   "not": "meyve, güven."
+  },
+  {
+   "bag": "37:59 · 44:35 → 44:56",
+   "kural": "lemma dizisi 'illâ + mevtet' 3 ayet; okundu — cennet ehli / inkârcılar / anlatı",
+   "not": "ilk ölüm."
+  },
+  {
+   "bag": "40:7 → 44:56",
+   "kural": "xref (ölçüm); lemma dizisi 'vekâ + azâb + cahîm' 2 ayet; okundu — dua / gerçekleşme",
+   "not": "cehennem azabından koruma."
+  },
+  {
+   "bag": "37:58 · 37:59 · 37:60 → 44:56 · 44:57",
+   "kural": "okuma — 'mevtete'l-ûlâ' ardından 'huve'l-fevzu'l-azîm' aynı sıra; okundu",
+   "not": "büyük kurtuluş."
+  },
+  {
+   "bag": "9:72 · 9:111 · 10:64 · 40:9 → 44:57",
+   "kural": "lemma dizisi 'zâ + (zamir) + fevz + azîm' 7 ayet; okundu; 57:12 henüz okunmadı",
+   "not": "büyük kurtuluş."
+  },
+  {
+   "bag": "19:97 → 44:58",
+   "kural": "lemma dizisi 'innemâ + yessera + lisân' 2 ayet; okundu — aynı açılış, amaç: müjde-uyarı / öğüt",
+   "not": "dilinle kolaylaştırdık."
+  },
+  {
+   "bag": "44:2 · 44:3 → 44:58",
+   "kural": "okuma — 1P + 'hu' ('enzelnâhu' / 'yessernâhu'), sûre başı ve sonu; zamir göndergesi adsız (KAPATILAMAZ)",
+   "not": "onu."
+  },
+  {
+   "bag": "44:10 · 11:93 → 44:59",
+   "kural": "lemma 'irtaqib' 4 ayet; okundu — sûre içi aynı 2MS emir iki kez",
+   "not": "bekle."
+  },
+  {
+   "bag": "43:89 → 44:59",
+   "kural": "okuma — iki sûre sonu: 'fe' + 2MS emir + 3MP hakkında cümle; aday 1040 alanında kayıt, test yok",
+   "not": "sûre sonu."
+  }
+ ],
+ "AS_casiye": [
+  {
+   "bag": "40:1 · 41:1 · 42:1 · 43:1 · 44:1 → 45:1",
+   "kural": "esit2 TAM — 'Hâ Mîm' (ölçüm); okundu; 46:1 henüz okunmadı",
+   "not": "Hâ Mîm ailesi."
+  },
+  {
+   "bag": "44:59 → 45:1",
+   "kural": "okuma — ardışık sûre sınırı; aday 1040 alanında kayıt, test yok",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "39:1 · 40:2 → 45:2",
+   "kural": "esit2 TAM 39:1, BENZER 40:2 (ölçüm); lemma dizisi 'tenzîl + kitâb + min + Allah' 4 ayet; okundu; 46:2 henüz okunmadı",
+   "not": "kitabın indirilişi."
+  },
+  {
+   "bag": "10:6 → 45:3",
+   "kural": "xref (ölçüm); lemma dizisi 'fî + semâ + ard + âyet' 2 ayet; okundu",
+   "not": "göklerde ve yerde âyetler."
+  },
+  {
+   "bag": "31:10 · 42:29 → 45:4",
+   "kural": "lemma 'besse' 5 ayet; okundu — yayılan canlılar",
+   "not": "canlıları yayma."
+  },
+  {
+   "bag": "10:6 · 23:80 → 45:5",
+   "kural": "lemma dizisi 'ihtilâf + leyl + nehâr' 5 ayet; okundu; 2:164, 3:190 henüz okunmadı",
+   "not": "gece ile gündüz."
+  },
+  {
+   "bag": "16:65 · 30:24 · 35:9 → 45:5",
+   "kural": "lemma dizisi 'ahyâ + ard + ba'd + mevt' 5 ayet; okundu — su / rizq",
+   "not": "yerin diriltilmesi."
+  },
+  {
+   "bag": "13:4 · 16:12 · 16:67 · 30:24 · 30:28 → 45:5",
+   "kural": "lemma dizisi 'âyet + qavm + 'aqale' 7 ayet; okundu",
+   "not": "akleden kavim."
+  },
+  {
+   "bag": "26:222 → 45:7",
+   "kural": "xref (ölçüm); lemma dizisi 'kull + effâk + esîm' 2 ayet; okundu",
+   "not": "iftiracı günahkâr."
+  },
+  {
+   "bag": "44:44 → 45:7",
+   "kural": "okuma — 'esîm' önceki sûrenin sonunda ve bu sûrenin başında; aday 1040 alanında kayıt, test yok",
+   "not": "günahkâr."
+  },
+  {
+   "bag": "31:7 → 45:8",
+   "kural": "lemma dizisi 'mustakbir + ke-en + lem + semi'a' 2 ayet; okundu — 'vellâ' / 'yusırru'",
+   "not": "işitmemiş gibi."
+  },
+  {
+   "bag": "9:34 · 31:7 → 45:8",
+   "kural": "lemma dizisi 'beşşir + azâb + elîm' 5 ayet; okundu",
+   "not": "acı azapla müjdele."
+  },
+  {
+   "bag": "31:6 → 45:9",
+   "kural": "xref (ölçüm); lemma dizisi 'ittehaze + huzuw + … + azâb + muhîn' 2 ayet; okundu — 31:6-7 / 45:8-9 ters sıra",
+   "not": "alay konusu."
+  },
+  {
+   "bag": "14:16 → 45:10",
+   "kural": "lemma dizisi 'min + verâ' + cehennem' 2 ayet; okundu",
+   "not": "arkalarında cehennem."
+  },
+  {
+   "bag": "29:41 → 45:10",
+   "kural": "lemma dizisi 'ittehaze + min + dûn + Allah + veliyy' 2 ayet; okundu",
+   "not": "edinilen dostlar."
+  },
+  {
+   "bag": "44:41 → 45:10",
+   "kural": "okuma — 'lâ yuğnî … an … şey'en'; okundu",
+   "not": "fayda vermez."
+  },
+  {
+   "bag": "18:105 · 34:5 → 45:11",
+   "kural": "xref (ölçüm); lemma dizileri 'keferû bi-âyâti rabbihim' 2 ayet, 'azâb + ricz + elîm' 2 ayet; okundu",
+   "not": "riczden acı azap."
+  },
+  {
+   "bag": "30:46 · 16:14 · 22:65 → 45:12",
+   "kural": "xref 30:46 (ölçüm); lemma dizisi 'emr + ebteğâ + min + fadl + le'alle + şekera' 2 ayet; okundu",
+   "not": "denizi boyun eğdirme."
+  },
+  {
+   "bag": "31:20 · 22:65 → 45:13",
+   "kural": "xref 31:20 (ölçüm); lemma dizisi 'sahhara + mâ + fî + semâ + mâ + fî' 2 ayet; okundu",
+   "not": "göklerde ve yerde olanlar."
+  },
+  {
+   "bag": "45:3 · 45:4 · 45:5 → 45:13",
+   "kural": "okuma — 'âyât + kavim niteliği' dördüncü kez: 'yetefekkerûn'",
+   "not": "düşünen kavim."
+  },
+  {
+   "bag": "14:5 → 45:14",
+   "kural": "okuma — 'eyyâmu'llâh'; okundu",
+   "not": "Allah'ın günleri."
+  },
+  {
+   "bag": "41:46 · 32:11 → 45:15",
+   "kural": "xref 41:46 (ölçüm); lemma dizileri 2 ayet; okundu — aynı iki cümle, kapanış farklı",
+   "not": "kendi lehine / aleyhine."
+  },
+  {
+   "bag": "17:70 · 10:93 → 45:16",
+   "kural": "xref 17:70 (ölçüm); okuma — 'razaqnâhum mine't-tayyibât'; okundu",
+   "not": "temiz rızık."
+  },
+  {
+   "bag": "44:32 → 45:16",
+   "kural": "okuma — Benî İsrâîl 'ale'l-âlemîn'; okundu; aday 1040 alanında kayıt, test yok",
+   "not": "âlemlere üstün."
+  },
+  {
+   "bag": "10:93 · 42:14 → 45:17",
+   "kural": "xref (ölçüm); lemma dizisi 'inne rabbe … yahtelifûn' 2 ayet, 'illâ min ba'di mâ câe' 4 ayet; okundu",
+   "not": "ilimden sonra ayrılık."
+  },
+  {
+   "bag": "42:15 → 45:18",
+   "kural": "okuma — 'lâ tettebi' ehvâe'; okundu",
+   "not": "heveslere uyma."
+  },
+  {
+   "bag": "9:71 · 45:10 → 45:19",
+   "kural": "lemma dizisi 'ba'd + veliyy + ba'd' 5 ayet; okundu — mü'minler / zâlimler; 'veliyy' Allah — aday 1041 alanında kayıt, test yok",
+   "not": "dostlar."
+  },
+  {
+   "bag": "28:43 · 45:11 → 45:20",
+   "kural": "xref 28:43 (ölçüm); lemma dizisi 'besîra + nâs' 2 ayet; okundu",
+   "not": "basiretler, hidayet, rahmet."
+  },
+  {
+   "bag": "38:28 · 29:4 → 45:21",
+   "kural": "xref 38:28 (ölçüm); lemma dizisi 'em + hasibe + ellezî' 3 ayet; okundu",
+   "not": "iyiler ve kötüler bir mi."
+  },
+  {
+   "bag": "40:17 · 20:15 · 44:39 → 45:22",
+   "kural": "xref 20:15, 40:17 (ölçüm); okundu — 'tuczâ kullu nefsin bimâ kesebet'; 'bi'l-haqq'",
+   "not": "her nefis karşılık görür."
+  },
+  {
+   "bag": "25:43 · 2:7 → 45:23",
+   "kural": "xref 25:43 (ölçüm); lemma dizisi 'ra'â + men + ittehaze + ilâh + hevâ'' 2 ayet; 'alâ + basar' 2 ayet (2:7); okundu",
+   "not": "hevesini ilâh edinen; mühür ve perde."
+  },
+  {
+   "bag": "23:37 · 43:20 → 45:24",
+   "kural": "xref 23:37 (ölçüm); lemma dizileri 2'şer ayet; okundu",
+   "not": "ancak dünya hayatı; bilgileri yok."
+  },
+  {
+   "bag": "44:35 · 44:36 → 45:24 · 45:25",
+   "kural": "xref 44:36 (ölçüm); lemma dizisi 'âbâ' + in + kâne + sâdıq' 2 ayet; okundu — aynı iki adım; aday 1040 alanında kayıt, test yok",
+   "not": "atalarımızı getirin."
+  },
+  {
+   "bag": "44:8 · 45:24 · 40:59 → 45:26",
+   "kural": "okuma — dirim/ölüm sırası; xref 40:59 (ölçüm); okundu",
+   "not": "diriltir, öldürür, toplar."
+  },
+  {
+   "bag": "30:14 · 40:78 → 45:27",
+   "kural": "xref 30:12, 30:14, 30:55, 40:46 (ölçüm); 'mubtıl' lemma 5 ayet; okundu",
+   "not": "saatin kopacağı gün."
+  },
+  {
+   "bag": "17:71 → 45:28",
+   "kural": "okuma — her topluluğun çağrılması, kitap; okundu",
+   "not": "kitabına çağrılır."
+  },
+  {
+   "bag": "23:62 · 45:22 → 45:29",
+   "kural": "xref 23:62 (ölçüm); okundu — 'kitâbun yentıqu bi'l-haqq' / 've hum lâ yuzlemûn'",
+   "not": "hakkı söyleyen kitap."
+  },
+  {
+   "bag": "29:9 · 44:57 → 45:30",
+   "kural": "xref 29:9 (ölçüm); okuma — 'zâlike huve'l-fevzu'l-azîm' / '… el-mubîn'; aday 1040 alanında kayıt",
+   "not": "apaçık kurtuluş."
+  },
+  {
+   "bag": "30:16 · 45:30 → 45:31",
+   "kural": "lemma dizisi 'emmâ + ellezî + kefere' 4 ayet; okundu — taksimin iki kolu",
+   "not": "inkâr edenlere gelince."
+  },
+  {
+   "bag": "23:105 · 23:66 · 10:75 → 45:31",
+   "kural": "xref 23:66, 23:105 (ölçüm); lemma dizisi 'kâne + qavm + mucrim' 3 ayet; okundu",
+   "not": "âyetlerim okunmuyor muydu."
+  },
+  {
+   "bag": "18:21 · 45:24 → 45:32",
+   "kural": "xref 18:21 (ölçüm); okundu — 'va'da'llâhi haqq, sâ'a lâ rayb'; zan",
+   "not": "saat; zan."
+  },
+  {
+   "bag": "39:48 · 16:34 → 45:33",
+   "kural": "esit2 BENZER (ölçüm); okundu — fiil 39:48'le, nesne 16:34'le aynı",
+   "not": "kötülükleri göründü."
+  },
+  {
+   "bag": "32:14 · 29:25 → 45:34",
+   "kural": "xref (ölçüm); okundu — karşılıklı unutma (sıra ters); 'me'vâkumu'n-nâr'",
+   "not": "bugün sizi unutuyoruz."
+  },
+  {
+   "bag": "45:9 · 31:33 · 35:5 · 30:57 → 45:35",
+   "kural": "lemma dizileri 'ğarra + hayât + dunyâ' 6 ayet, 'yusta'tebûn' 4 ayet; okundu",
+   "not": "dünya hayatı aldattı."
+  },
+  {
+   "bag": "1:2 · 39:75 · 40:7 → 45:36",
+   "kural": "lemma dizisi 'hamd + rabb' 11 ayet; okundu",
+   "not": "hamd âlemlerin Rabbine."
+  },
+  {
+   "bag": "10:78 → 45:37",
+   "kural": "lemma 'kibriyâ'' 2 ayet; okundu — insanlara isnat / O'nun; aday 1041 alanında kayıt, test yok",
+   "not": "büyüklük."
+  },
+  {
+   "bag": "45:2 → 45:37",
+   "kural": "okuma — 'el-azîz el-hakîm' sûrenin ikinci ve son ayeti",
+   "not": "Azîz, Hakîm."
+  }
+ ],
+ "AS_ahkaf": [
+  {
+   "bag": "40:1 · 41:1 · 42:1 · 43:1 · 44:1 · 45:1 → 46:1",
+   "kural": "esit2 TAM — 'Hâ Mîm' (ölçüm); hepsi okundu",
+   "not": "Hâ Mîm ailesi."
+  },
+  {
+   "bag": "45:37 → 46:1 · 46:2",
+   "kural": "okuma — ardışık sûre sınırı; 'el-azîz el-hakîm'; aday 1040 alanında kayıt, test yok",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "39:1 · 40:2 · 45:2 → 46:2",
+   "kural": "esit2 TAM 39:1, 45:2, BENZER 40:2 (ölçüm); okundu",
+   "not": "kitabın indirilişi."
+  },
+  {
+   "bag": "15:85 · 30:8 · 44:39 → 46:3",
+   "kural": "xref (ölçüm); lemma dizisi 'halaqa + semâ + ard + mâ + beyn + illâ + haqq' 2 ayet; okundu — 've ecelin musemmâ' 30:8",
+   "not": "hak ile ve belirli süreyle."
+  },
+  {
+   "bag": "35:40 · 39:38 → 46:4",
+   "kural": "xref 35:40 (ölçüm); lemma dizisi 'erûnî mâzâ halaqû mine'l-ard em lehum şirk' 2 ayet; okundu",
+   "not": "yerden neyi yarattılar."
+  },
+  {
+   "bag": "35:14 · 41:52 → 46:5",
+   "kural": "xref 35:14 (ölçüm); okuma — 'men edallu mimmen'; okundu",
+   "not": "cevap vermeyene yalvaran."
+  },
+  {
+   "bag": "35:14 → 46:6",
+   "kural": "okuma — yalvarılanların inkârı; okundu",
+   "not": "düşman olurlar."
+  },
+  {
+   "bag": "34:43 · 45:25 → 46:7",
+   "kural": "xref 34:43 (ölçüm); lemma dizisi 'ellezî + kefere + haqq + lemmâ + câe' 2 ayet; okundu",
+   "not": "apaçık büyü."
+  },
+  {
+   "bag": "11:35 · 13:43 · 29:52 → 46:8",
+   "kural": "lemma dizisi 'qâle + in + iftarâ' 2 ayet (11:35); 'kefâ bi- … şehîden beynî ve beynekum' 13:43, 29:52; okundu",
+   "not": "uydurdumsa; şahit olarak O yeter."
+  },
+  {
+   "bag": "10:15 · 38:70 → 46:9",
+   "kural": "lemma dizisi 'in ettebi'u illâ mâ yûhâ ileyy' 3 ayet; xref 38:70 (ölçüm); okundu",
+   "not": "vahyedilene uyarım."
+  },
+  {
+   "bag": "41:52 → 46:10",
+   "kural": "xref (ölçüm); lemma dizisi 'ra'â + in + kâne + min + ind + Allah' 2 ayet; okundu — 41:52'nin iki parçası 46:5 ve 46:10'da",
+   "not": "Allah katındansa."
+  },
+  {
+   "bag": "46:7 → 46:11",
+   "kural": "nakarat3 'qâle'llezîne keferû' (ölçüm, GEÇMEZ); lemma dizisi 'qâle + ellezî + kefere + ellezî + âmene' 4 ayet (19:73, 29:12, 36:47 okundu)",
+   "not": "inkâr edenlerin sözü."
+  },
+  {
+   "bag": "11:17 → 46:12",
+   "kural": "xref (ölçüm); lemma dizisi 'min qabl + kitâb + mûsâ + imâm + rahme' 2 ayet; okundu — 11:17'de önce 'şâhidun minh', 46:10 şahit → 46:12 kitap",
+   "not": "Mûsâ'nın kitabı önder ve rahmet."
+  },
+  {
+   "bag": "16:103 · 26:195 → 46:12",
+   "kural": "lemma dizisi 'lisân + arabiyy' 3 ayet (ölçüm sayımı); okundu",
+   "not": "Arapça dil."
+  },
+  {
+   "bag": "41:30 → 46:13",
+   "kural": "xref (ölçüm); lemma dizisi 'inne + ellezî + qâle + rabb + Allah + summe + isteqâme' 2 ayet; okundu — devamı farklı (melekler / haber)",
+   "not": "Rabbimiz Allah deyip dosdoğru olanlar."
+  },
+  {
+   "bag": "10:62 → 46:13",
+   "kural": "lemma dizisi 'lâ havfun aleyhim ve lâ hum yahzenûn' 12 ayet; okunan 10:62",
+   "not": "korku yok, üzülmezler."
+  },
+  {
+   "bag": "32:17 → 46:14",
+   "kural": "xref (ölçüm); lemma dizisi 'cezâ' + bimâ kânû ya'melûn' 3 ayet (56:24 henüz okunmadı)",
+   "not": "yaptıklarına karşılık."
+  },
+  {
+   "bag": "29:8 · 31:14 → 46:15",
+   "kural": "xref (ölçüm); lemma dizisi 'vassâ + insân + vâlideyh' 3 ayet; okundu — devamı üçünde farklı; 31:14 'iki yıl' / 46:15 'otuz ay'",
+   "not": "insana anne babasını tavsiye."
+  },
+  {
+   "bag": "27:19 → 46:15",
+   "kural": "xref (ölçüm); 15 lemmalık dua dizisi 2 ayet; 'evzi'' lemma 2 ayet; okundu",
+   "not": "Rabbim bana ilham et."
+  },
+  {
+   "bag": "41:33 → 46:15",
+   "kural": "lemma dizisi 'inne + min + muslim' 2 ayet; okundu",
+   "not": "ben teslim olanlardanım."
+  },
+  {
+   "bag": "24:38 · 29:7 · 39:35 → 46:16",
+   "kural": "lemma dizisi 'ahsene mâ amilû' 2 ayet (24:38); 29:7, 39:35 'ahsene'llezî' + kötülüklerin örtülmesi (okumada görüldü)",
+   "not": "yaptıklarının en güzeli."
+  },
+  {
+   "bag": "17:23 · 21:67 → 46:17",
+   "kural": "'uff' lemma 3 ayet (ölçüm sayımı); okundu — 17:23'te anne babaya yasaklanan söz",
+   "not": "öf size."
+  },
+  {
+   "bag": "23:35 → 46:17",
+   "kural": "okuma — 'va'ade' + 'ahraca' soru kalıbı (okumada görüldü)",
+   "not": "çıkarılacağımı mı vaat ediyorsunuz."
+  },
+  {
+   "bag": "10:55 · 30:60 · 31:33 · 35:5 · 40:55 · 40:77 · 45:32 → 46:17",
+   "kural": "lemma dizisi 'inne va'da'llâhi haqq' 8 ayet; öbür 7'si okundu",
+   "not": "Allah'ın vaadi hak."
+  },
+  {
+   "bag": "16:24 · 23:83 · 25:5 · 27:68 → 46:17",
+   "kural": "lemma dizisi 'esâtîr + evvel' 9 ayet; okunan 4",
+   "not": "öncekilerin masalları."
+  },
+  {
+   "bag": "41:25 → 46:18",
+   "kural": "xref (ölçüm); 15 lemmalık dizi 2 ayet; okundu (7:38 henüz okunmadı)",
+   "not": "cin ve insan ümmetlerinde söz gerçekleşti."
+  },
+  {
+   "bag": "46:17 → 46:18",
+   "kural": "okuma — 'halâ' fiili ardışık iki ayette ('haleti'l-qurûn' → 'halet min qablihim'); tekil 'ellezî' → çoğul 'ulâ'ike'",
+   "not": "gelip geçen nesiller."
+  },
+  {
+   "bag": "46:20 → 46:34",
+   "kural": "nakarat3 'yevme yu'radu'llezîne keferû ale'n-nâr' (ölçüm, GEÇER; 6 kelime); 46:34 henüz okunmadı",
+   "not": "ateşe sunulma günü."
+  },
+  {
+   "bag": "41:15 · 40:75 · 41:17 → 46:20",
+   "kural": "xref (ölçüm); 'istekbere fi'l-ard bi-ğayri'l-haqq' 2 ayet (41:15); 40:75 çift 'bimâ kuntum'; 41:17 'azâbu'l-hûn' (6:93 henüz okunmadı)",
+   "not": "haksız yere büyüklenme, alçaltıcı azap."
+  },
+  {
+   "bag": "11:50 · 26:124 → 46:21",
+   "kural": "okuma — Âd'ın kardeşi orada adlı, 46:21'de adsız (okumada görüldü)",
+   "not": "Âd'ın kardeşi."
+  },
+  {
+   "bag": "41:14 → 46:21",
+   "kural": "xref (ölçüm); 'min beyni … ve min half' + 'allâ ta'budû illa'llâh' — 41:14 çoğul (rusul), 46:21 tekil; okundu",
+   "not": "önünden ve arkasından uyarıcılar."
+  },
+  {
+   "bag": "26:135 · 11:26 → 46:21",
+   "kural": "lemma dizisi 'innî ehâfu aleykum azâbe yevmin azîm' 3 ayet (26:135 okundu, 7:59 henüz okunmadı); xref 11:26 ('elîm')",
+   "not": "büyük günün azabı."
+  },
+  {
+   "bag": "11:32 → 46:22",
+   "kural": "xref (ölçüm); lemma dizisi 'fe'tinâ bimâ te'idunâ in kunte mine's-sâdiqîn' 3 ayet; okundu (7:70 henüz okunmadı)",
+   "not": "vaat ettiğini getir."
+  },
+  {
+   "bag": "33:63 → 46:23",
+   "kural": "lemma dizisi 'innema'l-ilmu inda'llâh' 4 ayet; okunan 33:63",
+   "not": "bilgi Allah katındadır."
+  },
+  {
+   "bag": "11:57 · 11:29 → 46:23",
+   "kural": "11:57 'eblağtukum mâ ursiltu bihî' (okumada görüldü); xref 11:29 'erâkum qavmen techelûn' (ölçüm, lemma dizisi 2 ayet)",
+   "not": "tebliğ ve bilgisizlik."
+  },
+  {
+   "bag": "41:16 · 13:17 → 46:24",
+   "kural": "okuma — Âd için rüzgâr (41:16); 'evdiye' lemma 2 ayet (13:17)",
+   "not": "bulut ve rüzgâr."
+  },
+  {
+   "bag": "10:13 → 46:25",
+   "kural": "xref (ölçüm); lemma dizisi 'kezâlike neczi'l-qavme'l-mucrimîn' 2 ayet; okundu",
+   "not": "suçlu kavmi böyle cezalandırırız."
+  },
+  {
+   "bag": "29:38 → 46:25",
+   "kural": "okuma — Âd ve Semûd'un meskenleri (okumada görüldü)",
+   "not": "meskenler."
+  },
+  {
+   "bag": "16:78 · 23:78 · 32:9 → 46:26",
+   "kural": "lemma dizisi 'sem' + basar + fu'âd' 6 ayet (67:23 henüz okunmadı); okundu — 'lekum' + şükür / 'lehum' + yarar sağlamadı",
+   "not": "kulak, göz, gönül."
+  },
+  {
+   "bag": "11:8 · 16:34 · 39:48 · 40:83 · 45:33 → 46:26",
+   "kural": "lemma dizisi 've hâqa bihim mâ kânû bihî yestehzi'ûn' 6 ayet; öbür 5'i okundu",
+   "not": "alay ettikleri kuşattı."
+  },
+  {
+   "bag": "29:41 → 46:28",
+   "kural": "lemma dizisi 'ellezîne'ttehazû min dûni'llâh' 2 ayet; okundu; nakarat3 'min dûni'llâh' GEÇER (sûre içi 46:4, 46:5)",
+   "not": "Allah'ı bırakıp edinilenler."
+  },
+  {
+   "bag": "46:18 → 46:29",
+   "kural": "okuma — 'mine'l-cinni ve'l-ins' → 'mine'l-cinn' (sûre içi); 72:1 'nefer + min + cinn' henüz okunmadı",
+   "not": "cinlerden bir topluluk."
+  },
+  {
+   "bag": "46:12 → 46:30",
+   "kural": "okuma — 'min qablihî kitâbu mûsâ … kitâbun musaddiq' / 'kitâben unzile min ba'di mûsâ musaddiqan' (sûre içi)",
+   "not": "Mûsâ'dan önce / sonra kitap."
+  },
+  {
+   "bag": "35:31 → 46:30",
+   "kural": "lemma dizisi 'musaddiqan limâ beyne yedeyh' 8 ayet; okunan 35:31",
+   "not": "öncesindekini doğrulayan."
+  },
+  {
+   "bag": "46:31 → 46:32",
+   "kural": "nakarat3 'ecâbe + dâ'î + Allah' (ölçüm, GEÇMEZ; sûre içi)",
+   "not": "Allah'ın davetçisi."
+  },
+  {
+   "bag": "33:46 · 20:108 → 46:31",
+   "kural": "'dâ'î' lemma 4 ayet; okundu",
+   "not": "davetçi."
+  },
+  {
+   "bag": "14:10 → 46:31",
+   "kural": "lemma dizisi 'yağfir lekum min zunûbikum' 3 ayet (71:4 henüz okunmadı); okundu",
+   "not": "günahlarınızdan bağışlasın."
+  },
+  {
+   "bag": "39:22 → 46:32",
+   "kural": "lemma dizisi 'ulâ'ike fî dalâlin mubîn' 2 ayet; okundu",
+   "not": "apaçık sapıklık."
+  },
+  {
+   "bag": "42:9 → 46:32",
+   "kural": "okuma — 'velî' lemması Allah için (42:9) / Allah'tan başkası için (46:32); aday 1041 alanında kayıt, test yok",
+   "not": "velî / evliyâ."
+  },
+  {
+   "bag": "17:99 → 46:33",
+   "kural": "lemma dizisi 'e-ve lem yerev enna'llâhe'llezî halaqa's-semâvâti ve'l-ard' 2 ayet; okundu",
+   "not": "gökleri ve yeri yaratan güç yetirir."
+  },
+  {
+   "bag": "42:9 · 41:39 → 46:33",
+   "kural": "xref (ölçüm) 42:9; ölüleri diriltme + 'alâ kulli şey'in qadîr' (okundu)",
+   "not": "ölüleri diriltir."
+  },
+  {
+   "bag": "46:3 → 46:33",
+   "kural": "nakarat3 'halaqa + semâ + ard' (ölçüm, GEÇMEZ); sûre içi — 1P 'halaqnâ' / 3MS lafız 'halaqa'",
+   "not": "gökler ve yer yaratması."
+  },
+  {
+   "bag": "46:20 → 46:34",
+   "kural": "nakarat3 'yevme yu'radu'llezîne keferû ale'n-nâr' (ölçüm, GEÇER); sûre içi, iki ayrı alıntı",
+   "not": "ateşe sunulma günü."
+  },
+  {
+   "bag": "34:3 → 46:34",
+   "kural": "lemma dizisi 'qâlû belâ ve rabbinâ' 4 ayet (6:30, 64:7 henüz okunmadı); okunan 34:3",
+   "not": "evet, Rabbimize andolsun."
+  },
+  {
+   "bag": "10:45 → 46:35",
+   "kural": "xref (ölçüm); lemma dizisi 'lem yelbesû illâ sâ'aten min nehâr' 2 ayet; okundu",
+   "not": "gündüzün bir saati."
+  },
+  {
+   "bag": "46:24 → 46:35",
+   "kural": "okuma — 'iste'celtum' → 'lâ testa'cil' (sûre içi; عجل iki ayet)",
+   "not": "acele."
+  }
  ]
 }
