@@ -6235,3 +6235,123 @@ Her blokta bilanço okuyucu kararı eklendikten SONRA koşuldu (sûre 45 dersi u
 * 41:30 → 46:13 (devamı farklı); 29:8 + 31:14 + 27:19 + 41:33 → 46:15; 17:23 → 46:17 ('uff' yasaklanan söz söyleniyor); 41:25 → 46:18 (15 lemma).
 * Âd anlatısı: 41:14 + 26:135 → 46:21; 11:32 → 46:22; 11:29, 11:57, 33:63 → 46:23 (11:29, 11:32 Nûh anlatısında); 41:16 → 46:24; 10:13, 29:38 → 46:25; 16:78, 23:78, 32:9 → 46:26 (üç organ; şükür yerine 'yarar sağlamadı').
 * 17:99, 42:9 → 46:33; 34:3 → 46:34; 10:45 → 46:35. أمم kökü üç ayrı kelimeyle (46:12 'imâm', 46:15 'umm', 46:18 'umem').
+
+## SÛRE 47 TUR SONU (2026-10-15)
+
+**Okunan: 3375 / 6236 ayet (%54,1)** — sûre 1 ve 9-47 TAM, sûre 2 kısmi (1-20). İlerleme `muhammed_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1364** (`kok_ekle_47.py`: ثخن تعس أسن عسل معي أنف شرط قفل ضغن لحن). Aday havuzu **1041** (sûre 47'de yeni aday yok; `AX_muhammed` boş). Bağ **AS_muhammed** 91. Esmâ okuyucu kararı (KARAR) **385**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik: 1-10, 21-30, 31-38 ilk koşuda 0; 11-20 ilk koşuda 1 (47:15 ◈B tetiksiz dolu — düzeltildi), ikinci koşuda 0 · [x/y] **267 sayım (52 + 82 + 68 + 65), 0 uyuşmaz** (1-10 ilk koşuda 1: 47:9 عمل) · e_el=? her blokta 0 · `AX_*` setleri repo dosyasından doğrulandı (`AX_zumer` [1039], `AX_gafir` [1040], `AX_shura` [1041], öbürleri boş) · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 38 ayeti 4 blokta okundu (son blok 31-38, 8 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure47_muhammed_okuma.md` (`muhammed_paket_md.py`, 38 başlık). Ara zip: 47:1-30 (taban cf56af3); tur sonu fark zip'i cf56af3 tabanı (5e26cf0 sonrası sûre 46 paketi depoya girmişti).
+
+### Sûre 47 bilançosu (TAM SAYIM, `okuma_metni['47']['_bilanco_sure']`)
+539 kelime · lafız **27 token / 21 ayet** · Rab 4 token / 4 ayet (2, 3, 14, 15) · A/R 6,75 · edilgen 7 ayet · iltifât alanı 3 ayet (22, 23, 32) · hapaks ayet 5 (8, 15 ×3 kök, 18, 24, 30).
+Yıldız 0:21 · ★6 · ★★6 · ★★★5 (hepsi hapaks). Kaynak (1001 düzeltmeli): allah 7, hapaks 5, n 2, pas 2, kafiye 1 (47:10).
+Fâsıla N 36 · 47:10 ا ve 47:24 ٓ **kafiye kırılması**. En uzun 47:15 (44), en kısa 47:5.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L0 ×2 (10, 22), L1 ×1 (23 — 46:26'da verilen organlar burada alınan). 47:15, 47:36 olgu yok. Tarayıcı v4 adayları 2 (22, 36), kesinlik **0/2**, anma 0/0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+4 e_oto tokeni → ilâhî 2 (47:11 'mevlâ' ilk, 47:38 'ğaniyy') · değil 2 (47:11 'lâ mevlâ lehum', 47:19 'mu'min'). §4.3 mühür 1 → geçerli 1 (47:11; ölçüm satırı MÜHÜRSÜZ — 1022). Geçerli mühür tonu: belirsiz 1.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+نصر 47:7 'in tensurû'llâha yensurkum' (aynı ayette iki yön); 'intesara' 47:4 Allah / 26:93, 26:227, 42:39, 42:41 insan · ولي 47:11 'mevlâ' / 'lâ mevlâ lehum' · علم 47:19 'fa'lem' / 've'llâhu ya'lemu' · 'ahraca' 47:13 kasaba / 47:29 Allah · 'ebtale' 10:81 Allah / 47:33 inananlar. Sınırda: 47:1-2 'keferû' / 'keffera'; 'haqq' 22:62, 31:30 / 47:2; عرف 47:6 / 47:30 (farklı lemma); 'emlâ' 47:25 (özne belirsiz).
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+46:34-35 → 47:1 ('ellezîne keferû'); 46:25 'tudammiru' → 47:10 'dammera' (aynı lemma). 47 hurûf-ı mukattaa olmadan açılıyor (Hâ Mîm dizisi 46'da bitti). 47:38 → 48:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+38 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: دبر 'arka' — 47:24 'tedebbür'ü kapsamıyor; 'menn' lemması 20:80 (yiyecek) / 47:4 (karşılıksız bırakma).
+* 1001: 47:10 ★ kafiye kırığından, bilanço 'allah' etiketliyor.
+* 517 biçim: tekit 'inne', 'lev' cevap lâmı, 'lâkin', 'immâ … ve immâ', teşbih ('kemâ', 'ke-men'), 'em' munkatı'a, 'innemâ', 'lev lâ' tahzîzi, cevabı düşmüş 'keyfe', masdarla beddua (47:8), tenbîh 'hâ', yüklemsiz isim cümlesi (47:21) ölçümde işaretsiz.
+* 1017 konuşan / gönderge: adsız 3MS özne ('adalle', 'ahbata', 'zâde', 'yu'tî', 'yuhric', 'emlâ'); 2MS / 2MP muhatap; ayetler arası 3MP ↔ 2MP ↔ 1P geçişleri (47:3→4, 47:12→13) ölçümde iltifât 0.
+* ◈B tetik dışı organ (ön-kayıt §4 sınırı): 47:15 'em'â'' (معي), 'şârib' (شرب) — satır '—', gözlem ◇'de. Yeni tetik sınıfı değil, kayıt.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_muhammed'de)
+* 'ellezîne keferû ve saddû an sebîli'llâh' sûre içi 47:1, 32, 34; عمل 12/12: 47:1 'adalle a'mâlehum' → 47:35 'len yetirakum a'mâlekum'; 'zâlike bi-enne' 47:3, 9, 11, 26, 28.
+* 11:17 + 35:8 açılışları 47:14'te yan yana; 47:14 / 47:15 aynı 'ke-men' iskeleti; 47:15 'mâ'' iki tarafta.
+* 47:25 'edbârihim' → 47:27 'edbârahum'; ضرب üç özne (3, 4, 27); kalp sırası 16 mühür, 20 / 29 hastalık, 24 kilit; 22:46 → 47:23.
+* 9:39'un iki parçası 47:32 ve 47:38'de; 35:15 → 47:38 sıra ters; 47:22 / 47:38 'in tevelleytum / tetevellev' iki sonuç.
+* 12:109, 30:9, 35:44, 40:21, 40:82 → 47:10 (aynı açılış, devamı farklı); 22:14, 22:23 → 47:12; 13:35 → 47:15; 16:108 → 47:16; 43:66 → 47:18; 24:54, 33:66 → 47:33; 29:64 → 47:36.
+
+## SÛRE 48 TUR SONU (2026-10-15)
+
+**Okunan: 3404 / 6236 ayet (%54,6)** — sûre 1 ve 9-48 TAM, sûre 2 kısmi (1-20). İlerleme `fetih_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1366** (`kok_ekle_48.py`: ظفر حلق). Aday havuzu **1041** (sûre 48'de yeni aday yok; `AX_fetih` boş). Bağ **AS_fetih** 78. Esmâ okuyucu kararı (KARAR) **412**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta ilk koşuda 0 (ön kuru koşu ile) · [x/y] **313 sayım (77 + 122 + 114), 0 uyuşmaz** (21-29 ilk koşuda 1: 48:28 شهد [1/2] → [2/2]) · e_el=? her blokta 0 · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 29 ayeti 3 blokta okundu (son blok 21-29, 9 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure48_fetih_okuma.md` (`fetih_paket_md.py`, 29 başlık). Fark zip'i cf56af3 tabanı (sûre 47 ve 48 birlikte; sûre 47 zip'i depoya henüz girmemişti).
+
+### Sûre 48 bilançosu (TAM SAYIM, `okuma_metni['48']['_bilanco_sure']`)
+560 kelime · lafız **39 token / 25 ayet** · Rab 0 · edilgen 2 ayet (12, 16) · iltifât alanı 1 ayet (8) · hapaks 0.
+Yıldız 0:11 · ★9 · ★★6 · ★★★3 (48:3, 48:7 kaynak allah — kısa ayet; 48:29 kaynak n — uzun ayet). Kaynak: allah 10, n 8.
+Fâsıla 29/29 ا — kafiye kırığı yok. En uzun 48:29 (54), en kısa 48:3. mm2 4 ayet (12, 16, 17, 28).
+
+### Çıpa (ölçüt değişmedi)
+L4 kesin yok. L0 ×4 (4, 7, 14 gökler ve yer tamlamada; 18 ağaç biatin yeri). 48:5, 48:17 cennet ırmakları olgu değil. **48:29 ekin büyümesi**: dört aşama 'fe' dizisi, ara parçalar adlı (şat', sûq) — 39:21 emsaline göre L4 mekanizma kolu adayı, ama teşbih içinde (İncil'deki mesel) → **L4 adayı, TARTIŞMALI; cipa kararı kullanıcıya açık** (kayıtta cipa=False). Tarayıcı v4 adayları 3 (4, 5, 29), kesinlik **0/3** (48:29 kısmi).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+27 e_oto tokeni → ilâhî 13. §4.3 mühür 15 → geçerli 9 (4, 7, 11, 14, 19, 21, 24, 26, 28) · yanlış 6 (1 'mubîn', 3 'azîz', 18 ve 27 'qarîb' — fethin / yardımın sıfatı; 20 'mu'min'; 22 'veliyy' + 'nasîr' olumsuzlanan başkası). Geçerli mühür tonu: denge 5, celâl 3, cemâl 1. Ölçüm satırı MÜHÜRSÜZ / esma_kayit EVET ayrışması birçok ayette (1022).
+
+### Aday 1041 — kayıt (test korpus sonunda)
+يدي 48:10 'yedu'llâhi fevqa eydîhim' (aynı ayette Allah ve insan) → 48:20, 48:24 insan elleri · 'azîz' 48:3 yardımın sıfatı / 48:7, 48:19 Allah · ملك 48:11 'yemliku' / 48:14 'mulk' · غفر 48:11 'istağfir' / 48:14 'yağfiru' · قدر 48:21 'lem taqdirû' / 'qadîr' (aynı ayet, kök) · شهد 48:8 'şâhid' elçi / 48:28 'şehîd' Allah (kök) · رحم 48:14 'rahîm' Allah / 48:29 'ruhamâ'' insanlar.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+47:38 → 48:1 (2MP → 2MS, fâsıla م → ا) · 47:19 → 48:2 (istiğfar / bağışlama, 'zenb') · 47:7 → 48:3 ('yensurkum' / 'yensurake') · 47:19 → 48:5 ('mu'minîne ve'l-mu'minât') · 47:38 → 48:16 ('in tetevellev') · 9:39'un iki parçası 47:38 / 48:16 · 47:2 / 48:29 'Muhammed' · 47:30 / 48:29 'sîmâ' · 47:28 'ridvân' → 48:18, 48:29. 48:29 → 49:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+29 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1022 esmâ: ölçüm MÜHÜRSÜZ / esma_kayit EVET — 48:11, 21, 24, 26, 28 (geçerli) ve 48:18, 20, 22, 27 (yanlış); 48:1, 3 sıfat.
+* 517 biçim: tekit 'innâ' / 'fe-innâ', takdim 'li'llâhi …', zemm 'sâ'et', hasr 'innemâ', soru 'fe-men', teşbih ('kemâ', 'ke-'), üçlü tekrar (48:17) ölçümde işaretsiz.
+* 1017 konuşan / gönderge: muhatap 2MS adsız (48:1-3, 8, 10, 11, 15, 23, 29); 48:12 süsleyen adsız; 48:16 topluluk adsız; 48:9 zamir göndergesi; 48:25 1P 'le-azzebnâ' ölçümde iltifât 0, cevabı düşmüş 'lev lâ'.
+* 924 araç: 48:25 ölçüm IMPV 1 — metinde emir yok; ◈B tetik listesi dışı beden / bitki sözcükleri (48:17 a'mâ, a'rec, merîd; 48:27 ru'ûs; 48:29 vucûh, zer', sûq) — satır '—', gözlem ◇'de.
+* Yıldız formülü: kısa ayette lafız oranı (48:3, 48:7 ★★★) ve uzun ayette n (48:29 ★★★) — bilinen davranış.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_fetih'te)
+* Sekîne sûre içi üç ayet (4 'fî qulûb', 18 'aleyhim', 26 'alâ rasûlihî ve ale'l-mu'minîn'); 48:26 inkâr edenlerin kalbine 'hamiyye'.
+* 'feth' 48:1 'mubîn', 48:18 ve 48:27 'qarîb'; biat 48:10 / 48:18; 48:11 'mâ leyse fî qulûbihim' / 48:18 'alime mâ fî qulûbihim'.
+* Geri bırakılan bedevîler bölümü 48:11-17; ganimet dizisi 15, 19, 20, 21; eller 10, 20, 24 (tek yön → ayna).
+* 9:111 → 48:10 ('evfâ', ''ahd', 'bâya'a'); 24:61 → 48:17 (aynı üçlü, farklı bağlam); 33:62, 35:43 → 48:23; 12:99 → 48:27; 9:33 → 48:28 (aynı cümle, farklı kapanış); 39:21 → 48:29 (ekin: büyüme → çöküş / yalnız büyüme).
+
+## SÛRE 49 TUR SONU (2026-10-16)
+
+**Okunan: 3422 / 6236 ayet (%54,9)** — sûre 1 ve 9-49 TAM, sûre 2 kısmi (1-20). İlerleme `hucurat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1372** (`kok_ekle_49.py`: محن نبز لقب جسس شعب ليت). Aday havuzu **1041** (sûre 49'da yeni aday yok; `AX_hucurat` boş). Bağ **AS_hucurat** 55. Esmâ okuyucu kararı (KARAR) **430**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik iki blokta ilk koşuda 0 (ön kuru koşu ile) · [x/y] **196 sayım (97 + 99), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 18 ayeti 2 blokta okundu (son blok 11-18, 8 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure49_hucurat_okuma.md` (`hucurat_paket_md.py`, 18 başlık). Fark zip'i cf56af3 tabanı (sûre 47, 48, 49 birlikte; uzak depo hâlâ cf56af3).
+
+### Sûre 49 bilançosu (TAM SAYIM, `okuma_metni['49']['_bilanco_sure']`)
+347 kelime · lafız **27 token / 14 ayet** · Rab 0 · edilgen 1 ayet (10) · iltifât 0 · hapaks ayet 3 (11 ×2 kök, 12, 14).
+Yıldız 0:5 · ★6 · ★★★7 (hapaks 3: 11, 12, 14 · allah 4: 1, 8, 16, 18). Kaynak (1001 düzeltmeli): allah 6, hapaks 3, n 2, pas 1, kafiye 1 (49:13).
+Fâsıla N 17 · 49:13 ر **kafiye kırılması**. En uzun 49:11 (39), en kısa 49:8 (7).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. 49:13 L1 (iki kaynaktan yaratma + halk / kabile + 'li-te'ârafû'; L2'ye sınırda, toplumsal sınıflama), 49:16 ve 49:18 L0. 49:12 temsil, olgu değil. Tarayıcı v4 adayları 2 (12, 13), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+18 e_oto tokeni → ilâhî 14 · değil 4. §4.3 mühür 8 → geçerli 8 (1, 5, 8, 12, 13, 14, 16, 18); yanlış 0. Geçerli mühür tonu: denge 5, cemâl 3. 49:16, 49:18 ölçüm MÜHÜRSÜZ / esma_kayit EVET (1022).
+
+### Aday 1041 — kayıt (test korpus sonunda)
+يدي 49:1 'yedeyi'llâh' (48:10'a ek) · سخر 9:79 'sehira'llâhu minhum' / 49:11 · منن 49:17 'lâ temunnû' / 'bel Allâhu yemunnu' (aynı ayet) · علم 49:16 'tu'allimûna'llâh' / 12:37 'allemenî rabbî'.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+48:29 → 49:1 (ا → م; 'rasûlu'llâh' / 'yedeyi'llâhi ve rasûlih') · 48:29 → 49:3 (mağfira + ecr azîm) · 48:12 → 49:7 ('zeyyene … fî qulûbikum') · 47 'ahbata' → 49:2 'habita' · 48:6/12 → 49:12 'zann' · 48:11 → 49:14 (a'râb) · 48:24 → 49:18 ('bimâ ta'melûne basîr'). 49:18 → 50:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+18 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: قبل 'ön, önce; kabul' — 49:13 'qabâ'il' (kabile) kapsanmıyor. سخر 'boyun eğdirme' — 49:11 'sehira' (alay etme) kapsanmıyor.
+* 1001: 49:13 ★ kafiye kırığından, bilanço 'allah' etiketliyor.
+* 924: 49:1 harf 90 → harf3 61 (besmele harf sayımına katılıyor olabilir; n=15 katmıyor).
+* 517 biçim: tekit 'inne' / 'innâ', teşbih 'ke-cehri', 'lâkinne' / 'lâkin', takdim 'fîkum', hasr 'innemâ' (49:10, 15), zemm 'bi'se', 'lemmâ' ölçümde işaretsiz.
+* 1017: nidâ ayetlerinde konuşan adlanmıyor; 2MS muhatap adsız ('qul'); 49:13 1P → 3MS ayet içi, ölçüm iltifât 0; 49:17 1S 'aleyye' alıntıda.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_hucurat'ta)
+* Nidâ 'yâ eyyuhe'llezîne âmenû' (1, 2, 6, 11, 12) → 'yâ eyyuhe'n-nâs' (13).
+* Ses 49:2 yükseltme / 49:3 kısma (31:19); 'fî qulûbikum' 49:7 süslendi / 49:14 henüz girmedi; 'îmân / fusûq' 49:7, 49:11.
+* 'ulâ'ike hum' + sıfat 49:7, 11, 15; 'innema'l-mu'minûn' 49:10, 15 (24:62); 38:22 'beğâ … alâ' → 49:9; 35:12 'ekele lahm' → 49:12 (temsil); 26:22, 14:11 'menne + alâ' → 49:17.

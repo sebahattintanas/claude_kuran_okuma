@@ -422,4 +422,60 @@ KARAR = {
 '46:32:14': 'degil',  # min dûnihî evliyâ' — Allah'tan başka dostlar (yokluğu söyleniyor)
 '46:32:18': 'degil',  # fî dalâlin mubîn — sapıklığın sıfatı
 '46:33:22': 'ilahi',  # innehû alâ kulli şey'in qadîr — zamir 'hû' (aynı ayette lafız)
+    # sûre 47 (Muhammed) blok 11-20 (2026-10-14)
+'47:11:4': 'ilahi',  # enna'llâhe mevle'llezîne âmenû — lafzın haberi, aday 1041 alanı (47:11:10 ile)
+'47:11:10': 'degil',  # ve enne'l-kâfirîne lâ mevlâ lehum — inkâr edenlere mevlâ yok (yokluğu söyleniyor; 46:32 emsali)
+'47:19:9': 'degil',  # ve li'l-mu'minîne ve'l-mu'minât — inananlar (insan; 45:3 emsali)
+    # sûre 47 (Muhammed) blok 31-38 (2026-10-15)
+'47:38:18': 'ilahi',  # ve'llâhu'l-ğaniyyu ve entumu'l-fuqarâ' — lafzın haberi; karşıtı 'fuqarâ'' (insan)
+    # sûre 48 (Fetih) blok 1-10 (2026-10-15)
+'48:1:5': 'degil',  # fethen mubînâ — fethin sıfatı (1P konuşan)
+'48:3:4': 'degil',  # nasran azîzâ — yardımın sıfatı (masdarın sıfatı; aday 1041 alanı)
+'48:4:7': 'degil',  # fî qulûbi'l-mu'minîn — inananlar (insan)
+'48:4:18': 'ilahi',  # ve kâna'llâhu alîmen hakîmâ — lafzın haberi
+'48:4:19': 'ilahi',  # aynı terkip
+'48:5:2': 'degil',  # el-mu'minîne ve'l-mu'minât — inananlar (insan)
+'48:7:7': 'ilahi',  # ve kâna'llâhu azîzen hakîmâ — lafzın haberi
+'48:7:8': 'ilahi',  # aynı terkip
+    # sûre 48 (Fetih) blok 11-20 (2026-10-15)
+'48:11:37': 'ilahi',  # bel kâna'llâhu bimâ ta'melûne habîrâ — lafzın haberi
+'48:12:7': 'degil',  # er-rasûlu ve'l-mu'minûn — inananlar (insan)
+'48:14:13': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — lafzın haberi
+'48:14:14': 'ilahi',  # aynı terkip
+'48:18:5': 'degil',  # ani'l-mu'minîn — inananlar (insan)
+'48:18:19': 'degil',  # fethan qarîbâ — fethin sıfatı
+'48:19:6': 'ilahi',  # ve kâna'llâhu azîzen hakîmâ — lafzın haberi (48:7 ile aynı)
+'48:19:7': 'ilahi',  # aynı terkip
+'48:20:15': 'degil',  # âyeten li'l-mu'minîn — inananlar (insan)
+    # sûre 48 (Fetih) blok 21-29 (2026-10-15)
+'48:21:14': 'ilahi',  # ve kâna'llâhu alâ kulli şey'in qadîrâ — lafzın haberi
+'48:22:10': 'degil',  # lâ yecidûne veliyyen — olumsuzlanan başkası (33:65 formülü)
+'48:22:12': 'degil',  # ve lâ nasîrâ — aynı
+'48:24:19': 'ilahi',  # ve kâna'llâhu bimâ ta'melûne basîrâ — lafzın haberi
+'48:25:15': 'degil',  # ricâlun mu'minûn — inananlar (insan)
+'48:26:16': 'degil',  # ve ale'l-mu'minîn — inananlar (insan)
+'48:26:28': 'ilahi',  # ve kâna'llâhu bi-kulli şey'in alîmâ — lafzın haberi
+'48:27:28': 'degil',  # fethan qarîbâ — fethin sıfatı (48:18 emsali)
+'48:28:14': 'ilahi',  # ve kefâ bi'llâhi şehîdâ — lafız için temyiz
+'48:29:9': 'degil',  # ruhamâ'u beynehum — beraberindekilerin sıfatı (insan)
+    # sûre 49 (Hucurât) blok 1-10 (2026-10-16)
+'49:1:14': 'ilahi',  # inne'llâhe semî'un alîm — lafzın haberi
+'49:1:15': 'ilahi',  # aynı terkip
+'49:5:11': 'ilahi',  # ve'llâhu ğafûrun rahîm — lafzın haberi
+'49:5:12': 'ilahi',  # aynı terkip
+'49:8:6': 'ilahi',  # ve'llâhu alîmun hakîm — lafzın haberi
+'49:8:7': 'ilahi',  # aynı terkip
+'49:9:4': 'degil',  # tâ'ifetâni mine'l-mu'minîn — inananlar (insan)
+'49:10:2': 'degil',  # innema'l-mu'minûne ihveh — inananlar (insan)
+    # sûre 49 (Hucurât) blok 11-18 (2026-10-16)
+'49:12:19': 'degil',  # e-yuhibbu ehadukum — 'biriniz' (insan, sayı)
+'49:12:30': 'ilahi',  # inne'llâhe tevvâbun rahîm — lafzın haberi
+'49:12:31': 'ilahi',  # aynı terkip
+'49:13:19': 'ilahi',  # inne'llâhe alîmun habîr — lafzın haberi
+'49:13:20': 'ilahi',  # aynı terkip
+'49:14:26': 'ilahi',  # inne'llâhe ğafûrun rahîm — lafzın haberi
+'49:14:27': 'ilahi',  # aynı terkip
+'49:15:2': 'degil',  # innema'l-mu'minûn — inananlar (insan)
+'49:16:16': 'ilahi',  # ve'llâhu bi-kulli şey'in alîm — lafzın haberi
+'49:18:8': 'ilahi',  # ve'llâhu basîrun bimâ ta'melûn — lafzın haberi
 }
