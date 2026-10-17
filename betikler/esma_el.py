@@ -478,4 +478,16 @@ KARAR = {
 '49:15:2': 'degil',  # innema'l-mu'minûn — inananlar (insan)
 '49:16:16': 'ilahi',  # ve'llâhu bi-kulli şey'in alîm — lafzın haberi
 '49:18:8': 'ilahi',  # ve'llâhu basîrun bimâ ta'melûn — lafzın haberi
+    # sûre 50 (Qâf) blok 1-10 (2026-10-16)
+'50:1:3': 'degil',  # ve'l-Qur'âni'l-mecîd — Kur'ân'ın sıfatı
+'50:4:9': 'degil',  # kitâbun hafîz — kitabın sıfatı
+'50:15:3': 'degil',  # bi'l-halqi'l-evvel — yaratmanın sıfatı (ilk yaratma)
+'50:18:7': 'degil',  # ledeyhi raqîbun atîd — yanındaki gözetleyici, adsız; ilâhî ad değil
+'50:21:6': 'degil',  # sâiqun ve şehîd — nefisle gelen adsız tanık
+'50:32:6': 'degil',  # li-kulli evvâbin hafîz — koruyan kul, insanın sıfatı
+'50:33:3': 'ilahi',  # haşiye'r-rahmâne bi'l-ğayb — ilâhî ad (meful)
+'50:34:2': 'degil',  # udhulûhâ bi-selâm — esenlikle girme
+'50:37:13': 'degil',  # ve huve şehîd — kulak veren kişi hazır / tanık
+'50:41:7': 'degil',  # min mekânin qarîb — yerin sıfatı
+'50:45:8': 'degil',  # ve mâ ente aleyhim bi-cebbâr — muhatap 2MS için olumsuzlanan
 }
