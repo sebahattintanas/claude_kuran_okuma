@@ -1,19 +1,19 @@
-# OTURUM — sûre 49 (Hucurât) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 50 (Qâf) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 3422 / 6236 ayet (%54,9)** — sûre 1 ve 9-49 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 50 (Qâf, 45 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1372** kök · aday havuzu **1-1041** (sûre 49'da yeni aday yok, `AX_hucurat` boş) · bağ seti `AS_hucurat` 55 · esmâ KARAR 430.
+**Okunan: 3467 / 6236 ayet (%55,6)** — sûre 1 ve 9-50 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 51 (Zâriyât, 60 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1375** kök · aday havuzu **1-1041** (sûre 50'de yeni aday yok, `AX_qaf` boş) · bağ seti `AS_qaf` 91 · esmâ KARAR 441.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç).
-Paket: depo `cf56af3`'e göre fark (sûre 46 paketi o commit'te; sûre 47, 48, 49 bu zip'te birlikte).
-Sûre 49 dosyaları: `kok_ekle_49.py` · `hucurat_metin_1.py` (MEAL1-2/M1-2) · `hucurat_kayit.py` (CIPA, ARIZA, DUZELTME boş) · `uret_blok_49.py` · `aday_ekle_49_hucurat.py` · `yama_retroaktif_gloss_49.py` · `duzeltme_49.py` · `hucurat_kapanis.py` · `hucurat_paket_md.py` → `notlar/sure49_hucurat_okuma.md`.
-Sûre 50 için şablonlar `hucurat_*`'tan S=50 (yeni set adları; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-48 dosyaları: `duhan_*`, `casiye_*`, `ahkaf_*`, `muhammed_*`, `fetih_*` (aynı düzen).
-**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü, kullanımdan sonra silinir. Eksik kök kontrolü: morph.txt'te sûre köklerini kok_turkce ile NFC karşılaştır (sûre 48/49 oturumunda kullanılan tek satırlık betik transkriptte). Araç dondurma kuralına uygunluğu kullanıcı onayına açık.
-**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 49'da 18/18).
-**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 50:1-10 okunurken 49:11-18 ile bağ kayıt olarak yazılabilir, test edilmez.
-**Aday 1041:** aynı kelimenin Allah ve insan için kullanılması — kayıt; yeni vakalar AS bağına "aday 1041" notuyla (sûre 49: يدي 49:1, سخر 9:79/49:11, منن 49:17 aynı ayette, علم 49:16).
-**Çıpa:** sûre 49'da L4 yok (49:13 L1); **48:29 ekin büyümesi L4 adayı, teşbih içinde — TARTIŞMALI, karar kullanıcıda**.
+Paket: depo `279460e`'ye göre fark (sûre 47-49 o commit'te; sûre 50 bu zip'te).
+Sûre 50 dosyaları: `kok_ekle_50.py` · `qaf_metin_1.py` (MEAL1-5/M1-5) · `qaf_kayit.py` (CIPA, ARIZA, DUZELTME boş) · `uret_blok_50.py` · `aday_ekle_50_qaf.py` · `yama_retroaktif_gloss_50.py` · `duzeltme_50.py` · `qaf_kapanis.py` (+ `qaf_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `qaf_paket_md.py` → `notlar/sure50_qaf_okuma.md`.
+Sûre 51 için şablonlar `qaf_*`'tan S=51 (yeni set adları; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-49 dosyaları: `duhan_*`, `casiye_*`, `ahkaf_*`, `muhammed_*`, `fetih_*`, `hucurat_*` (aynı düzen).
+**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü, kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı onayına açık.
+**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 50'de 45/45).
+**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 51:1 okunurken 50:45 ile bağ kayıt olarak yazılabilir.
+**Aday 1041:** aynı kelimenin Allah ve insan için kullanılması — kayıt (sûre 50: مجد, حفظ, رقب, عيي, ظلم, لغب, جبر).
+**Çıpa:** sûre 50'de L4 yok (50:9, 50:11 L2; 50:38 L1, ölçü koluna sınırda); **48:29 ekin büyümesi L4 adayı, teşbih içinde — TARTIŞMALI, karar kullanıcıda**.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 49 TUR SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 50 TUR SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -69,6 +69,9 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * Yıldız formülü iki uçta da şişer: kısa ayette lafız (48:3, 48:7), uzun ayette n (48:29) — ★★★ içerik iddiası değil.
 * 'Okunan X, Y (okumada görüldü)' listesine yalnız bu oturumda metni AR ile basılıp görülen ayet yazılır; lemma listesinde †'sız olması yetmez (sûre 49: yedi yerde kayıttan önce çıkarıldı).
 * Yeni eklenen kökler (kok_ekle) korpusta tek token ise ayet ★★★ 'hapaks' alır (49:11, 12, 14) — kaynak etiketiyle birlikte yazılır, içerik iddiası değil.
+* Emsal farkı ancak metin yeniden basılınca görünür: lemma dizisi aynı sayılan ayetlerin devamı ayrı olabilir (50:3 — 23:35 2MP 'mittum … muhracûn', diğer üçü 'meb'ûsûn / medînûn'); kıyas cümlesi basılan metinden yazılır.
+* Ölçüm mührü ile geçerli mühür tümden ayrışabilir: sûre 50'de 9 ölçüm mührü, karar sonrası 0 geçerli (adlar kitap, kul, tanık, yer, muhatap için) — sûre profili karar sonrası bilançodan.
+* `uret_blok_<S>.BASLIK` çapası: önceki satırın sonu kaçışlı tırnak içerebilir; çapa metni önce dosyadan grep ile alınır (sûre 50, 31-40'ta assert yakaladı).
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
