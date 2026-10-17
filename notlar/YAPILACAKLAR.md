@@ -6355,3 +6355,43 @@ L4 yok. 49:13 L1 (iki kaynaktan yaratma + halk / kabile + 'li-te'ârafû'; L2'ye
 * Nidâ 'yâ eyyuhe'llezîne âmenû' (1, 2, 6, 11, 12) → 'yâ eyyuhe'n-nâs' (13).
 * Ses 49:2 yükseltme / 49:3 kısma (31:19); 'fî qulûbikum' 49:7 süslendi / 49:14 henüz girmedi; 'îmân / fusûq' 49:7, 49:11.
 * 'ulâ'ike hum' + sıfat 49:7, 11, 15; 'innema'l-mu'minûn' 49:10, 15 (24:62); 38:22 'beğâ … alâ' → 49:9; 35:12 'ekele lahm' → 49:12 (temsil); 26:22, 14:11 'menne + alâ' → 49:17.
+
+## SÛRE 50 TUR SONU (2026-10-16)
+
+**Okunan: 3467 / 6236 ayet (%55,6)** — sûre 1 ve 9-50 TAM, sûre 2 kısmi (1-20). İlerleme `qaf_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1375** (`kok_ekle_50.py`: بسق لفظ حيد). Aday havuzu **1041** (sûre 50'de yeni aday yok; `AX_qaf` boş). Bağ **AS_qaf** 91. Esmâ okuyucu kararı (KARAR) **441**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta ilk koşuda 0 (ön kuru koşu ile) · [x/y] **236 sayım (56 + 50 + 48 + 56 + 26), 0 uyuşmaz** · e_el=? her blokta karar sonrası 0 · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 45 ayeti 5 blokta okundu (son blok 41-45, 5 ayet); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure50_qaf_okuma.md` (`qaf_paket_md.py`, 45 başlık). Fark zip'i **279460e** tabanı (uzak depo 279460e; sûre 47-49 orada). Ara zip 50:1-30'da verildi.
+
+### Sûre 50 bilançosu (TAM SAYIM, `okuma_metni['50']['_bilanco_sure']`)
+373 kelime · lafız **1 token / 1 ayet** (50:26) · Rab 2 (50:27, 39) · edilgen 5 ayet (3, 20, 29, 31, 32) · iltifât 6 ayet (3, 22, 24, 32, 33, 43) · hapaks ayet 3 (10, 18, 19).
+Yıldız 0:30 · ★7 · ★★1 · ★★★7 (hapaks 3: 10, 18, 19 · pas 4: 20, 29, 31, 32). Kaynak (1001 düzeltmeli): kafiye 6, pas 5, hapaks 3, rab 1.
+Fâsıla د 27 · ب 7 · ج 5 · ظ 2 · R 2 · ط 1 · ص 1; kafiye kırılması 6 ayet (2, 11, 13, 25, 36, 40). En uzun 50:36 (15), en kısa 50:1 (3).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2: 50:9 (su → bahçeler; 'bihî'), 50:11 (su → ölü belde diriliyor; 'kezâlike'l-hurûc'). L1: 50:4, 6, 7, 10, 38 (50:38 'fî sitteti eyyâm' sayı + birim, L4 ölçü koluna sınırda; 41:10 ile tutarlı). L0: 50:16, 19, 39, 40. Olgu değil: 50:3, 15, 20, 22, 44. Tarayıcı v4 adayı 1 (50:6), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+11 e_oto tokeni → ilâhî 1 (50:33 'er-Rahmân') · değil 10. §4.3 mühür 9 → geçerli **0**; yanlış 9 (1, 4, 18, 21, 32, 34, 37, 41, 45) — adlar kitap, Kur'ân, kul, tanık, gözetleyici, yer, muhatap için. Lafız 1, Rab 2.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+مجد 11:73 / 50:1 · حفظ 42:6, 34:21 / 50:4, 50:32 · رقب 4:1, 5:117, 33:52 / 11:93 / 50:18 · عيي 46:33 / 50:15 · ظلم 22:10, 41:46 (3. şahıs) / 50:29 (1S) · لغب 35:35 / 50:38 · جبر 11:59, 14:15, 19:32, 26:130, 40:35 / 50:45.
+
+### Aday 1040 — sınır kaydı (test korpus sonunda)
+49:18 → 50:1 (ن → د; 'basîrun bimâ ta'melûn' → harf + yemin QASEM). 50:45 → 51:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+45 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: طلع 'doğma (güneş)' — 50:10 'tal'' (tomurcuk); حبب 'sevgi' — 50:9 'habb' (tane); حدد 'demir; sınır koyma' — 50:22 'hadîd' (keskin).
+* 1001: altı kafiye kırığında ★ kaynağı kırık, bilanço 'allah' (50:2, 11, 36) / 'n' (50:13, 25, 40) etiketliyor.
+* 924: 50:3 'mitnâ' EDİLGEN + iltifât 1 etiketli (okumada etken); fâsıla ر (50:43-44) ayrı sınıf, kırık işaretlenmedi.
+* 517 biçim: tekit 'innâ', teşbih 'kezâlike', 1S 'ledeyye' → 1P 'ledeynâ' / 'neqûlu' geçişleri, 50:2 cevapsız yemin ardından 'bel' ölçümde işaretsiz.
+* 1017: konuşan 1P / gizli 1S hiçbir ayette adlanmıyor; 2MS muhatap, uyarıcı, iki alıcı, gözetleyici, sürücü, tanık, qarîn, ikil emrin muhatapları, çağıran adsız.
+* 1022: ölçüm MÜHÜRSÜZ / esma_kayit EVET dokuz ayet — hepsi okuyucu kararıyla 'değil'.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_qaf'ta)
+* Çerçeve: 50:1 Kur'ân yemini → 50:45 'fe-zekkir bi'l-Qur'ân'; 50:3 'rec'un ba'îd' → 50:44 'haşrun aleynâ yesîr'; 50:4 yer eksiltiyor → 50:44 yer yarılıyor.
+* Üç 'bel' (2, 5, 15); 'zâlike yevmu X' üç kez (20, 34, 42); 'vaîd' 14, 20, 28, 45 (korpustaki 6 ayetin 4'ü); 'qâle qarînuhû' 23 / 27; 'mezîd' 30 / 35.
+* Emsaller: 38:1, 38:4 (açılış), 15:19 (50:7, esit2), 43:11 (50:11), 22:42-43 ve 38:12-14 (kavim sayımı 5 / 6 / 8 ad), 13:5 (50:3 + 15), 17:39 (50:24 + 26), 25:59, 32:4 (50:38), 20:130 (50:39-40).
