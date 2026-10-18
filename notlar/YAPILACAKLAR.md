@@ -6395,3 +6395,43 @@ L4 yok. L2: 50:9 (su → bahçeler; 'bihî'), 50:11 (su → ölü belde diriliyo
 * Çerçeve: 50:1 Kur'ân yemini → 50:45 'fe-zekkir bi'l-Qur'ân'; 50:3 'rec'un ba'îd' → 50:44 'haşrun aleynâ yesîr'; 50:4 yer eksiltiyor → 50:44 yer yarılıyor.
 * Üç 'bel' (2, 5, 15); 'zâlike yevmu X' üç kez (20, 34, 42); 'vaîd' 14, 20, 28, 45 (korpustaki 6 ayetin 4'ü); 'qâle qarînuhû' 23 / 27; 'mezîd' 30 / 35.
 * Emsaller: 38:1, 38:4 (açılış), 15:19 (50:7, esit2), 43:11 (50:11), 22:42-43 ve 38:12-14 (kavim sayımı 5 / 6 / 8 ad), 13:5 (50:3 + 15), 17:39 (50:24 + 26), 25:59, 32:4 (50:38), 20:130 (50:39-40).
+
+## SÛRE 51 TUR SONU (2026-10-18)
+
+**Okunan: 3527 / 6236 ayet (%56,6)** — sûre 1 ve 9-51 TAM, sûre 2 kısmi (1-20). İlerleme `zariyat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1381** (`kok_ekle_51.py`: حبك سهو هجع صكك فرش متن). Aday havuzu **1041** (sûre 51'de yeni aday yok; `AX_zariyat` boş). Bağ **AS_zariyat** 67. Esmâ okuyucu kararı (KARAR) **453**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik altı blokta ilk koşuda 0 (ön kuru koşu ile; tetik 2 + 5 + 3 + 0 + 5 + 2) · [x/y] **221 sayım (18 + 34 + 46 + 40 + 43 + 40), 0 uyuşmaz** · e_el=? her blokta karar sonrası 0 · retroaktif gloss yaması 0 · DUZELTME 0.
+Sûrenin 60 ayeti 6 blokta okundu; ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure51_zariyat_okuma.md` (`zariyat_paket_md.py`, 60 başlık). Uzak depo **0dc5351** (sûre 50 zip'i yüklendi, 31/31 dosya birebir); sûre 51 fark zip'i 0dc5351 tabanı. Ara zip 51:1-30'da verildi (279460e tabanı).
+
+### Sûre 51 bilançosu (TAM SAYIM, `okuma_metni['51']['_bilanco_sure']`)
+360 kelime · lafız **3 token / 3 ayet** (51:50, 51, 58; 51:1-49'da lafız yok) · Rab 5 (51:16, 23, 30, 34, 44) · edilgen 8 ayet (5, 9, 10, 13, 22, 32, 43, 60) · iltifât 4 ayet (9, 21, 34, 35) · hapaks ayet 3 (7, 17, 29).
+Yıldız 0:41 · ★2 (8, 50) · ★★8 (16, 23, 30, 32, 43, 44, 58, 60) · ★★★9 (pas 5: 5, 9, 10, 13, 22 · hapaks 3: 7, 17, 29 · rab 1: 34). Kaynak (1001 düzeltmeli): pas 8, rab 5, hapaks 3, allah 2, kafiye 1.
+Fâsıla N 51 · A 4 (51:1-4) · ك 2 · ق 1 · ع 1 · ف 1; kafiye kırılması 1 ayet (8). En uzun 51:52 (13), en kısa 2 kelime (51:1, 2, 3, 4, 10).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L2 yok. L1: 51:7, 29, 47, 48, 49 (51:47 'le-mûsi'ûn' iki okumalı — süreç okuması KAPATILAMAZ, L4 değil; 51:49 36:36 / 43:12 emsali). L0: 51:17, 20, 21, 22. Olgu değil: 51:1, 33, 41, 56. Tarayıcı v4 adayı 2 (51:49, 51:56), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+12 e_oto tokeni → ilâhî 4 (51:30 'el-hakîm', 'el-alîm'; 51:58 'er-razzâq', 'el-metîn') · değil 8. §4.3 mühür 9 → geçerli **2** (51:30, 51:58; ton denge 1, karma 1); yanlış 7 (25, 28, 35, 38, 50, 51, 55) — adlar selâm sözü, oğul, inananlar, delil, uyarıcı için. Lafız 3, Rab 5.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+علم 51:28 'ğulâmin alîm' / 51:30 'el-hakîmu'l-alîm' · قوي 27:33, 28:76 'ulû / uli'l-quvve' / 51:58 'zu'l-quvve'. (1041 dışı kayıt: عقم 51:29 kadın / 51:41 rüzgâr.)
+
+### Aday 1040 — kayıt (test korpus sonunda)
+50:6 → 51:47 'beneynâhâ' (gök) · 50:7 → 51:48 'medednâhâ' / 'feraşnâhâ' (yer) · 50:45 → 51:54-55 'mâ ente … bi-cebbâr / bi-melûm' + 'zekkir'. 51:60 → 52:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+60 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: ذرو gloss'una 'rüzgâr' eklendi (51:1); ذنب 'günah, suç' — 51:59 'zenûb' (pay) okumasını kapsamıyor; وسع 51:47 iki anlamlı.
+* 1001: 51:8 kafiye kırığında ★ kaynağı kırık, bilanço 'n' etiketliyor.
+* 517 biçim: tekit 'inne / innâ', teşbih 'ke-', övgü 'ni'me', fasl zamiri 'huve' ölçümde işaretsiz.
+* 1017: konuşan 1P hiçbir ayette adlanmıyor; 1S iki göndergeli (51:50-51 uyarıcı, 51:56-59 yaratan; ölçüm iltifât 0); 2MS muhatap, edilgen söyleyen (51:43), gönderen (51:32), vaat eden (51:60) adsız.
+* 1022: ölçüm MÜHÜRSÜZ / esma_kayit EVET dokuz ayet — yedisi 'değil', ikisi (51:30, 58) 'ilâhî'.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_zariyat'ta)
+* Çerçeve: 51:5 'tû'adûn' → 51:22 → 51:60 'yû'adûn' (2MP → 3MP); sûre vaatle açılıp kapanıyor.
+* 've fî' dizisi: 51:20 yer, 21 enfus, 22 gök → 38 Mûsâ, 41 Âd, 43 Semûd, 46 Nûh kavmi.
+* رزق 51:22 → 57 → 58 'er-razzâq'; nakarat3 sûre içi 51:39 ↔ 52, 51:50 ↔ 51; esit2 51:31-32 ↔ 15:57-58 TAM; ولي / لوم 51:39-40 Firavun → 51:54 muhatap (zıt yön).
+* Emsaller: 15:51, 52, 53, 57, 58, 62, 74 ve 11:69, 70, 71, 72, 82, 83 (İbrâhîm misafirleri; tek tek okundu), 11:65, 41:17, 11:67 (Semûd), 36:78 (ramîm), 17:22, 17:39 (51:51 + 54), 37:30, 37:174, 21:37, 43:83.
