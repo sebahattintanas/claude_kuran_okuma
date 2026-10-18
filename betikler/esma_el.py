@@ -503,4 +503,29 @@ KARAR = {
 '51:55:5': 'degil',   # 'el-mu'minîn' — insanlar
 '51:58:4': 'ilahi',   # 'inna'llâhe huve'r-razzâq' — lafzın yüklemi
 '51:58:7': 'ilahi',   # 'zu'l-quvveti'l-metîn' — lafzın sıfatı
+# sûre 52 blok 21-30
+'52:28:8': 'ilahi',   # 'innehû huve'l-berr' — 'ned'ûhu' ile çağrılanın sıfatı; 52:27 lafız 'fe-menne'llâhu'
+'52:28:9': 'ilahi',   # 'er-rahîm' — aynı göndergenin ikinci sıfatı
+# sûre 52 blok 31-40
+'52:35:8': 'degil',   # 'em humu'l-hâliqûn' — özne 'hum' (soru: kendileri mi yaratıcı); ilâhî ad değil
+'52:38:9': 'degil',   # 'bi-sultânin mubîn' — delilin sıfatı
+# sûre 53 blok 21-30
+'53:25:2': 'degil',   # 'fe-li'llâhi'l-âhiratu' — âhiret (son yurt); lafzın yüklemi değil, mülk konusu
+'53:25:3': 'degil',   # 've'l-ûlâ' — ilk (dünya); âhiret ile çift
+'53:27:5': 'degil',   # 'lâ yu'minûne bi'l-âhira' — inanılmayan âhiret
+# sûre 53 blok 31-40
+'53:32:10': 'ilahi',  # 'inne rabbeke vâsi'u'l-mağfira' — Rab'bin yüklemi (izâfetle)
+# sûre 53 blok 41-50
+'53:50:4': 'degil',   # 'âden el-ûlâ' — Âd kavminin sıfatı (önceki)
+# sûre 53 blok 51-62
+'53:56:5': 'degil',   # 'mine'n-nuzuri'l-ûlâ' — önceki uyarıcıların sıfatı
+# sûre 54 blok 41-50
+'54:42:6': 'ilahi',   # 'ahze azîzin muqtedir' — nekre, mef'ûl-i mutlak izâfeti; yakalayan 1P ('fe-ehaznâhum') — gönderge 1P (sınır vakası, nekre)
+'54:42:7': 'ilahi',   # 'muqtedir' — aynı göndergenin ikinci sıfatı
+# sûre 54 blok 51-55
+'54:53:3': 'degil',   # 'kullu sağîrin ve kebîr' — küçük ve büyük her şey (nekre, sayılan işler); ilâhî ad değil
+'54:55:5': 'ilahi',   # ''inde melîkin muqtedir' — katında oturulan; nekre, gönderge Allah (sınır vakası, 54:42 emsali)
+'54:55:6': 'ilahi',   # 'muqtedir' — aynı göndergenin ikinci sıfatı
+# sûre 55 blok 1-10
+'55:1:1': 'ilahi',    # 'er-rahmân' — tek kelimelik ayet; 55:2-4 fiillerinin öznesi (allema, halaqa)
 }
