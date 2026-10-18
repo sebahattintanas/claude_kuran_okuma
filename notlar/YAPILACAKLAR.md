@@ -6435,3 +6435,159 @@ L4 yok, L2 yok. L1: 51:7, 29, 47, 48, 49 (51:47 'le-mûsi'ûn' iki okumalı — 
 * 've fî' dizisi: 51:20 yer, 21 enfus, 22 gök → 38 Mûsâ, 41 Âd, 43 Semûd, 46 Nûh kavmi.
 * رزق 51:22 → 57 → 58 'er-razzâq'; nakarat3 sûre içi 51:39 ↔ 52, 51:50 ↔ 51; esit2 51:31-32 ↔ 15:57-58 TAM; ولي / لوم 51:39-40 Firavun → 51:54 muhatap (zıt yön).
 * Emsaller: 15:51, 52, 53, 57, 58, 62, 74 ve 11:69, 70, 71, 72, 82, 83 (İbrâhîm misafirleri; tek tek okundu), 11:65, 41:17, 11:67 (Semûd), 36:78 (ramîm), 17:22, 17:39 (51:51 + 54), 37:30, 37:174, 21:37, 43:83.
+
+## SÛRE 52 TUR SONU (2026-10-18)
+
+**Okunan: 3576 / 6236 ayet (%57,3)** — sûre 1 ve 9-52 TAM, sûre 2 kısmi (1-20). İlerleme `tur_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1385** (`kok_ekle_52.py`: رقق ألت رهن كهن). Aday havuzu **1041** (sûre 52'de yeni aday yok; `AX_tur` boş). Bağ **AS_tur** 109. Esmâ okuyucu kararı (KARAR) **457**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta ilk koşuda 0 (ön kuru koşu ile; tetik satırı 5 + 4 + 0 + 4 + 6) · [x/y] **191 sayım (20 + 39 + 54 + 34 + 44), son durumda 0 uyuşmaz** (41-49'da ilk koşuda 1 — 52:41 عند başka ayetin sayısı [x/y] biçiminde; kayıttan önce düzeltildi) · e_el=? her blokta karar sonrası 0 · retroaktif gloss yaması 0 · **DUZELTME 1** (52:11 — 16:36, 43:25 metin basılmadan 'okunan' diye anılmıştı; sûre sonunda basıldı, anma doğru; özgün alan korunur).
+Sûrenin 49 ayeti 5 blokta okundu; ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure52_tur_okuma.md` (`tur_paket_md.py`, 49 başlık). Uzak depo **95f7b81** (oturum boyunca ilerlemedi); fark zip'i 95f7b81 tabanı. Ara zip 52:1-30'da verildi (aynı taban).
+
+### Sûre 52 bilançosu (TAM SAYIM, `okuma_metni['52']['_bilanco_sure']`)
+312 kelime · lafız **3 token / 2 ayet** (52:27; 52:43 ×2; 52:1-26'da lafız yok) · Rab 7 token / 5 ayet (52:7, 18, 29, 37, 48) · edilgen 5 ayet (13, 16, 35, 45, 46) · iltifât 7 ayet (8, 19, 20, 29, 30, 32, 48) · hapaks ayet 2 (3, 21).
+Yıldız 0:34 · ★3 (5, 6, 45) · ★★4 (27, 29, 37, 46) · ★★★8 (rab 3: 7, 18, 48 · hapaks 2: 3, 21 · pas 2: 13, 35 · allah 1: 43). Kaynak (1001 düzeltmeli): rab 5, pas 4, hapaks 2, allah 2, kafiye 2 (52:5, 6 etiketi 'n').
+Fâsıla R 5 (52:1-4, 6) · ع 3 (5, 7, 8) · A 3 (9, 10, 13) · N 38; kafiye kırılması ölçümde 3 ayet (5, 6, 13). En uzun 52:21 (19), en kısa 52:1 (1).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok. L1: 52:5, 6, 9, 10, 44 (52:44 algı / durum ayrımı var, karşılaştırma yok — L3 koluna sınırda, 46:24 emsali, KAPATILAMAZ). L0: 52:36, 49. Olgu değil: 52:1, 35. Tarayıcı v4 adayı 1 (52:44), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+4 e_oto tokeni → ilâhî 2 (52:28 'el-berr', 'er-rahîm') · değil 2 (52:35 'el-hâliqûn' — özne insanlar, soru; 52:38 'mubîn' — delil). §4.3 mühür 3 → geçerli **1** (52:28; ton cemâl, çift); yanlış 2 (35, 38). Lafız 3, Rab 7.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+'berr' 19:14, 19:32 (insan) / 52:28 (Allah) · 'hâliq' 13:16, 15:28, 23:14, 37:125 (Allah) / 52:35 (insanlar, soru içinde) · kök düzeyi: وقي 52:17 'muttaqîn' / 52:18 'veqâhum rabbuhum'; كيد 12:76 'kidnâ' / 52:42 'keyd'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+51:60 → 52:1 (fâsıla ن → ر) · 51:1 → 52:1 (iki sûre 've' yeminiyle açılıyor) · 51:6 → 52:7 ('inne + ism + le-vâqi'') · 51:60 → 52:11 ('fe-veylun') · 51:13, 14, 15, 16 → 52:13, 14, 17, 18 sıralı — 'mâ âtâhum rabbuhum' lemma dizisi korpusta yalnız 51:16 ve 52:18 · 51:28 → 52:24 (ğulâm / ğilmân) · 51:52, 55 → 52:29 · 51:53 → 52:32 — 'qavm tâğî' lemma dizisi korpusta yalnız 51:53 ve 52:32 · 51:44 → 52:45 (صعق). 52:49 → 53:1 henüz okunmadı.
+1040 alanı dışı (ardışık değil): 50:39-40 → 52:48-49 iki ayet sırasıyla (esit2 52:49 → 50:40 BENZER).
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+49 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: رقق tek geçiş (korpus içinden doğrulanamaz); سجر 52:6 iki okumalı; kapsanmayan anlamlar: سرر 'surur', منن 'menûn', سطر 'musaytirûn', بني 'benât / benûn', فكه 'fâkihîn'; حلم 'ahlâm' seçimi KAPATILAMAZ.
+* 1001: 52:5, 6 ★ kafiye kırığından, bilanço 'n' etiketliyor; 52:6 R sınıfında kırık işaretli, 52:9 ر/ع → ا geçişinde işaret yok (924).
+* 517 biçim: yemin 've' (52:1-6), 'em' dizisi (12 ayet), tekit, fasl zamiri, teşbih 'ke-enne', tenzih 'subhâna', istidrâk 'lâkinne' ölçümde işaretsiz.
+* 1017: yemin eden ve 1P anlatıcı adlanmıyor; muhatap 2MS adsız; edilgen failler adsız; alıntı sınırları (52:14-16, 19, 26-28, 30) işaretsiz; 'teqavvelehû', 'mislihî', 'lehu' göndergeleri adsız.
+* 1022: ölçüm ile esma_kayit üç ayette ayrıştı (52:28 MÜHÜR, 52:35 ve 52:38 MÜHÜRSÜZ / esma_kayit EVET).
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_tur'da)
+* Mef'ûl-i mutlak kuruluşu: 52:9 مور, 52:10 سير, 52:13 دعع.
+* 'em' soru dizisi 52:30-43'te 12 ayette (52:30, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43); 52:43 tenzihle kapanıyor.
+* 43:83 'fe-zerhum yehûdû ve yel'abû hattâ yulâqû yevmehumu'llezî' sûrenin iki ucuna dağılıyor (52:12, 52:45).
+* Aynı kök iki anlam: سطر 52:2 / 37 · منن 52:27 / 30 · جنن 52:17 / 29 · قبل 52:25 / 26 · فكه 52:18 / 22 · عين 52:20 / 48.
+* 23:25 'bihî cinnetun fe-terabbasû bihî' → 52:29-30 'mecnûn' + 'neterabbasu bihî' iki ayete dağılmış; 10:38, 11:13 iddia + meydan okuma bir ayette → 52:33-34 iki ayette; 37:156-157 iki ayet → 52:38 bir ayette.
+* Sûre 've't-Tûr' ile açılıp 'idbâra'n-nucûm' ile kapanıyor.
+* Emsaller (tek tek okundu): 19:52, 20:80, 23:20, 28:29, 28:46, 17:58, 33:6, 17:13, 21:32, 16:26, 43:33, 40:72, 17:57, 21:46, 42:22, 51:6, 13:31, 18:47, 34:18, 9:65, 43:83, 51:13, 51:14, 32:20, 34:42, 37:21, 15:15, 21:3, 27:13, 36:9, 36:64, 14:21, 45:28, 15:45, 51:15, 51:16, 36:55, 44:27, 40:7, 44:56, 44:54, 15:47, 37:44, 43:34, 29:12, 47:3, 13:23, 40:8, 37:49, 51:28, 37:27, 37:50, 18:49, 21:28, 23:57, 12:90, 28:82, 15:27, 28:53, 19:14, 19:32, 17:67, 51:52, 51:55, 23:25, 37:36, 51:53, 37:30, 10:38, 11:13, 37:157, 17:88, 13:16, 23:14, 37:125, 38:9, 17:100, 37:156, 37:149, 16:57, 43:16, 36:21, 9:98, 21:70, 37:98, 12:76, 28:68, 28:71, 17:92, 26:187, 34:9, 24:43, 30:48, 39:68, 51:44, 44:41, 21:39, 32:21, 10:55, 44:39, 11:37, 23:27, 50:39, 50:40.
+
+## SÛRE 53 NECM SONU (2026-10-18)
+
+**Okunan: 3638 / 6236 ayet (%58,3)** — sûre 1 ve 9-53 TAM, sûre 2 kısmi (1-20). İlerleme `necm_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1391** (`kok_ekle_53.py`: قوب قوس ضيز لمم كدي قني). Aday havuzu **1041** (sûre 53'te yeni aday yok; `AX_necm` boş). Bağ **AS_necm** 89. Esmâ okuyucu kararı (KARAR) **463**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik altı blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 1 + 1 + 5 + 3 + 3 + 0) · [x/y] **124 sayım (23 + 28 + 23 + 23 + 15 + 12), 0 uyuşmaz** · e_el=? her blokta karar sonrası 0 · retroaktif gloss yaması 0 · DUZELTME 0 (53:36 notundaki okunmamış 53:41'i kapsayan aralık kayıttan sonra yakalandı; not düzeltilip blok yeniden kaydedildi).
+Sûrenin 62 ayeti 6 blokta okundu; ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure53_necm_okuma.md` (`necm_paket_md.py`, 62 başlık). Uzak depo **95f7b81** (oturum boyunca ilerlemedi); fark zip'i 95f7b81 tabanı — sûre 52 ve 53'ü birlikte taşır. Ara zip 53:1-30'da verildi (aynı taban).
+
+### Sûre 53 bilançosu (TAM SAYIM, `okuma_metni['53']['_bilanco_sure']`)
+360 kelime · lafız **6 token / 6 ayet** (53:23, 25, 26, 31, 58, 62; 53:1-22'de lafız yok) · Rab 7 token / 7 ayet (53:18, 23, 30, 32, 42, 49, 55; ilk Rab 53:18) · edilgen ölçümde 6 ayet (4, 12, 36, 40, 41, 46 — 53:12 araç arızası) · iltifât 6 ayet (19, 42, 43, 55, 57, 59) · hapaks ayet 5 (9, 22, 34, 48, 61).
+Yıldız 0:34 · ★10 (3, 11, 15, 19, 20, 21, 26, 32, 33, 37) · ★★2 (12 pas-arıza, 58 allah) · ★★★16 (pas 5: 4, 36, 40, 41, 46 · hapaks 5: 9, 22, 34, 48, 61 · rab 4: 18, 42, 49, 55 · allah 2: 25, 62). Kaynak (1001 düzeltmeli): kafiye 9, pas 6, hapaks 5, rab 4, allah 3, n 1.
+Fâsıla A 44 · 'ٓ' 13 (medd işareti fâsıla okunuyor — araç artefaktı) · H 2 (57, 58) · N 3 (59-61); kafiye kırılması ölçümde 12 ayet (3, 11, 15, 18, 19, 20, 21, 26, 32, 33, 36, 37) — hepsi 'ٓ' artefaktından ya da ona bağlı geçişten; 53:57'deki gerçek sınıf geçişi işaretsiz. En uzun 53:32 (31), en kısa 53:53, 57, 61 (2).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok. L1: 53:1, 7, 32, 45, 46. L0: 53:26, 31, 44, 49. Olgu değil: 53:9 (mesafe birimi), 53:14 (ağaç adı yer izâfetinde). Tarayıcı v4 adayı 1 (53:31), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+6 e_oto tokeni → ilâhî 1 (53:32 'vâsi'' — Rab'bin yüklemi) · değil 5 (53:25 'âhir', 'evvel'; 53:27 'âhir'; 53:50 'evvel'; 53:56 'evvel'). §4.3 mühür 3 (25, 50, 56) → geçerli **0**. Lafız 6, Rab 7.
+
+### Aday 1041 — kayıt (test korpus sonunda)
+lemma 'istevâ' 20:5 Rahmân / 28:14 insan / 48:29 ekin, 53:6'da özne adsız · kök düzeyi: عزز 38:9 'el-azîz' (Rab) / 53:19 'el-Uzzâ' (put adı); غفر 42:37 'hum yağfirûn' (insan) / 53:32 'vâsi'u'l-mağfira' (Rab) — aynı 'kebâ'ira'l-ismi ve'l-fevâhiş' dizisinin ardından.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+52:49 → 53:1 (fâsıla م → ى; 'nucûm' / 'necm') · 51:1, 52:1, 53:1 ardışık üç sûre 've' yeminiyle açılıyor · 52:29 → 53:2 (olumsuzlama) · 52:39 → 53:21 (paylaştırma kuruluşu, sıra ters) · 52:41 → 53:35 ('inde + ğayb + fe- + zamir + IMPF') · 52:34 → 53:59 ('hadîs'). 53:62 → 54:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+62 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: مني sayacı 'Menât' / 'temennâ' / 'tumnâ'; شعر 'Şi'râ', عود 'Âd' kapsanmıyor; ذكر 'zeker' / 'zikr' tek sayaç; lemma 'Âd' 'âd' (aşan) kelimesini de sayıyor; سمد iki okumalı (meal seçimi KAPATILAMAZ); فأد ve 'ecinne' ◈B tetik listesinde değil (gözlem ◇'de).
+* 1001: dokuz ★ kafiye kırığından, bilanço 'n' etiketliyor.
+* 924: 53:12 'tumârûnehû' PASS etiketi (III. bab etken); 'ٓ' fâsıla artefaktı; 53:22 'biçim QASEM' (قسم paylaştırma anlamında); 53:49 'Şi'râ' 'sahte-ilah, rol fail' (metinde izâfet).
+* 517 biçim: takdim, 'huwa / hum' ayırma zamiri, 'em' sorusu, 'leyse' olumsuzluğu, ayet içi şahıs geçişleri (53:23, 32) ölçümde işaretsiz.
+* 1017: gören, görülen, öğreten, örten, edilgen failler, muhataplar adsız; 53:53 'el-mu'tefike' adsız — meal ad eklemedi.
+
+### Okumada görülenler (KAPATILAMAZ; defter bağı olanlar AS_necm'de)
+* Görme zinciri رأي 8 geçiş: 53:11, 12, 13, 18 (gören 3MS) → 53:19 (2MP) → 53:33 (2MS) → 53:35 'yerâ' → 53:40 edilgen 'yurâ'.
+* 'Fiil + mâ + aynı fiil' üç kez: 53:10, 16, 54 (16 ve 54 aynı kök غشو); 20:78 aynı kuruluş.
+* 've ennehû huwa' 4 ayet (53:43, 44, 48, 49) — korpusta yalnız bu sûrede.
+* İki uçlu iplikler: هوي 53:1 → 3 → 23 → 53 · ذكر/أنث 53:21 → 45 · نهي 53:14 → 42 · نشأ 53:32 → 47 · غني 53:26, 28 → 48 · ضحك/بكي 53:43 → 60 · طغي 53:17 → 52 · مري 53:12 → 55 · عبد 53:10 → 62 · وفي 53:37 → 41.
+* 9:70 Nûh kavmi, Âd, Semûd, 'mu'tefikât' bir ayette → 53:50-53 dört ayette.
+* Sûre 've'n-necm' yeminiyle açılıp secde emriyle kapanıyor; 53:49 adlı yıldız.
+* Emsaller (tek tek okundu): 52:49, 51:1, 52:1, 14:37, 20:81, 22:31, 34:46, 52:29, 20:121, 28:63, 36:69, 12:104, 38:87, 23:25, 11:37, 23:27, 51:58, 20:5, 41:11, 28:14, 48:29, 41:53, 20:38, 17:36, 28:10, 42:18, 32:19, 20:78, 33:10, 20:23, 26:75, 39:38, 38:9, 52:39, 12:40, 10:66, 28:70, 36:23, 20:109, 34:23, 37:150, 43:19, 10:36, 16:125, 42:37, 16:78, 39:6, 35:18, 19:77, 45:23, 52:41, 17:15, 39:7, 20:15, 9:82, 50:43, 51:49, 35:11, 29:20, 51:41, 51:43, 51:46, 9:70, 51:50, 40:18, 52:34, 50:2, 41:37.
+
+
+## SÛRE 54 KAMER SONU (2026-10-18)
+
+**Okunan: 3693 / 6236 ayet (%59,2)** — sûre 1 ve 9-54 TAM, sûre 2 kısmi (1-20). İlerleme `kamer_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1397** (`kok_ekle_54.py`: جرد همر لوح دسر قعر دهي). Aday havuzu **1041** (sûre 54'te yeni aday yok; `AX_kamer` boş). Bağ **AS_kamer** 90. Esmâ okuyucu kararı (KARAR) **468**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik altı blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 4 + 7 + 1 + 1 + 4 + 1) · [x/y] **111 sayım (14 + 15 + 16 + 13 + 36 + 17), 0 uyuşmaz** · e_el=? her blokta karar sonrası 0 · retroaktif gloss yaması 0 · DUZELTME 0 (54:47 notundaki metne uymayan alıntı ifadesi kayıttan sonra yakalandı; not düzeltilip blok yeniden kaydedildi).
+Sûrenin 55 ayeti 6 blokta okundu; ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure54_kamer_okuma.md` (`kamer_paket_md.py`, 55 başlık). Uzak depo **95f7b81** (oturum boyunca ilerlemedi); fark zip'i 95f7b81 tabanı — sûre 52, 53 ve 54'ü birlikte taşır. Ara zip 54:1-30'da verildi (aynı taban).
+
+### Sûre 54 bilançosu (TAM SAYIM, `okuma_metni['54']['_bilanco_sure']`)
+342 kelime · lafız **0** (sûrede Allah lafzı yok) · Rab 1 token / 1 ayet (54:10) · edilgen ölçümde 6 ayet (9, 12, 14, 25, 45, 48) · iltifât 7 ayet (23, 33, 39, 41, 43, 44, 52) · hapaks ayet 4 (11 همر, 13 دسر, 20 قعر, 46 دهي) · mm2 1 (42).
+Yıldız 0:45 · ★2 (12, 14 pas) · ★★2 (45, 48 pas) · ★★★6 (hapaks 4: 11, 13, 20, 46 · rab 1: 10 · pas 1: 25). 1001 düzeltmesi etiket değiştirmedi.
+Fâsıla 55 ayetin hepsinde ر (R sınıfı); kafiye kırığı yok, 'ٓ' artefaktı yok. En uzun 54:24 (10), en kısa 54:23, 39 (3).
+Nakaratlar (hepsi korpusta yalnız bu sûrede): 'fe-keyfe kâne azâbî ve nuzur' 4 (16, 18, 21, 30) · 've leqad yessernâ'l-qur'âne li'z-zikri fe-hel min muddekir' 4 (17, 22, 32, 40) · 'fe-hel min muddekir' 6 (15, 17, 22, 32, 40, 51) · 'innâ erselnâ aleyhim' 3 (19, 31, 34) · 'fe-zûqû azâbî ve nuzur' 2 (37, 39).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok. L1: 54:1, 7, 11, 12, 19, 20, 31, 49, 50 (54:12 ve 54:49'da ölçü yalnız kelime — L4 ölçü kolu KAPATILAMAZ). L0: 54:27, 34. Olgu değil: 54:13 (insan yapımı araç), 54:54 (cennet ırmağı). Tarayıcı v4 adayı yok, kesinlik **0/0**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+5 e_oto tokeni → ilâhî 4 (54:42 'azîz', 'muqtedir'; 54:55 'melîk', 'muqtedir' — ikisi de nekre, sınır vakası) · değil 1 (54:53 'kebîr'). §4.3 mühür 3 (42, 53, 55) → geçerli **2** (42, 55; ÇİFT, ton celâl). Lafız 0, Rab 1.
+
+### Aday 1041 — kayıt
+Sûre 54'te kayıt yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+fâsıla 53:62 ا → 54:1 ر · 53:57 'ezifeti'l-âzife' / 54:1 'iqterabeti's-sâ'a' · 53:23 / 54:3-4 · 53:56 / 54:5 · 53:29 / 54:6 · 53:52 / 54:9 · 53:50 / 54:18 · 53:50-53 helâk sırası → 54:9-42 kıssaları · 53:51 / 54:23 · 53:22 / 54:28 'qisme' · 53:55 / 54:36 'temârâ'. 54:55 → 55:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+55 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss: سحر 'sehar'ı, أول 'âl'i kapsamıyor; 'nâr' نور sayacında.
+* 1017: 1P / 1S, muhataplar (54:6, 43, 51), çağıran, konuklar, edilgen failler adsız; 54:45 topluluğun metinde adı yok.
+* 517: teşbih, alıntı sınırları ve 'inne' tekidi ölçümde işaretsiz.
+* 924: kalıp sayımı imlâ farkıyla ayırıyor (54:42 / 20:56); 54:28 'biçim QASEM' (قسم paylaştırma anlamında, 53:22 ile aynı arıza).
+
+## SÛRE 55 RAHMÂN SONU (2026-10-18)
+
+**Okunan: 3771 / 6236 ayet (%60,5)** — sûre 1 ve 9-55 TAM, sûre 2 kısmi (1-20). İlerleme `rahman_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1408** (`kok_ekle_55.py`: أنم فني نفذ شوظ فنن طمث دهم نضخ خيم رفرف عبقر). Aday havuzu **1041** (sûre 55'te yeni aday yok; `AX_rahman` boş). Bağ **AS_rahman** 73. Esmâ okuyucu kararı (KARAR) **469**.
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik sekiz blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 8 + 3 + 2 + 5 + 1 + 2 + 1 + 1 = 23) · [x/y] **286 sayım (26 + 35 + 43 + 46 + 35 + 38 + 30 + 33), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (55:1-10 sonrası ilk koşuda 1 genel yama, ikinci koşuda 0) · DUZELTME 0 (55:1 besmele ifadesi kayıttan sonra yakalandı; not düzeltilip blok yeniden kaydedildi).
+Sûrenin 78 ayeti 8 blokta okundu; ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure55_rahman_okuma.md` (`rahman_paket_md.py`, 78 başlık). Uzak depo **95f7b81** (oturum boyunca ilerlemedi); fark zip'i 95f7b81 tabanı — sûre 52, 53, 54 ve 55'i birlikte taşır. Ara zip 55:1-30'da verildi (aynı taban).
+
+### Sûre 55 bilançosu (TAM SAYIM, `okuma_metni['55']['_bilanco_sure']`)
+351 kelime · lafız **0** (sûrede Allah lafzı yok) · Rab 36 token / 35 ayet (55:17'de iki) · edilgen ölçümde 3 ayet (35, 39, 41) · iltifât 42 ayet · hapaks ayet 9, kök 10 (10 أنم, 26 فني, 33 نفذ, 35 شوظ, 48 فنن, 64 دهم, 66 نضخ, 72 خيم, 76 رفرف + عبقر) · mm2 0.
+Yıldız 0:32 · ★★★46 (rab 35 · hapaks 9 · pas 2: 39, 41). 1001 düzeltmesi etiket değiştirmedi.
+Fâsıla N sınıfı 76 ayet (ن; 55:10, 11, 24, 27, 41, 72, 78 م), R 2 (55:14, 15 ر); kafiye kırığı yok. En uzun 55:33 (16), en kısa 55:1, 64 (1).
+Nakarat 'fe-bi-eyyi âlâ'i rabbikumâ tukezzibân' **31** (55:13 → 55:77; korpusta yalnız bu sûrede). Sûre içi tam tekrarlar: 'lem yatmishunne insun qablehum ve lâ cânn' 2 (56, 74) · 'fîhimâ aynân' 2 (50, 66) · 'celâl' / 'ikrâm' 2 (27, 78). 2MS 'rabbike' yalnız 55:27 ve 55:78.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok. L2: 55:33 (yeti sınırı; tarayıcı v4 adayı, çıpa değil). L1: 55:5, 6, 7, 10, 11, 12, 14, 17, 19, 20, 22, 37 (55:5 ölçü yalnız kelime — L4 ölçü kolu KAPATILAMAZ; 55:10, 20 L2 sınırı KAPATILAMAZ). L0: 55:3. Olgu değil: 55:15 (cânn), 55:24 (gemi), 55:48, 50, 52, 66, 68, 72, 74, 76 (cennet). Tarayıcı v4 adayı 1 (55:33), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+1 e_oto tokeni → ilâhî 1 (55:1 'er-rahmân'). §4.3 mühür 1 → geçerli **1** (55:1, ton cemâl) — ölçüm satırında son konum 'MÜHÜRSÜZ'; tek kelimelik ayette ayrışma kayıtta, okumada mühür iddiası yazılmadı. 'zu'l-celâli ve'l-ikrâm' (55:27, 78) esmâ ölçümünde değil. Lafız 0, Rab 36.
+
+### Aday 1041 — kayıt
+Sûre 55'te kayıt yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+fâsıla 54:55 ر → 55:1 ن · 54:55 'melîk muqtedir' / 55:1 'er-rahmân' · 54 'yessernâ'l-qur'ân' nakaratı / 55:2 · 54:1 / 55:5 'el-qamer' · 54:49 / 55:5, 7 · 53:1 / 55:6 · 54:20 / 55:11 · 54:12 / 55:19 · 54:12 / 55:50 · 54:10 / 55:35 · 54:1 / 55:37 · 53:55 / 55:13. 55:78 → 56:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+78 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1021 gloss / lemma: 'hayrât' 'el-hayrât' ile aynı sayaçta; سمو 'ism' ile 'semâ'yı topluyor; 'husbân' 18:40 / 55:5 iki anlam.
+* 1017: nakaratın 2D muhatabı mealde adsız (metin 55:31, 33'te adlıyor); öğrenen, 2MP muhatap, kadınlar, yaslananlar, suçlular adsız.
+* 517: takdim ve mübteda hazfi ölçümde işaretsiz; 2D → 2MS sayı değişimi iltifât sayılmıyor (55:27, 78).
+* 924: 55:1 mühür ölçütü / son konum ayrışması (tek kelimelik ayet).
