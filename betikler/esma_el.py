@@ -490,4 +490,17 @@ KARAR = {
 '50:37:13': 'degil',  # ve huve şehîd — kulak veren kişi hazır / tanık
 '50:41:7': 'degil',  # min mekânin qarîb — yerin sıfatı
 '50:45:8': 'degil',  # ve mâ ente aleyhim bi-cebbâr — muhatap 2MS için olumsuzlanan
+'51:25:5': 'degil',  # fe-qâlû selâmen — konukların selamı
+'51:25:7': 'degil',  # qâle selâmun — İbrâhîm'in selamı
+'51:28:9': 'degil',  # bi-ğulâmin alîm — müjdelenen oğlanın sıfatı
+'51:30:7': 'ilahi',  # innehû huve'l-hakîm — Rab'bin sıfatı
+'51:30:8': 'ilahi',  # el-alîm — Rab'bin sıfatı
+'51:35:6': 'degil',  # mine'l-mu'minîn — Lût'un evindeki inananlar
+'51:38:8': 'degil',  # bi-sultânin mubîn — delilin sıfatı
+'51:50:8': 'degil',  # nezîrun mubîn — uyarıcının (1S) sıfatı
+# sûre 51 blok 51-60
+'51:51:11': 'degil',  # 'nezîrun mubîn' — uyarıcının sıfatı (51:50 ile aynı kalıp)
+'51:55:5': 'degil',   # 'el-mu'minîn' — insanlar
+'51:58:4': 'ilahi',   # 'inna'llâhe huve'r-razzâq' — lafzın yüklemi
+'51:58:7': 'ilahi',   # 'zu'l-quvveti'l-metîn' — lafzın sıfatı
 }
