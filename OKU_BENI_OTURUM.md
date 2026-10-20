@@ -1,19 +1,19 @@
-# OTURUM — sûre 55 (Rahmân) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 56 (Vâqı'a) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 3771 / 6236 ayet (%60,5)** — sûre 1 ve 9-55 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 56 (Vâqı'a, 96 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1408** kök · aday havuzu **1-1041** (sûre 55'te yeni aday yok, `AX_rahman` boş) · bağ seti `AS_rahman` 73 · esmâ KARAR 469.
+**Okunan: 3867 / 6236 ayet (%62,0)** — sûre 1 ve 9-56 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 57 (Hadîd, 29 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1414** kök · aday havuzu **1-1041** (sûre 56'da yeni aday yok, `AX_vakia` boş) · bağ seti `AS_vakia` 168 · esmâ KARAR 483.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç; blok denetimi `repo/betikler/` kopyasıyla — calisma/ kopyası korpusu bulamıyor, sahte ✗ verir).
-Paket: depo `95f7b81`'e göre fark (sûre 51 o commit'te; sûre 52, 53, 54 ve 55 bu zip'te — önceki zip'ler yüklenmediyse bu zip dördünü birlikte taşır). Ara zip 55:1-30'da verildi (aynı taban).
-Sûre 55 dosyaları: `kok_ekle_55.py` · `rahman_metin_1.py` (MEAL1-8/M1-8) · `rahman_kayit.py` (CIPA, ARIZA, DUZELTME boş) · `uret_blok_55.py` · `aday_ekle_55_rahman.py` · `yama_retroaktif_gloss_55.py` · `duzeltme_55.py` · `rahman_kapanis.py` (+ `rahman_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `rahman_paket_md.py` → `notlar/sure55_rahman_okuma.md`.
-Sûre 56 için şablonlar `rahman_*`'dan S=56 (yeni set adları; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-54 dosyaları: `duhan_*`, `casiye_*`, `ahkaf_*`, `muhammed_*`, `fetih_*`, `hucurat_*`, `qaf_*`, `zariyat_*`, `tur_*`, `necm_*`, `kamer_*` (aynı düzen).
+Paket: depo `dd30f51`'e göre fark (sûre 56 bu zip'te). Ara zip'ler 56:1-30 ve 56:1-60'ta verildi (aynı taban).
+Sûre 56 dosyaları: `kok_ekle_56.py` · `vakia_metin_1.py` (MEAL1-10/M1-10) · `vakia_kayit.py` (CIPA, ARIZA, DUZELTME 4) · `uret_blok_56.py` · `aday_ekle_56_vakia.py` · `yama_retroaktif_gloss_56.py` · `duzeltme_56.py` · `vakia_kapanis.py` (+ `vakia_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `vakia_paket_md.py` → `notlar/sure56_vakia_okuma.md`.
+Sûre 57 için şablonlar `vakia_*`'dan S=57 (yeni set adları `AX_/AS_`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-55 dosyaları: `duhan_*` … `kamer_*`, `rahman_*` (aynı düzen).
 **Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü (heredoc ile yaz; `python -c` içinde \n kaçışı bozuluyor), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı onayına açık.
-**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 55'te 78/78).
-**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 56:1 okunurken 55:78 ile bağ kayıt olarak yazılabilir (sûre 55: 54:55 / 55:1, 54:1 / 55:5, 54:49 / 55:5, 7, 53:1 / 55:6, 54:20 / 55:11, 54:12 / 55:19, 50, 53:55 / 55:13, 54:10 / 55:35, 54:1 / 55:37).
-**Aday 1041:** aynı kelimenin Allah ve insan için kullanılması — kayıt (sûre 54 ve 55'te yok; sûre 53: 'istevâ', عزز, غفر).
-**Çıpa:** sûre 55'te L4, L3 yok; L2 55:33 (tarayıcı adayı, çıpa değil); L1 12 ayet; L0 55:3; olgu değil 10 ayet (cânn, gemi, cennet); **48:29 ekin büyümesi L4 adayı, teşbih içinde — TARTIŞMALI, karar kullanıcıda**.
+**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 56'da 96/96).
+**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 57:1 okunurken 56:96 ile bağ kayıt olarak yazılabilir (sûre 56: 55:78 / 56:1, 55:7 / 56:3, 55:37 / 56:4-6, 55:52 / 56:7, 55:60 / 56:24).
+**Aday 1041:** aynı kelimenin Allah ve insan için kullanılması — kayıt (sûre 56: 56:59 خلق, 64 زرع, 69 نزل, 72 نشأ; ayet içi insan 2MP soru / 1P).
+**Çıpa:** sûre 56'da L4, L3, L2 yok; L1 18 ayet; L0 56:57, 62; olgu değil 18 ayet (insan sınıfları, cennet, cehennem); **48:29 ekin büyümesi L4 adayı, teşbih içinde — TARTIŞMALI, karar kullanıcıda**.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 55 RAHMÂN SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 56 VÂQI'A SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -96,11 +96,15 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * oturum_say kalıbı harekesiz imlâ farkıyla ayırır (54:42 'bi-âyâtinâ' / 20:56 'âyâtinâ', --on ile de) — eşleşme okumayla yazılır, sayı iddia edilmez.
 * Nekre esmâ (54:42 'ahze azîzin muqtedir', 54:55 'inde melîkin muqtedir') göndergeye göre karar alır — sınır vakası olarak işaretlenir; karar eklendikten sonra `esma_kayit.py` yeniden koşulmadan bilanço geçerli mühürü göstermez.
 * Alıntı yapılan sûre içi ayetin sözü nota metne bakılarak yazılır (54:47'de 54:24 'elçiye uyarsak' diye yanlış özetlenmişti; kayıttan sonra düzeltildi).
-* Sûre 56'dan itibaren: okunmamış sûre listesi 3-8, 2:21+ ve 56+ — okunan sûrenin kendi ileri ayetleri de 'henüz okunmadı'.
+* Sûre 57'den itibaren: okunmamış sûre listesi 3-8, 2:21+ ve 57+ — okunan sûrenin kendi ileri ayetleri de 'henüz okunmadı'.
 * Nakarat sûrelerinde ayet kalıbı yardımcıyla yazılır (sûre 55 `_nak8`), geçiş numarası ve [x/y] sayıları ölçüm satırından alınır; her blokta oturum_xy 0.
 * ARIZA / not dizgelerinde iç tek tırnak kullanılırken dış tırnak çift olmalı (55:61-70 sözdizimi hatası dersi).
 * Tek kelimelik ayette mühür ölçütü ile ölçüm satırının 'son konum' etiketi ayrışabilir (55:1) — mühür iddiası yazılmaz, ayrışma ARIZA'ya.
 * Paket betiği sed ile kopyalanınca set anahtarı (`AX_<ad>`) elle kontrol edilir (sûre 55'te `AX_kamer` kalmıştı, düzeltildi).
+* Kayıt metnine (mercek, ARIZA, DUZELTME, bağ notu) kök biçimi dışında Arapça kelime / imlâ parçası yazılmaz — `anahtar_denetim` T4 olarak sayar (sûre 56: 56:41-50'de 72, 56:81-90'da 76); imlâ farkı Latin harfle tarif edilir ('düz elif' / 'elif-medde'). Düzeltme okuma_metni'nin `duzeltildi` alanına da işlenir.
+* Harekesiz kalıp 'fe-levlâ'yı düz elif (56:57, 62, 70) ve elif-medde (56:83, 86) yazımında ayrı sayar — sûre içi 'N kez' iddiası lemma sayımıyla (morph LEM) yazılır (sûre 56: DUZELTME 56:62, 70).
+* Okunmamış ayetin esit2 / xref anması da 'henüz okunmadı' işareti ister (56:96 — 69:52).
+* Basılan emsal ayetin sûre içi bağlamı ('cennet sahnesinin içinde') basılmamış komşu ayetlerden yazılmaz (56:95 — 37:60, kayıttan önce silindi).
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).

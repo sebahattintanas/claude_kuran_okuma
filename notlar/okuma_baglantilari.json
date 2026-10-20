@@ -22821,5 +22821,847 @@
    "kural": "okuma — sûre 'er-rahmân' ile açılıp 'ismu rabbik' ile kapanıyor",
    "not": "baş / son."
   }
+ ],
+ "AS_vakia": [
+  {
+   "bag": "55:78 → 56:1",
+   "kural": "okuma — ardışık sûre sınırı; Rab + 'zi'l-celâli ve'l-ikrâm' / lafız ve Rab yok; fâsıla م → ة (aday 1040, kayıt)",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "42:22 · 51:6 · 52:7 → 56:1",
+   "kural": "lemma 'vâqı'' 6 ayet — haber 'vâqı'' / fiil + fâil aynı kökten ('veqa'ati'l-vâqı'a'; 69:15 henüz okunmadı)",
+   "not": "vuku."
+  },
+  {
+   "bag": "52:7 · 52:8 → 56:1 · 56:2",
+   "kural": "okuma — vuku + geri çeviren / yalanlayan yok, iki ayette",
+   "not": "olumsuzlama."
+  },
+  {
+   "bag": "15:88 · 17:24 · 26:215 → 56:3",
+   "kural": "kök خفض 4 ayet — emir 'ihfid cenâh' / ism-i fâil 'hâfida'",
+   "not": "alçaltma."
+  },
+  {
+   "bag": "55:7 → 56:3",
+   "kural": "okuma — 'rafe'ahâ' / 'râfi'a' (aday 1040, kayıt)",
+   "not": "yükseltme."
+  },
+  {
+   "bag": "22:1 → 56:4",
+   "kural": "okuma — sarsıntı başka kökle ad / fiil + mef'ûl mutlak",
+   "not": "sarsıntı."
+  },
+  {
+   "bag": "20:105 · 52:10 · 27:88 → 56:5",
+   "kural": "okuma — dağlar + mef'ûl mutlak; fâil Rab / dağlar özne / edilgen",
+   "not": "dağlar."
+  },
+  {
+   "bag": "52:9 · 52:10 → 56:4 · 56:5",
+   "kural": "okuma — iki mef'ûl mutlak ard arda: gök, dağlar / yer, dağlar",
+   "not": "dizi."
+  },
+  {
+   "bag": "25:23 → 56:6",
+   "kural": "lemma 'hebâ'' 2 ayet — amel / dağlar; 'mensûr' / 'munbess'",
+   "not": "toz."
+  },
+  {
+   "bag": "31:10 · 42:29 · 45:4 · 12:86 → 56:6",
+   "kural": "kök بثث 9 ayet — canlı yayma / dert / dağılmış toz",
+   "not": "yayılma."
+  },
+  {
+   "bag": "55:37 → 56:4 · 56:6",
+   "kural": "tam kalıp 'fe-kânet' 5 ayet — 'izâ + PERF … fe-kânet' gök / yer, dağlar (aday 1040, kayıt)",
+   "not": "kuruluş."
+  },
+  {
+   "bag": "15:88 → 56:7",
+   "kural": "okuma — 'ezvâcen minhum' insan kesimleri / 'ezvâcen selâse'",
+   "not": "sınıflar."
+  },
+  {
+   "bag": "55:52 → 56:7",
+   "kural": "okuma — 'zevcân' meyve çiftleri / 'ezvâc' insan sınıfları (aday 1040, kayıt)",
+   "not": "zevc."
+  },
+  {
+   "bag": "35:32 → 56:7 · 56:10",
+   "kural": "okuma — üç adlı insan sınıfı, üçüncüsü 'sâbiq' (çıpa değil; doğal olgu değil)",
+   "not": "üç sınıf."
+  },
+  {
+   "bag": "56:7 → 56:8 · 56:9 · 56:10",
+   "kural": "okuma — 'selâse' → üç ayette üç ad",
+   "not": "tafsîl."
+  },
+  {
+   "bag": "56:8 · 56:9",
+   "kural": "okuma — aynı kuruluş, meymene / meş'eme (aday 1039, kayıt; 90:18-19 henüz okunmadı)",
+   "not": "sağ / sol."
+  },
+  {
+   "bag": "9:100 → 56:10",
+   "kural": "tam kalıp 've's-sâbiqûn' 2 ayet",
+   "not": "öndekiler."
+  },
+  {
+   "bag": "23:61 · 29:39 · 36:40 → 56:10",
+   "kural": "lemma 'sâbiq' 6 ayet — hayırlarla / olumsuz / gece",
+   "not": "sâbiq."
+  },
+  {
+   "bag": "26:42 → 56:11",
+   "kural": "lemma 'muqarrab' 8 ayet — Firavun'un vaadi / yakınlaştıran adsız",
+   "not": "yakınlaştırılanlar."
+  },
+  {
+   "bag": "56:10 → 56:11",
+   "kural": "okuma — 'ulâ'ike' göndergesi 'es-sâbiqûn'",
+   "not": "gönderge."
+  },
+  {
+   "bag": "10:9 · 22:56 · 37:43 → 56:12",
+   "kural": "tam kalıp 'fî cennâti'n-na'îm' 4 ayet; esit2 → 37:43 TAM",
+   "not": "nimet cennetleri."
+  },
+  {
+   "bag": "52:17 → 56:12",
+   "kural": "okuma — 'fî cennâtin ve na'îm' atıfla",
+   "not": "cennet ve nimet."
+  },
+  {
+   "bag": "9:100 → 56:10 · 56:13",
+   "kural": "okuma — 'es-sâbiqûne'l-evvelûn' bir ayette / 56:10 sâbiqûn, 56:13 evvelîn",
+   "not": "öncekiler."
+  },
+  {
+   "bag": "35:43 → 56:13",
+   "kural": "lemma 'evvel' 82 ayet — 'el-evvelîn' insanlar (esmâ kararı değil)",
+   "not": "evvelîn."
+  },
+  {
+   "bag": "37:78 → 56:14",
+   "kural": "lemma 'âhir' 153 ayet — 'el-âhirîn' insanlar (esmâ kararı değil)",
+   "not": "âhirîn."
+  },
+  {
+   "bag": "56:13 · 56:14",
+   "kural": "okuma — sulle / qalîl, evvelîn / âhirîn (aday 1039, kayıt; 56:39-40 henüz okunmadı)",
+   "not": "karşıt çift."
+  },
+  {
+   "bag": "15:47 · 37:44 · 52:20 → 56:15",
+   "kural": "tam kalıp 'alâ surur' 4 ayet — 'mutaqâbilîn' / 'masfûfe' / 'mevdûne'",
+   "not": "tahtlar."
+  },
+  {
+   "bag": "15:47 · 37:44 · 44:53 → 56:16",
+   "kural": "lemma 'mutaqâbil' 4 ayet",
+   "not": "karşılıklı."
+  },
+  {
+   "bag": "18:31 · 38:51 · 52:20 · 55:54 · 55:76 → 56:16",
+   "kural": "tam kalıp 'muttaki'în' 7 ayet (76:13 henüz okunmadı)",
+   "not": "yaslanma."
+  },
+  {
+   "bag": "43:34 → 56:15 · 56:16",
+   "kural": "okuma — 'surur … aleyhâ yettaki'ûn' dünyada / cennette",
+   "not": "tahtlar."
+  },
+  {
+   "bag": "37:45 · 43:71 · 52:24 → 56:17",
+   "kural": "lemma 'tâfe' 8 ayet — edilgen 'yutâfu' / etken 'yetûfu' + 'ğilmân' / 'vildân' (76:19 xref henüz okunmadı)",
+   "not": "dolaşma."
+  },
+  {
+   "bag": "26:18 → 56:17",
+   "kural": "lemma 'velîd' 7 ayet — çocuk / cennette dolaşanlar",
+   "not": "velîd."
+  },
+  {
+   "bag": "37:45 → 56:18",
+   "kural": "lemma dizisi 'ke's min ma'în' 2 ayet",
+   "not": "kadeh."
+  },
+  {
+   "bag": "43:71 → 56:18",
+   "kural": "lemma 'ekvâb' 4 ayet",
+   "not": "kupalar."
+  },
+  {
+   "bag": "23:50 → 56:18",
+   "kural": "lemma 'ma'în' 4 ayet — yeryüzü / cennet",
+   "not": "pınar."
+  },
+  {
+   "bag": "37:47 → 56:19",
+   "kural": "lemma 'yunzefu' 2 ayet — 'anhâ yunzefûn' / 'anhâ … yunzifûn'",
+   "not": "akıl gitmez."
+  },
+  {
+   "bag": "15:94 · 30:43 → 56:19",
+   "kural": "kök صدع 5 ayet — açıkça söyleme / ayrılma / baş ağrısı",
+   "not": "sad'."
+  },
+  {
+   "bag": "52:22 → 56:20",
+   "kural": "lemma 'fâkihe' 11 ayet — 'mimmâ yeştehûn' / 'mimmâ yetehayyerûn'",
+   "not": "meyve."
+  },
+  {
+   "bag": "37:43 · 37:44 · 37:45 · 37:47 → 56:12 · 56:15 · 56:16 · 56:17 · 56:18 · 56:19",
+   "kural": "okuma — sıralı eşleşme, ardışık değil (okuma bağı; 1040 alanı değil)",
+   "not": "sıra."
+  },
+  {
+   "bag": "52:22 → 56:20 · 56:21",
+   "kural": "lemma dizisi 'mimmâ yeştehûn' 3 ayet — bir ayette fâkihe + lahm / iki ayette iki fiil",
+   "not": "arzu."
+  },
+  {
+   "bag": "16:14 · 35:12 → 56:21",
+   "kural": "lemma 'lahm' 12 ayet — denizden taze et / kuş eti",
+   "not": "et."
+  },
+  {
+   "bag": "44:54 · 52:20 → 56:22",
+   "kural": "lemma 'hûr' 4 ayet — 'zevvecnâhum bi-hûrin în' / fiilsiz merfû",
+   "not": "hûr."
+  },
+  {
+   "bag": "37:48 · 37:49 → 56:22 · 56:23",
+   "kural": "okuma — 'în' + 'meknûn' teşbihi iki ayette",
+   "not": "teşbih."
+  },
+  {
+   "bag": "52:24 → 56:23",
+   "kural": "lemma dizisi 'lu'lu' meknûn' 2 ayet — gençler / hûriler",
+   "not": "inci."
+  },
+  {
+   "bag": "32:17 · 46:14 → 56:24",
+   "kural": "tam kalıp 'cezâ'en bi-mâ kânû ya'melûn' 3 ayet; xref ölçümde",
+   "not": "karşılık."
+  },
+  {
+   "bag": "55:60 → 56:24",
+   "kural": "okuma — 'cezâ'' soru / mef'ûl leh (aday 1040, kayıt)",
+   "not": "cezâ."
+  },
+  {
+   "bag": "19:62 → 56:25 · 56:26",
+   "kural": "tam kalıp 'lâ yesme'ûne fîhâ lağven' 3 ayet (78:35 henüz okunmadı) — 'illâ selâmâ' bir ayette / iki ayette",
+   "not": "boş söz yok."
+  },
+  {
+   "bag": "52:23 → 56:25",
+   "kural": "lemma 'te'sîm' 2 ayet — 'lâ lağvun … ve lâ te'sîm'",
+   "not": "günah sözü."
+  },
+  {
+   "bag": "23:3 · 28:55 → 56:25",
+   "kural": "lemma 'lağv' 9 ayet — dünyada yüz çevirme / cennette yok",
+   "not": "lağv."
+  },
+  {
+   "bag": "10:10 · 14:23 · 36:58 → 56:26",
+   "kural": "lemma 'selâm' 39 ayet — cennette selam; 36:58 'qavl' + kaynak Rab / 'qîl' kaynaksız",
+   "not": "selâm."
+  },
+  {
+   "bag": "56:25 · 56:26",
+   "kural": "okuma — lağv, te'sîm / selâm (aday 1039, kayıt)",
+   "not": "karşıt çift."
+  },
+  {
+   "bag": "56:8 → 56:27",
+   "kural": "okuma — aynı kuruluş, 'meymene' → 'yemîn'; birinci sınıfa dönüş",
+   "not": "sağın ehli."
+  },
+  {
+   "bag": "34:16 → 56:28",
+   "kural": "lemma 'sidr' 2 ayet — 'sidrin qalîl' dünya / 'sidrin mahdûd' cennet (aday 1039, okuma)",
+   "not": "sidr."
+  },
+  {
+   "bag": "11:82 · 50:10 → 56:29",
+   "kural": "kök نضد 3 ayet — taşlar / tomurcuk / talh",
+   "not": "dizili."
+  },
+  {
+   "bag": "25:45 → 56:30",
+   "kural": "okuma — 'medde'z-zıll' fiil, fâil Rab / 'zıllin memdûd' edilgen ortaç",
+   "not": "gölge."
+  },
+  {
+   "bag": "13:35 · 36:56 · 16:81 → 56:30",
+   "kural": "lemma 'zıll' 14 ayet — cennet / dünya gölgesi",
+   "not": "zıll."
+  },
+  {
+   "bag": "52:20 · 52:22 · 52:23 · 52:24 → 56:21 · 56:22 · 56:23 · 56:25",
+   "kural": "okuma — dağılmış eşleşme, ardışık değil (okuma bağı; 1040 alanı değil)",
+   "not": "sıra."
+  },
+  {
+   "bag": "47:15 → 56:31",
+   "kural": "okuma — cennet suyu: 'ğayri âsin' / 'meskûb'",
+   "not": "su."
+  },
+  {
+   "bag": "54:11 → 56:31",
+   "kural": "okuma — 'bi-mâ'in munhemir' fâil 1P / 'mâ'in meskûb' döken adsız",
+   "not": "dökülen su."
+  },
+  {
+   "bag": "38:51 · 43:73 → 56:32",
+   "kural": "lemma dizisi 'fâkihe kesîre' 3 ayet",
+   "not": "bol meyve."
+  },
+  {
+   "bag": "23:19 → 56:32 · 56:35",
+   "kural": "okuma — dünya bahçesinde 'fevâkihu kesîra' + 1P 'enşe'nâ' / cennette 'fâkihe kesîre' + 'enşe'nâhunne'",
+   "not": "inşâ."
+  },
+  {
+   "bag": "13:35 → 56:33",
+   "kural": "okuma — 'ukuluhâ dâ'im' olumlu / iki olumsuz edilgen ortaç",
+   "not": "tükenmeyen."
+  },
+  {
+   "bag": "55:54 → 56:34",
+   "kural": "lemma 'firâş' 3 ayet",
+   "not": "döşek."
+  },
+  {
+   "bag": "56:3 · 56:34",
+   "kural": "kök رفع sûre içi 2 — 'râfi'a' / 'merfû'a'",
+   "not": "yükseltme."
+  },
+  {
+   "bag": "23:14 · 36:79 · 29:20 → 56:35",
+   "kural": "lemma 'enşe'e' 20 ayet — insan evresi / ilk inşâ / ikinci neş'e",
+   "not": "inşâ."
+  },
+  {
+   "bag": "38:52 → 56:37",
+   "kural": "lemma 'etrâb' 3 ayet (78:33 henüz okunmadı)",
+   "not": "yaşıtlar."
+  },
+  {
+   "bag": "43:3 · 41:3 → 56:37",
+   "kural": "kök عرب 22 ayet — 'arabiyy' dil / ''urub' (kök sayacı ayırmıyor; 1021)",
+   "not": "urub."
+  },
+  {
+   "bag": "56:27 · 56:38",
+   "kural": "lemma dizisi 'ashâb + yemîn' sûre içi — soru / 'li-'",
+   "not": "sağın ehli."
+  },
+  {
+   "bag": "56:13 · 56:39",
+   "kural": "tam kalıp 'sulletun mine'l-evvelîn' 2 ayet, ikisi bu sûrede; esit2 TAM",
+   "not": "tekrar."
+  },
+  {
+   "bag": "56:14 · 56:40",
+   "kural": "okuma — 'qalîlun' / 'sulletun' mine'l-âhirîn (aday 1039, kayıt)",
+   "not": "az / topluluk."
+  },
+  {
+   "bag": "56:39 · 56:40",
+   "kural": "okuma — evvelîn / âhirîn (aday 1039, kayıt)",
+   "not": "karşıt çift."
+  },
+  {
+   "bag": "56:9 → 56:41",
+   "kural": "okuma — aynı kuruluş, 'meş'eme' → 'şimâl'; ikinci sınıfa dönüş",
+   "not": "solun ehli."
+  },
+  {
+   "bag": "56:27 · 56:41",
+   "kural": "okuma — yemîn / şimâl (aday 1039, kayıt)",
+   "not": "sağ / sol."
+  },
+  {
+   "bag": "50:17 · 34:15 → 56:41",
+   "kural": "lemma 'şimâl' 7 ayet — 'yemîn' ile çift",
+   "not": "şimâl."
+  },
+  {
+   "bag": "15:27 · 52:27 → 56:42",
+   "kural": "lemma 'semûm' 3 ayet — yaratılış maddesi / korunulan azap / yer",
+   "not": "semûm."
+  },
+  {
+   "bag": "55:44 · 44:46 · 44:48 · 47:15 → 56:42",
+   "kural": "lemma 'hamîm' 19 ayet",
+   "not": "kaynar su."
+  },
+  {
+   "bag": "56:28 · 56:42",
+   "kural": "okuma — 'fî sidr' / 'fî semûm' (aday 1039, kayıt)",
+   "not": "yer."
+  },
+  {
+   "bag": "56:30 · 56:43",
+   "kural": "okuma — 'zıllin memdûd' / 'zıllin min yahmûm' (aday 1039, kayıt)",
+   "not": "gölge."
+  },
+  {
+   "bag": "56:33 · 56:44",
+   "kural": "okuma — 'lâ … ve lâ …' iki olumsuz sıfat sağ / sol (aday 1039, kayıt)",
+   "not": "olumsuzlar."
+  },
+  {
+   "bag": "38:42 → 56:44",
+   "kural": "lemma 'bârid' 2 ayet — serin su / serin olmayan gölge",
+   "not": "serin."
+  },
+  {
+   "bag": "51:16 → 56:45",
+   "kural": "lemma dizisi 'inne + kâne + qabl' 3 ayet — 'qable zâlike muhsinîn' / 'mutrafîn' (aday 1039, okuma)",
+   "not": "önceden."
+  },
+  {
+   "bag": "17:16 · 34:34 · 43:23 → 56:45",
+   "kural": "lemma 'mutraf' 5 ayet — kentin şımarmış kesimi",
+   "not": "mutraf."
+  },
+  {
+   "bag": "45:8 → 56:46",
+   "kural": "lemma 'esarra' 4 ayet",
+   "not": "ısrar."
+  },
+  {
+   "bag": "23:82 · 37:16 → 56:47",
+   "kural": "lemma dizisi 3 ayet; esit2 → 23:82 BENZER; xref 23:35, 37:53",
+   "not": "diriliş itirazı."
+  },
+  {
+   "bag": "37:17 → 56:48",
+   "kural": "tam kalıp 'e-ve âbâ'unâ'l-evvelûn' 2 ayet; esit2 TAM",
+   "not": "atalar."
+  },
+  {
+   "bag": "37:16 · 37:17 → 56:47 · 56:48",
+   "kural": "okuma — iki ayetlik sıralı eşleşme, ardışık değil (okuma bağı)",
+   "not": "sıra."
+  },
+  {
+   "bag": "56:48 → 56:49",
+   "kural": "okuma — 'âbâ'unâ'l-evvelûn' sorusu / 'el-evvelîne ve'l-âhirîn' cevabı; 'qul' sûrenin ilk 2MS'si",
+   "not": "cevap."
+  },
+  {
+   "bag": "56:13 · 56:14 · 56:39 · 56:40 · 56:49",
+   "kural": "okuma — 'evvel' + 'âhir' üç kez: iki ayette, iki ayette, bir ayette",
+   "not": "evvelîn / âhirîn."
+  },
+  {
+   "bag": "26:38 → 56:50",
+   "kural": "lemma dizisi 'mîqâti yevmin ma'lûm' 2 ayet; xref ölçümde — sihirbazlar / öncekiler ve sonrakiler",
+   "not": "toplanma."
+  },
+  {
+   "bag": "11:103 · 44:40 → 56:50",
+   "kural": "lemma 'mecmû'' 2 ayet; 'mîqât' + toplanma",
+   "not": "belirli gün."
+  },
+  {
+   "bag": "1:7 · 15:56 · 52:11 → 56:51",
+   "kural": "lemma 'dâll' 14, 'mukezzib' 21 ayet; ikisi bir arada sûre içi 56:51, 56:92 (henüz okunmadı)",
+   "not": "sapıklar."
+  },
+  {
+   "bag": "37:62 · 44:43 → 56:52",
+   "kural": "lemma 'zaqqûm' 3 ayet",
+   "not": "zakkum."
+  },
+  {
+   "bag": "23:20 → 56:52",
+   "kural": "lemma 'âkil' 3 ayet — dünya ağacı 'li'l-âkilîn' / zakkum (aday 1039, okuma)",
+   "not": "yiyenler."
+  },
+  {
+   "bag": "37:66 → 56:52 · 56:53",
+   "kural": "tam kalıp 'minhe'l-butûn' 2 ayet; 'mâli'' 2 ayet — bir ayet / iki ayet",
+   "not": "karın."
+  },
+  {
+   "bag": "44:45 → 56:53",
+   "kural": "okuma — karınlarda kaynama / karınları doldurma",
+   "not": "butûn."
+  },
+  {
+   "bag": "37:67 → 56:54",
+   "kural": "okuma — 'aleyhâ … min hamîm' / 'aleyhi mine'l-hamîm'",
+   "not": "üstüne."
+  },
+  {
+   "bag": "16:66 · 37:46 · 47:15 → 56:54 · 56:55",
+   "kural": "lemma 'şârib' 5 ayet — hoş içecek / kaynar su",
+   "not": "içenler."
+  },
+  {
+   "bag": "26:225 → 56:55",
+   "kural": "kök هيم 2 ayet — başıboş dolaşma / susuzluk",
+   "not": "hîm."
+  },
+  {
+   "bag": "37:62 → 56:52 · 56:56",
+   "kural": "okuma — 'nuzul' + 'zaqqûm' bir ayette / iki ayette",
+   "not": "nuzul."
+  },
+  {
+   "bag": "32:19 · 18:102 → 56:56",
+   "kural": "lemma 'nuzul' 8 ayet — cennet / cehennem (aday 1039, okuma)",
+   "not": "konuk yemeği."
+  },
+  {
+   "bag": "1:4 · 51:12 → 56:56",
+   "kural": "tam kalıp 'yevme'd-dîn' 10 ayet",
+   "not": "din günü."
+  },
+  {
+   "bag": "37:62 · 37:66 · 37:67 → 56:52 · 56:53 · 56:54 · 56:56",
+   "kural": "okuma — sıralı eşleşme, ardışık değil (okuma bağı; sûre 37 ile bu sûrede üçüncü)",
+   "not": "sıra."
+  },
+  {
+   "bag": "23:14 → 56:57",
+   "kural": "okuma — 'halaqnâ' aşamalı / aşamasız 'halaqnâkum'",
+   "not": "yaratma."
+  },
+  {
+   "bag": "26:75 · 39:38 · 53:19 → 56:58",
+   "kural": "tam kalıp 'e-fe-ra'eytum' 7 ayet — putlar / meni",
+   "not": "gördünüz mü."
+  },
+  {
+   "bag": "53:46 → 56:58",
+   "kural": "lemma 'yumnâ' 3 ayet — edilgen 'tumnâ' / etken 'tumnûn'",
+   "not": "meni."
+  },
+  {
+   "bag": "52:35 → 56:59",
+   "kural": "okuma — 'em humu'l-hâliqûn' (esmâ DEĞİL) / 'em nahnu'l-hâliqûn' (esmâ İLÂHÎ)",
+   "not": "yaratanlar."
+  },
+  {
+   "bag": "56:59",
+   "kural": "okuma — kök خلق aynı ayette insan / Allah (aday 1041, kayıt)",
+   "not": "1041."
+  },
+  {
+   "bag": "25:2 → 56:59 · 56:60",
+   "kural": "okuma — 'halaqa … fe-qaddarahû' / 'el-hâliqûn' → 'qaddernâ'",
+   "not": "takdir."
+  },
+  {
+   "bag": "56:10 · 56:60",
+   "kural": "kök سبق sûre içi 3 — 'es-sâbiqûn' / 'mesbûqîn' (aday 1039, kayıt)",
+   "not": "geçen / geçilen."
+  },
+  {
+   "bag": "14:48 · 16:101 → 56:61",
+   "kural": "lemma 'beddele' 21 ayet — yerin değiştirilmesi / 1P değiştirme (76:28 henüz okunmadı)",
+   "not": "değiştirme."
+  },
+  {
+   "bag": "56:35 · 56:61",
+   "kural": "lemma 'enşe'e' sûre içi — kadınlar / muhataplar (56:72 henüz okunmadı)",
+   "not": "inşâ."
+  },
+  {
+   "bag": "29:20 · 53:47 → 56:62",
+   "kural": "lemma 'neş'e' 3 ayet — âhira / uhrâ / ûlâ (aday 1039, okuma)",
+   "not": "yaratılış."
+  },
+  {
+   "bag": "56:57 · 56:62 · 56:70",
+   "kural": "tam kalıp 'fe-levlâ' sûre içi 3 — tasdik / tezekkür / şükür",
+   "not": "fe-levlâ."
+  },
+  {
+   "bag": "56:58 · 56:63 · 56:68",
+   "kural": "tam kalıp 'e-fe-ra'eytum' sûre içi (56:71 henüz okunmadı) — meni / ekin / su",
+   "not": "gördünüz mü."
+  },
+  {
+   "bag": "56:59 · 56:64 · 56:69",
+   "kural": "okuma — 'e-entum … em nahnu'l-…ûn' üç kez: yaratma / bitirme / indirme (aday 1041, kayıt)",
+   "not": "siz mi, Biz mi."
+  },
+  {
+   "bag": "12:47 → 56:64",
+   "kural": "lemma 'tezra'u' 2 ayet — insan ekmesi / soru",
+   "not": "ekme."
+  },
+  {
+   "bag": "39:21 → 56:65",
+   "kural": "lemma 'hutâm' 3 ayet — beş aşamanın sonu (L4) / tek aşama şartlı (L1)",
+   "not": "çer çöp."
+  },
+  {
+   "bag": "25:45 → 56:65 · 56:70",
+   "kural": "lemma dizisi 'lev + şâ'e + ce'ale' 4 ayet; nakarat3 56:65 / 70 GEÇMEZ",
+   "not": "şart."
+  },
+  {
+   "bag": "51:19 → 56:67",
+   "kural": "lemma 'mahrûm' 4 ayet — başkası / konuşanlar (68:27 esit2 TAM, henüz okunmadı)",
+   "not": "yoksun."
+  },
+  {
+   "bag": "56:54 · 56:68",
+   "kural": "kök شرب sûre içi — cehennemde kaynar su / dünyada içilen su (aday 1039, kayıt)",
+   "not": "içme."
+  },
+  {
+   "bag": "50:9 → 56:69",
+   "kural": "okuma — gökten su + 'bihî' (L2) / buluttan su, sonuç yok (L1)",
+   "not": "indirme."
+  },
+  {
+   "bag": "12:59 · 23:29 → 56:69",
+   "kural": "lemma 'munzil' 5 ayet — insan / Rab / 1P (aday 1041, kayıt)",
+   "not": "munzil."
+  },
+  {
+   "bag": "25:53 · 35:12 → 56:70",
+   "kural": "lemma 'ucâc' 3 ayet — iki denizden biri / içilen suyun tuzlu kılınabilmesi",
+   "not": "tuzlu."
+  },
+  {
+   "bag": "36:80 → 56:71 · 56:72",
+   "kural": "okuma — yeşil ağaçtan ateş 'tûqidûn' / 'tûrûn' + 'şeceratehâ'",
+   "not": "ateş."
+  },
+  {
+   "bag": "56:58 · 56:63 · 56:68 · 56:71",
+   "kural": "tam kalıp 'e-fe-ra'eytum' sûre içi 4 — meni / ekin / su / ateş (dizi tamam)",
+   "not": "dört soru."
+  },
+  {
+   "bag": "56:59 · 56:64 · 56:69 · 56:72",
+   "kural": "okuma — 'e-entum … em nahnu'l-…ûn' dört kez (aday 1041, kayıt)",
+   "not": "dört cevap."
+  },
+  {
+   "bag": "56:52 · 56:72",
+   "kural": "kök شجر sûre içi 2 — zakkum ağacı / ateşin ağacı (aday 1039, okuma)",
+   "not": "ağaç."
+  },
+  {
+   "bag": "20:3 → 56:73",
+   "kural": "lemma 'tezkira' 9 ayet",
+   "not": "hatırlatma."
+  },
+  {
+   "bag": "15:98 · 52:48 → 56:74",
+   "kural": "okuma — 'fe-sebbih bi-hamdi rabbik' / 'bi'smi rabbike'l-azîm' (56:96, 69:52 tam kalıp; henüz okunmadı)",
+   "not": "tesbih."
+  },
+  {
+   "bag": "14:44 · 35:42 → 56:75",
+   "kural": "lemma 'aqsemu' 19 ayet — insanların yemini / 1S yemini",
+   "not": "yemin."
+  },
+  {
+   "bag": "53:1 → 56:75",
+   "kural": "okuma — yıldız + düşme, yemin nesnesi",
+   "not": "yıldız."
+  },
+  {
+   "bag": "56:1 · 56:75",
+   "kural": "kök وقع sûre içi 4 — 'vâqı'a' / 'mevâqi'u'n-nucûm'",
+   "not": "vuku."
+  },
+  {
+   "bag": "56:46 · 56:74 · 56:76",
+   "kural": "lemma 'azîm' sûre içi — günah / Rab / yemin",
+   "not": "azîm."
+  },
+  {
+   "bag": "56:44 · 56:77",
+   "kural": "kök كرم sûre içi 2 — 'lâ kerîm' gölge / 'kerîm' Kur'ân (aday 1039, kayıt)",
+   "not": "kerîm."
+  },
+  {
+   "bag": "43:4 → 56:78",
+   "kural": "okuma — 'innehû fî ummi'l-kitâb' / 'fî kitâbin meknûn'",
+   "not": "kitap."
+  },
+  {
+   "bag": "56:23 · 56:78",
+   "kural": "lemma 'meknûn' sûre içi 2 — inci / kitap",
+   "not": "saklı."
+  },
+  {
+   "bag": "32:2 · 26:192 · 39:1 · 45:2 → 56:80",
+   "kural": "lemma 'tenzîl' 15 ayet; xref 26:192 (69:43 esit2 TAM, henüz okunmadı)",
+   "not": "indirme."
+  },
+  {
+   "bag": "56:69 · 56:80",
+   "kural": "kök نزل sûre içi — su indirme / Kur'ân indirme",
+   "not": "nüzûl."
+  },
+  {
+   "bag": "53:59 → 56:81",
+   "kural": "okuma — 'e-fe- + câr + hâze'l-hadîs + 2MP' (ta'cebûn / mudhinûn)",
+   "not": "bu söz."
+  },
+  {
+   "bag": "39:23 → 56:81",
+   "kural": "kalıp 'el-hadîs' 6 ayet — 'ahsene'l-hadîs' kitap",
+   "not": "hadîs."
+  },
+  {
+   "bag": "51:22 → 56:82",
+   "kural": "lemma 'rizq' 53 ayet — gökte rızkınız / yalanlamayı rızık kılmak",
+   "not": "rızık."
+  },
+  {
+   "bag": "56:83 · 56:86 · 56:57 · 56:62 · 56:70",
+   "kural": "lemma 'levlâ' sûre içi 5 — elif-medde / düz elif imlâ farkı kalıbı ayırıyor (DUZELTME 56:62, 70)",
+   "not": "levlâ."
+  },
+  {
+   "bag": "50:16 · 50:19 → 56:83 · 56:85",
+   "kural": "lemma dizisi 'aqrab + ilâ + min' 2 ayet — şah damarı / sizden; ölüm anı",
+   "not": "yakınlık."
+  },
+  {
+   "bag": "56:84 · 56:85",
+   "kural": "okuma — 'tenzurûn' / 'lâ tubsirûn' (aday 1039, kayıt)",
+   "not": "bakma / görme."
+  },
+  {
+   "bag": "37:53 → 56:86",
+   "kural": "lemma 'medîn' 2 ayet — inkârcı sorusu / şart",
+   "not": "hesap."
+  },
+  {
+   "bag": "36:48 → 56:87",
+   "kural": "tam kalıp 'in kuntum sâdıqîn' 28 ayet",
+   "not": "doğruysanız."
+  },
+  {
+   "bag": "56:11 · 56:85 · 56:88",
+   "kural": "kök قرب sûre içi 3 — muqarrabûn / aqrab / muqarrabîn",
+   "not": "yakınlık."
+  },
+  {
+   "bag": "12:87 · 55:12 → 56:89",
+   "kural": "lemma 'ravh' 2, 'reyhân' 2 ayet",
+   "not": "rahatlık."
+  },
+  {
+   "bag": "56:12 · 56:89",
+   "kural": "lemma dizisi 'cenne + na'îm' 11 ayet — çoğul belirli / tekil nekre",
+   "not": "nimet cenneti."
+  },
+  {
+   "bag": "56:88 · 56:90",
+   "kural": "nakarat3 'emmâ in kâne min' GEÇER (56:92 henüz okunmadı)",
+   "not": "tafsîl."
+  },
+  {
+   "bag": "56:8 · 56:9 · 56:10 → 56:88 · 56:90",
+   "kural": "okuma — sınıf sırası sağ / sol / öndekiler → öndekiler / sağ",
+   "not": "sıra."
+  },
+  {
+   "bag": "56:26 · 56:91",
+   "kural": "lemma 'selâm' sûre içi 3 token (56:26×2, 56:91)",
+   "not": "selâm."
+  },
+  {
+   "bag": "56:90 · 56:91",
+   "kural": "tam kalıp 'min ashâbi'l-yemîn' 2 ayet (nakarat3 GEÇMEZ)",
+   "not": "şart / cevap."
+  },
+  {
+   "bag": "56:88 · 56:90 · 56:92",
+   "kural": "nakarat3 'in kâne min' 3 ayet GEÇER; 'emmâ in kâne min' 56:90 / 92 GEÇER",
+   "not": "tafsîl."
+  },
+  {
+   "bag": "56:51 · 56:92",
+   "kural": "lemma dizisi 'dâll + mukezzib' 1 / 'mukezzib + dâll' 1 — ters sıra",
+   "not": "yalanlayan sapıklar."
+  },
+  {
+   "bag": "56:9 · 56:41 → 56:92",
+   "kural": "okuma — üçüncü sınıf yönle / sıfatla",
+   "not": "sol."
+  },
+  {
+   "bag": "56:8 · 56:9 · 56:10 → 56:88 · 56:90 · 56:92",
+   "kural": "okuma — sınıf sırası sağ / sol / öndekiler → öndekiler / sağ / yalanlayan sapıklar",
+   "not": "sıra kapandı."
+  },
+  {
+   "bag": "1:7 · 56:92",
+   "kural": "lemma 'dâll' 14 ayet — ayet 'ed-dâllîn' ile bitiyor",
+   "not": "sapıklar."
+  },
+  {
+   "bag": "56:56 · 56:93",
+   "kural": "lemma 'nuzul' sûre içi 2",
+   "not": "ağırlama."
+  },
+  {
+   "bag": "56:42 · 56:54 · 56:93",
+   "kural": "lemma 'hamîm' sûre içi 3",
+   "not": "kaynar su."
+  },
+  {
+   "bag": "56:51-56 · 56:92-93",
+   "kural": "okuma — dâll / mukezzib, hamîm, nuzul sûre içi tekrar",
+   "not": "cehennem ehli."
+  },
+  {
+   "bag": "37:62 → 56:93",
+   "kural": "lemma 'nuzul' 8 ayet",
+   "not": "ağırlama."
+  },
+  {
+   "bag": "37:163 → 56:94",
+   "kural": "kök صلي + lemma 'cahîm' bir ayette",
+   "not": "cehennem."
+  },
+  {
+   "bag": "56:89 · 56:94",
+   "kural": "okuma — 'cennetu na'îm' / 'tasliyetu cahîm' izâfetli iki son (aday 1039 kaydı)",
+   "not": "karşıt."
+  },
+  {
+   "bag": "37:60 → 56:95",
+   "kural": "kalıp 'inne hâzâ le-huve' 5 ayet",
+   "not": "tekit."
+  },
+  {
+   "bag": "15:99 → 56:95",
+   "kural": "lemma 'yaqîn' 8 ayet",
+   "not": "kesin bilgi."
+  },
+  {
+   "bag": "56:2 · 56:95",
+   "kural": "okuma — 'kâdhibe' / 'haqqu'l-yaqîn' sûre başı / sonu (aday 1039 kaydı)",
+   "not": "karşıt."
+  },
+  {
+   "bag": "56:74 · 56:96",
+   "kural": "esit2 TAM; tam kalıp 3 ayet (69:52 henüz okunmadı)",
+   "not": "iki kapanış."
+  }
  ]
 }

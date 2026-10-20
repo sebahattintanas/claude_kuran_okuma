@@ -6591,3 +6591,38 @@ fâsıla 54:55 ر → 55:1 ن · 54:55 'melîk muqtedir' / 55:1 'er-rahmân' · 
 * 1017: nakaratın 2D muhatabı mealde adsız (metin 55:31, 33'te adlıyor); öğrenen, 2MP muhatap, kadınlar, yaslananlar, suçlular adsız.
 * 517: takdim ve mübteda hazfi ölçümde işaretsiz; 2D → 2MS sayı değişimi iltifât sayılmıyor (55:27, 78).
 * 924: 55:1 mühür ölçütü / son konum ayrışması (tek kelimelik ayet).
+
+## SÛRE 56 VÂQI'A SONU (2026-10-20)
+
+**Okunan: 3867 / 6236 ayet (%62,0)** — sûre 1 ve 9-56 TAM, sûre 2 kısmi (1-20). İlerleme `vakia_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1414** (`kok_ekle_56.py`: رجج وضن خضد طلح سكب مزن). Aday havuzu **1041** (sûre 56'da yeni aday yok; `AX_vakia` boş). Bağ **AS_vakia** 168. Esmâ okuyucu kararı (KARAR) **483** (469 → 483; 13 DEĞİL, 1 İLÂHÎ).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 (56:41-50'de 72 ve 56:81-90'da 76 — kayıt metnine yazılan Arapça imlâ parçaları; Latin tarifle düzeltildi) · tetik on blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 3 + 1 + 3 + 1 + 2 + 5 + 1 + 2 + 2 + 0 = 20) · [x/y] **240 sayım (21 + 22 + 24 + 19 + 30 + 24 + 28 + 30 + 25 + 17), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 4** (56:11, 28 — 1017, komşu ayetten taşınan ad; 56:62, 70 — 924, 'fe-levlâ' imlâ / lemma sayımı).
+Sûrenin 96 ayeti 10 blokta okundu (9 × 10 + 6); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure56_vakia_okuma.md` (`vakia_paket_md.py`, 96 başlık). Uzak depo **dd30f51** (oturum boyunca ilerlemedi); fark zip'i dd30f51 tabanı. Ara zip 56:1-30 ve 56:1-60'ta verildi (aynı taban).
+
+### Sûre 56 bilançosu (TAM SAYIM, `okuma_metni['56']['_bilanco_sure']`)
+379 kelime · lafız **0** (sûrede Allah lafzı yok) · Rab 3 token / 3 ayet (56:74, 80, 96; 56:1-73 Rab'siz) · edilgen ölçümde 4 ayet (4, 5, 19, 47) · iltifât 15 ayet · hapaks ayet 7, kök 7 (4 رجج, 5 بسس, 15 وضن, 28 خضد, 29 طلح, 31 سكب, 69 مزن) · mm2 1 (56:35).
+Yıldız 0:84 · ★1 (56:41, kafiye kırığından — bilanço 'n' etiketi, 1001) · ★★1 (56:19 pas) · ★★★10 (hapaks 5 · rab 3 · pas 2: 56:4, 5).
+Fâsıla N 73 · H 10 (56:1-3, 7-9, 15, 32-34) · A 7 (56:4-6, 25-26, 36-37) · د 3 (56:28-30) · ب 56:31 · ء 56:35 · ل 56:41; kafiye kırığı ölçümde 56:15, 41. En uzun 56:47, 61 (9); 2 kelimelik 15 ayet.
+Sûre içi tam tekrar: 'fe-sebbih bi'smi rabbike'l-azîm' 56:74 / 56:96 (esit2 TAM). 2MS yalnız 56:49, 74, 91, 96; 1S yalnız 56:75 (morph).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok. L1: 56:4, 5, 6, 47, 58, 59, 60, 63, 64, 65, 68, 69, 70, 71, 72, 73, 75, 83 (56:60 ölçü kolu yalnız kelime — KAPATILAMAZ; 56:65 tek aşama, 39:21 L4'ten ayrı). L0: 56:57, 62. Olgu değil: 56:7 (insan sınıfları), 56:18-21, 28-32, 89 (cennet), 56:42, 43, 52, 93, 94 (cehennem). Tarayıcı v4 adayı 1 (56:7, sayı işareti), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+14 e_oto tokeni → ilâhî 1 (56:59 'nahnu'l-hâliqûn', SINIR VAKASI), değil 13 ('evvel / âhir / ûlâ' insanlar ve neş'e; 'selâm' sözü ×3; 'kerîm' gölge ve Kur'ân sıfatı). §4.3 mühür 12 → geçerli **1** (56:59, ton denge) — ölçüm satırında son konum 'MÜHÜRSÜZ'; ayrışma kayıtta (51:58 emsali), okumada mühür iddiası yazılmadı. 'el-azîm' (56:46, 74, 96), 'munşi'', 'zâri'', 'munzil' esmâ ölçümünde değil. 1022: 56:13, 39, 48, 62 ölçüm satırında 'esmâ yok', esma_kayit e_oto.
+
+### Aday 1041 — kayıt
+56:59 خلق · 56:64 زرع · 56:69 نزل · 56:72 نشأ — aynı ayette insan (2MP soru) / 1P (yüklem), dört kez ('e-fe-ra'eytum' dörtlüsü). Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+55:78 / 56:1 (Rab ve esmâ ile kapanan sûreden lafızsız, Rab'siz açılışa; fâsıla م → ة) · 55:7 / 56:3 · 55:37 / 56:4-6 · 55:52 / 56:7 · 55:60 / 56:24. 56:96 → 57:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+96 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: adsız fâil / muhatap (56:51, 81 2MP; 56:83 3FS; 56:85, 88-92 3MS; 56:91 'leke' 2MS); DUZELTME 56:11 (26:42'de 'Firavun' yok), 56:28 (34:16'da 'Sebe'' yok).
+* 1021 gloss: وري ateş çakma (56:71), روح 'ravh / reyhân' (56:89), نزل 'nuzul' (56:56, 93) kapsanmıyor.
+* 1022: 'evvel / ûlâ' ölçüm satırı / esma_kayit ayrışması.
+* 924: harekesiz kalıp düz elif / elif-medde ayrımı ('fe-levlâ') — DUZELTME 56:62, 70.
+* 1001: 56:41 ★ kaynağı.

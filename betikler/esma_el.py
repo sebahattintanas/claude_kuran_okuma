@@ -528,4 +528,26 @@ KARAR = {
 '54:55:6': 'ilahi',   # 'muqtedir' — aynı göndergenin ikinci sıfatı
 # sûre 55 blok 1-10
 '55:1:1': 'ilahi',    # 'er-rahmân' — tek kelimelik ayet; 55:2-4 fiillerinin öznesi (allema, halaqa)
+# sûre 56 blok 11-20
+'56:13:3': 'degil',   # 'mine'l-evvelîn' — öncekiler (insanlar; 56:14 'mine'l-âhirîn' karşılığı); ölçüm satırında görünmüyor, esma_kayit e_oto (aday 1022)
+'56:14:3': 'degil',   # 'mine'l-âhirîn' — sonrakiler (insanlar; 56:13 'mine'l-evvelîn' karşılığı), 37:78:4 emsali
+# sûre 56 blok 21-30
+'56:26:3': 'degil',   # 'illâ qîlen selâmen' — işitilen söz: selam (nekre), ad olarak es-Selâm değil (36:58 kararı)
+'56:26:4': 'degil',   # 'selâmen' tekrarı — aynı söz (56:26:3 kararı)
+# sûre 56 blok 31-40
+'56:39:3': 'degil',   # 'sulletun mine'l-evvelîn' — öncekiler (insanlar; 56:13:3 kararı)
+'56:40:3': 'degil',   # 've sulletun mine'l-âhirîn' — sonrakiler (insanlar; 56:14:3 kararı)
+# sûre 56 blok 41-50
+'56:44:4': 'degil',   # 'lâ bâridin ve lâ kerîm' — 'yahmûm' gölgesinin olumsuzlanan sıfatı; ilâhî ad değil
+'56:48:2': 'degil',   # 'âbâ'unâ'l-evvelûn' — ilk atalar, insanın sıfatı (37:17:2 kararı; ölçüm satırında 'esmâ yok' — 1022)
+'56:49:3': 'degil',   # 'inne'l-evvelîne' — öncekiler (insanlar; 56:13:3 kararı)
+'56:49:4': 'degil',   # 've'l-âhirîn' — sonrakiler (insanlar; 56:14:3 kararı)
+# sûre 56 blok 51-60
+'56:59:5': 'ilahi',   # 'em nahnu'l-hâliqûn' — 1P (azamet çoğulu) yüklemi, 'e-entum tahluqûnehû' sorusunun karşıtı; SINIR VAKASI (43:42:7 emsali; 52:35:8 'em humu'l-hâliqûn' değil kararının karşıtı)
+# sûre 56 blok 61-70
+'56:62:4': 'degil',   # 'en-neş'ete'l-ûlâ' — ilk yaratılış, 'neş'e'nin sıfatı (36:79:5 'evvele merra' emsali); ölçüm satırında 'esmâ yok' (1022)
+# sûre 56 blok 71-80
+'56:77:3': 'degil',   # 'innehû le-qur'ânun kerîm' — Kur'ân'ın sıfatı (nekre); ilâhî ad değil (56:44:4 'kerîm' sıfat kararı)
+# sûre 56 blok 91-96
+'56:91:1': 'degil',   # 'fe-selâmun leke min ashâbi'l-yemîn' — nekre selâm / esenlik sözü (selamlama); ilâhî ad değil (56:26:3, 37:79:1 kararları)
 }
