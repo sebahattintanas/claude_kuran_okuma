@@ -1,19 +1,20 @@
-# OTURUM — sûre 56 (Vâqı'a) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 58 (Mücâdele) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 3867 / 6236 ayet (%62,0)** — sûre 1 ve 9-56 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 57 (Hadîd, 29 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1414** kök · aday havuzu **1-1041** (sûre 56'da yeni aday yok, `AX_vakia` boş) · bağ seti `AS_vakia` 168 · esmâ KARAR 483.
+**Okunan: 3918 / 6236 ayet (%62,8)** — sûre 1 ve 9-58 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 59 (Haşr, 24 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1419** kök · aday havuzu **1-1041** (sûre 58'de yeni aday yok, `AX_mucadele` boş) · bağ seti `AS_mucadele` 94 · esmâ KARAR 533.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç; blok denetimi `repo/betikler/` kopyasıyla — calisma/ kopyası korpusu bulamıyor, sahte ✗ verir).
-Paket: depo `dd30f51`'e göre fark (sûre 56 bu zip'te). Ara zip'ler 56:1-30 ve 56:1-60'ta verildi (aynı taban).
-Sûre 56 dosyaları: `kok_ekle_56.py` · `vakia_metin_1.py` (MEAL1-10/M1-10) · `vakia_kayit.py` (CIPA, ARIZA, DUZELTME 4) · `uret_blok_56.py` · `aday_ekle_56_vakia.py` · `yama_retroaktif_gloss_56.py` · `duzeltme_56.py` · `vakia_kapanis.py` (+ `vakia_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `vakia_paket_md.py` → `notlar/sure56_vakia_okuma.md`.
-Sûre 57 için şablonlar `vakia_*`'dan S=57 (yeni set adları `AX_/AS_`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-55 dosyaları: `duhan_*` … `kamer_*`, `rahman_*` (aynı düzen).
-**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü (heredoc ile yaz; `python -c` içinde \n kaçışı bozuluyor), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı onayına açık.
-**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 56'da 96/96).
-**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 57:1 okunurken 56:96 ile bağ kayıt olarak yazılabilir (sûre 56: 55:78 / 56:1, 55:7 / 56:3, 55:37 / 56:4-6, 55:52 / 56:7, 55:60 / 56:24).
-**Aday 1041:** aynı kelimenin Allah ve insan için kullanılması — kayıt (sûre 56: 56:59 خلق, 64 زرع, 69 نزل, 72 نشأ; ayet içi insan 2MP soru / 1P).
-**Çıpa:** sûre 56'da L4, L3, L2 yok; L1 18 ayet; L0 56:57, 62; olgu değil 18 ayet (insan sınıfları, cennet, cehennem); **48:29 ekin büyümesi L4 adayı, teşbih içinde — TARTIŞMALI, karar kullanıcıda**.
+Paket: depo `94c8838`'e göre fark (sûre 57 + 58 bu zip'te; 57 ayrıca yüklendiyse fark yalnız 58'i taşır). Ara zip'ler 58:1-7 ve 58:1-13'te verildi (aynı taban).
+Sûre 58 dosyaları: `kok_ekle_58.py` (5 kök) · `mucadele_metin_1.py` (MEAL1-6/M1-6) · `mucadele_kayit.py` (CIPA, ARIZA, DUZELTME 0) · `uret_blok_58.py` · `aday_ekle_58_mucadele.py` · `yama_retroaktif_gloss_58.py` · `duzeltme_58.py` · `mucadele_kapanis.py` (+ `mucadele_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `mucadele_paket_md.py` → `notlar/sure58_mucadele_okuma.md`.
+Sûre 59 için şablonlar `mucadele_*`'dan S=59 (yeni set adları `AX_/AS_`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-57 dosyaları: `duhan_*` … `vakia_*`, `hadid_*` (aynı düzen). Bloklar değişken uzunlukta: `<sure>_kapanis.py` ve `<sure>_paket_md.py` içindeki blok listesi elle (BLOKLAR ile aynı) — şablonu kopyalarken güncelle.
+**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü (heredoc ile yaz; `python -c` içinde \n kaçışı bozuluyor), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı kararına açık (okuma sonunda).
+**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 58'de 22/22).
+**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 59:1 okunurken 58:22 ile bağ kayıt olarak yazılabilir (sûre 58: 57:29 / 58:1; 'inne'llâhe qaviyyun azîz' 57:25 / 58:21).
+**Aday 1041:** aynı kelimenin Allah ve insan / başka şey için kullanılması — kayıt (sûre 58'de on vaka; ikisi aynı ayette: فسح 58:11, رضو 58:22).
+**Çıpa:** sûre 58'de L4 yok, L0 yalnız 58:7. **48:29 ve 57:20 L4 adayı (teşbih içi), TARTIŞMALI — karar okuma sonunda.**
+**Bekleyenler:** kullanıcı kararı (2026-10-21) — bekleyen kararların hepsine TAM OKUMA BİTTİKTEN SONRA bakılacak; oturumlarda sorulmaz, yalnız kaydedilir.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 56 VÂQI'A SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 58 MÜCÂDELE SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -106,7 +107,21 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * Okunmamış ayetin esit2 / xref anması da 'henüz okunmadı' işareti ister (56:96 — 69:52).
 * Basılan emsal ayetin sûre içi bağlamı ('cennet sahnesinin içinde') basılmamış komşu ayetlerden yazılmaz (56:95 — 37:60, kayıttan önce silindi).
 
+* Uzun ayetli sûrede blok sınırı ayet uzunluğuna göre kurulur (sûre 57: 4-6 ayetlik 7 blok); kapanış ve paket betiklerindeki blok listesi BLOKLAR ile elle eşlenir.
+* Okunmuş ama basılmamış xref ayeti de adla anılmaz: 'xref … (okunmuş 1 ayet daha)' (sûre 57: 57:21'de sûre 9 xref'i, kayıttan önce yakalandı).
+* Basılan emsal ayette olmayan kişi adı, bağlamı anlatırken de yazılmaz (sûre 57: 31:18 için kayıttan önce çıkarıldı).
+* Teşbih / mesel içinde 39:21 türü L4 dizisinin tekrarı (57:20) 48:29 gibi 'L4 adayı, TARTIŞMALI' yazılır; cipa=False, karar kullanıcıda — iki vaka birlikte karara bağlanabilir.
+* Aynı kelimenin aynı sûrede Allah ve başka gönderge için kullanılması (57:3 / 57:13 zâhir-bâtın) esmâ kararını ayırır: 57:3 İLÂHÎ, 57:13 DEĞİL — aday 1041 alanına kayıt.
+* Bağ / ARIZA dizgesinde iç tek tırnak ('ibtiğâ'e') varsa dış tırnak çift; `aday_ekle` betiği koşmadan önce SyntaxError verir (sûre 57, 27-29).
+* Ayet 1 ölçümünde harf → harf3 farkı 'isaret' ile açıklanmıyor (56:1, 57:1, 58:1; besmele sayılıyor olabilir) — harf alanından ayet 1 için iddia kurulmaz (924, sûre 58).
+* Esmâ 'SON konum' ölçütü ayetin son kelimesi değil: 58:13 'habîr'i 'bimâ ta'melûn' izliyor, ölçüm yine 'SON' diyor — mühür iddiası bilançodan, konum iddiası metinden (1022).
+* Sayı işareti kök kaynaklı yanlış alarm verir: عدد 'e'adde' (hazırladı), عشر 'aşîre' (akraba) — sayı iddiası okumayla (sûre 58).
+* Dikey ×kat küçük n'li köklerde (n ≤ 5) binlerce kata şişer (58:11 ×5800) — tablodaki değer bulgu sayılmaz (924).
+* `oturum_say.py --on` ilk kelime SONEK eşleşmesi: 'fe-bi'se' kalıbı 've bi'se'yi yakalamaz — önek farklıysa lemma sayımına geç (58:8).
+* 'yâ eyyuhâ' korpusta tek kelime (يأيها) — kelime aralığını ayetin kendi sayımından al (58:9).
+* aday_ekle / kayıt eklerini heredoc içinde yazarken kaçış dizisini iki kez kaçırma (`\\'` sözdizimi hatası, betik koşmaz) — tek kaçış ya da çift tırnak (sûre 58).
+
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
-Karar bekleyen (kullanıcı: açık kalsın): ◈K tetik فلك kesinlik düzeltmesi (S2) · مأي gloss ('ne zaman' → yüz) · **48:29 çıpa (L4 adayı, teşbih içinde)**.
+Karar bekleyen — **kullanıcı kararı (2026-10-21): hepsine tam okuma bittikten sonra bakılacak; oturumlarda karar sorulmaz, yalnız kayda yazılır**: ◈K tetik فلك kesinlik düzeltmesi (S2) · مأي gloss ('ne zaman' → yüz) · **48:29 ve 57:20 çıpa (L4 adayı, teşbih içinde)** · oturum_* yardımcılarının depoda kalması.
 Esmâ ön-kaydı DONDURULDU; §9 commit `b58c430`. Yalnız veri toplanır.

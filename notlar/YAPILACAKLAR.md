@@ -6626,3 +6626,81 @@ L4 yok, L3 yok, L2 yok. L1: 56:4, 5, 6, 47, 58, 59, 60, 63, 64, 65, 68, 69, 70, 
 * 1022: 'evvel / ûlâ' ölçüm satırı / esma_kayit ayrışması.
 * 924: harekesiz kalıp düz elif / elif-medde ayrımı ('fe-levlâ') — DUZELTME 56:62, 70.
 * 1001: 56:41 ★ kaynağı.
+
+## SÛRE 57 HADÎD SONU (2026-10-21)
+
+**Okunan: 3896 / 6236 ayet (%62,5)** — sûre 1 ve 9-57 TAM, sûre 2 kısmi (1-20). İlerleme `hadid_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1414** (sûre 57'de yeni kök yok; `kok_ekle_57.py` boş). Aday havuzu **1041** (sûre 57'de yeni aday yok; `AX_hadid` boş). Bağ **AS_hadid** 115. Esmâ okuyucu kararı (KARAR) **518** (483 → 518; 19 İLÂHÎ, 16 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik yedi blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 7 + 1 + 4 + 3 + 3 + 2 + 2 = 22) · [x/y] **343 sayım (48 + 45 + 62 + 47 + 52 + 44 + 45), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 29 ayeti uzunluğa göre 7 blokta okundu (1-6, 7-10, 11-15, 16-19, 20-22, 23-26, 27-29); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure57_hadid_okuma.md` (`hadid_paket_md.py`, 29 başlık). Uzak depo **94c8838** (oturum boyunca ilerlemedi); fark zip'i 94c8838 tabanı. Ara zip 57:1-10 ve 57:1-19'da verildi (aynı taban).
+
+### Sûre 57 bilançosu (TAM SAYIM, `okuma_metni['57']['_bilanco_sure']`)
+574 kelime · lafız 32 token / 22 ayet · Rab 3 (57:8, 19, 21) · edilgen 6 ayet (5, 13, 15, 16, 18, 21) · iltifât ölçümü 0 (ayet içi şahıs geçişleri 57:4, 12, 17, 19, 22, 25 ölçümde yok — 517) · hapaks yok · mm2 1 (57:25).
+Yıldız 0:14 · ★8 (57:1, 21 allah; 57:2, 3 kafiye kırığı — bilanço 'allah' etiketi, 1001; 57:13, 16, 25 n; 57:15 pas) · ★★6 (57:4, 10, 20, 27 n; 57:18 pas; 57:29 allah) · ★★★1 (57:5 pas).
+Fâsıla N 15 · R 11 · ب 57:13 · د 57:24 · ز 57:25; kafiye kırığı ölçümde 57:2, 3, 10, 20, 21 (aynı türden 57:4, 22 işaretlenmiyor — 924). En uzun 57:20, 27 (39); en kısa 57:5 (8).
+Adlı aktör yalnız 57:26 (Nûh, İbrâhîm), 57:27 (Îsâ, Meryem, İncîl). 'hadîd' sûre içinde yalnız 57:25. Sûre 57:21'in son cümlesiyle bitiyor (nakarat3 GEÇER).
+
+### Çıpa (ölçüt değişmedi)
+L4 kesin yok, L3 yok, L2 yok. **L4 ADAYI, teşbih içinde, TARTIŞMALI: 57:20** (dünya hayatı meseli; 39:21 L4 bitki dizisi 'yehîcu fe-terâhu musfarran summe … hutâmâ' teşbih içinde tekrar ediyor; 48:29 ile aynı statü; cipa=False, **karar kullanıcıda**). L1: 57:4 (L4 ölçü koluna sınırda), 6, 17, 25. L0: 57:1, 2, 5, 10. Olgu değil: 57:9 (mecaz), 12, 21 (cennet), 13 (âhiret sahnesi), 15, 19 (cehennem). Tarayıcı v4 adayı 4 (57:9, 13, 17, 20), kesinlik **0/4** (57:20 kısmi).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+35 e_oto tokeni → ilâhî 19, değil 16. §4.3 mühür 16 → geçerli **10** (57:1, 2, 3, 4, 6, 9, 10, 24, 25, 28); yanlış mühür 57:7, 8, 11, 13, 15, 18 (ecr sıfatı, insanlar, sur, ateş). Ölçüm satırı 57:2, 4, 6'da 'MÜHÜRSÜZ' / bilanço geçerli (51:58 emsali). 1022: 57:3 'evvel'.
+
+### Aday 1041 — kayıt (sûre 57'de altı vaka)
+'evvel / âhir' 56:13-14 insanlar / 57:3 Allah · 'zâhir / bâtın' 57:3 Allah / 57:13 sur · 'âhir' 57:3 / 57:20 âhiret · 'mevlâ' 47:11 Allah / 57:15 ateş · kökler رأف رحم 57:9 Allah / 57:27 insan kalbi · 'yed' 57:12 insan / 57:29 Allah. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+56:96 / 57:1 (2MS tesbih emri + Rab → PERF tesbih + lafız; fâsıla م → م) · 56:13-14 / 57:3. 57:29 → 58:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+29 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: adsız konuşan / gönderge (57:8, 10, 12, 13, 14, 15, 16); kayıttan önce 31:18 bağlamından kişi adı çıkarıldı.
+* 1021 gloss: أخر 'âhir', نهر 'nehâr', كفر 'örtme' (57:20 'kuffâr'), حدد 'keskin' (50:22) kapsanmıyor; 'kifl' lemması.
+* 1022: 57:3 'evvel'.
+* 924: harekesiz kalıp i'râb / elif-medde / kip ayrımı; kafiye kırığı kuralı tutarsız.
+* 1001: 57:2, 3 ★ kaynağı.
+* 1014: tarayıcı v4 kesinlik 0/4.
+
+### Karar bekleyen (kullanıcı)
+**Kullanıcı kararı (2026-10-21): bekleyen kararların hepsine tam okuma bittikten sonra bakılacak.** 48:29 ve **57:20** çıpa (teşbih içi L4 adayı) — birlikte karara bağlanacak. S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 58 MÜCÂDELE SONU (2026-10-22)
+
+**Okunan: 3918 / 6236 ayet (%62,8)** — sûre 1 ve 9-58 TAM, sûre 2 kısmi (1-20). İlerleme `mucadele_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1419** (1414 → 1419; كبت, فسح, جلس, نشز, حوذ — `kok_ekle_58.py`). Aday havuzu **1041** (sûre 58'de yeni aday yok; `AX_mucadele` boş). Bağ **AS_mucadele** 94. Esmâ okuyucu kararı (KARAR) **533** (518 → 533; 13 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik altı blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 1 + 2 + 1 + 2 + 1 + 2 = 9) · [x/y] **259 sayım (47 + 41 + 39 + 45 + 41 + 46), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması: hedefli 0, genel geçişte 1 (58:11 yeni gloss) · **DUZELTME 0**.
+Sûrenin 22 ayeti uzunluğa göre 6 blokta okundu (1-4, 5-7, 8-10, 11-13, 14-18, 19-22); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure58_mucadele_okuma.md` (`mucadele_paket_md.py`, 22 başlık). Uzak depo **94c8838** (oturum boyunca ilerlemedi); fark zip'i 94c8838 tabanı, sûre 57 + 58 değişikliklerini birlikte taşır (57 yüklenmediyse). Ara zip 58:1-7 ve 58:1-13'te verildi (aynı taban).
+
+### Sûre 58 bilançosu (TAM SAYIM, `okuma_metni['58']['_bilanco_sure']`)
+472 kelime · **lafız 40 token / 22 ayetin hepsi** · **Rab 0** · edilgen 5 ayet (3, 5, 8, 9, 11) · iltifât ölçümü 0 (58:5 1P, 58:8 iç söz 1P, 58:21 1S alıntı ölçümde yok — 517) · hapaks 58:11 (فسح, جلس) · mm2 yok.
+Yıldız 0:11 · ★3 (58:10, 13, 20 allah) · ★★2 (58:5 pas; 58:8 n) · ★★★6 (58:1, 6, 21 allah; 58:7, 22 n; 58:11 hapaks).
+Fâsıla N 15 · R 5 · د 58:6 · ز 58:21; kafiye kırığı ölçümde 58:6, 8, 11, 21. En uzun 58:22 (51); en kısa 58:20 (8).
+Adlı aktör yalnız cehennem (58:8) ve şeytan (58:10, 19); kişi adı yok. Kök حدد dört ayette (58:4, 5, 20, 22). Sûre iki karşıt grupla kapanıyor: 'hizbu'ş-şeytân … humu'l-hâsirûn' (58:19) / 'hizbu'llâh … humu'l-mufluhûn' (58:22).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok, L1 yok. L0: 58:7. Olgu değil: 58:6, 18 (diriliş), 8 (cehennem), 17 (ateş), 22 (cennet). Tarayıcı v4 adayı 2 (58:7, 22), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+15 e_oto tokeni → ilâhî 13, değil 2 (58:10 'mu'minûn', 58:22 'âhir'). §4.3 mühür 10 → geçerli **9** (58:1, 2, 3, 6, 7, 11, 12, 13, 21); yanlış mühür 58:10. Ölçüm satırı 58:3, 6, 7, 11, 13'te 'MÜHÜRSÜZ' / bilanço geçerli; 58:13 'habîr' son kelime değil, ölçüm 'SON konum' (1022).
+
+### Aday 1041 — kayıt (sûre 58'de on vaka)
+'semî' / basîr' 11:24 / 58:1 · 'râbi' / sâdis' 18:22 köpek / 58:7 'huve' · 'nesiye' 9:67 / 58:6 · 'şehîd' 24:6 / 58:6 · 'alîm' 51:28 / 58:7 · 'mu'min' esmâ / 58:10 · فسح 58:11 insanlara emir / Allah'ın cevabı · 'tâbe' 24:5 / 58:13 · 'âhir' 57:3 / 58:22 · رضو 58:22 iki yön. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+57:29 / 58:1 (lafızla kapanış → lafız 3. kelimede açılış; fâsıla م → ر) · 'inne'llâhe qaviyyun azîz' yalnız 57:25 ve 58:21. 58:22 → 59:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+22 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: 58:1 kadın, kocası, 2MS muhatap adsız (ad verilmedi); 58:11 'qîle'; 58:14 gazap edilen topluluk; 58:8 iç söz; 58:21 1S alıntı.
+* 1021: ظهر 'zâhara' (destek / zıhâr); حيي selamlama ◈B tetiği; يدي 'beyne yedey' tetiği; 'yemîn' lemması sağ yan / yemin.
+* 1022: 58:3, 6, 7, 11, 13 ölçüm / bilanço ayrışması; 58:13 son konum; 'mu'min' çoğulu.
+* 924: **ayet 1 harf alanı** — harf → harf3 farkı isaret ile açıklanmıyor (56:1, 57:1, 58:1; besmele sayılıyor olabilir); sayı işareti 'e'adde', 'aşîre'; dikey kat oranı küçük n'de şişiyor (58:11 ×5800).
+* 517: 58:14 QASEM etiketi anlatılan yemin için.
+* 1014: tarayıcı v4 kesinlik 0/2.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları. Esmâ ön-kaydı DONDURULDU. Sûre 58'de yeni karar bekleyen yok.

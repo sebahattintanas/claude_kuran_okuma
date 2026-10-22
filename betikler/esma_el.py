@@ -550,4 +550,66 @@ KARAR = {
 '56:77:3': 'degil',   # 'innehû le-qur'ânun kerîm' — Kur'ân'ın sıfatı (nekre); ilâhî ad değil (56:44:4 'kerîm' sıfat kararı)
 # sûre 56 blok 91-96
 '56:91:1': 'degil',   # 'fe-selâmun leke min ashâbi'l-yemîn' — nekre selâm / esenlik sözü (selamlama); ilâhî ad değil (56:26:3, 37:79:1 kararları)
+# sûre 57 blok 1-6
+'57:1:8': 'ilahi',    # 've huve'l-azîzu'l-hakîm' — 'huve' göndergesi aynı ayette lafız 'lillâhi'
+'57:1:9': 'ilahi',    # 'el-hakîm' — aynı göndergenin ikinci sıfatı (57:1:8 kararı)
+'57:2:11': 'ilahi',   # 've huve alâ kulli şey'in qadîr' — 'huve' 57:2 'lehû mulku's-semâvât' sahibi (57:1 lafız)
+'57:3:2': 'ilahi',    # 'huve'l-evvel' — 'huve' 57:1-2 göndergesi; insan 'evvelîn' kararlarından (56:13:3) ayrı
+'57:3:3': 'ilahi',    # 've'l-âhir' — aynı gönderge (57:3:2 kararı); insan 'âhirîn' (56:14:3) ayrı
+'57:3:4': 'ilahi',    # 've'z-zâhir' — aynı gönderge
+'57:3:5': 'ilahi',    # 've'l-bâtın' — aynı gönderge
+'57:3:9': 'ilahi',    # 've huve bi-kulli şey'in alîm' — aynı gönderge
+'57:4:36': 'ilahi',   # 'va'llâhu bimâ ta'melûne basîr' — lafzın haberi
+'57:6:10': 'ilahi',   # 've huve alîmun bi-zâti's-sudûr' — 'huve' 57:5 lafız 've ile'llâhi'
+# sûre 57 blok 7-10
+'57:7:15': 'degil',   # 'lehum ecrun kebîr' — ecrin sıfatı (35:7:13 kararı)
+'57:8:15': 'degil',   # 'in kuntum mu'minîn' — muhatap 2MP insanların sıfatı (37:29:5 kararı)
+'57:9:12': 'degil',   # 'mine'z-zulumâti ile'n-nûr' — ışık, karanlıkların karşıtı; isim değil (35:20:4 kararı)
+'57:9:16': 'ilahi',   # 'inne'llâhe bikum le-ra'ûfun' — lafzın haberi
+'57:9:17': 'ilahi',   # 'rahîm' — aynı göndergenin ikinci sıfatı
+'57:10:37': 'ilahi',  # 've'llâhu bimâ ta'melûne habîr' — lafzın haberi
+# sûre 57 blok 11-15
+'57:11:12': 'degil',  # 've lehû ecrun kerîm' — ecrin sıfatı (57:7:15 kararı)
+'57:12:3': 'degil',   # 'terâ'l-mu'minîne ve'l-mu'minât' — insanlar (57:8:15 kararı)
+'57:12:6': 'degil',   # 'yes'â nûruhum' — inananların ışığı (57:9:12 kararı)
+'57:13:10': 'degil',  # 'naqtebis min nûrikum' — inananların ışığı (57:12:6 kararı)
+'57:13:15': 'degil',  # 'fe'ltemisû nûrâ' — ışık, nekre (57:12:6 kararı)
+'57:13:21': 'degil',  # 'bâtınuhû fîhi'r-rahme' — surun içi; 57:3 'el-bâtın' İLÂHÎ kararının karşıtı (aday 1041)
+'57:13:24': 'degil',  # 've zâhiruhû min qibelihi'l-azâb' — surun dışı; 57:3 'ez-zâhir' İLÂHÎ kararının karşıtı (aday 1041)
+'57:15:13': 'degil',  # 'hiye mevlâkum' — gönderge 'en-nâr' (ateş); ilâhî ad değil
+# sûre 57 blok 16-19
+'57:18:12': 'degil',  # 've lehum ecrun kerîm' — ecrin sıfatı (57:11:12 kararı)
+'57:19:8': 'degil',   # 've'ş-şuhedâ'u inde rabbihim' — insanlar (çoğul); ilâhî ad değil
+'57:19:13': 'degil',  # 'lehum ecruhum ve nûruhum' — inananların ışığı (57:12:6 kararı)
+# sûre 57 blok 20-22
+'57:20:27': 'degil',  # 've fi'l-âhirati azâbun şedîd' — âhiret (yurt); 57:3:3 'el-âhir' İLÂHÎ kararından ayrı
+# sûre 57 blok 23-26
+'57:24:11': 'ilahi',  # 'fe-inne'llâhe huve'l-ğaniyyu'l-hamîd' — lafzın haberi
+'57:24:12': 'ilahi',  # 'el-hamîd' — aynı göndergenin ikinci sıfatı
+'57:25:27': 'ilahi',  # 'inne'llâhe qaviyyun azîz' — lafzın haberi
+'57:25:28': 'ilahi',  # 'azîz' — aynı göndergenin ikinci sıfatı
+# sûre 57 blok 27-29
+'57:28:14': 'degil',  # 'yec'al lekum nûran temşûne bih' — inananlara verilen ışık (57:12:6 kararı)
+'57:28:20': 'ilahi',  # 've'llâhu ğafûrun rahîm' — lafzın haberi
+'57:28:21': 'ilahi',  # 'rahîm' — aynı göndergenin ikinci sıfatı
+# sûre 58 blok 1-4 (2026-10-21)
+'58:1:17': 'ilahi',  # semî' — lafzın haberi (inne'llâhe semî'un basîr)
+'58:1:18': 'ilahi',  # basîr — aynı haber, çift
+'58:2:22': 'ilahi',  # afuvv — ve inne'llâhe le-afuvvun ğafûr
+'58:2:23': 'ilahi',  # ğafûr — aynı haber, çift
+'58:3:21': 'ilahi',  # habîr — va'llâhu bimâ ta'melûne habîr
+# sûre 58 blok 5-7 (2026-10-21)
+'58:6:15': 'ilahi',  # şehîd — va'llâhu alâ kulli şey'in şehîd, lafzın haberi
+'58:7:47': 'ilahi',  # alîm — inne'llâhe bi-kulli şey'in alîm, lafzın haberi
+# sûre 58 blok 8-10 (2026-10-21)
+'58:10:17': 'degil',  # 'el-mu'minûn' — çoğul, inananlar ('fe-l-yetevekkeli'l-mu'minûn'); Allah adı değil
+# sûre 58 blok 11-13 (2026-10-21)
+'58:11:30': 'ilahi',  # habîr — va'llâhu bimâ ta'melûne habîr, lafzın haberi
+'58:12:21': 'ilahi',  # ğafûr — fe-inna'llâhe ğafûrun rahîm
+'58:12:22': 'ilahi',  # rahîm — aynı haber, çift
+'58:13:22': 'ilahi',  # habîr — va'llâhu habîrun bimâ ta'melûn
+# sûre 58 blok 19-22 (2026-10-22)
+'58:21:8': 'ilahi',  # qavî — inne'llâhe qaviyyun azîz, lafzın haberi
+'58:21:9': 'ilahi',  # azîz — aynı haber, çift
+'58:22:7': 'degil',  # 'el-yevmi'l-âhir' — günün sıfatı (son gün); 57:3 'el-âhir' İLÂHÎ kararının karşıtı
 }
