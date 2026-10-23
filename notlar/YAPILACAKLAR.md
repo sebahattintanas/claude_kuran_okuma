@@ -6704,3 +6704,96 @@ L4 yok, L3 yok, L2 yok, L1 yok. L0: 58:7. Olgu değil: 58:6, 18 (diriliş), 8 (c
 
 ### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
 48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları. Esmâ ön-kaydı DONDURULDU. Sûre 58'de yeni karar bekleyen yok.
+
+## SÛRE 59 HAŞR SONU (2026-10-23)
+
+**Okunan: 3942 / 6236 ayet (%63,2)** — sûre 1 ve 9-59 TAM, sûre 2 kısmi (1-20). İlerleme `hasr_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1426** (1419 → 1426; خرب, جلو, وجف, دول, خصص, وبل, همن — `kok_ekle_59.py`). Aday havuzu **1041** (sûre 59'da yeni aday yok; `AX_hasr` boş). Bağ **AS_hasr** 79. Esmâ okuyucu kararı (KARAR) **561** (533 → 561; 22 İLÂHÎ, 6 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik dört blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 2 + 1 + 3 + 4 = 10) · [x/y] **258 sayım (50 + 72 + 69 + 67), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması: hedefli 0, genel geçişte **3 (YANLIŞ — aşağıda Hâmân çakışması)** · **DUZELTME 1** (59:24).
+Sûrenin 24 ayeti uzunluğa göre 4 blokta okundu (1-5, 6-10, 11-17, 18-24); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure59_hasr_okuma.md` (`hasr_paket_md.py`, 24 başlık). Uzak depo **a5a609e** (oturum boyunca ilerlemedi); fark zip'i a5a609e tabanı. Ara zip 59:1-10'da verildi (aynı taban).
+
+### Sûre 59 bilançosu (TAM SAYIM, `okuma_metni['59']['_bilanco_sure']`)
+445 kelime · **lafız 29 token / 17 ayet** · **Rab 3 token** (59:10 ×2 vokatif, 59:16) · edilgen 4 ayet (8, 9, 11, 12) · iltifât ölçümü 0 (59:10, 11 1P iç söz, 59:16 1S, 59:21 1P 'enzelnâ' ölçümde yok — 517) · hapaks yok · mm2 yok.
+Yıldız 0:13 · ★6 (59:6, 8, 23 allah; 59:9, 11 n; 59:10 rab) · ★★4 (59:2, 7 n; 59:12 pas; 59:18 allah) · ★★★1 (59:4 allah).
+Fâsıla N 19 · R 3 · ب 2; kafiye kırığı yok. En uzun 59:2 (40); en kısa 59:17, 19, 20 (10).
+Adlı aktör: şeytan (59:16), cennet (59:20, yer), Kur'an (59:21); kişi adı yok; adsız karye 59:7, 14. Sayı işareti 59:11 'ehad' (anlam 'hiç kimse'). Sûre halkası (okuma): 59:1 'sebbaha … ve huve'l-azîzu'l-hakîm' / 59:24 'yusebbihu … ve huve'l-azîzu'l-hakîm'; üç 'huve'llâh' ayeti (59:22-24).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok, L2 yok, L1 yok. L0: 59:1, 24 (gökler / yer), 59:5 (ağaç kökü üzerinde, eylem insanın), 59:6 (atlar, binekler), 59:21 (dağ, varsayım içinde — 48:29 / 57:20 teşbih ailesinden ayrı: doğa süreci yok). Olgu değil: 59:3, 17 (ateş), 59:20 (ateş, cennet). Tarayıcı v4 adayı 2 (59:3, 21), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+28 e_oto tokeni → ilâhî 22, değil 6 (59:2 'evvel', 'mu'minîn'; 59:3 'âhira'; 59:7 'ağniyâ''; 59:11 'ehad'; 59:15 'qarîb'). §4.3 mühür 10 → geçerli **7** (59:1, 6, 10, 18, 22, 23, 24); yanlış mühür 59:2, 3, 11. Ölçüm satırı 59:6, 18, 23'te 'MÜHÜRSÜZ' / bilanço geçerli; 59:23'te sekiz addan altısı, 59:24'te beşten dördü ölçümde ('quddûs', 'mutekebbir', 'musavvir' yok) (1022).
+
+### ★ YENİ ARAÇ AÇIĞI — gloss_gecis özel ad iskeleti çakışması (924 ailesi; KARAR BEKLER, okuma sonu)
+Kök همن (muheymin, 59:23) `kok_turkce`'ye eklenince `yama_retroaktif_gloss_59` genel geçişi 28:6 olcum + mercek ve 28:8 olcum alanlarındaki nakarat2 dizgesinde **Hâmân** adının harekesiz iskeletini kök sandı ve 'muheymin' glossunu yapıştırdı. `gloss_gecis` harekesiz iskelet ile kök anmasını ayırmıyor. Araç değiştirilmedi (dondurma); `yama_haman_59.py` (idempotent) yanlış glossu açıklama notuna çevirdi, turkce_denetim 0 korundu. `mercek_kayit.json`'daki iki çıplak anma (28:6, 28_atlama) denetim dışı, dokunulmadı. Aynı risk başka özel ad iskeletleri için açık: kök eklerken genel geçişin sayısı 0 değilse değişen alanlar tek tek okunmalı.
+
+### Kendi kaydı
+Kayıttan önce: 59:10 'ğıll' sayısı; 59:18 ◈K tetiksiz dolu; basılmamış ayetlerin adla anılması (58:12, 9:67, 24:4, 24:55); 'cebel', 'hâliq' sayıları; sayılmamış 'en uzun' — düzeltildi. Kayıttan sonra: 59:17 'hâlidîne' alıntısı (blok yeniden koşuldu, özgün alan korunmadı — usul hatası, DUZELTME'ye alınmalıydı); 59:24 lafız sayısı (kök أله 31 ≠ lafız 29) → **DUZELTME 1**. Sohbette: sûre kelime toplamı 498 yazıldı, defter 445 (kayda girmedi).
+
+### Aday 1041 — kayıt (sûre 59)
+'evvel', 'âhir' 57:3 / 59:2-3 · **'mu'min' aynı sûrede 59:2 inananlar / 59:23 Allah** · 'ğanî' / 59:7 · 'âthara' 12:91 / 59:9 · 'qarîb', 'ehad' / 59:15, 59:11 · 'cebbâr' + 'mutekebbir' 40:35 / 59:23 · 'melik' 12:54 / 59:23 · نسي 59:19 iki yön · برأ 59:16 / 59:24. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+58:22 / 59:1 (grup adıyla kapanış → tesbihle açılış; fâsıla ن → م). 59:24 → 60:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+24 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: 59:2 çıkarılanlar ve yurt; 59:7, 14 kasabalar; 59:8-10 üç grup; 59:11 münafıklar ve kardeşleri; 59:15 'az önce geçenler'; 2MS / 2MP muhataplar; 59:10, 11, 16 iç sözler.
+* 1021: لين 'yumuşaklık' (59:5 hurma); خيل 'hayal' (59:6 atlar); morph 'ğıll' / 'ağlâl' aynı lemma.
+* 1022: 59:6, 18, 23 ölçüm / bilanço ayrışması; 59:23-24 eksik ad gösterimi; 59:2, 3, 11 karar sonrası geçersiz mühür.
+* 924: ayet 1 harf alanı (59:1); sayı işareti 'ehad'; 59:9 morph IMPV 2MP etiketi; **gloss çakışması (Hâmân / همن)**.
+* 517: iç söz ve 1P 'enzelnâ' iltifât 0.
+* 1014: tarayıcı v4 kesinlik 0/2.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; **gloss_gecis özel ad iskeleti çakışması (yeni)**. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 60 MÜMTEHİNE SONU (2026-10-23)
+
+**Okunan: 3955 / 6236 ayet (%63,4)** — sûre 1 ve 9-60 TAM, sûre 2 kısmi (1-20). İlerleme `mumtehine_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1426** (sûre 60'ta eksik kök yok; `kok_ekle_60.py` boş). Aday havuzu **1041** (sûre 60'ta yeni aday yok; `AX_mumtehine` boş). Bağ **AS_mumtehine** 56. Esmâ okuyucu kararı (KARAR) **577** (561 → 577; 12 İLÂHÎ, 4 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik dört blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 3 + 2 + 0 + 2 = 7) · [x/y] **194 sayım (47 + 54 + 40 + 53), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 13 ayeti uzunluğa göre 4 blokta okundu (1-3, 4-7, 8-10, 11-13); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure60_mumtehine_okuma.md` (`mumtehine_paket_md.py`, 13 başlık). Uzak depo **a5a609e** (oturum boyunca ilerlemedi); fark zip'i a5a609e tabanı, sûre 59 + 60.
+
+### Sûre 60 bilançosu (TAM SAYIM, `okuma_metni['60']['_bilanco_sure']`)
+348 kelime · **lafız 21 token / 11 ayet** · **Rab 4 token** (60:1, 60:4, 60:5 ×2) · edilgen 0 · iltifât ölçümü 0 (60:1 1S konuşan + 3. şahıs 'rabbikum'; 60:4 iç sözler — 517) · hapaks yok · mm2 yok.
+Yıldız 0:6 · ★1 (60:6 allah) · ★★2 (60:5 rab; 60:12 n) · ★★★4 (60:1, 4, 10 n; 60:7 allah).
+Fâsıla N 8 · R 3 (60:3, 4, 13) · ل 1 (60:1) · د 1 (60:6); kafiye kırığı 60:6. En uzun 60:10 (55); en kısa 60:2, 3, 5 (13).
+Adlı aktör: İbrâhîm (60:4 ×2); Nebî 60:12'de sıfatla. Sayı işareti 60:4 'vahdeh' (anlam 'tek başına'), 60:11 'ezvâc'. Sûre halkası (okuma): 60:1 'yâ eyyuhe'llezîne âmenû lâ tettehızû … evliyâ'' / 60:13 'yâ eyyuhe'llezîne âmenû lâ tetevellev' (nakarat3 GEÇER). Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2, L1, L0 yok. Olgu değil: 60:3 (kıyamet günü), 60:6 (âhiret günü), 60:11 (insan eşleri), 60:13 (âhiret, kabirdekiler). Tarayıcı v4 adayı 1 (60:11), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+16 e_oto tokeni → ilâhî 12, değil 4 (60:1 'evliyâ''; 60:6 'âhir'; 60:11 'mu'minûn'; 60:13 'el-âhire'). §4.3 mühür 7 → geçerli **6** (60:3, 5, 6, 7, 10, 12); yanlış mühür 60:11. Ölçüm satırı 60:3'te 'SON, MÜHÜRSÜZ' / bilanço geçerli (1022).
+
+### ★ YENİ ARAÇ AÇIĞI — lemma eşsesli birleşmesi (924 ailesi; kayıt, araç değişmedi)
+`oturum_lem.py` lemma 'asâ' (عصا) listesi değnek ('asâ: 2:60, 7:107, 20:18 …) ve isyan ('asâ: 20:121, 60:12 …) geçişlerini birlikte sayıyor (37 ayet; kök عصي 32). 60:12'de kök sayısı kullanıldı. Eşsesli şüphesinde `--kok` ile karşılaştır.
+
+### Kendi kaydı
+Kayıttan önce: 60:3 basılmamış eşler hakkında 'rahimler' iddiası silindi; 60:12 'sûrenin öbür üç nidâsı' (dua nidâları 'rabbenâ' dışarıda kalıyordu) → 'yâ eyyuhe ile açılan öbür üç ayet'. Kayıttan sonra: 60:11-13 ARIZA notunda 'kafiye kırığı 0' blok içi diye netleştirildi ve [x/y] 52 → 53 (son koşu); ARIZA notu, mercek alanı değil — blok yeniden koşuldu. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 60)
+'veliyy' / 60:1 'evliyâ'' · 'âhir' 57:3 / 60:6, 60:13 · 'ğanî' 59:7 / 60:6 · 'berî'' 59:16 / 60:4 · 'ehabbe' 59:9 / 60:8 · 'imtehane' 49:3 / 60:10 · علم 60:10 içinde Allah / inananlar · 'mu'min' 59:23 / 60:11. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+59:24 / 60:1 (ad dizisi ve tesbihle kapanış → nidâ ve yasakla açılış; fâsıla م → ل). 60:13 → 61:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+13 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: düşmanlar, elçi, İbrâhîm'in beraberindekileri / kavmi / babası, savaşan / savaşmayan gruplar, göç eden ve biat eden kadınlar, kocalar, gazaba uğramış topluluk, 'ashâbu'l-qubûr' — sınıf, ad verilmedi.
+* 1021: رحم 60:3 'erhâm' (akrabalar); ظهر 60:9 'zâherû' destek / zıhâr.
+* 1022: 60:3 ölçüm / bilanço ayrışması; 60:11 karar sonrası geçersiz mühür.
+* 924: ayet 1 harf alanı (60:1); 60:3:2 morph 2MS etiketi; sayı işareti 'vahdeh'; **lemma 'asâ' eşsesli birleşmesi**.
+* 517: 60:1 1S + 3. şahıs; 60:4 iç sözler; iltifât 0.
+* 1014: tarayıcı v4 kesinlik 0/1.
+
+### Okuma ikiliği (karar verilmedi)
+60:13 'kemâ ye'ise'l-kuffâru min ashâbi'l-qubûr' — inkârcılar kabirdekilerden / kabirdeki inkârcılar umut kesti; meal birincisini aldı.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 60'ta yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.

@@ -612,4 +612,56 @@ KARAR = {
 '58:21:8': 'ilahi',  # qavî — inne'llâhe qaviyyun azîz, lafzın haberi
 '58:21:9': 'ilahi',  # azîz — aynı haber, çift
 '58:22:7': 'degil',  # 'el-yevmi'l-âhir' — günün sıfatı (son gün); 57:3 'el-âhir' İLÂHÎ kararının karşıtı
+# sûre 59 blok 1-5
+'59:1:10': 'ilahi',  # azîz — ve huve'l-azîzu'l-hakîm, zamir (Allah) haberi
+'59:1:11': 'ilahi',  # hakîm — aynı haber, çift
+'59:2:11': 'degil',  # 'evvel' — li-evveli'l-haşr, sürgünün ilki; Allah adı değil
+'59:2:37': 'degil',  # 'el-mu'minîn' — çoğul, inananların elleri; Allah adı değil
+'59:3:12': 'degil',  # 'el-âhira' — âhiret yurdu; Allah adı değil
+# sûre 59 blok 6-10
+'59:6:25': 'ilahi',  # qadîr — va'llâhu alâ kulli şey'in qadîr, lafzın haberi
+'59:7:22': 'degil',  # 'el-ağniyâ'' — çoğul zenginler (beyne'l-ağniyâ'i minkum); Allah adı değil
+'59:10:22': 'ilahi',  # ra'ûf — rabbenâ innake ra'ûfun rahîm, Rab hitabının haberi
+'59:10:23': 'ilahi',  # rahîm — aynı haber, çift
+# sûre 59 blok 11-17
+'59:11:20': 'degil',  # 'ehaden' — 'lâ nutî'u fîkum ehaden ebedâ', hiç kimse; Allah adı değil
+'59:15:5': 'degil',  # 'qarîben' — 'mine'llezîne min qablihim qarîbâ', yakın zamanda; Allah adı değil
+# sûre 59 blok 18-24
+'59:18:15': 'ilahi',  # habîr — inna'llâhe habîrun bimâ ta'melûn, lafzın haberi
+'59:22:8': 'ilahi',  # âlim — âlimu'l-ğaybi ve'ş-şehâde, 'huve'llâh' haberi
+'59:22:12': 'ilahi',  # rahmân — huve'r-rahmânu'r-rahîm
+'59:22:13': 'ilahi',  # rahîm — aynı haber, çift
+'59:23:8': 'ilahi',  # melik — huve'llâhu … el-melik
+'59:23:9': 'ilahi',  # quddûs — aynı dizi
+'59:23:10': 'ilahi',  # selâm — aynı dizi
+'59:23:11': 'ilahi',  # mu'min — aynı dizi (59:2 çoğul 'mu'minîn' DEĞİL kararının karşıtı)
+'59:23:12': 'ilahi',  # muheymin — aynı dizi
+'59:23:13': 'ilahi',  # azîz — aynı dizi
+'59:23:14': 'ilahi',  # cebbâr — aynı dizi
+'59:23:15': 'ilahi',  # mutekebbir — aynı dizi
+'59:24:3': 'ilahi',  # hâlik — huve'llâhu'l-hâlik
+'59:24:4': 'ilahi',  # bâri' — aynı dizi
+'59:24:5': 'ilahi',  # musavvir — aynı dizi
+'59:24:16': 'ilahi',  # azîz — ve huve'l-azîzu'l-hakîm
+'59:24:17': 'ilahi',  # hakîm — aynı haber, çift
+# sûre 60 blok 1-3
+'60:1:8': 'degil',  # 'evliyâ'' — çoğul dostlar ('lâ tettehizû aduvvî ve aduvvekum evliyâ''); Allah adı değil
+'60:3:13': 'ilahi',  # basîr — va'llâhu bimâ ta'melûne basîr, lafzın haberi
+# sûre 60 blok 4-7
+'60:5:12': 'ilahi',  # azîz — innake ente'l-azîzu'l-hakîm, Rab hitabının haberi
+'60:5:13': 'ilahi',  # hakîm — aynı haber, çift
+'60:6:12': 'degil',  # 'el-yevme'l-âhir' — günün sıfatı; Allah adı değil (58:22 emsali)
+'60:6:18': 'ilahi',  # ğanî — fe-inna'llâhe huve'l-ğaniyyu'l-hamîd
+'60:6:19': 'ilahi',  # hamîd — aynı haber, çift
+'60:7:12': 'ilahi',  # qadîr — va'llâhu qadîr, lafzın haberi
+'60:7:14': 'ilahi',  # ğafûr — va'llâhu ğafûrun rahîm
+'60:7:15': 'ilahi',  # rahîm — aynı haber, çift
+# sûre 60 blok 8-10
+'60:10:54': 'ilahi',  # alîm — va'llâhu alîmun hakîm, lafzın haberi
+'60:10:55': 'ilahi',  # hakîm — aynı haber, çift
+# sûre 60 blok 11-13
+'60:11:21': 'degil',  # mu'minûn — 'entum bihî mu'minûn', inananların sıfatı
+'60:12:37': 'ilahi',  # ğafûr — inna'llâhe ğafûrun rahîm, lafzın haberi
+'60:12:38': 'ilahi',  # rahîm — aynı haber, çift
+'60:13:13': 'degil',  # âhir — 'el-âhire' (âhiret), sıfat ismi değil
 }
