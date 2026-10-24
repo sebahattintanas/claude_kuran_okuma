@@ -1,21 +1,21 @@
-# OTURUM — sûre 60 (Mümtehine) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 63 (Münâfikûn) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 3955 / 6236 ayet (%63,4)** — sûre 1 ve 9-60 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 61 (Saff, 14 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1426** kök (sûre 60'ta eksik kök yok) · aday havuzu **1-1041** (sûre 60'ta yeni aday yok, `AX_mumtehine` boş) · bağ seti `AS_mumtehine` 56 · esmâ KARAR 577.
+**Okunan: 3991 / 6236 ayet (%64,0)** — sûre 1 ve 9-63 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 64 (Teğâbun, 18 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1430** kök (sûre 63'te 3 kök: جسم, خشب, سند) · aday havuzu **1-1041** (sûre 63'te yeni aday yok, `AX_munafikun` boş) · bağ seti `AS_munafikun` 38 · esmâ KARAR 602.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç; blok denetimi `repo/betikler/` kopyasıyla — calisma/ kopyası korpusu bulamıyor, sahte ✗ verir).
-Paket: depo `a5a609e`'ye göre fark (sûre 59 + 60; 59 ayrıca yüklendiyse fark yalnız 60'ı taşır). Ara zip'ler 59:1-10, 59 TAM ve 59 TAM + 60:1-7'de verildi (aynı taban).
-Sûre 60 dosyaları: `kok_ekle_60.py` (boş) · `mumtehine_metin_1.py` (MEAL1-4/M1-4) · `mumtehine_kayit.py` (CIPA, ARIZA, DUZELTME 0) · `uret_blok_60.py` · `aday_ekle_60_mumtehine.py` · `yama_retroaktif_gloss_60.py` · `duzeltme_60.py` · `mumtehine_kapanis.py` (+ `mumtehine_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `mumtehine_paket_md.py` → `notlar/sure60_mumtehine_okuma.md`.
-Sûre 59 dosyaları: `kok_ekle_59.py` (7 kök) · `hasr_metin_1.py` (MEAL1-4/M1-4) · `hasr_kayit.py` (CIPA, ARIZA, DUZELTME 1) · `uret_blok_59.py` · `aday_ekle_59_hasr.py` · `yama_retroaktif_gloss_59.py` · `yama_haman_59.py` (gloss çakışması yaması, idempotent) · `duzeltme_59.py` · `hasr_kapanis.py` (+ `hasr_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `hasr_paket_md.py` → `notlar/sure59_hasr_okuma.md`.
-Sûre 61 için şablonlar `mumtehine_*`'dan S=61 (yeni set adları `AX_<ad>/AS_<ad>`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-59 dosyaları: `duhan_*` … `vakia_*`, `hadid_*`, `mucadele_*`, `hasr_*` (aynı düzen). Bloklar değişken uzunlukta: `<sure>_kapanis.py` ve `<sure>_paket_md.py` içindeki blok listesi elle (BLOKLAR ile aynı) — şablonu kopyalarken güncelle.
+Paket: depo `499918d`'ye göre fark (sûre 61 + 62 + 63; önceki zip'ler yüklendiyse fark yalnız yenileri taşır). Bu oturumda verilen zip'ler: `fark_499918d_sure61.zip`, `fark_499918d_sure61_62.zip`, `fark_499918d_sure61_62_63.zip` (aynı taban).
+Sûre 63 dosyaları: `kok_ekle_63.py` (3 kök) · `munafikun_metin_1.py` (MEAL1-2/M1-2) · `munafikun_kayit.py` (CIPA, ARIZA, DUZELTME 0) · `uret_blok_63.py` · `aday_ekle_63_munafikun.py` · `yama_retroaktif_gloss_63.py` · `duzeltme_63.py` · `munafikun_kapanis.py` (+ `munafikun_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `munafikun_paket_md.py` → `notlar/sure63_munafikun_okuma.md`.
+Sûre 62 dosyaları: `kok_ekle_62.py` (boş) · `cuma_metin_1.py` (MEAL1-2/M1-2) · `cuma_kayit.py` (CIPA, ARIZA, DUZELTME 0) · `uret_blok_62.py` · `aday_ekle_62_cuma.py` · `yama_retroaktif_gloss_62.py` · `duzeltme_62.py` · `cuma_kapanis.py` (+ `cuma_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `cuma_paket_md.py` → `notlar/sure62_cuma_okuma.md`.
+Sûre 64 için şablonlar `munafikun_*`'dan S=64 (yeni set adları `AX_<ad>/AS_<ad>`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-62 dosyaları: `duhan_*` … `mumtehine_*`, `saff_*`, `cuma_*` (aynı düzen). Bloklar değişken uzunlukta: `<sure>_kapanis.py` ve `<sure>_paket_md.py` içindeki blok listesi elle (BLOKLAR ile aynı) — şablonu kopyalarken güncelle.
 **Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü (heredoc ile yaz; `python -c` içinde \n kaçışı bozuluyor), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı kararına açık (okuma sonunda).
-**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 60'ta 13/13).
-**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 61:1 okunurken 60:13 ile bağ kayıt olarak yazılabilir (sûre 60: 59:24 / 60:1; sûre içi halka 60:1 / 60:13 'yâ eyyuhe'llezîne âmenû lâ').
-**Aday 1041:** aynı kelimenin Allah ve insan / başka şey için kullanılması — kayıt (sûre 60'ta sekiz vaka; 'ehabbe' 59:9 / 60:8, 'imtehane' 49:3 / 60:10, علم 60:10 içinde Allah / inananlar).
-**Çıpa:** sûre 60'ta L4 yok, L0 yok (doğal olgu yok; tarayıcı adayı 60:11 insan eşleri, kesinlik 0/1). **48:29 ve 57:20 L4 adayı (teşbih içi), TARTIŞMALI — karar okuma sonunda.**
-**Bekleyenler:** kullanıcı kararı (2026-10-21) — bekleyen kararların hepsine TAM OKUMA BİTTİKTEN SONRA bakılacak; oturumlarda sorulmaz, yalnız kaydedilir. Sûre 59'da eklenen: gloss_gecis özel ad iskeleti çakışması. Sûre 60'ta yeni bekleyen karar yok.
+**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 63'te 11/11).
+**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 64:1 okunurken 63:11 ile bağ kayıt olarak yazılabilir (sûre 63: 62:11 / 63:1 ve ardışık sûrelerde üç koşut — 'zikri'llâh', 'infaddû' / 'lehv', rızık). 64:1 'yusebbihu li'llâh' açılışı 62:1 ile eşleşebilir (ölçüm 62:1 xref 64:1) — ardışık değil, okuma bağı.
+**Aday 1041:** aynı kelimenin Allah ve insan / başka şey için kullanılması — kayıt (sûre 63'te iki vaka: شهد 63:1; عزز 63:8).
+**Çıpa:** sûre 63'te L4 yok, L0 3 (63:7 gökler ve yer; 63:10 ölüm; 63:11 ecel); olgu değil 63:4 (teşbihte kütük), 63:8 (şehir); tarayıcı adayı yok. **48:29 ve 57:20 L4 adayı (teşbih içi), TARTIŞMALI — karar okuma sonunda.**
+**Bekleyenler:** kullanıcı kararı (2026-10-21) — bekleyen kararların hepsine TAM OKUMA BİTTİKTEN SONRA bakılacak; oturumlarda sorulmaz, yalnız kaydedilir. Sûre 63'te yeni bekleyen karar yok.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 60 MÜMTEHİNE SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 63 MÜNÂFİKÛN SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -131,6 +131,20 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * Lemma listesi eşsesli sözcükleri birleştirebilir: lemma 'asâ' (عصا) değnek ve isyan geçişlerini birlikte sayıyor (37 ayet / kök عصي 32) — eşsesli şüphesinde `oturum_lem.py --kok` ile kök sayısı alınır (sûre 60, 60:12).
 * 'Nidâ' sayarken 'rabbenâ' gibi dua nidâları da nidâdır — 'yâ eyyuhe' kalıbı ayrıca sayılır (sûre 60, 60:12 kayıttan önce düzeltildi).
 * Blok ARIZA'sında sûre geneline ait gibi okunan blok içi değer ('kafiye kırığı 0') blok içi diye yazılır; [x/y] sayısı son koşudan alınır (sûre 60, 60:11-13 ARIZA notu).
+
+* Ders / emsal göndermesi ('48:3 dersi', '49:11 dersi') de ayet anmasıdır: bu oturumda basılmamış okunmuş ayetin numarası ders adı olarak da yazılmaz — 'yıldız formülü dersi' gibi numarasız yazılır (sûre 61: 61:3, 61:4 kayıttan önce yakalandı).
+* Esmâ: izâfetli 'nûr' ('nûra'llâh', 'nûrihî') DEĞİL (39:69 emsali); insan çoğulları 'ensâr', 'zâhirîn' DEĞİL — 'ensâru'llâh' Allah'a izâfet olsa da göndergesi insan (sûre 61: 61:8, 61:14).
+* Oturum ertesi güne sarkarsa ortamın korunduğu `okuma_metni['<S>']` anahtarları ve ilerleme sayısıyla doğrulanır; ardından `git -C k fetch origin` (sûre 61: ortam korunmuştu, 3962 ile devam edildi).
+* `uret_blok_<S>.py` her koşuda bütün BLOKLAR betiklerini yeniden üretir; önceki blok betikleri yeniden KOŞULMAZ (kayıt değişmez) — esitle değişiklik göstermemeli.
+
+* Şablon sözdizimi denetimi `python3 -m py_compile <betik>` ile yapılır; `python3 -c 'import aday_ekle_<S>_<ad>'` modül düzeyindeki kodu KOŞTURUR ve repo JSON'larını yazar (sûre 62 kurulumu: boş AX / AS yazıldı; idempotent olduğu için zarar yok).
+* Karşıt çift satırına metinde söylenmeyen bir karşıt ('… / anlamaz') eklenmez; yalnız metindeki iki uç yazılır (sûre 62: 62:5 kayıttan önce silindi).
+* Ardışık iki sûre aynı kalıpla açılıyorsa (61:1 / 62:1) 1040 alanına sûre sınırı bağından (son ayet → ilk ayet) ayrı olarak yazılır; ardışık olmayan eş (59:1) okuma bağıdır.
+* Esmâ 'âlim' / 'alîm' lafız olmadan da ('ilâ âlimi'l-ğayb') İLÂHÎ kararı alabilir — sınıf E; mühür bilançodan (sûre 62: 62:8).
+
+* Lemma listesindeki okunmuş ayetlerin içeriği hakkında toplu iddia ('hepsinde X') yazılmaz; bu oturumda basılmayan ayetin metni görülmemiştir — yalnız sayı yazılır (sûre 63: 63:4 'sayha', kayıttan önce silindi).
+* Ölçüm xref'indeki okunmuş ama bu oturumda basılmamış ayet de adla anılmaz: "xref '…' → okunmuş 1 ayet (ölçüm)" (sûre 63: 63:6, 63:11).
+* Retroaktif yama hedef listesine sûre 2'nin okunmamış ayetleri (21+) girer: betik `OKUNAN` kümesini sûre anahtarından kurar, sûre 2 kısmi kayıtlı. Kayıt yoksa atlanır; yama 0 — 'daha önce okunmuş 1 ayet' çıktısı okunmamış 2:A olabilir (sûre 63: 2:247).
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
