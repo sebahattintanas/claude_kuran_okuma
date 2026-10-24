@@ -664,4 +664,34 @@ KARAR = {
 '60:12:37': 'ilahi',  # ğafûr — inna'llâhe ğafûrun rahîm, lafzın haberi
 '60:12:38': 'ilahi',  # rahîm — aynı haber, çift
 '60:13:13': 'degil',  # âhir — 'el-âhire' (âhiret), sıfat ismi değil
+# sûre 61 blok 1-7
+'61:1:10': 'ilahi',  # azîz — ve huve'l-azîzu'l-hakîm, zamir (Allah) haberi
+'61:1:11': 'ilahi',  # hakîm — aynı haber, çift
+'61:6:31': 'degil',  # mubîn — 'sihrun mubîn', sihrin sıfatı
+# sûre 61 blok 8-14
+'61:8:3': 'degil',   # 'nûra'llâh' — Allah'ın nuru, izâfet (39:69:3 emsali); isim değil
+'61:8:8': 'degil',   # 'mutimmu nûrihî' — aynı nur, zamirle izâfet
+'61:13:7': 'degil',  # 'fethun qarîb' — fethin sıfatı (48:18:19 emsali)
+'61:13:9': 'degil',  # 'beşşiri'l-mu'minîn' — inananlar, çoğul
+'61:14:5': 'degil',  # 'kûnû ensâra'llâh' — yardımcılar, inananlar (çoğul)
+'61:14:14': 'degil', # 'men ensârî' — Îsâ'nın yardımcıları, çoğul
+'61:14:20': 'degil', # 'nahnu ensâru'llâh' — havariler, çoğul
+'61:14:35': 'degil', # 'fe-asbahû zâhirîn' — üstün gelenler, inananlar (40:29:5 emsali)
+# sûre 62 blok 1-5
+'62:1:9': 'ilahi',   # melik — li'llâhi ... el-meliki, lafzın sıfatı (ad dizisi)
+'62:1:10': 'ilahi',  # quddûs — aynı dizi (ölçüm satırında görünmüyor, esma_kayit konumu)
+'62:1:11': 'ilahi',  # azîz — aynı dizi
+'62:1:12': 'ilahi',  # hakîm — aynı dizi, son kelime
+'62:2:21': 'degil',  # mubîn — 'dalâlin mubîn', sapkınlığın sıfatı
+'62:3:7': 'ilahi',   # azîz — 've huve'l-azîzu'l-hakîm', zamir 62:2 'huve'llezî ba'ase' (Allah)
+'62:3:8': 'ilahi',   # hakîm — aynı haber, çift
+# sûre 62 blok 6-11
+'62:6:8': 'degil',   # evliyâ' — 'ennekum evliyâ'u li'llâh', iddia edenler, çoğul
+'62:7:8': 'ilahi',   # alîm — 've'llâhu alîmun bi'z-zâlimîn', lafzın haberi
+'62:8:12': 'ilahi',  # âlim — 'ilâ âlimi'l-ğaybi ve'ş-şehâdeh', dönüş yeri Allah (lafız yok)
+# sûre 63 blok 6-11
+'63:8:13': 'degil',  # mu'minîn — 've li'l-mu'minîn', inananlar (çoğul)
+'63:10:9': 'degil',  # ehad — 'ehadekumu'l-mevt', biriniz (zamirli), sayı / kimse
+'63:10:17': 'degil', # qarîb — 'ecelin qarîb', ecelin sıfatı (fethun qarîb emsali)
+'63:11:9': 'ilahi',  # habîr — 've'llâhu habîrun bimâ ta'melûn', lafzın haberi
 }
