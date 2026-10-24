@@ -6797,3 +6797,137 @@ Kayıttan önce: 60:3 basılmamış eşler hakkında 'rahimler' iddiası silindi
 
 ### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
 48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 60'ta yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 61 SAFF SONU (2026-10-24)
+
+**Okunan: 3969 / 6236 ayet (%63,6)** — sûre 1 ve 9-61 TAM, sûre 2 kısmi (1-20). İlerleme `saff_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1427** (1426 → 1427; `kok_ekle_61.py`: رصص, 61:4 'mersûs'). Aday havuzu **1041** (sûre 61'de yeni aday yok; `AX_saff` boş). Bağ **AS_saff** 50. Esmâ okuyucu kararı (KARAR) **588** (577 → 588; 2 İLÂHÎ, 9 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik iki blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 3 + 1 = 4) · [x/y] **129 sayım (55 + 74), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 14 ayeti uzunluğa göre 2 blokta okundu (1-7, 8-14); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure61_saff_okuma.md` (`saff_paket_md.py`, 14 başlık). Uzak depo **499918d** (oturum boyunca ilerlemedi); fark zip'i 499918d tabanı, yalnız sûre 61.
+
+### Sûre 61 bilançosu (TAM SAYIM, `okuma_metni['61']['_bilanco_sure']`)
+221 kelime · **lafız 17 token / 10 ayet** · **Rab 0** · edilgen 1 (61:7 'yud'â') · iltifât ölçümü 0 (61:14 lafız 3MS → 1P 'eyyednâ' — 517) · hapaks 61:4 (yeni kök رصص) · mm2 61:9.
+Yıldız 0:5 · ★4 (61:3, 7, 13 allah; 61:6 n) · ★★3 (61:5, 11 allah; 61:14 n) · ★★★2 (61:4 hapaks; 61:8 allah).
+Fâsıla N sınıfı 13 (م 61:1, 10, 12; ن on ayet) · ص 1; kafiye kırığı 61:4. En uzun 61:14 (35); en kısa 61:2 (8).
+Adlı aktör: Mûsâ (61:5), Îsâ ibn Meryem (61:6, 14), İsrâ'îl (61:6, 14), Tevrât (61:6), 'ahmed' (61:6), 'adn' (61:12, yer). Sayı işareti yok. Sûre içi halka (okuma): 'yâ eyyuhe'llezîne âmenû' 61:2 → 61:10 → 61:14 (nakarat3 GEÇER); 'qâle îsa'bnu meryem' 61:6 → 61:14 (GEÇER). Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2, L1 yok; L0 1 (61:1 gökler ve yer; 57:1, 59:1 emsali). Olgu değil: 61:4 (yapı, insan yapımı), 61:8 (nur, mecaz), 61:12 (cennet ırmakları). Tarayıcı v4 adayı 1 (61:8), kesinlik **0/1**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+11 e_oto tokeni → ilâhî 2 (61:1 azîz, hakîm), değil 9 (61:6 'mubîn'; 61:8 'nûr' ×2; 61:13 'qarîb', 'mu'minîn'; 61:14 'ensâr' ×3, 'zâhirîn'). §4.3 mühür 5 → geçerli **1** (61:1); yanlış mühür 61:6, 8, 13, 14. Ölçüm satırı 61:6'da 'MÜHÜRSÜZ' / esma_kayit 'mühür EVET' (1022).
+
+### Kendi kaydı
+Kayıttan önce: 61:6'da 61:4'ün kök sayısı [x/y] biçimiyle yazılmıştı (oturum_xy yakaladı) → 'sûre içi' biçimi; 61:4'te bu oturumda basılmamış iki okunmuş ayet adla anılmıştı → sayısız anma; 61:3, 61:4 ders göndermelerindeki basılmamış ayet numaraları çıkarıldı; 61:11 karşıt çift satırı 'yok' biçimine getirildi. Kayıttan sonra hata yakalanmadı. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 61)
+زيغ 61:5 'zâğû' insan / 'ezâğa'llâhu' Allah · حبب 61:4 / 61:13 (Allah sever / siz seversiniz) · نصر 61:13 'nasrun mina'llâh' / 61:14 'ensâru'llâh' · ظهر 61:9 'li-yuzhirahû' / 61:14 'zâhirîn' · lemma 'zâhir' 57:3 Allah adı / 40:29 kavim / 61:14 inananlar. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+60:13 / 61:1 (nidâ ve dost edinme yasağıyla kapanış → tesbihle açılış; fâsıla ر → م). 61:14 → 62:1 henüz okunmadı. Ardışık olmayan eşleşmeler okuma bağına yazıldı: 59:1 / 61:1 (esit2 TAM, aynı tesbih açılışı); 9:32-33 → 61:8-9 (aynı sırayla iki ayet).
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+14 ayetin hepsinde not yazıldı (61:11 'yok'). Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: 61:2-3 muhatap ve soran; savaşanlar; Mûsâ'nın kavmi; 'qâlû' diyenler; yalan uyduran ve çağıran (edilgen); söndürmek isteyenler; elçi; konuşan 1S (61:10); 'beşşir' muhatabı; iki 'tâ'ife', düşmanlar, konuşan 1P — ad verilmedi; 'ahmed' metin dışı kişiyle eşlenmedi.
+* 1022: 61:6, 8, 13, 14 esma_kayit mühür EVET, karar sonrası geçersiz.
+* 1038: 61:6 'ahmed' rol 'fail' (metinde 'ismuhû'nun haberi).
+* 924: ayet 1 harf alanı (61:1); nakarat3 61:5 'ennî' / 61:6 'innî' harekesiz eşleşmesi; ölçüm kipi 61:11 haber kipindeki emir anlamını görmüyor; ★★★ 61:4 yeni kök hapaksı, 61:8 kısa ayette lafız.
+* 517: 61:14 3MS → 1P; iltifât 0.
+* 1014: tarayıcı v4 kesinlik 0/1 (nur, mecaz).
+
+### Okuma ikiliği (karar verilmedi)
+61:6 'fe-lemmâ câ'ehum bi'l-beyyinât' — fail zamiri Îsâ ya da 'ahmed' adlı elçi.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 61'de yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 62 CUMA SONU (2026-10-24)
+
+**Okunan: 3980 / 6236 ayet (%63,8)** — sûre 1 ve 9-62 TAM, sûre 2 kısmi (1-20). İlerleme `cuma_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1427** (sûre 62'de eksik kök yok; `kok_ekle_62.py` boş). Aday havuzu **1041** (sûre 62'de yeni aday yok; `AX_cuma` boş). Bağ **AS_cuma** 39. Esmâ okuyucu kararı (KARAR) **598** (588 → 598; 8 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik iki blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 2 + 6 = 8) · [x/y] **114 sayım (41 + 73), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 11 ayeti 2 blokta okundu (1-5, 6-11); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure62_cuma_okuma.md` (`cuma_paket_md.py`, 11 başlık). Uzak depo **499918d** (oturum boyunca ilerlemedi); fark zip'i 499918d tabanı, sûre 61 + 62 (61 ayrıca yüklendiyse fark yalnız 62'yi taşır).
+
+### Sûre 62 bilançosu (TAM SAYIM, `okuma_metni['62']['_bilanco_sure']`)
+175 kelime · **lafız 12 token / 8 ayet** · **Rab 0** · edilgen 4 (62:5, 8, 9, 10) · iltifât ölçümü 0 · hapaks yok · mm2 yok.
+Yıldız 0:8 · ★1 (62:7 allah) · ★★1 (62:10 allah) · ★★★1 (62:4 allah).
+Fâsıla N sınıfı 11 (م 62:1-4; ن 62:5-11); kafiye kırığı yok. En uzun 62:5 (23); en kısa 62:3 (8).
+Adlı: Tevrât (62:5), 'cumu'a' (62:9, korpusta 1 token). Sayı işareti 62:10 'kesîr' (çokluk; 924). 2MS 'qul' 62:6, 8, 11. Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2, L1 yok; L0 4 (62:1 gökler ve yer; 62:6, 62:8 ölüm; 62:10 yeryüzü). Olgu değil: 62:5 (teşbihte eşek, süreç yok). Tarayıcı v4 adayı 2 (62:6, 62:10), kesinlik **0/2**.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+10 e_oto tokeni → ilâhî 8 (62:1 melik, quddûs, azîz, hakîm; 62:3 azîz, hakîm; 62:7 alîm; 62:8 âlim), değil 2 (62:2 'mubîn'; 62:6 'evliyâ''). §4.3 mühür 5 → geçerli **4** (62:1, 3, 7, 8); yanlış mühür 62:2. Ölçüm satırı 62:1'de 'quddûs'u göstermiyor; 62:7 'SON' konum etiketi metinle ayrışıyor (1022).
+
+### Kendi kaydı
+Kayıttan önce: 62:5 karşıt çift satırındaki metin dışı çıkarım ('anlamaz') silindi; 62:4'te 1041 vakası olmayan not silindi; 62:11 'son geçişler' listesinde خير [3/3] → [2,3/3] (oturum_xy yakaladı); 62:6, 62:7'de basılmamış iki okunmuş ayet ders / emsal numarasıyla anılmıştı → numarasız. Kurulumda `python3 -c 'import aday_ekle_62_cuma'` betiği boş haliyle koşturdu (AX_cuma / AS_cuma boş yazıldı; idempotent, blok kaydında yeniden yazıldı). DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 62)
+حكم 62:1, 3 'el-hakîm' / 62:2 'el-hikmeh' · علم 62:7 'alîm', 62:8 'âlim' / 62:9 'ta'lemûn' · 'veliyy' esmâ / 62:6 'evliyâ'u li'llâh'. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+61:14 / 62:1 (inananların üstünlüğüyle kapanış → tesbihle açılış; fâsıla ن → م). Ardışık iki sûre (61, 62) aynı tesbih cümlesiyle açılıyor (PERF → IMPF) ve beş koşut daha: 61:9 / 62:2 'huve'llezî ersele / be'ase'; 61:6 / 62:5 Tevrât; 61:7 / 62:5 'lâ yehdi'l-qavme'z-zâlimîn'; 61:11 / 62:9 'zâlikum hayrun lekum in kuntum ta'lemûn'; 61:10 / 62:11 'ticâret'. 62:11 → 63:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+11 ayetin hepsinde not yazıldı (62:4 'yok'). Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: elçi, ümmîler, sonradan gelenler, Tevrât yüklenenler ve yükleyen, 'qul' muhatabı, 'ellezîne hâdû', edilgen failler, dağılıp gidenler, ayakta bırakılan 2MS — ad verilmedi.
+* 1021: بأس 62:5 'bi'se' (ne kötü).
+* 1022: 62:1 'quddûs' ölçüm satırında yok; 62:2 karar sonrası geçersiz mühür; 62:7 konum etiketi.
+* 924: ayet 1 harf alanı (62:1); 62:2 muhaffefe 'in' → 'şart'; **lemma 'esfâr' eşsesli** (34:19 / 62:5); sayı işareti 'kesîr'; 62:4 ★★★.
+* 1014: tarayıcı v4 kesinlik 0/2.
+
+### Okuma ikiliği
+Yok. 62:5 Tevrât yüklenenler / 62:6 'ellezîne hâdû' göndergesi eşlenmedi.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 62'de yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 63 MÜNÂFİKÛN SONU (2026-10-24)
+
+**Okunan: 3991 / 6236 ayet (%64,0)** — sûre 1 ve 9-63 TAM, sûre 2 kısmi (1-20). İlerleme `munafikun_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1430** (1427 → 1430; `kok_ekle_63.py`: جسم, خشب, سند — hepsi 63:4). Aday havuzu **1041** (sûre 63'te yeni aday yok; `AX_munafikun` boş). Bağ **AS_munafikun** 38. Esmâ okuyucu kararı (KARAR) **602** (598 → 602; 1 İLÂHÎ, 3 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik iki blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 2 + 4 = 6) · [x/y] **116 sayım (48 + 68), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 11 ayeti 2 blokta okundu (1-5, 6-11); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure63_munafikun_okuma.md` (`munafikun_paket_md.py`, 11 başlık). Uzak depo **499918d** (oturum boyunca ilerlemedi); fark zip'i 499918d tabanı, sûre 61 + 62 + 63.
+
+### Sûre 63 bilançosu (TAM SAYIM, `okuma_metni['63']['_bilanco_sure']`)
+180 kelime · **lafız 14 token / 9 ayet** · **Rab 1** (63:10 'rabbi', ölenin nidâsı) · edilgen 3 (63:3, 4, 5) · iltifât ölçümü 0 · hapaks 63:4 (yeni kökler خشب, سند) · mm2 yok.
+Yıldız 0:7 · ★1 (63:6 allah) · ★★1 (63:1 allah) · ★★★2 (63:4 hapaks; 63:11 allah).
+Fâsıla N sınıfı 11 (hepsi ن); kafiye kırığı yok. En uzun 63:4 (22); en kısa 63:3, 63:11 (11).
+Adlı: 'medîne' (63:8; hangi şehir söylenmiyor, ad verilmedi). Sayı işareti 63:10 'ehad' (biriniz; 924). Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2, L1 yok; L0 3 (63:7 gökler ve yer; 63:10 ölüm; 63:11 ecel). Olgu değil: 63:4 (teşbihte kütük), 63:8 (şehir). Tarayıcı v4 adayı yok.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+4 e_oto tokeni → ilâhî 1 (63:11 habîr), değil 3 (63:8 'mu'minîn'; 63:10 'ehad', 'qarîb'). §4.3 mühür 3 → geçerli **1** (63:11); yanlış mühür 63:8, 63:10. 63:11 'SON' konum etiketi metinle ayrışıyor (1022).
+
+### Kendi kaydı
+Kayıttan önce: 63:4'te lemma 'sayha'nın basılmamış okunmuş 12 ayeti için 'hepsinde helâk sesi' içerik iddiası silindi; 63:6, 63:11'de basılmamış iki ölçüm xref ayeti ve bir lemma eşi sayıya çevrildi. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 63)
+شهد 63:1 'neşhedu' (münafıklar) / 've'llâhu yeşhedu' · عزز 63:8 'el-e'azz' (münafıkların iddiası) / 'li'llâhi'l-izzeh'. Kökün iki anlamı aynı ayette: نفق 63:7 'lâ tunfiqû' / 'el-munâfiqîn'. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+62:11 / 63:1 (2MS'i bırakıp gidenlerle kapanış → 2MS'e gelen münafıklarla açılış; fâsıla ن → ن). Ardışık sûrelerde: 62:9 / 63:9 'zikri'llâh'; 62:11 'infaddû', 'lehv' / 63:7 'yenfaddû', 63:9 'lâ tulhikum'; 62:11 'hayru'r-râziqîn' / 63:10 'razaqnâkum'. 63:11 → 64:1 henüz okunmadı. Ardışık olmayan: 58:15-16 → 63:2 (okuma bağı).
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+11 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: elçi (2MS), münafıklar, 'qîle' söyleyen, 'men inde rasûli'llâh', 'el-e'azz' / 'el-ezell', 'el-medîne', ölen 1S — ad verilmedi.
+* 1021: علو 63:5 'te'âlev' (gelin).
+* 1022: 63:8, 63:10 karar sonrası geçersiz mühür; 63:11 konum etiketi.
+* 924: ayet 1 harf alanı (63:1); 63:4 ve 63:11 ★★★; sayı işareti 'ehad'; 63:10 'rabbi' nidâsı ölçümde VOC değil.
+* Ön-kayıt §4: tetik dışı beden adları 63:4 'ecsâm', 63:5 'ru'ûs'.
+* Kök tablosu: retroaktif yama hedef listesine okunmamış 2:247 giriyor (sûre 2 kısmi) — kaydı yok, yama 0; araç değişmedi.
+
+### Okuma ikiliği
+Yok.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 63'te yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.
