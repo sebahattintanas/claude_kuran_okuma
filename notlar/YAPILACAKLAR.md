@@ -6931,3 +6931,134 @@ Yok.
 
 ### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
 48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması (sûre 59). Sûre 63'te yeni bekleyen karar yok. Esmâ ön-kaydı DONDURULDU.
+
+## SÛRE 64 TEĞÂBUN SONU (2026-10-25)
+
+**Okunan: 4009 / 6236 ayet (%64,3)** — sûre 1 ve 9-64 TAM, sûre 2 kısmi (1-20). İlerleme `tegabun_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1430** (sûre 64'te kök eklenmedi; `kok_ekle_64.py` boş). Aday havuzu **1041** (sûre 64'te yeni aday yok; `AX_tegabun` boş). Bağ **AS_tegabun** 62. Esmâ okuyucu kararı (KARAR) **620** (602 → 620; 14 İLÂHÎ, 4 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 5 + 2 + 2 = 9) · [x/y] **180 sayım (58 + 73 + 49), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 18 ayeti 3 blokta okundu (1-6, 7-12, 13-18); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure64_tegabun_okuma.md` (`tegabun_paket_md.py`, 18 başlık). Uzak depo **fcf5e41** (oturum boyunca ilerlemedi); fark zip'i fcf5e41 tabanı, yalnız sûre 64. Oturum iki güne yayıldı; ortam korunmuştu.
+
+### Sûre 64 bilançosu (TAM SAYIM, `okuma_metni['64']['_bilanco_sure']`)
+241 kelime · **lafız 20 token / 14 ayet** (kök أله 21 = lafız 20 + 64:13 'ilâh') · **Rab 1** (64:7 kasem 've rabbî') · edilgen 2 (64:7, 64:16) · iltifât ölçümü 2 (64:12, 64:13) · hapaks 64:9 (غبن 'teğâbun', sûre adı) · mm2 yok.
+Yıldız 0:9 · ★3 (64:6, 64:15 allah; 64:10 etiket allah / düzeltilmiş kafiye, 1001) · ★★2 (64:7 pas; 64:17 allah) · ★★★4 (64:8, 64:11, 64:13 allah; 64:9 hapaks).
+Fâsıla R 7, N 10, د 1; kafiye kırığı 64:9, 64:10 — öbür sekiz geçiş işaretlenmedi (924). En uzun 64:9 (27); en kısa 64:18 (5).
+Sayı işareti 64:14 'zevc' (eşleriniz; 924). Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2, L1 yok; L0 3 (64:1, 64:3, 64:4 gökler ve yer). Olgu değil: 64:9 (cennet ırmakları), 64:10 (ateş), 64:14 (eşler ve çocuklar), 64:17 (borç, mecaz). Tarayıcı v4 adayı 2 (64:9, 64:14), ikisi de çıpa değil — kesinlik 0/2.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+18 e_oto tokeni → ilâhî 14, değil 4 (64:2 'mu'min'; 64:8 'nûr'; 64:12 'mubîn'; 64:13 'mu'minûn'). §4.3 mühür 11 → geçerli **9** (64:1, 2, 4, 6, 8, 11, 14, 17, 18); yanlış mühür 64:12, 64:13. 64:18 'âlim' sınıf E (lafız yok; 62:8 emsali). Ölçüm satırı beş ayette 'MÜHÜRSÜZ' yazıp bilançoda geçerli mühür veriyor (1022).
+
+### Kendi kaydı
+Kayıttan önce: 64:1 'sebbaha' okunmuş / okunmamış sayısı (33 / 6 → 31 / 8); 64:2 ◈B tetik listesi (خلق → خلق بصر); 64:7 Rab 'sûre içi tek' → 'şimdiye dek tek'. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 64)
+هدي 64:6 'e-beşerun yehdûnenâ' (beşer öznesi, topluluğun sözü) / 64:11 'yehdi qalbeh' (Allah) · غفر 64:14 'tağfirû' (insan) / 'ğafûr' (Allah). Kökün iki anlamı: نور 64:8 / 64:10; كفر 64:9 'yukeffir'; وقي 64:16. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+63:11 / 64:1 (ecelin ertelenmemesi → göklerin ve yerin tesbihi; fâsıla ن → ر). Ardışık sûrelerde: 63:4 / 64:14 'aduvv' + 'ihzer-'; 63:9 / 64:15 'emvâlukum ve evlâdukum'. 64:18 → 65:1 henüz okunmadı. Ardışık olmayan (okuma bağı): 62:1 / 64:1 tesbih açılışı; 62:1 'el-azîzi'l-hakîm' / 64:18; 9:129 / 64:12-13.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+18 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: muhatap 2MP, önceki inkâr edenler, elçiler, 'qul' muhatabı, edilgen fail (64:7, 64:16), 64:18 özne — ad verilmedi.
+* 1021: كفر 64:9 'yukeffir' (örtme) gloss'ta yok.
+* 1022: beş ayette ölçüm 'MÜHÜRSÜZ' / bilanço geçerli; 64:12, 64:13 karar sonrası geçersiz; 64:4 konum etiketi.
+* 1001: 64:10 ★ kaynak etiketi.
+* 924: ayet 1 harf alanı (64:1); kafiye kırığı işaretlemesi tutarsız; 'innemâ' (64:12, 64:15) HASR yazılmıyor; 64:13 iltifât 1; sayı işareti 'zevc'.
+* Ön-kayıt §4: tetik dışı organ 64:4 'sudûr'.
+* esit2: 64:12 → 5:92, 64:15 → 8:28 (henüz okunmadı); 64:18 → 32:6.
+
+### Okuma ikiliği
+Yok.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması. Esmâ ön-kaydı DONDURULDU. Sûre 64'te yeni bekleyen karar yok.
+
+## SÛRE 65 TALÂK SONU (2026-10-25)
+
+**Okunan: 4021 / 6236 ayet (%64,5)** — sûre 1 ve 9-65 TAM, sûre 2 kısmi (1-20). İlerleme `talak_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1431** (1430 → 1431; `kok_ekle_65.py`: حيض — 65:4). Aday havuzu **1041** (sûre 65'te yeni aday yok; `AX_talak` boş). Bağ **AS_talak** 57. Esmâ okuyucu kararı (KARAR) **623** (620 → 623; 1 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 1 + 3 + 3 = 7) · [x/y] **198 sayım (54 + 71 + 73), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (hedef 2:222 okunmamış, kaydı yok) · **DUZELTME 0**.
+Sûrenin 12 ayeti uzunluğa göre 3 blokta okundu (1-3, 4-7, 8-12); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure65_talak_okuma.md` (`talak_paket_md.py`, 12 başlık). Uzak depo **fcf5e41** (oturum boyunca ilerlemedi); fark zip'i fcf5e41 tabanı, sûre 64 + 65.
+
+### Sûre 65 bilançosu (TAM SAYIM, `okuma_metni['65']['_bilanco_sure']`)
+287 kelime · **lafız 25 token / 9 ayet** · **Rab 2** (65:1, 65:8) · edilgen 3 (65:2, 6, 7) · iltifât ölçümü 0 · hapaks yok · mm2 65:8.
+Yıldız 0:2 · ★4 · ★★4 · ★★★2 (65:1 n; 65:10 allah) — kaynakların yarısı uzunluk (n).
+Fâsıla A sınıfı 12 (11 ا, 65:6 ى); kafiye kırığı yok. En uzun 65:1 (41); en kısa 65:9 (7).
+Sayı işareti: 65:1 ve 65:4 'idde', 65:4 'selâse', 65:10 'e'adde' (sayı değil), 65:12 'seb''. Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4, L3, L2 yok; L1 3 (65:3 'qadrâ'; 65:4 aybaşı / gebelik sınıfları; 65:12 yedi gök ve yer); L0 1 (65:6). Sınır vakaları (kayıt): 65:4 L4 sınıf kolu kelimesel — sınıflama hukukî (799); 65:12 L4 sınıf / ölçü koluna sınırda (41:12 emsali). Olgu değil: 65:1, 2 (iddet, ecel), 65:8 (kasaba), 65:11 (mecaz / âhiret). Tarayıcı v4 adayı 6, kesinlik 0/6.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → ilâhî 1 (65:12 qadîr, orta), değil 2 (65:2 'âhir'; 65:11 'nûr'). §4.3 mühür 1 → geçerli **0**; yanlış mühür 65:2. Sûrede geçerli esmâ mührü yok — ayet sonları hükümle kapanıyor (okuma; iddia yok).
+
+### Kendi kaydı
+Kayıttan önce: 65:4 'selâse' için 'sûrede ilk gerçek sayı' (65:2 'zevey' atlanmıştı) → 'süre sayıyla veriliyor'; 65:11 xref 3:101, 3:113 eklendi. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 65)
+بلغ 65:2 (kadınlar) / 65:3 (Allah) · أجر 65:5 (Allah'ın ödülü) / 65:6 (emzirenin ücreti) · 'emr' 65:8 (Rabbin emri) / 65:9 (kasabanın işi). Kökün iki anlamı: عدد, ظلم, قدر, خرج, حسب. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+64:18 / 65:1 (sıfat dizisiyle kapanış → nidâ ve hükümle açılış; fâsıla م → ا). Ardışık sûrelerde: 64:16 / 65:1; 64:14 / 65:1; 64:13 / 65:3; 64:9 / 65:5; 64:5 / 65:9; 64:9 / 65:11. 65:12 → 66:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+12 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: 'en-nebiyy', kadınlar, şahitler, 'yû'azu', çocuk, 'uhrâ', 'zû se'a', kasaba, elçiler, 'rasûlen' — ad verilmedi.
+* 1021: كفر 'yukeffir', قدر 'qudira', ظلم 'ez-zulumât', عدد 'e'adde'.
+* 1022: 65:2 karar sonrası geçersiz mühür; 65:12 orta konum İLÂHÎ, mühür yok.
+* 924: ayet 1 harf alanı (65:1); yıldız kaynağı uzunluk; 'e'adde' sayı işareti; 65:7 ölçüm 1S; 65:1 / 65:8 şahıs geçişi iltifât değil.
+* Kök tablosu: retroaktif hedefe okunmamış 2:222 giriyor (sûre 2 kısmi) — kaydı yok, yama 0; araç değişmedi.
+
+### Okuma ikiliği
+Yok.
+
+### Karar bekleyen (kullanıcı — TAM OKUMA SONUNDA)
+48:29 ve 57:20 çıpa (teşbih içi L4 adayı); S2 ◈K tetik فلك; مأي gloss; oturum_* yardımcıları; gloss_gecis özel ad iskeleti çakışması. Esmâ ön-kaydı DONDURULDU. Sûre 65'te yeni bekleyen karar yok.
+
+## SÛRE 66 TAHRÎM SONU (2026-10-25)
+
+**Okunan: 4033 / 6236 ayet (%64,7)** — sûre 1 ve 9-66 TAM, sûre 2 kısmi (1-20). İlerleme `tahrim_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1433** (1431 → 1433; `kok_ekle_66.py`: صغو — 66:4, ثيب — 66:5). Aday havuzu **1041** (sûre 66'da yeni aday yok; `AX_tahrim` boş). Bağ **AS_tahrim** 51. Esmâ okuyucu kararı (KARAR) **635** (623 → 635; 9 İLÂHÎ, 3 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 3 + 5 + 0 = 8) · [x/y] **172 sayım (42 + 71 + 59), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (hedef 6:113 okunmamış, kaydı yok) · **DUZELTME 0**.
+Sûrenin 12 ayeti uzunluğa göre 3 blokta okundu (1-4, 5-8, 9-12); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure66_tahrim_okuma.md` (`tahrim_paket_md.py`, 12 başlık). Uzak depo **fcf5e41** (oturum boyunca ilerlemedi); fark zip'i fcf5e41 tabanı, sûre 64 + 65 + 66.
+
+### Sûre 66 bilançosu (TAM SAYIM, `okuma_metni['66']['_bilanco_sure']`)
+249 kelime · **lafız 13 token / 8 ayet** · **Rab 5 / 4 ayet** (66:5, 8, 11, 12) · edilgen 3 (66:6, 7, 10) · iltifât ölçümü 0 · hapaks 1 (66:5 ثيب) · mm2 yok.
+Yıldız 0:6 · ★2 · ★★1 · ★★★3 (66:2 allah; 66:5 hapaks; 66:8 n).
+Fâsıla N 7, R 4, A 1; kafiye kırığı yok. En uzun 66:8 (45); en kısa 66:2, 7, 9 (11).
+Sayı işareti: 66:1, 3, 5 'zevc' (eşler, sayı değil). Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+Sûrede doğal olgu yok (L0-L4 boş). Olgu değil: 66:5 medenî durum, 66:6 ateş / melekler, 66:8 cennet / nur, 66:12 iffet / ruhtan üfleme. Tarayıcı v4 adayı 1 (66:5), kesinlik 0/1.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+12 e_oto tokeni → ilâhî 9, değil 3 (66:4 'mu'minîn'; 66:8 'nûr' ×2). §4.3 mühür 5 → geçerli **4** (66:1, 2, 3, 8); yanlış mühür 66:4 ('zahîr' ile kapanış). 66:3 'el-alîmu'l-habîr' lafızsız, Peygamberin sözünde fail. 66:8 ölçüm satırı 'qadîr' MÜHÜRSÜZ / bilanço geçerli — alan farkı (924).
+
+### Kendi kaydı
+Kayıttan önce: 66:4'te 66:3'e ait ظهر sayısı [x/y] biçiminde yazılmıştı — oturum_xy yakaladı. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 66)
+66:3 'nebbe'e' eş, Peygamber ve Allah için aynı ayette · 'mevlâ' 66:2 / 66:4 (Allah; haberine Cibrîl ve 'sâlihu'l-mu'minîn' ortak). Kökün / lemmanın iki anlamı: ظهر, حلل, 'yemîn', نور, بني. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+65:12 / 66:1 (bilgiyle kapanış → soru ve nidâyla açılış; fâsıla ا → م). 65:1 / 66:1 aynı nidâ 'yâ eyyuhe'n-nebiyy' ile açılış. Ardışık sûrelerde: 64:14 / 65:1 / 66:1 eşler; 65:1 / 66:5 'tallaqa'; 65:5 ve 65:11 / 66:8. 66:12 → 67:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+12 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: Peygamber, eşleri, 66:3 konuşan eş, 66:4 iki muhatap, olası eşler, 66:7 edilgen fail, 66:8 konuşanlar, Nûh / Lût / Firavun'un eşleri, 66:10 'qîle' — ad verilmedi; metinde adlı: Cibrîl, Nûh, Lût, Firavun, Meryem, İmrân.
+* 1021: بني 66:12 'ibnete' (kız) — gloss 'bina, yapma'.
+* 1022: 66:4 karar sonrası geçersiz mühür; 66:8 ölçüm satırı / bilanço mühür farkı.
+* 924: ayet 1 harf alanı (66:1); 66:9 = 9:73 karakter eşitliği, esit2 oranı 0,9821 (YAKIN); yıldız kaynağı uzunluk; 'zevc' sayı işareti; 66:2 → 66:3 م → ر kafiye kırığı işaretlenmedi.
+* Kök tablosu: retroaktif hedefe okunmamış 6:113 giriyor — kaydı yok, yama 0; araç değişmedi.
+
+### Okuma ikiliği
+Yok.

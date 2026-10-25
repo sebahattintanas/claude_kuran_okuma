@@ -26032,5 +26032,861 @@
    "kural": "okuma — 'izâ câ'e' ile açılış (münafıklar) ve kapanış (ecel); halka iddiası yok",
    "not": "sûre sınırları."
   }
+ ],
+ "AS_tegabun": [
+  {
+   "bag": "63:11 → 64:1",
+   "kural": "okuma — ardışık sûre sınırı; ecelin ertelenmemesi, 'habîrun bimâ ta'melûn' / göklerin ve yerin tesbihi; fâsıla ن → ر (aday 1040, kayıt)",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "62:1 → 64:1",
+   "kural": "lemma dizisi + ölçüm xref — 'yusebbihu li'llâhi mâ fi's-semâvâti ve mâ fi'l-ard'; harekesiz 'yusebbihu li'llâh' 2 ayet; ad dizisi / 'lehu'l-mulku ve lehu'l-hamd'; ardışık değil",
+   "not": "açılış eşi (okuma bağı)."
+  },
+  {
+   "bag": "57:4 → 64:2",
+   "kural": "lemma dizisi — 've'llâhu bimâ ta'melûne basîr' (12 ayet); 'huve'llezî halaqa' gökler ve yer / 2MP",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "39:5 → 64:3",
+   "kural": "lemma dizisi — 'halaqa's-semâvâti ve'l-arda bi'l-haqq' (5 ayet); gece-gündüz / biçim",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "40:64 → 64:3",
+   "kural": "lemma dizisi + ölçüm xref — 've savvarakum fe-ahsene suverakum' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:2 → 64:3",
+   "kural": "sûre içi — kök خلق: 'halaqakum' / 'halaqa' (خلق [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "16:19 → 64:4",
+   "kural": "lemma dizisi — 'ya'lemu mâ tusirrûne ve mâ tu'linûn' (6 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "31:23 → 64:4",
+   "kural": "lemma dizisi — 'alîmun bi-zâti's-sudûr' (5 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:1 → 64:4",
+   "kural": "nakarat3 GEÇMEZ — 'mâ fi's-semâvât'; tesbih eden / bilinen",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:70 → 64:5",
+   "kural": "lemma dizisi — 'e-lem ye'ti- nebe'u'llezîne' (3 ayet); 3MP ve kavimler adlı / 2MP ve adsız",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "59:15 → 64:5",
+   "kural": "lemma dizisi + ölçüm xref — 'zâqû vebâle emrihim ve lehum azâbun elîm'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:2 → 64:5",
+   "kural": "sûre içi — kök كفر: 'kâfir' / 'keferû' (كفر [2/6])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "40:22 → 64:6",
+   "kural": "lemma dizisi + ölçüm xref — 'zâlike bi-enne- kânet te'tîhim rusuluhum bi'l-beyyinât' (2 ayet); 'bi-ennehum' / 'bi-ennehû'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "9:70 → 64:6",
+   "kural": "ölçüm xref — 'etethum rusuluhum bi'l-beyyinât'",
+   "not": "xref."
+  },
+  {
+   "bag": "54:24 → 64:6",
+   "kural": "okuma — lemma 'beşer': 'fe-qâlû e-beşeran' / 'fe-qâlû e-beşerun' soruşu",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "14:8 → 64:6",
+   "kural": "lemma dizisi — 'lafız + ğaniyy + hamîd' (5 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:1 → 64:6",
+   "kural": "sûre içi — kök حمد: 'lehu'l-hamd' / 'hamîd' (حمد [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:5 → 64:6",
+   "kural": "sûre içi — 'zâlike bi-enne' 64:5'in gerekçesi; kök أتي (أتي [2/2])",
+   "not": "sûre içi gerekçe."
+  },
+  {
+   "bag": "62:6 → 64:7",
+   "kural": "okuma — lemma 'zeame': 'in zeamtum' / 'zeame'llezîne keferû'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "58:7 → 64:7",
+   "kural": "lemma dizisi — 'summe + nebbe'e + mâ + amile' (2 ayet); etken 3MS / edilgen 2MP",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "24:64 → 64:7",
+   "kural": "ölçüm xref — 'nebbe'e + amel + lafız'",
+   "not": "xref."
+  },
+  {
+   "bag": "31:23 → 64:7",
+   "kural": "ölçüm xref — 'nebbe'e + amel + lafız'",
+   "not": "xref."
+  },
+  {
+   "bag": "57:22 → 64:7",
+   "kural": "lemma dizisi — 'zâlike ale'llâhi yesîr' (9 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:5 → 64:7",
+   "kural": "sûre içi — kök نبأ: 'nebe'u' / 'le-tunebbe'unne' (نبأ [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "61:11 → 64:8",
+   "kural": "lemma dizisi — 'âmene + lafız + rasûl' (17 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "57:10 → 64:8",
+   "kural": "lemma dizisi — 've'llâhu bimâ ta'melûne habîr' (9 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:2 → 64:8",
+   "kural": "nakarat3 GEÇMEZ — 'lafız bimâ amel': 'basîr' / 'habîr'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:100 → 64:9",
+   "kural": "lemma dizisi + ölçüm xref — 'hâlidîne fîhâ ebedâ zâlike'l-fevzu'l-azîm' (2 ayet); 'tecrî tahtehâ' / 'tecrî min tahtihâ'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:7 → 64:9",
+   "kural": "okuma — diriltme ve haber verme / toplanma günü ('yevmu't-teğâbun')",
+   "not": "sûre içi süreklilik."
+  },
+  {
+   "bag": "57:19 → 64:10",
+   "kural": "lemma dizisi — 've'llezîne keferû ve kezzebû bi-âyâtinâ ulâ'ike ashâbu-' (7 ayet); 'el-cahîm' / 'en-nâr'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "58:8 → 64:10",
+   "kural": "lemma dizisi — 'bi'se'l-masîr' (11 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:9 → 64:10",
+   "kural": "sûre içi — inanan / inkâr eden, cennet / ateş, kurtuluş / kötü varış; kök خلد [2/2] (aday 1039, kayıt)",
+   "not": "sûre içi karşıt."
+  },
+  {
+   "bag": "64:8 → 64:10",
+   "kural": "sûre içi — kök نور: 'en-nûr' / 'en-nâr' (نور [2/2])",
+   "not": "kök iki anlam."
+  },
+  {
+   "bag": "64:3 → 64:10",
+   "kural": "sûre içi — kök صير: 've ileyhi'l-masîr' / 've bi'se'l-masîr' (صير [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "57:22 → 64:11",
+   "kural": "okuma — 'mâ esâbe min musîbetin … illâ': 'fî kitâb' / 'bi-izni'llâh'",
+   "not": "açılış eşi."
+  },
+  {
+   "bag": "63:3 → 64:11",
+   "kural": "okuma — lemma 'qalb': mühürlenen kalpler / yol gösterilen kalp",
+   "not": "lemma karşıtı."
+  },
+  {
+   "bag": "58:7 → 64:11",
+   "kural": "lemma dizisi — 'lafız + bi-kulli şey'in alîm' (14 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "24:64 → 64:11",
+   "kural": "lemma dizisi — 've'llâhu bi-kulli şey'in alîm' (14 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:6 → 64:11",
+   "kural": "sûre içi — kök هدي: beşer öznesi (topluluğun sözü) / Allah öznesi (هدي [2/2]; aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:9 → 64:11",
+   "kural": "nakarat3 GEÇMEZ — 've men yu'min bi'llâh'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:1 → 64:11",
+   "kural": "sûre içi — 'kulli şey'' ×2: 'qadîr' / 'alîm' (كلل [2/2], شيأ [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "24:54 → 64:12",
+   "kural": "lemma dizisi + ölçüm xref — 'atî'u'llâhe ve atî'u'r-rasûl', 'fe-in tevellev fe-innemâ', 'el-belâğu'l-mubîn'; 'er-rasûl' / 'rasûlinâ'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:6 → 64:12",
+   "kural": "sûre içi — kök ولي: 'tevellev' (3MP) / 'tevelleytum' (2MP şart) (ولي [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:129 → 64:13",
+   "kural": "lemma dizisi — 'lâ ilâhe illâ huve' (9 ayet); 'tevellev → tevhid → tevekkül' tek ayette / 64:12-13 iki ayette; ardışık değil",
+   "not": "kalıp eşi (okuma bağı)."
+  },
+  {
+   "bag": "58:10 → 64:13",
+   "kural": "lemma dizisi — 've ale'llâhi fe'l-yetevekkeli'l-mu'minûn' (7 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:12 → 64:13",
+   "kural": "sûre içi — 'fe-in tevelleytum' şartının ardından tevhid ve tevekkül",
+   "not": "sûre içi süreklilik."
+  },
+  {
+   "bag": "63:4 → 64:14",
+   "kural": "okuma — 'aduvv' + 'ihzer-': münafıklar düşman, 2MS / eşlerin ve çocukların bir kısmı, 2MP; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "63:9 → 64:15",
+   "kural": "okuma — 'emvâlukum ve evlâdukum': alıkoyan / sınav; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "9:22 → 64:15",
+   "kural": "lemma dizisi + ölçüm xref — 'lafız + indehû ecrun azîm' (3 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "64:14 → 64:15",
+   "kural": "sûre içi — kök ولد: düşman olabilen çocuklar / sınav olan çocuklar (ولد [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:9 → 64:15",
+   "kural": "sûre içi — kök عظم: 'el-fevzu'l-azîm' / 'ecrun azîm' (عظم [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "59:9 → 64:16",
+   "kural": "lemma dizisi + ölçüm xref — 've men yûqa şuhha nefsihî fe-ulâ'ike humu'l-muflihûn' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:12 → 64:16",
+   "kural": "sûre içi — 'atî'û' (طوع [4/4] son)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "57:11 → 64:17",
+   "kural": "lemma dizisi + ölçüm xref — 'yuqridu'llâhe qardan hasenen fe-yudâ'ifehû' (4 ayet): soru / şart; 'ecrun kerîm' / 'yağfir lekum'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "57:18 → 64:17",
+   "kural": "lemma dizisi + ölçüm xref — 'aqradu'llâhe qardan hasenen yudâ'afu' (4 ayet): edilgen / etken",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:16 → 64:17",
+   "kural": "sûre içi — harcama emri / güzel borcun karşılığı",
+   "not": "sûre içi süreklilik."
+  },
+  {
+   "bag": "64:14 → 64:17",
+   "kural": "sûre içi — kök غفر: 'tağfirû', 'ğafûr' / 'yağfir' (غفر [3/3] son)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "62:8 → 64:18",
+   "kural": "lemma dizisi — 'âlimu'l-ğaybi ve'ş-şehâdeh' (10 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "32:6 → 64:18",
+   "kural": "esit2 BENZER + ölçüm xref — 'âlimu'l-ğaybi ve'ş-şehâdeti'l-azîzu-': 'er-rahîm' / 'el-hakîm'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "62:1 → 64:18",
+   "kural": "lemma dizisi — 'el-azîzu'l-hakîm' (47 ayet); 62:1 açılış ad dizisinin sonu / 64:18 kapanış; ardışık değil",
+   "not": "okuma bağı."
+  },
+  {
+   "bag": "64:1 → 64:18",
+   "kural": "okuma — ad / sıfatla açılış ('qadîr') ve kapanış ('âlim … azîz hakîm'); halka iddiası yok",
+   "not": "sûre sınırları."
+  },
+  {
+   "bag": "64:4 → 64:18",
+   "kural": "sûre içi — kök علم: 'ya'lemu' ×2, 'alîm' / 'âlim' (علم [5/5] son)",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_talak": [
+  {
+   "bag": "64:18 → 65:1",
+   "kural": "okuma — ardışık sûre sınırı; sıfat dizisiyle kapanış / nidâ ve hükümle açılış; fâsıla م → ا (aday 1040, kayıt)",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "64:16 → 65:1",
+   "kural": "okuma — sakınma emri 'fe'ttequ'llâh' / 've'ttequ'llâhe rabbekum'; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "64:14 → 65:1",
+   "kural": "okuma — 'ezvâcikum' / 'en-nisâ'': eşlerden düşman olanlar / boşama hükmü; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "33:1 → 65:1",
+   "kural": "lemma dizisi — 'yâ eyyuhe'n-nebiyy' (13 ayet)",
+   "not": "açılış eşi."
+  },
+  {
+   "bag": "33:49 → 65:1",
+   "kural": "okuma — lemma 'tallaqa', 'idde': dokunmadan boşananlara iddet yok / iddet gözetilerek boşama",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "9:36 → 65:1",
+   "kural": "okuma — lemma 'idde': ayların sayısı / boşananın iddeti",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "33:30 → 65:1",
+   "kural": "ölçüm xref — 'ye'ti- bi-fâhişetin mubeyyineh'",
+   "not": "xref."
+  },
+  {
+   "bag": "58:4 → 65:1",
+   "kural": "lemma dizisi — 've tilke hudûdu'llâh' (6 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "31:34 → 65:1",
+   "kural": "okuma — lemma 'tedrî': 've mâ tedrî nefsun' / 'lâ tedrî le'alla'llâh'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "58:3 → 65:2",
+   "kural": "lemma dizisi — 'zâlikum tû'azûne bihî' / 'zâlikum yû'azu bihî' (3 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:1 → 65:2",
+   "kural": "sûre içi — kök خرج: evden çıkarma / çıkma yasağı / 'mahracâ' (خرج [3/4])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "59:2 → 65:3",
+   "kural": "okuma — 'min haysu lem yahtesibû' / 'min haysu lâ yahtesib': baskın / rızık",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "39:47 → 65:3",
+   "kural": "okuma — lemma 'ihtesebe' (3 ayet)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "64:13 → 65:3",
+   "kural": "okuma — tevekkül 'ale'llâhi fe'l-yetevekkel' / 'men yetevekkel ale'llâh'; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "9:129 → 65:3",
+   "kural": "okuma — lemma 'hasb': 'hasbiya'llâh' / 'fe-huve hasbuh'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "54:49 → 65:3",
+   "kural": "okuma — 'kulle şey'in … bi-qader' / 'li-kulli şey'in qadrâ'; yaratma / koyma",
+   "not": "konu eşi."
+  },
+  {
+   "bag": "65:2 → 65:3",
+   "kural": "sûre içi — şart cevabı sürüyor; kök بلغ insan / Allah (بلغ [2/2]; aday 1041, kayıt), جعل",
+   "not": "sûre içi süreklilik."
+  },
+  {
+   "bag": "60:13 → 65:4",
+   "kural": "okuma — lemma 'ye'ise': âhiretten / aybaşından umut kesme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "22:2 → 65:4",
+   "kural": "okuma — 'teda'u kullu zâti hamlin hamlehâ' / 'en yeda'ne hamlehunne': sarsıntı günü / iddet sonu",
+   "not": "ifade eşi."
+  },
+  {
+   "bag": "18:88 → 65:4",
+   "kural": "lemma dizisi — 'min emr- yusrâ' (2 ayet): 1P / 3MS",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:2 → 65:4",
+   "kural": "nakarat3 GEÇER — 've men yetteqi'llâhe yec'al lehû': 'mahracâ' / 'min emrihî yusrâ'; kök أجل 'ecelehunne' ×2 (أجل [2/2])",
+   "not": "sûre içi nakarat."
+  },
+  {
+   "bag": "65:1 → 65:4",
+   "kural": "sûre içi — lemma 'idde' 65:1 ×2 / 65:4",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:9 → 65:5",
+   "kural": "lemma dizisi — 'yukeffir anhu seyyi'âtihî' (12 ayet): bahçelere sokma / ödülü büyütme; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "29:7 → 65:5",
+   "kural": "lemma dizisi — 'keffera + an + seyyi'e' (12 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:4 → 65:5",
+   "kural": "nakarat3 GEÇER — 've men yetteqi'llâh' (65:2, 4, 5): üç karşılık",
+   "not": "sûre içi nakarat."
+  },
+  {
+   "bag": "22:2 → 65:6",
+   "kural": "okuma — lemma 'erda'a': emzirdiğini unutma / ücretli emzirme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "28:7 → 65:6",
+   "kural": "okuma — lemma 'erda'a': emzirme vahyi / ücretli emzirme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "28:20 → 65:6",
+   "kural": "okuma — lemma 'i'temere' (2 ayet): öldürmek için danışma / iyilikle danışma",
+   "not": "lemma karşıtı."
+  },
+  {
+   "bag": "65:1 → 65:6",
+   "kural": "sûre içi — evden çıkarma yasağı / 'eskinûhunne' (oturtun)",
+   "not": "sûre içi karşılık."
+  },
+  {
+   "bag": "65:4 → 65:6",
+   "kural": "sûre içi — 'en yeda'ne hamlehunne' / 'hattâ yeda'ne hamlehunne' (حمل [4/4], وضع [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:5 → 65:6",
+   "kural": "sûre içi — kök أجر: Allah'ın ödülü / emzirenin ücreti (أجر [2/2]; aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "24:22 → 65:7",
+   "kural": "okuma — lemma 'se'a': 'ulu'l-fadli ve's-se'a' / 'zû se'a'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "23:62 → 65:7",
+   "kural": "okuma — lemma 'kellefe': 'lâ nukellifu nefsen illâ vus'ahâ' / 'lâ yukellifu'llâhu nefsen illâ mâ âtâhâ'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:4 → 65:7",
+   "kural": "sûre içi — kök يسر: 'min emrihî yusrâ' / 'ba'de usrin yusrâ' (يسر [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:6 → 65:7",
+   "kural": "sûre içi — kök عسر 'teâsertum' / 'usr'; نفق 'fe-enfiqû' / 'li-yunfiq' (نفق [3/3])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:3 → 65:7",
+   "kural": "sûre içi — kök قدر: 'qadrâ' (ölçü) / 'qudira aleyhi' (daraltma); رزق 'yerzuqhu' / 'rizquh'",
+   "not": "kök iki anlam."
+  },
+  {
+   "bag": "47:13 → 65:8",
+   "kural": "lemma dizisi — 've ke-eyyin min qaryetin' (4 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "51:44 → 65:8",
+   "kural": "lemma dizisi + ölçüm xref — 'atev an emri rabbi-' (3 ayet): 3MP topluluk / 3FS kasaba",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "18:87 → 65:8",
+   "kural": "lemma dizisi + ölçüm xref — 'azzebe- azâben nukrâ' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:3 → 65:8",
+   "kural": "sûre içi — kök حسب: 'yahtesib', 'hasbuh' / 'hâsebnâhâ hisâben' (حسب [4/4])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:1 → 65:8",
+   "kural": "sûre içi — Rab: 'rabbekum' / 'rabbihâ' (ربب [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:5 → 65:9",
+   "kural": "lemma dizisi — 'zâqa + vebâle emr-' (4 ayet): 3MP / 3FS; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "59:15 → 65:9",
+   "kural": "lemma dizisi — 'zâqû vebâle emrihim' (4 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:8 → 65:9",
+   "kural": "sûre içi — 'emri rabbihâ' / 'emrihâ': Rab ve kasaba için aynı kelime (aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "58:15 → 65:10",
+   "kural": "lemma dizisi + ölçüm xref — 'e'adda'llâhu lehum azâben şedîdâ' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "65:1 → 65:10",
+   "kural": "sûre içi — kök وقي: 'ittequ' ile açılış / 'fe'ttequ'llâh' ile son bölüm (وقي [5/5]); عدد 'idde' / 'e'adde' (iki anlam)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:8 → 65:10",
+   "kural": "sûre içi — kök عذب, شدد: 'hisâben şedîdâ', 'azâben nukrâ' / 'azâben şedîdâ' (عذب [3/3], شدد [2/2])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:5 → 65:10",
+   "kural": "sûre içi — kök نزل: 'enzelehû ileykum' / 'enzela'llâhu ileykum'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "57:9 → 65:11",
+   "kural": "lemma dizisi — 'li-yuhric- mine'z-zulumâti ile'n-nûr' (7 ayet): 2MP / 3MP",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "64:9 → 65:11",
+   "kural": "lemma dizisi + ölçüm xref — 've men yu'min bi'llâhi ve ya'mel sâlihan … yudhilhu cennâtin … ebedâ' (2 ayet): 'el-fevzu'l-azîm' / 'ahsena'llâhu lehû rizqâ'; ardışık sûreler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "65:10 → 65:11",
+   "kural": "sûre içi — bedel: 'zikrâ' → 'rasûlen'",
+   "not": "sûre içi süreklilik."
+  },
+  {
+   "bag": "65:1 → 65:11",
+   "kural": "sûre içi — kök خرج 'lâ tuhricûhunne' / 'li-yuhric' (خرج [4/4]); ظلم 'zaleme' / 'ez-zulumât' (iki anlam)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:3 → 65:11",
+   "kural": "sûre içi — kök رزق: 'yerzuqhu' / 'rizqâ' (رزق [3/3])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "41:12 → 65:12",
+   "kural": "lemma dizisi — 'seb'a semâvât' (5 ayet); 'evhâ fî kulli semâ'in emrahâ' / 'yetenezzelu'l-emru beynehunne'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "17:44 → 65:12",
+   "kural": "okuma — lemma 'seb'': 'es-semâvâtu's-seb'u ve'l-ard'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "65:3 → 65:12",
+   "kural": "sûre içi — 'li-kulli şey'in qadrâ' / 'alâ kulli şey'in qadîr', 'bi-kulli şey'in ilmâ' (قدر [3/3], كلل [3/3], شيأ [3/3])",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "65:1 → 65:12",
+   "kural": "okuma — 'emr' ile açılış ('yuhdisu … emrâ') ve kapanış ('yetenezzelu'l-emr'); lemma 'emr' sûre içi 8 token; halka iddiası yok",
+   "not": "sûre sınırları."
+  }
+ ],
+ "AS_tahrim": [
+  {
+   "bag": "65:12 → 66:1",
+   "kural": "okuma — ardışık sûre sınırı; bilgiyle kapanış / soru ve nidâyla açılış; fâsıla ا → م (aday 1040, kayıt)",
+   "not": "sûre sınırı."
+  },
+  {
+   "bag": "65:1 → 66:1",
+   "kural": "lemma dizisi — 'yâ eyyuhe'n-nebiyy' (13 ayet): ardışık iki sûre aynı nidâyla açılıyor (aday 1040, kayıt)",
+   "not": "açılış eşi."
+  },
+  {
+   "bag": "64:14 → 66:1",
+   "kural": "okuma — 'ezvâc': 64:14, 65:1 ('en-nisâ''), 66:1 — üç ardışık sûrede eşler (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "33:28 → 66:1",
+   "kural": "okuma — 'yâ eyyuhe'n-nebiyyu qul li-ezvâcik' / 'tebteğî mardâte ezvâcik'",
+   "not": "nidâ + eşler."
+  },
+  {
+   "bag": "9:29 → 66:1",
+   "kural": "okuma — lemma 'harrama': Allah'ın haram kıldığını haram saymayanlar / helâl kıldığını haram kılan",
+   "not": "lemma karşıtı."
+  },
+  {
+   "bag": "64:14 → 66:1",
+   "kural": "lemma dizisi — 'lafız + ğafûr + rahîm' (46 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "33:38 → 66:2",
+   "kural": "okuma — lemma 'farada': 'farada'llâhu lehû' (Peygamber) / 'farada'llâhu lekum'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "47:11 → 66:2",
+   "kural": "lemma dizisi — 'lafız + mevlâ' (6 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "33:1 → 66:2",
+   "kural": "lemma dizisi — 'alîm + hakîm' (29 ayet)",
+   "not": "ortak kapanış."
+  },
+  {
+   "bag": "66:1 → 66:2",
+   "kural": "sûre içi — kök حلل: 'ehalla'llâh' / 'tahille' (حلل [2/2]); 2MS → 2MP",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:4 → 66:3",
+   "kural": "okuma — lemma 'esarra': Allah'ın gizlenenleri bilmesi / Peygamberin gizli sözü ve açığa çıkması (ardışık değil, okuma bağı)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "64:7 → 66:3",
+   "kural": "okuma — lemma 'nebbe'e': yapılanın haber verilmesi / sözün haber verilmesi",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "31:34 → 66:3",
+   "kural": "okuma — 'alîmun habîr' / 'el-alîmu'l-habîr' (fail, lafızsız)",
+   "not": "sıfat çifti."
+  },
+  {
+   "bag": "28:86 → 66:4",
+   "kural": "okuma — lemma 'zahîr': kâfirlere destekçi olma / melekler destekçi",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "66:2 → 66:4",
+   "kural": "sûre içi — 'mevlâ' ×2 (ولي [2/2]): 'mevlâkum' / 'huve mevlâhu ve Cibrîlu ve sâlihu'l-mu'minîn' (aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "66:3 → 66:4",
+   "kural": "sûre içi — kök ظهر: 'azharahu' / 'tezâherâ', 'zahîr' (iki anlam)",
+   "not": "kök iki anlam."
+  },
+  {
+   "bag": "65:1 → 66:5",
+   "kural": "okuma — lemma 'tallaqa': 'izâ tallaqtumu'n-nisâ'' / 'in tallaqakunne' (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "33:49 → 66:5",
+   "kural": "okuma — lemma 'tallaqa': 2MP boşayanlar / 3MS Peygamber",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "33:35 → 66:5",
+   "kural": "okuma — sıfat dizisi 'muslimât, mu'minât, qânitât': erkek / kadın çiftleri 've' ile / yalnız kadın çoğulu, atıfsız",
+   "not": "dizi eşi."
+  },
+  {
+   "bag": "56:36 → 66:5",
+   "kural": "okuma — lemma 'bikr' (3 ayet)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "66:4 → 66:5",
+   "kural": "sûre içi — kök توب: 'tetûbâ' / 'tâ'ibât'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:16 → 66:6",
+   "kural": "okuma — lemma 'vaqâ': edilgen 'yûqa' / emir 'qû'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "16:50 → 66:6",
+   "kural": "lemma dizisi — 've yef'alûne mâ yu'merûn' (5 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "66:4 → 66:6",
+   "kural": "sûre içi — 'melâ'ike' (ملك [2/2]): Peygambere destekçi / ateşin başında",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:66 → 66:7",
+   "kural": "okuma — 'lâ ta'tezirû': dünyada / 'el-yevm'",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "52:16 → 66:7",
+   "kural": "lemma dizisi — 'innemâ tuczevne mâ kuntum ta'melûn' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "45:28 → 66:7",
+   "kural": "xref (ölçüm) — 'el-yevme tuczevne mâ kuntum ta'melûn'",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "66:6 → 66:7",
+   "kural": "sûre içi — ardışık nidâ 'ellezîne âmenû' / 'ellezîne keferû' (karşıt çift, okuma)",
+   "not": "sûre içi karşıt."
+  },
+  {
+   "bag": "66:4 → 66:8",
+   "kural": "nakarat3 (GEÇMEZ) — 'tâbe ilâ lafız': ikil şart / çoğul emir",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "66:5 → 66:8",
+   "kural": "nakarat3 (GEÇMEZ) — 'asâ rabb en': daha iyi eşler / kötülüklerin örtülmesi",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "64:9 → 66:8",
+   "kural": "lemma dizisi — 'yukeffir an seyyi'ât + yudhil cennâtin tecrî min tahtihe'l-enhâr' (4 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "47:2 → 66:8",
+   "kural": "xref (ölçüm) — 'keffera anhum seyyi'âtihim'",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "65:5 → 66:8",
+   "kural": "okuma — 'yukeffir anhu seyyi'âtihî' / 'yukeffire ankum seyyi'âtikum' (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "65:11 → 66:8",
+   "kural": "lemma dizisi — 'yudhil cennâtin tecrî min tahtihe'l-enhâr' (11 ayet) (aday 1040, kayıt)",
+   "not": "ardışık sûre bağı."
+  },
+  {
+   "bag": "57:12 → 66:8",
+   "kural": "xref (ölçüm) — 'yes'â nûruhum beyne eydîhim ve bi-eymânihim': inanan erkekler ve kadınlar / Peygamber ve onunla inananlar",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "66:2 → 66:8",
+   "kural": "sûre içi — lemma 'yemîn': yeminler / sağ yanlar (iki anlam)",
+   "not": "lemma iki anlam."
+  },
+  {
+   "bag": "66:6 → 66:8",
+   "kural": "sûre içi — kök نور: 'nâr' / 'nûr' (karşıt çift, okuma)",
+   "not": "kök iki anlam."
+  },
+  {
+   "bag": "9:73 → 66:9",
+   "kural": "esit2 (YAKIN 0,9821; karakter karşılaştırmasında eşit) — ayet metni aynı",
+   "not": "tekrar ayet."
+  },
+  {
+   "bag": "66:1 → 66:9",
+   "kural": "sûre içi — 'yâ eyyuhe'n-nebiyy' ×2: sitem / emir",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "66:6 → 66:9",
+   "kural": "sûre içi — kök غلظ: 'ğılâz' (melekler) / 've'ğluz' (Peygambere emir)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "45:19 → 66:10",
+   "kural": "lemma dizisi — 'ağnâ an … mine'llâhi şey'â' (2 ayet)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "12:67 → 66:10",
+   "kural": "xref (ölçüm) — 'mâ uğnî ankum mine'llâhi min şey''",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "66:10 → 66:11",
+   "kural": "nakarat3 (GEÇER) — 'daraba'llâhu meselen li'llezîne': keferû / âmenû; ateş / cennette ev (karşıt çift, okuma)",
+   "not": "sûre içi karşıt."
+  },
+  {
+   "bag": "66:4 → 66:10",
+   "kural": "sûre içi — kök صلح: 'sâlihu'l-mu'minîn' / 'abdeyni … sâlihayn'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "28:9 → 66:11",
+   "kural": "lemma dizisi — 'imraete fir'avn' (2 ayet): konuşma / dua",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "28:21 → 66:11",
+   "kural": "xref (ölçüm) — 'rabbi necciniî mine'l-qavmi'z-zâlimîn': 3MS / 3FS aynı dua",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "23:28 → 66:11",
+   "kural": "xref (ölçüm) — 'neccânâ mine'l-qavmi'z-zâlimîn'",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "21:91 → 66:12",
+   "kural": "lemma dizisi — 'elletî ahsanet fercehâ fe-nefahnâ fî- min rûhinâ' (2 ayet): 'fîhâ' / 'fîhi'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "28:27 → 66:12",
+   "kural": "okuma — lemma 'ibnet' (2 ayet)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "66:11 → 66:12",
+   "kural": "sûre içi — kök بني: 'ibni' (yap) / 'ibnete' (kız) (iki anlam, 1021)",
+   "not": "kök iki anlam."
+  },
+  {
+   "bag": "66:5 → 66:12",
+   "kural": "sûre içi — kök قنت: 'qânitât' / 'mine'l-qânitîn' — sûre aynı kökle kapanıyor (okuma)",
+   "not": "sûre içi eş."
+  }
  ]
 }
