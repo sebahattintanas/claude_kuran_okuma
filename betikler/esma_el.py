@@ -694,4 +694,44 @@ KARAR = {
 '63:10:9': 'degil',  # ehad — 'ehadekumu'l-mevt', biriniz (zamirli), sayı / kimse
 '63:10:17': 'degil', # qarîb — 'ecelin qarîb', ecelin sıfatı (fethun qarîb emsali)
 '63:11:9': 'ilahi',  # habîr — 've'llâhu habîrun bimâ ta'melûn', lafzın haberi
+# sûre 64 blok 1-6
+'64:1:17': 'ilahi',  # qadîr — 've huve alâ kulli şey'in qadîr', zamir 'lehu' lafız (64:1)
+'64:2:7': 'degil',   # mu'min — 've minkum mu'min', sizden inanan (insan, tekil sınıf)
+'64:2:11': 'ilahi',  # basîr — 've'llâhu bimâ ta'melûne basîr', lafzın haberi
+'64:4:12': 'ilahi',  # alîm — 've'llâhu alîmun bi-zâti's-sudûr', lafzın haberi
+'64:6:15': 'ilahi',  # ğaniyy — 've'llâhu ğaniyyun hamîd', lafzın haberi
+'64:6:16': 'ilahi',  # hamîd — aynı haber, çift
+# sûre 64 blok 7-12
+'64:8:4': 'degil',    # nûr — 've'n-nûri'llezî enzelnâ', indirilen nur (izâfetsiz ama mevsûlle nitelenen indirilen şey)
+'64:8:10': 'ilahi',  # habîr — 've'llâhu bimâ ta'melûne habîr', lafzın haberi
+'64:11:16': 'ilahi', # alîm — 've'llâhu bi-kulli şey'in alîm', lafzın haberi
+'64:12:11': 'degil', # mubîn — 'el-belâğu'l-mubîn', tebliğin sıfatı
+# sûre 64 blok 13-18
+'64:13:9': 'degil',  # mu'minûn — 've ale'llâhi fe'l-yetevekkeli'l-mu'minûn', inananlar (çoğul)
+'64:14:17': 'ilahi', # ğafûr — 'fe-inna'llâhe ğafûrun rahîm', lafzın haberi
+'64:14:18': 'ilahi', # rahîm — aynı haber, çift
+'64:17:11': 'ilahi', # şekûr — 've'llâhu şekûrun halîm', lafzın haberi
+'64:17:12': 'ilahi', # halîm — aynı haber, çift
+'64:18:1': 'ilahi',  # âlim — 'âlimu'l-ğaybi ve'ş-şehâdeh', 64:17 lafzının devamı (lafız yok; 62:8:12 emsali)
+'64:18:4': 'ilahi',  # azîz — 'el-azîzu'l-hakîm', aynı ad dizisi
+'64:18:5': 'ilahi',  # hakîm — aynı dizi, son kelime
+# sûre 65 blok 1-3
+'65:2:24': 'degil',  # âhir — 've'l-yevmi'l-âhir', günün sıfatı
+# sûre 65 blok 8-12
+'65:11:15': 'degil', # nûr — 'mine'z-zulumâti ile'n-nûr', karanlıklardan aydınlığa (mecaz, gidilen yer)
+'65:12:18': 'ilahi', # qadîr — 'enna'llâhe alâ kulli şey'in qadîr', lafzın haberi
+# sûre 66 blok 1-4
+'66:1:13': 'ilahi', # ğafûr — 've'llâhu ğafûrun rahîm', lafzın haberi
+'66:1:14': 'ilahi', # rahîm — aynı haber, çift
+'66:2:8': 'ilahi',  # mevlâ — 've'llâhu mevlâkum', lafzın haberi
+'66:2:10': 'ilahi', # alîm — 've huve'l-alîmu'l-hakîm', zamir lafız
+'66:2:11': 'ilahi', # hakîm — aynı haber, çift
+'66:3:28': 'ilahi', # alîm — 'nebbe'eniye'l-alîmu'l-habîr', Peygamberin sözünde haber veren (Allah)
+'66:3:29': 'ilahi', # habîr — aynı fail, çift
+'66:4:14': 'ilahi', # mevlâ — 'fe-inna'llâhe huve mevlâhu', lafzın haberi (Cibrîl ve sâlih mü'minler atıfla)
+'66:4:17': 'degil', # mu'minîn — 've sâlihu'l-mu'minîn', inananlar (çoğul)
+# sûre 66 blok 5-8
+'66:8:29': 'degil', # nûr — 'nûruhum yes'â beyne eydîhim', inananların nuru (âhiret sahnesi)
+'66:8:38': 'degil', # nûr — 'etmim lenâ nûranâ', inananların duasında kendi nurları
+'66:8:45': 'ilahi', # qadîr — 'inneke alâ kulli şey'in qadîr', 'rabbenâ' hitabının haberi
 }
