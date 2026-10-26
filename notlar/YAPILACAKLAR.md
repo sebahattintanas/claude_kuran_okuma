@@ -7227,3 +7227,132 @@ Yok.
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 32:5 eski çıpa kaydı ('L4 (ölçü) · olgu EVET', gaybî yükseliş) ↔ 70:4 (olgu=False, aynı kalıp). Hangisi geçerli — kullanıcı kararı.
+
+## SÛRE 71 NÛH SONU (2026-10-26)
+
+**Okunan: 4239 / 6236 ayet (%68,0)** — sûre 1 ve 9-71 TAM, sûre 2 kısmi (1-20). İlerleme `nuh_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1452** (1451 → 1452; `kok_ekle_71.py`: نسر 71:23, put adı). Aday havuzu **1041** (sûre 71'de yeni aday yok; `AX_nuh` boş). Bağ **AS_nuh** 70. Esmâ okuyucu kararı (KARAR) **662** (656 → 662; 1 İLÂHÎ, 5 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu 2 + 9 + 1 = 12 uyuşmaz, kayıttan önce dolduruldu) · [x/y] **176 sayım (60 + 50 + 66), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 2** (71:10, 71:20; aday 1017 — alıntı sınırı).
+Sûrenin 28 ayeti üç blokta okundu (1-10, 11-20, 21-28); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure71_nuh_okuma.md` (`nuh_paket_md.py`, 28 başlık). Uzak depo **3c5d85c** (oturum boyunca ilerlemedi); fark zip'i 3c5d85c tabanı, yalnız sûre 71.
+
+### Sûre 71 bilançosu (TAM SAYIM, `okuma_metni['71']['_bilanco_sure']`)
+226 kelime · **lafız 7 token / 7 ayet** (71:3, 4, 13, 15, 17, 19, 25; kök أله 8 — 71:23 'âlihe') · **Rab 5 / 5 ayet** (71:5, 10, 21, 26, 28) · A/R 1,4 · edilgen 2 (71:4, 25) · iltifât ölçümü 0 · hapaks 1 (71:23 نسر — yeni kök) · mm2 3 (71:7 كبر, 71:18 خرج, 71:22 مكر).
+Yıldız 0:18 · ★2 (71:15 allah, 71:26 rab) · ★★2 (71:5 rab, 71:13 allah) · ★★★6 (allah 3, rab 1, hapaks 1, pas 1 — içerik iddiası değil).
+Fâsıla N 4 (71:1 م, 71:2-4 ن), A 24 (71:5-28 ا); ölçüm kafiye kırığı 0 — 71:1 → 2 ve 71:4 → 5 geçişleri işaretsiz (sûre 64 dersi). En uzun 71:4 (18); en kısa 3 kelime (71:14, 71:22).
+Sayı işareti: 71:15 'seb'' gerçek sayı; 71:24 'kesîr' sayı değil. Nakarat (sûre içi): 71:24 / 71:28 'lâ tezidi'z-zâlimîne illâ' GEÇER; 71:21 / 71:26 'qâle nûhun rabbi' GEÇMEZ.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 8 (71:7 organ + eylem; 71:11 gök + yağış; 71:14 evreler; 71:15 yedi gök kat kat — 67:3 emsali, L4 sınıf / ölçü koluna sınırda, KAPATILAMAZ; 71:16 ay / güneş; 71:17 yerden bitirilme; 71:19 yer; 71:20 yollar). L0 4 (71:4 ecel; 71:5 gece / gündüz; 71:12 bahçe, ırmak; 71:27 doğurma). Olgu değil 2 (71:18 diriliş — yere dönüş kolu sınır vakası; 71:25 boğulma cezası ve ateş). Tarayıcı v4 adayı 2 (71:4, 71:15), kesinlik 0/2.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+6 e_oto tokeni → ilâhî 1 (71:10 'ğaffâr'), değil 5 (71:2 'mubîn', 71:16 'nûr', 71:25 'nasîr', 71:28 'mu'min' ×2). §4.3 mühür 4 → geçerli **1** (71:10; ölçüm satırı 'MÜHÜRSÜZ' — 1022).
+
+### Kendi kaydı
+Kayıttan önce: 71:6 'du'â'' okunmuş / okunmamış sayısı; 71:10 basılmamış xref ayet numaraları; 71:19 'lafız sûre içi' → 'blok içi'; 71:15 ◈B notu, 71:23 ve 71:25'te ders adı olarak yazılmış basılmamış ayet numaraları → numarasız. Kayıttan sonra DUZELTME 2 (aday 1017): 71:10 meali alıntıyı kapatıyordu (alıntı 71:11-12'de sürüyor); 71:20 meali okunmamış ayete dayanarak alıntıyı kapatıyordu.
+
+### Aday 1041 — kayıt (sûre 71)
+Üç vaka: lemma 'ce'ale' (71:7 kavim / 71:12, 16, 19 Allah); lemma 'zâde' (71:6 çağrı, 71:21 mal ve çocuk / 71:24, 71:28 Rab); lemma 'vezera' (71:23 kavim / 71:26-27 Rab). Kökün iki anlamı: نهر (71:5 gündüz / 71:12 ırmak), نور (71:16 ışık / 71:25 ateş).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+70:44 / 71:1 sûre sınırı (fâsıla ن → م). Ardışık olmayan eşleşme — bölünme düzeni (okuma bağı): 11:25 / 71:1-2; 14:10 ve 11:3 / 71:4, 71:10; 11:52 / 71:10-11; 20:55 / 71:17-18; 20:53, 43:10 / 71:19-20; ayrıca 63:11 / 71:4, 2:19 / 71:7, 11:5 / 71:7, 9; 10:5 / 71:16; 67:3 / 71:15; 14:36 / 71:21, 24; 21:89 / 71:26; 14:41 / 71:28. 71:28 → 72:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+28 ayetin hepsinde not; çift 8 ayette (71:4, 5, 9, 16, 18, 21, 27, 28), ayetler arası 71:8 / 71:9. Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 1P gönderen, 'qâle' 3MS (71:2, 5), 2MS muhatap Rab, 'men' (71:21), 71:22-23 konuşanlar, 71:24 'edallû' öznesi, edilgen failler — ad verilmedi; Nûh, Allah, Rab, beş put adı metindeki adıyla.
+* 1021: طور 'atvâr' gloss 'Tûr dağı'; بني 'benîn' gloss 'bina'; نهر 71:5 gloss 'ırmak'; ودد / سوع put adları kök glossuyla (özel ad iskeleti bekleyen kararına ek vaka); lemma 'asâ' eşsesli — kök sayısı verildi.
+* 1022: 71:10 geçerli mühür, ölçüm 'MÜHÜRSÜZ'.
+* 924: ayet 1 harf alanı (71:1); iki işaretsiz fâsıla geçişi; iltifât konuşma katmanı değişimlerini saymıyor; kip alanı (517) tekit, harfsiz nidâ, meczûm cevap, ta'lîl, 71:23 nehy.
+
+### Okuma ikiliği
+Yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok. (gloss_gecis özel ad iskeleti çakışması kararına sûre 71 put adları ek vaka olarak eklendi.)
+
+## SÛRE 72 CİN SONU (2026-10-26)
+
+**Okunan: 4267 / 6236 ayet (%68,4)** — sûre 1 ve 9-72 TAM, sûre 2 kısmi (1-20). İlerleme `cin_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1458** (1452 → 1458; `kok_ekle_72.py`: حرس 72:8; هرب 72:12; حري 72:14; حطب 72:15; غدق 72:16; لبد 72:19). Aday havuzu **1041** (sûre 72'de yeni aday yok; `AX_cin` boş). Bağ **AS_cin** 59. Esmâ okuyucu kararı (KARAR) **670** (662 → 670; 1 İLÂHÎ, 7 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu 6 + 3 + 2 = 11 uyuşmaz, kayıttan önce dolduruldu) · [x/y] **201 sayım (71 + 61 + 69), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 0**.
+Sûrenin 28 ayeti üç blokta okundu (1-10, 11-20, 21-28); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure72_cin_okuma.md` (`cin_paket_md.py`, 28 başlık). Uzak depo **3c5d85c** (oturum boyunca ilerlemedi); fark zip'i 3c5d85c tabanı, sûre 71 + 72.
+
+### Sûre 72 bilançosu (TAM SAYIM, `okuma_metni['72']['_bilanco_sure']`)
+285 kelime · **lafız 10 token / 8 ayet** (72:4, 5, 7, 12, 18 ×2, 19, 22, 23 ×2) · **Rab 8 / 8 ayet** (72:2, 3, 10, 13, 17, 20, 25, 28) · A/R 1,25 · edilgen 5 (72:1, 8, 10, 24, 25) · iltifât ölçümü 2 (72:18, 19) · hapaks 4 (72:8, 12, 14, 16 — yeni köklerin tek tokeni) · mm2 0.
+Yıldız 0:13 · ★6 · ★★4 · ★★★5 (hapaks 4, allah 1 — içerik iddiası değil).
+Fâsıla A 28 (sûrenin tamamı ا; 71:5'ten bu yana kesintisiz); ölçüm kafiye kırığı 0. En uzun 72:23 (16); en kısa 72:15 (5).
+Sayı işareti: 'ehad' ×6 sayı değil; 'eqall', ''aded' nicelik. Nakarat (sûre içi): 'ennâ zanennâ en len' 72:5 / 72:12; 'zanne en len' 72:5, 7, 12 — GEÇER.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 3 (72:8 gök + alevler, 72:9 alev + gözetleme — 37:10 emsali; 72:16 su + içirme, şarta bağlı — 56:68 emsali). Olgu değil 5 (72:15, 23, 24, 25, 28). Tarayıcı v4 adayı 3 (72:16, 23, 24), kesinlik 0/3.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+8 e_oto tokeni → ilâhî 1 (72:26 ''âlim'), değil 7 ('ehad' ×6, 72:25 'qarîb'). §4.3 mühür 7 → geçerli **0** (72:26'da İLÂHÎ token ORTA, son token DEĞİL).
+
+### Kendi kaydı
+Kayıttan önce: 72:5 yazım hatası; 72:20 basılmamış ayet numarası ders adı olarak — numarasız. Süreç hatası: 72:1-10 kayıt yaması assert'te durunca blok betiği boş kayıtla bir kez koştu, sunumdan önce yeniden koşuldu (ARIZA'da). Kayıttan sonra DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 72)
+Vaka yok ('ehad' altı geçişte de 'hiç kimse'; 'de'â' insan / kul fiili; 'seleke' iki geçişte Rab). Kökün iki kullanımı: 'tarîqa' (72:11 gruplar / 72:16 yol).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+71:28 / 72:1 sûre sınırı (fâsıla ا → ا). Ardışık sûre okuma bağı 71:20 / 72:17 (سلك). 72:28 → 73:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+28 ayetin hepsinde not; ayet içi çift 11 ayette, ayetler arası 2. Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 'qul' muhatabı / 1S konuşan, cin 'nefer', gruplar, 1P içiren / sınayan, 'abdu'llâh' (izâfet), elçi(ler), gözetleyiciler — ad verilmedi. Konuşan katmanı sınırları metinde işaretli değil — KAPATILAMAZ.
+* 1021: جدد 'cedd' gloss 'yenilik'.
+* 1022: yedi ölçüm mührünün yedisi karar sonrası geçersiz.
+* 924: ayet 1 harf alanı; 'ehad' sayı işareti ×6; iltifât 72:7 ve 72:16'yı saymıyor; kip alanı (517) 'enne' tekidi, 'kemâ', 'em', 'innemâ' hasrı, ta'lîl.
+
+### Okuma ikiliği
+Yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 73 MÜZZEMMİL SONU (2026-10-26)
+
+**Okunan: 4287 / 6236 ayet (%68,7)** — sûre 1 ve 9-73 TAM, sûre 2 kısmi (1-20). İlerleme `muzzemmil_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1465** (1458 → 1465; `kok_ekle_73.py`: زمل 73:1; نصف 73:3; بتل 73:8; نكل 73:12; غصص 73:13; كثب, هيل 73:14). Aday havuzu **1041** (sûre 73'te yeni aday yok; `AX_muzzemmil` boş). Bağ **AS_muzzemmil** 42. Esmâ okuyucu kararı (KARAR) **673** (670 → 673; 3 İLÂHÎ, 0 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu 3 + 3 + 1 = 7 uyuşmaz, kayıttan önce dolduruldu) · [x/y] **135 sayım (43 + 47 + 45), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel geçiş 1 (30:4 mercek — نصف karşılıksız anma; ikinci koşu 0) · **DUZELTME 0**.
+Sûrenin 20 ayeti üç blokta okundu (1-10, 11-19, 20 — 73:20 uzun ayet tek başına); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure73_muzzemmil_okuma.md` (`muzzemmil_paket_md.py`, 20 başlık). Uzak depo **3c5d85c** (oturum boyunca ilerlemedi); fark zip'i 3c5d85c tabanı, sûre 71 + 72 + 73.
+
+### Sûre 73 bilançosu (TAM SAYIM, `okuma_metni['73']['_bilanco_sure']`)
+199 kelime · **lafız 7 token / 1 ayet** (yalnız 73:20) · **Rab 4 / 4 ayet** (73:8, 9, 19, 20) · A/R 1,75 · edilgen 0 · iltifât ölçümü 4 (73:6, 7, 14, 15) · hapaks 4 (73:1, 8, 13, 14 — yeni kökler; 73:14'te iki) · mm2 2 (73:10, 16).
+Yıldız 0:13 · ★★2 · ★★★5 (hapaks 4, n 1 — içerik iddiası değil).
+Fâsıla ل 1 (73:1) · A 18 (73:2-19) · N 1 (73:20 'rahîm'); ölçüm kafiye kırığı 0 — iki geçiş işaretsiz (924). En uzun 73:20 (78); en kısa 73:1 (2).
+Sayı işareti: 'qalîl' 73:2, 3, 11 nicelik; 'nisf' 73:3, 20 ve 'sulus' ×2 73:20 kesir. Nakarat: ayet içi 73:20 ('fe'qra'û mâ teyessera' ×2, ''alime en' ×2, 've âharûne' ×2); nakarat3 alanı boş.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 4 (73:3 gecenin yarısı, birim yok; 73:14 yer ve dağlar — 69:14 ailesi; 73:18 göğün yarılması; 73:20 'yuqaddiru'l-leyle ve'n-nehâr' — 36:39 emsali, KAPATILAMAZ). L0 4 (73:2, 6, 7 gece / gündüz; 73:9 doğu / batı tekil). Olgu değil 3 (73:12, 13, 17). Tarayıcı v4 adayı 2 (73:3, 20), kesinlik 0/2.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → ilâhî 3 (73:9 'vekîl'; 73:20 'ğafûr', 'rahîm'), değil 0. §4.3 mühür 2 → geçerli **2** (73:9, 73:20), ton cemâl 2. 73:9'da ölçüm satırı 'SON konum, MÜHÜRSÜZ' / esma_kayit geçerli — ayrışma (1022 ailesi).
+
+### Kendi kaydı
+Kayıttan önce: 73:9 ◈K satırı tetiksizken dolu yazılmıştı → '—' (oturum_tetik 1 → 0). Kayıttan sonra DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 73)
+Vaka yok. Kökün iki kullanımı: سمو 'ism' 73:8 / 'semâ'' 73:18; قوم 'qum' / 'aqvem' / 'aqîmû'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+72:28 / 73:1 sûre sınırı (fâsıla ا → ل). Ardışık sûre okuma bağı 72:28 / 73:20 ('ahsâ'). 73:20 → 74:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+20 ayetin hepsinde not; ayet içi çift 3 ayette (73:9, 17, 20), ayetler arası 2 (73:3 / 4, 73:6 / 7). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 'el-muzzemmil' (sıfatla), 1P / 1S konuşan, yalanlayanlar, 2MP muhatap, elçi, 'tâ'ife', hastalar / yolcular / savaşanlar — ad verilmedi. Konuşan katmanı sınırları metinde işaretli değil — KAPATILAMAZ.
+* 1021: نهر 'nehâr' gloss 'ırmak'; مهل 'mehhil' / 'muhl' eşsesli birleşme (kök sayımı verilmedi); وبل gloss '(vebîl; 7 ayet)' kök sayısını lemmaya yazıyor.
+* 1022: 73:9 ölçüm satırı / esma_kayit mühür ayrışması.
+* 924: ayet 1 harf alanı; fâsıla geçişleri işaretsiz ×2; iltifât 73:11, 73:12, 73:20 içi geçişleri saymıyor; kip alanı (517) 'inne' tekidi; 'kemâ' biçim alanında yok; ayet içi tekrar nakarat3'te yok; hizb işareti ölçüm dışı.
+
+### Okuma ikiliği
+Yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
