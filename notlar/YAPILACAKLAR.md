@@ -7062,3 +7062,168 @@ Kayıttan önce: 66:4'te 66:3'e ait ظهر sayısı [x/y] biçiminde yazılmış
 
 ### Okuma ikiliği
 Yok.
+
+## SÛRE 67 MÜLK SONU (2026-10-25)
+
+**Okunan: 4063 / 6236 ayet (%65,2)** — sûre 1 ve 9-67 TAM, sûre 2 kısmi (1-20). İlerleme `mulk_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1435** (1433 → 1435; `kok_ekle_67.py`: طبق — 67:3; وسق — طبق'ın dikey komşuluğunda KARŞILIK YOK çıktı, sûre 33 emsali). Aday havuzu **1041** (sûre 67'de yeni aday yok; `AX_mulk` boş). Bağ **AS_mulk** 90. Esmâ okuyucu kararı (KARAR) **650** (635 → 650; 11 İLÂHÎ, 4 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 8 + 5 + 4 = 17) · [x/y] **253 sayım (86 + 80 + 87), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (hedef 0) · **DUZELTME 0**.
+Sûrenin 30 ayeti üç onluk blokta okundu (1-10, 11-20, 21-30); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure67_mulk_okuma.md` (`mulk_paket_md.py`, 30 başlık). Uzak depo **dcab3d3** (oturum boyunca ilerlemedi); fark zip'i dcab3d3 tabanı, sûre 67.
+
+### Sûre 67 bilançosu (TAM SAYIM, `okuma_metni['67']['_bilanco_sure']`)
+333 kelime · **lafız 3 token / 3 ayet** (67:9, 26, 28) · **Rab 2 / 2 ayet** (67:6, 12) · A/R 1,5 · edilgen 4 (67:7, 8, 24, 27) · iltifât ölçümü 0 · hapaks yok · mm2 yok.
+Yıldız 0:24 · ★4 (67:7, 24, 27 pas; 67:26 allah) · ★★2 (67:6, 12 rab) · ★★★ yok.
+Fâsıla R 21 (67:1-21), N 9 (67:22-30); kafiye kırığı işaretlenmedi (67:22 R → N dahil; 924). En uzun 67:3, 67:9 (18); en kısa 67:11 (5).
+Sayı işareti: 67:3 'seb'' (gerçek sayı), 67:23 'qalîl' (sayı değil). Nakarat (sûre içi): 67:16/17 GEÇER; 67:20/21, 67:23/24, 67:28/30 GEÇMEZ. Sûre içi açık eş kalmadı.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok, L3 yok. L2 1 (67:30 yeti sınırı kolu, soru biçiminde; 18:41 açık biçim). L1 7 (67:3, 4, 5, 15, 16, 19, 23; 67:16 ve 67:19 L2 koluna sınırda, KAPATILAMAZ). L0 3 (67:2, 17, 24). Olgu değil: 67:6-8, 10, 27 âhiret; 67:22 mesel. Tarayıcı v4 adayı 4 (67:2, 3, 19, 30), kesinlik 0/4.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+15 e_oto tokeni → ilâhî 11, değil 4 (67:9, 12 'kebîr'; 67:26, 29 'mubîn'). §4.3 mühür 10 → geçerli **7** (67:1, 2, 13, 14, 19, 20, 29); yanlış mühür 67:9, 12, 26. Ölçüm satırı 67:1, 13, 19, 20, 29'da MÜHÜRSÜZ / bilanço geçerli; 67:20 ve 67:29'da geçerli mühür orta konumdaki 'rahmân'a düşüyor (1022).
+
+### Kendi kaydı
+Kayıttan önce: 67:22'de 67:15'e ait مشي sayısı [x/y] biçiminde yazılmıştı — oturum_xy yakaladı; 67:11 alıntı yazımı ve 67:19 ◈A gönderge cümlesi düzeltildi. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 67)
+Kelime düzeyinde vaka yok. Kök düzeyinde sınır vakası: بصر 67:3-4 'el-basar' (insan bakışı) / 67:19 'basîr' (ilâhî). Biçimin iki anlamı: مسك (kuşları tutma / rızkı alıkoyma), 'nezîr' (uyarıcı / 1S uyarım), 'kebîr' (sapıklık / ödül), 'mubîn' (uyarıcı / sapıklık). Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+66:12 / 67:1 (örnek anlatısıyla kapanış → övgüyle açılış; fâsıla ن → ر; ölçüm kökleri ortak değil). 66:9 / 67:6 'cehennem … bi'se'l-masîr'. Ardışık olmayan sıralı eşleşme (okuma bağı, 1040 değil): 23:78-79 ↔ 67:23-24. 67:30 → 68:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+30 ayetin hepsinde not yazıldı. Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: mevsûl göndergesi (67:1-3), 'men fi's-semâ'' (67:16-17), 1S / 1P konuşanlar, bekçiler, bölük, cehennemlikler, öncekiler, 'cund', 'qul' muhatabı — ad verilmedi; 67:9 son cümlenin konuşanı ve 67:14 'men haleqa' (fail / meful) KAPATILAMAZ.
+* 1021: أيي 'eyyukum'; صبح 'mesâbîh', 'asbaha'; بأس 'bi'se'; نكب 'menâkib'; قلب ve عين ◈B tetiği kök düzeyinde.
+* 1022: 67:9, 12, 26 karar sonrası geçersiz mühür; beş ayette ölçüm satırı / bilanço mühür farkı; iki ayette orta konumda geçerli mühür.
+* 924: ayet 1 harf alanı (67:1); dikey وسق ×2692,9 (n=4); 67:22 fâsıla sınıf geçişi işaretsiz; kip / biçim alanı açıkları (67:2 INTG, 67:17 'em', 67:26 'innemâ').
+* Kök tablosu: dikey komşuluğu karşılıksız kök çıkarabiliyor (وسق, okunmamış sûreden) — kok_ekle ile eklendi; araç değişmedi.
+
+### Okuma ikiliği
+Yok.
+
+## SÛRE 68 KALEM SONU (2026-10-25)
+
+**Okunan: 4115 / 6236 ayet (%66,0)** — sûre 1 ve 9-68 TAM, sûre 2 kısmi (1-20). İlerleme `kalem_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1441** (1435 → 1441; `kok_ekle_68.py`: نمم 68:11, زنم 68:13, خرطم 68:16, صرم 68:17-22, حرد 68:25, وسط 68:28). Aday havuzu **1041** (sûre 68'de yeni aday yok; `AX_kalem` boş). Bağ **AS_kalem** 74. Esmâ okuyucu kararı (KARAR) **653** (650 → 653; 0 İLÂHÎ, 3 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 2 + 0 + 1 + 1 + 3 = 7) · [x/y] **228 sayım (31 + 40 + 36 + 45 + 76), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (hedef 3, okunmamış) · **DUZELTME 0**.
+Sûrenin 52 ayeti beş blokta okundu (1-10, 11-20, 21-30, 31-41, 42-52); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure68_kalem_okuma.md` (`kalem_paket_md.py`, 52 başlık). Uzak depo **dcab3d3** (oturum boyunca ilerlemedi); fark zip'i dcab3d3 tabanı, sûre 67 + 68.
+
+### Sûre 68 bilançosu (TAM SAYIM, `okuma_metni['68']['_bilanco_sure']`)
+300 kelime · **lafız 0** (sûrede lafız yok) · **Rab 10 token / 9 ayet** (68:2, 7, 19, 29, 32 ×2, 34, 48, 49, 50) · edilgen 4 (68:15, 42, 43, 49) · iltifât ölçümü 6 (68:2, 14, 22, 23, 35, 36) · hapaks 4 (68:11, 13, 16, 25 — yeni köklerin tek tokeni) · mm2 yok.
+Yıldız 0:36 · ★3 · ★★3 · ★★★10 (rab 5, hapaks 4, pas 1 — içerik iddiası değil).
+Fâsıla N 52 (ن / م); kafiye kırığı yok. En uzun 68:39, 68:51 (12); en kısa 68:5, 6, 18, 20, 21 (2).
+Sayı işareti: 68:18 'yestesnûn' (ثني, sayı değil). Nakarat (sûre içi): 68:42/43 'da'â + ilâ + sucûd' GEÇMEZ.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok; merdiven hiçbir ayette uygulanmadı (doğal olgu yok). İşaretli 8 ayet olgu=False (68:17, 22 tarım; 68:19 'tâ'if'; 68:20 teşbih; 68:34, 39, 42 âhiret; 68:49 anlatı içi olay). Tarayıcı v4 adayı 1 (68:22), kesinlik 0/1.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → ilâhî 0, değil 3 (68:15 'evvel', 68:33 'el-âhira', 68:45 'metîn'). §4.3 mühür 3 → geçerli **0** (üçü karar sonrası geçersiz, 1022).
+
+### Kendi kaydı
+Kayıttan önce: 68:10'da başka geçişin sayısı [x/y] biçiminde yazılmıştı — oturum_xy yakaladı; 42-52 ARIZA karşıt çift sayımı ('beş' → 'sekiz') düzeltildi. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 68)
+Kök قدر 67:1 'qadîr' (İLÂHÎ) / 68:25 'qâdirîn'; lemma 'metîn' 51:58 (İLÂHÎ) / 68:45 'keydî metîn'. Kökün iki anlamı: جنن ('mecnûn' / 'cenne'), أيي ('eyy' / 'âyât'), سطر ('yesturûn' / 'esâtîr'), صحب, حكم. Test yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+67:30 / 68:1 (cevapsız soruyla kapanış → harf ve yeminle açılış); 67:2 / 68:17 'belâ'; 67:27 / 68:26 'fe-lemmâ ra'ev-'. Ardışık olmayan eşleşme (okuma bağı, 1040 değil): 52:29 / 68:2, 52:34 / 68:41, 52:40-41 / 68:46-47 (iki ardışık TAM), 52:48 / 68:48. 68:52 → 69:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+52 ayetin hepsinde not yazıldı; çift 6 ayette (68:7, 34, 35, 43, 50, 52). Karşılaştırma yapılmadı (iddia yok).
+
+### Mevcut ailelere girenler
+* 1017: 2MS muhatap, yalanlayanlar ve 'hallâf', bahçe sahipleri, 'tâ'if', 'evsatuhum', 1S / 1P konuşan, edilgen fail (68:42), 'sâhibu'l-hût', 'ellezîne keferû', 68:52 'huve' göndergesi — ad verilmedi; 68:14 'en' bağı KAPATILAMAZ.
+* 1021: أيي 'eyy'; خلق 'huluq'; بني 'benîn'; أخر 'el-âhira'; جنن.
+* 1022: 68:15, 33, 45 karar sonrası geçersiz mühür.
+* 924: ayet 1 harf alanı (68:1); 68:10 yanlış QASEM (حلف); 68:18 sayı işareti (ثني); iltifât alıntı sınırında; 'em' / 'inne' / 'levlâ' / 'asâ' / 'lev' kip alanında yok; 68:44 biçim DIKKAT; esit2 çift yazım (68:45).
+* Organ: 68:16 'hurtûm' ◈B listesinde değil — satır '—'.
+
+### Okuma ikiliği
+Yok.
+
+## SÛRE 69 HÂKKA SONU (2026-10-26)
+
+**Okunan: 4167 / 6236 ayet (%66,8)** — sûre 1 ve 9-69 TAM, sûre 2 kısmi (1-20). İlerleme `hakka_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1448** (1441 → 1448; `kok_ekle_69.py`: حسم, صرع 69:7; وهي 69:16; هاء 69:19; جمم — 69:14 دكك dikey komşuluğunda karşılıksız, 89:20 henüz okunmadı; قطف 69:23; وتن 69:46). Aday havuzu **1041** (sûre 69'da yeni aday yok; `AX_hakka` boş). Bağ **AS_hakka** 69. Esmâ okuyucu kararı (KARAR) **655** (653 → 655; 0 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 2 + 9 + 1 + 3 + 0 = 15) · [x/y] **200 sayım (39 + 51 + 33 + 40 + 37), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 (69:21-30'da genel geçiş ilk koşuda 2, ikinci koşu 0) · **DUZELTME 0**.
+Sûrenin 52 ayeti beş blokta okundu (1-10, 11-20, 21-30, 31-41, 42-52); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure69_hakka_okuma.md` (`hakka_paket_md.py`, 52 başlık). Uzak depo **dcab3d3** (oturum boyunca ilerlemedi); fark zip'i dcab3d3 tabanı, sûre 67 + 68 + 69.
+
+### Sûre 69 bilançosu (TAM SAYIM, `okuma_metni['69']['_bilanco_sure']`)
+258 kelime · **lafız 1 token / 1 ayet** (69:33) · **Rab 4 / 4 ayet** (69:10, 17, 43, 52) · A/R 0,25 · edilgen 7 (69:5, 6, 13, 14, 18, 19, 25) · iltifât ölçümü 10 · hapaks 4 (69:7, 16, 19, 46 — yeni köklerin tek tokeni) · mm2 2 (69:10, 14).
+Yıldız 0:36 · ★1 (69:44 kafiye; kaynak etiketi 'n', aday 1001) · ★★3 · ★★★12 (pas 5, hapaks 4, rab 3 — içerik iddiası değil).
+Fâsıla H 32 (69:1-32), N 19 (69:33-52), ل 1 (69:44 kafiye kırığı). En uzun 69:7 (15); en kısa 69:1 (1).
+Sayı işareti: 69:7, 13, 14, 17, 32 gerçek sayı; 69:41, 42 'qalîl', 69:47 'ehad' sayı değil. Nakarat (sûre içi): 69:19 / 69:25 'men + âtâ + kitâb' GEÇMEZ.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 5 (69:6, 7, 11, 14, 16; 69:7 sayılı süre L4 'birim' koluna sınırda, KAPATILAMAZ). Olgu değil 6 (69:5, 13, 17, 22, 23, 32). Tarayıcı v4 adayı 1 (69:7), kesinlik 0/1.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+2 e_oto tokeni → ilâhî 0, değil 2 (69:40 'kerîm', 69:47 'ehad'). §4.3 mühür 2 → geçerli **0**. 'el-azîm' (69:33, 69:52) esma_kayit token vermiyor (42:4'te veriyordu; 924).
+
+### Kendi kaydı
+Kayıttan önce: 69:22 'cenne ilk' ifadesi, 69:46 'qata'a' okunmuş / okunmamış sayısı, 69:48 'innehû' dizisi (69:49 'innâ'), 69:45 أخذ token sayımı düzeltildi; kapanış notunda karşıt çift ve kök sayıları düzeltildi. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 69)
+Vaka yok. Kökün / biçimin iki anlamı: طغي (helâk / taşma), 'hamîm' (yakın / kaynar su), 'zirâ'' (kol / arşın), 'yemîn', 'tezkira'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+68:52 / 69:1 sûre sınırı (fâsıla ن → ة). Ardışık sûre okuma bağları (1040 değil): 68:31 / 69:5, 68:24 / 69:34, 68:8 / 69:49. Ardışık olmayan eşleşme: 54:19-20 / 69:6-7, 56:80 / 69:43, 56:95-96 / 69:51-52, 52:19 / 69:24, 52:29 / 69:42, 52:33 / 69:44. 69:52 → 70:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+52 ayetin hepsinde not; çift 8 ayette (69:7, 25, 26, 37, 39, 41, 49, 50). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 2MS / 2MP muhatap, 1P / 1S konuşan, edilgen failler, 'el-mu'tefikât', 'rasûl', 'el-melek', 'semâniya', kitabı sağından / solundan verilen, 'innehû' göndergesi — ad verilmedi; Semûd, 'Âd, Fir'avn metindeki adıyla.
+* 1021: عود 'Âd; 'Âd ve 'asâ birleşik lemma listeleri; حمم; غلل; ذرع.
+* 1022: 69:40, 69:47 karar sonrası geçersiz mühür.
+* 924: ayet 1 harf alanı (69:1); esit2 çift yazım; 69:35 biçim DIKKAT; 'el-azîm' esmâ tokeni; 69:44 ★ kaynak etiketi; 69:32 / 69:33 sınıf geçişi işaretsiz.
+
+### Okuma ikiliği
+Yok.
+
+## SÛRE 70 MEÂRİC SONU (2026-10-26)
+
+**Okunan: 4211 / 6236 ayet (%67,5)** — sûre 1 ve 9-70 TAM, sûre 2 kısmi (1-20). İlerleme `mearic_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1451** (1448 → 1451; `kok_ekle_70.py`: هلع 70:19; عزو 70:37; وفض 70:43). Aday havuzu **1041** (sûre 70'te yeni aday yok; `AX_mearic` boş). Bağ **AS_mearic** 85. Esmâ okuyucu kararı (KARAR) **656** (655 → 656; 0 İLÂHÎ, 1 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta kayıtta 0 (ön kuru koşu ile; tetik satırı 3 + 4 + 2 + 0 + 5 = 14) · [x/y] **168 sayım (39 + 28 + 36 + 23 + 42), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması 0 · **DUZELTME 1** (70:20).
+Sûrenin 44 ayeti beş blokta okundu (1-10, 11-20, 21-30, 31-37, 38-44 — kalan 14 ayet iki yedili blok); ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure70_mearic_okuma.md` (`mearic_paket_md.py`, 44 başlık). Uzak depo **dcab3d3** (oturum boyunca ilerlemedi); fark zip'i dcab3d3 tabanı, sûre 67 + 68 + 69 + 70.
+
+### Sûre 70 bilançosu (TAM SAYIM, `okuma_metni['70']['_bilanco_sure']`)
+217 kelime · **lafız 1 token / 1 ayet** (70:3) · **Rab 3 / 3 ayet** (70:27, 28, 40) · A/R 0,33 · edilgen 5 (70:11, 19, 38, 42, 44) · iltifât ölçümü 2 (70:5, 6) · hapaks 3 (70:19, 37, 43 — yeni köklerin tek tokeni) · mm2 1 (70:5).
+Yıldız 0:33 · ★3 (70:11, 44 pas; 70:18 kafiye — kaynak etiketi 'n', aday 1001, kırık araç kaynaklı) · ★★2 (70:38 pas, 70:40 rab) · ★★★6 (allah 1, pas 1, rab 2, hapaks 2 — içerik iddiası değil).
+Fâsıla A 10, N 24, H 5, ع 2, ج 1, ل 1, ölçümde ٓ 1 (70:18 medde işareti son harf sayılıyor; metinde ى). En uzun 70:4 (11); en kısa 2 kelime (70:7, 12, 16, 18, 22, 25).
+Sayı işareti: 70:4 'hamsîn', 'elf' gerçek sayı; 70:30 'zevc' sayı değil. Nakarat (sûre içi): 70:23 / 70:34 'ellezîne hum alâ salâ…' GEÇER.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 2 (70:8 gök, 70:9 dağlar). L0 1 (70:40 doğular / batılar; 37:5 emsali). Olgu değil 5 (70:4, 15, 35, 38, 43). Tarayıcı v4 adayı 1 (70:4), kesinlik 0/1. **70:4 olgu=False kaydı emsal 32:5'in eski 'L4 (ölçü) · olgu EVET' kaydıyla tutarsız — bekleyen karara eklendi.**
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+1 e_oto tokeni → ilâhî 0, değil 1 (70:7 'qarîb'). §4.3 mühür 1 → geçerli **0**.
+
+### Kendi kaydı
+Kayıttan önce: 70:8 44:45 'muhl' göndergesi, 70:3 43:33 ifadesi, 70:5 'iki sûre önce', 70:17 'tevellâ' okunmuş / okunmamış sayısı düzeltildi; 70:22 (okunmamış ayet içeriği) ve 70:26 (dayanaksız bağ) cümleleri silindi. Kayıttan sonra DUZELTME 1: 70:20 17:83 karşılığı 've'ûs' → 'ye'ûs' (aday 1003 ailesi).
+
+### Aday 1041 — kayıt (sûre 70)
+Vaka yok (70:6 / 70:7 'yeravnehû' / 'nerâhu' ve 70:19 / 70:39 'hulika' / 'halaqnâhum' — 1P adsız, sayılmadı). Kökün / biçimin iki anlamı: 'sâ'il' (70:1 / 70:25), 'hamîm', وعي (69:12 / 70:18), خير (70:21 / 70:41), شوي (18:29 / 70:16).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+69:52 / 70:1 sûre sınırı (fâsıla م → ع). Ardışık sûre okuma bağları (1040 değil): 69:16 / 70:8, 69:14 / 70:9, 69:35 / 70:10, 69:12 / 70:18, 69:25 / 70:37, 69:38 / 70:40. Ardışık olmayan eşleşme: 52:7-8 / 70:1-2, 32:5 / 70:4, 21:109 / 70:6-7, 51:19 / 70:24-25, 23:5-10 / 70:29-35 (dört TAM, bir YAKIN, araya 70:33), 43:83 / 70:42 TAM, 56:60-61 / 70:41 ters, 54:7 / 70:43-44 ters, 68:43 / 70:44. 70:44 → 71:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+44 ayetin hepsinde not; çift 7 ayette (70:6, 7, 21, 31, 35, 37, 40). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 2MS muhatap (70:5, 36, 42), 1P / 1S konuşan, edilgen failler, soran, 'mucrim', sıfat dizisinin özneleri, inkâr edenler — ad verilmedi; Allah, melekler, rûh, 'lazâ' metindeki adıyla.
+* 1021: حمم 'hamîm' (yakın dost / kaynar su); بني 'benîh' gloss 'bina'.
+* 1022: 70:7 karar sonrası geçersiz mühür.
+* 924: ayet 1 harf alanı (70:1); 70:18 fâsıla medde işareti; 70:7, 36, 40, 42 iltifât sayılmıyor; kip alanı (517).
+
+### Okuma ikiliği
+Yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+32:5 eski çıpa kaydı ('L4 (ölçü) · olgu EVET', gaybî yükseliş) ↔ 70:4 (olgu=False, aynı kalıp). Hangisi geçerli — kullanıcı kararı.

@@ -734,4 +734,34 @@ KARAR = {
 '66:8:29': 'degil', # nûr — 'nûruhum yes'â beyne eydîhim', inananların nuru (âhiret sahnesi)
 '66:8:38': 'degil', # nûr — 'etmim lenâ nûranâ', inananların duasında kendi nurları
 '66:8:45': 'ilahi', # qadîr — 'inneke alâ kulli şey'in qadîr', 'rabbenâ' hitabının haberi
+# sûre 67 blok 1-10
+'67:1:9': 'ilahi',  # qadîr — 've huve alâ kulli şey'in qadîr', 'ellezî biyedihi'l-mulk' mevsûlünün zamiri
+'67:2:10': 'ilahi', # azîz — 've huve'l-azîzu'l-ğafûr', zamir ölümü ve hayatı yaratan
+'67:2:11': 'ilahi', # ğafûr — aynı haber, çift
+'67:3:10': 'ilahi', # rahmân — 'fî halqi'r-rahmân', yaratanın adı (izâfet)
+'67:9:18': 'degil', # kebîr — 'in entum illâ fî dalâlin kebîr', sapıklığın sıfatı (cehennemliklerin sözü içinde)
+# sûre 67 blok 11-20
+'67:12:9': 'degil',  # kebîr — 'lehum mağfiretun ve ecrun kebîr', ecrin sıfatı
+'67:13:7': 'ilahi',  # alîm — 'innehû alîmun bi-zâti's-sudûr', zamir (söz gizlenen / açıklanan)
+'67:14:6': 'ilahi',  # latîf — 've huve'l-latîfu'l-habîr', zamir
+'67:14:7': 'ilahi',  # habîr — aynı haber, çift
+'67:19:11': 'ilahi', # rahmân — 'mâ yumsikuhunne ille'r-rahmân', hasr içinde fail
+'67:19:15': 'ilahi', # basîr — 'innehû bi-kulli şey'in basîr', zamir rahmân
+'67:20:10': 'ilahi', # rahmân — 'min dûni'r-rahmân'
+# sûre 67 blok 21-30
+'67:26:9': 'degil',  # mubîn — 'innemâ ene nezîrun mubîn', 1S konuşan uyarıcının sıfatı
+'67:29:3': 'ilahi',  # rahmân — 'qul huve'r-rahmân', zamirin haberi
+'67:29:13': 'degil', # mubîn — 'men huve fî dalâlin mubîn', sapıklığın sıfatı
+# sûre 68 blok 11-20
+'68:15:7': 'degil',  # evvel — 'esâtîru'l-evvelîn', öncekiler (insanlar), inkârcının sözü içinde
+# sûre 68 blok 31-41
+'68:33:4': 'degil',  # el-âhira — 've le-azâbu'l-âhira', âhiret (son yurt), esmâ 'el-âhir' değil
+# sûre 68 blok 42-52
+'68:45:5': 'degil',  # metîn — 'inne keydî metîn', 1S konuşanın 'keyd'inin sıfatı, isim değil
+# sûre 69 blok 31-41
+'69:40:4': 'degil',  # kerîm — 'innehû le-qavlu rasûlin kerîm', elçinin sıfatı
+# sûre 69 blok 42-52
+'69:47:4': 'degil',  # ehad — 'fe-mâ minkum min ehadin anhu hâcizîn', hiç kimse (nefy)
+# sûre 70 blok 1-10
+'70:7:2': 'degil',  # qarîb — 've nerâhu qarîbâ', 70:6 'yeravnehû ba'îdâ' karşıtı; göndergesi 70:1 azap / 70:4 gün, ilâhî sıfat değil
 }
