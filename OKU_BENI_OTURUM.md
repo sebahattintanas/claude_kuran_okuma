@@ -1,22 +1,23 @@
-# OTURUM — sûre 70 (Meâric) TAM · blok başı kayıt · ek mercekler
+# OTURUM — sûre 64 (Teğâbun), 65 (Talâk) ve 66 (Tahrîm) TAM · blok başı kayıt · ek mercekler
 
-**Okunan: 4211 / 6236 ayet (%67,5)** — sûre 1 ve 9-70 TAM, sûre 2 kısmi (1-20).
-Devam: **sûre 71 (Nûh, 28 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
-kok_turkce **1451** kök (sûre 70'te 3: هلع, عزو, وفض) · aday havuzu **1-1041** (sûre 70'te yeni aday yok, `AX_mearic` boş) · bağ seti `AS_mearic` 85 · esmâ KARAR 656 · DUZELTME (sûre 70) 1.
+**Okunan: 4033 / 6236 ayet (%64,7)** — sûre 1 ve 9-66 TAM, sûre 2 kısmi (1-20).
+Devam: **sûre 67 (Mülk, 30 ayet)**. Sûre 2'nin 21-286'sı hâlâ sonraya.
+kok_turkce **1433** kök (sûre 64'te 0, sûre 65'te 1: حيض, sûre 66'da 2: صغو, ثيب) · aday havuzu **1-1041** (sûre 64-66'da yeni aday yok, `AX_tegabun` / `AX_talak` / `AX_tahrim` boş) · bağ setleri `AS_tegabun` 62, `AS_talak` 57, `AS_tahrim` 51 · esmâ KARAR 635.
 Denetim tabanı: türkçe **0** · anahtar **70**, diff 0 (taban temiz klondan `PYTHONHASHSEED=0 python3 k/betikler/anahtar_denetim.py`, "taranan" satırı hariç; blok denetimi `repo/betikler/` kopyasıyla — calisma/ kopyası korpusu bulamıyor, sahte ✗ verir).
-Paket: depo `dcab3d3`'e göre fark (sûre 67 + 68 + 69 + 70). Bu oturumda verilen zip'ler (aynı taban, her biri öncekini kapsar): `fark_dcab3d3_sure67_ara1.zip`, `fark_dcab3d3_sure67.zip`, `fark_dcab3d3_sure67_68_ara1.zip`, `fark_dcab3d3_sure67_68_ara2.zip`, `fark_dcab3d3_sure67_68.zip`, `fark_dcab3d3_sure67_69_ara1.zip`, `fark_dcab3d3_sure67_69_ara2.zip`, `fark_dcab3d3_sure67_69.zip`, `fark_dcab3d3_sure67_70_ara1.zip`, `fark_dcab3d3_sure67_70_ara2.zip`, `fark_dcab3d3_sure67_70.zip` (son).
-Sûre 70 dosyaları: `kok_ekle_70.py` (3 kök) · `mearic_metin_1.py` (MEAL1-5/M1-5) · `mearic_kayit.py` (CIPA, ARIZA, DUZELTME 1) · `uret_blok_70.py` · `aday_ekle_70_mearic.py` · `yama_retroaktif_gloss_70.py` · `duzeltme_70.py` · `mearic_kapanis.py` (+ `mearic_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `mearic_paket_md.py` → `notlar/sure70_mearic_okuma.md`. Sûre 67-69: `mulk_*`, `kalem_*`, `hakka_*` (aynı düzen).
-Sûre 71 için şablonlar `mearic_*`'dan S=71 (yeni set adları `AX_<ad>/AS_<ad>`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-69 dosyaları: `duhan_*` … `hakka_*` (aynı düzen). `<sure>_kapanis.py` içinde blok listesi ÜÇ yerde elle: esma_kayit döngüsü, `say_isareti` satırı ve `<sure>_paket_md.py` BL — üçü de BLOKLAR ile aynı olmalı. Yeni sûrenin `<sure>_kayit.py`'si boş `ARIZA = {}` ile başlar; ilk blok çapasız yazılır, sonrakiler `t.rindex('\n ],\n}')+4` çapası ile (ekleme sonrası boş satır bırakmamak için blok `rstrip` + kalan `lstrip`). DUZELTME kaydında `aday` alanı idempotentlik anahtarıdır — yanlış numarayla yazılırsa okuma_metni'nden o kayıt elle temizlenip doğru numarayla yeniden koşulur (70:20 dersi).
-**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur. Tetik ön kuru koşusu: geçici modül (heredoc ile yaz), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı kararına açık (okuma sonunda).
-**Dikkat (sûre 69):** lemma listeleri eşsesli kelimeleri birleştirebiliyor ('Âd kavim / 'âd haddi aşan; 'asâ isyan / değnek; 'hamîm' yakın / kaynar su; 'ğalle') — sayı vermeden önce liste ayet metniyle okunur, birleşikse sayı verilmez. 'el-azîm' lafız / Rab sıfatı olarak esma_kayit tokeni vermiyor (69:33, 69:52; 42:4'te veriyordu) — kayıt, inceleme yok. Âhiret sahnesindeki kozmik olaylar (yer, dağ, gök) 55:37 / 56:4-6 emsaliyle L1 olgu=True; sûr, arş, cennet, zincir olgu=False. Sayılı süre (69:7 yedi gece sekiz gün) L4 'birim' koluna sınırda — L1, KAPATILAMAZ. Kafiye kırığı ★'ı bilanço 'n' kaynağıyla etiketliyor (69:44; aday 1001).
-**Dikkat (sûre 70):** fâsıla ölçümü son harfte medde işaretini (ٓ) harf sayıyor ve sahte KAFİYE KIRILMASI veriyor (70:18 'fe-ev'â') — okumada metindeki harf yazılır, ARIZA'ya 924. Gaybî olaylar (melekler / rûh yükselişi, 70:4) sayıyla ölçülse de olgu=False; emsal 32:5'in eski kaydı (L4 olgu EVET) bununla tutarsız — bekleyen karar. Çoğul doğular / batılar rubûbiyet tamlamasında L0 (37:5, 70:40), ikil L1 (55:17). Ardışık olmayan sûrelerle uzun TAM diziler (23:5-10 / 70:29-35) esit2 ile tek tek görünür; dizinin bütünü okumada yazılır.
-**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 70'te 44/44, çift 7).
-**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 71:1 okunurken 70:44 ('zâlike'l-yevmu'llezî kânû yû'adûn') ile bağ kayıt olarak yazılır. Sûre 70'te: 69:52/70:1 sınır.
-**Aday 1041:** aynı kelimenin Allah ve insan / başka şey için kullanılması — kayıt (sûre 70'te vaka yok; 1P adsız olduğu için 70:6-7 ve 70:19/39 sayılmadı).
-**Çıpa:** sûre 70'te L4 yok; L1 2, L0 1. **48:29 ve 57:20 L4 adayı (teşbih içi), TARTIŞMALI — karar okuma sonunda.**
-**Bekleyenler:** kullanıcı kararı (2026-10-21) — bekleyen kararların hepsine TAM OKUMA BİTTİKTEN SONRA bakılacak; oturumlarda sorulmaz, yalnız kaydedilir. Sûre 70'te yeni bekleyen: 32:5 / 70:4 çıpa kaydı tutarsızlığı.
+Paket: depo `fcf5e41`'e göre fark (sûre 64 + 65 + 66). Bu oturumda verilen zip'ler (aynı taban, her biri öncekini kapsar): `fark_fcf5e41_sure64_ara1.zip`, `fark_fcf5e41_sure64.zip`, `fark_fcf5e41_sure64_65ara1.zip`, `fark_fcf5e41_sure64_65.zip`, `fark_fcf5e41_sure64_65_66_ara.zip`, `fark_fcf5e41_sure64_65_66.zip` (son).
+Sûre 66 dosyaları: `kok_ekle_66.py` (2 kök) · `tahrim_metin_1.py` (MEAL1-3/M1-3) · `tahrim_kayit.py` (CIPA, ARIZA, DUZELTME 0) · `uret_blok_66.py` · `aday_ekle_66_tahrim.py` · `yama_retroaktif_gloss_66.py` · `duzeltme_66.py` · `tahrim_kapanis.py` (+ `tahrim_kapanis_notu.txt`; `--kuru` ile yazmadan basar) · `tahrim_paket_md.py` → `notlar/sure66_tahrim_okuma.md`.
+Sûre 65 dosyaları: `kok_ekle_65.py` (1 kök) · `talak_metin_1.py` · `talak_kayit.py` · `uret_blok_65.py` · `aday_ekle_65_talak.py` · `yama_retroaktif_gloss_65.py` · `duzeltme_65.py` · `talak_kapanis.py` (+ not) · `talak_paket_md.py` → `notlar/sure65_talak_okuma.md`.
+Sûre 64 dosyaları: `kok_ekle_64.py` (boş) · `tegabun_metin_1.py` · `tegabun_kayit.py` · `uret_blok_64.py` · `aday_ekle_64_tegabun.py` · `yama_retroaktif_gloss_64.py` · `duzeltme_64.py` · `tegabun_kapanis.py` (+ not) · `tegabun_paket_md.py` → `notlar/sure64_tegabun_okuma.md`.
+Sûre 67 için şablonlar `tahrim_*`'dan S=67 (yeni set adları `AX_<ad>/AS_<ad>`; numara 1042'den, `aday_ekle` sırayı doğruluyor). Sûre 44-65 dosyaları: `duhan_*` … `talak_*` (aynı düzen). Bloklar değişken uzunlukta: `<sure>_kapanis.py` ve `<sure>_paket_md.py` içindeki blok listesi elle (BLOKLAR ile aynı) — şablonu kopyalarken güncelle (kapanış betiğinde esma_kayit sûre numarası ve blok listesi de).
+**Oturum yardımcıları depoda** (`betikler/`, salt-okur): `oturum_ortak.py` · `oturum_say.py S:A i-j [--on] [--son]` · `oturum_lem.py S:A:W [--kok]` · `oturum_lemdizi.py S A i j` · `oturum_tetik.py S A B <metin>` · `oturum_xy.py S A B <metin>`. Her blokta tetik (0 uyuşmaz) ve [x/y] (0 uyuşmaz) bunlarla koşulur; alıntı/sayı iddiaları lemma sayımıyla. Tetik ön kuru koşusu: geçici `M={n:"◇ x\n◈K — —\n◈B — —\n◈D — x\n◈A — x" ...}` modülü (heredoc ile yaz; `python -c` içinde \n kaçışı bozuluyor), kullanımdan sonra silinir. Araç dondurma kuralına uygunluğu kullanıcı kararına açık (okuma sonunda).
+**Dikkat (sûre 66):** `oturum_lem` / `oturum_lemdizi` W / i-j indeksleri durak işaretlerini (ۖ ۚ) SAYMAZ — ayet metnini kelimeye bölüp numaralarken her durak işaretinden sonra 1 düş. 66:9 metni 9:73 ile karakter eşitliğinde aynı, esit2 0,9821 veriyor (924, kayıt). Ölçüm satırının esmâ mühür etiketi (MÜHÜR / MÜHÜRSÜZ) karar sonrası bilançoyla ayrışabiliyor (66:8) — mühür iddiası yalnız `esma_muhur_43_gecerli`'den.
+**Aday 1039:** okuma kolu (karşıt çift) — ◇'de 'Karşıt çift (aday 1039, okuma)' notu her ayette sürsün (sûre 64'te 18/18, 65'te 12/12, 66'da 12/12).
+**Aday 1040:** ardışık sûre sınırında süreklilik — test korpus sonunda; 67:1 okunurken 66:12 ('ve Meryeme'bnete İmrân … ve kânet mine'l-qânitîn') ile bağ kayıt olarak yazılır. Sûre 66'da: 65:12/66:1 sınır, 65:1/66:1 aynı nidâ, 64:14/65:1/66:1 eşler, 65:1/66:5, 65:5 ve 65:11/66:8.
+**Aday 1041:** aynı kelimenin Allah ve insan / başka şey için kullanılması — kayıt (sûre 64'te 2, 65'te 3, 66'da 2 vaka: 'nebbe'e', 'mevlâ').
+**Çıpa:** sûre 66'da doğal olgu yok. **48:29 ve 57:20 L4 adayı (teşbih içi), TARTIŞMALI — karar okuma sonunda.**
+**Bekleyenler:** kullanıcı kararı (2026-10-21) — bekleyen kararların hepsine TAM OKUMA BİTTİKTEN SONRA bakılacak; oturumlarda sorulmaz, yalnız kaydedilir. Sûre 64-66'da yeni bekleyen karar yok.
 
-Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 64 TEĞÂBUN SONU" … "SÛRE 69 HÂKKA SONU", "SÛRE 70 MEÂRİC SONU".
+Ayrıntılı: `notlar/YAPILACAKLAR.md` → "SÛRE 64 TEĞÂBUN SONU", "SÛRE 65 TALÂK SONU", "SÛRE 66 TAHRÎM SONU".
 
 ## Kurulum
     git clone https://github.com/sebahattintanas/claude_kuran_okuma k
@@ -42,7 +43,6 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 10. Uzun oturumda her ~3 blokta ARA ZİP (ortam kaybı dersi, 2026-10-07)
 
 ## Dikkat
-* Fâsıla ölçümü medde işaretini (ٓ) son harf sayabiliyor (70:18) — sahte kafiye kırığı; metindeki harf esas (924).
 * nakarat3 satırındaki "N ayet, tür ic" SÛRE İÇİ sayıdır; eş ayet satırda yok — defterden koş (aday 1003). esit2 satırı eşi bazen iki kez yazıyor (araç tekrarı).
 * Bilanço ★ kaynağı kafiye kırığında yanlış etiketli (aday 1001) — okumada elle düzelt.
 * `<sure>_kayit.ARIZA` son listesi `" ],\n}"` ile biter (ekleme çapası assert'li yardımcıyla); `uret_blok_<S>.BASLIK` satırlarının sonunda virgül olmalı (sûre 40 dersi).
@@ -60,10 +60,6 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * Çıpa L4 sınıflama kolu: okumada 29:40 'eşleme' ölçütü sabit (aday 1014).
 * Lemma dizisi sayımı şahıs/önek farkını gizler — alıntıdan önce ayet metni okunur (sûre 43: 21:56, 32:27, 28:87).
 * Sûre içi kök geçişi `oturum_lem.py S:A:W --kok` "sûre içi" satırından yazılır (sûre 43: أيي 'eyyuhâ', ملك 43:19).
-* ARIZA çapası eklemeden sonra boş satır bırakır (`" ],\n\n}"`); sonraki eklemeden önce silinmezse çapa bulunamaz (sûre 68).
-* Lafızsız kısa ayette tek Rab ★★★ verir (rab z 3,2-3,9; sûre 68'de 5 ayet) — bilanço notu, içerik iddiası değil.
-* Eşsesli lemma birleşmesi: sayıdan önce listeyi ayet metniyle oku ('Âd / 'âd, 'asâ, 'hamîm', 'ğalle' — sûre 69).
-* Yeni sûrenin kayıt dosyasında ilk ARIZA bloğu çapasız; `ARIZA = {}` ve `CIPA = {}` boş başlar (sûre 69).
 * Sûre içi liste (Rab, 1P vb.) hafızadan yazılmaz; kök sayımı ya da morph'tan (sûre 44: 44:54, 44:57). Görülmemiş ayet anılmaz (44:56).
 * Yarıda kalan turun dosyaya yazdığı taslak doğrulanmadan kaydedilmez (sûre 44: 44:41-50).
 * Esmâ geçerli/yanlış mühür iddiası, okuyucu kararı eklendikten SONRA koşulan bilançodan yazılır (sûre 45: 45:2, 19, 37 — DUZELTME 45:37).
@@ -164,12 +160,6 @@ Ek mercekler `notlar/ONKAYIT_mercekler.md` (a7e9628; §8 S1 tetik düzeltmesi 37
 * Bir sûrede hiç geçerli esmâ mührü çıkmayabilir (sûre 65: 1 ölçüm mührü, 0 geçerli) — sûre profili karar sonrası bilançodan yazılır; 'mühür yok' bir bulgu değil, kayıttır.
 * Çıpa L4 'sınıf' kolu kelime düzeyinde hukukî sınıflamaya da uyabilir (65:4 aybaşı / gebelik — iddet sınıfları): 799 ilkesi ('ölçü neyi ölçüyor') uygulanır, sınır vakası notu düşülür, karar sorulmaz.
 * Retroaktif yama hedefine sûre 2'nin okunmamış ayeti girmesi yinelendi (65:4 حيض → 2:222); 'daha önce okunmuş 1 ayet' çıktısı okunmamış 2:A olabilir — kayıt yoksa atlanır, yama 0.
-
-* Dikey komşuluğu okunmamış sûreden karşılıksız kök getirebilir: 67:3 طبق'ın tek komşusu وسق (84:17-18) 'KARŞILIK YOK' basıldı; turkce_denetim dikey alanını da tarar — kök `kok_ekle_<S>`'ye eklenir (gloss'ta okunmamış ayet numarası yok), `blok_dikey.py` yeniden koşulur (sûre 33 emsali).
-* Geçerli mühür orta konumdaki ilâhî tokene düşebilir: 67:20 'rahmân' (ayet 'ğurûr' ile biter), 67:29 'rahmân' (son token 'mubîn' DEĞİL) — ölçüm satırı 'ORTA, MÜHÜRSÜZ' der, bilanço geçerli sayar; mühür iddiası bilançodan, konum metinden (1022).
-* `tahrim_kapanis.py` şablonunda `say_isareti` satırının blok listesi BLOKLAR'dan farklıydı ((1,3),(4,7),(8,12) / 1-4, 5-8, 9-12; birleşimi sûreyi kapsadığı için sayı değişmedi) — kapanış şablonu kopyalanırken esma_kayit döngüsü, say_isareti ve paket BL üçü birlikte güncellenir (sûre 67).
-* ◈B tetiği kök düzeyinde: قلب 'yenqalib' (dönme), عين 'ma'în' (akan su) organ anlamı taşımasa da satırı doldurur — satır dolu yazılır, 'organ anlamı değil' notu düşülür (67:4, 67:30).
-* Uzun aradan sonra (aynı gün, 6 saat) ortam korunmuştu: `okuma_metni['67']` anahtarları ve ilerleme sayısıyla doğrulandı, `git -C k fetch origin` ile taban (dcab3d3) değişmedi (sûre 61 dersi).
 
 ## Bekleyenler
 GitHub'da üç silme: `betikler/onarım`, `betikler/onar─▒m`, Arapça adlı `ciktilar/dikey_kisi_*.json` (SILINECEKLER.txt).
