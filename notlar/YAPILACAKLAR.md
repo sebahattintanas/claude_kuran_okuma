@@ -7356,3 +7356,48 @@ Yok.
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 Yok.
+
+## SÛRE 74 MÜDDESSİR SONU (2026-10-27)
+
+**Okunan: 4343 / 6236 ayet (%69,6)** — sûre 1 ve 9-74 TAM, sûre 2 kısmi (1-20). İlerleme `muddessir_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1470** (1465 → 1470; `kok_ekle_74.py`: دثر 74:1; نقر 74:8; عبس, بسر 74:22; قسر 74:51). Aday havuzu **1041** (sûre 74'te yeni aday yok; `AX_muddessir` boş). Bağ **AS_muddessir** 116. Esmâ okuyucu kararı (KARAR) **675** (673 → 675; 0 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik yedi blokta kayıtta 0 (ön kuru koşu 1 uyuşmaz — 74:50 ◈B, kayıttan önce '—') · [x/y] **178 sayım (21 + 26 + 22 + 29 + 26 + 22 + 32), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 1** (74:35 meal).
+Sûrenin 56 ayeti yedi blokta okundu (1-10, 11-20, 21-30, 31, 32-40, 41-48, 49-56 — 74:31 uzun ayet tek başına); oturum iki güne yayıldı (ortam korundu). Ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure74_muddessir_okuma.md` (`muddessir_paket_md.py`, 56 başlık). Uzak depo **51adf3a** (oturum boyunca ilerlemedi); fark zip'i 51adf3a tabanı, sûre 74.
+
+### Sûre 74 bilançosu (TAM SAYIM, `okuma_metni['74']['_bilanco_sure']`)
+255 kelime · **lafız 3 token / 2 ayet** (74:31 ×2, 74:56) · **Rab 3 / 3 ayet** (74:3, 7, 31 — üçü de 2MS izâfetli) · A/R 1,0 · edilgen 6 (74:8, 19, 20, 24, 31, 52) · iltifât ölçümü 2 (74:8, 11) · hapaks 2 (74:1, 51 — yeni kökler) · mm2 1 (74:31).
+Yıldız 0:44 · ★2 · ★★4 · ★★★6 (hapaks 2, rab 2, pas 1, n 1 — içerik iddiası değil); ★ ikisi (74:15, 42) kaynak 'n' yanlış etiketli, gerçekte kafiye kırığı (1001).
+Fâsıla R 31 · N 10 · H 8 · A 6 · د 1; ölçüm kafiye kırığı 2 (74:15, 42), işaretsiz geçiş 5 (924). En uzun 74:31 (57); en kısa 14 ayet (2 kelime).
+Sayı işareti: 74:30 'tis'a ''aşer' gerçek (on dokuz); 74:6, 11, 31, 35 sayı değil. Nakarat3: 74:19 / 20, 74:24 / 25.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 2 (74:33 gecenin gidişi, 74:34 sabahın ağarması — süreç adı). L0 1 (74:32 ay, kasem nesnesi). Olgu değil 17 (74:4 elbise; âhiret / gaybî 14; 74:50-51 teşbih aracı). Tarayıcı v4 adayı 2 (74:30, 31 — gaybî sayı), kesinlik 0/2.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+2 e_oto tokeni → ilâhî 0, değil 2 (74:31 'mu'min' insan çoğulu; 74:53 'el-âhira'). §4.3 mühür 1 (74:53) → geçerli **0**.
+
+### Kendi kaydı
+Kayıttan önce: 74:10 okunmuş / okunmamış sayısı; 74:39 metin dışı karşıt çift → 'yok'; 74:50 ◈B tetiksiz dolu → '—'; esma_el yorumunda basılmamış emsal numarası → numarasız. Kayıttan sonra: DUZELTME 1 (74:35 meal '(Sekar)' göndergeyi kapatıyordu — aday 1017). ARIZA satırlarında basılmamış ayet numarasıyla ders adı iki kez (21-30, 32-40): ARIZA ayet anahtarı taşımadığı için DUZELTME dışı — özgün satır korunup ek ARIZA satırıyla işaretlendi, blok betiği yalnız bilanço için yeniden koşuldu (ayet kayıtları değişmedi, karşılaştırmayla doğrulandı). Süreç: 21-30'da heredoc içi yama assert'te durdu, ardından ayrı satırlı komutlar koştu (dosya değişmedi) — sonraki bütün yamalar ayrı dosya + && zinciri.
+
+### Aday 1041 — kayıt (sûre 74)
+'qaddara' 73:20 Allah / 74:18-20 insan; 'şâ'e' 74:31, 56 Allah / 74:37, 55 insan; 'erâde' 74:31 Allah / 74:52 insan; 'ehl' 11:81 insan / 74:56 Allah; 'mu'min' 74:31 insan çoğulu (esmâ listesinde; Allah için geçişi bu oturumda basılmadı).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+73:20 / 74:1 sûre sınırı (fâsıla م → ر). Ardışık sûre açılışı 73:1-2 / 74:1-2 (nidâ + 'örtünen' sıfatı + 'qum' — iki ayetlik sıralı eşleşme). Ardışık sûre okuma bağları: 73:10 / 74:5, 7; 73:11 / 74:11; 73:15 / 74:13; 73:20 / 74:18; 73:19 / 74:54-55; 73:20 / 74:56 (iki sûre sonu lafız + غفر). 74:56 → 75:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+56 ayetin hepsinde not; ayet içi çift 2 ayette (74:31 üç çift, 74:37), ayetler arası 2 (74:9 / 10, 74:33 / 34). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 'el-muddessir' (sıfatla), 1S / 1P konuşan, tek yaratılan kişi, suçlular, sağın ehli, on dokuzun sayılanı — ad verilmedi. Zamir göndergeleri KAPATILAMAZ (74:31 'hiye', 74:35 'innehâ', 74:54 'innehû').
+* 1021: أيي 'eyyuhâ' / 'âyât' gloss ve kök birleşmesi; بني 'benîn'; مهد fiil; سكن 'miskîn'.
+* 1001: 74:15, 74:42 yıldız kaynağı etiketi.
+* 1038 ailesi: 74:27 Sekar rol 'fail'.
+* 924: ayet 1 harf alanı; fâsıla geçişleri işaretsiz ×5; iltifât 1S / 1P / 2MS / 2MP geçişleri; tahsis, kasem, 'ke-enne' biçim alanında yok; hâl fiili kipi; bileşik sayı iki işaret; ayet içi tekrar nakarat3'te yok; nakarat3 tür etiketi tutarsız.
+* Meal / lemma: 74:29 'li'l-beşer' (deri / insan) KAPATILAMAZ; 74:47 '(ölüm)'; 74:51 'qasvera'.
+
+### Okuma ikiliği
+Yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok. (Süreç kaydı: ARIZA alanı DUZELTME mekanizmasının dışında — bu oturumda ek ARIZA satırıyla işaretlendi.)

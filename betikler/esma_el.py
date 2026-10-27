@@ -788,4 +788,8 @@ KARAR = {
 '73:9:9': 'ilahi',  # vekîl — 'fe'ttehizhu vekîlâ', zamir 73:8-9 Rab'a döner (39:62 kuralı)
 # sûre 73 blok 20-20
 '73:20:77': 'ilahi', '73:20:78': 'ilahi',  # inna'llâha ğafûrun rahîm — inne'nin haberi, göndergesi lafız
+# sûre 74 blok 31-31
+'74:31:27': 'degil',  # mu'minûn — 've'l-mu'minûn', insan çoğulu (mü'minler kuralı), ilâhî ad değil
+# sûre 74 blok 49-56
+'74:53:5': 'degil',  # âhira — 'lâ yehâfûne'l-âhira', âhiret (ad), ilâhî ad değil
 }
