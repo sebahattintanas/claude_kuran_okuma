@@ -7401,3 +7401,137 @@ Yok.
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 Yok. (Süreç kaydı: ARIZA alanı DUZELTME mekanizmasının dışında — bu oturumda ek ARIZA satırıyla işaretlendi.)
+
+## SÛRE 75 KIYÂME SONU (2026-10-27)
+
+**Okunan: 4383 / 6236 ayet (%70,3)** — sûre 1 ve 9-75 TAM, sûre 2 kısmi (1-20). İlerleme `kiyame_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1475** (1470 → 1475; `kok_ekle_75.py`: بنن 75:4; حرك 75:16; نضر 75:22; ترق 75:26; سدي 75:36). Aday havuzu **1041** (sûre 75'te yeni aday yok; `AX_kiyame` boş). Bağ **AS_kiyame** 75. Esmâ okuyucu kararı (KARAR) **676** (675 → 676; 0 İLÂHÎ, 1 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik dört blokta 0 (ön kuru koşu da 0) · [x/y] **108 sayım (31 + 25 + 24 + 28), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 1** (75:3 mercek, aday 924).
+Sûrenin 40 ayeti dört blokta okundu (1-10, 11-20, 21-30, 31-40); oturum tek gün. Ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure75_kiyame_okuma.md` (`kiyame_paket_md.py`, 40 başlık). Uzak depo **0593b8e** (oturum boyunca ilerlemedi); ara zip `fark_0593b8e_sure75_ara1.zip` (1-20), son zip `fark_0593b8e_sure75.zip`.
+
+### Sûre 75 bilançosu (TAM SAYIM, `okuma_metni['75']['_bilanco_sure']`)
+164 kelime · **lafız 0** · **Rab 3 / 3 ayet** (75:12, 23, 30 — üçü de 'ilâ' + Rab) · A/R 0 · edilgen 6 (75:9, 13, 25, 27, 36, 37) · iltifât ölçümü 8 (75:12, 13, 20, 23, 30, 31, 34, 36) · hapaks 4 (75:16, 26, 33, 36) · mm2 0.
+Yıldız 0:25 · ★4 · ★★2 · ★★★9 (hapaks 4, rab 3, pas 2 — içerik iddiası değil); ★ üçü (75:34, 35, 39) kaynak 'n' yanlış etiketli, gerçekte sahte kafiye kırığı (1001).
+Fâsıla (metin) ة 10 · ه 8 · ر 7 · ى 11 · ق 4; ölçüm kafiye kırığı 5 (75:16, 33, 34, 35, 39) beşi de medde artefaktı, sahte; gerçek sınıf geçişleri işaretsiz ×5 (924). En uzun 75:40 (7); en kısa 75:8, 75:21 (2).
+Sayı işareti: 75:39 'zevc' — ikil, çift adı, sayım değil. Nakarat3: 75:4 / 40, 75:12 / 30 (esit2 BENZER), 75:34 / 35.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 7: 75:8 ayın tutulması, 75:9 güneş ve ayın toplanması (âhiretteki kozmik olay); 75:26 köprücük kemikleri, 75:29 bacak (ölüm anı + organ adı; 75:29 mecaz okuması da açık); 75:37 nutfe / meni + dökülme, 75:38 'alaqa → yaratma → düzenleme, 75:39 iki eş (oluşum dizisi; 75:39 L4 sınıf kolu sınır vakası, 799). Olgu değil 17. Tarayıcı v4 adayı 1 (75:5 — فجر kökü, fucûr), kesinlik 0/1.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+1 e_oto tokeni → ilâhî 0, değil 1 (75:21 'el-âxira'). §4.3 mühür 1 (75:21) → geçerli **0**.
+
+### Kendi kaydı
+Kayıttan önce: 75:2 'nefs' sayı satırı ve 75:10 'el-insân' listesi ('sûre içi' → 'blok içinde'); 75:38 mercekte yazım. Kayıttan sonra: DUZELTME 1 (75:3 merceği 'iltifât ayet içi sayılıyor' — yanlış gerekçe; ölçüm iltifâtı önceki ayetle şahıs kümesi AYRIKSA 1, tekil / çoğul ayırmıyor; aday 924). Aynı gerekçe 1-10 ARIZA'sında da vardı — ARIZA DUZELTME dışı, özgün satır korunup 11-20 ARIZA'sına ek satırla işaretlendi (ayet kayıtları değişmedi). Süreç: bütün yamalar ayrı dosya + && zinciri; BASLIK çapası her blokta grep ile alındı.
+
+### Aday 1041 — kayıt (sûre 75)
+Sûre içi Allah / insan ortak kelime kaydı yok ('sevvâ' 75:4 / 38 ve 'qâdir' 75:4 / 40 ikisi de insan dışı gönderge). Ardışık sûre okuma bağı: 'ehl' 74:56 Allah / 75:33 insanın ailesi (1041 sûre içi kaydının dışında).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+74:56 / 75:1 sûre sınırı (lafız + iki 'ehl' izâfetiyle kapanış / lafızsız 1S yeminle açılış; fâsıla ة → ة). Ardışık sûre okuma bağları: 74:32 / 75:8 'qamar'; 74:53 / 75:11, 20 'kellâ (bel)'; 74:22 / 75:24 بسر kökünün korpustaki iki geçişi; 74:43 / 75:31 namaz kılmama; 74:56 / 75:33 'ehl'. 75:40 → 76:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+40 ayetin hepsinde not; ayet içi çift 4 ayette (75:9, 13, 39, 40), ayetler arası 4 (75:3 / 4, 75:20 / 21, 75:22 / 24, 75:31 / 32). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: adsız konuşan (1S yemin, 1P), muhatap 2MS / 2MP, adsız 3MS, 'qîle' söyleyeni — ad verilmedi. Zamir göndergeleri KAPATILAMAZ (75:16-19, 75:26, 75:28, 75:38, 75:39); meal parantezsiz.
+* 1021: أمم 'emâm'; فجر 'fucûr'; وزر 'wazar'; فقر 'fâqira'; سوق 'sâq'; مطو 'yetemettâ'; مني iki anlam. Eşsesli lemma şüphesi: 'yefcur', 'evlâ' — sayı iddiası yok.
+* 1001: 75:34, 35, 39 yıldız kaynağı etiketi.
+* 924: ayet 1 harf alanı (75:1); medde artefaktı (4 ayet + 1 ardıl); işaretsiz fâsıla geçişleri ×5; iltifât tanımı (tekil / çoğul ayrımı yok, ayrıklık şartı); 'lâ uqsimu' 'lâ'sı NEG; 'belâ', haber takdimi, 'inne 'aleynâ' tekidi, 'lâkin' biçim alanında yok.
+* ◈K / ◈B: عظم, بنن, لسن, ترق, سوق, وجه tetik listesinde değil — '—', gözlem ◇'de.
+
+### Okuma ikiliği
+75:27 'râq' (tedavi eden / yükselten) ve 75:14 i'râbı KAPATILAMAZ.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok. (Süreç kaydı: iltifât alanının tanımı — önceki ayetle şahıs kümesi ayrıklığı, tekil / çoğul ayrımı yok — 924 ailesine kayıt.)
+
+## SÛRE 76 İNSÂN SONU (2026-10-27)
+
+**Okunan: 4414 / 6236 ayet (%70,8)** — sûre 1 ve 9-76 TAM, sûre 2 kısmi (1-20). İlerleme `insan_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1478** (1475 → 1478; `kok_ekle_76.py`: مشج 76:2; قمطر 76:10; زمهر 76:13). Aday havuzu **1041** (sûre 76'da yeni aday yok; `AX_insan` boş). Bağ **AS_insan** 69. Esmâ okuyucu kararı (KARAR) **683** (676 → 683; 2 İLÂHÎ, 5 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta 0 (ön kuru koşu da 0; sûre geneli 31 / 0) · [x/y] **165 sayım (59 + 46 + 60), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 31 ayeti üç blokta okundu (1-10, 11-20, 21-31); oturum tek gün (sûre 75 ile aynı oturum). Ek mercekler ve 'Karşıt çift (aday 1039, okuma)' notu sûrenin tamamında. Paket `notlar/sure76_insan_okuma.md` (`insan_paket_md.py`, 31 başlık). Uzak depo **0593b8e** (oturum boyunca ilerlemedi); ara zip `fark_0593b8e_sure76_ara1.zip` (1-20), son zip `fark_0593b8e_sure76.zip`.
+
+### Sûre 76 bilançosu (TAM SAYIM, `okuma_metni['76']['_bilanco_sure']`)
+243 kelime · **lafız 5 / 4 ayet** (76:6, 9, 11, 30 ×2) · **Rab 5 / 5 ayet** (76:10, 21, 24, 25, 29) · A/R 1,0 · edilgen 5 (76:14, 15, 17, 18, 21) · iltifât ölçümü 4 (76:5, 9, 11, 21) · hapaks 3 (76:2, 10, 13 — üçü de yeni kök) · mm2 3 (76:6, 8, 16).
+Yıldız 0:17 · ★1 · ★★6 · ★★★7 (hapaks 3, pas 2, rab 1, allah 1 — içerik iddiası değil); 1001 etiket düzeltmesi gerekmedi.
+Fâsıla 31 ayetin 31'i ا; kafiye kırığı 0. En uzun 76:21 (13); en kısa 76:18 (4).
+Sayı işareti: 76:31 'e'adde' (hazırlamak) — yanlış pozitif. Nakarat3: 76:5 / 17. Esit2: 76:29 → 73:19 TAM.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L0 3: 76:1 insanın anılmadığı zaman dilimi; 76:25 sabah / akşamüstü, 76:26 gece (zaman zarfı, 71:5 emsali; 76:26 L1 sınır vakası). L1 2: 76:2 nutfe + karışım + işitme / görme yetileri (L2 sınır vakası); 76:28 yaratma + bağların sağlamlaştırılması. Olgu değil 19 (âhiret / cennet / insan yapımı araç). Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+7 e_oto tokeni → ilâhî 2 (76:30 'alîm, hakîm), değil 5 (76:2 semî', basîr; 76:3 şâkir; 76:5 berr; 76:20 kebîr). §4.3 mühür 4 (76:2, 3, 20, 30) → geçerli **1** (76:30, ton denge).
+
+### Kendi kaydı
+Kayıttan önce: 76:6 ''ibâdu'llâh korpusta 1' iddiası (sayımla 7 ayet); 76:1 okunmuş 'hel etâ' ayetleri hakkında toplu içerik iddiası silindi; 76:12 'sabera' sayı satırı; 76:30 xref dış düğümleri basılan / okunmamış ayrıldı; 76:24-26'da anılan 18:28, 33:48, 68:10, 71:5 emsal listesinde basıldı. Kayıttan sonra: yok. Sunum dersi: 76:1-10 yanıtı yarıda kesildi; okuma bloktan itibaren SendUserMessage parçalarıyla verildi.
+
+### Aday 1041 — kayıt (sûre 76)
+جزي 76:9 'cezâ'' (iyilerin insanlardan istemediği karşılık) / 76:12 'cezâhum' (Allah'ın karşılığı) / 76:22 'cezâ'' (konuşan adsız). Lemma 'şâ'e' 76:28 (1P), 76:29 (dileyen), 76:30 (2MP ve Allah), 76:31 (fail 3MS, okuma: lafız). شكر 76:3 'şâkir' (insan) / 76:22 'meşkûr' (fail adsız) — KAPATILAMAZ, kayıt değil. Sûre dışı aile (okuma): 42:11 / 76:2 'semî' + basîr'; 36:38 / 76:16 'taqdîr'; 12:41 / 76:21 'seqâ + rabb'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+75:40 / 76:1 sûre sınırı (iki yan da soru; fâsıla ى → ا). Ardışık sûre okuma bağları: 75:36-37 / 76:1-2 'el-insân' + 'nutfe' aynı sırada; 75:37 / 76:2 نطف; 75:5 / 76:6 فجر iki anlam; 75:22 / 76:11 نضر; 75:20-21 / 76:27 'yuhibbûne'l-'âcile' + bırakılan (âxira / ağır gün). 76:31 → 77:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+31 ayetin hepsinde not; ayet içi çift 6 ayette (76:3, 13, 25, 27, 30, 31), ayetler arası 2 (76:4 / 5, 76:10 / 11). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: adsız konuşan 1P (76:2-4, 76:23-28), iyilerin işaretsiz alıntısı (76:9-10; kapanış metinle 76:11), muhatap 2MS (76:19-20, 23-26), 2MP (76:22, 30) — ad verilmedi. 76:22 sözün sahibi / alıntı olup olmadığı; zamir / gönderge (76:8, 16, 24 / 27, 29); i'râb (76:6, 14, 21, 31) KAPATILAMAZ.
+* 1021: كفر 'kâfûr'; طير 'mustetîr'; غلل üç anlam; سرر 'surûr'; ظلل 'zılâl'; أني 'âniye'; قرر 'qavârîr'; أسر 'esîr' / 'esr'; عدد 'e'adde'. Eşsesli lemma şüphesi: 'berr' — sayı iddiası yok.
+* 1022: esma_kayit 'mühür EVET' ölçüm konumundan (76:2, 3, 20); geçerli yalnız 76:30.
+* 924: ayet 1 harf alanı (76:1); iltifât tanımı ve konuşan katmanı (76:2-4 / 76:9-10 / 76:23-28 1P ölçümde aynı '1'; 76:19, 22, 23 geçişleri 0); 'innemâ' hasrı, 'innâ' tekidi, 'hasibtehum' benzetmesi biçim alanında yok.
+* ◈K / ◈B: 76:18 سمو 'tusemmâ', 76:25 سمو 'ism', 76:20 نعم 'na'îm' S1 lemma kısıtıyla tetiklemiyor — '—'.
+
+### Okuma ikiliği
+76:22 2MP hitabı (iyilere âhirette mi, okuyuculara mı) ve 76:16 'qavârîra min fidda' (cam / gümüş) KAPATILAMAZ.
+
+### Kullanıcı sorusu (kayıt)
+75:39 'zevceyn → ez-zeker ve'l-unsâ' — bedel sırası okuması verildi; 53:45 / 51:49 / 49:13 → 75:39 okuma bağı önerildi; kullanıcı onayıyla AS_kiyame'ye yazıldı (53:45 zaten ölçüm xref'i; 51:49 ve 49:13 yeni okuma bağı; AS_kiyame 75 → 77).
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 77 MÜRSELÂT SONU (2026-10-28)
+
+**Okunan: 4464 / 6236 ayet (%71,6)** — sûre 1 ve 9-77 TAM, sûre 2 kısmi (1-20). İlerleme `murselat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1481** (1478 → 1481; `kok_ekle_77.py`: كفت 77:25; شمخ 77:27; لهب 77:31). Aday havuzu **1041** (sûre 77'de yeni aday yok; `AX_murselat` boş). Bağ **AS_murselat** 57. Esmâ okuyucu kararı (KARAR) **687** (683 → 687; 0 İLÂHÎ, 4 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta 0 (sûre geneli 50 / 0) · [x/y] **126 sayım (17 + 24 + 30 + 24 + 31), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 50 ayeti beş blokta okundu; oturum iki gün (2026-10-27 / 28), sûre 75 ve 76 ile aynı oturum. Paket `notlar/sure77_murselat_okuma.md` (`murselat_paket_md.py`, 50 başlık). Uzak depo **0593b8e** (oturum boyunca ilerlemedi); ara zip'ler `fark_0593b8e_sure77_ara1.zip` (1-20), `fark_0593b8e_sure77_ara2.zip` (1-40); kullanıcı isteğiyle oturumun bütün okuması tek zip (`oturum_okuma_0593b8e_75-77_40.zip`, sonra son hâli `oturum_okuma_0593b8e_75-77.zip`); son fark zip `fark_0593b8e_sure77.zip`.
+
+### Sûre 77 bilançosu (TAM SAYIM, `okuma_metni['77']['_bilanco_sure']`)
+181 kelime · **lafız 0 · Rab 0** (sûrenin tamamında) · edilgen 8 (77:7-12, 36, 48) · iltifât ölçümü 7 (77:8, 16, 31, 38, 43, 44, 46) · hapaks 2 (77:25, 27 — yeni kök) · mm2 0.
+Yıldız 0:40 · ★1 · ★★1 · ★★★8 (pas 6, hapaks 2 — içerik iddiası değil).
+Fâsıla A 9 · ع 1 · ت 5 · ل 2 · ن/م 29 · ب 2 · ر 2; kafiye kırığı 0, sınıf geçişleri işaretsiz (924). En uzun 77:27 (7); en kısa 77:1-5, 13, 26 (2).
+Nakarat 'veylun yevme'izin li'l-mukezzibîn' sûre içi 10 (hepsi basıldı), korpusta 11 (+83:10). Esit2: 77:43 → 52:19 TAM; 77:44 → sûre 37'de üç TAM; 77:18 → 37:34 BENZER. Sayı işareti: 77:30 'selâs' gerçek; 77:46 'qalîl' yanlış pozitif.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L1 9: 77:8-10 âhiretteki kozmik olay (yıldızlar, gök, dağlar; 75:8-9 emsali); 77:20-22 oluşum dizisi (değersiz su, sağlam yer, bilinen ölçü — 77:22 birimsiz ölçü, L4 sınır vakası); 77:25-26 dirileri ve ölüleri toplayan yer; 77:27 dağlar ve tatlı su (27:61 emsali). Olgu değil 29; merdiven uygulanmayan 12. Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+4 e_oto tokeni → ilâhî 0, değil 4 (77:16, 38 'evvel'; 77:17 'âxir'; 77:26 'hayy'). §4.3 mühür 4 → geçerli **0**; 77:17 ölçüm MÜHÜRSÜZ / esma_kayit EVET ayrışması (1022).
+
+### Kendi kaydı
+Kayıttan önce: 77:23 alıntı yazımı; 77:27 çıpa notundaki 27:61 emsali basıldı; 77:42, 77:44'te basılmamış okunmuş ayet numaraları sayıya çevrildi. Kayıttan sonra: yok.
+
+### Aday 1041 — kayıt (sûre 77)
+Sûre içi kayıt yok (lafız ve Rab yok). Sûre dışı aile (okuma): 57:3 / 77:16-17 'evvel / âxir'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+76:31 / 77:1 sûre sınırı (rahmet / azapla kapanış, lafızsız yeminle açılış; fâsıla ا → ا). Ardışık sûre okuma bağları: 75:1 / 76:1 / 77:1 açılışlar; 76:17, 21 / 77:27 سقي; 76:7, 11 / 77:32 شرر. 77:50 → 78:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+50 ayetin hepsinde not; ayet içi çift 3 (77:6, 26, 48), ayetler arası 4 (77:16 / 17, 77:18 / 44, 77:30-31 / 41, 77:43 / 46). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin edilenler (77:1-5), edilgen fiillerin failleri, konuşan 1P / 1S, işaretsiz emirlerin sahibi adsız. Gönderge / i'râb / okuma ikiliği KAPATILAMAZ: 77:1, 6, 8-11 şart cevabı, 12, 23, 26, 32, 36, 50.
+* 1021: عرف, نشر, ظلل (×3), قدر, شرر 'şerer', جمل.
+* 1022: 77:17 mühür ayrışması.
+* 924: ayet 1 harf alanı; yemin biçimi yalnız 77:1; beddua / övgü / benzetme biçim alanında yok; işaretsiz fâsıla geçişleri; iltifât tanımı (1P → 1S görünmüyor).
+
+### Kullanıcı kararı (bu oturum)
+53:45 / 51:49 / 49:13 → 75:39 okuma bağı onaylandı: 51:49 ve 49:13 AS_kiyame'ye yazıldı (53:45 zaten xref); AS_kiyame 75 → 77.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.

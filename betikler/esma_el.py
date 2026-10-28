@@ -792,4 +792,23 @@ KARAR = {
 '74:31:27': 'degil',  # mu'minûn — 've'l-mu'minûn', insan çoğulu (mü'minler kuralı), ilâhî ad değil
 # sûre 74 blok 49-56
 '74:53:5': 'degil',  # âhira — 'lâ yehâfûne'l-âhira', âhiret (ad), ilâhî ad değil
+# sûre 75 blok 21-30
+'75:21:2': 'degil',  # 'el-âxira' — âhiret, ilâhî ad değil (74:53 kararı ile aynı)
+# sûre 76 blok 1-10
+'76:2:9': 'degil',  # semî' — 'fe-ce'alnâhu semî'an basîrâ', insan için hâl / ikinci meful, ilâhî ad değil
+'76:2:10': 'degil',  # basîr — aynı terkip, insan için
+'76:3:5': 'degil',  # şâkir — 'immâ şâkiran ve immâ kefûrâ', insanın iki hâli, ilâhî ad değil
+'76:5:2': 'degil',  # berr — 'inne'l-ebrâr', insan çoğulu, ilâhî ad değil
+# sûre 76 blok 11-20
+'76:20:7': 'degil',  # kebîr — 'mulken kebîrâ', mülkün sıfatı, ilâhî ad değil
+# sûre 76 blok 21-31
+'76:30:10': 'ilahi',  # 'alîm — 'innallâhe kâne 'alîmen hakîmâ', lafzın haberi
+'76:30:11': 'ilahi',  # hakîm — aynı terkip, lafzın haberi
+# sûre 77 blok 11-20
+'77:16:3': 'degil',  # evvel — 'el-evvelîn', önceki topluluklar, ilâhî ad değil
+'77:17:3': 'degil',  # âxir — 'el-âxirîn', sonraki topluluklar, ilâhî ad değil
+# sûre 77 blok 21-30
+'77:26:1': 'degil',  # hayy — 'ahyâ'en ve emvâtâ', diriler (çoğul), ilâhî ad değil
+# sûre 77 blok 31-40
+'77:38:5': 'degil',  # evvel — 've'l-evvelîn', önceki topluluklar, ilâhî ad değil
 }
