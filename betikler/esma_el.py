@@ -821,4 +821,18 @@ KARAR = {
 # sûre 80 blok 11-20
 '80:16:1': 'degil',  # kirâm — 'sefera'nın sıfatı (yazıcılar, 80:15), ilâhî ad değil
 '80:16:2': 'degil',  # berara — 'sefera'nın sıfatı ('berr' çoğulu), ilâhî ad değil
+# sûre 81 blok 11-20
+'81:19:4': 'degil',  # 'rasûlin kerîm' — elçinin sıfatı, ilâhî ad değil
+# sûre 81 blok 21-29
+'81:23:4': 'degil',  # mubîn — 'el-ufuq'un sıfatı, ilâhî ad değil
+# sûre 82 blok 1-10
+'82:6:6': 'ilahi',  # kerîm — 'bi-rabbike'l-kerîm', Rab'ın sıfatı
+# sûre 82 blok 11-19
+'82:11:1': 'degil',  # kirâm — 'kâtibîn'in sıfatı, ilâhî ad değil
+'82:13:2': 'degil',  # ebrâr — insan çoğulu ('el-ebrâr'), ilâhî ad değil
+# sûre 83 blok 11-20
+'83:13:7': 'degil',  # evvel — 'esâtîru'l-evvelîn' (öncekiler), ilâhî ad değil
+'83:18:4': 'degil',  # ebrâr — insan çoğulu ('kitâbe'l-ebrâr'), ilâhî ad değil
+# sûre 83 blok 21-28
+'83:22:2': 'degil',  # ebrâr — insan çoğulu ('inne'l-ebrâr'), ilâhî ad değil
 }
