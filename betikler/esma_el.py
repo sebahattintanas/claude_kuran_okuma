@@ -811,4 +811,14 @@ KARAR = {
 '77:26:1': 'degil',  # hayy — 'ahyâ'en ve emvâtâ', diriler (çoğul), ilâhî ad değil
 # sûre 77 blok 31-40
 '77:38:5': 'degil',  # evvel — 've'l-evvelîn', önceki topluluklar, ilâhî ad değil
+# sûre 78 blok 31-40
+'78:37:6': 'ilahi',  # rahmân — 'rabbi's-semâvâti … er-rahmân', Rabbin bedeli / sıfatı
+'78:38:12': 'ilahi',  # rahmân — 'illâ men ezine lehu'r-rahmân', izin veren, fail
+'78:40:4': 'degil',  # qarîb — ''azâben qarîbâ', azabın sıfatı, ilâhî ad değil
+# sûre 79 blok 21-30
+'79:25:4': 'degil',  # âxir — 'nekâle'l-âxirati', âhiret (dünya / âhiret çifti), ilâhî ad değil
+'79:25:5': 'degil',  # evvel — 've'l-ûlâ', dünya, ilâhî ad değil
+# sûre 80 blok 11-20
+'80:16:1': 'degil',  # kirâm — 'sefera'nın sıfatı (yazıcılar, 80:15), ilâhî ad değil
+'80:16:2': 'degil',  # berara — 'sefera'nın sıfatı ('berr' çoğulu), ilâhî ad değil
 }

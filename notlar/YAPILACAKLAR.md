@@ -7535,3 +7535,123 @@ Sûre içi kayıt yok (lafız ve Rab yok). Sûre dışı aile (okuma): 57:3 / 77
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 Yok.
+
+## SÛRE 78 NEBE' SONU (2026-10-29)
+
+**Okunan: 4504 / 6236 ayet (%72,2)** — sûre 1 ve 9-78 TAM, sûre 2 kısmi (1-20). İlerleme `nebe_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1485** (1481 → 1485; `kok_ekle_78.py`: وهج 78:13; ثجج 78:14; كعب 78:33; دهق 78:34). Aday havuzu **1041** (sûre 78'de yeni aday yok; `AX_nebe` boş). Bağ **AS_nebe** 51. Esmâ okuyucu kararı (KARAR) **690** (687 → 690; 2 İLÂHÎ, 1 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik dört blokta 0 (78:31-40 ilk taslakta 1, kayıttan önce düzeltildi; sûre geneli 40 / 0) · [x/y] **131 sayım (20 + 36 + 25 + 50), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 1** (78:38, kayıttan sonra, kullanıcı sorusuyla).
+Sûrenin 40 ayeti dört blokta okundu; oturum iki gün (2026-10-28 / 29). Paket `notlar/sure78_nebe_okuma.md` (`nebe_paket_md.py`, 40 başlık). Uzak depo **7d5e727** (oturum boyunca ilerlemedi); ara zip `fark_7d5e727_sure78_ara1.zip` (1-20); son zip `fark_7d5e727_sure78.zip`.
+
+### Sûre 78 bilançosu (TAM SAYIM, `okuma_metni['78']['_bilanco_sure']`)
+173 kelime · **lafız 0 · Rab 3** (78:36, 37, 39) · edilgen 3 (78:18-20) · iltifât ölçümü 4 (78:6, 35, 36, 37) · hapaks 3 (78:13, 14, 34 — yeni kök) · mm2 0 · nakarat3 0.
+Yıldız 0:31 · ★1 · ★★4 · ★★★4 (hapaks 3, rab 1 — içerik iddiası değil).
+Fâsıla N 5 (78:1-5; 78:2 م) · A 35 (78:6-40); kafiye kırığı 0. En uzun 78:40 (15); en kısa 2 kelime (on ayet).
+Sayı işareti: 78:12 'seb'' gerçek; 78:8 'ezvâc' yanlış pozitif. xref: 78:10 → 25:47, 78:17 → 37:21, 78:29 → 36:12, 78:40 → 28:47 (dördü basıldı).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 1: 78:15 su → tane ve bitki (ta'lîl lâmı, 50:9 emsali; tarayıcı v4 adayı, çıpa değil — kesinlik 0/1). L1 11: 78:6-11 nimet dizisi (yer, dağlar, çift yaratma, uyku, gece, gündüz), 78:14 su ve kaynağı, 78:16 bahçeler, 78:19-20 göğün açılması / dağların yürütülmesi (âhiretteki kozmik olay). L0 1: 78:37 Rab tamlamasında gökler, yer (44:7, 37:5 emsali). Gönderge adsız, merdiven uygulanmadı: 78:12 ('seb'an şidâdâ'), 78:13 ('sirâc'). Olgu değil 25.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → ilâhî 2 (78:37, 38 'er-rahmân'), değil 1 (78:40 'qarîb'). §4.3 mühür 2 → geçerli **2** (ton cemâl); ölçüm satırı ikisinde de MÜHÜRSÜZ — ayrışma (1022).
+
+### Kendi kaydı
+Kayıttan önce: 78:4-5 ◈K'deki tetiksiz gözlem ◇'ye taşındı; 78:17'de basılmamış 77:13, 14, 38 emsal olarak basıldı; 78:24'te 44:56 için basılmamış bağlam niteliği silindi; 78:35 ◈B tetik satırı dolduruldu; 78:38 ◈K 'rûh' notu düzeltildi; ثجج gloss çeviriyazısı. Kayıttan sonra: 1 — DUZELTME 78:38 (aday 1017): rûh tekil / melekler çoğul; öne geçen fiil ilk özneye uyuyor (78:38 'yeqûmu' 3MS, 70:4 'ta'ruju' 3FS); 'saffâ' ve 'lâ yetekellemûne' kapsamı KAPATILAMAZ; ölçüm özne sayısını göstermiyor (924). Kullanıcı sorusuyla yakalandı.
+
+### Aday 1041 — kayıt (sûre 78)
+Sûre içi kayıt yok ('şâ'e', 'ezine', 'qâle' Allah ile insan arasında bölünmüyor; lafız yok).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+77:50 / 78:1 sûre sınırı (soruyla kapanış / soruyla açılış; 3MP → 3MP; fâsıla ن → ن; 'hadîs' / 'nebe''). Ardışık sûre okuma bağları: 77:25 / 78:6 'e-lem nec'ali'l-arda' + nekre işlev; 77:9-10 / 78:19-20 gök ve dağlar edilgenle; 77:13, 14, 38 / 78:17 'yevmu'l-fasl'. 78:40 → 79:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+40 ayetin hepsinde not; ayet içi çift 1 (78:37), ayetler arası 11 (78:10 / 11, 7 / 20, 24 / 25, 24 / 30, 22 / 31, 24 / 34, 24 / 35, 28 / 35, 26 / 36, 27 / 36, 22 / 39). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: soruşanlar, soran / cevap veren ses, konuşan 1P, muhatap 2MP / 2MS, edilgen fiillerin failleri, azgınlar, sakınanlar, 'el-mer'', 'el-kâfir' adsız. Gönderge / i'râb / okuma ikiliği KAPATILAMAZ: 78:3, 8, 12, 13, 14, 21, 22, 23, 26, 38.
+* 1021: نهر 'nehâr', حبب 'habb', عصر 'mu'sırât', غسق, ترب 'etrâb', حسب 'hisâbâ' (yeterli).
+* 1022: 78:37, 38 mühür ayrışması.
+* 924: ayet 1 harf alanı; soru-cevap / ta'lîl / 'inne' / meful takdimi biçim alanında yok; 'ezvâc' sayı işareti; kısmi şahıs örtüşmesinde iltifât 0; 1P → anlatıcı geçişi görünmüyor.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 79 NÂZİ'ÂT SONU (2026-10-29)
+
+**Okunan: 4550 / 6236 ayet (%73,0)** — sûre 1 ve 9-79 TAM, sûre 2 kısmi (1-20). İlerleme `naziat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1492** (1485 → 1492; `kok_ekle_79.py`: حفر 79:10; نخر 79:11; سهر 79:14; سمك 79:28; غطش 79:29; دحو 79:30; طمم 79:34). Aday havuzu **1041** (sûre 79'da yeni aday yok; `AX_naziat` boş). Bağ **AS_naziat** 57. Esmâ okuyucu kararı (KARAR) **692** (690 → 692; 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik beş blokta 0 (79:11-20 ilk taslakta 1, kayıttan önce düzeltildi; sûre geneli 46 / 0) · [x/y] **119 sayım (19 + 26 + 30 + 29 + 15), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 1** (79:11, kayıttan sonra).
+Sûrenin 46 ayeti beş blokta okundu (2026-10-29). Paket `notlar/sure79_naziat_okuma.md` (`naziat_paket_md.py`, 46 başlık). Uzak depo **7d5e727** (oturum boyunca ilerlemedi); ara zip'ler `fark_7d5e727_sure79_ara1.zip`, `fark_7d5e727_sure79_ara2.zip` (1-40); son zip `fark_7d5e727_sure79.zip`.
+
+### Sûre 79 bilançosu (TAM SAYIM, `okuma_metni['79']['_bilanco_sure']`)
+179 kelime · **lafız 1 (79:25) · Rab 5** (79:16, 19, 24, 40, 44 — 79:24 Fir'avn'ın iddiası, ölçüm Rab sayıyor) · edilgen 1 (79:36) · iltifât ölçümü 4 (79:12, 20, 33, 34) · hapaks 7 (79:2 نشط; 79:11, 14, 28, 29, 30, 34 yeni kök) · mm2 0 · nakarat3 0.
+Yıldız 0:31 · ★1 · ★★2 · ★★★12 (hapaks 7, rab 4, allah 1 — içerik iddiası değil); 79:33 ★ kaynağı aday 1001 düzeltmesiyle kafiye.
+Fâsıla ölçüm A 30 · H 9 (79:6-14) · 'ٓ' 6 (79:15, 25, 26, 30, 43, 44 — medde artefaktı) · N 1 (79:33 م); ölçüm kafiye kırığı 2: 79:30 sahte (medde), 79:33 gerçek. En uzun 9 kelime (79:40, 46); en kısa 2 kelime (on ayet).
+Sayı işareti: 79:13 'vâhida' gerçek. Ölçüm bağları: esit2 79:15 → 20:9, 79:17 → 20:24 / 20:43, xref 79:16 → 20:12 (basıldı); esit2 79:33 → 80:32, xref 79:35 → 89:23, 79:38 → 87:16, 79:42 → 7:187 (henüz okunmadı); 79:40 → 55:46 (basıldı).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 8: 79:11 itiraz içinde kemik; 79:27-33 yaratılış dizisi (insan / gök karşılaştırması, göğün tavanı, gece / kuşluk, yer yayma — sıra 'ba'de zâlike', su ve otlak, dağlar, yararlanma işlevi). L0 2: 79:16 Tuvâ yer adı; 79:46 akşam / kuşluk zaman zarfı. Olgu değil 36. Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+2 e_oto tokeni → değil 2 (79:25 'el-âxira', 'el-ûlâ' — âhiret / dünya çifti). §4.3 ölçüm mührü 1 (79:25, ÇİFT) → geçerli **0** (1022).
+
+### Kendi kaydı
+Kayıttan önce: 79:10 iltifât notu; 79:4-5 için 77:2-5 emsal olarak basıldı; 79:15 ders adı olarak ayet numaraları, 79:18 basılmamış okunmuş ayetler silindi; 79:17 basılan ayette olmayan kişi adı silindi; 79:11 ◈B tetik satırı '—' yapıldı; 79:21 eşsesli lemma sayısı kök sayısına çevrildi; 79:22 basılmamış ayetlerin sûre adı ve 79:30 lemma listesi içerik iddiası silindi; 79:42, 46 ◇ ifadeleri KAPATILAMAZ biçimine çekildi. Kayıttan sonra: 1 — DUZELTME 79:11 (aday yok): 17:49 / 17:98 ile karşılaştırmanın sırası ters yazılmıştı (orada durum → soru, burada soru → durum).
+
+### Aday 1041 — kayıt (sûre 79)
+ندي: 79:16 Rab seslenir / 79:23 Fir'avn seslenir. ربب: 79:16, 19, 40, 44 Rab / 79:24 Fir'avn'ın 'ene rabbukumu'l-a'lâ' iddiası (ölçüm Rab ekseninde sayıyor, esma_kayit sınıfı R).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+78:40 / 79:1 sûre sınırı (kâfirin işaretli 1S dileğiyle kapanış / lafızsız yeminle açılış; fâsıla ا → ا). Ardışık sûre okuma bağları: 78:6 / 79:30 yer; 78:7 / 79:32 dağlar; 78:10 / 79:29 gece; 78:11 / 79:33 işlev adı; 78:12 / 79:27 بني + 'şedîd'; 78:14 / 79:31 su; 78:22 / 79:37, 39 azgınlar + varış yeri. 79:46 → 80:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+46 ayetin hepsinde not; ayet içi çift 4 (79:25, 27, 29, 46), ayetler arası 10 (79:12 / 13, 17 / 19, 19 / 21, 16 / 23, 19 / 24, 27-29 / 30, 20 / 34, 37 / 40, 37-38 / 40, 39 / 41). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin edilenler (79:1-5), 'er-râcife' / 'er-râdife', söyleyenler, haykıran, gösteren (79:20), toplananlar, 3MS zamirle yaratan, 'et-tâmme', azan / korkan, soranlar, muhatap 2MS, 79:46 'hum' adsız. Alıntı sınırları: 79:10 → 79:12 'qâlû' ile kapandı; 79:16-19 Rab sözü + iç 'qul'; 79:24 Fir'avn sözü; 79:42-46 işaretsiz. Gönderge / i'râb / okuma ikiliği KAPATILAMAZ: 79:1, 10, 14, 20, 25, 28, 33, 34, 43, 46.
+* 1021: نشط 'neşt', سبح 'sebh' (yüzme), دبر 'mudebbirât'.
+* 1022: 79:25 ölçüm mührü / geçerli değil.
+* 924: ayet 1 harf alanı; QASEM yalnız 79:1; 'innemâ' ve zamir fasl hasrı biçim alanında yok (79:13, 39, 41, 45); 79:32 'ersâ' morph IMPF 1S; 79:24 iddia Rab ekseninde; sahset iki ayrı 2MS'yi ayırmıyor (79:17 / 18-19); esit2 79:13 → 37:19 yazılmıyor; medde fâsıla artefaktı; 79:40 'hevâ' eşsesli lemma.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 80 'ABESE SONU (2026-10-29)
+
+**Okunan: 4592 / 6236 ayet (%73,6)** — sûre 1 ve 9-80 TAM, sûre 2 kısmi (1-20). İlerleme `abese_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1496** (1492 → 1496; `kok_ekle_80.py`: صدي 80:6; قضب 80:28; أبب 80:31; صخخ 80:33). Aday havuzu **1041** (sûre 80'de yeni aday yok; `AX_abese` boş). Bağ **AS_abese** 42. Esmâ okuyucu kararı (KARAR) **694** (692 → 694; 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik dört blokta 0 (sûre geneli 42 / 0) · [x/y] **89 sayım (15 + 22 + 21 + 31), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0** (1 ARIZA eki kayıttan sonra: 80:10 morph etiketi).
+Sûrenin 42 ayeti dört blokta okundu (son blok 31-42, 12 ayet). Dosyalar `yamalar/iskele_80.py` ile naziat_* şablonlarından kuruldu. Paket `notlar/sure80_abese_okuma.md` (`abese_paket_md.py`, 42 başlık). Uzak depo **7d5e727** (oturum boyunca ilerlemedi); ara zip `fark_7d5e727_sure80_ara1.zip` (1-20); son zip `fark_7d5e727_sure80.zip`.
+
+### Sûre 80 bilançosu (TAM SAYIM, `okuma_metni['80']['_bilanco_sure']`)
+133 kelime · **lafız 0 · Rab 0** (lafızsız ve Rabsız sûre) · edilgen 1 (80:17) · iltifât ölçümü 3 (80:25, 32, 33) · hapaks 3 (80:28, 31, 33 — yeni kök) · mm2 0 · nakarat3 0.
+Yıldız 0:37 · ★1 (80:2, aday 1001 düzeltmesiyle kafiye — sahte kırık) · ★★1 (80:17 pas) · ★★★3 (hapaks — içerik iddiası değil).
+Fâsıla ölçüm H 23 (ة ile ه birleşik) · A 14 · 'ٓ' 4 (80:1, 3, 4, 24 — medde artefaktı) · N 1 (80:32 م); ölçüm kafiye kırığı 1 (80:2, sahte). En uzun 6 kelime (80:37); en kısa 2 kelime (13 ayet).
+Ölçüm bağları: esit2 80:12 → 74:55, 80:32 → 79:33 (TAM, ikisi basıldı); başka xref yok.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok — 80:27 L2 sınır vakası (su → yer yarılması → tane, 'thumme' / 'fe' sırası, 'bihî' / ta'lîl yok; 50:9, 78:15 L2). L1 10: 80:19 nutfe + yaratma + ölçme; 80:21 ölüm + defin; 80:25-31 su, yer, tane, bitki adları; 80:32 yararlanma işlevi. L0 1: 80:24 yiyecek. Olgu değil 31 (80:2 'kör' kişi nitelemesi). Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+2 e_oto tokeni → değil 2 (80:16 'kirâm', 'berara' — yazıcıların sıfatı). §4.3 ölçüm mührü 1 (80:16, ÇİFT) → geçerli **0** (1022).
+
+### Kendi kaydı
+Kayıttan önce: 80:42 harekesiz 'ulâ'ike hum' okunmuş / okunmamış sayısı (12 / 7 → 10 / 9; oturum_xy bu biçimi denetlemiyor). Kayıttan sonra: DUZELTME yok; ARIZA eki 80:10 ('telehhâ' morph PERF I. bab 3MS — biçim IMPF V. bab 2MS; ayet kayıtları değişmedi, önce / sonra karşılaştırmasıyla doğrulandı).
+
+### Aday 1041 — kayıt (sûre 80)
+'şâ'e': 80:12 dileyen insan / 80:22 dileyen dirilten 3MS.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+79:46 / 80:1 sûre sınırı (3MP + saat ile kapanış / 3MS iki fiille açılış; fâsıla ا → ى). Ardışık sûrede TAM tekrar: 79:33 / 80:32 'metâ'an lekum ve li-en'âmikum' (esit2) ve ikisinin hemen ardından 'fe-izâ câ'eti' + korpusta tek ad (79:34 'et-tâmmetu'l-kubrâ' / 80:33 'es-sâxxa'). Ardışık sûre okuma bağları: 79:18 / 80:3, 7; 79:22 / 80:8; 79:31 / 80:25; 79:35 / 80:17; 79:37, 40 / 80:5, 8; 79:43 / 80:4; 79:45 / 80:9; iki sûrede adsız 2MS muhatap. 80:42 → 81:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+42 ayetin hepsinde not; ayet içi çift 1 (80:35), ayetler arası 7 (80:3 / 7, 5 / 8, 6 / 10, 21 / 22, 38-39 / 40-41 ve kollar). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yüzünü ekşiten, kör, muhatap 2MS, yeterli gören, koşarak gelen (aynılıklar KAPATILAMAZ); 'innehâ' / 'zekerahû'; 'sefera'; 3MS yaratan / öldüren / dirilten; konuşan 1P; 'es-sâxxa'; 'el-mer''; yüzlerin sahipleri; 'ulâ'ike'. Söz işareti yok. Okuma ikiliği KAPATILAMAZ: 80:7, 17, 20, 32, 33.
+* 1021: سفر, برر, حبب, غلب, فجر.
+* 1022: 80:16 ölçüm mührü / geçerli değil.
+* 924: ayet 1 harf alanı; medde artefaktı ve sahte kırık (80:1-2); ة / ه aynı sınıf; 80:32 م işaretsiz; edilgen ortaç; kısmi örtüşmede iltifât 0; 80:10 morph; 80:42 hasr.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
