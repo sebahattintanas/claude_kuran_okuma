@@ -7655,3 +7655,126 @@ Kayıttan önce: 80:42 harekesiz 'ulâ'ike hum' okunmuş / okunmamış sayısı 
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 Yok.
+
+## SÛRE 81 TEKVÎR SONU (2026-10-29)
+
+**Okunan: 4621 / 6236 ayet (%74,1)** — sûre 1 ve 9-81 TAM, sûre 2 kısmi (1-20). İlerleme `tekvir_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1504** (1496 → 1504; `kok_ekle_81.py`: كدر 81:2; وحش 81:5; وأد 81:8; كشط 81:11; خنس 81:15; كنس 81:16; عسعس 81:17; ضنن 81:24). Aday havuzu **1041** (sûre 81'de yeni aday yok; `AX_tekvir` boş). Bağ **AS_tekvir** 50. Esmâ okuyucu kararı (KARAR) **696** (694 → 696; 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik üç blokta (21-29 ilk taslakta 1 uyuşmaz, kayıttan önce düzeltildi; sûre geneli 29 / 0) · [x/y] **66 sayım (21 + 24 + 21), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**, ARIZA eki yok.
+Sûrenin 29 ayeti üç blokta okundu (1-10, 11-20, 21-29). Dosyalar `yamalar/iskele_81.py` ile abese_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure81_tekvir_okuma.md` (`tekvir_paket_md.py`, 29 başlık). Uzak depo **27e79a3** (oturum boyunca ilerlemedi); ara zip `fark_27e79a3_sure81_ara1.zip` (1-20); son zip `fark_27e79a3_sure81.zip`.
+
+### Sûre 81 bilançosu (TAM SAYIM, `okuma_metni['81']['_bilanco_sure']`)
+104 kelime · **lafız 1 · Rab 1** (ikisi de 81:29) · edilgen 12 (81:1, 3-13) · iltifât ölçümü 6 (81:15, 17, 22, 23, 26, 27) · hapaks 7 (81:2, 5, 8, 11, 16, 17, 24 — yeni kök) · mm2 0 · nakarat3 0.
+Yıldız 0:12 · ★★1 (81:29 rab) · ★★★16 (pas 12, hapaks 4 — içerik iddiası değil).
+Fâsıla ölçüm ت 14 · س 4 · N 11; ölçüm kafiye kırığı 0 (ت → س, س → م geçişleri işaretsiz, 924). En uzun 8 kelime (81:29); en kısa 2 kelime (81:16, 26). Sayı işareti 2 (81:4, 7 — kök kaynaklı yanlış pozitif).
+Ölçüm bağları: esit2 81:19 → 69:40 (TAM), 81:27 → 38:87 (TAM), 68:52 (BENZER); xref 81:29 → 76:30 (basıldı), 6:128, 7:89 (henüz okunmadı).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 5: 81:1, 2, 3, 6, 11 — âhirette kozmik olay (güneş, yıldızlar, dağlar, denizler, gök). L0 3: 81:17 gece, 81:18 sabah (zaman zarfı), 81:23 ufuk (yer adı; görme olayı gaybî). Olgu değil 21 (gönderge adsız 2: 81:15-16 yemin edilenler — merdiven uygulanmadı). Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+2 e_oto tokeni → değil 2 (81:19 'kerîm' elçinin sıfatı; 81:23 'mubîn' ufkun sıfatı). §4.3 ölçüm mührü 2 (81:19, 23) → geçerli **0** (1022). 81:29 'rabbu'l-'âlemîn' Rab ekseninde.
+
+### Kendi kaydı
+Kayıttan önce: 81:1 'izâ' sayımında henüz okunmamış ayet numaraları sıralanmıştı (sayıya çevrildi); esma_el yorumunda basılmamış ayet numarası emsal adı olarak geçiyordu (çıkarıldı); 17:42 harf çevirisi; 81:13 sıra ifadesi; 81:23 ◈K dolu yazılmıştı (tetik ön kuru koşusu yakaladı → '—'); 81:29 lafız / Rab konum ifadesi. Kayıttan sonra: yok.
+
+### Aday 1041 — kayıt (sûre 81)
+'zû': 81:20 'zî quvva' (elçi) / 'zi'l-'arş' (arşın sahibi, lafızsız). 'şâ'e': 81:28-29 muhatapların dilemesi / Allah'ın dilemesi.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+80:42 / 81:1 sûre sınırı (işaret zamiri + hasr ile yargı / şart zarfı ile kozmik olay dizisi; fâsıla ة → ت; ikisi de lafızsız, Rabsız). Ardışık sûrede sıralı eşleşme: 80:11-12 / 81:27-28 öğüt + 'men şâ'e'. Ardışık sûre okuma bağları: 80:13 / 81:10 'suhuf'; 80:17 / 81:9 edilgen 'qutile' / 'qutilet'; 80:22 / 81:10 kök نشر; 80:33 / 81:1 'izâ' ile âhiret açılışı. 81:29 → 82:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+29 ayetin hepsinde not; ayet içi çift 1 (81:29 'teşâ'ûne' / 'yeşâ'a'llâh'), ayetler arası 3 (81:12 / 13 cehennem / cennet; 81:17 / 18 gece / sabah; 81:19 / 25 elçinin sözü / şeytanın sözü). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen fiillerin failleri (81:1, 3-13); 81:8-9 soran, gömen, öldüren; 81:7 eşleştirilenler; 81:15 konuşan 1S ve yemin edilenler (81:15-16); 81:19 'hu' ve elçi; 81:22 'sâhibukum' / 2MP (elçiyle aynılığı KAPATILAMAZ); 81:23 gören / görülen; 81:24, 25, 27 'huve'. Söz işareti 'qâle / qîle' yok — 81:8-9 dolaylı aktarım. Okuma ikiliği KAPATILAMAZ: 81:6, 14, 17, 24.
+* 1021: عشر (''işâr'), نفس ('teneffese'), جنن (cennet / deli), علم (''âlemîn'), نشر (ardışık sûrede iki anlam), سجر.
+* 1022: 81:19, 23 ölçüm mührü / geçerli değil.
+* 924: ayet 1 harf alanı; 'izâ' şart zarfı ve cevabı kip alanında yok; atıflı yeminlerde QASEM yok (81:17-18); 'fe-lâ uqsimu' NEG; 81:17 iltifât (konuşan değişmiyor); fâsıla geçişleri işaretsiz; yıldızlar formül davranışı.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 82 İNFİTÂR SONU (2026-10-29)
+
+**Okunan: 4640 / 6236 ayet (%74,4)** — sûre 1 ve 9-82 TAM, sûre 2 kısmi (1-20). İlerleme `infitar_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1505** (1504 → 1505; `kok_ekle_82.py`: بعثر 82:4). Aday havuzu **1041** (sûre 82'de yeni aday yok; `AX_infitar` boş). Bağ **AS_infitar** 31. Esmâ okuyucu kararı (KARAR) **699** (696 → 699; 1 İLÂHÎ, 2 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik iki blokta 0 (sûre geneli 19 / 0) · [x/y] **52 sayım (28 + 24), 0 uyuşmaz** · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**, ARIZA eki yok.
+Sûrenin 19 ayeti iki blokta okundu (1-10, 11-19). Dosyalar `yamalar/iskele_82.py` ile tekvir_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure82_infitar_okuma.md` (`infitar_paket_md.py`, 19 başlık). Uzak depo **27e79a3** (oturum boyunca ilerlemedi); sûre 82 için ara zip yok; son zip `fark_27e79a3_sure82.zip` (sûre 81 + 82).
+
+### Sûre 82 bilançosu (TAM SAYIM, `okuma_metni['82']['_bilanco_sure']`)
+80 kelime · **lafız 1 (82:19) · Rab 1 (82:6)** · edilgen 2 (82:3, 4) · iltifât ölçümü 0 · hapaks 0 · mm2 0 · nakarat3 82:17-18.
+Yıldız 0:15 · ★1 (82:19 lafız) · ★★★3 (82:3, 4 pas; 82:6 rab — içerik iddiası değil).
+Fâsıla ölçüm ت 5 · N 11 · ك 2 · H 1; ölçüm kafiye kırığı 0 (geçişler işaretsiz, 924). En uzun 9 kelime (82:19); en kısa 2 kelime (82:11). Sayı işareti 0.
+Ölçüm bağları: esit2 82:13 → 83:22 (TAM, henüz okunmadı), 82:17 ↔ 82:18 (BENZER); xref 82:19 → 2:48, 2:123 (henüz okunmadı).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 5: 82:1, 2, 3 (âhirette kozmik olay: gök, yıldızlar, denizler); 82:7 yaratma + düzenleme + dengeleme ('fe' ile sıralı, aşama adı yok); 82:8 biçim + oluşturma. L0 yok. Olgu değil 14. Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → ilâhî 1 (82:6 'rabbike'l-kerîm'), değil 2 (82:11 'kirâm', 82:13 'berr'). §4.3 ölçüm mührü 3 → geçerli **1** (82:6, cemâl; ölçüm satırı 'MÜHÜRSÜZ' diyordu — 1022).
+
+### Kendi kaydı
+Kayıttan önce: 82:7 ''adele' eşsesli lemma sayısı çıkarıldı. Kayıttan sonra: yok.
+
+### Aday 1041 — kayıt (sûre 82)
+Kök كرم: 82:6 'rabbike'l-kerîm' (İLÂHÎ) / 82:11 'kirâmen kâtibîn'.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+81:29 / 82:1 sûre sınırı (lafız + Rab + hasr ile kapanış / lafızsız şart zarfı ile açılış; fâsıla ن → ت). Ardışık sûreyle yapı eşleşmesi: 've izâ' + ad + fiil şart dizisi + ''alimet nefsun mâ …' cevabı (81:1-14 / 82:1-5); harekesiz 've ize'l-bihâr' (81:6 / 82:3) ve ''alimet nefs' (81:14 / 82:5) korpusun iki ayeti, ardışık iki sûrede. Ardışık sûre okuma bağları: 81:11 / 82:1; 81:2 / 82:2; 81:19 / 82:6 ('kerîm' elçi / Rab); 81:29 / 82:19 (iki sûre lafızla biten ayetle kapanıyor). 82:19 → 83:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+19 ayetin hepsinde not; ayet içi çift 2 (82:5, 82:19), ayetler arası 1 (82:13 / 14). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen failler; konuşan adsız; 'el-insân' (cins); yaratan 3MS; muhataplar 2MP; yazıcılar; muhatap 2MS (aynılıklar işaretsiz). Söz işareti yok. Okuma ikiliği KAPATILAMAZ: 82:5, 8.
+* 1021: فطر, فجر, برر (eşsesli lemma), شيأ, 'adele' (eşsesli lemma).
+* 1022: 82:6 ölçüm 'MÜHÜRSÜZ' / geçerli; 82:11, 13 ölçüm mührü / geçerli değil.
+* 924: ayet 1 harf alanı; şart zarfı / cevabı ve 82:6 sorusu kip alanında yok; 2MS → 2MP iltifât 0; 'li'llâh' takdimi; fâsıla geçişleri işaretsiz.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok.
+
+## SÛRE 83 MUTAFFİFÎN SONU (2026-10-29)
+
+**Okunan: 4676 / 6236 ayet (%75,0)** — sûre 1 ve 9-83 TAM, sûre 2 kısmi (1-20). İlerleme `mutaffifin_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1510** (1505 → 1510; `kok_ekle_83.py`: طفف 83:1, رين 83:14, رحق 83:25, سنم 83:27, غمز 83:30). Aday havuzu **1041** (sûre 83'te yeni aday yok; `AX_mutaffifin` boş). Bağ **AS_mutaffifin** 56. Esmâ okuyucu kararı (KARAR) **702** (699 → 702; 3 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 36 / 0) · [x/y] **101 sayım, 0 uyuşmaz** (sûre geneli) · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0; رين eklemesinde genel geçiş 5 yanlış gloss → `yama_rin_83.py` (aşağıda) · **DUZELTME 0**, ARIZA eki yok.
+Sûrenin 36 ayeti dört blokta okundu (1-10, 11-20, 21-28, 29-36). Dosyalar `yamalar/iskele_83.py` ile infitar_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure83_mutaffifin_okuma.md` (`mutaffifin_paket_md.py`, 36 başlık). Uzak depo **27e79a3** (oturum boyunca ilerlemedi); ara zip `fark_27e79a3_sure83_ara1.zip`; son zip `fark_27e79a3_sure83.zip` (sûre 81 + 82 + 83).
+
+### Sûre 83 bilançosu (TAM SAYIM, `okuma_metni['83']['_bilanco_sure']`)
+169 kelime · **lafız 0 · Rab 2 (83:6, 15)** — lafızsız sûre · edilgen 5 (83:13, 17, 25, 33, 36) · iltifât ölçümü 0 · hapaks 5 ayet (83:1, 14, 25, 27, 30 — yeni kökler) · mm2 0.
+Yıldız 0:25 · ★2 (83:17, 36 pas) · ★★1 (83:13 pas) · ★★★8 (hapaks 83:1, 14, 27, 30; rab 83:6, 15; pas 83:25, 33 — içerik iddiası değil).
+Fâsıla metin ن 27 / م 9; ölçüm N 36, kafiye kırığı 0 (ن / م ayrımı sınıfta yok, 924). En uzun 8 kelime (83:14, 29); en kısa 2 kelime (83:1, 5, 9, 20, 21). Sayı işareti 0.
+Sûre içi esit2 TAM: 83:9 / 20 ('kitâbun merqûm'), 83:23 / 35 (koltuklarda bakarlar; nakarat3 süzgeç GEÇMEZ). Ardışık sûreyle esit2 TAM: 82:13 / 83:22.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 yok. L0 yok. Olgu değil 36 (âhiret, gaybî, insan davranışı, söz, soru). Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+3 e_oto tokeni → hepsi DEĞİL (83:13 'evvelîn' öncekiler; 83:18, 22 'ebrâr' insan çoğulu). §4.3 ölçüm mührü 3 → geçerli **0** (1022).
+
+### Kök çakışması — yama_rin_83 (kayıt)
+رين ('râne', 83:14) eklenince `yama_retroaktif_gloss_83` genel geçişi 28:81, 29:38, 39:72, 40:76, 43:56 ölçüm satırlarında fâsıla kelimesinin harekesiz iskelet parçasını bu kök sandı ve yanlış gloss ekledi. `yama_rin_83.py` (calisma + betikler/) bu beş yeri düzeltme notuyla değiştirir; idempotent, kalan yanlış gloss yoksa assert geçer; her `yama_retroaktif_gloss_83` koşusundan SONRA koşulur. gloss_gecis özel ad iskeleti çakışması bekleyen kararıyla aynı aile (iskelet parçası eşleşmesi).
+
+### Kendi kaydı
+Kayıttan önce: 83:14 ◇ basılmamış ayet numaraları → sayı; 83:21 meal parantezi (gönderge adlandırma, 1017) çıkarıldı. Kayıttan sonra: yok. 83:26 için kullanıcıya çeviri önerisi verildi; kullanıcı kararıyla kayıt değiştirilmedi.
+
+### Aday 1041 — kayıt (sûre 83)
+Kayıt yok.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+82:19 / 83:1 sûre sınırı ('li' + lafız ile kapanış / 'veyl' + 'li' + ortaç ile açılış; fâsıla ه → ن). Ardışık sûreyle yapı eşleşmesi: iyiler / günahkârlar 'inne' + 'le-fî' (82:13-14 / 83:7, 18; sıra ters); 82:13 / 83:22 esit2 TAM; 82:14 / 83:7 kalıp eşi. Okuma bağları: 82:17 / 83:8 've mâ edrâke mâ'; 82:9 / 83:11, 14 yalanlama; 82:14 / 83:16 'cahîm'; 82:10 / 83:33 'hâfizîn'. 83:36 → 84:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+36 ayetin hepsinde not; ayet içi çift 2 (83:29, 34), ayetler arası 4 (83:2 / 3; 83:7 / 18; 83:8 / 19; 83:29 / 34). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen failler (83:13, 17, 25, 33, 36); konuşan adsız (83:13 1P); muhatap 2MS (83:8, 19), 2MP (83:17); 'el-muqarrabûn'; 83:33 zamir. Söz işareti 'qâle' 83:13, 'qâlû' 83:32 — tırnaklı, ayet içinde kapanıyor.
+* 1021: قلب (kalp / dönme), عين (pınar), ثوب (karşılık), ختم (mühürlü / son); رين / fâsıla iskelet çakışması.
+* 1022: 83:13, 18, 22 ölçüm mührü / geçerli değil.
+* 924: ayet 1 harf alanı; şart zarfı ve 'mâ edrâke' sorusu; ن / م fâsıla ayrımı N sınıfında yok.
+
+### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
+Yok (رين çakışması yama_rin_83 ile kapatıldı; aile kaydı gloss_gecis iskelet çakışmasına eklendi).
