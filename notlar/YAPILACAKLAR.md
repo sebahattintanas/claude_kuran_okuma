@@ -7778,3 +7778,114 @@ Kayıt yok.
 
 ### Yeni bekleyen (TAM OKUMA SONUNDA, oturumda sorulmaz)
 Yok (رين çakışması yama_rin_83 ile kapatıldı; aile kaydı gloss_gecis iskelet çakışmasına eklendi).
+
+## SÛRE 84 İNŞİKÂK SONU (2026-10-30)
+
+**Okunan: 4701 / 6236 ayet (%75,4)** — sûre 1 ve 9-84 TAM, sûre 2 kısmi (1-20). İlerleme `insikak_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1511** (1510 → 1511; `kok_ekle_84.py`: كدح 84:6). Aday havuzu **1041** (sûre 84'te yeni aday yok; `AX_insikak` boş). Bağ **AS_insikak** 49. Esmâ okuyucu kararı (KARAR) **703** (702 → 703; 84:15 'basîr' İLÂHÎ).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 25 / 0) · [x/y] **66 sayım, 0 uyuşmaz** (sûre geneli) · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 1** (84:21).
+Sûrenin 25 ayeti üç blokta okundu (1-9, 10-15, 16-25 — sûrenin bölümlerine göre). Dosyalar `yamalar/iskele_84.py` ile mutaffifin_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure84_insikak_okuma.md` (`insikak_paket_md.py`, 25 başlık). Oturum yeni ortamda temiz klondan başladı (taban **bc3913b**; oturum boyunca ilerlemedi); 84:1-9 2026-10-29 akşamı, 84:10-25 2026-10-30 sabahı (ortam korunmuştu). Ara zip `fark_bc3913b_sure84_ara1.zip`; son zip `fark_bc3913b_sure84.zip`.
+
+### Sûre 84 bilançosu (TAM SAYIM, `okuma_metni['84']['_bilanco_sure']`)
+107 kelime · **lafız 1 (84:23) · Rab 4 (84:2, 5, 6, 15)** — sûre bütünü Rab [4/4] · edilgen 7 (84:2, 3, 5, 7, 8, 10, 21) · iltifât ölçümü 4 (84:16, 17, 19, 20; 84:17 fiil şahsından, 924) · hapaks 1 ayet (84:6 — yeni kök) · mm2 1 (84:8).
+Yıldız 0:14 · ★1 (84:14 — kaynak 'n' etiketli, kafiye kırığı, 1001) · ★★1 (84:21 pas) · ★★★9 (rab 84:2, 5, 15; pas 84:3, 7, 8, 10; hapaks 84:6; allah 84:23 — içerik iddiası değil).
+Fâsıla metin ت 5 / ه 3 / ا 6 / ر 1 / ق 4 / ن 5 / م 1; ölçüm kafiye kırığı 2 (84:10, 14 — gerçek); işaretlenmeyen gerçek geçişler 84:5 → 6, 7 → 8, 10 → 11, 14 → 15, 15 → 16, 19 → 20 (924). En uzun 9 kelime (84:25); en kısa 2 kelime (84:12). Sayı işareti 0.
+Sûre içi esit2 TAM: 84:2 / 5 ('ve ezinet li-rabbihâ ve huqqat' — gök / yer). nakarat3 84:7 / 10 süzgeç GEÇMEZ. Dış esit2 YAKIN: 84:25 → 41:8 (95:6 henüz okunmadı).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 3 (84:1, 3, 4 — âhirette kozmik olay: gök, yer). L0 3 (84:16 şafak, 84:17 gece, 84:18 ay — yemin edilen; 81:17-18 kaydı emsali). Olgu değil 19. Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+1 e_oto tokeni → İLÂHÎ (84:15 'basîr', Rab'ın sıfatı). §4.3 ölçüm mührü 1 → geçerli **1** (84:15; ölçüm satırı 'MÜHÜRSÜZ' yazıyordu — 1022).
+
+### Kendi kaydı
+Kayıttan önce: 84:24 ◇ basılmamış okunmuş ayet numarası → sayı. Kayıttan sonra: 84:21 ◇ 31:7 / 45:8 'fe-beşşirhu' ile 84:24 'fe-beşşirhum' 'aynı' yazılmıştı — DUZELTME 84:21 (özgün alan korunur). İlk yazımda DUZELTME 'aday' alanı yanlış numarayla (1017) girildi; okuma_metni'nden temizlenip `aday=None` ile yeniden koşuldu (DUZELTME aday anahtarı dersi). Kök سرر gloss gözlemi 84:9 için kayıttan sonra görüldü — 10-15 ARIZA'sına yazıldı, 84:9 kaydı değişmedi.
+
+### Aday 1041 — kayıt (sûre 84)
+Kayıt yok ('kâne' 84:13 insan / 84:15 Rab — bağlayıcı fiil, bölünme sayılmadı).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+83:36 / 84:1 sûre sınırı (soru + 3MP / şart zarfı + 3FS; ikisi de lafızsız, Rabsız; fâsıla ن → ت). Ardışık sûre okuma bağları: 83:31 / 84:9, 13 ('inqalebe ilâ ehl' + hâl; dünyada keyif / sevinç); 83:4 / 84:14 ('zanne' + diriliş); 83:16 / 84:12 (kök صلي). İki sûre önceyle: 82:1 / 84:1 ('ize's-semâ'' + VII. bab), 82:6 / 84:6 ('yâ eyyuhe'l-insân' + 'rabbike'), 82:15 / 84:12 ('yaslâ'). 84:25 → 85:1 henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+25 ayetin hepsinde not; ayet içi çift 0, ayetler arası 8 (84:1 / 3; 84:7 / 10; 84:8 / 11; 84:9 / 12; 84:9 / 13; 84:14 / 15; 84:20 / 25; 84:24 / 25). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen failler (84:2, 3, 5, 7, 8, 10, 21); konuşan adsız (84:16 1S); muhatap 'el-insân' (84:6), 2MP (84:19), 2MS (84:24 — 84:6 ile aynılığı KAPATILAMAZ). KAPATILAMAZ: 84:1-5 şart cevabı, 84:4 'mâ fîhâ', 84:6 'mulâqîhi', 84:17 'mâ vesaq', 84:19 katlar, 84:22 yalanlanan, 84:23 biriktirilen, 84:25 istisna.
+* 1021: لقي, أذن ('ezine'), سرر ('mesrûr'), حور, شفق, وسق, وعي.
+* 1022: 84:15 ölçüm 'MÜHÜRSÜZ' / geçerli mühür.
+* 1001: 84:14.
+* 924: ayet 1 harf alanı; şart zarfı / 'inne' / 'belâ' kip alanında yok; atıflı yeminlerde QASEM yok; fâsıla geçişleri işaretlenmiyor; 84:17 iltifât fiil şahsından.
+
+## SÛRE 85 BURÛC SONU (2026-10-30)
+
+**Okunan: 4723 / 6236 ayet (%75,7)** — sûre 1 ve 9-85 TAM, sûre 2 kısmi (1-20). İlerleme `buruc_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1511** (sûre 85'te yeni kök yok). Aday havuzu **1041** (sûre 85'te yeni aday yok; `AX_buruc` boş). Bağ **AS_buruc** 45. Esmâ okuyucu kararı (KARAR) **714** (703 → 714; 7 İLÂHÎ, 4 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 22 / 0) · [x/y] **63 sayım, 0 uyuşmaz** (sûre geneli) · e_el=? her blokta 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 22 ayeti üç blokta okundu (1-9, 10-16, 17-22). Dosyalar `yamalar/iskele_85.py` ile insikak_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure85_buruc_okuma.md` (`buruc_paket_md.py`, 22 başlık). Taban **bc3913b** (sûre 84 zip'i yüklenmeden okundu); ara zip `fark_bc3913b_sure85_ara1.zip`; son zip `fark_bc3913b_sure85.zip` (sûre 84 + 85).
+**Kullanıcı isteği (2026-10-30):** 85:17-22 bloğundan itibaren emsal listesinde her ayetin Türkçe meali de verilir — okunmuş ayetin meali `okuma_metni` kaydından alınır, elle yazılmaz.
+
+### Sûre 85 bilançosu (TAM SAYIM, `okuma_metni['85']['_bilanco_sure']`)
+109 kelime · **lafız 3 (85:8, 9, 20) · Rab 1 (85:12)** · A/R 3,0 · edilgen 1 (85:4) · iltifât ölçümü 2 (85:12, 13) · hapaks 0 · mm2 0.
+Yıldız 0:18 · ★1 (85:8 allah) · ★★★3 (85:4 pas; 85:12 rab; 85:20 allah — içerik iddiası değil).
+Fâsıla metin د 16 / ج ق ر ب ط ظ birer; ölçüm kafiye kırığı 0 — gerçek geçişler işaretlenmedi (924). En uzun 14 kelime (85:10, 11); en kısa 2 kelime (85:2, 3, 18). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 1 (85:1 burçlu gök). L0 1 (85:9 mülk tamlaması). Olgu değil 20. Tarayıcı v4 adayı 0.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+11 e_oto tokeni → İLÂHÎ 7 (85:8 ×2, 9, 14 ×2, 15, 20), DEĞİL 4 (85:7, 10 'mu'min'; 85:11 'kebîr'; 85:21 'mecîd' — Kur'ân). §4.3 ölçüm mührü 8 → geçerli **5** (85:8, 9, 14, 15, 20); yanlış 3 (85:7, 11, 21) (1022). 85:15 'el-mecîdu' merfû — 'zû'nun sıfatı; karar metindeki i'râbdan.
+
+### Kendi kaydı
+Kayıttan önce: 85:11 ◈K tetik koşusuyla dolduruldu (نهر); 85:12 kök بطش sayısı düzeltildi; 85:22 ◇'de okunmamış ayet numarası sınır notundan çıkarıldı. Kayıttan sonra: yok.
+
+### Aday 1041 — kayıt (sûre 85)
+شهد 85:7 (hendeğin sahipleri) / 85:9 (Allah); فعل 85:7 / 85:16 (Rab); 'mecîd' 85:15 (Rab) / 85:21 (Kur'ân).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+84:25 / 85:1 sûre sınırı (istisna + 3MP / yemin, şahıs işareti yok; ikisi de lafızsız, Rabsız; fâsıla ن → ج). Ardışık sûrede iki ayetlik sıralı eşleşme 84:22-23 / 85:19-20 ('beli'llezîne keferû' + yalanlama → 've'llâhu' + lafız + haber). Okuma bağı 84:25 / 85:11 ('illâ' / 'inne'). 85:22 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+22 ayetin hepsinde not; ayet içi 4 (85:3, 7, 10, 13), ayetler arası 2 (85:10 / 11; 85:19 / 21). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen failler (85:2, 4, 22); 'ashâbu'l-uxdûd', 'el-mu'minîn'; muhatap 2MS (85:12, 17). KAPATILAMAZ: 85:1-3 yemin cevabı, 85:3, 85:10 aynılık, 85:13 nesne, 85:19, 85:21 zamir, 85:22 levha.
+* 1021: نور, خدد, لوح.
+* 1022: 85:9, 15, 20 ölçüm 'MÜHÜRSÜZ' / geçerli; 85:7, 11, 21 ölçüm mührü / geçersiz.
+* 1038: 85:18 Firavun / Semûd rol mecrur; 85:21 'qur'ân' rol fail.
+* 924: atıflı yeminlerde QASEM yok; 'iz', 'inne', fasl zamiri kip / biçim alanında yok; fâsıla geçişleri işaretlenmiyor.
+
+## SÛRE 86 TÂRIK SONU (2026-10-30)
+
+**Okunan: 4740 / 6236 ayet (%76,0)** — sûre 1 ve 9-86 TAM, sûre 2 kısmi (1-20). İlerleme `tarik_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1512** (1511 → 1512; `kok_ekle_86.py`: دفق 86:6). Aday havuzu **1041** (sûre 86'da yeni aday yok; `AX_tarik` boş). Bağ **AS_tarik** 31. Esmâ KARAR **714** (değişmedi).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 17 / 0) · [x/y] **38 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 17 ayeti iki blokta okundu (1-10, 11-17). Dosyalar `yamalar/iskele_86.py` ile buruc_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure86_tarik_okuma.md` (`tarik_paket_md.py`, 17 başlık). Taban **bc3913b**; son zip `fark_bc3913b_sure86.zip` (sûre 84 + 85 + 86).
+
+### Sûre 86 bilançosu (TAM SAYIM, `okuma_metni['86']['_bilanco_sure']`)
+61 kelime · **lafız 0 · Rab 0** — lafızsız ve Rabsız sûre · edilgen 3 (86:5, 6, 9) · iltifât ölçümü 2 (86:16, 17) · hapaks 2 (86:6, 14) · mm2 2 (86:15, 16).
+Yıldız 0:13 · ★★1 (86:5 pas) · ★★★3 (86:6, 9 pas; 86:14 hapaks — içerik iddiası değil).
+Fâsıla metin ق 4 / ب 2 / ظ 1 / ر 3 / ع 2 / ل 2 / ا 3; ölçüm kafiye kırığı 0 — geçişler işaretlenmedi (924). En uzun 6 kelime (86:4, 10); en kısa 2 (86:1, 3, 16). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 6 (86:1, 3, 6, 7, 11, 12). L0 1 (86:5; tarayıcı v4 adayı, çıpa değil). Olgu değil 10.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; ölçüm mührü 0.
+
+### Kendi kaydı
+Kayıttan önce: 86:13 lemma listesi hakkında toplu iddia → basılan tek ayete indirildi; 86:16 'ölçüm' etiketi düzeltildi. Kayıttan sonra: kök طرق gloss gözlemi (86:1-2) — 11-17 ARIZA'sına yazıldı. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 86)
+كيد 86:15 3MP (kâfirler) / 86:16 1S (konuşan adsız).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+85:22 / 86:1 sûre sınırı (fâsıla ظ → ق; ikisi de lafızsız, Rabsız). Ardışık iki sûre 've's-semâ'' yeminiyle açılıyor (85:1 / 86:1). Okuma bağları 85:22 / 86:4 (kök حفظ), 85:1 / 86:11 ('ve's-semâ'i zât'). 86:17 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+17 ayetin hepsinde not; ayet içi 1 (86:7), ayetler arası 4 (86:8 / 10; 86:11 / 12; 86:13 / 14; 86:15 / 16). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: edilgen failler (86:5-6, 9); 86:4 gözetleyici, 86:8 'innehû', 86:13-14 söz göndergesi adsız; 86:16 1S konuşan; muhatap 2MS (86:2, 17).
+* 1021: طرق, صلب, ترب, بلو, مهل (eşsesli).
+* 924: 86:4 hasr ISTISNA olarak; atıflı yeminde QASEM yok; fâsıla geçişleri işaretlenmiyor.

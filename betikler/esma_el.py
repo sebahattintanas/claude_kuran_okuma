@@ -835,4 +835,20 @@ KARAR = {
 '83:18:4': 'degil',  # ebrâr — insan çoğulu ('kitâbe'l-ebrâr'), ilâhî ad değil
 # sûre 83 blok 21-28
 '83:22:2': 'degil',  # ebrâr — insan çoğulu ('inne'l-ebrâr'), ilâhî ad değil
+# sûre 84 blok 10-15
+'84:15:6': 'ilahi',  # basîr — 'inne rabbehû kâne bihî basîrâ', Rab'ın sıfatı
+# sûre 85 blok 1-9
+'85:7:5': 'degil',  # mu'min — 'bi'l-mu'minîn', insan çoğulu
+'85:8:8': 'ilahi',  # 'azîz — 'bi'llâhi'l-'azîzi'l-hamîd', lafzın sıfatı
+'85:8:9': 'ilahi',  # hamîd — 'bi'llâhi'l-'azîzi'l-hamîd', lafzın sıfatı
+'85:9:10': 'ilahi',  # şehîd — 've'llâhu 'alâ kulli şey'in şehîd', lafzın haberi
+# sûre 85 blok 10-16
+'85:10:4': 'degil',  # mu'min — 'fetenu'l-mu'minîn', insan çoğulu
+'85:11:14': 'degil',  # kebîr — 'zâlike'l-fevzu'l-kebîr', kurtuluşun sıfatı
+'85:14:2': 'ilahi',  # ğafûr — 've huve'l-ğafûru'l-vedûd', zamir Rab'a (85:12-13)
+'85:14:3': 'ilahi',  # vedûd — 've huve'l-ğafûru'l-vedûd', zamir Rab'a (85:12-13)
+'85:15:3': 'ilahi',  # mecîd — 'zu'l-'arşi'l-mecîdu', merfû; 'zû'nun sıfatı (metindeki i'râb)
+# sûre 85 blok 17-22
+'85:20:4': 'ilahi',  # muhît — 've'llâhu min verâ'ihim muhît', lafzın haberi
+'85:21:4': 'degil',  # mecîd — 'bel huve qur'ânun mecîd', Kur'ân'ın sıfatı
 }
