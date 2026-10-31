@@ -8074,3 +8074,155 @@ Kayıt yok; okuma notu: lemma 'sevvâ' 91:7 'mâ' (adsız) / 91:14 Rab.
 * 1021: لهم iskelet çakışması (yukarıda).
 * 1001: 91:11 ★ kaynak etiketi n / düzeltilmiş kafiye (kırık sahte).
 * 924: 91:11 medde işareti sahte kafiye kırığı; 91:2-7 atıflı yeminlerde QASEM yok; ayet 1 harf → harf3.
+
+## SÛRE 92 LEYL SONU (2026-10-31)
+
+**Okunan: 4871 / 6236 ayet (%78,1)** — sûre 1 ve 9-92 TAM, sûre 2 kısmi (1-20). İlerleme `leyl_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1528** (1527 → 1528; `kok_ekle_92.py`: لظي 92:14). Aday havuzu **1041** (sûre 92'de yeni aday yok; `AX_leyl` boş). Bağ **AS_leyl** 49. Esmâ KARAR **723** (720 → 723; üç 'degil': 92:13 'âxir', 'evvel'; 92:19 'ehad').
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 21 / 0) · [x/y] **50 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0, genel 0 · taban kayıtları her kök eklemeden sonra om_base ile aynı · **DUZELTME 0**.
+Sûrenin 21 ayeti iki blokta okundu (1-11, 12-21). Dosyalar `yamalar/iskele_92.py` ile sems_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure92_leyl_okuma.md` (`leyl_paket_md.py`, 21 başlık). Taban **86953a8**; zip `fark_86953a8_sure92.zip` (sûre iki blok olduğu için ara zip verilmedi).
+**Sonradan (sûre 93 okunurken): DUZELTME 92:11** — 92:11 merceğinde 28 ayetlik lemma sayımına 69:28 'okumada görüldü' diye katılmıştı; o lemma etiketi ('ağnet') 69:28'i içermiyor (69:28 ayrı etiket 'ağnâ', 15 ayet; aynı fiil iki etikette, 924). Doğrusu 'okunmuş 23, 92:11, henüz okunmamış 4'. `leyl_kayit.DUZELTME` + `duzeltme_92.py`; özgün alan korundu. Sûre 92 DUZELTME toplamı **1** (kapanış notundaki 'DUZELTME 0' kapanış anının kaydıdır).
+
+### İskele dersi
+`iskele_92.py` genel 91 → 92 değişimini, kapanış betiğinde açıkça yazılmış ilerleme notuna da uyguladı ("Sûre 1, 9-92 ve 92 TAM"); ilk kapanış koşusundan sonra okuma_metni ilerleme notunda görüldü, `leyl_kapanis.py` düzeltilip kapanış yeniden koşuldu (ayet kayıtları değişmedi). Sonraki iskelede açık yazılan satırlar genel değişimden SONRA uygulanır.
+
+### Sûre 92 bilançosu (TAM SAYIM, `okuma_metni['92']['_bilanco_sure']`)
+71 kelime · **lafız 0 · Rab 1 (92:20)** · edilgen 2 (92:17, 19) · iltifât ölçümü 92:4, 5, 12 · hapaks 1 (92:14 — yeni kök) · mm2 0.
+Yıldız 0:15 · ★2 (92:3, 11; kaynak etiketi n, düzeltilmiş kafiye — 1001; kırıklar sahte) · ★★★4 (hapaks 92:14; pas 92:17, 19; rab 92:20 — içerik iddiası değil).
+Fâsıla metin ى 21 (tek tip); ölçüm 92:3, 11, 19'u medde işareti yüzünden ayrı sınıfa koydu ve kafiye kırığı işaretledi — üçü de yanlış pozitif (924; sûre 70 dikkati). En uzun 6 kelime (92:11, 19); en kısa 2 (92:6, 7, 9, 10, 17, 21). Sayı işareti 1 (92:19 'ehad' — yanlış pozitif).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 1 (92:3 yaratma + iki cins — 49:13 emsali). L0 2 (92:1-2 yemin edilen vakit). Olgu değil 18.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 3 (92:13 'âxir', 'evvel'; 92:19 'ehad') — üçü 'degil'; ölçüm mührü 2 (92:13, 19), geçerli 0 (1022). 92:20 'el-a'lâ' esmâ listesinde değil, e_oto vermedi.
+
+### Kendi kaydı
+Tetik ön kuru koşuları iki blokta 0 uyuşmaz. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 92)
+Sûre içi kayıt yok (lafız yok, Rab 1). Sûreler arası okuma notları: kök غني 47:38, 57:24 lafız için ('el-ğaniyy') / 92:8 insan için ('istağnâ'); 'rabb' + 'el-a'lâ' 87:1 ve 92:20 Rab tamlaması / 79:24 konuşanın kendisi için iddiası.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+91:15 / 92:1 sûre sınırı — öznesi açık olmayan 'korkmaz' ile kapanış / geceye yemin ile açılış; fâsıla ا → ى; 91 lafızlı ve Rablı, 92 lafızsız, Rab 1. Ardışık sûre okuma bağları 91:4 / 92:1 aynı lemma dizisi ('leyl' + 'izâ' + 'ğaşiye'; nesneli / nesnesiz), 91:3 / 92:2 've'n-nehâri izâ' + kök جلو (II. bab / V. bab), 91:12 / 92:15 lemma 'eşqâ'. 92:21 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+21 ayetin hepsinde not; ayet içi 2 (92:3 erkek / dişi; 92:13 âhiret / ilk), ayetler arası 5 (92:1 / 2 gece / gündüz; 92:5 / 8 verdi / cimrilik etti; 92:6 / 9 doğruladı / yalanladı; 92:7 / 10 en kolay / en zor; 92:15 / 17 en bedbaht / en sakınan). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin eden; 92:3 yaratan ('mâ'); hitap 2MP; 92:5-11 'men'; konuşan 1P (92:7, 10, 12-13) ve 1S (92:14); en bedbaht; en sakınan; 92:17, 19 edilgen fiillerin faili.
+* KAPATILAMAZ: 92:3 'mâ' ilgi mi mastar mı; 92:6 ve 92:9 'el-husnâ'; 92:18 'yetezekkâ' hâl mi amaç mı; 92:20 'el-a'lâ'nın bağlandığı ad; 92:21 'yerdâ' öznesi.
+* 1021: ذكر gloss'u 92:3 'zeker'e; بغي gloss'u 92:20 'ibtiğâ''ya uymuyor.
+* 1022: 92:13 ve 92:19 ölçüm / esma_kayit mührü, bilanço geçerli 0.
+* 1001: 92:3, 11 ★ kaynak etiketi n / düzeltilmiş kafiye; 92:19 ★★★ pas, kırık bayrağı açık.
+* 924: 92:3, 11, 19 medde işareti sahte kafiye kırığı; 92:2 'tecellâ' ve 92:14 'telezzâ' bab 'I. bab' (morph VF:1); 92:2-3 atıflı yeminlerde QASEM yok; ayet 1 harf → harf3; 92:7, 10, 14 konuşan katman girişi / 1P → 1S kısmi örtüşme, iltifât 0; 92:19 sayı işareti 'ehad'; 70:15 'lezâ' özel ad, kök etiketi yok.
+
+## SÛRE 93 DUHÂ SONU (2026-10-31)
+
+**Okunan: 4882 / 6236 ayet (%78,3)** — sûre 1 ve 9-93 TAM, sûre 2 kısmi (1-20). İlerleme `duha_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1529** (1528 → 1529; `kok_ekle_93.py`: سجو 93:2). Aday havuzu **1041** (`AX_duha` boş). Bağ **AS_duha** 31. Esmâ KARAR **725** (723 → 725; iki 'degil': 93:4 'âxir', 'evvel').
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 11 / 0 · [x/y] **28 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss hedefli 0, genel 0 · taban kayıtları om_base ile aynı · **DUZELTME 0** (sûre 93); sûre 92'ye 1 (92:11, yukarıda).
+Sûrenin 11 ayeti tek blokta okundu. Dosyalar `yamalar/iskele_93.py` ile leyl_* şablonlarından kuruldu (oturum dışı; açık satırlar genel değişimden sonra — sûre 92 dersi). Paket `notlar/sure93_duha_okuma.md` (11 başlık). Taban **86953a8** (sûre 92 zip'i yüklenmedi); zip `fark_86953a8_sure93.zip` (sûre 92-93).
+
+### Sûre 93 bilançosu (TAM SAYIM, `okuma_metni['93']['_bilanco_sure']`)
+40 kelime · **lafız 0 · Rab 3 (93:3, 5, 11)** · edilgen 0 · iltifât ölçümü 0 · hapaks 1 (93:2 — yeni kök) · mm2 0.
+Yıldız 0:7 · ★★★4 (hapaks 93:2; rab 93:3, 5, 11 — içerik iddiası değil; 93:5 kırık bayrağı açık, 1001).
+Fâsıla metin ى 8, ر 2, ث 1; ölçüm 93:5'i medde işareti yüzünden kırık işaretledi (sahte), gerçek geçişler 93:9 ve 93:11 işaretsiz (924). En uzun 5 kelime (93:3, 4); en kısa 1 (93:1). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 yok. L0 2 (93:1 kuşluk, 93:2 gece — yemin edilen vakit). Olgu değil 9.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 2 (93:4 'âxir', 'evvel') — 'degil'; ölçüm mührü 1 (93:4 ÇİFT), geçerli 0 (1022).
+
+### Aday 1041 — kayıt (sûre 93)
+Sûre içi kayıt yok (lafız yok). Sûreler arası okuma notları: 'a'tâ' 92:5 insan / 93:5 Rab; kök غني 92:8, 92:11 insan ve malı / 93:8 3MS; kök قلي 26:168 insan / 93:3 Rab (olumsuz); kök قهر 12:39 lafzın sıfatı / 93:9 2MS'ye yasak.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+92:21 / 93:1 sûre sınırı — öznesi yazılmamış 'hoşnut olacak' ile kapanış / kuşluğa yemin ile açılış; fâsıla ى → ى. Ardışık sûre okuma bağları 92:21 / 93:5 've le-sevfe' + 'radiye' (korpusun iki geçişi), 92:13 / 93:4 'âxira' / 'ûlâ', 92:1 / 93:2 've'l-leyli izâ' (korpusun beş geçişinden üçü 91-93'te), 92:5 / 93:5 'a'tâ', 92:12 / 93:7 kök هدي, 92:8 ve 92:11 / 93:8 kök غني, 92:19 / 93:11 'ni'meh', 92:2 / 93:10 kök نهر. 93:11 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+11 ayetin hepsinde not; ayet içi 3 (93:4 âhiret / ilk; 93:7 yolunu yitirmiş / yol gösterdi; 93:8 yoksul / zenginleştirdi), ayetler arası 1 (93:1 / 2 kuşluk / gece). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin eden; hitap 2MS; 93:6-8 bulan 3MS.
+* KAPATILAMAZ: 93:3 ve 93:6-8 yazılmamış nesneler; 93:5 'yu'tîke'nin ikinci nesnesi.
+* 1021: نهر gloss'u 93:10 'tenhar'a uymuyor.
+* 1022: 93:4 ölçüm / esma_kayit mührü, bilanço geçerli 0.
+* 924: 93:5 medde sahte kırık; 93:9 ve 93:11 gerçek fâsıla geçişleri işaretsiz; 93:1 tek kelime QASEM, harf3; 93:2 atıflı yeminde QASEM yok; 93:3 2MS girişi iltifât 0; 'ağnâ' iki lemma etiketi.
+
+## SÛRE 94 İNŞİRÂH SONU (2026-10-31)
+
+**Okunan: 4890 / 6236 ayet (%78,4)** — sûre 1 ve 9-94 TAM, sûre 2 kısmi (1-20). İlerleme `insirah_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1529** (yeni kök yok). Aday havuzu **1041** (`AX_insirah` boş). Bağ **AS_insirah** 16. Esmâ KARAR **725** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 / 0 · [x/y] **16 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 8 ayeti tek blokta okundu. Dosyalar `yamalar/iskele_94.py` ile duha_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure94_insirah_okuma.md` (8 başlık). Taban **86953a8** (sûre 92-93 zip'leri yüklenmedi); zip `fark_86953a8_sure94.zip` (sûre 92-94).
+
+### Sûre 94 bilançosu (TAM SAYIM, `okuma_metni['94']['_bilanco_sure']`)
+27 kelime · **lafız 0 · Rab 1 (94:8)** · edilgen 0 · iltifât 0 · hapaks 0 · mm2 0. Yıldız 0:7 · ★★★1 (rab 94:8 — formül davranışı).
+Fâsıla ك 4, ا 2, ب 2; ölçümde kafiye kırığı yok — iki gerçek geçiş (94:5, 94:7) işaretsiz (924). 94:5 / 94:6 esit2 TAM. En uzun 4 kelime (94:1, 5, 6); en kısa 3.
+
+### Çıpa (ölçüt değişmedi)
+L4, L2, L1, L0 yok. Olgu değil 8 (organ adları 'sadr', 'zahr' mecazî).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok. 1040: 93:11 / 94:1 sûre sınırı (anlatma emri / 'e-lem neşrah' sorusu; fâsıla ث → ك); okuma bağı 93:6 / 94:1 'e-lem' + cezm IMPF + 2MS; iki sûre önceyle 92:7, 92:10 / 94:5-6 kök يسر / عسر. 1039: 8/8 notlu; ayet içi 2 (94:5, 94:6 zorluk / kolaylık), ayetler arası 1 (94:2 / 4 indirdik / yükselttik). 94:8 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: konuşan 1P; hitap 2MS.
+* KAPATILAMAZ: 94:7 'feraġte'nin nesnesi.
+* 924: fâsıla geçişleri işaretsiz; ayet 1 harf3; 'nusibet' etiketi iki anlam (88:19 / 94:7).
+
+## SÛRE 95 TÎN SONU (2026-10-31)
+
+**Okunan: 4898 / 6236 ayet (%78,5)** — sûre 1 ve 9-95 TAM, sûre 2 kısmi (1-20). İlerleme `tin_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1530** (1529 → 1530; `kok_ekle_95.py`: تين 95:1). Aday havuzu **1041** (`AX_tin` boş). Bağ **AS_tin** 14. Esmâ KARAR **725** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 / 0 · [x/y] **26 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 8 ayeti tek blokta okundu. Dosyalar `yamalar/iskele_95.py` ile insirah_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure95_tin_okuma.md` (8 başlık). Taban **86953a8**; zip `fark_86953a8_sure95.zip` (sûre 92-95).
+
+### Sûre 95 bilançosu (TAM SAYIM, `okuma_metni['95']['_bilanco_sure']`)
+34 kelime · **lafız 1 (95:8) · Rab 0** · edilgen 0 · iltifât 0 · hapaks 1 (95:1 — yeni kök) · Yıldız 0:6 · ★★★2 (hapaks 95:1; allah 95:8 — formül davranışı).
+Fâsıla ن 7, م 1 (95:4) — ölçümde hepsi N sınıfı, kırık yok. En uzun 9 kelime (95:6); en kısa 2 (95:1, 2). 95:6 esit2 → 84:25 YAKIN, 41:8 BENZER.
+
+### Çıpa (ölçüt değişmedi)
+L1 1 (95:4 — 90:4 kaydı emsali). L0 2 (95:1 bitki adları, 95:2 adlı yer — yemin edilen). Olgu değil 5.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0; 'ahkem' esmâ listesinde değil.
+
+### Aday 1041 / 1040 / 1039
+1041 (kayıt): 95:8 kök حكم aynı ayette lafız ('ahkem') ve hükmedenler ('el-hâkimîn') için. 1040: 94:8 / 95:1 sûre sınırı (Rabbe yönelme emri / incir ve zeytine yemin; fâsıla ب → ن); ardışık olmayan sûreyle 'le-qad xalaqne'l-insân' 90:4 / 95:4 (korpusun iki geçişi). 1039: 8/8 notlu; ayetler arası 1 (95:4 / 5 en güzel biçim / aşağıların en aşağısı). 95:8 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin eden; konuşan 1P; 95:3 belde (işaretli, ad yok); hitap 2MS.
+* KAPATILAMAZ: 95:5 'esfele sâfilîn'in göndergesi; 95:7 'ba'du'.
+* 924: atıflı yeminlerde QASEM yok; ayet 1 harf3; 95:7 2MS girişi iltifât 0.
+
+## SÛRE 96 ALAK SONU (2026-10-31)
+
+**Okunan: 4917 / 6236 ayet (%78,8)** — sûre 1 ve 9-96 TAM, sûre 2 kısmi (1-20). İlerleme `alak_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1532** (1530 → 1532; `kok_ekle_96.py`: سفع 96:15, زبن 96:18). Aday havuzu **1041** (`AX_alak` boş). Bağ **AS_alak** 39. Esmâ KARAR **725** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 + 11 / 0 · [x/y] **21 + 32 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 19 ayeti iki blokta okundu: 1-8, 9-19. Dosyalar `yamalar/iskele_96.py` ile tin_* şablonlarından kuruldu (oturum dışı; ad değişimi harf sınırıyla). Paket `notlar/sure96_alak_okuma.md` (19 başlık). Taban **86953a8**; zip `fark_86953a8_sure96.zip` (sûre 92-96).
+
+### Sûre 96 bilançosu (TAM SAYIM, `okuma_metni['96']['_bilanco_sure']`)
+72 kelime · **lafız 1 (96:14) · Rab 3 (96:1, 3, 8)** · edilgen 0 · iltifât 5 (96:3, 4, 8, 18, 19) · hapaks 2 (96:15, 18 — yeni kökler) · Yıldız 0:12 · ★1 (96:9 sahte kafiye kırığı) · ★★★6 (rab 3; allah 96:14; hapaks 2 — formül davranışı).
+Fâsıla metinde ق 2, م 3, ى 9, ة 3, ه 1, ب 1; ölçüm 96:6-8 ve 96:10-13'ü medde işareti yüzünden 'ٓ' sınıfına koydu (924) — 96:9 kırığı sahte. En uzun 6 kelime (96:6, 15); en kısa 2 (96:17, 18).
+
+### Çıpa (ölçüt değişmedi)
+L1 2 (96:1 — 87:2 kaydı emsali; 96:2 — 75:38 kaydı emsali). Olgu değil 17.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0; 'ekram' esmâ listesinde değil.
+
+### Aday 1041 / 1040 / 1039
+1041 (kayıt): sûre içi lemma 'ra'â' 96:7 öznesi insan / 96:14 öznesi Allah; sûreler arası okuma notu lemma 'ekram' 49:13 insan / 96:3 Rab. 1040: 95:8 / 96:1 sûre sınırı (lafızla soru / Rab adıyla okuma emri; fâsıla ن → ق). 1039: 19/19 notlu; ayet içi 2 (96:5, 96:19), blok içi 2 (96:11-12 / 96:13; 96:17 / 96:18). 96:19 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: hitap 2MS; engelleyen (96:9); kul (96:10); 3MS; konuşan 1P (96:15, 18).
+* KAPATILAMAZ: 96:1, 96:4 nesnesiz fiiller; 96:11-13 şart cevapları; 96:11-12 öznesi.
+* 924: 'ٓ' fâsıla sınıfı (sahte kırık 96:9); ayet 1 harf3; 96:4 'ellezî' sıfat cümlesi iltifât.
+
