@@ -860,4 +860,11 @@ KARAR = {
 # sûre 90 blok 1-10
 '90:5:6': 'degil',  # 'e-yahsebu en len yaqdira 'aleyhi ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
 '90:7:5': 'degil',  # 'e-yahsebu en lem yerahû ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
+# sûre 92 blok 12-21
+'92:13:3': 'degil',  # 'le'l-âxirate' — âhiret (dünya ile birlikte 1P'ye ait denilen), ilâhî ad değil
+'92:13:4': 'degil',  # 've'l-ûlâ' — ilk (dünya), 'el-âxira'ya atıflı ad, ilâhî ad değil
+'92:19:2': 'degil',  # 've mâ li-ehadin' — olumsuz cümlede 'hiç kimse' (nekre GEN), ilâhî ad değil
+# sûre 93 blok 1-11
+'93:4:1': 'degil',  # 've le'l-âxiratu' — âhiret ('el-ûlâ'dan hayırlı denilen), ilâhî ad değil
+'93:4:5': 'degil',  # 'mine'l-ûlâ' — ilk (dünya), âhiretle karşılaştırılan, ilâhî ad değil
 }
