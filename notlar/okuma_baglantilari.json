@@ -33028,5 +33028,980 @@
    "kural": "okuma — lemma 'mehhele' korpusun iki ayeti: 2MS'ye emir + mühlet + az ('qalîl' / 'ruveyd'); yalanlayıcılar / kâfirler",
    "not": "lemma eşi."
   }
+ ],
+ "AS_ala": [
+  {
+   "bag": "86:17 → 87:1",
+   "kural": "okuma — ardışık sûre sınırı: 2MS'ye emir ile kapanış ('mehhil', 'emhil') / 2MS'ye emir ile açılış ('sebbih'); 86 lafızsız ve Rabsız, 87:1 Rab; fâsıla ا → ى (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "56:74 → 87:1",
+   "kural": "ölçüm xref — 'fe-sebbih bi-smi rabbike'l-'azîm' / 'sebbihi'sme rabbike'l-a'lâ': 'fe' ve 'bi' yok, 'ism' ACC, sıfat farklı",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "56:96 → 87:1",
+   "kural": "ölçüm xref — 56:74 ile aynı",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "69:52 → 87:1",
+   "kural": "ölçüm xref — 56:74 ile aynı",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "55:78 → 87:1",
+   "kural": "okuma — harekesiz 'isme rabbik': adın kutlanması (ad özne) / adın tesbihi (ad nesne)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "73:8 → 87:1",
+   "kural": "okuma — harekesiz 'isme rabbik' + 2MS'ye emir: anma / tesbih",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "76:25 → 87:1",
+   "kural": "okuma — harekesiz 'isme rabbik' + 2MS'ye emir: anma / tesbih",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "79:24 → 87:1",
+   "kural": "okuma — 'rabb' + 'a'lâ': bir kişinin kendisi için iddiası ('qâle' ile) / 2MS'nin Rabbi (aday 1041 ailesi, sûreler arası)",
+   "not": "tamlama eşi."
+  },
+  {
+   "bag": "53:7 → 87:1",
+   "kural": "okuma — lemma 'a'lâ': ufuk / Rab",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "75:38 → 87:2",
+   "kural": "okuma — önekli kalıp 'xalaqa fe-sevvâ' korpusun iki ayeti: ara aşama ('alaqa) adlı / nesnesiz",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "82:7 → 87:2",
+   "kural": "okuma — 'ellezî' + 'xalaqa' + 'fe-sevvâ': 2MS nesne zamirli, üç fiil / nesnesiz, iki fiil",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "80:19 → 87:3",
+   "kural": "okuma — lemma 'qaddara': 'xalaqahû fe-qaddarah' (nutfe adlı) / 'qaddara fe-hedâ' (nesnesiz)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "20:50 → 87:3",
+   "kural": "okuma — 'ellezî' + verme / ölçü + 'hedâ': 'qâle' ile işaretli söz içinde 'thumme hedâ' / anlatıcı sesinde 'fe-hedâ'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "87:2 → 87:3",
+   "kural": "sûre içi — ilgi zamiri + fiil + 'fe' + fiil, nesnesiz (kalıp eşi; 'ellezî' dizisi 87:2-4)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:31 → 87:4",
+   "kural": "okuma — lemma 'mer'â' korpusun iki ayeti, ikisinde de 'axraca' 3MS: yerden su ve otlak / otlak",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "23:41 → 87:5",
+   "kural": "okuma — lemma 'ğuthâ'' korpusun iki ayeti, ikisinde de 'fe-ce'ale' + zamir: 1P + helak edilen kavim / 3MS + otlak",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:4 → 87:5",
+   "kural": "sûre içi — otlak çıkarılır / çerçöp kılınır ('fe' ile sıralı; 'hû' en yakın ad 'el-mer'â')",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "75:17 → 87:6",
+   "kural": "okuma — 1P + kök قرأ: toplamak ve okutmak bize düşer / okutacağız",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "75:18 → 87:6",
+   "kural": "okuma — 1P + kök قرأ + 2MS: okunuşu izle (emir) / unutmayacaksın (olumsuz haber)",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "87:6 → 87:7",
+   "kural": "sûre içi — 'fe-lâ tensâ' + istisna 'illâ mâ şâ'a'llâh'; 1P konuşandan lafza (iltifât, aynılık metinde işaretli değil)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "21:110 → 87:7",
+   "kural": "okuma — harekesiz 'innehû ya'lemu'l-cehr' korpusun iki ayeti: sözün açığı + 2MP'nin gizlediği / açık + gizli kalan",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "80:20 → 87:8",
+   "kural": "okuma — lemma 'yessara': 3MS + 'es-sebîl' + 3MS zamir / 1P + 2MS zamir + 'li'l-yusrâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:6 → 87:8",
+   "kural": "sûre içi — 1P fiil + 2MS nesne zamiri: okutacağız / kolaylaştıracağız",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "51:55 → 87:9",
+   "kural": "okuma — 'zekkir' + 'zikrâ' + 'nefe'a': 'fe-inne' gerekçesi, fayda inananlara / şart 'in'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "80:4 → 87:9",
+   "kural": "okuma — 'zikrâ' + 'nefe'a': 'fe' ile sonuç / şart 'in'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "80:4 → 87:10",
+   "kural": "okuma — aynı biçim 'yezzekkeru' 3MS: 'ev' ile / 'se' ile gelecek, öznesi 'men yaxşâ'",
+   "not": "biçim eşi."
+  },
+  {
+   "bag": "87:10 → 87:11",
+   "kural": "sûre içi — öğüt alır / öğütten kaçınır: 'men yaxşâ' / 'el-eşqâ' (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "84:12 → 87:12",
+   "kural": "okuma — lemma 'yaslâ' 3MS: nekre 'se'îr' / belirli 'en-nâra'l-kubrâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:2 → 87:12",
+   "kural": "sûre içi — ilgi zamiri 'ellezî' (87:2-4) Rab / en bedbaht (aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "20:74 → 87:13",
+   "kural": "okuma — harekesiz 'lâ yemûtu fîhâ ve lâ yahyâ' korpusun iki ayeti: cehennem, Rabbine suçlu gelen / en büyük ateş, en bedbaht",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "79:18 → 87:14",
+   "kural": "okuma — lemma 'tezekkâ': 'qul' ile işaretli söz içinde soru, 2MS / 'men' ile genel, PERF",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:11 → 87:14",
+   "kural": "sûre içi — en bedbaht / arınan (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "87:10 → 87:14",
+   "kural": "sûre içi — 'men' + fiil: korkan / arınan",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "73:8 → 87:15",
+   "kural": "ölçüm xref — 'isme rabb' + anma: 2MS'ye emir / 3MS haber",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "76:25 → 87:15",
+   "kural": "ölçüm xref — 73:8 ile aynı",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "87:1 → 87:15",
+   "kural": "sûre içi — 'isme rabb' + zamir: 2MS emir (tesbih) / 3MS haber (anma); sûrenin iki Rab'ı",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:38 → 87:16",
+   "kural": "ölçüm xref — 'âthera'l-hayâte'd-dunyâ': 3MS PERF, şart dizisi içinde / 2MP IMPF, 'bel' ile",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "42:36 → 87:17",
+   "kural": "okuma — harekesiz 'xayrun ve ebqâ' + 'el-hayâtu'd-dunyâ' ile karşılaştırma: Allah katında olan / âhiret",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "87:16 → 87:17",
+   "kural": "sûre içi — dünya hayatı / âhiret (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "20:133 → 87:18",
+   "kural": "okuma — harekesiz 'es-suhufi'l-ûlâ' korpusun iki ayeti: 'qâlû' sözünün ardından soru / tekitli haber",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "53:36 → 87:19",
+   "kural": "okuma — 'suhuf' + Mûsâ ve İbrâhîm: sıra Mûsâ → İbrâhîm, iki ayette (53:37) / İbrâhîm → Mûsâ, tek ayette",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "53:37 → 87:19",
+   "kural": "okuma — İbrâhîm ilgi zamiriyle nitelenmiş ('ellezî veffâ') / niteleme yok",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "87:18 → 87:19",
+   "kural": "sûre içi — lemma 'suhuf' [2/2]: 'es-suhufi'l-ûlâ' / bedel 'suhufi ibrâhîme ve mûsâ'",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_gasiye": [
+  {
+   "bag": "87:19 → 88:1",
+   "kural": "okuma — ardışık sûre sınırı: adlı iki kişi (İbrâhîm, Mûsâ) ile kapanış / 2MS'ye 'hel etâke hadîthu' sorusu ile açılış; fâsıla ى → ة (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "79:15 → 88:1",
+   "kural": "okuma — harekesiz 'hel etâke hadîthu': Mûsâ / 'el-ğâşiye'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "85:17 → 88:1",
+   "kural": "okuma — harekesiz 'hel etâke hadîthu': ordular / 'el-ğâşiye' (ardışık olmayan, üç sûre önce)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "51:24 → 88:1",
+   "kural": "okuma — harekesiz 'hel etâke hadîthu': İbrâhîm'in konukları / 'el-ğâşiye'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "20:9 → 88:1",
+   "kural": "okuma — önekli 've hel etâke hadîthu': Mûsâ / 'el-ğâşiye'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "12:107 → 88:1",
+   "kural": "okuma — lemma 'ğâşiye': nekre, 'azâb'a izâfetle / belirli, tek başına",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "75:22 → 88:2",
+   "kural": "okuma — harekesiz 'vucûhun yevme'izin' + FS sıfat: 'nâdira' / 'xâşi'a'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "80:38 → 88:2",
+   "kural": "okuma — harekesiz 'vucûhun yevme'izin' + FS sıfat: 'musfira' / 'xâşi'a'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "79:9 → 88:2",
+   "kural": "okuma — ortaç 'xâşi'a': gözler / yüzler",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:12 → 88:4",
+   "kural": "okuma — lemma 'yaslâ' + 'nâr': 3MS + belirli 'en-nâra'l-kubrâ' / 3FS + nekre 'nâran hâmiye' (aday 1040 ailesi, ardışık sûre)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "14:16 → 88:5",
+   "kural": "okuma — edilgen 'suqiya' + 'min' + nekre: 3MS + irinli su / 3FS + kaynar pınar",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "47:15 → 88:5",
+   "kural": "okuma — edilgen 'suqiya' + kaynar su: PERF 3MP 'suqû mâ'en hamîmen' / IMPF 3FS 'min 'aynin âniye'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "76:15 → 88:5",
+   "kural": "okuma — lemma 'âniye' morph'ta birleşiyor: kaplar / kaynar (eşsesli; lemma sayısı verilmedi)",
+   "not": "eşsesli lemma."
+  },
+  {
+   "bag": "69:36 → 88:6",
+   "kural": "okuma — harekesiz 'ta'âmun illâ min' korpusun iki ayeti: 'lâ' + irin / 'leyse' + 'darî''",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "77:31 → 88:7",
+   "kural": "okuma — harekesiz 've lâ yuğnî min' korpusun iki ayeti: gölge alevden korumaz / yiyecek açlıktan korumaz",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "88:2 → 88:6",
+   "kural": "sûre içi — dişil çoğul 'vucûh' (88:2-5) / eril çoğul 'lehum' (88:6): yüzler / sahipleri",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "88:2 → 88:8",
+   "kural": "sûre içi — 'vucûhun yevme'izin' + FS ortaç: zelil / nimet içinde (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "88:3 → 88:9",
+   "kural": "sûre içi — çalışıp yorgun / çabasından hoşnut (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "69:21 → 88:9",
+   "kural": "okuma — 'râdiye' + ardından 'fî cennetin 'âliye' (69:21-22 / 88:9-10) sıralı iki ayet, ardışık olmayan sûre: hoşnut edici yaşayış / çabasından hoşnut yüzler",
+   "not": "sıralı eş."
+  },
+  {
+   "bag": "69:22 → 88:10",
+   "kural": "ölçüm esit2 TAM — 'fî cennetin 'âliye' korpusun iki ayeti",
+   "not": "esit2 eşi."
+  },
+  {
+   "bag": "78:35 → 88:11",
+   "kural": "okuma — 'lâ … fîhâ' + kök لغو: 3MP 'lağv' + ikinci nesne / tek fiil, 'lâğiye'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "56:25 → 88:11",
+   "kural": "okuma — 'lâ yesme'ûne fîhâ lağven' / 'lâ tesme'u fîhâ lâğiye'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "88:5 → 88:12",
+   "kural": "sûre içi — kök عين [2/2]: kaynar pınardan içirilir / akan pınar",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "69:11 → 88:12",
+   "kural": "okuma — lemma 'câriye': belirli, akan gemi / nekre, akan pınar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "52:20 → 88:13",
+   "kural": "okuma — lemma 'surur': dizilmiş tahtlar / yükseltilmiş tahtlar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "56:34 → 88:13",
+   "kural": "okuma — lemma 'merfû'a': döşekler / tahtlar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "56:18 → 88:14",
+   "kural": "okuma — lemma 'ekvâb': dolaştırılan kupalar / konulmuş kupalar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "76:15 → 88:14",
+   "kural": "okuma — lemma 'ekvâb': billur kupalar dolaştırılır / konulmuş",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "52:20 → 88:15",
+   "kural": "okuma — lemma 'masfûfa' korpusun iki ayeti: tahtlar / yastıklar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "86:5 → 88:17",
+   "kural": "okuma — bakma + edilgen 'xuliqa': emir lâmı, insan / soru, deve (iki sûre arayla)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "50:6 → 88:17",
+   "kural": "okuma — soru + bakma + 'ilâ' + 'keyfe': 'e-fe-lem', 1P etken / 'e-fe-lâ', edilgen",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "79:28 → 88:18",
+   "kural": "okuma — kök رفع + gök: etken 3MS, tavan / edilgen, gök",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "88:13 → 88:18",
+   "kural": "sûre içi — kök رفع [2/2]: yükseltilmiş tahtlar / yükseltilen gök",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:32 → 88:19",
+   "kural": "okuma — dağlar + fiil: etken 'ersâ' / edilgen 'nusibat'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "88:3 → 88:19",
+   "kural": "sûre içi — kök نصب [2/2]: 'nâsıba' (yorgun) / 'nusibat' (dikildi)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:30 → 88:20",
+   "kural": "okuma — yer + yayma: etken 'dehâ' + 'ba'de zâlike' / edilgen 'sutihat'",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "88:18 → 88:20",
+   "kural": "sûre içi — gök yükseltildi / yer yayıldı (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "87:9 → 88:21",
+   "kural": "okuma — ardışık sûrede 'fe-zekkir': + şart 'in' / + hasr 'innemâ' (aday 1040 ailesi)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "50:45 → 88:21",
+   "kural": "okuma — 'ente 'aleyhim bi-' + olumsuz ve 'fe-zekkir': sıra olumsuz → emir / emir → olumsuz (88:21-22)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "50:45 → 88:22",
+   "kural": "okuma — 'mâ ente 'aleyhim bi-cebbâr' / 'leste 'aleyhim bi-musaytir'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "52:37 → 88:22",
+   "kural": "okuma — lemma 'musaytir' korpusun iki ayeti: 3MP için soru / 2MS için olumsuz",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "88:21 → 88:22",
+   "kural": "sûre içi — öğüt verici / zorlayıcı (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "88:6 → 88:22",
+   "kural": "sûre içi — kök ليس [2/2]: 'leyse lehum' / 'leste 'aleyhim'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:74 → 88:23",
+   "kural": "okuma — 'tevellâ' + Allah'ın azabı: şart 'in', 3MP / 'men', 3MS (88:23-24)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "9:74 → 88:24",
+   "kural": "ölçüm xref — 'azzebe' + lafız + 'azâb': nekre + 'elîm' / belirli + 'ekber'",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "32:21 → 88:24",
+   "kural": "okuma — harekesiz 'el-'azâbe'l-ekber' korpusun iki ayeti: 'ednâ' ile karşılaştırma / tek başına",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "87:12 → 88:24",
+   "kural": "okuma — ardışık sûrede belirli üstünlük sıfatı: 'en-nâra'l-kubrâ' / 'el-'azâbe'l-ekber' (aday 1040 ailesi)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "88:25 → 88:26",
+   "kural": "sûre içi — 'inne' + edat + 1P + mastar + 3MP: 'ileynâ iyâbehum' / ''aleynâ hisâbehum'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "75:17 → 88:26",
+   "kural": "okuma — 'inne 'aleynâ' + mastar + zamir: toplamak / hesap",
+   "not": "kalıp eşi."
+  }
+ ],
+ "AS_fecr": [
+  {
+   "bag": "88:26 → 89:1",
+   "kural": "okuma — ardışık sûre sınırı: 1P konuşanın hesap sözü ile kapanış / yemin ile açılış; fâsıla م → ر (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "81:17 → 89:4",
+   "kural": "okuma — harekesiz 've'l-leyli izâ' + fiil: kararıp gelme / yürüyüp gitme",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "89:2 → 89:4",
+   "kural": "sûre içi — kök ليل [2/2]: on gece / yürüyüp giden gece",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "56:76 → 89:5",
+   "kural": "okuma — lemma 'qasem' korpusun iki ayeti: büyük bir yemin (tekit) / akıl sahibi için yemin var mı (soru)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "38:12 → 89:6",
+   "kural": "okuma — ''Âd' ve 'Firavun zu'l-evtâd' aynı ayette (NOM) / 89:6 ve 89:10'da ayrı ayetlerde (GEN)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "38:12 → 89:10",
+   "kural": "okuma — 'fir'avn' + 'zû' + 'el-evtâd': NOM / GEN (harekesiz 'zû' / 'zî' kalıbı ayırıyor)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "78:7 → 89:10",
+   "kural": "okuma — lemma 'evtâd': dağlar kazık / Firavun'un kazıkları",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:8 → 89:11",
+   "kural": "sûre içi — 'fi'l-bilâd' [2/2]: benzeri yaratılmamış / azdılar",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "80:25 → 89:13",
+   "kural": "okuma — lemma 'sabbe': 1P su döker / Rab azap kamçısı döker",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "44:48 → 89:13",
+   "kural": "okuma — lemma 'sabbe' + azap: edilgen emir / Rab etken",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "78:21 → 89:14",
+   "kural": "okuma — lemma 'mirsâd' korpusun iki ayeti: 'inne' + cehennem + 'kânet mirsâdâ' / 'inne' + Rab + 'le-bi'l-mirsâd'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:1 → 89:14",
+   "kural": "sûre içi — yemin dizisi (89:1-4) / cevap olarak okunabilen tekitli haber (KAPATILAMAZ)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:6 → 89:13",
+   "kural": "sûre içi — Rab + kavimler: nasıl davrandı (soru) / azap kamçısı döktü (cevap)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "76:2 → 89:15",
+   "kural": "okuma — lemma 'ibtelâ' + insan: 1P sınama + yaratma / Rab sınar + ikram",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "12:21 → 89:15",
+   "kural": "okuma — lemma 'ekrame': 'qâle' sözü içinde emir / Rab ikram eder",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:15 → 89:16",
+   "kural": "sûre içi — 'izâ mâ ibtelâhu' + 'fe-yeqûlu rabbî' + PERF 1S: ikram etti / alçalttı (aday 1039, okuma; nakarat3 sûre içi)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "22:18 → 89:16",
+   "kural": "okuma — kök هون + كرم: Allah alçaltırsa ikram eden yok / insanın sözünde 'ehânen' (89:15 'ekramen'); lemma 'ehâne' korpusun iki ayeti",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "89:15 → 89:17",
+   "kural": "sûre içi — kök كرم [3/3]: Rab ikram eder / siz yetime ikram etmezsiniz (aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "74:53 → 89:17",
+   "kural": "okuma — 'kellâ bel lâ' + IMPF: 3MP âhiretten korkmuyor / 2MP yetime ikram etmiyor",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "69:34 → 89:18",
+   "kural": "ölçüm esit2 BENZER — ''alâ ta'âmi'l-miskîn': 3MS 'yehuddu' / 2MP VI. bab 'tehâddûne'",
+   "not": "esit2 eşi."
+  },
+  {
+   "bag": "76:8 → 89:18",
+   "kural": "okuma — yoksul + yetim + yiyecek: sevgiye rağmen yedirenler / yetime ikram etmeyen, yoksulu doyurmaya özendirmeyenler",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "76:8 → 89:20",
+   "kural": "okuma — lemma 'hubb': yiyeceğe sevgiye rağmen yedirme / malı pek sevme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:19 → 89:20",
+   "kural": "sûre içi — 've' + IMPF 2MP + belirli ad + mastar + sıfat: mirası yeme / malı sevme",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "75:26 → 89:21",
+   "kural": "okuma — harekesiz 'kellâ izâ' korpusun iki ayeti: 'izâ' + PERF 3FS / 'izâ' + edilgen PERF 3FS",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "69:14 → 89:21",
+   "kural": "okuma — lemma 'dukket' korpusun iki ayeti: yer + dağlar, tek çarpış / yer, mastar art arda iki kez",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:17 → 89:21",
+   "kural": "sûre içi — 'kellâ' [2/2]: suç dizisini açar / o günü açar",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "78:38 → 89:22",
+   "kural": "okuma — lemma 'saff' + melek: çoğul 'el-melâ'ike' + 'saffâ' / tekil 'el-melek' + 'saffen saffâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:21 → 89:22",
+   "kural": "sûre içi — mastar art arda iki kez: 'dakkan dakkâ' / 'saffen saffâ'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:22 → 89:23",
+   "kural": "sûre içi — lemma 'câ'e': Rab gelir (etken) / cehennem getirilir (edilgen)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:35 → 89:23",
+   "kural": "ölçüm xref — harekesiz 'yetezekkeru'l-insân' korpusun iki ayeti: çabasını hatırlar / hatırlama + 'ennâ' sorusu",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "89:15 → 89:23",
+   "kural": "sûre içi — kök أنس [2/2]: sınanan insan / hatırlayan insan",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "69:25 → 89:24",
+   "kural": "okuma — 'yeqûlu' + 'yâ leytenî': kitabı solundan verilen / insan",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "78:40 → 89:24",
+   "kural": "okuma — 'qaddeme' + 'yâ leytenî': aynı ayette iki cümle / tek cümlede 'yâ leytenî qaddemtu'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "89:13 → 89:25",
+   "kural": "sûre içi — lemma ''azâb': Rab azap kamçısı döker / 'lâ yu'azzibu 'azâbehû ehad'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:25 → 89:26",
+   "kural": "sûre içi — 'lâ' + IMPF + aynı kökten ad + 3MS + 'ehad' (mm2): azap etme / bağlama; 3MS gönderge KAPATILAMAZ",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "47:4 → 89:26",
+   "kural": "okuma — lemma 'vethâq' korpusun iki ayeti: 2MP emir, bağı sıkı tutma / 'lâ' + 'ehad'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "16:112 → 89:27",
+   "kural": "okuma — lemma 'mutma'inne' korpusun iki ayeti: huzurlu belde nimeti inkâr eder / huzurlu nefse hitap",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "75:30 → 89:28",
+   "kural": "okuma — harekesiz 'ilâ rabbike': o gün sevk / 2FS dönüş emri",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "69:21 → 89:28",
+   "kural": "okuma — lemma 'râdıye': hoşnut yaşayış / razı nefis",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "88:9 → 89:28",
+   "kural": "okuma — lemma 'râdıye': çabasından hoşnut / razı ve razı olunmuş",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:29 → 89:30",
+   "kural": "sûre içi — 'udxulî' + 1S iyelik: kullarım / cennetim",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:25 → 89:30",
+   "kural": "sûre içi — azap / cennet (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_beled": [
+  {
+   "bag": "89:30 → 90:1",
+   "kural": "okuma — ardışık sûre sınırı: 1S konuşanın giriş emri ile kapanış / 1S yemin ile açılış; fâsıla ى → د (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "75:1 → 90:1",
+   "kural": "okuma — harekesiz 'lâ uqsimu' korpusun iki ayeti: kıyamet günü / bu belde",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "89:11 → 90:1",
+   "kural": "okuma — lemma 'beled': ülkelerde azdılar / bu beldeye yemin (ardışık sûre)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "90:1 → 90:2",
+   "kural": "sûre içi — 'bi-hâze'l-beled' korpusun iki ayeti: yemin / 2MS'nin bu beldedeki hâli",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "75:3 → 90:5",
+   "kural": "okuma — harekesiz 'e-yahsebu' + 'en' / 'ellen' + olumsuz: özne 'el-insân' yazılı / yazılmamış",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "75:36 → 90:7",
+   "kural": "okuma — 'e-yahsebu' + 'en' + IMPF: başıboş bırakılma / kimsenin görmemesi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "90:5 → 90:7",
+   "kural": "sûre içi — 'e-yahsebu en' + olumsuz + fiil + 'ehad': güç yetirmek / görmek",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:25 → 90:5",
+   "kural": "okuma — olumsuz cümlede nekre 'ehad' (e_el değil): ardışık sûrede iki ayet + iki ayet",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:20 → 90:6",
+   "kural": "okuma — lemma 'mâl': 2MP malı pek sever / 1S yığın yığın mal tükettim der",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "78:6 → 90:8",
+   "kural": "okuma — harekesiz 'e-lem nec'al': yer döşek / insana iki göz",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "77:25 → 90:8",
+   "kural": "okuma — harekesiz 'e-lem nec'al': yer toplayıcı / insana iki göz",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "90:8 → 90:9",
+   "kural": "sûre içi — 'nec'al'ın nesneleri: iki göz / dil + iki dudak",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "76:3 → 90:10",
+   "kural": "okuma — 1P + 'hedâ' + 3MS: tek yol + iki sonuç / iki yüksek yol",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "90:4 → 90:10",
+   "kural": "sûre içi — 1P konuşan: insanı zorluk içinde yarattık / ona iki yol gösterdik",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "90:11 → 90:12",
+   "kural": "sûre içi — lemma ''aqabe' korpusun iki ayeti: atılmadı / ne olduğu soruluyor",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "69:3 → 90:12",
+   "kural": "ölçüm esit2 BENZER — 've mâ edrâke mâ' + belirli ad: gerçekleşecek olan / sarp yokuş",
+   "not": "esit2 eşi."
+  },
+  {
+   "bag": "74:27 → 90:12",
+   "kural": "okuma — 've mâ edrâke mâ' + ad: Sekar / sarp yokuş",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "47:4 → 90:13",
+   "kural": "okuma — lemma 'raqabe': boyun vurma / boyun çözme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "89:18 → 90:14",
+   "kural": "okuma — kök طعم + yoksul: 2MP doyurmaya özendirmez / açlık gününde doyurmak (ardışık sûre)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "76:8 → 90:14",
+   "kural": "okuma — kök طعم + yoksul + yetim: 3MP yedirir / mastar, öznesiz",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "89:17 → 90:15",
+   "kural": "okuma — lemma 'yetîm': 2MP ikram etmez / yetimi doyurmak (ardışık sûre)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "69:34 → 90:16",
+   "kural": "okuma — lemma 'miskîn': doyurmaya özendirmiyordu / yoksulu doyurmak",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "90:15 → 90:16",
+   "kural": "sûre içi — nekre ad + 'zâ' + 'me-' önekli nekre ad: yakınlığı olan yetim / toprağa bulanmış yoksul",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "83:29 → 90:17",
+   "kural": "okuma — harekesiz 'mine'llezîne âmenû': iman edenlere gülme / onlardan olmak",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "56:8 → 90:18",
+   "kural": "okuma — 'ashâbu'l-meymene' korpusun iki ayeti: soru-tekrar / işaret + haber",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "56:9 → 90:19",
+   "kural": "okuma — 'ashâbu'l-meş'eme' korpusun iki ayeti; 56:8-9 / 90:18-19 aynı sıra",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "90:17 → 90:19",
+   "kural": "sûre içi — iman ettiler / inkâr ettiler (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "90:18 → 90:19",
+   "kural": "sûre içi — sağ / sol (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "90:19 → 90:20",
+   "kural": "sûre içi — inkâr edenler / üzerlerinde kapatılmış ateş",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_sems": [
+  {
+   "bag": "90:20 → 91:1",
+   "kural": "okuma — ardışık sûre sınırı: üzerlerinde kapatılmış ateş ile kapanış / güneşe yemin ile açılış; fâsıla ة → ا (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "79:29 → 91:1",
+   "kural": "okuma — lemma 'duhâ' + 3FS: 3MS kuşluğu çıkarır / kuşluğa yemin",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "91:2 → 91:4",
+   "kural": "sûre içi — 've' + belirli ad + 'izâ' + fiil + 'hâ' üç ayet (91:2-4): ay / gündüz / gece; PERF, PERF, IMPF",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "81:17 → 91:4",
+   "kural": "okuma — harekesiz 've'l-leyli izâ' + fiil: kararıp gelme / bürüme",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "89:4 → 91:4",
+   "kural": "okuma — harekesiz 've'l-leyli izâ' + fiil: yürüyüp gitme / bürüme",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "91:3 → 91:4",
+   "kural": "sûre içi — gündüz / gece (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:27 → 91:5",
+   "kural": "okuma — gök + 'benâhâ': soruya cevap / yemin içinde 'mâ benâhâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "90:3 → 91:5",
+   "kural": "okuma — 've' + 'mâ' + PERF 3MS: doğurduğu / kurduğu (ardışık sûre; 'mâ' morph REL)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "79:30 → 91:6",
+   "kural": "okuma — yer + PERF 3MS + 'hâ', başka kök: 'dehâhâ' / 'tahâhâ' (yayma)",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "91:5 → 91:6",
+   "kural": "sûre içi — gök / yer (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "79:28 → 91:7",
+   "kural": "okuma — lemma 'sevvâ' + 'hâ': gök düzenlenir / nefis düzenlenir",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "87:2 → 91:7",
+   "kural": "okuma — lemma 'sevvâ': 'xalaqa fe-sevvâ' nesnesiz / 'mâ sevvâhâ' nefis",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "91:7 → 91:8",
+   "kural": "sûre içi — 'mâ sevvâhâ' + 'fe-elhemehâ': düzenleme, sonra ilham ('fe')",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "90:10 → 91:8",
+   "kural": "okuma — ardışık sûre: 1P iki yol gösterdi / 3MS taşkınlık ve sakınma ilham etti",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "87:14 → 91:9",
+   "kural": "ölçüm esit2 BENZER — 'qad efleha men' + PERF: V. bab 'tezekkâ' / II. bab 'zekkâhâ'",
+   "not": "esit2 eşi."
+  },
+  {
+   "bag": "20:111 → 91:10",
+   "kural": "okuma — harekesiz 've qad xâbe men' + PERF: zulüm yüklenen / nefsi gömüp örten",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "91:9 → 91:10",
+   "kural": "sûre içi — 'qad' + PERF + 'men' + PERF + 'hâ': kurtuluş / hüsran, arındırma / gömme (aday 1039, okuma)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:9 → 91:11",
+   "kural": "okuma — Semûd ardışık iki sûrede: kayaları oyan / azgınlığıyla yalanlayan",
+   "not": "kurgu eşi."
+  },
+  {
+   "bag": "54:23 → 91:11",
+   "kural": "okuma — harekesiz 'kezzebet themûd' + 'bi': uyarıları / azgınlığıyla",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "69:4 → 91:11",
+   "kural": "okuma — harekesiz 'kezzebet themûd': kapıyı çalanı (Âd ile) / azgınlığıyla",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "87:11 → 91:12",
+   "kural": "okuma — lemma 'eşqâ': belirli, öğütten kaçınır / iyelikli, fırlar",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "14:10 → 91:13",
+   "kural": "ölçüm xref — 'qâle' + elçi + lafız: çoğul elçiler soru sorar / tekil elçi uyarır",
+   "not": "xref eşi."
+  },
+  {
+   "bag": "11:64 → 91:13",
+   "kural": "okuma — harekesiz 'nâqatu'llâh', alıntı içinde: işaret + haber / ACC uyarı",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "26:155 → 91:13",
+   "kural": "okuma — lemma 'nâqa' + su payı: 'şirb' / 'suqyâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "54:27 → 91:13",
+   "kural": "okuma — lemma 'nâqa': 1P sınama olarak gönderir / elçi uyarır",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "54:29 → 91:14",
+   "kural": "okuma — lemma ''aqara': tekil arkadaş keser / 3MP keserler",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "67:11 → 91:14",
+   "kural": "okuma — harekesiz 'bi-zenbihim' korpusun iki ayeti: itiraf / helâk sebebi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "91:7 → 91:14",
+   "kural": "sûre içi — lemma 'sevvâ' + 3FS [2/2]: 'mâ' nefsi düzenler / Rab dümdüz eder",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "91:11 → 91:14",
+   "kural": "sûre içi — kök كذب [2/2]: 3FS kavim / 3MP",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "91:13 → 91:14",
+   "kural": "sûre içi — elçinin uyarısı / yalanlama + kesme ('fe' zinciri)",
+   "not": "sûre içi eş."
+  }
  ]
 }

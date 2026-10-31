@@ -7889,3 +7889,188 @@ Kayıttan önce: 86:13 lemma listesi hakkında toplu iddia → basılan tek ayet
 * 1017: edilgen failler (86:5-6, 9); 86:4 gözetleyici, 86:8 'innehû', 86:13-14 söz göndergesi adsız; 86:16 1S konuşan; muhatap 2MS (86:2, 17).
 * 1021: طرق, صلب, ترب, بلو, مهل (eşsesli).
 * 924: 86:4 hasr ISTISNA olarak; atıflı yeminde QASEM yok; fâsıla geçişleri işaretlenmiyor.
+
+## SÛRE 87 A'LÂ SONU (2026-10-30)
+
+**Okunan: 4759 / 6236 ayet (%76,3)** — sûre 1 ve 9-87 TAM, sûre 2 kısmi (1-20). İlerleme `ala_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1513** (1512 → 1513; `kok_ekle_87.py`: حوي 87:5). Aday havuzu **1041** (sûre 87'de yeni aday yok; `AX_ala` boş). Bağ **AS_ala** 43. Esmâ KARAR **716** (714 → 716; 87:17, 87:18 DEĞİL).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 19 / 0) · [x/y] **47 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 19 ayeti iki blokta okundu (1-8, 9-19). Dosyalar `yamalar/iskele_87.py` ile tarik_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure87_ala_okuma.md` (`ala_paket_md.py`, 19 başlık). Taban **75699c1**; zip `fark_75699c1_sure87.zip`.
+
+### Sûre 87 bilançosu (TAM SAYIM, `okuma_metni['87']['_bilanco_sure']`)
+72 kelime · **lafız 1 (87:7) · Rab 2 (87:1, 15)** · edilgen 0 · iltifât ölçümü 5 (87:2, 6, 7, 8, 16; 87:2 küme ayrıklığından) · hapaks 0 · mm2 0.
+Yıldız 0:14 · ★3 (87:6, 17 sahte kırık — 1001; 87:7 allah) · ★★★2 (87:1, 15 rab — kısa ayette tek Rab; içerik iddiası değil).
+Fâsıla metin ى 18 / ا 1 (87:16); ölçüm kafiye kırığı 2 (87:6, 17) — ikisi de medde artefaktı (924). En uzun 9 kelime (87:7); en kısa 2 (87:8, 11). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 3 (87:2 yaratma + düzenleme; 87:4 otlak çıkarma; 87:5 otlak → kararmış çerçöp). L0 yok. Olgu değil 16. Tarayıcı v4 sûrede aday vermedi.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 2 (87:17 'âxir', 87:18 'evvel') — ikisi de DEĞİL; ölçüm mührü 2, geçerli 0. 87:1 'el-a'lâ' esmâ listesinde yok (e_oto vermedi); i'râbı metinde görünmüyor, morph etiketi GEN.
+
+### Kendi kaydı
+Kayıttan önce: tetik ön kuru koşusu (iki blok, 0 uyuşmaz); basılmamış ayet numarası grep'i ◇, ARIZA ve kapanış notunda 0. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 87)
+İlgi zamiri 'ellezî' 87:2-4 Rab / 87:12 en bedbaht. Sûreler arası okuma bağı: 'rabb' + 'a'lâ' 79:24 (bir kişinin iddiası) / 87:1.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+86:17 / 87:1 sûre sınırı — 2MS'ye emir ile kapanış / açılış; 86 lafızsız ve Rabsız, 87:1 Rab; fâsıla ا → ى. 87:19 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+19 ayetin hepsinde not; ayet içi 2 (87:7 açık / gizli; 87:13 ölmez / yaşamaz), ayetler arası 3 (87:10 / 11; 87:11 / 14; 87:16 / 17). 87:17 / 18 'el-âxira' / 'el-ûlâ' sözcük düzeyinde, göndergeler farklı — çift yazılmadı. Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: konuşan 1P (87:6, 8); muhatap 2MS (87:1, 6, 8, 9) ve 2MP (87:16); 'men yaxşâ', 'el-eşqâ', 'men tezekkâ' genel; 87:18 'hâzâ' göndergesi.
+* 1022: 87:17-18 ölçüm 'MÜHÜRSÜZ' / esma_kayit mühür EVET / karar sonrası geçerli 0.
+* 1001: 87:6, 17 ★ kaynağı 'n' etiketli, kafiye_kirik True.
+* 924: medde artefaktı (87:6, 17); ayet 1 harf → harf3; 87:2 iltifât küme ayrıklığından; 87:9 kısmi örtüşme 0; 87:7 'inne' kip alanında yok.
+
+## SÛRE 88 ĞÂŞİYE SONU (2026-10-30)
+
+**Okunan: 4785 / 6236 ayet (%76,7)** — sûre 1 ve 9-88 TAM, sûre 2 kısmi (1-20). İlerleme `gasiye_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1517** (1513 → 1517; `kok_ekle_88.py`: نمرق 88:15, زرب 88:16, أبل 88:17, سطح 88:20). Aday havuzu **1041** (sûre 88'de yeni aday yok; `AX_gasiye` boş). Bağ **AS_gasiye** 49. Esmâ KARAR **716** (değişmedi).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (88:8-16'da ön koşu 1 uyuşmaz yakaladı, kayıttan önce düzeltildi; sûre geneli 26 / 0) · [x/y] **62 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0, genel 0 · **DUZELTME 0**.
+Sûrenin 26 ayeti üç blokta okundu (1-7, 8-16, 17-26). Dosyalar `yamalar/iskele_88.py` ile ala_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure88_gasiye_okuma.md` (`gasiye_paket_md.py`, 26 başlık). Taban **75699c1** (sûre 87 zip'i yüklenmedi); zip'ler `fark_75699c1_sure88_ara1.zip`, `fark_75699c1_sure88.zip` (sûre 87 + 88).
+
+### Sûre 88 bilançosu (TAM SAYIM, `okuma_metni['88']['_bilanco_sure']`)
+92 kelime · **lafız 1 (88:24) · Rab 0** — Rabsız sûre · edilgen 5 (88:5, 17-20) · iltifât ölçümü 1 (88:21) · hapaks 3 (88:15, 16, 20 — yeni kökler) · mm2 0.
+Yıldız 0:18 · ★★1 (88:17 pas) · ★★★7 (pas 88:5, 18, 19, 20; hapaks 88:15, 16; allah 88:24 — içerik iddiası değil).
+Fâsıla metin ة 14 / ع 2 / ت 4 / ر 4 / م 2; ölçüm kafiye kırığı 0 — dört geçiş işaretlenmedi (924). En uzun 6 kelime (88:6, 7, 17); en kısa 2 (88:3, 9, 14, 15, 16). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 3 (88:18 gök, 88:19 dağlar, 88:20 yer — edilgen süreç; 79:28, 32, 30 kayıtları emsali). L0 1 (88:17 deve + yaratılma; tarayıcı v4 adayı, çıpa değil; kesinlik 0/1). Olgu değil 22.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; ölçüm mührü 0.
+
+### Kendi kaydı
+Kayıttan önce: tetik ön kuru koşusu 88:14 ◈B (kök وضع tetik listesinde, 'mevdû'a' konulmuş) '—' yazılmış satırı yakaladı — dolduruldu; ◇'de basılmamış okunmuş ayeti kapsayan aralık basılan ayetlere indirildi (88:20); 88:2 ◇'de okunmamış eş ayetin öneki hakkındaki cümle çıkarıldı (88:8 öneksiz). DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 88)
+Kayıt yok (lafız tek, Rab yok; 1P konuşan adsız).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+87:19 / 88:1 sûre sınırı — adlı iki kişi (İbrâhîm, Mûsâ) ile kapanış / 2MS'ye 'hel etâke hadîthu' sorusu ile açılış (aynı kalıp 79:15, 20:9 Mûsâ; 51:24 İbrâhîm'in konukları); fâsıla ى → ة. Okuma bağları 87:12 / 88:4 'yaslâ' + ateş, 87:9 / 88:21 'fe-zekkir', 87:12 / 88:24 'kubrâ' / 'ekber'. 88:26 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+26 ayetin hepsinde not; ayet içi 0, ayetler arası 4 (88:2 / 8 zelil / nimet içinde; 88:3 / 9 yorgun / hoşnut; 88:18 / 20 gök / yer; 88:21 / 22 öğüt verici / zorlayıcı). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 88:1 'el-ğâşiye' ve soran; yüzler (nekre) ve sahipleri; edilgen failler (88:5, 13-20); muhatap 2MS (88:1, 11, 21-22); 3MP (88:6, 17, 22, 25-26); 1P konuşan (88:25-26).
+* 1021: أني (âniye kaynar), ضرع (darî'), نصب (üç anlam), سرر (surur tahtlar), سطر (musaytir).
+* 924: 88:6 FS → MP gönderge değişimi '3' / '3'; kısmi örtüşme iltifât 0 (88:11, 25); 88:21 'innemâ' hasrı yok; 88:24 mef'ûl mutlak mm2 boş; fâsıla geçişleri işaretlenmiyor; ayet 1 harf → harf3.
+* Eşsesli lemma: 'âniye' (76:15 kaplar / 88:5 kaynar) — lemma sayısı verilmedi.
+
+## SÛRE 89 FECR SONU (2026-10-31)
+
+**Okunan: 4815 / 6236 ayet (%77,2)** — sûre 1 ve 9-89 TAM, sûre 2 kısmi (1-20). İlerleme `fecr_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1518** (1517 → 1518; `kok_ekle_89.py`: سوط 89:13). Aday havuzu **1041** (sûre 89'da yeni aday yok; `AX_fecr` boş). Bağ **AS_fecr** 42. Esmâ KARAR **718** (716 → 718: 89:25:5 ve 89:26:4 'ehad' — 'hiç kimse', degil; `yamalar/esma_el_89_21_30.txt`).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 30 / 0) · [x/y] **87 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0; genel geçiş iki kez kendi bloğunun kaydına dokundu (aşağıda) · **DUZELTME 0**.
+Sûrenin 30 ayeti üç blokta okundu (1-14, 15-20, 21-30). Dosyalar `yamalar/iskele_89.py` ile gasiye_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure89_fecr_okuma.md` (`fecr_paket_md.py`, 30 başlık). Taban **75699c1** (sûre 87-88 zip'leri yüklenmedi); zip'ler `fark_75699c1_sure89_ara1.zip`, `fark_75699c1_sure89.zip` (sûre 87 + 88 + 89).
+
+### Sûre 89 bilançosu (TAM SAYIM, `okuma_metni['89']['_bilanco_sure']`)
+137 kelime · **lafız 0 · Rab 8** (89:6, 13, 14, 15 iki, 16, 22, 28) · edilgen 3 (89:8, 21, 23) · iltifât ölçümü 4 (89:15, 17, 21, 28) · hapaks 2 (89:13 yeni kök, 89:20) · mm2 2 (89:25, 26).
+Yıldız 0:19 · ★1 (89:16 rab) · ★★1 (89:23 pas) · ★★★9 (rab 89:6, 13, 14, 15, 22, 28; pas 89:8, 21; hapaks 89:20 — içerik iddiası değil).
+Fâsıla metin ر 5 / د 10 / ب 1 / ن 4 / ا 4 / ى 4 / ة 2; ölçüm kafiye kırığı 1 (89:13, gerçek) — diğer geçişler işaretlenmedi (924). En uzun 11 kelime (89:15); en kısa 1 (89:1). Sayı işareti 4 (89:2 gerçek; 89:12, 25, 26 yanlış pozitif).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 yok. L0 3 (89:1 fecir, 89:2 on gece, 89:4 gece — yemin edilen zaman; 81:17 kaydı emsali). Olgu değil 27 (89:3 gönderge adsız).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 2 (89:25, 26 'ehad'); ikisi de el kararıyla değil; ölçüm mühür adayı 2, geçerli 0.
+
+### Kendi kaydı
+Tetik ön kuru koşuları üç blokta 0 uyuşmaz. Genel retroaktif gloss geçişi iki kez kendi bloğunun kaydına dokundu: 89:15-20 kaydından sonra 89:20 (olcum, mercek), 89:21-30 kaydından sonra 89:21 (dikey) — kök جمم gloss'u kök biçimi دكك'i taşıyor ve gloss geçişi bu anmayı yeniden sarıyor. Taban kayıtları değişmedi (git HEAD okuma_metni ile karşılaştırıldı), ikinci koşular 0. İlki 89:21-30 ARIZA'sına yazıldı; ikincisi sûre 90'ın ilk bloğunun ARIZA'sına yazılacak. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 89)
+كرم 89:15 Rab ikram eder (iki geçiş) / 89:17 2MP yetime ikram etmez.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+88:26 / 89:1 sûre sınırı — 1P konuşanın hesap sözü ile kapanış / yemin ile açılış; fâsıla م → ر; 88 Rabsız, 89 Rab ile sürüyor (89:6). Ardışık sûre okuma bağı 88:9 / 89:28 'râdıye'. 89:30 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+30 ayetin hepsinde not; ayet içi 1 (89:3 çift / tek), ayetler arası 2 (89:15 / 16 ikram etti / alçalttı; 89:25 / 30 azap / cennet). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 89:1-4 yemin eden; 89:3 çift / tekin göndergesi; 89:5 akıl sahibi (nekre); 89:8 yaratan, 89:21 fail, 89:23 getiren (edilgen); muhatap 2MS (89:6, 13, 14, 22), 2MP (89:17-20); 89:16 sınayan yazılmamış; 89:27-30 konuşan (89:29-30 1S).
+* KAPATILAMAZ: 89:1-4 yemin dizisinin cevabı; 89:2 on gece; 89:3 çift / tek; 89:25-26 'azâbehû' / 'vethâqahû' zamirinin göndergesi (insan / Rab).
+* 1021: عود 'Âd' özel ad iskeleti; جوب 'câbû' (oydular); حجر 'hicr' (akıl); جمم gloss'u araç notu taşıyor.
+* 924: 89:5 QASEM ve 89:12 sayı işareti yanlış pozitif; 89:2-4 atıflı yeminlerde QASEM yok; 89:19-21 mef'ûl mutlak mm2 boş; 89:25-26 'ehad' sayı işareti yanlış pozitif; fâsıla geçişleri işaretlenmiyor; ayet 1 harf → harf3.
+* Eşsesli lemma: 'hicr' (akıl / engel / yer adı) — lemma sayısı verilmedi.
+
+## SÛRE 90 BELED SONU (2026-10-31)
+
+**Okunan: 4835 / 6236 ayet (%77,5)** — sûre 1 ve 9-90 TAM, sûre 2 kısmi (1-20). İlerleme `beled_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1523** (1518 → 1523; `kok_ekle_90.py`: كبد 90:4, شفه 90:9, نجد 90:10, فكك 90:13, سغب 90:14). Aday havuzu **1041** (sûre 90'da yeni aday yok; `AX_beled` boş). Bağ **AS_beled** 29. Esmâ KARAR **720** (718 → 720: 90:5:6 ve 90:7:5 'ehad' — 'hiç kimse', degil; `yamalar/esma_el_90_1_10.txt`).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 20 / 0) · [x/y] **52 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0, genel 0 · taban kayıtları değişmedi · **DUZELTME 0**.
+Sûrenin 20 ayeti iki blokta okundu (1-10, 11-20). Dosyalar `yamalar/iskele_90.py` ile fecr_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure90_beled_okuma.md` (`beled_paket_md.py`, 20 başlık). Taban **75699c1** (sûre 87-89 zip'leri yüklenmedi); zip `fark_75699c1_sure90.zip` (sûre 87 + 88 + 89 + 90; sûre iki blok olduğu için ara zip verilmedi).
+
+### Sûre 90 bilançosu (TAM SAYIM, `okuma_metni['90']['_bilanco_sure']`)
+82 kelime · **lafız 0 · Rab 0** — lafızsız ve Rabsız sûre · edilgen 0 · iltifât ölçümü 4 (90:2, 3, 4, 5; 90:3 hitap değişmiyor, 924) · hapaks 4 (90:4, 9, 10, 14 — yeni kökler) · mm2 0.
+Yıldız 0:15 · ★1 (90:6; kaynak etiketi n, düzeltilmiş kafiye — 1001) · ★★★4 (hapaks 90:4, 9, 10, 14 — içerik iddiası değil).
+Fâsıla metin د 6 / ا 1 / ن 3 / ة 10; ölçüm kafiye kırığı 1 (90:6, gerçek) — د → ن ve ن → ة geçişleri işaretlenmedi (924). En uzun 9 kelime (90:17); en kısa 2 (90:9, 10, 13). Sayı işareti 2 (90:5, 7 'ehad' — yanlış pozitif).
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 3 (90:4 yaratma + durum, 76:2 emsali; 90:8 göz, 78:6 emsali; 90:9 dil + dudak). L0 yok. Olgu değil 17 (90:1-3 gönderge yalnız işaretle / adsız).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 2 (90:5, 7 'ehad'); ikisi de el kararıyla değil; ölçüm mühür adayı 2, geçerli 0.
+
+### Kendi kaydı
+Tetik ön kuru koşuları iki blokta 0 uyuşmaz. 90:4 çıpa notunda basılmamış bir kaydın emsal adı kayıttan önce çıkarıldı. 89:21-30'dan devreden gloss yaması notu (89:21 dikey, جمم / دكك) 90:1-10 ARIZA'sına yazıldı. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 90)
+Kayıt yok (lafız ve Rab yok; 1S / 1P konuşan adsız).
+
+### Aday 1040 — kayıt (test korpus sonunda)
+89:30 / 90:1 sûre sınırı — 1S konuşanın 2FS'ye giriş emri ile kapanış / 1S yemin ile açılış; fâsıla ى → د; 89 Rablı (8), 90 Rabsız. Ardışık sûre okuma bağları 89:11 / 90:1 'beled', 89:25 / 90:5 'ehad', 89:20 / 90:6 'mâl', 89:18 / 90:14 doyurma, 89:17 / 90:15 'yetîm'. 90:20 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+20 ayetin hepsinde not; ayet içi 1 (90:3 doğuran / doğurulan), ayetler arası 2 (90:17 / 19 iman / inkâr; 90:18 / 19 sağ / sol). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: 90:1 konuşan 1S; 90:2, 12 muhatap 2MS; 90:3 doğuran / doğurulan; 90:4, 8, 10, 19 konuşan 1P; 90:5-7, 11, 17 öznesi yazılmamış (insan, okuma).
+* KAPATILAMAZ: 90:1-2 beldenin adı; 90:3 doğuran / doğurulan; 90:2 'hill' (konaklayan / helâl); 90:10 'necdeyn'.
+* 1001: 90:6 ★ kaynak etiketi n / düzeltilmiş kafiye.
+* 924: 90:1 yemin önündeki 'lâ' NEG; 90:3 atıflı yeminde QASEM yok; 90:3 ilgi cümlesi fiili iltifât; 90:5, 7 'ehad' sayı işareti; 90:12 ve 90:19 kısmi örtüşme iltifât 0; fâsıla geçişleri işaretlenmiyor; ayet 1 harf → harf3.
+
+## SÛRE 91 ŞEMS SONU (2026-10-31)
+
+**Okunan: 4850 / 6236 ayet (%77,8)** — sûre 1 ve 9-91 TAM, sûre 2 kısmi (1-20). İlerleme `sems_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1527** (1523 → 1527; `kok_ekle_91.py`: طحو 91:6, لهم 91:8, دسو 91:10, دمدم 91:14). Aday havuzu **1041** (sûre 91'de yeni aday yok; `AX_sems` boş). Bağ **AS_sems** 30. Esmâ KARAR **720** (değişmedi).
+Denetimler her blokta ve kapanışta: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik her blokta 0 (sûre geneli 15 / 0) · [x/y] **38 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif gloss yaması hedefli 0; genel geçiş لهم eklenince 24 eski alanı yamaladı (aşağıda) · **DUZELTME 0**.
+Sûrenin 15 ayeti iki blokta okundu (1-10, 11-15). Dosyalar `yamalar/iskele_91.py` ile beled_* şablonlarından kuruldu (oturum dışı). Paket `notlar/sure91_sems_okuma.md` (`sems_paket_md.py`, 15 başlık). Taban **75699c1** (sûre 87-90 zip'leri yüklenmedi); zip `fark_75699c1_sure91.zip` (sûre 87-91; sûre iki blok olduğu için ara zip verilmedi).
+
+### İskelet çakışması — taban kayıtlarında 24 alan (bekleyen karar ailesi)
+Kök لهم (91:8 'elhemehâ') tabloya girince genel retroaktif gloss geçişi eski kayıtlarda harekesiz yazılmış 'lahum' (li + hum, 'onlar için') kelimesini kök anması saydı: 24 alanda (1 mercek, 23 ölçüm; sûre 28, 35, 36, 39, 42, 47 kayıtları) 27 anmaya 'içe doğurma, ilham' gloss'u eklendi. Anlam yanlış; ama türkçe denetimi bu anmaları kök sayıyor — yama geri alınırsa türkçe 0'dan çıkar. Araç dondurulmuş; yama bırakıldı, ikinci koşu 0. Karar tam okuma sonunda ('gloss_gecis iskelet çakışması', 1021). Sûre 91 zip'indeki okuma_metni.json bu 24 alanı taşıyor.
+
+### Sûre 91 bilançosu (TAM SAYIM, `okuma_metni['91']['_bilanco_sure']`)
+54 kelime · **lafız 2 (91:13) · Rab 1 (91:14)** · edilgen 0 · iltifât ölçümü 0 · hapaks 4 (91:6, 8, 10, 14 — yeni kökler) · mm2 0.
+Yıldız 0:9 · ★1 (91:11; kaynak etiketi n, düzeltilmiş kafiye — 1001; kırık sahte) · ★★★5 (hapaks 91:6, 8, 10, 14; allah 91:13 — içerik iddiası değil).
+Fâsıla metin ا 15 (her ayet 3FS 'hâ'); ölçüm 91:11'i medde işareti yüzünden ayrı sınıfa koydu ve kafiye kırığı işaretledi — yanlış pozitif (924; sûre 70 dikkati). En uzun 7 kelime (91:13, 14); en kısa 2 (91:1). Sayı işareti 0.
+
+### Çıpa (ölçüt değişmedi)
+L4 yok. L2 yok. L1 3 (91:5 gök, 91:6 yer, 91:7 nefis — 79:27, 79:30, 87:2 emsalleri). L0 4 (91:1-4 yemin edilen gökcismi / vakit). Olgu değil 8.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; ölçüm mührü 0.
+
+### Kendi kaydı
+Tetik ön kuru koşuları iki blokta 0 uyuşmaz. DUZELTME 0.
+
+### Aday 1041 — kayıt (sûre 91)
+Kayıt yok; okuma notu: lemma 'sevvâ' 91:7 'mâ' (adsız) / 91:14 Rab.
+
+### Aday 1040 — kayıt (test korpus sonunda)
+90:20 / 91:1 sûre sınırı — üzerlerinde kapatılmış ateş ile kapanış / güneşe yemin ile açılış; fâsıla ة → ا. Ardışık sûre okuma bağları 90:3 / 91:5 'mâ' + PERF, 90:10 / 91:8 yol gösterme / ilham. 91:15 → sonraki sûre henüz okunmadı.
+
+### Aday 1039 — okuma kolu (karşıt çift) verisi
+15 ayetin hepsinde not; ayet içi 1 (91:8 taşkınlık / sakınma), ayetler arası 3 (91:3 / 4 gündüz / gece; 91:5 / 6 gök / yer; 91:9 / 10 kurtuluş / hüsran). Karşılaştırma yapılmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin eden; 91:5-8 kuran / yayan / düzenleyen / ilham eden; 91:12 en bedbahtları; 91:13 Allah'ın elçisi (ad yok).
+* KAPATILAMAZ: 91:3-4 'hâ' göndergesi; 91:5-7 'mâ' ilgi zamiri mi mastar mı; 91:14 son 'sevvâhâ' göndergesi; 91:15 'yaxâfu' öznesi ve 'uqbâhâ' göndergesi.
+* 1021: لهم iskelet çakışması (yukarıda).
+* 1001: 91:11 ★ kaynak etiketi n / düzeltilmiş kafiye (kırık sahte).
+* 924: 91:11 medde işareti sahte kafiye kırığı; 91:2-7 atıflı yeminlerde QASEM yok; ayet 1 harf → harf3.
