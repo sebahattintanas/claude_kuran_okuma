@@ -851,4 +851,13 @@ KARAR = {
 # sûre 85 blok 17-22
 '85:20:4': 'ilahi',  # muhît — 've'llâhu min verâ'ihim muhît', lafzın haberi
 '85:21:4': 'degil',  # mecîd — 'bel huve qur'ânun mecîd', Kur'ân'ın sıfatı
+# sûre 87 blok 9-19
+'87:17:1': 'degil',  # 've'l-âxiratu' — âhiret (dünya hayatının karşıtı, 87:16), ilâhî ad değil
+'87:18:5': 'degil',  # 'es-suhufi'l-ûlâ' — sayfaların sıfatı (GEN, çoğul ada uyum), ilâhî ad değil
+# sûre 89 blok 21-30
+'89:25:5': 'degil',  # 'lâ yu'azzibu 'azâbehû ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
+'89:26:4': 'degil',  # 've lâ yûthiqu vethâqahû ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
+# sûre 90 blok 1-10
+'90:5:6': 'degil',  # 'e-yahsebu en len yaqdira 'aleyhi ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
+'90:7:5': 'degil',  # 'e-yahsebu en lem yerahû ehad' — olumsuz cümlede 'hiç kimse' (nekre NOM, özne), ilâhî ad değil
 }
