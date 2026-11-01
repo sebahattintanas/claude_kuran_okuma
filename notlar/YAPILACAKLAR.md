@@ -8387,3 +8387,189 @@ e_oto 0; mühür 0.
 * 1017: hitap 2MP sûrenin tamamında; 102:8 soran yazılmamış (edilgen).
 * 1021: زور, سأل gloss'ları buradaki anlamı vermiyor.
 * 924: ayet 1 harf3 (besmele ailesi); sayı işareti 'tekâsur' kök kaynaklı; 'hattâ' sınırı ve 'lev' şartının cevapsızlığı biçim alanında yok.
+
+## SÛRE 103 ASR SONU (2026-11-01)
+
+**Okunan: 4971 / 6236 ayet (%79,7)** — sûre 1 ve 9-103 TAM, sûre 2 kısmi (1-20). İlerleme `asr_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1537** (değişmedi; `kok_ekle_103.py` boş). Aday havuzu **1041** (`AX_asr` boş). Bağ **AS_asr** 14. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 3 / 0 · [x/y] **9 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 3 ayeti tek blokta okundu: 1-3. Dosyalar `yamalar/iskele_103.py` ile tekasur_* şablonlarından kuruldu (oturum dışı; ad 'asr'; set değişkeni ASCII 'ASR'; yüzde sabiti numara değişiminden önce maskelendi; açık ilerleme notu genel değişimden sonra; aile karşılaştırması temiz). Paket `notlar/sure103_asr_okuma.md` (3 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure103.zip`.
+
+### Sûre 103 bilançosu (TAM SAYIM, `okuma_metni['103']['_bilanco_sure']`)
+14 kelime · **lafız 0 · Rab 0** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız: üç ayet yıldızsız.
+Fâsıla ölçüm R 3 — geçiş yok. En uzun 9 kelime (103:3); en kısa 1 (103:1). Kök ikilemesi وصي ×2 (103:3); sayı işareti yok.
+
+### Çıpa (ölçüt değişmedi)
+L0 1 (103:1 — yemin edilen vakit / zaman adı; anlamı KAPATILAMAZ, iki okumada da süreç yok; 93:1 kaydı emsali). L1 / L2 / L4 yok. Olgu değil 2 (ziyan, tutum).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok). 1040: 102:8 / 103:1 sûre sınırı (sorguyla kapanış / yeminle açılış; fâsıla م → ر; iki sûre de lafızsız ve Rabsız). 1039: 3/3 notlu; ayet içi 0, blok içi 0. 103:3 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* Kuruluş (okuma bağı): insan hakkında tekil hüküm + çoğul 'illâ' istisnası — 95:5-6, 70:19-22, 103:2-3.
+* Kalıp 'illa'llezîne âmenû ve 'amilu's-sâlihât' (84:25, 95:6, 103:3): ilk ikisinde devamı karşılık, 103:3'te iki 'tevâsav'.
+* Korpusun iki geçişi: lemma 'xusr' (65:9, 103:2), 've tevâsav bi's-sabr' (90:17, 103:3).
+* 1017: yemin eden / konuşan adsız; 'ellezîne' adsız.
+* 924: ayet 1 harf3 (besmele ailesi).
+* Sunum dersi: emsal aktarımında bir meal satırı kayıttan farklı yazılmıştı — NFC karşılaştırması gönderimden önce yakaladı.
+
+## SÛRE 104 HÜMEZE SONU (2026-11-01)
+
+**Okunan: 4980 / 6236 ayet (%79,9)** — sûre 1 ve 9-104 TAM, sûre 2 kısmi (1-20). İlerleme `humeze_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1537** (değişmedi; `kok_ekle_104.py` boş). Aday havuzu **1041** (`AX_humeze` boş). Bağ **AS_humeze** 16. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 9 / 0 · [x/y] **21 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 9 ayeti tek blokta okundu: 1-9. Dosyalar `yamalar/iskele_104.py` ile asr_* şablonlarından kuruldu (oturum dışı; ad 'humeze'; set değişkeni ASCII 'HUMEZE'; yüzde sabiti maskeli; aile karşılaştırması temiz). Paket `notlar/sure104_humeze_okuma.md` (9 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure104.zip` (sûre 103-104).
+
+### Sûre 104 bilançosu (TAM SAYIM, `okuma_metni['104']['_bilanco_sure']`)
+33 kelime · **lafız 1 (104:6) · Rab 0** · edilgen 1 (104:4) · iltifât 0 · hapaks 0 · Yıldız: yıldızsız 7 ayet, ★★★ 2 ayet — 104:4 (pas, z=5,38), 104:6 (allah, z=6,14).
+Fâsıla ölçüm H 9 (metinde ة / ه; geçiş görünmüyor, 924). En uzun 4 kelime (104:1-5, 7); en kısa 3 (104:6, 8, 9). Sayı işareti 104:2 ''addede' kök kaynaklı (924); esit2 BENZER 104:5 → 69:3.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 9 (kınama, tutum, sanı, âhiret).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız tek geçiş, Rab yok); okuma bağı kök وقد 85:5 / 104:6. 1040: 103:3 / 104:1 sûre sınırı (istisna ile kapanış / 'veyl' ile açılış; fâsıla ر → ة). 1039: 9/9 notlu; ayet içi 0, blok içi 0. 104:9 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* Kuruluş (okuma bağı): 've mâ edrâke mâ' + 'nâr' + sıfat cevabı — 101:10-11, 104:5-6.
+* Korpusun iki geçişi: kalıp 'veylun li-kulli' (45:7, 104:1), lemma 'mu'sade' (90:20, 104:8); korpusun tamamı sûre içi: lemma 'hutame' (104:4-5).
+* 1017: nitelenen kişi, 2MS hitap, konuşan adsız; 104:4 atan yazılmamış.
+* 1021: طلع gloss'u 'tettali'u' anlamını vermiyor.
+* 924: ayet 1 harf3; sayı işareti ''addede'; ة / ه tek H sınıfı; 3MS → 3MP gönderge geçişi görünmüyor.
+
+## SÛRE 105 FÎL SONU (2026-11-01)
+
+**Okunan: 4985 / 6236 ayet (%79,9)** — sûre 1 ve 9-105 TAM, sûre 2 kısmi (1-20). İlerleme `fil_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1538** (`kok_ekle_105.py`: فيل). Aday havuzu **1041** (`AX_fil` boş). Bağ **AS_fil** 8. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 5 / 0 · [x/y] **18 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 5 ayeti tek blokta okundu: 1-5. Dosyalar `yamalar/iskele_105.py` ile humeze_* şablonlarından kuruldu (oturum dışı; ad 'fil'; set değişkeni ASCII 'FIL'; yüzde sabiti maskeli; aile karşılaştırması temiz). Paket `notlar/sure105_fil_okuma.md` (5 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure105.zip` (sûre 103-105).
+
+### Sûre 105 bilançosu (TAM SAYIM, `okuma_metni['105']['_bilanco_sure']`)
+23 kelime · **lafız 0 · Rab 1 (105:1)** · edilgen 0 · iltifât 0 · hapaks 1 (105:1, yeni kök) · Yıldız: yıldızsız 4 ayet, ★★★ 1 ayet — 105:1 (hapaks, z=3,28).
+Fâsıla ölçüm ل 5 — geçiş yok. En uzun 7 kelime (105:1); en kısa 3 (105:5).
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 5 (tarihsel olay, tutum, anlatı içi olay, teşbih).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (Rab tek geçiş). 1040: 104:9 / 105:1 sûre sınırı (fiilsiz öbekle kapanış / 'e-lem tera' sorusuyla açılış; fâsıla ة → ل). 1039: 5/5 notlu; ayet içi 0, blok içi 0. 105:5 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* Korpusun iki geçişi: kalıp 'e-lem tera keyfe fe'ale rabbuke' (89:6, 105:1; ölçüm xref).
+* Lemma 'siccîl' korpusun tamamı 3 ayet (15:74, 105:4 basıldı).
+* 1021: سجل, عصف gloss'ları buradaki anlamı vermiyor.
+* 924: ayet 1 harf3; 'ke-' teşbihi biçim alanında yok.
+* İskele dersi: sûre adı başka bir alan adının parçası olabilir ('fil' ⊂ 'profil') — sûre 106 iskelesinde ad değişimi yalnız tam sözcük ve dosya adı öneki / soneki olarak yapılır, '_profil_' / '_esma_profil_' korunur, sonra assert'le doğrulanır.
+
+## SÛRE 106 KUREYŞ SONU (2026-11-01)
+
+**Okunan: 4989 / 6236 ayet (%80,0)** — sûre 1 ve 9-106 TAM, sûre 2 kısmi (1-20). İlerleme `kureys_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1541** (`kok_ekle_106.py`: قرش, شتو, صيف). Aday havuzu **1041** (`AX_kureys` boş). Bağ **AS_kureys** 9. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 4 / 0 · [x/y] **13 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 4 ayeti tek blokta okundu: 1-4. Dosyalar `yamalar/iskele_106.py` ile fil_* şablonlarından kuruldu (oturum dışı; ad 'kureys'; set değişkeni ASCII 'KUREYS'; ad değişimi harf sınırlı önek / sonek kuralıyla — 'profil' korundu; yüzde sabiti maskeli; aile karşılaştırması temiz). İskelenin taşıdığı kok_ekle ISTEK satırı `yamalar/yama_kok_106_bosalt.py` ile boşaltıldı. Paket `notlar/sure106_kureys_okuma.md` (4 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure106.zip` (sûre 103-106).
+
+### Sûre 106 bilançosu (TAM SAYIM, `okuma_metni['106']['_bilanco_sure']`)
+17 kelime · **lafız 0 · Rab 1 (106:3)** · edilgen 0 · iltifât 0 · hapaks 2 ayet (106:1, 106:2 — yeni kökler) · Yıldız: yıldızsız 1 ayet, ★★★ 3 ayet — 106:1-2 (hapaks), 106:3 (rab, z=5,01).
+Fâsıla ش → ف → ت → ف; ölçüm yalnız 106:3'ü kırık işaretledi (924). En uzun 7 kelime (106:4); en kısa 2 (106:1). Sayı işareti 106:1-2 'îlâf' kök kaynaklı (924).
+
+### Çıpa (ölçüt değişmedi)
+L0 1 (106:2 — mevsim adları). L1 / L2 / L4 yok. Olgu değil 3.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: sûre içi kayıt yok; sûreler arası okuma notu lemma 'âmene' 103:3 / 106:4 (eşsesli). 1040: 105:5 / 106:1 sûre sınırı (teşbihle kapanış / fiilsiz 'li-' öbeğiyle açılış; fâsıla ل → ش; öbeğin bağlanması KAPATILAMAZ). 1039: 4/4 notlu; ayet içi 2 (106:2, 106:4), blok içi 0. 106:4 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* Korpusun iki geçişi: kalıp 'min cû'' (88:7, 106:4); korpusun tamamı sûre içi: lemma 'îlâf'.
+* Kuruluş (okuma bağı): 27:91 / 106:3-4 kulluk + Rab + işaret + yer + 'ellezî'; 'cû'' + 'xavf' 16:112 / 106:4.
+* 924: ayet 1 harf3; sayı işareti 'îlâf'; fâsıla geçişleri işaretsiz.
+* İskele dersi: iskele kok_ekle ISTEK satırlarını da taşıyor ve ad değişimi gloss içindeki sûre adı sözcüğünü değiştirebiliyor — bundan sonra iskele kok_ekle ISTEK'ini boş kurar.
+
+## SÛRE 107 MÂ'ÛN SONU (2026-11-01)
+
+**Okunan: 4996 / 6236 ayet (%80,1)** — sûre 1 ve 9-107 TAM, sûre 2 kısmi (1-20). İlerleme `maun_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1541** (değişmedi; `kok_ekle_107.py` boş). Aday havuzu **1041** (`AX_maun` boş). Bağ **AS_maun** 11. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 7 / 0 · [x/y] **14 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 7 ayeti tek blokta okundu: 1-7. Dosyalar `yamalar/iskele_107.py` ile kureys_* şablonlarından kuruldu (oturum dışı; ad 'maun'; set değişkeni ASCII 'MAUN'; kok_ekle ISTEK iskele içinde boş; yüzde sabiti maskeli; aile karşılaştırması temiz). Paket `notlar/sure107_maun_okuma.md` (7 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure107.zip` (sûre 103-107).
+
+### Sûre 107 bilançosu (TAM SAYIM, `okuma_metni['107']['_bilanco_sure']`)
+25 kelime · **lafız 0 · Rab 0** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız: yedi ayet yıldızsız.
+Fâsıla ölçüm N 7 (metinde 107:2 م, diğerleri ن; 924). En uzun 5 kelime (107:3, 107:5); en kısa 2 (107:4, 107:7). esit2 TAM 107:3 → 69:34, BENZER → 89:18.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 7 (tutum, kınama).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok). 1040: 106:4 / 107:1 sûre sınırı (Rab'ın doyurmasıyla kapanış / 'e-ra'eyte' sorusuyla açılış; fâsıla ف → ن); okuma bağı kök طعم 106:4 / 107:3. 1039: 7/7 notlu; ayet içi 0, blok içi 0. 107:7 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* Korpusun iki geçişi: 'e-ra'eyte'llezî' (96:9, 107:1), 've lâ yahuddu 'alâ ta'âmi'l-miskîn' (69:34, 107:3), 'sâhî' (51:11, 107:5).
+* Kuruluş (okuma bağı): 89:17-18 / 107:2-3; 70:22-23 / 107:4-5.
+* 1017: hitap, yalanlayan, namaz kılanlar, konuşan adsız.
+* 924: ayet 1 harf3; ن / م tek N sınıfı; 3MS → çoğul gönderge geçişi görünmüyor; esit2 satırında 69:34 iki kez (araç tekrarı).
+
+## SÛRE 108 KEVSER SONU (2026-11-01)
+
+**Okunan: 4999 / 6236 ayet (%80,2)** — sûre 1 ve 9-108 TAM, sûre 2 kısmi (1-20). İlerleme `kevser_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1544** (`kok_ekle_108.py`: نحر, شنأ, بتر). Aday havuzu **1041** (`AX_kevser` boş). Bağ **AS_kevser** 5. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 3 / 0 · [x/y] **7 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 1** (108:3).
+Sûrenin 3 ayeti tek blokta okundu: 1-3. Dosyalar `yamalar/iskele_108.py` ile maun_* şablonlarından kuruldu (oturum dışı; ad 'kevser'; set değişkeni ASCII 'KEVSER'; ISTEK iskele içinde boş; yüzde sabiti maskeli; aile karşılaştırması temiz). Paket `notlar/sure108_kevser_okuma.md` (3 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure108.zip` (sûre 103-108).
+
+### Sûre 108 bilançosu (TAM SAYIM, `okuma_metni['108']['_bilanco_sure']`)
+10 kelime · **lafız 0 · Rab 1 (108:2)** · edilgen 0 · iltifât 0 · hapaks 2 ayet (108:2, 108:3 — yeni kökler) · Yıldız: yıldızsız 1 ayet, ★★★ 2 ayet — 108:2 (rab, z=6,78), 108:3 (hapaks).
+Fâsıla ölçüm R 3 — geçiş yok. En uzun 4 kelime (108:3); en kısa 3 (108:1, 108:2). Sayı işareti 108:1 'kevser' kök kaynaklı (924).
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 3 (verme, ibadet emri, tutum).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (Rab tek geçiş). 1040: 107:7 / 108:1 sûre sınırı (esirgemeyle kapanış / vermeyle açılış; fâsıla ن → ر); ardışık sûre okuma bağı kök صلو 107:4-5 / 108:2. 1039: 3/3 notlu; ayet içi 0, blok içi 0. 108:3 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: konuşan 1P, hitap 2MS, buğzeden adsız; 1P ile Rab'ın aynılığı KAPATILAMAZ.
+* 924: ayet 1 harf3; sayı işareti 'kevser'; 'huve' ayırma zamiri hasrı biçim alanında yok; sahset 1P çıkışı kısmi örtüşme.
+* Retroaktif betik okuma_metni'nde başka biçimde kayıtlı sûre anahtarını (sûre 5, blok aralıkları) okunmuş sayıyor — ayet kaydı yok, yama atlanıyor (sûre 63 / 78 dersinin eşi).
+* DUZELTME 108:3: sûre sonu kelimesi yanlış tarif edildi ('2MS zamiriyle kapanıyor'); kayıttan sonra, sunumdan önce yakalandı.
+
+## SÛRE 109 KÂFİRÛN SONU (2026-11-01)
+
+**Okunan: 5005 / 6236 ayet (%80,3)** — sûre 1 ve 9-109 TAM, sûre 2 kısmi (1-20). İlerleme `kafirun_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1544** (değişmedi; `kok_ekle_109.py` boş). Aday havuzu **1041** (`AX_kafirun` boş). Bağ **AS_kafirun** 8. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 6 / 0 · [x/y] **8 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 6 ayeti tek blokta okundu: 1-6. Dosyalar `yamalar/iskele_109.py` ile kevser_* şablonlarından kuruldu (oturum dışı; ad 'kafirun'; set değişkeni ASCII 'KAFIRUN'; ISTEK boş; kayıt dosyası boş — kevser DUZELTME'si taşınmadı, assert'li; yüzde sabiti maskeli; aile karşılaştırması temiz). Paket `notlar/sure109_kafirun_okuma.md` (6 başlık). Taban **744a7f1**; zip `fark_744a7f1_sure109.zip` (sûre 103-109).
+
+### Sûre 109 bilançosu (TAM SAYIM, `okuma_metni['109']['_bilanco_sure']`)
+26 kelime · **lafız 0 · Rab 0** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız: yıldızsız 3 ayet, ★ 3 ayet — 109:3, 4, 5 (etiket 'n', düzeltilmiş kaynak kafiye kırığı — 1001).
+Fâsıla metinde ن ن د م د ن (ölçüm N 4, د 2); 109:3-5 kırık işaretli, 109:6 geçişi işaretsiz (924). En uzun 5 kelime (109:3-5); en kısa 3 (109:1). esit2 TAM 109:3 ↔ 109:5; nakarat3 süzgeç GEÇER.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 6.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok). 1040: 108:3 / 109:1 sûre sınırı (2MS'ye hitapla kapanış / 2MS'ye 'qul' emriyle açılış; fâsıla ر → ن). 1039: 6/6 notlu; ayet içi 5 (109:2-6), blok içi 0. 109:6 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1001: üç ★ kaynağı 'n' etiketli, gerçek kaynak kafiye kırığı.
+* 1017: 'qul' sözü 109:1 / 109:6 arasında; konuşan, hitap edilen, tapılanlar adsız.
+* 924: ayet 1 harf3; söz katmanı ölçümde ayrılmıyor; 109:6 fâsıla geçişi işaretsiz.
+* Okuma bağı: 10:104 aynı kuruluşun öğelerini ('qul yâ eyyuhâ', 'lâ a'budu … ta'budûn', 'dînî') tek ayette taşıyor.
