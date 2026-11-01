@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""kadr_metin_1.py — sûre 97 (Kadr) meal ve mercekler (◇ + ◈K ◈B ◈D ◈A).
+Arapça sabit YOK: kökler yalnız korpus kök biçimiyle anılır, kelime biçimleri Latin harfle.
+Yeni bloklar MEALn/Mn sözlükleri olarak eklenir ve sonda MEAL/M'ye katılır.
+Sûre 40'tan itibaren ◇ satırında her ayet 'Karşıt çift (aday 1039, okuma): …' notu taşır — yoksa 'yok'
+(okuma kolunun kontrol verisi; seçerek raporlama önlenir)."""
+MEAL = {}
+M = {}
+
+# ── blok 97:1-5 (2026-10-31) ──
+MEAL1 = {
+ 1: "Biz onu Kadir gecesinde indirdik.",
+ 2: "Kadir gecesinin ne olduğunu sana ne bildirdi?",
+ 3: "Kadir gecesi bin aydan hayırlıdır.",
+ 4: "Melekler ve Rûh, Rablerinin izniyle her işten onda iner.",
+ 5: "Esenliktir o, fecrin doğuşuna dek.",
+}
+M1 = {
+ 1: "◇ 'innâ enzelnâhu fî leyleti'l-qadr' — 'inne' + 1P + PERF 1P (IV. bab) + 3MS zamir + 'fî' + ad (GEN) + belirli ad (GEN) (ölçüm edim haber, kip yok). Konuşan 1P adsız (1017). 'hu' zamirinin göndergesi metinde yazılmamış — KAPATILAMAZ; meal 'onu' ile açık bırakır. Sûre sınırı: 96:19 ('kellâ lâ tuti'hu ve'scud ve'qterib') (okumada görüldü) 2MS'ye yasak ve emirle kapanış → 97:1 1P haberle açılış; fâsıla ب → ر; sûre 96 lafız 1 Rab 3, sûre 97 lafızsız, Rab 1 (aday 1040, kayıt). Harekesiz 'innâ enzelnâhu' 3 ayet: 12:2 ve 44:3 (okumada görüldü), 97:1; 12:2'de ACC 'qur'ânen 'arabiyyen' ile / 44:3'te nekre 'fî leyletin mubâraketin' ile / burada belirli tamlama 'fî leyleti'l-qadr' ile (okuma). Lemma 'leyle' 7 ayet: 44:3 (okumada görüldü), sûre içi 97:1, 97:2 ve 97:3, henüz okunmamış 3. Lemma 'qadr' 7 ayet: okunmuş 3, sûre içi 97:1, 97:2 ve 97:3, henüz okunmamış 1. Harekesiz 'leyletu'l-qadr' 3 ayet — korpusun tamamı sûre içi, ardışık üç ayet (97:1, 97:2, 97:3). Ölçüm harf 39 → harf3 20 — besmele ailesi (924). Çıpa: indirme zamanı olarak adlı gece; doğal olgu anlatımı değil — olgu=False (44:3 kaydı emsali); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime, yıldızsız. نزل [1/2], ليل [1/3], قدر [1/3]. Fâsıla ر. Karşıt çift (aday 1039, okuma): yok.\n"
+    "◈K — K1 gece (ليل — ölçüm kök alanı); K2 geçmiş (PERF 'enzelnâ'), adlı gece; K3 —; K4 'enzelnâ' — indirme, özne 1P, nesne 3MS (gönderge yazılmamış).\n"
+    "◈B — —\n"
+    "◈D — D1 'inne' + 1P + PERF + 3MS + 'fî' + tamlama; D2 tekit 'inne' (ölçüm biçim alanı yazmıyor — 924); D3 'innâ enzelnâhu' (12:2, 44:3); D4 1P + 3MS, sahset ['1', '3'].\n"
+    "◈A — A1 konuşan 1P (adsız); indirilen 3MS (adsız); A2 adlı gece; A3 konuşan adsız; A4 sûre 1P haberle açılıyor.",
+ 2: "◇ 've mâ edrâke mâ leyletu'l-qadr' — 've' + soru 'mâ' + PERF 3MS (IV. bab) + 2MS + soru 'mâ' + belirli tamlama (NOM) (ölçüm edim soru, kip INTG 2). Hitap 2MS adsız (1017). Sorulan, 97:1'in tamlaması aynen (okuma). Harekesiz 've mâ edrâke mâ' 12 ayet: 69:3 ve 86:2 (okumada görüldü), okunmuş 6 ayet daha, 97:2, henüz okunmamış 3; 69:3'te 'el-hâqqa', 86:2'de 'et-târıq' tek kelime / burada iki kelimelik tamlama (okuma). Lemma 'edrâ' 17 ayet: 69:3 ve 86:2 (okumada görüldü), okunmuş 11 ayet daha, 97:2, henüz okunmamış 3. 97:3 tamlamayı üçüncü kez özne yaparak haber veriyor (okuma). Çıpa: soru (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime, yıldızsız. دري [1/1], ليل [2/3], قدر [2/3]. Fâsıla ر. Karşıt çift (aday 1039, okuma): yok.\n"
+    "◈K — K1 gece (ليل — ölçüm kök alanı); K2 —; K3 —; K4 —.\n"
+    "◈B — —\n"
+    "◈D — D1 've' + 'mâ' + PERF + 2MS + 'mâ' + tamlama; D2 soru (ölçüm INTG 2); D3 tamlamanın ikinci geçişi; 've mâ edrâke mâ' (69:3, 86:2); D4 2MS + 3MS, sahset ['2', '3'].\n"
+    "◈A — A1 hitap 2MS (adsız); A2 adlı gece; A3 soran adsız; A4 soru — anlatı sürüyor.",
+ 3: "◇ 'leyletu'l-qadri xayrun min elfi şehr' — belirli tamlama (NOM) + nekre 'xayr' (NOM) + 'min' + 'elf' (GEN) + nekre ad (GEN); fiilsiz ad cümlesi (ölçüm zaman yok, şahıs işareti yok). Tamlama üçüncü kez, bu kez cümlenin öznesi (okuma). 'xayrun min' karşılaştırması iki zaman ölçüsü arasında: bir gece / bin ay (okuma). 'elf' gerçek sayı (ölçüm sayı işareti). Lemma 'elf' 13 ayet: 70:4 (okumada görüldü), okunmuş 4 ayet daha, 97:3, henüz okunmamış 7; 70:4'te 'xamsîne elfe sene' (elli bin yıl) / burada 'elfi şehr' (bin ay) (okuma). Lemma 'şehr' 17 ayet: okunmuş 7, 97:3, henüz okunmamış 9. Harekesiz 'min elfi şehr' korpusta 1 (97:3). Sûre içi: harekesiz 'leyletu'l-qadr' [3/3] — korpustaki bütün geçişleri bu blokta basıldı. Çıpa: değer karşılaştırması (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 6 kelime, yıldızsız. ليل [3/3], قدر [3/3], خير [1/1], ألف [1/1], شهر [1/1]. Fâsıla ر. Karşıt çift (aday 1039, okuma): yok.\n"
+    "◈K — K1 gece (ليل — ölçüm kök alanı); K2 bir gece / bin ay — sayıyla süre; K3 gece ile bin ay arasında ölçek aralığı (okuma); K4 —.\n"
+    "◈B — —\n"
+    "◈D — D1 fiilsiz ad cümlesi + 'xayrun min' karşılaştırma; D2 — (ölçüm biçim alanı boş); D3 tamlamanın üçüncü geçişi — pekiştirme (okuma); D4 şahıs işareti yok, sahset —.\n"
+    "◈A — A1 —; A2 adlı gece; A3 konuşan adsız; A4 97:2 sorusunun ardından gecenin değeri.",
+ 4: "◇ 'tenezzelu'l-melâ'iketu ve'r-rûhu fîhâ bi-izni rabbihim min kulli emr' — IMPF 3FS (V. bab) + belirli ad (NOM) + 've' + belirli ad (NOM) + 'fî' + 3FS + 'bi' + ad (GEN) + Rab (GEN) + 3MP + 'min' + 'kull' + nekre ad (GEN) (ölçüm edim haber, zaman IMPF). İki özne bir fiile bağlı ('el-melâ'iketu ve'r-rûhu'): fiil 3FS, öndeki çoğul ada uyuyor; ölçüm özne sayısını göstermiyor (okuma; 924). 'fîhâ' 3FS — önceki ayetlerde dişil tek ad 'leyle' (okuma). 'rabbihim' 3MP — ayetin iki öznesine dönüyor (okuma). Harekesiz 'el-melâ'iketu ve'r-rûh' 2 ayet: 70:4 (okumada görüldü), 97:4 — korpusun iki geçişi; 70:4'te 'ta'ruju' (yükselir) 'ileyhi' / burada 'tenezzelu' (iner) 'fîhâ' (okuma). 78:38 (okumada görüldü) aynı iki ad ters sırayla ('er-rûhu ve'l-melâ'iketu'), fiil 'yeqûmu' 3MS, öndeki ada uyuyor (okuma). 16:2 (okumada görüldü) 'yunezzilu'l-melâ'ikete bi'r-rûhi min emrihî' — kök نزل, melekler, rûh ve 'emr' aynı ayette; orada melekler nesne, rûh 'bi' ile / burada ikisi özne (okuma). Lemma 'tenezzele' 7 ayet: 41:30 (okumada görüldü), okunmuş 5 ayet daha, 97:4; 41:30'da iki te ile 'tetenezzelu' / burada tek te ile 'tenezzelu' yazılı (okuma). Lemma 'rûh' 20 ayet: 16:2, 70:4 ve 78:38 (okumada görüldü), okunmuş 12 ayet daha, 97:4, henüz okunmamış 4. Harekesiz 'bi-izni rabbihim' (son kelime önek eşleşmesi) 3 ayet: 14:1 (okumada görüldü), okunmuş 1 ayet daha, 97:4; 14:1'de çıkarma fiiline bağlı / burada inişe (okuma). Lemma 'izn' 35 ayet: 14:1 (okumada görüldü), okunmuş 16 ayet daha, 97:4, henüz okunmamış 17. Harekesiz 'kullu emr' 2 ayet: 44:4 (okumada görüldü), 97:4; 44:4'te de geceye dönen 'fîhâ' var ve 44:3 'innâ enzelnâhu fî leyletin' ile ardışık / burada 97:1 ile 97:4 arasında iki ayet (okuma). Kök روح ◈K tetiğinde S1 kısıtı — 'rûh' izinli lemma değil, '—'. Ölçüm ★★ rab z=2,05 (formül davranışı). Çıpa: melekler ve rûhun inişi gaybî (olgu=False; 70:4, 78:38 kaydı emsali); merdiven uygulanmadı; tarayıcı vermedi. Lafız yok; Rab 1 — sûrenin tek Rab geçişi; esmâ yok. 9 kelime. نزل [2/2], ملك [1/1], روح [1/1], أذن [1/1], ربب [1/1], كلل [1/1], أمر [1/1]. Fâsıla ر. Karşıt çift (aday 1039, okuma): yok.\n"
+    "◈K — —\n"
+    "◈B — —\n"
+    "◈D — D1 IMPF + iki özne + 'fî' + 3FS + 'bi' + ad + Rab + 3MP + 'min kulli' + ad; D2 — (ölçüm biçim alanı boş); D3 kök نزل ikinci geçiş (97:1 PERF 1P / 97:4 IMPF 3FS); 'el-melâ'iketu ve'r-rûh' (70:4); 'kullu emr' (44:4); D4 3FS + 3MP, sahset ['3'].\n"
+    "◈A — A1 melekler ve rûh (özne); Rab (3MP iyelik); A2 adlı gece ('fîhâ'); A3 konuşan adsız; A4 iniş anlatılıyor — anlatı sürüyor.",
+ 5: "◇ 'selâmun hiye hattâ matla'i'l-fecr' — nekre 'selâm' (NOM) + 3FS zamir + 'hattâ' + ad (GEN) + belirli ad (GEN); fiilsiz ad cümlesi, haber önde (okuma; ölçüm zaman yok). 'hiye' 3FS — gönderge 'leyle' (okuma). Esmâ: ölçüm 'selâm'ı 1. sırada, ORTA konumda gösteriyor; nekre 'selâm' gecenin haberi — karar 'degil' (esma_el_ekle); ölçüm mührü 1, geçerli 0 (bilanço). Lemma 'selâm' 39 ayet: okunmuş 33, 97:5, henüz okunmamış 5. Lemma 'matla'' korpusta 1 (97:5). Lemma 'fecr' 5 ayet: 89:1 (okumada görüldü), okunmuş 2 ayet daha, 97:5, henüz okunmamış 1; 89:1'de yemin edilen / burada gecenin sınırı (okuma). Harekesiz 'hattâ matla'i'l-fecr' korpusta 1. Kök فجر ◈K tetik listesinde değil — '—'; gözlem: 97:1-3'ün gecesi ('hiye') fecrin doğuşuyla sınırlanıyor (okuma). Çıpa: fecrin doğuşu, zaman sınırı olarak adlı vakit; süreç / ölçü yok — L0 olgu=True (89:1 kaydı emsali); tarayıcı vermedi. Lafız ve Rab yok. 5 kelime, yıldızsız. سلم [1/1], طلع [1/1], فجر [1/1]. Fâsıla ر — sûrenin beş ayeti de ر (ölçüm R sınıfı, kırık yok). Karşıt çift (aday 1039, okuma): ayet içi yok; blok içi 'leyle' (97:1, 97:2, 97:3) / 'fecr' (97:5) — gece ve onu sınırlayan fecir (okuma).\n"
+    "◈K — —\n"
+    "◈B — —\n"
+    "◈D — D1 nekre ad + 3FS + 'hattâ' + tamlama; D2 haber önde (okuma; ölçüm biçim alanı yazmıyor — 924); D3 —; D4 3FS, sahset ['3'].\n"
+    "◈A — A1 —; A2 adlı gece, fecrin doğuşuna dek; A3 konuşan adsız; A4 sûre zaman sınırıyla kapanıyor.",
+}
+MEAL.update(MEAL1); M.update(M1)

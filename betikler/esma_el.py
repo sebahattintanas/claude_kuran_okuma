@@ -867,4 +867,9 @@ KARAR = {
 # sûre 93 blok 1-11
 '93:4:1': 'degil',  # 've le'l-âxiratu' — âhiret ('el-ûlâ'dan hayırlı denilen), ilâhî ad değil
 '93:4:5': 'degil',  # 'mine'l-ûlâ' — ilk (dünya), âhiretle karşılaştırılan, ilâhî ad değil
+# sûre 97 blok 1-5
+'97:5:1': 'degil',  # 'selâmun hiye' — nekre 'selâm', gecenin ('hiye') haberi; ilâhî ad değil
+# sûre 100 blok 1-11
+'100:7:4': 'degil',  # 've innehû 'alâ zâlike le-şehîd' — SINIR VAKASI: 'innehû' göndergesi metinde işaretsiz (insan / Rab); karar sözdizimsel paralelliğe göre — önceki ayetin öznesi 'el-insân' (Rab GEN), sonraki ayetin eş 've innehû'su insana dönüyor
+'100:11:5': 'ilahi',  # 'inne rabbehum bihim yevme'izin le-xabîr' — Rabbin haberi (NOM, son token)
 }
