@@ -872,4 +872,12 @@ KARAR = {
 # sûre 100 blok 1-11
 '100:7:4': 'degil',  # 've innehû 'alâ zâlike le-şehîd' — SINIR VAKASI: 'innehû' göndergesi metinde işaretsiz (insan / Rab); karar sözdizimsel paralelliğe göre — önceki ayetin öznesi 'el-insân' (Rab GEN), sonraki ayetin eş 've innehû'su insana dönüyor
 '100:11:5': 'ilahi',  # 'inne rabbehum bihim yevme'izin le-xabîr' — Rabbin haberi (NOM, son token)
+# sûre 110 blok 1-3
+'110:3:7': 'ilahi',  # 'innehû kâne tevvâbâ' — 'hû' önceki 'istaxfirhu'nun nesnesiyle aynı 3MS; öncesindeki 3MS adlar 'hamd' ve 'rabb' (GEN), bağış dilenen Rab; son token
+# sûre 112 blok 1-4
+'112:1:4': 'ilahi',  # 'huve'llâhu ehad' — olumlu haber, lafzın haberi (NOM, son token)
+'112:2:2': 'ilahi',  # 'allâhu's-samed' — lafzın haberi (NOM, son token)
+'112:4:5': 'degil',  # 've lem yekun lehû kufuwen ehad' — olumsuz cümlede nekre 'ehad' ('hiç kimse'), 'yekun'un ismi; 'lehû' göndergesi ilâhî, 'ehad' değil (sûre 89 dersi)
+# sûre 114 blok 1-6
+'114:2:1': 'ilahi',  # 'meliki'n-nâs' — GEN, önceki ayetin 'rabbi'n-nâs'ı ile aynı i'râb; aynı göndergenin ikinci tamlaması (1. token, son token 'en-nâs')
 }
