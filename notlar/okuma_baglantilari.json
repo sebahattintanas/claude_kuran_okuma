@@ -35704,5 +35704,320 @@
    "kural": "okuma — 1S iyelikli 'dînî': şüphe edilen / sizin dininize karşı",
    "not": "kök eşi."
   }
+ ],
+ "AS_nasr": [
+  {
+   "bag": "109:6 → 110:1",
+   "kural": "okuma — ardışık sûre sınırı: fiilsiz paralel isim cümlesiyle kapanış / 'izâ' şartıyla açılış; fâsıla ن → ح; 109 lafızsız ve Rabsız, 110 lafız 2 Rab 1 (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "109:6 → 110:2",
+   "kural": "okuma — ardışık sûre, kök دين: 'dînukum' / 'dîn' (2MP / 1S iyelik) → 'dîni'llâh' (aday 1040, okuma bağı)",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "61:13 → 110:1",
+   "kural": "okuma — xref 'nasr' + lafız + 'feth': nekre, 'mina'llâh', 'qarîb' / izâfet, belirli, 'izâ' şartı",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "29:10 → 110:1",
+   "kural": "okuma — kalıp 'câ'e nasr' (korpusun iki geçişi): 'in' şartı, nekre, 'min rabbik' / 'izâ' şartı, lafza izâfet",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "12:76 → 110:2",
+   "kural": "okuma — kalıp 'fî dîn' (korpusun üç geçişi): 'dîni'l-melik' / 'dîni'llâh'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "24:2 → 110:2",
+   "kural": "okuma — harekesiz 'fî dîni'llâh': ceza hükmünde acımama / insanların girişi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "78:18 → 110:2",
+   "kural": "okuma — lemma 'fevc', hâl 'efwâcâ': sûra üfürüldüğü gün geliş (2MP) / dine giriş (3MP)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "15:98 → 110:3",
+   "kural": "okuma — kalıp 'fe-sebbih bi-hamdi rabbike' (korpusun iki geçişi): ardından secde emri / istiğfar emri",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "40:55 → 110:3",
+   "kural": "okuma — tesbih + istiğfar emirleri ters sırada: 'li-zenbike' ve vakitle / nesne Rab, vakitsiz",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "42:5 → 110:3",
+   "kural": "okuma — xref 'sebbeha' + 'bi-hamdi rabb' + 'istaxfere' aynı sırada: IMPF 3MP melekler / IMPV 2MS",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "9:118 → 110:3",
+   "kural": "okuma — lemma 'tevvâb': lafız + ayırma zamiri + belirli, 'er-rahîm' ile / nekre, 'kâne' haberi, tek başına",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "110:1 → 110:3",
+   "kural": "sûre içi — 'izâ' şartı (110:1-2) → 'fe' ile cevap (okuma; ölçüm şart işaretlemiyor)",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_mesed": [
+  {
+   "bag": "110:3 → 111:1",
+   "kural": "okuma — ardışık sûre sınırı: Rabbin 'tevvâb' sıfatıyla kapanış / PERF 3FS 'tebbet' ile açılış; fâsıla ا → ب; 110 lafız 2 Rab 1, 111 lafızsız ve Rabsız (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "11:101 → 111:1",
+   "kural": "okuma — kök تبب: 'tetbîb' ilâhların katmadığı yıkım / 'tebbet', 'tebb'; korpusun üç ayetinin ikisi",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "77:31 → 111:1",
+   "kural": "okuma — lemma 'leheb' (korpusun üç geçişi okundu): alevden korumama / künye",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "69:28 → 111:2",
+   "kural": "okuma — kalıp 'mâ ağnâ' + 'an' + mal: 1S 'mâliyeh' / 3MS 'mâluhû'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "92:11 → 111:2",
+   "kural": "okuma — harekesiz ''anhu mâluhû' (korpusun iki geçişi): IMPF 'yuğnî' + 'izâ teraddâ' / PERF 'ağnâ' + 've mâ keseb'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "15:84 → 111:2",
+   "kural": "okuma — 'ağnâ' + 'kesebe' tek ayette: kazanılan tek özne, 3MP / mal ve kazanılan iki özne, 3MS",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "88:4 → 111:3",
+   "kural": "okuma — lemma 'yaslâ' + nekre 'nâran' + nitelik: 3FS 'hâmiye' / 3MS 'se-' + 'zâte leheb'",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "85:5 → 111:3",
+   "kural": "okuma — 'nâr' + 'zât' + ad: belirli GEN 'zâti'l-veqûd' / nekre ACC 'zâte leheb'",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "111:1 → 111:3",
+   "kural": "sûre içi — lemma 'leheb' iki geçiş: künye / ateşin niteliği",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "77:31 → 111:3",
+   "kural": "okuma — kök غني + 'leheb': tek ayette / ardışık iki ayette (111:2-3)",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "72:15 → 111:4",
+   "kural": "okuma — lemma 'hatab' (korpusun iki geçişi okundu): sapanlar cehenneme odun / odun taşıyıcısı",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "66:10 → 111:4",
+   "kural": "okuma — lemma 'imra'at' + kocaya izâfet, ateş bağlamı: 'imra'ete nûhin ve'mra'ete lût' / 'imra'atuhû'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "50:16 → 111:5",
+   "kural": "okuma — lemma 'habl': 'habli'l-verîd' damar / 'hablun min mesed' ip",
+   "not": "lemma eşi."
+  }
+ ],
+ "AS_ihlas": [
+  {
+   "bag": "111:5 → 112:1",
+   "kural": "okuma — ardışık sûre sınırı: fiilsiz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → د; 111 lafızsız ve Rabsız, 112 lafız 2 Rab yok (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "67:29 → 112:1",
+   "kural": "okuma — kalıp 'qul huve': 'er-rahmân' + 1P inanma / lafız + 'ehad'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "59:22 → 112:1",
+   "kural": "okuma — harekesiz 'huve'llâh': ilgi zamiri + nefy-istisna / nekre haber 'ehad'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "72:22 → 112:1",
+   "kural": "okuma — harekesiz 'allâhu ehad' (korpusun iki geçişi): 'mina'llâhi ehad' olumsuz özne 'hiç kimse' / lafzın haberi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "112:1 → 112:4",
+   "kural": "sûre içi — lemma 'ehad': Allah, olumlu haber / 'hiç kimse', olumsuz cümlede nekre (aday 1041, kayıt)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "89:25 → 112:4",
+   "kural": "okuma — olumsuz cümlede nekre 'ehad' ('hiç kimse'): esmâ 'degil' emsali",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "37:152 → 112:3",
+   "kural": "okuma — lemma 'velede', özne Allah: iddia, PERF olumlu ('ve innehum le-kâzibûn') / 'lem' ile olumsuz + edilgen",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "19:33 → 112:3",
+   "kural": "okuma — lemma 'velede' edilgen: PERF 1S 'vulidtu' / 'lem yûled' 3MS",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "17:111 → 112:4",
+   "kural": "okuma — kalıp 've lem yekun lehû' (korpusun üç geçişi okundu): 'şerîk' + 'veliyy', önce 'lem yettexiz veleden' / 'kufuwen ehad', önce 'lem yelid'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "25:2 → 112:4",
+   "kural": "okuma — kalıp 've lem yekun lehû': 'şerîkun fi'l-mulk', önce 'lem yettexiz veleden' / 'kufuwen ehad'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "112:3 → 112:4",
+   "kural": "sûre içi — 'lem' + cezm üç kez: 'yelid', 'yûled', 'yekun'",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_felak": [
+  {
+   "bag": "112:4 → 113:1",
+   "kural": "okuma — ardışık sûre sınırı: olumsuz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → ق; 112 lafız 2 Rab yok, 113 lafızsız Rab 1 (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "112:1 → 113:1",
+   "kural": "okuma — ardışık iki sûre 'qul' ile açılıyor: 'qul huve'llâhu ehad' / 'qul e'ûzu' (aday 1040, okuma bağı)",
+   "not": "açılış eşi."
+  },
+  {
+   "bag": "40:27 → 113:1",
+   "kural": "okuma — xref 'e'ûzu' + 'bi-rabb': PERF 1S Mûsâ, 'rabbî ve rabbikum' / IMPF 1S söz içi, 'rabbi'l-feleq'",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "23:97 → 113:1",
+   "kural": "okuma — 'qul' + 'e'ûzu': nidâ ile 2MS 'bike' + 'min hemezâti'ş-şeyâtîn' / 3. şahıs Rab tamlaması + 'min şerri' dizisi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "72:6 → 113:1",
+   "kural": "okuma — lemma 'e'ûzu': sığınılan 'ricâl mine'l-cinn' / 'rabbi'l-feleq'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "26:63 → 113:1",
+   "kural": "okuma — kök فلق: denizin yarılması (fiil) / 'el-feleq' (ad, tarif edilmiyor)",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "70:20 → 113:2",
+   "kural": "okuma — lemma 'şerr': belirli, insana dokunan / 'min şerri' + tamlayan, sığınılan",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "17:78 → 113:3",
+   "kural": "okuma — kök غسق: 'ğaseqi'l-leyl' (leyl ile tamlama) / nekre ortaç 'ğâsiq', adsız",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "20:27 → 113:4",
+   "kural": "okuma — lemma ''uqde': dildeki tekil düğüm, çözülmesi dilenen / belirli çoğul, üflenen",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "48:15 → 113:5",
+   "kural": "okuma — lemma 'hasede': IMPF 2MP 'tahsudûnenâ' / PERF 3MS, ortaçla aynı kök",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "113:3 → 113:5",
+   "kural": "sûre içi — aynı dizi: 'min şerri' + nekre ortaç + 'izâ' + PERF 3MS",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "113:2 → 113:5",
+   "kural": "sûre içi — 'min şerri' dört kez (kök شرر [4/4]): genel ilgi / üç adsız nitelik",
+   "not": "sûre içi eş."
+  }
+ ],
+ "AS_nas": [
+  {
+   "bag": "113:5 → 114:1",
+   "kural": "okuma — ardışık sûre sınırı: haset öbeğiyle kapanış / 'qul e'ûzu bi-rabbi'n-nâs' ile açılış; fâsıla د → س; iki sûre de lafızsız, Rab 1 (aday 1040, kayıt)",
+   "not": "sınır eşi."
+  },
+  {
+   "bag": "113:1 → 114:1",
+   "kural": "okuma — harekesiz 'qul e'ûzu bi-rabb' (korpusun iki geçişi), iki ardışık sûrenin ilk ayeti: 'el-feleq' / 'en-nâs' (aday 1040, okuma bağı)",
+   "not": "açılış eşi."
+  },
+  {
+   "bag": "113:2 → 114:4",
+   "kural": "okuma — ardışık sûrede 'min şerri' + tamlayan: dört öbek / tek öbek, iki sıfatlı belirli ad (aday 1040, okuma bağı)",
+   "not": "kuruluş eşi."
+  },
+  {
+   "bag": "20:114 → 114:2",
+   "kural": "okuma — lemma 'melik': lafzın sıfatı, belirli / 'en-nâs' tamlaması",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "12:43 → 114:2",
+   "kural": "okuma — lemma 'melik' insan için (kral) / Allah için (aday 1041 ailesi, sûreler arası okuma notu)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "11:101 → 114:3",
+   "kural": "okuma — lemma 'ilâh': yakarılan ilâhlar ('âlihetuhum') / 'ilâhi'n-nâs' (sûreler arası okuma notu)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "81:15 → 114:4",
+   "kural": "okuma — kök خنس (korpusun iki geçişi okundu): yemin edilen sinenler / 'el-xannâs' sıfat",
+   "not": "kök eşi."
+  },
+  {
+   "bag": "20:120 → 114:5",
+   "kural": "okuma — lemma 'vesvese': özne adlı, 'ileyhi' / özne ilgi zamiri, 'fî sudûri'n-nâs'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "50:16 → 114:5",
+   "kural": "okuma — lemma 'vesvese': özne nefs, 'bihî' / göğüslerde",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "11:119 → 114:6",
+   "kural": "okuma — harekesiz 'mine'l-cinneti ve'n-nâs' (korpusun üç geçişi okundu): cehennemi dolduracaklar, 'ecma'în' ile / vesvesecinin ya da insanların açıklaması",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "114:1 → 114:3",
+   "kural": "sûre içi — üç atıfsız tamlama, aynı iskelet ad + 'en-nâs': Rab, Melik, İlâh",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "114:4 → 114:5",
+   "kural": "sûre içi — kök وسوس [2/2]: ad 'el-vesvâs' / fiil 'yuvesvisu'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "114:1 → 114:6",
+   "kural": "sûre içi — lemma 'nâs' beş geçiş [5/5]: tamlayan (114:1-3), göğüslerine vesvese verilenler (114:5), cinlerle birlikte (114:6)",
+   "not": "sûre içi eş."
+  }
  ]
 }

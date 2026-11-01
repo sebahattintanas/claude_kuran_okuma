@@ -8573,3 +8573,135 @@ e_oto 0; mühür 0.
 * 1017: 'qul' sözü 109:1 / 109:6 arasında; konuşan, hitap edilen, tapılanlar adsız.
 * 924: ayet 1 harf3; söz katmanı ölçümde ayrılmıyor; 109:6 fâsıla geçişi işaretsiz.
 * Okuma bağı: 10:104 aynı kuruluşun öğelerini ('qul yâ eyyuhâ', 'lâ a'budu … ta'budûn', 'dînî') tek ayette taşıyor.
+
+## SÛRE 110 NASR SONU (2026-11-01)
+
+**Okunan: 5008 / 6236 ayet (%80,3)** — sûre 1 ve 9-110 TAM, sûre 2 kısmi (1-20). İlerleme `nasr_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1544** (değişmedi; `kok_ekle_110.py` boş). Aday havuzu **1041** (`AX_nasr` boş). Bağ **AS_nasr** 12. Esmâ KARAR **729** (+1: 110:3 'tevvâb' ilahi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 3 / 0 · [x/y] **18 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 3 ayeti tek blokta okundu: 1-3. Dosyalar `yamalar/iskele_110.py` ile kafirun_* şablonlarından kuruldu (oturum dışı; ad 'nasr'; set değişkeni ASCII 'NASR'; ISTEK boş; kayıt dosyası boş, assert'li; yüzde sabiti maskeli; I['not'] satırı değişimden sonra; aile karşılaştırması temiz). Blok listesi üç yerde `yamalar/yama_bl_110.py` ile dolduruldu. Paket `notlar/sure110_nasr_okuma.md` (3 başlık). Taban **40018b4**; zip `fark_40018b4_sure110.zip`.
+
+### Sûre 110 bilançosu (TAM SAYIM, `okuma_metni['110']['_bilanco_sure']`)
+19 kelime · **lafız 2 · Rab 1** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız: ★★★ 110:1 (allah), ★★ 110:2 (allah), 110:3 (rab) — formül davranışı; kafiye kırığı yok.
+Fâsıla metinde ح ا ا (ölçüm ح 1, A 2); 110:2 geçişi işaretsiz (924). En uzun 7 kelime (110:2, 3); en kısa 5 (110:1). esit2 / nakarat3 yok; xref 110:1 → 61:13, 110:3 → 42:5.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 3.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 1, ilâhî 1 (110:3 'tevvâb'); mühür 1, geçerli 1 (110:3, ton cemâl); ölçüm satırı 'MÜHÜRSÜZ' (1022).
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok. 1040: 109:6 / 110:1 sûre sınırı (fiilsiz paralel isim cümlesiyle kapanış / 'izâ' şartıyla açılış; fâsıla ن → ح); ardışık sûre okuma bağı kök دين 109:6 / 110:2. 1039: 3/3 notlu; ayet içi 0, blok içi 0. Sûre 111'in ilk ayeti henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1022: ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 110:3.
+* 1017: 2MS hitap ve konuşan adsız; yardımın kime olduğu, 'el-feth' ve bağışın kimin için olduğu KAPATILAMAZ.
+* 924: ayet 1 harf3; 'izâ' şartı / 'fe' cevabı ölçümde yok; iki özneli 3MS fiil özne sayısı (sûre 97 dikkatinin eşi); 110:2 fâsıla geçişi işaretsiz; 2MS girişi kısmi örtüşme.
+* Okuma bağı: 40:55 / 42:5 / 110:3 tesbih + istiğfar çifti — 40:55 ters sıra ve 'li-zenbike', 42:5 aynı sıra ve melekler, 110:3 nesne Rab ve vakitsiz.
+
+## SÛRE 111 MESED SONU (2026-11-01)
+
+**Okunan: 5013 / 6236 ayet (%80,4)** — sûre 1 ve 9-111 TAM, sûre 2 kısmi (1-20). İlerleme `mesed_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1546** (+2: جيد, مسد — `kok_ekle_111.py`; ikisi de korpusta tek ayet). Aday havuzu **1041** (`AX_mesed` boş). Bağ **AS_mesed** 13. Esmâ KARAR **729** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 5 / 0 · [x/y] **17 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 5 ayeti tek blokta okundu: 1-5. Dosyalar `yamalar/iskele_111.py` ile nasr_* şablonlarından kuruldu (oturum dışı; ad 'mesed'; set değişkeni ASCII 'MESED'; ISTEK boş, kökler `yamalar/yama_kok_111.py` ile; kayıt dosyası boş, assert'li; yüzde sabiti maskeli; aile karşılaştırması temiz). Blok listesi üç yerde `yamalar/yama_bl_111.py` ile. Paket `notlar/sure111_mesed_okuma.md` (5 başlık). Taban **40018b4**; zip `fark_40018b4_sure111.zip` (sûre 110-111).
+
+### Sûre 111 bilançosu (TAM SAYIM, `okuma_metni['111']['_bilanco_sure']`)
+23 kelime · **lafız 0 · Rab 0** · edilgen 0 · iltifât 0 · hapaks 1 (111:5) · Yıldız: yıldızsız 4 ayet, ★★★ 111:5 (hapaks, yeni kökler — formül davranışı).
+Fâsıla metinde ب ب ب ب د (ölçüm ب 4, د 1); 111:5 geçişi işaretsiz (924). En uzun 6 kelime (111:2); en kısa 3 (111:4). esit2 / nakarat3 / xref yok.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 5.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok); okuma notu lemma 'leheb' künye (111:1) / ateş niteliği (111:3). 1040: 110:3 / 111:1 sûre sınırı (Rabbin 'tevvâb' sıfatıyla kapanış / PERF 3FS 'tebbet' ile açılış; fâsıla ا → ب). 1039: 5/5 notlu; ayet içi 0, blok içi 0. Sûre 112'nin ilk ayeti henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: konuşan adsız; kişi yalnız künyeyle; kadın iyelikle adsız; 111:4 cümle bağı (111:3 / 111:5) KAPATILAMAZ.
+* 924: ayet 1 harf3; 111:1 dilek / haber ayrımı; morph 'ağnâ' VF:1; 111:2 iki özne; künye aktör alanında yok; 111:5 fâsıla geçişi işaretsiz.
+* Lemma etiketi bölünmesi (sûre 93 dersi): 11:101 'ağnet' 'ağnâ' sayımına katılmadı.
+* Okuma bağı: 77:31 kök غني + 'leheb' tek ayette / 111:2-3 ardışık iki ayette.
+
+## SÛRE 112 İHLÂS SONU (2026-11-01)
+
+**Okunan: 5017 / 6236 ayet (%80,5)** — sûre 1 ve 9-112 TAM, sûre 2 kısmi (1-20). İlerleme `ihlas_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1548** (+2: صمد, كفأ — `kok_ekle_112.py`; ikisi de korpusta tek ayet). Aday havuzu **1041** (`AX_ihlas` boş). Bağ **AS_ihlas** 11. Esmâ KARAR **732** (+3: 112:1 'ehad' ilahi, 112:2 'es-samed' ilahi, 112:4 'ehad' degil).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 4 / 0 · [x/y] **10 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 4 ayeti tek blokta okundu: 1-4. Dosyalar `yamalar/iskele_112.py` ile mesed_* şablonlarından kuruldu (oturum dışı; ad 'ihlas'; set değişkeni ASCII 'IHLAS'; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; ISTEK boş, kökler `yamalar/yama_kok_112.py` ile; kayıt dosyası boş, assert'li; yüzde sabiti maskeli; aile karşılaştırması temiz). Blok listesi üç yerde `yamalar/yama_bl_112.py` ile. Paket `notlar/sure112_ihlas_okuma.md` (4 başlık). Taban **40018b4**; zip `fark_40018b4_sure112.zip` (sûre 110-112).
+
+### Sûre 112 bilançosu (TAM SAYIM, `okuma_metni['112']['_bilanco_sure']`)
+15 kelime · **lafız 2 · Rab 0** · edilgen 1 (112:3) · iltifât 0 · hapaks 2 (112:2, 112:4) · Yıldız: ★★★ 112:1, 112:2 (allah), 112:4 (hapaks); ★★ 112:3 (pas) — formül davranışı.
+Fâsıla metinde د د د د (tek sınıf). En uzun 5 kelime (112:4); en kısa 2 (112:2). esit2 / nakarat3 / xref yok. Sayı işareti 'ehad' 112:1, 112:4 (kök kaynaklı).
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 4.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 3, ilâhî 2; mühür 3, geçerli 2 (112:1, 112:2; ton denge), yanlış 1 (112:4 — olumsuz cümlede nekre 'ehad'). Ölçüm satırı üçünde de 'MÜHÜRSÜZ' (1022).
+
+### Aday 1041 / 1040 / 1039
+1041 (kayıt): lemma 'ehad' 112:1 Allah / 112:4 'hiç kimse'. 1040: 111:5 / 112:1 sûre sınırı (fiilsiz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → د). 1039: 4/4 notlu; ayet içi 1 (112:3 'yelid' / 'yûled'), blok içi 0. Sûre 113'ün ilk ayeti henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1022: üç ölçüm mührü, iki geçerli; 112:4 karar 'degil'.
+* 1017: 'qul' sözünün sınırı metinde işaretsiz; hitap ve konuşan adsız.
+* 924: ayet 1 harf3; sayı işareti 'ehad' kök kaynaklı.
+* Okuma bağı: 37:152 'velede'llâh' iddiası / 112:3 'lem yelid ve lem yûled'; 17:111 ve 25:2 've lem yekun lehû' dizisinde önce 'lem yettexiz veleden'.
+
+## SÛRE 113 FELAK SONU (2026-11-01)
+
+**Okunan: 5022 / 6236 ayet (%80,5)** — sûre 1 ve 9-113 TAM, sûre 2 kısmi (1-20). İlerleme `felak_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1550** (+2: نفث, وقب — `kok_ekle_113.py`; ikisi de korpusta tek ayet). Aday havuzu **1041** (`AX_felak` boş). Bağ **AS_felak** 12. Esmâ KARAR **732** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 5 / 0 (ön kuru koşu 1 uyuşmaz yakaladı, kayıttan önce düzeltildi) · [x/y] **15 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 5 ayeti tek blokta okundu: 1-5. Dosyalar `yamalar/iskele_113.py` ile ihlas_* şablonlarından kuruldu (oturum dışı; ad 'felak'; set değişkeni ASCII 'FELAK'; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; ISTEK boş, kökler `yamalar/yama_kok_113.py` ile; kayıt dosyası boş, assert'li; yüzde sabiti maskeli; aile karşılaştırması temiz). Blok listesi üç yerde `yamalar/yama_bl_113.py` ile. Paket `notlar/sure113_felak_okuma.md` (5 başlık). Taban **40018b4**; zip `fark_40018b4_sure113.zip` (sûre 110-113).
+
+### Sûre 113 bilançosu (TAM SAYIM, `okuma_metni['113']['_bilanco_sure']`)
+23 kelime · **lafız 0 · Rab 1** (113:1) · edilgen 0 · iltifât 1 (113:2, ilgi cümlesi — 924) · hapaks 2 (113:3, 113:4) · Yıldız: ★★★ 113:1 (rab), 113:3, 113:4 (hapaks); yıldızsız 2.
+Fâsıla metinde ق ق ب د د (ölçüm ق 2, ب 1, د 2); iki geçiş işaretsiz (924). En uzun 5 kelime (113:3-5); en kısa 4 (113:1-2). xref 113:1 → 40:27 ve sûre 114'ün ilk ayeti (henüz okunmadı).
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 5; 113:3-5 gönderge adsız.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok. 1040: 112:4 / 113:1 sûre sınırı (olumsuz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → ق); okuma bağı ardışık iki sûre 'qul' ile açılıyor (112:1 / 113:1). 1039: 5/5 notlu; ayet içi 0, blok içi 0. Sûre 114'ün ilk ayeti henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: söz içi 1S, hitap ve 'qul' diyen adsız; 'el-feleq', 'ğâsiq', 'en-neffâsât', 'hâsid' adsız.
+* 924: ayet 1 harf3; ilgi cümlesi iltifâtı (113:2); iki fâsıla geçişi işaretsiz.
+* Tetik ön kuru koşusu: 113:2 خلق — '—' yazılmış satır kayıttan önce yakalandı (sûre 78 dersinin eşi).
+* Okuma bağı: 23:97 'qul' + 'e'ûzu' (nidâ, 2MS) / 113:1 Rab tamlaması (3. şahıs).
+
+## SÛRE 114 NÂS SONU — KORPUS SONU (2026-11-01)
+
+**Okunan: 5028 / 6236 ayet (%80,6)** — sûre 1 ve 9-114 TAM, sûre 2 kısmi (1-20). İlerleme `nas_kapanis.py` ile kayıttan koşuldu. **Korpus sonu (sûre 114) — kalan: sûre 2 (21-286) ve 3-8** (1208 ayet).
+`kok_turkce.json` **1550** (değişmedi; `kok_ekle_114.py` boş). Aday havuzu **1041** (`AX_nas` boş). Bağ **AS_nas** 13. Esmâ KARAR **733** (+1: 114:2 'melik' ilahi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 6 / 0 · [x/y] **18 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 6 ayeti tek blokta okundu: 1-6 (sunum 3 + 3). Dosyalar `yamalar/iskele_114.py` ile felak_* şablonlarından kuruldu (oturum dışı; ad 'nas' — yalnız felak → nas, harf sınırlı, 'nasr' dosyalarına dokunulmadı; set değişkeni ASCII 'NAS'; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; ISTEK boş; kayıt dosyası boş, assert'li; yüzde sabiti maskeli; I['not'] 'korpus sonu' satırı; aile karşılaştırması temiz). Blok listesi üç yerde `yamalar/yama_bl_114.py` ile. Paket `notlar/sure114_nas_okuma.md` (6 başlık). Taban **40018b4**; zip `fark_40018b4_sure114.zip` (sûre 110-114).
+
+### Sûre 114 bilançosu (TAM SAYIM, `okuma_metni['114']['_bilanco_sure']`)
+20 kelime · **lafız 0 · Rab 1** (114:1) · edilgen 0 · iltifât 1 (114:5, ilgi cümlesi — 924) · hapaks 0 · Yıldız: ★★★ 114:1 (rab); yıldızsız 5.
+Fâsıla metinde س × 6 (tek sınıf; beşi aynı kelime 'en-nâs'). En uzun 5 kelime (114:5); en kısa 2 (114:2-3). xref 114:1 → 40:27, 113:1.
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 6.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 1, ilâhî 1 (114:2 'melik'); mühür 1, geçerli 1 (114:2, ton celâl); ölçüm satırı konum etiketi tutarsız (1022).
+
+### Aday 1041 / 1040 / 1039
+1041: sûre içi kayıt yok; sûreler arası okuma notları lemma 'melik' (20:114 Allah / 12:43, 12:76 kral), 'ilâh' (59:22 / 11:101). 1040: 113:5 / 114:1 sûre sınırı (haset öbeğiyle kapanış / 'qul e'ûzu bi-rabbi'n-nâs' ile açılış; fâsıla د → س); okuma bağları 113:1 / 114:1 aynı açılış, 113:2-5 / 114:4 'min şerri'. **1040 korpus sonu:** 114:6 okuma sırasının son ayeti — 'korpus sonu' olarak not edildi; sûre 1'e geri bağ kurulmadı (yalnız kayıt). 1039: 6/6 notlu; ayet içi 1 (114:6 'el-cinne' / 'en-nâs'), blok içi 0.
+
+### Mevcut ailelere girenler
+* 1022: 'melik' ölçüm konum etiketi iki kelimelik ayette tutarsız; bilanço geçerli.
+* 1017: söz içi 1S, hitap, 'qul' diyen ve 'el-vesvâs' adsız; 114:6 'min' öbeğinin bağlandığı yer KAPATILAMAZ.
+* 924: ayet 1 harf3; ilgi cümlesi iltifâtı (114:5); harekesiz 'mine'l-cinne' / 'mine'l-cenne' imlâ çakışması.
+
+### Oturum özeti (sûre 110-114, 2026-11-01)
+Beş sûre, 23 ayet, beş tek blok. Yeni kök 6 (جيد, مسد, صمد, كفأ, نفث, وقب; hepsi korpusta tek ayet) — 1544 → 1550. Esmâ KARAR 728 → 733 (110:3 'tevvâb', 112:1 'ehad', 112:2 'es-samed', 114:2 'melik' ilahi; 112:4 'ehad' degil). DUZELTME 0. Yeni aday yok. Taban 40018b4 boyunca değişmedi; tek zip `fark_40018b4_sure114.zip` beş sûreyi taşıyor. Oturum dersleri: iskele türetilirken dosya eşlemesi bozulmamalı (sûre 111); tetik ön kuru koşusu خلق tetiğini yakaladı (sûre 113); ölçüm xref'i okunmamış sonraki sûreyi numarasıyla gösterebilir — ölçüm satırı aynen kalır, mercekte numarasız (sûre 113).

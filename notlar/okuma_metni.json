@@ -240,7 +240,12 @@
    106,
    107,
    108,
-   109
+   109,
+   110,
+   111,
+   112,
+   113,
+   114
   ],
   "sikistirilmis": [
    3,
@@ -256,10 +261,10 @@
   "bekleyen": {
    "2": "21-286 blok özeti"
   },
-  "not": "Sûre 1, 9-108 ve **109 TAM**. Devam: sûre 110'dan ya da sûre 2'nin 21. ayetinden.",
-  "okunan_ayet": 5005,
-  "son_oturum": "OKU_BENI_OTURUM.md (sûre 109 kafirun sonu)",
-  "korpus_yuzde": 80.3,
+  "not": "Sûre 1, 9-113 ve **114 TAM** — korpus sonu (sûre 114). Devam: sûre 2'nin 21. ayetinden, ardından sûre 3-8.",
+  "okunan_ayet": 5028,
+  "son_oturum": "OKU_BENI_OTURUM.md (sûre 114 nas sonu)",
+  "korpus_yuzde": 80.6,
   "sayim_notu": "okunan_ayet defter.json'dan koşulur; elle artırılmaz (eski sayaç −2 kaymıştı)."
  },
  "7": {
@@ -121964,5 +121969,1514 @@
    "bant": "KAPI_KAPALI (§4.4, aday 435)"
   },
   "_kapanis_notu": "SÛRE 109 KÂFİRÛN SONU. Blok başı kayıt sûrenin tamamında uygulandı; 6 ayet, 26 kelime, tek blok 109:1-6 (de ki: ey kâfirler; ben sizin taptıklarınıza tapmam, siz de benim taptığıma tapanlar değilsiniz; ben de sizin taptıklarınıza tapan değilim, siz de benim taptığıma tapanlar değilsiniz; sizin dininiz size, benim dinim bana). Sûre 2026-11-01'de sûre 108 kapanışının ardından aynı oturumda okundu; taban 744a7f1 değişmedi (sûre 103-108 zip'leri yüklenmedi), bu yüzden sûre 109 zip'i 103-108'i de taşıyor. Dosyalar kevser_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_109.py, oturum dışı; ad 'kafirun'; set değişkeni ASCII 'KAFIRUN'; kok_ekle ISTEK iskele içinde boş; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — kevser_kayit.py'deki DUZELTME taşınmadı, assert'le doğrulandı; ilerleme yüzdesi sabiti numara değişiminden önce maskelendi; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz); kapanış / paket blok listesi üç yerde birlikte dolduruldu ve --kuru ile doğrulandı. Kök tablosu: yeni kök yok (1544); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı. Esmâ: e_oto 0; KARAR değişmedi (728); mühür yok. Lafızsız ve Rabsız sûre. Yıldız: 109:3, 109:4, 109:5 ★ — bilanço kaynağı 'n' etiketli, düzeltilmiş kaynak kafiye kırığı (1001; etiket_1001 üç ayet); diğer 3 ayet yıldızsız. Fâsıla: metinde ن ن د م د ن — ölçüm N 4, د 2; 109:3-5 geçişleri KAFİYE KIRILMASI işaretli (üçü de gerçek), 109:6 د → ن işaretsiz (924). Biçim: ayet 1 harf 33 → harf3 14 (besmele ailesi, 924); IMPV + VOC + DIKKAT 109:1; NEG 109:2-5. İltifât 0; söz katmanı ('qul' ile açılan 1S / 2MP) ölçümde ayrılmıyor (924). esit2: 109:3 ↔ 109:5 TAM; nakarat3 'lâ entum 'âbidûne mâ a'bud' 2 ayet tam, iç kalıp 3 ayet — süzgeç GEÇER. Sûre içi tam sayım, bütün geçişler basılmışken: kök عبد [8/8], kök دين [2/2]. Söz sınırı (1017): 'qul' sözü 109:1'de açıyor, sûre sonunda bitiyor — meal tırnağı 109:1 / 109:6; konuşan, hitap edilen ve tapılanlar adsız. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 6; tarayıcı v4 aday vermedi. Korpusta 1: kalıp 'yâ eyyuhe'l-kâfirûn', 'lâ a'budu mâ ta'budûn'. Okuma bağları: 10:104 'qul yâ eyyuhe'n-nâs' + 'fe-lâ a'budu'llezîne ta'budûn' + 'dînî' (aynı kuruluşun öğeleri); 43:81 'qul' + 1S + ''âbidîn'; kök دين 107:1 / 109:6. Aday 1039 (okuma): 6/6 ayet notlu; ayet içi 5 (109:2-6, 1S / 2MP karşılıkları); blok içi 0. Aday 1040: 108:3 / 109:1 sûre sınırı yazıldı (2MS'ye hitapla kapanış / 2MS'ye 'qul' emriyle açılış; fâsıla ر → ن; 108 Rab 1, 109 lafızsız ve Rabsız). Aday 1041: kayıt yok. Kayıttan önce: tetik ön kuru koşusu 0 uyuşmaz (6 ayet); [x/y] 8 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (2 ayet) ve iki okuma parçası (3 + 3 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5000 ayeti geçti (5005). Yeni aday yok (havuz 1041); bağ seti AS_kafirun 8. DUZELTME 0."
+ },
+ "110": {
+  "110:1": {
+   "ar": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+   "meal": "Allah'ın yardımı ve fetih geldiğinde,",
+   "olcum": "eksen: **ALLAH LAFZI** 4. sırada (allah z=3,47) · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla وٱلفتح → ح, ح sınıfı · i’râb GEN 1 · NOM 2; bab I. bab ×1; zaman PERF 1 · harf 38 → **harf3 19**, isaret 0 · dış düğüm 1 · **yıldız ★★★** · kökler جيأ *(gelme)* [1/1] · نصر *(yardım)* [1/1] · أله *(ilâh; lafza-i celâl)* [1/2] · فتح *(açma)* [1/1] · bağ: xref نصر *(yardım)* اللّه فتح *(açma)* → 61:13",
+   "mercek": "◇ 'izâ câ'e nasru'llâhi ve'l-feth' — 'izâ' + PERF 3MS 'câ'e' + 'nasr' (NOM) + lafız (GEN, izâfet) + 've' + belirli 'el-feth' (NOM) (ölçüm edim haber, kip yok; zaman PERF 1). 'izâ' şartı 110:1-2'de iki fiille kuruluyor ('câ'e', 've ra'eyte'); cevap 110:3'te 'fe' ile (okuma; ölçüm şart işaretlemiyor — 924). Fiil 3MS tekil, iki özne ('nasr' ve 'el-feth') — fiil öndeki ada uyuyor; ölçüm özne sayısını göstermiyor (924; sûre 97 dikkatinin eşi). Kalıp 'izâ câ'e' 7 ayet: okunmuş 5 ayet, 110:1, henüz okunmamış 1. Kalıp 'câ'e nasr' 2 ayet: 29:10 (okumada görüldü; 've le-in câ'e nasrun min rabbike' — 'in' şartı, nekre 'nasr', 'min rabbik'), 110:1. Harekesiz 'nasru'llâh' 2 ayet: 110:1, henüz okunmamış 1 (önek modunda okunmuş 1 ayet daha). Lemma 'nasr' 21 ayet: 29:10 ve 61:13 (okumada görüldü), okunmuş 8 ayet daha, 110:1, henüz okunmamış 10. Lemma 'feth' 12 ayet: 61:13 (okumada görüldü), okunmuş 7 ayet daha, 110:1, henüz okunmamış 3. Ölçüm xref → 61:13: 'nasrun mina'llâhi ve fethun qarîb' — iki ad nekre, 'mina'llâh' ve sıfat 'qarîb' ile, sevilen başka bir nimet olarak; burada 'nasr' lafza izâfetli, 'el-feth' belirli ve sıfatsız, gelişleri 'izâ' şartı (okuma). Yardımın kime olduğu ve neyin açıldığı ('el-feth') metinde adlanmıyor — KAPATILAMAZ (1017). Sûre sınırı: 109:6 (okumada görüldü) fiilsiz iki paralel isim cümlesiyle ('lekum dînukum ve liye dîn') kapanış → 110:1 'izâ' şartıyla açılış; fâsıla ن → ح; sûre 109 lafızsız ve Rabsız, sûre 110 lafız 2, Rab 1 (aday 1040, kayıt). Ölçüm harf 38 → harf3 19 — besmele ailesi (924). Çıpa: yardım ve fethin gelişi — olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız 1 (4. token, GEN); Rab yok; esmâ yok. 5 kelime, ★★★ kaynak allah (z=3,47) — kısa ayette tek lafız, formül davranışı. جيأ *(gelme)* [1/1], نصر *(yardım)* [1/1], أله *(ilâh; lafza-i celâl)* [1/2], فتح *(açma)* [1/1]. Fâsıla ح. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 'izâ' + PERF 3MS + ad + lafız (izâfet) + 've' + belirli ad; D2 şart (okuma; ölçüm edim haber); D3 'câ'e nasr' 29:10; xref 61:13; D4 3MS, sahset ['3'].\n◈A — A1 yardım ve fetih (fiilin iki öznesi); Allah (lafız, izâfet); A2 —; A3 konuşan adsız; A4 sûre şartla açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · جيأ *(gelme)* n=278  ▸önce: دكك *(darmadağın etme)* ×14.3 [A tek ayet] · şaşma ×6.3 [A tek ayet] · صفف *(saf, dizi)* ×5.4 [A tek ayet]  ▸sonra: büyü ×6.2 [A tek ayet] · beyan ×4.5 [A tek ayet] · şehir ×4.4 [A tek ayet]  ▸Allah med=16\n  · نصر *(yardım)* n=158  ▸önce: havârî ×30.6 [A tek ayet] · yahudi ×25.5 [A tek ayet] · destekleme ×17.0 [A tek ayet]  ▸sonra: حنف *(hanîf, dosdoğru)* ×12.8 [B tek sahne 3 ayet] · yahudi ×7.7 [A tek ayet] · جند *(ordu, asker)* ×7.0 [B tek sahne 4 ayet]  ▸Allah med=5\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · فتح *(açma)* n=38  ▸önce: ara ×5.5 [A tek ayet] · yardım ×3.7 [A tek ayet] · جيأ *(gelme)* ×2.7 [B tek sahne 5 ayet]  ▸sonra: بوب *(kapı)* ×63.0 · kurtuluş ×8.5 [A tek ayet] · yakınlık ×6.0 [A tek ayet]  ▸Allah med=12",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'izâ câ'e nasru'llâhi ve'l-feth' — yardım ve fethin gelişi, olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "110:2": {
+   "ar": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+   "meal": "ve insanların bölük bölük Allah'ın dinine girdiklerini gördüğünde,",
+   "olcum": "eksen: **ALLAH LAFZI** 6. sırada (allah z=2,33) · esmâ yok · aktör yok · edim haber, kip yok · şahıs 2MS 2 · 3MP 2, sahset ['2', '3'], baskın 2, iltifât 0 · n=7 (n z=-0,58), fâsıla أفواجا → ا, A sınıfı · i’râb ACC 2 · GEN 2; bab I. bab ×2; zaman IMPF 1 · PERF 1 · harf 32 → **harf3 31**, isaret 1 · dış düğüm 0 · **yıldız ★★** · kökler رأي *(görme)* [1/1] · أنس *(insan)* [1/1] · دخل *(girme)* [1/1] · دين *(din; borç)* [1/1] · أله *(ilâh; lafza-i celâl)* [2/2] · فوج *(bölük, grup (fevc))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've ra'eyte'n-nâse yedxulûne fî dîni'llâhi efwâcâ' — 've' + PERF 2MS 'ra'eyte' + belirli 'en-nâs' (ACC) + IMPF 3MP 'yedxulûne' + 'fî' + 'dîn' + lafız (GEN, izâfet) + nekre çoğul 'efwâcâ' (ACC) (ölçüm zaman PERF 1 · IMPF 1; i'râb ACC 2 · GEN 2). 'ra'eyte' 110:1'deki 'izâ' şartına 've' ile bağlı; 'yedxulûne' 'en-nâs'ın durumu, 'efwâcâ' girenlerin hâli (okuma). Şahıs 110:1'deki 3MS'den {2, 3}'e — 2MS hitap ilk kez burada; kısmi örtüşme, ölçüm iltifât 0 (924, sûre 75 dersi). 2MS hitap adsız; gören adsız (1017). Kalıp 'fî dîn' 3 ayet: 12:76 (okumada görüldü; 'fî dîni'l-melik' — kralın hukuku), 24:2 (okumada görüldü), 110:2. Harekesiz 'dîni'llâh' 3 ayet: 24:2 (okumada görüldü; 'fî dîni'llâh' — ceza hükmünde acımama), 110:2, henüz okunmamış 1. Kök دين *(din; borç)* 87 ayet: 109:6, 12:76 ve 24:2 (okumada görüldü), okunmuş 54 ayet daha, 110:2, henüz okunmamış 29. Ardışık sûre: 109:6'da 'dîn' iki kez, 2MP ve 1S iyelikle ('dînukum' / 'dîn'); 110:2'de 'dîn' lafza izâfetli (aday 1040, okuma bağı). Lemma 'fevc' 5 ayet: 78:18 (okumada görüldü; 'fe-te'tûne efwâcâ' — sûra üfürüldüğü gün, 2MP), okunmuş 3 ayet daha, 110:2 — 'efwâcâ' iki ayette de hâl, çoğul nekre ACC; orada geliş, burada dine giriş (okuma). Lemma 'dexale' 67 ayet: okunmuş 45 ayet, 110:2, henüz okunmamış 21. Ölçüm bağ YOK (esit2, nakarat3, xref üçü de boş). Fâsıla ح → ا geçişi — ölçüm işaretlemedi (924). Çıpa: insanların dine girişi — olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız 1 (6. token, GEN) — sûre içi tam sayım أله *(ilâh; lafza-i celâl)* [2/2], iki geçiş de bu blokta basıldı; Rab yok; esmâ yok. 7 kelime, ★★ kaynak allah (z=2,33) — formül davranışı. رأي *(görme)* [1/1], أنس *(insan)* [1/1], دخل *(girme)* [1/1], دين *(din; borç)* [1/1], أله *(ilâh; lafza-i celâl)* [2/2], فوج *(bölük, grup (fevc))* [1/1]. Fâsıla ا. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — bölük bölük dine girenler; nitelik yok; B2–B4 —.\n◈D — D1 've' + PERF 2MS + mef'ûl + IMPF 3MP + câr-mecrûr (izâfet, lafız) + hâl; D2 şartın ikinci fiili (okuma; ölçüm edim haber); D3 'fî dîn' 12:76, 24:2; 'efwâcâ' 78:18; D4 2MS 2 · 3MP 2, sahset ['2', '3'].\n◈A — A1 gören 2MS (adsız); insanlar (3MP); A2 Allah'ın dini (lafız, izâfet); A3 konuşan adsız; A4 şart sürüyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · رأي *(görme)* n=328  ▸önce: direk ×16.4 [A tek ayet] · حلي *(süs, zinet)* ×7.3 [B tek sahne 3 ayet] · رأف *(şefkat, raafet)* ×5.0 [B tek sahne 3 ayet]  ▸sonra: وقف *(durdurma, vakfe)* ×16.4 [B tek sahne 3 ayet] · صفر *(sarılık)* ×13.1 [B tek sahne 3 ayet] · bulut ×8.7 [A tek ayet]  ▸Allah med=15\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14\n  · دخل *(girme)* n=126  ▸önce: karınca ×53.4 [A tek ayet] · kefâret ×20.8 [A tek ayet] · بوب *(kapı)* ×5.9  ▸sonra: تبر *(yerle bir etme)* ×26.7 [A tek ayet] · بوب *(kapı)* ×21.8 · جري *(akma)* ×14.2 [B2 donmuş kalıp 17 ayet]  ▸Allah med=11\n  · دين *(din; borç)* n=101  ▸önce: ihlas ×29.9 [A tek ayet] · وصي *(vasiyet)* ×18.1 [B tek sahne 3 ayet] · zuhur ×6.4 [A tek ayet]  ▸sonra: حنف *(hanîf, dosdoğru)* ×24.1 [B tek sahne 4 ayet] · لعب *(oyun oynama)* ×10.8 [B tek sahne 3 ayet] · zuhur ×10.6 [A tek ayet]  ▸Allah med=9\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · فوج *(bölük, grup (fevc))* n=5 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=51",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ve ra'eyte'n-nâse yedxulûne fî dîni'llâhi efwâcâ' — insanların dine girişi, olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "110:3": {
+   "ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+   "meal": "Rabbini hamd ile tesbih et ve O'ndan bağışlanma dile. Şüphesiz O, tövbeleri çok kabul edendir.",
+   "olcum": "eksen: **رَبّ** 3. sırada (rab z=2,72) · esmâ تَوّاب 7. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, kip IMPV 2 · şahıs 2MS 3 · 3MS 3, sahset ['2', '3'], baskın 2, iltifât 0 · n=7 (n z=-0,58), fâsıla توابا → ا, A sınıfı · i’râb ACC 2 · GEN 2; bab I. bab ×1 · II. bab ×1 · X. bab ×1; zaman IMPV 2 · PERF 1 · harf 33 → **harf3 30**, isaret 3 · dış düğüm 1 · **yıldız ★★** · kökler سبح *(tesbih, tenzih)* [1/1] · حمد *(hamd, övgü)* [1/1] · ربب *(rab, terbiye etme)* [1/1] · غفر *(bağışlama, mağfiret)* [1/1] · كون *(olmak; mekân, yer)* [1/1] · توب *(tevbe, dönüş)* [1/1] · bağ: xref حمد *(hamd, övgü)* ربّ استغفر → 42:5",
+   "mercek": "◇ 'fe-sebbih bi-hamdi rabbike ve'staxfirhu innehû kâne tevvâbâ' — 'fe' + IMPV 2MS 'sebbih' (II. bab) + 'bi' + 'hamd' + 'rabb' + 2MS iyelik + 've' + IMPV 2MS 'istaxfir' (X. bab) + 3MS nesne + 'inne' + 3MS + PERF 'kâne' + nekre 'tevvâb' (ACC) (ölçüm edim emir, kip IMPV 2; bab I. ×1 · II. ×1 · X. ×1). 'fe' 110:1-2 şartının cevabını açıyor; iki emir 2MS'ye (okuma). Kalıp 'fe-sebbih bi-hamdi rabbike' 2 ayet: 15:98 (okumada görüldü; ardından 've kun mine's-sâcidîn'), 110:3 — burada ardından 've'staxfirhu'. Kalıp 'bi-hamdi rabbike' 6 ayet: 15:98 ve 40:55 (okumada görüldü), okunmuş 3 ayet daha, 110:3. 40:55'te iki emir ters sırada: önce 've'staxfir li-zenbike', sonra 've sebbih bi-hamdi rabbike' + vakit ('bi'l-'aşiyyi ve'l-ibkâr'); 110:3'te önce tesbih, sonra istiğfar, vakit yok; bağış dilemenin kimin için olduğu yazılmamış ('li-zenbike' yok) — KAPATILAMAZ (okuma). Ölçüm xref → 42:5: 'yusebbihûne bi-hamdi rabbihim ve yestaxfirûne li-men fi'l-ard' — aynı iki fiil aynı sırada, IMPF 3MP, öznesi melekler, bağış yerdekiler için; burada IMPV 2MS (okuma). Lemma 'sebbeha' 40 ayet: 15:98, 40:55 ve 42:5 (okumada görüldü), okunmuş 33 ayet daha, 110:3, henüz okunmamış 3. Lemma 'hamd' 41 ayet: 15:98, 40:55 ve 42:5 (okumada görüldü), okunmuş 33 ayet daha, 110:3, henüz okunmamış 4. Lemma 'istaxfere' 36 ayet: 40:55 ve 42:5 (okumada görüldü), okunmuş 25 ayet daha, 110:3, henüz okunmamış 8. 'hû' iki kez ('istaxfirhu', 'innehû') — önündeki 3MS adlar 'hamd' ve 'rabb'; bağış dilenen ve 'tevvâb' diye nitelenen Rab (okuma; esmâ kararı). Harekesiz 'kâne tevvâbâ' 2 ayet: 110:3, henüz okunmamış 1. Lemma 'tevvâb' 12 ayet: 9:118 (okumada görüldü; 'inne'llâhe huwe't-tevvâbu'r-rahîm' — lafız + ayırma zamiri + belirli, 'er-rahîm' ile ikili), okunmuş 3 ayet daha, 110:3, henüz okunmamış 7; burada nekre, 'kâne' haberi, tek başına (okuma). Esmâ: 'tevvâb' 7. token, İLÂHÎ (okuyucu kararı); ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 110:3 (1022) — sûre 'tevvâbâ' ile bitiyor. Şahıs 2MS 3 · 3MS 3, sahset ['2', '3'] — önceki ayetle aynı küme, iltifât 0. Çıpa: emir, tutum (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Rab 1 (3. token) — sûre içi tam sayım ربب *(rab, terbiye etme)* [1/1]; lafız yok; sûre lafız 2 (110:1, 2). 7 kelime, ★★ kaynak rab (z=2,72). سبح *(tesbih, tenzih)* [1/1], حمد *(hamd, övgü)* [1/1], ربب *(rab, terbiye etme)* [1/1], غفر *(bağışlama, mağfiret)* [1/1], كون *(olmak; mekân, yer)* [1/1], توب *(tevbe, dönüş)* [1/1]. Fâsıla ا. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 'fe' + IMPV II. bab + câr-mecrûr (izâfet, 2MS iyelik) + 've' + IMPV X. bab + 3MS zamir + 'inne' + zamir + 'kâne' + haber; D2 emir ×2 (ölçüm IMPV 2), tekit 'inne' (okuma); D3 15:98, 40:55; xref 42:5; 'tevvâb' 9:118; D4 2MS 3 · 3MS 3, sahset ['2', '3'].\n◈A — A1 emredilen 2MS (adsız); Rab (2MS iyelikle); A2 hamd, bağış; A3 konuşan adsız; A4 sûre esmâ ile kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · سبح *(tesbih, tenzih)* n=92  ▸önce: نشط *(canlanma, neşât)* ×144.4 [A tek ayet] · mühlet ×54.2 [A tek ayet] · خرر *(yıkılıp düşme, kapanma)* ×18.1 [B tek sahne 3 ayet]  ▸sonra: sabah-erken ×40.1 [A tek ayet] · akşam-vakti ×31.0 [A tek ayet] · وصف *(niteleme, vasıf)* ×25.8 [B tek sahne 5 ayet]  ▸Allah med=12\n  · حمد *(hamd, övgü)* n=68  ▸önce: tesbih ×16.6 [A tek ayet] · غني *(zenginlik, ganî olma)* ×15.6 · selâm ×7.4 [A tek ayet]  ▸sonra: âlem ×9.9 [A tek ayet] · gitmek ×6.5 [A tek ayet] · çokluk ×3.1 [A tek ayet]  ▸Allah med=3\n  · ربب *(rab, terbiye etme)* n=980  ▸önce: âlâ-nimet ×7.5 [A tek ayet] · mühlet ×5.2 [A tek ayet] · دكك *(darmadağın etme)* ×3.9 [B tek sahne 3 ayet]  ▸sonra: جلل *(büyüklük, celâl)* ×10.3 [A tek ayet] · أفل *(batma (ay))* ×6.9 [B tek sahne 3 ayet] · فرغ *(boşalma, bitirme)* ×4.6 [B tek sahne 4 ayet]  ▸Allah med=23\n  · غفر *(bağışlama, mağfiret)* n=234  ▸önce: صفح *(hoşgörü, bağışlama)* ×12.1 [A tek ayet] · عفو *(af)* ×11.1 · فيض *(taşma, feyz)* ×10.7 [A tek ayet]  ▸sonra: genişlik ×19.3 [A tek ayet] · günah ×16.6 [A tek ayet] · عزم *(azim, kararlılık)* ×10.7 [B tek sahne 3 ayet]  ▸Allah med=6\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · توب *(tevbe, dönüş)* n=87  ▸önce: جهل *(cehalet)* ×15.2 [B tek sahne 3 ayet] · kabul ×14.5 [A tek ayet] · nifak ×7.4 [A tek ayet]  ▸sonra: عسي *(umma, olabilme)* ×9.1 [B tek sahne 3 ayet] · zekât ×8.5 [A tek ayet] · salâh ×6.7 [A tek ayet]  ▸Allah med=6",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'fe-sebbih bi-hamdi rabbike ve'staxfirhu' — emir, tutum (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "R",
+    "sinif_el": "R",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "cemâl",
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-3": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 3,
+    "kelime_toplam": 19,
+    "lafiz_token": 2,
+    "lafiz_ayet": 2,
+    "rab_token": 1,
+    "edilgen_ayet": [],
+    "iltifat_ayet": [],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {},
+    "yildiz_dagilim": {
+     "2": 2,
+     "3": 1
+    },
+    "yildiz_kaynak": {
+     "1": {
+      "yildiz": 3,
+      "kaynak": "allah",
+      "z": 3.47,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "2": {
+      "yildiz": 2,
+      "kaynak": "allah",
+      "z": 2.33,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "3": {
+      "yildiz": 2,
+      "kaynak": "rab",
+      "z": 2.72,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [],
+    "say_isareti": {},
+    "esma_token_oto": 1,
+    "esma_sinif_oto": {
+     "A": 2,
+     "R": 1
+    },
+    "esma_sinif_el": {
+     "A": 2,
+     "R": 1
+    },
+    "esma_muhur_43": [
+     3
+    ],
+    "esma_muhur_43_gecerli": [
+     3
+    ],
+    "tarayici_v4_aday": [],
+    "ariza": [
+     "esmâ: e_oto 1 token (110:3 'tevvâb', 7. token) — okuyucu kararı 'ilahi' eklendi (KARAR 728 → 729); ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 110:3 (1022); lafız 2 (110:1, 110:2), Rab 1 (110:3)",
+     "kök tablosu: blokta yeni kök yok (1544); retroaktif yama hedefli 0, genel 0 (iki geçiş); taban kayıtları om_base ile aynı",
+     "yıldız: 110:1 ★★★ kaynak allah (z=3,47), 110:2 ★★ allah (z=2,33), 110:3 ★★ rab (z=2,72) — kısa ayette tek lafız / tek Rab, formül davranışı; kafiye kırığı yok, 1001 vakası yok",
+     "fâsıla: metinde ح ا ا; 110:2 ح → ا geçişi ölçümde işaretsiz (924)",
+     "biçim (924): ayet 1 harf 38 → harf3 19 (besmele ailesi); 'izâ' şartı ve 'fe' cevabı ölçümde yok (110:1-2 edim haber); iki özneli 3MS fiil (110:1 'nasr' + 'el-feth') özne sayısı ölçümde görünmüyor (sûre 97 dikkatinin eşi)",
+     "iltifât: ölçüm 0; sahset 110:1 ['3'] → 110:2-3 ['2', '3'] — 2MS'nin girişi kısmi örtüşme (924, sûre 75 dersi)",
+     "söz / gönderge (1017): söz fiili yok, meal tırnaksız; 2MS hitap ve konuşan adsız; yardımın kime olduğu ve 'el-feth'in neyin açılışı olduğu KAPATILAMAZ; 110:3 bağış dilemenin kimin için olduğu yazılmamış",
+     "esit2 / nakarat3: blokta yok; xref 110:1 → 61:13, 110:3 → 42:5 (ikisi de AR + meal ile emsal listesinde basıldı); 110:2 bağ YOK",
+     "çıpa: L0 / L1 / L2 / L4 yok; olgu=False 3 (olay, olay, emir); tarayıcı v4 blokta aday vermedi",
+     "aday 1040 (kayıt): 109:6 / 110:1 sûre sınırı — fiilsiz paralel isim cümlesiyle kapanış / 'izâ' şartıyla açılış; fâsıla ن → ح; 109 lafızsız ve Rabsız, 110 lafız 2 Rab 1; ardışık sûre okuma bağı kök دين 109:6 / 110:2",
+     "aday 1039: ayet içi 0; blok içi 0",
+     "aday 1041: kayıt yok — 'tevvâb', lafız ve Rab yalnız ilâhî göndergeyle",
+     "korpusta 1 (kayıt): harekesiz kalıp 'nasru'llâhi ve'l-feth', 've ra'eyte'n-nâs', 'yedxulûne fî', 'fe-sebbih bi-hamdi rabbike ve'staxfirhu', 'innehû kâne tevvâbâ'; sûre içi tam sayım: kök أله [2/2], ربب [1/1]",
+     "bağ: emsaller 109:6, 61:13, 29:10, 12:76, 24:2, 78:18, 15:98, 40:55, 42:5, 9:118 — hepsi AR + meal ile emsal listesinde basıldı (NFC fark 0); her biri ilgili oturum_lem / oturum_say listesinde doğrulandı",
+     "◈K / ◈B: ◈K üç ayette '—'; ◈B 110:2 dolu (tetik أنس), 110:1 ve 110:3 '—'; tetik ön kuru koşu (geçici modül, silindi) 0 uyuşmaz, 3 ayet; oturum_xy 18 sayım, 0 uyuşmaz",
+     "süreç: sûre 110 dosyaları kafirun_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_110.py, oturum dışı; ad 'nasr', harf sınırlı; ISTEK boş; kayıt dosyası CIPA / ARIZA / DUZELTME boş — assert'li; yüzde sabiti maskeli; I['not'] satırı genel değişimden sonra; sûre 96 şablonuyla normalleştirilmiş aile karşılaştırması temiz); sûre 3 ayet — tek blok, ara zip yok"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "_bilanco_sure": {
+   "etiket": "TAM SAYIM — sûre 110, 3 ayet",
+   "kelime_toplam": 19,
+   "lafiz_token": 2,
+   "lafiz_ayet": 2,
+   "rab_token": 1,
+   "rab_ayet": [
+    3
+   ],
+   "A_R_orani": 2.0,
+   "yildiz": {
+    "2": 2,
+    "3": 1
+   },
+   "yildiz_kaynak_tum": {
+    "allah": 2,
+    "rab": 1
+   },
+   "yildiz_kaynak_duzeltilmis": {
+    "allah": 2,
+    "rab": 1
+   },
+   "etiket_1001_ayet": [],
+   "ucyildiz_kaynak": {
+    "allah": 1
+   },
+   "edilgen_ayet": 0,
+   "iltifat_ayet": [],
+   "hapaks_ayet": [],
+   "mm2_ayet": [],
+   "fasila_sinif": {
+    "ح": 1,
+    "A": 2
+   },
+   "kafiye_kirik": [],
+   "en_uzun": [
+    7,
+    3
+   ],
+   "en_uzun_esit": [
+    2,
+    3
+   ],
+   "en_kisa_esit": [
+    1
+   ],
+   "say_isareti": {}
+  },
+  "_cipa_tablosu_110": {
+   "isaretli": {
+    "1": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'izâ câ'e nasru'llâhi ve'l-feth' — yardım ve fethin gelişi, olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "2": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ve ra'eyte'n-nâse yedxulûne fî dîni'llâhi efwâcâ' — insanların dine girişi, olay (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "3": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'fe-sebbih bi-hamdi rabbike ve'staxfirhu' — emir, tutum (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    }
+   },
+   "L4": [],
+   "tarayici_v4_aday": [],
+   "anma": "0/0",
+   "kesinlik": "0/0"
+  },
+  "_esma_profil_110": {
+   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile.",
+   "sinif_oto": {
+    "A": 2,
+    "R": 1
+   },
+   "sinif_el": {
+    "A": 2,
+    "R": 1
+   },
+   "esma_token_oto": 1,
+   "esma_token_ilahi": 1,
+   "muhur_43": 1,
+   "muhur_43_gecerli": 1,
+   "muhur_43_yanlis": [],
+   "ton_gecerli_muhur": {
+    "cemâl": 1
+   },
+   "bant": "KAPI_KAPALI (§4.4, aday 435)"
+  },
+  "_kapanis_notu": "SÛRE 110 NASR SONU. Blok başı kayıt sûrenin tamamında uygulandı; 3 ayet, 19 kelime, tek blok 110:1-3 (Allah'ın yardımı ve fetih geldiğinde ve insanların bölük bölük Allah'ın dinine girdiklerini gördüğünde, Rabbini hamd ile tesbih et ve O'ndan bağışlanma dile; şüphesiz O, tövbeleri çok kabul edendir). Sûre 2026-11-01'de yeni ortamda temiz klondan (40018b4) okundu; taban değişmedi. Dosyalar kafirun_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_110.py, oturum dışı; ad 'nasr', harf sınırlı; set değişkeni ASCII 'NASR'; kok_ekle ISTEK iskele içinde boş; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — assert'le doğrulandı; ilerleme yüzdesi sabiti numara değişiminden önce maskelendi; I['not'] satırı genel değişimden sonra açık yazıldı; '_esma_profil_110' / '_profil_110' assert'le bulundu; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz); kapanış / paket blok listesi üç yerde birlikte dolduruldu (yamalar/yama_bl_110.py) ve --kuru ile doğrulandı. Kök tablosu: yeni kök yok (1544); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı. Esmâ: e_oto 1 (110:3 'tevvâb'); okuyucu kararı 'ilahi' (KARAR 728 → 729); ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 1 (110:3, ton cemâl) (1022). Lafız 2 (110:1, 110:2), Rab 1 (110:3); sûre içi tam sayım, bütün geçişler basılmışken: kök أله [2/2], ربب [1/1]. Yıldız: 110:1 ★★★ kaynak allah (z=3,47), 110:2 ★★ allah, 110:3 ★★ rab — kısa ayette tek lafız / tek Rab, formül davranışı; kafiye kırığı yok, etiket_1001 boş. Fâsıla: metinde ح ا ا — ölçüm ح 1, A 2; 110:2 ح → ا geçişi işaretsiz (924). Biçim: ayet 1 harf 38 → harf3 19 (besmele ailesi, 924); 'izâ' şartı (110:1-2) ve 'fe' cevabı (110:3) ölçümde yok; iki özneli 3MS fiil (110:1) özne sayısı görünmüyor (sûre 97 dikkatinin eşi, 924). İltifât 0; 2MS'nin girişi (110:1 → 110:2) kısmi örtüşme (924). Gönderge (1017): söz fiili yok, meal tırnaksız; 2MS hitap ve konuşan adsız; yardımın kime olduğu, 'el-feth'in neyin açılışı olduğu ve bağış dilemenin kimin için olduğu KAPATILAMAZ. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 3; tarayıcı v4 aday vermedi. Korpusta 1: harekesiz kalıp 'nasru'llâhi ve'l-feth', 've ra'eyte'n-nâs', 'yedxulûne fî', 'fe-sebbih bi-hamdi rabbike ve'staxfirhu', 'innehû kâne tevvâbâ'. Okuma bağları: xref 61:13 (nasr + lafız + feth: nekre, sıfatlı / izâfet, belirli); 29:10 'câ'e nasr' (korpusun iki geçişi); 12:76 ve 24:2 'fî dîn' (kralın hukuku / Allah'ın dini); 78:18 'efwâcâ' hâl; 15:98 'fe-sebbih bi-hamdi rabbike' (korpusun iki geçişi); 40:55 tesbih + istiğfar ters sırada; xref 42:5 aynı iki fiil aynı sırada, melekler; 9:118 'tevvâb' belirli, ikili / burada nekre, tek. Aday 1039 (okuma): 3/3 ayet notlu; ayet içi 0; blok içi 0. Aday 1040: 109:6 / 110:1 sûre sınırı yazıldı (fiilsiz paralel isim cümlesiyle kapanış / 'izâ' şartıyla açılış; fâsıla ن → ح; 109 lafızsız ve Rabsız, 110 lafız 2 Rab 1); ardışık sûre okuma bağı kök دين 109:6 / 110:2. Aday 1041: kayıt yok. Kayıttan önce: tetik ön kuru koşusu 0 uyuşmaz (3 ayet); [x/y] 18 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (10 ayet) ve tek okuma parçası (3 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5008 ayet. Yeni aday yok (havuz 1041); bağ seti AS_nasr 12. DUZELTME 0."
+ },
+ "111": {
+  "111:1": {
+   "ar": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+   "meal": "Ebû Leheb'in iki eli kurusun; kurudu da!",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3FS 1 · 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla وتب → ب, ب sınıfı · i’râb GEN 2 · NOM 1; bab I. bab ×2; zaman PERF 2 · kök ikilemesi تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* ×2 · harf 35 → **harf3 15**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* [1,2/2] · يدي *(el)* [1/1] · أبو *(baba)* [1/1] · لهب *(alev (leheb; 3 ayet))* [1/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'tebbet yedâ ebî lehebin ve tebb' — PERF 3FS 'tebbet' + ikil 'yedâ' (NOM) + 'eb' (GEN, künye) + nekre 'leheb' (GEN) + 've' + PERF 3MS 'tebbe' (ölçüm edim haber, kip yok; zaman PERF 2; kök ikilemesi تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* ×2). Aynı fiil iki kez: önce dişil ikil 'yedâ' öznesiyle, sonra 3MS ile; ikinci fiilin öznesi yazılmamış — önündeki eril adlar 'eb' ve 'leheb', künyedeki kişi (okuma). Birinci PERF'in dilek mi haber mi olduğu biçimde ayrılmıyor; meal birinciyi dilek, ikinciyi haber okur (okuma; ölçüm ikisini de haber sayıyor — 924). Kişi metinde künyesiyle anılıyor ('ebî leheb'); ölçüm aktör alanı boş (924). Harekesiz 'ebî leheb' korpusta 1. Lemma 'tebbe' korpusta yalnız bu ayette, iki kez. Kök تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* 3 ayet: 11:101 (okumada görüldü; 've mâ zâdûhum ğayra tetbîb' — ilâhların katmadığı yıkım), okunmuş 1 ayet daha, 111:1. Lemma 'leheb' 3 ayet: 77:31 (okumada görüldü; 've lâ yuğnî mine'l-leheb' — gölgenin alevden korumaması), 111:1, 111:3 — korpusun üç geçişi okundu; burada künyenin parçası. Lemma 'eb' 40 ayet: okunmuş 38 ayet, 111:1, henüz okunmamış 1 — burada künye parçası (okuma). Lemma 'yed' 110 ayet: okunmuş 72 ayet, 111:1, henüz okunmamış 37; burada ikil. Sûre sınırı: 110:3 (okumada görüldü) Rabbin 'tevvâb' sıfatıyla ('innehû kâne tevvâbâ') kapanış → 111:1 PERF 3FS 'tebbet' ile açılış; fâsıla ا → ب; sûre 110 lafız 2, Rab 1, sûre 111 lafızsız ve Rabsız (aday 1040, kayıt). Ölçüm harf 35 → harf3 15 — besmele ailesi (924). Çıpa: kişiye yönelik hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime, yıldızsız. تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* ikilemesi [1,2/2], يدي *(el)* [1/1], أبو *(baba)* [1/1], لهب *(alev (leheb; 3 ayet))* [1/2]. Fâsıla ب. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B3 'yedâ' (tetik يدي *(el)*) — kişinin iki eli, ikil; kuruma fiilinin öznesi; B1, B2, B4 —.\n◈D — D1 PERF 3FS + ikil özne + künye (izâfet) + 've' + PERF 3MS; D2 haber (ölçüm), dilek / haber ayrımı biçimde yok (okuma); D3 kök تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* 11:101; 'leheb' 77:31; D4 3FS 1 · 3MS 1, sahset ['3'].\n◈A — A1 künyeyle anılan kişi ('ebî leheb'); A2 iki el; A3 konuşan adsız; A4 sûre fiille açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · تبب *(kurumak, helak olmak (tebbet); hüsran (tetbîb, tebâb))* n=4 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=13\n  · يدي *(el)* n=120  ▸önce: biat ×28.7 [A tek ayet] · tasdik ×22.2 [A tek ayet] · حرق *(yakma)* ×19.1 [B tek sahne 3 ayet]  ▸sonra: ayak ×30.6 [A tek ayet] · asma-salb ×28.7 [A tek ayet] · beyaz ×26.1 [A tek ayet]  ▸Allah med=11\n  · أبو *(baba)* n=117  ▸önce: لفو *(bulma, rastlama (elfâ))* ×62.3 [A tek ayet] · kemik ×12.5 [A tek ayet] · toprak ×11.0 [A tek ayet]  ▸sonra: بعل *(koca; Ba'l)* ×26.7 [A tek ayet] · iz ×12.5 [A tek ayet] · كيل *(ölçme (hacim))* ×11.7 [A tek ayet]  ▸Allah med=23\n  · لهب *(alev (leheb; 3 ayet))* n=3 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=12",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'tebbet yedâ ebî lehebin ve tebb' — kişiye yönelik hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "111:2": {
+   "ar": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+   "meal": "Malı ve kazandığı ona yarar sağlamadı.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip NEG 1 · şahıs 3MS 4, sahset ['3'], baskın 3, iltifât 0 · n=6 (n z=-0,68), fâsıla كسب *(kazanma, kesb)* → ب, ب sınıfı · i’râb NOM 1; bab I. bab ×2; zaman PERF 2 · harf 20 → **harf3 19**, isaret 1 · dış düğüm 0 · **yıldız yok** · kökler غني *(zenginlik, ganî olma)* [1/1] · مول *(mal)* [1/1] · كسب *(kazanma, kesb)* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'mâ ağnâ 'anhu mâluhû ve mâ keseb' — 'mâ' (NEG) + PERF 3MS 'ağnâ' + 'an' + 3MS + 'mâl' (NOM) + 3MS iyelik + 've' + ilgi 'mâ' + PERF 3MS 'kesebe' (ölçüm kip NEG 1; zaman PERF 2). İkinci 'mâ' morph'ta ad (ilgi), 'mâluhû'ya atıflı — fiilin iki öznesi: mal ve kazanılan; fiil tekil (okuma; ölçüm özne sayısını göstermiyor — 924). Morph 'ağnâ'yı VF:1 etiketliyor — ölçüm 'I. bab ×2'; fiil IV. bab (924; sûre 92 dikkatinin eşi). Kalıp 'mâ ağnâ' 4 ayet: 69:28 (okumada görüldü; 'mâ ağnâ 'annî mâliyeh' — 1S, mal özne), okunmuş 1 ayet daha, 111:2, henüz okunmamış 1. Kalıp ''anhu mâluhû' 2 ayet: 92:11 (okumada görüldü; 've mâ yuğnî 'anhu mâluhû' — IMPF, 'izâ teraddâ' ile), 111:2 — korpusun iki geçişi okundu. Lemma 'ağnâ' 15 ayet: 15:84 ve 69:28 (okumada görüldü), okunmuş 10 ayet daha, 111:2, henüz okunmamış 2; 11:101'deki 'fe-mâ ağnet' ayrı lemma etiketinde — bu sayıma katılmadı (sûre 93 dersi). 15:84 'fe-mâ ağnâ 'anhum mâ kânû yeksibûn' — 'ağnâ' ve 'kesebe' aynı ayette, kazanılan tek özne, 3MP; burada 3MS, mal ve kazanılan iki özne (okuma). Lemma 'mâl' 80 ayet: 69:28 ve 92:11 (okumada görüldü), okunmuş 50 ayet daha, 111:2, henüz okunmamış 27. Lemma 'kesebe' 57 ayet: 15:84 (okumada görüldü), okunmuş 30 ayet daha, 111:2, henüz okunmamış 25. Çıpa: mal ve kazancın yararsızlığı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 6 kelime, yıldızsız. غني *(zenginlik, ganî olma)* [1/1], مول *(mal)* [1/1], كسب *(kazanma, kesb)* [1/1]. Fâsıla ب. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 NEG + PERF + câr-mecrûr + özne (iyelik) + 've' + ilgi + PERF; D2 olumsuz haber (ölçüm NEG); D3 'mâ ağnâ' 69:28; ''anhu mâluhû' 92:11; 'ağnâ' + 'kesebe' 15:84; D4 3MS 4, sahset ['3'].\n◈A — A1 3MS (111:1'deki kişi; okuma); A2 mal, kazanılan; A3 konuşan adsız; A4 olumsuz hüküm.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · غني *(zenginlik, ganî olma)* n=73  ▸önce: جثم *(çöküp kalma)* ×65.1 [B tek sahne 3 ayet] · بخل *(cimrilik)* ×36.2 [B tek sahne 3 ayet] · fakirlik ×25.1 [A tek ayet]  ▸sonra: fakirlik ×33.4 [A tek ayet] · hamd ×19.0 [A tek ayet] · كسب *(kazanma, kesb)* ×8.1 [B tek sahne 5 ayet]  ▸Allah med=7\n  · مول *(mal)* n=86  ▸önce: imdad ×26.2 [A tek ayet] · cihad ×22.4 [A tek ayet] · hicret ×9.8 [A tek ayet]  ▸sonra: يتم *(yetim)* ×13.7 [B tek sahne 5 ayet] · ولد *(doğurma, çocuk)* ×12.3 · بطل *(bâtıl, boş)* ×8.7 [B tek sahne 5 ayet]  ▸Allah med=7\n  · كسب *(kazanma, kesb)* n=67  ▸önce: muâhaze ×36.5 [A tek ayet] · nasip ×16.2 [A tek ayet] · خلو *(boş kalma, baş başa kalma)* ×15.6 [A tek ayet]  ▸sonra: سرع *(hız, sürat)* ×14.3 [B tek sahne 3 ayet] · أثم *(günah, ism)* ×11.4 [B tek sahne 5 ayet] · عفو *(af)* ×9.4 [B tek sahne 3 ayet]  ▸Allah med=10",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'mâ ağnâ 'anhu mâluhû ve mâ keseb' — mal ve kazancın yararsızlığı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "111:3": {
+   "ar": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+   "meal": "Alevli bir ateşe girecek;",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip FUT 1 · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=4 (n z=-0,89), fâsıla لهب *(alev (leheb; 3 ayet))* → ب, ب sınıfı · i’râb ACC 2 · GEN 1; bab I. bab ×1; zaman IMPF 1 · harf 17 → **harf3 15**, isaret 2 · dış düğüm 0 · **yıldız yok** · kökler صلي *(ateşe girme, yaslanma)* [1/1] · نور *(nûr, ışık; nâr, ateş)* [1/1] · لهب *(alev (leheb; 3 ayet))* [2/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'se-yaslâ nâran zâte leheb' — 'se' + IMPF 3MS 'yaslâ' + nekre 'nâr' (ACC) + 'zâte' (ACC, sıfat) + nekre 'leheb' (GEN) (ölçüm kip FUT 1; zaman IMPF 1). Özne 3MS, yazılmamış — 111:1-2'deki 3MS (okuma). Lemma 'yaslâ' 13 ayet: 88:4 (okumada görüldü; 'taslâ nâran hâmiye' — 3FS, nekre 'nâr' + sıfat), okunmuş 10 ayet daha, 111:3, henüz okunmamış 1; iki ayette aynı dizi: IMPF + nekre 'nâran' + nitelik; burada gelecek eki 'se' ve 'zâte leheb' (okuma). 85:5 (okumada görüldü) 'en-nâri zâti'l-veqûd' — 'nâr' + 'zât' + belirli ad, GEN; burada nekre ACC (okuma). Lemma 'nâr' 138 ayet: 66:10, 85:5 ve 88:4 (okumada görüldü), okunmuş 91 ayet daha, 111:3, henüz okunmamış 43. Lemma 'leheb' sûre içi ikinci geçiş: 111:1'de künyede, burada ateşin niteliğinde (okuma) — لهب *(alev (leheb; 3 ayet))* [2/2] sûre içi tam sayım, iki geçiş de bu blokta basıldı. 77:31 (okumada görüldü) 'yuğnî' ve 'leheb' tek ayette; burada kök غني (111:2) ve 'leheb' (111:3) ardışık iki ayette (okuma). Çıpa: ateşe girme, âhiret (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 4 kelime, yıldızsız. صلي *(ateşe girme, yaslanma)* [1/1], نور *(nûr, ışık; nâr, ateş)* [1/1], لهب *(alev (leheb; 3 ayet))* [2/2]. Fâsıla ب. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 'se' + IMPF + mef'ûl + sıfat ('zâte') + tamlayan; D2 gelecek (ölçüm FUT); D3 'taslâ nâran' 88:4; 'nâr' + 'zât' 85:5; D4 3MS 1, sahset ['3'].\n◈A — A1 3MS (adı 111:1'de; okuma); A2 alevli ateş; A3 konuşan adsız; A4 gelecek hüküm.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · صلي *(ateşe girme, yaslanma)* n=25  ▸önce: ateş ×5.9 [A tek ayet] · velî ×3.7 [A tek ayet]  ▸sonra: جحم *(alevli ateş, cahîm)* ×33.0 [B tek sahne 5 ayet] · ne-kötü ×21.4 [A tek ayet] · ateş ×11.8 [A tek ayet]  ▸Allah med=18\n  · نور *(nûr, ışık; nâr, ateş)* n=194  ▸önce: طفأ *(söndürme)* ×36.6 [B tek sahne 3 ayet] · دعع *(itip kakma)* ×36.6 [A tek ayet] · ضوأ *(ışık, aydınlık)* ×24.4 [B tek sahne 3 ayet]  ▸sonra: وقد *(tutuşturma)* ×16.6 · ثوي *(ikamet etme)* ×10.5 [B tek sahne 4 ayet] · خلد *(ebedî kalma)* ×8.8  ▸Allah med=11\n  · لهب *(alev (leheb; 3 ayet))* n=3 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=12",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'se-yaslâ nâran zâte leheb' — âhirette ateşe girme (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "111:4": {
+   "ar": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+   "meal": "karısı da — odun taşıyıcısı —",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör: adsız `imrae` 1. sırada · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=3 (n z=-1,00), fâsıla ٱلحطب → ب, ب sınıfı · i’râb ACC 1 · GEN 1 · NOM 1; bab yok; zaman yok · harf 18 → **harf3 17**, isaret 1 · dış düğüm 0 · **yıldız yok** · kökler مرأ *(kişi; kadın (imrae))* [1/1] · حمل *(yüklenme, taşıma)* [1/1] · حطب *(odun (hatab; 2 ayet))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've'mra'etuhû hammâlete'l-hatab' — 've' + 'imra'at' (NOM) + 3MS iyelik + 'hammâle' (ACC, etken ortaç FS) + belirli 'el-hatab' (GEN) (ölçüm i'râb ACC 1 · GEN 1 · NOM 1; fiil yok). 'imra'atuhû' (NOM) 111:3'teki fiilin öznesine atıflı da, 111:5 cümlesinin başı da okunabilir — metin ayırmıyor, KAPATILAMAZ; 'hammâlete' ACC, 'imra'at'ın i'râbından ayrı (okuma). Kadın 3MS'ye iyelikle bağlı, adsız (1017); ölçüm aktör alanı 'imrae' adsız. Lemma 'hammâle' korpusta 1. Lemma 'hatab' 2 ayet: 72:15 (okumada görüldü; 'fe-kânû li-cehenneme hatabâ' — sapanlar cehenneme odun), 111:4 — korpusun iki geçişi okundu. Lemma 'imra'at' 25 ayet: 66:10 (okumada görüldü; 'imra'ete nûhin ve'mra'ete lût' — kadınlar kocalarına izâfetle, ateşe girmeleri söyleniyor), okunmuş 17 ayet daha, 111:4, henüz okunmamış 6. Çıpa: kişi nitelemesi (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 3 kelime, yıldızsız. مرأ *(kişi; kadın (imrae))* [1/1], حمل *(yüklenme, taşıma)* [1/1], حطب *(odun (hatab; 2 ayet))* [1/1]. Fâsıla ب. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B2 'hammâlete'l-hatab' (tetik حمل *(yüklenme, taşıma)*) — odun taşıma; gebelik / doğurma anlamı değil; B1, B3, B4 —.\n◈D — D1 've' + özne (iyelik) + ACC ortaç + tamlayan; D2 —; D3 'hatab' 72:15; 'imra'at' + izâfet 66:10; D4 3MS 1, sahset ['3'].\n◈A — A1 3MS'nin karısı (adsız); A2 odun; A3 konuşan adsız; A4 cümle bağı açık (111:3 / 111:5).",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · مرأ *(kişi; kadın (imrae))* n=38  ▸önce: غلم *(oğlan, delikanlı)* ×40.8 [B tek sahne 3 ayet] · kurtuluş ×13.2 [A tek ayet] · adam ×12.4 [A tek ayet]  ▸sonra: kısır ×177.0 [A tek ayet] · geride-kalan ×126.4 [A tek ayet] · أخو *(kardeş)* ×7.4 [B tek sahne 4 ayet]  ▸Allah med=22\n  · حمل *(yüklenme, taşıma)* n=64  ▸önce: رضع *(emzirme)* ×30.3 [A tek ayet] · koyma ×22.2 [A tek ayet] · خطأ *(hata, günah)* ×15.2 [A tek ayet]  ▸sonra: sütten-kesme ×111.2 [A tek ayet] · sarhoşluk ×55.6 [A tek ayet] · ثقل *(ağırlık)* ×23.8 [B tek sahne 4 ayet]  ▸Allah med=16\n  · حطب *(odun (hatab; 2 ayet))* n=2 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=20",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ve'mra'etuhû hammâlete'l-hatab' — kişi nitelemesi (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "111:5": {
+   "ar": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+   "meal": "boynunda bükülmüş liften bir ip.",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3FS 1, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))* → د, د sınıfı · i’râb GEN 2 · NOM 1; bab yok; zaman yok · **HAPAKS: جيد *(boyun (cîd; 1 ayet))*, مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))* — hapaks z=6,79** · harf 17 → **harf3 15**, isaret 2 · dış düğüm 0 · **yıldız ★★★** · kökler جيد *(boyun (cîd; 1 ayet))* [1/1] · حبل *(ip, halat)* [1/1] · مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'fî cîdihâ hablun min mesed' — 'fî' + 'cîd' + 3FS iyelik + nekre 'habl' (NOM) + 'min' + nekre 'mesed' (GEN) (ölçüm fiil yok, zaman yok; şahıs 3FS 1). Fiilsiz isim cümlesi: haber öne alınmış câr-mecrûr; 3FS iyelik önündeki tek dişil ad 'imra'at'a dönüyor (okuma). Lemma 'cîd' ve 'mesed' korpusta tek ayet — iki kök bu blokta tabloya eklendi (جيد *(boyun (cîd; 1 ayet))*, مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))*); ölçüm ★★★ hapaks z=6,79 bunlardan (formül davranışı). Harekesiz 'hablun min mesed' korpusta 1. Lemma 'habl' 6 ayet: 50:16 (okumada görüldü; 'min habli'l-verîd' — şah damarı, yakınlık ölçüsü), okunmuş 2 ayet daha, 111:5, henüz okunmamış 2; orada tamlamayla damar, burada 'min mesed' ile ip (okuma). Organ adı 'cîd' (boyun) ◈B tetik listesinde değil (عنق *(boyun)* var, جيد *(boyun (cîd; 1 ayet))* yok) — gözlem burada (sûre 47 dersi). Fâsıla ب → د geçişi — ölçüm işaretlemedi (924). Sûre 'mesed' ile bitiyor. Çıpa: ceza tasviri (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok — lafızsız ve Rabsız sûre. 5 kelime, ★★★ kaynak hapaks. جيد *(boyun (cîd; 1 ayet))* [1/1], حبل *(ip, halat)* [1/1], مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))* [1/1]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 câr-mecrûr (iyelik) + mübteda (nekre) + 'min' + tamlayan; D2 fiilsiz haber; D3 'habl' 50:16; D4 3FS 1, sahset ['3'].\n◈A — A1 kadın (3FS, adsız); A2 boyun, ip; A3 konuşan adsız; A4 sûre fiilsiz cümleyle kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · جيد *(boyun (cîd; 1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=6\n  · حبل *(ip, halat)* n=7 ⚠  ▸önce: atma ×72.1 [A tek ayet]  ▸sonra: —  ▸Allah med=5\n  · مسد *(bükülmüş lif, sağlam örülmüş ip (mesed; 1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=3",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'fî cîdihâ hablun min mesed' — ceza tasviri, organ adı + nesne (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-5": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 5,
+    "kelime_toplam": 23,
+    "lafiz_token": 0,
+    "lafiz_ayet": 0,
+    "rab_token": 0,
+    "edilgen_ayet": [],
+    "iltifat_ayet": [],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {
+     "5": [
+      "جيد",
+      "مسد"
+     ]
+    },
+    "yildiz_dagilim": {
+     "0": 4,
+     "3": 1
+    },
+    "yildiz_kaynak": {
+     "5": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 6.79,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [],
+    "say_isareti": {},
+    "esma_token_oto": 0,
+    "esma_sinif_oto": {
+     "0": 5
+    },
+    "esma_sinif_el": {
+     "0": 5
+    },
+    "esma_muhur_43": [],
+    "esma_muhur_43_gecerli": [],
+    "tarayici_v4_aday": [],
+    "ariza": [
+     "esmâ: e_oto 0 token; KARAR değişmedi (729); lafız yok, Rab yok — lafızsız ve Rabsız sûre; mühür yok",
+     "kök tablosu: iki yeni kök (جيد, مسد) ölçümde '???' ile göründü — kok_ekle_111 ile eklendi (1544 → 1546; ikisi de korpusta tek ayet); retroaktif yama hedefli 0, genel 0 (iki geçiş); taban kayıtları om_base ile aynı; dikey yeniden koşuldu, karşılık eksiği yok",
+     "yıldız: yalnız 111:5 ★★★ kaynak hapaks (z=6,79) — yeni eklenen iki kökten, formül davranışı; diğer 4 ayet yıldızsız; kafiye kırığı yok, 1001 vakası yok",
+     "fâsıla: metinde ب ب ب ب د; 111:5 ب → د geçişi ölçümde işaretsiz (924)",
+     "biçim (924): ayet 1 harf 35 → harf3 15 (besmele ailesi); 111:1 iki PERF ölçümde ikisi de haber (dilek / haber ayrımı yok); morph 'ağnâ' (111:2) VF:1 — ölçüm 'I. bab', fiil IV. bab (sûre 92 dikkatinin eşi); 111:2 iki özneli 3MS fiil özne sayısı görünmüyor",
+     "aktör (924): 111:1 künyeyle anılan kişi ('ebî leheb') ölçüm aktör alanında yok; 111:4 'imrae' adsız aktör",
+     "iltifât: ölçüm 0; sahset bütün ayetlerde ['3'] — 3FS / 3MS dönüşleri (111:1 'yedâ' / 3MS, 111:4-5 kadın 3FS) ölçümde aynı '3' (924)",
+     "gönderge (1017): konuşan adsız, hitap yok; kişi metinde yalnız künyeyle; kadın 'imra'atuhû' iyelikle, adsız; 111:4 'imra'atuhû'nun 111:3 fiiline atıflı mı 111:5'in başı mı olduğu KAPATILAMAZ",
+     "esit2 / nakarat3 / xref: blokta beşi de bağ YOK",
+     "çıpa: L0 / L1 / L2 / L4 yok; olgu=False 5; tarayıcı v4 blokta aday vermedi",
+     "aday 1040 (kayıt): 110:3 / 111:1 sûre sınırı — Rabbin 'tevvâb' sıfatıyla kapanış / PERF 3FS 'tebbet' ile açılış; fâsıla ا → ب; 110 lafız 2 Rab 1, 111 lafızsız ve Rabsız",
+     "aday 1039: ayet içi 0; blok içi 0",
+     "aday 1041: kayıt yok — lafız / Rab yok; okuma notu: lemma 'leheb' sûre içinde künyede (111:1) ve ateş niteliğinde (111:3)",
+     "korpusta 1 (kayıt): lemma 'tebbe' (iki token, tek ayet), 'hammâle', 'cîd', 'mesed'; harekesiz 'ebî leheb', 'hablun min mesed'; sûre içi tam sayım: kök لهب [2/2], تبب ikilemesi [1,2/2]",
+     "bağ: emsaller 77:31, 11:101, 69:28, 92:11, 15:84, 88:4, 85:5, 72:15, 66:10, 50:16 — hepsi AR + meal ile emsal listesinde basıldı (NFC fark 0), her biri ilgili oturum_lem / oturum_say listesinde doğrulandı; 110:3 bu oturumda daha önce basılmıştı, yeniden basılmadı; 11:101 'ağnet' ayrı lemma etiketinde — 'ağnâ' sayımına katılmadı",
+     "◈K / ◈B: ◈K beş ayette '—'; ◈B 111:1 dolu (tetik يدي), 111:4 dolu (tetik حمل, gebelik anlamı değil), diğer üç ayette '—'; 'cîd' (boyun) tetik listesinde değil — gözlem ◇'de; tetik ön kuru koşu (geçici modül, silindi) 0 uyuşmaz, 5 ayet; oturum_xy 17 sayım, 0 uyuşmaz",
+     "süreç: sûre 111 dosyaları nasr_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_111.py, oturum dışı; ad 'mesed', harf sınırlı; ISTEK boş kuruldu, kökler ayrı yamayla eklendi; kayıt dosyası boş — assert'li; yüzde sabiti maskeli; I['not'] satırı genel değişimden sonra; sûre 96 şablonuyla aile karşılaştırması temiz); iskele türetilirken dosya eşlemesinin kaynak adları da değişti — koşudan önce yakalandı, düzeltildi; sûre 5 ayet — tek blok, ara zip yok"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "_bilanco_sure": {
+   "etiket": "TAM SAYIM — sûre 111, 5 ayet",
+   "kelime_toplam": 23,
+   "lafiz_token": 0,
+   "lafiz_ayet": 0,
+   "rab_token": 0,
+   "rab_ayet": [],
+   "A_R_orani": 0.0,
+   "yildiz": {
+    "0": 4,
+    "3": 1
+   },
+   "yildiz_kaynak_tum": {
+    "hapaks": 1
+   },
+   "yildiz_kaynak_duzeltilmis": {
+    "hapaks": 1
+   },
+   "etiket_1001_ayet": [],
+   "ucyildiz_kaynak": {
+    "hapaks": 1
+   },
+   "edilgen_ayet": 0,
+   "iltifat_ayet": [],
+   "hapaks_ayet": [
+    5
+   ],
+   "mm2_ayet": [],
+   "fasila_sinif": {
+    "ب": 4,
+    "د": 1
+   },
+   "kafiye_kirik": [],
+   "en_uzun": [
+    6,
+    2
+   ],
+   "en_uzun_esit": [
+    2
+   ],
+   "en_kisa_esit": [
+    4
+   ],
+   "say_isareti": {}
+  },
+  "_cipa_tablosu_111": {
+   "isaretli": {
+    "1": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'tebbet yedâ ebî lehebin ve tebb' — kişiye yönelik hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "2": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'mâ ağnâ 'anhu mâluhû ve mâ keseb' — mal ve kazancın yararsızlığı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "3": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'se-yaslâ nâran zâte leheb' — âhirette ateşe girme (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "4": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ve'mra'etuhû hammâlete'l-hatab' — kişi nitelemesi (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "5": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'fî cîdihâ hablun min mesed' — ceza tasviri, organ adı + nesne (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    }
+   },
+   "L4": [],
+   "tarayici_v4_aday": [],
+   "anma": "0/0",
+   "kesinlik": "0/0"
+  },
+  "_esma_profil_111": {
+   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile.",
+   "sinif_oto": {
+    "0": 5
+   },
+   "sinif_el": {
+    "0": 5
+   },
+   "esma_token_oto": 0,
+   "esma_token_ilahi": 0,
+   "muhur_43": 0,
+   "muhur_43_gecerli": 0,
+   "muhur_43_yanlis": [],
+   "ton_gecerli_muhur": {},
+   "bant": "KAPI_KAPALI (§4.4, aday 435)"
+  },
+  "_kapanis_notu": "SÛRE 111 MESED SONU. Blok başı kayıt sûrenin tamamında uygulandı; 5 ayet, 23 kelime, tek blok 111:1-5 (Ebû Leheb'in iki eli kurusun, kurudu da; malı ve kazandığı ona yarar sağlamadı; alevli bir ateşe girecek; karısı da, odun taşıyıcısı, boynunda bükülmüş liften bir ip). Sûre 2026-11-01'de sûre 110 kapanışının ardından aynı oturumda okundu; taban 40018b4 değişmedi (sûre 110 zip'i yüklenmedi), bu yüzden sûre 111 zip'i 110'u da taşıyor. Dosyalar nasr_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_111.py, oturum dışı; ad 'mesed', harf sınırlı; set değişkeni ASCII 'MESED'; kok_ekle ISTEK iskele içinde boş, kökler ayrı yamayla; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — assert'le doğrulandı; ilerleme yüzdesi sabiti maskelendi; I['not'] satırı genel değişimden sonra açık yazıldı; '_esma_profil_111' / '_profil_111' assert'le bulundu; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz; iskele bir öncekinden türetilirken dosya eşlemesinin kaynak adları da değişmişti — koşudan önce görüldü ve düzeltildi); kapanış / paket blok listesi üç yerde birlikte dolduruldu (yamalar/yama_bl_111.py) ve --kuru ile doğrulandı. Kök tablosu: iki yeni kök (جيد 'boyun', مسد 'bükülmüş lif / ip'), ölçümde '???' ile göründü, ikisi de korpusta tek ayet — kok_ekle_111 ile eklendi (1544 → 1546); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı; dikey yeniden koşuldu. Esmâ: e_oto 0; KARAR değişmedi (729); mühür yok. Lafızsız ve Rabsız sûre. Yıldız: yalnız 111:5 ★★★ kaynak hapaks (z=6,79) — yeni eklenen iki kökten, formül davranışı; diğer 4 ayet yıldızsız; kafiye kırığı yok. Fâsıla: metinde ب ب ب ب د — ölçüm ب 4, د 1; 111:5 ب → د geçişi işaretsiz (924). Biçim: ayet 1 harf 35 → harf3 15 (besmele ailesi, 924); 111:1 iki PERF ölçümde ikisi de haber, dilek / haber ayrımı biçimde yok; morph 'ağnâ' VF:1 — ölçüm 'I. bab', fiil IV. bab (924); 111:2 iki özne bir 3MS fiile bağlı. Aktör: künyeyle anılan kişi ('ebî leheb') ölçüm aktör alanında yok (924); 111:4 'imrae' adsız. İltifât 0; 3FS / 3MS dönüşleri sahset'te aynı '3'. Gönderge (1017): konuşan adsız, hitap yok; kişi yalnız künyeyle, kadın iyelikle adsız; 111:4 'imra'atuhû'nun 111:3 fiiline atıflı mı 111:5'in başı mı olduğu KAPATILAMAZ. Sûre içi tam sayım, bütün geçişler basılmışken: kök لهب [2/2] (künye / ateş niteliği), تبب ikilemesi [1,2/2]. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 5; tarayıcı v4 aday vermedi. Korpusta 1: lemma 'tebbe', 'hammâle', 'cîd', 'mesed'; harekesiz 'ebî leheb', 'hablun min mesed'. Okuma bağları: 11:101 kök تبب; 77:31 'leheb' (korpusun üç geçişi okundu) ve kök غني ile tek ayette; 69:28 'mâ ağnâ' + mal; 92:11 ''anhu mâluhû' (korpusun iki geçişi); 15:84 'ağnâ' + 'kesebe'; 88:4 'yaslâ' + nekre 'nâran' + nitelik; 85:5 'nâr' + 'zât'; 72:15 'hatab' (korpusun iki geçişi); 66:10 'imra'at' + kocaya izâfet; 50:16 'habl'. Lemma bölünmesi: 11:101 'ağnet' ayrı etiket, 'ağnâ' sayımına katılmadı. Aday 1039 (okuma): 5/5 ayet notlu; ayet içi 0; blok içi 0. Aday 1040: 110:3 / 111:1 sûre sınırı yazıldı (Rabbin 'tevvâb' sıfatıyla kapanış / PERF 3FS 'tebbet' ile açılış; fâsıla ا → ب; 110 lafız 2 Rab 1, 111 lafızsız ve Rabsız). Aday 1041: kayıt yok. Kayıttan önce: tetik ön kuru koşusu 0 uyuşmaz (5 ayet); [x/y] 17 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (10 ayet) ve tek okuma parçası (5 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5013 ayet. Yeni aday yok (havuz 1041); bağ seti AS_mesed 13. DUZELTME 0."
+ },
+ "112": {
+  "112:1": {
+   "ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+   "meal": "De ki: 'O, Allah'tır, tektir;",
+   "olcum": "eksen: **ALLAH LAFZI** 3. sırada (allah z=4,47) · esmâ أَحَد 4. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim emir, kip IMPV 1 · şahıs 2MS 1 · 3MS 1, sahset ['2', '3'], baskın 2, iltifât 0 · n=4 (n z=-0,89), fâsıla أحد *(bir, hiç kimse)* → د, د sınıfı · i’râb NOM 2; bab I. bab ×1; zaman IMPV 1 · sayı işareti أَحَد · harf 30 → **harf3 11**, isaret 0 · dış düğüm 0 · **yıldız ★★★** · kökler قول *(söz söyleme)* [1/1] · أله *(ilâh; lafza-i celâl)* [1/2] · أحد *(bir, hiç kimse)* [1/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'qul huve'llâhu ehad' — IMPV 2MS 'qul' + 3MS zamir 'huve' + lafız (NOM) + nekre 'ehad' (NOM) (ölçüm edim emir, kip IMPV 1). Söz fiili 'qul' (lemma 'qâle') sözü açıyor; söz sınırı metinde işaretsiz — meal tırnağı 112:1'de açılıp sûre sonunda kapanıyor, 112:2-4'ün söz içi mi anlatıcı sesi mi olduğu KAPATILAMAZ (okuma; 1017). 2MS hitap adsız; 'qul' diyen adsız (1017). 'huve' + lafız + 'ehad': fiilsiz isim cümlesi; 'huve' + lafız + haber dizisi (okuma). Kalıp 'qul huve' 10 ayet: 67:29 (okumada görüldü; 'qul huve'r-rahmân' — lafız yerinde 'er-rahmân', ardından 1P inanma ve dayanma), okunmuş 5 ayet daha, 112:1, henüz okunmamış 3. Harekesiz 'huve'llâh' 7 ayet: 59:22 (okumada görüldü; 'huve'llâhu'llezî lâ ilâhe illâ hû' — ilgi zamiri + nefy-istisna ile), okunmuş 5 ayet daha, 112:1; harekesiz 'qul huve'llâh' korpusta 1. Harekesiz 'allâhu ehad' 2 ayet: 72:22 (okumada görüldü; 'len yucîranî mina'llâhi ehad' — 'ehad' olumsuz cümlede özne, 'hiç kimse', lafız 'min' ile GEN), 112:1 — iki ayette aynı iki kelime, sözdizimi ve 'ehad'ın göndergesi farklı (okuma). Lemma 'ehad' 72 ayet: 72:22 ve 89:25 (okumada görüldü), okunmuş 48 ayet daha, 112:1, 112:4, henüz okunmamış 20; sûre içinde iki geçiş: burada olumlu haber, lafzın haberi; 112:4'te olumsuz cümlede nekre (aday 1041, kayıt). Esmâ: 'ehad' 4. token, İLÂHÎ (okuyucu kararı); ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 112:1 (1022). Ölçüm sayı işareti 'ehad' — kök kaynaklı (924). Sûre sınırı: 111:5 (okumada görüldü) fiilsiz isim cümlesiyle ('fî cîdihâ hablun min mesed') kapanış → 112:1 'qul' emriyle açılış; fâsıla د → د; sûre 111 lafızsız ve Rabsız, sûre 112 lafız 2, Rab yok (aday 1040, kayıt). Ölçüm harf 30 → harf3 11 — besmele ailesi (924). Çıpa: ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız 1 (3. token); Rab yok. 4 kelime, ★★★ kaynak allah (z=4,47) — kısa ayette tek lafız, formül davranışı. قول *(söz söyleme)* [1/1], أله *(ilâh; lafza-i celâl)* [1/2], أحد *(bir, hiç kimse)* [1/2]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 IMPV 'qul' + zamir + lafız + nekre haber; D2 emir (ölçüm IMPV), söz açılıyor; D3 'qul huve' 67:29; 'huve'llâh' 59:22; 'allâhu ehad' 72:22; D4 2MS 1 · 3MS 1, sahset ['2', '3'].\n◈A — A1 hitap 2MS (adsız); Allah (lafız); A2 —; A3 emreden adsız; A4 söz açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · أحد *(bir, hiç kimse)* n=85  ▸önce: حضر *(hazır bulundurma)* ×16.5 [B tek sahne 5 ayet] · ayırma ×7.5 [A tek ayet] · zuhur ×7.3 [A tek ayet]  ▸sonra: لمس *(dokunma, lems)* ×49.6 [B tek sahne 3 ayet] · أبد *(ebedîlik)* ×8.9 [B tek sahne 3 ayet] · diğer ×8.3 [A tek ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'qul huve'llâhu ehad' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "denge",
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "112:2": {
+   "ar": "ٱللَّهُ ٱلصَّمَدُ",
+   "meal": "Allah sameddir;",
+   "olcum": "eksen: **ALLAH LAFZI** 1. sırada (allah z=9,47) · esmâ صَمَد 2. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=2 (n z=-1,11), fâsıla ٱلصمد → د, د sınıfı · i’râb NOM 2; bab yok; zaman yok · **HAPAKS: صمد *(samed: kendisine yönelinen, ihtiyaçsız (1 ayet))* — hapaks z=3,28** · harf 9 → **harf3 9**, isaret 0 · dış düğüm 0 · **yıldız ★★★** · kökler أله *(ilâh; lafza-i celâl)* [2/2] · صمد *(samed: kendisine yönelinen, ihtiyaçsız (1 ayet))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'allâhu's-samed' — lafız (NOM) + belirli 'es-samed' (NOM) (ölçüm fiil yok, zaman yok; şahıs işareti yok). İki kelimelik fiilsiz isim cümlesi: mübteda lafız, haber 'es-samed' (okuma). Lemma 'samed' korpusta tek ayet — kök bu blokta tabloya eklendi (صمد *(samed: kendisine yönelinen, ihtiyaçsız (1 ayet))*); ölçüm hapaks z=3,28 ondan. Harekesiz 'allâhu's-samed' korpusta 1. Esmâ: 'es-samed' 2. token, İLÂHÎ (okuyucu kararı); ölçüm satırı 'SON konum, MÜHÜRSÜZ' / bilanço geçerli mühür 112:2 (1022). Lafız 112:1'in haber konumundan buraya mübteda konumuna geçiyor; iki ayette de lafız NOM (okuma). Çıpa: ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız 1 (1. token) — sûre içi tam sayım أله *(ilâh; lafza-i celâl)* [2/2], iki geçiş de bu blokta basıldı; Rab yok. 2 kelime, ★★★ kaynak allah (z=9,47; hapaks z=3,28 de eşiği geçiyor) — iki kelimelik ayette tek lafız, formül davranışı. أله *(ilâh; lafza-i celâl)* [2/2], صمد *(samed: kendisine yönelinen, ihtiyaçsız (1 ayet))* [1/1]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 mübteda (lafız) + belirli haber; D2 fiilsiz haber; D3 —; D4 şahıs işareti yok (sahset —).\n◈A — A1 Allah (lafız); A2 —; A3 söz içi (KAPATILAMAZ); A4 —.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · صمد *(samed: kendisine yönelinen, ihtiyaçsız (1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=1",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'allâhu's-samed' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "A",
+    "sinif_el": "A",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "denge",
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "112:3": {
+   "ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+   "meal": "doğurmamış ve doğurulmamıştır;",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip NEG 2 · şahıs 3MS 2, sahset ['3'], baskın 3, iltifât 0 · n=4 (n z=-0,89), fâsıla يولد → د, د sınıfı · i’râb —; bab I. bab ×2; zaman IMPF 2 · **EDİLGEN 1/2 fiil, pas z=2,52** · kök ikilemesi ولد *(doğurma, çocuk)* ×2 · harf 12 → **harf3 12**, isaret 0 · dış düğüm 0 · **yıldız ★★** · kökler ولد *(doğurma, çocuk)* [1,2/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'lem yelid ve lem yûled' — 'lem' + IMPF 3MS cezm 'yelid' + 've' + 'lem' + edilgen IMPF 3MS cezm 'yûled' (ölçüm kip NEG 2; EDİLGEN 1/2 fiil; kök ikilemesi ولد *(doğurma, çocuk)* ×2). Aynı kök etken ve edilgen, ikisi de 'lem' ile geçmişe olumsuz; özne 3MS, yazılmamış — 112:1-2'deki 'huve' / lafız (okuma). Harekesiz 'lem yelid ve lem yûled' korpusta 1. Lemma 'velede' 8 ayet: 37:152 (okumada görüldü; 'velede'llâh' — PERF 3MS, özne lafız, söyleyenlerin iddiası, ardından 've innehum le-kâzibûn') ve 19:33 (okumada görüldü; 'yevme vulidtu' — edilgen PERF 1S), okunmuş 5 ayet daha, 112:3; 37:152'deki aynı fiil burada olumsuzlanmış ve edilgeni eklenmiş (okuma). Kök ولد *(doğurma, çocuk)* 80 ayet: 17:111, 19:33, 25:2 ve 37:152 (okumada görüldü), okunmuş 50 ayet daha, 112:3, henüz okunmamış 25; 17:111 ve 25:2'de 'lem yettexiz veleden' — 'lem' + başka fiil + ad 'veled'; burada fiilin kendisi (okuma). Kök ولد *(doğurma, çocuk)* ◈B tetik listesinde değil — doğurma gözlemi burada. Ölçüm ★★ kaynak pas (z=2,52) — kısa ayette edilgen, formül davranışı. Çıpa: tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 4 kelime. ولد *(doğurma, çocuk)* ikilemesi [1,2/2]. Fâsıla د. Karşıt çift (aday 1039, okuma): 'yelid' / 'yûled' (etken / edilgen; doğurma / doğurulma).\n◈K — —\n◈B — —\n◈D — D1 'lem' + IMPF cezm + 've' + 'lem' + edilgen IMPF cezm; D2 olumsuz ×2 (ölçüm NEG 2), edilgen (ölçüm); D3 'velede'llâh' 37:152; 'lem yettexiz veleden' 17:111, 25:2; D4 3MS 2, sahset ['3'].\n◈A — A1 3MS (112:1-2'deki; okuma); A2 —; A3 söz içi (KAPATILAMAZ); A4 tenzih.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · ولد *(doğurma, çocuk)* n=102  ▸önce: رضع *(emzirme)* ×19.3 [A tek ayet] · مول *(mal)* ×13.2 · ترك *(bırakma, terk)* ×11.5  ▸sonra: ملق *(yoksulluk korkusu, imlâk)* ×106.1 [A tek ayet] · يتم *(yetim)* ×12.3 [B tek sahne 4 ayet] · nasip ×10.5 [A tek ayet]  ▸Allah med=12",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'lem yelid ve lem yûled' — tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "112:4": {
+   "ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+   "meal": "ve hiç kimse O'na denk değildir.'",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ أَحَد 5. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim haber, kip NEG 1 · şahıs 3MS 2, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla أحد *(bir, hiç kimse)* → د, د sınıfı · i’râb ACC 1 · NOM 1; bab I. bab ×1; zaman IMPF 1 · **HAPAKS: كفأ *(denk, eş (kufuv; 1 ayet))* — hapaks z=3,28** · sayı işareti أَحَد · harf 17 → **harf3 15**, isaret 2 · dış düğüm 0 · **yıldız ★★★** · kökler كون *(olmak; mekân, yer)* [1/1] · كفأ *(denk, eş (kufuv; 1 ayet))* [1/1] · أحد *(bir, hiç kimse)* [2/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've lem yekun lehû kufuwen ehad' — 've' + 'lem' + IMPF 3MS cezm 'yekun' + 'li' + 3MS + nekre 'kufuv' (ACC) + nekre 'ehad' (NOM) (ölçüm kip NEG 1; i'râb ACC 1 · NOM 1). 'kufuwen' 'yekun'un haberi, öne alınmış; 'ehad' ismi (okuma). 'lehû' göndergesi 3MS — 112:1-3'teki (okuma). Kalıp 've lem yekun lehû' 3 ayet: 17:111 ve 25:2 (okumada görüldü; ikisinde de 've lem yekun lehû şerîkun fi'l-mulk' — ardından 'şerîk', 17:111'de ayrıca 'veliyy'), 112:4 — korpusun üç geçişi okundu; iki ayette de aynı dizide 'lem yettexiz veleden' önce geliyor, burada önce 'lem yelid' (112:3) (okuma). Harekesiz 'yekun lehû' 5 ayet: 17:111, 25:2, 112:4, henüz okunmamış 2. Lemma 'kufuv' korpusta tek ayet — kök bu blokta tabloya eklendi (كفأ *(denk, eş (kufuv; 1 ayet))*); ölçüm hapaks z=3,28 ondan. 'ehad' sûre içi ikinci geçiş: olumsuz cümlede nekre, 'hiç kimse' — 89:25 (okumada görüldü; 'lâ yu'azzibu 'azâbehû ehad') ve 72:22 gibi; esmâ 'degil' (okuyucu kararı; olumsuz cümlede nekre 'ehad' — sûre 89 dersi); ölçüm mührü 112:4'te var, bilanço geçerli değil (1022); sayı işareti yanlış pozitif (924). 'ehad' sûre içinde iki geçiş: 112:1 Allah, 112:4 'hiç kimse' (aday 1041, kayıt). Sûre 'ehad' ile bitiyor; ilk ayet de 'ehad' ile bitiyordu (okuma). Söz sınırı: meal tırnağı burada kapanıyor (okuma). Çıpa: tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok. 5 kelime, ★★★ kaynak hapaks (z=3,28). كون *(olmak; mekân, yer)* [1/1], كفأ *(denk, eş (kufuv; 1 ayet))* [1/1], أحد *(bir, hiç kimse)* [2/2]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 've' + 'lem' + IMPF cezm ('kâne') + câr-mecrûr + öne alınmış haber + isim; D2 olumsuz (ölçüm NEG); D3 've lem yekun lehû' 17:111, 25:2; olumsuz nekre 'ehad' 89:25, 72:22; D4 3MS 2, sahset ['3'].\n◈A — A1 'ehad' ('hiç kimse'); 3MS ('lehû'); A2 denk; A3 söz içi (KAPATILAMAZ); A4 sûre ve söz kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · كون *(olmak; mekân, yer)* n=1390  ▸önce: بسس *(yayılma, ufalanma)* ×10.4 [A tek ayet] · بذر *(saçıp savurma)* ×8.6 [A tek ayet] · وطر *(ihtiyaç, hâcet)* ×7.8 [A tek ayet]  ▸sonra: عهن *(boyanmış yün)* ×10.4 [A tek ayet] · örnek ×5.2 [A tek ayet] · yolculuk ×5.2 [A tek ayet]  ▸Allah med=13\n  · كفأ *(denk, eş (kufuv; 1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=9\n  · أحد *(bir, hiç kimse)* n=85  ▸önce: حضر *(hazır bulundurma)* ×16.5 [B tek sahne 5 ayet] · ayırma ×7.5 [A tek ayet] · zuhur ×7.3 [A tek ayet]  ▸sonra: لمس *(dokunma, lems)* ×49.6 [B tek sahne 3 ayet] · أبد *(ebedîlik)* ×8.9 [B tek sahne 3 ayet] · diğer ×8.3 [A tek ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ve lem yekun lehû kufuwen ehad' — tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "E",
+    "sinif_el": "0",
+    "e_oto": true,
+    "e_el": false,
+    "muhur": true,
+    "cift": false,
+    "ton": "denge",
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-4": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 4,
+    "kelime_toplam": 15,
+    "lafiz_token": 2,
+    "lafiz_ayet": 2,
+    "rab_token": 0,
+    "edilgen_ayet": [
+     3
+    ],
+    "iltifat_ayet": [],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {
+     "2": [
+      "صمد"
+     ],
+     "4": [
+      "كفأ"
+     ]
+    },
+    "yildiz_dagilim": {
+     "2": 1,
+     "3": 3
+    },
+    "yildiz_kaynak": {
+     "1": {
+      "yildiz": 3,
+      "kaynak": "allah",
+      "z": 4.47,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "2": {
+      "yildiz": 3,
+      "kaynak": "allah",
+      "z": 9.47,
+      "esigi_gecen_diger": {
+       "hapaks": 3.28
+      },
+      "kafiye_kirik": false
+     },
+     "3": {
+      "yildiz": 2,
+      "kaynak": "pas",
+      "z": 2.52,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "4": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [],
+    "say_isareti": {
+     "1": [
+      "أَحَد"
+     ],
+     "4": [
+      "أَحَد"
+     ]
+    },
+    "esma_token_oto": 3,
+    "esma_sinif_oto": {
+     "A": 2,
+     "0": 1,
+     "E": 1
+    },
+    "esma_sinif_el": {
+     "A": 2,
+     "0": 2
+    },
+    "esma_muhur_43": [
+     1,
+     2,
+     4
+    ],
+    "esma_muhur_43_gecerli": [
+     1,
+     2
+    ],
+    "tarayici_v4_aday": [],
+    "ariza": [
+     "esmâ: e_oto 3 token — okuyucu kararları: 112:1 'ehad' ilahi, 112:2 'es-samed' ilahi, 112:4 'ehad' degil (olumsuz cümlede nekre, 'hiç kimse'; sûre 89 dersi) — KARAR 729 → 732; ölçüm mührü 3 (112:1, 112:2, 112:4), bilanço geçerli 2 (112:1, 112:2); ölçüm satırı üçünde de 'SON konum, MÜHÜRSÜZ' (1022); lafız 2 (112:1, 112:2), Rab yok",
+     "kök tablosu: iki yeni kök (صمد, كفأ) ölçümde '???' ile göründü — kok_ekle_112 ile eklendi (1546 → 1548; ikisi de korpusta tek ayet); retroaktif yama hedefli 0, genel 0 (iki geçiş); taban kayıtları om_base ile aynı; dikey yeniden koşuldu, karşılık eksiği yok",
+     "yıldız: 112:1 ★★★ allah (z=4,47), 112:2 ★★★ allah (z=9,47; hapaks z=3,28 de eşikte), 112:3 ★★ pas (z=2,52), 112:4 ★★★ hapaks (z=3,28) — kısa ayetler, tek lafız, edilgen ve yeni köklerden; formül davranışı; kafiye kırığı yok, 1001 vakası yok",
+     "fâsıla: metinde د د د د — tek sınıf; geçiş yok",
+     "biçim (924): ayet 1 harf 30 → harf3 11 (besmele ailesi); sayı işareti 'ehad' iki ayette (112:1, 112:4) kök kaynaklı — 112:4'te 'hiç kimse', yanlış pozitif; 112:2 şahıs işareti yok (sahset —)",
+     "söz / gönderge (1017): 'qul' sözü 112:1'de açıyor; söz sınırı metinde işaretsiz — meal tırnağı 112:1 / 112:4, 112:2-4'ün söz içi mi anlatıcı sesi mi olduğu KAPATILAMAZ; 2MS hitap ve 'qul' diyen adsız",
+     "iltifât: ölçüm 0; sahset 112:1 ['2', '3'] → 112:2 — → 112:3-4 ['3']",
+     "◈B: kök ولد (doğurma, 112:3) tetik listesinde değil — satır '—', gözlem ◇'de",
+     "esit2 / nakarat3 / xref: blokta dördü de bağ YOK",
+     "çıpa: L0 / L1 / L2 / L4 yok; olgu=False 4; tarayıcı v4 blokta aday vermedi",
+     "aday 1040 (kayıt): 111:5 / 112:1 sûre sınırı — fiilsiz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → د; 111 lafızsız ve Rabsız, 112 lafız 2 Rab yok",
+     "aday 1039: ayet içi 1 (112:3 'yelid' / 'yûled', etken / edilgen); blok içi 0",
+     "aday 1041 (kayıt): lemma 'ehad' 112:1 Allah (olumlu haber, ilahi) / 112:4 'hiç kimse' (olumsuz cümlede nekre, degil)",
+     "korpusta 1 (kayıt): lemma 'samed', 'kufuv'; harekesiz 'qul huve'llâh', 'allâhu's-samed', 'lem yelid ve lem yûled'; sûre içi tam sayım: kök أله [2/2], أحد [2/2], ولد ikilemesi [1,2/2]",
+     "bağ: emsaller 67:29, 59:22, 72:22, 89:25, 17:111, 25:2, 37:152, 19:33 — hepsi AR + meal ile emsal listesinde basıldı (NFC fark 0), her biri ilgili oturum_lem / oturum_say listesinde doğrulandı; 111:5 bu oturumda daha önce basılmıştı, yeniden basılmadı",
+     "◈K / ◈B: dört ayette de '—'; tetik ön kuru koşu (geçici modül, silindi) 0 uyuşmaz, 4 ayet; oturum_xy 10 sayım, 0 uyuşmaz",
+     "süreç: sûre 112 dosyaları mesed_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_112.py, oturum dışı; ad 'ihlas', harf sınırlı; dosya eşlemesi ayrı yazıldı, kaynak ≠ hedef assert'li — sûre 111 dersi; ISTEK boş kuruldu, kökler ayrı yamayla; kayıt dosyası boş — assert'li; yüzde sabiti maskeli; I['not'] satırı genel değişimden sonra; sûre 96 şablonuyla aile karşılaştırması temiz); sûre 4 ayet — tek blok, ara zip yok"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "_bilanco_sure": {
+   "etiket": "TAM SAYIM — sûre 112, 4 ayet",
+   "kelime_toplam": 15,
+   "lafiz_token": 2,
+   "lafiz_ayet": 2,
+   "rab_token": 0,
+   "rab_ayet": [],
+   "A_R_orani": 2.0,
+   "yildiz": {
+    "2": 1,
+    "3": 3
+   },
+   "yildiz_kaynak_tum": {
+    "allah": 2,
+    "pas": 1,
+    "hapaks": 1
+   },
+   "yildiz_kaynak_duzeltilmis": {
+    "allah": 2,
+    "pas": 1,
+    "hapaks": 1
+   },
+   "etiket_1001_ayet": [],
+   "ucyildiz_kaynak": {
+    "allah": 2,
+    "hapaks": 1
+   },
+   "edilgen_ayet": 1,
+   "iltifat_ayet": [],
+   "hapaks_ayet": [
+    2,
+    4
+   ],
+   "mm2_ayet": [],
+   "fasila_sinif": {
+    "د": 4
+   },
+   "kafiye_kirik": [],
+   "en_uzun": [
+    5,
+    4
+   ],
+   "en_uzun_esit": [
+    4
+   ],
+   "en_kisa_esit": [
+    2
+   ],
+   "say_isareti": {
+    "1": [
+     "أَحَد"
+    ],
+    "4": [
+     "أَحَد"
+    ]
+   }
+  },
+  "_cipa_tablosu_112": {
+   "isaretli": {
+    "1": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'qul huve'llâhu ehad' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "2": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'allâhu's-samed' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "3": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'lem yelid ve lem yûled' — tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "4": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ve lem yekun lehû kufuwen ehad' — tenzih, olumsuz hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    }
+   },
+   "L4": [],
+   "tarayici_v4_aday": [],
+   "anma": "0/0",
+   "kesinlik": "0/0"
+  },
+  "_esma_profil_112": {
+   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile.",
+   "sinif_oto": {
+    "A": 2,
+    "0": 1,
+    "E": 1
+   },
+   "sinif_el": {
+    "A": 2,
+    "0": 2
+   },
+   "esma_token_oto": 3,
+   "esma_token_ilahi": 2,
+   "muhur_43": 3,
+   "muhur_43_gecerli": 2,
+   "muhur_43_yanlis": [
+    4
+   ],
+   "ton_gecerli_muhur": {
+    "denge": 2
+   },
+   "bant": "KAPI_KAPALI (§4.4, aday 435)"
+  },
+  "_kapanis_notu": "SÛRE 112 İHLÂS SONU. Blok başı kayıt sûrenin tamamında uygulandı; 4 ayet, 15 kelime, tek blok 112:1-4 (de ki: O Allah'tır, tektir; Allah sameddir; doğurmamış ve doğurulmamıştır; ve hiç kimse O'na denk değildir). Sûre 2026-11-01'de sûre 111 kapanışının ardından aynı oturumda okundu; taban 40018b4 değişmedi (sûre 110-111 zip'leri yüklenmedi), bu yüzden sûre 112 zip'i 110-111'i de taşıyor. Dosyalar mesed_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_112.py, oturum dışı; ad 'ihlas', harf sınırlı; set değişkeni ASCII 'IHLAS'; dosya eşlemesi iskelede ayrı yazıldı ve kaynak ≠ hedef assert'le doğrulandı — sûre 111 dersi; kok_ekle ISTEK iskele içinde boş, kökler ayrı yamayla; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — assert'le doğrulandı; ilerleme yüzdesi sabiti maskelendi; I['not'] satırı genel değişimden sonra açık yazıldı; '_esma_profil_112' / '_profil_112' assert'le bulundu; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz); kapanış / paket blok listesi üç yerde birlikte dolduruldu (yamalar/yama_bl_112.py) ve --kuru ile doğrulandı. Kök tablosu: iki yeni kök (صمد 'samed', كفأ 'denk, eş'), ölçümde '???' ile göründü, ikisi de korpusta tek ayet — kok_ekle_112 ile eklendi (1546 → 1548); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı; dikey yeniden koşuldu. Esmâ: e_oto 3 token; okuyucu kararları 112:1 'ehad' ilahi (olumlu haber), 112:2 'es-samed' ilahi, 112:4 'ehad' degil (olumsuz cümlede nekre, 'hiç kimse') — KARAR 729 → 732; ölçüm mührü 3, bilanço geçerli 2 (112:1, 112:2; ton denge), yanlış 1 (112:4); ölçüm satırı üçünde de 'MÜHÜRSÜZ' (1022). Lafız 2 (112:1, 112:2), Rab yok; sûre içi tam sayım, bütün geçişler basılmışken: kök أله [2/2], أحد [2/2], ولد ikilemesi [1,2/2]. Yıldız: 112:1 ★★★ allah, 112:2 ★★★ allah (hapaks da eşikte), 112:3 ★★ pas, 112:4 ★★★ hapaks — kısa ayetler, tek lafız, edilgen ve yeni kökler; formül davranışı; kafiye kırığı yok. Fâsıla: metinde د د د د — tek sınıf. Biçim: ayet 1 harf 30 → harf3 11 (besmele ailesi, 924); sayı işareti 'ehad' iki ayette kök kaynaklı, 112:4'te yanlış pozitif (924); 112:2 şahıs işareti yok. İltifât 0. Söz (1017): 'qul' sözü 112:1'de açıyor, söz sınırı metinde işaretsiz — meal tırnağı 112:1 / 112:4; 112:2-4'ün söz içi mi anlatıcı sesi mi olduğu KAPATILAMAZ; hitap ve konuşan adsız. ◈B: kök ولد tetik listesinde değil — doğurma gözlemi ◇'de. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 4; tarayıcı v4 aday vermedi. Korpusta 1: lemma 'samed', 'kufuv'; harekesiz 'qul huve'llâh', 'allâhu's-samed', 'lem yelid ve lem yûled'. Okuma bağları: 67:29 'qul huve' + 'er-rahmân'; 59:22 'huve'llâh'; 72:22 'allâhu ehad' (korpusun iki geçişi; orada 'ehad' 'hiç kimse'); 89:25 olumsuz nekre 'ehad'; 37:152 'velede'llâh' (iddia) / 'lem yelid'; 19:33 edilgen 'vulidtu'; 17:111 ve 25:2 've lem yekun lehû' (korpusun üç geçişi okundu), ikisinde de önce 'lem yettexiz veleden'. Aday 1039 (okuma): 4/4 ayet notlu; ayet içi 1 (112:3 'yelid' / 'yûled'); blok içi 0. Aday 1040: 111:5 / 112:1 sûre sınırı yazıldı (fiilsiz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → د; 111 lafızsız ve Rabsız, 112 lafız 2 Rab yok). Aday 1041 (kayıt): lemma 'ehad' 112:1 Allah / 112:4 'hiç kimse'. Kayıttan önce: tetik ön kuru koşusu 0 uyuşmaz (4 ayet); [x/y] 10 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (8 ayet) ve tek okuma parçası (4 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5017 ayet. Yeni aday yok (havuz 1041); bağ seti AS_ihlas 11. DUZELTME 0."
+ },
+ "113": {
+  "113:1": {
+   "ar": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+   "meal": "De ki: 'Felakın Rabbine sığınırım,",
+   "olcum": "eksen: **رَبّ** 3. sırada (rab z=5,01) · esmâ yok · aktör yok · edim emir, kip IMPV 1 · şahıs 1S 1 · 2MS 1, sahset ['1', '2'], baskın 2, iltifât 0 · n=4 (n z=-0,89), fâsıla ٱلفلق → ق, ق sınıfı · i’râb GEN 2; bab I. bab ×2; zaman IMPF 1 · IMPV 1 · harf 33 → **harf3 14**, isaret 0 · dış düğüm 2 · **yıldız ★★★** · kökler قول *(söz söyleme)* [1/1] · عوذ *(sığınma)* [1/1] · ربب *(rab, terbiye etme)* [1/1] · فلق *(yarma, ikiye ayırma)* [1/1] · bağ: xref قال عذ ربّ → 40:27, 114:1",
+   "mercek": "◇ 'qul e'ûzu bi-rabbi'l-feleq' — IMPV 2MS 'qul' + IMPF 1S 'e'ûzu' + 'bi' + 'rabb' (GEN) + belirli 'el-feleq' (GEN) (ölçüm edim emir, kip IMPV 1; zaman IMPF 1 · IMPV 1). Söz fiili 'qul' (lemma 'qâle') sözü açıyor; söz içinde 1S sığınan; 113:2-5'teki 'min şerri' öbekleri 'e'ûzu'ya bağlı — söz sûre sonuna dek sürüyor, sınır sözdizimiyle belli (okuma); meal tırnağı 113:1 / 113:5. 2MS hitap ve 'qul' diyen adsız; 1S söz içi konuşan (1017). Lemma 'e'ûzu' (kök عوذ *(sığınma)*) 10 ayet: 40:27 (okumada görüldü; 'innî 'uztu bi-rabbî ve rabbikum' — PERF 1S, Mûsâ, 'min kulli mutekebbir'), 23:97 (okumada görüldü; 've qul rabbi e'ûzu bike min hemezâti'ş-şeyâtîn' — 'qul' + nidâ + 'bike' + 'min') ve 72:6 (okumada görüldü; insanlardan kişilerin cinlerden kişilere sığınması), okunmuş 4 ayet daha, 113:1, henüz okunmamış 2 (biri sûre 114'ün ilk ayeti). 23:97'de sığınılan nidâ ile 2MS, burada 3. şahıs tamlama 'rabbi'l-feleq'; 72:6'da sığınılan 'ricâl' (okuma). Kalıp 'qul e'ûzu' 2 ayet: 113:1 ve sûre 114'ün ilk ayeti (henüz okunmadı); ölçüm xref → 40:27 ve sûre 114'ün ilk ayeti (henüz okunmadı). Lemma 'feleq' korpusta 1; kök فلق *(yarma, ikiye ayırma)* 4 ayet: 26:63 (okumada görüldü; 'fe'nfeleqa' — denizin yarılması, fiil), 113:1, henüz okunmamış 2. 'el-feleq'in ne olduğu metinde tarif edilmiyor — KAPATILAMAZ (okuma). Sûre sınırı: 112:4 (okumada görüldü) olumsuz isim cümlesiyle ('ve lem yekun lehû kufuwen ehad') kapanış → 113:1 'qul' emriyle açılış; fâsıla د → ق; sûre 112 lafız 2, Rab yok, sûre 113 lafızsız, Rab 1 (aday 1040, kayıt). Ardışık iki sûre 'qul' ile açılıyor: 112:1 (okumada görüldü) 'qul huve'llâhu ehad' / 113:1 'qul e'ûzu' (aday 1040, okuma bağı). Ölçüm harf 33 → harf3 14 — besmele ailesi (924). Çıpa: sığınma (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Rab 1 (3. token) — sûre içi tam sayım ربب *(rab, terbiye etme)* [1/1]; lafız yok; esmâ yok. 4 kelime, ★★★ kaynak rab (z=5,01) — kısa ayette tek Rab, formül davranışı. قول *(söz söyleme)* [1/1], عوذ *(sığınma)* [1/1], ربب *(rab, terbiye etme)* [1/1], فلق *(yarma, ikiye ayırma)* [1/1]. Fâsıla ق. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 IMPV 'qul' + IMPF 1S + 'bi' + Rab tamlaması; D2 emir (ölçüm IMPV), söz açılıyor; D3 'e'ûzu' 40:27, 23:97, 72:6; kök فلق *(yarma, ikiye ayırma)* 26:63; D4 1S 1 · 2MS 1, sahset ['1', '2'].\n◈A — A1 hitap 2MS (adsız); sığınan 1S (söz içi, adsız); Rab; A2 felak (KAPATILAMAZ); A3 'qul' ile söyletilen söz; A4 söz açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · عوذ *(sığınma)* n=17  ▸önce: نزغ *(dürtme, vesvese)* ×281.6 [A tek ayet] · شطن *(şeytan)* ×14.4 [B tek sahne 5 ayet] · قول *(söz söyleme)* ×2.7  ▸sonra: رجم *(taşlama, kovma)* ×90.5 [B tek sahne 3 ayet] · شطن *(şeytan)* ×14.4 [B tek sahne 5 ayet] · سمع *(işitme)* ×6.9 [B tek sahne 3 ayet]  ▸Allah med=7\n  · ربب *(rab, terbiye etme)* n=980  ▸önce: âlâ-nimet ×7.5 [A tek ayet] · mühlet ×5.2 [A tek ayet] · دكك *(darmadağın etme)* ×3.9 [B tek sahne 3 ayet]  ▸sonra: جلل *(büyüklük, celâl)* ×10.3 [A tek ayet] · أفل *(batma (ay))* ×6.9 [B tek sahne 3 ayet] · فرغ *(boşalma, bitirme)* ×4.6 [B tek sahne 4 ayet]  ▸Allah med=23\n  · فلق *(yarma, ikiye ayırma)* n=4 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'qul e'ûzu bi-rabbi'l-feleq' — sığınma (olgu=False); 'el-feleq' KAPATILAMAZ; merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "R",
+    "sinif_el": "R",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "113:2": {
+   "ar": "مِن شَرِّ مَا خَلَقَ",
+   "meal": "yarattığı şeylerin şerrinden,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 1 · n=4 (n z=-0,89), fâsıla خلق *(yaratma)* → ق, ق sınıfı · i’râb GEN 1; bab I. bab ×1; zaman PERF 1 · harf 9 → **harf3 9**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler شرر *(şer, kötülük)* [1/4] · خلق *(yaratma)* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'min şerri mâ xalaq' — 'min' + 'şerr' (GEN) + ilgi 'mâ' + PERF 3MS 'xalaqa' (ölçüm zaman PERF 1). 'min' öbeği 113:1'deki 'e'ûzu'ya bağlı (okuma). 'xalaqa'nın öznesi 3MS, yazılmamış — 113:1'deki 3. şahıs ad 'rabb' (okuma). Ölçüm iltifât 1 (sahset ['1', '2'] → ['3']): ilgi cümlesinin fiili — hitap ve konuşan değişmiyor (924; sûre 87 dikkatinin eşi). Harekesiz 'şerri mâ xalaq' korpusta 1. Kalıp 'mâ xalaqa' 6 ayet: okunmuş 4 ayet, 113:2, henüz okunmamış 1. Lemma 'xalaqa' 168 ayet: 25:2 ve 50:16 (okumada görüldü), okunmuş 140 ayet daha, 113:2, henüz okunmamış 25. Lemma 'şerr' 29 ayet: 70:20 (okumada görüldü; 'izâ messehu'ş-şerru cezû'â' — belirli 'eş-şerr', insana dokunan), okunmuş 18 ayet daha, sûre içinde 4 (113:2-5), henüz okunmamış 6; sûre içinde dört kez 'min şerri' + tamlayan: önce genel ilgi 'mâ xalaq', sonra üç adsız nitelikli (okuma). Çıpa: yaratılanların şerri, genel (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 4 kelime, yıldızsız. شرر *(şer, kötülük)* [1/4], خلق *(yaratma)* [1/1]. Fâsıla ق. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B2 'mâ xalaq' (tetik خلق *(yaratma)*) — yaratma (3MS), nesne genel ilgi 'mâ' (adsız); canlı / aşama yok; B1, B3, B4 —.\n◈D — D1 'min' + tamlama (şerr + ilgi) + PERF; D2 söz içi sığınma öbeği; D3 'mâ xalaqa' (okunmuş 4 ayet); D4 3MS 1, sahset ['3'].\n◈A — A1 yaratan 3MS (113:1'deki Rab; okuma); A2 yaratılanlar ('mâ'); A3 söz içi 1S; A4 şerler dizisi açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شرر *(şer, kötülük)* n=31  ▸önce: insan ×15.2 [A tek ayet] · مسس *(dokunma, temas)* ×14.1 [B tek sahne 5 ayet] · nas ×3.6 [A tek ayet]  ▸sonra: حسد *(haset)* ×129.4 [A tek ayet] · mekân ×27.0 [A tek ayet] · hayır ×5.7 [A tek ayet]  ▸Allah med=20\n  · خلق *(yaratma)* n=261  ▸önce: مضغ *(çiğnenmiş et)* ×27.6 [A tek ayet] · meni ×27.6 [A tek ayet] · علق *(ilişme, alaka; kan pıhtısı)* ×23.7 [B tek sahne 4 ayet]  ▸sonra: مضغ *(çiğnenmiş et)* ×36.8 [A tek ayet] · طين *(çamur)* ×32.2 · صلصل *(çınlayan kuru çamur)* ×27.6 [B tek sahne 4 ayet]  ▸Allah med=15",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'min şerri mâ xalaq' — yaratılanların şerri, genel (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "113:3": {
+   "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+   "meal": "çöküp bastırdığında karanlığın şerrinden,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))* → ب, ب sınıfı · i’râb GEN 2; bab I. bab ×1; zaman PERF 1 · **HAPAKS: وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))* — hapaks z=3,28** · harf 15 → **harf3 15**, isaret 0 · dış düğüm 0 · **yıldız ★★★** · kökler شرر *(şer, kötülük)* [2/4] · غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* [1/1] · وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've min şerri ğâsiqin izâ vaqab' — 've' + 'min' + 'şerr' + nekre etken ortaç 'ğâsiq' (GEN) + 'izâ' + PERF 3MS 'vaqabe' (ölçüm zaman PERF 1). 'ğâsiq' adsız nitelik — ne olduğu metinde adlanmıyor, KAPATILAMAZ; 'izâ vaqab' zaman kaydı (okuma). Lemma 'ğâsiq' korpusta 1; kök غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* 4 ayet: 17:78 (okumada görüldü; 'ilâ ğaseqi'l-leyl' — 'leyl' ile tamlama, gecenin karanlığı, namaz vaktinin sınırı), okunmuş 2 ayet daha, 113:3; burada 'leyl' yok, nekre ortaç (okuma). Lemma 'vaqabe' korpusta 1 — kök bu blokta tabloya eklendi (وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))*); ölçüm ★★★ hapaks z=3,28 ondan (formül davranışı). Harekesiz 'ğâsiqin izâ' korpusta 1. Kök غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* ◈K tetik listesinde değil — gözlem burada. Fâsıla ق → ب geçişi — ölçüm işaretlemedi (924). Çıpa: gönderge adsız — merdiven uygulanmaz (olgu=False); tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime. شرر *(şer, kötülük)* [2/4], غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* [1/1], وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))* [1/1]. Fâsıla ب. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 've' + 'min' + tamlama (şerr + nekre ortaç) + 'izâ' + PERF; D2 zaman kaydı ('izâ'); D3 kök غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* 17:78; D4 3MS 1, sahset ['3'].\n◈A — A1 'ğâsiq' (adsız); A2 —; A3 söz içi 1S; A4 şerler dizisi.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شرر *(şer, kötülük)* n=31  ▸önce: insan ×15.2 [A tek ayet] · مسس *(dokunma, temas)* ×14.1 [B tek sahne 5 ayet] · nas ×3.6 [A tek ayet]  ▸sonra: حسد *(haset)* ×129.4 [A tek ayet] · mekân ×27.0 [A tek ayet] · hayır ×5.7 [A tek ayet]  ▸Allah med=20\n  · غسق *(gecenin karanlığı (gasak, gâsik); irin, soğuk ve kokuşmuş su (gassâk))* n=4 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=169\n  · وقب *(çökme, karanlığın basması (vaqabe; 1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=23",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ğâsiqin izâ vaqab' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "113:4": {
+   "ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+   "meal": "düğümlere üfleyenlerin şerrinden,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=5 (n z=-0,79), fâsıla ٱلعقد → د, د sınıfı · i’râb GEN 3; bab yok; zaman yok · **HAPAKS: نفث *(üfleme (neffâsât: üfleyen dişiler; 1 ayet))* — hapaks z=3,28** · harf 18 → **harf3 18**, isaret 0 · dış düğüm 0 · **yıldız ★★★** · kökler شرر *(şer, kötülük)* [3/4] · نفث *(üfleme (neffâsât: üfleyen dişiler; 1 ayet))* [1/1] · عقد *(düğüm, bağ)* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've min şerri'n-neffâsâti fi'l-'uqad' — 've' + 'min' + 'şerr' + belirli dişil çoğul 'en-neffâsât' (GEN) + 'fî' + belirli çoğul 'el-'uqad' (GEN) (ölçüm fiil yok, zaman yok; şahıs işareti yok). 'en-neffâsât' dişil çoğul nitelik — kimler olduğu metinde adlanmıyor, KAPATILAMAZ (1017). Lemma 'neffâse' korpusta 1 — kök bu blokta tabloya eklendi (نفث *(üfleme (neffâsât: üfleyen dişiler; 1 ayet))*); ölçüm ★★★ hapaks z=3,28 ondan (formül davranışı). Lemma ''uqde' 4 ayet: 20:27 (okumada görüldü; 've'hlul 'uqdeten min lisânî' — dildeki düğüm, tekil nekre, çözülmesi dilenen), 113:4, henüz okunmamış 2; burada belirli çoğul, üflenen (okuma). Kök عقد *(düğüm, bağ)* 7 ayet: 20:27, 113:4, henüz okunmamış 5. Harekesiz 'fi'l-'uqad' korpusta 1. Fâsıla ب → د geçişi — ölçüm işaretlemedi (924). Çıpa: gönderge adsız — merdiven uygulanmaz (olgu=False); tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime. شرر *(şer, kötülük)* [3/4], نفث *(üfleme (neffâsât: üfleyen dişiler; 1 ayet))* [1/1], عقد *(düğüm, bağ)* [1/1]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 've' + 'min' + tamlama (şerr + belirli dişil çoğul) + 'fî' + belirli çoğul; D2 fiilsiz öbek; D3 ''uqde' 20:27; D4 şahıs işareti yok (sahset —).\n◈A — A1 üfleyen dişiler (adsız); A2 düğümler; A3 söz içi 1S; A4 şerler dizisi.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شرر *(şer, kötülük)* n=31  ▸önce: insan ×15.2 [A tek ayet] · مسس *(dokunma, temas)* ×14.1 [B tek sahne 5 ayet] · nas ×3.6 [A tek ayet]  ▸sonra: حسد *(haset)* ×129.4 [A tek ayet] · mekân ×27.0 [A tek ayet] · hayır ×5.7 [A tek ayet]  ▸Allah med=20\n  · نفث *(üfleme (neffâsât: üfleyen dişiler; 1 ayet))* n=1 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=26\n  · عقد *(düğüm, bağ)* n=7 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=8",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'en-neffâsâti fi'l-'uqad' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "113:5": {
+   "ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+   "meal": "ve haset ettiğinde hasetçinin şerrinden.'",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 0 · n=5 (n z=-0,79), fâsıla حسد *(haset)* → د, د sınıfı · i’râb GEN 2; bab I. bab ×1; zaman PERF 1 · kök ikilemesi حسد *(haset)* ×2 · harf 15 → **harf3 15**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler شرر *(şer, kötülük)* [4/4] · حسد *(haset)* [1,2/2] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 've min şerri hâsidin izâ hased' — 've' + 'min' + 'şerr' + nekre etken ortaç 'hâsid' (GEN) + 'izâ' + PERF 3MS 'hasede' (ölçüm zaman PERF 1; kök ikilemesi حسد *(haset)* ×2). 113:3 ile aynı dizi: 'min şerri' + nekre ortaç + 'izâ' + PERF 3MS; burada ortaç ve fiil aynı kökten (okuma). 'hâsid' adsız (1017). Lemma 'hâsid' korpusta 1. Lemma 'hasede' 3 ayet: 48:15 (okumada görüldü; 'bel tahsudûnenâ' — geri bırakılanların söyleyeceği, IMPF 2MP), 113:5, henüz okunmamış 1. Kök حسد *(haset)* 4 ayet: 48:15, 113:5, henüz okunmamış 2. Harekesiz 'izâ hased' korpusta 1. Kök شرر *(şer, kötülük)* sûre içi tam sayım [4/4], dört geçiş de bu blokta basıldı. Sûre 'hased' ile bitiyor; söz burada bitiyor, meal tırnağı kapanıyor (okuma). Çıpa: gönderge adsız — merdiven uygulanmaz (olgu=False); tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime, yıldızsız. شرر *(şer, kötülük)* [4/4], حسد *(haset)* ikilemesi [1,2/2]. Fâsıla د. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 've' + 'min' + tamlama (şerr + nekre ortaç) + 'izâ' + PERF (aynı kök); D2 zaman kaydı ('izâ'); D3 'hasede' 48:15; sûre içi 113:3 aynı dizi; D4 3MS 1, sahset ['3'].\n◈A — A1 'hâsid' (adsız); A2 —; A3 söz içi 1S; A4 sûre ve söz kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شرر *(şer, kötülük)* n=31  ▸önce: insan ×15.2 [A tek ayet] · مسس *(dokunma, temas)* ×14.1 [B tek sahne 5 ayet] · nas ×3.6 [A tek ayet]  ▸sonra: حسد *(haset)* ×129.4 [A tek ayet] · mekân ×27.0 [A tek ayet] · hayır ×5.7 [A tek ayet]  ▸Allah med=20\n  · حسد *(haset)* n=5 ⚠  ▸önce: şer ×147.8 [A tek ayet]  ▸sonra: nas ×24.5 [A tek ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'hâsidin izâ hased' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-5": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 5,
+    "kelime_toplam": 23,
+    "lafiz_token": 0,
+    "lafiz_ayet": 0,
+    "rab_token": 1,
+    "edilgen_ayet": [],
+    "iltifat_ayet": [
+     2
+    ],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {
+     "3": [
+      "وقب"
+     ],
+     "4": [
+      "نفث"
+     ]
+    },
+    "yildiz_dagilim": {
+     "0": 2,
+     "3": 3
+    },
+    "yildiz_kaynak": {
+     "1": {
+      "yildiz": 3,
+      "kaynak": "rab",
+      "z": 5.01,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "3": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     },
+     "4": {
+      "yildiz": 3,
+      "kaynak": "hapaks",
+      "z": 3.28,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [],
+    "say_isareti": {},
+    "esma_token_oto": 0,
+    "esma_sinif_oto": {
+     "R": 1,
+     "0": 4
+    },
+    "esma_sinif_el": {
+     "R": 1,
+     "0": 4
+    },
+    "esma_muhur_43": [],
+    "esma_muhur_43_gecerli": [],
+    "tarayici_v4_aday": [],
+    "ariza": [
+     "esmâ: e_oto 0 token; KARAR değişmedi (732); lafız yok, Rab 1 (113:1 'rabbi'l-feleq'); mühür yok",
+     "kök tablosu: iki yeni kök (نفث, وقب) ölçümde '???' ile göründü — kok_ekle_113 ile eklendi (1548 → 1550; ikisi de korpusta tek ayet); retroaktif yama hedefli 0, genel 0 (iki geçiş); taban kayıtları om_base ile aynı; dikey yeniden koşuldu, karşılık eksiği yok",
+     "yıldız: 113:1 ★★★ rab (z=5,01), 113:3 ★★★ hapaks (وقب), 113:4 ★★★ hapaks (نفث) — tek Rab ve yeni kökler, formül davranışı; 113:2, 113:5 yıldızsız; kafiye kırığı yok, 1001 vakası yok",
+     "fâsıla: metinde ق ق ب د د; 113:3 ق → ب ve 113:4 ب → د geçişleri ölçümde işaretsiz (924)",
+     "biçim (924): ayet 1 harf 33 → harf3 14 (besmele ailesi); 113:4 şahıs işareti yok (sahset —)",
+     "iltifât (924): ölçüm 113:2'de 1 — sahset ['1', '2'] → ['3']; 'mâ xalaq' ilgi cümlesinin fiili, hitap ve konuşan değişmiyor (sûre 87 dikkatinin eşi)",
+     "söz / gönderge (1017): 'qul' sözü 113:1'de açıyor; 113:2-5 'min şerri' öbekleri 'e'ûzu'ya bağlı — söz sınırı sözdizimiyle belli, meal tırnağı 113:1 / 113:5; hitap, 'qul' diyen ve söz içi 1S adsız; 'el-feleq', 'ğâsiq', 'en-neffâsât', 'hâsid' adsız — KAPATILAMAZ",
+     "xref: 113:1 → 40:27 (basıldı) ve sûre 114'ün ilk ayeti (henüz okunmadı); esit2 / nakarat3 yok",
+     "çıpa: L0 / L1 / L2 / L4 yok; olgu=False 5; 113:3-5 gönderge adsız (merdiven uygulanmaz); tarayıcı v4 blokta aday vermedi",
+     "aday 1040 (kayıt): 112:4 / 113:1 sûre sınırı — olumsuz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → ق; 112 lafız 2 Rab yok, 113 lafızsız Rab 1; okuma bağı: ardışık iki sûre 'qul' ile açılıyor (112:1 / 113:1)",
+     "aday 1039: ayet içi 0; blok içi 0",
+     "aday 1041: kayıt yok — Rab tek geçiş, lafız yok",
+     "korpusta 1 (kayıt): lemma 'feleq', 'ğâsiq', 'vaqabe', 'neffâse', 'hâsid'; harekesiz 'şerri mâ xalaq', 'ğâsiqin izâ', 'fi'l-'uqad', 'izâ hased'; sûre içi tam sayım: kök شرر [4/4], ربب [1/1], حسد ikilemesi [1,2/2]",
+     "bağ: emsaller 40:27, 23:97, 72:6, 26:63, 17:78, 20:27, 48:15, 70:20 — hepsi AR + meal ile emsal listesinde basıldı (NFC fark 0), her biri ilgili oturum_lem / oturum_say listesinde doğrulandı; 112:1, 112:4, 25:2, 50:16 bu oturumda daha önce basılmıştı, yeniden basılmadı",
+     "◈K / ◈B: ◈K beş ayette '—' (kök غسق tetik listesinde değil — gözlem ◇'de); ◈B 113:2 dolu (tetik خلق) — tetik ön kuru koşusu kayıttan önce '—' yazılmış satırı yakaladı, satır dolduruldu; diğer dört ayette '—'; ikinci ön kuru koşu 0 uyuşmaz, 5 ayet (geçici modül, silindi); oturum_xy 15 sayım, 0 uyuşmaz",
+     "süreç: sûre 113 dosyaları ihlas_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_113.py, oturum dışı; ad 'felak', harf sınırlı; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; ISTEK boş kuruldu, kökler ayrı yamayla; kayıt dosyası boş — assert'li; yüzde sabiti maskeli; I['not'] satırı genel değişimden sonra; sûre 96 şablonuyla aile karşılaştırması temiz); sûre 5 ayet — tek blok, ara zip yok"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "_bilanco_sure": {
+   "etiket": "TAM SAYIM — sûre 113, 5 ayet",
+   "kelime_toplam": 23,
+   "lafiz_token": 0,
+   "lafiz_ayet": 0,
+   "rab_token": 1,
+   "rab_ayet": [
+    1
+   ],
+   "A_R_orani": 0.0,
+   "yildiz": {
+    "0": 2,
+    "3": 3
+   },
+   "yildiz_kaynak_tum": {
+    "rab": 1,
+    "hapaks": 2
+   },
+   "yildiz_kaynak_duzeltilmis": {
+    "rab": 1,
+    "hapaks": 2
+   },
+   "etiket_1001_ayet": [],
+   "ucyildiz_kaynak": {
+    "rab": 1,
+    "hapaks": 2
+   },
+   "edilgen_ayet": 0,
+   "iltifat_ayet": [
+    2
+   ],
+   "hapaks_ayet": [
+    3,
+    4
+   ],
+   "mm2_ayet": [],
+   "fasila_sinif": {
+    "ق": 2,
+    "ب": 1,
+    "د": 2
+   },
+   "kafiye_kirik": [],
+   "en_uzun": [
+    5,
+    5
+   ],
+   "en_uzun_esit": [
+    3,
+    4,
+    5
+   ],
+   "en_kisa_esit": [
+    1,
+    2
+   ],
+   "say_isareti": {}
+  },
+  "_cipa_tablosu_113": {
+   "isaretli": {
+    "1": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'qul e'ûzu bi-rabbi'l-feleq' — sığınma (olgu=False); 'el-feleq' KAPATILAMAZ; merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "2": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'min şerri mâ xalaq' — yaratılanların şerri, genel (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "3": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ğâsiqin izâ vaqab' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+    },
+    "4": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'en-neffâsâti fi'l-'uqad' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+    },
+    "5": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'hâsidin izâ hased' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+    }
+   },
+   "L4": [],
+   "tarayici_v4_aday": [],
+   "anma": "0/0",
+   "kesinlik": "0/0"
+  },
+  "_esma_profil_113": {
+   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile.",
+   "sinif_oto": {
+    "R": 1,
+    "0": 4
+   },
+   "sinif_el": {
+    "R": 1,
+    "0": 4
+   },
+   "esma_token_oto": 0,
+   "esma_token_ilahi": 0,
+   "muhur_43": 0,
+   "muhur_43_gecerli": 0,
+   "muhur_43_yanlis": [],
+   "ton_gecerli_muhur": {},
+   "bant": "KAPI_KAPALI (§4.4, aday 435)"
+  },
+  "_kapanis_notu": "SÛRE 113 FELAK SONU. Blok başı kayıt sûrenin tamamında uygulandı; 5 ayet, 23 kelime, tek blok 113:1-5 (de ki: felakın Rabbine sığınırım; yarattığı şeylerin şerrinden, çöküp bastırdığında karanlığın şerrinden, düğümlere üfleyenlerin şerrinden ve haset ettiğinde hasetçinin şerrinden). Sûre 2026-11-01'de sûre 112 kapanışının ardından aynı oturumda okundu; taban 40018b4 değişmedi (sûre 110-112 zip'leri yüklenmedi), bu yüzden sûre 113 zip'i 110-112'yi de taşıyor. Dosyalar ihlas_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_113.py, oturum dışı; ad 'felak', harf sınırlı; set değişkeni ASCII 'FELAK'; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; kok_ekle ISTEK iskele içinde boş, kökler ayrı yamayla; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — assert'le doğrulandı; ilerleme yüzdesi sabiti maskelendi; I['not'] satırı genel değişimden sonra açık yazıldı; '_esma_profil_113' / '_profil_113' assert'le bulundu; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz); kapanış / paket blok listesi üç yerde birlikte dolduruldu (yamalar/yama_bl_113.py) ve --kuru ile doğrulandı. Kök tablosu: iki yeni kök (نفث 'üfleme', وقب 'çökme, karanlığın basması'), ölçümde '???' ile göründü, ikisi de korpusta tek ayet — kok_ekle_113 ile eklendi (1548 → 1550); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı; dikey yeniden koşuldu. Esmâ: e_oto 0; KARAR değişmedi (732); mühür yok. Lafızsız; Rab 1 (113:1 'rabbi'l-feleq'); sûre içi tam sayım, bütün geçişler basılmışken: ربب [1/1], kök شرر [4/4] ('min şerri' dört kez), حسد ikilemesi [1,2/2]. Yıldız: 113:1 ★★★ rab (z=5,01), 113:3 ★★★ hapaks (وقب), 113:4 ★★★ hapaks (نفث) — tek Rab ve yeni kökler, formül davranışı; 113:2, 113:5 yıldızsız; kafiye kırığı yok. Fâsıla: metinde ق ق ب د د — ölçüm ق 2, ب 1, د 2; 113:3 ve 113:4 geçişleri işaretsiz (924). Biçim: ayet 1 harf 33 → harf3 14 (besmele ailesi, 924); 113:4 şahıs işareti yok. İltifât: ölçüm 113:2'de 1 — 'mâ xalaq' ilgi cümlesinin fiili, hitap ve konuşan değişmiyor (924; sûre 87 dikkatinin eşi). Söz (1017): 'qul' sözü 113:1'de açıyor; 113:2-5 'min şerri' öbekleri 'e'ûzu'ya bağlı — söz sınırı sözdizimiyle belli, meal tırnağı 113:1 / 113:5; hitap, 'qul' diyen ve söz içi 1S adsız; 'el-feleq', 'ğâsiq', 'en-neffâsât', 'hâsid' adsız — KAPATILAMAZ. Ölçüm xref'i 113:1'i 40:27'ye ve sûre 114'ün ilk ayetine bağlıyor; ikincisi henüz okunmadı, mercekte numarasız yazıldı (ölçüm satırı betik çıktısı, elle değişmez). ◈B: 113:2 خلق tetiği — tetik ön kuru koşusu kayıttan önce '—' yazılmış satırı yakaladı, satır dolduruldu; ◈K: kök غسق tetik listesinde değil, gözlem ◇'de. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 5; 113:3-5 gönderge adsız (merdiven uygulanmaz); tarayıcı v4 aday vermedi. Korpusta 1: lemma 'feleq', 'ğâsiq', 'vaqabe', 'neffâse', 'hâsid'; harekesiz 'şerri mâ xalaq', 'ğâsiqin izâ', 'fi'l-'uqad', 'izâ hased'. Okuma bağları: xref 40:27 ('uztu bi-rabbî ve rabbikum'); 23:97 'qul' + 'e'ûzu' + nidâ; 72:6 cinlere sığınma; 26:63 kök فلق (denizin yarılması); 17:78 'ğaseqi'l-leyl'; 20:27 dildeki ''uqde'; 48:15 'tahsudûnenâ'; 70:20 'eş-şerr'. Aday 1039 (okuma): 5/5 ayet notlu; ayet içi 0; blok içi 0. Aday 1040: 112:4 / 113:1 sûre sınırı yazıldı (olumsuz isim cümlesiyle kapanış / 'qul' emriyle açılış; fâsıla د → ق; 112 lafız 2 Rab yok, 113 lafızsız Rab 1); okuma bağı: ardışık iki sûre 'qul' ile açılıyor (112:1 / 113:1). Aday 1041: kayıt yok. Kayıttan önce: tetik ön kuru koşusu 1 uyuşmaz yakaladı, düzeltildi, ikinci koşu 0 (5 ayet); [x/y] 15 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (8 ayet) ve tek okuma parçası (5 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5022 ayet. Yeni aday yok (havuz 1041); bağ seti AS_felak 12. DUZELTME 0."
+ },
+ "114": {
+  "114:1": {
+   "ar": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+   "meal": "De ki: 'İnsanların Rabbine sığınırım,",
+   "olcum": "eksen: **رَبّ** 3. sırada (rab z=5,01) · esmâ yok · aktör yok · edim emir, kip IMPV 1 · şahıs 1S 1 · 2MS 1, sahset ['1', '2'], baskın 2, iltifât 0 · n=4 (n z=-0,89), fâsıla ٱلناس → س, س sınıfı · i’râb GEN 2; bab I. bab ×2; zaman IMPF 1 · IMPV 1 · harf 33 → **harf3 14**, isaret 0 · dış düğüm 2 · **yıldız ★★★** · kökler قول *(söz söyleme)* [1/1] · عوذ *(sığınma)* [1/1] · ربب *(rab, terbiye etme)* [1/1] · أنس *(insan)* [1/5] · bağ: xref قال عذ ربّ → 40:27, 113:1",
+   "mercek": "◇ 'qul e'ûzu bi-rabbi'n-nâs' — IMPV 2MS 'qul' + IMPF 1S 'e'ûzu' + 'bi' + 'rabb' (GEN) + belirli 'en-nâs' (GEN) (ölçüm edim emir, kip IMPV 1; zaman IMPF 1 · IMPV 1). Söz fiili 'qul' (lemma 'qâle') sözü açıyor; 114:2-3 aynı tamlamanın atıfsız devamı, 114:4-6 'min şerri' öbeği 'e'ûzu'ya bağlı — söz sûre sonuna dek sürüyor, sınır sözdizimiyle belli (okuma); meal tırnağı 114:1 / 114:6. 2MS hitap, 'qul' diyen ve söz içi 1S adsız (1017). Harekesiz 'qul e'ûzu bi-rabb' 2 ayet: 113:1 (okumada görüldü; 'bi-rabbi'l-feleq'), 114:1 — korpusun iki geçişi okundu, iki ardışık sûrenin ilk ayeti; ölçüm xref → 40:27 ve 113:1 (ikisi de okumada görüldü). Lemma 'e'ûzu' 10 ayet: 113:1, 40:27, 23:97 ve 72:6 (okumada görüldü), okunmuş 4 ayet daha, 114:1, henüz okunmamış 1. Lemma 'nâs' 225 ayet: 11:119, 29:10 ve 110:2 (okumada görüldü), okunmuş 129 ayet daha, sûre içinde 5 (114:1, 2, 3, 5, 6), henüz okunmamış 88. Harekesiz 'rabbi'n-nâs' korpusta 1. Sûre sınırı: 113:5 (okumada görüldü) 'hâsidin izâ hased' ile kapanış → 114:1 'qul e'ûzu' ile açılış; fâsıla د → س; iki sûre de lafızsız, Rab 1 (aday 1040, kayıt); okuma bağı: 113:1 / 114:1 aynı açılış, 113:2-5 / 114:4 'min şerri' (aday 1040, okuma bağı). Ölçüm harf 33 → harf3 14 — besmele ailesi (924). Çıpa: sığınma (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Rab 1 (3. token) — sûre içi tam sayım ربب *(rab, terbiye etme)* [1/1]; lafız yok; esmâ yok. 4 kelime, ★★★ kaynak rab (z=5,01) — kısa ayette tek Rab, formül davranışı. قول *(söz söyleme)* [1/1], عوذ *(sığınma)* [1/1], ربب *(rab, terbiye etme)* [1/1], أنس *(insan)* [1/5]. Fâsıla س. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — Rabbin tamlayanı; nitelik yok; B2–B4 —.\n◈D — D1 IMPV 'qul' + IMPF 1S + 'bi' + Rab tamlaması; D2 emir (ölçüm IMPV), söz açılıyor; D3 'qul e'ûzu bi-rabb' 113:1; xref 40:27; D4 1S 1 · 2MS 1, sahset ['1', '2'].\n◈A — A1 hitap 2MS (adsız); sığınan 1S (söz içi, adsız); Rab; A2 insanlar; A3 'qul' ile söyletilen söz; A4 söz açılıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · قول *(söz söyleme)* n=1722  ▸önce: بزغ *(doğma (yıldız))* ×6.4 [A tek ayet] · iffetsizlik ×6.4 [A tek ayet] · küçük-düşme ×5.0 [A tek ayet]  ▸sonra: doğru-sağlam ×8.6 [A tek ayet] · ilham-nasip ×6.4 [A tek ayet] · mesele ×5.1 [A tek ayet]  ▸Allah med=14\n  · عوذ *(sığınma)* n=17  ▸önce: نزغ *(dürtme, vesvese)* ×281.6 [A tek ayet] · شطن *(şeytan)* ×14.4 [B tek sahne 5 ayet] · قول *(söz söyleme)* ×2.7  ▸sonra: رجم *(taşlama, kovma)* ×90.5 [B tek sahne 3 ayet] · شطن *(şeytan)* ×14.4 [B tek sahne 5 ayet] · سمع *(işitme)* ×6.9 [B tek sahne 3 ayet]  ▸Allah med=7\n  · ربب *(rab, terbiye etme)* n=980  ▸önce: âlâ-nimet ×7.5 [A tek ayet] · mühlet ×5.2 [A tek ayet] · دكك *(darmadağın etme)* ×3.9 [B tek sahne 3 ayet]  ▸sonra: جلل *(büyüklük, celâl)* ×10.3 [A tek ayet] · أفل *(batma (ay))* ×6.9 [B tek sahne 3 ayet] · فرغ *(boşalma, bitirme)* ×4.6 [B tek sahne 4 ayet]  ▸Allah med=23\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'qul e'ûzu bi-rabbi'n-nâs' — sığınma (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "R",
+    "sinif_el": "R",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "114:2": {
+   "ar": "مَلِكِ ٱلنَّاسِ",
+   "meal": "insanların Melikine,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ مَلِك 1. sırada, SON konum, MÜHÜRSÜZ · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=2 (n z=-1,11), fâsıla ٱلناس → س, س sınıfı · i’râb GEN 2; bab yok; zaman yok · harf 8 → **harf3 8**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler ملك *(mülk; melik)* [1/1] · أنس *(insan)* [2/5] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'meliki'n-nâs' — 'melik' (GEN) + belirli 'en-nâs' (GEN) (ölçüm fiil yok; şahıs işareti yok). 114:1'deki 'rabbi'n-nâs' ile aynı i'râb (GEN), atıfsız — aynı göndergenin ikinci tamlaması (okuma). Harekesiz 'meliki'n-nâs' korpusta 1. Lemma 'melik' 15 ayet: 20:114 (okumada görüldü; 'fe-te'âla'llâhu'l-meliku'l-haqq' — lafzın sıfatı, belirli), 12:43 (okumada görüldü; 've qâle'l-melik' — kral, rüya gören) ve 12:76 (okumada görüldü; 'fî dîni'l-melik' — kralın hukuku), okunmuş 8 ayet daha, 114:2, henüz okunmamış 3; aynı lemma Allah ve kral için — sûreler arası okuma notu (aday 1041 ailesi, okuma; sûre içi kayıt değil). Esmâ: 'melik' 1. token, İLÂHÎ (okuyucu kararı); ölçüm satırı '1. sırada, SON konum, MÜHÜRSÜZ' — iki kelimelik ayette konum etiketi metinle uyuşmuyor (son kelime 'en-nâs'); bilanço geçerli mühür 114:2 (1022). Çıpa: ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok. 2 kelime, yıldızsız. ملك *(mülk; melik)* [1/1], أنس *(insan)* [2/5]. Fâsıla س. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — Melikin tamlayanı; B2–B4 —.\n◈D — D1 tamlama (GEN), önceki ayetin tamlamasına atıfsız; D2 —; D3 'el-melik' 20:114, 12:43; D4 şahıs işareti yok (sahset —).\n◈A — A1 Melik (114:1'deki Rab; okuma); A2 insanlar; A3 söz içi 1S; A4 —.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · ملك *(mülk; melik)* n=206  ▸önce: دكك *(darmadağın etme)* ×14.7 [A tek ayet] · bin ×9.8 [A tek ayet] · bulut ×9.1 [A tek ayet]  ▸sonra: صفف *(saf, dizi)* ×12.2 [B tek sahne 3 ayet] · çekip-alma ×8.6 [A tek ayet] · yemin-sağ ×7.9 [A tek ayet]  ▸Allah med=10\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'meliki'n-nâs' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "E",
+    "sinif_el": "E",
+    "e_oto": true,
+    "e_el": true,
+    "muhur": true,
+    "cift": false,
+    "ton": "celâl",
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "114:3": {
+   "ar": "إِلَٰهِ ٱلنَّاسِ",
+   "meal": "insanların İlâhına,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=2 (n z=-1,11), fâsıla ٱلناس → س, س sınıfı · i’râb GEN 2; bab yok; zaman yok · harf 8 → **harf3 8**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler أله *(ilâh; lafza-i celâl)* [1/1] · أنس *(insan)* [3/5] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'ilâhi'n-nâs' — 'ilâh' (GEN) + belirli 'en-nâs' (GEN) (ölçüm fiil yok; şahıs işareti yok). 114:1-2 tamlamalarının üçüncüsü, atıfsız, aynı i'râb (okuma). Harekesiz 'ilâhi'n-nâs' korpusta 1. Lemma 'ilâh' 124 ayet: 59:22 (okumada görüldü; 'lâ ilâhe illâ hû') ve 11:101 (okumada görüldü; ''âlihetuhum' — yakarılan ilâhlar, çoğul), okunmuş 97 ayet daha, 114:3, henüz okunmamış 24; aynı lemma tek ilâh ve tapılan ilâhlar için — sûreler arası okuma notu. Kök أله *(ilâh; lafza-i celâl)* [1/1] — 'ilâh' tokeni, lafız değil; sûre lafızsız (sûre 59 dersi). 'ilâh' esmâ listesinde değil — e_oto yok. Üç ayet (114:1-3) aynı iskelet: ad + 'en-nâs'; ad sırası Rab, Melik, İlâh (okuma). Çıpa: ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 2 kelime, yıldızsız. أله *(ilâh; lafza-i celâl)* [1/1], أنس *(insan)* [3/5]. Fâsıla س. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — İlâhın tamlayanı; B2–B4 —.\n◈D — D1 tamlama (GEN), üçüncü atıfsız tamlama; D2 —; D3 'ilâh' 59:22, 11:101; D4 şahıs işareti yok (sahset —).\n◈A — A1 İlâh (114:1'deki Rab; okuma); A2 insanlar; A3 söz içi 1S; A4 tamlama dizisi kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · أله *(ilâh; lafza-i celâl)* n=2851  ▸önce: طفأ *(söndürme)* ×4.9 [B tek sahne 3 ayet] · şikâyet ×3.6 [A tek ayet] · hudûd ×3.1 [A tek ayet]  ▸sonra: boya ×3.6 [A tek ayet] · Mesih ×2.4 [A tek ayet] · خذل *(yardımsız bırakma)* ×2.4 [A tek ayet]  ▸Allah med=0\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ilâhi'n-nâs' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "114:4": {
+   "ar": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+   "meal": "sinip sinip gelen vesvesecinin şerrinden,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=4 (n z=-0,89), fâsıla ٱلخناس → س, س sınıfı · i’râb GEN 3; bab yok; zaman yok · harf 17 → **harf3 17**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler شرر *(şer, kötülük)* [1/1] · وسوس *(vesvese, içe fısıldama)* [1/2] · خنس *(sinip geri çekilme, gizlenme (xunnes, xannâs; 2 ayet))* [1/1] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'min şerri'l-vesvâsi'l-xannâs' — 'min' + 'şerr' (GEN) + belirli 'el-vesvâs' (GEN) + belirli sıfat 'el-xannâs' (GEN) (ölçüm fiil yok; şahıs işareti yok). 'min' öbeği 114:1'deki 'e'ûzu'ya bağlı (okuma). Harekesiz 'min şerri' önceki sûrede dört ayette (113:2 ve ardından 've min şerri' üç kez, okumada görüldü); burada tek öbek, iki sıfatlı belirli ad (okuma). Lemma 'vesvâs' ve 'xannâs' korpusta 1. Kök خنس *(sinip geri çekilme, gizlenme (xunnes, xannâs; 2 ayet))* 2 ayet: 81:15 (okumada görüldü; 'fe-lâ uqsimu bi'l-xunnes' — yemin edilen sinenler, çoğul), 114:4 — korpusun iki geçişi okundu. Kök وسوس *(vesvese, içe fısıldama)* 5 ayet: 20:120 ve 50:16 (okumada görüldü), 114:4, 114:5, henüz okunmamış 1. 'el-vesvâs'ın kim olduğu bu ayette adlanmıyor; 114:6 'mine'l-cinneti ve'n-nâs' ona ya da 114:5'teki 'en-nâs'a bağlanabilir — KAPATILAMAZ (okuma; 1017). Çıpa: gönderge adsız — merdiven uygulanmaz (olgu=False); tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 4 kelime, yıldızsız. شرر *(şer, kötülük)* [1/1], وسوس *(vesvese, içe fısıldama)* [1/2], خنس *(sinip geri çekilme, gizlenme (xunnes, xannâs; 2 ayet))* [1/1]. Fâsıla س. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — —\n◈D — D1 'min' + tamlama (şerr + belirli ad + sıfat); D2 söz içi sığınma öbeği; D3 'min şerri' 113:2; kök خنس *(sinip geri çekilme, gizlenme (xunnes, xannâs; 2 ayet))* 81:15; D4 şahıs işareti yok (sahset —).\n◈A — A1 vesveseci (adsız); A2 —; A3 söz içi 1S; A4 şer öbeği.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · شرر *(şer, kötülük)* n=31  ▸önce: insan ×15.2 [A tek ayet] · مسس *(dokunma, temas)* ×14.1 [B tek sahne 5 ayet] · nas ×3.6 [A tek ayet]  ▸sonra: حسد *(haset)* ×129.4 [A tek ayet] · mekân ×27.0 [A tek ayet] · hayır ×5.7 [A tek ayet]  ▸Allah med=20\n  · وسوس *(vesvese, içe fısıldama)* n=5 ⚠  ▸önce: nas ×18.4 [A tek ayet]  ▸sonra: nas ×18.4 [A tek ayet]  ▸Allah med=61\n  · خنس *(sinip geri çekilme, gizlenme (xunnes, xannâs; 2 ayet))* n=2 ⚠  ▸önce: —  ▸sonra: —  ▸Allah med=56",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'min şerri'l-vesvâsi'l-xannâs' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "114:5": {
+   "ar": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+   "meal": "o ki insanların göğüslerine vesvese verir,",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs 3MS 1, sahset ['3'], baskın 3, iltifât 1 · n=5 (n z=-0,79), fâsıla ٱلناس → س, س sınıfı · i’râb GEN 2; bab I. bab ×1; zaman IMPF 1 · harf 20 → **harf3 20**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler وسوس *(vesvese, içe fısıldama)* [2/2] · صدر *(göğüs)* [1/1] · أنس *(insan)* [4/5] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'ellezî yuvesvisu fî sudûri'n-nâs' — ilgi 'ellezî' (MS) + IMPF 3MS 'yuvesvisu' + 'fî' + 'sudûr' (GEN) + belirli 'en-nâs' (GEN) (ölçüm zaman IMPF 1). 'ellezî' 114:4'teki 'el-vesvâs'ın sıfatı (okuma). Ölçüm iltifât 1 (sahset — → ['3']): ilgi cümlesinin fiili, hitap ve konuşan değişmiyor (924; sûre 87, sûre 113 eşi). Lemma 'vesvese' 4 ayet: 20:120 (okumada görüldü; 'fe-vesvese ileyhi'ş-şeytân' — özne adlı, 'ileyhi') ve 50:16 (okumada görüldü; 'mâ tuvesvisu bihî nefsuhû' — özne nefs, 'bihî'), 114:5, henüz okunmamış 1; burada özne ilgi zamiri, yer 'fî sudûri'n-nâs' (okuma). Kök وسوس *(vesvese, içe fısıldama)* sûre içi [2/2]: ad 'el-vesvâs' (114:4) + fiil 'yuvesvisu' (114:5). Lemma 'sadr' 41 ayet: 29:10 (okumada görüldü; 'bimâ fî sudûri'l-'âlemîn' — Allah'ın bilgisi), okunmuş 29 ayet daha, 114:5, henüz okunmamış 10. Harekesiz 'fî sudûri'n-nâs' korpusta 1. Organ adı 'sudûr' (kök صدر *(göğüs)*) ◈B tetik listesinde değil — gözlem burada; 'en-nâs' satırı doldurur. Çıpa: vesvese (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 5 kelime, yıldızsız. وسوس *(vesvese, içe fısıldama)* [2/2], صدر *(göğüs)* [1/1], أنس *(insan)* [4/5]. Fâsıla س. Karşıt çift (aday 1039, okuma): yok.\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — göğüslerine vesvese verilenler; 'sudûr' tetik dışı organ adı (gözlem ◇'de); B2–B4 —.\n◈D — D1 ilgi + IMPF + câr-mecrûr (tamlama); D2 haber; D3 'vesvese' 20:120, 50:16; D4 3MS 1, sahset ['3'].\n◈A — A1 vesveseci (ilgi zamiri, 114:4); insanlar; A2 göğüsler; A3 söz içi 1S; A4 —.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · وسوس *(vesvese, içe fısıldama)* n=5 ⚠  ▸önce: nas ×18.4 [A tek ayet]  ▸sonra: nas ×18.4 [A tek ayet]  ▸Allah med=61\n  · صدر *(göğüs)* n=46  ▸önce: شرح *(yarma, açma (şerh))* ×161.6 [B tek sahne 5 ayet] · ضيق *(darlık)* ×37.3 [B tek sahne 4 ayet] · خفي *(gizleme, gizli olan)* ×14.3 [B tek sahne 4 ayet]  ▸sonra: büyüklük ×4.8 [A tek ayet] · nas ×2.0 [A tek ayet] · görme ×1.5 [A tek ayet]  ▸Allah med=8\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'ellezî yuvesvisu fî sudûri'n-nâs' — vesvese (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "114:6": {
+   "ar": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+   "meal": "cinlerden ve insanlardan.'",
+   "olcum": "eksen: **lafız YOK · Rab YOK** · esmâ yok · aktör yok · edim haber, kip yok · şahıs işaret yok, sahset —, baskın —, iltifât 0 · n=3 (n z=-1,00), fâsıla وٱلناس → س, س sınıfı · i’râb GEN 2; bab yok; zaman yok · harf 13 → **harf3 13**, isaret 0 · dış düğüm 0 · **yıldız yok** · kökler جنن *(örtme, gizleme; cennet; cin)* [1/1] · أنس *(insan)* [5/5] · bağ: YOK (esit2, nakarat3, xref üçü de boş)",
+   "mercek": "◇ 'mine'l-cinneti ve'n-nâs' — 'min' + belirli 'el-cinne' (GEN) + 've' + belirli 'en-nâs' (GEN) (ölçüm fiil yok; şahıs işareti yok). 'min' öbeğinin bağlandığı yer: 114:4'teki 'el-vesvâs' (vesveseci cinlerden ve insanlardan) ya da 114:5'teki 'en-nâs' — metin ayırmıyor, KAPATILAMAZ (okuma). Harekesiz 'mine'l-cinneti ve'n-nâs' 3 ayet: 11:119 (okumada görüldü; 'le-emle'enne cehenneme mine'l-cinneti ve'n-nâsi ecma'în' — cehennemi dolduracak olanlar), okunmuş 1 ayet daha, 114:6 — korpusun üç geçişi okundu; burada 'ecma'în' yok (okuma). Harekesiz 'mine'l-cinne' kalıbı 'cinne' (cin) ile 'cenne' (bahçe) imlâsını ayırmıyor — kalıp sayısı verilmez (924; sûre 41 harekesiz kalıp gürültüsü dersi). Lemma 'cinne' 9 ayet: 11:119 (okumada görüldü), okunmuş 6 ayet daha, 114:6, henüz okunmamış 1. Lemma 'nâs' sûre içinde beş geçiş [5/5], hepsi bu blokta basıldı: 114:1-3'te Rab / Melik / İlâh tamlayanı, 114:5'te göğüslerine vesvese verilenler, burada 'el-cinne' ile birlikte (okuma). Fâsıla: 114:1-3, 5, 6 aynı kelime 'en-nâs', 114:4 'el-xannâs' — hepsi س. Sûre ve korpus sonu: sûre 114'ün son ayeti, okuma sırasının son ayeti; 'en-nâs' ile bitiyor — 1040 için 'korpus sonu' notu; sûre 1'e geri bağ kurulmaz (kayıt). Söz burada bitiyor, meal tırnağı kapanıyor (okuma). Çıpa: gönderge sınıf adı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi. Lafız ve Rab yok; esmâ yok. 3 kelime, yıldızsız. جنن *(örtme, gizleme; cennet; cin)* [1/1], أنس *(insan)* [5/5]. Fâsıla س. Karşıt çift (aday 1039, okuma): 'el-cinne' / 'en-nâs' (cin / insan).\n◈K — —\n◈B — B1 insanlar ('en-nâs', tetik أنس *(insan)*) — cinlerle birlikte anılan sınıf; B2–B4 —.\n◈D — D1 'min' + belirli ad + 've' + belirli ad; D2 fiilsiz öbek; D3 'mine'l-cinneti ve'n-nâs' 11:119; D4 şahıs işareti yok (sahset —).\n◈A — A1 cinler, insanlar; A2 —; A3 söz içi 1S; A4 sûre, söz ve korpus kapanıyor.",
+   "dikey": "DİKEY OKUMA — komşuluk zenginleşmesi (±6 kelime, Allah lafzı ve hedef kök hariç; ×kat = komşulukta gözlenen ÷ kökün korpustaki genel sıklığından beklenen; eşik 1.5). Allah medyan mesafesi İKİNCİL ve düz null ile hesaplanmıştır — etiket verilmiyor (aday 435). ⚠ = n<15.\n  · جنن *(örtme, gizleme; cennet; cin)* n=201  ▸önce: سيل *(akma, sel)* ×24.0 [A tek ayet] · topluluk ×14.7 [A tek ayet] · ins ×11.8 [A tek ayet]  ▸sonra: تحت *(alt, altında)* ×22.6 [B2 donmuş kalıp 37 ayet] · nehir ×21.9 [A tek ayet] · عنب *(üzüm)* ×20.3  ▸Allah med=20\n  · أنس *(insan)* n=338  ▸önce: حسد *(haset)* ×15.6 [A tek ayet] · riya ×15.6 [A tek ayet] · وسوس *(vesvese, içe fısıldama)* ×11.7 [B tek sahne 3 ayet]  ▸sonra: وسوس *(vesvese, içe fısıldama)* ×15.6 [B tek sahne 3 ayet] · وهن *(zayıflık)* ×6.5 [A tek ayet] · نطف *(nutfe)* ×6.5 [B tek sahne 4 ayet]  ▸Allah med=14",
+   "cipa": {
+    "kademe": null,
+    "olgu": false,
+    "cipa": false,
+    "not_": "'mine'l-cinneti ve'n-nâs' — sınıf adları (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+   },
+   "esma": {
+    "sinif_oto": "0",
+    "sinif_el": "0",
+    "e_oto": false,
+    "e_el": false,
+    "muhur": false,
+    "cift": false,
+    "ton": null,
+    "ton_kismi": false,
+    "bant": "KAPI_KAPALI"
+   }
+  },
+  "_bilanco": {
+   "1-6": {
+    "etiket": "TAM SAYIM — defter.json / esma_kayit.json / cipa_tarama4_adaylari.json",
+    "ayet": 6,
+    "kelime_toplam": 20,
+    "lafiz_token": 0,
+    "lafiz_ayet": 0,
+    "rab_token": 1,
+    "edilgen_ayet": [],
+    "iltifat_ayet": [
+     5
+    ],
+    "kafiye_kirik_ayet": [],
+    "hapaks2": {},
+    "yildiz_dagilim": {
+     "0": 5,
+     "3": 1
+    },
+    "yildiz_kaynak": {
+     "1": {
+      "yildiz": 3,
+      "kaynak": "rab",
+      "z": 5.01,
+      "esigi_gecen_diger": {},
+      "kafiye_kirik": false
+     }
+    },
+    "mm2_ayet": [],
+    "nakarat3_ayet": [],
+    "say_isareti": {},
+    "esma_token_oto": 1,
+    "esma_sinif_oto": {
+     "R": 1,
+     "E": 1,
+     "0": 4
+    },
+    "esma_sinif_el": {
+     "R": 1,
+     "E": 1,
+     "0": 4
+    },
+    "esma_muhur_43": [
+     2
+    ],
+    "esma_muhur_43_gecerli": [
+     2
+    ],
+    "tarayici_v4_aday": [],
+    "ariza": [
+     "esmâ: e_oto 1 token (114:2 'melik', 1. token) — okuyucu kararı 'ilahi' (KARAR 732 → 733); ölçüm satırı '1. sırada, SON konum, MÜHÜRSÜZ' — konum etiketi iki kelimelik ayette metinle uyuşmuyor (son kelime 'en-nâs'); bilanço geçerli mühür 114:2 (1022); 'ilâh' (114:3) esmâ listesinde değil; lafız yok, Rab 1 (114:1)",
+     "kök tablosu: blokta yeni kök yok (1550); retroaktif yama hedefli 0, genel 0 (iki geçiş); taban kayıtları om_base ile aynı",
+     "yıldız: yalnız 114:1 ★★★ rab (z=5,01) — kısa ayette tek Rab, formül davranışı; diğer 5 ayet yıldızsız; kafiye kırığı yok, 1001 vakası yok",
+     "fâsıla: metinde س س س س س س — 114:1-3, 5, 6 aynı kelime 'en-nâs', 114:4 'el-xannâs'; geçiş yok",
+     "biçim (924): ayet 1 harf 33 → harf3 14 (besmele ailesi); 114:2-4 ve 114:6 şahıs işareti yok (sahset —); harekesiz kalıp 'mine'l-cinne' imlâda 'cinne' / 'cenne' ayırmıyor — kalıp sayısı verilmedi (sûre 41 dersi)",
+     "iltifât (924): ölçüm 114:5'te 1 — 'ellezî yuvesvisu' ilgi cümlesinin fiili; hitap ve konuşan değişmiyor (sûre 87, 113 eşi)",
+     "söz / gönderge (1017): 'qul' sözü 114:1'de açıyor; 114:2-3 atıfsız tamlamalar, 114:4-6 'min şerri' öbeği 'e'ûzu'ya bağlı — söz sınırı sözdizimiyle belli, meal tırnağı 114:1 / 114:6; hitap, 'qul' diyen ve söz içi 1S adsız; 'el-vesvâs' adsız; 114:6 'min' öbeğinin bağlandığı yer ('el-vesvâs' / 'en-nâs') KAPATILAMAZ",
+     "xref: 114:1 → 40:27 ve 113:1 (ikisi de bu oturumda basıldı); esit2 / nakarat3 yok",
+     "çıpa: L0 / L1 / L2 / L4 yok; olgu=False 6; 114:4 gönderge adsız; tarayıcı v4 blokta aday vermedi",
+     "aday 1040 (kayıt): 113:5 / 114:1 sûre sınırı — haset öbeğiyle kapanış / 'qul e'ûzu bi-rabbi'n-nâs' ile açılış; fâsıla د → س; iki sûre de lafızsız, Rab 1; okuma bağı: 113:1 / 114:1 aynı açılış (harekesiz 'qul e'ûzu bi-rabb' korpusun iki geçişi), 113:2-5 / 114:4 'min şerri'. KORPUS SONU: 114:6 okuma sırasının son ayeti — 1040 için 'korpus sonu' olarak not edildi; sûre 1'e geri bağ kurulmadı",
+     "aday 1039: ayet içi 1 (114:6 'el-cinne' / 'en-nâs'); blok içi 0",
+     "aday 1041: sûre içi kayıt yok — Rab, 'melik', 'ilâh' yalnız ilâhî göndergeyle; sûreler arası okuma notu: lemma 'melik' 20:114 Allah / 12:43, 12:76 kral; lemma 'ilâh' 59:22 / 11:101 'âlihetuhum'",
+     "korpusta 1 (kayıt): lemma 'vesvâs', 'xannâs'; harekesiz 'rabbi'n-nâs', 'meliki'n-nâs', 'ilâhi'n-nâs', 'fî sudûri'n-nâs'; sûre içi tam sayım: kök أنس [5/5], وسوس [2/2], ربب [1/1]",
+     "bağ: emsaller 20:114, 12:43, 81:15, 20:120, 11:119 — hepsi AR + meal ile emsal listesinde basıldı (NFC fark 0), her biri ilgili oturum_lem / oturum_say listesinde doğrulandı; 113:1, 113:5, 40:27, 23:97, 72:6, 50:16, 29:10, 110:2, 12:76, 59:22, 11:101 bu oturumda daha önce basılmıştı, yeniden basılmadı",
+     "◈K / ◈B: ◈K altı ayette '—'; ◈B 114:1, 2, 3, 5, 6 dolu (tetik أنس, 'en-nâs'), 114:4 '—'; 'sudûr' (kök صدر) tetik dışı organ adı — gözlem ◇'de; tetik ön kuru koşu (geçici modül, silindi) 0 uyuşmaz, 6 ayet; oturum_xy 18 sayım, 0 uyuşmaz",
+     "süreç: sûre 114 dosyaları felak_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_114.py, oturum dışı; ad 'nas', harf sınırlı, yalnız felak → nas yönünde — sûre 110 'nasr' dosyalarına dokunulmadı; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; ISTEK boş; kayıt dosyası boş — assert'li; yüzde sabiti maskeli; I['not'] 'korpus sonu' satırı genel değişimden sonra; sûre 96 şablonuyla aile karşılaştırması temiz); sûre 6 ayet — tek blok, ara zip yok"
+    ],
+    "cipa_L4": [],
+    "tarayici_isabet": []
+   }
+  },
+  "_bilanco_sure": {
+   "etiket": "TAM SAYIM — sûre 114, 6 ayet",
+   "kelime_toplam": 20,
+   "lafiz_token": 0,
+   "lafiz_ayet": 0,
+   "rab_token": 1,
+   "rab_ayet": [
+    1
+   ],
+   "A_R_orani": 0.0,
+   "yildiz": {
+    "0": 5,
+    "3": 1
+   },
+   "yildiz_kaynak_tum": {
+    "rab": 1
+   },
+   "yildiz_kaynak_duzeltilmis": {
+    "rab": 1
+   },
+   "etiket_1001_ayet": [],
+   "ucyildiz_kaynak": {
+    "rab": 1
+   },
+   "edilgen_ayet": 0,
+   "iltifat_ayet": [
+    5
+   ],
+   "hapaks_ayet": [],
+   "mm2_ayet": [],
+   "fasila_sinif": {
+    "س": 6
+   },
+   "kafiye_kirik": [],
+   "en_uzun": [
+    5,
+    5
+   ],
+   "en_uzun_esit": [
+    5
+   ],
+   "en_kisa_esit": [
+    2,
+    3
+   ],
+   "say_isareti": {}
+  },
+  "_cipa_tablosu_114": {
+   "isaretli": {
+    "1": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'qul e'ûzu bi-rabbi'n-nâs' — sığınma (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "2": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'meliki'n-nâs' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "3": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ilâhi'n-nâs' — ilâhî sıfat (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "4": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'min şerri'l-vesvâsi'l-xannâs' — gönderge adsız, merdiven uygulanmaz (olgu=False); tarayıcı vermedi"
+    },
+    "5": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'ellezî yuvesvisu fî sudûri'n-nâs' — vesvese (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    },
+    "6": {
+     "kademe": null,
+     "olgu": false,
+     "cipa": false,
+     "not_": "'mine'l-cinneti ve'n-nâs' — sınıf adları (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"
+    }
+   },
+   "L4": [],
+   "tarayici_v4_aday": [],
+   "anma": "0/0",
+   "kesinlik": "0/0"
+  },
+  "_esma_profil_114": {
+   "uyari": "KAYIT — ölçüm değil. H1-H4 tam okuma bitince, global Bonferroni ile.",
+   "sinif_oto": {
+    "R": 1,
+    "E": 1,
+    "0": 4
+   },
+   "sinif_el": {
+    "R": 1,
+    "E": 1,
+    "0": 4
+   },
+   "esma_token_oto": 1,
+   "esma_token_ilahi": 1,
+   "muhur_43": 1,
+   "muhur_43_gecerli": 1,
+   "muhur_43_yanlis": [],
+   "ton_gecerli_muhur": {
+    "celâl": 1
+   },
+   "bant": "KAPI_KAPALI (§4.4, aday 435)"
+  },
+  "_kapanis_notu": "SÛRE 114 NÂS SONU — KORPUS SONU (sûre 114). Blok başı kayıt sûrenin tamamında uygulandı; 6 ayet, 20 kelime, tek blok 114:1-6 (de ki: insanların Rabbine, insanların Melikine, insanların İlâhına sığınırım; sinip sinip gelen vesvesecinin şerrinden, o ki insanların göğüslerine vesvese verir, cinlerden ve insanlardan). Sûre 2026-11-01'de sûre 113 kapanışının ardından aynı oturumda okundu; taban 40018b4 değişmedi (sûre 110-113 zip'leri yüklenmedi), bu yüzden sûre 114 zip'i 110-113'ü de taşıyor. Okuma sırasının son sûresi: kalan sûre 2 (21-286) ve 3-8. Dosyalar felak_* şablonlarından iskele betiğiyle kuruldu (yamalar/iskele_114.py, oturum dışı; ad 'nas', harf sınırlı, yalnız felak → nas yönünde — sûre 110 'nasr' dosyalarına dokunulmadı; set değişkeni ASCII 'NAS'; dosya eşlemesi ayrı, kaynak ≠ hedef assert'li; kok_ekle ISTEK iskele içinde boş; kayıt dosyası CIPA / ARIZA / DUZELTME boş kuruldu — assert'le doğrulandı; ilerleme yüzdesi sabiti maskelendi; I['not'] 'korpus sonu' satırı genel değişimden sonra açık yazıldı; '_esma_profil_114' / '_profil_114' assert'le bulundu; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla normalleştirilmiş karşılaştırmada temiz); kapanış / paket blok listesi üç yerde birlikte dolduruldu (yamalar/yama_bl_114.py) ve --kuru ile doğrulandı. Kök tablosu: yeni kök yok (1550); retroaktif yama hedefli 0, genel 0 (iki koşu); taban kayıtları om_base ile aynı. Esmâ: e_oto 1 (114:2 'melik'); okuyucu kararı 'ilahi' (KARAR 732 → 733); ölçüm satırı '1. sırada, SON konum, MÜHÜRSÜZ' — konum etiketi iki kelimelik ayette metinle uyuşmuyor; bilanço geçerli mühür 1 (114:2, ton celâl) (1022); 'ilâh' (114:3) esmâ listesinde değil. Lafızsız; Rab 1 (114:1); sûre içi tam sayım, bütün geçişler basılmışken: kök أنس [5/5] ('en-nâs' beş ayetin fâsılası), وسوس [2/2], ربب [1/1]. Yıldız: yalnız 114:1 ★★★ rab (z=5,01) — formül davranışı; 5 ayet yıldızsız; kafiye kırığı yok. Fâsıla: metinde س س س س س س — tek sınıf; 114:1-3, 5, 6 aynı kelime 'en-nâs', 114:4 'el-xannâs'. Biçim: ayet 1 harf 33 → harf3 14 (besmele ailesi, 924); dört ayette şahıs işareti yok; harekesiz kalıp 'mine'l-cinne' imlâda 'cinne' / 'cenne' ayırmıyor — kalıp sayısı verilmedi (924). İltifât: ölçüm 114:5'te 1 — 'ellezî yuvesvisu' ilgi cümlesi, hitap değişmiyor (924; sûre 87, 113 eşi). Söz (1017): 'qul' sözü 114:1'de açıyor; 114:2-3 atıfsız tamlamalar, 114:4-6 'min şerri' öbeği 'e'ûzu'ya bağlı — söz sınırı sözdizimiyle belli, meal tırnağı 114:1 / 114:6; hitap, 'qul' diyen ve söz içi 1S adsız; 'el-vesvâs' adsız; 114:6 'min' öbeğinin bağlandığı yer KAPATILAMAZ. ◈B: 'en-nâs' (tetik أنس) beş ayette dolu; 'sudûr' tetik dışı organ adı — gözlem ◇'de. Çıpa: L0 / L1 / L2 / L4 yok; olgu=False 6; tarayıcı v4 aday vermedi. Korpusta 1: lemma 'vesvâs', 'xannâs'; harekesiz 'rabbi'n-nâs', 'meliki'n-nâs', 'ilâhi'n-nâs', 'fî sudûri'n-nâs'. Okuma bağları: 113:1 'qul e'ûzu bi-rabb' (korpusun iki geçişi, ardışık iki sûrenin ilk ayeti); 113:2-5 'min şerri'; 20:114 'el-melik' Allah / 12:43, 12:76 kral (lemma 'melik', sûreler arası okuma notu); 59:22 / 11:101 lemma 'ilâh'; 81:15 kök خنس (korpusun iki geçişi); 20:120, 50:16 'vesvese' (özne adlı / nefs); 11:119 'mine'l-cinneti ve'n-nâs' (korpusun üç geçişi okundu). Aday 1039 (okuma): 6/6 ayet notlu; ayet içi 1 (114:6 'el-cinne' / 'en-nâs'); blok içi 0. Aday 1040: 113:5 / 114:1 sûre sınırı yazıldı (haset öbeğiyle kapanış / 'qul e'ûzu bi-rabbi'n-nâs' ile açılış; fâsıla د → س; iki sûre de lafızsız, Rab 1); KORPUS SONU: 114:6 okuma sırasının son ayeti — 1040 için 'korpus sonu' olarak not edildi, sûre 1'e geri bağ kurulmadı (yalnız kayıt). Aday 1041: sûre içi kayıt yok; sûreler arası okuma notları 'melik' ve 'ilâh'. Kayıttan önce: tetik ön kuru koşusu 0 uyuşmaz (6 ayet); [x/y] 18 sayım / 0; sızıntı taraması 0. Sunum: emsal listesi (5 ayet) ve iki okuma parçası (3 + 3 ayet) göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0). İlerleme 5028 ayet. Yeni aday yok (havuz 1041); bağ seti AS_nas 13. DUZELTME 0."
  }
 }
