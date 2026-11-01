@@ -8226,3 +8226,164 @@ e_oto 0; mühür 0; 'ekram' esmâ listesinde değil.
 * KAPATILAMAZ: 96:1, 96:4 nesnesiz fiiller; 96:11-13 şart cevapları; 96:11-12 öznesi.
 * 924: 'ٓ' fâsıla sınıfı (sahte kırık 96:9); ayet 1 harf3; 96:4 'ellezî' sıfat cümlesi iltifât.
 
+## SÛRE 97 KADR SONU (2026-10-31)
+
+**Okunan: 4922 / 6236 ayet (%78,9)** — sûre 1 ve 9-97 TAM, sûre 2 kısmi (1-20). İlerleme `kadr_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1532** (değişmedi; `kok_ekle_97.py` boş). Aday havuzu **1041** (`AX_kadr` boş). Bağ **AS_kadr** 16. Esmâ KARAR **726** (725 → 726; 97:5 'selâm' 'degil').
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 5 / 0 · [x/y] **21 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 5 ayeti tek blokta okundu: 1-5. Dosyalar `yamalar/iskele_97.py` ile alak_* şablonlarından kuruldu (oturum dışı; ad 'kadr'; ad değişimi harf sınırıyla, açık satırlar genel değişimden sonra). Paket `notlar/sure97_kadr_okuma.md` (5 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure97.zip`.
+
+### Sûre 97 bilançosu (TAM SAYIM, `okuma_metni['97']['_bilanco_sure']`)
+30 kelime · **lafız 0 · Rab 1 (97:4)** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız 0:4 · ★★1 (97:4 rab z=2,05 — formül davranışı).
+Fâsıla metinde ر 5; ölçüm R sınıfı 5, kırık yok. En uzun 9 kelime (97:4); en kısa 5 (97:1, 2, 5).
+
+### Çıpa (ölçüt değişmedi)
+L0 1 (97:5 fecrin doğuşu — 89:1 kaydı emsali). Olgu değil 4 (97:1-3 adlı gece — 44:3 kaydı emsali; 97:4 gaybî iniş — 70:4, 78:38 kaydı emsali).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 1 (97:5 'selâm', nekre, gecenin haberi — 'degil'); ölçüm mührü 1, geçerli 0.
+
+### Aday 1041 / 1040 / 1039
+1041: sûre içi kayıt yok (lafız yok, Rab 1). 1040: 96:19 / 97:1 sûre sınırı (2MS'ye yasak ve secde emri / 1P haber; fâsıla ب → ر). 1039: 5/5 notlu; ayet içi 0, blok içi 1 ('leyle' 97:1-3 / 'fecr' 97:5). 97:5 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: konuşan 1P (97:1); indirilen 3MS (97:1); hitap 2MS (97:2).
+* KAPATILAMAZ: 97:1 'enzelnâhu' zamirinin göndergesi.
+* 924: ayet 1 harf3; 97:1 tekit ve 97:5 haberin önde oluşu biçim alanında yok; 97:4 iki özne bir fiil — özne sayısı ölçümde görünmüyor.
+* Okuma bağı (ardışık olmayan sûre): 44:3-4 / 97:1, 97:4 — 'innâ enzelnâhu' + gece + geceye dönen 'fîhâ' + 'kullu emr'.
+* Süreç: sunumda 97:5 dikey tablosunun bir hücresi sohbete yanlış aktarıldı, aynı turda düzeltildi; kayıt betik çıktısından.
+
+## SÛRE 98 BEYYİNE SONU (2026-10-31)
+
+**Okunan: 4930 / 6236 ayet (%79,1)** — sûre 1 ve 9-98 TAM, sûre 2 kısmi (1-20). İlerleme `beyyine_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1532** (değişmedi; `kok_ekle_98.py` boş). Aday havuzu **1041** (`AX_beyyine` boş). Bağ **AS_beyyine** 22. Esmâ KARAR **726** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 / 0 · [x/y] **56 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 8 ayeti tek blokta okundu: 1-8. Dosyalar `yamalar/iskele_98.py` ile kadr_* şablonlarından kuruldu (oturum dışı; ad 'beyyine'; aday_ekle set değişkeni ASCII 'BEYYINE'). Paket `notlar/sure98_beyyine_okuma.md` (8 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure98.zip` (sûre 97-98).
+
+### Sûre 98 bilançosu (TAM SAYIM, `okuma_metni['98']['_bilanco_sure']`)
+94 kelime · **lafız 3 (98:2, 5, 8) · Rab 2 (98:8)** · edilgen 2 (98:4, 5) · iltifât 0 · hapaks 0 · Yıldız 0:5 · ★1 2 (98:4 pas, 98:8 rab) · ★★1 (98:2 allah) — formül davranışı.
+Fâsıla metinde ة 7, ه 1; ölçüm H sınıfı 8, kırık yok. HASR 98:4, 98:5. En uzun 21 kelime (98:8); en kısa 3 (98:3).
+
+### Çıpa (ölçüt değişmedi)
+Kademe yok. Olgu değil 8 (98:8 cennet — 85:11, 58:22 kaydı emsali).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041 (kayıt): sûre içi lemma 'radiye' 98:8 aynı ayette Allah / inananlar. 1040: 97:5 / 98:1 sûre sınırı (fiilsiz 'hattâ' + tamlama / 'lem' + 'hattâ' + IMPF; fâsıla ر → ة). 1039: 8/8 notlu; ayet içi 0, blok içi 3 (98:1 / 98:4; 98:6 / 98:7; 98:6 / 98:8). 98:8 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: elçi (98:2); emreden (98:5, edilgen); 'men xaşiye' (98:8).
+* KAPATILAMAZ: 98:1 'munfekkîn'in tümleci; 98:1 / 98:4 iki adlandırmanın aynılığı; 98:2 'resûlun' / 98:1 'el-beyyinetu' ilişkisi.
+* 924: ayet 1 harf3; 'inne' tekidi (98:6-7) ve haberin önde oluşu (98:3) biçim alanında yok.
+* Okuma düzeltmesi (kayıttan önce): 98:1 'el-muşrikîne' -îne yazımı NOM'u dışlıyor — 'ehli'l-kitâb'a atıflı; meal 98:1 ve 98:6 buna göre.
+* Süreç: emsal listesinde 90:13 Arapçasına fazladan işaret yazıldı, aynı turda düzeltildi; okuma parçaları göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0).
+
+## SÛRE 99 ZİLZAL SONU (2026-10-31)
+
+**Okunan: 4938 / 6236 ayet (%79,2)** — sûre 1 ve 9-99 TAM, sûre 2 kısmi (1-20). İlerleme `zilzal_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1532** (değişmedi; `kok_ekle_99.py` boş). Aday havuzu **1041** (`AX_zilzal` boş). Bağ **AS_zilzal** 21. Esmâ KARAR **726** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 / 0 · [x/y] **33 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 8 ayeti tek blokta okundu: 1-8. Dosyalar `yamalar/iskele_99.py` ile beyyine_* şablonlarından kuruldu (oturum dışı; ad 'zilzal'; set değişkeni ASCII 'ZILZAL'). Paket `notlar/sure99_zilzal_okuma.md` (8 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure99.zip` (sûre 97-99).
+
+### Sûre 99 bilançosu (TAM SAYIM, `okuma_metni['99']['_bilanco_sure']`)
+36 kelime · **lafız 0 · Rab 1 (99:5)** · edilgen 2 (99:1, 6) · iltifât 0 · hapaks 0 · Yıldız 0:5 · ★★1 (99:6 pas) · ★★★2 (99:1 pas, 99:5 rab) — formül davranışı.
+Fâsıla metinde ا 5 (-hâ), م 1, ه 2; ölçüm A 5, N 1, H 2 — geçişler kırık işaretlenmedi (924). En uzun 6 kelime (99:6, 7, 8); en kısa 3 (99:2, 4).
+
+### Çıpa (ölçüt değişmedi)
+L1 4 (99:1 — 56:4 kaydı emsali; 99:2 — 84:4 kaydı emsali; 99:7, 99:8 ölçü birimi, olgu=False — 34:3 kaydı emsali). Olgu değil 6. Sınıflama ayrışması (kayıt): aynı iskelet 56:4 L1 olgu=True / 89:21 olgu=False.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: sûre içi kayıt yok (lafız yok, Rab 1). 1040: 98:8 / 99:1 sûre sınırı ('izâ' şartıyla açılış; fâsıla ه → ا); ardışık sûre okuma bağı 98:6-7 / 99:7-8 'şerr' / 'xayr', sıra ters. 1039: 8/8 notlu; ayet içi 0, blok içi 1 (99:7 / 99:8). 99:8 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: sarsan (99:1), hitap 2MS (99:5), gösteren (99:6), 'men' (99:7-8); 99:4 öznesi 3FS — 'el-ard' okuma.
+* 1021: kök صدر gloss'u 'göğüs' — 99:6 'yasduru' anlamını vermiyor.
+* 924: ayet 1 harf3; fiil + aynı kökten mastar mm2 vermiyor; şart cevabı, 'bi' ve 'li' biçim alanında yok; fâsıla geçişleri işaretsiz.
+* Süreç: emsal listesi ve okuma parçaları göndermeden önce betik çıktısıyla NFC altında karşılaştırıldı (fark 0).
+
+## SÛRE 100 ÂDİYÂT SONU (2026-11-01)
+
+**Okunan: 4949 / 6236 ayet (%79,4)** — sûre 1 ve 9-100 TAM, sûre 2 kısmi (1-20). İlerleme `adiyat_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1537** (1532 → 1537; `kok_ekle_100.py`: ضبح, قدح, نقع, كند, حصل — beşi de korpusta 1 ayet). Aday havuzu **1041** (`AX_adiyat` boş). Bağ **AS_adiyat** 20. Esmâ KARAR **728** (726 → 728; 100:7 'şehîd' degil — sınır vakası, 100:11 'xabîr' ilahi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 11 / 0 · [x/y] **26 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı (iskelet çakışması yok) · **DUZELTME 0**.
+Sûrenin 11 ayeti tek blokta okundu: 1-11. Dosyalar `yamalar/iskele_100.py` ile zilzal_* şablonlarından kuruldu (oturum dışı; ad 'adiyat'; set değişkeni ASCII 'ADIYAT'; sûre numarası üç haneye geçti). Paket `notlar/sure100_adiyat_okuma.md` (11 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure100.zip` (sûre 97-100). Oturum gece arası verdi (2026-10-31 → 11-01); ortam korunmuştu.
+
+### Sûre 100 bilançosu (TAM SAYIM, `okuma_metni['100']['_bilanco_sure']`)
+40 kelime · **lafız 0 · Rab 2 (100:6, 11)** · edilgen 2 (100:9, 10) · iltifât 0 · hapaks 5 (yeni kökler) · Yıldız 0:4 · ★★1 (100:9 pas) · ★★★6 (hapaks 3, rab 2, pas 1) — formül davranışı.
+Fâsıla metinde ا 5, د 3, ر 3; ölçüm A 5, د 3, R 3 — geçişler kırık işaretlenmedi (924). En uzun 7 kelime (100:9); en kısa 2 (100:1, 2, 3).
+
+### Çıpa (ölçüt değişmedi)
+L1 1 (100:4 — 99:2 kaydı emsali); L0 1 (100:3 zaman zarfı — 76:25 kaydı emsali); gönderge adsız 2 (100:1-2). Olgu değil 9.
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 2; ilâhî 1 (100:11); ölçüm mührü 2, geçerli 1 (100:11), yanlış 1 (100:7). 100:7 sınır vakası — 'innehû' göndergesi KAPATILAMAZ, karar sözdizimsel paralelliğe göre.
+
+### Aday 1041 / 1040 / 1039
+1041: sûre içi kayıt yok; sûreler arası okuma notu 'le-şedîd' 85:12 Rab / 100:8 insan. 1040: 99:8 / 100:1 sûre sınırı (şart / yemin; fâsıla ه → ا); ardışık sûre okuma bağları 99:2 / 100:9, 99:6 / 100:10, 99:4, 99:6 / 100:11. 1039: 11/11 notlu; ayet içi 0, blok içi 0. 100:11 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* 1017: yemin edilenler (100:1-5), 'cem'' (100:5), edilgen failler (100:9-10).
+* KAPATILAMAZ: yemin edilenler; 'bihî' (100:4-5); 'innehû' (100:7).
+* 1021: عدو, وري, غير gloss'ları buradaki anlamı vermiyor.
+* 924: atıflı yeminlerde QASEM yok; şart / cevap biçim alanında yok; 3MS → 3MP geçişi sahset'te görünmüyor; fâsıla geçişleri işaretsiz.
+* Süreç: emsal listesine 'NFC karşılaştırıldı' notu karşılaştırmadan önce yazıldı; karşılaştırma hemen ardından yapıldı, fark 0. Not karşılaştırma bittikten sonra yazılır.
+
+## SÛRE 101 KÂRİ'A SONU (2026-11-01)
+
+**Okunan: 4960 / 6236 ayet (%79,5)** — sûre 1 ve 9-101 TAM, sûre 2 kısmi (1-20). İlerleme `karia_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1537** (değişmedi; `kok_ekle_101.py` boş). Aday havuzu **1041** (`AX_karia` boş). Bağ **AS_karia** 17. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 11 / 0 · [x/y] **25 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 11 ayeti tek blokta okundu: 1-11. Dosyalar `yamalar/iskele_101.py` ile adiyat_* şablonlarından kuruldu (oturum dışı; ad 'karia'; set değişkeni ASCII 'KARIA'). Paket `notlar/sure101_karia_okuma.md` (11 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure101.zip` (sûre 97-101).
+
+### İskele süreç hatası (kayıttan sonra yakalandı, düzeltildi)
+Genel numara değişimi 100 → 101, ilerleme yüzdesi formülündeki sayısal sabiti de değiştirdi (`round(101 * okunan / len(D), 1)` — uret_blok_101, karia_kapanis). İlk blok koşusu ilerlemeyi %80,3 yazdı (doğrusu %79,5). Assert eski numaranın kalmadığını denetliyordu, sabitle çakışmayı denetlemiyordu. Düzeltme: sabit 100'e döndürüldü; blok betiği yeniden üretilip yalnız ilerleme / bilanço için koşuldu; ayet kayıtları ve sunum çıktısı önce / sonra aynı; ARIZA ek satırı; iskele_101.py sabiti maskeliyor. Sûre 97-100 iskeleleri sûre 96 şablonuyla normalleştirilmiş karşılaştırmada temiz. **Ders:** iskelede numara değişiminden önce şablondaki sayısal sabitler maskelenir; kurulumdan sonra şablon ailesi sûre 96 dosyalarıyla numara / ad normalleştirilerek karşılaştırılır.
+
+### Sûre 101 bilançosu (TAM SAYIM, `okuma_metni['101']['_bilanco_sure']`)
+36 kelime · **lafız 0 · Rab 0** · edilgen 0 · iltifât 0 · hapaks 0 · Yıldız 0:11 — hiçbir ayette yıldız yok.
+Fâsıla metinde ة 6, ث 1, ش 1, ه 3; ölçüm H 9, ث 1, ش 1 — geçişler işaretsiz (924). En uzun 5 kelime (101:4); en kısa 1 (101:1).
+
+### Çıpa (ölçüt değişmedi)
+L1 1 (101:5 dağlar — 70:9 kaydı emsali). Olgu değil 10 (101:4 insanlar, teşbih).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok). 1040: 100:11 / 101:1 sûre sınırı (Rab + tekitli haber / tek kelime; fâsıla ر → ة). 1039: 11/11 notlu; ayet içi 0, blok içi 1 (101:6 / 101:8 ağır / hafif). 101:11 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* esit2 TAM: 101:7 = 69:21 (iki ayrı 'fe-emmâ men' şartına aynı cevap).
+* 1017: hitap 2MS (101:3, 10), 'men' (101:6, 8).
+* 1021: فرش, نفش, أمم gloss'ları buradaki anlamı vermiyor.
+* 924: tek kelimelik ayet 1 harf3; teşbih ve cevaplar biçim alanında yok; 'hiyeh' sonundaki 'h' lemmasız; fâsıla geçişleri işaretsiz.
+
+## SÛRE 102 TEKÂSÜR SONU (2026-11-01)
+
+**Okunan: 4968 / 6236 ayet (%79,7)** — sûre 1 ve 9-102 TAM, sûre 2 kısmi (1-20). İlerleme `tekasur_kapanis.py` ile kayıttan koşuldu.
+`kok_turkce.json` **1537** (değişmedi; `kok_ekle_102.py` boş). Aday havuzu **1041** (`AX_tekasur` boş). Bağ **AS_tekasur** 17. Esmâ KARAR **728** (değişmedi).
+Denetimler: türkçe **0** · anahtar **70 = taban**, diff 0 · tetik 8 / 0 · [x/y] **16 sayım, 0 uyuşmaz** · e_el=? 0 · retroaktif 0 / 0 · taban kayıtları om_base ile aynı · **DUZELTME 0**.
+Sûrenin 8 ayeti tek blokta okundu: 1-8. Dosyalar `yamalar/iskele_102.py` ile karia_* şablonlarından kuruldu (oturum dışı; ad 'tekasur'; set değişkeni ASCII 'TEKASUR'; yüzde sabiti numara değişiminden önce maskelendi; aile karşılaştırması temiz). Paket `notlar/sure102_tekasur_okuma.md` (8 başlık). Taban **4a5437a**; zip `fark_4a5437a_sure102.zip` (sûre 97-102).
+
+### Sûre 102 bilançosu (TAM SAYIM, `okuma_metni['102']['_bilanco_sure']`)
+28 kelime · **lafız 0 · Rab 0** · edilgen 1 (102:8) · iltifât 0 · hapaks 0 · Yıldız: yıldızsız 7 ayet, ★★★ 1 ayet — 102:8 ★★★ (pas, z=5,38).
+Fâsıla ölçüm R 2, N 6 — geçiş işaretsiz. En uzun 5 kelime (102:5, 102:8); en kısa 2 (102:1, 102:6). mm2 102:5 (علم); esit2 BENZER 102:3 ↔ 102:4; sayı işareti 102:1 kök kaynaklı (924).
+
+### Çıpa (ölçüt değişmedi)
+L0 / L1 / L2 / L4 yok. Olgu değil 8 (tutum, kabir, bilme, âhiret).
+
+### Esmâ sûre profili (KAYIT; H1-H4 KOŞULMADI)
+e_oto 0; mühür 0.
+
+### Aday 1041 / 1040 / 1039
+1041: kayıt yok (lafız / Rab yok). 1040: 101:11 / 102:1 sûre sınırı (ateş adıyla kapanış / 2MP hitapla açılış; fâsıla ة → ر; okuma bağı 'nâr' / 'cahîm'). 1039: 8/8 notlu; ayet içi 0, blok içi 0. 102:8 → sonraki sûre henüz okunmadı.
+
+### Mevcut ailelere girenler
+* esit2 BENZER: 102:3 ↔ 102:4 (fark 'summe'); 78:4-5 aynı ikili kuruluş (3MP 'se-').
+* 1017: hitap 2MP sûrenin tamamında; 102:8 soran yazılmamış (edilgen).
+* 1021: زور, سأل gloss'ları buradaki anlamı vermiyor.
+* 924: ayet 1 harf3 (besmele ailesi); sayı işareti 'tekâsur' kök kaynaklı; 'hattâ' sınırı ve 'lev' şartının cevapsızlığı biçim alanında yok.
