@@ -36825,6 +36825,481 @@
    "bag": "9:9 → 2:79",
    "kural": "okuma — harekesiz 'semenen qalîlâ': 'işteraw bi-âyâti'llâh' / 'li-yeşterû bihî'",
    "not": "kalıp eşi."
+  },
+  {
+   "bag": "10:68 → 2:80",
+   "kural": "okuma — önek kesilmiş 'taqûlûne 'ala'llâhi mâ lâ ta'lemûn': 'e-taqûlûne' tek soru / 'em taqûlûne' ikinci seçenek",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "19:78 → 2:80",
+   "kural": "okuma — lemma ''ahd' + 'ittaxaza 'inde': 'inde'r-rahmân' (3MS) / ''inda'llâh' (2MP soru)",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "19:87 → 2:80",
+   "kural": "okuma — lemma ''ahd' + 'ittaxaza 'inde': şefaat istisnası / söz aldınız mı sorusu",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "2:80 → 2:81",
+   "kural": "sûre içi — 'lan temassenâ'n-nâr' / 'belâ … ashâbu'n-nâr': olumsuz iddia ve cevabı",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:39 → 2:81",
+   "kural": "sûre içi — harekesiz 'ashâbu'n-nâri hum fîhâ xâlidûn': inkâr ve yalanlama / kötülük kazanma",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "10:27 → 2:81",
+   "kural": "okuma — lemma 'kesebe' + 'seyyi'e' + 'ashâbu'n-nâri hum fîhâ xâlidûn': çoğul ilgi / tekil şart",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:81 → 2:82",
+   "kural": "sûre içi — 'ulâ'ike ashâbu … hum fîhâ xâlidûn': ateş / cennet (aday 1039, ayetler arası)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "11:23 → 2:82",
+   "kural": "esit2 BENZER (0,8545) — 'âmenû ve 'amilû's-sâlihât … ulâ'ike ashâbu'l-cenneti hum fîhâ xâlidûn'; 11:23'te 've axbetû ilâ rabbihim' arada",
+   "not": "esit2."
+  },
+  {
+   "bag": "10:26 → 2:82",
+   "kural": "okuma — harekesiz 'ulâ'ike ashâbu'l-cenneti hum fîhâ xâlidûn': iyilik edenler / inanıp iyi iş yapanlar",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:63 → 2:83",
+   "kural": "sûre içi — lemma dizisi 'iz + axaze + mîsâq': 'mîsâqakum' (2MP) / 'mîsâqa benî isrâ'îl' (adla)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "11:26 → 2:83",
+   "kural": "okuma — lemma dizisi 'lâ + 'abede + illâ + Allah': 'en lâ ta'budû' / 'lâ ta'budûne'",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "17:23 → 2:83",
+   "kural": "okuma — lemma dizisi 'vâlid + ihsân': kulluktan sonra ana babaya iyilik, iki ayette aynı sıra",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "2:43 → 2:83",
+   "kural": "sûre içi — önek kesilmiş 've aqîmu's-salâte ve âtu'z-zekâh': doğrudan emir / alınan sözün içinde",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:64 → 2:83",
+   "kural": "sûre içi — harekesiz 'thumme tevelleytum': 'min ba'di zâlik' / 'illâ qalîlen minkum'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:63 → 2:84",
+   "kural": "sûre içi — önek kesilmiş 've iz axaznâ mîsâqakum': Tûr'un kaldırılması / kan dökmeme ve yurttan çıkarmama",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:83 → 2:84",
+   "kural": "sûre içi — lemma dizisi 'iz + axaze + mîsâq': adla alınan söz / 2MP'den alınan söz",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:30 → 2:84",
+   "kural": "sûre içi — lemma 'yesfiku' (korpusta 2 ayet): meleklerin sorusu / alınan söz",
+   "not": "sûre içi lemma eşi."
+  },
+  {
+   "bag": "2:84 → 2:85",
+   "kural": "sûre içi — 'lâ tuxricûne … min diyârikum' / 'tuxricûne … min diyârihim': yasak ve ihlal (aday 1039, ayetler arası)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "58:8 → 2:85",
+   "kural": "okuma — önek kesilmiş 'bi'l-ismi ve'l-'udvân': fısıldaşma / yardımlaşma",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "40:46 → 2:85",
+   "kural": "okuma — harekesiz 'eşedde'l-'azâb': emir 'edxilû' / edilgen 'yuraddûne ilâ'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:74 → 2:85",
+   "kural": "sûre içi — önek kesilmiş 've ma'llâhu bi-ğâfilin 'ammâ ta'melûn': iki ayet sonu",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:85 → 2:86",
+   "kural": "sûre içi — 'men yef'alu zâlike minkum' / 'ulâ'ike'llezîne'şteraw': tekil şart öznesi / çoğul işaret",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "16:85 → 2:86",
+   "kural": "okuma — lemma 'xaffefe' + 'fe-lâ yuxaffefu 'anhum': 've lâ hum yunzarûn' / 've lâ hum yunsarûn'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:48 → 2:86",
+   "kural": "sûre içi — önek kesilmiş 've lâ hum yunsarûn': günün dört olumsuzunun sonuncusu / iki edilgen olumsuzun ikincisi",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:53 → 2:87",
+   "kural": "sûre içi — lemma dizisi 'âtâ + mûsâ + kitâb': 've'l-furqân' / 've qaffeynâ min ba'dihî bi'r-rusul'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "23:49 → 2:87",
+   "kural": "okuma — önek kesilmiş 've leqad âteynâ mûsâ'l-kitâb': 'le'allehum yehtedûn' / elçilerin ardı ardına gönderilmesi",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "57:27 → 2:87",
+   "kural": "okuma — lemma 'qaffâ' + ''îsâ'bnu meryem': 'qaffeynâ bi-'îsâ' / ayrı cümlede 'âteynâ 'îsâ'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "2:34 → 2:87",
+   "kural": "sûre içi — lemma 'istakbera': secde emrine karşı (3MS) / gelen elçiye karşı (2MP)",
+   "not": "sûre içi lemma eşi."
+  },
+  {
+   "bag": "2:61 → 2:87",
+   "kural": "sûre içi — lemma 'qatele': 'yaqtulûne'n-nebiyyîn' / 'ferîqan taqtulûn'",
+   "not": "sûre içi lemma eşi."
+  },
+  {
+   "bag": "69:41 → 2:88",
+   "kural": "okuma — lemma dizisi 'qalîl + mâ + âmene': 'tu'minûn' (2MP) / 'yu'minûn' (3MP)",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "2:88 → 2:89",
+   "kural": "sûre içi — 'le'anahumu'llâhu bi-kufrihim' / 'fe-la'netu'llâhi 'ale'l-kâfirîn'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "14:15 → 2:89",
+   "kural": "okuma — lemma 'istefteha': 've'steftahû' / 'yesteftihûne 'ale'llezîne keferû'",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "2:86 → 2:90",
+   "kural": "sûre içi — lemma 'iştarâ': dünya hayatını satın alma / kendilerini satma",
+   "not": "sûre içi lemma eşi."
+  },
+  {
+   "bag": "2:61 → 2:90",
+   "kural": "sûre içi — lemma dizisi 'bâ'a + ğadab': 'bi-ğadabin mina'llâh' / 'bi-ğadabin 'alâ ğadab'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "58:5 → 2:90",
+   "kural": "okuma — önek kesilmiş 've li'l-kâfirîne 'azâbun muhîn': iki ayet sonu",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "42:15 → 2:91",
+   "kural": "okuma — lemma dizisi 'âmene + mâ + enzele + Allah': 'âmentu' (1S) / 'âminû' (2MP)",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "2:90 → 2:91",
+   "kural": "sûre içi — lemma dizisi 'kefere + mâ': 'en yekfurû bimâ enzela'llâh' / 'yekfurûne bimâ verâ'eh'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:89 → 2:91",
+   "kural": "sûre içi — 'musaddiq … limâ ma'ahum': gelen kitap / indirilen hak",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:51 → 2:92",
+   "kural": "sûre içi — harekesiz 'thumme'ttaxaztumu'l-'icle min ba'dihî ve entum zâlimûn' (7 kelime): 'vâ'adnâ mûsâ' / 'câ'ekum mûsâ'",
+   "not": "sûre içi kalıp eşi."
+  },
+  {
+   "bag": "2:63 → 2:93",
+   "kural": "sûre içi — önek kesilmiş 've iz axaznâ mîsâqakum ve rafa'nâ fevqakumu't-tûra xuzû mâ âteynâkum bi-quvveh' (10 kelime): 'vezkurû' / 'vesme'û … sami'nâ ve 'asaynâ'",
+   "not": "sûre içi kalıp eşi."
+  },
+  {
+   "bag": "2:92 → 2:93",
+   "kural": "sûre içi — 'el-'icl': edinilen / kalplere içirilen",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "62:6 → 2:94",
+   "kural": "okuma — önek kesilmiş 'fe-temennevu'l-mevte in kuntum sâdiqîn' + 'min dûni'n-nâs': dostluk iddiası / âhiret yurdu iddiası",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "62:7 → 2:95",
+   "kural": "esit2 YAKIN (0,9655) — 've lâ yetemennevnehû' / 've len yetemennevhu', kalan dizi aynı",
+   "not": "esit2."
+  },
+  {
+   "bag": "2:94 → 2:95",
+   "kural": "sûre içi — 'fe-temennevu'l-mevt' / 've len yetemennevhu ebeden': emir ve cevap",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:95 → 2:96",
+   "kural": "sûre içi — 'len yetemennevhu ebeden' (ölümü dilemezler) / 'ahrasa'n-nâsi 'alâ hayâh' (hayata en düşkün)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "22:47 → 2:96",
+   "kural": "okuma — lemma dizisi 'elf + sene': Rabbin katında bir gün / istenen ömür",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "66:4 → 2:97",
+   "kural": "okuma — lemma 'cibrîl': mevlâ ile birlikte / indiren",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "46:30 → 2:97",
+   "kural": "okuma — harekesiz 'musaddiqan limâ beyne yedeyh': cinlerin dinlediği kitap / kalbe indirilen",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "27:2 → 2:97",
+   "kural": "okuma — lemma dizisi 'hudâ + buşrâ + mu'min': tek başına ayet / şart cümlesinin sonu",
+   "not": "lemma dizisi eşi."
+  },
+  {
+   "bag": "2:97 → 2:98",
+   "kural": "sûre içi — 'men kâne 'aduvven': cevapsız şart / 'fe-inna'llâhe 'aduvvun li'l-kâfirîn' ile cevaplı",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:97 → 2:99",
+   "kural": "sûre içi — 'nezzelehû 'alâ qalbike' / 'enzelnâ ileyke': 2MS'ye indirme",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:87 → 2:100",
+   "kural": "sûre içi — 'e-fe-kullemâ câ'ekum rasûl' / 'e-ve-kullemâ 'âhedû 'ahdâ'",
+   "not": "sûre içi kalıp eşi."
+  },
+  {
+   "bag": "2:100 → 2:101",
+   "kural": "sûre içi — lemma 'nebeze': sözü atma / kitabı sırt arkasına atma",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:89 → 2:101",
+   "kural": "sûre içi — nakarat3 'min 'indi'llâhi musaddiq limâ ma'ahum' (6 kelime): gelen kitap / gelen elçi",
+   "not": "sûre içi kalıp eşi."
+  },
+  {
+   "bag": "9:29 → 2:101",
+   "kural": "okuma — harekesiz 'mine'llezîne ûtu'l-kitâb': savaş emri / kitabı atan grup",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:101 → 2:102",
+   "kural": "sûre içi — 'nebeze … kitâba'llâhi verâ'e zuhûrihim' / 've'ttebe'û mâ tetlu'ş-şeyâtîn': atılan / uyulan",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "64:11 → 2:102",
+   "kural": "okuma — harekesiz 'illâ bi-izni'llâh': musibet / büyünün zararı",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "10:18 → 2:102",
+   "kural": "okuma — harekesiz 'yadurruhum ve lâ yenfe'uhum': kulluk edilen (ne zarar ne fayda) / öğrenilen (zarar verip fayda vermeyen)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:90 → 2:102",
+   "kural": "sûre içi — 'bi'se mâ … bihî enfusehum': 'işteraw' (VIII. bab) / 'şeraw' (I. bab)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "29:64 → 2:102",
+   "kural": "okuma — harekesiz 'lev kânû ya'lemûn': âhiret yurdu asıl hayat / sattıkları şeyin kötülüğü",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:102 → 2:103",
+   "kural": "sûre içi — 'mâ lehû fi'l-âxirati min xalâq' / 'le-mesûbetun min 'indi'llâhi xayr'; iki ayet de 'lev kânû ya'lemûn' ile biter (aday 1039, ayetler arası)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:103 → 2:104",
+   "kural": "sûre içi — 'lev ennehum âmenû' (3MP, inanmayan) / 'yâ eyyuhe'llezîne âmenû' (2MP, hitap)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:93 → 2:104",
+   "kural": "sûre içi — 've'sme'û' emri: 2:93'te cevap 'semi'nâ ve 'asaynâ', 2:104'te cevap yok",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "60:1 → 2:104",
+   "kural": "okuma — önek kesilmiş 'yâ eyyuhe'llezîne âmenû lâ': hitap + yasak",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:104 → 2:105",
+   "kural": "sûre içi — 've li'l-kâfirîne 'azâbun elîm' / 'mâ yeveddu'llezîne keferû'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:96 → 2:105",
+   "kural": "sûre içi — 'vedde' fiili: ömür isteyen / hayrın inmesini istemeyen",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "15:2 → 2:105",
+   "kural": "okuma — harekesiz 'yeveddu'llezîne keferû': istedikleri / istemedikleri",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:105 → 2:106",
+   "kural": "sûre içi — 'min xayr' (indirilmesi istenmeyen) / 'bi-xayrin minhâ' (getirilen) (aday 1039, ayetler arası)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "22:52 → 2:106",
+   "kural": "okuma — lemma 'nesaxa': şeytanın attığını silme / âyet silme",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "2:106 → 2:107",
+   "kural": "sûre içi — ortak açılış 'e-lem ta'lem enne'llâh'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "9:116 → 2:107",
+   "kural": "okuma — 'lehû mulku's-semâvâti ve'l-ard' + 've mâ lekum min dûni'llâhi min veliyyin ve lâ nasîr' (ölçüm esit2 BENZER)",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:107 → 2:108",
+   "kural": "sûre içi — 'lekum' (2MP) / 'em turîdûne' (2MP)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "60:1 → 2:108",
+   "kural": "okuma — önek kesilmiş 'fe-qad dalle sevâ'e's-sebîl': 60:1 ve 2:104-108 aynı açılış ve kapanış",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:108 → 2:109",
+   "kural": "sûre içi — 'yetebeddeli'l-kufra bi'l-îmân' / 'yeruddûnekum min ba'di îmânikum kuffârâ': imanın küfürle değiştirilmesi",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:105 → 2:109",
+   "kural": "sûre içi — 'vedde' fiili ve 'ehlu'l-kitâb': istemedikleri / istedikleri",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "9:24 → 2:109",
+   "kural": "okuma — harekesiz 'hattâ ye'tiya'llâhu bi-emrih': bekleyin / affedin, hoş görün",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:109 → 2:110",
+   "kural": "sûre içi — iki emir çifti: 'fa'fû va'sfehû' / 'eqîmu … âtu'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "73:20 → 2:110",
+   "kural": "okuma — önek kesilmiş 've mâ tuqaddimû li-enfusikum min xayrin tecidûhu 'inde'llâh'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:43 → 2:110",
+   "kural": "sûre içi — önek kesilmiş 've eqîmu's-salâte ve âtu'z-zekâh': İsrâiloğullarına / inananlara",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:110 → 2:111",
+   "kural": "sûre içi — 'tecidûhu 'inde'llâh' / 'len yedxule'l-cenneh': karşılığın yeri",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "27:64 → 2:111",
+   "kural": "okuma — harekesiz 'hâtû burhânekum in kuntum sâdiqîn'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:111 → 2:112",
+   "kural": "sûre içi — 'len … illâ men kâne hûden ev nasârâ' / 'belâ men esleme vechehû li'llâh' (aday 1039, ayetler arası)",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "31:22 → 2:112",
+   "kural": "okuma — lemma dizisi 'esleme + vech' ve 've huve muhsin'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:112 → 2:113",
+   "kural": "sûre içi — 'belâ men esleme vechehû li'llâh' / iki grubun karşılıklı reddi",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:111 → 2:113",
+   "kural": "sûre içi — 'hûden ev nasârâ' (ortak iddia) / 'el-yehûd' ve 'en-nasârâ' (karşılıklı ret)",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "10:93 → 2:113",
+   "kural": "okuma — harekesiz 'fîmâ kânû fîhi yaxtelifûn' ve 'beynehum yevme'l-qiyâmeh': Rab / lafız",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:113 → 2:114",
+   "kural": "sûre içi — kıyamet günü hükmü / 'fi'l-âxirati 'azâbun 'azîm'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "61:7 → 2:114",
+   "kural": "okuma — önek kesilmiş 've men azlemu mimmen'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "22:40 → 2:114",
+   "kural": "okuma — lemma dizisi 'zekere + fî + ism' ve 'mescid': korunan / engellenen",
+   "not": "lemma eşi."
+  },
+  {
+   "bag": "2:114 → 2:115",
+   "kural": "sûre içi — mescitlerden engelleme / 'fe-eynemâ tuvellû fe-semme vechu'llâh'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "2:112 → 2:115",
+   "kural": "sûre içi — 'vechehû li'llâh' / 'vechu'llâh'",
+   "not": "sûre içi eş."
+  },
+  {
+   "bag": "2:115 → 2:116",
+   "kural": "sûre içi — 'li'llâhi'l-maşriqu ve'l-mağrib' / 'lehû mâ fi's-semâvâti ve'l-ard'",
+   "not": "sûre içi ardışık."
+  },
+  {
+   "bag": "10:68 → 2:116",
+   "kural": "okuma — harekesiz 'ittexaze'llâhu veledâ' + 'subhânehû' + 'lehû mâ fi's-semâvât'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "30:26 → 2:116",
+   "kural": "okuma — harekesiz 'kullun lehû qânitûn'",
+   "not": "kalıp eşi."
+  },
+  {
+   "bag": "2:107 → 2:116",
+   "kural": "sûre içi — 'lehû mulku's-semâvâti ve'l-ard' / 'lehû mâ fi's-semâvâti ve'l-ard'",
+   "not": "sûre içi eş."
   }
  ]
 }
