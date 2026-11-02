@@ -1,0 +1,10 @@
+ # blok 91-95
+ {'bag': '42:15 → 2:91', 'kural': "okuma — lemma dizisi 'âmene + mâ + enzele + Allah': 'âmentu' (1S) / 'âminû' (2MP)", 'not': 'lemma dizisi eşi.'},
+ {'bag': '2:90 → 2:91', 'kural': "sûre içi — lemma dizisi 'kefere + mâ': 'en yekfurû bimâ enzela'llâh' / 'yekfurûne bimâ verâ'eh'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:89 → 2:91', 'kural': "sûre içi — 'musaddiq … limâ ma'ahum': gelen kitap / indirilen hak", 'not': 'sûre içi eş.'},
+ {'bag': '2:51 → 2:92', 'kural': "sûre içi — harekesiz 'thumme'ttaxaztumu'l-'icle min ba'dihî ve entum zâlimûn' (7 kelime): 'vâ'adnâ mûsâ' / 'câ'ekum mûsâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '2:63 → 2:93', 'kural': "sûre içi — önek kesilmiş 've iz axaznâ mîsâqakum ve rafa'nâ fevqakumu't-tûra xuzû mâ âteynâkum bi-quvveh' (10 kelime): 'vezkurû' / 'vesme'û … sami'nâ ve 'asaynâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '2:92 → 2:93', 'kural': "sûre içi — 'el-'icl': edinilen / kalplere içirilen", 'not': 'sûre içi ardışık.'},
+ {'bag': '62:6 → 2:94', 'kural': "okuma — önek kesilmiş 'fe-temennevu'l-mevte in kuntum sâdiqîn' + 'min dûni'n-nâs': dostluk iddiası / âhiret yurdu iddiası", 'not': 'kalıp eşi.'},
+ {'bag': '62:7 → 2:95', 'kural': "esit2 YAKIN (0,9655) — 've lâ yetemennevnehû' / 've len yetemennevhu', kalan dizi aynı", 'not': 'esit2.'},
+ {'bag': '2:94 → 2:95', 'kural': "sûre içi — 'fe-temennevu'l-mevt' / 've len yetemennevhu ebeden': emir ve cevap", 'not': 'sûre içi ardışık.'},

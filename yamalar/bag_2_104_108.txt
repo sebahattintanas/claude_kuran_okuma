@@ -1,0 +1,13 @@
+ # blok 104-108
+ {'bag': '2:103 → 2:104', 'kural': "sûre içi — 'lev ennehum âmenû' (3MP, inanmayan) / 'yâ eyyuhe'llezîne âmenû' (2MP, hitap)", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:93 → 2:104', 'kural': "sûre içi — 've'sme'û' emri: 2:93'te cevap 'semi'nâ ve 'asaynâ', 2:104'te cevap yok", 'not': 'sûre içi eş.'},
+ {'bag': '60:1 → 2:104', 'kural': "okuma — önek kesilmiş 'yâ eyyuhe'llezîne âmenû lâ': hitap + yasak", 'not': 'kalıp eşi.'},
+ {'bag': '2:104 → 2:105', 'kural': "sûre içi — 've li'l-kâfirîne 'azâbun elîm' / 'mâ yeveddu'llezîne keferû'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:96 → 2:105', 'kural': "sûre içi — 'vedde' fiili: ömür isteyen / hayrın inmesini istemeyen", 'not': 'sûre içi eş.'},
+ {'bag': '15:2 → 2:105', 'kural': "okuma — harekesiz 'yeveddu'llezîne keferû': istedikleri / istemedikleri", 'not': 'kalıp eşi.'},
+ {'bag': '2:105 → 2:106', 'kural': "sûre içi — 'min xayr' (indirilmesi istenmeyen) / 'bi-xayrin minhâ' (getirilen) (aday 1039, ayetler arası)", 'not': 'sûre içi ardışık.'},
+ {'bag': '22:52 → 2:106', 'kural': "okuma — lemma 'nesaxa': şeytanın attığını silme / âyet silme", 'not': 'lemma eşi.'},
+ {'bag': '2:106 → 2:107', 'kural': "sûre içi — ortak açılış 'e-lem ta'lem enne'llâh'", 'not': 'sûre içi ardışık.'},
+ {'bag': '9:116 → 2:107', 'kural': "okuma — 'lehû mulku's-semâvâti ve'l-ard' + 've mâ lekum min dûni'llâhi min veliyyin ve lâ nasîr' (ölçüm esit2 BENZER)", 'not': 'kalıp eşi.'},
+ {'bag': '2:107 → 2:108', 'kural': "sûre içi — 'lekum' (2MP) / 'em turîdûne' (2MP)", 'not': 'sûre içi ardışık.'},
+ {'bag': '60:1 → 2:108', 'kural': "okuma — önek kesilmiş 'fe-qad dalle sevâ'e's-sebîl': 60:1 ve 2:104-108 aynı açılış ve kapanış", 'not': 'kalıp eşi.'},

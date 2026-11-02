@@ -1,0 +1,5 @@
+ # blok 80-83
+ 80: dict(kademe=None, olgu=False, cipa=False, not_="'lan temassenâ'n-nâru illâ eyyâmen ma'dûdeh' — konuşanların iddiası ve 'qul' cevabı, söz anlatısı (olgu=False); 'eyyâm' süre sözün içinde; merdiven uygulanmadı; tarayıcı vermedi"),
+ 81: dict(kademe=None, olgu=False, cipa=False, not_="'men kesebe seyyi'eten … ashâbu'n-nâr' — şart ve âhiret hükmü (olgu=False); tarayıcı v4 aday verdi (A_şart, kök نور), ateş âhiret yeri, doğa olgusu değil; merdiven uygulanmadı, cipa=False"),
+ 82: dict(kademe=None, olgu=False, cipa=False, not_="'ashâbu'l-cenneti hum fîhâ xâlidûn' — âhiret hükmü (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 83: dict(kademe=None, olgu=False, cipa=False, not_="'axaznâ mîsâqa benî isrâ'îl … thumme tevelleytum' — alınan söz, emirler ve yüz çevirme, tutum anlatısı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
