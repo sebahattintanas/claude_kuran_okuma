@@ -899,4 +899,30 @@ KARAR = {
 '2:54:26': 'ilahi',  # aynı haberin ikinci sıfatı 'er-rahîm', son token
 # sûre 2 blok 62-66
 '2:62:12': 'degil',  # 've'l-yevmi'l-âxir' — 'yevm'in sıfatı (son gün), ilahi isim değil
+    # sure 2 blok 84-86
+    '2:86:6': 'degil',  # bi'l-âhira — âhiret sıfatı ('el-hayâte'd-dunyâ bi'l-âhira')
+    # sure 2 blok 91-95
+    '2:91:30': 'degil',  # in kuntum mu'minîn — mü'minler (insan, 2MP şart)
+    '2:93:27': 'degil',  # in kuntum mu'minîn — mü'minler (insan, 2MP şart)
+    '2:94:6':  'degil',  # ed-dâru'l-âxira — âhiret sıfatı
+    '2:95:8':  'ilahi',  # va'llâhu 'alîmun bi'z-zâlimîn — lafzın haberi
+    # sure 2 blok 96-101
+    '2:96:10': 'degil',  # yeveddu ehaduhum — 'onlardan biri' (zamirli), Allah adı değil
+    '2:96:23': 'ilahi',  # va'llâhu basîrun bimâ ya'melûn — lafzın haberi
+    '2:97:18': 'degil',  # hudan ve buşrâ li'l-mu'minîn — mü'minler (insan)
+    # sure 2 blok 102-103
+    '2:102:27': 'degil',  # ve mâ yu'allimâni min ehadin — olumsuz cümlede nekre 'ehad' = hiç kimse
+    '2:102:48': 'degil',  # ve mâ hum bi-dârrîne bihî min ehadin — olumsuz cümlede nekre 'ehad' = hiç kimse
+    '2:102:64': 'degil',  # fi'l-âxira — âhiret sıfatı
+    # sure 2 blok 104-108
+    '2:106:19': 'ilahi',  # enne'llâhe 'alâ kulli şey'in qadîr — enne'nin haberi
+    '2:107:15': 'degil',  # min dûni'llâhi min veliyyin — olumsuzlanan başkası (42:31 emsali)
+    '2:107:17': 'degil',  # ve lâ nasîr — olumsuzlanan yardımcı (42:31 emsali)
+    # sure 2 blok 109-112
+    '2:109:33': 'ilahi',  # inne'llâhe 'alâ kulli şey'in qadîr — inne'nin haberi
+    '2:110:17': 'ilahi',  # inne'llâhe bimâ ta'melûne basîr — inne'nin haberi
+    # sure 2 blok 113-116
+    '2:114:28': 'degil',  # fi'l-âxira — âhiret sıfatı
+    '2:115:11': 'ilahi',  # inne'llâhe vâsi'un 'alîm — inne'nin haberi
+    '2:115:12': 'ilahi',  # aynı
 }
