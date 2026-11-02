@@ -925,4 +925,20 @@ KARAR = {
     '2:114:28': 'degil',  # fi'l-âxira — âhiret sıfatı
     '2:115:11': 'ilahi',  # inne'llâhe vâsi'un 'alîm — inne'nin haberi
     '2:115:12': 'ilahi',  # aynı
+    # sure 2 blok 117-121
+    '2:117:1': 'ilahi',  # bedî'u's-semâvâti ve'l-ard — önceki ayetteki zamirin haberi (Allah)
+    '2:120:29': 'degil',  # mâ leke mina'llâhi min veliyyin — olumsuzlanan başkası
+    '2:120:31': 'degil',  # ve lâ nasîr — aynı
+    # sure 2 blok 122-126
+    '2:126:18': 'degil',  # el-yevmi'l-âxir — gün sıfatı (fi'l-âxira emsali)
+    # sure 2 blok 127-132
+    '2:127:13': 'ilahi', '2:127:14': 'ilahi',  # inneke ente's-semî'u'l-'alîm — inne'nin haberi
+    '2:128:16': 'ilahi', '2:128:17': 'ilahi',  # inneke ente't-tevvâbu'r-rahîm — inne'nin haberi
+    '2:129:15': 'ilahi', '2:129:16': 'ilahi',  # inneke ente'l-'azîzu'l-hakîm — inne'nin haberi
+    '2:130:16': 'degil',  # fi'l-âxira — âhiret sıfatı
+    # sure 2 blok 133-136
+    '2:133:3': 'degil',  # em kuntum şuhedâ'e — 2MP muhatabın haberi
+    '2:136:27': 'degil',  # lâ nuferriqu beyne ehadin minhum — olumsuz cümlede nekre
+    # sure 2 blok 137-141
+    '2:137:18': 'ilahi', '2:137:19': 'ilahi',  # ve huve's-semî'u'l-'alîm — lafza dönen zamirin haberi
 }
