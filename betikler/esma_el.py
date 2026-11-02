@@ -880,4 +880,23 @@ KARAR = {
 '112:4:5': 'degil',  # 've lem yekun lehû kufuwen ehad' — olumsuz cümlede nekre 'ehad' ('hiç kimse'), 'yekun'un ismi; 'lehû' göndergesi ilâhî, 'ehad' değil (sûre 89 dersi)
 # sûre 114 blok 1-6
 '114:2:1': 'ilahi',  # 'meliki'n-nâs' — GEN, önceki ayetin 'rabbi'n-nâs'ı ile aynı i'râb; aynı göndergenin ikinci tamlaması (1. token, son token 'en-nâs')
+# sûre 2 blok 21-25
+'2:23:14': 'degil',  # 've'd'û şuhedâ'akum min dûni'llâh' — 2MP'ye iyelikle bağlı tanıklar (ACC, çoğul), 'min dûni'llâh' ile Allah'tan ayrılıyor; ilâhî gönderge değil
+# sûre 2 blok 26-29
+'2:29:19': 'ilahi',  # 've huve bi-kulli şey'in 'alîm' — 'huve' ayetin başındaki 'huve'llezî xalaqa' göndergesi (yaratan, 3MS); 'alîm' haber (NOM), son token
+# sûre 2 blok 30-33
+'2:32:11': 'ilahi',  # 'inneke ente'l-'alîmu'l-hakîm' — meleklerin 2MS hitabı ('subhâneke', ''allemtenâ'), göndergesi öğreten Rab; 'el-'alîm' haber (NOM)
+'2:32:12': 'ilahi',  # aynı haberin ikinci sıfatı 'el-hakîm' (NOM), son token
+# sûre 2 blok 34-39
+'2:37:10': 'ilahi',  # 'innehû huve't-tevvâbu'r-rahîm' — 'hû' göndergesi 'fe-tâbe 'aleyh'in öznesi, Âdem'in 'min rabbihî' dediği Rab; 'et-tevvâb' haber (NOM)
+'2:37:11': 'ilahi',  # aynı haberin ikinci sıfatı 'er-rahîm' (NOM), son token
+# sûre 2 blok 40-46
+'2:41:9': 'degil',  # 'evvele kâfirin bihî' — 'ilk inkâr eden' insanlara hitap (NEHY 'lâ tekûnû'), ilahi isim değil
+# sûre 2 blok 54-59
+'2:54:13': 'ilahi',  # 'fe-tûbû ilâ bâri'ikum' — Mûsâ'nın sözünde tevbe edilen 'bâri'', 2MP iyelikle; ilahi isim
+'2:54:20': 'ilahi',  # 'zâlikum xayrun lekum 'inde bâri'ikum' — aynı göndergeyle ikinci geçiş
+'2:54:25': 'ilahi',  # 'innehû huve't-tevvâb' — 'hû' göndergesi 'fe-tâbe 'aleykum'un öznesi; haber (NOM)
+'2:54:26': 'ilahi',  # aynı haberin ikinci sıfatı 'er-rahîm', son token
+# sûre 2 blok 62-66
+'2:62:12': 'degil',  # 've'l-yevmi'l-âxir' — 'yevm'in sıfatı (son gün), ilahi isim değil
 }
