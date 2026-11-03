@@ -941,4 +941,16 @@ KARAR = {
     '2:136:27': 'degil',  # lâ nuferriqu beyne ehadin minhum — olumsuz cümlede nekre
     # sure 2 blok 137-141
     '2:137:18': 'ilahi', '2:137:19': 'ilahi',  # ve huve's-semî'u'l-'alîm — lafza dönen zamirin haberi
+    # sure 2 blok 142-143
+    '2:143:6': 'degil',  # li-tekûnû şuhedâ'e 'ale'n-nâs — 2MP muhatabın haberi
+    '2:143:12': 'degil',  # ve yekûne'r-rasûlu 'aleykum şehîden — er-rasûl'ün haberi
+    '2:143:44': 'ilahi', '2:143:45': 'ilahi',  # inne'llâhe bi'n-nâsi le-ra'ûfun rahîm — 'inne' haberi
+    # sure 2 blok 148-152
+    '2:148:19': 'ilahi',  # inne'llâhe 'alâ kulli şey'in qadîr — 'inne' haberi
+    # sure 2 blok 153-159
+    '2:154:10': 'degil',  # bel ahyâ' — yolunda öldürülenlerin haberi
+    '2:158:23': 'ilahi', '2:158:24': 'ilahi',  # fe-inna'llâhe şâkirun 'alîm — 'inne' haberi
+    # sure 2 blok 160-164
+    '2:160:10': 'ilahi', '2:160:11': 'ilahi',  # ve ene't-tevvâbu'r-rahîm — 1S zamirin haberi
+    '2:163:8': 'ilahi', '2:163:9': 'ilahi',  # lâ ilâhe illâ huve'r-rahmânu'r-rahîm — zamirin haberi
 }

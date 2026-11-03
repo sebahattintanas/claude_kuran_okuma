@@ -1,0 +1,8 @@
+ # blok 165-167
+ {'bag': '2:164 → 2:165', 'kural': "sûre içi — âyetler dizisi / 'men yettaxizu min dûni'llâhi endâdâ'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:22 → 2:165', 'kural': "okuma — lemma 'endâd' (2MP yasak / 3MS haber)", 'not': 'sûre içi lemma eşi.'},
+ {'bag': '2:165 → 2:166', 'kural': "sûre içi — 'iz yerevne'l-'azâb' / 'iz teberra'e … ve ra'evu'l-'azâb'", 'not': 'sûre içi ardışık.'},
+ {'bag': '28:64 → 2:166', 'kural': "okuma — harekesiz 've ra'evu'l-'azâb'", 'not': 'kalıp eşi.'},
+ {'bag': '28:63 → 2:166', 'kural': "okuma — lemma 'teberra'e'", 'not': 'lemma eşi.'},
+ {'bag': '2:166 → 2:167', 'kural': "sûre içi — 'teberra'e … mine'llezîne'ttebe'û' / 'fe-neteberra'e minhum kemâ teberra'û minnâ'", 'not': 'sûre içi ardışık.'},
+ {'bag': '26:102 → 2:167', 'kural': "okuma — önek kesilmiş 'lev enne lenâ kerreh'", 'not': 'kalıp eşi.'},

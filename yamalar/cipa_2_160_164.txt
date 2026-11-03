@@ -1,0 +1,6 @@
+ # blok 160-164
+ 160: dict(kademe=None, olgu=False, cipa=False, not_="'illa'llezîne tâbû … etûbu 'aleyhim' — istisna ve tevbe kabulü (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 161: dict(kademe=None, olgu=False, cipa=False, not_="'keferû ve mâtû … la'netu'llâh' — hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 162: dict(kademe=None, olgu=False, cipa=False, not_="'xâlidîne fîhâ' — âhiret hükmü (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 163: dict(kademe=None, olgu=False, cipa=False, not_="'ilâhukum ilâhun vâhid' — birlik bildirimi (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 164: dict(kademe='L2', olgu=True, cipa=False, not_="gökten su → 'bihî' → ölü yerin diriltilmesi: nedensel bağ adlı (45:5 kaydı emsali L2); gece-gündüz 'ixtilâf'ı, denizde akan gemi, canlıların yayılması, rüzgârların 'tasrîf'i, gök ile yer arasında boyun eğdirilmiş bulut — adlandırma; ölçü / mekanizma yok — L2; tarayıcı vermedi"),
