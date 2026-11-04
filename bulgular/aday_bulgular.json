@@ -27852,5 +27852,28 @@
  "AX_ihlas": [],
  "AX_felak": [],
  "AX_nas": [],
- "AX_bakara": []
+ "AX_bakara": [
+  {
+   "no": 1042,
+   "aday": "FÂSILA SINIFI ÇEŞİTLİLİĞİ — KISA PENCEREDE ÇOK SINIF (test edilecek, iddia değil): Bakara'da fâsıla büyük çoğunlukla N sınıfında (ن / م) iken 2:200-203 dört ardışık ayette dört ayrı ölçüm sınıfı geliyor — 2:200 ق (ق sınıfı), 2:201 ر (R sınıfı), 2:202 ب (ب sınıfı), 2:203 ن (N sınıfı). Daha geniş bakışta 2:196-203 sekiz ayette dört sınıf: ب, ب, N, N, ق, R, ب, N. Pencere blok sınırından doğdu (blok 42 = 2:200-203); metnin kendi sınırı olduğu iddia edilmiyor. Bağlam (okuma): 2:200-201 iki dua tipi ('men yeqûlu rabbenâ âtinâ'), 2:202 hüküm, 2:203 hac günleri.",
+   "olculen": {
+    "fasila_olcum_satiri": {
+     "2:196": "ب, ب sınıfı",
+     "2:197": "ب, ب sınıfı",
+     "2:198": "ن, N sınıfı",
+     "2:199": "م, N sınıfı",
+     "2:200": "ق, ق sınıfı",
+     "2:201": "ر, R sınıfı",
+     "2:202": "ب, ب sınıfı",
+     "2:203": "ن, N sınıfı"
+    },
+    "kaynak": "olcum_bicim.olcum(S, A) fâsıla alanı (defter.json); sınıf adı ölçümün verdiği haliyle"
+   },
+   "test": "korpus sonunda (tam okuma bitince), ön-kayıtlı: her sûrede uzunluğu k=4 olan kayan pencerelerde (blok sınırından bağımsız, her başlangıç ayeti) ölçüm fâsıla sınıfı sayısı m hesaplanır; istatistik: sûre içinde m ≥ 4 olan pencere oranı ve en uzun 'her ayet farklı sınıf' koşusu. Sıfır dağılım: aynı sûrenin fâsıla sınıfı dizisinin ayet sırası karıştırılarak (permütasyon, sınıf frekansları korunur) ve ayrıca sûre uzunluğu eşli sûrelerle karşılaştırma. Bakara için ayrıca: 2:196-203 testi MOTİVE EDEN örnektir — Bakara testinde bu sekiz ayeti içeren pencereler dışlanır ya da sonuç 'aranarak bulunmuş' etiketiyle raporlanır. k=3 ve k=5 duyarlılık. Sıfır hipotez: pencere içi sınıf çeşitliliği ayet sırasından bağımsız.",
+   "durum": "AÇIK — kayıt; okuma sırasında test edilmez",
+   "oncelik": "P3",
+   "kaynak": "sûre 2 okuması, blok 42 (2:200-203) kapanış notunda fark edildi; kullanıcı aday açılmasını istedi (2026-11-03)",
+   "etiket": "okuma gözlemi (okurken fark edildi, aranarak bulunmadı); tek pencere — genelleme yok, KAPATILAMAZ. Fâsıla sınıflaması ölçümün sınıf tanımına bağlı (ب ve ق kendi adıyla ayrı sınıf); sınıf tanımı test öncesi dondurulmalı. Okuma notunda önce 'yedi ayette beş sınıf' yazıldı — ölçüm satırına göre 2:197-203'te dört sınıf; düzeltildi"
+  }
+ ]
 }
