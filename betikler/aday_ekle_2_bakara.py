@@ -8,6 +8,15 @@ Numaralar havuzun sonundan devam eder (1042'den); betik sıranın kopmadığın�
 import json
 
 BAKARA = [
+ {'no': 1042,
+  'aday': "FÂSILA SINIFI ÇEŞİTLİLİĞİ — KISA PENCEREDE ÇOK SINIF (test edilecek, iddia değil): Bakara'da fâsıla büyük çoğunlukla N sınıfında (ن / م) iken 2:200-203 dört ardışık ayette dört ayrı ölçüm sınıfı geliyor — 2:200 ق (ق sınıfı), 2:201 ر (R sınıfı), 2:202 ب (ب sınıfı), 2:203 ن (N sınıfı). Daha geniş bakışta 2:196-203 sekiz ayette dört sınıf: ب, ب, N, N, ق, R, ب, N. Pencere blok sınırından doğdu (blok 42 = 2:200-203); metnin kendi sınırı olduğu iddia edilmiyor. Bağlam (okuma): 2:200-201 iki dua tipi ('men yeqûlu rabbenâ âtinâ'), 2:202 hüküm, 2:203 hac günleri.",
+  'olculen': {'fasila_olcum_satiri': {'2:196': 'ب, ب sınıfı', '2:197': 'ب, ب sınıfı', '2:198': 'ن, N sınıfı', '2:199': 'م, N sınıfı', '2:200': 'ق, ق sınıfı', '2:201': 'ر, R sınıfı', '2:202': 'ب, ب sınıfı', '2:203': 'ن, N sınıfı'},
+              'kaynak': 'olcum_bicim.olcum(S, A) fâsıla alanı (defter.json); sınıf adı ölçümün verdiği haliyle'},
+  'test': "korpus sonunda (tam okuma bitince), ön-kayıtlı: her sûrede uzunluğu k=4 olan kayan pencerelerde (blok sınırından bağımsız, her başlangıç ayeti) ölçüm fâsıla sınıfı sayısı m hesaplanır; istatistik: sûre içinde m ≥ 4 olan pencere oranı ve en uzun 'her ayet farklı sınıf' koşusu. Sıfır dağılım: aynı sûrenin fâsıla sınıfı dizisinin ayet sırası karıştırılarak (permütasyon, sınıf frekansları korunur) ve ayrıca sûre uzunluğu eşli sûrelerle karşılaştırma. Bakara için ayrıca: 2:196-203 testi MOTİVE EDEN örnektir — Bakara testinde bu sekiz ayeti içeren pencereler dışlanır ya da sonuç 'aranarak bulunmuş' etiketiyle raporlanır. k=3 ve k=5 duyarlılık. Sıfır hipotez: pencere içi sınıf çeşitliliği ayet sırasından bağımsız.",
+  'durum': 'AÇIK — kayıt; okuma sırasında test edilmez',
+  'oncelik': 'P3',
+  'kaynak': "sûre 2 okuması, blok 42 (2:200-203) kapanış notunda fark edildi; kullanıcı aday açılmasını istedi (2026-11-03)",
+  'etiket': "okuma gözlemi (okurken fark edildi, aranarak bulunmadı); tek pencere — genelleme yok, KAPATILAMAZ. Fâsıla sınıflaması ölçümün sınıf tanımına bağlı (ب ve ق kendi adıyla ayrı sınıf); sınıf tanımı test öncesi dondurulmalı. Okuma notunda önce 'yedi ayette beş sınıf' yazıldı — ölçüm satırına göre 2:197-203'te dört sınıf; düzeltildi"},
 ]
 
 BAGLAR = {"AS_bakara": [
@@ -439,6 +448,90 @@ BAGLAR = {"AS_bakara": [
  {'bag': '28:63 → 2:166', 'kural': "okuma — lemma 'teberra'e'", 'not': 'lemma eşi.'},
  {'bag': '2:166 → 2:167', 'kural': "sûre içi — 'teberra'e … mine'llezîne'ttebe'û' / 'fe-neteberra'e minhum kemâ teberra'û minnâ'", 'not': 'sûre içi ardışık.'},
  {'bag': '26:102 → 2:167', 'kural': "okuma — önek kesilmiş 'lev enne lenâ kerreh'", 'not': 'kalıp eşi.'},
+ # blok 168-172
+ {'bag': '16:114 → 2:168', 'kural': "okuma — lemma 'halâl' ('halâlen tayyibâ')", 'not': 'lemma eşi.'},
+ {'bag': '24:21 → 2:168', 'kural': "okuma — lemma 'xutuve' ('tettebi'û xutuvâti'ş-şeytân')", 'not': 'lemma eşi.'},
+ {'bag': '36:60 → 2:168', 'kural': "okuma — harekesiz 'innehu lekum 'aduvvun mubîn'", 'not': 'kalıp eşi.'},
+ {'bag': '2:168 → 2:169', 'kural': "sûre içi — 'aduvvun mubîn' / 'innemâ ye'murukum' (3MS zamir şeytâna döner)", 'not': 'sûre içi ardışık.'},
+ {'bag': '24:21 → 2:169', 'kural': "okuma — lemma 'fahşâ'' ('ye'muru bi'l-fahşâ'')", 'not': 'lemma eşi.'},
+ {'bag': '31:21 → 2:170', 'kural': "okuma — harekesiz 've izâ qîle lehumu'ttebi'û mâ enzela'llâh'", 'not': 'kalıp eşi.'},
+ {'bag': '2:170 → 2:171', 'kural': "sûre içi — harekesiz 'lâ ya'qilûn' (iki ayetin sonu)", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:57 → 2:172', 'kural': "okuma — önek kesilmiş 'kulû min tayyibâti mâ razaqnâkum'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '20:81 → 2:172', 'kural': "okuma — önek kesilmiş 'kulû min tayyibâti mâ razaqnâkum'", 'not': 'kalıp eşi.'},
+ {'bag': '16:114 → 2:172', 'kural': "okuma — harekesiz 'in kuntum iyyâhu ta'budûn'", 'not': 'kalıp eşi.'},
+ {'bag': '2:168 → 2:172', 'kural': "sûre içi — 'yâ eyyuhe'n-nâsu kulû' / 'yâ eyyuhe'llezîne âmenû kulû'", 'not': 'sûre içi blok içi.'},
+ # blok 173-176
+ {'bag': '2:172 → 2:173', 'kural': "sûre içi — 'kulû min tayyibât' / 'innemâ harrema 'aleykum'", 'not': 'sûre içi ardışık.'},
+ {'bag': '16:115 → 2:173', 'kural': "okuma — esit2 BENZER (oran 0,9231); önek kesilmiş 'el-meytete ve'd-deme ve lahme'l-xinzîr', 'fe-meni'dturra ğayra bâğin ve lâ 'âd'", 'not': 'kalıp eşi.'},
+ {'bag': '2:159 → 2:174', 'kural': "okuma — lemma dizisi 'inne + ellezî + ketame + mâ + enzele'", 'not': 'sûre içi lemma dizisi eşi.'},
+ {'bag': '2:79 → 2:174', 'kural': "okuma — lemma dizisi 'işterâ + bi + semen + qalîl'", 'not': 'sûre içi lemma dizisi eşi.'},
+ {'bag': '2:172 → 2:174', 'kural': "okuma — lemma 'ekele' ('kulû min tayyibât' / 'mâ ye'kulûne … ille'n-nâr')", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:174 → 2:175', 'kural': "sûre içi — 'yeşterûne bihi semenen qalîlâ' / 'ulâ'ike'llezîne'şteravu'd-dalâlete bi'l-hudâ'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:86 → 2:175', 'kural': "okuma — harekesiz 'ulâ'ike'llezîne'şteravu'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '2:174 → 2:176', 'kural': "sûre içi — 'mâ enzela'llâhu mine'l-kitâb' / 'nezzele'l-kitâbe bi'l-haqq'", 'not': 'sûre içi blok içi.'},
+ {'bag': '22:53 → 2:176', 'kural': "okuma — önek kesilmiş 'lefî şiqâqin ba'îd'", 'not': 'kalıp eşi.'},
+ # blok 177-178
+ {'bag': '2:176 → 2:177', 'kural': "sûre içi — bölüm geçişi; 'ellezîne'xtelefû fi'l-kitâb' / 'âmene … ve'l-kitâb'", 'not': 'sûre içi ardışık.'},
+ {'bag': '59:7 → 2:177', 'kural': "okuma — lemma dizisi 'zû + qurbâ + yetîm + miskîn + ibn + sebîl'", 'not': 'lemma dizisi eşi.'},
+ {'bag': '9:60 → 2:177', 'kural': "okuma — önek kesilmiş 've fi'r-riqâb'", 'not': 'kalıp eşi.'},
+ {'bag': '9:18 → 2:177', 'kural': "okuma — önek kesilmiş 've eqâme's-salâte ve âte'z-zekâh'", 'not': 'kalıp eşi.'},
+ {'bag': '2:177 → 2:178', 'kural': "sûre içi — 'leyse'l-birr … ulâ'ike humu'l-muttaqûn' / 'yâ eyyuhe'llezîne âmenû kutibe 'aleykumu'l-qisâs'", 'not': 'sûre içi ardışık.'},
+ # blok 179-182
+ {'bag': '2:178 → 2:179', 'kural': "okuma — lemma 'qisâs' ('kutibe 'aleykumu'l-qisâs' / 'fi'l-qisâsi hayâh')", 'not': 'sûre içi ardışık.'},
+ {'bag': '65:10 → 2:179', 'kural': "okuma — harekesiz 'yâ uli'l-elbâb'", 'not': 'kalıp eşi.'},
+ {'bag': '2:178 → 2:180', 'kural': "okuma — harekesiz 'kutibe 'aleykum'", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:180 → 2:181', 'kural': "sûre içi — 'el-vasiyyeh' / 'beddelehu' (3MS zamir vasiyete döner — okuma)", 'not': 'sûre içi ardışık.'},
+ {'bag': '49:1 → 2:181', 'kural': "okuma — harekesiz 'inna'llâhe semî'un 'alîm'", 'not': 'kalıp eşi.'},
+ {'bag': '2:181 → 2:182', 'kural': "sûre içi — 'ismuhu 'ale'llezîne yubeddilûneh' / 'fe-lâ isme 'aleyh'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:173 → 2:182', 'kural': "okuma — önek kesilmiş 'fe-lâ isme 'aleyh inna'llâhe ğafûrun rahîm'", 'not': 'sûre içi kalıp eşi.'},
+ # blok 183-185
+ {'bag': '2:178 → 2:183', 'kural': "okuma — harekesiz 'yâ eyyuhe'llezîne âmenû kutibe 'aleykum' ('el-qisâs' / 'es-siyâm')", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '2:179 → 2:183', 'kural': "okuma — harekesiz 'le'allekum tetteqûn'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '2:183 → 2:184', 'kural': "sûre içi — 'es-siyâm' / 'eyyâmen ma'dûdât'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:184 → 2:185', 'kural': "okuma — harekesiz 'merîdan ev 'alâ seferin fe-'iddetun min eyyâmin uxar'", 'not': 'sûre içi ardışık.'},
+ {'bag': '94:5 → 2:185', 'kural': "okuma — lemma 'yusr' ve ''usr'", 'not': 'lemma eşi.'},
+ {'bag': '22:37 → 2:185', 'kural': "okuma — lemma dizisi 'kebbir + allâh + 'alâ + mâ + hedâ'", 'not': 'lemma dizisi eşi.'},
+ # blok 186-188
+ {'bag': '2:185 → 2:186', 'kural': "sûre içi — 've le'allekum teşkurûn' / 've izâ se'eleke 'ibâdî' (oruç hükümleri arasında hitap)", 'not': 'sûre içi ardışık.'},
+ {'bag': '11:61 → 2:186', 'kural': "okuma — lemma 'qarîb' ve kök جوب ('qarîbun mucîb' / 'qarîb ucîbu')", 'not': 'lemma eşi.'},
+ {'bag': '2:183 → 2:187', 'kural': "sûre içi — lemma 'siyâm' ('kutibe 'aleykumu's-siyâm' / 'leylete's-siyâm', 'etimmu's-siyâm')", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '20:113 → 2:187', 'kural': "okuma — harekesiz 'le'allehum yetteqûn'", 'not': 'kalıp eşi.'},
+ {'bag': '2:187 → 2:188', 'kural': "sûre içi — 've kulû ve'şrabû' / 've lâ te'kulû emvâlekum'", 'not': 'sûre içi ardışık.'},
+ # blok 189-194
+ {'bag': '2:188 → 2:189', 'kural': "sûre içi — bölüm geçişi; 'lâ te'kulû emvâlekum' / 'yes'elûneke 'ani'l-ehilleh'", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:177 → 2:189', 'kural': "okuma — 'leyse'l-birr … lâkinne'l-birra men' (nakarat3 GEÇMEZ, 2 ayet)", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:189 → 2:190', 'kural': "sûre içi — hac vakti / savaş hükmü", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:190 → 2:191', 'kural': "sûre içi — 'ellezîne yuqâtilûnekum' / 'fe-in qâtelûkum fa'qtulûhum'", 'not': 'sûre içi ardışık.'},
+ {'bag': '9:7 → 2:191', 'kural': "okuma — harekesiz ''inde'l-mescidi'l-harâm'", 'not': 'kalıp eşi.'},
+ {'bag': '2:191 → 2:192', 'kural': "sûre içi — 'fa'qtulûhum' / 'fe-ini'ntehev'", 'not': 'sûre içi ardışık.'},
+ {'bag': '16:115 → 2:192', 'kural': "okuma — önek kesilmiş 'fe-inna'llâhe ğafûrun rahîm'", 'not': 'kalıp eşi.'},
+ {'bag': '2:192 → 2:193', 'kural': "okuma — önek kesilmiş 'fe-ini'ntehev'", 'not': 'sûre içi ardışık.'},
+ {'bag': '22:30 → 2:194', 'kural': "okuma — lemma 'hurumât'", 'not': 'lemma eşi.'},
+ {'bag': '9:36 → 2:194', 'kural': "okuma — önek kesilmiş 've'lemû enna'llâhe ma'a'l-muttaqîn'", 'not': 'kalıp eşi.'},
+ {'bag': '2:179 → 2:194', 'kural': "okuma — lemma 'qisâs'", 'not': 'sûre içi blok aşırı.'},
+ # blok 195-196
+ {'bag': '2:194 → 2:195', 'kural': "sûre içi — savaş hükümlerinden harcama emrine", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:190 → 2:195', 'kural': "okuma — 'inna'llâhe lâ yuhibbu'l-mu'tedîn' / 'inna'llâhe yuhibbu'l-muhsinîn'", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:189 → 2:196', 'kural': "okuma — lemma 'hacc' ('mevâqîtu … ve'l-hacc' / 'etimmu'l-hacce')", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:184 → 2:196', 'kural': "okuma — ölçüm nakarat3 'fe-men kâne minkum merîdan ev' GEÇER", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '59:4 → 2:196', 'kural': "okuma — harekesiz 'enna'llâhe şedîdu'l-'iqâb'", 'not': 'kalıp eşi.'},
+ {'bag': '59:7 → 2:196', 'kural': "okuma — harekesiz 'enna'llâhe şedîdu'l-'iqâb'", 'not': 'kalıp eşi.'},
+ # blok 197-199
+ {'bag': '2:196 → 2:197', 'kural': "sûre içi — 'etimmu'l-hacc' / 'el-haccu eşhurun ma'lûmât'", 'not': 'sûre içi ardışık.'},
+ {'bag': '22:28 → 2:197', 'kural': "okuma — lemma 'ma'lûme' ('eyyâmin ma'lûmât' / 'eşhurun ma'lûmât')", 'not': 'lemma eşi.'},
+ {'bag': '2:187 → 2:197', 'kural': "okuma — lemma 'refes' (helâl / hacda yok)", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:179 → 2:197', 'kural': "okuma — harekesiz 'yâ uli'l-elbâb'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '17:12 → 2:198', 'kural': "okuma — lemma dizisi 'ibteğâ + fadl + min + rabb'", 'not': 'lemma dizisi eşi.'},
+ {'bag': '2:185 → 2:198', 'kural': "okuma — 'kemâ hedâkum' / ''alâ mâ hedâkum' (anma / tekbir)", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:198 → 2:199', 'kural': "okuma — lemma 'efâda' ('efadtum min 'arafât' / 'efîdû … efâda'n-nâs')", 'not': 'sûre içi ardışık.'},
+ {'bag': '73:20 → 2:199', 'kural': "okuma — önek kesilmiş 've'steğfiru'llâh inna'llâhe ğafûrun rahîm'", 'not': 'kalıp eşi.'},
+ # blok 200-203
+ {'bag': '2:198 → 2:200', 'kural': "okuma — 'fe'zkuru'llâh' (Meş'ar-i Haram'da / menâsik sonunda)", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:200 → 2:201', 'kural': "okuma — harekesiz 'men yeqûlu rabbenâ âtinâ' (yalnız dünya / dünya ve âhiret)", 'not': 'sûre içi ardışık.'},
+ {'bag': '2:201 → 2:202', 'kural': "sûre içi — 'ulâ'ike' ikinci tipe döner (okuma)", 'not': 'sûre içi ardışık.'},
+ {'bag': '24:39 → 2:202', 'kural': "okuma — önek kesilmiş 'va'llâhu serî'u'l-hisâb'", 'not': 'kalıp eşi.'},
+ {'bag': '2:184 → 2:203', 'kural': "okuma — lemma dizisi 'yevm + ma'dûde' (ölçüm nakarat3 GEÇMEZ, 2 ayet)", 'not': 'sûre içi blok aşırı.'},
+ {'bag': '2:182 → 2:203', 'kural': "okuma — önek kesilmiş 'fe-lâ isme 'aleyh'", 'not': 'sûre içi kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

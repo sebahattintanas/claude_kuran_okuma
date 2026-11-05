@@ -1,0 +1,4 @@
+ # blok 183-185
+ 183: dict(kademe=None, olgu=False, cipa=False, not_="'kutibe 'aleykumu's-siyâm' — hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 184: dict(kademe=None, olgu=False, cipa=False, not_="'eyyâmen ma'dûdât … fe-'iddetun min eyyâmin uxar' — gün sayısı hükmü (olgu=False); merdiven uygulanmadı; tarayıcı v4 aday verdi (kök yok; A_şart, F_ölçü; cipa False)"),
+ 185: dict(kademe=None, olgu=False, cipa=False, not_="'şehru ramadân … fe-men şehide minkumu'ş-şehr' — takvim birimi ve hüküm, gök olgusu bildirimi değil (olgu=False); merdiven uygulanmadı; tarayıcı v4 aday verdi (kök yok; A_şart, B_ta'lîl, C_recâ, F_ölçü; cipa False)"),

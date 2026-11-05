@@ -1,0 +1,5 @@
+ # blok 173-176
+ 173: dict(kademe=None, olgu=False, cipa=False, not_="'innemâ harrema 'aleykumu'l-meytete ve'd-deme ve lahme'l-xinzîr … fe-meni'dturra' — yiyecek yasağı ve zaruret istisnası (olgu=False); merdiven uygulanmadı; tarayıcı v4 aday verdi (kök لحم, موت; A_şart, D_yeti; cipa False) — hüküm, doğa olgusu değil"),
+ 174: dict(kademe=None, olgu=False, cipa=False, not_="'mâ ye'kulûne fî butûnihim ille'n-nâr … ve lehum 'azâbun elîm' — âhiret hükmü (olgu=False); merdiven uygulanmadı; tarayıcı v4 aday verdi (kök نور; F_ölçü; cipa False) — 'en-nâr' âhiret ateşi, 'semenen qalîlâ' bedel, ölçü olgusu değil"),
+ 175: dict(kademe=None, olgu=False, cipa=False, not_="'işteravu'd-dalâlete bi'l-hudâ … fe-mâ asbarahum 'ala'n-nâr' — alışveriş benzetmesi ve hayret (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 176: dict(kademe=None, olgu=False, cipa=False, not_="'nezzele'l-kitâbe bi'l-haqq … lefî şiqâqin ba'îd' — gerekçe ve hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),

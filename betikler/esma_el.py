@@ -953,4 +953,25 @@ KARAR = {
     # sure 2 blok 160-164
     '2:160:10': 'ilahi', '2:160:11': 'ilahi',  # ve ene't-tevvâbu'r-rahîm — 1S zamirin haberi
     '2:163:8': 'ilahi', '2:163:9': 'ilahi',  # lâ ilâhe illâ huve'r-rahmânu'r-rahîm — zamirin haberi
+    # sure 2 blok 168-172
+    '2:168:16': 'degil',  # innehu lekum 'aduvvun mubîn — 'aduvv'un sıfatı, zamir şeytâna döner (emsal 36:60:13 degil; okunmuş bir eş daha)
+    # sure 2 blok 173-176
+    '2:173:24': 'ilahi', '2:173:25': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne' haberi
+    # sure 2 blok 177-178
+    '2:177:15': 'degil',  # 've'l-yevmi'l-âxir' — 'yevm'in sıfatı (sûre içi iki okunmuş emsal ve iki ayrı sûre emsali degil)
+    # sure 2 blok 179-182
+    '2:180:5': 'degil',  # ehadekum — 'biriniz' (zamirli, insan öznesi); emsal ehaduhum degil
+    '2:181:12': 'ilahi', '2:181:13': 'ilahi',  # inna'llâhe semî'un 'alîm — 'inne' haberi
+    '2:182:15': 'ilahi', '2:182:16': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne' haberi
+    # sure 2 blok 183-185 — esmâ tokeni yok, karar yok
+    # sure 2 blok 186-188
+    '2:186:6': 'ilahi',  # fe-innî qarîb — 1S zamirin haberi ('inne' + zamir)
+    # sure 2 blok 189-194
+    '2:192:5': 'ilahi', '2:192:6': 'ilahi',  # fe-inna'llâhe ğafûrun rahîm — 'inne' haberi
+    # sure 2 blok 195-196 — esmâ tokeni yok, karar yok
+    # sure 2 blok 197-199
+    '2:199:11': 'ilahi', '2:199:12': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne' haberi
+    # sure 2 blok 200-203
+    '2:200:22': 'degil',  # fi'l-âxira — âhiret, ilahi isim değil (emsal 'el-âxira' degil)
+    '2:201:10': 'degil',  # fi'l-âxira — âhiret, ilahi isim değil
 }

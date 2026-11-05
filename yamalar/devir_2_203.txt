@@ -1,0 +1,22 @@
+# DEVİR NOTU — oturum 2026-11-03 (taban 1b7ee3f) → sonraki oturum (sûre 2, 2:204'ten)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. Aşağıdaki "BLOK 43 ARIZA BAŞI" maddeleri, blok 43'ün
+# yamalar/ariza_2_204_208.txt dosyasının (204, 208) listesinin EN BAŞINA aynen kopyalanır.
+# Ayet numaraları: buradaki numaralar bu oturumda basılmış ayetlerdir; YENİ oturumda basilan.txt boş
+# başlar — maddeleri ARIZA'ya kopyalarken sızıntı taraması koşulur; yeni oturumda basılmamış numaralar
+# numarasız yazılır ("önceki bölümün ayeti" gibi). Aşağıdaki metin bu kurala göre NUMARASIZ hazırlandı.
+
+## BLOK 43 ARIZA BAŞI (aynen kopyalanacak maddeler)
+
+  "devir: önceki oturum (2026-11-03, taban 1b7ee3f) sûre 2'nin on bloğunu okudu (bloklar 33-42, dört bölüm); bölüm sonu bağımsız denetimleri yapıldı; son bölümün ('Hilâller; savaş; hac', bloklar 39-42) denetim bulguları ve aday 1042 bu maddelerde",
+  "bölüm denetimi (Hilâller; savaş; hac, bloklar 39-42) — DOĞRULANMIŞ: (1) blok 39 ARIZA'sında aday 1039 'ayet içi 8' yazılı, maddenin kendi sayımı ve ◇'ler 7 — doğrusu 7. (2) Blok 39'un son ayetinde 'lemma qisâs … üçüncü kez' cümlesi kural biçiminde değil ve okunmamış bir ayeti dışarıda bırakıyor — doğru biçim 'lemma qisâs N ayet: …'. (3) Blok 39 ve 42 ARIZA'larının 'korpusta 1' maddelerinde lemma dizileri yalnız kelime konumuyla yazılmış — aynı ARIZA'daki 'kalıplar adıyla yazılır' önlemiyle çelişiyor. Kayıtlar geriye dönük yeniden yazılmadı",
+  "bölüm denetimi — OLASI (kayıt): blok 39'da bir lemma dizisi 've' ve 'li' lemmalarını atlıyor (önceki bölümdeki edat atlama bulgusunun tekrarı); 'önek kesilmiş' aracı (oturum_say --on) baştaki ve- / fe- farkını korpus tarafında eşlemiyor — 've'lemû' / 'i'lemû', 've qinâ' / 'fe-qinâ' ayrı sayılır (araç tanımı; sayılar tanım içinde doğru); lemma 'ma'lûme' araçta eril 'ma'lûm'dan ayrı lemma (sayı tanım içinde doğru); bir ayette 'eşhur' (شهر) ◇'de '(gözlem)' olarak yazılmamış (tetiksiz olduğu yalnız ARIZA'da); blok 42 esmâ maddesinde 'aynı kalıpta' kısaltması kalmış; bir bağ satırı iki farklı kalıbı (nakarat3 GEÇMEZ kalıbı ile lemma dizisi) tek kuralda karıştırıyor; iki bağın kalıbı ilgili ◇'de sayılmamış; blok 40'ta 'ezen' / 'ezâ' yazım tutarsızlığı",
+  "bölüm denetimi — meal takdirleri (kayıt, kullanıcı kararı bekliyor): blok 40 ilk ayet 'kendi ellerinizle kendinizi' ('kendinizi' takdir); blok 40 ikinci ayet 'oruç tutar' (Arapçada isim cümlesi 'fe-siyâmu') ve 'tam on gündür' ('gün' Arapçada yok); blok 41 ilk ayet 'haccı kendine farz kılarsa' ('kendine' takdir)",
+  "aday 1042 (AX_bakara) — önceki oturumda kullanıcı isteğiyle açıldı: FÂSILA SINIFI ÇEŞİTLİLİĞİ — blok 42'nin dört ayetinde dört ölçüm sınıfı (ق, R, ب, N); geniş pencerede sekiz ayette dört sınıf; ön-kayıtlı test tanımı aday kaydında; motive eden ayetler Bakara testinde dışlanır. Okuma notunda önce 'yedi ayette beş sınıf' yazılmıştı — ölçüm satırına göre dört; düzeltildi. aday_ekle_2_bakara.py BAKARA listesine eklendi (toplam aday 1042); sonraki adaylar 1043'ten",
+  "önceki oturumda yürürlüğe giren önlemler (protokol §2'ye işlendi): ◈K / ◈B'ye ('sıra' alanı dahil) yalnız tetik kökü taşıyan öğe; aynı kök hem K hem B listesindeyse (عمر) iki satır da doldurulur, anlam farkı notla; yıldız kaynağı ◇'de adlandırılmaz, kapanış notunda bilançodan verilir; 'aynı …' kısaltması yasak; lemma dizisi oturum_lemdizi çıktısındaki lemma listesinden eksiksiz kopyalanır (boş lemma dahil sayılmaz, edat lemmaları yazılır); 'korpusta 1' maddesi kalıpları adlarıyla yazar; sayıma dayanan her cümle kural biçiminde; çıplak sayı sızıntısı da taranır",
+
+## DURUM (oturum sonu)
+- okunan 5211 / 6236 (%83,6); sûre 2'de 1-203 ayet düzeyinde
+- kok_turkce 1568 (bu oturumda +5: نعق, طوق, رمض, رفث, خيط); esmâ KARAR 807; AS_bakara 470; aday havuzu 1-1042; mercek arşivi (mercek_kayit['2']['_sikistirilmis_eski']) 80
+- denetim tabanı: türkçe 0 · anahtar 70 (diff 0; taban temiz klondan `PYTHONHASHSEED=0 python3 betikler/anahtar_denetim.py`, 'taranan' satırı hariç)
+- sıradaki blok: 43 = 2:204-208 ("İki insan tipi; barışa giriş; sınanma" bölümünün ilk bloğu)
+- kullanıcı kararı bekleyen meal soruları (okuma sonunda topluca): blok 34 son iki ayet ('şiqâqin ba'îd' 'derin'; 'fe-mâ asbarahum' 'fe'), blok 35 ilk ayet ('ve'l-mûfûne … ve's-sâbirîn' yeni cümlede), blok 37 ikinci ayet ('Sayılı günlerdir'; 'tutar'), blok 38 ilk ayet ('onlar da'), yukarıdaki blok 40-41 takdirleri; esmâ: blok 33 ilk ayet 'mubîn' 'degil' kararı ('inne' haberi kuralının harfî okumasıyla çelişiyor)
