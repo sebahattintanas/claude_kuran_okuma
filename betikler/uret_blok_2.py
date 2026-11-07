@@ -15,7 +15,7 @@ S = 2
 METIN = 'bakara_metin_1'
 KAYIT = 'bakara_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(21, 25), (26, 29), (30, 33), (34, 39), (40, 46), (47, 53), (54, 59), (60, 61), (62, 66), (67, 70), (71, 74), (75, 79), (80, 83), (84, 86), (87, 90), (91, 95), (96, 101), (102, 103), (104, 108), (109, 112), (113, 116), (117, 121), (122, 126), (127, 132), (133, 136), (137, 141), (142, 143), (144, 147), (148, 152), (153, 159), (160, 164), (165, 167), (168, 172), (173, 176), (177, 178), (179, 182), (183, 185), (186, 188), (189, 194), (195, 196), (197, 199), (200, 203)]
+BLOKLAR = [(21, 25), (26, 29), (30, 33), (34, 39), (40, 46), (47, 53), (54, 59), (60, 61), (62, 66), (67, 70), (71, 74), (75, 79), (80, 83), (84, 86), (87, 90), (91, 95), (96, 101), (102, 103), (104, 108), (109, 112), (113, 116), (117, 121), (122, 126), (127, 132), (133, 136), (137, 141), (142, 143), (144, 147), (148, 152), (153, 159), (160, 164), (165, 167), (168, 172), (173, 176), (177, 178), (179, 182), (183, 185), (186, 188), (189, 194), (195, 196), (197, 199), (200, 203), (204, 208), (209, 212), (213, 214), (215, 216), (217, 218), (219, 221), (222, 226), (227, 229), (230, 231), (232, 233), (234, 236), (237, 242)]
 BASLIK = {
  (21, 25): "2:21-25 — ey insanlar, sizi yaratan Rabbinize kulluk edin; yeri döşek, göğü bina kılan O'dur; kulumuza indirdiğimizden şüphedeyseniz benzerinden bir sûre getirin; yapamazsanız yakıtı insanlar ve taşlar olan ateşten sakının; inanıp iyi işler yapanlara altlarından ırmaklar akan bahçeleri müjdele",
  (26, 29): "2:26-29 — Allah sivrisineği ve üstündekini misal vermekten çekinmez; inananlar onun hak olduğunu bilir, inkâr edenler ne demek istedi der; ahdi bozanlar, emredileni kesenler kaybedenlerdir; ölüydünüz diriltti, öldürecek, diriltecek, O'na döndürüleceksiniz; yerdekilerin hepsini sizin için yarattı, göğe yöneldi, yedi gök olarak düzenledi",
@@ -59,6 +59,18 @@ BASLIK = {
  (195, 196): "2:195-196 — Allah yolunda harcayın, kendinizi tehlikeye atmayın, iyilik edin, Allah iyilik edenleri sever; haccı ve umreyi Allah için tamamlayın, engellenirseniz kolayınıza gelen kurbanlık gerekir; bulamayan hacda üç gün, döndüğünüzde yedi gün oruç tutar, bu tam on gündür; Allah'ın cezası çetindir",
  (197, 199): "2:197-199 — Hac bilinen aylardır, hacda kadına yaklaşmak, yoldan çıkmak ve kavga etmek yoktur; azık edinin, azığın en hayırlısı takvâdır; Rabbinizden lütuf aramanızda günah yoktur, Arafat'tan akın ettiğinizde Meş'ar-i Haram'ın yanında Allah'ı anın; sonra insanların akın ettiği yerden akın edin ve Allah'tan bağışlanma dileyin",
  (200, 203): "2:200-203 — Hac ibadetlerinizi bitirince atalarınızı andığınız gibi hatta daha güçlü Allah'ı anın; insanlardan kimi Rabbimiz bize dünyada ver der, onun âhirette payı yoktur; kimi de Rabbimiz bize dünyada da âhirette de iyilik ver ve bizi ateşin azabından koru der, onlar için kazandıklarından pay vardır; sayılı günlerde Allah'ı anın, O'nun huzurunda toplanacaksınız",
+ (204, 208): "2:204-208 — İki insan tipi; barışa giriş",
+ (209, 212): "2:209-212 — Kayma uyarısı; bekleyiş; İsrâiloğulları; süslenen dünya",
+ (213, 214): "2:213-214 — Tek ümmet ve ayrılık; sınanma",
+ (215, 216): "2:215-216 — İnfak sorusu; savaş farzı",
+ (217, 218): "2:217-218 — Haram ayda savaş; dinden dönme; hicret",
+ (219, 221): "2:219-221 — İçki-kumar; yetimler; müşriklerle evlilik",
+ (222, 226): "2:222-226 — Aybaşı; ekin yeri; yeminler; îlâ",
+ (227, 229): "2:227-229 — Boşama kararı; iddet; boşamanın sayısı",
+ (230, 231): "2:230-231 — Son boşama; sürenin sonunda tutma ya da salma",
+ (232, 233): "2:232-233 — Yeniden evlenmeye engel olmama; emzirme",
+ (234, 236): "2:234-236 — Dul kadının iddeti; evlenme isteği; mehirsiz boşama",
+ (237, 242): "2:237-242 — Mehrin yarısı; namaz ve korku namazı; vasiyet; faydalandırma",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

@@ -974,4 +974,44 @@ KARAR = {
     # sure 2 blok 200-203
     '2:200:22': 'degil',  # fi'l-âxira — âhiret, ilahi isim değil (emsal 'el-âxira' degil)
     '2:201:10': 'degil',  # fi'l-âxira — âhiret, ilahi isim değil
+    # sure 2 blok 204-208
+    '2:207:10': 'ilahi',  # va'llâhu ra'ûfun bi'l-'ibâd — 'va'llâhu X' haberi
+    '2:208:15': 'degil',  # innehu lekum 'aduvvun mubîn — 'aduvv'un sıfatı, zamir şeytâna döner (emsal 'aduvvun mubîn' degil; kullanıcı onayına açık)
+    # sure 2 blok 209-212
+    '2:209:11': 'ilahi', '2:209:12': 'ilahi',  # fa'lemû enna'llâhe 'azîzun hakîm — 'enne' haberi
+    # sure 2 blok 213-214
+    '2:214:30': 'degil',  # elâ inne nasra'llâhi qarîb — 'nasr'ın sıfatı, 'inne'nin ismi Allah değil (emsal 'aduvvun mubîn' mantığı; kullanıcı tercih belirtmedi, onaya açık)
+    # sure 2 blok 215-216
+    '2:215:22': 'ilahi',  # fe-inna'llâhe bihî 'alîm — 'inne' haberi
+    # sure 2 blok 217-218
+    '2:217:10': 'degil',  # qitâlun fîhi kebîr — savaşın sıfatı (emsal: bir şeyin sıfatı olan nekre degil)
+    '2:217:51': 'degil',  # fi'd-dunyâ ve'l-âxira — âhiret, ilahi isim değil (emsal 'el-âxira' degil)
+    '2:218:15': 'ilahi', '2:218:16': 'ilahi',  # va'llâhu ğafûrun rahîm — 'va'llâhu X' haberi
+    # sure 2 blok 219-221
+    '2:219:8': 'degil',  # ismun kebîr — günahın sıfatı (emsal: bir şeyin sıfatı olan nekre degil)
+    '2:220:3': 'degil',  # fi'd-dunyâ ve'l-âxira — âhiret (emsal 'el-âxira' degil)
+    '2:220:25': 'ilahi', '2:220:26': 'ilahi',  # inna'llâhe 'azîzun hakîm — 'inne' haberi
+    '2:221:19': 'degil',  # 'abdun mu'min — kölenin sıfatı (emsal: bir şeyin sıfatı olan nekre degil)
+    # sure 2 blok 222-226
+    '2:222:25': 'degil',  # yuhibbu't-tevvâbîn — sevilen insan çoğulu (emsal: 'el-mu'minîn' insan çoğulu degil)
+    '2:223:16': 'degil',  # ve beşşiri'l-mu'minîn — insan çoğulu (emsal 'beşşiri'l-mu'minîn' degil)
+    '2:224:13': 'ilahi', '2:224:14': 'ilahi',  # va'llâhu semî'un 'alîm — 'va'llâhu X'
+    '2:225:13': 'ilahi', '2:225:14': 'ilahi',  # va'llâhu ğafûrun halîm — 'va'llâhu X'
+    '2:226:12': 'ilahi', '2:226:13': 'ilahi',  # fe-inna'llâhe ğafûrun rahîm — 'inne' haberi
+    # sure 2 blok 227-229
+    '2:227:6': 'ilahi', '2:227:7': 'ilahi',  # fe-inna'llâhe semî'un 'alîm — 'inne' haberi
+    '2:228:21': 'degil',  # ve'l-yevmi'l-âxir — günün sıfatı (emsal 've'l-yevmi'l-âxir' degil)
+    '2:228:39': 'ilahi', '2:228:40': 'ilahi',  # va'llâhu 'azîzun hakîm — 'va'llâhu X'
+    # sure 2 blok 230-231
+    '2:231:45': 'ilahi',  # va'lemû enna'llâhe bi-kulli şey'in 'alîm — 'enne' haberi
+    # sure 2 blok 232-233
+    '2:232:24': 'degil',  # ve'l-yevmi'l-âxir — günün sıfatı (emsal 've'l-yevmi'l-âxir' degil)
+    '2:233:31': 'degil',  # ve 'ale'l-vârisi mislu zâlik — mirasçı insan (emsal: insanın sıfatı / insan degil)
+    '2:233:64': 'ilahi',  # enna'llâhe bimâ ta'melûne basîr — 'enne' haberi
+    # sure 2 blok 234-236
+    '2:234:25': 'ilahi',  # va'llâhu bimâ ta'melûne xabîr — 'va'llâhu X'
+    '2:235:46': 'ilahi', '2:235:47': 'ilahi',  # va'lemû enna'llâhe ğafûrun halîm — 'enne' haberi
+    # sure 2 blok 237-242
+    '2:237:35': 'ilahi',  # inna'llâhe bimâ ta'melûne basîr — 'inne' haberi
+    '2:240:26': 'ilahi', '2:240:27': 'ilahi',  # va'llâhu 'azîzun hakîm — 'va'llâhu X'
 }
