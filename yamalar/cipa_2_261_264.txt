@@ -1,0 +1,5 @@
+ # blok 261-264
+ 261: dict(kademe='L4', olgu=True, cipa=False, not_="KULLANICI KARARI — MEKANİZMA kolu adayı (ekin meseli L4 adayı emsali), TARTIŞMALI / KAPATILAMAZ: mesel içinde tane → bitirme ('enbetet') → yedi başak → her başakta yüz tane; sayılar mesel içinde; tarayıcı v4 vermedi — kaçırma"),
+ 262: dict(kademe=None, olgu=False, cipa=False, not_="'ellezîne yunfiqûne … summe lâ yutbi'ûn' — hüküm ve karşılık (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 263: dict(kademe=None, olgu=False, cipa=False, not_="'qavlun ma'rûfun ve mağfiratun xayrun min sadaqah' — karşılaştırma (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 264: dict(kademe='L4', olgu=True, cipa=False, not_="KULLANICI KARARI — MEKANİZMA kolu adayı (ekin meseli L4 adayı emsali), TARTIŞMALI / KAPATILAMAZ: mesel içinde üzerinde toprak olan kaygan taş → sağanak isabeti → çıplak bırakma, 'fe' ile ardışık; tarayıcı v4 vermedi — kaçırma"),

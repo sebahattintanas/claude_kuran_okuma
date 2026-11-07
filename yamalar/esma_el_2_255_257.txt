@@ -1,0 +1,7 @@
+    # sure 2 blok 255-257
+    '2:255:6': 'ilahi', '2:255:7': 'ilahi',  # allâhu lâ ilâhe illâ huve'l-hayyu'l-qayyûm — zamirin haberi / sıfatı
+    '2:255:49': 'ilahi',  # ve huve'l-'aliyyu'l-'azîm — zamirin haberi
+    '2:256:23': 'ilahi', '2:256:24': 'ilahi',  # va'llâhu semî'un 'alîm — 'va'llâhu X'
+    '2:257:2': 'ilahi',  # allâhu veliyyu'llezîne âmenû — lafzın haberi ('va'llâhu X' emsali)
+    '2:257:9': 'degil', '2:257:16': 'degil',  # 'mine'z-zulumâti ile'n-nûr' / 'mine'n-nûri ile'z-zulumât' — ışık, karanlıkların karşıtı; isim değil (nûr emsali)
+    '2:257:12': 'degil',  # evliyâ'uhumu't-tâğût — edinilen dostlar (çoğul), tâğût
