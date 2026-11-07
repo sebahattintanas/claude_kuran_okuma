@@ -15,7 +15,7 @@ S = 2
 METIN = 'bakara_metin_1'
 KAYIT = 'bakara_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(21, 25), (26, 29), (30, 33), (34, 39), (40, 46), (47, 53), (54, 59), (60, 61), (62, 66), (67, 70), (71, 74), (75, 79), (80, 83), (84, 86), (87, 90), (91, 95), (96, 101), (102, 103), (104, 108), (109, 112), (113, 116), (117, 121), (122, 126), (127, 132), (133, 136), (137, 141), (142, 143), (144, 147), (148, 152), (153, 159), (160, 164), (165, 167), (168, 172), (173, 176), (177, 178), (179, 182), (183, 185), (186, 188), (189, 194), (195, 196), (197, 199), (200, 203), (204, 208), (209, 212), (213, 214), (215, 216), (217, 218), (219, 221), (222, 226), (227, 229), (230, 231), (232, 233), (234, 236), (237, 242)]
+BLOKLAR = [(21, 25), (26, 29), (30, 33), (34, 39), (40, 46), (47, 53), (54, 59), (60, 61), (62, 66), (67, 70), (71, 74), (75, 79), (80, 83), (84, 86), (87, 90), (91, 95), (96, 101), (102, 103), (104, 108), (109, 112), (113, 116), (117, 121), (122, 126), (127, 132), (133, 136), (137, 141), (142, 143), (144, 147), (148, 152), (153, 159), (160, 164), (165, 167), (168, 172), (173, 176), (177, 178), (179, 182), (183, 185), (186, 188), (189, 194), (195, 196), (197, 199), (200, 203), (204, 208), (209, 212), (213, 214), (215, 216), (217, 218), (219, 221), (222, 226), (227, 229), (230, 231), (232, 233), (234, 236), (237, 242), (243, 246), (247, 248), (249, 252), (253, 254), (255, 257), (258, 258), (259, 260), (261, 264)]
 BASLIK = {
  (21, 25): "2:21-25 — ey insanlar, sizi yaratan Rabbinize kulluk edin; yeri döşek, göğü bina kılan O'dur; kulumuza indirdiğimizden şüphedeyseniz benzerinden bir sûre getirin; yapamazsanız yakıtı insanlar ve taşlar olan ateşten sakının; inanıp iyi işler yapanlara altlarından ırmaklar akan bahçeleri müjdele",
  (26, 29): "2:26-29 — Allah sivrisineği ve üstündekini misal vermekten çekinmez; inananlar onun hak olduğunu bilir, inkâr edenler ne demek istedi der; ahdi bozanlar, emredileni kesenler kaybedenlerdir; ölüydünüz diriltti, öldürecek, diriltecek, O'na döndürüleceksiniz; yerdekilerin hepsini sizin için yarattı, göğe yöneldi, yedi gök olarak düzenledi",
@@ -71,6 +71,14 @@ BASLIK = {
  (232, 233): "2:232-233 — Yeniden evlenmeye engel olmama; emzirme",
  (234, 236): "2:234-236 — Dul kadının iddeti; evlenme isteği; mehirsiz boşama",
  (237, 242): "2:237-242 — Mehrin yarısı; namaz ve korku namazı; vasiyet; faydalandırma",
+ (243, 246): "2:243-246 — Ölümden kaçanlar; savaş emri; güzel borç; hükümdar isteği",
+ (247, 248): "2:247-248 — Tâlût'un hükümdar gönderilmesi; itiraz; sandık belirtisi",
+ (249, 252): "2:249-252 — Irmakla sınama; dua; Câlût'un öldürülmesi; kapanış",
+ (253, 254): "2:253-254 — Elçilerin dereceleri; ayrılık; harcama emri",
+ (255, 257): "2:255-257 — Kürsî ayeti; dinde zorlama yok; velilik",
+ (258, 258): "2:258-258 — İbrâhîm ile tartışan; diriltme ve öldürme; güneş",
+ (259, 260): "2:259-260 — Harabe köy ve yüz yıl; İbrâhîm ve dört kuş",
+ (261, 264): "2:261-264 — Yedi başak meseli; başa kakma ve eziyet; kaygan taş meseli",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

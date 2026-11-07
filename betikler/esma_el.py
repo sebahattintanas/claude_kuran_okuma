@@ -1014,4 +1014,26 @@ KARAR = {
     # sure 2 blok 237-242
     '2:237:35': 'ilahi',  # inna'llâhe bimâ ta'melûne basîr — 'inne' haberi
     '2:240:26': 'ilahi', '2:240:27': 'ilahi',  # va'llâhu 'azîzun hakîm — 'va'llâhu X'
+    # sure 2 blok 243-246
+    '2:244:8': 'ilahi', '2:244:9': 'ilahi',  # enna'llâhe semî'un 'alîm — 'enne' haberi
+    '2:246:17': 'degil',  # 'melikan' — insan hükümdar, nekre nesne ('ib'as lenâ melikâ'); yeni emsal (kullanıcı kararı): 'melik' insan göndergeli → degil
+    '2:246:53': 'ilahi',  # va'llâhu 'alîmun bi'z-zâlimîn — 'va'llâhu X'
+    # sure 2 blok 247-248
+    '2:247:10': 'degil',  # 'melikâ' — insan hükümdar ('ba'asa lekum tâlûte melikâ'); emsal: 'melik' insan göndergeli → degil
+    '2:247:42': 'ilahi', '2:247:43': 'ilahi',  # va'llâhu vâsi'un 'alîm — 'va'llâhu X'
+    '2:248:30': 'degil',  # in kuntum mu'minîn — 2MP haberi
+    # sure 2 blok 255-257
+    '2:255:6': 'ilahi', '2:255:7': 'ilahi',  # allâhu lâ ilâhe illâ huve'l-hayyu'l-qayyûm — zamirin haberi / sıfatı
+    '2:255:49': 'ilahi',  # ve huve'l-'aliyyu'l-'azîm — zamirin haberi
+    '2:256:23': 'ilahi', '2:256:24': 'ilahi',  # va'llâhu semî'un 'alîm — 'va'llâhu X'
+    '2:257:2': 'ilahi',  # allâhu veliyyu'llezîne âmenû — lafzın haberi ('va'llâhu X' emsali)
+    '2:257:9': 'degil', '2:257:16': 'degil',  # 'mine'z-zulumâti ile'n-nûr' / 'mine'n-nûri ile'z-zulumât' — ışık, karanlıkların karşıtı; isim değil (nûr emsali)
+    '2:257:12': 'degil',  # evliyâ'uhumu't-tâğût — edinilen dostlar (çoğul), tâğût
+    # sure 2 blok 259-260
+    '2:259:67': 'ilahi',  # a'lemu enna'llâhe 'alâ kulli şey'in qadîr — 'enne' haberi
+    '2:260:38': 'ilahi', '2:260:39': 'ilahi',  # va'lem enna'llâhe 'azîzun hakîm — 'enne' haberi
+    # sure 2 blok 261-264
+    '2:261:23': 'ilahi', '2:261:24': 'ilahi',  # va'llâhu vâsi'un 'alîm — 'va'llâhu X'
+    '2:263:10': 'ilahi', '2:263:11': 'ilahi',  # va'llâhu ğaniyyun halîm — 'va'llâhu X'
+    '2:264:18': 'degil',  # ve'l-yevmi'l-âxir — emsal
 }
