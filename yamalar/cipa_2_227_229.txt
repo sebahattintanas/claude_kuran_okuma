@@ -1,0 +1,4 @@
+ # blok 227-229
+ 227: dict(kademe=None, olgu=False, cipa=False, not_="'ve in 'azemu't-talâq' — şart ve hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 228: dict(kademe='L1', olgu=True, cipa=False, not_="'mâ xalaqa'llâhu fî erhâmihinn' + 'selâsete qurû'' — yer (rahim) ve yaratılan adlanıyor, sayılı döngü (üç kur') hükmün süresi; ara aşama / süreç / nedensellik yok — L1 (rahimdeki cenin emsaliyle aynı kademe); tarayıcı v4 bir fenomen kökü (خلق), şart ve D işareti verdi, çıpa vermedi"),
+ 229: dict(kademe=None, olgu=False, cipa=False, not_="'et-talâqu merratân … tilke hudûdu'llâh' — hüküm (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
