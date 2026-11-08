@@ -1036,4 +1036,31 @@ KARAR = {
     '2:261:23': 'ilahi', '2:261:24': 'ilahi',  # va'llâhu vâsi'un 'alîm — 'va'llâhu X'
     '2:263:10': 'ilahi', '2:263:11': 'ilahi',  # va'llâhu ğaniyyun halîm — 'va'llâhu X'
     '2:264:18': 'degil',  # ve'l-yevmi'l-âxir — emsal
+    # sure 2 blok 265-267
+    '2:265:27': 'ilahi',  # va'llâhu bi-mâ ta'melûne basîr — 'va'llâhu X'
+    '2:266:2': 'degil',  # ehadukum — zamirli 'ehadukum' emsali
+    '2:267:28': 'ilahi', '2:267:29': 'ilahi',  # enne'llâhe ğaniyyun hamîd — 'inne / enne' haberi
+    # sure 2 blok 268-271
+    '2:268:12': 'ilahi', '2:268:13': 'ilahi',  # va'llâhu vâsi'un 'alîm — 'va'llâhu X'
+    '2:270:15': 'degil',  # ve mâ li'z-zâlimîne min ensâr — olumsuzlanan yardımcı, 'ensâr' çoğul (sûre içi 've lâ nasîr' kaydı emsali)
+    '2:271:20': 'ilahi',  # va'llâhu bi-mâ ta'melûne xabîr — 'va'llâhu X'
+    # sure 2 blok 272-274
+    '2:273:14': 'degil',  # yahsebuhumu'l-câhilu ağniyâ'e — çoğul 'ağniyâ'', insan göndergeli (çoğul zenginler kaydı emsali)
+    '2:273:30': 'ilahi',  # fe-inna'llâhe bihî 'alîm — 'inne / enne' haberi
+    # sure 2 blok 278-281
+    '2:278:13': 'degil',  # in kuntum mu'minîn — 'kâne' haberi 2MP (2MP haberi kuralı)
+    # sure 2 blok 282-282
+    '2:282:50': 'degil',  # fe'l-yumlil veliyyuhû — zamirli 'veliyy', insan göndergeli (zamirli 'ehadukum' emsali)
+    '2:282:53': 'degil',  # şehîdeyni min ricâlikum — ikil, insan tanıklar (çoğul şuhedâ kaydı emsali)
+    '2:282:65': 'degil', '2:282:74': 'degil',  # mine'ş-şuhedâ' / eş-şuhedâ' — çoğul insan tanıklar (çoğul şuhedâ kaydı emsali)
+    '2:282:84': 'degil',  # sağîran ev kebîran — borcun sıfatı, nekre (sağîr ve kebîr kaydı emsali)
+    '2:282:115': 'degil',  # ve lâ şehîd — olumsuzlanan nekre insan tanık (olumsuz nekre kuralı)
+    '2:282:128': 'ilahi',  # va'llâhu bi-kulli şey'in 'alîm — 'va'llâhu X'
+    # sure 2 blok 283-284
+    '2:283:32': 'ilahi',  # va'llâhu bi-mâ ta'melûne 'alîm — 'va'llâhu X'
+    '2:284:28': 'ilahi',  # va'llâhu 'alâ kulli şey'in qadîr — 'va'llâhu X'
+    # sure 2 blok 285-286
+    '2:285:8': 'degil',  # ve'l-mu'minûn — çoğul insan (çoğul kaydı emsali)
+    '2:285:18': 'degil',  # lâ nuferriqu beyne ehadin min rusulih — olumsuz bağlamda nekre 'ehad' (olumsuz nekre ehad kuralı)
+    '2:286:45': 'ilahi',  # ente mevlânâ — zamirin haberi, gönderge hitap edilen Rab ('rabbenâ') (zamirin haberi kuralı; lafız haberi 'mevlâ' kaydı emsali)
 }
