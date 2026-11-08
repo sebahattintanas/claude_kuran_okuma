@@ -1,0 +1,6 @@
+ # blok 33-37
+ 33: dict(kademe=None, olgu=False, cipa=False, not_="'inna'llâhe'stafâ âdeme …' — seçme haberi, soy adları (olgu=False); tarayıcı vermedi"),
+ 34: dict(kademe=None, olgu=False, cipa=False, not_="'zurriyyeten ba'duhâ min ba'd' — soy bağı, doğa iddiası yok (olgu=False); tarayıcı vermedi"),
+ 35: dict(kademe=None, olgu=False, cipa=False, not_="'mâ fî batnî' — adak sözü, gebelik anılıyor ama ölçü / süreç yok (olgu=False); tarayıcı vermedi"),
+ 36: dict(kademe=None, olgu=False, cipa=False, not_="'veda'tuhâ unthâ' / 'leyse'z-zekeru ke'l-unthâ' — doğum ve cinsiyet anılıyor, süreç iddiası yok (olgu=False); tarayıcı vermedi"),
+ 37: dict(kademe=None, olgu=False, cipa=False, not_="'enbetehâ nebâten hasenâ' — yetiştirme benzetmesi, bitki anlamında değil (olgu=False, onaya açık — tam okuma sonu); tarayıcı v4 aday verdi (kök نبت; işaret D_yeti; cipa=False)"),

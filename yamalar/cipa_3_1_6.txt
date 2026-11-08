@@ -1,0 +1,7 @@
+ # blok 1-6
+ 1: dict(kademe=None, olgu=False, cipa=False, not_="'elif lâm mîm' — harf dizisi (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 2: dict(kademe=None, olgu=False, cipa=False, not_="'lâ ilâhe illâ huwa'l-hayyu'l-qayyûm' — tevhid beyanı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 3: dict(kademe=None, olgu=False, cipa=False, not_="'nezzele 'aleyke'l-kitâb … ve enzele't-tevrâte ve'l-incîl' — kitap indirme (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 4: dict(kademe=None, olgu=False, cipa=False, not_="'ve enzele'l-furqân … lehum 'azâbun şedîd' — indirme ve azap (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 5: dict(kademe=None, olgu=False, cipa=False, not_="'lâ yaxfâ 'aleyhi şey'un fi'l-ardi ve lâ fi's-semâ'' — bilgi sıfatı, yer ve gök kapsam adı (olgu=False); merdiven uygulanmadı; tarayıcı vermedi"),
+ 6: dict(kademe='L1', olgu=True, cipa=False, not_="'yusavvirukum fi'l-erhâmi keyfe yeşâ'' — rahim + biçim verilen (2MP); süreç / aşama / ölçü yok — L1 (rahim + yaratılan, süreç yok → L1 emsali); tarayıcı vermedi"),
