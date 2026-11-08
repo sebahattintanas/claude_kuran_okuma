@@ -15,10 +15,16 @@ import subprocess, sys
 # mercek, dikey, esma, _bilanco YOK; esma_kayit'ta 2:1-20 yok) ve okuma_metni['2'] eski blok özeti
 # anahtarları ('21-60' …) kapanışla nasıl birleşecek — KARAR BEKLİYOR (bekleyenler). Aşağıdaki kayıt sayısı
 # assert'i ve esmâ profili bu karar olmadan tutmaz. Karar verilmeden kapanış (--kuru dahil) koşulmaz.
-KARAR_2_1_20 = None
+# KARAR (kullanıcı, 2026-11-08): eski kayıt meal / not olarak AYNEN kalır (birleşik iki anahtar ayrılmaz,
+# ölçüm / mercek / dikey eklenmez); eski kayıt ayetleri esma_kayit'a eklenir (esma_el kararları
+# yamalar/esma_el_2_1_20.txt) → esmâ profili 286 ayet; yedi eski blok özeti dizgesi ('21-60' …)
+# içerik aynen '_eski_ozet' altına taşınır (silinen 0). Kayıt kontrolü anahtar sayısıyla değil ayet kapsamıyla.
+KARAR_2_1_20 = 'esma_tamam · eski_ozet_arsiv'
 assert KARAR_2_1_20 is not None, 'sûre 2:1-20 eski kayıt birleşimi karara bağlanmadı — DUR'
+ESKI_KAYIT = (1, 20)
+BLOK_LISTESI_ELLE = [(21, 25), (26, 29), (30, 33), (34, 39), (40, 46), (47, 53), (54, 59), (60, 61), (62, 66), (67, 70), (71, 74), (75, 79), (80, 83), (84, 86), (87, 90), (91, 95), (96, 101), (102, 103), (104, 108), (109, 112), (113, 116), (117, 121), (122, 126), (127, 132), (133, 136), (137, 141), (142, 143), (144, 147), (148, 152), (153, 159), (160, 164), (165, 167), (168, 172), (173, 176), (177, 178), (179, 182), (183, 185), (186, 188), (189, 194), (195, 196), (197, 199), (200, 203), (204, 208), (209, 212), (213, 214), (215, 216), (217, 218), (219, 221), (222, 226), (227, 229), (230, 231), (232, 233), (234, 236), (237, 242), (243, 246), (247, 248), (249, 252), (253, 254), (255, 257), (258, 258), (259, 260), (261, 264), (265, 267), (268, 271), (272, 274), (275, 277), (278, 281), (282, 282), (283, 284), (285, 286)]
 # önkoşul: esmâ kaydı tüm bloklar için güncel (aday 1006 oturumundaki sıralama hatası dersi)
-for a, b in BLOK_LISTESI_ELLE:
+for a, b in [ESKI_KAYIT] + BLOK_LISTESI_ELLE:
     subprocess.run([sys.executable, 'esma_kayit.py', '2', str(a), str(b)], check=True, stdout=subprocess.DEVNULL)
 
 S, N = 2, 286
@@ -88,7 +94,17 @@ KAP = {'_bilanco_sure': bil, '_cipa_tablosu_2': cipa, '_esma_profil_2': esma, '_
 
 p = REPO + 'okuma_metni.json'
 OM = json.load(open(p, encoding='utf-8'))
-assert len([k for k in OM[str(S)] if not k.startswith('_')]) == N, 'sûre 2 kaydı eksik — DUR'
+import re
+ESKI = {k: OM[str(S)][k] for k in list(OM[str(S)]) if re.fullmatch(r'\d+-\d+', k)}
+assert len(ESKI) == 7 and all(isinstance(v, str) for v in ESKI.values()), ('eski özet beklenmedik — DUR', list(ESKI))
+for k in ESKI: del OM[str(S)][k]
+OM[str(S)]['_eski_ozet'] = ESKI
+kap = set()
+for k in OM[str(S)]:
+    m = re.fullmatch(r'%d:(\d+)(?:-(\d+))?' % S, k)
+    if m: kap |= set(range(int(m[1]), int(m[2] or m[1]) + 1))
+assert kap == set(range(1, N + 1)), 'sûre 2 kaydı eksik — DUR'
+assert len([k for k in OM[str(S)] if not k.startswith('_')]) == N - 2, 'sûre 2 anahtar sayısı (iki birleşik eski anahtar) — DUR'
 OM[str(S)].update(KAP)
 I = OM['ilerleme']
 I['tam'] = sorted(set(I['tam']) | {S})
@@ -98,7 +114,7 @@ okunan = sum(1 for r in D.values() if r['k'][0] in set(I['tam']) or (r['k'][0] =
 I['okunan_ayet'] = okunan
 I['korpus_yuzde'] = round(100 * okunan / len(D), 1)
 I['not'] = "Sûre 1, 2, 9-114 TAM. Devam: sûre 3'ten."
-I['son_oturum'] = 'OKU_BENI_OTURUM.md (sûre 2 bakara sonu)'
+I['son_oturum'] = 'OTURUM_PROMPT_sure3_1.md (sûre 2 bakara sonu)'
 json.dump(OM, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 subprocess.run([sys.executable, 'duzeltme_2.py'], check=True)
 

@@ -1063,4 +1063,45 @@ KARAR = {
     '2:285:8': 'degil',  # ve'l-mu'minûn — çoğul insan (çoğul kaydı emsali)
     '2:285:18': 'degil',  # lâ nuferriqu beyne ehadin min rusulih — olumsuz bağlamda nekre 'ehad' (olumsuz nekre ehad kuralı)
     '2:286:45': 'ilahi',  # ente mevlânâ — zamirin haberi, gönderge hitap edilen Rab ('rabbenâ') (zamirin haberi kuralı; lafız haberi 'mevlâ' kaydı emsali)
+ # sûre 2, eski kayıt (kapanış: esmâ tamamlama, kullanıcı kararı 2026-11-08)
+ '2:4:10':  'degil',                          # bi'l-âxira (son yurt)
+ '2:8:8':   'degil',                          # bi'l-yevmi'l-âxir (gün)
+ '2:8:11':  'degil',                          # bi-mu'minîn — zamirin haberi, insan göndergeli çoğul (gönderge kontrolü)
+ '2:17:12': 'degil',                          # bi-nûrihim (ışık, zamirli)
+ '2:19:18': 'ilahi',                          # va'llâhu muhîtun
+ '2:20:25': 'ilahi',                          # inne haberi
+    # sure 3 blok 1-6
+    '3:2:6': 'ilahi',  # huwa'l-hayy — zamirin haberi (zamirin haberi kuralı)
+    '3:2:7': 'ilahi',  # huwa'l-qayyûm — zamirin haberi (zamirin haberi kuralı)
+    '3:4:16': 'ilahi',  # ve'llâhu 'azîzun — lafzın haberi ('va'llâhu X' kuralı)
+    '3:6:12': 'ilahi',  # huwa'l-'azîz — zamirin haberi (zamirin haberi kuralı)
+    '3:6:13': 'ilahi',  # huwa'l-hakîm — zamirin haberi (zamirin haberi kuralı)
+    # sure 3 blok 7-9
+    '3:8:15': 'ilahi',  # inneke ente'l-vehhâb — zamirin haberi (zamirin haberi kuralı)
+    # sure 3 blok 15-20
+    '3:15:23': 'ilahi',  # ve'llâhu basîrun — lafzın haberi ('va'llâhu X' kuralı)
+    '3:18:17': 'ilahi',  # huwa'l-'azîz — zamirin haberi (zamirin haberi kuralı)
+    '3:18:18': 'ilahi',  # huwa'l-hakîm — zamirin haberi (zamirin haberi kuralı)
+    '3:20:25': 'ilahi',  # ve'llâhu basîrun — lafzın haberi ('va'llâhu X' kuralı)
+    # sure 3 blok 21-25
+    '3:22:7': 'degil',  # fi'd-dunyâ ve'l-âxira — son yurt ('fi'l-âxira' emsali)
+    # sure 3 blok 26-28
+    '3:26:25': 'ilahi',  # inneke 'alâ kulli şey'in qadîr — 'inne' haberi ('inne / enne haberi' kuralı)
+    '3:27:10': 'degil',  # el-hayy — 'el-meyyit'in karşıtı, canlı; gönderge kontrolü (onaya açık)
+    '3:27:16': 'degil',  # el-hayy — 'el-meyyit'in karşıtı, canlı; gönderge kontrolü (onaya açık)
+    '3:28:3': 'degil',  # el-mu'minûn — çoğul insan göndergeli
+    '3:28:5': 'degil',  # evliyâ' — edinilen dostlar (çoğul)
+    '3:28:8': 'degil',  # el-mu'minîn — çoğul insan göndergeli
+    # sure 3 blok 29-32
+    '3:29:22': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — lafzın haberi ('va'llâhu X' kuralı)
+    '3:30:25': 'ilahi',  # ve'llâhu ra'ûfun — lafzın haberi ('va'llâhu X' kuralı)
+    '3:31:13': 'ilahi',  # ve'llâhu ğafûrun — lafzın haberi ('va'llâhu X' kuralı)
+    '3:31:14': 'ilahi',  # ve'llâhu … rahîm — lafzın haberi ('va'llâhu X' kuralı)
+    # sure 3 blok 33-37
+    '3:34:6': 'ilahi',  # ve'llâhu semî'un — lafzın haberi ('va'llâhu X' kuralı)
+    '3:34:7': 'ilahi',  # ve'llâhu … 'alîm — lafzın haberi ('va'llâhu X' kuralı)
+    '3:35:17': 'ilahi',  # inneke ente's-semî'u — zamirin haberi, hitap 'rabbi'
+    '3:35:18': 'ilahi',  # inneke ente … 'l-'alîm — zamirin haberi, hitap 'rabbi'
+    # sure 3 blok 38-41
+    '3:38:14': 'ilahi',  # inneke semî'u'd-du'â' — 'inne'nin haberi, hitap 'rabbi'
 }
