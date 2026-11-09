@@ -1,0 +1,6 @@
+ # blok 190-194
+ 190: dict(kademe='L1', olgu=True, cipa=False, not_="'inne fî xalqi's-semâvâti ve'l-ardi ve'xtilâfi'l-leyli ve'n-nehâr' — gök, yer ve gece / gündüz ardışması adlanıyor; süreç / ölçü / mekanizma yok — L1 (sûre içi gece / gündüz L1 kaydı emsali); tarayıcı vermedi"),
+ 191: dict(kademe=None, olgu=False, cipa=False, not_="'ve yetefekkerûne fî xalqi's-semâvâti ve'l-ard' — tefekkür nesnesi, doğa iddiası yok (olgu=False); tarayıcı vermedi"),
+ 192: dict(kademe=None, olgu=False, cipa=False, not_="'men tudxili'n-nâra fe-qad exzeyteh' — dua (olgu=False); tarayıcı v4 aday verdi (kök نور; işaret A_şart; cipa=False)"),
+ 193: dict(kademe=None, olgu=False, cipa=False, not_="'semi'nâ munâdiyen yunâdî li'l-îmân' — dua (olgu=False); tarayıcı vermedi"),
+ 194: dict(kademe=None, olgu=False, cipa=False, not_="'ve lâ tuxzinâ yevme'l-qiyâme' — dua (olgu=False); tarayıcı vermedi"),

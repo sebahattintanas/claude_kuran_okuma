@@ -1,0 +1,6 @@
+ # blok 180-184
+ 180: dict(kademe=None, olgu=False, cipa=False, not_="'ve li'llâhi mîrâsu's-semâvâti ve'l-ard' — mülk bildirimi, doğa iddiası yok (olgu=False); tarayıcı vermedi"),
+ 181: dict(kademe=None, olgu=False, cipa=False, not_="'leqad semi'a'llâhu qavle'llezîne qâlû' — söz ve hüküm (olgu=False); tarayıcı vermedi"),
+ 182: dict(kademe=None, olgu=False, cipa=False, not_="'zâlike bi-mâ qaddemet eydîkum' — gerekçe (olgu=False); tarayıcı vermedi"),
+ 183: dict(kademe=None, olgu=False, cipa=False, not_="'bi-qurbânin te'kuluhu'n-nâr' — iddia edilen şartın parçası, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök نور; işaretler A_şart, D_yeti; cipa=False)"),
+ 184: dict(kademe=None, olgu=False, cipa=False, not_="'ve'l-kitâbi'l-munîr' — sıfat, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök نور; işaret A_şart; cipa=False)"),

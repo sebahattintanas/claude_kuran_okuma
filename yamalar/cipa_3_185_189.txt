@@ -1,0 +1,6 @@
+ # blok 185-189
+ 185: dict(kademe=None, olgu=False, cipa=False, not_="'kullu nefsin zâ'iqatu'l-mevt' — genel hüküm, süreç / ölçü yok (olgu=False; sûre içi okunmuş bir ölüm / vade kaydı emsali, onaya açık); tarayıcı v4 aday verdi (kökler حيي, موت, نور; işaret A_şart; cipa=False)"),
+ 186: dict(kademe=None, olgu=False, cipa=False, not_="'letublevunne fî emvâlikum ve enfusikum' — sınama bildirimi (olgu=False); tarayıcı vermedi"),
+ 187: dict(kademe=None, olgu=False, cipa=False, not_="'ve'şterav bihî semenen qalîlâ' — bedel, ölçü iddiası değil (olgu=False); tarayıcı v4 aday verdi (kök yok; işaret F_ölçü; cipa=False)"),
+ 188: dict(kademe=None, olgu=False, cipa=False, not_="'lâ tahsebenne'llezîne yefrahûn' — yasak ve hüküm (olgu=False); tarayıcı vermedi"),
+ 189: dict(kademe=None, olgu=False, cipa=False, not_="'ve li'llâhi mulku's-semâvâti ve'l-ard' — mülk bildirimi, doğa iddiası yok (olgu=False); tarayıcı vermedi"),
