@@ -15,10 +15,11 @@ import subprocess, sys
 # aynen '_eski_ozet' altına taşınır (sûre 2 kapanış kararı emsali, 2026-11-08; silinen 0).
 # BLOK_LISTESI_ELLE sûre sonunda elle doldurulur (uret_blok_3.BLOKLAR ile birebir).
 # önkoşul: esmâ kaydı tüm bloklar için güncel (aday 1006 oturumundaki sıralama hatası dersi)
-for a, b in BLOK_LISTESI_ELLE:
-    subprocess.run([sys.executable, 'esma_kayit.py', '2', str(a), str(b)], check=True, stdout=subprocess.DEVNULL)
-
 S, N = 3, 200
+BLOK_LISTESI_ELLE = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101), (102, 106), (107, 112), (113, 117), (118, 120), (121, 125), (126, 129), (130, 136), (137, 143), (144, 148), (149, 153), (154, 155), (156, 159), (160, 164), (165, 169), (170, 175), (176, 179), (180, 184), (185, 189), (190, 194), (195, 200)]  # uret_blok_3.BLOKLAR ile birebir (sûre 3 kapanışı, 2026-11-09)
+for a, b in BLOK_LISTESI_ELLE:
+    subprocess.run([sys.executable, 'esma_kayit.py', str(S), str(a), str(b)], check=True, stdout=subprocess.DEVNULL)
+
 REPO = '/home/claude/repo/notlar/'
 D = {tuple(r['k']): r for r in json.load(open('defter.json', encoding='utf-8'))}
 B = [D[(S, n)] for n in range(1, N + 1)]

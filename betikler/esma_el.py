@@ -1198,4 +1198,14 @@ KARAR = {
     # sure 3 blok 176-179
     '3:176:19': 'degil',  # hazzan fi'l-âxira — 'fi'l-âxira' emsali → degil
     '3:179:5': 'degil',  # li-yezera'l-mu'minîn — çoğul insan göndergeli → degil
+    # sure 3 blok 180-184
+    '3:180:30': 'ilahi',  # ve'llâhu bi-mâ ta'melûne xabîr — 've'llâhu X' kuralı → ilahi
+    '3:181:11': 'degil',  # ve nahnu ağniyâ'u — çoğul insan göndergeli → degil
+    # sure 3 blok 185-189
+    '3:189:9': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi ('ve' morph CONJ)
+    # sure 3 blok 190-194
+    '3:192:11': 'degil',  # min ensâr — çoğul insan göndergeli → degil
+    '3:193:20': 'degil',  # me'a'l-ebrâr — çoğul insan göndergeli → degil
+    # sure 3 blok 195-200
+    '3:198:21': 'degil',  # li'l-ebrâr — çoğul insan göndergeli → degil
 }

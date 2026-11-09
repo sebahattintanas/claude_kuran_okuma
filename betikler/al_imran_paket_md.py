@@ -4,6 +4,7 @@
 çıpa tablosu ve esmâ profili. Sayı elle yazılmaz; hepsi okuma_metni.json'dan."""
 import json, subprocess, sys
 S = 3
+BLOK_LISTESI_ELLE = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101), (102, 106), (107, 112), (113, 117), (118, 120), (121, 125), (126, 129), (130, 136), (137, 143), (144, 148), (149, 153), (154, 155), (156, 159), (160, 164), (165, 169), (170, 175), (176, 179), (180, 184), (185, 189), (190, 194), (195, 200)]  # uret_blok_3.BLOKLAR ile birebir (sûre 3 kapanışı, 2026-11-09)
 BL = BLOK_LISTESI_ELLE
 OM = json.load(open('/home/claude/repo/notlar/okuma_metni.json', encoding='utf-8'))
 out = ["# Sûre 3 (Âl-i İmrân) — hesaplamalı okuma, 200 ayet (TAM; blok başı kayıt)\n\n",
