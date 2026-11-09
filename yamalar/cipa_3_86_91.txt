@@ -1,0 +1,7 @@
+ # blok 86-91
+ 86: dict(kademe=None, olgu=False, cipa=False, not_="'keyfe yehdi'llâhu qavmen keferû' — soru (olgu=False); tarayıcı vermedi"),
+ 87: dict(kademe=None, olgu=False, cipa=False, not_="'aleyhim la'nete'llâh' — hüküm (olgu=False); tarayıcı vermedi"),
+ 88: dict(kademe=None, olgu=False, cipa=False, not_="'xâlidîne fîhâ' — azap bildirimi (olgu=False); tarayıcı vermedi"),
+ 89: dict(kademe=None, olgu=False, cipa=False, not_="'ille'llezîne tâbû' — istisna (olgu=False); tarayıcı vermedi"),
+ 90: dict(kademe=None, olgu=False, cipa=False, not_="'len tuqbele tevbetuhum' — hüküm (olgu=False); tarayıcı vermedi"),
+ 91: dict(kademe=None, olgu=False, cipa=False, not_="'mil'u'l-ardi zehebâ' — miktar benzetmesi, ölçü iddiası yok (olgu=False); tarayıcı v4 aday verdi (kökler أرض, موت; işaret A_şart; cipa=False)"),

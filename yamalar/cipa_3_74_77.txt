@@ -1,0 +1,5 @@
+ # blok 74-77
+ 74: dict(kademe=None, olgu=False, cipa=False, not_="'yextassu bi-rahmetihî' — bildirim (olgu=False); tarayıcı vermedi"),
+ 75: dict(kademe=None, olgu=False, cipa=False, not_="'bi-qintârin' / 'bi-dînârin' — emanet örneği, miktar adı ölçü iddiası değil (olgu=False); tarayıcı vermedi"),
+ 76: dict(kademe=None, olgu=False, cipa=False, not_="'men evfâ bi-'ahdih' — şart (olgu=False); tarayıcı vermedi"),
+ 77: dict(kademe=None, olgu=False, cipa=False, not_="'themenen qalîlâ' / 'lâ xalâqa' — bedel ve pay adı, ölçü / yaratma iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök خلق; işaret F_ölçü; cipa=False)"),
