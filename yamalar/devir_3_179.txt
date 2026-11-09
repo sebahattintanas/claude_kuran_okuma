@@ -1,0 +1,31 @@
+# DEVİR NOTU — oturum 2026-11-09 (taban 4dc8d0a → ara HEAD'ler 3681a1d, 8a56970, c75f1c2) → sonraki oturum (taban: c75f1c2 + bu notu taşıyan zip; sûre 3, blok 38'den)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. Aşağıdaki "SONRAKİ İLK BLOK ARIZA BAŞI" maddesi, sonraki oturumda
+# okunan açılış bloğunun (blok 38) ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# Ayet numaraları: YENİ oturumda basilan.txt boş başlar — ARIZA başı maddesi NUMARASIZ; kopyaladıktan sonra sızıntı taraması.
+# (Bölüm 12 denetim bulguları ve yeni kurallar blok 37'nin ARIZA başına yazıldı: yamalar/bekleyen_ariza_3_b37.txt — tekrar kopyalanmaz.)
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak madde)
+
+  "devir: önceki oturum (taban 4dc8d0a) sûre 3'ün blok planında blok 22-37'yi okudu (bölüm 9-12 ve bölüm 13'ün açılış bloğu); her bölüm sonunda bağımsız denetim yapıldı, bulgular sonraki bölümün açılış bloğunun ARIZA'sına yazıldı; kayıtlar geriye dönük yeniden yazılmadı (istisna: bir sızıntı — basılmamış bir ayet numarası — bulunduğu kayıtta numarasız düzeltildi); transliterasyonda ث kullanıcı kararıyla 's' (bölüm 12 başından); onaya açık bırakılan üç esmâ kararı ve açık kurallar tam okuma sonu listesinde; meal ve yorum kararları kullanıcı kararıyla tam okuma sonuna bırakıldı",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: 3:102-179 (blok 22-37). Bölüm 9 (blok 22-25), 10 (26-27), 11 (28-30), 12 (31-36) kapandı; bölüm 13 'İnkâra koşanlar; cimrilik; 'Allah fakir' diyenler; her nefis ölümü tadar; misak' blok 37 ile açıldı (bölüm 13-1). Sıradaki: blok 38 (bölüm 13-2); bölüm 13 sonu blok 39.
+- Sayaçlar: okunan 5473 / 6236 (%87,8); kok_turkce 1591 (bu oturumda eklenen kökler: فشل, محص, نعس, غزو, فظظ + önceki yarıdakiler; yama_kok_3_*.py); esmâ KARAR 994; AS_al_imran 611; aday havuzu 1–1042 (sonraki 1043; bu oturumda aday açılmadı); mercek arşivi 44.
+- Fark zip'leri: fark_4dc8d0a… (bölüm 9-10), fark_3681a1d_sure3_120/129/148, fark_8a56970_sure3_179 → yüklendi, c75f1c2 taze klonla doğrulandı (fark 0). Oturum sonu zip'i: fark_c75f1c2_sure3_179 (bu not + yeni protokol + sizinti düzeltmesi).
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Onaya açık esmâ kararları ('ilahi', kullanıcı kararıyla ertelendi): 3:126 'lafzın sıfatı'; 3:150 'lafzın haberi' ('beli'llâhu mevlâkum'); 3:173 ''ni'me'nin övüleni' ('ve ni'me'l-vekîl'). Kapalı listeye kural adı olarak alınıp alınmayacağı.
+2. ''ve'llâhu X' kuralının morph CONJ 've' ile kullanımı (3:156 've'llâhu bi-mâ ta'melûne basîr').
+3. A1'de mecrur ilgi zamiri ('bi'llezîne' / 'li'llezîne' + ilgi cümlesi: 3:170, 3:172) yazılır mı.
+4. Transliterasyon: ث → 's' toplu eşitlemesi (eski kayıtlarda 'th' 249 geçiş); öbür harflerin (ذ ظ ص ض ط ح خ ع) korpus genelinde tutarlılık testi.
+5. Geriye dönük düzeltilmeyen DOĞRULANMIŞ denetim bulguları:
+   - bölüm 9: morph REM/CONJ yanlış bildirimi; meal edat karşılığı eksikleri.
+   - bölüm 10: esmâ gerekçesinde metinde olmayan alıntı biçimi; okuma maddesinde metin dışı ad; A1'de mecrur çoğul; esma_kayit için yanlış 'satır aynen'.
+   - bölüm 11: 'sevâb' (artık kurala uygun); esmâ gerekçe alıntısı alt dize değil; okuma maddesinde olay adı; sayımsız bağ kalıbı.
+   - bölüm 12: 3:171 xref sınıflaması; 3:171 D3'te 3:174 bağı eksik; sekiz ayette edilgen failleri A1'de yok (3:154, 3:156, 3:157, 3:158, 3:161, 3:167, 3:168, 3:169); 3:155 A1'de muhatap 2MP yok; xref '(sûre içi k)' eki eksik (3:155, 3:157, 3:170).
+6. OLASI bulgular (bölüm 9-12): bekleyen_ariza_3_b26 / b28 / b31 / b37 dosyalarında.
+7. Ölçüm araç farkları (R5'te kayıtlı, araç düzeltmesi bekleyen): morph 'linte' PASS; 3:164 'in' muhaffefe COND; 3:176 'lâ yahzunke' NEG (PRO değil); م fâsılasında kırılma ölçütü tutarsız (3:155 kırılma, 3:172 / 3:174 / 3:176 kırılmasız); harekesiz sayımın 'qâtilû' / 'qutilû' ayrımı yapamaması; esma_kayit 'degil' işaretli adları mühüre sayması.
+8. Önceki listeden sürenler (protokol §8): meal düzeltmeleri; tevellev şahsı; R2 'min' / 'inne' meali; kök karşılığı gözden geçirme; 'onaya açık' çıpa maddeleri; 'mutevaffîke' okuması; bölüm 8 OLASI bulguları; 'rîh' K1 tanımı.
+
+## Kullanıcıya hatırlatma (elle yapılacak)
+- Kökteki `esma_kayit.json` ve `kok_turkce.json` kopyaları (doğruları `tablolar/` altında) ve `notlar/SILINECEKLER.txt`'te listelenen bozuk adlı dosyalar elle silinir.
