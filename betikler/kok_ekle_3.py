@@ -13,6 +13,14 @@ ISTEK = [
     ('قنطر', "yığın, büyük miktar mal ('qintâr'); yığılmış ('muqantara'); 3 ayet"),
     # blok 38-41
     ('رمز', "işaret etme, ima ('remz'); 1 ayet"),
+    # blok 42-47
+    ('كهل', "olgunluk çağı, orta yaş ('kehl'); 2 ayet"),
+    # blok 48-51
+    ('ذخر', "biriktirme, saklama ('iddixâr'); 1 ayet"),
+    # blok 57-63
+    ('بهل', "lanetleşme, içtenlikle yakarma ('ibtihâl'); 1 ayet"),
+    # blok 74-77
+    ('دنر', "dinar, altın para ('dînâr'); 1 ayet"),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

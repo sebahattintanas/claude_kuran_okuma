@@ -1104,4 +1104,41 @@ KARAR = {
     '3:35:18': 'ilahi',  # inneke ente … 'l-'alîm — zamirin haberi, hitap 'rabbi'
     # sure 3 blok 38-41
     '3:38:14': 'ilahi',  # inneke semî'u'd-du'â' — 'inne'nin haberi, hitap 'rabbi'
+    # sure 3 blok 42-47
+    '3:45:18': 'degil',  # fi'd-dunyâ ve'l-âxira — son yurt ('fi'l-âxira' emsali)
+    # sure 3 blok 48-51
+    '3:49:45': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli
+    # sure 3 blok 52-56
+    '3:52:8': 'degil',  # men ensârî — çoğul insan göndergeli (yardımcılar)
+    '3:52:14': 'degil',  # nahnu ensâru'llâh — çoğul insan göndergeli (havârîler)
+    '3:56:9': 'degil',  # fi'd-dunyâ ve'l-âxira — son yurt ('fi'l-âxira' emsali)
+    # sure 3 blok 57-63
+    '3:58:7': 'degil',  # ez-zikri'l-hakîm — 'zikr'in sıfatı (esmâ adı esmâ dışı göndergeyle)
+    '3:62:14': 'ilahi',  # inna'llâhe le-huve'l-'azîzu — 'inne'nin haberi
+    '3:62:15': 'ilahi',  # inna'llâhe le-huve … 'l-hakîm — 'inne'nin haberi
+    '3:63:5': 'ilahi',  # fe-inna'llâhe 'alîmun — 'inne'nin haberi
+    # sure 3 blok 64-68
+    '3:68:12': 'ilahi',  # ve'llâhu veliyyu — lafzın haberi ('va'llâhu X' kuralı)
+    '3:68:13': 'degil',  # … 'l-mu'minîn — çoğul insan göndergeli
+    # sure 3 blok 69-73
+    '3:72:15': 'degil',  # ve'kfurû âxirahû — günün sonu (esmâ adı esmâ dışı göndergeyle)
+    '3:73:14': 'degil',  # en yu'tâ ehadun — nekre, insan göndergeli
+    '3:73:31': 'ilahi',  # ve'llâhu vâsi'un — lafzın haberi ('va'llâhu X' kuralı)
+    '3:73:32': 'ilahi',  # ve'llâhu … 'alîm — lafzın haberi ('va'llâhu X' kuralı)
+    # sure 3 blok 74-77
+    '3:77:14': 'degil',  # fi'l-âxira — son yurt ('fi'l-âxira' emsali)
+    # sure 3 blok 81-85
+    '3:84:25': 'degil',  # lâ nufarriqu beyne ehadin minhum — olumsuz nekre ehad
+    '3:85:11': 'degil',  # fi'l-âxira — son yurt ('fi'l-âxira' emsali)
+    # sure 3 blok 86-91
+    '3:89:10': 'ilahi',  # fe-inna'llâhe ğafûrun — 'inne'nin haberi
+    '3:89:11': 'ilahi',  # fe-inna'llâhe … rahîm — 'inne'nin haberi
+    '3:91:10': 'degil',  # min ehadihim — zamirli, insan göndergeli
+    # sure 3 blok 92-96
+    '3:92:15': 'ilahi',  # fe-inna'llâhe bihî 'alîm — 'inne'nin haberi
+    '3:96:2': 'degil',  # evvele beytin — esmâ adı esmâ dışı göndergeyle
+    # sure 3 blok 97-101
+    '3:97:23': 'ilahi',  # fe-inna'llâhe ğaniyyun — 'inne'nin haberi
+    '3:98:9': 'ilahi',  # ve'llâhu şehîdun — 've'llâhu X' kuralı
+    '3:99:14': 'degil',  # ve entum şuhedâ' — çoğul insan göndergeli
 }

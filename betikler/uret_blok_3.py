@@ -15,7 +15,7 @@ S = 3
 METIN = 'al_imran_metin_1'
 KAYIT = 'al_imran_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41)]
+BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101)]
 BASLIK = {
  (1, 6): "3:1-6 — Elif Lâm Mîm; tevhid; kitap, Tevrât, İncîl ve ayırt edişin indirilişi; rahimlerde biçimlendirme",
  (7, 9): "3:7-9 — Muhkem ve müteşâbih âyetler; te'vîl; ilimde derinleşenlerin sözü; kalplerin eğrilmemesi duası ve toplanma günü",
@@ -26,6 +26,18 @@ BASLIK = {
  (29, 32): "3:29-32 — Gizlenen ve açığa vurulanın bilinmesi; her nefsin yaptığını bulacağı gün; Allah'ı sevmek ve uymak; Allah'a ve Elçi'ye itaat",
  (33, 37): "3:33-37 — Âdem, Nûh ve iki ailenin seçilmesi; İmrân'ın karısının adağı; Meryem'in doğumu ve adlandırılması; Zekeriyyâ'nın bakımı ve mihraptaki rızık",
  (38, 41): "3:38-41 — Zekeriyyâ'nın duası; meleklerin Yahyâ müjdesi; oğul sorusu ve 'Allah dilediğini yapar'; üç günlük işaret ve tesbih",
+ (42, 47): "3:42-47 — Meleklerin Meryem'e seslenişi: seçilme ve ibadet; gayb haberi ve kalem atma; Mesîh müjdesi; beşikte konuşma; 'kun fe-yekûn'",
+ (48, 51): "3:48-51 — Kitap, hikmet, Tevrât ve İncîl'in öğretilmesi; İsrâîloğullarına elçi: çamurdan kuş, iyileştirme, diriltme; Tevrât'ı doğrulama; 'Allah benim de Rabbim, sizin de Rabbiniz'",
+ (52, 56): "3:52-56 — Îsâ'nın yardımcı araması ve havârîlerin cevabı; tuzak ve Allah'ın tuzağı; 'seni vefat ettireceğim ve kendime yükselteceğim'; inkâr edenlere azap",
+ (57, 63): "3:57-63 — İnananların ödülü; Îsâ'nın durumu Âdem'in durumu gibi; 'hak Rabbindendir'; mübâhele çağrısı; gerçek anlatı ve tek ilâh",
+ (64, 68): "3:64-68 — Kitap ehline ortak söz çağrısı; İbrâhîm hakkında tartışma; 'İbrâhîm ne Yahudi ne Hristiyandı'; İbrâhîm'e en yakın olanlar",
+ (69, 73): "3:69-73 — Kitap ehlinden bir topluluğun saptırma isteği; 'hakkı bâtıla neden karıştırıyorsunuz'; 'günün başında inanın, sonunda inkâr edin'; hidayet ve lütuf Allah'ın elinde",
+ (74, 77): "3:74-77 — Rahmet ve büyük lütuf; emaneti geri veren ve vermeyen kitap ehli; 'ümmîlere karşı bize yol yok' iddiası ve 'belâ'; ahdi az bedelle değişenler",
+ (78, 80): "3:78-80 — Dillerini kitapla eğip bükenler; 'O Allah katındandır' iddiası; peygambere yaraşmayan 'bana kul olun' sözü; rabbânî olmaya çağrı",
+ (81, 85): "3:81-85 — Peygamberlerden alınan söz ve şahitlik; yüz çevirenler fâsık; göklerdekilerin teslimiyeti; 'Allah'a ve indirilene inandık'; İslâm dışı din kabul edilmez",
+ (86, 91): "3:86-91 — İmandan sonra inkâr edenlere hidayet yok; lânet ve ebedî azap; tevbe edip düzeltenler istisna; inkârı artıranın tevbesi, inkârla ölenin fidyesi kabul edilmez",
+ (92, 96): "3:92-96 — Sevilenden harcamak; yiyecek helâli; ilk ev ve hac",
+ (97, 101): "3:97-101 — Sevilenden harcamak; yiyecek helâli; ilk ev ve hac",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-
