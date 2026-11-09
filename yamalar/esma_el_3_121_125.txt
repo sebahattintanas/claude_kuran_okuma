@@ -1,0 +1,7 @@
+    # sure 3 blok 121-125
+    '3:121:6': 'degil',  # el-mu'minîn — çoğul insan göndergeli → degil
+    '3:121:10': 'ilahi',  # ve'llâhu semî'un — 've'llâhu X' kuralı → ilahi
+    '3:121:11': 'ilahi',  # ve'llâhu semî'un 'alîm — 've'llâhu X' kuralı → ilahi
+    '3:122:8': 'ilahi',  # ve'llâhu veliyyuhumâ — 've'llâhu X' kuralı → ilahi
+    '3:122:12': 'degil',  # el-mu'minûn — çoğul insan göndergeli → degil
+    '3:124:3': 'degil',  # li'l-mu'minîn — çoğul insan göndergeli → degil

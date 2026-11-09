@@ -15,7 +15,7 @@ S = 3
 METIN = 'al_imran_metin_1'
 KAYIT = 'al_imran_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101)]
+BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101), (102, 106), (107, 112), (113, 117), (118, 120), (121, 125), (126, 129), (130, 136), (137, 143), (144, 148)]
 BASLIK = {
  (1, 6): "3:1-6 — Elif Lâm Mîm; tevhid; kitap, Tevrât, İncîl ve ayırt edişin indirilişi; rahimlerde biçimlendirme",
  (7, 9): "3:7-9 — Muhkem ve müteşâbih âyetler; te'vîl; ilimde derinleşenlerin sözü; kalplerin eğrilmemesi duası ve toplanma günü",
@@ -38,6 +38,15 @@ BASLIK = {
  (86, 91): "3:86-91 — İmandan sonra inkâr edenlere hidayet yok; lânet ve ebedî azap; tevbe edip düzeltenler istisna; inkârı artıranın tevbesi, inkârla ölenin fidyesi kabul edilmez",
  (92, 96): "3:92-96 — Sevilenden harcamak; yiyecek helâli; ilk ev ve hac",
  (97, 101): "3:97-101 — Sevilenden harcamak; yiyecek helâli; ilk ev ve hac",
+ (102, 106): "3:102-106 — Takvâ ve Allah'ın ipi; hayra çağıran ümmet; kitap ehli; sırdaş edinme",
+ (107, 112): "3:107-112 — Takvâ ve Allah'ın ipi; hayra çağıran ümmet; kitap ehli; sırdaş edinme",
+ (113, 117): "3:113-117 — Takvâ ve Allah'ın ipi; hayra çağıran ümmet; kitap ehli; sırdaş edinme",
+ (118, 120): "3:118-120 — Takvâ ve Allah'ın ipi; hayra çağıran ümmet; kitap ehli; sırdaş edinme",
+ (121, 125): "3:121-125 — Uhud'a çıkış; Bedir'deki yardım ve meleklerle destek",
+ (126, 129): "3:126-129 — Uhud'a çıkış; Bedir'deki yardım ve meleklerle destek",
+ (130, 136): "3:130-136 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
+ (137, 143): "3:137-143 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
+ (144, 148): "3:144-148 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

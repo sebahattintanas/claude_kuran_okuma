@@ -1,0 +1,6 @@
+ # blok 121-125
+ 121: dict(kademe=None, olgu=False, cipa=False, not_="'tubevvi'u'l-mu'minîne meqâ'ide li'l-qitâl' — olay anlatısı (olgu=False); tarayıcı vermedi"),
+ 122: dict(kademe=None, olgu=False, cipa=False, not_="'hemmet tâ'ifetân' — olay anlatısı (olgu=False); tarayıcı vermedi"),
+ 123: dict(kademe=None, olgu=False, cipa=False, not_="'nasarakumu'llâhu bi-bedr' — olay anlatısı (olgu=False); tarayıcı vermedi"),
+ 124: dict(kademe=None, olgu=False, cipa=False, not_="'bi-thelâtheti âlâf' — destek sayısı, doğa ölçüsü değil (olgu=False); tarayıcı v4 aday verdi (kök yok; işaret F_ölçü; cipa=False)"),
+ 125: dict(kademe=None, olgu=False, cipa=False, not_="'bi-xamseti âlâf' — şartlı destek sayısı, doğa ölçüsü değil (olgu=False); tarayıcı v4 aday verdi (kök yok; işaretler A_şart, F_ölçü; cipa=False)"),

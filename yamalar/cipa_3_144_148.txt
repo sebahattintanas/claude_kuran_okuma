@@ -1,0 +1,6 @@
+ # blok 144-148
+ 144: dict(kademe=None, olgu=False, cipa=False, not_="'e-fe-in mâte ev qutile' — şartlı soru, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök موت; işaret A_şart; cipa=False)"),
+ 145: dict(kademe=None, olgu=False, cipa=False, not_="'ve mâ kâne li-nefsin en temûte illâ bi-izni'llâhi kitâben mu'eccelâ' — ölümün izne ve yazılı vadeye bağlanması, hüküm (olgu=False); tarayıcı v4 aday verdi (kökler أجل, موت; işaretler A_şart, D_yeti; cipa=False)"),
+ 146: dict(kademe=None, olgu=False, cipa=False, not_="'ke-eyyin min nebiyy' — geçmiş anlatısı (olgu=False); tarayıcı vermedi"),
+ 147: dict(kademe=None, olgu=False, cipa=False, not_="'rabbena'ğfir lenâ' — dua (olgu=False); tarayıcı vermedi"),
+ 148: dict(kademe=None, olgu=False, cipa=False, not_="'fe-âtâhumu'llâh' — karşılık bildirimi (olgu=False); tarayıcı vermedi"),

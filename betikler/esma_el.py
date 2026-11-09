@@ -1141,4 +1141,32 @@ KARAR = {
     '3:97:23': 'ilahi',  # fe-inna'llâhe ğaniyyun — 'inne'nin haberi
     '3:98:9': 'ilahi',  # ve'llâhu şehîdun — 've'llâhu X' kuralı
     '3:99:14': 'degil',  # ve entum şuhedâ' — çoğul insan göndergeli
+    # sure 3 blok 107-112
+    '3:110:21': 'degil',  # minhumu'l-mu'minûn — çoğul insan göndergeli → degil
+    # sure 3 blok 113-117
+    '3:114:4': 'degil',  # ve'l-yevmi'l-âxir — 'fi'l-âxira' emsali → degil
+    '3:115:8': 'ilahi',  # ve'llâhu 'alîmun — 've'llâhu X' kuralı → ilahi
+    # sure 3 blok 118-120
+    '3:119:25': 'ilahi',  # inna'llâhe 'alîmun — 'inne/enne' haberi → ilahi
+    '3:120:21': 'ilahi',  # inna'llâhe … muhît — 'inne/enne' haberi → ilahi
+    # sure 3 blok 121-125
+    '3:121:6': 'degil',  # el-mu'minîn — çoğul insan göndergeli → degil
+    '3:121:10': 'ilahi',  # ve'llâhu semî'un — 've'llâhu X' kuralı → ilahi
+    '3:121:11': 'ilahi',  # ve'llâhu semî'un 'alîm — 've'llâhu X' kuralı → ilahi
+    '3:122:8': 'ilahi',  # ve'llâhu veliyyuhumâ — 've'llâhu X' kuralı → ilahi
+    '3:122:12': 'degil',  # el-mu'minûn — çoğul insan göndergeli → degil
+    '3:124:3': 'degil',  # li'l-mu'minîn — çoğul insan göndergeli → degil
+    # sure 3 blok 126-129
+    '3:126:16': 'ilahi',  # mine'llâhi'l-'azîz — lafzın sıfatı (onaya açık; kapalı listede yok, tam okuma sonuna)
+    '3:126:17': 'ilahi',  # mine'llâhi'l-'azîzi'l-hakîm — lafzın sıfatı (onaya açık; kapalı listede yok, tam okuma sonuna)
+    '3:129:15': 'ilahi',  # ve'llâhu ğafûrun — 've'llâhu X' kuralı → ilahi
+    '3:129:16': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi
+    # sure 3 blok 137-143
+    '3:139:9': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli → degil
+    '3:140:20': 'degil',  # yettexize minkum şuhedâ'a — çoğul insan göndergeli → degil
+    # sure 3 blok 144-148
+    '3:144:27': 'degil',  # seyecziyi'llâhu'ş-şâkirîn — çoğul insan göndergeli → degil
+    '3:145:20': 'degil',  # sevâbe'l-âxira — 'fi'l-âxira' emsali → degil
+    '3:145:24': 'degil',  # senczi'ş-şâkirîn — çoğul insan göndergeli → degil
+    '3:148:7': 'degil',  # sevâbi'l-âxira — 'fi'l-âxira' emsali → degil
 }
