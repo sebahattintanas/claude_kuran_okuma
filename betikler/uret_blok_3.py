@@ -15,7 +15,7 @@ S = 3
 METIN = 'al_imran_metin_1'
 KAYIT = 'al_imran_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101), (102, 106), (107, 112), (113, 117), (118, 120), (121, 125), (126, 129), (130, 136), (137, 143), (144, 148)]
+BLOKLAR = [(1, 6), (7, 9), (10, 14), (15, 20), (21, 25), (26, 28), (29, 32), (33, 37), (38, 41), (42, 47), (48, 51), (52, 56), (57, 63), (64, 68), (69, 73), (74, 77), (78, 80), (81, 85), (86, 91), (92, 96), (97, 101), (102, 106), (107, 112), (113, 117), (118, 120), (121, 125), (126, 129), (130, 136), (137, 143), (144, 148), (149, 153), (154, 155), (156, 159), (160, 164), (165, 169), (170, 175), (176, 179)]
 BASLIK = {
  (1, 6): "3:1-6 — Elif Lâm Mîm; tevhid; kitap, Tevrât, İncîl ve ayırt edişin indirilişi; rahimlerde biçimlendirme",
  (7, 9): "3:7-9 — Muhkem ve müteşâbih âyetler; te'vîl; ilimde derinleşenlerin sözü; kalplerin eğrilmemesi duası ve toplanma günü",
@@ -47,6 +47,13 @@ BASLIK = {
  (130, 136): "3:130-136 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
  (137, 143): "3:137-143 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
  (144, 148): "3:144-148 — Ribâ yasağı; cennete koşmak; takvâ sahipleri; günlerin döndürülmesi; Muhammed bir elçi",
+ (149, 153): "3:149-153 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (154, 155): "3:154-155 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (156, 159): "3:156-159 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (160, 164): "3:160-164 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (165, 169): "3:165-169 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (170, 175): "3:170-175 — Uhud sonrası: geri dönenler, uyku, münafıklar, şehitler ve yeniden çağrı",
+ (176, 179): "3:176-179 — İnkâra koşanlar; cimrilik; 'Allah fakir' diyenler; her nefis ölümü tadar; misak",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

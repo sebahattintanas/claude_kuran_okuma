@@ -1,0 +1,6 @@
+ # blok 149-153
+ 149: dict(kademe=None, olgu=False, cipa=False, not_="'in tutî'u'llezîne keferû' — şartlı uyarı (olgu=False); tarayıcı vermedi"),
+ 150: dict(kademe=None, olgu=False, cipa=False, not_="'beli'llâhu mevlâkum' — bildirim (olgu=False); tarayıcı vermedi"),
+ 151: dict(kademe=None, olgu=False, cipa=False, not_="'senulqî fî qulûbi'llezîne keferu'r-ru'b' — vaad (olgu=False); tarayıcı vermedi"),
+ 152: dict(kademe=None, olgu=False, cipa=False, not_="'ve le-qad sadeqakumu'llâhu va'deh' — olay anlatısı (olgu=False); tarayıcı vermedi"),
+ 153: dict(kademe=None, olgu=False, cipa=False, not_="'iz tus'idûn' — olay anlatısı (olgu=False); tarayıcı vermedi"),

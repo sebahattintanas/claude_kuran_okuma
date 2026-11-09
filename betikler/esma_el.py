@@ -1169,4 +1169,33 @@ KARAR = {
     '3:145:20': 'degil',  # sevâbe'l-âxira — 'fi'l-âxira' emsali → degil
     '3:145:24': 'degil',  # senczi'ş-şâkirîn — çoğul insan göndergeli → degil
     '3:148:7': 'degil',  # sevâbi'l-âxira — 'fi'l-âxira' emsali → degil
+    # sure 3 blok 149-153
+    '3:150:3': 'ilahi',  # beli'llâhu mevlâkum — lafzın haberi (onaya açık; kapalı listede yok, tam okuma sonuna)
+    '3:152:28': 'degil',  # yurîdu'l-âxira — 'fi'l-âxira' emsali → degil
+    '3:152:40': 'degil',  # 'ale'l-mu'minîn — çoğul insan göndergeli → degil
+    '3:153:6': 'degil',  # 'alâ ehadin — olumsuz nekre ehad → degil
+    '3:153:23': 'ilahi',  # ve'llâhu xabîrun — 've'llâhu X' kuralı → ilahi
+    # sure 3 blok 154-155
+    '3:154:73': 'ilahi',  # ve'llâhu 'alîmun — 've'llâhu X' kuralı → ilahi
+    '3:155:20': 'ilahi',  # inna'llâhe ğafûrun — 'inne/enne' haberi → ilahi
+    '3:155:21': 'ilahi',  # ğafûrun halîm — 'inne/enne' haberi → ilahi
+    # sure 3 blok 156-159
+    '3:156:36': 'ilahi',  # ve'llâhu bi-mâ ta'melûne basîr — 've'llâhu X' kuralı → ilahi (morph 've' CONJ)
+    # sure 3 blok 160-164
+    '3:160:18': 'degil',  # fe'l-yetevekkeli'l-mu'minûn — çoğul insan göndergeli → degil
+    '3:163:6': 'ilahi',  # ve'llâhu basîrun — 've'llâhu X' kuralı → ilahi
+    '3:164:5': 'degil',  # 'ale'l-mu'minîn — çoğul insan göndergeli → degil
+    '3:164:25': 'degil',  # dalâlin mubîn — esmâ adı esmâ dışı göndergeyle → degil (sapkınlığın sıfatı)
+    # sure 3 blok 165-169
+    '3:165:20': 'ilahi',  # inna'llâhe 'alâ kulli şey'in qadîr — 'inne/enne' haberi → ilahi
+    '3:166:9': 'degil',  # ve li-ya'leme'l-mu'minîn — çoğul insan göndergeli → degil
+    '3:169:10': 'degil',  # bel ahyâ'un — çoğul insan göndergeli → degil
+    # sure 3 blok 170-175
+    '3:171:11': 'degil',  # ecre'l-mu'minîn — çoğul insan göndergeli → degil
+    '3:173:17': 'ilahi',  # ve ni'me'l-vekîl — 'ni'me'nin övüleni, gönderge 'hasbuna'llâh'taki lafız (onaya açık; kapalı listede yok, kullanıcı kararıyla tam okuma sonuna)
+    '3:175:5': 'degil',  # yuxavvifu evliyâ'ehû — çoğul insan göndergeli → degil
+    '3:175:11': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli → degil
+    # sure 3 blok 176-179
+    '3:176:19': 'degil',  # hazzan fi'l-âxira — 'fi'l-âxira' emsali → degil
+    '3:179:5': 'degil',  # li-yezera'l-mu'minîn — çoğul insan göndergeli → degil
 }

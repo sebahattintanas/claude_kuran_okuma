@@ -1,0 +1,6 @@
+    # sure 3 blok 149-153
+    '3:150:3': 'ilahi',  # beli'llâhu mevlâkum — lafzın haberi (onaya açık; kapalı listede yok, tam okuma sonuna)
+    '3:152:28': 'degil',  # yurîdu'l-âxira — 'fi'l-âxira' emsali → degil
+    '3:152:40': 'degil',  # 'ale'l-mu'minîn — çoğul insan göndergeli → degil
+    '3:153:6': 'degil',  # 'alâ ehadin — olumsuz nekre ehad → degil
+    '3:153:23': 'ilahi',  # ve'llâhu xabîrun — 've'llâhu X' kuralı → ilahi

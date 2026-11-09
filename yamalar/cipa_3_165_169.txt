@@ -1,0 +1,6 @@
+ # blok 165-169
+ 165: dict(kademe=None, olgu=False, cipa=False, not_="'e-ve-lemmâ esâbetkum musîbe' — soru ve söz (olgu=False); tarayıcı vermedi"),
+ 166: dict(kademe=None, olgu=False, cipa=False, not_="'ve mâ esâbekum yevme'l-teqa'l-cem'ân' — olay anlatısı (olgu=False); tarayıcı vermedi"),
+ 167: dict(kademe=None, olgu=False, cipa=False, not_="'ve li-ya'leme'llezîne nâfeqû' — olay anlatısı ve söz (olgu=False); tarayıcı vermedi"),
+ 168: dict(kademe=None, olgu=False, cipa=False, not_="'fe'dra'û 'an enfusikumu'l-mevt' — meydan okuma emri, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök موت; işaret A_şart; cipa=False)"),
+ 169: dict(kademe=None, olgu=False, cipa=False, not_="'bel ahyâ'un 'inde rabbihim' — bildirim (olgu=False); tarayıcı vermedi"),

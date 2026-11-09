@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """sizinti.py — basılmamış ayet numarası sızıntı taraması. OTURUM DIŞI yardımcı.
-Regex (?<![\\d(])(\\d{1,3}:\\d{1,3})\\b ile bulunan her ayet numarası basilan.txt'te (bu oturumda Arapçası
+Regex (?<![\\d])(\\d{1,3}:\\d{1,3})\\b ile bulunan her ayet numarası basilan.txt'te (bu oturumda Arapçası
 basılmış) ya da --ek ile verilen listede (bu turda basılacak ayetler) olmalı; değilse SIZINTI.
 Şablon kod yorumlarındaki isabetler okuma metni değildir: tarama metin / kayıt / not dosyalarına uygulanır.
 Kullanım: python3 sizinti.py dosya [dosya ...] [--ek S:A S:A-B ...]"""
 import sys, re, os
 
 BASILAN = '/home/claude/sunum/basilan.txt'
-RX = re.compile(r'(?<![\d(])(\d{1,3}:\d{1,3})\b')
+RX = re.compile(r'(?<![\d])(\d{1,3}:\d{1,3})\b')
 args = sys.argv[1:]
 ek = set()
 if '--ek' in args:

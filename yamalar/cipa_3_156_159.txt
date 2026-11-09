@@ -1,0 +1,5 @@
+ # blok 156-159
+ 156: dict(kademe=None, olgu=False, cipa=False, not_="'lev kânû 'indenâ mâ mâtû ve mâ qutilû' — aktarılan söz; 've'llâhu yuhyî ve yumît' hüküm, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kökler أرض, حيي, موت; işaretler A_şart, B_ta’lîl; cipa=False)"),
+ 157: dict(kademe=None, olgu=False, cipa=False, not_="'ve le-in qutiltum fî sebîli'llâhi ev muttum' — şartlı bildirim, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök موت; işaret A_şart; cipa=False)"),
+ 158: dict(kademe=None, olgu=False, cipa=False, not_="'ve le-in muttum ev qutiltum' — şartlı bildirim, doğa iddiası yok (olgu=False); tarayıcı v4 aday verdi (kök موت; işaret A_şart; cipa=False)"),
+ 159: dict(kademe=None, olgu=False, cipa=False, not_="'fe-bi-mâ rahmetin mine'llâh' — hitap ve emir (olgu=False); tarayıcı vermedi"),
