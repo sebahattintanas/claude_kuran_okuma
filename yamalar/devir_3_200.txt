@@ -1,0 +1,32 @@
+# DEVİR NOTU — oturum 2026-11-09 (taban c75f1c2 → 7875c07 → 1e8e474) → sonraki oturum (taban: 1e8e474 + bu notu taşıyan zip; SÛRE 4, blok 1'den)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. Aşağıdaki "SONRAKİ İLK BLOK ARIZA BAŞI" maddeleri, sonraki oturumda
+# okunan açılış bloğunun (sûre 4 blok 1) ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# Ayet numaraları: YENİ oturumda basilan.txt boş başlar — ARIZA başı maddeleri NUMARASIZ; kopyaladıktan sonra sızıntı taraması.
+# Bölüm 14 (sûre 3 son bölümü) denetim bulgularının numaralı biçimi yamalar/bekleyen_ariza_3_b41.txt'tedir;
+# o dosya sûre 4'e KOPYALANMAZ (sızıntı) — yerine aşağıdaki numarasız özet kopyalanır.
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak maddeler)
+
+  "devir: önceki oturum (taban c75f1c2) sûre 3'ün blok planında blok 38-41'i okudu (bölüm 13'ün kalanı ve bölüm 14); bölüm 13 ve bölüm 14 sonunda bağımsız denetim yapıldı, bulgular kayıtlara geriye dönük yazılmadı; sûre 3 kapanışı kullanıcıyla yapıldı (al_imran_kapanis.py / al_imran_paket_md.py; blok listesi uret_blok_3.BLOKLAR ile birebir, esmâ ön koşulunda sûre numarası düzeltildi, on eski blok özeti '_eski_ozet' altına taşındı); sûre 4 dosya ailesi iskele_4.py ile kuruldu (nisa_metin_1, nisa_kayit, uret_blok_4, aday_ekle_4_nisa / AX_nisa, AS_nisa, kok_ekle_4, duzeltme_4, yama_retroaktif_gloss_4, nisa_kapanis, nisa_paket_md) ve blok planı (yamalar/blok_plani_4.txt) kullanıcı onayıyla yazıldı; meal ve yorum kararları kullanıcı kararıyla tam okuma sonuna bırakıldı",
+  "bölüm denetimi (sûre 3 bölüm 14, bağımsız ajan, 2026-11-09; numaralı biçimi yamalar/bekleyen_ariza_3_b41.txt) — DOĞRULANMIŞ: ◇ lafız dizisinde iki masdara bab yazılmış (ölçüm bab toplamı yalnız fiilleri sayıyor); bir 'okuma (gözlem)' maddesinde konum hatası (bir dizi ayetin hepsinin 'rabbenâ' ile başladığı söylenmiş, biri başka sözcükle başlıyor) — geriye dönük düzeltilmedi, tam okuma sonu listesine; OLASI: mealde karşılıksız iyelik eki kaydı; izafetle mecrur ilgi zamiri; sayılmamış bağ kalıpları; 'iki yerde' biçimli eş edat kayıtları; açılım takdiri eksikleri; gereksiz bir ◈B notu",
+  "yeni kurallar (sûre 3 bölüm 13 ve bölüm 14 denetimlerinden; sûre 4 boyunca geçerli): mealde Arapça mef'ûl / zamir Türkçede '-e' / '-den' ile verilirse 'fiil yönetimi takdiri' her seferinde yazılır; gelecek / geniş zaman biçimine eklenen '-tır/-tir' takdir olarak yazılır; bir cümlede birden çok eş edat varsa her kayıt konumla yazılır, 'iki yerde' yazılmaz; mealde karşılıksız kalan iyelik / zamir ekleri ('-ke', '-hum') meal maddesine yazılır; ölçüm baskın şahsı '—' ise A4'te şahıs geçişi yazılmaz, ARIZA A4 maddesinde not edilir; 'qâle'siz söz biçimli içerik (mîsâk / ahit / dua / icabet içeriği) A3'e '(söz biçimli içerik)' diye yazılır, A4'te 'söz açılır' yazılmaz, ARIZA söz / tırnak maddesinde not edilir; 'min' + ilgi zamiri ve izafetle mecrur ilgi zamiri A1'de yazılmaz, ARIZA'da §8 'mecrur ilgi zamiri' kapsamında anılır; bağ kuralında anılan her kalıp (parantez içi örnek dahil) sayılır, sayılmayan gerekçe '(sayım dışı — anlatı bağı)' diye işaretlenir; ◇ lafız dizisinde bab yalnız fiillere yazılır, ◇ bab etiketleri ölçüm bab toplamıyla betikle karşılaştırılır; 'okuma (gözlem)' maddesindeki sayısal / konumsal iddialar metin ya da morph üzerinden denetlenir; ◈B B3'te duyu fiilleri not gerektirmez; satır aynen denetimine sunum/satir_aynen_tam.py (örüntü tabanlı tam tarama) eşlik eder",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: 3:180-200 (blok 38-41). Bölüm 13 (blok 37-39) ve bölüm 14 (blok 40-41) kapandı; sûre 3 TAM. Bölüm 13 denetimi: DOĞRULANMIŞ 2 · OLASI 8 (bekleyen_ariza_3_b39.txt); bölüm 14 denetimi: DOĞRULANMIŞ 2 · OLASI 6 (bekleyen_ariza_3_b41.txt).
+- Sûre 3 kapanışı: '_bilanco_sure', '_cipa_tablosu_3', '_esma_profil_3', '_kapanis_notu' (betikler/al_imran_kapanis_notu.txt), '_eski_ozet' (on dizge); paket notlar/sure3_al_imran_okuma.md.
+- Sayaçlar: okunan 5494 / 6236 (%88,1; sûre 1, 2, 3, 9-114 TAM); kok_turkce 1591; esmâ KARAR 1000; AS_al_imran 686; aday havuzu 1–1042 (sonraki 1043; sûre 3'te aday açılmadı); mercek arşivi (sûre 3) 48.
+- Fark zip'leri: fark_7875c07_sure3_189, fark_7875c07_sure3_200 (kapanış dahil) → yüklendi, 1e8e474 taze klonla doğrulandı (fark 0). Oturum sonu zip'i: fark_1e8e474_sure4_hazirlik (sûre 4 dosya ailesi + plan + bu not + yeni protokol).
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Sûre 3 bölüm 13 DOĞRULANMIŞ: '-e' fiil yönetimi takdiri eksikleri (3:183, 3:185); 3:178 eş 'li' konumsuz.
+2. Sûre 3 bölüm 14 DOĞRULANMIŞ: masdara bab (3:190, 3:196); 3:191 'okuma (gözlem)' konum hatası.
+3. OLASI bulgular: bekleyen_ariza_3_b39.txt ve bekleyen_ariza_3_b41.txt.
+4. Ölüm bildirimi ('kullu nefsin zâ'iqatu'l-mevt', 3:185) çıpa kademesi L0 / L1 (olgu=False yazıldı, onaya açık).
+5. ''ve'llâhu X' + morph CONJ (3:189 da).
+6. 'lâ yahsebenne / lâ tahsebenne' yapısında morph NEG / PRO etiket farkı (3:178, 3:180, 3:188).
+7. esma_kayit'in 'degil' işaretli adları mühüre sayması (3:192, 3:193, 3:198; sûre 3 profilinde 'muhur_43_yanlis' 26 ayet).
+8. A4 kapalı listesinde 'sûre kapanışı' etiketi yok (3:200'e 'bölüm kapanışı' yazıldı).
+9. devir_3_179.txt'teki liste aynen sürer.
+
+## Kullanıcıya hatırlatma (elle yapılacak)
+- Kökteki `esma_kayit.json` ve `kok_turkce.json` kopyaları (doğruları `tablolar/` altında) ve kökteki `SILINECEKLER.txt`'te listelenen bozuk adlı dosyalar elle silinir.
