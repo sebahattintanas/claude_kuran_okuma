@@ -1,0 +1,29 @@
+# DEVİR NOTU — oturum 2026-11-09/10 (taban 1e8e474 → 456eb37 → adedf7b) → sonraki oturum (taban: adedf7b + bu notu taşıyan zip; SÛRE 4, blok 10'dan)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. Aşağıdaki "SONRAKİ İLK BLOK ARIZA BAŞI" maddeleri, sonraki oturumda
+# okunan açılış bloğunun (sûre 4 blok 10 = bölüm 5 açılışı) ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# Ayet numaraları: YENİ oturumda basilan.txt boş başlar — ARIZA başı maddeleri NUMARASIZ; kopyaladıktan sonra sızıntı taraması.
+# Bölüm 4 denetim bulgularının numaralı biçimi yamalar/bekleyen_ariza_4_b09.txt'tedir;
+# o dosya blok 10'a KOPYALANMAZ (sızıntı) — yerine aşağıdaki numarasız özet kopyalanır.
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak maddeler)
+
+  "devir: önceki oturum (taban 1e8e474) sûre 4'ün blok planında blok 1-9'u okudu (bölüm 1-4); her bölüm sonunda bağımsız denetim yapıldı, bulgular kayıtlara geriye dönük yazılmadı (numaralı biçimleri yamalar/bekleyen_ariza_4_b02.txt, b05, b07, b09); kullanıcı esmâ kararları: ''inne/enne' haberi → ilahi' 'kâne' aracılı yapıya ('inne + lafız + kâne + haber') uygulandı (onaya açık); yeni kural ''kefâ bi'llâhi X' temyizi → ilahi' (onaya açık); 've kâna'llâhu X' (lafzın haberi) her çıkışta sorulur — bir konumda kullanıcı 'kararsız bırak' dedi, esma_el satırı yazılmadı (bilinçli sapma); aralık anahtarlı eski mercek notları pipeline tarafından arşivlenmiyor, ARIZA'da anıldı, sûre kapanışında ele alınacak",
+  "bölüm denetimi (sûre 4 bölüm 4, bağımsız ajan, 2026-11-10; numaralı biçimi yamalar/bekleyen_ariza_4_b09.txt) — DOĞRULANMIŞ: bir kelimede خ 'x' yerine 'h' yazılmış (transliterasyon yalnız lemma adlarında denetlenmişti); bir ◈D D1 dizisinde morph INDEF taşımayan iki ortaca 'nekre' yazılmış ve lafız atlanmış; üç meal maddesinde açılım adı ◇ / bağdaki morph lemma adından farklı; sözdizimi ve okuma maddelerinde iki sayısal hata (öğe sayısı; lemma sayısı yerine kök sayısı); meal maddelerinde eş öğe ve takdir eksikleri; bir ayetin 1. kelimesindeki 've' söz / tırnak maddesinde atlanmış; bir nakarat3 kalıbı iki blokta farklı tabanla karşılaştırılıp çelişen R5 hükmü verilmiş — geriye dönük düzeltilmedi, tam okuma sonu listesine; OLASI: iyelik eklerinin konumla yazımı bloklar arasında tutarsız; açılım adlarının bir kısmı sözlük biçiminden; önek kesilmiş bir sayım 'harekesiz' diye anılmış; bir emsalin bağı yok; bir A4'te 'şahıs geçişi yok' yazılmamış",
+  "yeni kurallar (sûre 4 bölüm 1-4 denetimlerinden; sûre 4 boyunca geçerli): transliterasyon denetimi bütün kelime biçimlerine (◇ ve ARIZA) betikle uygulanır; 'nekre' kuralı ◈D D1'de de uygulanır, D1 öğeleri kelime dizisiyle eşlenip atlanan öğe (lafız dahil) kalmadığı denetlenir; meal maddesinde anılan lemma adı ◇ ve bağdaki morph lemma adıyla birebir yazılır; söz / tırnak maddesinde 've' / 'fe' önekli her kelime 1. kelime dahil konumla listelenir; sayısal iddialar ('N öğeli', 'lemma X N konumda') morph ve say2 ile denetlenir, kök sayısı ile lemma sayısı ayrı yazılır; R5'te nakarat3 karşılaştırması ortak tabanla yapılır, önceki hükümle çelişen hüküm gerekçeyle yazılır; iyelik eki karşılıkları her blokta konumla yazılır; hâl ortaçlarının açılımı, kesir / sayı açılımları ve iyelik takdirleri her konumda; lemma adları morph harekesinden son hareke dahil; morph VN nekre ise 'nekre masdar'; 'kâne / leyse' nekre özne istisnası yalnız 'şey''; '(adsız)' adlandırılmış isim öbeğine yazılmaz; bağ parantezinde biçim yok, yalnız sayılan lemma / kalıp adı; 'izâ' (morph T) 'zaman' diye anılır; R5 iddiaları sayım çıktısıyla denetlenir; 'açılıyor / kapanıyor' iddiaları kelime numarası taşır; emir kipli 'qâle' + 'li' muhatabı A1'e yazılır",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: 4:1-28 (blok 1-9; bölüm 1-4 kapandı). Bölüm denetimleri: b02, b05, b07, b09 (bekleyen_ariza_4_*.txt).
+- Sayaçlar: okunan 5522 / 6236 (%88,6); kok_turkce 1598; esmâ KARAR 1021; AS_nisa 135; aday havuzu 1–1042 (sonraki 1043; sûre 4'te aday açılmadı); mercek arşivi (sûre 4) 10.
+- Fark zip'i fark_456eb37_sure4_28 yüklendi → adedf7b, taze klonla doğrulandı (diff 0).
+- Yardımcılar repo'ya alındı: sunum/kes.py (yer tutucu kesici: {{n|regex}} → ölçüm satırından alıntı; OLC ortam değişkeni), sunum/kontrol.py (D3⇔bag, A1⇔◇, bab; kullanım: python3 sunum/kontrol.py A B NN), sunum/say.sh.
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Bölüm 1-4 DOĞRULANMIŞ ve OLASI bulguları: bekleyen_ariza_4_b02.txt, b05, b07, b09 (geriye dönük düzeltilmedi; ör. 'ehavâtukum' → 'exavâtukum', 4:24 D1).
+2. Onaya açık esmâ kuralları: 'inne + lafız + kâne + haber' → 'inne/enne' haberi; 'kefâ bi'llâhi X' temyizi; 4:17 've kâna'llâhu X' kararsız (e_el boş).
+3. 4:28 çıpa L0, olgu=True (insanın zayıf yaratılması) onaya açık.
+4. Aralık anahtarlı eski mercek notları ('4:13-14', '4:17-18', '4:26-28') — pipeline arşivlemiyor; sûre kapanışında.
+5. Ölçüm araç farkları (R5): nakarat3 ↔ harekesiz sayım; fâsıla geçişinde 'KAFİYE KIRILMASI' işareti yok (4:12, 4:25, 4:27); ölçüm 'bağ: YOK' ↔ lemma bağları; 'rabâ'ib' Rab sayımı.
+6. devir_3_200.txt ve devir_3_179.txt listeleri aynen sürer.
+
+## Kullanıcıya hatırlatma (elle yapılacak)
+- Kökteki `esma_kayit.json` ve `kok_turkce.json` kopyaları (doğruları `tablolar/` altında) hâlâ depoda — elle silinir.
