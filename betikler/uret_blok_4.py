@@ -15,8 +15,17 @@ S = 4
 METIN = 'nisa_metin_1'
 KAYIT = 'nisa_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = []
+BLOKLAR = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28)]
 BASLIK = {
+ (1, 5): "4:1-5 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
+ (6, 10): "4:6-10 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
+ (11, 11): "4:11-11 — Miras payları ve Allah'ın sınırları",
+ (12, 12): "4:12-12 — Miras payları ve Allah'ın sınırları",
+ (13, 14): "4:13-14 — Miras payları ve Allah'ın sınırları",
+ (15, 18): "4:15-18 — Hayâsızlığın cezası; tövbe; kadınlarla güzel geçim; evlenme yasakları",
+ (19, 22): "4:19-22 — Hayâsızlığın cezası; tövbe; kadınlarla güzel geçim; evlenme yasakları",
+ (23, 24): "4:23-24 — Evlenilmesi yasak olanlar; evlilik izni; Allah'ın hafifletmesi",
+ (25, 28): "4:25-28 — 4:25-28 — Evlenilmesi yasak olanlar; evlilik izni; Allah'ın hafifletmesi",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

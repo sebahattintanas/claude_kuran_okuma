@@ -1208,4 +1208,33 @@ KARAR = {
     '3:193:20': 'degil',  # me'a'l-ebrâr — çoğul insan göndergeli → degil
     # sure 3 blok 195-200
     '3:198:21': 'degil',  # li'l-ebrâr — çoğul insan göndergeli → degil
+    # sure 4 blok 1-5
+    '4:1:28': 'ilahi',  # inna'llâhe kâne 'aleykum raqîbâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:2:16': 'degil',  # hûben kebîrâ — esmâ adı esmâ dışı göndergeyle → degil (günahın sıfatı)
+    # sure 4 blok 6-10
+    '4:6:22': 'degil',  # men kâne ğaniyyen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli tekil)
+    '4:6:37': 'ilahi',  # ve kefâ bi'llâhi hasîbâ — 'kefâ bi'llâhi X' temyizi → ilahi (kullanıcı kararı, onaya açık)
+    # sure 4 blok 11-11
+    '4:11:70': 'ilahi',  # inna'llâhe kâne 'alîmen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:11:71': 'ilahi',  # inna'llâhe kâne 'alîmen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    # sure 4 blok 12-12
+    '4:12:87': 'ilahi',  # ve'llâhu 'alîmun halîm — 've'llâhu X' kuralı → ilahi
+    '4:12:88': 'ilahi',  # ve'llâhu 'alîmun halîm — 've'llâhu X' kuralı → ilahi
+    # sure 4 blok 15-18
+    '4:16:13': 'ilahi',  # inna'llâhe kâne tevvâben rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:16:14': 'ilahi',  # inna'llâhe kâne tevvâben rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:17:12': 'degil',  # min qarîbin — esmâ adı esmâ dışı göndergeyle → degil (zaman göndergeli)
+    '4:18:9': 'degil',  # ehadehumu'l-mevtu — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli)
+    # sure 4 blok 19-22
+    '4:20:17': 'degil',  # buhtânen ve ismen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (günahın sıfatı)
+    # sure 4 blok 23-24
+    '4:23:53': 'ilahi',  # inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:23:54': 'ilahi',  # inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:24:41': 'ilahi',  # inna'llâhe kâne 'alîmen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:24:42': 'ilahi',  # inna'llâhe kâne 'alîmen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    # sure 4 blok 25-28
+    '4:25:57': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi
+    '4:25:58': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi
+    '4:26:13': 'ilahi',  # ve'llâhu 'alîmun hakîm — 've'llâhu X' kuralı → ilahi
+    '4:26:14': 'ilahi',  # ve'llâhu 'alîmun hakîm — 've'llâhu X' kuralı → ilahi
 }
