@@ -1,0 +1,5 @@
+ # blok 25-28
+ 25: dict(kademe=None, olgu=False, cipa=False, not_="'fe'nkihûhunne bi-izni ehlihinne' — emir, hüküm (olgu=False); tarayıcı vermedi"),
+ 26: dict(kademe=None, olgu=False, cipa=False, not_="'yurîdu'llâhu li-yubeyyine lekum' — ilahi irade bildirimi (olgu=False); tarayıcı vermedi"),
+ 27: dict(kademe=None, olgu=False, cipa=False, not_="'ve yurîdu'llezîne yettebi'ûne'ş-şehevât' — irade karşıtlığı (olgu=False); tarayıcı vermedi"),
+ 28: dict(kademe='L0', olgu=True, cipa=False, not_="'ve xuliqa'l-insânu da'îfâ' — insanın zayıf yaratılması adlanıyor; süreç / madde / aşama yok — L0 (onaya açık); tarayıcı vermedi"),

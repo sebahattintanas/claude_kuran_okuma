@@ -1,0 +1,6 @@
+ # blok 1-5
+ 1: dict(kademe='L1', olgu=True, cipa=False, not_="'xalaqakum min nefsin vâhidetin ve xalaqa minhâ zevcehâ ve besse minhumâ ricâlen kesîran ve nisâ'' — yaratma, nesne 2MP; bir can → eş → çok erkek ve kadın sırası adlı; madde / aşama / mekanizma yok — L1 (okunmuş bir yaratma kaydı emsali, sûre 2); tarayıcı v4 aday verdi (kökler خلق, زوج; işaret F_ölçü; cipa=False)"),
+ 2: dict(kademe=None, olgu=False, cipa=False, not_="'ve âtu'l-yetâmâ emvâlehum' — emir, yasak (olgu=False); tarayıcı vermedi"),
+ 3: dict(kademe=None, olgu=False, cipa=False, not_="'mesnâ ve sulâse ve rubâ'' — evlilik hükmünde sayı, ölçü iddiası değil (olgu=False); tarayıcı v4 aday verdi (kök yok; işaretler A_şart, F_ölçü; cipa=False)"),
+ 4: dict(kademe=None, olgu=False, cipa=False, not_="'ve âtu'n-nisâ'e saduqâtihinne nihle' — emir (olgu=False); tarayıcı vermedi"),
+ 5: dict(kademe=None, olgu=False, cipa=False, not_="'ve lâ tu'tu's-sufehâ'e emvâlekum' — yasak ve emir (olgu=False); tarayıcı vermedi"),

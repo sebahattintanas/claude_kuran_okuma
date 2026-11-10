@@ -1,0 +1,5 @@
+ # blok 19-22
+ 19: dict(kademe=None, olgu=False, cipa=False, not_="'ve yec'ala'llâhu fîhi xayran kesîrâ' — hüküm, nicelik sıfatı, ölçü iddiası değil (olgu=False); tarayıcı v4 aday verdi (kök yok; işaretler A_şart, B_ta'lîl, F_ölçü; cipa=False)"),
+ 20: dict(kademe=None, olgu=False, cipa=False, not_="'ve âteytum ihdâhunne qıntârâ' — mal miktarı, ölçü iddiası değil (olgu=False); tarayıcı v4 aday verdi (kök زوج; işaretler A_şart, F_ölçü; cipa=False)"),
+ 21: dict(kademe=None, olgu=False, cipa=False, not_="'ve qad efdâ ba'dukum ilâ ba'd' — evlilik birleşmesi, süreç / ölçü anlatılmıyor (olgu=False); tarayıcı vermedi"),
+ 22: dict(kademe=None, olgu=False, cipa=False, not_="'ve lâ tenkihû mâ nekaha âbâ'ukum' — yasak (olgu=False); tarayıcı vermedi"),
