@@ -30,5 +30,8 @@
 ## Açık soru (kullanıcıya, ilgili yapı çıkınca DUR-sor)
 - Ayetler arası şart / cevap ('lev …' şartı ile 'izen le-' cevabı ayrı ayetlerde): A4'te 'şart → cevap (ayetler arası)' yazılsın mı?
 
+## Dosya boyutu
+- notlar/okuma_metni.json girintili hâliyle 25 MiB web yükleme sınırını aştı (26,6 MB); oturum zip'ine sıkıştırılmış JSON olarak girdi (24,6 MiB; içerik aynı). Pipeline yeniden girintili yazar — her zip'ten önce sıkıştırılır (protokol §6); sınır yakında sıkıştırılmış hâlde de aşılacak: git komut satırı / GitHub Desktop önerilir.
+
 ## Kullanıcıya hatırlatma (elle yapılacak)
 - Kökteki `esma_kayit.json` ve `kok_turkce.json` kopyaları (doğruları `tablolar/` altında) hâlâ depoda — elle silinir.
