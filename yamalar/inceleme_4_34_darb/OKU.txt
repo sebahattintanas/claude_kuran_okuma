@@ -1,0 +1,5 @@
+4:34 yakın okuma (kullanıcı isteği, 2026-11-10) — kök ضرب çerçeve sınıflaması (sayım dışı).
+cikar.py: calisma/morph.txt'ten ROOT:ضرب geçişlerini bağlamıyla darb.json'a çıkarır (darb.json depoya konmadı; betikle yeniden üretilir).
+sinifla_darb.py: geçişleri edat / nesne çerçevesine göre sınıflar; harekeli önek eşlemesinin kaçırdığı iki çerçeve harekesiz kuralla eklendi (kod içinde açıklamalı); çıktıda yalnız basılmış ayetler numaralı, öbürleri (okunmuş) / (okunmamış).
+cikti.txt: sınıflama çıktısı. emsal_darb.txt: basılan temsilci okunmuş ayetler (AR + meal).
+Kayıt: yamalar/bekleyen_ariza_4_b11.txt 'okuma notu' maddesi (blok 12 ARIZA başı).

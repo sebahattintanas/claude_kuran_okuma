@@ -1,0 +1,5 @@
+ # blok 36-39
+ 36: dict(kademe=None, olgu=False, cipa=False, not_="'ve'budu'llâhe ve lâ tuşrikû bihî şey'en' — emir / yasak, hüküm (olgu=False); tarayıcı vermedi"),
+ 37: dict(kademe=None, olgu=False, cipa=False, not_="'ve a'tednâ li'l-kâfirîne 'azâben muhînâ' — ahiret bildirimi (olgu=False); tarayıcı vermedi"),
+ 38: dict(kademe=None, olgu=False, cipa=False, not_="'ve men yekuni'ş-şeytânu lehû qarînen' — şart, değerlendirme (olgu=False); tarayıcı vermedi"),
+ 39: dict(kademe=None, olgu=False, cipa=False, not_="'ve mâzâ 'aleyhim lev âmenû' — soru, şart (olgu=False); tarayıcı vermedi"),

@@ -1,0 +1,4 @@
+4:36 yakın okuma (kullanıcı isteği, 2026-11-10) — yakınlık / ihtiyaç listelerinin öğe ve sıra karşılaştırması (sayım dışı).
+liste.py: calisma/morph.txt'ten ana öğelerden (vâlid, qurbâ / aqrab, yetîm, miskîn, ibnü's-sebîl) en az üçünü taşıyan ayetleri ve öğe sırasını çıkarır; 've' CONJ yoğunluğunu sayar. Arapça dizgiler \u kaçışlı (anahtar denetimi).
+cikti.txt: çıktı (yalnız basılmış ayetler numaralı). emsal_dizi.txt: basılan karşılaştırma ayetleri (AR + meal).
+Kayıt: yamalar/ariza_4_40_43.txt 'okuma notu (4:36 dizisi)' maddesi.
