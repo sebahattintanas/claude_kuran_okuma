@@ -15,7 +15,7 @@ S = 4
 METIN = 'nisa_metin_1'
 KAYIT = 'nisa_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28)]
+BLOKLAR = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28), (29, 32), (33, 35), (36, 39), (40, 43), (44, 47), (48, 52), (53, 57), (58, 60), (61, 64), (65, 70)]
 BASLIK = {
  (1, 5): "4:1-5 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
  (6, 10): "4:6-10 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
@@ -26,6 +26,16 @@ BASLIK = {
  (19, 22): "4:19-22 — Hayâsızlığın cezası; tövbe; kadınlarla güzel geçim; evlenme yasakları",
  (23, 24): "4:23-24 — Evlenilmesi yasak olanlar; evlilik izni; Allah'ın hafifletmesi",
  (25, 28): "4:25-28 — 4:25-28 — Evlenilmesi yasak olanlar; evlilik izni; Allah'ın hafifletmesi",
+ (29, 32): "4:29-32 — Malları haksız yere yememe; büyük günahlar; aile içi düzen ve hakem",
+ (33, 35): "4:33-35 — Malları haksız yere yememe; büyük günahlar; aile içi düzen ve hakem",
+ (36, 39): "4:36-39 — Ana babaya ve yakınlara iyilik; cimriler ve gösterişçiler; namaz ve teyemmüm",
+ (40, 43): "4:40-43 — Ana babaya ve yakınlara iyilik; cimriler ve gösterişçiler; namaz ve teyemmüm",
+ (44, 47): "4:44-47 — Kitap ehlinden bir kesim; şirkin bağışlanmaması; ateş ve cennet",
+ (48, 52): "4:48-52 — Kitap ehlinden bir kesim; şirkin bağışlanmaması; ateş ve cennet",
+ (53, 57): "4:53-57 — Kitap ehlinden bir kesim; şirkin bağışlanmaması; ateş ve cennet",
+ (58, 60): "4:58-60 — Emanet ve adalet; itaat; tâğûta başvuranlar; itaat edenlerin yeri",
+ (61, 64): "4:61-64 — Emanet ve adalet; itaat; tâğûta başvuranlar; itaat edenlerin yeri",
+ (65, 70): "4:65-70 — Emanet ve adalet; itaat; tâğûta başvuranlar; itaat edenlerin yeri",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

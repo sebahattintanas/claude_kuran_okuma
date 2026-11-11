@@ -1237,4 +1237,42 @@ KARAR = {
     '4:25:58': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi
     '4:26:13': 'ilahi',  # ve'llâhu 'alîmun hakîm — 've'llâhu X' kuralı → ilahi
     '4:26:14': 'ilahi',  # ve'llâhu 'alîmun hakîm — 've'llâhu X' kuralı → ilahi
+    # sure 4 blok 29-32
+    '4:29:23': 'ilahi',  # inna'llâhe kâne bikum rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:31:12': 'degil',  # mudxalen kerîmâ — esmâ adı esmâ dışı göndergeyle → degil (giriş yerinin sıfatı)
+    '4:32:27': 'ilahi',  # inna'llâhe kâne bi-kulli şey'in 'alîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    # sure 4 blok 33-35
+    '4:33:19': 'ilahi',  # inna'llâhe kâne 'alâ kulli şey'in şehîdâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:34:39': 'ilahi',  # inna'llâhe kâne 'aliyyen kebîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:34:40': 'ilahi',  # inna'llâhe kâne 'aliyyen kebîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:35:21': 'ilahi',  # inna'llâhe kâne 'alîmen xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    '4:35:22': 'ilahi',  # inna'llâhe kâne 'alîmen xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; kullanıcı kararı, onaya açık)
+    # sure 4 blok 36-39
+    '4:38:11': 'degil',  # bi'l-yevmi'l-âxir — 'fi'l-âxira' emsali → degil (gün sıfatı)
+    '4:39:7': 'degil',  # bi'llâhi ve'l-yevmi'l-âxir — 'fi'l-âxira' emsali → degil (gün sıfatı)
+    # sure 4 blok 40-43
+    '4:41:7': 'degil',  # bi-şehîdin ve şehîdâ — esmâ adı esmâ dışı göndergeyle → degil (tanık)
+    '4:41:12': 'degil',  # bi-şehîdin ve şehîdâ — esmâ adı esmâ dışı göndergeyle → degil (tanık)
+    '4:43:28': 'degil',  # ehadun minkum — esmâ adı esmâ dışı göndergeyle → degil (biriniz)
+    '4:43:47': 'ilahi',  # inna'llâhe kâne 'afuvven ğafûrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:43:48': 'ilahi',  # inna'llâhe kâne 'afuvven ğafûrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 44-47
+    '4:45:6': 'ilahi',  # ve kefâ bi'llâhi veliyyen ve kefâ bi'llâhi nasîrâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    '4:45:9': 'ilahi',  # ve kefâ bi'llâhi veliyyen ve kefâ bi'llâhi nasîrâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 48-52
+    '4:50:10': 'degil',  # ve kefâ bihî ismen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (günahın sıfatı)
+    '4:52:11': 'degil',  # fe-len tecide lehû nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (lanetlenen için bulunmayan yardımcı)
+    # sure 4 blok 53-57
+    '4:56:19': 'ilahi',  # inna'llâhe kâne 'azîzen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:56:20': 'ilahi',  # inna'llâhe kâne 'azîzen hakîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 58-60
+    '4:58:24': 'ilahi',  # inna'llâhe kâne semî'an basîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:58:25': 'ilahi',  # inna'llâhe kâne semî'an basîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:59:24': 'degil',  # bi'llâhi ve'l-yevmi'l-âxir — 'fi'l-âxira' emsali → degil (gün sıfatı)
+    # sure 4 blok 61-64
+    '4:64:22': 'ilahi',  # le-vecedu'llâhe tevvâben rahîmâ — 'vecede'llâhe X' mef'ûlü → ilahi (sûre 4 blok 18 kullanıcı kararı, onaya açık)
+    '4:64:23': 'ilahi',  # le-vecedu'llâhe tevvâben rahîmâ — 'vecede'llâhe X' mef'ûlü → ilahi (sûre 4 blok 18 kullanıcı kararı, onaya açık)
+    # sure 4 blok 65-70
+    '4:69:14': 'degil',  # mine'n-nebiyyîne ve's-sıddîqîne ve'ş-şuhedâ'i — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli, çoğul)
+    '4:70:7': 'ilahi',  # ve kefâ bi'llâhi 'alîmâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
 }
