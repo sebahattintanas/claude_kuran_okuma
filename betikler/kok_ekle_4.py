@@ -27,6 +27,12 @@ ISTEK = [
     ('جبت', "cibt ('el-cibt'); tâğût ile birlikte anılan batıl tapınç nesnesi, anlamı tartışmalı; 1 ayet"),
     # blok 53-57
     ('نضج', "pişme, olgunlaşma ('nadicet'); 1 ayet"),
+    # blok 71-75
+    ('ثبي', "bölük, ayrı küme ('subât'); 1 ayet"),
+    ('بطأ', "ağırdan alma, geri kalma ('le-yubatti'enne'); 1 ayet"),
+    # blok 79-83
+    ('ذيع', "yayma, duyurma ('ezâ'û'); 1 ayet"),
+    ('نبط', "çıkarma, içinden çıkarıp anlama ('yestenbitûnehû'); 1 ayet"),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

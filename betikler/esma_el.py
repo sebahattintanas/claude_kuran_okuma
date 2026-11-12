@@ -1275,4 +1275,21 @@ KARAR = {
     # sure 4 blok 65-70
     '4:69:14': 'degil',  # mine'n-nebiyyîne ve's-sıddîqîne ve'ş-şuhedâ'i — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli, çoğul)
     '4:70:7': 'ilahi',  # ve kefâ bi'llâhi 'alîmâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 71-75
+    '4:72:17': 'degil',  # iz lem ekun ma'ahum şehîdâ — esmâ adı esmâ dışı göndergeyle → degil (söz içi konuşan 1S göndergeli)
+    '4:74:9': 'degil',  # bi'l-âxirati — 'fi'l-âxira' emsali → degil (dünya hayatının karşıtı)
+    '4:75:26': 'degil',  # ve'c'al lenâ min ledunke veliyyen — esmâ adı esmâ dışı göndergeyle → degil (kılınması istenen dost)
+    '4:75:31': 'degil',  # ve'c'al lenâ min ledunke nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (kılınması istenen yardımcı)
+    # sure 4 blok 76-78
+    '4:76:14': 'degil',  # evliyâ'e'ş-şeytâni — çoğul insan göndergeli → degil
+    '4:77:37': 'degil',  # ilâ ecelin qarîbin — esmâ adı esmâ dışı göndergeyle → degil (sürenin sıfatı)
+    '4:77:42': 'degil',  # ve'l-âxiratu xayrun — 'fi'l-âxira' emsali → degil (dünyanın karşıtı)
+    # sure 4 blok 79-83
+    '4:79:18': 'ilahi',  # ve kefâ bi'llâhi şehîdâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    '4:80:12': 'degil',  # fe-mâ erselnâke 'aleyhim hafîzâ — esmâ adı esmâ dışı göndergeyle → degil (gönderilen muhatap 2MS göndergeli)
+    '4:81:24': 'ilahi',  # ve kefâ bi'llâhi vekîlâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 84-87
+    '4:84:10': 'degil',  # ve harridi'l-mu'minîne — çoğul insan göndergeli → degil
+    '4:85:22': 'ilahi',  # ve kâna'llâhu 'alâ kulli şey'in muqîtâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23 kullanıcı kararı, onaya açık)
+    '4:86:15': 'ilahi',  # inna'llâhe kâne 'alâ kulli şey'in hasîbâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
 }
