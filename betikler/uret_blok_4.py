@@ -15,7 +15,7 @@ S = 4
 METIN = 'nisa_metin_1'
 KAYIT = 'nisa_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28), (29, 32), (33, 35), (36, 39), (40, 43), (44, 47), (48, 52), (53, 57), (58, 60), (61, 64), (65, 70), (71, 75), (76, 78), (79, 83), (84, 87), (88, 90), (91, 92), (93, 96), (97, 101), (102, 104)]
+BLOKLAR = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28), (29, 32), (33, 35), (36, 39), (40, 43), (44, 47), (48, 52), (53, 57), (58, 60), (61, 64), (65, 70), (71, 75), (76, 78), (79, 83), (84, 87), (88, 90), (91, 92), (93, 96), (97, 101), (102, 104), (105, 111)]
 BASLIK = {
  (1, 5): "4:1-5 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
  (6, 10): "4:6-10 — Tek nefisten yaratılış; yetimlerin malları; evlilik ve mehir",
@@ -45,6 +45,7 @@ BASLIK = {
  (93, 96): "4:93-96 — Münafıklar hakkında ayrılık; öldürme ve diyet; hicret; korku namazı",
  (97, 101): "4:97-101 — Münafıklar hakkında ayrılık; öldürme ve diyet; hicret; korku namazı",
  (102, 104): "4:102-104 — Münafıklar hakkında ayrılık; öldürme ve diyet; hicret; korku namazı",
+ (105, 111): "4:105-111 — Hainleri savunmama; gizli konuşma; elçiye muhalefet",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

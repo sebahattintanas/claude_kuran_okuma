@@ -1,0 +1,8 @@
+ # blok 105-111
+ 105: dict(kademe=None, olgu=False, cipa=False, not_="'innâ enzelnâ ileyke'l-kitâbe bi'l-haqqi' — indirme ve hüküm bildirimi, yasak (olgu=False); tarayıcı vermedi"),
+ 106: dict(kademe=None, olgu=False, cipa=False, not_="'ve'steğfiri'llâhe' — emir ve esmâ bildirimi (olgu=False); tarayıcı vermedi"),
+ 107: dict(kademe=None, olgu=False, cipa=False, not_="'ve lâ tucâdil 'ani'llezîne yextânûne enfusehum' — yasak ve sevmeme bildirimi (olgu=False); tarayıcı vermedi"),
+ 108: dict(kademe=None, olgu=False, cipa=False, not_="'yestexfûne mine'n-nâsi' — gizlenme ve kuşatma bildirimi (olgu=False); tarayıcı vermedi"),
+ 109: dict(kademe=None, olgu=False, cipa=False, not_="'fe-men yucâdilu'llâhe 'anhum yevme'l-qiyâmeti' — soru (olgu=False); tarayıcı vermedi"),
+ 110: dict(kademe=None, olgu=False, cipa=False, not_="'yecidi'llâhe ğafûran rahîmâ' — şart ve vaat (olgu=False); tarayıcı vermedi"),
+ 111: dict(kademe=None, olgu=False, cipa=False, not_="'fe-innemâ yeksibuhû 'alâ nefsihî' — şart ve sorumluluk bildirimi (olgu=False); tarayıcı vermedi"),

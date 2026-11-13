@@ -20,6 +20,13 @@ for n in range(A, B + 1):
     t = M[n].split('\n')[0]; t = t[t.index('Karşıt çift'):]
     for x in re.findall(r"'([^']+(?:'[a-zâîû][^']*)*)'", t):
         if x not in alltr: bad += 1; print('◇1039', n, x)
+# bölüm 10 denetimi kuralı 14: A4 alıntıları üç nokta taşımaz ve ◇ alt dizesidir
+for n in range(A, B + 1):
+    a4 = M[n][M[n].index('◈A'):]; a4 = a4[a4.index(' A4 '):]
+    if '…' in a4: bad += 1; print('A4 üç nokta', n)
+    for x in re.findall(r"'([^']+(?:'[a-zâîû][^']*)*)'", a4):
+        if len(x.split()) >= 2 and x not in alltr and not x.startswith(('Münafıklar', 'Hainleri')) and ' bölüm' not in x:
+            bad += 1; print('A4', n, x)
 c = open(Y + 'cipa' + suf).read()
 for x in re.findall(r'not_="\'(.+?)\' —', c):
     if x not in alltr: bad += 1; print('cipa', x)
