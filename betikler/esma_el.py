@@ -1336,4 +1336,9 @@ KARAR = {
     # sure 4 blok 116-121
     '4:119:14': 'degil',  # ve men yettexizi'ş-şeytâne veliyyen — esmâ adı esmâ dışı göndergeyle → degil (dost edinilen şeytan)
     '4:119:21': 'degil',  # xusrânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (ziyanın sıfatı)
+    # sure 4 blok 122-126
+    '4:123:18': 'degil',  # min dûni'llâhi veliyyen ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (Allah'tan başka bulunamayan dost)
+    '4:123:20': 'degil',  # min dûni'llâhi veliyyen ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (Allah'tan başka bulunamayan yardımcı)
+    '4:124:10': 'degil',  # ve huve mu'minun — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:126:12': 'ilahi',  # ve kâna'llâhu bi-kulli şey'in muhîtâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 32 kullanıcı kararı, onaya açık)
 }
