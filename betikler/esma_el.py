@@ -1330,4 +1330,7 @@ KARAR = {
     '4:110:13': 'ilahi',  # yecidi'llâhe ğafûran rahîmâ — 'vecede'llâhe X' mef'ûlü → ilahi (sûre 4 blok 18 kullanıcı kararı, onaya açık)
     '4:111:10': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 29 kullanıcı kararı, onaya açık)
     '4:111:11': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 29 kullanıcı kararı, onaya açık)
+    # sure 4 blok 112-115
+    '4:112:14': 'degil',  # buhtânen ve ismen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (günahın sıfatı)
+    '4:115:13': 'degil',  # sebîli'l-mu'minîne — çoğul insan göndergeli → degil (yolun sahipleri)
 }

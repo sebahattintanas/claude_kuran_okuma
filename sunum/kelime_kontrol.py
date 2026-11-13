@@ -24,7 +24,10 @@ P = {
  "'nâ'": lambda s: pron(s, '1P'), "'ke'": lambda s: pron(s, '2MS'), "'ûne'": lambda s: pron(s, '3MP'),
  "'hum'": lambda s: pron(s, '3MP'), "'him'": lambda s: pron(s, '3MP'), "'tum'": lambda s: pron(s, '2MP'),
  "'entum'": lambda s: pron(s, '2MP'), "'hû'": lambda s: pron(s, '3MS'), "'hî'": lambda s: pron(s, '3MS'),
- "'huve'": lambda s: pron(s, '3MS'), 'lafız': lambda s: lem(s) == N('اللَّه'),
+ "'huve'": lambda s: pron(s, '3MS'), "'hi'": lambda s: pron(s, '3MS'), "'hu'": lambda s: pron(s, '3MS'),
+ "'û'": lambda s: pron(s, '3MP'), "'levlâ'": lambda s: lem(s) == N('لَوْلا'), "'le'": lambda s: lem(s) == N('ل'),
+ "'en'": lambda s: lem(s) == N('أَن'), "'illâ'": lambda s: lem(s) == N('إِلّا'), "'lem'": lambda s: lem(s) == N('لَم'),
+ "'qad'": lambda s: lem(s) == N('قَد'), "'sevfe'": lambda s: lem(s) == N('سَوْف'), 'lafız': lambda s: lem(s) == N('اللَّه'),
 }
 mp = {'ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'x','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','ع':'','غ':'ğ','ف':'f','ق':'q','ك':'k','ل':'','م':'m','ن':'','ه':'h','ة':'','ء':'','أ':'','إ':'','ؤ':'','ئ':''}
 def sk_ar(w): return re.sub(r'(.)\1+', r'\1', ''.join(mp.get(c, '') for c in ''.join(f for f, _, _ in w) if not ud.combining(c)))
