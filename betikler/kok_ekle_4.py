@@ -33,6 +33,10 @@ ISTEK = [
     # blok 79-83
     ('ذيع', "yayma, duyurma ('ezâ'û'); 1 ayet"),
     ('نبط', "çıkarma, içinden çıkarıp anlama ('yestenbitûnehû'); 1 ayet"),
+    # blok 88-90
+    ('ركس', "tersine çevirme, eski hâline geri döndürme ('erkesehum'); 2 ayet"),
+    # blok 97-101
+    ('رغم', "burun sürtme (rağm); gidilecek yer, sığınak ('murâğamen'); 1 ayet"),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

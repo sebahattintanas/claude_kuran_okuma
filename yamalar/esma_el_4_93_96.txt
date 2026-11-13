@@ -1,0 +1,8 @@
+    # sure 4 blok 93-96
+    '4:93:3': 'degil',  # ve men yaqtul mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:94:15': 'degil',  # elqâ ileykumu's-selâme — esmâ adı esmâ dışı göndergeyle → degil (selamlama)
+    '4:94:17': 'degil',  # leste mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:94:39': 'ilahi',  # inna'llâhe kâne bi-mâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:95:5': 'degil',  # l-qâ'idûne mine'l-mu'minîne — çoğul insan göndergeli → degil (oturanların beyânı)
+    '4:96:7': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 26 kullanıcı kararı, onaya açık)
+    '4:96:8': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 26 kullanıcı kararı, onaya açık)

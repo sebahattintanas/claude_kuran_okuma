@@ -1,0 +1,8 @@
+    # sure 4 blok 91-92
+    '4:91:32': 'degil',  # sultânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (yetkinin sıfatı)
+    '4:92:3': 'degil',  # li-mu'minin — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:6': 'degil',  # en yaqtule mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:11': 'degil',  # ve men qatele mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:30': 'degil',  # ve huve mu'minun — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:59': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 25 kullanıcı kararı, onaya açık)
+    '4:92:60': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 25 kullanıcı kararı, onaya açık)

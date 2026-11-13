@@ -1,0 +1,6 @@
+ # blok 97-101
+ 97: dict(kademe=None, olgu=False, cipa=False, not_="'teveffâhumu'l-melâ'iketu' — ölüm anı sahnesi ve karşılıklı söz, ceza bildirimi (olgu=False); tarayıcı vermedi"),
+ 98: dict(kademe=None, olgu=False, cipa=False, not_="'illa'l-mustad'afîne' — istisna hükmü (olgu=False); tarayıcı vermedi"),
+ 99: dict(kademe=None, olgu=False, cipa=False, not_="''asa'llâhu en ya'fuve' — umut bildirimi (olgu=False); tarayıcı vermedi"),
+ 100: dict(kademe=None, olgu=False, cipa=False, not_="'yecid fi'l-ardi murâğamen kesîran ve se'aten' — şartlı vaat; tarayıcı adayı (أرض, موت; A_şart) çıpa değil (olgu=False)"),
+ 101: dict(kademe=None, olgu=False, cipa=False, not_="'fe-leyse 'aleykum cunâhun en taqsurû mine's-salâti' — ruhsat hükmü; tarayıcı adayı (أرض; A_şart) çıpa değil (olgu=False)"),

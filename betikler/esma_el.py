@@ -1292,4 +1292,34 @@ KARAR = {
     '4:84:10': 'degil',  # ve harridi'l-mu'minîne — çoğul insan göndergeli → degil
     '4:85:22': 'ilahi',  # ve kâna'llâhu 'alâ kulli şey'in muqîtâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23 kullanıcı kararı, onaya açık)
     '4:86:15': 'ilahi',  # inna'llâhe kâne 'alâ kulli şey'in hasîbâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 88-90
+    '4:89:11': 'degil',  # fe-lâ tettexizû minhum evliyâ'e — çoğul insan göndergeli → degil (onlardan edinilmesi yasaklanan dostlar)
+    '4:89:26': 'degil',  # ve lâ tettexizû minhum veliyyen — esmâ adı esmâ dışı göndergeyle → degil (onlardan edinilmesi yasaklanan dost)
+    '4:89:28': 'degil',  # ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (onlardan edinilmesi yasaklanan yardımcı)
+    # sure 4 blok 91-92
+    '4:91:32': 'degil',  # sultânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (yetkinin sıfatı)
+    '4:92:3': 'degil',  # li-mu'minin — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:6': 'degil',  # en yaqtule mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:11': 'degil',  # ve men qatele mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:30': 'degil',  # ve huve mu'minun — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:92:59': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 25 kullanıcı kararı, onaya açık)
+    '4:92:60': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 25 kullanıcı kararı, onaya açık)
+    # sure 4 blok 93-96
+    '4:93:3': 'degil',  # ve men yaqtul mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:94:15': 'degil',  # elqâ ileykumu's-selâme — esmâ adı esmâ dışı göndergeyle → degil (selamlama)
+    '4:94:17': 'degil',  # leste mu'minen — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
+    '4:94:39': 'ilahi',  # inna'llâhe kâne bi-mâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:95:5': 'degil',  # l-qâ'idûne mine'l-mu'minîne — çoğul insan göndergeli → degil (oturanların beyânı)
+    '4:96:7': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 26 kullanıcı kararı, onaya açık)
+    '4:96:8': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 26 kullanıcı kararı, onaya açık)
+    # sure 4 blok 97-101
+    '4:99:9': 'ilahi',  # ve kâna'llâhu 'afuvven ğafûrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 27 kullanıcı kararı, onaya açık)
+    '4:99:10': 'ilahi',  # ve kâna'llâhu 'afuvven ğafûrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 27 kullanıcı kararı, onaya açık)
+    '4:100:30': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 27 kullanıcı kararı, onaya açık)
+    '4:100:31': 'ilahi',  # ve kâna'llâhu ğafûren rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 27 kullanıcı kararı, onaya açık)
+    '4:101:23': 'degil',  # 'aduvven mubînâ — esmâ adı esmâ dışı göndergeyle → degil (düşmanın sıfatı)
+    # sure 4 blok 102-104
+    '4:103:18': 'degil',  # 'ale'l-mu'minîne — çoğul insan göndergeli → degil (namazın yükümlüleri)
+    '4:104:21': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 28 kullanıcı kararı, onaya açık)
+    '4:104:22': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 28 kullanıcı kararı, onaya açık)
 }
