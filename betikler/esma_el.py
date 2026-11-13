@@ -1333,4 +1333,7 @@ KARAR = {
     # sure 4 blok 112-115
     '4:112:14': 'degil',  # buhtânen ve ismen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (günahın sıfatı)
     '4:115:13': 'degil',  # sebîli'l-mu'minîne — çoğul insan göndergeli → degil (yolun sahipleri)
+    # sure 4 blok 116-121
+    '4:119:14': 'degil',  # ve men yettexizi'ş-şeytâne veliyyen — esmâ adı esmâ dışı göndergeyle → degil (dost edinilen şeytan)
+    '4:119:21': 'degil',  # xusrânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (ziyanın sıfatı)
 }

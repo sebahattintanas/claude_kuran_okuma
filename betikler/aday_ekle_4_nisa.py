@@ -491,6 +491,23 @@ BAGLAR = {"AS_nisa": [
  {'bag': '47:25 → 4:115', 'kural': "okuma — harekesiz 'min ba'di mâ tebeyyen'", 'not': 'kalıp eşi (ölçüm xref).'},
  {'bag': '4:97 → 4:115', 'kural': "sûre içi — önek kesilmiş 've sâ'et masîrâ'", 'not': 'sûre içi kalıp eşi.'},
  {'bag': '48:6 → 4:115', 'kural': "okuma — önek kesilmiş 've sâ'et masîrâ'", 'not': 'kalıp eşi.'},
+ # blok 116-121
+ {'bag': '4:48 → 4:116', 'kural': "sûre içi — harekesiz 'inna'llâhe lâ yağfiru en yuşreke bih'", 'not': 'sûre içi kalıp eşi (ölçüm esit2 BENZER).'},
+ {'bag': '22:31 → 4:116', 'kural': "okuma — önek kesilmiş 've men yuşrik bi'llâh'", 'not': 'kalıp eşi.'},
+ {'bag': '4:60 → 4:116', 'kural': "sûre içi — harekesiz 'dalâlen ba'îdâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '22:3 → 4:117', 'kural': "okuma — lemma 'merîd'", 'not': 'lemma eşi.'},
+ {'bag': '13:16 → 4:117', 'kural': "okuma — harekesiz 'min dûnih'", 'not': 'kalıp eşi.'},
+ {'bag': '4:7 → 4:118', 'kural': "sûre içi — harekesiz 'nasîben mefrûdâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '4:52 → 4:118', 'kural': "sûre içi — lemma 'le'ane'", 'not': 'sûre içi lemma eşi.'},
+ {'bag': '4:118 → 4:119', 'kural': "sûre içi — lemma 'ittexaze'", 'not': 'ardışık lemma eşi, blok içi (söz sürüyor).'},
+ {'bag': '33:17 → 4:119', 'kural': "okuma — harekesiz 'min dûni'llâh'", 'not': 'kalıp eşi.'},
+ {'bag': '4:119 → 4:120', 'kural': "sûre içi — lemma 'yumennî'", 'not': 'ardışık lemma eşi, blok içi.'},
+ {'bag': '17:64 → 4:120', 'kural': "okuma — önek kesilmiş 've mâ ya'iduhumu'ş-şeytân'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:97 → 4:121', 'kural': "sûre içi — harekesiz 'me'vâhum cehennem'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '3:197 → 4:121', 'kural': "okuma — harekesiz 'me'vâhum cehennem'", 'not': 'kalıp eşi.'},
+ {'bag': '17:97 → 4:121', 'kural': "okuma — harekesiz 'me'vâhum cehennem'", 'not': 'kalıp eşi.'},
+ {'bag': '33:17 → 4:121', 'kural': "okuma — önek kesilmiş 've lâ yecidûn'", 'not': 'kalıp eşi.'},
+ {'bag': '14:21 → 4:121', 'kural': "okuma — lemma 'mahîs'", 'not': 'lemma eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

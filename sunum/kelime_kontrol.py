@@ -14,11 +14,11 @@ N = lambda x: ud.normalize('NFC', x)
 def lem(seg): m = re.search(r'LEM:([^|]+)', seg[2]); return N(m.group(1)) if m else ''
 def pron(seg, kisi): return seg[2].startswith('PRON') and seg[2].split('|')[-1] == kisi
 P = {
- "'inne'": lambda s: lem(s) == N('إِنّ'), "'innemâ'": lambda s: lem(s) == N('إِنّ'), "'ilâ'": lambda s: lem(s) == N('إِلَى'),
+ "'inne'": lambda s: lem(s) in (N('إِنّ'), N('أَنّ')), "'nne'": lambda s: lem(s) == N('ن'), "'innemâ'": lambda s: lem(s) == N('إِنّ'), "'ilâ'": lambda s: lem(s) == N('إِلَى'),
  "'bi'": lambda s: lem(s) == N('ب'), "'li'": lambda s: lem(s) == N('ل'), "'mâ'": lambda s: lem(s) == N('ما'),
  "'ve'": lambda s: lem(s) == N('و'), "'lâ'": lambda s: lem(s) == N('لا'), "''an'": lambda s: lem(s) == N('عَن'),
  "'ellezîne'": lambda s: lem(s) == N('الَّذِي'), "'min'": lambda s: lem(s) == N('مِن'), "'iz'": lambda s: lem(s) == N('إِذ'),
- "'kâne'": lambda s: lem(s) == N('كانَ'), "'hâ'": lambda s: lem(s) == N('ه'), "'fî'": lambda s: lem(s) == N('فِي'),
+ "'kâne'": lambda s: lem(s) == N('كانَ'), "'hâ'": lambda s: lem(s) == N('ه') or pron(s, '3FS'), "'fî'": lambda s: lem(s) == N('فِي'),
  "'fe'": lambda s: lem(s) == N('ف'), "'men'": lambda s: lem(s) == N('مَن'), "'em'": lambda s: lem(s) == N('أَم'),
  "''alâ'": lambda s: lem(s) == N('عَلَى'), "'ev'": lambda s: lem(s) == N('أَو'), "'summe'": lambda s: lem(s) == N('ثُمّ'),
  "'nâ'": lambda s: pron(s, '1P'), "'ke'": lambda s: pron(s, '2MS'), "'ûne'": lambda s: pron(s, '3MP'),

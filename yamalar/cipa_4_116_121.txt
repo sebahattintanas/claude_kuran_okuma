@@ -1,0 +1,7 @@
+ # blok 116-121
+ 116: dict(kademe=None, olgu=False, cipa=False, not_="'inna'llâhe lâ yağfiru en yuşreke bihî' — bağışlama bildirimi ve şart (olgu=False); tarayıcı vermedi"),
+ 117: dict(kademe=None, olgu=False, cipa=False, not_="'in yed'ûne min dûnihî illâ inâsen' — hasr ile bildirim (olgu=False); tarayıcı vermedi"),
+ 118: dict(kademe=None, olgu=False, cipa=False, not_="'le'anehu'llâhu' — lanet bildirimi ve söz (olgu=False); tarayıcı vermedi"),
+ 119: dict(kademe=None, olgu=False, cipa=False, not_="'fe-le-yuğayyirunne xalqa'llâhi' — söz içinde niyet bildirimi; tarayıcı adayı (خلق; A_şart, D_yeti) çıpa değil (olgu=False)"),
+ 120: dict(kademe=None, olgu=False, cipa=False, not_="'ya'iduhum ve yumennîhim' — vaat bildirimi (olgu=False); tarayıcı vermedi"),
+ 121: dict(kademe=None, olgu=False, cipa=False, not_="'ulâ'ike me'vâhum cehennemu' — akıbet bildirimi (olgu=False); tarayıcı vermedi"),
