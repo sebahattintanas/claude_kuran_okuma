@@ -4,6 +4,7 @@
 çıpa tablosu ve esmâ profili. Sayı elle yazılmaz; hepsi okuma_metni.json'dan."""
 import json, subprocess, sys
 S = 4
+BLOK_LISTESI_ELLE = [(1, 5), (6, 10), (11, 11), (12, 12), (13, 14), (15, 18), (19, 22), (23, 24), (25, 28), (29, 32), (33, 35), (36, 39), (40, 43), (44, 47), (48, 52), (53, 57), (58, 60), (61, 64), (65, 70), (71, 75), (76, 78), (79, 83), (84, 87), (88, 90), (91, 92), (93, 96), (97, 101), (102, 104), (105, 111), (112, 115), (116, 121), (122, 126), (127, 129), (130, 134), (135, 137), (138, 141), (142, 147), (148, 152), (153, 156), (157, 162), (163, 169), (170, 172), (173, 176)]  # uret_blok_4.BLOKLAR ile birebir (sûre sonu, 2026-11-15)
 BL = BLOK_LISTESI_ELLE
 OM = json.load(open('/home/claude/repo/notlar/okuma_metni.json', encoding='utf-8'))
 out = ["# Sûre 4 (Nisâ) — hesaplamalı okuma, 176 ayet (TAM; blok başı kayıt)\n\n",
