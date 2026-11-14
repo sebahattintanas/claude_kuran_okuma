@@ -34,7 +34,7 @@ for n in sorted(veri.MK):
     for tr, q, items in veri.MK[n]:
         for it in items:
             m = re.match(r"('(?:[^']|'(?=[a-zâîû]))+') (\d+)\. kelimede '([^']+)' ile", it)
-            if m and m.group(1) in ZAM and re.search(YON, m.group(3).split()[-1]) and 'fiil yönetimi takdiri' not in it and not re.search(r"-s[ae]$|^diye$", m.group(3)):
+            if m and m.group(1) in ZAM and re.search(YON, m.group(3).split()[-1]) and 'fiil yönetimi takdiri' not in it and not re.search(r"-s[ae]$|^diye$", m.group(3)) and 'INTG' not in it:
                 if not any(x.startswith('P|') or x.startswith('P\t') or x.split('|')[0] == 'P' for x in MOR.get((n, int(m.group(2))), [])):
                     H('(4)', n, it)
         ekler = {}
