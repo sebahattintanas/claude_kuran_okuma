@@ -1396,4 +1396,8 @@ KARAR = {
     '4:165:14': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
     '4:165:15': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
     '4:166:13': 'ilahi',  # ve kefâ bi'llâhi şehîdâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 170-172
+    '4:170:22': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
+    '4:170:23': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
+    '4:171:53': 'ilahi',  # ve kefâ bi'llâhi vekîlâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
 }
