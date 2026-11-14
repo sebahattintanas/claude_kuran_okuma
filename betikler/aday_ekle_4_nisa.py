@@ -533,6 +533,19 @@ BAGLAR = {"AS_nisa": [
  {'bag': '3:109 → 4:126', 'kural': "okuma — harekesiz 'li'llâhi mâ fi's-semâvâti ve mâ fi'l-ard'", 'not': 'kalıp eşi.'},
  {'bag': '4:108 → 4:126', 'kural': "sûre içi — lemma 'muhît'", 'not': 'sûre içi lemma eşi.'},
  {'bag': '41:54 → 4:126', 'kural': "okuma — lemma 'muhît'", 'not': 'lemma eşi (ölçüm xref).'},
+ # blok 127-129
+ {'bag': '22:30 → 4:127', 'kural': "okuma — harekesiz 'yutlâ 'aleykum'", 'not': 'kalıp eşi.'},
+ {'bag': '2:130 → 4:127', 'kural': "okuma — lemma 'yerğabu'", 'not': 'lemma eşi.'},
+ {'bag': '2:197 → 4:127', 'kural': "okuma — önek kesilmiş 've mâ tef'alû min xayr'", 'not': 'kalıp eşi.'},
+ {'bag': '2:215 → 4:127', 'kural': "okuma — önek kesilmiş 've mâ tef'alû min xayr'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:34 → 4:128', 'kural': "sûre içi — lemma 'nuşûz'", 'not': 'sûre içi lemma eşi.'},
+ {'bag': '2:230 → 4:128', 'kural': "okuma — önek kesilmiş 'fe-lâ cunâha 'aleyhimâ'", 'not': 'kalıp eşi.'},
+ {'bag': '59:9 → 4:128', 'kural': "okuma — lemma 'şuhh'", 'not': 'lemma eşi.'},
+ {'bag': '4:94 → 4:128', 'kural': "sûre içi — harekesiz 'llâhe kâne bimâ ta'melûne xabîrâ'", 'not': 'sûre içi kalıp eşi (ölçüm xref).'},
+ {'bag': '33:2 → 4:128', 'kural': "okuma — harekesiz 'llâhe kâne bimâ ta'melûne xabîrâ'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:128 → 4:129', 'kural': "sûre içi — harekesiz 've tettaqû fe-inna'llâhe kân'", 'not': 'ardışık kalıp eşi, blok içi (ölçüm xref).'},
+ {'bag': '4:106 → 4:129', 'kural': "sûre içi — harekesiz 'llâhe kâne ğafûran rahîmâ'", 'not': 'sûre içi kalıp eşi (ölçüm xref).'},
+ {'bag': '33:24 → 4:129', 'kural': "okuma — harekesiz 'llâhe kâne ğafûran rahîmâ'", 'not': 'kalıp eşi (ölçüm xref).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

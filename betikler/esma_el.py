@@ -1341,4 +1341,9 @@ KARAR = {
     '4:123:20': 'degil',  # min dûni'llâhi veliyyen ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (Allah'tan başka bulunamayan yardımcı)
     '4:124:10': 'degil',  # ve huve mu'minun — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli mü'min)
     '4:126:12': 'ilahi',  # ve kâna'llâhu bi-kulli şey'in muhîtâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 32 kullanıcı kararı, onaya açık)
+    # sure 4 blok 127-129
+    '4:127:40': 'ilahi',  # fe-inna'llâhe kâne bihî 'alîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:128:29': 'ilahi',  # fe-inna'llâhe kâne bimâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:129:21': 'ilahi',  # fe-inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:129:22': 'ilahi',  # fe-inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
 }
