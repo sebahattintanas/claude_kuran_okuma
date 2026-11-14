@@ -1346,4 +1346,14 @@ KARAR = {
     '4:128:29': 'ilahi',  # fe-inna'llâhe kâne bimâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
     '4:129:21': 'ilahi',  # fe-inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
     '4:129:22': 'ilahi',  # fe-inna'llâhe kâne ğafûran rahîmâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 130-134
+    '4:130:10': 'ilahi',  # ve kâna'llâhu vâsi'an hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:130:11': 'ilahi',  # ve kâna'llâhu vâsi'an hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:131:31': 'ilahi',  # ve kâna'llâhu ğaniyyen hamîdâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:131:32': 'ilahi',  # ve kâna'llâhu ğaniyyen hamîdâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:132:10': 'ilahi',  # ve kefâ bi'llâhi vekîlâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    '4:133:12': 'ilahi',  # ve kâna'llâhu 'alâ zâlike qadîrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:134:10': 'degil',  # ve'l-âxirati — 'fi'l-âxira' emsali → degil (dünyanın karşıtı)
+    '4:134:13': 'ilahi',  # ve kâna'llâhu semî'an basîrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    '4:134:14': 'ilahi',  # ve kâna'llâhu semî'an basîrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
 }
