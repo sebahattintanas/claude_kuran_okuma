@@ -14,7 +14,7 @@ EDLEM = {"'lâ'": 'لا', "'li'": 'ل', "'bi'": 'ب', "'fe'": 'ف', "'ve'": 'و'
          "'e'": 'ا', "'mâ'": 'ما', "'men'": 'من', "'min'": 'من', "'fî'": 'في', "''alâ'": 'علي', "'ilâ'": 'الي', "'ma'a'": 'مع',
          "'izâ'": 'اذا', "'izen'": 'اذا', "'len'": 'لن', "'lem'": 'لم', "'qad'": 'قد', "'sevfe'": 'سوف', "'summe'": 'ثم', "'ev'": 'او',
          "'illâ'": 'الا', "'yâ'": 'ي', "'hattâ'": 'حتي', "'ellezîne'": 'الذي', "'ellezî'": 'الذي', "'ellâtî'": 'الذي', "''an'": 'عن',
-         "'lev'": 'لو', "'ke'": 'ك', "'kâne'": 'كان', "'le'": 'ل'}
+         "'lev'": 'لو', "'ke'": 'ك', "'kâne'": 'كان', "'le'": 'ل', "'lâkin'": 'لكن'}
 ZAMIR = {"'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hinne'", "'hunne'", "'himâ'", "'humâ'", "'nâ'", "'û'", "'ûne'", "'tum'", "'him'", "'huve'"}
 def etiket(n, w, ed):
     seg = [(feat.split('|')[0], feat) for ww, p, f, t, feat in MORALL[n] if ww == w]
@@ -31,4 +31,6 @@ def etiket(n, w, ed):
         for t, feat in seg:
             m = re.search(r'LEM:([^|]+)', feat)
             if m and _n(m.group(1)).rstrip('ّ') == hedef: return 'V' if t in ('PERF', 'IMPF') else t
+    for t, feat in seg:
+        if 'PREF' not in feat: return t
     return seg[0][0]

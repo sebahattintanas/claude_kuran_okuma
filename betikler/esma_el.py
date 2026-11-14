@@ -1392,4 +1392,8 @@ KARAR = {
     '4:162:6': 'degil',  # ve'l-mu'minûne yu'minûne — çoğul insan göndergeli → degil
     '4:162:19': 'degil',  # ve'l-mu'minûne bi'llâhi — çoğul insan göndergeli → degil
     '4:162:22': 'degil',  # ve'l-yevmi'l-âxiri — 'fi'l-âxira' emsali → degil (gün sıfatı)
+    # sure 4 blok 163-169
+    '4:165:14': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
+    '4:165:15': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
+    '4:166:13': 'ilahi',  # ve kefâ bi'llâhi şehîdâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
 }

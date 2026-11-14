@@ -65,7 +65,7 @@ ar = ast.literal_eval('{' + open(Y + 'ariza' + suf).read() + '}')[(A, B)]
 for it in ar:
     if it.startswith(('devir', 'bölüm denetimi', 'bölüm 10 denetiminden', 'karşılık çakışması', 'korpusta 1', 'bağ:')): continue
     if it.startswith('meal'): it = it.split(' içi eş edat / lemma karşılıkları')[0]
-    parca = re.split(r'(?<![\d:])(4:(\d+))(?![\d:-])', it)
+    parca = re.split(r"(?<![\d:])(4:(\d+))(?![\d:'-])", it)
     cur = None
     for i in range(0, len(parca)):
         if i % 3 == 1: continue

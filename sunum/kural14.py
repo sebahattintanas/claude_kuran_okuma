@@ -114,4 +114,10 @@ for n in range(A, B + 1):
     a1 = M[n][M[n].index('◈A'):M[n].index(' A2 ')]
     for m in re.finditer(r"faili \(adsız; edilgen", a1):
         if 'nâib fâil' not in a1[m.start():m.start() + 120]: H('(b8)', n, a1[m.start() - 20:m.start() + 60])
+# (b9) bölüm 15 denetimi kuralı 2: ◈K / ◈B kelimelerinde önek yok
+for n in range(A, B + 1):
+    for s_ in M[n].split('\n'):
+        if s_.startswith(('◈K', '◈B')):
+            for w in re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)' \(\d+\.", s_):
+                if re.match(r"(ve|fe|bi|li)[-' ]", w): H('(b9)', n, w)
 print('kural14 hata:', hata)
