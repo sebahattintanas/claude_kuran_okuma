@@ -1383,4 +1383,6 @@ KARAR = {
     '4:152:8': 'degil',  # ve lem yufarriqû beyne ehadin minhum — olumsuz nekre ehad → degil (ayrım yapılmayan elçilerden biri)
     '4:152:16': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
     '4:152:17': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    # sure 4 blok 153-156
+    '4:153:37': 'degil',  # sultânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (sultânın sıfatı)
 }
