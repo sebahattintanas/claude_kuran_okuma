@@ -1385,4 +1385,11 @@ KARAR = {
     '4:152:17': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
     # sure 4 blok 153-156
     '4:153:37': 'degil',  # sultânen mubînâ — esmâ adı esmâ dışı göndergeyle → degil (sultânın sıfatı)
+    # sure 4 blok 157-162
+    '4:158:7': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    '4:158:8': 'ilahi',  # ve kâna'llâhu 'azîzen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    '4:159:14': 'degil',  # yekûnu 'aleyhim şehîdâ — esmâ adı esmâ dışı göndergeyle → degil (tanık 'yekûnu' öznesi 3MS — gönderge 'bihî' 7. kelime; okuma)
+    '4:162:6': 'degil',  # ve'l-mu'minûne yu'minûne — çoğul insan göndergeli → degil
+    '4:162:19': 'degil',  # ve'l-mu'minûne bi'llâhi — çoğul insan göndergeli → degil
+    '4:162:22': 'degil',  # ve'l-yevmi'l-âxiri — 'fi'l-âxira' emsali → degil (gün sıfatı)
 }

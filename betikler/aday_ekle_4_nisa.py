@@ -636,6 +636,28 @@ BAGLAR = {"AS_nisa": [
  {'bag': '24:16 → 4:156', 'kural': "okuma — lemma 'buhtân'", 'not': 'lemma eşi.'},
  {'bag': '4:112 → 4:156', 'kural': "sûre içi — lemma 'buhtân'", 'not': 'sûre içi lemma eşi (bloklar arası).'},
  {'bag': '4:148 → 4:155', 'kural': "sûre içi — lemma 'qavl'", 'not': 'sûre içi lemma eşi (bloklar arası; masdar).'},
+ # blok 157-162
+ {'bag': '4:156 → 4:157', 'kural': "sûre içi — önek kesilmiş 've qavlihim'", 'not': 'kalıp eşi (bloklar arası ardışık).'},
+ {'bag': '3:45 → 4:157', 'kural': "okuma — harekesiz 'l-mesîha 'îsâ'bne meryem'", 'not': 'kalıp eşi.'},
+ {'bag': '11:110 → 4:157', 'kural': "okuma — harekesiz 'le-fî şekkin minh'", 'not': 'kalıp eşi.'},
+ {'bag': '18:5 → 4:157', 'kural': "okuma — harekesiz 'mâ lehum bihî min 'ilm'", 'not': 'kalıp eşi.'},
+ {'bag': '48:7 → 4:158', 'kural': "okuma — önek kesilmiş 've kâna'llâhu 'azîzen hakîmâ'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '48:19 → 4:158', 'kural': "okuma — önek kesilmiş 've kâna'llâhu 'azîzen hakîmâ'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:56 → 4:158', 'kural': "sûre içi — harekesiz ''azîzen hakîmâ'", 'not': 'sûre içi kalıp eşi (bloklar arası).'},
+ {'bag': '4:154 → 4:158', 'kural': "sûre içi — lemma 'rafa'a'", 'not': 'sûre içi lemma eşi (bölüm içi, bloklar arası).'},
+ {'bag': '3:199 → 4:159', 'kural': "okuma — önek kesilmiş 've in min ehli'l-kitâb'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:153 → 4:159', 'kural': "sûre içi — harekesiz 'ehli'l-kitâb'", 'not': 'sûre içi kalıp eşi (bölüm içi, bloklar arası).'},
+ {'bag': '4:46 → 4:160', 'kural': "sûre içi — harekesiz 'mine'llezîne hâdû'", 'not': 'sûre içi kalıp eşi (ölçüm nakarat3).'},
+ {'bag': '9:34 → 4:161', 'kural': "okuma — harekesiz 'emvâle'n-nâsi bi'l-bâtıl'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '3:130 → 4:161', 'kural': "okuma — lemma 'ribâ'", 'not': 'lemma eşi.'},
+ {'bag': '4:37 → 4:161', 'kural': "sûre içi — önek kesilmiş 've a'tednâ li'l-kâfirîn'", 'not': 'sûre içi kalıp eşi (bloklar arası).'},
+ {'bag': '4:151 → 4:161', 'kural': "sûre içi — önek kesilmiş 've a'tednâ li'l-kâfirîn'", 'not': 'sûre içi kalıp eşi (bölüm içi, bloklar arası).'},
+ {'bag': '4:60 → 4:162', 'kural': "sûre içi — harekesiz 'bi-mâ unzile ileyke ve mâ unzile min qablik'", 'not': 'sûre içi kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '3:7 → 4:162', 'kural': "okuma — lemma dizisi 'râsix fî 'ilm'", 'not': 'lemma dizisi eşi.'},
+ {'bag': '4:74 → 4:162', 'kural': "sûre içi — harekesiz 'ecran 'azîmâ'", 'not': 'sûre içi kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '48:10 → 4:162', 'kural': "okuma — harekesiz 'ecran 'azîmâ'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '4:39 → 4:162', 'kural': "sûre içi — harekesiz 'bi'llâhi ve'l-yevmi'l-âxir'", 'not': 'sûre içi kalıp eşi (ölçüm nakarat3).'},
+ {'bag': '4:157 → 4:162', 'kural': "sûre içi — lemma ''ilm'", 'not': 'lemma eşi, blok içi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
