@@ -1375,4 +1375,12 @@ KARAR = {
     '4:146:16': 'degil',  # yu'ti'llâhu'l-mu'minîne ecran 'azîmâ — çoğul insan göndergeli → degil (ecir verilenler)
     '4:147:10': 'ilahi',  # ve kâna'llâhu şâkiren 'alîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
     '4:147:11': 'ilahi',  # ve kâna'llâhu şâkiren 'alîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    # sure 4 blok 148-152
+    '4:148:13': 'ilahi',  # ve kâna'llâhu semî'an 'alîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    '4:148:14': 'ilahi',  # ve kâna'llâhu semî'an 'alîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    '4:149:13': 'ilahi',  # fe-inna'llâhe kâne 'afuvven qadîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:149:14': 'ilahi',  # fe-inna'llâhe kâne 'afuvven qadîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:152:8': 'degil',  # ve lem yufarriqû beyne ehadin minhum — olumsuz nekre ehad → degil (ayrım yapılmayan elçilerden biri)
+    '4:152:16': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
+    '4:152:17': 'ilahi',  # ve kâna'llâhu ğafûran rahîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4'te dört önceki kullanıcı kararı emsali, onaya açık)
 }

@@ -56,4 +56,62 @@ for n in range(A, B + 1):
     a4 = a1[a1.index(' A4 '):]
     for m in re.finditer(r"COND '[^']+' \d+\. kelime[^;)]*", a4):
         if not re.search(r": '.+' / '.+'|: '.+' — cevap", m.group(0)): H('(7) A4', n, m.group(0)[:80])
+
+# bölüm 14 denetimi kuralları (blok 38'den)
+# (b2) ek çift atama — parantez içi yüzey biçimleri dahil
+for n in sorted(veri.MK):
+    if not A <= n <= B: continue
+    for tr, q, items in veri.MK[n]:
+        trl = tr.lower(); kay = []
+        for it in items:
+            if 'ortak' in it or 'karşılıksız' in it or 'içinde' in it: continue
+            for e in re.findall(r"'-([a-zçğıöşüâîû]+)-?'", it): kay.append((e, it))
+        for i, (e1, it1) in enumerate(kay):
+            for e2, it2 in kay[i + 1:]:
+                if it1 == it2: continue
+                kisa = e1 if len(e1) <= len(e2) else e2
+                if (e1.endswith(e2) or e2.endswith(e1)) and trl.count(kisa) < 2:
+                    H('(b2)', n, e1, e2, it1[:40], '|', it2[:40])
+# (b3) D3 dışı basılmış sayım eşi
+import glob
+bas = set(l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip())
+bagli = set()
+for f in glob.glob(Y + 'bag_4_*.txt'):
+    for m in re.finditer(r"'bag': '(\d+:\d+) → (\d+:\d+)'", open(f, encoding='utf-8').read()):
+        bagli.add(m.group(1)); bagli.add(m.group(2))
+say2 = open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]
+d3 = [x for x in ar if x.startswith('◈D D3')]
+d3t = d3[0] if d3 else ''
+for b in say2:
+    L = b.strip().splitlines()
+    sozl = ast.literal_eval(L[-1].split(' ', 1)[1])
+    for v in sozl.get('basilan', []):
+        if v not in bagli and v not in d3t: H('(b3)', L[0], v)
+# (b5) 'Blokta' ◇'de
+for n in range(A, B + 1):
+    if 'Blokta' in M[n].split('\n')[0]: H('(b5)', n)
+# (b6) esma_el alıntısı ◇'de; kök anlamı ölçüm glossuyla
+import os
+ef = Y + 'esma_el_4_%d_%d.txt' % (A, B)
+if os.path.exists(ef):
+    for l in open(ef, encoding='utf-8'):
+        m = re.match(r"\s*'4:(\d+):\d+': '\w+',  # (.*?) — (.*)$", l)
+        if m and m.group(2) not in M[int(m.group(1))]: H('(b6) esma alıntı', m.group(1), m.group(2)[:50])
+        if m:
+            k = re.match(r"(.*?) (\(.*\))$", m.group(3))
+            kk = ("'%s' %s" % (k.group(1), k.group(2))) if k else "'%s'" % m.group(3)
+            if kk not in M[int(m.group(1))]: H('(b6) esma kural', m.group(1), kk[:60])
+olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read()
+kt = [x for x in ar if x.startswith('kök tablosu')]
+if kt:
+    for m in re.finditer(r"kök (\S+) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", kt[0]):
+        if '%s *(%s)*' % (m.group(1), m.group(2)) not in olc: H('(b6) kök anlamı', m.group(1), m.group(2))
+# (b7) blok numaralı kullanıcı kararı göndermesi
+for x in list(M.values()) + [x for x in ar if not x.startswith(('bölüm denetimi', 'bölüm 1'))]:
+    if re.search(r'blok \d+(, \d+)+ kullanıcı kararları', x): H('(b7)', x[:60])
+# (b8) A1 edilgen + nâib fâil
+for n in range(A, B + 1):
+    a1 = M[n][M[n].index('◈A'):M[n].index(' A2 ')]
+    for m in re.finditer(r"faili \(adsız; edilgen", a1):
+        if 'nâib fâil' not in a1[m.start():m.start() + 120]: H('(b8)', n, a1[m.start() - 20:m.start() + 60])
 print('kural14 hata:', hata)
