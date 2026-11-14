@@ -1,0 +1,27 @@
+# DEVİR NOTU — oturum 2026-11-14/15 (bloklar 39-43, sûre 4 kapanışı) → sonraki oturum (taban 74ab0a2 + bu notu taşıyan commit; SÛRE 5 hazırlığı ve blok 1)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. "SONRAKİ İLK BLOK ARIZA BAŞI" maddesi sûre 5 blok 1'in ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# YENİ oturumda basilan.txt boş başlar — madde NUMARASIZ; kopyadan sonra sızıntı ve yasaklı taraması.
+# bekleyen_ariza_4_b43.txt NUMARALIDIR (sûre 4 ayet numaraları taşır; sûre 5 oturumunda basılmamış sayılır) — sûre 5'e KOPYALANMAZ; numarasız özeti aşağıdaki maddede; 15 yeni kuralı protokolün parçasıdır (OTURUM_PROMPT_sure5_1.md §2).
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak madde)
+
+  "devir (sûre 4 sonu; bölüm 16 bağımsız denetimi, bekleyen_ariza_4_b43.txt — numaralı, sûre 5'e kopyalanmadı): DOĞRULANMIŞ 14 bulgu — esmâ kural adı kapalı listeyle birebir değil ('ve'llâhu X' lafzın haberi / kapalı liste adı 've'llâhu X' kuralı); esmâ gerekçe parantezi ◇ / esma_el / ARIZA'da bayt eşit değil; 'sonradan basılan' maddeleri önceki bölümün bloklarını kapsamadı; R5'te '(fark test edilmedi)' okunmamış eşi olmayan hükümlere uygulandı; bağ notlarında sûre içi nakarat3 kalıbı sûre dışı emsale atfedildi; D3 dışı basılmış sayım eşleri eksik ve bir emsal ayeti bağsız kaldı; sayım adı say2 kalıbıyla birebir değil; bozuk morph LEM normalleştirmesi tutarsız; bir yerde 'sonraki ayet' kalıbı; D1 nekre sayımı morph INDEF'le tutmadı; okuma (gözlem) kelime aralığı yanlış; bölüm kapanışında eş lemma listesi eksik; A1 mecrur çoğul ve 'kâne / leyse' nekre ismi kararları tutarsız. OLASI 9 bulgu — okunmamış bir sûreye numarasız gönderme ve basılmamış bağlamdan içerik (bir inceleme notunda ve sohbette); yeni kök glosslarında iki yönlü 'satır aynen' eksik; 'degil' göndergesinin A1'de eksik yazımı; meal biçim birliği; ◈ kelimesinde hareke; çıpa notunda metin dışı terim; lemma adında son hareke; blok içi bağda sayımın hedef ayette yazılmaması. Kayıtlar geriye dönük yeniden yazılmadı; hepsi tam okuma sonu listesinde. Yeni kurallar 15 madde (protokol §2, 'bölüm 16 denetiminden'); bu bloktan itibaren uygulanır",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: bloklar 39-43 (bölüm 15 ve 16 kapandı; bağımsız denetimler: bekleyen_ariza_4_b40.txt, b43.txt). Sûre 4 TAM — kapanış 2026-11-15 (nisa_kapanis.py, nisa_paket_md.py → notlar/sure4_nisa_okuma.md; kapanış notu betikler/nisa_kapanis_notu.txt).
+- Sayaçlar: okunan 5670 / 6236 (%90,9); TAM sûreler 1, 2, 3, 4, 9-114; kok_turkce 1611 (bu oturumda iki yeni kök: غلو, نكف — yama_kok_4_170.py); esmâ KARAR 1156; AS_nisa 655; aday havuzu 1–1042 (sonraki 1043; aday açılmadı); mercek arşivi (sûre 4) 15; anahtar BOZUK 70 (taban).
+- Depo akışı: her blok sonunda commit + push (main). Commit'ler: ce856e1 (blok 41), 7aace20 (blok 42), d3b075a (blok 43), 74ab0a2 (sûre 4 kapanışı).
+- Kullanıcı istekleriyle iki inceleme basımı (gönderme basımı; emsal değil, bağ yok): kök سبط / زبر (blok 41 sonrası) ve 4:171 'kelime / elqâ / rûh' (blok 42 sonrası) — bulgular blok 42 ve 43 ARIZA'sında.
+- Araç değişiklikleri (repo/sunum): edat_etiket.py ('lâkin', önek segmenti atlanır), kural14.py (b9 önek taraması), kelime_kontrol.py (ayet bölme ifadesi; 2D ve 3FD zamir anahtarları "'â'" / "'tâ'").
+- Sürekli görülen: denetim.sh 'arşiv = taban notu False' her blokta — kabul edildi, nedeni doğrulanmadı.
+- notlar/okuma_metni.json sıkıştırılmış hâliyle 27,7 MB (oturum başında da 27,2 MB, 25 MiB sınırının üstünde; push'lar geçti). Sûre 5 büyüdükçe bölme kararı kullanıcıyla.
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Bölüm 15-16 DOĞRULANMIŞ ve OLASI bulguları: bekleyen_ariza_4_b40.txt, b43.txt (geriye dönük düzeltilmedi).
+2. Esmâ onaya açık: ''ve kâna'llâhu X' lafzın haberi → ilahi' ve ''kefâ bi'llâhi X' temyizi → ilahi' — protokol §1 (onaya açık) / §2 (her çıkışta sorulur) çelişkisi; kullanıcı talimatıyla oturum ortasında sorulmadı. Sûre 4 sonu esmâ kural adı ('ve'llâhu X' lafzın haberi) kapalı liste adına eşitlenecek.
+3. Meal karşılık çakışmaları: yol (sebîl / tarîq / sırât), bırak- (elqâ / terake), erkek (ricâl / zeker), göster- (erâ / hedâ), iste- (erâde / se'ele), söyle- / de- ('qavl' masdarı).
+4. Kök زبر karşılığının 'parça; yazılı parça (zubur); Zebûr' biçiminde genişletilmesi; 'zubur' meal karşılıklarının birleştirilmesi; 'zebûr' nekre için özel ad / cins isim kararı; 'esbât' okuması.
+5. 4:171 'elqâ' karşılığı; 've kelimetuhû' morph REM / NOM gerilimi; 'min' türü; 'kelime' ile 'kun' okumasının metinde kurulmaması.
+6. Morph 2D / 3FD / 3D etiketlerinin mealde çoğul verilmesi (4:171 'teğlû', 4:176 'kânetâ', 'lehumâ').
+7. kok_turkce كلل karşılığı ('hep, bütün') 'kelâle' için dar.
+8. Önceki devir listeleri (devir_4_152, devir_4_70, devir_4_28, devir_3_200, devir_3_179) aynen sürer.
