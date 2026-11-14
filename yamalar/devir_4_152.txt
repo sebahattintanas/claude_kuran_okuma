@@ -1,0 +1,22 @@
+# DEVİR NOTU — oturum 2026-11-14 (bloklar 33-38) → sonraki oturum (taban 1c47f6c + bu notu taşıyan commit; SÛRE 4, blok 39'dan)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. "SONRAKİ İLK BLOK ARIZA BAŞI" maddesi blok 39'un (bölüm 15-2) ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# YENİ oturumda basilan.txt boş başlar — madde NUMARASIZ; kopyadan sonra sızıntı ve yasaklı taraması.
+# bekleyen_ariza_4_b34.txt ve b37.txt blok 35 ve blok 38'in ARIZA başına zaten girdi — blok 39'a KOPYALANMAZ; kuralları yürürlükte (protokol §2).
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak madde)
+
+  "devir düzeltmesi: önceki bloğun (bölüm 15-1) ARIZA 'bölüm' maddesi bölüm planını 'iki blok' diye yazdı, 'bağ' maddesi sonraki bloğu 'bölüm 15 kapanışı' diye andı — blok planına göre bölüm 15 üç bloktur (bloklar 38-40); bu blok bölüm 15-2, kapanış blok 40; kayıt geriye dönük yeniden yazılmadı; yeni kural: 'bölüm' maddesindeki blok sayısı ve kapanış bloğu blok_plani_4.txt'ten betikle alınır, elle yazılmaz",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: bloklar 33-38 (bölüm 13 ve 14 kapandı, bağımsız denetimleri yapıldı: bekleyen_ariza_4_b34.txt, b37.txt; bölüm 15 blok 38 ile açıldı).
+- Sayaçlar: okunan 5646 / 6236 (%90,5); sûre 4'te 1-152; kok_turkce 1609; esmâ KARAR 1138; AS_nisa 565; aday havuzu 1–1042 (sonraki 1043; aday açılmadı); mercek arşivi (sûre 4) 15; anahtar BOZUK 70 (taban).
+- Bu oturumda depo akışı: her blok sonunda commit + push (main; kullanıcı kararı). Son commit 1c47f6c.
+- Yeni / genişletilen araçlar (repo/sunum): kural13.py (bölüm 12 kuralları), kural14.py (bölüm 13-14 kuralları; b2-b8), edat_etiket.py (eş edat başlık etiketi bütün blokların morph'undan, lemma eşleşmeli), kelime_kontrol.py (genişletildi).
+- Sürekli görülen: denetim.sh 'arşiv = taban notu False' her blokta — kabul edildi, nedeni doğrulanmadı.
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Bölüm 13-14 DOĞRULANMIŞ ve OLASI bulguları: bekleyen_ariza_4_b34.txt, b37.txt (geriye dönük düzeltilmedi). Bölüm 14: 12 doğrulanmış / 7 olası.
+2. Esmâ onaya açık: ''ve kâna'llâhu X' lafzın haberi → ilahi' (sûre 4 boyunca uygulanıyor); ''kefâ bi'llâhi X' temyizi → ilahi'.
+3. Meal karşılık çakışması: "söz" iki lemmaya ('qavl' / 'hadîs') — karşılık seçimi.
+4. Bu oturumun 'karşılık seçimi tam okuma sonu' notlu bütün meal maddeleri.
+5. Önceki devir listeleri (devir_4_70, devir_4_28, devir_3_200, devir_3_179) aynen sürer.
