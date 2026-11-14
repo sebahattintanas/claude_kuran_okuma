@@ -573,6 +573,16 @@ BAGLAR = {"AS_nisa": [
  {'bag': '4:116 → 4:136', 'kural': "sûre içi — önek kesilmiş 'fe-qad dalle dalâlen ba'îdâ'", 'not': 'sûre içi kalıp eşi (bloklar arası).'},
  {'bag': '3:90 → 4:137', 'kural': "okuma — harekesiz 'summe'zdâdû kufrâ'", 'not': 'kalıp eşi.'},
  {'bag': '63:3 → 4:137', 'kural': "okuma — harekesiz 'summe keferû'", 'not': 'kalıp eşi.'},
+ # blok 138-141
+ {'bag': '9:3 → 4:138', 'kural': "okuma — lemma 'buşşira'", 'not': 'lemma eşi.'},
+ {'bag': '17:10 → 4:138', 'kural': "okuma — harekesiz 'lehum 'azâben elîmâ'", 'not': 'kalıp eşi.'},
+ {'bag': '4:18 → 4:138', 'kural': "sûre içi — harekesiz 'lehum 'azâben elîmâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '3:28 → 4:139', 'kural': "okuma — harekesiz 'evliyâ'e min dûni'l-mu'minîn'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '10:65 → 4:139', 'kural': "okuma — harekesiz ''l-'izzete li'llâhi cemî'â'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '9:65 → 4:140', 'kural': "okuma — lemma 'xâdu'", 'not': 'lemma eşi.'},
+ {'bag': '4:127 → 4:140', 'kural': "sûre içi — harekesiz ''aleykum fi'l-kitâb'", 'not': 'sûre içi kalıp eşi (bloklar arası).'},
+ {'bag': '9:52 → 4:141', 'kural': "okuma — lemma 'terabbas'", 'not': 'lemma eşi.'},
+ {'bag': '58:19 → 4:141', 'kural': "okuma — lemma 'istahveze'", 'not': 'lemma eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

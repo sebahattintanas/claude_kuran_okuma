@@ -1361,4 +1361,9 @@ KARAR = {
     '4:135:17': 'degil',  # in yekun ğaniyyen ev faqîran — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli tekil)
     '4:135:37': 'ilahi',  # fe-inna'llâhe kâne bimâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
     '4:136:24': 'degil',  # ve'l-yevmi'l-âxiri — 'fi'l-âxira' emsali → degil (gün sıfatı)
+    # sure 4 blok 138-141
+    '4:139:4': 'degil',  # yettexizûne'l-kâfirîne evliyâ'e — çoğul insan göndergeli → degil (dost edinilen kâfirler)
+    '4:139:7': 'degil',  # min dûni'l-mu'minîne — çoğul insan göndergeli → degil (berisinde bırakılanlar)
+    '4:141:24': 'degil',  # ve nemna'kum mine'l-mu'minîne — çoğul insan göndergeli → degil (alıkonulan taraf)
+    '4:141:35': 'degil',  # li'l-kâfirîne 'ale'l-mu'minîne sebîlâ — çoğul insan göndergeli → degil (yol verilmeyen taraf)
 }
