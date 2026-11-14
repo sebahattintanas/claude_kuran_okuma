@@ -564,6 +564,15 @@ BAGLAR = {"AS_nisa": [
  {'bag': '4:94 → 4:134', 'kural': "sûre içi — önek kesilmiş 'fe-'inda'llâh'", 'not': 'sûre içi kalıp eşi (ölçüm xref).'},
  {'bag': '4:58 → 4:134', 'kural': "sûre içi — harekesiz 'semî'an basîrâ'", 'not': 'sûre içi kalıp eşi.'},
  {'bag': '76:2 → 4:134', 'kural': "okuma — harekesiz 'semî'an basîrâ'", 'not': 'kalıp eşi.'},
+ # blok 135-137
+ {'bag': '3:78 → 4:135', 'kural': "okuma — lemma 'yel'", 'not': 'lemma eşi (morph LEM يَلْ, kök لوي).'},
+ {'bag': '38:26 → 4:135', 'kural': "okuma — lemma 'hevâ''", 'not': 'lemma eşi.'},
+ {'bag': '4:128 → 4:135', 'kural': "sûre içi — harekesiz 'llâhe kâne bimâ ta'melûne xabîrâ'", 'not': 'sûre içi kalıp eşi (bloklar arası; ölçüm xref).'},
+ {'bag': '2:285 → 4:136', 'kural': "okuma — önek kesilmiş 've melâ'iketihî ve kutubihî ve rusulih'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '57:7 → 4:136', 'kural': "okuma — harekesiz 'âminû bi'llâhi ve rasûlih'", 'not': 'kalıp eşi.'},
+ {'bag': '4:116 → 4:136', 'kural': "sûre içi — önek kesilmiş 'fe-qad dalle dalâlen ba'îdâ'", 'not': 'sûre içi kalıp eşi (bloklar arası).'},
+ {'bag': '3:90 → 4:137', 'kural': "okuma — harekesiz 'summe'zdâdû kufrâ'", 'not': 'kalıp eşi.'},
+ {'bag': '63:3 → 4:137', 'kural': "okuma — harekesiz 'summe keferû'", 'not': 'kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

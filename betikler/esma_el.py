@@ -1356,4 +1356,9 @@ KARAR = {
     '4:134:10': 'degil',  # ve'l-âxirati — 'fi'l-âxira' emsali → degil (dünyanın karşıtı)
     '4:134:13': 'ilahi',  # ve kâna'llâhu semî'an basîrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
     '4:134:14': 'ilahi',  # ve kâna'llâhu semî'an basîrâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 blok 23, 25, 29, 32 kullanıcı kararları emsali, onaya açık)
+    # sure 4 blok 135-137
+    '4:135:7': 'degil',  # kûnû qavvâmîne bi'l-qısti şuhedâ'e li'llâhi — 2MP haberi → degil (muhatap tanıklar, çoğul)
+    '4:135:17': 'degil',  # in yekun ğaniyyen ev faqîran — esmâ adı esmâ dışı göndergeyle → degil (insan göndergeli tekil)
+    '4:135:37': 'ilahi',  # fe-inna'llâhe kâne bimâ ta'melûne xabîrâ — 'inne/enne' haberi → ilahi ('kâne' aracılı; blok 1 kullanıcı kararı, onaya açık)
+    '4:136:24': 'degil',  # ve'l-yevmi'l-âxiri — 'fi'l-âxira' emsali → degil (gün sıfatı)
 }

@@ -62,7 +62,7 @@ for n in range(A, B + 1):
         nl += 1; s_ = skl(x)
         if not any(s_ == L or s_.replace('y', '') == L.replace('y', '') or s_.replace('v', '') == L.replace('v', '') for L in LEMS): H('(4) ◇ lemma', n, x, s_)
 metin = '\n'.join(M[n] for n in range(A, B + 1)) + '\n' + '\n'.join(x for x in ar if not x.startswith(('bölüm denetimi', 'bölüm 12 denetiminden', 'kullanıcı kararı')))
-for m in re.finditer(r"lemma(?:ları)? ((?:'(?:[^']|'(?=[a-zâîûçğışöü]))+'(?:, | ve )?)+)", metin):
+for m in re.finditer(r"lemma(?:ları)? ('(?:[^']|'(?=[a-zâîûçğışöü]))+'(?:(?:, | ve )'(?:[^']|'(?=[a-zâîûçğışöü]))+')*)", metin):
     for x in re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", m.group(1)):
         s = skl(x); nl += 1
         if not any(s == L or s.replace('y', '') == L.replace('y', '') or s.replace('v', '') == L.replace('v', '') for L in LEMS):
