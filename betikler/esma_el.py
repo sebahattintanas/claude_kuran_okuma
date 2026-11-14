@@ -1400,4 +1400,10 @@ KARAR = {
     '4:170:22': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
     '4:170:23': 'ilahi',  # ve kâna'llâhu 'alîmen hakîmâ — 've kâna'llâhu X' lafzın haberi → ilahi (sûre 4 kullanıcı kararı emsali, onaya açık)
     '4:171:53': 'ilahi',  # ve kefâ bi'llâhi vekîlâ — 'kefâ bi'llâhi X' temyizi → ilahi (sûre 4 oturum 1 kullanıcı kararı, onaya açık)
+    # sure 4 blok 173-176
+    '4:173:24': 'degil',  # ve lâ yecidûne lehum min dûni'llâhi veliyyen ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (Allah'tan başka bulunmayan dost)
+    '4:173:26': 'degil',  # ve lâ yecidûne lehum min dûni'llâhi veliyyen ve lâ nasîrâ — esmâ adı esmâ dışı göndergeyle → degil (Allah'tan başka bulunmayan yardımcı)
+    '4:174:10': 'degil',  # ve enzelnâ ileykum nûren mubînâ — esmâ adı esmâ dışı göndergeyle → degil (indirilen nur)
+    '4:174:11': 'degil',  # ve enzelnâ ileykum nûren mubînâ — esmâ adı esmâ dışı göndergeyle → degil (nurun sıfatı)
+    '4:176:50': 'ilahi',  # va'llâhu bi-kulli şey'in 'alîm — 've'llâhu X' lafzın haberi → ilahi (4:12 emsali)
 }

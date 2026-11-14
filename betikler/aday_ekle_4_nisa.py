@@ -692,6 +692,23 @@ BAGLAR = {"AS_nisa": [
  {'bag': '33:3 → 4:171', 'kural': "okuma — önek kesilmiş 've kefâ bi'llâhi vekîlâ'", 'not': 'kalıp eşi (ölçüm xref).'},
  {'bag': '21:19 → 4:172', 'kural': "okuma — harekesiz ''an 'ibâdetih'", 'not': 'kalıp eşi.'},
  {'bag': '4:171 → 4:172', 'kural': "sûre içi — lemma 'mesîh'", 'not': 'lemma eşi, blok içi.'},
+ # blok 173-176
+ {'bag': '4:172 → 4:173', 'kural': "sûre içi — lemma 'istenkefe'", 'not': 'lemma eşi (bloklar arası ardışık).'},
+ {'bag': '3:57 → 4:173', 'kural': "okuma — önek kesilmiş 'fe-yuveffîhim ucûrahum'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '35:30 → 4:173', 'kural': "okuma — önek kesilmiş 've yezîduhum min fadlih'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '48:16 → 4:173', 'kural': "okuma — harekesiz ''azâben elîmâ'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '33:17 → 4:173', 'kural': "okuma — önek kesilmiş 've lâ yecidûne lehum min dûni'llâhi veliyyen ve lâ nasîrâ'", 'not': 'kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '4:123 → 4:173', 'kural': "sûre içi — harekesiz 'min dûni'llâhi veliyyen ve lâ nasîrâ'", 'not': 'sûre içi kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '10:108 → 4:174', 'kural': "okuma — harekesiz 'yâ eyyuhe'n-nâsu qad câ'ekum'", 'not': 'kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '4:170 → 4:174', 'kural': "sûre içi — harekesiz 'yâ eyyuhe'n-nâsu qad câ'ekum'", 'not': 'sûre içi kalıp eşi (ölçüm xref, nakarat3; bloklar arası).'},
+ {'bag': '3:101 → 4:175', 'kural': "okuma — lemma 'i'tasama'", 'not': 'lemma eşi.'},
+ {'bag': '4:146 → 4:175', 'kural': "sûre içi — lemma 'i'tasama'", 'not': 'sûre içi lemma eşi.'},
+ {'bag': '4:68 → 4:175', 'kural': "sûre içi — harekesiz 'sırâtan mustaqîmâ'", 'not': 'sûre içi kalıp eşi.'},
+ {'bag': '4:173 → 4:175', 'kural': "sûre içi — önek kesilmiş 'fe-emme'llezîne âmenû'", 'not': 'kalıp eşi, blok içi.'},
+ {'bag': '4:127 → 4:176', 'kural': "sûre içi — harekesiz 'quli'llâhu yuftîkum'", 'not': 'sûre içi kalıp eşi (ölçüm nakarat3).'},
+ {'bag': '4:12 → 4:176', 'kural': "sûre içi — lemma 'kelâle'", 'not': 'sûre içi lemma eşi (ölçüm xref, nakarat3).'},
+ {'bag': '4:11 → 4:176', 'kural': "sûre içi — harekesiz 'mislu hazzi'l-unseyeyn'", 'not': 'sûre içi kalıp eşi (ölçüm xref, nakarat3).'},
+ {'bag': '2:282 → 4:176', 'kural': "okuma — önek kesilmiş 'va'llâhu bi-kulli şey'in 'alîm'", 'not': 'kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
