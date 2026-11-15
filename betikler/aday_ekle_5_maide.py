@@ -130,6 +130,14 @@ BAGLAR = {"AS_maide": [
  {'bag': '5:11 → 5:20', 'kural': "sûre içi — lemma dizisi 'zekera ni'me allâh 'alâ iz'", 'not': "sûre içi lemma dizisi eşi (ölçüm nakarat3); harekesiz yazım farkı ('ni'me' ة / ت)."},
  {'bag': '3:149 → 5:21', 'kural': "okuma — önek kesilmiş 'fe-tenqalibû xâsirîn'", 'not': 'kalıp eşi.'},
  {'bag': '26:130 → 5:22', 'kural': "okuma — lemma 'cebbâr'", 'not': 'lemma eşi.'},
+ # blok 24-26
+ {'bag': '5:22 → 5:24', 'kural': "sûre içi — lemma dizisi 'inne len dexale'", 'not': "bölüm içi kalıp eşi (ölçüm nakarat3); harekesiz 'qâlû yâ mûsâ' açılışı da eş; önek farkı ('ve')."},
+ {'bag': '9:86 → 5:24', 'kural': "okuma — lemma 'qâ'id'", 'not': 'lemma eşi.'},
+ {'bag': '10:49 → 5:25', 'kural': "okuma — harekesiz 'lâ emliku'", 'not': 'kalıp eşi.'},
+ {'bag': '28:34 → 5:25', 'kural': "okuma — önek kesilmiş 've exî'", 'not': 'kalıp eşi.'},
+ {'bag': '61:5 → 5:25', 'kural': "okuma — harekesiz 'l-qavmi'l-fâsiqîn'", 'not': 'kalıp eşi.'},
+ {'bag': '5:25 → 5:26', 'kural': "sûre içi — harekesiz 'l-qavmi'l-fâsiqîn'", 'not': 'blok içi kalıp eşi.'},
+ {'bag': '46:15 → 5:26', 'kural': "okuma — harekesiz 'erba'îne sene'", 'not': 'kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
