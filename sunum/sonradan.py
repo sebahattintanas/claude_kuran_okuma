@@ -24,8 +24,11 @@ for blk in ARG:
         L = b.strip().splitlines(); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
         d = ast.literal_eval(m.group(2))
         li = [l for l in L if l.startswith('liste:')]
-        if not li: continue
-        ay = [x.strip().split('×')[0].rstrip('†') for x in li[0][6:].split(',')]
+        if li: ay = [x.strip().split('×')[0].rstrip('†') for x in li[0][6:].split(',')]
+        else:  # bölüm 1 denetimi kuralı 1: lemma dizisi kayıtları ('liste:' öneksiz satır)
+            ld = [l for l in L[1:-1] if re.match(r'^\d+:\d+', l.strip())]
+            if not ld: continue
+            ay = [x.strip().split('×')[0].rstrip('†') for x in ld[0].split(',')]
         yeni = [a for a in ay if a in B and a not in set(d['bu']) | set(d['basilan'])]
         if yeni: n += 1; print(blk, L[0], yeni)
 print('eskiyen sayım:', n)

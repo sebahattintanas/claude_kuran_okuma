@@ -7,7 +7,7 @@ for f in sys.argv[1:]:
     for v in d.values():
         for m in v:
             if not m.startswith('meal'): continue
-            for tr, ar in re.findall(r"'([^']+)' '((?:[^' ]|'(?=[a-zâîûçğışöü]))+)' (?:karşılığı|açılımı)", m):
+            for tr, ar in re.findall(r"'([^']+)' '((?:[^' ]|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı)", m):
                 TR[tr].add(ar)
 for tr, ars in sorted(TR.items()):
     if len(ars) > 1: print(tr, '←', sorted(ars))

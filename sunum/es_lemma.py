@@ -13,7 +13,7 @@ for nn in sys.argv[1:]:
     for a, L in v.MK.items():
         for tr, q, items in L:
             for it in items:
-                m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü]))+)' (?:karşılığı|açılımı) \((\d+)\. kelime", it)
+                m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \((\d+)\. kelime", it)
                 if m and (a, int(m.group(3))) in LEM:
                     TR[LEM[(a, int(m.group(3)))]].add((m.group(1), '%d:%d:%s' % (S, a, m.group(3))))
 for lem, s in sorted(TR.items()):

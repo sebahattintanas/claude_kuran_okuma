@@ -28,6 +28,13 @@ for n in range(A, B + 1):
     for x in re.findall(r"'([^']+(?:'[a-zâîû][^']*)*)'", a4):
         if len(x.split()) >= 2 and x not in alltr and (x + "' bölümünde") not in a4:
             bad += 1; print('A4', n, x)
+# bölüm 1 (sûre 5) denetimi kuralı 8: A1 ve ◇ okuma bölümündeki kelime alıntıları ◇ transliterasyonunun alt dizesi ('el-X' / 'es-X' belirlilik yazımı 'l-X' / 's-X' ile kabul)
+for n in range(A, B + 1):
+    a1 = M[n][M[n].index('◈A — A1 '):]; a1 = a1[:a1.index('; A2 ')]
+    for x in re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", a1):
+        if not re.search(r'[a-zâîû]', x) or ' — ' in x or re.search(r'[\u0600-\u06ff]', x) or '(' in x or ';' in x: continue
+        y = re.sub(r"^e([a-zçşğ]-)", r"\1", x); z = re.sub(r"^ell", "ll", x)
+        if x not in dia[n] and y not in dia[n] and z not in dia[n]: bad += 1; print('A1 alt dize dışı', n, x)
 c = open(Y + 'cipa' + suf).read()
 for x in re.findall(r'not_="\'(.+?)\' —', c):
     if x not in alltr: bad += 1; print('cipa', x)
