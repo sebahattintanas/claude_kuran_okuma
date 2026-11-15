@@ -1425,4 +1425,9 @@ KARAR = {
     '5:17:42': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
     # sure 5 blok 18-19
     '5:19:28': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
+    # sure 5 blok 20-23
+    '5:20:15': 'degil',  # ve ce'alekum mulûken — çoğul insan göndergeli → degil (hükümdarlar)
+    '5:20:20': 'degil',  # mâ lem yu'ti ehaden — olumsuz nekre ehad → degil
+    '5:22:6': 'degil',  # qavmen cebbârîne — çoğul insan göndergeli → degil (zorba kavim)
+    '5:23:21': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli → degil (inananlar)
 }
