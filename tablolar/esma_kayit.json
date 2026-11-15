@@ -80656,6 +80656,132 @@
   "ton": null,
   "ton_kismi": false
  },
+ "5:37": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    8,
+    "خارِج"
+   ],
+   [
+    11,
+    "عَذاب"
+   ],
+   [
+    12,
+    "مُقِيم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:38": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    12,
+    "عَزِيز"
+   ],
+   [
+    13,
+    "حَكِيم"
+   ]
+  ],
+  "esma_el": {
+   "5:38:12": "ilahi",
+   "5:38:13": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "عَزِيز",
+   "حَكِيم"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    11,
+    "اللَّه"
+   ],
+   [
+    12,
+    "عَزِيز"
+   ],
+   [
+    13,
+    "حَكِيم"
+   ]
+  ],
+  "ton": "celâl",
+  "ton_kismi": true
+ },
+ "5:39": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    13,
+    "غَفُور"
+   ],
+   [
+    14,
+    "رَحِيم"
+   ]
+  ],
+  "esma_el": {
+   "5:39:13": "ilahi",
+   "5:39:14": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "غَفُور",
+   "رَحِيم"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    12,
+    "اللَّه"
+   ],
+   [
+    13,
+    "غَفُور"
+   ],
+   [
+    14,
+    "رَحِيم"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
  "5:4": {
   "a": true,
   "bant": "KAPI_KAPALI",
@@ -80686,6 +80812,47 @@
    ]
   ],
   "ton": null,
+  "ton_kismi": false
+ },
+ "5:40": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    19,
+    "قَدِير"
+   ]
+  ],
+  "esma_el": {
+   "5:40:19": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "قَدِير"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    17,
+    "كُلّ"
+   ],
+   [
+    18,
+    "شَىْء"
+   ],
+   [
+    19,
+    "قَدِير"
+   ]
+  ],
+  "ton": "celâl",
   "ton_kismi": false
  },
  "5:5": {

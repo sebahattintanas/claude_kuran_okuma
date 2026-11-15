@@ -1436,4 +1436,10 @@ KARAR = {
     '5:33:32': 'degil',  # fi'l-âxirati 'azâbun 'azîm — esmâ adı esmâ dışı göndergeyle → degil (âhiret yurdu)
     '5:34:12': 'ilahi',  # enna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
     '5:34:13': 'ilahi',  # enna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    # sure 5 blok 37-40
+    '5:38:12': 'ilahi',  # ve'llâhu 'azîzun hakîm — 've'llâhu X' kuralı → ilahi
+    '5:38:13': 'ilahi',  # ve'llâhu 'azîzun hakîm — 've'llâhu X' kuralı → ilahi
+    '5:39:13': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:39:14': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:40:19': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
 }
