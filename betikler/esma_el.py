@@ -1406,4 +1406,7 @@ KARAR = {
     '4:174:10': 'degil',  # ve enzelnâ ileykum nûren mubînâ — esmâ adı esmâ dışı göndergeyle → degil (indirilen nur)
     '4:174:11': 'degil',  # ve enzelnâ ileykum nûren mubînâ — esmâ adı esmâ dışı göndergeyle → degil (nurun sıfatı)
     '4:176:50': 'ilahi',  # va'llâhu bi-kulli şey'in 'alîm — 've'llâhu X' lafzın haberi → ilahi (4:12 emsali)
+    # sure 5 blok 3-4
+    '5:3:60': 'ilahi',  # fe-inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:3:61': 'ilahi',  # fe-inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
 }
