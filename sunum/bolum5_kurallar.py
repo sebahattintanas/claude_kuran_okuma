@@ -51,14 +51,20 @@ for f in sorted(glob.glob('/home/claude/b*/morph%d.txt' % S)):
         LEMS.setdefault(nb(isk_ar(L)), {})[L] = ham
 HAM_IS = {k for k, d in LEMS.items() if all(d.values())}  # iskelet eşi lemmaların hepsi ham ise
 adlar = []  # (bağlam, ad, ardından gelen)
+KOKLU = []  # bölüm 6 kuralı 3: kökü ve ayeti anılan çakışma adları (ad, kök, ayetler, notlu)
 for it in ITEMS:
     for m in re.finditer(r"lemma adları[^(]*\(((?:[^()]|\([^()]*\))*)\)", it):
-        for q in re.finditer(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?", m.group(1)):
-            adlar.append(('lemma listesi', q.group(1), bool(q.group(2))))
+        for parca in re.split(r"(?<=['\)]), (?=')", m.group(1)):  # bölüm 6 kuralı 3: virgülle böl (hemze ile biten addan sonra bozulmaz)
+            notlu = parca.endswith(' (morph LEM ham biçim)')
+            q = parca[:-len(' (morph LEM ham biçim)')] if notlu else parca
+            if q.startswith("'") and q.endswith("'") and len(q) > 2: adlar.append(('lemma listesi', q[1:-1], notlu))
     for q in re.finditer(r"LEM '((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?", it):
         adlar.append(('LEM kaydı', q.group(1), bool(q.group(2))))
-    for q in re.finditer(r"(?:bir lemma \(|farklı lemma — )'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?", it):
-        adlar.append(('çakışma', q.group(1), bool(q.group(2))))
+    for q in re.finditer(r"(?:bir lemma \(|farklı lemma — |farklı lemma ve kök — )'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?|\('((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?(?=;)", it):
+        if it.startswith('karşılık çakışması'): adlar.append(('çakışma', q.group(1) or q.group(3), bool(q.group(2) or q.group(4))))
+    if it.startswith('karşılık çakışması'):
+        for q in re.finditer(r"(?<=[\s(—/])'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))? \(([؀-ۿ]+)((?:; (?:%d:\d+)(?:, %d:\d+)*)?)\)" % (S, S), it):
+            KOKLU.append((q.group(1), q.group(3), [int(x) for x in re.findall(r'%d:(\d+)' % S, q.group(4))], bool(q.group(2))))
 LDISI, NOTSUZ = [], []
 def zayif(k): return nb(k.replace('v', '').replace('y', ''))
 LEMS2 = {}
@@ -71,6 +77,24 @@ for bag, ad, notlu in adlar:
     if not aday:
         LDISI.append('%s %s' % (bag, ad)); continue
     if all(x in HAM_IS for x in aday) and not notlu: NOTSUZ.append('%s %s' % (bag, ad))
+# bölüm 6 kuralı 3: kökü ve ayeti anılan ad, o ayetlerdeki o köklü morph LEM'lerinden birinin iskeletine eşit olmalı (normalleştirilmiş ad yakalanır)
+KORP = {}
+for l in open('/home/claude/calisma/morph.txt', encoding='utf-8'):
+    if not l.startswith('%d:' % S): continue
+    loc, fo, t, feat = l.rstrip('\n').split('\t'); a_ = int(loc.split(':')[1])
+    r = re.search(r'ROOT:([^|]+)', feat); m = re.search(r'LEM:([^|]+)', feat)
+    if r and m: KORP.setdefault((a_, r.group(1)), set()).add((ud.normalize('NFC', m.group(1)), (t == 'V' and bozuk(ud.normalize('NFC', m.group(1)), feat)) or ud.normalize('NFC', m.group(1)) in ELLE, t))
+for ad_, kok, ayl, notlu in KOKLU:
+    if not ayl: continue
+    L = set().union(*[KORP.get((x, kok), set()) for x in ayl])
+    if not L: continue
+    if any(x[2] == 'V' for x in L): L = {x for x in L if x[2] == 'V'}  # çakışma kararları fiil karşılığı üzerine: fiil LEM'i varsa yalnız onlar
+    es = [x for x in L if nb(isk_ar(x[0])) in (isk_la(ad_), isk_la(ad_) + 'h', isk_la(ad_).rstrip('h'))]
+    if not es:
+        H.append("normalleştirilmiş lemma adı '%s' (kök %s; morph LEM %s)" % (ad_, kok, ', '.join(sorted(isk_ar(x[0]) + ('/ham' if x[1] else '') for x in L))))
+    elif all(x[1] for x in es) and not notlu:
+        H.append("ham notsuz çakışma '%s' (kök %s)" % (ad_, kok))
+print('ham LEM: kökü anılan çakışma adı %d' % len(KOKLU))
 # meal maddesinde ham LEM'li her kelime için not (sayı eşlemesi, ayet ayet)
 HAMW = {}
 for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
@@ -88,7 +112,19 @@ ADAY = set('صبح مسو بكر عشي ضحو سحر غدو أصل وقت زم�
 MOR = {}
 for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, f = l.rstrip('\n').split('\t'); _, a, n = k.split(':'); MOR[(int(a), int(n))] = f
-tet = re.sub(r'tetik dışı aday \d+:.*?anılmayan \d+(?: \([^)]*\))?', '', ' '.join(item('◈ tetik') + item('tetik dışı')))  # aracın kendi çıktısı anılış sayılmaz
+def anilis_metni(its_tetik, its_disi):  # bölüm 6 kuralı 4: anılış yalnız ◈ tetik maddesinde ve tetik dışı maddesinin 'anılış:' bölümünde
+    return ' '.join(its_tetik + [x.split('anılış:', 1)[1] if 'anılış:' in x else '' for x in its_disi])
+tet = anilis_metni(item('◈ tetik'), item('tetik dışı'))
+_m = anilis_metni([], ["tetik dışı tarama: tetik dışı aday 1: 5:1 3. kelime قبل; ◈ tetik maddesinde anılmayan 1 (5:1 3. kelime قبل) — biçim ne olursa olsun 5:1 قبل 3. kelime"])
+assert 'قبل' not in _m, 'mutasyon testi: araç çıktısı anılış sayıldı'  # mutasyon testi (bölüm 6 kuralı 4)
+_olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().replace('**', '')
+GL = dict(re.findall(r"(\S+) \*\((.*?)\)\*", open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read()))
+GLS_TAM = {'can', 'kan', 'el', 'baş', 'yüz', 'et', 'ay', 'gün', 'ön'}
+GLS_ON = ('önce', 'sonra', 'dünya', 'zaman', 'vakit', 'sabah', 'akşam', 'gece', 'yıl', 'ölüm', 'öldür', 'beden', 'ayak', 'göğüs', 'karın', 'kemik', 'hayat', 'dirilik')
+def _zb(g):
+    tk = re.findall(r'[a-zçğıöşüâîû]+', g.lower())
+    return any(t in GLS_TAM or t.startswith(GLS_ON) for t in tk)
+ADAY |= {r for r, g in GL.items() if _zb(g)}  # bölüm 6 kuralı 4: gloss türevli adaylar
 def bolum(a):  # tetik maddelerinin S:a ile başlayan bütün bölümleri (bir sonraki 'S:b ' işaretine dek)
     par = re.split(r'(?<![\d:])(%d:\d+) ' % S, tet)
     return ' '.join(par[k + 1] for k in range(1, len(par) - 1, 2) if par[k] == '%d:%d' % (S, a))
@@ -119,7 +155,25 @@ for txt in ITEMS + list(M.values()):
             d = dmd(a); KAL += 1
             if d is not None and not all(p.strip() in d for p in m.group(1).split('…') if p.strip()):
                 H.append("ayetler arası kalıp '%s' %d:%d ◇ alt dizesi değil" % (q, S, a))
-print('ayetler arası kalıp alıntısı: ayet eşlemesi %d' % KAL)
+# bölüm 6 kuralı 5: okuma / ◈D / fâsıla maddelerinde iki ayet numarasıyla alıntılanan kalıp — ortak kısım (kelime düzeyinde baş) sayımla anılmalı
+ETIKETLER = ' '.join(open(f, encoding='utf-8').read() for f in glob.glob(Y + 'metin_%d_*_*.txt' % S))
+SAYILI = set(re.findall(r"(?:harekesiz|önek kesilmiş|lemma dizisi) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", ETIKETLER))
+K8 = 0
+for it in item('okuma') + item('◈D') + item('fâsıla'):
+    for seg in it.split('; '):
+        ay = set(re.findall(r'(?<![\d:])%d:(\d+)' % S, seg))
+        qs = [q for q in re.findall(r"(?<![a-zâîûçğışöü])'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", seg) if ' ' in q]
+        if len(ay) < 2 or len(qs) < 2: continue
+        w = [q.split() for q in qs]; ort = []
+        for parca in zip(*w):
+            if len(set(parca)) == 1: ort.append(parca[0])
+            else: break
+        if not ort: continue
+        K8 += 1; P = ' '.join(ort)
+        if all(len(x) == len(ort) for x in w): P = qs[0]
+        if not any(x == P or x.startswith(P) and len(P.split()) == len(x.split()) for x in SAYILI):
+            H.append("ayetler arası ortak kalıp sayımsız '%s' (%s)" % (P, ', '.join('%d:%s' % (S, x) for x in sorted(ay, key=int))))
+print('ayetler arası kalıp alıntısı: ayet eşlemesi %d; iki ayetli ortak kalıp %d' % (KAL, K8))
 # ── (9) meal takdirleri ──
 meal = ' '.join(item('meal (okuma'))
 def mbol(a):
@@ -150,6 +204,14 @@ for a in range(A, B + 1):
     d = re.search(r"Karşıt çift \(aday 1039, okuma\): ayet içi: (.*?)(?: — ayetler arası|\. [A-ZÇĞİÖŞÜ◈]|\.$)", M[a])
     dm_c = [x.strip() for x in d.group(1).split('; ')] if d and d.group(1) != 'yok' else []
     if ar_c != dm_c: H.append('aday 1039 %d:%d ARIZA %s ≠ ◇ %s' % (S, a, ar_c, dm_c))
-print('aday 1039 eşlemesi: %d ayet' % (B - A + 1))
+PR = r"%d:\d+ / %d:\d+ \((?:[^()]|\([^()]*\))*\)" % (S, S)  # bölüm 6 kuralı 6: ayetler arası çiftler de bayt eşlenir
+ar_x = set(re.findall(PR, ad.split('ayetler arası', 1)[1])) if 'ayetler arası' in ad else set()
+dm_x = set()
+for a in range(A, B + 1):
+    d = M[a].split('— ayetler arası: ', 1)
+    if len(d) > 1: dm_x |= set(re.findall(PR, d[1].split('\n')[0]))
+dm_x = {x for x in dm_x if all(A <= int(y) <= B for y in re.findall(r'%d:(\d+)' % S, x.split(' (')[0])) or True}
+for x in sorted(ar_x ^ dm_x): H.append('aday 1039 ayetler arası ' + ('yalnız ARIZA: ' if x in ar_x else 'yalnız ◇: ') + x)
+print('aday 1039 eşlemesi: %d ayet; ayetler arası çift ARIZA %d / ◇ %d' % (B - A + 1, len(ar_x), len(dm_x)))
 for h in H: print('HATA', h)
 print('bolum5_kurallar hata:', len(H))

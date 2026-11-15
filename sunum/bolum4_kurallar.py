@@ -40,7 +40,7 @@ for a in range(A, B + 1):
         if ch == ';' and d == 0: ITEMS.append(cur); cur = ''
         else: cur += ch
     ITEMS.append(cur)
-    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|lafız|Allah|Rab'
+    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|adlı aktör'  # bölüm 6 kuralı 15: 'lafız' / 'gönderge lafız' ölçüt yerine geçmez
     for it in ITEMS:
         subs = it.split(';')
         for k, sub in enumerate(subs):  # etiket kendi alt maddesinde ya da madde başının parantezinde ad ölçütü taşır
@@ -58,9 +58,9 @@ for a in range(A, B + 1):
 def kelime(q):  # wasl birleşmelerini ayırarak morph kelime sayısı
     n = 0
     for t in q.split():
-        if t in ('ve', 'fe', 'yâ'): continue  # ayrı yazılmış önek bağlaç morph kelimesi değil
+        if t in ('ve', 'fe', 'fa', 'va', 'yâ'): continue  # ayrı yazılmış önek bağlaç morph kelimesi değil
         parca = re.split(r"(?<=[aeiuâîû])'(?=l-|ll|[a-zçğışöü]-|[bcdfğhklmnqrsştxyz]{2})", t)
-        n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
+        n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
     return n
 # aralık eşlemesi — "'… …' (i-j. kelime)" alıntısının kelime sayısı
 ar = open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()
@@ -69,6 +69,28 @@ for ad, txt in [('metin', '\n'.join(M.values())), ('ariza', ar)]:
         q, i, j = m.group(1), int(m.group(2)), int(m.group(3))
         if '…' in q: continue
         if kelime(q) != j - i + 1: H.append('aralık %s %s (%d-%d) kelime %d' % (ad, q[:40], i, j, len(q.split())))
+# bölüm 6 kuralı 1: A1 kapsamı — morph'ta şahıs etiketi taşıyan her segmentin kelimesi A1'de numarasıyla ya da ◇ alıntısıyla anılır
+KISI = {}
+for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+    loc, fo, tg, ft = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
+    if A <= a_ <= B and re.search(r'(?:^|\|)[123](?:M|F)?(?:S|D|P)(?:\||$)', ft): KISI.setdefault(a_, set()).add(w_)
+def kapsanan(a):
+    t = M[a]; d = re.match(r"◇ '(.*?)' — ", t).group(1)
+    a1 = t[t.index('A1 ') + 3:t.index(' A2 ')] if 'A1 ' in t and ' A2 ' in t else ''
+    K = set()
+    for m in re.finditer(r'((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime', a1):
+        for x in re.findall(r'(\d+)(?:-(\d+))?\.', m.group(1)):
+            K.update(range(int(x[0]), int(x[1] or x[0]) + 1))
+    for q in re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", a1):
+        for mm in re.finditer(re.escape(q), d):
+            p = mm.start(); on = d[:p]
+            if on.endswith('-'): on = on[:on.rfind(' ') + 1]  # 'li-' / 'bi-' önekli kelimenin başı
+            bas = kelime(on.rstrip("'")) + 1 if on.endswith("'") else kelime(on) + 1
+            K.update(range(bas, bas + max(kelime(q), 1)))
+    return K
+for a in range(A, B + 1):
+    eks = sorted(KISI.get(a, set()) - kapsanan(a))
+    if eks: H.append('A1 kapsamı %d:%d şahıs etiketli kelime A1 dışında: %s' % (S, a, ', '.join('%d.' % w for w in eks)))
 # (10) simetri / İÇ düğüm alanı olmayan ayetler
 yok = ['%d:%d %s' % (S, a, ' + '.join(x for x in ('simetri', 'İÇ düğüm') if x not in olc[a - A])) for a in range(A, B + 1) if 'simetri' not in olc[a - A] or 'İÇ düğüm' not in olc[a - A]]
 print('ALAN YOK: ' + ('; '.join(yok) if yok else 'yok'))

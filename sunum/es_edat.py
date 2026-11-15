@@ -5,8 +5,9 @@ import sys, os, re, importlib.util as iu, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
 import edat_etiket as E
 BIR = {"'hû'": "'hu'", "'hî'": "'hu'", "'hi'": "'hu'", "'hu'": "'hu'", "'him'": "'hum'", "'hum'": "'hum'", "'hinne'": "'hunne'", "'hunne'": "'hunne'", "'himâ'": "'humâ'", "'humâ'": "'humâ'", "'ûne'": "'û'"}
-EK = ("'le'alle'", "'innemâ'", "'nne'", "'ente'", "'ene'", "'entum'", "'zâlike'", "'hâzâ'", "'tilke'", "'keyfe'", "'ke'enne'", "'ke'ennemâ'", "'ba'd'", "'qabl'", "'elletî'", "'hâ'", "'iz'", "'izâ'", "'nâ'", "'tum'", "'kum'", "'û'", "'î'", "'ke'", "'â'")  # bölüm 4 denetimi kuralı 5: 'î' / 'ke' / 'â' zamirleri
+EK = ("'bel'", "'mâzâ'", "'ne'", "'ni'", "'le'alle'", "'innemâ'", "'nne'", "'ente'", "'ene'", "'entum'", "'zâlike'", "'hâzâ'", "'tilke'", "'keyfe'", "'ke'enne'", "'ke'ennemâ'", "'ba'd'", "'qabl'", "'elletî'", "'hâ'", "'iz'", "'izâ'", "'nâ'", "'tum'", "'kum'", "'û'", "'î'", "'ke'", "'â'")  # bölüm 4 denetimi kuralı 5: 'î' / 'ke' / 'â' zamirleri
 HATA, TANIMSIZ = [], []
+ISIM_DIS = {"'ğayr'"}  # bölüm 6 kuralı 11: 'ğayr' isim (morph N, izafet başı) — edat / zamir eş tablosu dışında bırakılır
 G = collections.defaultdict(lambda: collections.defaultdict(list))
 for nn in sys.argv[1:]:
     d = '/home/claude/b%02d' % int(nn)
@@ -21,7 +22,7 @@ for nn in sys.argv[1:]:
                     continue
                 ed, w = m.group(1), int(m.group(2))
                 if ed not in E.EDLEM and ed not in E.ZAMIR and ed not in BIR and ed not in EK:
-                    if not re.search(r'[A-Z]', ed): TANIMSIZ.append('%d:%d %s' % (S, a, ed))
+                    if not re.search(r'[A-Z]', ed) and ed not in ISIM_DIS: TANIMSIZ.append('%d:%d %s' % (S, a, ed))
                     continue
                 tag = E.etiket(a, w, ed)
                 bas = BIR.get(ed, ed)

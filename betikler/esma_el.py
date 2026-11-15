@@ -1442,4 +1442,6 @@ KARAR = {
     '5:39:13': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
     '5:39:14': 'ilahi',  # inna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
     '5:40:19': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
+    # sure 5 blok 41-41
+    '5:41:65': 'degil',  # fi'l-âxirati 'azâbun 'azîm — 'fi'l-âxira' emsali → degil (âhiret)
 }

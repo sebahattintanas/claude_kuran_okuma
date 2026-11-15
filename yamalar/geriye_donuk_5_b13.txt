@@ -1,0 +1,809 @@
+# geriye dönük koşu (b13, 2026-11-15): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre 5); isabet 447
+# önceki dosyayla fark (geriye_donuk_5_b11.txt): düşen 70, yeni 277
+#   düşen: blok 01 yamalar/ariza_5_1_2.txt:19:iki ayetin
+#   düşen: blok 02 ham notsuz lemma listesi , 'zekkey
+#   düşen: blok 02 yamalar/ariza_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+#   düşen: blok 02 yamalar/ariza_5_3_4.txt:12:biri
+#   düşen: blok 02 yamalar/metin_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+#   düşen: blok 02 yamalar/metin_5_3_4.txt:12:biri
+#   düşen: blok 03 ham notsuz lemma listesi lemesu
+#   düşen: blok 03 ham notsuz lemma listesi ğsilu
+#   düşen: blok 03 yamalar/ariza_5_5_6.txt:23:biri
+#   düşen: blok 03 yamalar/metin_5_5_6.txt:4:biri
+#   düşen: blok 04 ham notsuz lemma listesi tevekkel
+#   düşen: blok 04 ham notsuz lemma listesi yecrime
+#   düşen: blok 04 tetik dışı anılmadı 5:7 19. kelime صدر
+#   düşen: blok 04 yamalar/ariza_5_7_11.txt:12:biri
+#   düşen: blok 04 yamalar/ariza_5_7_11.txt:17:iki ayetin
+#   düşen: blok 04 yamalar/metin_5_7_11.txt:30:biri
+#   düşen: blok 05 tetik dışı anılmadı 5:12 39. kelime بعد (morph T)
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:14:biri
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:14:dördü
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:14:ikisi
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:15:biri
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:15:ikisi
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:15:ikisi de
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:19:iki ayetin
+#   düşen: blok 05 yamalar/ariza_5_12_14.txt:4:biri
+#   düşen: blok 05 yamalar/metin_5_12_14.txt:13:biri
+#   düşen: blok 05 yamalar/metin_5_12_14.txt:13:ikisi
+#   düşen: blok 05 yamalar/metin_5_12_14.txt:18:biri
+#   düşen: blok 05 yamalar/metin_5_12_14.txt:8:dördü
+#   düşen: blok 06 yamalar/ariza_5_15_17.txt:12:ikisi
+#   düşen: blok 06 yamalar/ariza_5_15_17.txt:13:ikisi
+#   düşen: blok 06 yamalar/ariza_5_15_17.txt:13:ikisi de
+#   düşen: blok 06 yamalar/ariza_5_15_17.txt:21:ikisi
+#   düşen: blok 06 yamalar/ariza_5_15_17.txt:25:Peygamber
+#   düşen: blok 06 yamalar/metin_5_15_17.txt:12:ikinci
+#   düşen: blok 06 yamalar/metin_5_15_17.txt:18:ikisi
+#   düşen: blok 06 yamalar/metin_5_15_17.txt:5:ikisi
+#   düşen: blok 06 yamalar/metin_5_15_17.txt:8:ikinci
+#   düşen: blok 07 ham notsuz lemma listesi ehibbâ
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:12:ikisi
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:12:üçü
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:13:ikisi
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:13:ikisi de
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:15:içinde de
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:20:iki ayetinde
+#   düşen: blok 07 yamalar/ariza_5_18_19.txt:21:ikisi
+#   düşen: blok 07 yamalar/metin_5_18_19.txt:12:ikisi
+#   düşen: blok 07 yamalar/metin_5_18_19.txt:3:ikisi
+#   düşen: blok 07 yamalar/metin_5_18_19.txt:7:üçü
+#   düşen: blok 08 ham notsuz LEM kaydı meleket
+#   düşen: blok 08 yamalar/ariza_5_20_23.txt:14:biri
+#   düşen: blok 08 yamalar/ariza_5_20_23.txt:22:dört ayetin
+#   düşen: blok 08 yamalar/ariza_5_20_23.txt:22:üçünde
+#   düşen: blok 08 yamalar/metin_5_20_23.txt:24:biri
+#   düşen: blok 08 yamalar/metin_5_20_23.txt:9:biri
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:23:birer
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:23:biri
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:23:birinden
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:3:sonuncusu
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:5:biri
+#   düşen: blok 10 yamalar/ariza_5_27_30.txt:6:biri
+#   düşen: blok 10 yamalar/esma_el_5_27_30.txt:2:biri
+#   düşen: blok 10 yamalar/metin_5_27_30.txt:3:birer
+#   düşen: blok 10 yamalar/metin_5_27_30.txt:3:birinden
+#   düşen: blok 10 yamalar/metin_5_27_30.txt:9:biri
+#   düşen: blok 11 tetik dışı anılmadı 5:31 10. kelime سوأ
+#   düşen: blok 11 tetik dışı anılmadı 5:31 19. kelime غرب
+#   düşen: blok 11 tetik dışı anılmadı 5:31 21. kelime سوأ
+#   düşen: blok 11 tetik dışı anılmadı 5:31 3. kelime غرب
+#   düşen: blok 11 yamalar/ariza_5_31_32.txt:21:biri
+#   yeni: blok 01 A1 kapsamı 5:2 şahıs etiketli kelime A1 dışında: 28., 37., 38., 43., 47.
+#   yeni: blok 01 KAPSAMAYAN 18
+#   yeni: blok 01 aday 1039 ayetler arası yalnız ARIZA: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû', lemma 'ehalle', blok içi)
+#   yeni: blok 01 aday 1039 ayetler arası yalnız ◇: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû')
+#   yeni: blok 01 ariza_5_1_2.txt:19:iki ayetin
+#   yeni: blok 01 tanınmayan 1 (5:1 'ğayr')
+#   yeni: blok 01 tetik dışı anılmadı 5:2 32. kelime صدد
+#   yeni: blok 01 yıldız maddesi: 5:1 ★ (kaynak pas, z=1,57 yok
+#   yeni: blok 01 yıldız maddesi: 5:2 ★★★ (kaynak n, z=4,20 yok
+#   yeni: blok 01 çakışma grubu ARIZA'da yok: 'helâl say-' ←
+#   yeni: blok 02 A1 kapsamı 5:3 şahıs etiketli kelime A1 dışında: 17.
+#   yeni: blok 02 A1 kapsamı 5:4 şahıs etiketli kelime A1 dışında: 4., 22., 25.
+#   yeni: blok 02 KAPSAMAYAN 20
+#   yeni: blok 02 aday 1039 ayetler arası yalnız ARIZA: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum', blok içi)
+#   yeni: blok 02 aday 1039 ayetler arası yalnız ◇: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum')
+#   yeni: blok 02 ariza_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+#   yeni: blok 02 ariza_5_3_4.txt:12:biri
+#   yeni: blok 02 ham notsuz çakışma ekmel
+#   yeni: blok 02 metin_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+#   yeni: blok 02 metin_5_3_4.txt:12:biri
+#   yeni: blok 02 tanınmayan 4 (5:3 'ni', 5:3 'ğayr', 5:4 'mâzâ', 5:4 'ne')
+#   yeni: blok 02 tetik dışı anılmadı 5:3 12. kelime خنق
+#   yeni: blok 02 tetik dışı anılmadı 5:3 13. kelime وقذ
+#   yeni: blok 02 tetik dışı anılmadı 5:3 28. kelime زلم
+#   yeni: blok 02 yıldız maddesi: 5:3 ★★★ (kaynak hapaks, z=13,81 yok
+#   yeni: blok 02 yıldız maddesi: 5:4 ★★ (kaynak allah, z=2,05 yok
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: 'yırtıcı hayvan' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'hayv-' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+#   yeni: blok 02 çakışma grubu ARIZA'da yok: KÖK 'öl-' ←
+#   yeni: blok 02 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'tamamla-' ←
+#   yeni: blok 03 A1 kapsamı 5:5 şahıs etiketli kelime A1 dışında: 13., 37., 38.
+#   yeni: blok 03 A1 kapsamı 5:6 şahıs etiketli kelime A1 dışında: 9., 10., 14., 15., 44., 45., 46., 50., 58., 60.
+#   yeni: blok 03 KAPSAMAYAN 16
+#   yeni: blok 03 LEM dışı ad lemma listesi tahhara'; morph LEM ham biçim: 'ğsilu
+#   yeni: blok 03 ariza_5_5_6.txt:23:biri
+#   yeni: blok 03 metin_5_5_6.txt:4:biri
+#   yeni: blok 03 tanınmayan 1 (5:5 'ğayr')
+#   yeni: blok 03 tetik dışı anılmadı 5:5 23. kelime قبل
+#   yeni: blok 03 tetik dışı anılmadı 5:5 41. kelime أخر
+#   yeni: blok 03 yıldız maddesi: 5:5 ★★★ (kaynak n, z=3,25 yok
+#   yeni: blok 03 yıldız maddesi: 5:6 ★★★ (kaynak n, z=5,16 yok
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: 'helâl kıl-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: 'tamamla-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: 'tut-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: 'yönel-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: KÖK 'kadın-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: KÖK 'temizle-' ←
+#   yeni: blok 03 çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+#   yeni: blok 03 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'iffetli' ←
+#   yeni: blok 04 A1 kapsamı 5:11 şahıs etiketli kelime A1 dışında: 14., 16.
+#   yeni: blok 04 A1 kapsamı 5:7 şahıs etiketli kelime A1 dışında: 5., 8.
+#   yeni: blok 04 A1 kapsamı 5:8 şahıs etiketli kelime A1 dışında: 16.
+#   yeni: blok 04 A1 kapsamı 5:9 şahıs etiketli kelime A1 dışında: 7.
+#   yeni: blok 04 KAPSAMAYAN 18
+#   yeni: blok 04 LEM dışı ad lemma listesi ashâb'; morph LEM ham biçim: 'yecrime
+#   yeni: blok 04 aday 1039 ayetler arası yalnız ARIZA: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû', blok içi)
+#   yeni: blok 04 aday 1039 ayetler arası yalnız ◇: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû')
+#   yeni: blok 04 ariza_5_7_11.txt:12:biri
+#   yeni: blok 04 ariza_5_7_11.txt:17:iki ayetin
+#   yeni: blok 04 metin_5_7_11.txt:30:biri
+#   yeni: blok 04 yıldız maddesi: 5:11 ★★ (kaynak allah, z=2,08 yok
+#   yeni: blok 04 yıldız maddesi: 5:7 ★★ (kaynak allah, z=2,63 yok
+#   yeni: blok 04 yıldız maddesi: 5:8 ★ (kaynak allah, z=1,78 yok
+#   yeni: blok 04 çakışma grubu ARIZA'da yok: 'de-' ←
+#   yeni: blok 04 çakışma grubu ARIZA'da yok: KÖK 'amel-' ←
+#   yeni: blok 04 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 04 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 04 çakışma grubu ARIZA'da yok: KÖK 'tut-' ←
+#   yeni: blok 04 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'adalet' ←
+#   yeni: blok 05 A1 kapsamı 5:12 şahıs etiketli kelime A1 dışında: 8.
+#   yeni: blok 05 A1 kapsamı 5:13 şahıs etiketli kelime A1 dışında: 11., 22., 27.
+#   yeni: blok 05 KAPSAMAYAN 23
+#   yeni: blok 05 ariza_5_12_14.txt:14:biri
+#   yeni: blok 05 ariza_5_12_14.txt:14:dördü
+#   yeni: blok 05 ariza_5_12_14.txt:14:ikisi
+#   yeni: blok 05 ariza_5_12_14.txt:15:biri
+#   yeni: blok 05 ariza_5_12_14.txt:15:ikisi
+#   yeni: blok 05 ariza_5_12_14.txt:15:ikisi de
+#   yeni: blok 05 ariza_5_12_14.txt:19:iki ayetin
+#   yeni: blok 05 ariza_5_12_14.txt:4:biri
+#   yeni: blok 05 lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16): öğe 5, ad 6; joker konumu 5
+#   yeni: blok 05 lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12): öğe 5, ad 6; joker konumu 5
+#   yeni: blok 05 metin_5_12_14.txt:13:biri
+#   yeni: blok 05 metin_5_12_14.txt:13:ikisi
+#   yeni: blok 05 metin_5_12_14.txt:18:biri
+#   yeni: blok 05 metin_5_12_14.txt:8:dördü
+#   yeni: blok 05 yıldız maddesi: 5:12 ★★★ (kaynak n, z=3,46 yok
+#   yeni: blok 05 yıldız maddesi: 5:13 ★★ (kaynak n, z=2,08 yok
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: 'düşmanlık' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: 'ol-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: 'ver-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: 'yap-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'gör-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 05 çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+#   yeni: blok 05 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kıl-' ←
+#   yeni: blok 06 A1 kapsamı 5:17 şahıs etiketli kelime A1 dışında: 7., 24.
+#   yeni: blok 06 KAPSAMAYAN 16
+#   yeni: blok 06 adsız etiketi yok 5:16 'bi-iznihî' 3MS (gönderge lafız)
+#   yeni: blok 06 adsız etiketi yok 5:16 'ridvânehu' 3MS (gönderge lafız)
+#   yeni: blok 06 ariza_5_15_17.txt:12:ikisi
+#   yeni: blok 06 ariza_5_15_17.txt:13:ikisi
+#   yeni: blok 06 ariza_5_15_17.txt:13:ikisi de
+#   yeni: blok 06 ariza_5_15_17.txt:21:ikisi
+#   yeni: blok 06 ariza_5_15_17.txt:25:Peygamber
+#   yeni: blok 06 lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 15 1 7): öğe 7, ad 7; joker konumu 7
+#   yeni: blok 06 lemma dizisi adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' (dizi 5 17 1 11): öğe 11, ad 11; joker konumu 7
+#   yeni: blok 06 metin_5_15_17.txt:12:ikinci
+#   yeni: blok 06 metin_5_15_17.txt:18:ikisi
+#   yeni: blok 06 metin_5_15_17.txt:5:ikisi
+#   yeni: blok 06 metin_5_15_17.txt:8:ikinci
+#   yeni: blok 06 yıldız maddesi: 5:17 ★★★ (kaynak n, z=3,14 yok
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: 'dile-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: 'gel-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: 'iste-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+#   yeni: blok 06 çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+#   yeni: blok 06 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+#   yeni: blok 06 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yol' ←
+#   yeni: blok 07 KAPSAMAYAN 8
+#   yeni: blok 07 adsız etiketi yok 5:18 'ehibbâ'uh' 3MS (gönderge lafız)
+#   yeni: blok 07 adsız etiketi yok 5:18 'ileyhi' 3MS (gönderge lafız)
+#   yeni: blok 07 ariza_5_18_19.txt:12:ikisi
+#   yeni: blok 07 ariza_5_18_19.txt:12:üçü
+#   yeni: blok 07 ariza_5_18_19.txt:13:ikisi
+#   yeni: blok 07 ariza_5_18_19.txt:13:ikisi de
+#   yeni: blok 07 ariza_5_18_19.txt:15:içinde de
+#   yeni: blok 07 ariza_5_18_19.txt:20:iki ayetinde
+#   yeni: blok 07 ariza_5_18_19.txt:21:ikisi
+#   yeni: blok 07 ham notsuz lemma listesi ehibbâ'
+#   yeni: blok 07 lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 19 1 7): öğe 7, ad 7; joker konumu 7
+#   yeni: blok 07 lemma dizisi adı 'ğafere li men şâ'e' (dizi 5 18 17 19): öğe 3, ad 4
+#   yeni: blok 07 metin_5_18_19.txt:12:ikisi
+#   yeni: blok 07 metin_5_18_19.txt:3:ikisi
+#   yeni: blok 07 metin_5_18_19.txt:7:üçü
+#   yeni: blok 07 tanınmayan 2 (5:18 'nahnu', 5:18 'bel')
+#   yeni: blok 07 yıldız maddesi: 5:18 ★ (kaynak n, z=1,87 yok
+#   yeni: blok 07 yıldız maddesi: 5:19 ★ (kaynak n, z=1,65 yok
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: 'günah' ←
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: KÖK 'bağışla-' ←
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+#   yeni: blok 07 çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+#   yeni: blok 07 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+#   yeni: blok 07 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gel-' ←
+#   yeni: blok 08 A1 kapsamı 5:21 şahıs etiketli kelime A1 dışında: 6.
+#   yeni: blok 08 KAPSAMAYAN 13
+#   yeni: blok 08 Türkçe alıntı MEAL dışı 5:23 'inanıyorsanız'
+#   yeni: blok 08 Türkçe alıntı MEAL dışı 5:23 'korkanlardan'
+#   yeni: blok 08 aday 1039 ayetler arası yalnız ARIZA: 5:21 / 5:22 (''dxulu' / 'len nedxulehâ')
+#   yeni: blok 08 aday 1039 ayetler arası yalnız ◇: 5:21 / 5:22 ('dxulu'l-arda' / 'len nedxulehâ')
+#   yeni: blok 08 ariza_5_20_23.txt:14:biri
+#   yeni: blok 08 ariza_5_20_23.txt:22:dört ayetin
+#   yeni: blok 08 ariza_5_20_23.txt:22:üçünde
+#   yeni: blok 08 esmâ kural sapması 5:22:6: genel kural 'çoğul insan göndergeli' / önceki kayıtlarda emsal ('ve mâ ente aleyhim bi-cebbâr — muhatap 2MS için olumsuzlanan'; 2 kayıt)
+#   yeni: blok 08 metin_5_20_23.txt:24:biri
+#   yeni: blok 08 metin_5_20_23.txt:9:biri
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: 'dayan-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: 'kork-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: 'kıl-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: 'ol-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: 'toprak' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'dön-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+#   yeni: blok 08 çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+#   yeni: blok 09 KAPSAMAYAN 9
+#   yeni: blok 09 aday 1039 ayetler arası yalnız ARIZA: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden'; bloklar arası)
+#   yeni: blok 09 aday 1039 ayetler arası yalnız ◇: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden')
+#   yeni: blok 09 yıldız maddesi: 5:26 ★★★ (kaynak hapaks, z=3,28 yok
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: 'güç yetir-' ←
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+#   yeni: blok 09 çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+#   yeni: blok 09 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gir-' ←
+#   yeni: blok 10 A1 kapsamı 5:27 şahıs etiketli kelime A1 dışında: 8., 21.
+#   yeni: blok 10 KAPSAMAYAN 16
+#   yeni: blok 10 Türkçe alıntı MEAL dışı 5:27 'onlara'
+#   yeni: blok 10 aday 1039 ayetler arası yalnız ARIZA: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin')
+#   yeni: blok 10 aday 1039 ayetler arası yalnız ◇: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin yediye ileyke li-aqtuleke')
+#   yeni: blok 10 ariza_5_27_30.txt:23:birer
+#   yeni: blok 10 ariza_5_27_30.txt:23:biri
+#   yeni: blok 10 ariza_5_27_30.txt:23:birinden
+#   yeni: blok 10 ariza_5_27_30.txt:3:sonuncusu
+#   yeni: blok 10 ariza_5_27_30.txt:5:biri
+#   yeni: blok 10 ariza_5_27_30.txt:6:biri
+#   yeni: blok 10 esma_el_5_27_30.txt:2:biri
+#   yeni: blok 10 metin_5_27_30.txt:3:birer
+#   yeni: blok 10 metin_5_27_30.txt:3:birinden
+#   yeni: blok 10 metin_5_27_30.txt:9:biri
+#   yeni: blok 10 tetik dışı anılmadı 5:27 10. kelime قبل
+#   yeni: blok 10 tetik dışı anılmadı 5:27 14. kelime قبل
+#   yeni: blok 10 tetik dışı anılmadı 5:27 16. kelime أخر
+#   yeni: blok 10 tetik dışı anılmadı 5:27 21. kelime قبل
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: 'ceza' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'ateş-' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'uzat-' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+#   yeni: blok 10 çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+#   yeni: blok 10 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'günah' ←
+#   yeni: blok 10 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kork-' ←
+#   yeni: blok 10 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+#   yeni: blok 10 çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): 'öldür-' ←
+#   yeni: blok 11 A1 kapsamı 5:31 şahıs etiketli kelime A1 dışında: 4., 9.
+#   yeni: blok 11 A1 kapsamı 5:32 şahıs etiketli kelime A1 dışında: 25.
+#   yeni: blok 11 KAPSAMAYAN 18
+#   yeni: blok 11 Türkçe alıntı MEAL dışı 5:31 'vay'
+#   yeni: blok 11 Türkçe alıntı MEAL dışı 5:31 'şu'
+#   yeni: blok 11 Türkçe alıntı MEAL dışı 5:32 'yüzünden'
+#   yeni: blok 11 aday 1039 ayetler arası yalnız ARIZA: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen'; bloklar arası)
+#   yeni: blok 11 aday 1039 ayetler arası yalnız ◇: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen')
+#   yeni: blok 11 yıldız maddesi: 5:31 ★★★ (kaynak hapaks, z=3,28 yok
+#   yeni: blok 11 yıldız maddesi: 5:32 ★★ (kaynak n, z=2,93 yok
+#   yeni: blok 11 çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+#   yeni: blok 11 çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+#   yeni: blok 11 çakışma grubu ARIZA'da yok: KÖK 'kal-' ←
+#   yeni: blok 11 çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+#   yeni: blok 11 çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+#   yeni: blok 11 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+#   yeni: blok 11 çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+#   yeni: blok 11 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'göster-' ←
+#   yeni: blok 12 KAPSAMAYAN 10
+#   yeni: blok 12 Türkçe alıntı MEAL dışı 5:34 'bilin'
+#   yeni: blok 12 lemma dizisi adı 'fî dunyâ fî âxir 'azâb' (dizi 5 33 28 33): öğe 6, ad 5; joker konumu 3
+#   yeni: blok 12 normalleştirilmiş lemma adı 'melek' (kök ملك; morph LEM mlkt/ham)
+#   yeni: blok 12 tetik dışı anılmadı 5:33 29. kelime دنو
+#   yeni: blok 12 tetik dışı anılmadı 5:33 32. kelime أخر
+#   yeni: blok 12 tetik dışı anılmadı 5:34 5. kelime قبل
+#   yeni: blok 12 tetik dışı anılmadı 5:36 20. kelime قبل
+#   yeni: blok 12 yıldız maddesi: 5:33 ★★★ (kaynak pas, z=3,48 yok
+#   yeni: blok 12 yıldız maddesi: 5:36 ★ (kaynak pas, z=1,57 yok
+#   yeni: blok 12 çakışma grubu ARIZA'da yok: 'ceza' ←
+#   yeni: blok 12 çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+#   yeni: blok 12 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 12 çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+#   yeni: blok 12 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'öldür-' ←
+#   yeni: blok 12 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+#   yeni: blok 12 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+#   yeni: blok 12 çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): KÖK 'sakın-' ←
+#   yeni: blok 13 A1 kapsamı 5:39 şahıs etiketli kelime A1 dışında: 9.
+#   yeni: blok 13 A1 kapsamı 5:40 şahıs etiketli kelime A1 dışında: 14.
+#   yeni: blok 13 KAPSAMAYAN 6
+#   yeni: blok 13 Türkçe alıntı MEAL dışı 5:40 'dilediğine'
+#   yeni: blok 13 ayetler arası ortak kalıp sayımsız 've lehum 'azâbun' (5:36, 5:37)
+#   yeni: blok 13 lemma dizisi adı 'ğafera li men şâ'e' (dizi 5 40 12 14): öğe 3, ad 4
+#   yeni: blok 13 yıldız maddesi: 5:38 ★★ (kaynak allah, z=2,55 yok
+#   yeni: blok 13 yıldız maddesi: 5:39 ★★ (kaynak allah, z=2,33 yok
+#   yeni: blok 13 yıldız maddesi: 5:40 ★ (kaynak allah, z=1,58 yok
+#   yeni: blok 13 çakışma grubu ARIZA'da yok: 'ceza' ←
+#   yeni: blok 13 çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+#   yeni: blok 13 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+#   yeni: blok 13 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+#   yeni: blok 13 çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'çık-' ←
+## blok 01 (5:1-2)
+bolum4_kurallar: A1 kapsamı 5:2 şahıs etiketli kelime A1 dışında: 28., 37., 38., 43., 47.
+bolum5_kurallar: tetik dışı anılmadı 5:2 6. kelime شعر
+bolum5_kurallar: tetik dışı anılmadı 5:2 9. kelime شهر
+bolum5_kurallar: tetik dışı anılmadı 5:2 24. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:2 32. kelime صدد
+bolum5_kurallar: ham LEM 5:2 ham kelime 5 (25., 26., 28., 38., 43.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:2 çetindir
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû', lemma 'ehalle', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'helâl say-' ←
+bolum6_kurallar: yıldız maddesi: 5:1 ★ (kaynak pas, z=1,57 yok
+bolum6_kurallar: yıldız maddesi: 5:2 ★★★ (kaynak n, z=4,20 yok
+es_edat: tanınmayan 1 (5:1 'ğayr')
+gloss_tara: KAPSAMAYAN 18
+yasakli: ariza_5_1_2.txt:19:iki ayetin
+## blok 02 (5:3-4)
+bolum4_kurallar: A1 kapsamı 5:3 şahıs etiketli kelime A1 dışında: 17.
+bolum4_kurallar: A1 kapsamı 5:4 şahıs etiketli kelime A1 dışında: 4., 22., 25.
+bolum5_kurallar: ham notsuz çakışma ekmel
+bolum5_kurallar: ham notsuz lemma listesi zekkey
+bolum5_kurallar: ham notsuz lemma listesi ekmel
+bolum5_kurallar: ham notsuz LEM kaydı zekkey
+bolum5_kurallar: tetik dışı anılmadı 5:3 4. kelime دمو
+bolum5_kurallar: tetik dışı anılmadı 5:3 5. kelime لحم
+bolum5_kurallar: tetik dışı anılmadı 5:3 12. kelime خنق
+bolum5_kurallar: tetik dışı anılmadı 5:3 13. kelime وقذ
+bolum5_kurallar: tetik dışı anılmadı 5:3 28. kelime زلم
+bolum5_kurallar: tetik dışı anılmadı 5:4 12. kelime جرح
+bolum5_kurallar: ham LEM 5:3 ham kelime 5 (8., 21., 23., 27., 41.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:3 çıkmaktır
+bolum5_kurallar: '-dir' kayıtsız 5:3 bağışlayandır
+bolum5_kurallar: '-dir' kayıtsız 5:3 edendir
+bolum5_kurallar: '-dir' kayıtsız 5:4 görendir
+bolum5_kurallar: nekre kayıtsız 5:3 56. kelime
+bolum5_kurallar: nekre kayıtsız 5:3 60. kelime
+bolum5_kurallar: nekre kayıtsız 5:3 61. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yırtıcı hayvan' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'hayv-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öl-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'tamamla-' ←
+bolum6_kurallar: yıldız maddesi: 5:3 ★★★ (kaynak hapaks, z=13,81 yok
+bolum6_kurallar: yıldız maddesi: 5:4 ★★ (kaynak allah, z=2,05 yok
+es_edat: tanınmayan 4 (5:3 'ni', 5:3 'ğayr', 5:4 'mâzâ', 5:4 'ne')
+gloss_tara: KAPSAMAYAN 20
+yasakli: metin_5_3_4.txt:12:biri
+yasakli: ariza_5_3_4.txt:12:biri
+yasakli: metin_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+yasakli: ariza_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+## blok 03 (5:5-6)
+bolum4_kurallar: A1 kapsamı 5:5 şahıs etiketli kelime A1 dışında: 13., 37., 38.
+bolum4_kurallar: A1 kapsamı 5:6 şahıs etiketli kelime A1 dışında: 9., 10., 14., 15., 44., 45., 46., 50., 58., 60.
+bolum5_kurallar: ham notsuz lemma listesi msehu
+bolum5_kurallar: LEM dışı ad lemma listesi tahhara'; morph LEM ham biçim: 'ğsilu
+bolum5_kurallar: tetik dışı anılmadı 5:5 23. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:5 24. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:5 41. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:6 4. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:6 20. kelime جنب
+bolum5_kurallar: ham LEM 5:6 ham kelime 6 (8., 13., 21., 35., 40., 43.) / meal notu 3
+bolum5_kurallar: '-dir' kayıtsız 5:5 helâldir
+bolum5_kurallar: '-dir' kayıtsız 5:5 helâldir
+bolum5_kurallar: '-dir' kayıtsız 5:5 çıkmıştır
+bolum5_kurallar: '-dir' kayıtsız 5:5 uğrayanlardandır
+bolum5_kurallar: nekre kayıtsız 5:5 12. kelime
+bolum5_kurallar: nekre kayıtsız 5:6 30. kelime
+bolum5_kurallar: nekre kayıtsız 5:6 42. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'helâl kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'tamamla-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'tut-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yönel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kadın-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'temizle-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'iffetli' ←
+bolum6_kurallar: yıldız maddesi: 5:5 ★★★ (kaynak n, z=3,25 yok
+bolum6_kurallar: yıldız maddesi: 5:6 ★★★ (kaynak n, z=5,16 yok
+es_edat: tanınmayan 1 (5:5 'ğayr')
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_5_6.txt:4:biri
+yasakli: ariza_5_5_6.txt:23:biri
+## blok 04 (5:7-11)
+bolum4_kurallar: adsız etiketi yok 5:8 'huve' 3MS (zamir
+bolum4_kurallar: A1 kapsamı 5:7 şahıs etiketli kelime A1 dışında: 5., 8.
+bolum4_kurallar: A1 kapsamı 5:8 şahıs etiketli kelime A1 dışında: 16.
+bolum4_kurallar: A1 kapsamı 5:9 şahıs etiketli kelime A1 dışında: 7.
+bolum4_kurallar: A1 kapsamı 5:11 şahıs etiketli kelime A1 dışında: 14., 16.
+bolum5_kurallar: LEM dışı ad lemma listesi ashâb'; morph LEM ham biçim: 'yecrime
+bolum5_kurallar: tetik dışı anılmadı 5:7 9. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:9 10. kelime عظم
+bolum5_kurallar: tetik dışı anılmadı 5:11 8. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:11 15. kelime كفف
+bolum5_kurallar: ham LEM 5:8 ham kelime 1 (10.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:7 bilendir
+bolum5_kurallar: '-dir' kayıtsız 5:8 yakındır
+bolum5_kurallar: '-dir' kayıtsız 5:8 haberdardır
+bolum5_kurallar: '-dir' kayıtsız 5:9 vardır
+bolum5_kurallar: '-dir' kayıtsız 5:10 halkıdır
+bolum5_kurallar: nekre kayıtsız 5:7 17. kelime
+bolum5_kurallar: nekre kayıtsız 5:8 24. kelime
+bolum5_kurallar: nekre kayıtsız 5:9 10. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'de-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'amel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'tut-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'adalet' ←
+bolum6_kurallar: yıldız maddesi: 5:7 ★★ (kaynak allah, z=2,63 yok
+bolum6_kurallar: yıldız maddesi: 5:8 ★ (kaynak allah, z=1,78 yok
+bolum6_kurallar: yıldız maddesi: 5:11 ★★ (kaynak allah, z=2,08 yok
+gloss_tara: KAPSAMAYAN 18
+yasakli: metin_5_7_11.txt:30:biri
+yasakli: ariza_5_7_11.txt:12:biri
+yasakli: ariza_5_7_11.txt:17:iki ayetin
+yasakli: ariza_5_7_11.txt:17:iki ayetin
+## blok 05 (5:12-14)
+bolum4_kurallar: A4 5:12 COND 2 / şart → cevap 0
+bolum4_kurallar: adsız etiketi yok 5:12 'minhum' 3MP (gönderge kavim)
+bolum4_kurallar: adsız etiketi yok 5:12 ''azzertumûhum' mef'ûlü 3MP (gönderge elçiler)
+bolum4_kurallar: adsız etiketi yok 5:12 'tahtihe' 3FS (gönderge cennetler)
+bolum4_kurallar: adsız etiketi yok 5:12 'kefera' ve 'dalle' faili 3MS)
+bolum4_kurallar: adsız etiketi yok 5:14 söz içi konuşan 1P 'innâ'
+bolum4_kurallar: adsız etiketi yok 5:14 'mîsâqahum' 3MP (gönderge 'llezîne')
+bolum4_kurallar: adsız etiketi yok 5:14 'beynehumu' 3MP
+bolum4_kurallar: A1 kapsamı 5:12 şahıs etiketli kelime A1 dışında: 8.
+bolum4_kurallar: A1 kapsamı 5:13 şahıs etiketli kelime A1 dışında: 11., 22., 27.
+bolum5_kurallar: ham notsuz LEM kaydı cerey
+bolum5_kurallar: ham notsuz LEM kaydı buneyy
+bolum5_kurallar: ham notsuz LEM kaydı ahbeb
+bolum5_kurallar: ham notsuz LEM kaydı ahbeb
+bolum5_kurallar: tetik dışı anılmadı 5:12 30. kelime سوأ
+bolum5_kurallar: ham LEM 5:14 ham kelime 3 (11., 13., 25.) / meal notu 2
+bolum5_kurallar: '-dir' kayıtsız 5:12 sapmıştır
+bolum5_kurallar: nekre kayıtsız 5:12 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 7. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 21. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 24. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'düşmanlık' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ver-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yap-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gör-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kıl-' ←
+bolum6_kurallar: yıldız maddesi: 5:12 ★★★ (kaynak n, z=3,46 yok
+bolum6_kurallar: yıldız maddesi: 5:13 ★★ (kaynak n, z=2,08 yok
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12): öğe 5, ad 6; joker konumu 5
+gloss_tara: KAPSAMAYAN 23
+yasakli: metin_5_12_14.txt:8:dördü
+yasakli: metin_5_12_14.txt:13:biri
+yasakli: metin_5_12_14.txt:13:ikisi
+yasakli: metin_5_12_14.txt:18:biri
+yasakli: ariza_5_12_14.txt:4:biri
+yasakli: ariza_5_12_14.txt:14:dördü
+yasakli: ariza_5_12_14.txt:14:biri
+yasakli: ariza_5_12_14.txt:14:ikisi
+yasakli: ariza_5_12_14.txt:14:biri
+yasakli: ariza_5_12_14.txt:15:ikisi de
+yasakli: ariza_5_12_14.txt:15:biri
+yasakli: ariza_5_12_14.txt:15:ikisi
+yasakli: ariza_5_12_14.txt:19:iki ayetin
+yasakli: ariza_5_12_14.txt:19:iki ayetin
+yasakli: metin_5_12_14.txt:13:ikisi
+yasakli: ariza_5_12_14.txt:15:ikisi
+yasakli: ariza_5_12_14.txt:15:ikisi
+## blok 06 (5:15-17)
+bolum4_kurallar: adsız etiketi yok 5:16 'bihi' 3MS (gönderge kitap)
+bolum4_kurallar: adsız etiketi yok 5:16 'ridvânehu' 3MS (gönderge lafız)
+bolum4_kurallar: adsız etiketi yok 5:16 'bi-iznihî' 3MS (gönderge lafız)
+bolum4_kurallar: A4 5:17 COND 1 / şart → cevap 0
+bolum4_kurallar: adsız etiketi yok 5:17 3MS gönderge Mesih)
+bolum4_kurallar: adsız etiketi yok 5:17 'beynehumâ' 3D (gönderge gökler ve yer)
+bolum4_kurallar: ◈ 5:17 35. kelime B1 ≠ B2
+bolum4_kurallar: A1 kapsamı 5:17 şahıs etiketli kelime A1 dışında: 7., 24.
+bolum5_kurallar: tetik dışı anılmadı 5:16 14. kelime أذن
+bolum5_kurallar: tetik dışı anılmadı 5:17 20. kelime هلك
+bolum5_kurallar: tetik dışı anılmadı 5:17 28. kelime جمع
+bolum5_kurallar: '-dir' kayıtsız 5:16 iletir
+bolum5_kurallar: '-dir' kayıtsız 5:16 iletir
+bolum5_kurallar: '-dir' kayıtsız 5:17 etmiştir
+bolum5_kurallar: '-dir' kayıtsız 5:17 Allah'ındır
+bolum5_kurallar: '-dir' kayıtsız 5:17 yaratır
+bolum5_kurallar: '-dir' kayıtsız 5:17 yetirendir
+bolum5_kurallar: nekre kayıtsız 5:15 8. kelime
+bolum5_kurallar: nekre kayıtsız 5:15 16. kelime
+bolum5_kurallar: nekre kayıtsız 5:15 23. kelime
+bolum5_kurallar: nekre kayıtsız 5:16 18. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 28. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 41. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 42. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'dile-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'iste-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yol' ←
+bolum6_kurallar: yıldız maddesi: 5:17 ★★★ (kaynak n, z=3,14 yok
+bolum6_kurallar: lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 15 1 7): öğe 7, ad 7; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' (dizi 5 17 1 11): öğe 11, ad 11; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' (dizi 5 17 1 11): öğe 11, ad 11; joker konumu 7
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_15_17.txt:5:ikisi
+yasakli: metin_5_15_17.txt:8:ikinci
+yasakli: metin_5_15_17.txt:12:ikinci
+yasakli: metin_5_15_17.txt:18:ikisi
+yasakli: ariza_5_15_17.txt:12:ikisi
+yasakli: ariza_5_15_17.txt:13:ikisi de
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: metin_5_15_17.txt:5:ikisi
+yasakli: metin_5_15_17.txt:18:ikisi
+yasakli: ariza_5_15_17.txt:12:ikisi
+yasakli: ariza_5_15_17.txt:13:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:25:Peygamber
+## blok 07 (5:18-19)
+bolum4_kurallar: adsız 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+bolum4_kurallar: adsız etiketi yok 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+bolum4_kurallar: adsız etiketi yok 5:18 'ehibbâ'uh' 3MS (gönderge lafız)
+bolum4_kurallar: adsız etiketi yok 5:18 'beynehumâ' 3D (gönderge gökler ve yer)
+bolum4_kurallar: adsız etiketi yok 5:18 'ileyhi' 3MS (gönderge lafız)
+bolum4_kurallar: ◈ 5:18 16. kelime B1 ≠ B2
+bolum4_kurallar: adsız 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+bolum4_kurallar: adsız etiketi yok 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+bolum5_kurallar: ham notsuz LEM kaydı ehibbâ
+bolum5_kurallar: ham notsuz lemma listesi ehibbâ'
+bolum5_kurallar: '-dir' kayıtsız 5:18 Allah'ındır
+bolum5_kurallar: '-dir' kayıtsız 5:18 O'nadır
+bolum5_kurallar: '-dir' kayıtsız 5:19 yetirendir
+bolum5_kurallar: nekre kayıtsız 5:19 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:19 28. kelime
+bolum5_kurallar: aday 1039 5:18 ARIZA ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''", "'nahnu ebnâ'u'llâhi' / 'bel entum beşerun'"] ≠ ◇ ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''"]
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'günah' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'bağışla-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gel-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: yıldız maddesi: 5:18 ★ (kaynak n, z=1,87 yok
+bolum6_kurallar: yıldız maddesi: 5:19 ★ (kaynak n, z=1,65 yok
+bolum6_kurallar: lemma dizisi adı 'ğafere li men şâ'e' (dizi 5 18 17 19): öğe 3, ad 4
+bolum6_kurallar: lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 19 1 7): öğe 7, ad 7; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'ğafere li men şâ'e' (dizi 5 18 17 19): öğe 3, ad 4
+es_edat: tanınmayan 2 (5:18 'nahnu', 5:18 'bel')
+gloss_tara: KAPSAMAYAN 8
+yasakli: metin_5_18_19.txt:3:ikisi
+yasakli: metin_5_18_19.txt:7:üçü
+yasakli: metin_5_18_19.txt:12:ikisi
+yasakli: ariza_5_18_19.txt:12:üçü
+yasakli: ariza_5_18_19.txt:12:ikisi
+yasakli: ariza_5_18_19.txt:13:ikisi de
+yasakli: ariza_5_18_19.txt:15:içinde de
+yasakli: ariza_5_18_19.txt:20:iki ayetinde
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: metin_5_18_19.txt:3:ikisi
+yasakli: ariza_5_18_19.txt:13:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+## blok 08 (5:20-23)
+bolum4_kurallar: adsız etiketi yok 5:20 3MS gönderge Mûsâ)
+bolum4_kurallar: söz muhatabı 5:20 'li-qavmihî' (sözün muhatabı kavim; 4. kelime; 3MS gönderge 
+bolum4_kurallar: adsız etiketi yok 5:22 'fîhâ', 'nedxulehâ' ve 'minhâ' 3FS (gönderge kutsal toprak)
+bolum4_kurallar: adsız etiketi yok 5:23 ''aleyhime' 3D (gönderge iki adam)
+bolum4_kurallar: A1 kapsamı 5:21 şahıs etiketli kelime A1 dışında: 6.
+bolum5_kurallar: ham notsuz LEM kaydı tevekkel
+bolum5_kurallar: tetik dışı anılmadı 5:20 1. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:23 2. kelime رجل
+bolum5_kurallar: nekre kayıtsız 5:20 15. kelime
+bolum5_kurallar: aday 1039 5:21 ARIZA ["''dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"] ≠ ◇ ["'dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"]
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:21 / 5:22 (''dxulu' / 'len nedxulehâ')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:21 / 5:22 ('dxulu'l-arda' / 'len nedxulehâ')
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'dayan-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'kork-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'toprak' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'dön-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'korkanlardan'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'inanıyorsanız'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'inanıyorsanız'
+bolum6_kurallar: esmâ kural sapması 5:22:6: genel kural 'çoğul insan göndergeli' / önceki kayıtlarda emsal ('ve mâ ente aleyhim bi-cebbâr — muhatap 2MS için olumsuzlanan'; 2 kayıt)
+gloss_tara: KAPSAMAYAN 13
+yasakli: metin_5_20_23.txt:9:biri
+yasakli: metin_5_20_23.txt:24:biri
+yasakli: metin_5_20_23.txt:24:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:22:dört ayetin
+yasakli: ariza_5_20_23.txt:22:üçünde
+## blok 09 (5:24-26)
+bolum4_kurallar: adsız etiketi yok 5:24 'nedxulehâ' ve 'fîhâ' 3FS (gönderge kutsal toprak)
+bolum4_kurallar: adsız etiketi yok 5:26 'innehâ' 3FS (gönderge kutsal toprak)
+bolum5_kurallar: tetik dışı anılmadı 5:24 13. kelime قتل
+bolum5_kurallar: '-dir' kayıtsız 5:26 kılınmıştır
+bolum5_kurallar: nekre kayıtsız 5:24 6. kelime
+bolum5_kurallar: nekre kayıtsız 5:26 3. kelime
+bolum5_kurallar: nekre kayıtsız 5:26 6. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden'; bloklar arası)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'güç yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gir-' ←
+bolum6_kurallar: yıldız maddesi: 5:26 ★★★ (kaynak hapaks, z=3,28 yok
+gloss_tara: KAPSAMAYAN 9
+## blok 10 (5:27-30)
+bolum4_kurallar: adsız etiketi yok 5:27 'ehadihimâ' 3D (gönderge iki oğul
+bolum4_kurallar: A1 kapsamı 5:27 şahıs etiketli kelime A1 dışında: 8., 21.
+bolum5_kurallar: tetik dışı anılmadı 5:27 10. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:27 14. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:27 16. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:27 18. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:27 21. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:28 5. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:28 11. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:30 4. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:30 6. kelime قتل
+bolum5_kurallar: '-dir' kayıtsız 5:29 budur
+bolum5_kurallar: nekre kayıtsız 5:28 8. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin yediye ileyke li-aqtuleke')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin')
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ateş-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uzat-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'günah' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kork-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): 'öldür-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:27 'onlara'
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_27_30.txt:3:birer
+yasakli: metin_5_27_30.txt:3:birinden
+yasakli: metin_5_27_30.txt:9:biri
+yasakli: ariza_5_27_30.txt:3:sonuncusu
+yasakli: ariza_5_27_30.txt:5:biri
+yasakli: ariza_5_27_30.txt:6:biri
+yasakli: ariza_5_27_30.txt:23:birer
+yasakli: ariza_5_27_30.txt:23:birer
+yasakli: ariza_5_27_30.txt:23:birinden
+yasakli: ariza_5_27_30.txt:23:biri
+yasakli: ariza_5_27_30.txt:23:birinden
+yasakli: esma_el_5_27_30.txt:2:biri
+## blok 11 (5:31-32)
+bolum4_kurallar: adsız etiketi yok 5:32 'ennehû' 3MS (şân zamiri)
+bolum4_kurallar: adsız etiketi yok 5:32 'ahyâhâ' 3FS (gönderge can)
+bolum4_kurallar: A1 kapsamı 5:31 şahıs etiketli kelime A1 dışında: 4., 9.
+bolum4_kurallar: A1 kapsamı 5:32 şahıs etiketli kelime A1 dışında: 25.
+bolum5_kurallar: ham notsuz LEM kaydı erey
+bolum5_kurallar: ham notsuz LEM kaydı erey
+bolum5_kurallar: ham notsuz lemma listesi buneyy
+bolum5_kurallar: tetik dışı anılmadı 5:31 23. kelime صبح
+bolum5_kurallar: tetik dışı anılmadı 5:32 10. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:32 19. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:32 21. kelime جمع
+bolum5_kurallar: tetik dışı anılmadı 5:32 27. kelime جمع
+bolum5_kurallar: tetik dışı anılmadı 5:32 36. kelime بعد (morph T)
+bolum5_kurallar: ham LEM 5:31 ham kelime 5 (4., 7., 9., 14., 20.) / meal notu 3
+bolum5_kurallar: '-dir' kayıtsız 5:32 gibidir
+bolum5_kurallar: '-dir' kayıtsız 5:32 gibidir
+bolum5_kurallar: '-dir' kayıtsız 5:32 gidenlerdir
+bolum5_kurallar: nekre kayıtsız 5:32 13. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 21. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 34. kelime
+bolum5_kurallar: aday 1039 5:31 ARIZA ["'yuvârî sev'ete exîh' / 'e-'aceztu'"] ≠ ◇ ["'yuvârî sev'ete exîh' (karganın gösterdiği) / 'e-'aceztu' (âciz kalma)"]
+bolum5_kurallar: aday 1039 5:32 ARIZA ["'men qatele nefsen' / 've men ahyâhâ'", "'qatele'n-nâse cemî'an' / 'ahye'n-nâse cemî'an'"] ≠ ◇ ["'fe-ke'ennemâ qatele'n-nâse cemî'an' / 'fe-ke'ennemâ ahye'n-nâse cemî'an'"]
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen'; bloklar arası)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kal-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'göster-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:31 'vay'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:31 'şu'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:32 'yüzünden'
+bolum6_kurallar: yıldız maddesi: 5:31 ★★★ (kaynak hapaks, z=3,28 yok
+bolum6_kurallar: yıldız maddesi: 5:32 ★★ (kaynak n, z=2,93 yok
+gloss_tara: KAPSAMAYAN 18
+## blok 12 (5:33-36)
+bolum5_kurallar: normalleştirilmiş lemma adı 'melek' (kök ملك; morph LEM mlkt/ham)
+bolum5_kurallar: tetik dışı anılmadı 5:33 29. kelime دنو
+bolum5_kurallar: tetik dışı anılmadı 5:33 32. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:34 5. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:36 20. kelime قبل
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): KÖK 'sakın-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:34 'bilin'
+bolum6_kurallar: yıldız maddesi: 5:33 ★★★ (kaynak pas, z=3,48 yok
+bolum6_kurallar: yıldız maddesi: 5:36 ★ (kaynak pas, z=1,57 yok
+bolum6_kurallar: lemma dizisi adı 'fî dunyâ fî âxir 'azâb' (dizi 5 33 28 33): öğe 6, ad 5; joker konumu 3
+gloss_tara: KAPSAMAYAN 10
+## blok 13 (5:37-40)
+bolum4_kurallar: A1 kapsamı 5:39 şahıs etiketli kelime A1 dışında: 9.
+bolum4_kurallar: A1 kapsamı 5:40 şahıs etiketli kelime A1 dışında: 14.
+bolum5_kurallar: ayetler arası ortak kalıp sayımsız 've lehum 'azâbun' (5:36, 5:37)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'çık-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:40 'dilediğine'
+bolum6_kurallar: yıldız maddesi: 5:38 ★★ (kaynak allah, z=2,55 yok
+bolum6_kurallar: yıldız maddesi: 5:39 ★★ (kaynak allah, z=2,33 yok
+bolum6_kurallar: yıldız maddesi: 5:40 ★ (kaynak allah, z=1,58 yok
+bolum6_kurallar: lemma dizisi adı 'ğafera li men şâ'e' (dizi 5 40 12 14): öğe 3, ad 4
+bolum6_kurallar: lemma dizisi adı 'ğafera li men şâ'e' (dizi 5 40 12 14): öğe 3, ad 4
+gloss_tara: KAPSAMAYAN 6

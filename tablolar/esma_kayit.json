@@ -80855,6 +80855,47 @@
   "ton": "celâl",
   "ton_kismi": false
  },
+ "5:41": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    65,
+    "آخِر"
+   ]
+  ],
+  "esma_el": {
+   "5:41:65": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "آخِر"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    65,
+    "آخِر"
+   ],
+   [
+    66,
+    "عَذاب"
+   ],
+   [
+    67,
+    "عَظِيم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
  "5:5": {
   "a": false,
   "bant": "KAPI_KAPALI",
