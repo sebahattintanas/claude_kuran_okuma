@@ -16,11 +16,13 @@ EDLEM = {"'lâ'": 'لا', "'li'": 'ل', "'bi'": 'ب', "'fe'": 'ف', "'ve'": 'و'
          "'izâ'": 'اذا', "'izen'": 'اذا', "'len'": 'لن', "'lem'": 'لم', "'qad'": 'قد', "'sevfe'": 'سوف', "'summe'": 'ثم', "'ev'": 'او',
          "'illâ'": 'الا', "'yâ'": 'ي', "'hattâ'": 'حتي', "'ellezîne'": 'الذي', "'ellezî'": 'الذي', "'ellâtî'": 'الذي', "''an'": 'عن',
          "'lev'": 'لو', "'ke'": 'ك', "'kâne'": 'كان', "'le'": 'ل', "'lâkin'": 'لكن'}
-ZAMIR = {"'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hinne'", "'hunne'", "'himâ'", "'humâ'", "'nâ'", "'û'", "'ûne'", "'tum'", "'him'", "'huve'"}
+ZAMIR = {"'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hinne'", "'hunne'", "'himâ'", "'humâ'", "'nâ'", "'û'", "'ûne'", "'tum'", "'him'", "'huve'", "'î'", "'nî'", "'te'", "'tu'", "'ti'", "'tumâ'", "'â'", "'ye'"}  # bölüm 5 kuralı 2: tekil / ikil zamirler, etiket kendi PRON segmentinden
 def etiket(n, w, ed):
     seg = [(feat.split('|')[0], feat) for ww, p, f, t, feat in MORALL[n] if ww == w]
     if not seg: return '?'
-    if ed in ZAMIR: return 'PRON'
+    if ed in ZAMIR:
+        tags = [t for t, _ in seg]
+        return 'PRON' if 'PRON' in tags else ('V' if any(t in ('PERF', 'IMPF', 'IMPV') for t in tags) else tags[-1])
     if ed == "'hâ'":
         tags = [t for t, _ in seg]
         return 'PRON' if 'PRON' in tags else ('ATT' if 'ATT' in tags else tags[0])

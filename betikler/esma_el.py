@@ -1432,4 +1432,8 @@ KARAR = {
     '5:23:21': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli → degil (inananlar)
     # sure 5 blok 27-30
     '5:27:12': 'degil',  # min ehadihimâ — esmâ adı esmâ dışı göndergeyle → degil (iki oğuldan biri)
+    # sure 5 blok 33-36
+    '5:33:32': 'degil',  # fi'l-âxirati 'azâbun 'azîm — esmâ adı esmâ dışı göndergeyle → degil (âhiret yurdu)
+    '5:34:12': 'ilahi',  # enna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:34:13': 'ilahi',  # enna'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
 }

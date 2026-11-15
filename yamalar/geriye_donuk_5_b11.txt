@@ -1,0 +1,248 @@
+# bölüm 5 denetimi kuralı 15: bölüm araçlarının güncel sürümleri (bolum4_kurallar.py, bolum5_kurallar.py, yasakli.sh) sûre 5'in okunmuş bloklarında — geriye dönük isabetler, tam okuma sonu (§8) listesi; kayıtlar yeniden yazılmadı (2026-11-15, blok 12 öncesi)
+## blok 01 (5:1-2)
+HATA tetik dışı anılmadı 5:2 6. kelime شعر
+HATA tetik dışı anılmadı 5:2 9. kelime شهر
+HATA tetik dışı anılmadı 5:2 24. kelime  (morph T)
+HATA ham LEM 5:2 ham kelime 5 (25., 26., 28., 38., 43.) / meal notu 0
+HATA '-dir' kayıtsız 5:2 çetindir
+YASAKLI yamalar/ariza_5_1_2.txt:19:iki ayetin
+## blok 02 (5:3-4)
+HATA ham notsuz lemma listesi , 'zekkey
+HATA ham notsuz lemma listesi ekmel
+HATA ham notsuz lemma listesi zekkey
+HATA ham notsuz lemma listesi ekmel
+HATA ham notsuz LEM kaydı zekkey
+HATA tetik dışı anılmadı 5:3 4. kelime دمو
+HATA tetik dışı anılmadı 5:3 5. kelime لحم
+HATA tetik dışı anılmadı 5:4 12. kelime جرح
+HATA ham LEM 5:3 ham kelime 5 (8., 21., 23., 27., 41.) / meal notu 0
+HATA '-dir' kayıtsız 5:3 çıkmaktır
+HATA '-dir' kayıtsız 5:3 bağışlayandır
+HATA '-dir' kayıtsız 5:3 edendir
+HATA '-dir' kayıtsız 5:4 görendir
+HATA nekre kayıtsız 5:3 56. kelime
+HATA nekre kayıtsız 5:3 60. kelime
+HATA nekre kayıtsız 5:3 61. kelime
+YASAKLI yamalar/metin_5_3_4.txt:12:biri
+YASAKLI yamalar/ariza_5_3_4.txt:12:biri
+YASAKLI yamalar/metin_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+YASAKLI yamalar/ariza_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+## blok 03 (5:5-6)
+HATA ham notsuz lemma listesi ğsilu
+HATA ham notsuz lemma listesi msehu
+HATA ham notsuz lemma listesi lemesu
+HATA tetik dışı anılmadı 5:5 24. kelime  (morph T)
+HATA tetik dışı anılmadı 5:6 4. kelime  (morph T)
+HATA tetik dışı anılmadı 5:6 20. kelime جنب
+HATA ham LEM 5:6 ham kelime 6 (8., 13., 21., 35., 40., 43.) / meal notu 3
+HATA '-dir' kayıtsız 5:5 helâldir
+HATA '-dir' kayıtsız 5:5 helâldir
+HATA '-dir' kayıtsız 5:5 çıkmıştır
+HATA '-dir' kayıtsız 5:5 uğrayanlardandır
+HATA nekre kayıtsız 5:5 12. kelime
+HATA nekre kayıtsız 5:6 30. kelime
+HATA nekre kayıtsız 5:6 42. kelime
+YASAKLI yamalar/metin_5_5_6.txt:4:biri
+YASAKLI yamalar/ariza_5_5_6.txt:23:biri
+## blok 04 (5:7-11)
+HATA adsız etiketi yok 5:8 'huve' 3MS (zamir
+HATA ham notsuz lemma listesi yecrime
+HATA ham notsuz lemma listesi tevekkel
+HATA tetik dışı anılmadı 5:7 9. kelime  (morph T)
+HATA tetik dışı anılmadı 5:7 19. kelime صدر
+HATA tetik dışı anılmadı 5:9 10. kelime عظم
+HATA tetik dışı anılmadı 5:11 8. kelime  (morph T)
+HATA tetik dışı anılmadı 5:11 15. kelime كفف
+HATA ham LEM 5:8 ham kelime 1 (10.) / meal notu 0
+HATA '-dir' kayıtsız 5:7 bilendir
+HATA '-dir' kayıtsız 5:8 yakındır
+HATA '-dir' kayıtsız 5:8 haberdardır
+HATA '-dir' kayıtsız 5:9 vardır
+HATA '-dir' kayıtsız 5:10 halkıdır
+HATA nekre kayıtsız 5:7 17. kelime
+HATA nekre kayıtsız 5:8 24. kelime
+HATA nekre kayıtsız 5:9 10. kelime
+YASAKLI yamalar/metin_5_7_11.txt:30:biri
+YASAKLI yamalar/ariza_5_7_11.txt:12:biri
+YASAKLI yamalar/ariza_5_7_11.txt:17:iki ayetin
+YASAKLI yamalar/ariza_5_7_11.txt:17:iki ayetin
+## blok 05 (5:12-14)
+HATA A4 5:12 COND 2 / şart → cevap 0
+HATA adsız etiketi yok 5:12 'minhum' 3MP (gönderge kavim)
+HATA adsız etiketi yok 5:12 ''azzertumûhum' mef'ûlü 3MP (gönderge elçiler)
+HATA adsız etiketi yok 5:12 'tahtihe' 3FS (gönderge cennetler)
+HATA adsız etiketi yok 5:12 'kefera' ve 'dalle' faili 3MS)
+HATA adsız etiketi yok 5:14 söz içi konuşan 1P 'innâ'
+HATA adsız etiketi yok 5:14 'mîsâqahum' 3MP (gönderge 'llezîne')
+HATA adsız etiketi yok 5:14 'beynehumu' 3MP
+HATA ham notsuz LEM kaydı cerey
+HATA ham notsuz LEM kaydı buneyy
+HATA ham notsuz LEM kaydı ahbeb
+HATA ham notsuz LEM kaydı ahbeb
+HATA tetik dışı anılmadı 5:12 30. kelime سوأ
+HATA tetik dışı anılmadı 5:12 39. kelime بعد (morph T)
+HATA ham LEM 5:14 ham kelime 3 (11., 13., 25.) / meal notu 2
+HATA '-dir' kayıtsız 5:12 sapmıştır
+HATA nekre kayıtsız 5:12 27. kelime
+HATA nekre kayıtsız 5:13 7. kelime
+HATA nekre kayıtsız 5:13 21. kelime
+HATA nekre kayıtsız 5:13 24. kelime
+YASAKLI yamalar/metin_5_12_14.txt:8:dördü
+YASAKLI yamalar/metin_5_12_14.txt:13:biri
+YASAKLI yamalar/metin_5_12_14.txt:13:ikisi
+YASAKLI yamalar/metin_5_12_14.txt:18:biri
+YASAKLI yamalar/ariza_5_12_14.txt:4:biri
+YASAKLI yamalar/ariza_5_12_14.txt:14:dördü
+YASAKLI yamalar/ariza_5_12_14.txt:14:biri
+YASAKLI yamalar/ariza_5_12_14.txt:14:ikisi
+YASAKLI yamalar/ariza_5_12_14.txt:14:biri
+YASAKLI yamalar/ariza_5_12_14.txt:15:ikisi de
+YASAKLI yamalar/ariza_5_12_14.txt:15:biri
+YASAKLI yamalar/ariza_5_12_14.txt:15:ikisi
+YASAKLI yamalar/ariza_5_12_14.txt:19:iki ayetin
+YASAKLI yamalar/ariza_5_12_14.txt:19:iki ayetin
+YASAKLI yamalar/metin_5_12_14.txt:13:ikisi
+YASAKLI yamalar/ariza_5_12_14.txt:15:ikisi
+YASAKLI yamalar/ariza_5_12_14.txt:15:ikisi
+## blok 06 (5:15-17)
+HATA adsız etiketi yok 5:16 'bihi' 3MS (gönderge kitap)
+HATA A4 5:17 COND 1 / şart → cevap 0
+HATA adsız etiketi yok 5:17 3MS gönderge Mesih)
+HATA adsız etiketi yok 5:17 'beynehumâ' 3D (gönderge gökler ve yer)
+HATA ◈ 5:17 35. kelime B1 ≠ B2
+HATA tetik dışı anılmadı 5:16 14. kelime أذن
+HATA tetik dışı anılmadı 5:17 20. kelime هلك
+HATA tetik dışı anılmadı 5:17 28. kelime جمع
+HATA '-dir' kayıtsız 5:16 iletir
+HATA '-dir' kayıtsız 5:16 iletir
+HATA '-dir' kayıtsız 5:17 etmiştir
+HATA '-dir' kayıtsız 5:17 Allah'ındır
+HATA '-dir' kayıtsız 5:17 yaratır
+HATA '-dir' kayıtsız 5:17 yetirendir
+HATA nekre kayıtsız 5:15 8. kelime
+HATA nekre kayıtsız 5:15 16. kelime
+HATA nekre kayıtsız 5:15 23. kelime
+HATA nekre kayıtsız 5:16 18. kelime
+HATA nekre kayıtsız 5:17 28. kelime
+HATA nekre kayıtsız 5:17 41. kelime
+HATA nekre kayıtsız 5:17 42. kelime
+YASAKLI yamalar/metin_5_15_17.txt:5:ikisi
+YASAKLI yamalar/metin_5_15_17.txt:8:ikinci
+YASAKLI yamalar/metin_5_15_17.txt:12:ikinci
+YASAKLI yamalar/metin_5_15_17.txt:18:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:12:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:13:ikisi de
+YASAKLI yamalar/ariza_5_15_17.txt:21:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:21:ikisi
+YASAKLI yamalar/metin_5_15_17.txt:5:ikisi
+YASAKLI yamalar/metin_5_15_17.txt:18:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:12:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:13:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:21:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:21:ikisi
+YASAKLI yamalar/ariza_5_15_17.txt:25:Peygamber
+## blok 07 (5:18-19)
+HATA adsız 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+HATA adsız etiketi yok 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+HATA adsız etiketi yok 5:18 'beynehumâ' 3D (gönderge gökler ve yer)
+HATA ◈ 5:18 16. kelime B1 ≠ B2
+HATA adsız 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+HATA adsız etiketi yok 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+HATA ham notsuz LEM kaydı ehibbâ
+HATA ham notsuz lemma listesi ehibbâ
+HATA '-dir' kayıtsız 5:18 Allah'ındır
+HATA '-dir' kayıtsız 5:18 O'nadır
+HATA '-dir' kayıtsız 5:19 yetirendir
+HATA nekre kayıtsız 5:19 27. kelime
+HATA nekre kayıtsız 5:19 28. kelime
+HATA aday 1039 5:18 ARIZA ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''", "'nahnu ebnâ'u'llâhi' / 'bel entum beşerun'"] ≠ ◇ ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''"]
+YASAKLI yamalar/metin_5_18_19.txt:3:ikisi
+YASAKLI yamalar/metin_5_18_19.txt:7:üçü
+YASAKLI yamalar/metin_5_18_19.txt:12:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:12:üçü
+YASAKLI yamalar/ariza_5_18_19.txt:12:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:13:ikisi de
+YASAKLI yamalar/ariza_5_18_19.txt:15:içinde de
+YASAKLI yamalar/ariza_5_18_19.txt:20:iki ayetinde
+YASAKLI yamalar/ariza_5_18_19.txt:21:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:21:ikisi
+YASAKLI yamalar/metin_5_18_19.txt:3:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:13:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:21:ikisi
+YASAKLI yamalar/ariza_5_18_19.txt:21:ikisi
+## blok 08 (5:20-23)
+HATA adsız etiketi yok 5:20 3MS gönderge Mûsâ)
+HATA söz muhatabı 5:20 'li-qavmihî' (sözün muhatabı kavim; 4. kelime; 3MS gönderge 
+HATA adsız etiketi yok 5:22 'fîhâ', 'nedxulehâ' ve 'minhâ' 3FS (gönderge kutsal toprak)
+HATA adsız etiketi yok 5:23 ''aleyhime' 3D (gönderge iki adam)
+HATA ham notsuz LEM kaydı meleket
+HATA ham notsuz LEM kaydı tevekkel
+HATA tetik dışı anılmadı 5:20 1. kelime  (morph T)
+HATA tetik dışı anılmadı 5:23 2. kelime رجل
+HATA nekre kayıtsız 5:20 15. kelime
+HATA aday 1039 5:21 ARIZA ["''dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"] ≠ ◇ ["'dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"]
+YASAKLI yamalar/metin_5_20_23.txt:9:biri
+YASAKLI yamalar/metin_5_20_23.txt:24:biri
+YASAKLI yamalar/metin_5_20_23.txt:24:biri
+YASAKLI yamalar/ariza_5_20_23.txt:14:biri
+YASAKLI yamalar/ariza_5_20_23.txt:14:biri
+YASAKLI yamalar/ariza_5_20_23.txt:14:biri
+YASAKLI yamalar/ariza_5_20_23.txt:22:dört ayetin
+YASAKLI yamalar/ariza_5_20_23.txt:22:üçünde
+## blok 09 (5:24-26)
+HATA adsız etiketi yok 5:24 'nedxulehâ' ve 'fîhâ' 3FS (gönderge kutsal toprak)
+HATA adsız etiketi yok 5:26 'innehâ' 3FS (gönderge kutsal toprak)
+HATA tetik dışı anılmadı 5:24 13. kelime قتل
+HATA '-dir' kayıtsız 5:26 kılınmıştır
+HATA nekre kayıtsız 5:24 6. kelime
+HATA nekre kayıtsız 5:26 3. kelime
+HATA nekre kayıtsız 5:26 6. kelime
+## blok 10 (5:27-30)
+HATA adsız etiketi yok 5:27 'ehadihimâ' 3D (gönderge iki oğul
+HATA tetik dışı anılmadı 5:27 18. kelime قتل
+HATA tetik dışı anılmadı 5:28 5. kelime قتل
+HATA tetik dışı anılmadı 5:28 11. kelime قتل
+HATA tetik dışı anılmadı 5:30 4. kelime قتل
+HATA tetik dışı anılmadı 5:30 6. kelime قتل
+HATA '-dir' kayıtsız 5:29 budur
+HATA nekre kayıtsız 5:28 8. kelime
+YASAKLI yamalar/metin_5_27_30.txt:3:birer
+YASAKLI yamalar/metin_5_27_30.txt:3:birinden
+YASAKLI yamalar/metin_5_27_30.txt:9:biri
+YASAKLI yamalar/ariza_5_27_30.txt:3:sonuncusu
+YASAKLI yamalar/ariza_5_27_30.txt:5:biri
+YASAKLI yamalar/ariza_5_27_30.txt:6:biri
+YASAKLI yamalar/ariza_5_27_30.txt:23:birer
+YASAKLI yamalar/ariza_5_27_30.txt:23:birer
+YASAKLI yamalar/ariza_5_27_30.txt:23:birinden
+YASAKLI yamalar/ariza_5_27_30.txt:23:biri
+YASAKLI yamalar/ariza_5_27_30.txt:23:birinden
+YASAKLI yamalar/ariza_5_27_30.txt:23:biri
+YASAKLI yamalar/esma_el_5_27_30.txt:2:biri
+## blok 11 (5:31-32)
+HATA adsız etiketi yok 5:32 'ennehû' 3MS (şân zamiri)
+HATA adsız etiketi yok 5:32 'ahyâhâ' 3FS (gönderge can)
+HATA ham notsuz LEM kaydı erey
+HATA ham notsuz LEM kaydı erey
+HATA ham notsuz lemma listesi buneyy
+HATA tetik dışı anılmadı 5:31 3. kelime غرب
+HATA tetik dışı anılmadı 5:31 10. kelime سوأ
+HATA tetik dışı anılmadı 5:31 19. kelime غرب
+HATA tetik dışı anılmadı 5:31 21. kelime سوأ
+HATA tetik dışı anılmadı 5:31 23. kelime صبح
+HATA tetik dışı anılmadı 5:32 10. kelime قتل
+HATA tetik dışı anılmadı 5:32 19. kelime قتل
+HATA tetik dışı anılmadı 5:32 21. kelime جمع
+HATA tetik dışı anılmadı 5:32 27. kelime جمع
+HATA tetik dışı anılmadı 5:32 36. kelime بعد (morph T)
+HATA ham LEM 5:31 ham kelime 5 (4., 7., 9., 14., 20.) / meal notu 3
+HATA '-dir' kayıtsız 5:32 gibidir
+HATA '-dir' kayıtsız 5:32 gibidir
+HATA '-dir' kayıtsız 5:32 gidenlerdir
+HATA nekre kayıtsız 5:32 13. kelime
+HATA nekre kayıtsız 5:32 21. kelime
+HATA nekre kayıtsız 5:32 27. kelime
+HATA nekre kayıtsız 5:32 34. kelime
+HATA aday 1039 5:31 ARIZA ["'yuvârî sev'ete exîh' / 'e-'aceztu'"] ≠ ◇ ["'yuvârî sev'ete exîh' (karganın gösterdiği) / 'e-'aceztu' (âciz kalma)"]
+HATA aday 1039 5:32 ARIZA ["'men qatele nefsen' / 've men ahyâhâ'", "'qatele'n-nâse cemî'an' / 'ahye'n-nâse cemî'an'"] ≠ ◇ ["'fe-ke'ennemâ qatele'n-nâse cemî'an' / 'fe-ke'ennemâ ahye'n-nâse cemî'an'"]
+YASAKLI yamalar/ariza_5_31_32.txt:21:biri

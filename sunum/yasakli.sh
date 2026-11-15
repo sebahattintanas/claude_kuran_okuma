@@ -1,14 +1,19 @@
 # yasaklı sözcük ve Latin dışı harf taraması (bölüm 7 kuralı 11 + bölüm 8 kuralları 2 ve 8); ölçüm alıntısı 'xref üçü de boş' izinli
+# sınama: bash sunum/yasakli.sh sunum/yasakli_test.txt — 'OLUMLU' satırlarının hepsi isabet, 'OLUMSUZ' satırları 0 vermeli (sunum/yasakli_sina.sh)
 # kullanım: bash sunum/yasakli.sh yamalar/{metin,ariza,bag,cipa,esma_el}_4_A_B.txt
 python3 - "$@" <<'PY0'
 # bölüm 3 (sûre 5) denetimi kuralı 1: kelime sınırı Türkçe harf sınıfıyla (-w 'ğ' / 'ş' gibi harfleri sınır sayıyordu: 'anlamında değil' yanlış pozitifi)
 import sys, re
 H = "a-zçğıöşüâîûA-ZÇĞİÖŞÜ"
 P = r"aynı|ilk|ikinci|tek|her ikisi|ikisi de|token|[0-9]+ ayette|[a-zçğıöşü]+ ayette|[0-9]+ ayetinde|[a-zçğıöşü]+ ayetinde|ikisinde de|kez|[a-zçğıöşü]+ü de|[a-zçğıöşü]+(?:nde|nda|sında|sinde) d[ae]|kelimede de|[a-zçğıöşü]+(?:üncü|ıncı|inci|uncu)|sûre [0-9]+ okun[a-zçğıöşü]*|(?:ikisin|üçün|dördün|beşin|altısın)[a-zçğıöşü]*|(?:[0-9]+|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on) ayetin[a-zçğıöşü]*"  # bölüm 4 kuralı 12
+P += r"|(?:bir|iki|üç|dörd|beş|altı|yedi|sekiz|dokuz|on|son|yirmi|otuz|kırk|elli)(?:üncü|ıncı|inci|uncu)[a-zçğıöşü]+|(?:ikisi|üçü|dördü|beşi|altısı|yedisi|sekizi|dokuzu)[a-zçğıöşü]*|bir(?:i|ini|inin|ine|inde|inden|isi|isini|isinin|isinde|isine)|birer|ikişer|üçer|dörder|altışar|yedişer|sekizer|dokuzar"  # bölüm 5 kuralı 6: 'bir'–'dokuz' + iyelik, sıra sayısı + ek, dağıtma ('beşer' insan anlamıyla eş biçimli, 'on' + iyelik 'onu' zamirle eş biçimli, taranmaz)
+IZIN = ("'biri' (5:27:12)", "'birer' dağıtma", "\\'birer\\' dağıtma", 'üçü de', 'kalıp: ikisi süzgeç', 'kalıp: üçü süzgeç', 'kalıp: dördü süzgeç', 'xref üçü de boş')
 R = re.compile(r"(?<![%s])(?:%s)(?![%s])" % (H, P, H))
 for f in sys.argv[1:]:
     for n, l in enumerate(open(f, encoding='utf-8'), 1):
-        for m in R.finditer(l):
+        lo = l.replace('İ', 'i').replace('I', 'ı').lower()  # bölüm 5 kuralı 6: büyük / küçük harf duyarsız (Türkçe İ / I)
+        for z in IZIN: lo = lo.replace(z, '#' * len(z))
+        for m in R.finditer(lo):
             if m.group(0) == 'üçü de': continue
             print('%s:%d:%s' % (f, n, m.group(0)))
 PY0

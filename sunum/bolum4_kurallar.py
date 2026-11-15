@@ -1,4 +1,5 @@
 # bölüm 4 (sûre 5) denetimi kuralları 1, 2 (A4 şart), 9 (adsız), 10 (simetri / İÇ düğüm alanı), bölüm 3 kuralları 2-4 (A4, ◈ alt sınıf, aralık) — betik denetimi
+# bölüm 5 kuralları 1 / 14: her zamir etiketi (1P … 3FP) ad ölçütüyle; REM taraması başlangıç kelimesi dahil
 # kullanım (/home/claude'dan): python3 sunum/bolum4_kurallar.py A B NN   → yamalar/metin_<S>_A_B.txt + ariza + bNN/morph.txt + bNN/olcum.txt
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys
@@ -22,7 +23,7 @@ for a in range(A, B + 1):
     a3 = a1[a1.index(' A3 '):a1.index(' A4 ')]
     rem = []
     for i, j in re.findall(r'(\d+)-(\d+)\. kelime', a3):
-        for n in range(int(i) + 1, int(j) + 1):
+        for n in range(int(i), int(j) + 1):  # bölüm 5 kuralı 1: başlangıç kelimesi dahil
             if re.match(r'P\|REM\|PREF', MOR.get((a, n), '')): rem.append(n)
     print('REM %d:%d söz içi REM: %s' % (S, a, ', '.join('%d.' % n for n in rem) if rem else 'yok'))
     # (2) A4 şart → cevap — morph COND sayısı kadar
@@ -32,6 +33,19 @@ for a in range(A, B + 1):
     # (9) adsız — söz içi 1P / 1S / 2MP ve söz muhatabı
     for m in re.finditer(r"(söz içi[^;]*?\(|muhatap 2M[PS] \(söz içi)[^)]*\)", a1[:a1.index(' A2 ')]):
         if 'adsız' not in m.group(0) and 'adlı' not in m.group(0) and 'lafız' not in m.group(0): H.append('adsız %d:%d %s' % (S, a, m.group(0)[:60]))
+    # bölüm 5 kuralı 1 / 14: A1'deki her zamir etiketli madde (parantezsiz biçim dahil) ad ölçütü taşır
+    a1b, d, cur, ITEMS = a1[a1.index('A1') + 3:a1.index(' A2 ')], 0, '', []
+    for ch in a1b:
+        d += (ch == '(') - (ch == ')')
+        if ch == ';' and d == 0: ITEMS.append(cur); cur = ''
+        else: cur += ch
+    ITEMS.append(cur)
+    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|lafız|Allah|Rab'
+    for it in ITEMS:
+        subs = it.split(';')
+        for k, sub in enumerate(subs):  # etiket kendi alt maddesinde ya da madde başının parantezinde ad ölçütü taşır
+            if re.search(TAG, sub) and not re.search(MRK, sub) and not (k and re.search(MRK, subs[0])):
+                H.append('adsız etiketi yok %d:%d %s' % (S, a, sub.strip()[:70]))
     for m in re.finditer(r"'li-[^']+' \(([^)]*)\)", a1[:a1.index(' A2 ')]):
         if 'söz muhatabı, adsız' not in m.group(1): H.append('söz muhatabı %d:%d %s' % (S, a, m.group(0)[:60]))
     # ◈ alt sınıf
