@@ -13,9 +13,11 @@ for nn in sys.argv[1:]:
     for a, L in v.MK.items():
         for tr, q, items in L:
             for it in items:
-                m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \((\d+)\. kelime", it)
-                if m and (a, int(m.group(3))) in LEM:
-                    TR[LEM[(a, int(m.group(3)))]].add((m.group(1), '%d:%d:%s' % (S, a, m.group(3)), m.group(2)))
+                m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \(((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime", it)  # bölüm 7 kuralı 5: "(N. ve M. kelime" her numara
+                if not m: continue
+                for x in re.findall(r'(\d+)(?:-(\d+))?\.', m.group(3)):
+                    for w in range(int(x[0]), int(x[1] or x[0]) + 1):
+                        if (a, w) in LEM: TR[LEM[(a, w)]].add((m.group(1), '%d:%d:%d' % (S, a, w), m.group(2)))
 for lem, s in sorted(TR.items()):
     trs = sorted({x[0] for x in s})
     if len(trs) > 1:  # Arapça lemma yazılmaz: eş lemmanın ◇ biçimleriyle anılır

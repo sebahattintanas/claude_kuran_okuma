@@ -175,9 +175,17 @@ BAGLAR = {"AS_maide": [
  {'bag': '3:138 → 5:46', 'kural': "okuma — önek kesilmiş 've hudan ve mev'izatan li'l-muttaqîn'", 'not': 'kalıp eşi (ölçüm xref).'},
  {'bag': '3:82 → 5:47', 'kural': "okuma — harekesiz 'fe-ulâ'ike humu'l-fâsiqûn'", 'not': 'kalıp eşi.'},
  # blok 48-50
- {'bag': '16:93 → 5:48', 'kural': "okuma — önek kesilmiş 've lev şâ'e'llâhu le-ce'alekum ummeten vâhideh'", 'not': 'kalıp eşi (ölçüm xref).'},
- {'bag': '2:148 → 5:48', 'kural': "okuma — önek kesilmiş 'fe'stebiqu'l-hayrât'", 'not': 'kalıp eşi.'},
+ {'bag': '16:93 → 5:48', 'kural': "okuma — önek kesilmiş 've lev şâ'e'llâhu le-ce'alekum ummeten vâhide'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '2:148 → 5:48', 'kural': "okuma — önek kesilmiş 'fe'stebiqu'l-xayrât'", 'not': 'kalıp eşi.'},
  {'bag': '2:138 → 5:50', 'kural': "okuma — harekesiz 'ahsenu mine'llâh'", 'not': 'kalıp eşi.'},
+ # blok 51-54
+ {'bag': '4:144 → 5:51', 'kural': "okuma — harekesiz 'yâ eyyuhe'llezîne âmenû lâ tettexizu'", 'not': 'kalıp eşi.'},
+ {'bag': '45:19 → 5:51', 'kural': "okuma — harekesiz 'ba'duhum evliyâ'u ba'd'", 'not': 'kalıp eşi.'},
+ {'bag': '28:50 → 5:51', 'kural': "okuma — harekesiz 'inne'llâhe lâ yehdi'l-qavme'z-zâlimîn'", 'not': 'kalıp eşi.'},
+ {'bag': '47:20 → 5:52', 'kural': "okuma — harekesiz 'fî qulûbihim marad'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '24:53 → 5:53', 'kural': "okuma — harekesiz 'cehde eymânihim'", 'not': 'kalıp eşi.'},
+ {'bag': '62:4 → 5:54', 'kural': "okuma — harekesiz 'zâlike fadlu'llâh'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '2:268 → 5:54', 'kural': "okuma — önek kesilmiş 've'llâhu vâsi'un 'alîm'", 'not': 'kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

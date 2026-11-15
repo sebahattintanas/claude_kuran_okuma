@@ -62,7 +62,9 @@ for it in ITEMS:
         adlar.append(('LEM kaydı', q.group(1), bool(q.group(2))))
     for q in re.finditer(r"(?:bir lemma \(|farklı lemma — |farklı lemma ve kök — )'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?|\('((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?(?=;)", it):
         if it.startswith('karşılık çakışması'): adlar.append(('çakışma', q.group(1) or q.group(3), bool(q.group(2) or q.group(4))))
-    if it.startswith('karşılık çakışması'):
+    if it.startswith('karşılık çakışması'):  # bölüm 7 kuralı 11: parantez içi "('X')" / "('X'," adları da; ham ad notsuzsa isabet (düz yazı not sayılmaz)
+        for q in re.finditer(r"\('((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))?(?=[,)])", it):
+            adlar.append(('çakışma parantez', q.group(1), bool(q.group(2))))
         for q in re.finditer(r"(?<=[\s(—/])'((?:[^']|'(?=[a-zâîûçğışöü]))+)'( \(morph LEM ham biçim\))? \(([؀-ۿ]+)((?:; (?:%d:\d+)(?:, %d:\d+)*)?)\)" % (S, S), it):
             KOKLU.append((q.group(1), q.group(3), [int(x) for x in re.findall(r'%d:(\d+)' % S, q.group(4))], bool(q.group(2))))
 LDISI, NOTSUZ = [], []
@@ -75,6 +77,7 @@ for bag, ad, notlu in adlar:
     if not aday:
         aday = sorted(set().union(*[LEMS2.get(zayif(x), set()) for x in (k, k.rstrip('n'), k.rstrip('h'))]))
     if not aday:
+        if bag == 'çakışma parantez': continue  # yüzey biçimleri: LEM dışı sayılmaz
         LDISI.append('%s %s' % (bag, ad)); continue
     if all(x in HAM_IS for x in aday) and not notlu: NOTSUZ.append('%s %s' % (bag, ad))
 # bölüm 6 kuralı 3: kökü ve ayeti anılan ad, o ayetlerdeki o köklü morph LEM'lerinden birinin iskeletine eşit olmalı (normalleştirilmiş ad yakalanır)

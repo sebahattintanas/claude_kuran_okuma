@@ -16,6 +16,13 @@ for n in range(A,B+1):
         if y=='%d:%d'%(S,n): want.add(x)
         if x=='%d:%d'%(S,n) and int(y.split(':')[1])<=B and y.startswith('%d:'%S): want.add(y)
     if refs!=want: bad+=1; print('D3≠bag',n,'D3-fazla',refs-want,'bag-fazla',want-refs)
+# bölüm 7 kuralı 6: bag 'kural' alanındaki harekesiz / önek kesilmiş / kalıp alıntısı hedef ayetin ◇ transliterasyonunda alt dize
+for b in bag:
+    x,y=b['bag'].split(' → ')
+    m=re.search(r"(?:harekesiz|önek kesilmiş) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'",b['kural'])
+    if not m or not y.startswith('%d:'%S) or not A<=int(y.split(':')[1])<=B: continue
+    dia=re.match(r"◇ '(.*?)' — ",M[int(y.split(':')[1])]).group(1)
+    if m.group(1) not in dia: bad+=1; print('bag alıntısı ◇ dışı',b['bag'],m.group(1))
 # A1 ⇔ ◇ adsız
 for n in range(A,B+1):
     a1=re.search(r'◈A — A1 (.*?); A2',M[n]).group(1)

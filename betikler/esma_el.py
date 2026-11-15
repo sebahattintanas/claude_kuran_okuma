@@ -1452,4 +1452,9 @@ KARAR = {
     '5:46:17': 'degil',  # hudan ve nûr — esmâ adı esmâ dışı göndergeyle → degil (İncil'deki nur)
     # sure 5 blok 48-50
     '5:48:11': 'degil',  # muheymin — esmâ adı esmâ dışı göndergeyle → degil (Kitap için gözetici)
+    # sure 5 blok 51-54
+    '5:51:8': 'degil', '5:51:10': 'degil',  # evliyâ' — çoğul insan göndergeli → degil (Yahudi ve Nasârâ velîleri)
+    '5:54:17': 'degil',  # 'ale'l-mu'minîne — çoğul insan göndergeli → degil (inananlar)
+    '5:54:18': 'degil',  # e'izzetin — çoğul insan göndergeli → degil (kavmin sıfatı)
+    '5:54:36': 'ilahi', '5:54:37': 'ilahi',  # ve'llâhu vâsi'un 'alîm — 've'llâhu X' kuralı → ilahi
 }

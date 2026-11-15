@@ -27,3 +27,11 @@ for a in range(A, B + 1):
     sm = difflib.SequenceMatcher(None, x, y, autojunk=False)
     bad = [(op, x[i1:i2], y[j1:j2]) for op, i1, i2, j1, j2 in sm.get_opcodes() if op != 'equal' and not (op == 'insert' and set(y[j1:j2]) <= {'n'})]
     print(a, bad or 'yalnız tanvin farkı')
+# bölüm 7 kuralı 6: bag alıntıları da taranır — hedef ayetin ◇ transliterasyonunda alt dize olmalı (harf değişimi, ör. خ için 'h', burada yakalanır)
+import ast
+for b in ast.literal_eval('[' + open('/home/claude/yamalar/bag_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read() + ']'):
+    x, y = b['bag'].split(' → ')
+    q = re.search(r"(?:harekesiz|önek kesilmiş) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", b['kural'])
+    if q and y.startswith('%d:' % S) and A <= int(y.split(':')[1]) <= B:
+        tr = re.match(r"◇ '(.*?)' — ", M[int(y.split(':')[1])]).group(1)
+        print('bag', b['bag'], 'tamam' if q.group(1) in tr else 'HATA ◇ dışı: ' + q.group(1))
