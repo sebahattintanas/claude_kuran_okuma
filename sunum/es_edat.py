@@ -11,13 +11,13 @@ for nn in sys.argv[1:]:
     for a, L in v.MK.items():
         for tr, q, items in L:
             for it in items:
-                m = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede (karşılıksız|'([^']*)' ile)", it)
+                m = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede (karşılıksız|'([^']*)'(?: [a-zçğıöşü]+)? ile)", it)  # bölüm 2 denetimi kuralı 3: ''-i' iyelik ile' biçimi
                 if not m: continue
                 ed, w = m.group(1), int(m.group(2))
-                if ed not in E.EDLEM and ed not in E.ZAMIR and ed not in BIR and ed != "'hâ'": continue
+                if ed not in E.EDLEM and ed not in E.ZAMIR and ed not in BIR and ed not in ("'hâ'", "'iz'", "'izâ'", "'nâ'", "'tum'", "'kum'", "'û'"): continue
                 tag = E.etiket(a, w, ed)
                 bas = BIR.get(ed, ed)
-                kar = 'karşılıksız' if m.group(3) == 'karşılıksız' else "'%s' ile" % m.group(4)
+                kar = 'karşılıksız' if m.group(3) == 'karşılıksız' else m.group(3)
                 G['%s (%s)' % (bas, tag)][kar].append('%d:%d %d.' % (S, a, w))
 out = []
 for bas in sorted(G):
