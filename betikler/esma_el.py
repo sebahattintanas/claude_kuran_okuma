@@ -1444,4 +1444,8 @@ KARAR = {
     '5:40:19': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
     # sure 5 blok 41-41
     '5:41:65': 'degil',  # fi'l-âxirati 'azâbun 'azîm — 'fi'l-âxira' emsali → degil (âhiret)
+    # sure 5 blok 42-44
+    '5:43:15': 'degil',  # bi'l-mu'minîn — çoğul insan göndergeli → degil (inananlar)
+    '5:44:6': 'degil',  # hudan ve nûr — esmâ adı esmâ dışı göndergeyle → degil (Tevrat'taki nur)
+    '5:44:23': 'degil',  # şuhedâ' — çoğul insan göndergeli → degil (şahitler)
 }

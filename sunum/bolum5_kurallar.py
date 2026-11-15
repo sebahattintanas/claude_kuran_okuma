@@ -71,7 +71,7 @@ LEMS2 = {}
 for k in LEMS: LEMS2.setdefault(zayif(k), set()).add(k)
 for bag, ad, notlu in adlar:
     k = isk_la(ad)
-    aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n')) if x in LEMS]
+    aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n'), k.rstrip('t'), k + 't') if x in LEMS]  # ة: 't' ile ya da 't'siz yazım
     if not aday:
         aday = sorted(set().union(*[LEMS2.get(zayif(x), set()) for x in (k, k.rstrip('n'), k.rstrip('h'))]))
     if not aday:
@@ -157,7 +157,7 @@ for txt in ITEMS + list(M.values()):
                 H.append("ayetler arası kalıp '%s' %d:%d ◇ alt dizesi değil" % (q, S, a))
 # bölüm 6 kuralı 5: okuma / ◈D / fâsıla maddelerinde iki ayet numarasıyla alıntılanan kalıp — ortak kısım (kelime düzeyinde baş) sayımla anılmalı
 ETIKETLER = ' '.join(open(f, encoding='utf-8').read() for f in glob.glob(Y + 'metin_%d_*_*.txt' % S))
-SAYILI = set(re.findall(r"(?:harekesiz|önek kesilmiş|lemma dizisi) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", ETIKETLER))
+SAYILI = set(re.findall(r"(?:[Hh]arekesiz|[Öö]nek kesilmiş|[Ll]emma dizisi) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", ETIKETLER))  # cümle başı büyük harf dahil
 K8 = 0
 for it in item('okuma') + item('◈D') + item('fâsıla'):
     for seg in it.split('; '):
