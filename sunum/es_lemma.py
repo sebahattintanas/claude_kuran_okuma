@@ -15,8 +15,9 @@ for nn in sys.argv[1:]:
             for it in items:
                 m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \((\d+)\. kelime", it)
                 if m and (a, int(m.group(3))) in LEM:
-                    TR[LEM[(a, int(m.group(3)))]].add((m.group(1), '%d:%d:%s' % (S, a, m.group(3))))
+                    TR[LEM[(a, int(m.group(3)))]].add((m.group(1), '%d:%d:%s' % (S, a, m.group(3)), m.group(2)))
 for lem, s in sorted(TR.items()):
     trs = sorted({x[0] for x in s})
-    if len(trs) > 1:
-        print("%s: %s" % (lem, ' / '.join("'%s' (%s)" % (t, ', '.join(sorted(k for x, k in s if x == t))) for t in trs)))
+    if len(trs) > 1:  # Arapça lemma yazılmaz: eş lemmanın ◇ biçimleriyle anılır
+        adl = ' / '.join("'%s'" % a for a in sorted({x[2] for x in s}))
+        print("%s (morph LEM eşit): %s" % (adl, ' / '.join("'%s' (%s)" % (t, ', '.join(sorted(k for x, k, _ in s if x == t))) for t in trs)))

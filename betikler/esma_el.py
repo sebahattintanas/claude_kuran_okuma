@@ -1412,4 +1412,9 @@ KARAR = {
     # sure 5 blok 5-6
     '5:5:41': 'degil',  # ve huve fi'l-âxirati mine'l-xâsirîn — 'fi'l-âxira' emsali → degil (ahiret)
     '5:6:30': 'degil',  # ev câ'e ehadun minkum — esmâ adı esmâ dışı göndergeyle → degil (biriniz)
+    # sure 5 blok 7-11
+    '5:7:17': 'ilahi',  # inna'llâhe 'alîmun bi-zâti's-sudûr — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:8:7': 'degil',  # qavvâmîne li'llâhi şuhedâ'e — çoğul insan göndergeli → degil (tanıklar)
+    '5:8:24': 'ilahi',  # inna'llâhe xabîrun bimâ ta'melûn — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:11:23': 'degil',  # fe'l-yetevekkeli'l-mu'minûn — çoğul insan göndergeli → degil (inananlar)
 }
