@@ -1430,4 +1430,6 @@ KARAR = {
     '5:20:20': 'degil',  # mâ lem yu'ti ehaden — olumsuz nekre ehad → degil
     '5:22:6': 'degil',  # qavmen cebbârîne — çoğul insan göndergeli → degil (zorba kavim)
     '5:23:21': 'degil',  # in kuntum mu'minîn — çoğul insan göndergeli → degil (inananlar)
+    # sure 5 blok 27-30
+    '5:27:12': 'degil',  # min ehadihimâ — esmâ adı esmâ dışı göndergeyle → degil (iki oğuldan biri)
 }

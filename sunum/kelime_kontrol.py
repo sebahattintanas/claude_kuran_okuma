@@ -29,7 +29,7 @@ P = {
  "'û'": lambda s: pron(s, '3MP') or pron(s, '2MP'), "'hinne'": lambda s: pron(s, '3FP'), "'hunne'": lambda s: pron(s, '3FP'),
  "'himâ'": lambda s: pron(s, '3D'), "'humâ'": lambda s: pron(s, '3D'), "'â'": lambda s: pron(s, '3D') or pron(s, '2D'), "'tâ'": lambda s: pron(s, '3FD'), "'len'": lambda s: lem(s) == N('لَن'), "'lev'": lambda s: lem(s) == N('لَو'), "'levlâ'": lambda s: lem(s) == N('لَوْلا'), "'le'": lambda s: lem(s) == N('ل'),
  "'en'": lambda s: lem(s) == N('أَن'), "'illâ'": lambda s: lem(s) == N('إِلّا'), "'lem'": lambda s: lem(s) == N('لَم'),
- "'tu'": lambda s: pron(s, '1S'), "'nî'": lambda s: pron(s, '1S'), "'ni'": lambda s: pron(s, '1S'), "'î'": lambda s: pron(s, '1S'), "'ne'": lambda s: pron(s, '3FP'),  # sûre 5 (blok 2): 1S ve 3FP zamir anahtarları
+ "'tu'": lambda s: pron(s, '1S'), "'nî'": lambda s: pron(s, '1S'), "'ni'": lambda s: pron(s, '1S'), "'î'": lambda s: pron(s, '1S'), "'ne'": lambda s: pron(s, '3FP'), "'ene'": lambda s: pron(s, '1S'), "'te'": lambda s: pron(s, '2MS'),  # sûre 5 (blok 10): ayrık 1S ve 2MS fail eki  # sûre 5 (blok 2): 1S ve 3FP zamir anahtarları
  "'qad'": lambda s: lem(s) == N('قَد'), "'sevfe'": lambda s: lem(s) == N('سَوْف'), "'se'": lambda s: lem(s) == N('س'), "'kum'": lambda s: pron(s, '2MP'), 'lafız': lambda s: lem(s) == N('اللَّه'),
 }
 mp = {'ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'x','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','ع':'','غ':'ğ','ف':'f','ق':'q','ك':'k','ل':'','م':'m','ن':'','ه':'h','ة':'','ء':'','أ':'','إ':'','ؤ':'','ئ':''}

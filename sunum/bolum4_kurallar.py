@@ -1,0 +1,62 @@
+# bölüm 4 (sûre 5) denetimi kuralları 1, 2 (A4 şart), 9 (adsız), 10 (simetri / İÇ düğüm alanı), bölüm 3 kuralları 2-4 (A4, ◈ alt sınıf, aralık) — betik denetimi
+# kullanım (/home/claude'dan): python3 sunum/bolum4_kurallar.py A B NN   → yamalar/metin_<S>_A_B.txt + ariza + bNN/morph.txt + bNN/olcum.txt
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
+import re, sys
+A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
+Y = '/home/claude/yamalar/'
+M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
+MOR, ROOT = {}, {}
+for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
+    k, w, f = l.rstrip('\n').split('\t'); _, a, n = k.split(':'); a, n = int(a), int(n)
+    MOR[(a, n)] = f; r = re.search(r'ROOT:([^|]+)', f)
+    if r: ROOT[(a, n)] = r.group(1)
+olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
+SINIF = {}
+for c, ks in {'K1': 'سمو أرض شمس قمر نجم كوكب ليل نهر فلك سحب روح موه بحر جبل', 'K2': 'يوم أجل سنو عمر سوع دهر أبد حين',
+              'B1': 'أنس دبب نعم طير نبت شجر', 'B2': 'خلق نطف علق زوج حمل وضع أنث', 'B3': 'عنق ذقن يدي عين سمع بصر جلد قلب', 'B4': 'حيي موت'}.items():
+    for k in ks.split(): SINIF[k] = c
+H = []
+for a in range(A, B + 1):
+    t = M[a]; a1 = t[t.index('◈A'):]
+    # (1) REM sapması — A3 söz aralıkları içinde morph REM
+    a3 = a1[a1.index(' A3 '):a1.index(' A4 ')]
+    rem = []
+    for i, j in re.findall(r'(\d+)-(\d+)\. kelime', a3):
+        for n in range(int(i) + 1, int(j) + 1):
+            if re.match(r'P\|REM\|PREF', MOR.get((a, n), '')): rem.append(n)
+    print('REM %d:%d söz içi REM: %s' % (S, a, ', '.join('%d.' % n for n in rem) if rem else 'yok'))
+    # (2) A4 şart → cevap — morph COND sayısı kadar
+    cond = sum(len(re.findall(r'(?:^|\|)COND(?=\|)', f)) for (aa, n), f in MOR.items() if aa == a)
+    sc = a1.count('şart → cevap (ayet içi; COND')
+    if cond != sc: H.append('A4 %d:%d COND %d / şart → cevap %d' % (S, a, cond, sc))
+    # (9) adsız — söz içi 1P / 1S / 2MP ve söz muhatabı
+    for m in re.finditer(r"(söz içi[^;]*?\(|muhatap 2M[PS] \(söz içi)[^)]*\)", a1[:a1.index(' A2 ')]):
+        if 'adsız' not in m.group(0) and 'adlı' not in m.group(0) and 'lafız' not in m.group(0): H.append('adsız %d:%d %s' % (S, a, m.group(0)[:60]))
+    for m in re.finditer(r"'li-[^']+' \(([^)]*)\)", a1[:a1.index(' A2 ')]):
+        if 'söz muhatabı, adsız' not in m.group(1): H.append('söz muhatabı %d:%d %s' % (S, a, m.group(0)[:60]))
+    # ◈ alt sınıf
+    for line in t.split('\n'):
+        if line.startswith(('◈K', '◈B')):
+            for c, body in re.findall(r'([KB]\d) ((?:[^;.]|\.(?! *$))*)', line):
+                for n in re.findall(r'(\d+)\. (?:ve (\d+)\. )?kelime', body):
+                    for x in n:
+                        if x and SINIF.get(ROOT.get((a, int(x)))) not in (c, None): H.append('◈ %d:%d %s. kelime %s ≠ %s' % (S, a, x, c, SINIF.get(ROOT.get((a, int(x))))))
+def kelime(q):  # wasl birleşmelerini ayırarak morph kelime sayısı
+    n = 0
+    for t in q.split():
+        if t in ('ve', 'fe', 'yâ'): continue  # ayrı yazılmış önek bağlaç morph kelimesi değil
+        parca = re.split(r"(?<=[aeiuâîû])'(?=l-|ll|[a-zçğışöü]-|[bcdfğhklmnqrsştxyz]{2})", t)
+        n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
+    return n
+# aralık eşlemesi — "'… …' (i-j. kelime)" alıntısının kelime sayısı
+ar = open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()
+for ad, txt in [('metin', '\n'.join(M.values())), ('ariza', ar)]:
+    for m in re.finditer(r"(?:harekesiz|önek kesilmiş) '((?:[^'(]|'(?=[a-zâîûçğışöü]))+)' \((\d+)-(\d+)\. kelime", txt):
+        q, i, j = m.group(1), int(m.group(2)), int(m.group(3))
+        if '…' in q: continue
+        if kelime(q) != j - i + 1: H.append('aralık %s %s (%d-%d) kelime %d' % (ad, q[:40], i, j, len(q.split())))
+# (10) simetri / İÇ düğüm alanı olmayan ayetler
+yok = ['%d:%d %s' % (S, a, ' + '.join(x for x in ('simetri', 'İÇ düğüm') if x not in olc[a - A])) for a in range(A, B + 1) if 'simetri' not in olc[a - A] or 'İÇ düğüm' not in olc[a - A]]
+print('ALAN YOK: ' + ('; '.join(yok) if yok else 'yok'))
+for h in H: print('HATA', h)
+print('bolum4_kurallar hata:', len(H))

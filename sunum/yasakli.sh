@@ -4,7 +4,7 @@ python3 - "$@" <<'PY0'
 # bölüm 3 (sûre 5) denetimi kuralı 1: kelime sınırı Türkçe harf sınıfıyla (-w 'ğ' / 'ş' gibi harfleri sınır sayıyordu: 'anlamında değil' yanlış pozitifi)
 import sys, re
 H = "a-zçğıöşüâîûA-ZÇĞİÖŞÜ"
-P = r"aynı|ilk|ikinci|tek|her ikisi|ikisi de|token|[0-9]+ ayette|[a-zçğıöşü]+ ayette|[0-9]+ ayetinde|[a-zçğıöşü]+ ayetinde|ikisinde de|kez|[a-zçğıöşü]+ü de|[a-zçğıöşü]+(?:nde|nda|sında|sinde) d[ae]|kelimede de|[a-zçğıöşü]+(?:üncü|ıncı|inci|uncu)|sûre [0-9]+ okun[a-zçğıöşü]*"
+P = r"aynı|ilk|ikinci|tek|her ikisi|ikisi de|token|[0-9]+ ayette|[a-zçğıöşü]+ ayette|[0-9]+ ayetinde|[a-zçğıöşü]+ ayetinde|ikisinde de|kez|[a-zçğıöşü]+ü de|[a-zçğıöşü]+(?:nde|nda|sında|sinde) d[ae]|kelimede de|[a-zçğıöşü]+(?:üncü|ıncı|inci|uncu)|sûre [0-9]+ okun[a-zçğıöşü]*|(?:ikisin|üçün|dördün|beşin|altısın)[a-zçğıöşü]*|(?:[0-9]+|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on) ayetin[a-zçğıöşü]*"  # bölüm 4 kuralı 12
 R = re.compile(r"(?<![%s])(?:%s)(?![%s])" % (H, P, H))
 for f in sys.argv[1:]:
     for n, l in enumerate(open(f, encoding='utf-8'), 1):

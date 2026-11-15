@@ -13,9 +13,21 @@ for a in range(A, B + 1):
         if t.startswith("'") and len(t) > 3:
             W.add(re.split(r"[-']", t[1:])[0])
 W = {w for w in W if len(w) >= 3}
+NW = set()  # bölüm 4 kuralı 13: wasl / kesmesiz başlayan kelimenin çift kesmeli alıntısı
+for a in range(A, B + 1):
+    tr = re.match(r"◇ '(.*?)' — ", M[a]).group(1)
+    for t in re.split(r"[ ]", tr):
+        for p_ in t.split("'"):
+            p_ = p_.split('-')[-1]
+            if len(p_) >= 3 and p_[0] not in "'": NW.add(p_)
+NW -= W
 hata = 0
 for ad, txt in [('metin', '\n'.join(M[a] for a in range(A, B + 1))), ('ariza', ar)]:
     for w in sorted(W):
         for m in re.finditer(r"(?:(?<=\()|(?<=[,;:/—] )|(?<=^)|(?<=\n))'" + re.escape(w) + r"(?=[a-zâîû' -])", txt):
             hata += 1; print('AYN', ad, w, txt[max(0, m.start() - 30):m.end() + 20].replace('\n', ' '))
+for ad, txt in [('metin', '\n'.join(M[a] for a in range(A, B + 1))), ('ariza', ar)]:
+    for w in sorted(NW):
+        for m in re.finditer(r"(?<![a-zâîûçğışöü'])''" + re.escape(w) + r"(?=[a-zâîû' -])", txt):
+            hata += 1; print('KESME', ad, w, txt[max(0, m.start() - 30):m.end() + 20].replace('\n', ' '))
 print('ayn_kontrol hata:', hata, '· ayn/hemze başlı kelime', len(W))
