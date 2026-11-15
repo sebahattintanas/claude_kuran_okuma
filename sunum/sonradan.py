@@ -4,7 +4,22 @@
 import re, ast, sys
 B = set(l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip())
 n = 0
-for blk in sys.argv[1:]:
+# bölüm 16 denetimi kuralı 3: '--plan NN' blok listesini blok planından üretir (önceki bölümün bütün blokları + bu bölümün NN'den önceki blokları)
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
+ARG = sys.argv[1:]
+if ARG[:1] == ['--plan']:
+    NN = int(ARG[1]); bol = []; cur = None
+    for l in open('/home/claude/yamalar/blok_plani_%d.txt' % S, encoding='utf-8'):
+        if l.startswith('■'): bol.append([])
+        else:
+            m = re.match(r'\s*(\d+)\. ', l)
+            if m: bol[-1].append(int(m.group(1)))
+    i = next(k for k, b in enumerate(bol) if NN in b)
+    ARG = ['b%02d' % x for x in (bol[i - 1] if i else []) + [x for x in bol[i] if x < NN]]
+    ARG = [a for a in ARG if os.path.exists('/home/claude/%s/say2.txt' % a)]
+    print('blok listesi (plan):', ' '.join(ARG) or '—')
+for blk in ARG:
     for b in open('/home/claude/%s/say2.txt' % blk).read().split('### ')[1:]:
         L = b.strip().splitlines(); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
         d = ast.literal_eval(m.group(2))

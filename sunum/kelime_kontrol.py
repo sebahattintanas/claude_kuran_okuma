@@ -1,12 +1,13 @@
 # bölüm 10 denetimi kuralları 6 ve 12 (oturum dışı yardımcı; salt okur):
 #  (6) ◇ / ◈ satırları ve ARIZA'daki "'X' N. kelimede" / "'X' (N. kelime" / "'tr' 'X' karşılığı (N. kelime" iddiaları morph kelimesiyle eşlenir
 #  (12) meal maddesinde morph PRON (SUFF dahil) taşıyan her kelime için "'zamir' N. kelimede" kaydı aranır
-# kullanım (/home/claude'dan): python3 sunum/kelime_kontrol.py A B NN   (bNN/morph4.txt: konum \t biçim \t tür \t özellik)
+# kullanım (/home/claude'dan): python3 sunum/kelime_kontrol.py A B NN   (bNN/morph<S>.txt: konum \t biçim \t tür \t özellik)
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, collections, difflib, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
-Y = '/home/claude/yamalar/'; suf = '_4_%d_%d.txt' % (A, B)
+Y = '/home/claude/yamalar/'; suf = '_%d_%d_%d.txt' % (S, A, B)
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph4.txt' % NN, encoding='utf-8'):
+for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t')
     s, a, w, p = map(int, loc.split(':'))
     W[a][w].append((f, t, feat))
@@ -65,7 +66,7 @@ ar = ast.literal_eval('{' + open(Y + 'ariza' + suf).read() + '}')[(A, B)]
 for it in ar:
     if it.startswith(('devir', 'bölüm denetimi', 'bölüm 10 denetiminden', 'karşılık çakışması', 'korpusta 1', 'bağ:')): continue
     if it.startswith('meal'): it = it.split(' içi eş edat / lemma karşılıkları')[0]
-    parca = re.split(r"(?<![\d:])(4:(\d+))(?![\d:'-])", it)
+    parca = re.split(r"(?<![\d:])(%d:(\d+))(?![\d:'-])" % S, it)
     cur = None
     for i in range(0, len(parca)):
         if i % 3 == 1: continue
@@ -74,7 +75,7 @@ for it in ar:
         if cur: kontrol(cur, parca[i], 'ARIZA:' + it[:12])
 # kural 12: zamir kayıtları
 meal = [it for it in ar if it.startswith('meal')][0]
-seg = {int(m.group(1)): m.start() for m in re.finditer(r"(?:^|; )4:(\d+) '", meal)}
+seg = {int(m.group(1)): m.start() for m in re.finditer(r"(?:^|; )%d:(\d+) '" % S, meal)}
 keys = sorted(seg)
 eksik = 0
 for i, n in enumerate(keys):

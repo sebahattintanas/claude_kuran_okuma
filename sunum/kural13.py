@@ -5,16 +5,17 @@
 #     ve anılan etiket, alıntının açıldığı 've' / 'fe' kelimesinin morph etiketiyle (VF_YAZI üzerinden)
 # (4) ◇ ve ARIZA'da "lemma 'X'" anmaları ↔ blok morph LEM transliterasyonu ya da önceki blokların lemma adları (iskelet karşılaştırması)
 # (6) R5 maddesinde her 'tutuyor' / 'tutmuyor' hükmünde taban dökümü '(4:A' 
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, importlib.util as iu, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
-ar = ast.literal_eval('{' + open(Y + 'ariza_4_%d_%d.txt' % (A, B), encoding='utf-8').read() + '}')[(A, B)]
-M = {}; exec(open(Y + 'metin_4_%d_%d.txt' % (A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
+ar = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read() + '}')[(A, B)]
+M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
 sp = iu.spec_from_file_location('ay', '/home/claude/b%s/yap/ariza_bas.py' % NN)
 import os; _f = '/home/claude/b%s/yap/ariza_bas.py' % NN; _f = _f if os.path.exists(_f) else _f.replace('ariza_bas', 'ariza_yap'); src = open(_f, encoding='utf-8').read()
 VF = ast.literal_eval(re.search(r'VF_YAZI = (\{.*?\}\})', src, re.S).group(1))
 MOR = {}
-for l in open('/home/claude/b%s/morph4.txt' % NN, encoding='utf-8'):
+for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s, a, w, p = map(int, loc.split(':'))
     MOR.setdefault(a, {}).setdefault(w, []).append((f, t, feat))
 hata = 0
@@ -30,7 +31,7 @@ for x in ok:
 TAG = {'istînâf': 'REM', 'atıf': 'CONJ', 'hâl': 'CIRC'}
 sz = [x for x in ar if x.startswith('sözdizimi')][0]
 cur = None
-for parca in re.split(r'(?<![\d:])4:(\d+) ', sz)[1:]:
+for parca in re.split(r'(?<![\d:])%d:(\d+) ' % S, sz)[1:]:
     if parca.isdigit(): cur = int(parca); continue
     for cl in re.split(r"; (?=')", parca):
         kel = re.findall(r'\b(istînâf|atıf|hâl)\b', cl)
@@ -51,7 +52,7 @@ def ska(w): return re.sub(r'(.)\1+', r'\1', ''.join(mp.get(c, '') for c in ud.no
 def skl(t): return re.sub(r'(.)\1+', r'\1', ''.join(c for c in t.lower().replace('x', 'x') if c in 'bcdfğhklmnqrsştxzvy'))
 LEMS = set()
 import glob
-for f in glob.glob('/home/claude/b*/morph4.txt'):
+for f in glob.glob('/home/claude/b*/morph%d.txt' % S):
     for l in open(f, encoding='utf-8'):
         m = re.search(r'LEM:([^|\t\n]+)', l)
         if m: LEMS.add(ska(m.group(1)))
@@ -68,6 +69,6 @@ for m in re.finditer(r"lemma(?:ları)? ('(?:[^']|'(?=[a-zâîûçğışöü]))+'
         if not any(s == L or s.replace('y', '') == L.replace('y', '') or s.replace('v', '') == L.replace('v', '') for L in LEMS):
             H('(4) lemma', x, s)
 r5 = [x for x in ar if x.startswith('araç tanımı')][0]
-for h in re.split(r'; (?=4:\d+ |\')', r5):
-    if re.search(r'tutuyor|tutmuyor', h) and 'sûre içi' in h and not re.search(r'\(4:\d+', h): H('(6)', h[:80])
+for h in re.split(r'; (?=%d:\d+ |\')' % S, r5):
+    if re.search(r'tutuyor|tutmuyor', h) and 'sûre içi' in h and not re.search(r'\(%d:\d+' % S, h): H('(6)', h[:80])
 print('(4) denetlenen lemma adı:', nl); print('kural13 hata:', hata)

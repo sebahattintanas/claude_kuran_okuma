@@ -1,5 +1,6 @@
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, ast, sys
-S,A,B=4,int(sys.argv[1]),int(sys.argv[2])
+A,B=int(sys.argv[1]),int(sys.argv[2])
 Y='/home/claude/yamalar/'; suf='_%d_%d_%d.txt'%(S,A,B)
 ns={'MEAL':{},'M':{}}; exec(open(Y+'metin'+suf).read(),ns); M=ns['M']
 bag=ast.literal_eval('['+open(Y+'bag'+suf).read()+']')

@@ -1,11 +1,12 @@
 # ◇ transliterasyonu ile morph Arapça iskelet karşılaştırması (bölüm 4 kuralı: bütün kelimelerde betikle)
-# kullanım (/home/claude'dan): python3 sunum/translit_kontrol.py A B NN   → yamalar/metin_4_A_B.txt + bNN/morph.txt
+# kullanım (/home/claude'dan): python3 sunum/translit_kontrol.py A B NN   → yamalar/metin_<S>_A_B.txt + bNN/morph.txt
 # 'yalnız tanvin farkı' dışındaki farklar elle bakılır: l / n birleşmesi (şemsî harf, idğam), ة, tanvin yapıntıdır;
 # harf değişimi (ör. غ 'ğ' yerine 'x') hatadır.
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, difflib, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 M = {}
-exec(open('/home/claude/yamalar/metin_4_%d_%d.txt' % (A, B)).read(), {'MEAL': {}, 'M': M})
+exec(open('/home/claude/yamalar/metin_%d_%d_%d.txt' % (S, A, B)).read(), {'MEAL': {}, 'M': M})
 AR = {}
 for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, _ = l.split('\t'); a = int(k.split(':')[1]); AR.setdefault(a, []).append(w)

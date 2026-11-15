@@ -5,11 +5,12 @@
 # (5) bir Türkçe ek bir ayetin meal hesabında iki kelimeye atanmışsa 'ortak' notu
 # (6) 'okunmuş bir eşte' / 'okunmuş eşte' kalıbı yok
 # (7) A1'de edilgen fiil anması 'faili (adsız; edilgen' biçiminde; A4 şart → cevap alıntı / alıntı
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
-ar = ast.literal_eval('{' + open(Y + 'ariza_4_%d_%d.txt' % (A, B), encoding='utf-8').read() + '}')[(A, B)]
-M = {}; exec(open(Y + 'metin_4_%d_%d.txt' % (A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
+ar = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read() + '}')[(A, B)]
+M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
 sys.path.insert(0, '/home/claude/b%s/yap' % NN)
 import veri
 hata = 0
@@ -25,7 +26,7 @@ for n in range(A, B + 1):
             if rest and rest != '—': H('(3)', n, s[:90])
 ZAM = ("'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hâ'", "'hunne'", "'hinne'", "'humâ'", "'himâ'", "'ke'", "'nâ'", "'ellezîne'", "'ellezî'", "'ellâtî'", "'mâ'", "'en'")
 MOR = {}
-for l in open('/home/claude/b%s/morph4.txt' % NN, encoding='utf-8'):
+for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a, w, p_ = map(int, loc.split(':'))
     MOR.setdefault((a, w), []).append(feat)
 YON = r"(?:e|a|ye|ya|ne|na|den|dan|ten|tan|nden|ndan)$"
@@ -76,7 +77,7 @@ for n in sorted(veri.MK):
 import glob
 bas = set(l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip())
 bagli = set()
-for f in glob.glob(Y + 'bag_4_*.txt'):
+for f in glob.glob(Y + 'bag_%d_*.txt' % S):
     for m in re.finditer(r"'bag': '(\d+:\d+) → (\d+:\d+)'", open(f, encoding='utf-8').read()):
         bagli.add(m.group(1)); bagli.add(m.group(2))
 say2 = open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]
@@ -92,10 +93,10 @@ for n in range(A, B + 1):
     if 'Blokta' in M[n].split('\n')[0]: H('(b5)', n)
 # (b6) esma_el alıntısı ◇'de; kök anlamı ölçüm glossuyla
 import os
-ef = Y + 'esma_el_4_%d_%d.txt' % (A, B)
+ef = Y + 'esma_el_%d_%d_%d.txt' % (S, A, B)
 if os.path.exists(ef):
     for l in open(ef, encoding='utf-8'):
-        m = re.match(r"\s*'4:(\d+):\d+': '\w+',  # (.*?) — (.*)$", l)
+        m = re.match(r"\s*'%d:(\d+):\d+': '\w+',  # (.*?) — (.*)$" % S, l)
         if m and m.group(2) not in M[int(m.group(1))]: H('(b6) esma alıntı', m.group(1), m.group(2)[:50])
         if m:
             k = re.match(r"(.*?) (\(.*\))$", m.group(3))
