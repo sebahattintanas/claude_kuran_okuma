@@ -1417,4 +1417,10 @@ KARAR = {
     '5:8:7': 'degil',  # qavvâmîne li'llâhi şuhedâ'e — çoğul insan göndergeli → degil (tanıklar)
     '5:8:24': 'ilahi',  # inna'llâhe xabîrun bimâ ta'melûn — 'inne/enne' haberi → ilahi (lafzın haberi)
     '5:11:23': 'degil',  # fe'l-yetevekkeli'l-mu'minûn — çoğul insan göndergeli → degil (inananlar)
+    # sure 5 blok 15-17
+    '5:15:21': 'degil',  # qad câ'akum mina'llâhi nûrun — esmâ adı esmâ dışı göndergeyle → degil (gelen nur)
+    '5:15:23': 'degil',  # nûrun ve kitâbun mubîn — esmâ adı esmâ dışı göndergeyle → degil (kitabın sıfatı)
+    '5:16:8': 'degil',  # subule's-selâm — esmâ adı esmâ dışı göndergeyle → degil (yolların izafeti)
+    '5:16:13': 'degil',  # mine'z-zulumâti ile'n-nûr — esmâ adı esmâ dışı göndergeyle → degil (karanlıklar karşıtı)
+    '5:17:42': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
 }

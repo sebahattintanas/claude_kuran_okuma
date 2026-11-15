@@ -103,6 +103,16 @@ BAGLAR = {"AS_maide": [
  {'bag': '5:13 → 5:14', 'kural': "sûre içi — harekesiz 'hazzan mimmâ zukkirû bih'", 'not': "blok içi kalıp eşi (ölçüm nakarat3); lemma dizisi 'nesiye hazz min mâ zukkir bi' eşi — önek farkı ('ve' / 'fe')."},
  {'bag': '60:4 → 5:14', 'kural': "okuma — lemma dizisi 'beyn 'adâve bağdâ''", 'not': 'lemma dizisi eşi (ölçüm xref).'},
  {'bag': '16:112 → 5:14', 'kural': "okuma — harekesiz 'bimâ kânû yasna'ûn'", 'not': 'kalıp eşi.'},
+ # blok 15-17
+ {'bag': '42:30 → 5:15', 'kural': "okuma — önek kesilmiş 've ya'fû 'an kesîr'", 'not': 'kalıp eşi.'},
+ {'bag': '2:257 → 5:16', 'kural': "okuma — harekesiz 'mine'z-zulumâti ile'n-nûr'", 'not': 'kalıp eşi.'},
+ {'bag': '14:1 → 5:16', 'kural': "okuma — lemma dizisi 'zuleme ilâ nûr izn'", 'not': 'lemma dizisi eşi (ölçüm xref).'},
+ {'bag': '2:142 → 5:16', 'kural': "okuma — harekesiz 'ilâ sırâtin mustaqîm'", 'not': "kalıp eşi; 'yehdî' ile dosdoğru yola iletme."},
+ {'bag': '9:31 → 5:17', 'kural': "okuma — lemma dizisi 'mesîh ibn meryem'", 'not': 'lemma dizisi eşi (ölçüm xref).'},
+ {'bag': '48:11 → 5:17', 'kural': "okuma — harekesiz 'mina'llâhi şey'en'", 'not': "kalıp eşi (ölçüm xref); 'fe-men yemliku' sorusu ve 'in erâde' şartı."},
+ {'bag': '14:8 → 5:17', 'kural': "okuma — önek kesilmiş 've men fi'l-ardi cemî'an'", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '3:47 → 5:17', 'kural': "okuma — harekesiz 'yaxluqu mâ yeşâ''", 'not': 'kalıp eşi.'},
+ {'bag': '2:284 → 5:17', 'kural': "okuma — harekesiz 'yeşâ' ve'llâhu 'alâ kulli şey'in qadîr'", 'not': 'kalıp eşi.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
