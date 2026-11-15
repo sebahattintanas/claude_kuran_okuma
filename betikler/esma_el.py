@@ -1423,4 +1423,6 @@ KARAR = {
     '5:16:8': 'degil',  # subule's-selâm — esmâ adı esmâ dışı göndergeyle → degil (yolların izafeti)
     '5:16:13': 'degil',  # mine'z-zulumâti ile'n-nûr — esmâ adı esmâ dışı göndergeyle → degil (karanlıklar karşıtı)
     '5:17:42': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
+    # sure 5 blok 18-19
+    '5:19:28': 'ilahi',  # ve'llâhu 'alâ kulli şey'in qadîr — 've'llâhu X' kuralı → ilahi
 }
