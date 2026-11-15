@@ -1448,4 +1448,6 @@ KARAR = {
     '5:43:15': 'degil',  # bi'l-mu'minîn — çoğul insan göndergeli → degil (inananlar)
     '5:44:6': 'degil',  # hudan ve nûr — esmâ adı esmâ dışı göndergeyle → degil (Tevrat'taki nur)
     '5:44:23': 'degil',  # şuhedâ' — çoğul insan göndergeli → degil (şahitler)
+    # sure 5 blok 45-47
+    '5:46:17': 'degil',  # hudan ve nûr — esmâ adı esmâ dışı göndergeyle → degil (İncil'deki nur)
 }
