@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""yama_kok_5_3.py — sûre 5 bölüm 1-2: kok_ekle_5.ISTEK'e bir bloğun yeni kök(ler)ini ekler; boş ISTEK'e de.
+"""yama_kok_5_24.py — sûre 5 bölüm 4 (blok 9, 5:24-26): kok_ekle_5.ISTEK'e bir bloğun yeni kök(ler)ini ekler; boş ISTEK'e de.
 Kopyası yama_kok_5_<A>.py olarak yazılır: BLOK ve YENI doldurulur (YENI \\u kaçışlı; birden çok kök olabilir).
 Anahtar kok_envanteri'nden NFC ile; karşılıktaki ayet sayısı kok_envanteri'nden yazılır."""
 import json, unicodedata as ud, ast, py_compile

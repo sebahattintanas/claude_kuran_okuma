@@ -80440,6 +80440,70 @@
   "ton": null,
   "ton_kismi": false
  },
+ "5:31": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    21,
+    "سَوْءَة"
+   ],
+   [
+    22,
+    "أَخ"
+   ],
+   [
+    25,
+    "نادِم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:32": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    34,
+    "كَثِير"
+   ],
+   [
+    39,
+    "أَرْض"
+   ],
+   [
+    40,
+    "مُسْرِف"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "5:4": {
   "a": true,
   "bant": "KAPI_KAPALI",
