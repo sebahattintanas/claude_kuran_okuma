@@ -116,7 +116,8 @@ if 'başka ayet' in xi: H.append("(6) ARIZA xref maddesinde 'başka ayet'")
 for a in range(A, B + 1):
     o = olc[a - A]
     hed = set()
-    for l in re.findall(r'xref [^→\n]*→ ([^·\n]*)', o): hed |= set(re.findall(r'\d+:\d+', l))
+    for l in re.findall(r'xref ([^|\n]*)', o):  # blok 26: bir xref alanında ' · ' ile ayrılmış birden çok kalıp (her '→' grubu)
+        for g in l.split(' · '): hed |= set(re.findall(r'\d+:\d+', g.split('→', 1)[1])) if '→' in g else set()
     if 'başka ayet' in M[a]: H.append("(6) %d:%d ◇'de 'başka ayet'" % (S, a))
     bm = [h for h in hed if h not in BAS]
     ok = len([h for h in bm if oku(*map(int, h.split(':')))]); hz = len(bm) - ok
