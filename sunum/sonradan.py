@@ -7,7 +7,8 @@ n = 0
 # bölüm 16 denetimi kuralı 3: '--plan NN' blok listesini blok planından üretir (önceki bölümün bütün blokları + bu bölümün NN'den önceki blokları)
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
-ARG = sys.argv[1:]
+NUM = '--numarasiz' in sys.argv  # bölüm 10 denetimi kuralı 9: bu oturumda basılmamış ayetin sayım anahtarı numarasız ('say2 sıra K')
+ARG = [x for x in sys.argv[1:] if x != '--numarasiz']
 if ARG[:1] == ['--plan']:
     NN = int(ARG[1]); bol = []; cur = None
     for l in open('/home/claude/yamalar/blok_plani_%d.txt' % S, encoding='utf-8'):
@@ -20,7 +21,7 @@ if ARG[:1] == ['--plan']:
     ARG = [a for a in ARG if os.path.exists('/home/claude/%s/say2.txt' % a)]
     print('blok listesi (plan):', ' '.join(ARG) or '—')
 for blk in ARG:
-    for b in open('/home/claude/%s/say2.txt' % blk).read().split('### ')[1:]:
+    for sira, b in enumerate(open('/home/claude/%s/say2.txt' % blk).read().split('### ')[1:], 1):
         L = b.strip().splitlines(); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
         d = ast.literal_eval(m.group(2))
         li = [l for l in L if l.startswith('liste:')]
@@ -30,5 +31,11 @@ for blk in ARG:
             if not ld: continue
             ay = [x.strip().split('×')[0].rstrip('†') for x in ld[0].split(',')]
         yeni = [a for a in ay if a in B and a not in set(d['bu']) | set(d['basilan'])]
-        if yeni: n += 1; print(blk, L[0], yeni)
+        if yeni:
+            n += 1; bas = L[0]
+            if NUM:
+                mm = re.match(r'(say|lem) (\d+):(\d+)|(dizi) (\d+) (\d+)', bas)
+                if mm and ('%s:%s' % ((mm.group(2), mm.group(3)) if mm.group(1) else (mm.group(5), mm.group(6)))) not in B:
+                    bas = '%s (say2 sıra %d)' % (mm.group(1) or mm.group(4), sira)
+            print(blk, bas, yeni)
 print('eskiyen sayım:', n)

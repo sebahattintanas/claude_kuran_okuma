@@ -183,8 +183,24 @@ BAG = {x for b in bag for x in b['bag'].split(' → ')}
 if 'D3 dışı bırakılan basılmış sayım eşleri' in d3:
     on, son = d3.split('D3 dışı bırakılan basılmış sayım eşleri', 1)
     son = son.split(' — kalıp başına')[0]
+    if re.search(r'%d:%d: ' % (S, A), son):  # bölüm 10 denetimi kuralı 11: ayet başına liste ('S:A: …' / 'yok')
+        UA = {}
+        for blk in open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
+            L = blk.strip().splitlines()
+            if '--medde' in L[0]: continue
+            mk = re.match(r'(?:say|lem) \d+:(\d+)|dizi \d+ (\d+)', L[0]); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
+            if mk and m: UA.setdefault(int(mk.group(1) or mk.group(2)), set()).update(ast.literal_eval(m.group(2))['basilan'])
+        ONB = {'%d:%d' % (S, a) for a in range(A, B + 1)}
+        for a in range(A, B + 1):
+            ms = re.search(r'%d:%d: (.*?)(?=; %d:\d+: |$)' % (S, a, S), son)
+            la = set(re.findall(r'\d+:\d+', ms.group(1))) if ms else set()
+            ka = {b['bag'].split(' → ')[0] for b in bag if b['bag'].split(' → ')[1] == '%d:%d' % (S, a)}
+            ba = UA.get(a, set()) - ONB - ka - set(re.findall(r'\d+:\d+', ' '.join(re.findall(r'ayetler arası kalıp[^;]*', on))))  # yalnız ayetler arası kalıp kayıtlarında anılanlar
+            if la != ba: H.append('(7) D3 dışı listesi %d:%d eksik %s / fazla %s' % (S, a, sorted(ba - la), sorted(la - ba)))
+        liste = bek = set()
     liste = set(re.findall(r'\d+:\d+', son)) - {'%d:%d' % (S, a) for a in range(A, B + 1)}  # blok ayeti etiketleri liste öğesi değil
     bek = U - {'%d:%d' % (S, a) for a in range(A, B + 1)} - BAG - set(re.findall(r'\d+:\d+', on))
+    if re.search(r'%d:%d: ' % (S, A), son): liste = bek  # ayet başına biçim yukarıda denetlendi
     if liste != bek: H.append('(7) D3 dışı listesi eksik %s / fazla %s' % (sorted(bek - liste), sorted(liste - bek)))
     print('D3 dışı: beklenen %d, liste %d' % (len(bek), len(liste)))
 # ── (9) bölüm sırası ──

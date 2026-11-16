@@ -1,0 +1,1940 @@
+# geriye dönük koşu (b25, 2026-11-16): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre 5); isabet 1735
+# önceki dosyayla fark (geriye_donuk_5_b23.txt): düşen 0, yeni 177
+#   düşen sınıfı: kayıt değişti 0, araç değişti 0
+#   yeni: blok 02 (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+#   yeni: blok 02 (11) D3 dışı listesinde 5:3 ayet başlığı yok (boşsa yok)
+#   yeni: blok 02 (11) D3 dışı listesinde 5:4 ayet başlığı yok (boşsa yok)
+#   yeni: blok 02 (6) 5:3 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 02 (6) 5:4 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 03 (1) esmâ maddesinde kural yok: kural ''fi'l-âxira' emsali' (
+#   yeni: blok 03 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 03 (11) D3 dışı listesinde 5:5 ayet başlığı yok (boşsa yok)
+#   yeni: blok 03 (11) D3 dışı listesinde 5:6 ayet başlığı yok (boşsa yok)
+#   yeni: blok 03 (6) 5:6 xref 'okunmuş 3 ayet' yazılmamış
+#   yeni: blok 04 (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+#   yeni: blok 04 (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+#   yeni: blok 04 (11) D3 dışı listesinde 5:10 ayet başlığı yok (boşsa yok)
+#   yeni: blok 04 (11) D3 dışı listesinde 5:11 ayet başlığı yok (boşsa yok)
+#   yeni: blok 04 (11) D3 dışı listesinde 5:7 ayet başlığı yok (boşsa yok)
+#   yeni: blok 04 (11) D3 dışı listesinde 5:8 ayet başlığı yok (boşsa yok)
+#   yeni: blok 04 (11) D3 dışı listesinde 5:9 ayet başlığı yok (boşsa yok)
+#   yeni: blok 04 (6) 5:9 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 05 (6) 5:13 xref 'okunmuş 3 ayet' yazılmamış
+#   yeni: blok 05 (6) 5:14 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 06 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 06 (11) D3 dışı listesinde 5:15 ayet başlığı yok (boşsa yok)
+#   yeni: blok 06 (11) D3 dışı listesinde 5:16 ayet başlığı yok (boşsa yok)
+#   yeni: blok 06 (11) D3 dışı listesinde 5:17 ayet başlığı yok (boşsa yok)
+#   yeni: blok 06 (6) 5:15 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+#   yeni: blok 06 (6) 5:16 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 06 (6) 5:17 xref 'okunmuş 3 ayet' yazılmamış
+#   yeni: blok 07 (11) D3 dışı listesinde 5:18 ayet başlığı yok (boşsa yok)
+#   yeni: blok 07 (11) D3 dışı listesinde 5:19 ayet başlığı yok (boşsa yok)
+#   yeni: blok 07 (6) 5:18 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 07 (6) 5:19 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+#   yeni: blok 08 (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+#   yeni: blok 08 (6) 5:23 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 09 (6) 5:25 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+#   yeni: blok 10 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 10 (11) D3 dışı listesinde 5:27 ayet başlığı yok (boşsa yok)
+#   yeni: blok 10 (11) D3 dışı listesinde 5:28 ayet başlığı yok (boşsa yok)
+#   yeni: blok 10 (11) D3 dışı listesinde 5:29 ayet başlığı yok (boşsa yok)
+#   yeni: blok 10 (11) D3 dışı listesinde 5:30 ayet başlığı yok (boşsa yok)
+#   yeni: blok 10 (6) 5:28 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 11 (5) 5:32 fiil yönetimi takdiri yok: 'can' 'nefs' karşılığı (13. kelime; yönelme eki ile 'cana')
+#   yeni: blok 12 (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+#   yeni: blok 12 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 12 (11) D3 dışı listesinde 5:33 ayet başlığı yok (boşsa yok)
+#   yeni: blok 12 (11) D3 dışı listesinde 5:34 ayet başlığı yok (boşsa yok)
+#   yeni: blok 12 (11) D3 dışı listesinde 5:35 ayet başlığı yok (boşsa yok)
+#   yeni: blok 12 (11) D3 dışı listesinde 5:36 ayet başlığı yok (boşsa yok)
+#   yeni: blok 12 (6) 5:36 ◇'de 'başka ayet'
+#   yeni: blok 12 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 13 (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+#   yeni: blok 13 (11) D3 dışı listesinde 5:37 ayet başlığı yok (boşsa yok)
+#   yeni: blok 13 (11) D3 dışı listesinde 5:38 ayet başlığı yok (boşsa yok)
+#   yeni: blok 13 (11) D3 dışı listesinde 5:39 ayet başlığı yok (boşsa yok)
+#   yeni: blok 13 (11) D3 dışı listesinde 5:40 ayet başlığı yok (boşsa yok)
+#   yeni: blok 13 (6) 5:39 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 14 (1) esmâ maddesinde kural yok: kural ''fi'l-âxira' emsali' (
+#   yeni: blok 14 (11) D3 dışı listesinde 5:41 ayet başlığı yok (boşsa yok)
+#   yeni: blok 14 (5) 5:41 fiil yönetimi takdiri yok: 'yer' 'mevâdi'' karşılığı (31. kelime; çoğul; yönelme eki ile 'yerleri
+#   yeni: blok 14 (5) 5:41 fiil yönetimi takdiri yok: 'şey' 'şey'' karşılığı (50. kelime; nekre — 'hiçbir' takdiri; yönelme 
+#   yeni: blok 15 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 15 (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+#   yeni: blok 15 (11) D3 dışı listesinde 5:42 ayet başlığı yok (boşsa yok)
+#   yeni: blok 15 (11) D3 dışı listesinde 5:43 ayet başlığı yok (boşsa yok)
+#   yeni: blok 15 (11) D3 dışı listesinde 5:44 ayet başlığı yok (boşsa yok)
+#   yeni: blok 16 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 16 (11) D3 dışı listesinde 5:45 ayet başlığı yok (boşsa yok)
+#   yeni: blok 16 (11) D3 dışı listesinde 5:46 ayet başlığı yok (boşsa yok)
+#   yeni: blok 16 (11) D3 dışı listesinde 5:47 ayet başlığı yok (boşsa yok)
+#   yeni: blok 16 (6) 5:46 ◇'de 'başka ayet'
+#   yeni: blok 16 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 17 (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+#   yeni: blok 17 (11) D3 dışı listesinde 5:48 ayet başlığı yok (boşsa yok)
+#   yeni: blok 17 (11) D3 dışı listesinde 5:49 ayet başlığı yok (boşsa yok)
+#   yeni: blok 17 (11) D3 dışı listesinde 5:50 ayet başlığı yok (boşsa yok)
+#   yeni: blok 17 (2) 5:50 A4 bölüm kapanışı yok
+#   yeni: blok 17 (5) 5:48 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (20. kelime; çoğul '-ler'; yönelme eki ile '
+#   yeni: blok 17 (5) 5:49 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (9. kelime; çoğul '-ler'; yönelme eki ile 'h
+#   yeni: blok 17 (6) 5:48 ◇'de 'başka ayet'
+#   yeni: blok 17 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 18 (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+#   yeni: blok 18 (11) D3 dışı listesinde 5:51 ayet başlığı yok (boşsa yok)
+#   yeni: blok 18 (11) D3 dışı listesinde 5:52 ayet başlığı yok (boşsa yok)
+#   yeni: blok 18 (11) D3 dışı listesinde 5:53 ayet başlığı yok (boşsa yok)
+#   yeni: blok 18 (11) D3 dışı listesinde 5:54 ayet başlığı yok (boşsa yok)
+#   yeni: blok 18 (2) 5:51 A4 bölüm açılışı yok
+#   yeni: blok 18 (6) 5:52 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 18 (6) 5:52 ◇'de 'başka ayet'
+#   yeni: blok 18 (6) 5:54 ◇'de 'başka ayet'
+#   yeni: blok 18 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 19 (1) esmâ maddesinde kural yok: kural 'sınırlama haberi lafız' (
+#   yeni: blok 19 (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+#   yeni: blok 19 (11) D3 dışı listesinde 5:55 ayet başlığı yok (boşsa yok)
+#   yeni: blok 19 (11) D3 dışı listesinde 5:56 ayet başlığı yok (boşsa yok)
+#   yeni: blok 19 (11) D3 dışı listesinde 5:57 ayet başlığı yok (boşsa yok)
+#   yeni: blok 19 (11) D3 dışı listesinde 5:58 ayet başlığı yok (boşsa yok)
+#   yeni: blok 19 (2) 5:58 A4 bölüm kapanışı yok
+#   yeni: blok 19 (6) 5:55 ◇'de 'başka ayet'
+#   yeni: blok 19 (6) 5:56 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 19 (6) 5:56 ◇'de 'başka ayet'
+#   yeni: blok 19 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 20 (11) D3 dışı listesinde 5:59 ayet başlığı yok (boşsa yok)
+#   yeni: blok 20 (11) D3 dışı listesinde 5:60 ayet başlığı yok (boşsa yok)
+#   yeni: blok 20 (11) D3 dışı listesinde 5:61 ayet başlığı yok (boşsa yok)
+#   yeni: blok 20 (11) D3 dışı listesinde 5:62 ayet başlığı yok (boşsa yok)
+#   yeni: blok 20 (11) D3 dışı listesinde 5:63 ayet başlığı yok (boşsa yok)
+#   yeni: blok 20 (2) 5:59 A4 bölüm açılışı yok
+#   yeni: blok 20 (6) 5:59 xref 'okunmuş 3 ayet' yazılmamış
+#   yeni: blok 20 (6) 5:59 ◇'de 'başka ayet'
+#   yeni: blok 20 (6) 5:60 ◇'de 'başka ayet'
+#   yeni: blok 20 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 20 (8) 5:59 'qul' sözü var, A4'te 'söz açılır' yok
+#   yeni: blok 20 (8) 5:60 'qul' sözü var, A4'te 'söz açılır' yok
+#   yeni: blok 21 (11) D3 dışı listesinde 5:64 ayet başlığı yok (boşsa yok)
+#   yeni: blok 21 (11) D3 dışı listesinde 5:65 ayet başlığı yok (boşsa yok)
+#   yeni: blok 21 (11) D3 dışı listesinde 5:66 ayet başlığı yok (boşsa yok)
+#   yeni: blok 21 (2) 5:66 A4 bölüm kapanışı yok
+#   yeni: blok 21 (5) 5:64 fiil yönetimi takdiri yok: 'gün' 'yevm' karşılığı (32. kelime; yönelme eki ile 'gününe')
+#   yeni: blok 21 (6) 5:64 ◇'de 'başka ayet'
+#   yeni: blok 21 (6) 5:65 ◇'de 'başka ayet'
+#   yeni: blok 21 (6) 5:66 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+#   yeni: blok 21 (6) 5:66 xref 'okunmuş 1 ayet' yazılmamış
+#   yeni: blok 21 (6) 5:66 ◇'de 'başka ayet'
+#   yeni: blok 21 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 21 (7) 5:64 D2 biçim etiketi: biçim IDRAB
+#   yeni: blok 22 (1) esmâ parantezi ''yevm' sıfatı, âhiret günü' / esma_el 'günün sıfatı, âhiret günü'
+#   yeni: blok 22 (11) D3 dışı listesinde 5:67 ayet başlığı yok (boşsa yok)
+#   yeni: blok 22 (11) D3 dışı listesinde 5:68 ayet başlığı yok (boşsa yok)
+#   yeni: blok 22 (11) D3 dışı listesinde 5:69 ayet başlığı yok (boşsa yok)
+#   yeni: blok 22 (11) D3 dışı listesinde 5:70 ayet başlığı yok (boşsa yok)
+#   yeni: blok 22 (2) 5:67 A4 bölüm açılışı yok
+#   yeni: blok 22 (5) 5:69 fiil yönetimi takdiri yok: 'gün' 'yevm' karşılığı (11. kelime; iyelik ve yönelme eki ile 'gününe'
+#   yeni: blok 22 (6) 5:68 xref 'okunmuş 4 ayet' yazılmamış
+#   yeni: blok 22 (6) 5:68 ◇'de 'başka ayet'
+#   yeni: blok 22 (6) 5:69 ◇'de 'başka ayet'
+#   yeni: blok 22 (6) 5:70 ◇'de 'başka ayet'
+#   yeni: blok 22 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 22 (7) 5:67 D2 biçim etiketi: biçim DIKKAT
+#   yeni: blok 22 (7) 5:68 D2 biçim etiketi: biçim NEHY
+#   yeni: blok 22 (8) 5:68 'qul' sözü var, A4'te 'söz açılır' yok
+#   yeni: blok 23 (1) esmâ parantezi 'yardımcılar; olumsuzlanan yardımcılar' / esma_el 'yardımcılar'
+#   yeni: blok 23 (11) D3 dışı listesinde 5:71 ayet başlığı yok (boşsa yok)
+#   yeni: blok 23 (11) D3 dışı listesinde 5:72 ayet başlığı yok (boşsa yok)
+#   yeni: blok 23 (11) D3 dışı listesinde 5:73 ayet başlığı yok (boşsa yok)
+#   yeni: blok 23 (11) D3 dışı listesinde 5:74 ayet başlığı yok (boşsa yok)
+#   yeni: blok 23 (3) meal karşılık farkı kararı yok: ''amile' / ''amilu' / 'ta'melûn' / 'ya'melû' — karar yok
+#   yeni: blok 23 (3) meal karşılık farkı kararı yok: 'qul' / 'qultum' / 'qâla' / 'qâle' / 'qâlet' / 'qâlû' / 'teqûlû' / 'ye
+#   yeni: blok 23 (3) meal karşılık farkı kararı yok: 'tâbe' / 'tâbû' / 'yetûbu' / 'yetûbû' — karar yok
+#   yeni: blok 23 (6) 5:72 ◇'de 'başka ayet'
+#   yeni: blok 23 (6) 5:73 xref 'okunmuş 2 ayet' yazılmamış
+#   yeni: blok 23 (6) 5:73 ◇'de 'başka ayet'
+#   yeni: blok 23 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 23 (7) 5:73 D2 biçim etiketi: biçim HASR
+#   yeni: blok 24 (1) esmâ parantezi 'lafzın haberi; araya fasıl zamiri 'huve' giriyor' / esma_el 'lafzın haberi'
+#   yeni: blok 24 (11) D3 dışı listesinde 5:75 ayet başlığı yok (boşsa yok)
+#   yeni: blok 24 (11) D3 dışı listesinde 5:76 ayet başlığı yok (boşsa yok)
+#   yeni: blok 24 (11) D3 dışı listesinde 5:77 ayet başlığı yok (boşsa yok)
+#   yeni: blok 24 (2) 5:77 A4 bölüm kapanışı yok
+#   yeni: blok 24 (3) meal kararı yön değiştirdi (blok 22: bilinçli → tam), önceki karar yazılmamış: 'qul' / 'qultum' / 'qâla' / 'qâle' / 'qâlet' / 'qâlû' / 'teq
+#   yeni: blok 24 (3) meal kararı yön değiştirdi (blok 22: tam → değil), önceki karar yazılmamış: 'kitâb' — çakışma değil ('Kitap' / 'kitap' büyük harf yazım 
+#   yeni: blok 24 (5) 5:76 fiil yönetimi takdiri yok: 'fayda' 'nef'' karşılığı (12. kelime; nekre — 'bir' takdiri; yönelme e
+#   yeni: blok 24 (5) 5:76 fiil yönetimi takdiri yok: 'zarar' 'darr' karşılığı (10. kelime; nekre — 'bir' takdiri; yönelme e
+#   yeni: blok 24 (5) 5:77 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (12. kelime; çoğul '-ler'; yönelme eki ile '
+#   yeni: blok 24 (6) 5:75 ◇'de 'başka ayet'
+#   yeni: blok 24 (6) 5:76 ◇'de 'başka ayet'
+#   yeni: blok 24 (6) 5:77 xref 'okunmuş 3 ayet' yazılmamış
+#   yeni: blok 24 (6) 5:77 ◇'de 'başka ayet'
+#   yeni: blok 24 (6) ARIZA xref maddesinde 'başka ayet'
+#   yeni: blok 24 (7) 5:75 D2 biçim etiketi: biçim HASR
+#   yeni: blok 24 (7) 5:77 D2 biçim etiketi: biçim NEHY
+#   yeni: blok 24 (8) 5:76 'qul' sözü var, A3 boş
+#   yeni: blok 24 (8) 5:76 'qul' sözü var, A4'te 'söz açılır' yok
+#   yeni: blok 24 (8) 5:77 'qul' sözü var, A3 boş
+#   yeni: blok 24 (8) 5:77 'qul' sözü var, A4'te 'söz açılır' yok
+#   yeni: blok 24 KAPSAMAYAN 13
+#   yeni: blok 24 tanınmayan 3 (5:75 'kânâ', 5:75 'âni', 5:75 'nu')
+#   yeni: blok 25 KAPSAMAYAN 9
+#   yeni: blok 25 tanınmayan 1 (5:81 'lâkinne')
+## blok 01 (5:1-2)
+bolum4_kurallar: A1 kapsamı 5:2 şahıs etiketli kelime A1 dışında: 28., 37., 38., 43., 47.
+bolum5_kurallar: tetik dışı anılmadı 5:2 6. kelime شعر
+bolum5_kurallar: tetik dışı anılmadı 5:2 9. kelime شهر
+bolum5_kurallar: tetik dışı anılmadı 5:2 24. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:2 32. kelime صدد
+bolum5_kurallar: ham LEM 5:2 ham kelime 5 (25., 26., 28., 38., 43.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:2 çetindir
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:1 / 5:2 ('uhillet lekum' / 'lâ tuhillû', lemma 'ehalle', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'helâl say-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:1 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:1 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:2 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:2 'şüphesiz'
+bolum6_kurallar: yıldız maddesi: 5:1 ★ (kaynak pas, z=1,57 yok
+bolum6_kurallar: yıldız maddesi: 5:2 ★★★ (kaynak n, z=4,20 yok
+bolum7_kurallar: (3) A1 etiket 5:1 3. kelime 3MP (ءَامَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:1 3. kelime 3MP (وٓا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:1 6. kelime 3FS (أُحِلَّتْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:1 ölçüm ['2MP', '3FS', '3MP', '3MS'] / A1 ['2MP', '3MS']
+bolum7_kurallar: (3) A1 etiket 5:2 3. kelime 3MP (ءَامَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 3. kelime 3MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 22. kelime 3MP (هِمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 26. kelime 2MP (ٱصْطَادُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 26. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 28. kelime 3MS (يَجْرِمَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 28. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 32. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 37. kelime 2MP (تَعْتَدُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 37. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 38. kelime 2MP (تَعَاوَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 38. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 43. kelime 2MP (تَعَاوَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 43. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 47. kelime 2MP (ٱتَّقُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:2 47. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:2 ölçüm ['2MP', '3MP', '3MS'] / A1 ['2MP', '3MP']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/altdize.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/denetim_5.sh
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/edat_etiket.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kelime_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kural13.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kural14.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/lem_norm.json
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/onceki_basim.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/sonradan.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/sure.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/translit_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum7_kurallar: (12) nakarat3 5:1: ad 0 / ölçüm kalıbı 2
+bolum7_kurallar: (12) nakarat3 5:2: ad 0 / ölçüm kalıbı 6
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl' öğesi 'ibteğâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl' öğesi 'fadl' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl min rabb' öğesi 'ibteğâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl min rabb' öğesi 'fadl' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl min rabb' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ibteğâ fadl min rabb' öğesi 'rabb' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh şedîd 'iqâb' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh şedîd 'iqâb' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh şedîd 'iqâb' öğesi 'şedîd' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh şedîd 'iqâb' öğesi ''iqâb' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ cerame şene'ân qavm' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ cerame şene'ân qavm' öğesi 'cerame' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ cerame şene'ân qavm' öğesi 'şene'ân' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ cerame şene'ân qavm' öğesi 'qavm' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'sayd entum harâm' öğesi 'sayd' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'sayd entum harâm' öğesi 'entum' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'sayd entum harâm' öğesi 'harâm' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tuhillû' / 'uhillet'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'harâm'
+bolum9_kurallar: (3) bag 2:158 → 5:2 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:32 → 5:2 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:36 → 5:2 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:194 → 5:2 kalıp ◇ alt dizesi değil
+bolum9_kurallar: (3) bag 2:217 → 5:2 kalıp ◇ alt dizesi değil
+bolum9_kurallar: (3) bag 2:196 → 5:2 kalıbının say2 koşusu yok ('say 5:2 48-49')
+bolum9_kurallar: (3) bag 48:25 → 5:2 kalıbının say2 koşusu yok ('say 5:2 30-32')
+bolum9_kurallar: (3) bag 2:198 → 5:2 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 59:7 → 5:2 kalıbının say2 koşusu yok ('say 5:2 46-49')
+bolum9_kurallar: (3) bag 49:1 → 5:2 kalıbının say2 koşusu yok ('say 5:2 44-47 --on')
+bolum9_kurallar: (5) 5:2 'inne allâh şedîd 'iqâb' nakarat3 2 / ◇ lemma dizisi 'dizi 5 2 49 52' sûre içi 1 — R5 satırında 'biçim öğesi' notu yok
+gloss_tara: KAPSAMAYAN 18
+yasakli: ariza_5_1_2.txt:19:iki ayetin
+## blok 02 (5:3-4)
+bolum4_kurallar: A1 kapsamı 5:3 şahıs etiketli kelime A1 dışında: 17.
+bolum4_kurallar: A1 kapsamı 5:4 şahıs etiketli kelime A1 dışında: 4., 22., 25.
+bolum5_kurallar: ham notsuz çakışma ekmel
+bolum5_kurallar: ham notsuz lemma listesi zekkey
+bolum5_kurallar: ham notsuz lemma listesi ekmel
+bolum5_kurallar: ham notsuz LEM kaydı zekkey
+bolum5_kurallar: tetik dışı anılmadı 5:3 4. kelime دمو
+bolum5_kurallar: tetik dışı anılmadı 5:3 5. kelime لحم
+bolum5_kurallar: tetik dışı anılmadı 5:3 12. kelime خنق
+bolum5_kurallar: tetik dışı anılmadı 5:3 13. kelime وقذ
+bolum5_kurallar: tetik dışı anılmadı 5:3 28. kelime زلم
+bolum5_kurallar: tetik dışı anılmadı 5:4 12. kelime جرح
+bolum5_kurallar: ham LEM 5:3 ham kelime 5 (8., 21., 23., 27., 41.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:3 çıkmaktır
+bolum5_kurallar: '-dir' kayıtsız 5:3 bağışlayandır
+bolum5_kurallar: '-dir' kayıtsız 5:3 edendir
+bolum5_kurallar: '-dir' kayıtsız 5:4 görendir
+bolum5_kurallar: nekre kayıtsız 5:3 56. kelime
+bolum5_kurallar: nekre kayıtsız 5:3 60. kelime
+bolum5_kurallar: nekre kayıtsız 5:3 61. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:3 / 5:4 ('hurrimet 'aleykum' / 'uhille lekum', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yırtıcı hayvan' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'hayv-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öl-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'tamamla-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:3 'kim … -sa'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:4 'sana'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:4 'onların'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:4 'şüphesiz'
+bolum6_kurallar: yıldız maddesi: 5:3 ★★★ (kaynak hapaks, z=13,81 yok
+bolum6_kurallar: yıldız maddesi: 5:4 ★★ (kaynak allah, z=2,05 yok
+bolum7_kurallar: (3) A1 etiket 5:3 1. kelime 3FS (حُرِّمَتْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 8. kelime 3MS (أُهِلَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 11. kelime 3MS (هِۦ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 17. kelime 3MS (أَكَلَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 32. kelime 3MS (يَئِسَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 34. kelime 3MP (كَفَرُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 34. kelime 3MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:3 38. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:3 ölçüm ['1S', '2MP', '3FS', '3MP', '3MS'] / A1 ['1S', '2MP', '3MS']
+bolum7_kurallar: (3) A1 etiket 5:4 3. kelime 3MS (أُحِلَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 4. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 6. kelime 3MS (أُحِلَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 14. kelime 3FP (هُنَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 16. kelime 3MS (عَلَّمَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 22. kelime 2MP (ٱذْكُرُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 22. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:4 25. kelime 3MS (هِ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:4 ölçüm ['2MP', '2MS', '3FP', '3MP', '3MS'] / A1 ['2MP', '2MS', '3FP', '3MP']
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(3, 'موت')]
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['5:1', '5:2']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_lemma.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kelime_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/morph_dok.py
+bolum7_kurallar: (12) nakarat3 5:3: ad 0 / ölçüm kalıbı 2
+bolum7_kurallar: (12) nakarat3 5:4: ad 0 / ölçüm kalıbı 3
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'allâh ğafûr rahîm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh ğafûr rahîm' öğesi 'ğafûr' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh ğafûr rahîm' öğesi 'rahîm' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehalle lekum tayyibe' öğesi 'lekum' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehalle lekum tayyibe' öğesi 'tayyibe' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî kefere min' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî kefere min' öğesi 'kefere' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî kefere min' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'xaşiye xaşiye' öğesi 'xaşiye' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'xaşiye xaşiye' öğesi 'xaşiye' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ism allâh' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ism allâh' öğesi 'ism' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ism allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tuhillû' / 'uhille' / 'uhillet'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: ''allemekumu' / ''allemtum' / 'tu'allimûnehunne'
+bolum9_kurallar: (3) bag 2:173 → 5:3 kalıp ◇ alt dizesi değil
+bolum9_kurallar: (3) bag 16:115 → 5:3 kalıp ◇ alt dizesi değil
+bolum9_kurallar: (3) bag 2:150 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:185 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 3:85 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 3:19 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 9:120 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 70:43 → 5:3 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:28 → 5:4 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:34 → 5:4 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:36 → 5:4 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 5:1 → 5:4 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (5) 5:4 'itteqâ allâh inne' nakarat3 6 / ◇ lemma dizisi 'dizi 5 4 26 28' sûre içi 4 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (6) 5:3 xref 'okunmuş 2 ayet' yazılmamış
+bolum10_kurallar: (6) 5:4 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:3 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:4 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 20
+yasakli: metin_5_3_4.txt:12:biri
+yasakli: ariza_5_3_4.txt:12:biri
+yasakli: metin_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+yasakli: ariza_5_3_4.txt wasl 'va'' yazımı: ["va'xşevn", "va'xşevni"]
+## blok 03 (5:5-6)
+bolum4_kurallar: A1 kapsamı 5:5 şahıs etiketli kelime A1 dışında: 13., 37., 38.
+bolum4_kurallar: A1 kapsamı 5:6 şahıs etiketli kelime A1 dışında: 9., 10., 14., 15., 44., 45., 46., 50., 58., 60.
+bolum5_kurallar: ham notsuz lemma listesi msehu
+bolum5_kurallar: LEM dışı ad lemma listesi tahhara'; morph LEM ham biçim: 'ğsilu
+bolum5_kurallar: tetik dışı anılmadı 5:5 23. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:5 24. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:5 41. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:6 4. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:6 20. kelime جنب
+bolum5_kurallar: ham LEM 5:6 ham kelime 6 (8., 13., 21., 35., 40., 43.) / meal notu 3
+bolum5_kurallar: '-dir' kayıtsız 5:5 helâldir
+bolum5_kurallar: '-dir' kayıtsız 5:5 helâldir
+bolum5_kurallar: '-dir' kayıtsız 5:5 çıkmıştır
+bolum5_kurallar: '-dir' kayıtsız 5:5 uğrayanlardandır
+bolum5_kurallar: nekre kayıtsız 5:5 12. kelime
+bolum5_kurallar: nekre kayıtsız 5:6 30. kelime
+bolum5_kurallar: nekre kayıtsız 5:6 42. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'helâl kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'tamamla-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'tut-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yönel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kadın-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'temizle-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'iffetli' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:5 'sizin … -iniz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:5 'kim … -se'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:6 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:6 'ki … -esiniz'
+bolum6_kurallar: yıldız maddesi: 5:5 ★★★ (kaynak n, z=3,25 yok
+bolum6_kurallar: yıldız maddesi: 5:6 ★★★ (kaynak n, z=5,16 yok
+bolum6_kurallar: esmâ kural adı kapalı liste dışı 5:5:41: ''fi'l-âxira' emsali'
+bolum7_kurallar: (3) A1 etiket 5:5 2. kelime 3MS (أُحِلَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:5 13. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:5 37. kelime 3MS (حَبِطَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:5 38. kelime 3MS (هُۥ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 3. kelime 3MP (ءَامَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 3. kelime 3MP (وٓا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 9. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 10. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 14. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 15. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 29. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 31. kelime 2MP (كُم) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 44. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 45. kelime 2MP (كُم) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 46. kelime 3MS (هُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 58. kelime 3MS (هُۥ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:6 60. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:6 ölçüm ['2MP', '3MP', '3MS'] / A1 ['2MP', '3MS']
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(6, 'يدي')]
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['2:184', '5:1', '60:10']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/altdize.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/cakisma.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_edat.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_lemma.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/medde.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/sonradan.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum7_kurallar: (12) nakarat3 5:5: ad 0 / ölçüm kalıbı 2
+bolum7_kurallar: (12) nakarat3 5:6: ad 0 / ölçüm kalıbı 1
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'ehalle lekum tayyibe' öğesi 'ehalle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehalle lekum tayyibe' öğesi 'lekum' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehalle lekum tayyibe' öğesi 'tayyibe' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'etemme ni'me' öğesi 'etemme' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'etemme ni'me' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'merîd ev 'alâ sefer' öğesi 'merîd' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'merîd ev 'alâ sefer' öğesi 'ev' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'merîd ev 'alâ sefer' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'merîd ev 'alâ sefer' öğesi 'sefer' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'âtâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'kitâb' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî âtâ kitâb min qabl' öğesi 'qabl' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tuhillû' / 'uhille' / 'uhillet'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yurîdu'
+bolum9_kurallar: (1) 'ver-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: آتَى / جَعَلَ
+bolum9_kurallar: (3) bag 3:93 → 5:5 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 4:25 → 5:5 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 39:65 → 5:5 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:217 → 5:5 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:184 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:185 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:78 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 12:6 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 16:81 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 48:2 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:150 → 5:6 kuralı ne kalıp ne ölçüm xref
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''fi'l-âxira' emsali' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (6) 5:6 xref 'okunmuş 3 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:5 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:6 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_5_6.txt:4:biri
+yasakli: ariza_5_5_6.txt:23:biri
+## blok 04 (5:7-11)
+bolum4_kurallar: adsız etiketi yok 5:8 'huve' 3MS (zamir
+bolum4_kurallar: A1 kapsamı 5:7 şahıs etiketli kelime A1 dışında: 5., 8.
+bolum4_kurallar: A1 kapsamı 5:8 şahıs etiketli kelime A1 dışında: 16.
+bolum4_kurallar: A1 kapsamı 5:9 şahıs etiketli kelime A1 dışında: 7.
+bolum4_kurallar: A1 kapsamı 5:11 şahıs etiketli kelime A1 dışında: 14., 16.
+bolum5_kurallar: LEM dışı ad lemma listesi ashâb'; morph LEM ham biçim: 'yecrime
+bolum5_kurallar: tetik dışı anılmadı 5:7 9. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:9 10. kelime عظم
+bolum5_kurallar: tetik dışı anılmadı 5:11 8. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:11 15. kelime كفف
+bolum5_kurallar: ham LEM 5:8 ham kelime 1 (10.) / meal notu 0
+bolum5_kurallar: '-dir' kayıtsız 5:7 bilendir
+bolum5_kurallar: '-dir' kayıtsız 5:8 yakındır
+bolum5_kurallar: '-dir' kayıtsız 5:8 haberdardır
+bolum5_kurallar: '-dir' kayıtsız 5:9 vardır
+bolum5_kurallar: '-dir' kayıtsız 5:10 halkıdır
+bolum5_kurallar: nekre kayıtsız 5:7 17. kelime
+bolum5_kurallar: nekre kayıtsız 5:8 24. kelime
+bolum5_kurallar: nekre kayıtsız 5:9 10. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:9 / 5:10 ('llezîne âmenû ve 'amilu's-sâlihâti' / 've'llezîne keferû ve kezzebû', blok içi)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'de-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'amel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'tut-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'adalet' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:7 'üzerinde'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:7 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:8 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:8 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:11 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:11 'üzerinde'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:11 'onların … -i'
+bolum6_kurallar: yıldız maddesi: 5:7 ★★ (kaynak allah, z=2,63 yok
+bolum6_kurallar: yıldız maddesi: 5:8 ★ (kaynak allah, z=1,78 yok
+bolum6_kurallar: yıldız maddesi: 5:11 ★★ (kaynak allah, z=2,08 yok
+bolum7_kurallar: (3) A1 etiket 5:7 5. kelime 3MS (هُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:7 8. kelime 3MS (هِۦٓ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:8 3. kelime 3MP (ءَامَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:8 3. kelime 3MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:8 10. kelime 3MS (يَجْرِمَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:8 16. kelime 2MP (ٱعْدِلُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:8 16. kelime 2MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:8 ölçüm ['2MP', '3MP', '3MS'] / A1 ['2MP', '3MS']
+bolum7_kurallar: (3) A1 etiket 5:9 1. kelime 3MS (وَعَدَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:9 7. kelime 3MP (هُم) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:9 ölçüm ['3MP', '3MS'] / A1 ['3MP']
+bolum7_kurallar: (3) A1 etiket 5:11 3. kelime 3MP (ءَامَنُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:11 3. kelime 3MP (وا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:11 9. kelime 3MS (هَمَّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:11 14. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:11 16. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:11 22. kelime 3MS (يَتَوَكَّلِ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['33:9', '35:3', '4:135', '59:18', '5:2', '5:4']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_lemma.py
+bolum7_kurallar: (12) nakarat3 5:7: ad 0 / ölçüm kalıbı 3
+bolum7_kurallar: (12) nakarat3 5:8: ad 0 / ölçüm kalıbı 4
+bolum7_kurallar: (12) nakarat3 5:9: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:10: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:11: ad 0 / ölçüm kalıbı 4
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi 'tevekkel' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî âmene 'amile sâliha' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî âmene 'amile sâliha' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî âmene 'amile sâliha' öğesi ''amile' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene zekera ni'me allâh 'alâ' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'itteqâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'kâne qavvâm allâh şehîd qıst' öğesi 'kâne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'kâne qavvâm allâh şehîd qıst' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ yecrime şene'ân qavm' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ yecrime şene'ân qavm' öğesi 'yecrime' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ yecrime şene'ân qavm' öğesi 'şene'ân' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ yecrime şene'ân qavm' öğesi 'qavm' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 've 'alâ allâh tevekkel' öğesi 've' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 've 'alâ allâh tevekkel' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 've 'alâ allâh tevekkel' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 've 'alâ allâh tevekkel' öğesi 'tevekkel' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum' öğesi ''aleykum' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum iz' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum iz' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum iz' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum iz' öğesi ''aleykum' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'aleykum iz' öğesi 'iz' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'ni'me' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'iz' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ecr'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'dilû' / 'ta'dilu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: ''amilu' / 'ta'melûn'
+bolum9_kurallar: (1) 'ver-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: آتَى / جَعَلَ
+bolum9_kurallar: (3) bag 5:7 → 5:11 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 5:8 → 5:11 kalıp ◇ alt dizesi değil
+bolum9_kurallar: (3) bag 33:9 → 5:11 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (4) R5 5:7 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek; basılmamış eş önek')
+bolum9_kurallar: (4) R5 5:11 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş yazım eş')
+bolum9_kurallar: (4) R5 5:11 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek; basılmamış eş yazım eş')
+bolum9_kurallar: (5) 5:7 'itteqâ allâh inne' nakarat3 6 / ◇ lemma dizisi 'dizi 5 7 13 15' sûre içi 4 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:8 'itteqâ allâh inne' nakarat3 6 / ◇ lemma dizisi 'dizi 5 8 20 22' sûre içi 4 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:10 ölçüm nakarat3 0 / R5 satırı 1 (GEÇMEZ dahil)
+bolum9_kurallar: (6) lemma dizisi 'zekera ni'me allâh 'alâ' (dizi 5 7 1 4) blok içi 5:11 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'itteqâ allâh inne' (dizi 5 7 13 15) blok içi 5:8 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'itteqâ allâh inne' (dizi 5 8 20 22) blok içi 5:7 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'zekera ni'me allâh 'alâ' (dizi 5 11 4 7) blok içi 5:7 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (6) 5:9 xref 'okunmuş 2 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:7 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:8 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:9 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:10 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:11 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 18
+yasakli: metin_5_7_11.txt:30:biri
+yasakli: ariza_5_7_11.txt:12:biri
+yasakli: ariza_5_7_11.txt:17:iki ayetin
+yasakli: ariza_5_7_11.txt:17:iki ayetin
+## blok 05 (5:12-14)
+bolum4_kurallar: A4 5:12 COND 2 / şart → cevap 0
+bolum4_kurallar: adsız etiketi yok 5:12 'minhum' 3MP (gönderge kavim)
+bolum4_kurallar: adsız etiketi yok 5:12 ''azzertumûhum' mef'ûlü 3MP (gönderge elçiler)
+bolum4_kurallar: adsız etiketi yok 5:12 'tahtihe' 3FS (gönderge cennetler)
+bolum4_kurallar: adsız etiketi yok 5:12 'kefera' ve 'dalle' faili 3MS)
+bolum4_kurallar: adsız etiketi yok 5:14 söz içi konuşan 1P 'innâ'
+bolum4_kurallar: adsız etiketi yok 5:14 'mîsâqahum' 3MP (gönderge 'llezîne')
+bolum4_kurallar: adsız etiketi yok 5:14 'beynehumu' 3MP
+bolum4_kurallar: A1 kapsamı 5:12 şahıs etiketli kelime A1 dışında: 8.
+bolum4_kurallar: A1 kapsamı 5:13 şahıs etiketli kelime A1 dışında: 11., 22., 27.
+bolum5_kurallar: ham notsuz LEM kaydı cerey
+bolum5_kurallar: ham notsuz LEM kaydı buneyy
+bolum5_kurallar: ham notsuz LEM kaydı zukkir
+bolum5_kurallar: ham notsuz LEM kaydı ahbeb
+bolum5_kurallar: ham notsuz LEM kaydı ahbeb
+bolum5_kurallar: ham notsuz LEM kaydı zukkir
+bolum5_kurallar: ham notsuz LEM kaydı zukkir
+bolum5_kurallar: ham notsuz LEM kaydı zukkir
+bolum5_kurallar: ham notsuz LEM kaydı sana
+bolum5_kurallar: tetik dışı anılmadı 5:12 30. kelime سوأ
+bolum5_kurallar: ham LEM 5:14 ham kelime 3 (11., 13., 25.) / meal notu 2
+bolum5_kurallar: '-dir' kayıtsız 5:12 sapmıştır
+bolum5_kurallar: nekre kayıtsız 5:12 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 7. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 21. kelime
+bolum5_kurallar: nekre kayıtsız 5:13 24. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'düşmanlık' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ver-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'yap-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gör-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kıl-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:12 'andolsun'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:12 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:12 'andolsun'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:12 'bundan'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:13 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:14 'biz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:14 'bunun üzerine'
+bolum6_kurallar: yıldız maddesi: 5:12 ★★★ (kaynak n, z=3,46 yok
+bolum6_kurallar: yıldız maddesi: 5:13 ★★ (kaynak n, z=2,08 yok
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16): öğe 5, ad 6; joker konumu 5
+bolum6_kurallar: lemma dizisi adı 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12): öğe 5, ad 6; joker konumu 5
+bolum7_kurallar: (1) çakışma üye kümesi 'de-' ← ARIZA eksik ['qul', 'qultum'] / fazla []
+bolum7_kurallar: (3) A1 etiket 5:12 2. kelime 3MS (أَخَذَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:12 12. kelime 3MS (قَالَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:12 31. kelime 2MP (كُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:12 33. kelime 3FS (تَجْرِى) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 11. kelime 3MS (هِۦ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 16. kelime 3MS (هِۦ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 22. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 25. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 27. kelime 3MP (هُمْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:13 31. kelime 3MS (يُحِبُّ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:13 ölçüm ['1P', '2MS', '3MP', '3MS'] / A1 ['1P', '2MS', '3MP']
+bolum7_kurallar: (3) A1 etiket 5:14 3. kelime 3MP (قَالُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:14 3. kelime 3MP (وٓا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:14 12. kelime 3MS (هِۦ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:14 21. kelime 3MS (يُنَبِّئُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:14 21. kelime 3MP (هُمُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:14 ölçüm ['1P', '3MP', '3MS'] / A1 ['1P', '3MP']
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(13, 'وضع')]
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/altdize.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_edat.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/lem_bozuk.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/medde.py
+bolum7_kurallar: (12) nakarat3 5:12: ad 0 / ölçüm kalıbı 6
+bolum7_kurallar: (12) nakarat3 5:12: 'ف' önekli ölçüm kalıbı 1 / 'fe-' ile başlayan ad 0
+bolum7_kurallar: (12) nakarat3 5:13: ad 0 / ölçüm kalıbı 3
+bolum7_kurallar: (12) nakarat3 5:14: ad 0 / ölçüm kalıbı 5
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'allâh ahbeb muhsin' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh ahbeb muhsin' öğesi 'ahbeb' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'aqâme salâ âtâ zekâ' öğesi 'aqâme' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'aqâme salâ âtâ zekâ' öğesi 'âtâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'beyn 'adâve bağdâ' ilâ yevm qiyâme' öğesi 'ilâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî qâle inne nasrânî' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî qâle inne nasrânî' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ellezî qâle inne nasrânî' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fe-men kefera ba'd' öğesi 'fe-men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fe-men kefera ba'd' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fe-men kefera ba'd' öğesi 'ba'd' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ahbeb' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ahbeb' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ahbeb' öğesi 'ahbeb' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men kefera ba'd' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men kefera ba'd' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men kefera ba'd' öğesi 'ba'd' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî qâle' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî qâle' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî qâle' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'nesiye hazz min mâ zukkir bi' öğesi 'nesiye' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'nesiye hazz min mâ zukkir bi' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'nesiye hazz min mâ zukkir bi' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'nesiye hazz min mâ zukkir bi' öğesi 'zukkir' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'nesiye hazz min mâ zukkir bi' öğesi 'bi' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâle allâh inne' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâle allâh inne' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâle allâh inne' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'seyyi'e udxile cenne' öğesi 'udxile' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'âmentum' / 'âmenu' / 'âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ce'alnâ' / 'yec'ale'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yevm'
+bolum9_kurallar: (3) bag 48:9 → 5:12 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 22:53 → 5:13 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:75 → 5:13 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 40:19 → 5:13 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 3:134 → 5:13 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 60:4 → 5:14 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (4) R5 5:12 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş fiil çekimi, zamir eki')
+bolum9_kurallar: (4) R5 5:12 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek')
+bolum9_kurallar: (4) R5 5:12 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş fiil çekimi, zamir eki')
+bolum9_kurallar: (4) R5 5:12 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş yazım eş')
+bolum9_kurallar: (4) R5 5:13 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş i'râb, önek')
+bolum9_kurallar: (4) R5 5:14 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş elif yazımı')
+bolum9_kurallar: (4) R5 5:14 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş elif yazımı; basılmamış eş elif yazımı, zamir eki')
+bolum9_kurallar: (4) R5 5:14 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek')
+bolum9_kurallar: (6) lemma dizisi 'nesiye hazz min mâ zukkir bi' (dizi 5 13 12 16) blok içi 5:14 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'nesiye hazz min mâ zukkir bi' (dizi 5 14 8 12) blok içi 5:13 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (10) medde: meddeli kalıp 9 / çift 0 / say2 --medde koşusu 9
+bolum10_kurallar: (6) 5:13 xref 'okunmuş 3 ayet' yazılmamış
+bolum10_kurallar: (6) 5:14 xref 'okunmuş 2 ayet' yazılmamış
+gloss_tara: KAPSAMAYAN 23
+yasakli: metin_5_12_14.txt:8:dördü
+yasakli: metin_5_12_14.txt:13:biri
+yasakli: metin_5_12_14.txt:13:ikisi
+yasakli: metin_5_12_14.txt:18:biri
+yasakli: ariza_5_12_14.txt:4:biri
+yasakli: ariza_5_12_14.txt:14:dördü
+yasakli: ariza_5_12_14.txt:14:biri
+yasakli: ariza_5_12_14.txt:14:ikisi
+yasakli: ariza_5_12_14.txt:14:biri
+yasakli: ariza_5_12_14.txt:15:ikisi de
+yasakli: ariza_5_12_14.txt:15:biri
+yasakli: ariza_5_12_14.txt:15:ikisi
+yasakli: ariza_5_12_14.txt:19:iki ayetin
+yasakli: ariza_5_12_14.txt:19:iki ayetin
+yasakli: metin_5_12_14.txt:13:ikisi
+yasakli: ariza_5_12_14.txt:15:ikisi
+yasakli: ariza_5_12_14.txt:15:ikisi
+## blok 06 (5:15-17)
+bolum4_kurallar: adsız etiketi yok 5:16 'bihi' 3MS (gönderge kitap)
+bolum4_kurallar: adsız etiketi yok 5:16 'ridvânehu' 3MS (gönderge lafız)
+bolum4_kurallar: adsız etiketi yok 5:16 'bi-iznihî' 3MS (gönderge lafız)
+bolum4_kurallar: A4 5:17 COND 1 / şart → cevap 0
+bolum4_kurallar: adsız etiketi yok 5:17 3MS gönderge Mesih)
+bolum4_kurallar: adsız etiketi yok 5:17 'beynehumâ' 3D (gönderge gökler ve yer)
+bolum4_kurallar: ◈ 5:17 35. kelime B1 ≠ B2
+bolum4_kurallar: A1 kapsamı 5:17 şahıs etiketli kelime A1 dışında: 7., 24.
+bolum5_kurallar: ham notsuz çakışma parantez buneyy
+bolum5_kurallar: tetik dışı anılmadı 5:16 14. kelime أذن
+bolum5_kurallar: tetik dışı anılmadı 5:17 20. kelime هلك
+bolum5_kurallar: tetik dışı anılmadı 5:17 28. kelime جمع
+bolum5_kurallar: '-dir' kayıtsız 5:16 iletir
+bolum5_kurallar: '-dir' kayıtsız 5:16 iletir
+bolum5_kurallar: '-dir' kayıtsız 5:17 etmiştir
+bolum5_kurallar: '-dir' kayıtsız 5:17 Allah'ındır
+bolum5_kurallar: '-dir' kayıtsız 5:17 yaratır
+bolum5_kurallar: '-dir' kayıtsız 5:17 yetirendir
+bolum5_kurallar: nekre kayıtsız 5:15 8. kelime
+bolum5_kurallar: nekre kayıtsız 5:15 16. kelime
+bolum5_kurallar: nekre kayıtsız 5:15 23. kelime
+bolum5_kurallar: nekre kayıtsız 5:16 18. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 28. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 41. kelime
+bolum5_kurallar: nekre kayıtsız 5:17 42. kelime
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'dile-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'inkâr et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'iste-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yol' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:15 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:17 'andolsun'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:17 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:17 'eğer'
+bolum6_kurallar: yıldız maddesi: 5:17 ★★★ (kaynak n, z=3,14 yok
+bolum6_kurallar: esmâ kural sapması 5:16:13: genel kural 'esmâ adı esmâ dışı göndergeyle' / önceki kayıtlarda emsal ('nûr — 'mine'z-zulumâti ile'n-nûr', karanlıklardan aydınlığa '; 2 kayıt)
+bolum6_kurallar: esmâ kararı 'tam okuma sonu' notlu ama esma_el'de kapalı: 5:17:42
+bolum6_kurallar: lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 15 1 7): öğe 7, ad 7; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' (dizi 5 17 1 11): öğe 11, ad 11; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' (dizi 5 17 1 11): öğe 11, ad 11; joker konumu 7
+bolum7_kurallar: (1) çakışma üye kümesi 'de-' ← ARIZA eksik ['qultum'] / fazla []
+bolum7_kurallar: (1) çakışma üye kümesi 'ol-' ← ARIZA eksik ['kûnû'] / fazla []
+bolum7_kurallar: (3) A1 etiket 5:15 4. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:15 18. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:16 1. kelime 3MS (يَهْدِى) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:17 2. kelime 3MS (كَفَرَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:17 4. kelime 3MP (قَالُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:17 4. kelime 3MP (وٓا۟) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:17 7. kelime 3MS (هُوَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:17 13. kelime 3MS (يَمْلِكُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:17 ölçüm ['2MS', '3D', '3MP', '3MS'] / A1 ['2MS', '3D', '3MS']
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(17, 'أرض')]
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['2:142', '2:284']
+bolum7_kurallar: (12) nakarat3 5:15: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:17: ad 0 / ölçüm kalıbı 12
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey'' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ beyn' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ beyn' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'qad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'câ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'beyyen' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'li' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî ard cemî'' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'leqad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'leqad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'huve' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'leqad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min allâh şey'' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min allâh şey'' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'qad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'qad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'kefera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'huve' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qad kefera ellezî qâle inne allâh huve mesîh ibn meryem qâle' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zuleme ilâ nûr izn' öğesi 'ilâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'şâ'e allâh 'alâ kull şey' qadîr' öğesi 'şâ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'şâ'e allâh 'alâ kull şey' qadîr' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'şâ'e allâh 'alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'erâde' / 'yurîdu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ridvân'
+bolum8_kurallar: (14) A1 5:16 alıntı 'yehdî' 3. kelime / ◇ konumu 1,15
+bolum9_kurallar: (3) bag 14:1 → 5:16 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 9:31 → 5:17 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 2:284 → 5:17 kalıbının say2 koşusu yok ('say 5:17 37-37')
+bolum9_kurallar: (4) R5 5:17 gerekçe r5_gerekce çıktısını taşımıyor ('5:72 fiil çekimi, önek')
+bolum9_kurallar: (4) R5 5:17 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş yazım eş; basılmamış eş önek')
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (6) 5:15 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+bolum10_kurallar: (6) 5:16 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (6) 5:17 xref 'okunmuş 3 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:15 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:16 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:17 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_15_17.txt:5:ikisi
+yasakli: metin_5_15_17.txt:8:ikinci
+yasakli: metin_5_15_17.txt:12:ikinci
+yasakli: metin_5_15_17.txt:18:ikisi
+yasakli: ariza_5_15_17.txt:12:ikisi
+yasakli: ariza_5_15_17.txt:13:ikisi de
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: metin_5_15_17.txt:5:ikisi
+yasakli: metin_5_15_17.txt:18:ikisi
+yasakli: ariza_5_15_17.txt:12:ikisi
+yasakli: ariza_5_15_17.txt:13:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:21:ikisi
+yasakli: ariza_5_15_17.txt:25:Peygamber
+## blok 07 (5:18-19)
+bolum4_kurallar: adsız 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+bolum4_kurallar: adsız etiketi yok 5:18 söz içi konuşan 1P ('nahnu', 4. kelime)
+bolum4_kurallar: adsız etiketi yok 5:18 'ehibbâ'uh' 3MS (gönderge lafız)
+bolum4_kurallar: adsız etiketi yok 5:18 'beynehumâ' 3D (gönderge gökler ve yer)
+bolum4_kurallar: adsız etiketi yok 5:18 'ileyhi' 3MS (gönderge lafız)
+bolum4_kurallar: ◈ 5:18 16. kelime B1 ≠ B2
+bolum4_kurallar: adsız 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+bolum4_kurallar: adsız etiketi yok 5:19 söz içi konuşan 1P ('câ'enâ' — muhatabın varsayılan sözü)
+bolum5_kurallar: ham notsuz çakışma parantez buneyy
+bolum5_kurallar: ham notsuz lemma listesi ehibbâ'
+bolum5_kurallar: '-dir' kayıtsız 5:18 Allah'ındır
+bolum5_kurallar: '-dir' kayıtsız 5:18 O'nadır
+bolum5_kurallar: '-dir' kayıtsız 5:19 yetirendir
+bolum5_kurallar: nekre kayıtsız 5:19 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:19 28. kelime
+bolum5_kurallar: aday 1039 5:18 ARIZA ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''", "'nahnu ebnâ'u'llâhi' / 'bel entum beşerun'"] ≠ ◇ ["'yağfiru li-men yeşâ'u' / 've yu'azzibu men yeşâ''"]
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'günah' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'bağışla-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'şey-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gel-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:18 'biz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:18 'öyleyse'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:18 'hayır'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:19 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:19 'bize'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:19 'işte'
+bolum6_kurallar: yıldız maddesi: 5:18 ★ (kaynak n, z=1,87 yok
+bolum6_kurallar: yıldız maddesi: 5:19 ★ (kaynak n, z=1,65 yok
+bolum6_kurallar: lemma dizisi adı 'ğafere li men şâ'e' (dizi 5 18 17 19): öğe 3, ad 4
+bolum6_kurallar: lemma dizisi adı 'ehl kitâb qad câ'e rasûl beyyen li' (dizi 5 19 1 7): öğe 7, ad 7; joker konumu 7
+bolum6_kurallar: lemma dizisi adı 'ğafere li men şâ'e' (dizi 5 18 17 19): öğe 3, ad 4
+bolum7_kurallar: (1) çakışma üye kümesi 'de-' ← ARIZA eksik ['qultum'] / fazla []
+bolum7_kurallar: (1) çakışma üye kümesi 'dile-' ← ARIZA eksik ['yurîdu'] / fazla []
+bolum7_kurallar: (3) A1 etiket 5:18 1. kelime 3FS (قَالَتِ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:18 ölçüm ['1P', '2MP', '2MS', '3D', '3FS', '3MS'] / A1 ['1P', '2MP', '2MS', '3D', '3MS']
+bolum7_kurallar: (3) A1 etiket 5:19 4. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:19 15. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:19 21. kelime 3MS (جَآءَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(18, 'أرض')]
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['2:284', '5:17']
+bolum7_kurallar: (12) nakarat3 5:18: ad 0 / ölçüm kalıbı 6
+bolum7_kurallar: (12) nakarat3 5:19: ad 0 / ölçüm kalıbı 6
+bolum8_kurallar: (1) R5 5:18 men şâ'e allâh: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey'' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''azzebe men şâ'e' öğesi ''azzebe' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''azzebe men şâ'e' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''azzebe men şâ'e' öğesi 'şâ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ beyn' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh mulk semâ' ard mâ beyn' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'qad' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'câ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'beyyen' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehl kitâb qad câ'e rasûl beyyen li' öğesi 'li' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'en qâle mâ' öğesi 'en' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'en qâle mâ' öğesi 'qâle' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'en qâle mâ' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men şâ'e allâh' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men şâ'e allâh' öğesi 'şâ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men şâ'e allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ câ'e min' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ câ'e min' öğesi 'câ'e' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ câ'e min' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafere li men şâ'e' öğesi 'ğafere' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafere li men şâ'e' öğesi 'li' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafere li men şâ'e' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafere li men şâ'e' öğesi 'şâ'e' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum9_kurallar: (1) 'dile-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: أَرادَ / شاءَ
+bolum9_kurallar: (4) R5 5:18 gerekçe r5_gerekce çıktısını taşımıyor ('5:17 yazım eş; basılmamış eş önek')
+bolum9_kurallar: (4) R5 5:18 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek')
+bolum9_kurallar: (4) R5 5:18 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek')
+bolum9_kurallar: (4) R5 5:19 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş fiil çekimi, zamir eki')
+bolum9_kurallar: (4) R5 5:19 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek')
+bolum9_kurallar: (5) 5:18 'men şâ'e allâh' nakarat3 2 / ◇ lemma dizisi 'dizi 5 18 21 23' sûre içi 3 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (6) 5:18 xref 'okunmuş 2 ayet' yazılmamış
+bolum10_kurallar: (6) 5:19 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:18 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:19 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 8
+yasakli: metin_5_18_19.txt:3:ikisi
+yasakli: metin_5_18_19.txt:7:üçü
+yasakli: metin_5_18_19.txt:12:ikisi
+yasakli: ariza_5_18_19.txt:12:üçü
+yasakli: ariza_5_18_19.txt:12:ikisi
+yasakli: ariza_5_18_19.txt:13:ikisi de
+yasakli: ariza_5_18_19.txt:15:içinde de
+yasakli: ariza_5_18_19.txt:20:iki ayetinde
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: metin_5_18_19.txt:3:ikisi
+yasakli: ariza_5_18_19.txt:13:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+yasakli: ariza_5_18_19.txt:21:ikisi
+## blok 08 (5:20-23)
+bolum4_kurallar: adsız etiketi yok 5:20 3MS gönderge Mûsâ)
+bolum4_kurallar: söz muhatabı 5:20 'li-qavmihî' (sözün muhatabı kavim; 4. kelime; 3MS gönderge 
+bolum4_kurallar: adsız etiketi yok 5:22 'fîhâ', 'nedxulehâ' ve 'minhâ' 3FS (gönderge kutsal toprak)
+bolum4_kurallar: adsız etiketi yok 5:23 ''aleyhime' 3D (gönderge iki adam)
+bolum4_kurallar: A1 kapsamı 5:21 şahıs etiketli kelime A1 dışında: 6.
+bolum5_kurallar: ham notsuz LEM kaydı tevekkel
+bolum5_kurallar: tetik dışı anılmadı 5:20 1. kelime  (morph T)
+bolum5_kurallar: tetik dışı anılmadı 5:23 2. kelime رجل
+bolum5_kurallar: nekre kayıtsız 5:20 15. kelime
+bolum5_kurallar: aday 1039 5:21 ARIZA ["''dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"] ≠ ◇ ["'dxulu'l-arda' / 've lâ tertaddû 'alâ edbârikum'"]
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:21 / 5:22 (''dxulu' / 'len nedxulehâ')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:21 / 5:22 ('dxulu'l-arda' / 'len nedxulehâ')
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'dayan-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'kork-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'toprak' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'dön-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'çık-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'korkanlardan'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'inanıyorsanız'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:23 'inanıyorsanız'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:20 'hani'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:20 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:20 'üzerinde'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:21 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:22 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:22 'eğer'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:23 'onların'
+bolum6_kurallar: esmâ kural sapması 5:20:20: genel kural 'olumsuz nekre ehad' / önceki kayıtlarda emsal ('min ehadihimâ — esmâ adı esmâ dışı göndergeyle → degil (iki '; 8 kayıt)
+bolum6_kurallar: esmâ kural sapması 5:22:6: genel kural 'çoğul insan göndergeli' / önceki kayıtlarda emsal ('ve mâ ente aleyhim bi-cebbâr — muhatap 2MS için olumsuzlanan'; 2 kayıt)
+bolum7_kurallar: (1) çakışma üye kümesi 'de-' ← ARIZA eksik ['qul', 'qultum', 'qâla', 'qâlet', 'teqûlû'] / fazla []
+bolum7_kurallar: (1) çakışma üye kümesi 'ver-' ← ARIZA eksik ["yec'ale", 'âteytum', 'âteytumûhunne', 'ûtu'] / fazla []
+bolum7_kurallar: (3) A1 etiket 5:20 2. kelime 3MS (قَالَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:21 6. kelime 3MS (كَتَبَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:21 ölçüm ['1S', '2MP', '3MS'] / A1 ['1S', '2MP']
+bolum7_kurallar: (3) A1 etiket 5:23 1. kelime 3MS (قَالَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:23 6. kelime 3MS (أَنْعَمَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:23 13. kelime 3MS (هُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:23 ölçüm ['2MP', '3D', '3MP', '3MS'] / A1 ['2MP', '3D', '3MP']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/ayn_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/gloss_tara.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum7_kurallar: (12) nakarat3 5:20: ad 0 / ölçüm kalıbı 3
+bolum7_kurallar: (12) nakarat3 5:22: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:23: ad 0 / ölçüm kalıbı 2
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ allâh tevekkel' öğesi 'tevekkel' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ehad min 'âlem' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'en kâne mu'min' öğesi 'en' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'en kâne mu'min' öğesi 'kâne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'in kâne mu'min' öğesi 'in' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'in kâne mu'min' öğesi 'kâne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'len' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'dexale' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'zekera' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'zekera ni'me allâh 'alâ iz' öğesi 'iz' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ehad'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ce'ale' / 'ce'alnâ' / 'yec'ale'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'xâsir'
+bolum8_kurallar: (14) A1 5:20 alıntı 'qâle' 3. kelime / ◇ konumu 2
+bolum8_kurallar: (14) A1 5:21 alıntı 'ketebe' 7. kelime / ◇ konumu 6
+bolum9_kurallar: (1) 'ver-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: آتَى / جَعَلَ
+bolum9_kurallar: (3) bag 5:11 → 5:20 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 26:130 → 5:22 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (4) R5 5:20 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş yazım eş')
+bolum9_kurallar: (4) R5 5:20 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek; basılmamış eş yazım eş')
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (6) 5:23 xref 'okunmuş 1 ayet' yazılmamış
+gloss_tara: KAPSAMAYAN 13
+yasakli: metin_5_20_23.txt:9:biri
+yasakli: metin_5_20_23.txt:24:biri
+yasakli: metin_5_20_23.txt:24:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:14:biri
+yasakli: ariza_5_20_23.txt:22:dört ayetin
+yasakli: ariza_5_20_23.txt:22:üçünde
+## blok 09 (5:24-26)
+bolum4_kurallar: adsız etiketi yok 5:24 'nedxulehâ' ve 'fîhâ' 3FS (gönderge kutsal toprak)
+bolum4_kurallar: adsız etiketi yok 5:26 'innehâ' 3FS (gönderge kutsal toprak)
+bolum5_kurallar: tetik dışı anılmadı 5:24 13. kelime قتل
+bolum5_kurallar: '-dir' kayıtsız 5:26 kılınmıştır
+bolum5_kurallar: nekre kayıtsız 5:24 6. kelime
+bolum5_kurallar: nekre kayıtsız 5:26 3. kelime
+bolum5_kurallar: nekre kayıtsız 5:26 6. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:23 / 5:24 (5:23 9. kelimedeki giriş emri / 'len nedxulehâ ebeden'; bloklar arası)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'güç yetir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gir-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kıl-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'gir-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:24 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:24 'onlar'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:24 'sen'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:25 'ben'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:26 'öyleyse'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:26 'artık'
+bolum6_kurallar: yıldız maddesi: 5:26 ★★★ (kaynak hapaks, z=3,28 yok
+bolum7_kurallar: (1) çakışma üye kümesi 'de-' ← ARIZA eksik ['qul', 'qultum', 'qâla', 'qâlet', 'teqûlû'] / fazla []
+bolum7_kurallar: (3) A1 etiket 5:24 12. kelime 2MS (كَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:24 13. kelime 2MD (قَٰتِلَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:24 13. kelime 2D (آ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:24 ölçüm ['1P', '2D', '2MD', '2MS', '3FS', '3MP'] / A1 ['1P', '2MS', '3FS', '3MP']
+bolum7_kurallar: (3) A1 etiket 5:25 2. kelime 1S () — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(26, 'سنو')]
+bolum7_kurallar: (12) nakarat3 5:24: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:26: ad 0 / ölçüm kalıbı 1
+bolum7_kurallar: (12) nakarat3 5:26: 'ف' önekli ölçüm kalıbı 1 / 'fe-' ile başlayan ad 0
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'len' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne len dexale' öğesi 'dexale' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ te'se 'alâ qavm' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ te'se 'alâ qavm' öğesi 'te'se' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ te'se 'alâ qavm' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum9_kurallar: (1) 'ver-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: آتَى / جَعَلَ
+bolum9_kurallar: (3) bag 5:22 → 5:24 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 9:86 → 5:24 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 5:25 → 5:26 kalıbının say2 koşusu yok ('say 5:26 13-14')
+bolum10_kurallar: (6) 5:25 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+gloss_tara: KAPSAMAYAN 9
+## blok 10 (5:27-30)
+bolum4_kurallar: adsız etiketi yok 5:27 'ehadihimâ' 3D (gönderge iki oğul
+bolum4_kurallar: A1 kapsamı 5:27 şahıs etiketli kelime A1 dışında: 8., 21.
+bolum5_kurallar: ham notsuz çakışma parantez buneyy
+bolum5_kurallar: tetik dışı anılmadı 5:27 10. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:27 14. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:27 16. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:27 18. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:27 21. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:28 5. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:28 11. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:30 4. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:30 6. kelime قتل
+bolum5_kurallar: '-dir' kayıtsız 5:29 budur
+bolum5_kurallar: nekre kayıtsız 5:28 8. kelime
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin yediye ileyke li-aqtuleke')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:27 / 5:28 ('le-aqtulenneke' / 'mâ ene bi-bâsitin')
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ateş-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uzat-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'uğra-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'günah' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'kork-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): 'öldür-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:27 'onlara'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:27 'hani'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:27 'seni'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:28 'andolsun'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:30 'sonunda'
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'sakın-' ← ARIZA eksik ['sakın-', 'sakınan'] / fazla ['ttequ']
+bolum7_kurallar: (3) A1 etiket 5:27 21. kelime 3MS (يَتَقَبَّلُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:28 5. kelime 2MS (تَقْتُلَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:28 11. kelime 2MS (كَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:30 1. kelime 3FS (طَوَّعَتْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:30 5. kelime 3MS (هِ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket kümesi 5:30 ölçüm ['3FS', '3MS'] / A1 ['3MS']
+bolum7_kurallar: (7) D3 dışı listesi eksik [] / fazla ['59:16']
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/ayn_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum4_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/cakisma.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_edat.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/gloss_tara.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/kelime_kontrol.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'bağ: YOK' öğesi 'bağ:' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'bağ: YOK' öğesi 'YOK' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ehad'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'erâde' / 'urîdu' / 'yurîdu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tuqubbile' / 'yetaqabbelu' / 'yutaqabbel'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'xâsir'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'nefs'
+bolum9_kurallar: (3) bag 3:183 → 5:27 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (9) ARIZA başı bekleyen_ariza_5_b09.txt ile bayt eşit değil
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (6) 5:28 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:27 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:28 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:29 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:30 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 16
+yasakli: metin_5_27_30.txt:3:birer
+yasakli: metin_5_27_30.txt:3:birinden
+yasakli: metin_5_27_30.txt:9:biri
+yasakli: ariza_5_27_30.txt:3:sonuncusu
+yasakli: ariza_5_27_30.txt:5:biri
+yasakli: ariza_5_27_30.txt:6:biri
+yasakli: ariza_5_27_30.txt:23:birer
+yasakli: ariza_5_27_30.txt:23:birer
+yasakli: ariza_5_27_30.txt:23:birinden
+yasakli: ariza_5_27_30.txt:23:biri
+yasakli: ariza_5_27_30.txt:23:birinden
+yasakli: esma_el_5_27_30.txt:2:biri
+## blok 11 (5:31-32)
+bolum4_kurallar: adsız etiketi yok 5:32 'ennehû' 3MS (şân zamiri)
+bolum4_kurallar: adsız etiketi yok 5:32 'ahyâhâ' 3FS (gönderge can)
+bolum4_kurallar: A1 kapsamı 5:31 şahıs etiketli kelime A1 dışında: 4., 9.
+bolum4_kurallar: A1 kapsamı 5:32 şahıs etiketli kelime A1 dışında: 25.
+bolum5_kurallar: ham notsuz LEM kaydı erey
+bolum5_kurallar: ham notsuz LEM kaydı erey
+bolum5_kurallar: ham notsuz çakışma parantez buneyy
+bolum5_kurallar: ham notsuz lemma listesi buneyy
+bolum5_kurallar: tetik dışı anılmadı 5:31 23. kelime صبح
+bolum5_kurallar: tetik dışı anılmadı 5:32 10. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:32 19. kelime قتل
+bolum5_kurallar: tetik dışı anılmadı 5:32 21. kelime جمع
+bolum5_kurallar: tetik dışı anılmadı 5:32 27. kelime جمع
+bolum5_kurallar: tetik dışı anılmadı 5:32 36. kelime بعد (morph T)
+bolum5_kurallar: ham LEM 5:31 ham kelime 5 (4., 7., 9., 14., 20.) / meal notu 3
+bolum5_kurallar: '-dir' kayıtsız 5:32 gibidir
+bolum5_kurallar: '-dir' kayıtsız 5:32 gibidir
+bolum5_kurallar: '-dir' kayıtsız 5:32 gidenlerdir
+bolum5_kurallar: nekre kayıtsız 5:32 13. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 21. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 27. kelime
+bolum5_kurallar: nekre kayıtsız 5:32 34. kelime
+bolum5_kurallar: aday 1039 5:31 ARIZA ["'yuvârî sev'ete exîh' / 'e-'aceztu'"] ≠ ◇ ["'yuvârî sev'ete exîh' (karganın gösterdiği) / 'e-'aceztu' (âciz kalma)"]
+bolum5_kurallar: aday 1039 5:32 ARIZA ["'men qatele nefsen' / 've men ahyâhâ'", "'qatele'n-nâse cemî'an' / 'ahye'n-nâse cemî'an'"] ≠ ◇ ["'fe-ke'ennemâ qatele'n-nâse cemî'an' / 'fe-ke'ennemâ ahye'n-nâse cemî'an'"]
+bolum5_kurallar: aday 1039 ayetler arası yalnız ◇: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen')
+bolum5_kurallar: aday 1039 ayetler arası yalnız ARIZA: 5:30 / 5:32 (5:30 6. kelimedeki öldürme / 'men qatele nefsen'; bloklar arası)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'gel-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'git-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'kal-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ol-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'ol-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 0 (tam bir kapalı karar olmalı): 'yer' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'göster-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:31 'vay'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:31 'şu'
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:32 'yüzünden'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:31 'derken'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:32 'andolsun'
+bolum6_kurallar: yıldız maddesi: 5:31 ★★★ (kaynak hapaks, z=3,28 yok
+bolum6_kurallar: yıldız maddesi: 5:32 ★★ (kaynak n, z=2,93 yok
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'göster-' ← ARIZA eksik ['göster-', 'kolay göster-'] / fazla ['yuriye']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'göster-' ← (رأي / طوع) — karar tam okuma sonu olmalı
+bolum7_kurallar: (3) A1 etiket 5:31 1. kelime 3MS (بَعَثَ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:31 11. kelime 3MS (هِ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:32 25. kelime 3MS (أَحْيَا) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:32 29. kelime 3FS (جَآءَتْ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(32, 'أجل'), (32, 'حيي')]
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/ayn_kontrol.py
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'cemî''
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ğayr'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'nefs'
+bolum8_kurallar: (14) A1 5:31 alıntı 'be'asa' 2. kelime / ◇ konumu 1
+bolum9_kurallar: (2) KÖK göster- kök listesi: karar رأي / üyeler رأي طوع
+bolum10_kurallar: (5) 5:32 fiil yönetimi takdiri yok: 'can' 'nefs' karşılığı (13. kelime; yönelme eki ile 'cana')
+gloss_tara: KAPSAMAYAN 18
+## blok 12 (5:33-36)
+bolum5_kurallar: normalleştirilmiş lemma adı 'melek' (kök ملك; morph LEM mlkt/ham)
+bolum5_kurallar: ham notsuz çakışma parantez qatele
+bolum5_kurallar: ham notsuz çakışma parantez qatl
+bolum5_kurallar: tetik dışı anılmadı 5:33 29. kelime دنو
+bolum5_kurallar: tetik dışı anılmadı 5:33 32. kelime أخر
+bolum5_kurallar: tetik dışı anılmadı 5:34 5. kelime قبل
+bolum5_kurallar: tetik dışı anılmadı 5:36 20. kelime قبل
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ara-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'ver-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): 'öldür-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 3 (tam bir kapalı karar olmalı): KÖK 'sakın-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:34 'bilin'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:33 'bu'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:34 'ancak'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:35 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:36 'şüphesiz'
+bolum6_kurallar: yıldız maddesi: 5:33 ★★★ (kaynak pas, z=3,48 yok
+bolum6_kurallar: yıldız maddesi: 5:36 ★ (kaynak pas, z=1,57 yok
+bolum6_kurallar: esmâ kural sapması 5:33:32: genel kural 'esmâ adı esmâ dışı göndergeyle' / önceki kayıtlarda emsal ('fi'l-âxirati 'azâbun 'azîm — 'fi'l-âxira' emsali → degil (âh'; 26 kayıt)
+bolum6_kurallar: lemma dizisi adı 'fî dunyâ fî âxir 'azâb' (dizi 5 33 28 33): öğe 6, ad 5; joker konumu 3
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'bağışla-' ← ARIZA eksik ['bağışla-', 'bağışlayan'] / fazla ['yağfiru', 'ğafûr']
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'bil-' ← ARIZA eksik ['bil-', 'bilen'] / fazla ["'alîm", "'lemû"]
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'kes-' ← ARIZA eksik ['kes-', 'ümit kes-'] / fazla ["tuqatta'a"]
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'kes-' ← (قطع / يأس) — karar tam okuma sonu olmalı
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'sakın-' ← ARIZA eksik ['sakın-', 'sakınan'] / fazla ['muttaqî', 'ttequ']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'yetir-' ← (قدر / ملك) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu 'bir kök' gerekçesi, kök kümesi قدر / ملك: KÖK 'yetir-' ←
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(36, 'يوم')]
+bolum7_kurallar: (7) D3 dışı listesi eksik ['13:31', '2:194', '2:196', '2:217', '2:284', '33:9', '3:149', '48:14', '49:1', '4:135', '4:43', '59:18', '5:1', '5:11', '5:2', '5:6', '5:8', '60:1', '60:10'] / fazla []
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum4_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum5_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/cakisma.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/edat_etiket.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_edat.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/gloss_tara.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/ham_elle.txt
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli_sina.sh
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli_test.txt
+bolum8_kurallar: (1) R5 5:34 enne allâh ğafûr rahîm: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (1) R5 5:34 min qabl en: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alime enne allâh' öğesi ''alime' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alime enne allâh' öğesi 'enne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alime enne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh ğafûr rahîm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'câhede fî sebîl' öğesi 'câhede' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'câhede fî sebîl' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'enne allâh ğafûr rahîm' öğesi 'enne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'enne allâh ğafûr rahîm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'eyy' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene' öğesi 'âmene' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî ard cemî'' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî dunyâ fî âxir 'azâb' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî dunyâ fî âxir 'azâb' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî âxir 'azâb 'azîm' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'hârebe allâh rasûl' öğesi 'hârebe' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'hârebe allâh rasûl' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min qabl en' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min qabl en' öğesi 'en' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ fî ard' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ fî ard' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'se'â fî ard fesâd' öğesi 'se'â' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'se'â fî ard fesâd' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'âxir'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'âmentum' / 'âmenu' / 'âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tuqubbile' / 'yetaqabbelu' / 'yutaqabbel'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'cemî''
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'misl'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yevm'
+bolum8_kurallar: (14) A1 5:33 alıntı 'yuhâribûna' 5. kelime / ◇ konumu 4
+bolum9_kurallar: (2) KÖK kes- kök listesi: karar قطع / üyeler قطع يأس
+bolum9_kurallar: (3) bag 9:107 → 5:33 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 59:3 → 5:33 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 70:11 → 5:36 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (5) 5:34 'enne allâh ğafûr rahîm' nakarat3 3 / ◇ lemma dizisi 'dizi 5 34 10 13' sûre içi 2 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:34 'min qabl en' nakarat3 2 / ◇ lemma dizisi 'dizi 5 34 4 6' sûre içi 1 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:36 ◇'de 'başka ayet'
+bolum10_kurallar: (11) D3 dışı listesinde 5:33 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:34 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:35 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:36 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 10
+## blok 13 (5:37-40)
+bolum4_kurallar: A1 kapsamı 5:39 şahıs etiketli kelime A1 dışında: 9.
+bolum4_kurallar: A1 kapsamı 5:40 şahıs etiketli kelime A1 dışında: 14.
+bolum5_kurallar: ham notsuz çakışma parantez qatta'a
+bolum5_kurallar: ayetler arası ortak kalıp sayımsız 've lehum 'azâbun' (5:36, 5:37)
+bolum6_kurallar: çakışma grubu ARIZA'da yok: 'ceza' ←
+bolum6_kurallar: çakışma grubu ARIZA'da yok: KÖK 'et-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'bil-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'yetir-' ←
+bolum6_kurallar: çakışma grubu karar sayısı 2 (tam bir kapalı karar olmalı): KÖK 'çık-' ←
+bolum6_kurallar: Türkçe alıntı MEAL dışı 5:40 'dilediğine'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:39 'kim'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:40 'göklerin'
+bolum6_kurallar: yıldız maddesi: 5:38 ★★ (kaynak allah, z=2,55 yok
+bolum6_kurallar: yıldız maddesi: 5:39 ★★ (kaynak allah, z=2,33 yok
+bolum6_kurallar: yıldız maddesi: 5:40 ★ (kaynak allah, z=1,58 yok
+bolum6_kurallar: lemma dizisi adı 'ğafera li men şâ'e' (dizi 5 40 12 14): öğe 3, ad 4
+bolum6_kurallar: lemma dizisi adı 'ğafera li men şâ'e' (dizi 5 40 12 14): öğe 3, ad 4
+bolum7_kurallar: (1) çakışma üye kümesi 'bil-' ← ARIZA eksik ["'lemû"] / fazla ["fa'lemû"]
+bolum7_kurallar: (1) kapalı karar çevrildi 'dile-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'bağışla-' ← ARIZA eksik ['bağışla-', 'bağışlayan'] / fazla ['yağfiru', 'ğafûr']
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'bil-' ← ARIZA eksik ['bil-'] / fazla ["fa'lemû", "ta'lem"]
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'kadın-' ← (أمن / سرق / نسو) — karar tam okuma sonu olmalı
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'kes-' ← ARIZA eksik ['kes-'] / fazla ["qta'û", "tuqatta'a"]
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'kes-' ← (قطع / يأس) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'yetir-' ← (قدر / ملك) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu 'bir kök' gerekçesi, kök kümesi قدر / ملك: KÖK 'yetir-' ←
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'çık-' ← ARIZA eksik ['boşa çık-', 'ihramdan çık-', 'yoldan çıkmak'] / fazla []
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'çık-' ← (حبط / حلل / خرج / فسق) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu 'bir kök' gerekçesi, kök kümesi حبط / حلل / خرج / فسق: KÖK 'çık-' ←
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'şey-' ← (شيأ / طيب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (3) A1 etiket 5:39 9. kelime 3MS (يَتُوبُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (3) A1 etiket 5:40 14. kelime 3MS (يَشَآءُ) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla [] / ◇ fazla [(40, 'أرض')]
+bolum7_kurallar: (7) D3 dışı listesi eksik ['2:194', '2:196', '2:54', '2:75', '3:19', '48:11', '48:29', '4:24', '4:25', '5:15', '60:4', '64:3'] / fazla []
+bolum7_kurallar: (10) araç değişikliği: değişen sunum/ham_elle.txt, sunum/kelime_kontrol.py, madde "araç değişmedi"
+bolum7_kurallar: (13) nakarat3 5:40: ad 'ğafera li men şâ'e' ⇔ ölçüm kalıbı 'غفر|غَفَرَ لمن شيأ|شاءَ' öğe eşlemesi tutmuyor
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı ''alime enne allâh' öğesi 'enne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alime enne allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey'' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı ''azzebe men şâ'e' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh 'alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh tâbe 'alâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh tâbe 'alâ' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh ğafûr rahîm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ğafûr rahîm' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ğafûr rahîm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'tâbe 'alâ' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafera li men şâ'e' öğesi 'li' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ğafera li men şâ'e' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'şâ'e allâh 'alâ kull şey' qadîr' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'şâ'e allâh 'alâ kull şey' qadîr' öğesi ''alâ' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'erâde' / 'urîdu' / 'yurîdu' / 'yurîdûne'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ard'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tâbe' / 'tâbû' / 'yetûbu'
+bolum9_kurallar: (2) KÖK kes- kök listesi: karar قطع يئس / üyeler قطع يأس
+bolum9_kurallar: (2) KÖK çık- kök listesi: karar خرج / üyeler حبط حلل خرج فسق
+bolum9_kurallar: (3) bag 2:66 → 5:38 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 9:102 → 5:39 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (5) 5:39 'inne allâh ğafûr rahîm' nakarat3 3 / ◇ lemma dizisi 'dizi 5 39 11 14' sûre içi 2 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''inne/enne' haberi' (
+bolum10_kurallar: (6) 5:39 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:37 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:38 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:39 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:40 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 6
+## blok 14 (5:41-41)
+bolum4_kurallar: açık fail 5:41 15. kelime 'tu'min' (fail 16. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 16. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:41 54. kelime 'yuridi' (fail 55. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 55. kelime)' ya da açık ada rol
+bolum4_kurallar: muhatap 5:41 2. şahıs etiketi 'muhatap' sözcüğü olmadan: söz muhatabı 2MP (söz muhatabı, adsız; 34., 36., 39. ve 40. 
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:41 'ey'
+bolum6_kurallar: esmâ kural adı kapalı liste dışı 5:41:65: ''fi'l-âxira' emsali'
+bolum7_kurallar: (1) kapalı karar çevrildi 'gel-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'et-' ← ARIZA eksik ['azap et-', 'cihad et-', 'helâk et-', 'iman et-', 'inkâr et-', 'itaat et-', 'iyilik eden', 'kabul et-', 'merhamet eden', 'tanıklık eden', 'tövbe et-', 'tövbesini kabul et-', 'vaat et-', 'zina et-'] / fazla ['et-']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'et-' ← (أمن / توب / جهد / حسن / رحم / سفح / شهد / طوع / عذب / قبل / كفر / لحم / هلك / وعد) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'gel-' ← (أتي / جيأ / غلب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ol-' ← (صبح / طلع / عدل / كون / هود) — karar tam okuma sonu olmalı
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'sakın-' ← ARIZA eksik ['sakın-'] / fazla ['hzerû', 'ttequ']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ver-' ← (أتي / جعل / سمع / فدي / قرض / نبأ / نعم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'yetir-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'şey-' ← (شيأ / طيب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (3) A1 etiket 5:41 4. kelime 3MS (يَحْزُن) — kelimeyi anan alt maddede etiket yok
+bolum7_kurallar: (4) tetik kapsamı 5:41 20. kelime سمع ◈ satırında yok
+bolum7_kurallar: (4) tetik kapsamı 5:41 22. kelime سمع ◈ satırında yok
+bolum7_kurallar: (4) tetik kapsamı 5:41 31. kelime وضع ◈ satırında yok
+bolum7_kurallar: (7) D3 dışı listesi eksik ['2:217', '59:3', '59:7', '5:14'] / fazla []
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum4_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum5_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum6_kurallar.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/edat_etiket.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/es_edat.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/geriye_donuk.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/mutasyon_sina.py
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli.sh
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/yasakli_test.txt
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı '_ fî dunyâ xizy' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'erâde allâh en' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'erâde allâh en' öğesi 'en' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'fî âxir 'azâb 'azîm' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min allâh şey'' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min allâh şey'' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî qâle' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî qâle' öğesi 'ellezî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'yuharrifu kelim min ba'd mevâdi'' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) lemma adı 'semmâ'' — önceki bloklarda eş iskeletli ad semâ'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'âxar'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'âxir'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tu'min' / 'âmennâ' / 'âmentum' / 'âmenu' / 'âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'erâde' / 'urîdu' / 'yuridi' / 'yurîdu' / 'yurîdûne'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'qavm'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yuharrifûne'
+bolum8_kurallar: (14) A1 5:41 alıntı 'hu' 39. kelime / ◇ konumu 17,37,40,44,56,59,60,64
+bolum9_kurallar: (3) bag 9:47 → 5:41 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (3) bag 4:28 → 5:41 kuralı ne kalıp ne ölçüm xref
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural ''fi'l-âxira' emsali' (
+bolum10_kurallar: (5) 5:41 fiil yönetimi takdiri yok: 'yer' 'mevâdi'' karşılığı (31. kelime; çoğul; yönelme eki ile 'yerleri
+bolum10_kurallar: (5) 5:41 fiil yönetimi takdiri yok: 'şey' 'şey'' karşılığı (50. kelime; nekre — 'hiçbir' takdiri; yönelme 
+bolum10_kurallar: (11) D3 dışı listesinde 5:41 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 1 (5:41 'ulâ'ike')
+gloss_tara: KAPSAMAYAN 15
+## blok 15 (5:42-44)
+bolum4_kurallar: açık fail 5:44 37. kelime 'enzele' (fail 38. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 38. kelime)' ya da açık ada rol
+bolum5_kurallar: ham notsuz lemma listesi hudâ
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:42 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:43 'sonra'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:43 'onlar'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:44 'şüphesiz'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:44 'kim'
+bolum7_kurallar: (1) çakışma üye kümesi 'gel-' ← ARIZA eksik ["câ'û", "ye'tû"] / fazla []
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ara-' ← (بغي / بين / قسم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'gel-' ← (أتي / جيأ / غلب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ol-' ← (سلم / صبح / طلع / عدل / كون / هود) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ver-' ← (أتي / جعل / حكم / سمع / ضرر / فدي / قرض / نبأ / نعم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'yap-' ← (حكم / صنع / عمل) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'şey-' ← (شيأ / طيب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (10) araç değişikliği: değişen sunum/bolum5_kurallar.py, madde "araç değişmedi"
+bolum7_kurallar: (10) araç değişikliği maddesinde yok: sunum/bolum5_kurallar.py
+bolum7_kurallar: (12) nakarat3 5:44: 'ب' önekli ölçüm kalıbı 1 / 'bi-' ile başlayan ad 0
+bolum7_kurallar: (13) nakarat3 5:44: ad 'lem hakeme mâ enzele allâh zâ _' ⇔ ölçüm kalıbı 'لم حكم|حَكَمَ بما نزل|أَنزَلَ أله|اللَّه فاوليك هم' öğe eşlemesi tutmuyor
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'allâh ahbeb muqsit' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ahbeb' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh ahbeb' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'lem' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'zâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'hakemte' / 'hkum' / 'yahkum' / 'yahkumu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'şehîd'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'semmâ'ûne li'l-kezib'
+bolum9_kurallar: (1) 'gel-' 'bir lemma / LEM eşit' iddiası, morph LEM 2: أَتَى / جاءَ
+bolum9_kurallar: (3) bag 3:79 → 5:44 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (5) 5:44 'mâ enzele allâh' nakarat3 5 / ◇ lemma dizisi 'dizi 5 44 36 38' sûre içi 6 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (11) D3 dışı listesinde 5:42 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:43 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:44 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 3 (5:43 ''inde', 5:43 'ulâ'ike', 5:44 'ulâ'ike')
+gloss_tara: KAPSAMAYAN 11
+yasakli: ariza_5_42_44.txt:5:art arda eş sözcük: sapma sapma
+## blok 16 (5:45-47)
+bolum4_kurallar: açık fail 5:45 27. kelime 'enzele' (fail 28. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 28. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:47 12. kelime 'enzele' (fail 13. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 13. kelime)' ya da açık ada rol
+bolum5_kurallar: ham notsuz çakışma parantez buneyy
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:45 'kim'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:45 'kim'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:46 'onların'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:47 'kim'
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'sakın-' ← ARIZA eksik ['sakın-'] / fazla ['hzerû', 'ttequ']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ver-' ← (أتي / جعل / حكم / سمع / ضرر / فدي / قرض / نبأ / نعم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (7) D3 dışı listesinde 've başkaları'
+bolum7_kurallar: (7) D3 dışı listesi eksik ['2:194', '9:31'] / fazla []
+bolum7_kurallar: (12) nakarat3 5:45 ve 5:47: 'ب' önekli ölçüm kalıbı 1 / 'bi-' ile başlayan ad 0
+bolum7_kurallar: (13) nakarat3 5:45 ve 5:47: ad 'men lem hakeme mâ enzele allâh zâ _' ⇔ ölçüm kalıbı 'من لم حكم|حَكَمَ بما نزل|أَنزَلَ أله|اللَّه فاوليك هم' öğe eşlemesi tutmuyor
+bolum7_kurallar: (13) nakarat3 5:45 ve 5:47: ad 'lem hakeme mâ enzele allâh zâ _' ⇔ ölçüm kalıbı 'لم حكم|حَكَمَ بما نزل|أَنزَلَ أله|اللَّه فاوليك هم' öğe eşlemesi tutmuyor
+bolum8_kurallar: (1) R5 5:47 men lem hakeme mâ enzele allâh zâ _: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'lem' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lem hakeme mâ enzele allâh zâ _' öğesi 'zâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men lem hakeme mâ enzele allâh zâ _' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men lem hakeme mâ enzele allâh zâ _' öğesi 'lem' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men lem hakeme mâ enzele allâh zâ _' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men lem hakeme mâ enzele allâh zâ _' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men lem hakeme mâ enzele allâh zâ _' öğesi 'zâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'musaddiq mâ beyn yed min' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'musaddiq mâ beyn yed min' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'beyn'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'hakemte' / 'hkum' / 'yahkum' / 'yahkumu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'nefs'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'lem yahkum bi-mâ enzele'llâhu fe-ulâ'ike hum'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'hudan ve nûr'
+bolum8_kurallar: (14) A1 5:46 alıntı 't-tevrâh' 23. kelime / ◇ konumu 12
+bolum8_kurallar: (14) A1 5:46 alıntı 'l-muttaqîn' 26. kelime / ◇ konumu 27
+bolum9_kurallar: (2) KÖK bağışla- kök listesi: karar صدق / üyeler صدق غفر
+bolum9_kurallar: (2) KÖK gönder- kök listesi: karar قفو / üyeler بعث قفو
+bolum9_kurallar: (3) bag 2:178 → 5:45 kuralı ne kalıp ne ölçüm xref
+bolum9_kurallar: (5) 5:45 'men lem hakeme mâ enzele allâh zâ _' nakarat3 2 / ◇ lemma dizisi 'dizi 5 45 23 30' sûre içi 3 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:45 'mâ enzele allâh' nakarat3 5 / ◇ lemma dizisi 'dizi 5 45 26 28' sûre içi 6 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:47 'men lem hakeme mâ enzele allâh zâ _' nakarat3 2 / ◇ lemma dizisi 'dizi 5 47 8 15' sûre içi 3 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:47 'mâ enzele allâh' nakarat3 5 / ◇ lemma dizisi 'dizi 5 47 11 13' sûre içi 6 — R5 satırında 'biçim öğesi' notu yok
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:46 ◇'de 'başka ayet'
+bolum10_kurallar: (11) D3 dışı listesinde 5:45 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:46 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:47 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 2 (5:45 'ulâ'ike', 5:47 'ulâ'ike')
+gloss_tara: KAPSAMAYAN 15
+yasakli: ariza_5_45_47.txt:5:art arda eş sözcük: sapma sapma
+## blok 17 (5:48-50)
+bolum4_kurallar: açık fail 5:48 16. kelime 'enzele' (fail 17. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 17. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:48 31. kelime 'şâ'e' (fail 32. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 32. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:49 16. kelime 'enzele' (fail 17. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 17. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:49 23. kelime 'yurîdu' (fail 24. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 24. kelime)' ya da açık ada rol
+bolum7_kurallar: (1) kapalı karar çevrildi 'ara-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) çakışma üye kümesi 'bil-' ← ARIZA eksik ["'lem", "'lemû"] / fazla ["fa'lemû"]
+bolum7_kurallar: (1) kapalı karar çevrildi 'gel-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) çakışma üye kümesi 'indir-' ← ARIZA eksik ['enzelnâ'] / fazla []
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ara-' ← (بغي / بين / قسم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'bil-' ← (علم / يقن) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu 'bir kök' gerekçesi, kök kümesi علم / يقن: KÖK 'bil-' ←
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'gel-' ← (أتي / جيأ / غلب) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'kıl-' ← (جعل / حرم / حلل / قوم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ol-' ← (سلم / صبح / طلع / عدل / كون / هود) — karar tam okuma sonu olmalı
+bolum7_kurallar: (1) çakışma üye kümesi KÖK 'sakın-' ← ARIZA eksik ['sakın-'] / fazla ['hzer', 'hzerû', 'ttequ']
+bolum7_kurallar: (2) KÖK grubu birden çok kök KÖK 'ver-' ← (أتي / جعل / حكم / سمع / ضرر / فدي / قرض / نبأ / نعم) — karar tam okuma sonu olmalı
+bolum7_kurallar: (7) D3 dışı listesinde 've başkaları'
+bolum7_kurallar: (7) D3 dışı listesi eksik ['5:41'] / fazla []
+bolum7_kurallar: (9) bölüm sırası: ARIZA bölüm 7-3 / plan 7-4
+bolum7_kurallar: (12) nakarat3 5:48: 'ب' önekli ölçüm kalıbı 1 / 'bi-' ile başlayan ad 0
+bolum7_kurallar: (12) nakarat3 5:49: eş ad iki kalıba verilmiş (mâ enzele allâh)
+bolum7_kurallar: (12) nakarat3 5:49: 'ب' önekli ölçüm kalıbı 1 / 'bi-' ile başlayan ad 0
+bolum7_kurallar: (12) nakarat3 5:49: 'ف' önekli ölçüm kalıbı 1 / 'fe-' ile başlayan ad 0
+bolum8_kurallar: (1) R5 5:48 hakeme beyn mâ enzele allâh: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (1) R5 5:48 hakeme beyn mâ enzele allâh: öneksiz eş koşusu nakarat sayısını (2) veriyor, satır kapanmamış
+bolum8_kurallar: (1) R5 5:49 hakeme beyn mâ enzele allâh: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (1) R5 5:49 in tevellâ 'alime ennemâ: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'câ'e min haqq' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'erâde allâh en' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'erâde allâh en' öğesi 'en' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'hakeme beyn mâ enzele allâh' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'hakeme beyn mâ enzele allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ilâ allâh merci' cemî' nebbe'e mâ kâne' öğesi 'ilâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ilâ allâh merci' cemî' nebbe'e mâ kâne' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'ilâ allâh merci' cemî' nebbe'e mâ kâne' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'in tevellâ 'alime ennemâ' öğesi 'in' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'in tevellâ 'alime ennemâ' öğesi 'ennemâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'lâ ittebe'a ehvâ'' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'musaddiq mâ beyn yed min' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'musaddiq mâ beyn yed min' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'mâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'mâ enzele allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'erâde' / 'urîdu' / 'yuridi' / 'yurîdu' / 'yurîdûne'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'beyn'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ce'ale' / 'ce'alnâ' / 'yec'ale'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'cemî''
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'haqq'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'hakemte' / 'hkum' / 'yahkum' / 'yahkumu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'qavm'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'kull'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'kitâb'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'bi-mâ enzele'llâh'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'musaddiqan li-mâ beyne yedeyhi min'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'hkum beynehum bi-mâ enzele'llâh'
+bolum9_kurallar: (5) 5:48 ölçüm nakarat3 5 / R5 satırı 4 (GEÇMEZ dahil)
+bolum9_kurallar: (5) 5:48 'mâ enzele allâh' nakarat3 5 / ◇ lemma dizisi 'dizi 5 48 15 17' sûre içi 6 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:49 ölçüm nakarat3 6 / R5 satırı 3 (GEÇMEZ dahil)
+bolum9_kurallar: (6) lemma dizisi 'mâ enzele allâh' 5:49 ◇'sinde sayılmamış
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'esmâ adı esmâ dışı göndergeyle' (
+bolum10_kurallar: (2) 5:50 A4 bölüm kapanışı yok
+bolum10_kurallar: (5) 5:48 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (20. kelime; çoğul '-ler'; yönelme eki ile '
+bolum10_kurallar: (5) 5:49 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (9. kelime; çoğul '-ler'; yönelme eki ile 'h
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:48 ◇'de 'başka ayet'
+bolum10_kurallar: (11) D3 dışı listesinde 5:48 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:49 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:50 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 11
+yasakli: ariza_5_48_50.txt:5:art arda eş sözcük: sapma sapma
+## blok 18 (5:51-54)
+bolum4_kurallar: açık fail 5:52 11. kelime 'tusîbe' (fail 12. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 12. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:52 13. kelime ''asa' (fail 14. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 14. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:53 12. kelime 'habitat' (fail 13. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 13. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:54 10. kelime 'ye'ti' (fail 11. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 11. kelime)' ya da açık ada rol
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:51 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:51 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:54 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:54 'ey'
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'bil-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'ol-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'ver-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (5) kalıp adı 'allâh lâ hedâ qavm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'allâh lâ hedâ qavm' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'câhede fî sebîl' öğesi 'fî' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ ittexaze' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ hedâ qavm' öğesi 'inne' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ hedâ qavm' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'inne allâh lâ hedâ qavm' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men şâ'e allâh' öğesi 'men' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'men şâ'e allâh' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) lemma adı 'nasrâniyy' — önceki bloklarda eş iskeletli ad nasrânî
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tu'min' / 'âmennâ' / 'âmentum' / 'âmenu' / 'âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'ye'tiye' / 'ye'tî' / 'ye'tû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tusîbe' / 'yusîbe'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tertaddû' / 'yertedde'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tevellev' / 'yetevelle' / 'yetevellevne'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'habita' / 'habitat'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'xâsir'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: ''azîz'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'qavm'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'nefs'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yâ eyyuhe'llezîne âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yâ eyyuhe'llezîne âmenû lâ'
+bolum9_kurallar: (5) 5:54 ölçüm nakarat3 3 / R5 satırı 1 (GEÇMEZ dahil)
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (2) 5:51 A4 bölüm açılışı yok
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:52 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:52 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (6) 5:54 ◇'de 'başka ayet'
+bolum10_kurallar: (11) D3 dışı listesinde 5:51 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:52 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:53 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:54 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 3 (5:51 'eyy', 5:53 'ulâ'i', 5:54 'eyy')
+gloss_tara: KAPSAMAYAN 18
+yasakli: ariza_5_51_54.txt:7:art arda eş sözcük: sapma sapma
+## blok 19 (5:55-58)
+bolum4_kurallar: muhatap 5:55 2. şahıs etiketi 'muhatap' sözcüğü olmadan: 'veliyyukumu' 2MP (adsız; 2. kelime)
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:57 'ey'
+bolum6_kurallar: Türkçe alıntı MEAL dışı (sözcük başı) 5:57 'ey'
+bolum6_kurallar: esmâ kural adı kapalı liste dışı 5:55:2: 'sınırlama haberi lafız'
+bolum6_kurallar: esmâ kararı 'tam okuma sonu' notlu ama esma_el'de kapalı: 5:55:2
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'gel-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum7_kurallar: (1) kapalı karar çevrildi KÖK 'kıl-' ←: önceki değil → tam (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)
+bolum8_kurallar: (1) R5 5:57 itteqâ allâh in kâne mu'min: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (1) R5 5:57 itteqâ allâh in kâne mu'min: öneksiz eş koşusu nakarat sayısını (2) veriyor, satır kapanmamış
+bolum8_kurallar: (1) R5 5:57 itteqâ allâh in: kapanmamış satırda öneksiz eş koşusu yok
+bolum8_kurallar: (1) R5 5:57 itteqâ allâh in: öneksiz eş koşusu nakarat sayısını (6) veriyor, satır kapanmamış
+bolum8_kurallar: (3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor
+bolum8_kurallar: (4) 5:55 9. kelime meal biçimi 'salât' / ◇ adı 'salâ' (ة yapıntısı)
+bolum8_kurallar: (4) 5:55 11. kelime meal biçimi 'zekât' / ◇ adı 'zekâ' (ة yapıntısı)
+bolum8_kurallar: (4) 5:58 4. kelime meal biçimi 'salât' / ◇ adı 'salâ' (ة yapıntısı)
+bolum8_kurallar: (5) kalıp adı 'allâh rasûl ellezî âmene' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'eyy ellezî âmene lâ ittexaze' öğesi 'lâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'in kâne mu'min' öğesi 'in' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh in' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh in' öğesi 'in' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh in kâne mu'min' öğesi 'allâh' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'itteqâ allâh in kâne mu'min' öğesi 'in' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî etâ kitâb min qabl' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî etâ kitâb min qabl' öğesi 'etâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'min ellezî etâ kitâb min qabl' öğesi 'min' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâme salât etâ zekât' öğesi 'qâme' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâme salât etâ zekât' öğesi 'salât' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâme salât etâ zekât' öğesi 'etâ' lemma adı listesinde yok
+bolum8_kurallar: (5) kalıp adı 'qâme salât etâ zekât' öğesi 'zekât' lemma adı listesinde yok
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tu'min' / 'âmennâ' / 'âmentum' / 'âmenu' / 'âmenû'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'tevellev' / 'yetevelle' / 'yetevellevne'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'qavm'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'kitâb'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'huzuven ve le'iben'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'yâ eyyuhe'llezîne âmenû lâ tettexizu'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'mine'llezîne ûtu'l-kitâbe min qablikum'
+bolum8_kurallar: (6) meal karşılık farkı kararı yok: 'in kuntum mu'minîn'
+bolum9_kurallar: (5) 5:55 ölçüm nakarat3 3 / R5 satırı 2 (GEÇMEZ dahil)
+bolum9_kurallar: (5) 5:57 'itteqâ allâh in' nakarat3 6 / ◇ lemma dizisi 'dizi 5 57 19 21' sûre içi 2 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (6) lemma dizisi 'allâh rasûl ellezî âmene' (dizi 5 55 3 6) blok içi 5:56 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'allâh rasûl ellezî âmene' (dizi 5 56 3 6) blok içi 5:55 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (11) 5:55 ölçüm 'İÇ düğüm 1' ◇'de satır aynen anılmıyor
+bolum9_kurallar: (11) 5:56 ölçüm 'İÇ düğüm 1' ◇'de satır aynen anılmıyor
+bolum9_kurallar: (11) 5:57 ölçüm 'İÇ düğüm 1' ◇'de satır aynen anılmıyor
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'sınırlama haberi lafız' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (1) esmâ maddesinde kural yok: kural 'çoğul insan göndergeli' (
+bolum10_kurallar: (2) 5:58 A4 bölüm kapanışı yok
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:55 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:56 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:56 xref 'okunmuş 2 ayet' yazılmamış
+bolum10_kurallar: (11) D3 dışı listesinde 5:55 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:56 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:57 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:58 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 1 (5:57 'eyy')
+gloss_tara: KAPSAMAYAN 7
+yasakli: ariza_5_55_58.txt:5:art arda eş sözcük: sapma sapma
+## blok 20 (5:59-63)
+bolum4_kurallar: açık fail 5:60 11. kelime 'le'anehu' (fail 12. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 12. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:63 2. kelime 'yenhâhumu' (fail 3. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 3. kelime)' ya da açık ada rol
+bolum9_kurallar: (5) 5:59 ölçüm nakarat3 3 / R5 satırı 1 (GEÇMEZ dahil)
+bolum9_kurallar: (5) 5:60 ölçüm nakarat3 1 / R5 satırı 0 (GEÇMEZ dahil)
+bolum9_kurallar: (5) 5:62 ölçüm nakarat3 3 / R5 satırı 2 (GEÇMEZ dahil)
+bolum9_kurallar: (7) meal karşılık farkı kararı iki sonuçlu: 'yasna'û' / 'yasna'ûn' — bilinçli fark (5:63 'işle-', 5:62 'ya'melûn' 'yap-' kar
+bolum9_kurallar: (9) ARIZA başı bekleyen_ariza_5_b19.txt ile bayt eşit değil
+bolum9_kurallar: (11) 5:59 ölçüm 'İÇ düğüm 2' ◇'de satır aynen anılmıyor
+bolum10_kurallar: (2) 5:59 A4 bölüm açılışı yok
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:59 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:59 xref 'okunmuş 3 ayet' yazılmamış
+bolum10_kurallar: (6) 5:60 ◇'de 'başka ayet'
+bolum10_kurallar: (8) 5:59 'qul' sözü var, A4'te 'söz açılır' yok
+bolum10_kurallar: (8) 5:60 'qul' sözü var, A4'te 'söz açılır' yok
+bolum10_kurallar: (11) D3 dışı listesinde 5:59 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:60 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:61 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:62 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:63 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 5 (5:59 'hel', 5:60 'hel', 5:60 ''inde', 5:60 'ulâ'ike', 5:63 'levlâ')
+gloss_tara: KAPSAMAYAN 23
+## blok 21 (5:64-66)
+bolum4_kurallar: açık fail 5:64 38. kelime 'atfa'e' (fail 39. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 39. kelime)' ya da açık ada rol
+bolum4_kurallar: açık fail 5:64 38. kelime 'atfa'ehâ' (fail 39. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail 39. kelime)' ya da açık ada rol
+bolum9_kurallar: (1) 'sok-' 'farklı lemma / LEM farklı' iddiası, morph LEM tek: أُدْخِلَ
+bolum9_kurallar: (2) KÖK kötü- kök listesi: karar بأس شرر / üyeler بأس سوأ شرر
+bolum9_kurallar: (3) bag 70:38 → 5:65: 'say 5:65 11-12' listesinde emsal yok — kural ölçüm xref adıyla yazılır
+bolum9_kurallar: (4) R5 5:64 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş elif yazımı')
+bolum9_kurallar: (4) R5 5:64 harekesiz kalıpta 'hareke' gerekçesi
+bolum9_kurallar: (4) R5 5:64 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş elif yazımı; basılmamış eş zamir eki')
+bolum9_kurallar: (4) R5 5:66 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş fiil çekimi, zamir eki')
+bolum9_kurallar: (5) 5:64 ölçüm nakarat3 6 / R5 satırı 5 (GEÇMEZ dahil)
+bolum9_kurallar: (5) 5:64 'mâ enzele ilâ min rabb' nakarat3 3 / ◇ lemma dizisi 'dizi 5 64 20 24' sûre içi 4 — R5 satırında 'biçim öğesi' notu yok
+bolum9_kurallar: (5) 5:65 ölçüm nakarat3 1 / R5 satırı 0 (GEÇMEZ dahil)
+bolum9_kurallar: (6) lemma dizisi 'mâ enzele ilâ min rabb' (dizi 5 64 20 24) blok içi 5:66 ile — ◈D D3 / bag maddesinde 'ayetler arası kalıp' kaydı yok
+bolum9_kurallar: (6) lemma dizisi 'mâ enzele ilâ min rabb' 5:66 ◇'sinde sayılmamış
+bolum9_kurallar: (10) medde: meddeli kalıp 13 / çift 11 / say2 --medde koşusu 11
+bolum9_kurallar: (11) 5:64 ölçüm 'İÇ düğüm 2' ◇'de satır aynen anılmıyor
+bolum10_kurallar: (2) 5:66 A4 bölüm kapanışı yok
+bolum10_kurallar: (5) 5:64 fiil yönetimi takdiri yok: 'gün' 'yevm' karşılığı (32. kelime; yönelme eki ile 'gününe')
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:64 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:65 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:66 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:66 xref 'okunmuş 1 ayet' yazılmamış
+bolum10_kurallar: (6) 5:66 xref 'okunmamış 1 ayet (sûre içi 0)' yazılmamış
+bolum10_kurallar: (7) 5:64 D2 biçim etiketi: biçim IDRAB
+bolum10_kurallar: (11) D3 dışı listesinde 5:64 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:65 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:66 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 1 (5:64 'kullemâ')
+gloss_tara: KAPSAMAYAN 17
+## blok 22 (5:67-70)
+bolum9_kurallar: (4) R5 5:67 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş yazım eş; basılmamış eş i'râb, önek')
+bolum9_kurallar: (4) R5 5:68 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş fiil çekimi, zamir eki')
+bolum9_kurallar: (4) R5 5:69 gerekçe r5_gerekce çıktısını taşımıyor ('basılmamış eş önek; basılmamış eş önek')
+bolum10_kurallar: (1) esmâ parantezi ''yevm' sıfatı, âhiret günü' / esma_el 'günün sıfatı, âhiret günü'
+bolum10_kurallar: (2) 5:67 A4 bölüm açılışı yok
+bolum10_kurallar: (5) 5:69 fiil yönetimi takdiri yok: 'gün' 'yevm' karşılığı (11. kelime; iyelik ve yönelme eki ile 'gününe'
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:68 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:68 xref 'okunmuş 4 ayet' yazılmamış
+bolum10_kurallar: (6) 5:69 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:70 ◇'de 'başka ayet'
+bolum10_kurallar: (7) 5:67 D2 biçim etiketi: biçim DIKKAT
+bolum10_kurallar: (7) 5:68 D2 biçim etiketi: biçim NEHY
+bolum10_kurallar: (8) 5:68 'qul' sözü var, A4'te 'söz açılır' yok
+bolum10_kurallar: (11) D3 dışı listesinde 5:67 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:68 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:69 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:70 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 2 (5:67 'eyy', 5:70 'kullemâ')
+gloss_tara: KAPSAMAYAN 19
+## blok 23 (5:71-74)
+bolum10_kurallar: (1) esmâ parantezi 'yardımcılar; olumsuzlanan yardımcılar' / esma_el 'yardımcılar'
+bolum10_kurallar: (3) meal karşılık farkı kararı yok: 'tâbe' / 'tâbû' / 'yetûbu' / 'yetûbû' — karar yok
+bolum10_kurallar: (3) meal karşılık farkı kararı yok: ''amile' / ''amilu' / 'ta'melûn' / 'ya'melû' — karar yok
+bolum10_kurallar: (3) meal karşılık farkı kararı yok: 'qul' / 'qultum' / 'qâla' / 'qâle' / 'qâlet' / 'qâlû' / 'teqûlû' / 'ye
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:72 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:73 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:73 xref 'okunmuş 2 ayet' yazılmamış
+bolum10_kurallar: (7) 5:73 D2 biçim etiketi: biçim HASR
+bolum10_kurallar: (11) D3 dışı listesinde 5:71 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:72 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:73 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:74 ayet başlığı yok (boşsa yok)
+gloss_tara: KAPSAMAYAN 15
+## blok 24 (5:75-77)
+bolum10_kurallar: (1) esmâ parantezi 'lafzın haberi; araya fasıl zamiri 'huve' giriyor' / esma_el 'lafzın haberi'
+bolum10_kurallar: (2) 5:77 A4 bölüm kapanışı yok
+bolum10_kurallar: (3) meal kararı yön değiştirdi (blok 22: bilinçli → tam), önceki karar yazılmamış: 'qul' / 'qultum' / 'qâla' / 'qâle' / 'qâlet' / 'qâlû' / 'teq
+bolum10_kurallar: (3) meal kararı yön değiştirdi (blok 22: tam → değil), önceki karar yazılmamış: 'kitâb' — çakışma değil ('Kitap' / 'kitap' büyük harf yazım 
+bolum10_kurallar: (5) 5:76 fiil yönetimi takdiri yok: 'zarar' 'darr' karşılığı (10. kelime; nekre — 'bir' takdiri; yönelme e
+bolum10_kurallar: (5) 5:76 fiil yönetimi takdiri yok: 'fayda' 'nef'' karşılığı (12. kelime; nekre — 'bir' takdiri; yönelme e
+bolum10_kurallar: (5) 5:77 fiil yönetimi takdiri yok: 'heves' 'ehvâ'' karşılığı (12. kelime; çoğul '-ler'; yönelme eki ile '
+bolum10_kurallar: (6) ARIZA xref maddesinde 'başka ayet'
+bolum10_kurallar: (6) 5:75 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:76 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:77 ◇'de 'başka ayet'
+bolum10_kurallar: (6) 5:77 xref 'okunmuş 3 ayet' yazılmamış
+bolum10_kurallar: (7) 5:75 D2 biçim etiketi: biçim HASR
+bolum10_kurallar: (7) 5:77 D2 biçim etiketi: biçim NEHY
+bolum10_kurallar: (8) 5:76 'qul' sözü var, A3 boş
+bolum10_kurallar: (8) 5:76 'qul' sözü var, A4'te 'söz açılır' yok
+bolum10_kurallar: (8) 5:77 'qul' sözü var, A3 boş
+bolum10_kurallar: (8) 5:77 'qul' sözü var, A4'te 'söz açılır' yok
+bolum10_kurallar: (11) D3 dışı listesinde 5:75 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:76 ayet başlığı yok (boşsa yok)
+bolum10_kurallar: (11) D3 dışı listesinde 5:77 ayet başlığı yok (boşsa yok)
+es_edat: tanınmayan 3 (5:75 'kânâ', 5:75 'âni', 5:75 'nu')
+gloss_tara: KAPSAMAYAN 13
+## blok 25 (5:78-81)
+es_edat: tanınmayan 1 (5:81 'lâkinne')
+gloss_tara: KAPSAMAYAN 9

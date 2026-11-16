@@ -23,6 +23,7 @@ for a, b, nn in BL:
         isa += ['bolum7_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum7_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 7 kuralları
         isa += ['bolum8_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum8_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 8 kuralları
         isa += ['bolum9_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum9_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralları
+        isa += ['bolum10_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum10_kurallar.py', str(a), str(b), nn, '--tazelik-yok']).splitlines() if l.startswith('HATA')]  # bölüm 10 kuralları
         isa += ['kural13: ' + l[5:] for l in run(['python3', 'sunum/kural13.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralı 13
         es = run(['python3', 'sunum/es_edat.py', nn])
         m = re.search(r'tanınmayan edat / zamir başlığı (\d+)(?: \(([^)]*)\))?', es)
@@ -35,7 +36,7 @@ for a, b, nn in BL:
     dos = [Y + '%s_%d_%d_%d.txt' % (k, S, a, b) for k in ('metin', 'ariza', 'bag', 'cipa', 'esma_el') if _o.path.exists(Y + '%s_%d_%d_%d.txt' % (k, S, a, b))]
     isa += ['yasakli: ' + l.split('/')[-1] for l in run(['bash', 'sunum/yasakli.sh'] + dos).splitlines() if 'bitti' not in l and l.strip()]
     out += isa; ISA += ['blok %s %s' % (nn, x) for x in isa]
-bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
+bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
 if ONC and _o.path.exists(ONC):
     eski = set()
     blk = None

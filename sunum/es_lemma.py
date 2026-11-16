@@ -3,7 +3,13 @@
 import sys, os, re, importlib.util as iu, collections, unicodedata as ud
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
 LEM = {}; TR = collections.defaultdict(set)
-for nn in sys.argv[1:]:
+NUM = '--numarasiz' in sys.argv  # bölüm 10 denetimi kuralı 9: bu oturumda basılmamış konumlar numarasız ('okunmuş N konum')
+BAS = {l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip()}
+def _liste(ks):
+    if not NUM: return ', '.join(ks)
+    kal = [k for k in ks if ':'.join(k.split(':')[:2]) in BAS]; n = len(ks) - len(kal)
+    return ', '.join(kal + (['okunmuş %d konum' % n] if n else []))
+for nn in [x for x in sys.argv[1:] if x != '--numarasiz']:
     d = '/home/claude/b%02d' % int(nn)
     for l in open('%s/morph%d.txt' % (d, S), encoding='utf-8'):
         loc, f, t, feat = l.rstrip('\n').split('\t'); s, a, w, p = map(int, loc.split(':'))
@@ -22,4 +28,4 @@ for lem, s in sorted(TR.items()):
     trs = sorted({x[0] for x in s})
     if len(trs) > 1:  # Arapça lemma yazılmaz: eş lemmanın ◇ biçimleriyle anılır
         adl = ' / '.join("'%s'" % a for a in sorted({x[2] for x in s}))
-        print("%s (morph LEM eşit): %s" % (adl, ' / '.join("'%s' (%s)" % (t, ', '.join(sorted(k for x, k, _ in s if x == t))) for t in trs)))
+        print("%s (morph LEM eşit): %s" % (adl, ' / '.join("'%s' (%s)" % (t, _liste(sorted(k for x, k, _ in s if x == t))) for t in trs)))

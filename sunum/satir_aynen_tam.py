@@ -9,7 +9,7 @@ pats = [r"'(fâsıla [^']*? sınıfı)'", r"'(simetri \[[^\]]*\])'", r"'(İÇ d�
         r"'(\S+ \d+\. sırada, \w+ konum, \w+)'"]
 bad = 0
 for f in sys.argv[2:]:
-    s = open(f, encoding='utf-8').read(); n = 0
+    s = '\n'.join(l for l in open(f, encoding='utf-8').read().splitlines() if not re.match(r"\s*['\"]bölüm (?:denetimi \(|\d+ denetiminden)", l)); n = 0  # bölüm 10 denetiminden sonra: taşınan bölüm denetimi maddeleri (bekleyen_ariza, aynen) ölçüm alıntısı değil
     for p in pats:
         for q in re.findall(p, s):
             n += 1

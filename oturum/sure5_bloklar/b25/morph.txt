@@ -1,0 +1,61 @@
+5:78:1	لُعِنَ	V|PERF|VF:1|PASS|ROOT:لعن|LEM:لَعَنَ|3MS
+5:78:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:78:3	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+5:78:4	مِنۢ	P|P|LEM:مِن
+5:78:5	بَنِىٓ	N|ROOT:بني|LEM:بُنَىّ|MP|GEN
+5:78:6	إِسْرَٰٓءِيلَ	N|PN|LEM:إِسْرائِيل|GEN
+5:78:7	عَلَىٰ	P|P|LEM:عَلَى
+5:78:8	لِسَانِ	N|ROOT:لسن|LEM:لِسان|M|GEN
+5:78:9	دَاوُۥدَ	N|PN|LEM:داوُد|GEN
+5:78:10	وَعِيسَى	P|CONJ|PREF|LEM:و + N|PN|LEM:عِيسَى|GEN
+5:78:11	ٱبْنِ	N|ROOT:بني|LEM:ابْن|M|GEN
+5:78:12	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:78:13	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:78:14	بِمَا	P|P|PREF|LEM:ب + P|SUB|LEM:ما
+5:78:15	عَصَوا۟	V|PERF|VF:1|ROOT:عصي|LEM:عَصا|3MP + N|PRON|SUFF|3MP
+5:78:16	وَّكَانُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:78:17	يَعْتَدُونَ	V|IMPF|VF:8|ROOT:عدو|LEM:اعْتَدَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:79:1	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:79:2	لَا	P|NEG|LEM:لا
+5:79:3	يَتَنَاهَوْنَ	V|IMPF|VF:6|ROOT:نهي|LEM:يَتَناهَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:79:4	عَن	P|P|LEM:عَن
+5:79:5	مُّنكَرٍ	N|PASS_PCPL|VF:4|ROOT:نكر|LEM:مُنكَر|M|INDEF|GEN
+5:79:6	فَعَلُوهُ	V|PERF|VF:1|ROOT:فعل|LEM:فَعَلَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+5:79:7	لَبِئْسَ	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:بأس|LEM:بِئْسَ|3MS
+5:79:8	مَا	N|REL|LEM:ما
+5:79:9	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:79:10	يَفْعَلُونَ	V|IMPF|VF:1|ROOT:فعل|LEM:فَعَلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:80:1	تَرَىٰ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|2MS|MOOD:IND
+5:80:2	كَثِيرًا	N|ROOT:كثر|LEM:كَثِير|MS|INDEF|ACC
+5:80:3	مِّنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+5:80:4	يَتَوَلَّوْنَ	V|IMPF|VF:5|ROOT:ولي|LEM:تَوَلَّى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:80:5	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:80:6	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+5:80:7	لَبِئْسَ	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:بأس|LEM:بِئْسَ|3MS
+5:80:8	مَا	N|REL|LEM:ما
+5:80:9	قَدَّمَتْ	V|PERF|VF:2|ROOT:قدم|LEM:قَدَّمَ|3FS
+5:80:10	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:80:11	أَنفُسُهُمْ	N|ROOT:نفس|LEM:نَفْس|FP|NOM + N|PRON|SUFF|3MP
+5:80:12	أَن	P|SUB|LEM:أَن
+5:80:13	سَخِطَ	V|PERF|VF:1|ROOT:سخط|LEM:سَخِطَ|3MS
+5:80:14	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:80:15	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+5:80:16	وَفِى	P|REM|PREF|LEM:و + P|P|LEM:فِي
+5:80:17	ٱلْعَذَابِ	P|DET|PREF|LEM:ال + N|ROOT:عذب|LEM:عَذاب|M|GEN
+5:80:18	هُمْ	N|PRON|3MP
+5:80:19	خَٰلِدُونَ	N|ACT_PCPL|VF:1|ROOT:خلد|LEM:خالِد|MP|NOM
+5:81:1	وَلَوْ	P|REM|PREF|LEM:و + P|COND|LEM:لَو
+5:81:2	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:81:3	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:81:4	بِٱللَّهِ	P|P|PREF|LEM:ب + N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:81:5	وَٱلنَّبِىِّ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نبأ|LEM:نَبِيّ|M|GEN
+5:81:6	وَمَآ	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+5:81:7	أُنزِلَ	V|PERF|VF:4|PASS|ROOT:نزل|LEM:أَنزَلَ|3MS
+5:81:8	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+5:81:9	مَا	P|NEG|LEM:ما
+5:81:10	ٱتَّخَذُوهُمْ	V|PERF|VF:8|ROOT:أخذ|LEM:اتَّخَذَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|3MP
+5:81:11	أَوْلِيَآءَ	N|ROOT:ولي|LEM:وَلِيّ|MP|ACC
+5:81:12	وَلَٰكِنَّ	P|REM|PREF|LEM:و + P|ACC|LEM:لٰكِنّ|FAM:إِنّ
+5:81:13	كَثِيرًا	N|ROOT:كثر|LEM:كَثِير|MS|INDEF|ACC
+5:81:14	مِّنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+5:81:15	فَٰسِقُونَ	N|ACT_PCPL|VF:1|ROOT:فسق|LEM:فاسِق|MP|NOM
