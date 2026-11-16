@@ -15,7 +15,7 @@ S = 5
 METIN = 'maide_metin_1'
 KAYIT = 'maide_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54)]
+BLOKLAR = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54), (55, 58)]
 BASLIK = {
  (1, 2): "5:1-2 — Ahitlere vefa; haram kılınanlar; dinin tamamlanması; helal yiyecekler",
  (3, 4): "5:3-4 — Ahitlere vefa; haram kılınanlar; dinin tamamlanması; helal yiyecekler",
@@ -35,6 +35,7 @@ BASLIK = {
  (45, 47): "5:45-47 — Küfürde yarışanlar; Tevrat, İncil ve Kitap ile hüküm",
  (48, 50): "5:48-50 — Küfürde yarışanlar; Tevrat, İncil ve Kitap ile hüküm",
  (51, 54): "5:51-54 — Velî edinme; Allah'ın sevdiği kavim; dinle alay edenler",
+ (55, 58): "5:55-58 — Velî edinme; Allah'ın sevdiği kavim; dinle alay edenler",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

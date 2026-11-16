@@ -81425,6 +81425,156 @@
   "ton": "denge",
   "ton_kismi": false
  },
+ "5:55": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    2,
+    "وَلِيّ"
+   ]
+  ],
+  "esma_el": {
+   "5:55:2": "ilahi"
+  },
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    9,
+    "صَلاة"
+   ],
+   [
+    11,
+    "زَكاة"
+   ],
+   [
+    13,
+    "راكِع"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:56": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    8,
+    "حِزْب"
+   ],
+   [
+    9,
+    "اللَّه"
+   ],
+   [
+    11,
+    "غالِب"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:57": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    18,
+    "وَلِيّ"
+   ],
+   [
+    23,
+    "مُؤْمِن"
+   ]
+  ],
+  "esma_el": {
+   "5:57:18": "degil",
+   "5:57:23": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "وَلِيّ",
+   "مُؤْمِن"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    18,
+    "وَلِيّ"
+   ],
+   [
+    20,
+    "اللَّه"
+   ],
+   [
+    23,
+    "مُؤْمِن"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "5:58": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    6,
+    "هُزُو"
+   ],
+   [
+    7,
+    "لَعِب"
+   ],
+   [
+    10,
+    "قَوْم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "5:6": {
   "a": true,
   "bant": "KAPI_KAPALI",

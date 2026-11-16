@@ -1457,4 +1457,8 @@ KARAR = {
     '5:54:17': 'degil',  # 'ale'l-mu'minîne — çoğul insan göndergeli → degil (inananlar)
     '5:54:18': 'degil',  # e'izzetin — çoğul insan göndergeli → degil (kavmin sıfatı)
     '5:54:36': 'ilahi', '5:54:37': 'ilahi',  # ve'llâhu vâsi'un 'alîm — 've'llâhu X' kuralı → ilahi
+    # sure 5 blok 55-58
+    '5:55:2': 'ilahi',  # innemâ veliyyukumu'llâh — sınırlama haberi lafız → ilahi (elçi ve inananlar atıflı)
+    '5:57:18': 'degil',  # evliyâ'e — çoğul insan göndergeli → degil (alay edenler ve kâfirler)
+    '5:57:23': 'degil',  # mu'minîn — çoğul insan göndergeli → degil (inananlar)
 }
