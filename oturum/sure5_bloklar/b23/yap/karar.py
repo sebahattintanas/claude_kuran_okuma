@@ -1,0 +1,16 @@
+KARAR.update({
+ 'bir': "'bir' ← 'ehad' (أحد) / 'vâhid', 'vâhide' (وحد): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'dokun-': "'dokun-' ← 'lâmestumu' (لمس) / 'tusîbe' (صوب) / 'yemessenne' (مسس): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'haram kıl-': "'haram kıl-' ← 'harrame', 'hurrimet': bir lemma ('harrame'; etken / edilgen; morph LEM eşit) — çakışma değil",
+ 'kulluk et-': "'kulluk et-' ← ''abede', ''budû': bir lemma (''abede'; morph LEM eşit) — çakışma değil",
+ 'söyle-': "'söyle-' ← 'qâlû', 'yeqûlû': bir lemma ('qâle'; morph LEM eşit) — çakışma değil",
+ 'tövbe et-': "'tövbe et-' ← 'tâbe', 'tâbû', 'yetûbû': bir lemma ('tâbe'; morph LEM eşit) — çakışma değil",
+ 'tövbesini kabul et-': "'tövbesini kabul et-' ← 'tâbe', 'yetûbu': bir lemma ('tâbe'; ''alâ' ile tövbe kabulü; morph LEM eşit) — çakışma değil",
+ 'KÖK ateş-': "KÖK 'ateş-' ← 'alevli ateş' (جحم) / 'ateş' (نور): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK bağışla-': "KÖK 'bağışla-' ← 'bağışla-', 'bağışlayan' (غفر) / 'sadaka olarak bağışla-' (صدق): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK dile-': "KÖK 'dile-' ← 'bağışlanma dile-' (غفر) / 'dile-' (شيأ, رود): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK gör-': "KÖK 'gör-' ← 'gör-' (رأي) / 'gören' (بصر) / 'hoş gör-' (صفح) / 'çabuk gören' (سرع): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK koş-': "KÖK 'koş-' ← 'koş-' (سعي) / 'ortak koş-' (شرك): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK kıl-': "KÖK 'kıl-' ← 'haram kıl-', 'haram kılınmış' (حرم) / 'helâl kıl-' (حلل) / 'kıl-' (جعل, قوم): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'Yahudi ol-', 'adaletli ol-', 'geniş olan', 'kör ol-', 'ol-', 'sağır ol-', 'teslim ol-', 'vâkıf ol-': birden çok kök, yardımcı fiilli açılımlar — çakışma — tam okuma sonu",
+})

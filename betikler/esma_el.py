@@ -1465,4 +1465,8 @@ KARAR = {
     # sure 5 blok 64-66
     # sure 5 blok 67-70
     '5:69:12': 'degil',  # ve'l-yevmi'l-âxir — esmâ adı esmâ dışı göndergeyle → degil (günün sıfatı, âhiret günü)
+    # sure 5 blok 71-74
+    '5:71:17': 'ilahi',  # ve'llâhu basîrun — 've'llâhu X' kuralı → ilahi (lafzın haberi)
+    '5:72:33': 'degil',  # ve mâ li'z-zâlimîne min ensâr — çoğul insan göndergeli → degil (yardımcılar)
+    '5:74:7': 'ilahi', '5:74:8': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi (lafzın haberi)
 }
