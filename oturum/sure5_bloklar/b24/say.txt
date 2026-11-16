@@ -1,0 +1,353 @@
+### say 5:75 1-6
+kalıp: ما المسيح ابن مريم إلا رسول | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 2-4
+kalıp: المسيح ابن مريم | mod: tam
+ayet: 3
+liste: 5:17, 5:72, 5:75†
+sûre içi (5): 5:17, 5:72, 5:75
+
+3 {'bu': ['5:75'], 'basilan': ['5:17', '5:72'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 5-6
+kalıp: إلا رسول | mod: tam
+ayet: 2
+liste: 3:144, 5:75†
+sûre içi (5): 5:75
+
+2 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 6-11
+kalıp: رسول قد خلت من قبله الرسل | mod: tam
+ayet: 2
+liste: 3:144, 5:75†
+sûre içi (5): 5:75
+
+2 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 7-11
+kalıp: قد خلت من قبله الرسل | mod: tam
+ayet: 2
+liste: 3:144, 5:75†
+sûre içi (5): 5:75
+
+2 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 8-11
+kalıp: خلت من قبله الرسل | mod: tam
+ayet: 2
+liste: 3:144, 5:75†
+sûre içi (5): 5:75
+
+2 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 75 6 11
+lemma dizisi [('رَسُول',), ('قَد',), ('خَلا',), ('مِن',), ('قَبْل',), ('رَسُول',)] | ayet 2
+3:144, 5:75†
+
+2 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 12-13 --on
+kalıp: وأمه صديقة | mod: on 
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 14-16
+kalıp: كانا يأكلان الطعام | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 15-16
+kalıp: يأكلان الطعام | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 75 14 16
+lemma dizisi [('كانَ',), ('أَكَلَ',), ('طَعام',)] | ayet 1
+5:75†
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 17-21
+kalıp: انظر كيف نبين لهم الءايت | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 18-21
+kalıp: كيف نبين لهم الءايت | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 75 17 21
+lemma dizisi [('نَظَرَ',), ('كَيْف',), ('بَيَّنُ',), (), ('آيَة',)] | ayet 1
+5:75†
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 22-25
+kalıp: ثم انظر أنى يؤفكون | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 23-25
+kalıp: انظر أنى يؤفكون | mod: tam
+ayet: 1
+liste: 5:75†
+sûre içi (5): 5:75
+
+1 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:75 24-25
+kalıp: أنى يؤفكون | mod: tam
+ayet: 3
+liste: 5:75†, 9:30, 63:4
+sûre içi (5): 5:75
+
+3 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:75:19
+lemma بَيَّنُ | token 35 | ayet 35
+liste: 2:68, 2:69, 2:70, 2:118, 2:159, 2:160, 2:187, 2:219, 2:221, 2:230, 2:242, 2:266, 3:103, 3:118, 3:187, 4:26, 4:176, 5:15, 5:19, 5:75†, 5:89†, 6:105†, 9:115, 14:4, 16:39, 16:44, 16:64, 16:92, 22:5, 24:18, 24:58, 24:59, 24:61, 43:63, 57:17
+sûre içi (5): 5:15, 5:19, 5:75, 5:89
+
+35 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 32, 'okunmus_si': 2, 'henuz': 2, 'henuz_si': 1}
+
+### lem 5:75:25
+lemma أُفِكَ | token 16 | ayet 15
+liste: 5:75†, 6:95†, 7:117†, 9:30, 10:34, 26:45, 29:61, 30:55, 35:3, 40:62, 40:63, 43:87, 46:22, 51:9×2, 63:4
+sûre içi (5): 5:75
+
+15 {'bu': ['5:75'], 'basilan': [], 'eski': 0, 'okunmus': 12, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 5:76 1-5
+kalıp: قل أتعبدون من دون الله | mod: tam
+ayet: 1
+liste: 5:76†
+sûre içi (5): 5:76
+
+1 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 2-5
+kalıp: أتعبدون من دون الله | mod: tam
+ayet: 1
+liste: 5:76†
+sûre içi (5): 5:76
+
+1 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 3-5
+kalıp: من دون الله | mod: tam
+ayet: 70
+liste: 2:23, 2:107, 2:165, 3:64, 3:79, 4:119, 4:123, 4:173, 5:76†, 5:116†, 6:56†, 6:70†, 6:71†, 6:108†, 7:30†, 7:37†, 7:194†, 9:16, 9:31, 9:116, 10:18, 10:37, 10:38, 10:66, 10:104, 10:106, 11:13, 11:20, 11:101, 11:113, 16:20, 16:73, 18:43, 19:48, 19:49, 19:81, 21:66, 21:67, 21:98, 22:12, 22:71, 22:73, 25:17, 25:55, 26:93, 27:24, 27:43, 28:81, 29:17, 29:22, 29:25, 29:41, 33:17, 34:22, 35:40, 36:74, 37:23, 39:38, 39:43, 40:66, 40:74, 42:31, 42:46, 45:10, 46:4, 46:5, 46:28, 53:58, 60:4, 71:25
+sûre içi (5): 5:76, 5:116
+
+70 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 61, 'okunmus_si': 0, 'henuz': 8, 'henuz_si': 1}
+
+### dizi 5 76 2 5
+lemma dizisi [('عَبَدَ',), ('مِن',), ('دُون',), ('اللَّه',)] | ayet 14
+5:76†, 10:18, 10:104, 16:73, 19:49, 21:66, 21:67, 21:98, 22:71, 25:17, 25:55, 27:43, 29:17, 60:4
+
+14 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 13, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 6-12
+kalıp: ما لا يملك لكم ضرا ولا نفعا | mod: tam
+ayet: 1
+liste: 5:76†
+sûre içi (5): 5:76
+
+1 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 8-12
+kalıp: يملك لكم ضرا ولا نفعا | mod: tam
+ayet: 1
+liste: 5:76†
+sûre içi (5): 5:76
+
+1 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 10-12 --on
+kalıp: ضرا ولا نفعا | mod: on 
+ayet: 4
+liste: 5:76†, 10:49, 20:89, 25:3
+sûre içi (5): 5:76
+
+4 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 76 8 12
+lemma dizisi [('مَلَكَتْ',), (), ('ضَرّ',), ('لا',), ('نَفْع',)] | ayet 2
+5:76†, 20:89
+
+2 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:76:8
+lemma مَلَكَتْ | token 44 | ayet 42
+liste: 4:3, 4:24, 4:25, 4:36, 5:17, 5:25, 5:41, 5:76†, 7:188†, 10:31, 10:49, 13:16, 16:71, 16:73, 17:56, 17:100, 19:87, 20:89, 23:6, 24:31, 24:33, 24:58, 24:61, 25:3×2, 27:23, 29:17, 30:28, 33:50×2, 33:52, 33:55, 34:22, 34:42, 35:13, 39:43, 43:86, 46:8, 48:11, 60:4, 70:30, 72:21, 78:37, 82:19
+sûre içi (5): 5:17, 5:25, 5:41, 5:76
+
+42 {'bu': ['5:76'], 'basilan': ['5:17'], 'eski': 0, 'okunmus': 39, 'okunmus_si': 2, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:76 13-16 --on
+kalıp: والله هو السميع العليم | mod: on 
+ayet: 1
+liste: 5:76†
+sûre içi (5): 5:76
+
+1 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:76 15-16
+kalıp: السميع العليم | mod: tam
+ayet: 15
+liste: 2:127, 2:137, 3:35, 5:76†, 6:13†, 6:115†, 8:61†, 10:65, 12:34, 21:4, 26:220, 29:5, 29:60, 41:36, 44:6
+sûre içi (5): 5:76
+
+15 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 11, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### dizi 5 76 13 16
+lemma dizisi [('اللَّه',), (), ('سَمِيع',), ('عَلِيم',)] | ayet 2
+2:137, 5:76†
+
+2 {'bu': ['5:76'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 1-3
+kalıp: قل يأهل الكتب | mod: tam
+ayet: 6
+liste: 3:64, 3:98, 3:99, 5:59, 5:68, 5:77†
+sûre içi (5): 5:59, 5:68, 5:77
+
+6 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 5, 'okunmus_si': 2, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 2-3
+kalıp: يأهل الكتب | mod: tam
+ayet: 12
+liste: 3:64, 3:65, 3:70, 3:71, 3:98, 3:99, 4:171, 5:15, 5:19, 5:59, 5:68, 5:77†
+sûre içi (5): 5:15, 5:19, 5:59, 5:68, 5:77
+
+12 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 11, 'okunmus_si': 4, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 4-9
+kalıp: لا تغلوا فى دينكم غير الحق | mod: tam
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 4-5
+kalıp: لا تغلوا | mod: tam
+ayet: 2
+liste: 4:171, 5:77†
+sûre içi (5): 5:77
+
+2 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 6-9
+kalıp: فى دينكم غير الحق | mod: tam
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 77 3 7
+lemma dizisi [('كِتاب',), ('لا',), ('تَغْلُو',), ('فِي',), ('دِين',)] | ayet 2
+4:171, 5:77†
+
+2 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 10-13 --on
+kalıp: ولا تتبعوا أهوءاء قوم | mod: on 
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 11-12
+kalıp: تتبعوا أهوءاء | mod: tam
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 77 11 13
+lemma dizisi [('اتَّبَعَ',), ('أَهْواء',), ('قَوْم',)] | ayet 1
+5:77†
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 14-17
+kalıp: قد ضلوا من قبل | mod: tam
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 15-17
+kalıp: ضلوا من قبل | mod: tam
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 18-19 --on
+kalıp: وأضلوا كثيرا | mod: on 
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 20-23 --on
+kalıp: وضلوا عن سوءاء السبيل | mod: on 
+ayet: 1
+liste: 5:77†
+sûre içi (5): 5:77
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:77 21-23
+kalıp: عن سوءاء السبيل | mod: tam
+ayet: 2
+liste: 5:60, 5:77†
+sûre içi (5): 5:60, 5:77
+
+2 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 77 22 23
+lemma dizisi [('سَواء',), ('سَبِيل',)] | ayet 6
+2:108, 5:12, 5:60, 5:77†, 28:22, 60:1
+
+6 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 5, 'okunmus_si': 2, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 77 20 23
+lemma dizisi [('ضَلَّ',), ('عَن',), ('سَواء',), ('سَبِيل',)] | ayet 1
+5:77†
+
+1 {'bu': ['5:77'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+

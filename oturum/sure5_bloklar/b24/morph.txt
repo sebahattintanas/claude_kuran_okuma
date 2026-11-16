@@ -1,0 +1,64 @@
+5:75:1	مَّا	P|NEG|LEM:ما
+5:75:2	ٱلْمَسِيحُ	P|DET|PREF|LEM:ال + N|PN|ROOT:مسح|LEM:مَسِيح|NOM
+5:75:3	ٱبْنُ	N|ROOT:بني|LEM:ابْن|M|NOM
+5:75:4	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:75:5	إِلَّا	P|RES|LEM:إِلّا
+5:75:6	رَسُولٌ	N|ROOT:رسل|LEM:رَسُول|M|INDEF|NOM
+5:75:7	قَدْ	P|CERT|LEM:قَد
+5:75:8	خَلَتْ	V|PERF|VF:1|ROOT:خلو|LEM:خَلا|3FS
+5:75:9	مِن	P|P|LEM:مِن
+5:75:10	قَبْلِهِ	N|ROOT:قبل|LEM:قَبْل|GEN + N|PRON|SUFF|3MS
+5:75:11	ٱلرُّسُلُ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|MP|NOM
+5:75:12	وَأُمُّهُۥ	P|CONJ|PREF|LEM:و + N|ROOT:أمم|LEM:أُمّ|FS|NOM + N|PRON|SUFF|3MS
+5:75:13	صِدِّيقَةٌ	N|ROOT:صدق|LEM:صِدِّيقَة|F|INDEF|NOM
+5:75:14	كَانَا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MD + N|PRON|SUFF|3MD
+5:75:15	يَأْكُلَانِ	V|IMPF|VF:1|ROOT:أكل|LEM:أَكَلَ|3MD|MOOD:IND + N|PRON|SUFF|3D
+5:75:16	ٱلطَّعَامَ	P|DET|PREF|LEM:ال + N|ROOT:طعم|LEM:طَعام|M|ACC
+5:75:17	ٱنظُرْ	V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+5:75:18	كَيْفَ	N|ROOT:كيف|LEM:كَيْف|ACC
+5:75:19	نُبَيِّنُ	V|IMPF|VF:2|ROOT:بين|LEM:بَيَّنُ|1P|MOOD:IND
+5:75:20	لَهُمُ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:75:21	ٱلْءَايَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:أيي|LEM:آيَة|FP|ACC
+5:75:22	ثُمَّ	P|CONJ|LEM:ثُمّ
+5:75:23	ٱنظُرْ	V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+5:75:24	أَنَّىٰ	N|INTG|LEM:أَنَّى|ACC
+5:75:25	يُؤْفَكُونَ	V|IMPF|VF:1|PASS|ROOT:أفك|LEM:أُفِكَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:76:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+5:76:2	أَتَعْبُدُونَ	N|INTG|PREF|LEM:أ + V|IMPF|VF:1|ROOT:عبد|LEM:عَبَدَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+5:76:3	مِن	P|P|LEM:مِن
+5:76:4	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+5:76:5	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:76:6	مَا	N|REL|LEM:ما
+5:76:7	لَا	P|NEG|LEM:لا
+5:76:8	يَمْلِكُ	V|IMPF|VF:1|ROOT:ملك|LEM:مَلَكَتْ|3MS|MOOD:IND
+5:76:9	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:76:10	ضَرًّا	N|ROOT:ضرر|LEM:ضَرّ|M|INDEF|ACC
+5:76:11	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:76:12	نَفْعًا	N|ROOT:نفع|LEM:نَفْع|M|INDEF|ACC
+5:76:13	وَٱللَّهُ	P|REM|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:76:14	هُوَ	N|PRON|3MS
+5:76:15	ٱلسَّمِيعُ	P|DET|PREF|LEM:ال + N|ROOT:سمع|LEM:سَمِيع|MS|NOM
+5:76:16	ٱلْعَلِيمُ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عَلِيم|MS|NOM|ADJ
+5:77:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+5:77:2	يَٰٓأَهْلَ	P|VOC|PREF|LEM:ي + N|ROOT:أهل|LEM:أَهْل|M|ACC
+5:77:3	ٱلْكِتَٰبِ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|GEN
+5:77:4	لَا	P|PRO|LEM:لا
+5:77:5	تَغْلُوا۟	V|IMPF|VF:1|ROOT:غلو|LEM:تَغْلُو|2D|MOOD:JUS + N|PRON|SUFF|2D
+5:77:6	فِى	P|P|LEM:فِي
+5:77:7	دِينِكُمْ	N|ROOT:دين|LEM:دِين|M|GEN + N|PRON|SUFF|2MP
+5:77:8	غَيْرَ	N|ROOT:غير|LEM:غَيْر|M|ACC
+5:77:9	ٱلْحَقِّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+5:77:10	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+5:77:11	تَتَّبِعُوٓا۟	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:77:12	أَهْوَآءَ	N|ROOT:هوي|LEM:أَهْواء|MP|ACC
+5:77:13	قَوْمٍ	N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+5:77:14	قَدْ	P|CERT|LEM:قَد
+5:77:15	ضَلُّوا۟	V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MP + N|PRON|SUFF|3MP
+5:77:16	مِن	P|P|LEM:مِن
+5:77:17	قَبْلُ	N|ROOT:قبل|LEM:قَبْل|GEN
+5:77:18	وَأَضَلُّوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:ضلل|LEM:أَضَلَّ|3MP + N|PRON|SUFF|3MP
+5:77:19	كَثِيرًا	N|ROOT:كثر|LEM:كَثِير|MS|INDEF|ACC
+5:77:20	وَضَلُّوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MP + N|PRON|SUFF|3MP
+5:77:21	عَن	P|P|LEM:عَن
+5:77:22	سَوَآءِ	N|ROOT:سوي|LEM:سَواء|M|GEN
+5:77:23	ٱلسَّبِيلِ	P|DET|PREF|LEM:ال + N|ROOT:سبل|LEM:سَبِيل|M|GEN

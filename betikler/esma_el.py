@@ -1469,4 +1469,6 @@ KARAR = {
     '5:71:17': 'ilahi',  # ve'llâhu basîrun — 've'llâhu X' kuralı → ilahi (lafzın haberi)
     '5:72:33': 'degil',  # ve mâ li'z-zâlimîne min ensâr — çoğul insan göndergeli → degil (yardımcılar)
     '5:74:7': 'ilahi', '5:74:8': 'ilahi',  # ve'llâhu ğafûrun rahîm — 've'llâhu X' kuralı → ilahi (lafzın haberi)
+    # sure 5 blok 75-77
+    '5:76:15': 'ilahi', '5:76:16': 'ilahi',  # ve'llâhu huve's-semî'u'l-'alîm — 've'llâhu X' kuralı → ilahi (lafzın haberi)
 }

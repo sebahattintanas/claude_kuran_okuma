@@ -1,0 +1,15 @@
+KARAR.update({
+ 'açıkla-': "'açıkla-' ← 'nubeyyinu', 'yubeyyinu': bir lemma ('beyyenu' (morph LEM ham biçim); morph LEM eşit) — çakışma değil",
+ 'aşırı git-': "'aşırı git-' ← 'ta'tedû' (عدو) / 'teğlû' (غلو): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'başka': "'başka' ← 'âxar' / 'dûn' / 'ğayr': farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'kulluk et-': "'kulluk et-' ← ''abede', ''budû', 'ta'budû': bir lemma (''abede'; morph LEM eşit) — çakışma değil",
+ 'nasıl': "'nasıl' ← 'ennâ' / 'keyfe': farklı lemma ('ennâ', 'keyf') — çakışma — tam okuma sonu",
+ 'sap-': "'sap-' ← 'dalle', 'dallû': bir lemma ('dalle'; morph LEM eşit) — çakışma değil",
+ 'saptır-': "'saptır-' ← 'edallû' (ضلل) / 'yeftinû' (فتن; LEM 'fetenu' (morph LEM ham biçim)) / 'yuharrifûne' (حرف): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'uy-': "'uy-' ← 'tettebi'', 'tettebi'û', 'ttebe'a': bir lemma ('ittebe'a'; morph LEM eşit) — çakışma değil",
+ 'ye-': "'ye-' ← 'ekele', 'ekelû', 'kulû', 'ye'kulâ': bir lemma ('ekele'; morph LEM eşit; 'kulû' emir) — çakışma değil",
+ 'KÖK doğru-': "KÖK 'doğru-' ← 'doğru' ('sevâ''; سوي) / 'çok doğru' ('sıddîqa'; صدق): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK işit-': "KÖK 'işit-' ← 'işit-' ('semi'nâ'), 'işiten' ('semî''): bir kök (سمع), fiil / sıfat — çakışma değil",
+ 'KÖK ye-': "KÖK 'ye-' ← 'ye-' ('ekele', 'ekelû', 'kulû', 'ye'kulâ'), 'yeme' ('ekl'; أكل) / 'yemek' ('ta'âm'; طعم): birden çok kök — çakışma — tam okuma sonu; önceki karar (blok 21: kök kümesi yalnız أكل, fiil / masdar); gerekçe: 'yemek' ('ta'âm'; طعم) gruba girdi, kök kümesi genişledi",
+ 'KÖK git-': "KÖK 'git-' ← 'aşırı giden' (سرف), 'aşırı git-' (عدو, غلو), 'boşa git-' (حبط), 'git-' (ذهب): birden çok kök — çakışma — tam okuma sonu",
+})
