@@ -31,5 +31,11 @@ for f in sys.argv[1:]:
     import re as _re  # bölüm 1 (sûre 5) denetimi kuralı 7: wasl öncesi 've'' — 'va'' yazımı
     va = [m.group(0) for m in _re.finditer(r"(?<![a-zâîûçğışöüA-Z])va'[a-zâîûçğışöü-]+", t) if not t.startswith("' — wasl", m.end())]  # denetim bulgusunun alıntısı izinli
     if va: print(f, "wasl 'va'' yazımı:", sorted(set(va))[:8])
+    # bölüm 8 kuralı 16: art arda eş sözcük (yer tutucu + sabit metin çiftlemesi, örn. 'sapma sapma'); tırnaklı karşılık eşleri ('kâfir' 'kâfir') ve Türkçe ikilemeler izinli
+    IKI = {'ayet ayet', 'grup grup', 'parça parça', 'şaşkın şaşkın', 'kalıp kalıp', 'blok blok'}
+    for m in _re.finditer(r"(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜ'])([a-zçğıöşüâîûA-ZÇĞİÖŞÜ]{2,}) \1(?![a-zçğıöşüâîûA-ZÇĞİÖŞÜ'])", t):
+        _sat = t.splitlines()[t.count('\n', 0, m.start())] if t else ''
+        if _re.search(r"bölüm (?:denetimi \(|\d+ denetiminden)", _sat): continue  # bekleyen denetim bulgusu aynen taşınır (alıntılanan yapıntı izinli)
+        if m.group(0).lower() not in IKI: print('%s:%d:art arda eş sözcük: %s' % (f, t.count('\n', 0, m.start()) + 1, m.group(0)))
 PY
 echo "yasaklı tarama bitti"

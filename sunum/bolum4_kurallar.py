@@ -91,6 +91,18 @@ def kapsanan(a):
 for a in range(A, B + 1):
     eks = sorted(KISI.get(a, set()) - kapsanan(a))
     if eks: H.append('A1 kapsamı %d:%d şahıs etiketli kelime A1 dışında: %s' % (S, a, ', '.join('%d.' % w for w in eks)))
+# bölüm 8 kuralı 7: A1'de 2. şahıs etiketi 'muhatap' sözcüğüyle yazılır (söz içi muhatap 'söz içi' ekiyle); etiketin önündeki alt madde metninde 'muhatap' aranır
+for a in range(A, B + 1):
+    t = M[a]; a1 = t[t.index('A1 ') + 3:t.index(' A2 ')]
+    d, cur, its = 0, '', []
+    for ch in a1:
+        d += (ch == '(') - (ch == ')')
+        if ch == ';' and d == 0: its.append(cur); cur = ''
+        else: cur += ch
+    its.append(cur)
+    for it in its:
+        m = re.search(r'(?<![A-Za-z0-9])2(?:MS|FS|MP|FP|D)(?![A-Za-z0-9])', it)
+        if m and 'muhatap' not in it[:m.start()]: H.append("muhatap %d:%d 2. şahıs etiketi 'muhatap' sözcüğü olmadan: %s" % (S, a, it.strip()[:60]))
 # (10) simetri / İÇ düğüm alanı olmayan ayetler
 yok = ['%d:%d %s' % (S, a, ' + '.join(x for x in ('simetri', 'İÇ düğüm') if x not in olc[a - A])) for a in range(A, B + 1) if 'simetri' not in olc[a - A] or 'İÇ düğüm' not in olc[a - A]]
 print('ALAN YOK: ' + ('; '.join(yok) if yok else 'yok'))

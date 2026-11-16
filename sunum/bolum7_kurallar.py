@@ -6,7 +6,7 @@
 #  (7) D3 dışı listesi ⇔ say2 basılmış eşleri − blok ayetleri − bag − ayetler arası kalıp kayıtlarında anılanlar; 've başkaları' yok
 #  (9) bölüm maddesindeki 'bölüm X-k' ⇔ yamalar/blok_plani_5.txt
 #  (10) araç değişikliği maddesi ⇔ değişen sunum/ dosyaları (commit'li blokta o commit; yeni blokta repo HEAD ile fark)
-#  (12) nakarat3 maddesi: ayet başına ad ⇔ ölçüm kalıbı birebir (eş ad iki kalıba verilmez; 'بما' → 'bi-', 'فان' → 'fe-' öneki korunur)
+#  (12) nakarat3 maddesi: ayet başına ad ⇔ ölçüm kalıbı birebir (eş ad iki kalıba verilmez; bitişik 'bi-' / 'fe-' öneki korunur)
 # kullanım (/home/claude'dan): python3 sunum/bolum7_kurallar.py A B NN
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, importlib.util, unicodedata as ud
@@ -78,22 +78,22 @@ for d in sorted(glob.glob('/home/claude/b[0-9][0-9]')):
                 if not m: continue
                 for x in re.findall(r'(\d+)(?:-(\d+))?\.', m.group(3)):
                     for w in range(int(x[0]), int(x[1] or x[0]) + 1):
-                        if (a, w) in RT: FORMKOK.setdefault(m.group(2), set()).add(RT[(a, w)])
+                        if (a, w) in RT: FORMKOK.setdefault((m.group(1), m.group(2)), set()).add(RT[(a, w)])  # bölüm 8 kuralı 11: anahtar (Türkçe karşılık, Arapça biçim)
 for l in CAK:
     if l.startswith('KÖK'):
         h = "KÖK '%s' ←" % l.split()[1]
         grup = [(ad.strip(), ast.literal_eval(lst)) for ad, lst in re.findall(r'(?:← |; )([^;\[]+?) (\[[^\]]*\])', l)]
-        bek = {ad for ad, _ in grup}; formlar = {f for _, L in grup for f in L}
+        bek = {ad for ad, _ in grup}; formlar = {(ad, f) for ad, L in grup for f in L}
     else:
         h = "'%s' ←" % l.split(' ←')[0].strip()
-        formlar = set(ast.literal_eval(l.split(' ← ', 1)[1])); bek = formlar
+        formlar = set(ast.literal_eval(l.split(' ← ', 1)[1])); bek = formlar; formlar = {(l.split(' ←')[0].strip(), f) for f in formlar}
     if h not in SEG: continue  # başlık yokluğu bolum6 kuralı 2'nin işi
     uye, kr, parca = SEG[h]
     if uye != bek: H.append('(1) çakışma üye kümesi %s ARIZA eksik %s / fazla %s' % (h, sorted(bek - uye), sorted(uye - bek)))
     if h in ONCEKI:
         pu, pk, _ = ONCEKI[h]
-        if pk == 'tam' and kr == 'değil' and pu <= uye:  # kapalı çakışmanın üye kümesi daralmadan 'değil'e çevrilmesi
-            H.append('(1) kapalı karar tersine çevrildi %s: önceki %s → %s (üye kümesi daralmadı)' % (h, pk, kr))
+        if pk and kr and pk != kr and pu <= uye and not (re.search(r'önceki karar \(blok \d+', parca) and 'gerekçe' in parca):  # bölüm 8 kuralı 12: iki yönlü; önceki karar (blok, karar) ve gerekçe yazılınca susar
+            H.append('(1) kapalı karar çevrildi %s: önceki %s → %s (üye kümesi daralmadı; önceki karar ve gerekçe yazılmamış)' % (h, pk, kr))
     if l.startswith('KÖK'):
         kokler = set().union(*[FORMKOK.get(f, set()) for f in formlar]) if formlar else set()
         if len(kokler) > 1 and kr != 'tam': H.append('(2) KÖK grubu birden çok kök %s (%s) — karar tam okuma sonu olmalı' % (h, ' / '.join(sorted(kokler))))
@@ -224,5 +224,41 @@ for i in range(1, len(parcalar) - 1, 2):
         nk_k = sum(1 for p in kal if '|' not in p.split()[0] and p.split()[0].startswith(on) and len(p.split()[0]) > 2)
         nk_a = sum(1 for x in adlar if x.startswith(lat))
         if nk_k != nk_a: H.append("(12) nakarat3 %s: '%s' önekli ölçüm kalıbı %d / '%s' ile başlayan ad %d" % (parcalar[i].strip(), on, nk_k, lat, nk_a))
+# bölüm 8 kuralı 13: ad ⇔ ölçüm kalıbı içerik eşlemesi (öğe öğe, sıra korunarak; GEÇER / GEÇMEZ ayrımı ölçüm sırasıyla)
+mpa = {'ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'x','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','غ':'ğ','ف':'f','ق':'q','ك':'k','ل':'l','م':'m','ن':'n','ه':'h','و':'v','ي':'y','ى':'y','ة':'h'}
+def ska(w):
+    w = ''.join(c for c in ud.normalize('NFD', w.replace('ؤ', '').replace('ئ', '')) if not ud.combining(c))  # hemze kürsüsü (و / ي) iskelete girmez
+    return re.sub(r'(.)\1+', r'\1', ''.join(mpa.get(c, '') for c in w))
+def skl(t):
+    t = t.lower().replace('û', 'v').replace('î', 'y')
+    return re.sub(r'(.)\1+', r'\1', ''.join(c for c in t if c in 'bcdfğhklmnqrsştxzvy'))
+def oge_es(ad, p):
+    if ad == '_': return True
+    a_ = skl(ad)
+    if '|' in p:
+        b_ = ska(p.split('|')[1])
+        return a_ in (b_, b_.rstrip('h'), b_ + 'h', b_.rstrip('t'), b_.rstrip('yv')) or b_.rstrip('h') == a_.rstrip('t') or a_.rstrip('yv') == b_.rstrip('yv')
+    b_ = ska(p)
+    return bool(a_) and (a_ in b_ or b_ in a_) or (not a_ and not b_)
+for i in range(1, len(parcalar) - 1, 2):
+    ays = [int(x) for x in re.findall(r'%d:(\d+)' % S, parcalar[i])]
+    metin_ = parcalar[i + 1]
+    kal = []
+    for a in ays:
+        if A <= a <= B:
+            for p, sz in re.findall(r"`nakarat3` '([^']+)' \([^)]*\) → süzgeç (GEÇER|GEÇMEZ)", olc[a - A]):
+                if (p, sz) not in kal: kal.append((p, sz))
+    if not kal: continue
+    adl = []  # ad başına süzgeç: addan sonra gelen ilk GEÇER / GEÇMEZ (yalnız GEÇMEZ'li parça da doğru okunur)
+    for m_ in re.finditer(r"(?:^|, | ve |; )'(.+?)'(?=, '| ve '| süzgeç| GEÇ| \(|;|$)", metin_):
+        st_ = re.search(r'GEÇMEZ|GEÇER', metin_[m_.end():])
+        if st_: adl.append((m_.group(1), st_.group(0)))
+    adl = [k for k in adl if k[1] == 'GEÇER'] + [k for k in adl if k[1] == 'GEÇMEZ']
+    kal_g = [k for k in kal if k[1] == 'GEÇER'] + [k for k in kal if k[1] == 'GEÇMEZ']
+    if len(adl) != len(kal_g): continue  # sayı farkı kural 12'nin işi
+    for (ad, sz_a), (p, sz_p) in zip(adl, kal_g):
+        if sz_a != sz_p: H.append("(13) nakarat3 %s: '%s' %s yazılmış, ölçüm %s" % (parcalar[i].strip(), ad, sz_a, sz_p)); continue
+        po, ao = p.split(), ad.split()
+        if len(po) != len(ao) or not all(oge_es(x, y) for x, y in zip(ao, po)): H.append("(13) nakarat3 %s: ad '%s' ⇔ ölçüm kalıbı '%s' öğe eşlemesi tutmuyor" % (parcalar[i].strip(), ad, p))
 for h in H: print('HATA', h)
 print('bolum7_kurallar hata:', len(H))

@@ -81575,6 +81575,38 @@
   "ton": null,
   "ton_kismi": false
  },
+ "5:59": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    17,
+    "قَبْل"
+   ],
+   [
+    19,
+    "أَكْثَر"
+   ],
+   [
+    20,
+    "فاسِق"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "5:6": {
   "a": true,
   "bant": "KAPI_KAPALI",
@@ -81609,6 +81641,134 @@
    [
     58,
     "نِعْمَة"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:60": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    24,
+    "أَضَلّ"
+   ],
+   [
+    26,
+    "سَواء"
+   ],
+   [
+    27,
+    "سَبِيل"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:61": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    7,
+    "كُفْر"
+   ],
+   [
+    12,
+    "اللَّه"
+   ],
+   [
+    13,
+    "أَعْلَم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:62": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    7,
+    "عُدْوان"
+   ],
+   [
+    8,
+    "أَكْل"
+   ],
+   [
+    9,
+    "سُحْت"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:63": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    7,
+    "إِثْم"
+   ],
+   [
+    8,
+    "أَكْل"
+   ],
+   [
+    9,
+    "سُحْت"
    ]
   ],
   "ton": null,

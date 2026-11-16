@@ -48,6 +48,15 @@ for a, L in veri.MK.items():
                 if not p: continue
                 TQ += 1
                 if p not in MEAL.get(a, ''): H.append("Türkçe alıntı MEAL dışı %d:%d '%s'" % (S, a, p))
+# bölüm 8 kuralı 8: "'X' N. kelimede 'Y' ile", "… eki ile 'Y'" ve "iyelik ile 'Y'" alıntıları da; büyük / küçük harf korunur, Türkçe sözcük başı sınırı aranır
+TH = 'a-zçğıöşüâîûA-ZÇĞİÖŞÜ'
+for a, L in veri.MK.items():
+    for tr, q, its in L:
+        for it in its:
+            for p in re.findall(r"(?:kelimede|eki ile|iyelik ile) '((?:[^']|'(?=[a-zçğıöşü]))+)'", it):
+                if p.startswith('-'): continue
+                TQ += 1
+                if not re.search(r'(?<![%s])%s' % (TH, re.escape(p)), MEAL.get(a, '')): H.append("Türkçe alıntı MEAL dışı (sözcük başı) %d:%d '%s'" % (S, a, p))
 print('Türkçe alıntı: %d' % TQ)
 # ── (13) yıldız maddesi ⇔ bilanço ──
 sys.path.insert(0, '/home/claude/calisma'); _cwd = _o.getcwd(); _o.chdir('/home/claude/calisma')
@@ -75,11 +84,19 @@ ONCE = {}
 for l in open('/home/claude/calisma/esma_el.py', encoding='utf-8'):
     m = re.match(r"\s*'(\d+:\d+:\d+)':\s*'(\w+)',\s*#\s*(.*)", l)
     if m: ONCE.setdefault((LEM.get(m.group(1)), m.group(2)), []).append((m.group(1), m.group(3)))
+# bölüm 8 kuralı 2: esmâ kural adı kapalı listeden; listede olmayan ad isabet (yeni ad yalnız esma_el.py emsali anılarak ve kullanıcı kararıyla eklenir); ARIZA'da 'tam okuma sonu' notlu karar esma_el'e kapalı karar olarak girmez
+KAPALI = ("'inne/enne' haberi", "'ve'llâhu X' kuralı", 'esmâ adı esmâ dışı göndergeyle', 'çoğul insan göndergeli', 'olumsuz nekre ehad', 'lafzın haberi',
+          "'ve kâna'llâhu X' lafzın haberi", "'kefâ bi'llâhi X' temyizi", "'vecede'llâhe X' mef'ûlü")
+esm_it = ' '.join(item('esmâ:'))
 E14 = 0
 try: blk = open(Y + 'esma_el_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()
 except FileNotFoundError: blk = ''
 for k, kr, yorum in re.findall(r"'(\d+:\d+:\d+)':\s*'(\w+)',\s*#\s*(.*)", blk):
     E14 += 1
+    kad = yorum.split(' — ', 1)[1] if ' — ' in yorum else yorum
+    if not any(kad.startswith(x) for x in KAPALI): H.append("esmâ kural adı kapalı liste dışı %s: '%s'" % (k, kad.split(' → ')[0][:50]))
+    sg = re.search(r'%s .*?(?=\d+:\d+:\d+ |$)' % re.escape(k), esm_it)
+    if sg and 'tam okuma sonu' in sg.group(0): H.append("esmâ kararı 'tam okuma sonu' notlu ama esma_el'de kapalı: %s" % k)
     kural = next((x for x in KW if x in yorum), None)
     onc = [(kk, c) for kk, c in ONCE.get((LEM.get(k), kr), []) if kk != k and not (kk.startswith('%d:' % S) and A <= int(kk.split(':')[1]) <= B)]
     yapi = re.sub(r"^'+", '', yorum.split()[0])[:8] if yorum.split() else ''

@@ -41,7 +41,9 @@ try:
         if l: ELLE.add(ud.normalize('NFC', l))
 except FileNotFoundError: pass
 LEMS = {}  # iskelet → (LEM, ham mı)
-for f in sorted(glob.glob('/home/claude/b*/morph%d.txt' % S)):
+BL = {}  # bölüm 8 kuralı 9: bu bloğun kendi morph LEM'leri (iskelet → ham mı) — ham kararı önce buradan
+for f in sorted(glob.glob('/home/claude/b[0-9][0-9]/morph%d.txt' % S)):
+    if int(f.split('/')[-2][1:]) > int(NN): continue  # bölüm 8 kuralı 9: yalnız okunmuş bloklar (blok ≤ NN)
     for l in open(f, encoding='utf-8'):
         loc, fo, t, feat = l.rstrip('\n').split('\t')
         m = re.search(r'LEM:([^|]+)', feat)
@@ -49,6 +51,7 @@ for f in sorted(glob.glob('/home/claude/b*/morph%d.txt' % S)):
         L = ud.normalize('NFC', m.group(1))
         ham = (t == 'V' and bozuk(L, feat)) or L in ELLE
         LEMS.setdefault(nb(isk_ar(L)), {})[L] = ham
+        if f.split('/')[-2] == 'b%s' % NN: BL.setdefault(nb(isk_ar(L)), set()).add(ham)
 HAM_IS = {k for k, d in LEMS.items() if all(d.values())}  # iskelet eşi lemmaların hepsi ham ise
 adlar = []  # (bağlam, ad, ardından gelen)
 KOKLU = []  # bölüm 6 kuralı 3: kökü ve ayeti anılan çakışma adları (ad, kök, ayetler, notlu)
@@ -73,7 +76,11 @@ LEMS2 = {}
 for k in LEMS: LEMS2.setdefault(zayif(k), set()).add(k)
 for bag, ad, notlu in adlar:
     k = isk_la(ad)
-    aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n'), k.rstrip('t'), k + 't') if x in LEMS]  # ة: 't' ile ya da 't'siz yazım
+    aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n'), k.rstrip('t')) + ((k + 't',) if ad.endswith(('e', 'â')) else ()) if x in LEMS]  # ة: 't' ile ya da 't'siz yazım; bölüm 8 kuralı 9: 't' adayı yalnız 'e' / 'â' ile biten adda
+    kb = next((x for x in aday if x in BL), None)
+    if kb is not None:  # bölüm 8 kuralı 9: kaydın kendi bloğunun morph LEM'inden
+        if all(BL[kb]) and not notlu: NOTSUZ.append('%s %s' % (bag, ad))
+        continue
     if not aday:
         aday = sorted(set().union(*[LEMS2.get(zayif(x), set()) for x in (k, k.rstrip('n'), k.rstrip('h'))]))
     if not aday:

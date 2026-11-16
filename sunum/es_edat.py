@@ -1,4 +1,5 @@
 # bölüm 1 (sûre 5) denetimi kuralı 6: eş edat / zamir karşılık listesi — morph etiketli başlıklar, zamirler birleşik ('hu' / 'hû' / 'hî' / 'hi'; 'hum' / 'him'), 'bi' dahil
+# bölüm 8 kuralı 15: Türkçe hedefte kesme işaretli biçimler ('O'nun', 'O'nu', 'Allah'ın') ayrıştırılır
 # bölüm 5 kuralı 2: 'î' / 'nî' / 'te' / 'tu' / 'â' zamir kümesinde (edat_etiket.ZAMIR), büyük harfli tırnaksız biçimler, ayrıştırılamayan ve tanınmayan maddeler sayılır
 # kullanım (/home/claude'dan): python3 sunum/es_edat.py <blok no> [<blok no> …]  — bNN/yap/veri.py (MK) + bNN/morph<S>.txt; yalnız iki ya da daha çok geçişli başlıklar
 import sys, os, re, importlib.util as iu, collections
@@ -15,7 +16,7 @@ for nn in sys.argv[1:]:
     for a, L in v.MK.items():
         for tr, q, items in L:
             for it in items:
-                m = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede (karşılıksız|'([^']*)'(?: [a-zçğıöşü]+)? ile|([a-zçğıöşüA-Z0-9 ]+?) ile)", it)  # bölüm 2 denetimi kuralı 3: ''-i' iyelik ile' biçimi; bölüm 4 kuralı 5: tırnaksız biçimler
+                m = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede (karşılıksız|'((?:[^']|'(?=[a-zçğıöşü]))*)'(?: [a-zçğıöşü]+)? ile|([a-zçğıöşüA-Z0-9 ]+?) ile)", it)  # bölüm 2 denetimi kuralı 3: ''-i' iyelik ile' biçimi; bölüm 4 kuralı 5: tırnaksız biçimler
                 if not m:
                     m0 = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede ", it)
                     if m0: HATA.append('%d:%d ' % (S, a) + it[:50])  # bölüm 5 kuralı 2: kelimede kaydı olup ayrıştırılamayan her madde
