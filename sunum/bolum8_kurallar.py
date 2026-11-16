@@ -66,8 +66,11 @@ def liste(it):
     return [p.replace(' (morph LEM ham biçim)', '')[1:-1] for p in re.split(r"(?<=['\)]), (?=')", m.group(1))] if m else []
 LL = set(x for it in item('bağ:') for x in liste(it))
 adlar = []
-for it in item('araç tanımı farkları (R5') + item('nakarat3 (R3'):
-    adlar += re.findall(r"nakarat3 '([^;()]{1,80}?)' \d+ \(tür ic\)", it) + re.findall(r"lemma dizisi '(.+?)' \(", it)
+for it in item('araç tanımı farkları (R5'):  # bölüm 9 kuralı 14: yalnız R5 satır başındaki kalıp adı ve 'eşit aralıkla lemma dizisi' adı; düzyazıdan ad yakalanmaz
+    for sat in re.split(r'; (?=%d:\d+ nakarat3 )' % S, it.split('): ', 1)[-1]):
+        m = re.match(r"%d:\d+ nakarat3 '(.+?)' \d+ \(tür ic\)" % S, sat)
+        if m: adlar.append(m.group(1))
+        adlar += re.findall(r"eşit aralıkla lemma dizisi '(.+?)' \(\d", sat)
 nk = ' '.join(item('nakarat3 (R3'))
 if '): ' in nk: adlar += re.findall(r"(?:: |, | ve |; |\d )'(.+?)'(?=, '| ve '| süzgeç| GEÇ|;|$)", nk.split('): ', 1)[1])
 for a in range(A, B + 1): adlar += re.findall(r"lemma dizisi '(.+?)'(?= \d+ ayet| korpusta| \()", M[a])

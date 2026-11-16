@@ -162,7 +162,9 @@ for a in range(A, B + 1):
     nums = {int(x) for x in re.findall(r'(\d+)\.', sat)}
     for (aa, w) in sorted(MOR):
         if aa == a and tetikler(a, w) and w not in nums: H.append('(4) tetik kapsamı %d:%d %d. kelime %s ◈ satırında yok' % (S, a, w, kok(a, w)))
-    DIA |= {(a, kok(a, n)) for n in nums if kok(a, n) in SINIF}
+    DIA |= {(a, kok(a, n)) for n in nums if tetikler(a, n)}  # bölüm 9 kuralı 12: ◇ ⇔ ARIZA kümesi de S1 süzgeciyle; ◈'de S1 dışı lemma isabet
+    for n in sorted(nums):
+        if kok(a, n) in SINIF and not tetikler(a, n): H.append('(4) ◈ satırında S1 dışı lemma %d:%d %d. kelime %s' % (S, a, n, kok(a, n)))
 tt = ' '.join(item('◈ tetik'))
 ARZ = {(int(a), r) for a, r in re.findall(r'%d:(\d+) ◈[KB] ([؀-ۿ]+)' % S, tt)}
 if ARZ != DIA: H.append('(4) ◈ tetik maddesi ⇔ ◇: ARIZA fazla %s / ◇ fazla %s' % (sorted(ARZ - DIA), sorted(DIA - ARZ)))

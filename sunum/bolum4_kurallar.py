@@ -40,12 +40,26 @@ for a in range(A, B + 1):
         if ch == ';' and d == 0: ITEMS.append(cur); cur = ''
         else: cur += ch
     ITEMS.append(cur)
-    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|adlı aktör'  # bölüm 6 kuralı 15: 'lafız' / 'gönderge lafız' ölçüt yerine geçmez
+    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|adlı aktör|fiil uyumu'  # bölüm 9 kuralı 8: açık adlı failde '(fiil uyumu; fail N. kelime)'  # bölüm 6 kuralı 15: 'lafız' / 'gönderge lafız' ölçüt yerine geçmez
     for it in ITEMS:
         subs = it.split(';')
         for k, sub in enumerate(subs):  # etiket kendi alt maddesinde ya da madde başının parantezinde ad ölçütü taşır
             if re.search(TAG, sub) and not re.search(MRK, sub) and not (k and re.search(MRK, subs[0])):
                 H.append('adsız etiketi yok %d:%d %s' % (S, a, sub.strip()[:70]))
+    # bölüm 9 kuralı 8: fiilin ardında açık adlı fail (NOM ad, zamir / mevsûl değil) varken fiil segmenti 'faili … adsız' / 'adsız; gönderge' yazılmaz;
+    # açık ad öğesine ''X' faili' rolü verilir ya da fiil '(fiil uyumu; fail N. kelime)' biçimiyle yazılır
+    a1x = a1[:a1.index(' A2 ')]
+    def acik_fail(n):
+        f = MOR.get((a, n), '')
+        if not re.search(r'(?:^|\+ )V\|(?![^+]*PASS)[^+]*\|3[MF]S(?:\||$| )', f): return None  # etken, 3. tekil (VSO: açık fail fiilin hemen ardında)
+        g = MOR.get((a, n + 1), '')
+        if re.match(r'(?:P\|DET\|PREF[^+]*\+ )?N\|(?![^+]*(?:PRON|REL|DEM))[^+]*\|NOM', g): return n + 1  # 've' / 'fe' önekli ad yeni cümle
+        return None
+    for m in re.finditer(r"'((?![ ;(])(?:[^';()]|'(?=[a-zâîûçğışöü]))+)' (?:faili )?(?:1P|1S|2MS|2MP|3MS|3FS|3MP|3FP) \((adsız[^)]*?)(\d+)\. kelime\)", a1x):
+        n = int(m.group(3)); k = acik_fail(n)
+        if k is None or 'gönderge' not in m.group(2) and 'faili' not in m.group(0): continue
+        if 'faili' in m.group(0) or "('%s' faili" % m.group(1) not in a1x:
+            H.append("açık fail %d:%d %d. kelime '%s' (fail %d. kelime) — 'faili … adsız' yerine '(fiil uyumu; fail %d. kelime)' ya da açık ada rol" % (S, a, n, m.group(1), k, k))
     for m in re.finditer(r"'li-[^']+' \(([^)]*)\)", a1[:a1.index(' A2 ')]):
         if 'söz muhatabı, adsız' not in m.group(1): H.append('söz muhatabı %d:%d %s' % (S, a, m.group(0)[:60]))
     # ◈ alt sınıf

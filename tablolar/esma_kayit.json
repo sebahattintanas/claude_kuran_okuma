@@ -81870,6 +81870,111 @@
   "ton": null,
   "ton_kismi": false
  },
+ "5:67": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    20,
+    "اللَّه"
+   ],
+   [
+    23,
+    "قَوْم"
+   ],
+   [
+    24,
+    "كافِر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:68": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    25,
+    "كُفْر"
+   ],
+   [
+    29,
+    "قَوْم"
+   ],
+   [
+    30,
+    "كافِر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "5:69": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    12,
+    "آخِر"
+   ]
+  ],
+  "esma_el": {
+   "5:69:12": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "آخِر"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    12,
+    "آخِر"
+   ],
+   [
+    14,
+    "صالِح"
+   ],
+   [
+    16,
+    "خَوْف"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
  "5:7": {
   "a": true,
   "bant": "KAPI_KAPALI",
@@ -81909,6 +82014,38 @@
    ]
   ],
   "ton": "denge",
+  "ton_kismi": false
+ },
+ "5:70": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    15,
+    "نَفْس"
+   ],
+   [
+    16,
+    "فَرِيق"
+   ],
+   [
+    18,
+    "فَرِيق"
+   ]
+  ],
+  "ton": null,
   "ton_kismi": false
  },
  "5:8": {

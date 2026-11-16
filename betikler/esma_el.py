@@ -1463,4 +1463,6 @@ KARAR = {
     '5:57:23': 'degil',  # mu'minîn — çoğul insan göndergeli → degil (inananlar)
     # sure 5 blok 59-63
     # sure 5 blok 64-66
+    # sure 5 blok 67-70
+    '5:69:12': 'degil',  # ve'l-yevmi'l-âxir — esmâ adı esmâ dışı göndergeyle → degil (günün sıfatı, âhiret günü)
 }
