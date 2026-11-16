@@ -1462,4 +1462,5 @@ KARAR = {
     '5:57:18': 'degil',  # evliyâ'e — çoğul insan göndergeli → degil (alay edenler ve kâfirler)
     '5:57:23': 'degil',  # mu'minîn — çoğul insan göndergeli → degil (inananlar)
     # sure 5 blok 59-63
+    # sure 5 blok 64-66
 }

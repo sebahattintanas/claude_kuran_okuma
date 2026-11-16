@@ -147,12 +147,21 @@ SINIF = {}
 for c, ks in {'K1': 'سمو أرض شمس قمر نجم كوكب ليل نهر فلك سحب روح موه بحر جبل', 'K2': 'يوم أجل سنو عمر سوع دهر أبد حين',
               'B1': 'أنس دبب نعم طير نبت شجر', 'B2': 'خلق نطف علق زوج حمل وضع أنث', 'B3': 'عنق ذقن يدي عين سمع بصر جلد قلب', 'B4': 'حيي موت'}.items():
     for k in ks.split(): SINIF[k] = c
+# S1 lemma kısıtı (calisma/oturum_tetik.py ile eş): روح سوع سنو سمو نعم kökünde yalnız izinli lemma tetikler
+_s.path.insert(0, '/home/claude/calisma'); _cwd = _o.getcwd(); _o.chdir('/home/claude/calisma')
+from oturum_tetik_s1 import izinli as _izinli
+_o.chdir(_cwd)
+def lem(a, w):
+    for fo, ft in MOR.get((a, w), []):
+        m = re.search(r'LEM:([^|]+)', ft)
+        if m and re.search(r'ROOT:', ft): return m.group(1)
+def tetikler(a, w): return kok(a, w) in SINIF and _izinli(kok(a, w), lem(a, w))
 DIA = set()
 for a in range(A, B + 1):
     sat = ' '.join(l for l in M[a].split('\n') if l.startswith(('◈K', '◈B')))
     nums = {int(x) for x in re.findall(r'(\d+)\.', sat)}
     for (aa, w) in sorted(MOR):
-        if aa == a and kok(a, w) in SINIF and w not in nums: H.append('(4) tetik kapsamı %d:%d %d. kelime %s ◈ satırında yok' % (S, a, w, kok(a, w)))
+        if aa == a and tetikler(a, w) and w not in nums: H.append('(4) tetik kapsamı %d:%d %d. kelime %s ◈ satırında yok' % (S, a, w, kok(a, w)))
     DIA |= {(a, kok(a, n)) for n in nums if kok(a, n) in SINIF}
 tt = ' '.join(item('◈ tetik'))
 ARZ = {(int(a), r) for a, r in re.findall(r'%d:(\d+) ◈[KB] ([؀-ۿ]+)' % S, tt)}

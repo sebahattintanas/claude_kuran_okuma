@@ -8,7 +8,7 @@ import sys, re
 H = "a-zçğıöşüâîûA-ZÇĞİÖŞÜ"
 P = r"aynı|ilk|ikinci|tek|her ikisi|ikisi de|token|[0-9]+ ayette|[a-zçğıöşü]+ ayette|[0-9]+ ayetinde|[a-zçğıöşü]+ ayetinde|ikisinde de|kez|[a-zçğıöşü]+ü de|[a-zçğıöşü]+(?:nde|nda|sında|sinde) d[ae]|kelimede de|[a-zçğıöşü]+(?:üncü|ıncı|inci|uncu)|sûre [0-9]+ okun[a-zçğıöşü]*|(?:ikisin|üçün|dördün|beşin|altısın)[a-zçğıöşü]*|(?:[0-9]+|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on) ayetin[a-zçğıöşü]*"  # bölüm 4 kuralı 12
 P += r"|(?:bir|iki|üç|dörd|beş|altı|yedi|sekiz|dokuz|on|son|yirmi|otuz|kırk|elli)(?:üncü|ıncı|inci|uncu)[a-zçğıöşü]+|(?:ikisi|üçü|dördü|beşi|altısı|yedisi|sekizi|dokuzu)[a-zçğıöşü]*|bir(?:i|ini|inin|ine|inde|inden|isi|isini|isinin|isinde|isine)|birer|ikişer|üçer|dörder|altışar|yedişer|sekizer|dokuzar"  # bölüm 5 kuralı 6: 'bir'–'dokuz' + iyelik, sıra sayısı + ek, dağıtma ('beşer' insan anlamıyla eş biçimli, 'on' + iyelik 'onu' zamirle eş biçimli, taranmaz)
-IZIN = ("'biri' (5:27:12)", "'birer' dağıtma", "\\'birer\\' dağıtma", 'üçü de', 'kalıp: ikisi süzgeç', 'kalıp: üçü süzgeç', 'kalıp: dördü süzgeç', 'xref üçü de boş')
+IZIN = ("'biri' (5:27:12)", "'birer' dağıtma", "\\'birer\\' dağıtma", 'üçü de', 'kalıp: ikisi süzgeç', 'kalıp: üçü süzgeç', 'kalıp: dördü süzgeç', 'xref üçü de boş', "'bozguncu'")  # 'bozguncu' (fâil adı, 'mufsid' karşılığı) sıra sayısı eki değil
 R = re.compile(r"(?<![%s])(?:%s)(?![%s])" % (H, P, H))
 for f in sys.argv[1:]:
     for n, l in enumerate(open(f, encoding='utf-8'), 1):

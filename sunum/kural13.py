@@ -49,6 +49,7 @@ for parca in re.split(r'(?<![\d:])%d:(\d+) ' % S, sz)[1:]:
                     if gercek and gercek[0] != tg[0]: H('(2) etiket', cur, w, yaz, tg[0], '≠ morph', gercek[0])
 mp = {'ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'x','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','ع':'','غ':'ğ','ف':'f','ق':'q','ك':'k','ل':'l','م':'m','ن':'n','ه':'h','ة':'','ء':'','أ':'','إ':'','ؤ':'','ئ':'','و':'v','ي':'y','ى':''}
 def ska(w): return re.sub(r'(.)\1+', r'\1', ''.join(mp.get(c, '') for c in ud.normalize('NFC', w) if not ud.combining(c)))
+def nb(x): return re.sub(r'(.)\1+', r'\1', x)  # zayıf harf atıldıktan sonra yeniden tekilleştirme ('mağlûle' / مغلولة)
 def skl(t): return re.sub(r'(.)\1+', r'\1', ''.join(c for c in t.lower().replace('x', 'x') if c in 'bcdfğhklmnqrsştxzvy'))
 LEMS = set()
 import glob
@@ -61,12 +62,12 @@ for n in range(A, B + 1):
     d0 = M[n].split(' — ', 1)[1].split(' (ölçüm')[0]
     for x in re.findall(r"(?:nekre|belirli|çoğul|ortaç|masdar|bab|özel ad) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", d0):
         nl += 1; s_ = skl(x)
-        if not any(s_ == L or s_.replace('y', '') == L.replace('y', '') or s_.replace('v', '') == L.replace('v', '') for L in LEMS): H('(4) ◇ lemma', n, x, s_)
+        if not any(s_ == L or nb(s_.replace('y', '')) == nb(L.replace('y', '')) or nb(s_.replace('v', '')) == nb(L.replace('v', '')) for L in LEMS): H('(4) ◇ lemma', n, x, s_)
 metin = '\n'.join(M[n] for n in range(A, B + 1)) + '\n' + '\n'.join(x for x in ar if not x.startswith(('bölüm denetimi', 'kullanıcı kararı')) and not re.match(r'bölüm \d+ denetiminden', x))
 for m in re.finditer(r"lemma(?:ları)? ('(?:[^']|'(?=[a-zâîûçğışöü]))+'(?:(?:, | ve )'(?:[^']|'(?=[a-zâîûçğışöü]))+')*)", metin):
     for x in re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", m.group(1)):
         s = skl(x); nl += 1
-        if not any(s == L or s.replace('y', '') == L.replace('y', '') or s.replace('v', '') == L.replace('v', '') for L in LEMS):
+        if not any(s == L or nb(s.replace('y', '')) == nb(L.replace('y', '')) or nb(s.replace('v', '')) == nb(L.replace('v', '')) for L in LEMS):
             H('(4) lemma', x, s)
 r5 = [x for x in ar if x.startswith('araç tanımı')][0]
 for h in re.split(r'; (?=%d:\d+ |\')' % S, r5):

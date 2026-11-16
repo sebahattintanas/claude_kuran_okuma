@@ -41,12 +41,14 @@ try:
         if l: ELLE.add(ud.normalize('NFC', l))
 except FileNotFoundError: pass
 LEMS = {}  # iskelet → (LEM, ham mı)
+BLP = set()  # bu bloğun edat (P) LEM iskeletleri — edat adı, zayıf harf eşlemesiyle fiil / isim LEM'ine bağlanmaz
 BL = {}  # bölüm 8 kuralı 9: bu bloğun kendi morph LEM'leri (iskelet → ham mı) — ham kararı önce buradan
 for f in sorted(glob.glob('/home/claude/b[0-9][0-9]/morph%d.txt' % S)):
     if int(f.split('/')[-2][1:]) > int(NN): continue  # bölüm 8 kuralı 9: yalnız okunmuş bloklar (blok ≤ NN)
     for l in open(f, encoding='utf-8'):
         loc, fo, t, feat = l.rstrip('\n').split('\t')
         m = re.search(r'LEM:([^|]+)', feat)
+        if m and t == 'P' and f.split('/')[-2] == 'b%s' % NN: BLP.add(nb(isk_ar(ud.normalize('NFC', m.group(1)))))
         if not m or t not in ('N', 'V'): continue
         L = ud.normalize('NFC', m.group(1))
         ham = (t == 'V' and bozuk(L, feat)) or L in ELLE
@@ -81,6 +83,7 @@ for bag, ad, notlu in adlar:
     if kb is not None:  # bölüm 8 kuralı 9: kaydın kendi bloğunun morph LEM'inden
         if all(BL[kb]) and not notlu: NOTSUZ.append('%s %s' % (bag, ad))
         continue
+    if not aday and k in BLP: continue  # edat adı ('bel', 'lev' …)
     if not aday:
         aday = sorted(set().union(*[LEMS2.get(zayif(x), set()) for x in (k, k.rstrip('n'), k.rstrip('h'))]))
     if not aday:
