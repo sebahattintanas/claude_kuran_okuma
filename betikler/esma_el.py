@@ -1476,4 +1476,6 @@ KARAR = {
     # sure 5 blok 82-86
     # sure 5 blok 87-89
     '5:88:12': 'degil',  # 'mu'minûn' — çoğul insan göndergeli → degil (inananlar)
+    # sure 5 blok 90-93
+    '5:92:13': 'degil',  # 'l-mubîn' — esmâ adı esmâ dışı göndergeyle → degil (tebliğin sıfatı)
 }

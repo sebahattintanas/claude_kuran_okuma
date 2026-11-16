@@ -1,0 +1,5 @@
+ # blok 90-93
+ 90: dict(kademe=None, olgu=False, cipa=False, not_="'innemâ'l-xamru ve'l-meysiru' — hüküm ve yasak (olgu=False); tarayıcı vermedi"),
+ 91: dict(kademe=None, olgu=False, cipa=False, not_="'innemâ yurîdu'ş-şeytânu' — şeytanın isteği haberi (olgu=False); tarayıcı vermedi"),
+ 92: dict(kademe=None, olgu=False, cipa=False, not_="'ve atî'u'llâhe' — emir (olgu=False); tarayıcı vermedi"),
+ 93: dict(kademe=None, olgu=False, cipa=False, not_="'leyse 'ale'llezîne âmenû' — hüküm (olgu=False); tarayıcı vermedi"),
