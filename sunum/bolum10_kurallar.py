@@ -67,13 +67,17 @@ for b in bol:
     if int(NN) == nos[0] and 'bölüm açılışı' not in (parca(satir(A, '◈A'), 'A4 ', '') or ''): H.append('(2) %d:%d A4 bölüm açılışı yok' % (S, A))
     if int(NN) == nos[-1] and 'bölüm kapanışı' not in (parca(satir(B, '◈A'), 'A4 ', '') or ''): H.append('(2) %d:%d A4 bölüm kapanışı yok' % (S, B))
 # ── (3) meal karşılık farkı kararları ──
-def kat(seg):
+def kat(seg):  # bölüm 11 denetimi kuralı 8: kapalı sözlük yalnız 'çakışma değil' / 'çakışma — tam okuma sonu' ('bilinçli fark', 'düzeltildi' sözlük dışı)
     k = seg.split(' — ', 1)[1] if ' — ' in seg else ''
     if 'karar yok' in k: return 'yok'
     if k.startswith('çakışma değil'): return 'değil'
-    if k.startswith('bilinçli fark'): return 'bilinçli'
+    if k.startswith('çakışma — tam okuma sonu'): return 'tam'
+    return '?'
+def kat_eski(seg):  # önceki blokların kararları (bölüm 11 öncesi sözlük) — yön karşılaştırması için
+    k = seg.split(' — ', 1)[1] if ' — ' in seg else ''
+    if 'karar yok' in k: return 'yok'
+    if k.startswith('çakışma değil') or k.startswith('bilinçli fark') or k.startswith('düzeltildi'): return 'değil'
     if 'tam okuma sonu' in k: return 'tam'
-    if k.startswith('düzeltildi'): return 'düzeltildi'
     return '?'
 def kararlar(metin):
     mk = metin.split('): ', 1)[-1]
@@ -97,7 +101,7 @@ for m in item('meal karşılık farkı kararları'):
         fo = formlar(seg); onc = None
         for a_, segs in ONCE:
             for s2 in segs:
-                if fo & formlar(s2) and kat(s2) not in ('yok', '?'): onc = (a_, kat(s2))
+                if fo & formlar(s2) and kat_eski(s2) not in ('yok', '?'): onc = (a_, kat_eski(s2))
         if onc and onc[1] != k and not (re.search(r'önceki karar \(blok \d+', seg) and 'gerekçe' in seg):
             H.append('(3) meal kararı yön değiştirdi (blok %s: %s → %s), önceki karar yazılmamış: %s' % (BLOKNO.get(onc[0], '?'), onc[1], k, seg[:60]))
 # ── (5) fiil yönetimi takdiri ──
@@ -122,8 +126,11 @@ for a in range(A, B + 1):
     bm = [h for h in hed if h not in BAS]
     ok = len([h for h in bm if oku(*map(int, h.split(':')))]); hz = len(bm) - ok
     hsi = len([h for h in bm if not oku(*map(int, h.split(':'))) and int(h.split(':')[0]) == S])
-    if ok and ('okunmuş %d ayet' % ok) not in M[a]: H.append("(6) %d:%d xref 'okunmuş %d ayet' yazılmamış" % (S, a, ok))
-    if hz and ('okunmamış %d ayet (sûre içi %d)' % (hz, hsi)) not in M[a]: H.append("(6) %d:%d xref 'okunmamış %d ayet (sûre içi %d)' yazılmamış" % (S, a, hz, hsi))
+    xc = ' '.join(re.findall(r'Ölçüm xref[^.]*\.', M[a]))  # bölüm 11 denetimi kuralı 4: sayı yalnız ◇ 'Ölçüm xref …' cümlesinde
+    xa = ' '.join(p_ for p_ in re.split(r'; (?=%d:\d+ )' % S, xi) if p_.startswith('%d:%d ' % (S, a)) or ('ölçüm xref' in p_ and '): %d:%d ' % (S, a) in p_))
+    if hed and not xc: H.append("(6) %d:%d ölçüm xref var, ◇'de 'Ölçüm xref' cümlesi yok" % (S, a))
+    if ok and ('okunmuş %d ayet' % ok) not in xc: H.append("(6) %d:%d xref 'okunmuş %d ayet' yazılmamış" % (S, a, ok))
+    if hz and not (('okunmamış %d ayet (sûre içi %d)' % (hz, hsi)) in xc or (hsi == 0 and re.search(r'okunmamış %d ayet(?! \(sûre içi)' % hz, xc))): H.append("(6) %d:%d xref 'okunmamış %d ayet%s' yazılmamış" % (S, a, hz, (' (sûre içi %d)' % hsi) if hsi else ''))
 # ── (7) D2 biçim etiketi ──
 for a in range(A, B + 1):
     d2 = parca(satir(a, '◈D'), 'D2 ', '; D3') or ''

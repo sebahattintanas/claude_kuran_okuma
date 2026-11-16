@@ -1474,4 +1474,6 @@ KARAR = {
     # sure 5 blok 78-81
     '5:81:11': 'degil',  # 'evliyâ'e' — çoğul insan göndergeli → degil (velîler)
     # sure 5 blok 82-86
+    # sure 5 blok 87-89
+    '5:88:12': 'degil',  # 'mu'minûn' — çoğul insan göndergeli → degil (inananlar)
 }

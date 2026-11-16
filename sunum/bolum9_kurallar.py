@@ -130,15 +130,15 @@ for sat in SAT:
         o = run('python3', '/home/claude/sunum/r5_gerekce.py', str(S), ma.group(1), m.group(1), m.group(2)).strip().split(': ', 1)[-1]
         if o not in g: H.append("(4) R5 %d:%s gerekçe r5_gerekce çıktısını taşımıyor ('%s')" % (S, ma.group(1), o))
     if 'harekesiz' in sat.split(' sûre içi')[0] and 'hareke ' in g: H.append("(4) R5 %d:%s harekesiz kalıpta 'hareke' gerekçesi" % (S, ma.group(1)))
-# (5) ölçüm nakarat3 ⇔ R5; ◇ lemma dizisi sayısı
+# (5) ölçüm nakarat3 ⇔ R5 (bölüm 11 denetimi kuralı 3: 'tür tam' dahil); ◇ lemma dizisi sayısı
 NK = {}
 for a in range(A, B + 1):
-    NK[a] = [(p_, int(n_), z_) for p_, n_, z_ in re.findall(r"`nakarat3` '([^']+)' \(\d+ kelime / (\d+) ayet, tür ic\) → süzgeç \*\*(GEÇER|GEÇMEZ)\*\*", olc[a - A])]
+    NK[a] = [(p_, int(n_), z_) for p_, n_, z_ in re.findall(r"`nakarat3` '([^']+)' \(\d+ kelime / (\d+) ayet, tür (?:ic|tam)\) → süzgeç \*\*(GEÇER|GEÇMEZ)\*\*", olc[a - A])]
     r5a = [s_ for s_ in SAT if s_.startswith('%d:%d nakarat3' % (S, a))]
     if len(r5a) != len(NK[a]): H.append('(5) %d:%d ölçüm nakarat3 %d / R5 satırı %d (GEÇMEZ dahil)' % (S, a, len(NK[a]), len(r5a)))
     src = open('/home/claude/b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
     for s_ in r5a:
-        mm = re.match(r"%d:%d nakarat3 '(.+?)' (\d+) \(tür ic\)" % (S, a), s_)
+        mm = re.match(r"%d:%d nakarat3 '(.+?)' (\d+) \(tür (?:ic|tam)\)" % (S, a), s_)
         if not mm: continue
         ad, nk = mm.group(1), int(mm.group(2))
         for key in re.findall(r"say\('(dizi %d %d \d+ \d+)', \"%s\"\)" % (S, a, re.escape(ad)), src):

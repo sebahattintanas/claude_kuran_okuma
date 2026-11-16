@@ -1,0 +1,74 @@
+5:87:1	يَٰٓأَيُّهَا	P|VOC|PREF|LEM:ي + N|ROOT:أيي|LEM:أَيّ|ACC + P|ATT|SUFF|LEM:ه
+5:87:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:87:3	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+5:87:4	لَا	P|PRO|LEM:لا
+5:87:5	تُحَرِّمُوا۟	V|IMPF|VF:2|ROOT:حرم|LEM:حَرَّمَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:87:6	طَيِّبَٰتِ	N|ROOT:طيب|LEM:طَيِّبَة|FP|ACC
+5:87:7	مَآ	N|REL|LEM:ما
+5:87:8	أَحَلَّ	V|PERF|VF:4|ROOT:حلل|LEM:أَحَلَّ|3MS
+5:87:9	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:87:10	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:87:11	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+5:87:12	تَعْتَدُوٓا۟	V|IMPF|VF:8|ROOT:عدو|LEM:اعْتَدَى|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:87:13	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+5:87:14	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:87:15	لَا	P|NEG|LEM:لا
+5:87:16	يُحِبُّ	V|IMPF|VF:4|ROOT:حبب|LEM:أَحْبَبْ|3MS|MOOD:IND
+5:87:17	ٱلْمُعْتَدِينَ	P|DET|PREF|LEM:ال + N|ROOT:عدو|LEM:مُعْتَدي|MP|ACC
+5:88:1	وَكُلُوا۟	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:أكل|LEM:أَكَلَ|2MP + N|PRON|SUFF|2MP
+5:88:2	مِمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+5:88:3	رَزَقَكُمُ	V|PERF|VF:1|ROOT:رزق|LEM:رَزَقَ|3MS + N|PRON|SUFF|2MP
+5:88:4	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:88:5	حَلَٰلًا	N|ROOT:حلل|LEM:حَلال|M|INDEF|ACC
+5:88:6	طَيِّبًا	N|ROOT:طيب|LEM:طَيِّب|MS|INDEF|ACC|ADJ
+5:88:7	وَٱتَّقُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP + N|PRON|SUFF|2MP
+5:88:8	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:88:9	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+5:88:10	أَنتُم	N|PRON|2MP
+5:88:11	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+5:88:12	مُؤْمِنُونَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|NOM
+5:89:1	لَا	P|NEG|LEM:لا
+5:89:2	يُؤَاخِذُكُمُ	V|IMPF|VF:3|ROOT:أخذ|LEM:يُؤاخِذُ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+5:89:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:89:4	بِٱللَّغْوِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:لغو|LEM:لَغْو|M|GEN
+5:89:5	فِىٓ	P|P|LEM:فِي
+5:89:6	أَيْمَٰنِكُمْ	N|ROOT:يمن|LEM:يَمِين|MP|GEN + N|PRON|SUFF|2MP
+5:89:7	وَلَٰكِن	P|REM|PREF|LEM:و + P|AMD|LEM:لٰكِن
+5:89:8	يُؤَاخِذُكُم	V|IMPF|VF:3|ROOT:أخذ|LEM:يُؤاخِذُ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+5:89:9	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+5:89:10	عَقَّدتُّمُ	V|PERF|VF:2|ROOT:عقد|LEM:عَقَّد|2MP + N|PRON|SUFF|2MP
+5:89:11	ٱلْأَيْمَٰنَ	P|DET|PREF|LEM:ال + N|ROOT:يمن|LEM:يَمِين|MP|ACC
+5:89:12	فَكَفَّٰرَتُهُۥٓ	P|REM|PREF|LEM:ف + N|ROOT:كفر|LEM:كَفّارَة|F|NOM + N|PRON|SUFF|3MS
+5:89:13	إِطْعَامُ	N|VN|VF:4|ROOT:طعم|LEM:إِطْعام|M|NOM
+5:89:14	عَشَرَةِ	N|ROOT:عشر|LEM:عَشَرَة|F|GEN
+5:89:15	مَسَٰكِينَ	N|ROOT:سكن|LEM:مِسْكِين|MP|GEN
+5:89:16	مِنْ	P|P|LEM:مِن
+5:89:17	أَوْسَطِ	N|ROOT:وسط|LEM:أَوْسَط|MS|GEN
+5:89:18	مَا	N|REL|LEM:ما
+5:89:19	تُطْعِمُونَ	V|IMPF|VF:4|ROOT:طعم|LEM:أَطْعَمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+5:89:20	أَهْلِيكُمْ	N|ROOT:أهل|LEM:أَهْل|P|ACC + N|PRON|SUFF|2MP
+5:89:21	أَوْ	P|CONJ|LEM:أَو
+5:89:22	كِسْوَتُهُمْ	N|ROOT:كسو|LEM:كِسْوَت|F|NOM + N|PRON|SUFF|3MP
+5:89:23	أَوْ	P|CONJ|LEM:أَو
+5:89:24	تَحْرِيرُ	N|VN|VF:2|ROOT:حرر|LEM:تَحْرِير|M|NOM
+5:89:25	رَقَبَةٍ	N|ROOT:رقب|LEM:رَقَبَة|F|INDEF|GEN
+5:89:26	فَمَن	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+5:89:27	لَّمْ	P|NEG|LEM:لَم
+5:89:28	يَجِدْ	V|IMPF|VF:1|ROOT:وجد|LEM:وَجَدَ|3MS|MOOD:JUS
+5:89:29	فَصِيَامُ	P|RSLT|PREF|LEM:ف + N|ROOT:صوم|LEM:صِيام|M|NOM
+5:89:30	ثَلَٰثَةِ	N|ROOT:ثلث|LEM:ثَلاثَة|F|GEN
+5:89:31	أَيَّامٍ	N|ROOT:يوم|LEM:يَوْم|MP|INDEF|GEN
+5:89:32	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:89:33	كَفَّٰرَةُ	N|ROOT:كفر|LEM:كَفّارَة|F|NOM
+5:89:34	أَيْمَٰنِكُمْ	N|ROOT:يمن|LEM:يَمِين|MP|GEN + N|PRON|SUFF|2MP
+5:89:35	إِذَا	N|T|LEM:إِذا
+5:89:36	حَلَفْتُمْ	V|PERF|VF:1|ROOT:حلف|LEM:حَلَفْ|2MP + N|PRON|SUFF|2MP
+5:89:37	وَٱحْفَظُوٓا۟	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:حفظ|LEM:حَفِظَ|2MP + N|PRON|SUFF|2MP
+5:89:38	أَيْمَٰنَكُمْ	N|ROOT:يمن|LEM:يَمِين|MP|ACC + N|PRON|SUFF|2MP
+5:89:39	كَذَٰلِكَ	P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:89:40	يُبَيِّنُ	V|IMPF|VF:2|ROOT:بين|LEM:بَيَّنُ|3MS|MOOD:IND
+5:89:41	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:89:42	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:89:43	ءَايَٰتِهِۦ	N|ROOT:أيي|LEM:آيَة|FP|ACC + N|PRON|SUFF|3MS
+5:89:44	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+5:89:45	تَشْكُرُونَ	V|IMPF|VF:1|ROOT:شكر|LEM:شَكَرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
