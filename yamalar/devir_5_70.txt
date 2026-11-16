@@ -1,0 +1,13 @@
+# devir notu — sûre 5, blok 22 (5:67-70) sonu, 2026-11-16 (taban ff98541)
+
+SONRAKİ İLK BLOK ARIZA BAŞI: yok — blok 23 (5:71-74) bölüm 10'un 2. bloğu; bölüm 10'un açılış bloğu (22) bölüm 9 denetiminin maddelerini (bekleyen_ariza_5_b21.txt) taşıdı. Blok 23 ve 24'te BEK = [].
+
+Durum: sûre 5'te 1–70 okundu; bölüm 1–9 kapandı ve bağımsız denetimden geçti (bekleyen_ariza_5_b02 … b21); bölüm 9'un 15 kuralı blok 22'den önce araçlara işlendi (bolum9_kurallar.py, r5_gerekce.py, commit_kos.sh yeni); mutasyon_sina 59 / 59; geriye dönük koşu yamalar/geriye_donuk_5_b21.txt (isabet 1542; tam okuma sonu listesi — kayıtlar geriye dönük yeniden yazılmadı).
+
+Sıradaki: blok 23 (5:71-74) → blok 24 (5:75-77; bölüm 10 kapanır) → bölüm 10 bağımsız denetimi → bekleyen_ariza_5_b24.txt → kuralları araçlara işle → blok 25 (bölüm 11 açılışı, BEK = b24 maddeleri).
+
+Blok çalışma dosyaları: oturum/sure5_bloklar/b01 … b22 (morph, say2, olcum, yap/*.py — karar.py'ler çakışma kararlarını taşır). Oturum başında /home/claude/'a geri yüklenir (protokol §0).
+
+Bölüm 10 ajan brifingine: protokol (OTURUM_PROMPT_sure5_71.md §2 tamamı) + bekleyen_ariza_5_b02 … b21 yeni kurallar maddeleri + devir_4_* yeni kurallar maddeleri.
+
+Tam okuma sonu: sûre 4 devir dosyalarındaki liste + sûre 5 ARIZA'larındaki 'tam okuma sonu' kayıtları + geriye_donuk_5_b21.txt isabetleri.

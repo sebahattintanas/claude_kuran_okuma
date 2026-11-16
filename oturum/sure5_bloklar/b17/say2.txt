@@ -1,0 +1,670 @@
+### say 5:48 1-4 --on
+kalıp: وأنزلنءا إليك الكتب بالحق | mod: on 
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 2-4
+kalıp: إليك الكتب بالحق | mod: tam
+ayet: 3
+liste: 4:105, 5:48†, 39:2
+sûre içi (5): 5:48
+
+3 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 3-4
+kalıp: الكتب بالحق | mod: tam
+ayet: 7
+liste: 2:176, 2:213, 3:3, 4:105, 5:48†, 39:2, 42:17
+sûre içi (5): 5:48
+
+7 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 5-10
+kalıp: مصدقا لما بين يديه من الكتب | mod: tam
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 5-9
+kalıp: مصدقا لما بين يديه من | mod: tam
+ayet: 2
+liste: 5:46, 5:48†
+sûre içi (5): 5:46, 5:48
+
+2 {'bu': ['5:48'], 'basilan': ['5:46'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 48 5 9
+lemma dizisi [('مُصَدِّق',), ('ما',), ('بَيْن',), ('يَد',), ('مِن',)] | ayet 4
+3:50, 5:46, 5:48†, 61:6
+
+4 {'bu': ['5:48'], 'basilan': ['5:46'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 6-8
+kalıp: لما بين يديه | mod: tam
+ayet: 6
+liste: 2:97, 3:3, 5:46, 5:48†, 35:31, 46:30
+sûre içi (5): 5:46, 5:48
+
+6 {'bu': ['5:48'], 'basilan': ['5:46'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 7-8
+kalıp: بين يديه | mod: tam
+ayet: 15
+liste: 2:97, 3:3, 5:46, 5:48†, 6:92†, 10:37, 12:111, 13:11, 34:12, 34:31, 35:31, 41:42, 46:21, 46:30, 72:27
+sûre içi (5): 5:46, 5:48
+
+15 {'bu': ['5:48'], 'basilan': ['5:46'], 'eski': 0, 'okunmus': 12, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:48 11-12 --on
+kalıp: ومهيمنا عليه | mod: on 
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 13-17 --on
+kalıp: فاحكم بينهم بمءا أنزل الله | mod: on 
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 48 13 17
+lemma dizisi [('حَكَمَ',), ('بَيْن',), ('ما',), ('أَنزَلَ',), ('اللَّه',)] | ayet 2
+5:48†, 5:49†
+
+2 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 14-17
+kalıp: بينهم بمءا أنزل الله | mod: tam
+ayet: 2
+liste: 5:48†, 5:49†
+sûre içi (5): 5:48, 5:49
+
+2 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 15-17
+kalıp: بمءا أنزل الله | mod: tam
+ayet: 8
+liste: 2:90, 2:91, 5:44, 5:45, 5:47, 5:48†, 5:49†, 42:15
+sûre içi (5): 5:44, 5:45, 5:47, 5:48, 5:49
+
+8 {'bu': ['5:48'], 'basilan': ['5:44', '5:45', '5:47', '5:49'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 48 15 17
+lemma dizisi [('ما',), ('أَنزَلَ',), ('اللَّه',)] | ayet 22
+2:90, 2:91, 2:164, 2:170, 2:174, 4:61, 5:44, 5:45, 5:47, 5:48†, 5:49†, 5:104†, 6:91†, 6:93†, 9:97, 10:59, 12:40, 31:21, 42:15, 45:5, 47:9, 53:23
+
+22 {'bu': ['5:48'], 'basilan': ['5:44', '5:45', '5:47', '5:49'], 'eski': 0, 'okunmus': 14, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+
+### say 5:48 18-20 --on
+kalıp: ولا تتبع أهوءاءهم | mod: on 
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 19-20
+kalıp: تتبع أهوءاءهم | mod: tam
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 21-24
+kalıp: عما جءاءك من الحق | mod: tam
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 22-24
+kalıp: جءاءك من الحق | mod: tam
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 25-29
+kalıp: لكل جعلنا منكم شرعة ومنهاجا | mod: tam
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 26-27
+kalıp: جعلنا منكم | mod: tam
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:48:28
+lemma شِرْعَة | token 1 | ayet 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:48:29
+lemma مِنْهاج | token 1 | ayet 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 30-35 --on
+kalıp: ولو شءاء الله لجعلكم أمة وحدة | mod: on 
+ayet: 2
+liste: 5:48†, 16:93
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': ['16:93'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 31-32
+kalıp: شءاء الله | mod: tam
+ayet: 27
+liste: 2:20, 2:70, 2:220, 2:253, 4:90, 5:48†, 6:35†, 6:107†, 6:128†, 6:137†, 6:148†, 7:188†, 10:16, 10:49, 12:99, 16:35, 16:93, 18:39, 18:69, 23:24, 27:87, 28:27, 37:102, 39:68, 42:8, 48:27, 87:7
+sûre içi (5): 5:48
+
+27 {'bu': ['5:48'], 'basilan': ['10:49', '16:93', '28:27'], 'eski': 1, 'okunmus': 16, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 0}
+
+### say 5:48 33-35
+kalıp: لجعلكم أمة وحدة | mod: tam
+ayet: 2
+liste: 5:48†, 16:93
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': ['16:93'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 34-35
+kalıp: أمة وحدة | mod: tam
+ayet: 9
+liste: 2:213, 5:48†, 10:19, 11:118, 16:93, 21:92, 23:52, 42:8, 43:33
+sûre içi (5): 5:48
+
+9 {'bu': ['5:48'], 'basilan': ['16:93'], 'eski': 0, 'okunmus': 7, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 36-40 --on
+kalıp: ولكن ليبلوكم فى مءا ءاتىكم | mod: on 
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:48:37
+lemma بَلَوْ | token 20 | ayet 18
+liste: 2:155, 5:48†, 5:94†, 6:165†, 7:163†, 7:168†, 10:30, 11:7, 16:92, 18:7, 20:120, 21:35, 27:40, 47:4, 47:31×2, 67:2, 68:17×2, 86:9
+sûre içi (5): 5:48, 5:94
+
+18 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 13, 'okunmus_si': 0, 'henuz': 4, 'henuz_si': 1}
+
+### say 5:48 38-40
+kalıp: فى مءا ءاتىكم | mod: tam
+ayet: 2
+liste: 5:48†, 6:165†
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:48 41-42 --on
+kalıp: فاستبقوا الخيرت | mod: on 
+ayet: 2
+liste: 2:148, 5:48†
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': ['2:148'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 43-46
+kalıp: إلى الله مرجعكم جميعا | mod: tam
+ayet: 2
+liste: 5:48†, 5:105†
+sûre içi (5): 5:48, 5:105
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:48 43-45
+kalıp: إلى الله مرجعكم | mod: tam
+ayet: 3
+liste: 5:48†, 5:105†, 11:4
+sûre içi (5): 5:48, 5:105
+
+3 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:48 43-49
+kalıp: إلى الله مرجعكم جميعا فينبئكم بما كنتم | mod: tam
+ayet: 2
+liste: 5:48†, 5:105†
+sûre içi (5): 5:48, 5:105
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 5 48 43 49
+lemma dizisi [('إِلَى',), ('اللَّه',), ('مَرْجِع',), ('جَمِيع',), ('نَبَّأَ',), ('ما',), ('كانَ',)] | ayet 2
+5:48†, 5:105†
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:48 47-51 --on
+kalıp: فينبئكم بما كنتم فيه تختلفون | mod: on 
+ayet: 2
+liste: 5:48†, 6:164†
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:48 48-51
+kalıp: بما كنتم فيه تختلفون | mod: tam
+ayet: 2
+liste: 5:48†, 6:164†
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:48 49-51
+kalıp: كنتم فيه تختلفون | mod: tam
+ayet: 5
+liste: 3:55, 5:48†, 6:164†, 16:92, 22:69
+sûre içi (5): 5:48
+
+5 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:49 1-6 --on
+kalıp: وأن احكم بينهم بمءا أنزل الله | mod: on 
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 2-6
+kalıp: احكم بينهم بمءا أنزل الله | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 49 2 6
+lemma dizisi [('حَكَمَ',), ('بَيْن',), ('ما',), ('أَنزَلَ',), ('اللَّه',)] | ayet 2
+5:48†, 5:49†
+
+2 {'bu': ['5:49'], 'basilan': ['5:48'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 4-6
+kalıp: بمءا أنزل الله | mod: tam
+ayet: 8
+liste: 2:90, 2:91, 5:44, 5:45, 5:47, 5:48†, 5:49†, 42:15
+sûre içi (5): 5:44, 5:45, 5:47, 5:48, 5:49
+
+8 {'bu': ['5:49'], 'basilan': ['5:44', '5:45', '5:47', '5:48'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 7-9 --on
+kalıp: ولا تتبع أهوءاءهم | mod: on 
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:49'], 'basilan': ['5:48'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 8-9
+kalıp: تتبع أهوءاءهم | mod: tam
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:49'], 'basilan': ['5:48'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 10-12 --on
+kalıp: واحذرهم أن يفتنوك | mod: on 
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:49:10
+lemma يَحْذَرُ | token 12 | ayet 11
+liste: 2:235, 5:41, 5:49†, 5:92†, 9:64×2, 9:122, 24:63, 28:6, 39:9, 63:4, 64:14
+sûre içi (5): 5:41, 5:49, 5:92
+
+11 {'bu': ['5:49'], 'basilan': ['5:41'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### lem 5:49:12
+lemma فَتَنُ | token 23 | ayet 23
+liste: 4:101, 5:49†, 6:53†, 7:27†, 9:49, 9:126, 10:83, 16:110, 17:73, 20:40, 20:85, 20:90, 20:131, 27:47, 29:2, 29:3, 38:24, 38:34, 44:17, 51:13, 57:14, 72:17, 85:10
+sûre içi (5): 5:49
+
+23 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 20, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 5:49 13-18
+kalıp: عن بعض مءا أنزل الله إليك | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 14-17
+kalıp: بعض مءا أنزل الله | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 15-17
+kalıp: مءا أنزل الله | mod: tam
+ayet: 13
+liste: 2:170, 2:174, 4:61, 5:49†, 5:104†, 6:91†, 6:93†, 9:97, 10:59, 12:40, 31:21, 47:9, 53:23
+sûre içi (5): 5:49, 5:104
+
+13 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 9, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+
+### say 5:49 19-22 --on
+kalıp: فإن تولوا فاعلم أنما | mod: on 
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 49 19 22
+lemma dizisi [('إِن',), ('تَوَلَّى',), ('عَلِمَ',), ('أَنّ', 'ما')] | ayet 2
+5:49†, 5:92†
+
+2 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:49 19-20 --on
+kalıp: فإن تولوا | mod: on 
+ayet: 10
+liste: 3:32, 3:63, 3:64, 4:89, 5:49†, 9:129, 11:57, 16:82, 21:109, 24:54
+sûre içi (5): 5:49
+
+10 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 9, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 21-24 --on
+kalıp: فاعلم أنما يريد الله | mod: on 
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 23-24
+kalıp: يريد الله | mod: tam
+ayet: 9
+liste: 2:185, 3:176, 4:26, 4:28, 5:6, 5:49†, 9:55, 9:85, 33:33
+sûre içi (5): 5:6, 5:49
+
+9 {'bu': ['5:49'], 'basilan': ['2:185', '3:176', '4:28', '5:6'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 25-28
+kalıp: أن يصيبهم ببعض ذنوبهم | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 27-28
+kalıp: ببعض ذنوبهم | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 29-33 --on
+kalıp: وإن كثيرا من الناس لفسقون | mod: on 
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 30-32
+kalıp: كثيرا من الناس | mod: tam
+ayet: 4
+liste: 5:49†, 10:92, 14:36, 30:8
+sûre içi (5): 5:49
+
+4 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 31-33
+kalıp: من الناس لفسقون | mod: tam
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 1-3 --on
+kalıp: أفحكم الجهلية يبغون | mod: on 
+ayet: 1
+liste: 5:50†
+sûre içi (5): 5:50
+
+1 {'bu': ['5:50'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 1-2 --on
+kalıp: أفحكم الجهلية | mod: on 
+ayet: 1
+liste: 5:50†
+sûre içi (5): 5:50
+
+1 {'bu': ['5:50'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 4-8 --on
+kalıp: ومن أحسن من الله حكما | mod: on 
+ayet: 1
+liste: 5:50†
+sûre içi (5): 5:50
+
+1 {'bu': ['5:50'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 5-7
+kalıp: أحسن من الله | mod: tam
+ayet: 2
+liste: 2:138, 5:50†
+sûre içi (5): 5:50
+
+2 {'bu': ['5:50'], 'basilan': ['2:138'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 8-10
+kalıp: حكما لقوم يوقنون | mod: tam
+ayet: 1
+liste: 5:50†
+sûre içi (5): 5:50
+
+1 {'bu': ['5:50'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:50 9-10
+kalıp: لقوم يوقنون | mod: tam
+ayet: 4
+liste: 2:118, 5:50†, 45:4, 45:20
+sûre içi (5): 5:50
+
+4 {'bu': ['5:50'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:50:10
+lemma يُوقِنُ | token 12 | ayet 12
+liste: 2:4, 2:118, 5:50†, 13:2, 27:3, 27:82, 30:60, 31:4, 32:24, 45:4, 45:20, 52:36
+sûre içi (5): 5:50
+
+12 {'bu': ['5:50'], 'basilan': [], 'eski': 1, 'okunmus': 10, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 1-4 --on --medde
+kalıp: وأنزلنا إليك الكتب بالحق | mod: on  medde
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 13-17 --on --medde
+kalıp: فاحكم بينهم بما أنزل الله | mod: on  medde
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 14-17 --medde
+kalıp: بينهم بما أنزل الله | mod: tam medde
+ayet: 2
+liste: 5:48†, 5:49†
+sûre içi (5): 5:48, 5:49
+
+2 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 15-17 --medde
+kalıp: بما أنزل الله | mod: tam medde
+ayet: 8
+liste: 2:90, 2:91, 5:44, 5:45, 5:47, 5:48†, 5:49†, 42:15
+sûre içi (5): 5:44, 5:45, 5:47, 5:48, 5:49
+
+8 {'bu': ['5:48'], 'basilan': ['5:44', '5:45', '5:47', '5:49'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 18-20 --on --medde
+kalıp: ولا تتبع أهواءهم | mod: on  medde
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 19-20 --medde
+kalıp: تتبع أهواءهم | mod: tam medde
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:48'], 'basilan': ['5:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 21-24 --medde
+kalıp: عما جاءك من الحق | mod: tam medde
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 22-24 --medde
+kalıp: جاءك من الحق | mod: tam medde
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 30-35 --on --medde
+kalıp: ولو شاء الله لجعلكم أمة وحدة | mod: on  medde
+ayet: 2
+liste: 5:48†, 16:93
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': ['16:93'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 31-32 --medde
+kalıp: شاء الله | mod: tam medde
+ayet: 27
+liste: 2:20, 2:70, 2:220, 2:253, 4:90, 5:48†, 6:35†, 6:107†, 6:128†, 6:137†, 6:148†, 7:188†, 10:16, 10:49, 12:99, 16:35, 16:93, 18:39, 18:69, 23:24, 27:87, 28:27, 37:102, 39:68, 42:8, 48:27, 87:7
+sûre içi (5): 5:48
+
+27 {'bu': ['5:48'], 'basilan': ['10:49', '16:93', '28:27'], 'eski': 1, 'okunmus': 16, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 0}
+
+### say 5:48 36-40 --on --medde
+kalıp: ولكن ليبلوكم فى ما اتىكم | mod: on  medde
+ayet: 1
+liste: 5:48†
+sûre içi (5): 5:48
+
+1 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:48 38-40 --medde
+kalıp: فى ما اتىكم | mod: tam medde
+ayet: 2
+liste: 5:48†, 6:165†
+sûre içi (5): 5:48
+
+2 {'bu': ['5:48'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:49 1-6 --on --medde
+kalıp: وأن احكم بينهم بما أنزل الله | mod: on  medde
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 2-6 --medde
+kalıp: احكم بينهم بما أنزل الله | mod: tam medde
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 4-6 --medde
+kalıp: بما أنزل الله | mod: tam medde
+ayet: 8
+liste: 2:90, 2:91, 5:44, 5:45, 5:47, 5:48†, 5:49†, 42:15
+sûre içi (5): 5:44, 5:45, 5:47, 5:48, 5:49
+
+8 {'bu': ['5:49'], 'basilan': ['5:44', '5:45', '5:47', '5:48'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 7-9 --on --medde
+kalıp: ولا تتبع أهواءهم | mod: on  medde
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:49'], 'basilan': ['5:48'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 8-9 --medde
+kalıp: تتبع أهواءهم | mod: tam medde
+ayet: 3
+liste: 5:48†, 5:49†, 42:15
+sûre içi (5): 5:48, 5:49
+
+3 {'bu': ['5:49'], 'basilan': ['5:48'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 13-18 --medde
+kalıp: عن بعض ما أنزل الله إليك | mod: tam medde
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 14-17 --medde
+kalıp: بعض ما أنزل الله | mod: tam medde
+ayet: 1
+liste: 5:49†
+sûre içi (5): 5:49
+
+1 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:49 15-17 --medde
+kalıp: ما أنزل الله | mod: tam medde
+ayet: 13
+liste: 2:170, 2:174, 4:61, 5:49†, 5:104†, 6:91†, 6:93†, 9:97, 10:59, 12:40, 31:21, 47:9, 53:23
+sûre içi (5): 5:49, 5:104
+
+13 {'bu': ['5:49'], 'basilan': [], 'eski': 0, 'okunmus': 9, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+

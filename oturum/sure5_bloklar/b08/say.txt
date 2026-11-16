@@ -1,0 +1,338 @@
+### say 5:20 1-4 --on
+kalıp: وإذ قال موسى لقومه | mod: on 
+ayet: 5
+liste: 2:54, 2:67, 5:20†, 14:6, 61:5
+sûre içi (5): 5:20
+
+5 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 2-4
+kalıp: قال موسى لقومه | mod: tam
+ayet: 6
+liste: 2:54, 2:67, 5:20†, 7:128†, 14:6, 61:5
+sûre içi (5): 5:20
+
+6 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:20 2-5
+kalıp: قال موسى لقومه يقوم | mod: tam
+ayet: 3
+liste: 2:54, 5:20†, 61:5
+sûre içi (5): 5:20
+
+3 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 5-9
+kalıp: يقوم اذكروا نعمة الله عليكم | mod: tam
+ayet: 1
+liste: 5:20†
+sûre içi (5): 5:20
+
+1 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 6-9
+kalıp: اذكروا نعمة الله عليكم | mod: tam
+ayet: 3
+liste: 5:20†, 14:6, 33:9
+sûre içi (5): 5:20
+
+3 {'bu': ['5:20'], 'basilan': ['33:9'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 20 6 9
+lemma dizisi [('ذَكَرَ',), ('نِعْمَة',), ('اللَّه',), ('عَلَى',)] | ayet 8
+2:231, 3:103, 5:7, 5:11, 5:20†, 14:6, 33:9, 35:3
+
+8 {'bu': ['5:20'], 'basilan': ['5:7', '5:11', '33:9', '35:3'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 6-10
+kalıp: اذكروا نعمة الله عليكم إذ | mod: tam
+ayet: 3
+liste: 5:20†, 14:6, 33:9
+sûre içi (5): 5:20
+
+3 {'bu': ['5:20'], 'basilan': ['33:9'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 20 6 10
+lemma dizisi [('ذَكَرَ',), ('نِعْمَة',), ('اللَّه',), ('عَلَى',), ('إِذ',)] | ayet 5
+3:103, 5:11, 5:20†, 14:6, 33:9
+
+5 {'bu': ['5:20'], 'basilan': ['5:11', '33:9'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 10-13
+kalıp: إذ جعل فيكم أنبيءاء | mod: tam
+ayet: 1
+liste: 5:20†
+sûre içi (5): 5:20
+
+1 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 14-15 --on
+kalıp: وجعلكم ملوكا | mod: on 
+ayet: 1
+liste: 5:20†
+sûre içi (5): 5:20
+
+1 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 16-22 --on
+kalıp: وءاتىكم ما لم يؤت أحدا من العلمين | mod: on 
+ayet: 1
+liste: 5:20†
+sûre içi (5): 5:20
+
+1 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 17-20
+kalıp: ما لم يؤت أحدا | mod: tam
+ayet: 1
+liste: 5:20†
+sûre içi (5): 5:20
+
+1 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:20 20-22
+kalıp: أحدا من العلمين | mod: tam
+ayet: 2
+liste: 5:20†, 5:115†
+sûre içi (5): 5:20, 5:115
+
+2 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 5 20 20 22
+lemma dizisi [('أَحَد',), ('مِن',), ('عالَم',)] | ayet 4
+5:20†, 5:115†, 7:80†, 29:28
+
+4 {'bu': ['5:20'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 5:21 1-4
+kalıp: يقوم ادخلوا الأرض المقدسة | mod: tam
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 2-4
+kalıp: ادخلوا الأرض المقدسة | mod: tam
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 3-4
+kalıp: الأرض المقدسة | mod: tam
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 5-8
+kalıp: التى كتب الله لكم | mod: tam
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 9-12 --on
+kalıp: ولا ترتدوا على أدباركم | mod: on 
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 11-12
+kalıp: على أدباركم | mod: tam
+ayet: 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:21 13-14 --on
+kalıp: فتنقلبوا خسرين | mod: on 
+ayet: 2
+liste: 3:149, 5:21†
+sûre içi (5): 5:21
+
+2 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:21:4
+lemma مُقَدَّسَة | token 1 | ayet 1
+liste: 5:21†
+sûre içi (5): 5:21
+
+1 {'bu': ['5:21'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:22 1-2
+kalıp: قالوا يموسى | mod: tam
+ayet: 6
+liste: 5:22†, 5:24†, 7:115†, 7:134†, 7:138†, 20:65
+sûre içi (5): 5:22, 5:24
+
+6 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 4, 'henuz_si': 1}
+
+### say 5:22 3-6
+kalıp: إن فيها قوما جبارين | mod: tam
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:22 7-9 --on
+kalıp: وإنا لن ندخلها | mod: on 
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:22 7-9
+kalıp: وإنا لن ندخلها | mod: tam
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 22 7 9
+lemma dizisi [('إِنّ',), ('لَن',), ('دَخَلَ',)] | ayet 2
+5:22†, 5:24†
+
+2 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:22 10-12
+kalıp: حتى يخرجوا منها | mod: tam
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:22 13-15 --on
+kalıp: فإن يخرجوا منها | mod: on 
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:22 16-17 --on
+kalıp: فإنا دخلون | mod: on 
+ayet: 1
+liste: 5:22†
+sûre içi (5): 5:22
+
+1 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:22:6
+lemma جَبّار | token 10 | ayet 10
+liste: 5:22†, 11:59, 14:15, 19:14, 19:32, 26:130, 28:19, 40:35, 50:45, 59:23
+sûre içi (5): 5:22
+
+10 {'bu': ['5:22'], 'basilan': [], 'eski': 0, 'okunmus': 9, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 1-2
+kalıp: قال رجلان | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 3-5
+kalıp: من الذين يخافون | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 6-8
+kalıp: أنعم الله عليهما | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 9-11
+kalıp: ادخلوا عليهم الباب | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 12-13 --on
+kalıp: فإذا دخلتموه | mod: on 
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 14-15 --on
+kalıp: فإنكم غلبون | mod: on 
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 16-18 --on
+kalıp: وعلى الله فتوكلوا | mod: on 
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 16-18
+kalıp: وعلى الله فتوكلوا | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 23 16 18
+lemma dizisi [('عَلَى',), ('اللَّه',), ('تَوَكَّلْ',)] | ayet 12
+3:122, 3:160, 5:11, 5:23†, 7:89†, 9:51, 10:71, 10:85, 14:11, 14:12, 58:10, 64:13
+
+12 {'bu': ['5:23'], 'basilan': ['3:122', '5:11', '64:13'], 'eski': 0, 'okunmus': 7, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:23 16-21 --on
+kalıp: وعلى الله فتوكلوا إن كنتم مؤمنين | mod: on 
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:23 19-21
+kalıp: إن كنتم مؤمنين | mod: tam
+ayet: 16
+liste: 2:91, 2:93, 2:248, 2:278, 3:49, 3:139, 3:175, 5:23†, 5:57†, 5:112†, 7:85†, 8:1†, 9:13, 11:86, 24:17, 57:8
+sûre içi (5): 5:23, 5:57, 5:112
+
+16 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 11, 'okunmus_si': 0, 'henuz': 4, 'henuz_si': 2}
+
+### dizi 5 23 19 21
+lemma dizisi [('إِن',), ('كانَ',), ('مُؤْمِن',)] | ayet 17
+2:91, 2:93, 2:248, 2:278, 3:49, 3:139, 3:175, 5:23†, 5:57†, 5:112†, 7:85†, 8:1†, 9:13, 9:62, 11:86, 24:17, 57:8
+
+17 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 12, 'okunmus_si': 0, 'henuz': 4, 'henuz_si': 2}
+
+### say 5:23 18-21
+kalıp: فتوكلوا إن كنتم مؤمنين | mod: tam
+ayet: 1
+liste: 5:23†
+sûre içi (5): 5:23
+
+1 {'bu': ['5:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+

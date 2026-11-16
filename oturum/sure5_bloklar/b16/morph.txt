@@ -1,0 +1,73 @@
+5:45:1	وَكَتَبْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:كتب|LEM:كَتَبَ|1P + N|PRON|SUFF|1P
+5:45:2	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+5:45:3	فِيهَآ	P|P|LEM:فِي + N|PRON|SUFF|3FS
+5:45:4	أَنَّ	P|ACC|LEM:أَنّ|FAM:إِنّ
+5:45:5	ٱلنَّفْسَ	P|DET|PREF|LEM:ال + N|ROOT:نفس|LEM:نَفْس|FS|ACC
+5:45:6	بِٱلنَّفْسِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:نفس|LEM:نَفْس|FS|GEN
+5:45:7	وَٱلْعَيْنَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:عين|LEM:عَيْن|F|ACC
+5:45:8	بِٱلْعَيْنِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:عين|LEM:عَيْن|F|GEN
+5:45:9	وَٱلْأَنفَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أنف|LEM:أَنف|MS|ACC
+5:45:10	بِٱلْأَنفِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:أنف|LEM:أَنف|MS|GEN
+5:45:11	وَٱلْأُذُنَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أذن|LEM:أُذُن|F|ACC
+5:45:12	بِٱلْأُذُنِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:أذن|LEM:أُذُن|F|GEN
+5:45:13	وَٱلسِّنَّ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:سنن|LEM:سِنّ|F|ACC
+5:45:14	بِٱلسِّنِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:سنن|LEM:سِنّ|F|GEN
+5:45:15	وَٱلْجُرُوحَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:جرح|LEM:جُرُوح|MP|ACC
+5:45:16	قِصَاصٌ	N|ROOT:قصص|LEM:قِصاص|M|INDEF|NOM
+5:45:17	فَمَن	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+5:45:18	تَصَدَّقَ	V|PERF|VF:5|ROOT:صدق|LEM:تَصَدَّقَ|3MS
+5:45:19	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+5:45:20	فَهُوَ	P|RSLT|PREF|LEM:ف + N|PRON|3MS
+5:45:21	كَفَّارَةٌ	N|ROOT:كفر|LEM:كَفّارَة|F|INDEF|NOM
+5:45:22	لَّهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+5:45:23	وَمَن	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+5:45:24	لَّمْ	P|NEG|LEM:لَم
+5:45:25	يَحْكُم	V|IMPF|VF:1|ROOT:حكم|LEM:حَكَمَ|3MS|MOOD:JUS
+5:45:26	بِمَآ	P|P|PREF|LEM:ب + N|REL|LEM:ما
+5:45:27	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+5:45:28	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:45:29	فَأُو۟لَٰٓئِكَ	P|RSLT|PREF|LEM:ف + N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+5:45:30	هُمُ	N|PRON|3MP
+5:45:31	ٱلظَّٰلِمُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|NOM
+5:46:1	وَقَفَّيْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:2|ROOT:قفو|LEM:قَفَّيْ|1P + N|PRON|SUFF|1P
+5:46:2	عَلَىٰٓ	P|P|LEM:عَلَى
+5:46:3	ءَاثَٰرِهِم	N|ROOT:أثر|LEM:أَثَر|MP|GEN + N|PRON|SUFF|3MP
+5:46:4	بِعِيسَى	P|P|PREF|LEM:ب + N|PN|LEM:عِيسَى|GEN
+5:46:5	ٱبْنِ	N|ROOT:بني|LEM:ابْن|M|GEN
+5:46:6	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:46:7	مُصَدِّقًا	N|ACT_PCPL|VF:2|ROOT:صدق|LEM:مُصَدِّق|M|INDEF|ACC
+5:46:8	لِّمَا	P|P|PREF|LEM:ل + N|REL|LEM:ما
+5:46:9	بَيْنَ	N|LOC|ROOT:بين|LEM:بَيْن|ACC
+5:46:10	يَدَيْهِ	N|ROOT:يدي|LEM:يَد|FD|GEN + N|PRON|SUFF|3MS
+5:46:11	مِنَ	P|P|LEM:مِن
+5:46:12	ٱلتَّوْرَىٰةِ	P|DET|PREF|LEM:ال + N|PN|LEM:تَوْراة|GEN
+5:46:13	وَءَاتَيْنَٰهُ	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:أتي|LEM:آتَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+5:46:14	ٱلْإِنجِيلَ	P|DET|PREF|LEM:ال + N|PN|LEM:إِنجِيل|ACC
+5:46:15	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+5:46:16	هُدًى	N|ROOT:هدي|LEM:هُدًى|M|INDEF|NOM
+5:46:17	وَنُورٌ	P|CONJ|PREF|LEM:و + N|ROOT:نور|LEM:نُور|M|INDEF|NOM
+5:46:18	وَمُصَدِّقًا	P|CONJ|PREF|LEM:و + N|ACT_PCPL|VF:2|ROOT:صدق|LEM:مُصَدِّق|M|INDEF|ACC
+5:46:19	لِّمَا	P|P|PREF|LEM:ل + N|REL|LEM:ما
+5:46:20	بَيْنَ	N|LOC|ROOT:بين|LEM:بَيْن|ACC
+5:46:21	يَدَيْهِ	N|ROOT:يدي|LEM:يَد|FD|GEN + N|PRON|SUFF|3MS
+5:46:22	مِنَ	P|P|LEM:مِن
+5:46:23	ٱلتَّوْرَىٰةِ	P|DET|PREF|LEM:ال + N|PN|LEM:تَوْراة|GEN
+5:46:24	وَهُدًى	P|CONJ|PREF|LEM:و + N|ROOT:هدي|LEM:هُدًى|M|INDEF|ACC
+5:46:25	وَمَوْعِظَةً	P|CONJ|PREF|LEM:و + N|ROOT:وعظ|LEM:مَوْعِظَة|F|INDEF|ACC
+5:46:26	لِّلْمُتَّقِينَ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:8|ROOT:وقي|LEM:مُتَّقي|MP|GEN
+5:47:1	وَلْيَحْكُمْ	P|CONJ|PREF|LEM:و + P|IMPV|PREF|LEM:ل + V|IMPF|VF:1|ROOT:حكم|LEM:حَكَمَ|3MS|MOOD:JUS
+5:47:2	أَهْلُ	N|ROOT:أهل|LEM:أَهْل|M|NOM
+5:47:3	ٱلْإِنجِيلِ	P|DET|PREF|LEM:ال + N|PN|LEM:إِنجِيل|GEN
+5:47:4	بِمَآ	P|P|PREF|LEM:ب + N|REL|LEM:ما
+5:47:5	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+5:47:6	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:47:7	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+5:47:8	وَمَن	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+5:47:9	لَّمْ	P|NEG|LEM:لَم
+5:47:10	يَحْكُم	V|IMPF|VF:1|ROOT:حكم|LEM:حَكَمَ|3MS|MOOD:JUS
+5:47:11	بِمَآ	P|P|PREF|LEM:ب + N|REL|LEM:ما
+5:47:12	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+5:47:13	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:47:14	فَأُو۟لَٰٓئِكَ	P|RSLT|PREF|LEM:ف + N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+5:47:15	هُمُ	N|PRON|3MP
+5:47:16	ٱلْفَٰسِقُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:فسق|LEM:فاسِق|MP|NOM

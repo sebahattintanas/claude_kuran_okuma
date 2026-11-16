@@ -1,0 +1,218 @@
+# blok 3 (5:5-6) ARIZA oluşturucu — bölüm 2-1 (bölüm açılışı); bölüm 1 denetiminin bekleyen maddeleri başta
+import sys, os, ast, subprocess, re
+os.environ['OLC'] = '/home/claude/b03/olcum.txt'
+os.environ['SAY2'] = '/home/claude/b03/say2.txt'
+sys.path.insert(0, '/home/claude/sunum')
+from kes import kes
+import sayim
+
+VF_YAZI = {5: {5: "'ve ta'âmu'llezîne'", 11: "'ve ta'âmukum'", 14: "'ve'l-muhsanâtu'", 17: "'ve'l-muhsanâtu'", 30: "'ve lâ'", 33: "'ve men'", 36: "'fe-qad'", 39: "'ve huve'"},
+           6: {8: "'fe'ğsilû'", 10: "'ve eydiyekum'", 13: "'ve'msehû'", 15: "'ve erculekum'", 18: "'ve in kuntum cunuben'", 21: "'fe'ttahherû'", 22: "'ve in kuntum merdâ'", 37: "'fe-lem'", 40: "'fe-teyemmemû'", 43: "'fe'msehû'", 45: "'ve eydîkum'", 54: "'ve lâkin'", 57: "'ve li-yutimme'"}}
+
+BOL = "'Kitap ehlinin yemeği ve kadınları; abdest ve teyemmüm; nimeti ve misakı anma'"
+BEK = ast.literal_eval('[' + open('/home/claude/yamalar/bekleyen_ariza_5_b02.txt', encoding='utf-8').read() + ']')
+
+
+def sd(key):
+    return sayim.S2[key][1]
+
+
+def sic(key):
+    n, d = sayim.S2[key]
+    return 1 + len([x for x in d['basilan'] if x.startswith('5:')]) + d['okunmus_si'] + d['henuz_si']
+
+
+def taban(key, ay):
+    n, d = sayim.S2[key]
+    p = [ay] + [x for x in d['basilan'] if x.startswith('5:') and x != ay]
+    if d['okunmus_si']: p.append('okunmus_si %d' % d['okunmus_si'])
+    if d['henuz_si']: p.append('henuz_si %d' % d['henuz_si'])
+    return ' + '.join(p)
+
+
+# bölüm 1 denetimi kuralı 5: taban ve '(fark test edilmedi)' sayımın kendi sözlüğünden
+R5 = [
+ ("5:5", "'min ellezî âtâ kitâb min qabl'", 2, 'say 5:5 18-23', "harekesiz 'mine'llezîne ûtu'l-kitâbe min qablikum' (18-23. kelime)"),
+ ("5:5", "'ehalle lekum tayyibe'", 2, 'say 5:5 2-4', "harekesiz 'uhille lekumu't-tayyibât' (2-4. kelime)"),
+ ("5:6", "'eyy ellezî âmene'", 16, 'say 5:6 1-3', "harekesiz 'yâ eyyuhe'llezîne âmenû' (1-3. kelime)"),
+]
+r5 = []
+for ay, kal, nk, key, ad in R5:
+    s = sic(key)
+    h = "%s nakarat3 %s %d (tür ic) / %s sûre içi %d (%s)" % (ay, kal, nk, ad, s, taban(key, ay))
+    h += ' — tutuyor' if s == nk else (' — tutmuyor' + (' (fark test edilmedi)' if sd(key)['henuz_si'] else ''))
+    r5.append(h)
+
+K1 = {'say 5:5 1-4': "harekesiz 'el-yevme uhille lekumu't-tayyibât'", 'say 5:5 5-8 --on': "önek kesilmiş 've ta'âmu'llezîne ûtu'l-kitâb'", 'say 5:5 9-10': "harekesiz 'hillun lekum'",
+      'say 5:5 11-13 --on': "önek kesilmiş 've ta'âmukum hillun lehum'", 'say 5:5 14-16 --on': "önek kesilmiş 've'l-muhsanâtu mine'l-mu'minât'", 'say 5:5 30-32 --on': "önek kesilmiş 've lâ muttexizî axdân'",
+      'say 5:5 33-35 --on': "önek kesilmiş 've men yekfur bi'l-îmân'", 'say 5:5 36-38 --on': "önek kesilmiş 'fe-qad habita 'ameluh'", 'say 5:5 37-38': "harekesiz 'habita 'ameluh'",
+      'say 5:6 4-7': "harekesiz 'izâ qumtum ile's-salâh'", 'say 5:6 5-7': "harekesiz 'qumtum ile's-salâh'", 'say 5:6 8-10 --on': "önek kesilmiş 'fe'ğsilû vucûhekum ve eydiyekum'", 'lem 5:6:8': "lemma 'ğsilu' (morph LEM ham biçim)",
+      'say 5:6 11-12': "harekesiz 'ile'l-merâfiq'", 'lem 5:6:12': "lemma 'merâfiq'", 'say 5:6 13-14 --on': "önek kesilmiş 've'msehû bi-ru'ûsikum'", 'say 5:6 15-17 --on': "önek kesilmiş 've erculekum ile'l-ka'beyn'",
+      'lem 5:6:17': "lemma 'ka'beyn'", 'say 5:6 18-21 --on': "önek kesilmiş 've in kuntum cunuben fe'ttahherû'", 'say 5:6 19-20': "harekesiz 'kuntum cunubâ'", 'say 5:6 43-46 --on': "önek kesilmiş 'fe'msehû bi-vucûhikum ve eydîkum minh'",
+      'say 5:6 47-49': "harekesiz 'mâ yurîdu'llâh'", 'say 5:6 47-53': "harekesiz 'mâ yurîdu'llâhu li-yec'ale 'aleykum min harac'", 'say 5:6 54-56 --on': "önek kesilmiş 've lâkin yurîdu li-yutahhirakum'",
+      'say 5:6 57-59 --on': "önek kesilmiş 've li-yutimme ni'metehû 'aleykum'"}
+assert all(sayim.S2[k][0] == 1 for k in K1), [k for k in K1 if sayim.S2[k][0] != 1]
+
+MEAL5 = ("5:5 'Bugün size temiz şeyler helâl kılındı' ('el-yevme uhille lekumu't-tayyibât', 'bugün' 'yevm' açılımı (1. kelime; 'bu' açılım takdiri), 'helâl kıl-' 'uhille' açılımı (2. kelime; IV. bab; edilgen — mealde edilgen), "
+ "'li' 3. kelimede '-e' ile ('-e' fiil yönetimi takdiri), 'kum' 3. kelimede 'siz' ile, 'temiz şey' 'tayyibe' açılımı (4. kelime; çoğul '-ler'; 'şey' açılım takdiri), sıralama: fiil sona alındı); "
+ "'Kendilerine kitap verilenlerin yiyeceği sizin için helâldir' ('ve ta'âmu'llezîne ûtu'l-kitâbe hillun lekum', 've' 5. kelimede karşılıksız (nokta; morph REM), 'yiyecek' 'ta'âm' karşılığı (5. kelime; '-i' iyelik takdiri), 'ellezîne' 6. kelimede '-enlerin' ile, "
+ "'ver-' 'ûtu' karşılığı (7. kelime; edilgen — mealde edilgen 'verilen'), 'û' 7. kelimede karşılıksız (nâib fâil eki — '-enler' içinde), 'kendilerine' takdir (7. kelime; edilgenin mef'ûl açılımı), 'kitap' 'kitâb' karşılığı (8. kelime; belirli — Türkçede belirsiz), "
+ "'helâl' 'hill' karşılığı (9. kelime; nekre), '-dir' takdir (9. kelime), 'li' 10. kelimede 'için' ile, 'kum' 10. kelimede 'sizin' ile); "
+ "'sizin yiyeceğiniz de onlar için helâldir' ('ve ta'âmukum hillun lehum', 've' 11. kelimede 'de' ile (morph CONJ), 'yiyecek' 'ta'âm' karşılığı (11. kelime), 'kum' 11. kelimede 'sizin … -iniz' ile, 'helâl' 'hill' karşılığı (12. kelime), '-dir' takdir (12. kelime), 'li' 13. kelimede 'için' ile, 'hum' 13. kelimede 'onlar' ile); "
+ "'İnanan kadınlardan iffetli olanlar' ('ve'l-muhsanâtu mine'l-mu'minât', 've' 14. kelimede karşılıksız (nokta; morph CONJ), 'iffetli' 'muhsane' açılımı (14. kelime; edilgen ortaç; 'olanlar' takdir), 'min' 15. kelimede '-dan' ile, "
+ "'inanan kadın' 'mu'mine' açılımı (16. kelime; ortaç; 'kadın' açılım takdiri; çoğul '-lar'), sıralama: kaynak öne alındı); "
+ "'ve sizden önce kendilerine kitap verilenlerden iffetli olanlar da' ('ve'l-muhsanâtu mine'llezîne ûtu'l-kitâbe min qablikum', 've' 17. kelimede 've' ile (morph CONJ), 'iffetli' 'muhsane' açılımı (17. kelime; 'olanlar' takdir), 'min' 18. kelimede '-den' ile, "
+ "'ellezîne' 19. kelimede '-enler' ile, 'ver-' 'ûtu' karşılığı (20. kelime; edilgen), 'û' 20. kelimede karşılıksız (nâib fâil eki), 'kendilerine' takdir (20. kelime), 'kitap' 'kitâb' karşılığı (21. kelime), 'min' 22. kelimede '-den' ile, "
+ "'önce' 'qabl' karşılığı (23. kelime), 'kum' 23. kelimede 'siz' ile ('sizden'), 'da' takdir (17. kelime; atıf pekiştirmesi), sıralama: kaynak öne alındı); "
+ "'onlara mehirlerini verdiğinizde' ('izâ âteytumûhunne ucûrahunne', 'izâ' 24. kelimede '-diğinizde' ile (zaman), 'ver-' 'âteytumûhunne' karşılığı (25. kelime; IV. bab), 'tum' 25. kelimede '-iniz' ile, 'hunne' 25. kelimede 'onlara' ile ('-a' fiil yönetimi takdiri), "
+ "'mehir' 'ecr' açılımı (26. kelime; çoğul '-ler'; kök tablosu 'ücret, karşılık' — evlilik bağlamı), 'hunne' 26. kelimede '-lerini' iyelik ile, sıralama: fiil sona alındı); "
+ "'iffetli olarak, zina etmeksizin ve gizli dost tutmaksızın' ('muhsinîne ğayra musâfihîne ve lâ muttexizî axdân', 'iffetli' 'muhsin' açılımı (27. kelime; ortaç; 'olarak' takdir — durum), 'ğayr' 28. kelimede '-meksizin' ile, "
+ "'zina et-' 'musâfih' açılımı (29. kelime; ortaç; kök tablosu 'iffetsizce ilişki kuran'), 've' 30. kelimede 've' ile (morph CONJ), 'lâ' 30. kelimede '-maksızın' ile (morph NEG), 'tut-' 'muttexiz' karşılığı (31. kelime; ortaç), "
+ "'gizli dost' 'axdân' karşılığı (32. kelime; nekre çoğul — tekil verildi)); "
+ "'size helâl kılındı' (takdir — 'uhille lekum' (2-3. kelime) yönetiminin 'el-muhsanât' atfına açılımı; mealde tekrarlandı); "
+ "'Kim imanı inkâr ederse ameli boşa çıkmıştır' ('ve men yekfur bi'l-îmâni fe-qad habita 'ameluh', 've' 33. kelimede karşılıksız (nokta; morph REM), 'men' 33. kelimede 'kim … -se' ile, 'inkâr et-' 'yekfur' karşılığı (34. kelime), "
+ "'bi' 35. kelimede karşılıksız (mef'ûl '-ı' ile), 'iman' 'îmân' karşılığı (35. kelime; masdar), 'fe' 36. kelimede karşılıksız (cevap; morph RSLT), 'qad' 36. kelimede '-mıştır' ile, 'boşa çık-' 'habita' açılımı (37. kelime; 'boşa' açılım takdiri), "
+ "'amel' ''amel' karşılığı (38. kelime), 'hû' 38. kelimede '-i' iyelik ile, sıralama: fiil sona alındı); "
+ "'ve o ahirette ziyana uğrayanlardandır' ('ve huve fi'l-âxirati mine'l-xâsirîn', 've' 39. kelimede 've' ile (morph CIRC — mealde atıf; hâl okuması sapma), 'huve' 39. kelimede 'o' ile, 'fî' 40. kelimede '-de' ile, 'ahiret' 'âxir' karşılığı (41. kelime; dişil), "
+ "'min' 42. kelimede '-dan' ile, 'ziyana uğra-' 'xâsir' açılımı (43. kelime; ortaç; 'ziyana' açılım takdiri), '-dır' takdir (43. kelime))")
+MEAL6 = ("5:6 'Ey iman edenler' ('yâ eyyuhe'llezîne âmenû', 'yâ' 1. kelimede 'ey' ile, 'eyy' ve 'hâ' 1. kelimede karşılıksız, 'ellezîne' 2. kelimede '-enler' ile, 'iman et-' 'âmenû' açılımı (3. kelime; 'iman' açılım takdiri), 'û' 3. kelimede karşılıksız (fail eki — '-enler' içinde)); "
+ "'Namaza kalktığınızda' ('izâ qumtum ile's-salâti', 'izâ' 4. kelimede '-dığınızda' ile (zaman), 'kalk-' 'qumtum' karşılığı (5. kelime), 'tum' 5. kelimede '-ınız' ile, 'ilâ' 6. kelimede '-a' ile, 'namaz' 'salâ' karşılığı (7. kelime), sıralama: fiil sona alındı); "
+ "'yüzlerinizi ve dirseklere kadar ellerinizi yıkayın' ('fe'ğsilû vucûhekum ve eydiyekum ile'l-merâfiq', 'fe' 8. kelimede karşılıksız (cevap; morph RSLT), 'yıka-' 'ğsilû' karşılığı (8. kelime; emir; LEM 'ğsilu' (morph LEM ham biçim)), 'û' 8. kelimede '-yın' ile, "
+ "'yüz' 'vech' karşılığı (9. kelime; çoğul '-ler'), 'kum' 9. kelimede '-iniz' iyelik ile, 've' 10. kelimede 've' ile (morph CONJ), 'el' 'yed' karşılığı (10. kelime; çoğul '-ler'), 'kum' 10. kelimede '-iniz' iyelik ile, 'ilâ' 11. kelimede 'kadar' ile, "
+ "'dirsek' 'merâfiq' karşılığı (12. kelime; çoğul '-ler'; '-e' 'kadar' yönetimi), sıralama: fiil sona alındı); "
+ "'başlarınızı meshedin' ('ve'msehû bi-ru'ûsikum', 've' 13. kelimede karşılıksız (virgül; morph CONJ), 'meshet-' 'msehû' karşılığı (13. kelime; LEM 'msehu' (morph LEM ham biçim)), 'û' 13. kelimede '-in' ile, 'bi' 14. kelimede karşılıksız (mef'ûl '-ı' ile), "
+ "'baş' 're's' karşılığı (14. kelime; çoğul '-lar'), 'kum' 14. kelimede '-ınız' iyelik ile, sıralama: fiil sona alındı); "
+ "'ve ayaklarınızı topuklara kadar yıkayın' ('ve erculekum ile'l-ka'beyn', 've' 15. kelimede 've' ile (morph CONJ), 'ayak' 'ricl' karşılığı (15. kelime; çoğul '-lar'), 'kum' 15. kelimede '-ınız' iyelik ile, 'ilâ' 16. kelimede 'kadar' ile, "
+ "'topuk' 'ka'beyn' karşılığı (17. kelime; ikil — çoğul '-lar' verildi), 'yıkayın' takdir (15. kelime; nasb ile 'vucûhekum'a atıf okuması — karar tam okuma sonu)); "
+ "'Cünüpseniz yıkanarak temizlenin' ('ve in kuntum cunuben fe'ttahherû', 've' 18. kelimede karşılıksız (nokta; morph REM), 'in' 18. kelimede '-seniz' ile, 'ol-' 'kuntum' karşılığı (19. kelime; ek fiil — 'Cünüp' içinde), 'tum' 19. kelimede karşılıksız ('-seniz' içinde), "
+ "'cünüp' 'cunub' karşılığı (20. kelime; nekre), 'fe' 21. kelimede karşılıksız (cevap; morph RSLT), 'temizlen-' 'ttahherû' karşılığı (21. kelime; V. bab), 'yıkanarak' takdir (21. kelime; V. bab tam temizlik açılımı), 'û' 21. kelimede '-in' ile); "
+ "'Hasta ya da yolculukta olursanız' ('ve in kuntum merdâ ev 'alâ sefer', 've' 22. kelimede karşılıksız (nokta; morph CONJ), 'in' 22. kelimede '-sanız' ile, 'ol-' 'kuntum' karşılığı (23. kelime), 'tum' 23. kelimede karşılıksız ('-sanız' içinde), "
+ "'hasta' 'merîd' karşılığı (24. kelime; çoğul — tekil verildi), 'ev' 25. kelimede 'ya da' ile, ''alâ' 26. kelimede '-da' ile, 'yolculuk' 'sefer' karşılığı (27. kelime; nekre)); "
+ "'ya da sizden biri ayak yolundan gelirse' ('ev câ'e ehadun minkum mine'l-ğâ'it', 'ev' 28. kelimede 'ya da' ile, 'gel-' 'câ'e' karşılığı (29. kelime; '-irse' — şart yönetimi takdiri), 'bir' 'ehad' karşılığı (30. kelime; '-i' takdiri), "
+ "'min' 31. kelimede '-den' ile, 'kum' 31. kelimede 'siz' ile, 'min' 32. kelimede '-dan' ile, 'ayak yolu' 'ğâ'it' açılımı (33. kelime; kök tablosu 'çukur, alçak yer'), sıralama: fiil sona alındı); "
+ "'ya da kadınlara dokunmuşsanız' ('ev lâmestumu'n-nisâ'', 'ev' 34. kelimede 'ya da' ile, 'dokun-' 'lâmestumu' karşılığı (35. kelime; LEM 'lemesu' (morph LEM ham biçim); '-muşsanız'), 'tum' 35. kelimede karşılıksız ('-muşsanız' içinde), 'kadın' 'nisâ'' karşılığı (36. kelime; çoğul '-lar'; '-a' fiil yönetimi takdiri)); "
+ "'ve su bulamamışsanız' ('fe-lem tecidû mâ'en', 'fe' 37. kelimede 've' ile (morph CONJ), 'lem' 37. kelimede '-ama-' ile, 'bul-' 'tecidû' karşılığı (38. kelime; '-mışsanız' — şart yönetimi takdiri), 'û' 38. kelimede karşılıksız ('-mışsanız' içinde), 'su' 'mâ'' karşılığı (39. kelime; nekre)); "
+ "'temiz bir toprağa yönelin' ('fe-teyemmemû sa'îden tayyiben', 'fe' 40. kelimede karşılıksız (cevap; morph RSLT), 'yönel-' 'teyemmemû' karşılığı (40. kelime; V. bab), 'û' 40. kelimede '-in' ile, 'toprak' 'sa'îd' karşılığı (41. kelime; nekre — 'bir' takdiri; '-a' fiil yönetimi takdiri), "
+ "'temiz' 'tayyib' karşılığı (42. kelime), sıralama: fiil sona alındı); "
+ "'ondan yüzlerinizi ve ellerinizi meshedin' ('fe'msehû bi-vucûhikum ve eydîkum minh', 'fe' 43. kelimede karşılıksız (noktalı virgül; morph CONJ), 'meshet-' 'msehû' karşılığı (43. kelime), 'û' 43. kelimede '-in' ile, 'bi' 44. kelimede karşılıksız (mef'ûl '-i' ile), "
+ "'yüz' 'vech' karşılığı (44. kelime), 'kum' 44. kelimede '-iniz' iyelik ile, 've' 45. kelimede 've' ile (morph CONJ), 'el' 'yed' karşılığı (45. kelime), 'kum' 45. kelimede '-iniz' iyelik ile, 'min' 46. kelimede '-dan' ile, 'hu' 46. kelimede 'o' ile ('ondan'), sıralama: kaynak öne, fiil sona alındı); "
+ "'Allah size bir sıkıntı vermek istemez' ('mâ yurîdu'llâhu li-yec'ale 'aleykum min harac', 'mâ' 47. kelimede '-mez' ile, 'iste-' 'yurîdu' karşılığı (48. kelime; IV. bab), lafız 49. kelimede 'Allah' ile, 'li' 50. kelimede '-mek' ile (morph PRP), "
+ "'ver-' 'yec'ale' açılımı (50. kelime; 'kıl-' karşılığı yerine bağlam fiili), ''alâ' 51. kelimede '-e' ile ('size'), 'kum' 51. kelimede 'siz' ile, 'min' 52. kelimede karşılıksız (cinsin kapsamı — 'bir' ile), 'sıkıntı' 'harac' karşılığı (53. kelime; nekre), sıralama: fiil sona alındı); "
+ "'fakat sizi temizlemek' ('ve lâkin yurîdu li-yutahhirakum', 've' 54. kelimede karşılıksız (morph REM), 'lâkin' 54. kelimede 'fakat' ile, 'iste-' 'yurîdu' karşılığı (55. kelime; 'ister' — cümle sonuna alındı), 'li' 56. kelimede '-mek' ile (morph PRP), "
+ "'temizle-' 'yutahhira' karşılığı (56. kelime; II. bab), 'kum' 56. kelimede 'sizi' ile); "
+ "'ve size nimetini tamamlamak ister' ('ve li-yutimme ni'metehû 'aleykum', 've' 57. kelimede 've' ile (morph CONJ), 'li' 57. kelimede '-mek' ile (morph PRP), 'tamamla-' 'yutimme' karşılığı (57. kelime; IV. bab), 'nimet' 'ni'me' karşılığı (58. kelime), 'hû' 58. kelimede '-i' iyelik ile, "
+ "''alâ' 59. kelimede '-e' ile ('size'; fiil yönetimi takdiri), 'kum' 59. kelimede 'siz' ile, sıralama: fiil sona alındı); "
+ "'ki şükredesiniz' ('le'allekum teşkurûn', 'le'alle' 60. kelimede 'ki … -esiniz' ile, 'kum' 60. kelimede '-siniz' ile, 'şükret-' 'teşkurûn' karşılığı (61. kelime), 'ûne' 61. kelimede karşılıksız (fail eki — '-siniz' içinde))")
+
+
+def _bol(s, sep):
+    out, d, cur, i = [], 0, '', 0
+    while i < len(s):
+        c = s[i]
+        if c == '(': d += 1
+        elif c == ')': d -= 1
+        if d == 0 and s.startswith(sep, i):
+            out.append(cur); cur = ''; i += len(sep); continue
+        cur += c; i += 1
+    out.append(cur)
+    return out
+
+
+MK = {}
+for blok in (MEAL5, MEAL6):
+    n = int(blok.split(' ', 1)[0].split(':')[1]); govde = blok.split(' ', 1)[1]
+    for seg in _bol(govde, "; '"):
+        seg = seg if seg.startswith("'") else "'" + seg
+        j = seg.index("' (")
+        tr = seg[1:j]; ic = seg[j + 3:].rstrip(')')
+        parca = _bol(ic, ', ')
+        MK.setdefault(n, []).append((tr, parca[0].strip("'"), parca[1:]))
+open('/home/claude/b03/yap/veri.py', 'w', encoding='utf-8').write('MK = %r\n' % MK)
+
+ES = subprocess.run([sys.executable, '/home/claude/sunum/es_edat.py', '3'], capture_output=True, text=True, cwd='/home/claude').stdout.strip()
+ESL = subprocess.run([sys.executable, '/home/claude/sunum/es_lemma.py', '3'], capture_output=True, text=True, cwd='/home/claude').stdout.strip()
+LADI = {'آخِر': "lemma 'âxir'", 'طَعام': "lemma 'ta'âm'", 'حِلّ': "lemma 'hill'", 'مُحْصَنَة': "lemma 'muhsane'", 'كِتاب': "lemma 'kitâb'", 'آتَى': "lemma 'âtâ'", 'كانَ': "lemma 'kâne'",
+        'أَرادَ': "lemma 'erâde'", 'امْسَحُ': "lemma 'msehu' (morph LEM ham biçim)", 'وَجْه': "lemma 'vech'", 'يَد': "lemma 'yed'"}
+import unicodedata as _u
+for k, v in LADI.items(): ESL = ESL.replace(_u.normalize('NFC', k) + ':', v + ':')
+assert not re.search(r'[؀-ۿ]', ESL), ESL
+SON = subprocess.run([sys.executable, '/home/claude/sunum/sonradan.py', '--plan', '3'], capture_output=True, text=True, cwd='/home/claude').stdout.strip().replace('\n', '; ')
+ONC = subprocess.run([sys.executable, '/home/claude/sunum/onceki_basim.py', '5', '6', "4:43 4:24 4:25 3:186 60:10 39:65 22:78 16:81 12:6 48:2 3:93 2:184"], capture_output=True, text=True).stdout.strip()
+CAK = subprocess.run([sys.executable, '/home/claude/sunum/cakisma.py', '/home/claude/yamalar/ariza_5_5_6.txt'], capture_output=True, text=True).stdout.strip() if os.path.exists('/home/claude/yamalar/ariza_5_5_6.txt') else ''
+
+I = BEK + [
+ "kök tablosu: ölçümde '???' 5:5 ve 5:6 için ayrı sayıldı — 0; yeni kök yok (okunan ayetlerde tabloda olmayan kök 0); kök أجر karşılığı 'ücret, karşılık' 5:5 'ucûr' (mehir) kullanımını kapsıyor; kök يمم karşılığı 'deniz, büyük su' — 5:6 'teyemmemû' (yönelme) kullanımını kapsamıyor; "
+ "kök رفق, كعب, غوط, صعد karşılıkları 5:6 kullanımlarını kapsıyor ('merâfiq', 'ka'beyn', 'ğâ'it', 'sa'îd'); kök خدن karşılığı 'gizli dost, metres' 5:5 'axdân' kullanımını kapsıyor (karşılık gözden geçirme tam okuma sonu)",
+ "esmâ: 5:5:41 آخِر 'degil' — 've huve fi'l-âxirati mine'l-xâsirîn', kural ''fi'l-âxira' emsali → degil' (ahiret); 5:6:30 أَحَد 'degil' — 'ev câ'e ehadun minkum', kural 'esmâ adı esmâ dışı göndergeyle → degil' (biriniz) (esma_el_ekle → esma_kayit; e_el=? 0); kural adları kapalı listeyle karşılaştırıldı; lafız 5:5 yok, 5:6 bir geçiş; Rab yok",
+ "esma_kayit: 5:5 ölçüm esmâ '{{1|آخِر 41\\. sırada, SON konum, MÜHÜRSÜZ}}' — satır aynen / esma_kayit çıktısı 'mühür EVET ton denge' (uyuşmuyor) — esma_kayit 'degil' işaretli adı mühüre sayıyor (§8 'esma_kayit degil adları mühüre sayması' ile eş tür; araç tanımı farkı); "
+ "5:6 ölçüm esmâ '{{2|أَحَد 30\\. sırada, ORTA konum, MÜHÜRSÜZ}}' — satır aynen / esma_kayit çıktısı 'mühür hayır' (uyuşuyor)",
+ "ölçüm: 5:5 '{{1|lafız YOK · Rab YOK}}', '{{1|fâsıla ٱلخسرين → ن, N sınıfı}}', '{{1|EDİLGEN 3/6 fiil, pas z=2,52}}', '{{1|simetri \\[4, 6, 19, 1\\]}}', '{{1|harf 203 → harf3 194, isaret 9}}' ve '{{1|dış düğüm 1}}'; "
+ "5:6 '{{2|biçim DIKKAT}}', '{{2|fâsıla تشكرون → ن, N sınıfı}}', '{{2|sayı işareti أَحَد}}', '{{2|simetri \\[4, 9, 44, 1\\]}}', '{{2|harf 297 → harf3 280, isaret 17}}' ve '{{2|dış düğüm 4}}' — satır aynen (◇'de de; iki araçla bayt eşitliği denetlendi); simetri alanı olmayan ayet yok",
+ "ölçüm aktör: 5:5 ve 5:6 aktör yok",
+ "ölçüm edim / kip (ayet ayet; D2 ölçüm etiketiyle): 5:5 şart — CERT 1 'qad' (36.), COND 1 'men' (33.), NEG 1 'lâ' (30.); biçim alanı yok; 5:6 emir, nida, şart — COND 2 'in' (18., 22.), IMPV 5 'ğsilû' (8.), 'msehû' (13., 43.), 'ttahherû' (21.), 'teyemmemû' (40.), NEG 2 'lem' (37.), 'mâ' (47.), VOC 1 'yâ' (1.); biçim DIKKAT D2'de yazılmadı",
+ "yıldız: 5:5 ★★★, 5:6 ★★★ — satır yıldız kaynağını adlandırmıyor; kaynak kapanış notunda bilançodan",
+ "fâsıla: 5:4 ب (ٱلحساب) → 5:5 ن (ٱلخسرين, N sınıfı) → 5:6 ن (تشكرون, N sınıfı); bölüm geçişinde sınıf değişiyor, bölüm içinde ن sürüyor; aday 1042 için kayıt (test edilmedi)",
+ "ölçüm xref: 5:5 xref 4:24 (basılmış); 5:6 xref 2:184, 2:185 ve 4:43 (basılmış), okunmuş bir ayet — sınıflama sinifla.py ile",
+ "nakarat3 (R3: sayıyla özetlendi): 5:5 iki kalıp: bir kalıp süzgeç GEÇER, bir kalıp süzgeç GEÇMEZ; 5:6 bir kalıp: süzgeç GEÇER",
+ "araç tanımı farkları (R5; nakarat3 'tür ic' = sûre içi; sûre içi toplam = bu + basılmış sûre içi + okunmus_si + henuz_si — taban sayımın kendi sözlüğünden betikle, bölüm 1 denetimi kuralı 5; karşılaştırma eşit aralıkla): " + '; '.join(r5)
+ + "; 5:6 ölçüm 'sayı işareti أَحَد' — 'ehadun minkum' (biriniz), sayı iddiası değil; 5:5 esma_kayit 'degil' adını mühüre sayıyor",
+ "aktör / ad (1017, R1): 5:5 muhatap 2MP (adsız), 'uhille' ve 'ûtu' failleri (adsız; edilgen), 'l-muhsanâtu' (atıf), 'hunne' 3FP (adsız), 'muhsinîne' (muhatabın durumu), 'yekfur' faili 3MS (adsız; 'men'), 'huve' (adsız); "
+ "5:6 muhatap 2MP (adsız), 'ehadun minkum' ('câ'e' faili), 'n-nisâ'e' (mef'ûl), Allah (lafız), 'yec'ale' / 'yurîdu' / 'yutahhira' / 'yutimme' faili 3MS (adsız; gönderge lafız) — "
+ "A1'e yazılmayanlar: 5:5 'ta'âmu'llezîne' (izafetle mecrur ilgi zamiri — §8 'mecrur ilgi zamiri' kapsamı; 'ûtu' nâib fâilinin göndergesi olarak anıldı), 'mine'llezîne' (19. kelime; mecrur ilgi zamiri, §8 kapsamı), 'mine'l-mu'minâti' ('min' + belirli çoğul), 'lehum' (mecrur zamir); "
+ "5:6 'minkum', ''aleykum' (mecrur zamir — muhatap içinde anıldı), 'mine'l-ğâ'iti' (mecrur belirli tekil), 'min haracin' (mecrur tekil nekre); 'kâne / leyse' ismi nekre yok ('kuntum' ismi muhatap)",
+ "söz / tırnak: blokta söz yok; lemma qâle blokta yok; tırnak yok; morph 've' / 'fe' konumlarıyla kontrol edildi: 5:5 've ta'âmu' (5.), 've men' (33.) REM; 've ta'âmukum' (11.), 've'l-muhsanâtu' (14., 17.), 've lâ' (30.) CONJ; 've huve' (39.) CIRC; 'fe-qad' (36.) RSLT; "
+ "5:6 've eydiyekum' (10.), 've'msehû' (13.), 've erculekum' (15.), 've in' (22.), 've eydîkum' (45.), 've li-yutimme' (57.) CONJ; 've in' (18.), 've lâkin' (54.) REM; 'fe'ğsilû' (8.), 'fe'ttahherû' (21.), 'fe-teyemmemû' (40.) RSLT; 'fe-lem' (37.), 'fe'msehû' (43.) CONJ; "
+ "5:5 've huve' CIRC — mealde 've' ile atıf verildi (hâl okuması sapma, meal maddesinde)",
+ "◈ tetik (alıntılar önek ve edatsız; bölüm 1 denetimi kuralı 9): 5:5 ◈K يوم ('el-yevme' 1. kelime — K2); 5:6 ◈K موه ('mâ'en' 39. kelime — K1, su), ◈B يدي ('eydiyekum' 10. kelime, 'eydîkum' 45. kelime — B3); tetik listesinde olmayan organ adları: 5:6 'vucûhekum' / 'vucûhikum' (yüz; وجه), 'ru'ûsikum' (baş; رأس), 'erculekum' (ayak; رجل), "
+ "'l-merâfiq' (dirsek; رفق), 'l-ka'beyn' (topuk; كعب); beden / yer adları 'l-ğâ'it' (غوط), 'sa'îden' (toprak; صعد); 5:5 tetik dışı canlı / zaman adı yok; oturum_tetik kuru koşu 2 ayet / 0 uyuşmaz, oturum_xy 0 uyuşmaz",
+ "◈D D3 / bag (R8): D3 eşleri bag listesiyle birebir — 5:5 (2:217, 3:85, 3:93, 3:186, 4:24, 4:25, 39:65, 60:10), 5:6 (2:150, 2:184, 2:185, 4:43, 12:6, 16:81, 22:78, 48:2; 5:1 sûre içi) (kontrol.py ile); blok içi bağ yok; "
+ "bölüm geçişinde (5:4 → 5:5) ardışık bağ kurulmadı — harekesiz 'uhille lekumu't-tayyibât' 5:4 ile kalıp eşi (ölçüm nakarat3 tür ic, sayımda basılmış); 3:85, 2:150, 2:185 ve 2:217 bu oturumda daha önce basılmıştı — bağları burada lemma / kalıp eşi olarak (önceki basım); "
+ "D3 dışı bırakılan basılmış sayım eşleri (bütün sayımların 'okumada görüldü' kümesinden): 5:5 'llezîne ûtu'l-kitâb' sayımındaki 3:19 (genel kalıp), lemma 'ta'âm' sayımındaki 2:184 (bağı 5:6'da); 5:6 'yâ eyyuhe'llezîne âmenû' sayımındaki 5:2, 49:1 ve 60:10 (genel hitap; 5:1 sûre içi bağı yeterli), "
+ "'le'allekum teşkurûn' sayımındaki 22:36 (genel kalıp)",
+ "◈A A4 (R9 + kapsam): 5:5 bölüm açılışı; edim geçişi soru, emir → şart (ayetler arası); şahıs geçişi yok (2 → 2); şart → cevap (ayet içi; COND 'men' 33. kelime / cevap 'fe-qad' 36. kelime); 'izâ' (24. kelime) zaman (morph T), şart sayılmadı; "
+ "5:6 hitap açılır (1-3. kelime); edim geçişi şart → emir, nida, şart (ayetler arası); şahıs geçişi yok (2 → 2); iki şart → cevap (ayet içi; COND 'in' 18. kelime / cevap 'fe'ttahherû' 21. kelime; COND 'in' 22. kelime / cevap 'fe-teyemmemû' 40. kelime); 'izâ' (4. kelime) zaman — 'fe'ğsilû' (8. kelime) cevabı A4'te şart sayılmadı",
+ "sözdizimi (okuma; 'atıf' / 'istînâf' / 'hâl' her geçişte morph etiketiyle; 'X'a atıf' yazımında X ma'tûf aleyh): 5:5 'el-yevme uhille lekumu't-tayyibâtu' — edilgen fiil cümlesi, 'el-yevme' zaman zarfı (morph T); 've ta'âmu'llezîne' — istînâf (morph REM), isim cümlesi, haber 'hillun'; "
+ "'ve ta'âmukum' — 've ta'âmu'llezîne' cümlesine atıf (morph CONJ); 've'l-muhsanâtu mine'l-mu'minâti' — 'et-tayyibâtu'ya atıf (morph CONJ); 've'l-muhsanâtu mine'llezîne' — 'el-muhsanâtu'ya atıf (morph CONJ); 'izâ âteytumûhunne' — zaman (morph T); 'muhsinîne' — 'âteytum' failinin durumu (mansub; morph etiketi yok); "
+ "'ve lâ muttexizî' — 'musâfihîne'ye atıf (morph CONJ); 've men yekfur' — istînâf (morph REM), şart; 'fe-qad habita' — şart cevabı (morph RSLT); 've huve' — hâl (morph CIRC); "
+ "5:6 'yâ eyyuhe'llezîne âmenû' — nida; 'izâ qumtum' — zaman (morph T); 'fe'ğsilû' — 'izâ' cevabı (morph RSLT); 've eydiyekum' — 'vucûhekum'a atıf (morph CONJ); 've'msehû' — 'fe'ğsilû'ya atıf (morph CONJ); "
+ "'ve erculekum' — 'bi-ru'ûsikum'a ya da nasb ile 'vucûhekum'a atıf (morph CONJ; i'râb ACC — okuma karar tam okuma sonu); 've in kuntum cunuben' — istînâf (morph REM), şart; 'fe'ttahherû' — şart cevabı (morph RSLT); "
+ "'ve in kuntum merdâ' — 've in kuntum cunuben'e atıf (morph CONJ), şart; 'fe-lem tecidû' — 'lâmestumu'ya atıf (morph CONJ); 'fe-teyemmemû' — şart cevabı (morph RSLT); 'fe'msehû' — 'fe-teyemmemû'ya atıf (morph CONJ); "
+ "'mâ yurîdu'llâhu li-yec'ale' — olumsuz fiil cümlesi, 'li' masdar (morph PRP); 've lâkin yurîdu' — istînâf (morph REM), istidrak; 've li-yutimme' — 'li-yutahhirakum'a atıf (morph CONJ); 'le'allekum teşkurûn' — 'le'alle' cümlesi (morph ACC)",
+ "okuma (gözlem) (iddialar ölçüm ve morph ile denetlendi; sayı sözcükleri konum listesiyle betikle karşılaştırıldı): 5:5 'ellezîne ûtu'l-kitâbe' iki geçiş (6-8., 19-21. kelime) — yiyecek ve evlilik izni; 5:5 kök حصن üç geçiş (14., 17., 27. kelime) — dişil edilgen ortaç iki, eril etken ortaç bir; "
+ "5:5 'hillun' iki geçiş (9., 12. kelime) — karşılıklı helâllik ('lekum' / 'lehum'); 5:6 'ilâ' üç geçiş (6., 11., 16. kelime) — namaza, dirseklere, topuklara; 5:6 kök مسح iki geçiş (13., 43. kelime) — abdestte baş, teyemmümde yüz ve eller; "
+ "5:6 'kuntum merdâ ev 'alâ seferin ev câ'e ehadun minkum mine'l-ğâ'iti ev lâmestumu'n-nisâ'e fe-lem tecidû mâ'en fe-teyemmemû sa'îden tayyiben fe'msehû bi-vucûhikum ve eydîkum' (23-45. kelime) 4:43 ile kalıp kalıp eş — 5:6'da 'minhu' (46. kelime) ek; "
+ "5:6 'yurîdu' iki geçiş (48., 55. kelime) — olumsuz / olumlu; 5:6 'li' üç geçiş (50., 56., 57. kelime) — irade içeriği; 5:6 'li-yutimme ni'metehû 'aleykum' (57-59. kelime) 5:3 'etmemtu 'aleykum ni'metî' ile kök تمم ve نعم eşi (1S / 3MS)",
+ "meal (okuma, tam okuma sonu): " + MEAL5 + "; " + MEAL6 + "; blok içi eş edat / zamir karşılıkları (sunum/es_edat.py — morph etiketli, zamirler birleşik; karşılık seçimi tam okuma sonu): " + ES
+ + "; eş lemmaya farklı karşılık (sunum/es_lemma.py): " + (ESL.replace('\n', '; ') or 'yok') + "; emsal meal karşılık farkları (bölüm 1 denetimi kuralı 10): 'muhsane' 5:5 'iffetli' / 4:24 ve 4:25 emsal meallerinde 'evli kadın' ve 'iffetli'; 'axdân' 5:5 'gizli dost' / 4:25 'gizli dost'; 'sa'îd' 5:6 'toprak' / 4:43 'toprak' — tam okuma sonu",
+ "KARSILIK_CAKISMA",
+ "çıpa: 5:6 tarayıcı adayı (kök موه; işaretler A_şart, B_ta’lîl, C_recâ; cipa=False; cipa_tarama5_adaylari.json) — su bulunmaması hüküm koşulu, 'li-yutahhirakum' / 'le'allekum' irade ve umut bildirimi, doğa iddiası değil (olgu=False); 5:5 tarayıcı vermedi (hüküm, olgu=False); L3 / L4 adayı yok",
+ "aday 1039: ayet içi 5:5 ('ve ta'âmu'llezîne ûtu'l-kitâbe hillun lekum' / 've ta'âmukum hillun lehum'), 5:6 ('mâ yurîdu'llâhu li-yec'ale 'aleykum min haracin' / 've lâkin yurîdu li-yutahhirakum') — okuma; ayetler arası yok",
+ "aday 1041: kök طهر 5:6 'ttahherû' (2MP — insan) ve 'yutahhirakum' (lafız) — bir kök ayet içinde insan ve Allah için — vaka (okuma); kök تمم 5:6 'yutimme' (lafız) ve 5:3 'etmemtu' (1S) — eş gönderge",
+ "bölüm: " + BOL + " bölümü, bölüm 2-1 — bölüm açılışı 5:5; bölüm sonraki blokta kapanır; başlıktaki 'kitap ehlinin yemeği ve kadınları' 5:5, 'abdest ve teyemmüm' 5:6; bölüm 1 denetiminin maddeleri (bekleyen_ariza_5_b02.txt) bu bloğun ARIZA başında; "
+ "medde taraması (bölüm 1 denetimi kuralı 2; sunum/medde.py b03/say2.txt): yedi meddeli kalıp — hepsi eşini buldu, yanlış 'korpusta 1' yok",
+ "sonradan basılan (bölüm 8 kuralı 1; bölüm 16 denetimi kuralı 3; bölüm 1 denetimi kuralı 1 — lemma dizileri dahil; sunum/sonradan.py --plan 3): " + SON + " (geriye dönük düzeltme yok)",
+ "korpusta 1 (kayıt; liste metin oluşturucusundaki say() dönüşleriyle): " + ', '.join(K1.values()),
+ "bağ: emsal 4:43, 4:24, 4:25, 3:186, 60:10, 39:65, 22:78, 16:81, 12:6, 48:2, 3:93, 2:184 — emsal dosyası (AR + meal) teslim edildi; her emsal ayetinin bag'de gerekçesi var; önceki basım (sunum/onceki_basim.py): " + ONC + "; "
+ "sayımlar işaretlemeden sonra sinifla.py ile yeniden sınıflandı (say2.txt); lemma adları morph lemmasından ham transliterasyonla ('ta'âm', 'hill', 'muhsane', 'axdân', 'habita', 'merâfiq', 'ka'beyn', 'harac', 'tahhara'; morph LEM ham biçim: 'ğsilu', 'msehu', 'lemesu' — sunum/lem_norm.json); "
+ "ortaç / masdarlarda bab etiketi ◇'de yazılmadı; transliterasyon yalnız ة / tanvin / 'l' birleşme yapıntıları; wasl 'va'' taraması 0 (yasakli.sh); A1 alıntıları ◇ alt dizesi (altdize.py)",
+]
+
+
+def yaz():
+    items = [kes(x) for x in I]
+    s = '\n (5, 6): [\n' + '\n'.join('  %r,' % x for x in items) + '\n ],'
+    ast.literal_eval('{' + s + '}')
+    open('/home/claude/yamalar/ariza_5_5_6.txt', 'w', encoding='utf-8').write(s)
+
+
+idx = I.index('KARSILIK_CAKISMA')
+I[idx] = 'karşılık çakışması (geçici)'
+yaz()
+CAK = subprocess.run([sys.executable, '/home/claude/sunum/cakisma.py', '/home/claude/yamalar/ariza_5_5_6.txt'], capture_output=True, text=True).stdout.strip()
+KARAR = {}
+exec(open('/home/claude/b03/yap/karar.py', encoding='utf-8').read()) if os.path.exists('/home/claude/b03/yap/karar.py') else None
+I[idx] = ("karşılık çakışması (sunum/cakisma.py bölüm 2 ARIZA meal maddeleri (blok 3); kararlar morph LEM eşitliğine göre): "
+          + ('; '.join(KARAR.get(l.split(' ←')[0], l + ' — karar yok') for l in CAK.splitlines()) if CAK else 'çakışma yok'))
+yaz()
+print('yazıldı', len(I))
+print(CAK)

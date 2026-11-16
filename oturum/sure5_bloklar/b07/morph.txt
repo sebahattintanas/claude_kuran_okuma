@@ -1,0 +1,58 @@
+5:18:1	وَقَالَتِ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3FS
+5:18:2	ٱلْيَهُودُ	P|DET|PREF|LEM:ال + N|PN|ROOT:هود|LEM:يَهُود|MP|NOM
+5:18:3	وَٱلنَّصَٰرَىٰ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|PN|ROOT:نصر|LEM:نَصْرانِيّ|P|NOM
+5:18:4	نَحْنُ	N|PRON|1P
+5:18:5	أَبْنَٰٓؤُا۟	N|ROOT:بني|LEM:ابْن|MP|NOM
+5:18:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:18:7	وَأَحِبَّٰٓؤُهُۥ	P|CONJ|PREF|LEM:و + N|ROOT:حبب|LEM:أَحِبّاؤ|MP|NOM + N|PRON|SUFF|3MS
+5:18:8	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+5:18:9	فَلِمَ	P|REM|PREF|LEM:ف + P|P|PREF|LEM:ل + N|INTG|LEM:ما
+5:18:10	يُعَذِّبُكُم	V|IMPF|VF:2|ROOT:عذب|LEM:عَذَّبَ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+5:18:11	بِذُنُوبِكُم	P|P|PREF|LEM:ب + N|ROOT:ذنب|LEM:ذَنب|MP|GEN + N|PRON|SUFF|2MP
+5:18:12	بَلْ	P|INC|LEM:بَل
+5:18:13	أَنتُم	N|PRON|2MP
+5:18:14	بَشَرٌ	N|ROOT:بشر|LEM:بَشَر|M|INDEF|NOM
+5:18:15	مِّمَّنْ	P|P|LEM:مِن + N|REL|LEM:مَن
+5:18:16	خَلَقَ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|3MS
+5:18:17	يَغْفِرُ	V|IMPF|VF:1|ROOT:غفر|LEM:غَفَرَ|3MS|MOOD:IND
+5:18:18	لِمَن	P|P|PREF|LEM:ل + N|REL|LEM:مَن
+5:18:19	يَشَآءُ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS|MOOD:IND
+5:18:20	وَيُعَذِّبُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:2|ROOT:عذب|LEM:عَذَّبَ|3MS|MOOD:IND
+5:18:21	مَن	N|REL|LEM:مَن
+5:18:22	يَشَآءُ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS|MOOD:IND
+5:18:23	وَلِلَّهِ	P|REM|PREF|LEM:و + P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:18:24	مُلْكُ	N|ROOT:ملك|LEM:مُلْك|M|NOM
+5:18:25	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+5:18:26	وَٱلْأَرْضِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:18:27	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+5:18:28	بَيْنَهُمَا	N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|3D
+5:18:29	وَإِلَيْهِ	P|CONJ|PREF|LEM:و + P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+5:18:30	ٱلْمَصِيرُ	P|DET|PREF|LEM:ال + N|ROOT:صير|LEM:مَصِير|NOM
+5:19:1	يَٰٓأَهْلَ	P|VOC|PREF|LEM:ي + N|ROOT:أهل|LEM:أَهْل|M|ACC
+5:19:2	ٱلْكِتَٰبِ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|GEN
+5:19:3	قَدْ	P|CERT|LEM:قَد
+5:19:4	جَآءَكُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+5:19:5	رَسُولُنَا	N|ROOT:رسل|LEM:رَسُول|M|NOM + N|PRON|SUFF|1P
+5:19:6	يُبَيِّنُ	V|IMPF|VF:2|ROOT:بين|LEM:بَيَّنُ|3MS|MOOD:IND
+5:19:7	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:19:8	عَلَىٰ	P|P|LEM:عَلَى
+5:19:9	فَتْرَةٍ	N|ROOT:فتر|LEM:فَتْرَة|F|INDEF|GEN
+5:19:10	مِّنَ	P|P|LEM:مِن
+5:19:11	ٱلرُّسُلِ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|MP|GEN
+5:19:12	أَن	P|SUB|LEM:أَن
+5:19:13	تَقُولُوا۟	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+5:19:14	مَا	P|NEG|LEM:ما
+5:19:15	جَآءَنَا	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|1P
+5:19:16	مِنۢ	P|P|LEM:مِن
+5:19:17	بَشِيرٍ	N|ROOT:بشر|LEM:بَشِير|MS|INDEF|GEN
+5:19:18	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:19:19	نَذِيرٍ	N|ROOT:نذر|LEM:نَذِير|M|INDEF|GEN
+5:19:20	فَقَدْ	P|REM|PREF|LEM:ف + P|CERT|LEM:قَد
+5:19:21	جَآءَكُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+5:19:22	بَشِيرٌ	N|ROOT:بشر|LEM:بَشِير|MS|INDEF|NOM
+5:19:23	وَنَذِيرٌ	P|CONJ|PREF|LEM:و + N|ROOT:نذر|LEM:نَذِير|M|INDEF|NOM
+5:19:24	وَٱللَّهُ	P|REM|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:19:25	عَلَىٰ	P|P|LEM:عَلَى
+5:19:26	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+5:19:27	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+5:19:28	قَدِيرٌ	N|ROOT:قدر|LEM:قَدِير|M|INDEF|NOM

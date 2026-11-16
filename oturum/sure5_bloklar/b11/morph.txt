@@ -1,0 +1,65 @@
+5:31:1	فَبَعَثَ	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:بعث|LEM:بَعَثَ|3MS
+5:31:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:31:3	غُرَابًا	N|ROOT:غرب|LEM:غُراب|M|INDEF|ACC
+5:31:4	يَبْحَثُ	V|IMPF|VF:1|ROOT:بحث|LEM:يَبْحَثُ|3MS|MOOD:IND
+5:31:5	فِى	P|P|LEM:فِي
+5:31:6	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:31:7	لِيُرِيَهُۥ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|PASS|ROOT:رأي|LEM:أَرَيْ|3MS|MOOD:SUBJ + N|PRON|SUFF|3MS
+5:31:8	كَيْفَ	N|ROOT:كيف|LEM:كَيْف|ACC
+5:31:9	يُوَٰرِى	V|IMPF|VF:3|ROOT:وري|LEM:وُۥرِيَ|3MS|MOOD:IND
+5:31:10	سَوْءَةَ	N|ROOT:سوأ|LEM:سَوْءَة|F|ACC
+5:31:11	أَخِيهِ	N|ROOT:أخو|LEM:أَخ|MS|GEN + N|PRON|SUFF|3MS
+5:31:12	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:31:13	يَٰوَيْلَتَىٰٓ	P|VOC|PREF|LEM:ي + N|LEM:وَيْل|ACC + N|PRON|SUFF|1S
+5:31:14	أَعَجَزْتُ	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:عجز|LEM:عَجَزْ|1S + N|PRON|SUFF|1S
+5:31:15	أَنْ	P|SUB|LEM:أَن
+5:31:16	أَكُونَ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1S|MOOD:SUBJ
+5:31:17	مِثْلَ	N|ROOT:مثل|LEM:مِثْل|M|ACC
+5:31:18	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+5:31:19	ٱلْغُرَابِ	P|DET|PREF|LEM:ال + N|ROOT:غرب|LEM:غُراب|M|GEN
+5:31:20	فَأُوَٰرِىَ	P|CAUS|PREF|LEM:ف + V|IMPF|VF:3|ROOT:وري|LEM:وُۥرِيَ|1S|MOOD:SUBJ
+5:31:21	سَوْءَةَ	N|ROOT:سوأ|LEM:سَوْءَة|F|ACC
+5:31:22	أَخِى	N|ROOT:أخو|LEM:أَخ|MS|NOM + N|PRON|SUFF|1S
+5:31:23	فَأَصْبَحَ	P|CAUS|PREF|LEM:ف + V|PERF|VF:4|ROOT:صبح|LEM:أَصْبَحَ|FAM:كَان|3MS
+5:31:24	مِنَ	P|P|LEM:مِن
+5:31:25	ٱلنَّٰدِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ندم|LEM:نادِم|MP|GEN
+5:32:1	مِنْ	P|P|LEM:مِن
+5:32:2	أَجْلِ	N|ROOT:أجل|LEM:أَجْل|M|GEN
+5:32:3	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:32:4	كَتَبْنَا	V|PERF|VF:1|ROOT:كتب|LEM:كَتَبَ|1P + N|PRON|SUFF|1P
+5:32:5	عَلَىٰ	P|P|LEM:عَلَى
+5:32:6	بَنِىٓ	N|ROOT:بني|LEM:بُنَىّ|MP|GEN
+5:32:7	إِسْرَٰٓءِيلَ	N|PN|LEM:إِسْرائِيل|GEN
+5:32:8	أَنَّهُۥ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+5:32:9	مَن	N|COND|LEM:مَن
+5:32:10	قَتَلَ	V|PERF|VF:1|ROOT:قتل|LEM:قَتَلَ|3MS
+5:32:11	نَفْسًۢا	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|ACC
+5:32:12	بِغَيْرِ	P|P|PREF|LEM:ب + N|ROOT:غير|LEM:غَيْر|M|GEN
+5:32:13	نَفْسٍ	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|GEN
+5:32:14	أَوْ	P|CONJ|LEM:أَو
+5:32:15	فَسَادٍ	N|ROOT:فسد|LEM:فَساد|M|INDEF|GEN
+5:32:16	فِى	P|P|LEM:فِي
+5:32:17	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:32:18	فَكَأَنَّمَا	P|RSLT|PREF|LEM:ف + P|ACC|LEM:كَأَنّ|FAM:إِنّ + P|PREV|LEM:ما
+5:32:19	قَتَلَ	V|PERF|VF:1|ROOT:قتل|LEM:قَتَلَ|3MS
+5:32:20	ٱلنَّاسَ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|ACC
+5:32:21	جَمِيعًا	N|ROOT:جمع|LEM:جَمِيع|M|INDEF|ACC
+5:32:22	وَمَنْ	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+5:32:23	أَحْيَاهَا	V|PERF|VF:4|ROOT:حيي|LEM:أَحْيا|3MS + N|PRON|SUFF|3FS
+5:32:24	فَكَأَنَّمَآ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:كَأَنّ|FAM:إِنّ + P|PREV|LEM:ما
+5:32:25	أَحْيَا	V|PERF|VF:4|ROOT:حيي|LEM:أَحْيا|3MS
+5:32:26	ٱلنَّاسَ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|ACC
+5:32:27	جَمِيعًا	N|ROOT:جمع|LEM:جَمِيع|M|INDEF|ACC
+5:32:28	وَلَقَدْ	P|REM|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+5:32:29	جَآءَتْهُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS + N|PRON|SUFF|3MP
+5:32:30	رُسُلُنَا	N|ROOT:رسل|LEM:رَسُول|MP|NOM + N|PRON|SUFF|1P
+5:32:31	بِٱلْبَيِّنَٰتِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:بين|LEM:بَيِّنَة|FP|GEN
+5:32:32	ثُمَّ	P|CONJ|LEM:ثُمّ
+5:32:33	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+5:32:34	كَثِيرًا	N|ROOT:كثر|LEM:كَثِير|MS|INDEF|ACC
+5:32:35	مِّنْهُم	P|P|LEM:مِن + N|PRON|SUFF|3MP
+5:32:36	بَعْدَ	N|T|ROOT:بعد|LEM:بَعْد|ACC
+5:32:37	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:32:38	فِى	P|P|LEM:فِي
+5:32:39	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:32:40	لَمُسْرِفُونَ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:4|ROOT:سرف|LEM:مُسْرِف|MP|NOM

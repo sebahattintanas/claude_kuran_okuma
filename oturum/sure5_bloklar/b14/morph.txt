@@ -1,0 +1,67 @@
+5:41:1	يَٰٓأَيُّهَا	P|VOC|PREF|LEM:ي + N|ROOT:أيي|LEM:أَيّ|ACC + P|ATT|SUFF|LEM:ه
+5:41:2	ٱلرَّسُولُ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|M|NOM
+5:41:3	لَا	P|PRO|LEM:لا
+5:41:4	يَحْزُنكَ	V|IMPF|VF:1|ROOT:حزن|LEM:يَحْزُن|3MS|MOOD:JUS + N|PRON|SUFF|2MS
+5:41:5	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:41:6	يُسَٰرِعُونَ	V|IMPF|VF:3|ROOT:سرع|LEM:يُسارِعُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:41:7	فِى	P|P|LEM:فِي
+5:41:8	ٱلْكُفْرِ	P|DET|PREF|LEM:ال + N|ROOT:كفر|LEM:كُفْر|M|GEN
+5:41:9	مِنَ	P|P|LEM:مِن
+5:41:10	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:41:11	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:41:12	ءَامَنَّا	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|1P + N|PRON|SUFF|1P
+5:41:13	بِأَفْوَٰهِهِمْ	P|P|PREF|LEM:ب + N|ROOT:فوه|LEM:أَفْواه|MP|GEN + N|PRON|SUFF|3MP
+5:41:14	وَلَمْ	P|REM|PREF|LEM:و + P|NEG|LEM:لَم
+5:41:15	تُؤْمِن	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3FS|MOOD:JUS
+5:41:16	قُلُوبُهُمْ	N|ROOT:قلب|LEM:قَلْب|FP|NOM + N|PRON|SUFF|3MP
+5:41:17	وَمِنَ	P|CONJ|PREF|LEM:و + P|P|LEM:مِن
+5:41:18	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:41:19	هَادُوا۟	V|PERF|VF:1|ROOT:هود|LEM:هادُ|3MP + N|PRON|SUFF|3MP
+5:41:20	سَمَّٰعُونَ	N|ROOT:سمع|LEM:سَمّاع|MP|NOM
+5:41:21	لِلْكَذِبِ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ROOT:كذب|LEM:كَذِب|M|GEN
+5:41:22	سَمَّٰعُونَ	N|ROOT:سمع|LEM:سَمّاع|MP|NOM
+5:41:23	لِقَوْمٍ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+5:41:24	ءَاخَرِينَ	N|ROOT:أخر|LEM:آخَر|MP|GEN|ADJ
+5:41:25	لَمْ	P|NEG|LEM:لَم
+5:41:26	يَأْتُوكَ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MP|MOOD:JUS + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+5:41:27	يُحَرِّفُونَ	V|IMPF|VF:2|ROOT:حرف|LEM:يُحَرِّفُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:41:28	ٱلْكَلِمَ	P|DET|PREF|LEM:ال + N|ROOT:كلم|LEM:كَلِم|M|ACC
+5:41:29	مِنۢ	P|P|LEM:مِن
+5:41:30	بَعْدِ	N|ROOT:بعد|LEM:بَعْد|GEN
+5:41:31	مَوَاضِعِهِۦ	N|ROOT:وضع|LEM:مَواضِع|MP|GEN + N|PRON|SUFF|3MS
+5:41:32	يَقُولُونَ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:41:33	إِنْ	P|COND|LEM:إِن
+5:41:34	أُوتِيتُمْ	V|PERF|VF:4|PASS|ROOT:أتي|LEM:آتَى|2MP + N|PRON|SUFF|2MP
+5:41:35	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+5:41:36	فَخُذُوهُ	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:أخذ|LEM:أَخَذَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+5:41:37	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+5:41:38	لَّمْ	P|NEG|LEM:لَم
+5:41:39	تُؤْتَوْهُ	V|IMPF|VF:4|PASS|ROOT:أتي|LEM:آتَى|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+5:41:40	فَٱحْذَرُوا۟	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:حذر|LEM:يَحْذَرُ|2MP + N|PRON|SUFF|2MP
+5:41:41	وَمَن	P|REM|PREF|LEM:و + N|COND|LEM:مَن
+5:41:42	يُرِدِ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|3MS|MOOD:JUS
+5:41:43	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:41:44	فِتْنَتَهُۥ	N|ROOT:فتن|LEM:فِتْنَة|F|ACC + N|PRON|SUFF|3MS
+5:41:45	فَلَن	P|RSLT|PREF|LEM:ف + P|NEG|LEM:لَن
+5:41:46	تَمْلِكَ	V|IMPF|VF:1|ROOT:ملك|LEM:مَلَكَتْ|2MS|MOOD:SUBJ
+5:41:47	لَهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+5:41:48	مِنَ	P|P|LEM:مِن
+5:41:49	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:41:50	شَيْـًٔا	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|ACC
+5:41:51	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+5:41:52	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:41:53	لَمْ	P|NEG|LEM:لَم
+5:41:54	يُرِدِ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|3MS|MOOD:JUS
+5:41:55	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:41:56	أَن	P|SUB|LEM:أَن
+5:41:57	يُطَهِّرَ	V|IMPF|VF:2|ROOT:طهر|LEM:طَهَّرَ|3MS|MOOD:SUBJ
+5:41:58	قُلُوبَهُمْ	N|ROOT:قلب|LEM:قَلْب|FP|ACC + N|PRON|SUFF|3MP
+5:41:59	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:41:60	فِى	P|P|LEM:فِي
+5:41:61	ٱلدُّنْيَا	P|DET|PREF|LEM:ال + N|ROOT:دنو|LEM:دُنْيا|FS|GEN
+5:41:62	خِزْىٌ	N|ROOT:خزي|LEM:خِزْى|M|INDEF|NOM
+5:41:63	وَلَهُمْ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ل + N|PRON|3MP
+5:41:64	فِى	P|P|LEM:فِي
+5:41:65	ٱلْءَاخِرَةِ	P|DET|PREF|LEM:ال + N|ROOT:أخر|LEM:آخِر|FS|GEN
+5:41:66	عَذَابٌ	N|ROOT:عذب|LEM:عَذاب|M|INDEF|NOM
+5:41:67	عَظِيمٌ	N|ROOT:عظم|LEM:عَظِيم|MS|INDEF|NOM|ADJ

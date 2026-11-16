@@ -1,0 +1,43 @@
+5:24:1	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:24:2	يَٰمُوسَىٰٓ	P|VOC|PREF|LEM:ي + N|PN|LEM:مُوسَى|M|NOM
+5:24:3	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+5:24:4	لَن	P|NEG|LEM:لَن
+5:24:5	نَّدْخُلَهَآ	V|IMPF|VF:1|ROOT:دخل|LEM:دَخَلَ|1P|MOOD:SUBJ + N|PRON|SUFF|3FS
+5:24:6	أَبَدًا	N|T|ROOT:أبد|LEM:أَبَدًا|M|INDEF|ACC
+5:24:7	مَّا	P|SUB|LEM:ما
+5:24:8	دَامُوا۟	V|PERF|VF:1|ROOT:دوم|LEM:دامُ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:24:9	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+5:24:10	فَٱذْهَبْ	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:ذهب|LEM:ذَهَبَ|2MS
+5:24:11	أَنتَ	N|PRON|2MS
+5:24:12	وَرَبُّكَ	P|CONJ|PREF|LEM:و + N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+5:24:13	فَقَٰتِلَآ	P|CONJ|PREF|LEM:ف + V|IMPV|VF:3|ROOT:قتل|LEM:قاتَلَ|2MD + N|PRON|SUFF|2D
+5:24:14	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+5:24:15	هَٰهُنَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:هُنا
+5:24:16	قَٰعِدُونَ	N|ACT_PCPL|VF:1|ROOT:قعد|LEM:قاعِد|MP|NOM
+5:25:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:25:2	رَبِّ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1S
+5:25:3	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+5:25:4	لَآ	P|NEG|LEM:لا
+5:25:5	أَمْلِكُ	V|IMPF|VF:1|ROOT:ملك|LEM:مَلَكَتْ|1S|MOOD:IND
+5:25:6	إِلَّا	P|EXP|LEM:إِلّا
+5:25:7	نَفْسِى	N|ROOT:نفس|LEM:نَفْس|FS|ACC + N|PRON|SUFF|1S
+5:25:8	وَأَخِى	P|CONJ|PREF|LEM:و + N|ROOT:أخو|LEM:أَخ|MS|ACC + N|PRON|SUFF|1S
+5:25:9	فَٱفْرُقْ	P|SUP|PREF|LEM:ف + V|IMPV|VF:1|ROOT:فرق|LEM:فَرَقْ|2MS
+5:25:10	بَيْنَنَا	N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|1P
+5:25:11	وَبَيْنَ	P|CONJ|PREF|LEM:و + N|LOC|ROOT:بين|LEM:بَيْن|ACC
+5:25:12	ٱلْقَوْمِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|GEN
+5:25:13	ٱلْفَٰسِقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:فسق|LEM:فاسِق|MP|GEN|ADJ
+5:26:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:26:2	فَإِنَّهَا	P|SUP|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3FS
+5:26:3	مُحَرَّمَةٌ	N|PASS_PCPL|VF:2|ROOT:حرم|LEM:مُحَرَّمَة|F|INDEF|NOM
+5:26:4	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+5:26:5	أَرْبَعِينَ	N|T|ROOT:ربع|LEM:أَرْبَع|MP|ACC
+5:26:6	سَنَةً	N|ROOT:سنو|LEM:سَنَة|F|INDEF|ACC
+5:26:7	يَتِيهُونَ	V|IMPF|VF:1|ROOT:تيه|LEM:يَتِيهُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:26:8	فِى	P|P|LEM:فِي
+5:26:9	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:26:10	فَلَا	P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+5:26:11	تَأْسَ	V|IMPF|VF:1|ROOT:أسو|LEM:تَأْسَ|2MS|MOOD:JUS
+5:26:12	عَلَى	P|P|LEM:عَلَى
+5:26:13	ٱلْقَوْمِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|GEN
+5:26:14	ٱلْفَٰسِقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:فسق|LEM:فاسِق|MP|GEN|ADJ

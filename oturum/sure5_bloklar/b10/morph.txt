@@ -1,0 +1,62 @@
+5:27:1	وَٱتْلُ	P|CONJ|PREF|LEM:و + V|IMPV|VF:1|ROOT:تلو|LEM:تَلَى|2MS
+5:27:2	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+5:27:3	نَبَأَ	N|ROOT:نبأ|LEM:نَبَأ|M|ACC
+5:27:4	ٱبْنَىْ	N|ROOT:بني|LEM:ابْن|MD|GEN
+5:27:5	ءَادَمَ	N|PN|ROOT:أدم|LEM:آدَم|M|GEN
+5:27:6	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+5:27:7	إِذْ	N|T|LEM:إِذ
+5:27:8	قَرَّبَا	V|PERF|VF:2|ROOT:قرب|LEM:قَرَّبَ|3MD + N|PRON|SUFF|3MD
+5:27:9	قُرْبَانًا	N|ROOT:قرب|LEM:قُرْبان|M|INDEF|ACC
+5:27:10	فَتُقُبِّلَ	P|CONJ|PREF|LEM:ف + V|PERF|VF:5|PASS|ROOT:قبل|LEM:تَقَبَّلَ|3MS
+5:27:11	مِنْ	P|P|LEM:مِن
+5:27:12	أَحَدِهِمَا	N|ROOT:أحد|LEM:أَحَد|M|GEN + N|PRON|SUFF|3D
+5:27:13	وَلَمْ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لَم
+5:27:14	يُتَقَبَّلْ	V|IMPF|VF:5|PASS|ROOT:قبل|LEM:تَقَبَّلَ|3MS|MOOD:JUS
+5:27:15	مِنَ	P|P|LEM:مِن
+5:27:16	ٱلْءَاخَرِ	P|DET|PREF|LEM:ال + N|ROOT:أخر|LEM:آخَر|MS|GEN
+5:27:17	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:27:18	لَأَقْتُلَنَّكَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قتل|LEM:قَتَلَ|1S|MOOD:IND + P|EMPH|SUFF|LEM:ن + N|PRON|SUFF|2MS
+5:27:19	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:27:20	إِنَّمَا	P|ACC|LEM:إِنّ|FAM:إِنّ + P|PREV|LEM:ما
+5:27:21	يَتَقَبَّلُ	V|IMPF|VF:5|ROOT:قبل|LEM:تَقَبَّلَ|3MS|MOOD:IND
+5:27:22	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:27:23	مِنَ	P|P|LEM:مِن
+5:27:24	ٱلْمُتَّقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:8|ROOT:وقي|LEM:مُتَّقي|MP|GEN
+5:28:1	لَئِنۢ	P|EMPH|PREF|LEM:ل + P|COND|LEM:إِن
+5:28:2	بَسَطتَ	V|PERF|VF:1|ROOT:بسط|LEM:بَسَطَ|2MS + N|PRON|SUFF|2MS
+5:28:3	إِلَىَّ	P|P|LEM:إِلَى + N|PRON|SUFF|1S
+5:28:4	يَدَكَ	N|ROOT:يدي|LEM:يَد|FS|ACC + N|PRON|SUFF|2MS
+5:28:5	لِتَقْتُلَنِى	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قتل|LEM:قَتَلَ|2MS|MOOD:SUBJ + N|PRON|SUFF|1S
+5:28:6	مَآ	P|NEG|LEM:ما
+5:28:7	أَنَا۠	N|PRON|1S
+5:28:8	بِبَاسِطٍ	P|P|PREF|LEM:ب + N|ACT_PCPL|VF:1|ROOT:بسط|LEM:باسِط|M|INDEF|GEN
+5:28:9	يَدِىَ	N|ROOT:يدي|LEM:يَد|FS|ACC + N|PRON|SUFF|1S
+5:28:10	إِلَيْكَ	P|P|LEM:إِلَى + N|PRON|SUFF|2MS
+5:28:11	لِأَقْتُلَكَ	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قتل|LEM:قَتَلَ|1S|MOOD:SUBJ + N|PRON|SUFF|2MS
+5:28:12	إِنِّىٓ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+5:28:13	أَخَافُ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|1S|MOOD:IND
+5:28:14	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:28:15	رَبَّ	N|ROOT:ربب|LEM:رَبّ|M|ACC
+5:28:16	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+5:29:1	إِنِّىٓ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+5:29:2	أُرِيدُ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|1S|MOOD:IND
+5:29:3	أَن	P|SUB|LEM:أَن
+5:29:4	تَبُوٓأَ	V|IMPF|VF:1|ROOT:بوأ|LEM:باءَ|2MS|MOOD:SUBJ
+5:29:5	بِإِثْمِى	P|P|PREF|LEM:ب + N|ROOT:أثم|LEM:إِثْم|M|GEN + N|PRON|SUFF|1S
+5:29:6	وَإِثْمِكَ	P|CONJ|PREF|LEM:و + N|ROOT:أثم|LEM:إِثْم|M|GEN + N|PRON|SUFF|2MS
+5:29:7	فَتَكُونَ	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:SUBJ
+5:29:8	مِنْ	P|P|LEM:مِن
+5:29:9	أَصْحَٰبِ	N|ROOT:صحب|LEM:أَصْحاب|MP|GEN
+5:29:10	ٱلنَّارِ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|GEN
+5:29:11	وَذَٰلِكَ	P|REM|PREF|LEM:و + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:29:12	جَزَٰٓؤُا۟	N|ROOT:جزي|LEM:جَزاء|M|NOM
+5:29:13	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN
+5:30:1	فَطَوَّعَتْ	P|REM|PREF|LEM:ف + V|PERF|VF:2|ROOT:طوع|LEM:طَوَّعَتْ|3FS
+5:30:2	لَهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+5:30:3	نَفْسُهُۥ	N|ROOT:نفس|LEM:نَفْس|FS|NOM + N|PRON|SUFF|3MS
+5:30:4	قَتْلَ	N|VN|VF:1|ROOT:قتل|LEM:قَتْل|M|ACC
+5:30:5	أَخِيهِ	N|ROOT:أخو|LEM:أَخ|MS|GEN + N|PRON|SUFF|3MS
+5:30:6	فَقَتَلَهُۥ	P|CAUS|PREF|LEM:ف + V|PERF|VF:1|ROOT:قتل|LEM:قَتَلَ|3MS + N|PRON|SUFF|3MS
+5:30:7	فَأَصْبَحَ	P|CONJ|PREF|LEM:ف + V|PERF|VF:4|ROOT:صبح|LEM:أَصْبَحَ|FAM:كَان|3MS
+5:30:8	مِنَ	P|P|LEM:مِن
+5:30:9	ٱلْخَٰسِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:خسر|LEM:خاسِر|MP|GEN

@@ -1,0 +1,234 @@
+### say 5:24 1-2
+kalıp: قالوا يموسى | mod: tam
+ayet: 6
+liste: 5:22, 5:24†, 7:115†, 7:134†, 7:138†, 20:65
+sûre içi (5): 5:22, 5:24
+
+6 {'bu': ['5:24'], 'basilan': ['5:22'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### say 5:24 3-5
+kalıp: إنا لن ندخلهءا | mod: tam
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 24 3 5
+lemma dizisi [('إِنّ',), ('لَن',), ('دَخَلَ',)] | ayet 2
+5:22, 5:24†
+
+2 {'bu': ['5:24'], 'basilan': ['5:22'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 3-6
+kalıp: إنا لن ندخلهءا أبدا | mod: tam
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 7-9
+kalıp: ما داموا فيها | mod: tam
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 10-13 --on
+kalıp: فاذهب أنت وربك فقتلءا | mod: on 
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 10-12 --on
+kalıp: فاذهب أنت وربك | mod: on 
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 14-16
+kalıp: إنا ههنا قعدون | mod: tam
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:24:16
+lemma قاعِد | token 7 | ayet 5
+liste: 4:95×3, 5:24†, 9:46, 9:86, 10:12
+sûre içi (5): 5:24
+
+5 {'bu': ['5:24'], 'basilan': ['9:86'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 1-2
+kalıp: قال رب | mod: tam
+ayet: 32
+liste: 3:38, 3:40, 3:41, 5:25†, 7:143†, 7:151†, 7:155†, 11:47, 12:33, 15:36, 15:39, 19:4, 19:8, 19:10, 20:25, 20:125, 23:26, 23:39, 23:99, 26:12, 26:24, 26:28, 26:117, 28:16, 28:17, 28:21, 28:33, 29:30, 38:35, 38:79, 46:15, 71:5
+sûre içi (5): 5:25
+
+32 {'bu': ['5:25'], 'basilan': ['46:15'], 'eski': 0, 'okunmus': 27, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### say 5:25 3-7
+kalıp: إنى لءا أملك إلا نفسى | mod: tam
+ayet: 1
+liste: 5:25†
+sûre içi (5): 5:25
+
+1 {'bu': ['5:25'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 4-5
+kalıp: لءا أملك | mod: tam
+ayet: 4
+liste: 5:25†, 7:188†, 10:49, 72:21
+sûre içi (5): 5:25
+
+4 {'bu': ['5:25'], 'basilan': ['10:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:25 8-8 --on
+kalıp: وأخى | mod: on 
+ayet: 2
+liste: 5:25†, 28:34
+sûre içi (5): 5:25
+
+2 {'bu': ['5:25'], 'basilan': ['28:34'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 9-13 --on
+kalıp: فافرق بيننا وبين القوم الفسقين | mod: on 
+ayet: 1
+liste: 5:25†
+sûre içi (5): 5:25
+
+1 {'bu': ['5:25'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 10-13
+kalıp: بيننا وبين القوم الفسقين | mod: tam
+ayet: 1
+liste: 5:25†
+sûre içi (5): 5:25
+
+1 {'bu': ['5:25'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 12-13
+kalıp: القوم الفسقين | mod: tam
+ayet: 8
+liste: 5:25†, 5:26†, 5:108†, 9:24, 9:80, 9:96, 61:5, 63:6
+sûre içi (5): 5:25, 5:26, 5:108
+
+8 {'bu': ['5:25'], 'basilan': ['5:26', '61:5'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:26 1-4
+kalıp: قال فإنها محرمة عليهم | mod: tam
+ayet: 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:26 2-4 --on
+kalıp: فإنها محرمة عليهم | mod: on 
+ayet: 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:26 5-6
+kalıp: أربعين سنة | mod: tam
+ayet: 2
+liste: 5:26†, 46:15
+sûre içi (5): 5:26
+
+2 {'bu': ['5:26'], 'basilan': ['46:15'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:26 7-9
+kalıp: يتيهون فى الأرض | mod: tam
+ayet: 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:26:7
+lemma يَتِيهُ | token 1 | ayet 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:26 10-13 --on
+kalıp: فلا تأس على القوم | mod: on 
+ayet: 2
+liste: 5:26†, 5:68†
+sûre içi (5): 5:26, 5:68
+
+2 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 5 26 10 13
+lemma dizisi [('لا',), ('تَأْسَ',), ('عَلَى',), ('قَوْم',)] | ayet 2
+5:26†, 5:68†
+
+2 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:26 10-14 --on
+kalıp: فلا تأس على القوم الفسقين | mod: on 
+ayet: 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:26 12-14
+kalıp: على القوم الفسقين | mod: tam
+ayet: 1
+liste: 5:26†
+sûre içi (5): 5:26
+
+1 {'bu': ['5:26'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 3-5 --medde
+kalıp: إنا لن ندخلها | mod: tam medde
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 3-6 --medde
+kalıp: إنا لن ندخلها أبدا | mod: tam medde
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:24 10-13 --on --medde
+kalıp: فاذهب أنت وربك فقتلا | mod: on  medde
+ayet: 1
+liste: 5:24†
+sûre içi (5): 5:24
+
+1 {'bu': ['5:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 3-7 --medde
+kalıp: إنى لا أملك إلا نفسى | mod: tam medde
+ayet: 1
+liste: 5:25†
+sûre içi (5): 5:25
+
+1 {'bu': ['5:25'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:25 4-5 --medde
+kalıp: لا أملك | mod: tam medde
+ayet: 4
+liste: 5:25†, 7:188†, 10:49, 72:21
+sûre içi (5): 5:25
+
+4 {'bu': ['5:25'], 'basilan': ['10:49'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+

@@ -1,0 +1,92 @@
+# blok 21 (5:64-66) meal kesimleri — ariza_yap MEALS dizgesini buradan kurar
+SEG = {
+ 64: [
+  ("Yahudiler: Allah'ın eli bağlıdır, dediler", "ve qâleti'l-yehûdu yedu'llâhi mağlûle", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'de-' 'qâlet' karşılığı (1. kelime; I. bab; 'dediler' içinde)", "'Yahudi' 'yehûd' karşılığı (2. kelime; çoğul '-ler'; özel ad)",
+   "'el' 'yed' karşılığı (3. kelime; iyelik ile 'eli')", "lafız 4. kelimede 'Allah' ile (ilgi eki 'Allah'ın' içinde)", "'bağlı' 'mağlûle' karşılığı (5. kelime; nekre — takdirsiz; edilgen ortaç)",
+   "'-dır' takdiri ('bağlıdır' içinde; isim cümlesi haberi)", "sıralama: söz öne, fiil sona alındı"]),
+  ("Elleri bağlandı ve söyledikleri yüzünden lanetlendiler", "ğullet eydîhim ve lu'inû bi-mâ qâlû", [
+   "'bağlan-' 'ğullet' karşılığı (6. kelime; I. bab; edilgen)", "'el' 'eydî' karşılığı (7. kelime; çoğul '-ler'; iyelik ile 'Elleri')", "'him' 7. kelimede iyelik ile ('Elleri' içinde)",
+   "'ve' 8. kelimede 've' ile (morph CONJ)", "'lanetle-' 'lu'inû' karşılığı (8. kelime; I. bab; edilgen 'lanetlendiler')", "'û' 8. kelimede 3MP ile ('lanetlendiler' içinde)",
+   "'bi' 9. kelimede 'yüzünden' ile (sebep)", "'mâ' 9. kelimede '-dikleri' ile (ism-i mevsûl; 'söyledikleri' içinde)", "'söyle-' 'qâlû' karşılığı (10. kelime; I. bab)",
+   "'û' 10. kelimede 3MP ile ('söyledikleri' içinde)", "sıralama: fiil sona alındı"]),
+  ("Bilakis O'nun iki eli açıktır", "bel yedâhu mebsûtatân", [
+   "'bel' 11. kelimede 'Bilakis' ile (morph RET)", "'el' 'yedâ' karşılığı (12. kelime; ikil 'iki' ile; iyelik ile 'eli')", "'hu' 12. kelimede 'O'nun' ile",
+   "'açık' 'mebsûtatân' karşılığı (13. kelime; edilgen ortaç; ikil)", "'-tır' takdiri ('açıktır' içinde; isim cümlesi haberi)", "sıralama: haber sona alındı"]),
+  ("dilediği gibi infak eder", "yunfiqu keyfe yeşâ'", [
+   "'infak et-' 'yunfiqu' açılımı (14. kelime; IV. bab; 'eder' içinde)", "'keyfe' 15. kelimede 'gibi' ile", "'dile-' 'yeşâ'u' karşılığı (16. kelime; I. bab; 'dilediği' içinde)",
+   "sıralama: fiil sona alındı"]),
+  ("Andolsun, Rabbinden sana indirilen, onlardan çoğunun azgınlığını ve küfrünü artıracaktır", "ve le-yezîdenne kesîran minhum mâ unzile ileyke min rabbike tuğyânen ve kufran", [
+   "'ve' 17. kelimede karşılıksız (morph REM)", "'le' 17. kelimede 'Andolsun' ile (morph EMPH)", "'artır-' 'yezîdenne' karşılığı (17. kelime; I. bab; te'kid nûnu '-acak' içinde)",
+   "'çok' 'kesîr' karşılığı (18. kelime; nekre — takdirsiz; iyelik ile 'çoğunun')", "'min' 19. kelimede ayrılma eki ile ('onlardan' içinde)", "'hum' 19. kelimede 'onlardan' ile",
+   "'mâ' 20. kelimede '-en' ile (ism-i mevsûl; 'indirilen' içinde)", "'indir-' 'unzile' karşılığı (21. kelime; IV. bab; edilgen 'indirilen')",
+   "'ilâ' 22. kelimede yönelme eki ile ('sana' içinde)", "'ke' 22. kelimede 'sana' ile", "'min' 23. kelimede ayrılma eki ile ('Rabbinden' içinde)",
+   "'Rab' 'rabb' karşılığı (24. kelime; iyelik ile 'Rabbinden')", "'ke' 24. kelimede iyelik ile ('Rabbinden' içinde)",
+   "'azgınlık' 'tuğyân' karşılığı (25. kelime; nekre — takdirsiz; iyelik ile 'azgınlığını')", "'ve' 26. kelimede 've' ile (morph CONJ)",
+   "'küfür' 'kufr' karşılığı (26. kelime; nekre — takdirsiz; iyelik ile 'küfrünü')", "'-tır' takdiri ('artıracaktır' içinde; te'kid)", "sıralama: fail öne, fiil sona alındı"]),
+  ("Aralarına kıyamet gününe kadar düşmanlık ve öfke bıraktık", "ve elqaynâ beynehumu'l-'adâvete ve'l-bağdâ'e ilâ yevmi'l-qiyâme", [
+   "'ve' 27. kelimede karşılıksız (morph REM)", "'bırak-' 'elqaynâ' karşılığı (27. kelime; IV. bab; 'bıraktık' içinde)", "'nâ' 27. kelimede 1P ile ('bıraktık' içinde)",
+   "'ara' 'beyn' karşılığı (28. kelime; morph LOC; iyelik ile 'Aralarına')", "'hum' 28. kelimede iyelik ile ('Aralarına' içinde)",
+   "'düşmanlık' ''adâve' karşılığı (29. kelime)", "'ve' 30. kelimede 've' ile (morph CONJ)", "'öfke' 'bağdâ'' karşılığı (30. kelime)",
+   "'ilâ' 31. kelimede 'kadar' ile", "'gün' 'yevm' karşılığı (32. kelime; yönelme eki ile 'gününe')", "'kıyamet' 'qiyâme' karşılığı (33. kelime)",
+   "sıralama: zarf öne, fiil sona alındı"]),
+  ("Savaş için her ateş yaktıklarında Allah onu söndürdü", "kullemâ evqadû nâran li'l-harbi atfa'ehâ'llâh", [
+   "'kullemâ' 34. kelimede 'her' ile (morph T; '-dıklarında' içinde)", "'yak-' 'evqadû' karşılığı (35. kelime; IV. bab; LEM 'evqadu' (morph LEM ham biçim); 'yaktıklarında' içinde)",
+   "'û' 35. kelimede 3MP ile ('yaktıklarında' içinde)", "'ateş' 'nâr' karşılığı (36. kelime; nekre — takdirsiz)", "'li' 37. kelimede 'için' ile",
+   "'savaş' 'harb' karşılığı (37. kelime)", "'söndür-' 'atfa'e' karşılığı (38. kelime; IV. bab)", "'hâ' 38. kelimede 'onu' ile", "lafız 39. kelimede 'Allah' ile",
+   "sıralama: câr-mecrûr öne, fiil sona alındı"]),
+  ("Yeryüzünde bozgunculuk için koşarlar", "ve yes'avne fi'l-ardi fesâden", [
+   "'ve' 40. kelimede karşılıksız (morph REM)", "'koş-' 'yes'avne' karşılığı (40. kelime; I. bab; 'koşarlar' içinde)", "'ûne' 40. kelimede 3MP ile ('koşarlar' içinde)",
+   "'fî' 41. kelimede '-de' ile ('Yeryüzünde' içinde)", "'yeryüzü' 'ard' karşılığı (42. kelime)", "'bozgunculuk' 'fesâd' karşılığı (43. kelime; nekre — takdirsiz; 'için' takdiri — mef'ûlün leh)",
+   "sıralama: fiil sona alındı"]),
+  ("Allah bozguncuları sevmez", "ve'llâhu lâ yuhibbu'l-mufsidîn", [
+   "'ve' 44. kelimede karşılıksız (morph REM)", "lafız 44. kelimede 'Allah' ile", "'lâ' 45. kelimede olumsuzluk eki ile ('sevmez' içinde; morph NEG)",
+   "'sev-' 'yuhibbu' karşılığı (46. kelime; IV. bab; LEM 'ahbeb' (morph LEM ham biçim))", "'bozguncu' 'mufsid' karşılığı (47. kelime; çoğul '-lar'; belirtme eki ile 'bozguncuları')",
+   "sıralama: mef'ûl öne alındı"]),
+ ],
+ 65: [
+  ("Eğer Kitap ehli iman etseydi ve sakınsaydı", "ve lev enne ehle'l-kitâbi âmenû ve'tteqav", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'lev' 1. kelimede 'Eğer' ile (morph COND; '-seydi' içinde)", "'enne' 2. kelimede karşılıksız (morph ACC; 'lev' ile şart yapısı)",
+   "'ehil' 'ehl' karşılığı (3. kelime; iyelik ile 'ehli')", "'Kitap' 'kitâb' karşılığı (4. kelime)", "'iman et-' 'âmenû' açılımı (5. kelime; IV. bab; 'iman' açılım takdiri)",
+   "'û' 5. kelimede 3MP ile ('etseydi' içinde; tekil ile — toplu ad 'ehl')", "'ve' 6. kelimede 've' ile (morph CONJ)", "'sakın-' 'ttequ' karşılığı (6. kelime; VIII. bab; 'sakınsaydı' içinde)", "'û' 6. kelimede 3MP ile ('sakınsaydı' içinde; tekil ile — toplu ad 'ehl')",
+   "sıralama: fiil sona alındı"]),
+  ("kötülüklerini onlardan mutlaka örterdik", "le-keffernâ 'anhum seyyi'âtihim", [
+   "'le' 7. kelimede 'mutlaka' ile (morph EMPH)", "'ört-' 'keffernâ' karşılığı (7. kelime; II. bab; 'örterdik' içinde)", "'nâ' 7. kelimede 1P ile ('örterdik' içinde)",
+   "''an' 8. kelimede ayrılma eki ile ('onlardan' içinde)", "'hum' 8. kelimede 'onlardan' ile", "'kötülük' 'seyyi'ât' karşılığı (9. kelime; çoğul '-ler'; iyelik ile 'kötülüklerini')",
+   "'him' 9. kelimede iyelik ile ('kötülüklerini' içinde)", "sıralama: mef'ûl öne alındı"]),
+  ("ve onları mutlaka nimet cennetlerine sokardık", "ve le-edxalnâhum cennâti'n-na'îm", [
+   "'ve' 10. kelimede 've' ile (morph CONJ)", "'le' 10. kelimede 'mutlaka' ile (morph EMPH)", "'sok-' 'edxalnâ' karşılığı (10. kelime; IV. bab; 'sokardık' içinde)",
+   "'nâ' 10. kelimede 1P ile ('sokardık' içinde)", "'hum' 10. kelimede 'onları' ile", "'cennet' 'cennât' karşılığı (11. kelime; çoğul '-ler'; iyelik ile 'cennetlerine')",
+   "'nimet' 'na'îm' karşılığı (12. kelime; izafet 'nimet cennetleri')", "sıralama: mef'ûl öne, fiil sona alındı"]),
+ ],
+ 66: [
+  ("Eğer onlar Tevrat'ı, İncil'i ve Rablerinden kendilerine indirileni ayakta tutsalardı", "ve lev ennehum eqâmu't-tevrâte ve'l-incîle ve mâ unzile ileyhim min rabbihim", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'lev' 1. kelimede 'Eğer' ile (morph COND; '-salardı' içinde)", "'enne' 2. kelimede karşılıksız (morph ACC; 'lev' ile şart yapısı)",
+   "'hum' 2. kelimede 'onlar' ile", "'ayakta tut-' 'eqâmu' açılımı (3. kelime; IV. bab; 'tutsalardı' içinde)", "'û' 3. kelimede 3MP ile ('tutsalardı' içinde)",
+   "'Tevrat' 'tevrâ' karşılığı (4. kelime; özel ad; belirtme eki ile 'Tevrat'ı')", "'ve' 5. kelimede karşılıksız (morph CONJ; virgül)",
+   "'İncil' 'incîl' karşılığı (5. kelime; özel ad; belirtme eki ile 'İncil'i')", "'ve' 6. kelimede 've' ile (morph CONJ)",
+   "'mâ' 6. kelimede '-en' ile (ism-i mevsûl; 'indirileni' içinde)", "'indir-' 'unzile' karşılığı (7. kelime; IV. bab; edilgen 'indirilen')",
+   "'ilâ' 8. kelimede yönelme eki ile ('kendilerine' içinde)", "'him' 8. kelimede 'kendilerine' ile", "'min' 9. kelimede ayrılma eki ile ('Rablerinden' içinde)",
+   "'Rab' 'rabb' karşılığı (10. kelime; iyelik ile 'Rablerinden')", "'him' 10. kelimede iyelik ile ('Rablerinden' içinde)", "sıralama: fiil sona alındı"]),
+  ("elbette üstlerinden ve ayaklarının altından yerlerdi", "le-ekelû min fevqihim ve min tahti ercülihim", [
+   "'le' 11. kelimede 'elbette' ile (morph EMPH)", "'ye-' 'ekelû' karşılığı (11. kelime; I. bab; 'yerlerdi' içinde)", "'û' 11. kelimede 3MP ile ('yerlerdi' içinde)",
+   "'min' 12. kelimede ayrılma eki ile ('üstlerinden' içinde)", "'üst' 'fevq' karşılığı (13. kelime; iyelik ile 'üstlerinden')", "'him' 13. kelimede iyelik ile ('üstlerinden' içinde)",
+   "'ve' 14. kelimede 've' ile (morph CONJ)", "'min' 14. kelimede ayrılma eki ile ('altından' içinde)", "'alt' 'taht' karşılığı (15. kelime; iyelik ile 'altından')",
+   "'ayak' 'ricl' karşılığı (16. kelime; çoğul '-lar'; iyelik ile 'ayaklarının')", "'him' 16. kelimede iyelik ile ('ayaklarının' içinde)", "sıralama: fiil sona alındı"]),
+  ("Onlardan orta yolu tutan bir ümmet vardır", "minhum ummetun muqtasidetun", [
+   "'min' 17. kelimede ayrılma eki ile ('Onlardan' içinde)", "'hum' 17. kelimede 'Onlardan' ile", "'ümmet' 'umme' karşılığı (18. kelime; nekre — 'bir' takdiri)",
+   "'orta yolu tutan' 'muqtaside' açılımı (19. kelime; nekre — takdirsiz; VIII. bab; ortaç; sıfat)", "'var' takdiri ('vardır' içinde; haber öne alınmış isim cümlesi)", "'-dır' takdiri ('vardır' içinde; isim cümlesi haberi)", "sıralama: sıfat öne alındı"]),
+  ("onlardan çoğunun yaptıkları ne kötüdür", "ve kesîrun minhum sâ'e mâ ya'melûn", [
+   "'ve' 20. kelimede karşılıksız (morph CONJ)", "'çok' 'kesîr' karşılığı (20. kelime; nekre — takdirsiz; iyelik ile 'çoğunun')", "'min' 21. kelimede ayrılma eki ile ('onlardan' içinde)",
+   "'hum' 21. kelimede 'onlardan' ile", "'ne kötü' 'sâ'e' açılımı (22. kelime; I. bab; yerme)", "'mâ' 23. kelimede '-dıkları' ile (ism-i mevsûl; 'yaptıkları' içinde)",
+   "'yap-' 'ya'melû' karşılığı (24. kelime; I. bab; 'yaptıkları' içinde)", "'ûne' 24. kelimede 3MP ile ('yaptıkları' içinde)", "'-dür' takdiri ('kötüdür' içinde; ünlem haberi)",
+   "sıralama: yerilen öne alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (64, 65, 66):
+        out.append('5:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

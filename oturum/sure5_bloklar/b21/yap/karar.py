@@ -1,0 +1,17 @@
+KARAR.update({
+ 'Tevrat': "'Tevrat' ← 'tevrâ', 'tevrât': bir lemma ('tevrâ'; özel ad, ة yazımı) — çakışma değil",
+ 'cennet': "'cennet' ← 'cenne', 'cennât': bir lemma ('cenne'; tekil / çoğul) — çakışma değil",
+ 'el': "'el' ← 'eydî', 'yed', 'yedâ': bir lemma ('yed'; tekil / ikil / çoğul; morph LEM eşit) — çakışma değil",
+ 'kötülük': "'kötülük' ← 'seyyi'e', 'seyyi'ât': bir lemma ('seyyi'e'; tekil / çoğul) — çakışma değil",
+ 'ne kötü': "'ne kötü' ← 'bi'se' (بأس) / 'sâ'e' (سوأ): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'nimet': "'nimet' ← 'na'îm' / 'ni'me': farklı lemma, kök نعم — çakışma — tam okuma sonu",
+ 'sok-': "'sok-' ← 'edxalnâ', 'udxilenne': kök دخل, IV. bab; morph LEM yazımı farklı ('udxile' / 'edxale') — çakışma — tam okuma sonu",
+ 'lanetle-': "'lanetle-' ← 'le'ane', 'le'annâ', 'lu'inû': bir lemma ('le'ane'; morph LEM eşit; 'lu'inû' edilgen) — çakışma değil",
+ 'ört-': "'ört-' ← 'keffernâ', 'ukeffiranne' (كفر) / 'uvâriye', 'yuvârî' (وري): farklı lemma ve kök — çakışma — tam okuma sonu; önceki karar (blok 13: 'çakışma, tam okuma sonu' yazımı kapalı karar biçiminde değildi); gerekçe: karar içeriği korunuyor, kapalı karar biçimine getirildi",
+ 'ye-': "'ye-' ← 'ekele', 'ekelû', 'kulû': bir lemma ('ekele'; morph LEM eşit; 'kulû' emir) — çakışma değil",
+ 'KÖK ye-': "KÖK 'ye-' ← 'ye-' ('ekele', 'ekelû', 'kulû'), 'yeme' ('ekl'): bir kök (أكل), fiil / masdar — çakışma değil",
+ 'KÖK savaş-': "KÖK 'savaş-' ← 'savaş' (حرب) / 'savaş-' (قتل): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK tut-': "KÖK 'tut-' ← 'adaleti ayakta tutan', 'ayakta tut-' (قوم) / 'orta yolu tutan' (قصد) / 'tut-' (مسك, أخذ): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ara-': "KÖK 'ara-' ← 'ara' (بين) / 'ara-' (بغي) / 'kısmet ara-' (قسم): birden çok kök — çakışma — tam okuma sonu; önceki karar (blok 17: çakışma sayılmamıştı, eş yazım ve yardımcı öğe gerekçesiyle); gerekçe: bölüm 7 kuralı 2 birden çok kökte kapalı kararı 'tam okuma sonu' ister",
+ 'KÖK et-': "KÖK 'et-' ← 'azap et-', 'cihad et-', 'et', 'gazap et-', 'helâk et-', 'iman et-', 'infak et-', 'inkâr et-', 'itaat et-', 'iyilik eden', 'kabul et-', 'kulluk et-', 'merhamet eden', 'tanıklık eden', 'tövbe et-', 'tövbesini kabul et-', 'vaat et-', 'yemin et-', 'zina et-': yardımcı fiil 'et-' ile kurulan karşılıklar ve 'et' (isim, 'lahm') eş yazımı; birden çok kök — çakışma — tam okuma sonu",
+})

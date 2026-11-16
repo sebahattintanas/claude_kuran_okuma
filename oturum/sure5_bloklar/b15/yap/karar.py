@@ -1,0 +1,15 @@
+KARAR.update({
+ 'adalet': "'adalet' ← 'qist', 'qıst' / 'ta'dilu': farklı lemma ve kök ('qist' قسط / ''adele' عدل) — çakışma — tam okuma sonu",
+ 'haram': "'haram' ← 'harâm' / 'suht': farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'hüküm ver-': "'hüküm ver-' ← 'hakemte', 'hkum', 'yahkum', 'yahkumu': bir lemma ('hakeme'; morph LEM eşit) — çakışma değil",
+ 'indir-': "'indir-' ← 'enzele', 'enzelna': bir lemma ('enzele'; morph LEM eşit) — çakışma değil",
+ 'kork-': "'kork-' ← 'exâfu', 'yaxâfûne' (خوف) / 'taxşev', 'taxşevhum', 'xşev', 'xşevni' (خشي): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'ol-': "'ol-' ← 'kânû', 'kuntum', 'kûnû', 'ekûne', 'tekûne' / 'asbaha': farklı lemma ve kök (blok 10 kaydı) — çakışma — tam okuma sonu",
+ 'yüz çevir-': "'yüz çevir-' ← 'a'rid', 'tu'rid' (عرض) / 'yetevellevne' (ولي): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK ara-': "KÖK 'ara-' ← 'ara' ('beyn') / 'ara-' ('bteğû', 'yebteğûne') / 'kısmet ara-': eş yazım ve yardımcı öğe — çakışma değil",
+ 'KÖK gel-': "KÖK 'gel-' ← 'galip gelen' ('ğâlib') / 'gel-': yardımcı öğeli deyim — çakışma değil",
+ 'KÖK ol-': "KÖK 'ol-' ← 'Yahudi ol-', 'adaletli ol-', 'teslim ol-', 'vâkıf ol-' / 'ol-': yardımcı fiilli açılımlar — çakışma değil",
+ 'KÖK ver-': "KÖK 'ver-' ← 'borç ver-', 'fidye ver-', 'haber ver-', 'hüküm ver-', 'nimet ver-', 'zarar ver-', 'çokça kulak veren' / 'ver-': yardımcı öğeli deyimler — çakışma değil",
+ 'KÖK yap-': "KÖK 'yap-' ← 'hakem yap-' ('yuhakkimûne') / 'yap-' (''amile', 'sana'a'): yardımcı öğeli deyim — çakışma değil",
+ 'KÖK yi-': "KÖK 'yi-' ← 'yiyecek' ('ta'âm') / 'çokça yiyen' ('ekkâl'): farklı kök, açılımlı karşılık — çakışma — tam okuma sonu",
+})

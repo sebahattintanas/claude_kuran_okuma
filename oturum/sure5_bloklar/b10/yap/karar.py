@@ -1,0 +1,15 @@
+KARAR.update({
+ 'de-': "'de-' ← 'qul', 'qultum', 'qâla', 'qâle', 'qâlet', 'qâlû', 'teqûlû': bir lemma ('qâle'; morph LEM eşit) — çakışma değil",
+ 'günah': "'günah' ← 'ism', 'zenb': farklı lemma ve kök — 'ism' (أثم; 5:29 5. ve 6. kelime) ve 'zenb' (ذنب; 5:18 11. kelime) — çakışma, tam okuma sonu",
+ 'iste-': "'iste-' ← 'erâde', 'urîdu', 'yurîdu': bir lemma ('erâde'; morph LEM eşit) — çakışma değil",
+ 'kabul edil-': "'kabul edil-' ← 'tuqubbile', 'yutaqabbel': bir lemma ('teqabbele'; edilgen) — çakışma değil",
+ 'kork-': "'kork-' ← 'exâfu', 'yaxâfûne' / 'taxşevhum', 'xşevni': farklı lemma ve kök — 'xâfe' (خوف; 5:23, 5:28) ve 'xaşiye' (خشي; 5:3) — çakışma, tam okuma sonu",
+ 'oku-': "'oku-' ← 'tlu', 'yutlâ': bir lemma ('telâ'; morph LEM eşit) — çakışma değil",
+ 'ol-': "'ol-' ← 'asbaha' / 'kuntum', 'kânû', 'kûnû', 'tekûne': farklı lemma — 'asbaha' (صبح; 5:30 7. kelime, 'kâne' ailesi) ve 'kâne' (كون) — çakışma, tam okuma sonu",
+ 'uzat-': "'uzat-' ← 'besatte', 'yebsutû': bir lemma ('besata'; morph LEM eşit) — çakışma değil",
+ 'öldür-': "'öldür-' ← 'aqtul', 'aqtulu', 'qatele', 'taqtulu': bir lemma ('qatele'; morph LEM eşit) — çakışma değil",
+ 'KÖK ateş-': "KÖK 'ateş' ← 'nâr' / 'alevli ateş' ← 'cahîm': farklı lemma ve kök (نور / جحم) — açılım farkı belirgin; tam okuma sonu",
+ 'KÖK et-': "KÖK 'et-' — birleşik fiillerin yardımcı öğesi ('azap et-', 'helâk et-', 'iman et-', 'kabul et-' …) ve isim 'et' ('lahm') — eşleme yapıntısı, çakışma değil",
+ 'KÖK ol-': "KÖK 'ol-' — 'adaletli ol-', 'vâkıf ol-' yardımcı öğe; 'ol-' grubundaki 'asbaha' / 'kâne' farkı ayrı maddede — çakışma değil",
+ 'KÖK sakın-': "KÖK 'sakın-' ← 'ttequ' / 'sakınan' ← 'muttaqî': bir kök (وقي), VIII. bab fiil ve ortaç — çakışma değil",
+})

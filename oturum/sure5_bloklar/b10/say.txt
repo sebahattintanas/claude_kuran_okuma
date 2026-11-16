@@ -1,0 +1,269 @@
+### say 5:27 1-3 --on
+kalıp: واتل عليهم نبأ | mod: on 
+ayet: 4
+liste: 5:27†, 7:175†, 10:71, 26:69
+sûre içi (5): 5:27
+
+4 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:27 2-3
+kalıp: عليهم نبأ | mod: tam
+ayet: 4
+liste: 5:27†, 7:175†, 10:71, 26:69
+sûre içi (5): 5:27
+
+4 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:27 3-5
+kalıp: نبأ ابنى ءادم | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 4-5
+kalıp: ابنى ءادم | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 3-6
+kalıp: نبأ ابنى ءادم بالحق | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 7-9
+kalıp: إذ قربا قربانا | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:27:9
+lemma قُرْبان | token 3 | ayet 3
+liste: 3:183, 5:27†, 46:28
+sûre içi (5): 5:27
+
+3 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 10-12 --on
+kalıp: فتقبل من أحدهما | mod: on 
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:27:10
+lemma تَقَبَّلَ | token 10 | ayet 8
+liste: 2:127, 3:35, 3:37, 5:27†×3, 5:36†, 9:53, 14:40, 46:16
+sûre içi (5): 5:27×3, 5:36
+
+8 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:27 13-16 --on
+kalıp: ولم يتقبل من الءاخر | mod: on 
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 15-16
+kalıp: من الءاخر | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 17-18
+kalıp: قال لأقتلنك | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 20-24
+kalıp: إنما يتقبل الله من المتقين | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 21-24
+kalıp: يتقبل الله من المتقين | mod: tam
+ayet: 1
+liste: 5:27†
+sûre içi (5): 5:27
+
+1 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:27 23-24
+kalıp: من المتقين | mod: tam
+ayet: 2
+liste: 5:27†, 39:57
+sûre içi (5): 5:27
+
+2 {'bu': ['5:27'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 1-5 --on
+kalıp: لئن بسطت إلى يدك لتقتلنى | mod: on 
+ayet: 1
+liste: 5:28†
+sûre içi (5): 5:28
+
+1 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 2-4
+kalıp: بسطت إلى يدك | mod: tam
+ayet: 1
+liste: 5:28†
+sûre içi (5): 5:28
+
+1 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 6-11
+kalıp: مءا أنا بباسط يدى إليك لأقتلك | mod: tam
+ayet: 1
+liste: 5:28†
+sûre içi (5): 5:28
+
+1 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 6-8
+kalıp: مءا أنا بباسط | mod: tam
+ayet: 1
+liste: 5:28†
+sûre içi (5): 5:28
+
+1 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 12-16
+kalıp: إنى أخاف الله رب العلمين | mod: tam
+ayet: 2
+liste: 5:28†, 59:16
+sûre içi (5): 5:28
+
+2 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 13-16
+kalıp: أخاف الله رب العلمين | mod: tam
+ayet: 2
+liste: 5:28†, 59:16
+sûre içi (5): 5:28
+
+2 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:28 15-16
+kalıp: رب العلمين | mod: tam
+ayet: 34
+liste: 1:2, 5:28†, 6:45†, 6:162†, 7:54†, 7:61†, 7:67†, 7:104†, 10:10, 10:37, 26:16, 26:23, 26:77, 26:109, 26:127, 26:145, 26:164, 26:180, 26:192, 27:8, 27:44, 28:30, 32:2, 37:182, 39:75, 40:64, 40:65, 41:9, 43:46, 45:36, 56:80, 59:16, 69:43, 81:29
+sûre içi (5): 5:28
+
+34 {'bu': ['5:28'], 'basilan': [], 'eski': 0, 'okunmus': 27, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 0}
+
+### say 5:29 1-4
+kalıp: إنى أريد أن تبوأ | mod: tam
+ayet: 1
+liste: 5:29†
+sûre içi (5): 5:29
+
+1 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 1-2
+kalıp: إنى أريد | mod: tam
+ayet: 2
+liste: 5:29†, 28:27
+sûre içi (5): 5:29
+
+2 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 4-6
+kalıp: تبوأ بإثمى وإثمك | mod: tam
+ayet: 1
+liste: 5:29†
+sûre içi (5): 5:29
+
+1 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 7-10 --on
+kalıp: فتكون من أصحب النار | mod: on 
+ayet: 1
+liste: 5:29†
+sûre içi (5): 5:29
+
+1 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 8-10
+kalıp: من أصحب النار | mod: tam
+ayet: 2
+liste: 5:29†, 39:8
+sûre içi (5): 5:29
+
+2 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 11-13 --on
+kalıp: وذلك جزؤا الظلمين | mod: on 
+ayet: 2
+liste: 5:29†, 59:17
+sûre içi (5): 5:29
+
+2 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:29 12-13
+kalıp: جزؤا الظلمين | mod: tam
+ayet: 2
+liste: 5:29†, 59:17
+sûre içi (5): 5:29
+
+2 {'bu': ['5:29'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:30 1-4 --on
+kalıp: فطوعت له نفسه قتل | mod: on 
+ayet: 1
+liste: 5:30†
+sûre içi (5): 5:30
+
+1 {'bu': ['5:30'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:30 4-5
+kalıp: قتل أخيه | mod: tam
+ayet: 1
+liste: 5:30†
+sûre içi (5): 5:30
+
+1 {'bu': ['5:30'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### lem 5:30:1
+lemma طَوَّعَتْ | token 1 | ayet 1
+liste: 5:30†
+sûre içi (5): 5:30
+
+1 {'bu': ['5:30'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:30 7-9 --on
+kalıp: فأصبح من الخسرين | mod: on 
+ayet: 1
+liste: 5:30†
+sûre içi (5): 5:30
+
+1 {'bu': ['5:30'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:30 8-9
+kalıp: من الخسرين | mod: tam
+ayet: 10
+liste: 2:64, 3:85, 5:5, 5:30†, 7:23†, 7:149†, 10:95, 11:47, 39:65, 41:23
+sûre içi (5): 5:5, 5:30
+
+10 {'bu': ['5:30'], 'basilan': ['3:85', '5:5', '39:65'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+

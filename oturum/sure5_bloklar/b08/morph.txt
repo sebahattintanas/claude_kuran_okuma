@@ -1,0 +1,74 @@
+5:20:1	وَإِذْ	P|REM|PREF|LEM:و + N|T|LEM:إِذ
+5:20:2	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:20:3	مُوسَىٰ	N|PN|LEM:مُوسَى|M|NOM
+5:20:4	لِقَوْمِهِۦ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+5:20:5	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+5:20:6	ٱذْكُرُوا۟	V|IMPV|VF:1|ROOT:ذكر|LEM:ذَكَرَ|2MP + N|PRON|SUFF|2MP
+5:20:7	نِعْمَةَ	N|ROOT:نعم|LEM:نِعْمَة|F|ACC
+5:20:8	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:20:9	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+5:20:10	إِذْ	N|T|LEM:إِذ
+5:20:11	جَعَلَ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS
+5:20:12	فِيكُمْ	P|P|LEM:فِي + N|PRON|SUFF|2MP
+5:20:13	أَنۢبِيَآءَ	N|ROOT:نبأ|LEM:نَبِيّ|MP|ACC
+5:20:14	وَجَعَلَكُم	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS + N|PRON|SUFF|2MP
+5:20:15	مُّلُوكًا	N|ROOT:ملك|LEM:مَلِك|MP|INDEF|ACC
+5:20:16	وَءَاتَىٰكُم	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:أتي|LEM:آتَى|3MS + N|PRON|SUFF|2MP
+5:20:17	مَّا	N|REL|LEM:ما
+5:20:18	لَمْ	P|NEG|LEM:لَم
+5:20:19	يُؤْتِ	V|IMPF|VF:4|ROOT:أتي|LEM:آتَى|3MS|MOOD:JUS
+5:20:20	أَحَدًا	N|ROOT:أحد|LEM:أَحَد|M|INDEF|ACC
+5:20:21	مِّنَ	P|P|LEM:مِن
+5:20:22	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+5:21:1	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+5:21:2	ٱدْخُلُوا۟	V|IMPV|VF:1|ROOT:دخل|LEM:دَخَلَ|2MP + N|PRON|SUFF|2MP
+5:21:3	ٱلْأَرْضَ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|ACC
+5:21:4	ٱلْمُقَدَّسَةَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:2|ROOT:قدس|LEM:مُقَدَّسَة|F|ACC|ADJ
+5:21:5	ٱلَّتِى	N|REL|LEM:الَّذِي|FS
+5:21:6	كَتَبَ	V|PERF|VF:1|ROOT:كتب|LEM:كَتَبَ|3MS
+5:21:7	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:21:8	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:21:9	وَلَا	P|REM|PREF|LEM:و + P|PRO|LEM:لا
+5:21:10	تَرْتَدُّوا۟	V|IMPF|VF:8|ROOT:ردد|LEM:ارْتَدَّ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:21:11	عَلَىٰٓ	P|P|LEM:عَلَى
+5:21:12	أَدْبَارِكُمْ	N|ROOT:دبر|LEM:دُبُر|MP|GEN + N|PRON|SUFF|2MP
+5:21:13	فَتَنقَلِبُوا۟	P|CAUS|PREF|LEM:ف + V|IMPF|VF:7|ROOT:قلب|LEM:انقَلَبَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+5:21:14	خَٰسِرِينَ	N|ACT_PCPL|VF:1|ROOT:خسر|LEM:خاسِر|MP|ACC
+5:22:1	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:22:2	يَٰمُوسَىٰٓ	P|VOC|PREF|LEM:ي + N|PN|LEM:مُوسَى|M|NOM
+5:22:3	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+5:22:4	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+5:22:5	قَوْمًا	N|ROOT:قوم|LEM:قَوْم|M|INDEF|ACC
+5:22:6	جَبَّارِينَ	N|ROOT:جبر|LEM:جَبّار|MP|ACC|ADJ
+5:22:7	وَإِنَّا	P|CONJ|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+5:22:8	لَن	P|NEG|LEM:لَن
+5:22:9	نَّدْخُلَهَا	V|IMPF|VF:1|ROOT:دخل|LEM:دَخَلَ|1P|MOOD:SUBJ + N|PRON|SUFF|3FS
+5:22:10	حَتَّىٰ	P|P|LEM:حَتَّى
+5:22:11	يَخْرُجُوا۟	V|IMPF|VF:1|ROOT:خرج|LEM:خَرَجَ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+5:22:12	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+5:22:13	فَإِن	P|REM|PREF|LEM:ف + P|COND|LEM:إِن
+5:22:14	يَخْرُجُوا۟	V|IMPF|VF:1|ROOT:خرج|LEM:خَرَجَ|3MP|MOOD:JUS + N|PRON|SUFF|3MP
+5:22:15	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+5:22:16	فَإِنَّا	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+5:22:17	دَٰخِلُونَ	N|ACT_PCPL|VF:1|ROOT:دخل|LEM:داخِل|MP|NOM
+5:23:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:23:2	رَجُلَانِ	N|ROOT:رجل|LEM:رَجُل|MD|NOM
+5:23:3	مِنَ	P|P|LEM:مِن
+5:23:4	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:23:5	يَخَافُونَ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:23:6	أَنْعَمَ	V|PERF|VF:4|ROOT:نعم|LEM:أَنْعَمَ|3MS
+5:23:7	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:23:8	عَلَيْهِمَا	P|P|LEM:عَلَى + N|PRON|SUFF|3D
+5:23:9	ٱدْخُلُوا۟	V|IMPV|VF:1|ROOT:دخل|LEM:دَخَلَ|2MP + N|PRON|SUFF|2MP
+5:23:10	عَلَيْهِمُ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+5:23:11	ٱلْبَابَ	P|DET|PREF|LEM:ال + N|ROOT:بوب|LEM:باب|M|ACC
+5:23:12	فَإِذَا	P|REM|PREF|LEM:ف + N|T|LEM:إِذا
+5:23:13	دَخَلْتُمُوهُ	V|PERF|VF:1|ROOT:دخل|LEM:دَخَلَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+5:23:14	فَإِنَّكُمْ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MP
+5:23:15	غَٰلِبُونَ	N|ACT_PCPL|VF:1|ROOT:غلب|LEM:غالِب|MP|NOM
+5:23:16	وَعَلَى	P|REM|PREF|LEM:و + P|P|LEM:عَلَى
+5:23:17	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:23:18	فَتَوَكَّلُوٓا۟	P|SUP|PREF|LEM:ف + V|IMPV|VF:5|ROOT:وكل|LEM:تَوَكَّلْ|2MP + N|PRON|SUFF|2MP
+5:23:19	إِن	P|COND|LEM:إِن
+5:23:20	كُنتُم	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+5:23:21	مُّؤْمِنِينَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|ACC
