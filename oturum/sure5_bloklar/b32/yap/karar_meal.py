@@ -1,0 +1,21 @@
+KQ = ["innâ izen le-mine", "fe-yuqsimâni bi'llâh"]
+KM = {
+ "'innâ izen le-mine'": "çakışma değil (5:106 ve 5:107 'yoksa o zaman şüphesiz … oluruz' — karşılıklar eş)",
+ "'fe-yuqsimâni bi'llâh'": "çakışma değil (5:106 ve 5:107 'Allah'a yemin ederler' — karşılıklar eş)",
+ "'âxar'": "çakışma — tam okuma sonu ('başka' / 'öteki' bağlam karşılığı; 5:106 ve 5:107 'başka')",
+ "'nu'min' / 'tu'min' / 'yu'minû' / 'âmene' / 'âmennâ' / 'âmentum' / 'âmenu' / 'âmenû'": "çakışma — tam okuma sonu ('iman et-' / 'inan-' bağlam karşılığı; 5:106 'iman et-')",
+ "'ye'tiye' / 'ye'tî' / 'ye'tû'": "çakışma — tam okuma sonu ('gel-' / 'getir-' — 'bi' ile geçişli kullanım; 5:108 'getir-')",
+ "'ehad'": "çakışma — tam okuma sonu ('bir' / 'hiç kimse' ve okunmuş 1 konum — zamirli ve olumsuz bağlam; 5:106 'bir')",
+ "'ard'": "çakışma — tam okuma sonu ('toprak' / 'yer' / 'yeryüzü' bağlam karşılığı; 5:106 'yeryüzü')",
+ "'esâbe' / 'tusîbe' / 'yusîbe'": "çakışma — tam okuma sonu ('dokun-' / 'isabet et-' / 'musibete uğrat-' bağlam karşılığı; 5:106 'isabet et-')",
+ "'stehaqqa' / 'stehaqqâ'": "çakışma — tam okuma sonu ('hak et-' / 'hak iddia et-' — 5:107'de iki kullanım)",
+ "'neşterî' / 'teşterû'": "çakışma — tam okuma sonu ('bedele değiş-' / 'sat-' bağlam karşılığı; 5:106 'bedele değiş-')",
+ "''tedeynâ' / ''tedâ' / 'ta'tedû' / 'ya'tedû'": "çakışma — tam okuma sonu ('aşırı git-' / 'sınırı aş-' bağlam karşılığı; 5:107 'sınırı aş-')",
+ "'beyn'": "çakışma değil ('ara' isim, 'ön' 'beyne yedeyhi' deyiminde — önceki kararla eş yön; 5:106 'ara')",
+ "'semi'nâ' / 'semi'û' / 'sme'û'": "çakışma — tam okuma sonu ('dinle-' / 'işit-' bağlam karşılığı; 5:108 'dinle-')",
+ "''adl'": "çakışma — tam okuma sonu ('adalet' / 'denk' — 5:106 'adalet')",
+ "'ğayr'": "çakışma — tam okuma sonu ('başka' / 'haksız' / 'olmaksızın' / 'olmayan' bağlam karşılığı; 5:106 'olmayan')",
+ "'qumtum' / 'yaqûmâni'": "çakışma — tam okuma sonu ('kalk-' / 'yerine geç-' — 5:107 'maqâm' ile birlikte 'yerine geç-')",
+ "'qavm'": "çakışma — tam okuma sonu ('kavim' / 'topluluk' bağlam karşılığı; 5:108 'kavim')",
+ "'yehdî'": "çakışma — tam okuma sonu ('ilet-' / 'yol göster-' bağlam karşılığı; 5:108 'yol göster-')",
+}

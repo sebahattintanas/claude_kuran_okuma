@@ -1,0 +1,94 @@
+# blok 32 (5:106-108) meal kesimleri
+HITAP = ("Ey iman edenler", "yâ eyyuhe'llezîne âmenû", [
+   "'yâ' 1. kelimede 'Ey' ile (morph VOC)", "'eyy' ve 'hâ' 1. kelimede karşılıksız (nida bağlayıcısı)", "'ellezîne' 2. kelimede '-enler' ile ('edenler' içinde)",
+   "'iman et-' 'âmenû' açılımı (3. kelime; IV. bab; 'iman' açılım takdiri)", "'û' 3. kelimede 3MP ile ('edenler' içinde)", "sıralama: korundu"])
+INNA = lambda a, b, c, d, son: ("yoksa o zaman şüphesiz %s oluruz" % son[0], "innâ izen le-mine'%s" % son[1], [
+   "'inne' %d. kelimede 'şüphesiz' ile (morph ACC)" % a, "'nâ' %d. kelimede 1P ile ('oluruz' içinde)" % a, "'izen' %d. kelimede 'o zaman' ile (morph ANS)" % b,
+   "'le' %d. kelimede karşılıksız (morph EMPH; 'şüphesiz' ile ortak)" % c, "'min' %d. kelimede ayrılma eki ile ('%s' içinde)" % (c, son[0]),
+   "'%s' '%s' karşılığı (%d. kelime; etken ortaç; belirli — takdirsiz; çoğul '-lar')" % (son[2], son[3], d), "'ol-' takdiri ('oluruz' — isim cümlesi)", "'yoksa' takdiri (yemin cevabının koşulu)",
+   "sıralama: haber sona alındı"])
+SEG = {
+ 106: [
+  HITAP,
+  ("Sizden bir kişiye ölüm geldiğinde, vasiyet vaktinde aranızdaki şahitlik", "şehâdetu beynikum izâ hadara ehadekumu'l-mevtu hîne'l-vasiyye", [
+   "'şahitlik' 'şehâde' karşılığı (4. kelime; mübtedâ)", "'ara' 'beyn' karşılığı (5. kelime; '-daki' ile 'aranızdaki')", "'kum' 5. kelimede iyelik ile ('aranızdaki' içinde)",
+   "'izâ' 6. kelimede '-diğinde' ile (morph T; zaman — 'geldiğinde' içinde)", "'gel-' 'hadara' karşılığı (7. kelime; I. bab)", "'bir' 'ehad' karşılığı (8. kelime; 'kişi' takdiri; yönelme eki ile 'kişiye' — fiil yönetimi takdiri)",
+   "'kum' 8. kelimede 'Sizden' ile (ayrılma eki — fiil yönetimi takdiri)", "'ölüm' 'mevt' karşılığı (9. kelime; belirli — takdirsiz)", "'vakit' 'hîn' karşılığı (10. kelime; morph T; bulunma eki ile 'vaktinde')",
+   "'vasiyet' 'vasiyye' karşılığı (11. kelime; belirli — takdirsiz)", "sıralama: zaman öne, mübtedâ sona alındı"]),
+  ("sizden iki adalet sahibi", "snâni zevâ 'adlin minkum", [
+   "'iki' 'isneyn' karşılığı (12. kelime; ikil)", "'sahibi' 'zû' karşılığı (13. kelime; ikil 'zevâ'; iyelik ile 'sahibi')", "'adalet' ''adl' karşılığı (14. kelime; nekre — takdirsiz)",
+   "'min' 15. kelimede ayrılma eki ile ('sizden' içinde)", "'kum' 15. kelimede 'sizden' ile", "sıralama: korundu"]),
+  ("ya da yeryüzünde yolculuk eder de size ölüm musibeti isabet ederse sizden olmayan başka iki kişidir", "ev âxarâni min ğayrikum in entum darabtum fi'l-ardi fe-esâbetkum musîbetu'l-mevt", [
+   "'ev' 16. kelimede 'ya da' ile (morph CONJ)", "'başka' 'âxar' karşılığı (17. kelime; ikil 'âxarâni' — 'iki kişi' takdiri)", "'min' 18. kelimede ayrılma eki ile ('sizden' içinde)",
+   "'olmayan' 'ğayr' açılımı (19. kelime)", "'kum' 19. kelimede 'sizden' ile (ayrılma eki — fiil yönetimi takdiri)", "'in' 20. kelimede '-se' ile (morph COND; 'ederse' içinde)",
+   "'entum' 21. kelimede karşılıksız (2MP — 'eder' çekiminde ortak)", "'yolculuk et-' 'darabtum' açılımı (22. kelime; I. bab; kök anlamı vurma)", "'tum' 22. kelimede karşılıksız (2MP — 'eder' çekiminde ortak)",
+   "'fî' 23. kelimede bulunma eki ile ('yeryüzünde' içinde)", "'yeryüzü' 'ard' karşılığı (24. kelime; belirli — takdirsiz)", "'fe' 25. kelimede 'de' ile (morph CONJ)",
+   "'isabet et-' 'esâbe' açılımı (25. kelime; IV. bab)", "'kum' 25. kelimede 'size' ile (yönelme eki — fiil yönetimi takdiri)", "'musibet' 'musîbe' karşılığı (26. kelime; etken ortaç; iyelik ile 'musibeti')",
+   "'ölüm' 'mevt' karşılığı (27. kelime; belirli — takdirsiz)", "'-dir' takdiri ('kişidir' içinde)", "sıralama: şart cümlesi araya alındı, haber sona alındı"]),
+  ("Şüphe ederseniz onları namazdan sonra alıkoyarsınız da Allah'a yemin ederler", "tahbisûnehumâ min ba'di's-salâti fe-yuqsimâni bi'llâhi ini'rtebtum", [
+   "'alıkoy-' 'tahbisû' açılımı (28. kelime; I. bab; LEM 'yahbisu' (morph LEM ham biçim))", "'ûne' 28. kelimede 2MP ile ('alıkoyarsınız' içinde)", "'humâ' 28. kelimede 'onları' ile (3D)",
+   "'min' 29. kelimede karşılıksız ('sonra' ile ortak)", "'sonra' 'ba'd' karşılığı (30. kelime)", "'namaz' 'salâ' karşılığı (31. kelime; belirli — takdirsiz; ayrılma eki ile 'namazdan' — fiil yönetimi takdiri)",
+   "'fe' 32. kelimede 'da' ile (morph REM)", "'yemin et-' 'yuqsimâni' açılımı (32. kelime; IV. bab; LEM 'aqsamu' (morph LEM ham biçim))", "'â' 32. kelimede 3D ile ('ederler' içinde — ikil çoğul çekimle)",
+   "'bi' 33. kelimede yönelme eki ile ('Allah'a' içinde — fiil yönetimi takdiri)", "lafız 33. kelimede 'Allah' ile", "'in' 34. kelimede '-se' ile (morph COND; 'ederseniz' içinde)",
+   "'şüphe et-' 'rtebtum' açılımı (35. kelime; VIII. bab)", "'tum' 35. kelimede 2MP ile ('ederseniz' içinde)", "sıralama: şart öne alındı"]),
+  ("Akraba da olsa onu hiçbir bedele değişmeyiz, Allah'ın şahitliğini de gizlemeyiz", "lâ neşterî bihî semenen ve lev kâne zâ qurbâ ve lâ nektumu şehâdete'llâh", [
+   "'lâ' 36. kelimede olumsuzluk eki ile ('değişmeyiz' içinde; morph NEG)", "'bedele değiş-' 'neşterî' açılımı (37. kelime; VIII. bab; kök anlamı satın alma)", "'bi' 38. kelimede belirtme eki ile ('onu' içinde; fiil yönetimi takdiri)",
+   "'hî' 38. kelimede 'onu' ile (belirtme eki — fiil yönetimi takdiri)", "'bedel' 'semen' karşılığı (39. kelime; nekre — 'hiçbir' takdiri; yönelme eki ile 'bedele' — fiil yönetimi takdiri)",
+   "'ve' 40. kelimede 'da' ile (morph REM)", "'lev' 40. kelimede '-sa' ile (morph COND; 'olsa' içinde)", "'ol-' 'kâne' karşılığı (41. kelime; I. bab)",
+   "'zâ' 42. kelimede karşılıksız ('akraba' açılımı içinde; LEM 'zû')", "'akraba' 'qurbâ' karşılığı (43. kelime)", "'ve' 44. kelimede 'de' ile (morph CONJ)",
+   "'lâ' 44. kelimede olumsuzluk eki ile ('gizlemeyiz' içinde; morph NEG)", "'gizle-' 'nektum' karşılığı (45. kelime; I. bab)", "'şahitlik' 'şehâde' karşılığı (46. kelime; belirtme eki ile 'şahitliğini')",
+   "lafız 47. kelimede 'Allah' ile (tamlayan eki ile 'Allah'ın')", "sıralama: şart ('olsa') öne, fiil sona alındı"]),
+  INNA(48, 49, 50, 51, ("günahkârlardan", "l-âsimîn", "günahkâr", "âsim")),
+ ],
+ 107: [
+  ("Eğer o iki şahidin bir günahı hak ettiği ortaya çıkarsa", "fe-in 'usira 'alâ ennehume'stehaqqâ ismen", [
+   "'fe' 1. kelimede karşılıksız (morph CONJ)", "'in' 1. kelimede 'Eğer' ile (morph COND)", "'ortaya çık-' ''usira' açılımı (2. kelime; I. bab; edilgen; LEM ''usira' (morph LEM ham biçim))",
+   "''alâ' 3. kelimede karşılıksız (fiil yönetimi takdiri)", "'enne' 4. kelimede '-diği' ile ('ettiği' içinde)", "'humâ' 4. kelimede 'o iki şahidin' ile (3D; 'şahit' takdiri)",
+   "'hak et-' 'stehaqqâ' açılımı (5. kelime; X. bab)", "'â' 5. kelimede karşılıksız (3MD — 'ettiği' içinde ortak)", "'günah' 'ism' karşılığı (6. kelime; nekre — 'bir' takdiri; belirtme eki ile 'günahı')",
+   "sıralama: fiil sona alındı"]),
+  ("aleyhlerine hak iddia edilenlerden en layık başka iki kişi onların yerine geçer", "fe-âxarâni yaqûmâni maqâmehumâ mine'llezîne'stehaqqa 'aleyhimu'l-evleyân", [
+   "'fe' 7. kelimede karşılıksız (morph RSLT; şart cevabı)", "'başka' 'âxar' karşılığı (7. kelime; ikil — 'iki kişi' takdiri)", "'yerine geç-' 'yaqûmâni' açılımı (8. kelime; I. bab)",
+   "'â' 8. kelimede karşılıksız (3D — 'geçer' tekil çekim)", "'yer' 'maqâm' karşılığı (9. kelime; iyelik ile 'yerine')", "'humâ' 9. kelimede 'onların' ile (3D)",
+   "'min' 10. kelimede ayrılma eki ile ('edilenlerden' içinde)", "'ellezîne' 11. kelimede '-enler' ile ('edilenlerden' içinde)",
+   "'hak iddia et-' 'stehaqqa' açılımı (12. kelime; X. bab; meal edilgen okuma 'iddia edil-' — morph etken 3MS)", "''alâ' 13. kelimede 'aleyh' ile ('aleyhlerine' içinde)",
+   "'him' 13. kelimede iyelik ile ('aleyhlerine' içinde)", "'en layık' 'evleyân' karşılığı (14. kelime; ikil; belirli — takdirsiz)", "sıralama: sıfat öne, fail ortaya, fiil sona alındı"]),
+  ("ve Allah'a yemin ederler", "fe-yuqsimâni bi'llâh", [
+   "'fe' 15. kelimede 've' ile (morph CONJ)", "'yemin et-' 'yuqsimâni' açılımı (15. kelime; IV. bab; LEM 'aqsamu' (morph LEM ham biçim))", "'â' 15. kelimede 3D ile ('ederler' içinde — ikil çoğul çekimle)",
+   "'bi' 16. kelimede yönelme eki ile ('Allah'a' içinde — fiil yönetimi takdiri)", "lafız 16. kelimede 'Allah' ile", "sıralama: fiil sona alındı"]),
+  ("Bizim şahitliğimiz onların şahitliğinden daha haklıdır", "le-şehâdetunâ ehaqqu min şehâdetihimâ", [
+   "'le' 17. kelimede karşılıksız (morph EMPH; yemin cevabı)", "'şahitlik' 'şehâde' karşılığı (17. kelime; iyelik ile 'şahitliğimiz')", "'nâ' 17. kelimede 'Bizim' ile",
+   "'daha haklı' 'ehaqq' karşılığı (18. kelime; ism-i tafdil)", "'-dır' takdiri ('haklıdır' içinde)", "'min' 19. kelimede ayrılma eki ile ('şahitliğinden' içinde)",
+   "'şahitlik' 'şehâde' karşılığı (20. kelime; iyelik ile 'şahitliğinden')", "'humâ' 20. kelimede 'onların' ile (3D)", "sıralama: korundu"]),
+  ("biz sınırı aşmadık", "ve mâ 'tedeynâ", [
+   "'ve' 21. kelimede karşılıksız (morph REM)", "'mâ' 21. kelimede olumsuzluk eki ile ('aşmadık' içinde; morph NEG)", "'sınırı aş-' ''tedeynâ' açılımı (22. kelime; VIII. bab)",
+   "'nâ' 22. kelimede 'biz' ile", "sıralama: korundu"]),
+  INNA(23, 24, 25, 26, ("zalimlerden", "z-zâlimîn", "zalim", "zâlim")),
+ ],
+ 108: [
+  ("Bu, şahitliği gerçek yüzüyle getirmelerine", "zâlike ednâ en ye'tû bi'ş-şehâdeti 'alâ vechihâ", [
+   "'bu' 'zâlike' karşılığı (1. kelime; işaret)", "'daha yakın' 'ednâ' karşılığı (2. kelime; ism-i tafdil)", "'-dır' takdiri ('yakındır' içinde)",
+   "'en' 3. kelimede '-meleri' ile ('getirmelerine' içinde; morph SUB)", "'getir-' 'ye'tû' açılımı (4. kelime; I. bab; 'bi' ile)", "'û' 4. kelimede 3MP ile ('getirmelerine' içinde)",
+   "'bi' 5. kelimede belirtme eki ile ('şahitliği' içinde; fiil yönetimi takdiri)", "'şahitlik' 'şehâde' karşılığı (5. kelime; belirli — takdirsiz)", "''alâ' 6. kelimede '-yla' ile ('yüzüyle' içinde)",
+   "'yüz' 'vech' karşılığı (7. kelime; iyelik ile 'yüzüyle')", "'hâ' 7. kelimede iyelik ile ('yüzüyle' içinde)", "'gerçek' takdiri ('yüzüyle' niteleme)", "sıralama: haber sona alındı"]),
+  ("ya da kendi yeminlerinden sonra yeminlerin geri çevrilmesinden korkmalarına daha yakındır", "ev yaxâfû en turadde eymânun ba'de eymânihim", [
+   "'ev' 8. kelimede 'ya da' ile (morph CONJ)", "'kork-' 'yaxâfû' karşılığı (9. kelime; I. bab)", "'û' 9. kelimede 3MP ile ('korkmalarına' içinde)",
+   "'en' 10. kelimede '-mesi' ile ('çevrilmesinden' içinde; morph SUB)", "'geri çevir-' 'turadde' açılımı (11. kelime; I. bab; edilgen 'geri çevril-')",
+   "'yemin' 'yemîn' karşılığı (12. kelime; nekre — takdirsiz; çoğul 'eymân', '-ler')", "'sonra' 'ba'd' karşılığı (13. kelime; morph T)", "'yemin' 'yemîn' karşılığı (14. kelime; çoğul '-ler'; ayrılma eki ile 'yeminlerinden' — fiil yönetimi takdiri)",
+   "'him' 14. kelimede iyelik ile ('yeminlerinden' içinde — 'kendi' takdiri)", "sıralama: zaman öne, fiil sona alındı"]),
+  ("Allah'tan sakının ve dinleyin", "ve'ttequ'llâhe ve'sme'û", [
+   "'ve' 15. kelimede karşılıksız (morph REM)", "'sakın-' 'ttequ' karşılığı (15. kelime; VIII. bab; emir 2MP)", "'û' 15. kelimede 2MP ile ('sakının' içinde)",
+   "lafız 16. kelimede 'Allah' ile (ayrılma eki ile 'Allah'tan' — fiil yönetimi takdiri)", "'ve' 17. kelimede 've' ile (morph CONJ)", "'dinle-' 'sme'û' karşılığı (17. kelime; I. bab; emir 2MP)",
+   "'û' 17. kelimede 2MP ile ('dinleyin' içinde)", "sıralama: korundu"]),
+  ("Allah fâsık kavme yol göstermez", "ve'llâhu lâ yehdi'l-qavme'l-fâsiqîn", [
+   "'ve' 18. kelimede karşılıksız (morph REM)", "lafız 18. kelimede 'Allah' ile", "'lâ' 19. kelimede olumsuzluk eki ile ('göstermez' içinde; morph NEG)",
+   "'yol göster-' 'yehdî' açılımı (20. kelime; I. bab)", "'kavim' 'qavm' karşılığı (21. kelime; belirli — takdirsiz; yönelme eki ile 'kavme' — fiil yönetimi takdiri)",
+   "'fâsık' 'fâsiq' karşılığı (22. kelime; sıfat; etken ortaç; çoğul — tekil karşılık)", "sıralama: fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (106, 107, 108):
+        out.append('5:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)
