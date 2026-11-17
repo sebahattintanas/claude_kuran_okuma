@@ -21,7 +21,7 @@ yok, var, ATLA, TAR = [], [], [], set()
 for a in range(A, B + 1):
     for tr, q, items in veri.MK.get(a, []):
         for it in items:
-            m = re.match(r"'([^']+)' '(.+?)' (?:karşılığı|açılımı) \(((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime", it)  # bölüm 4 kuralı 7: hemze / ayn ile biten lemma; bölüm 7 kuralı 5: her numara
+            m = re.match(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)' '(.+?)' (?:karşılığı|açılımı) \(((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime", it)  # bölüm 4 kuralı 7: hemze / ayn ile biten lemma; bölüm 7 kuralı 5: her numara
             if not m:  # bölüm 5 kuralı 4: kök taşıyan edat / zarf biçimli kayıt "'X' N. kelimede 'Y' ile"
                 m2 = re.match(r"('(?:[^']|'(?=[a-zâîûçğışöü]))+') (\d+)\. kelimede '([^']+)'(?: [a-zçğıöşü]+)? ile", it)
                 if m2 and (a, int(m2.group(2))) in ROOT and m2.group(1) not in ZAM and m2.group(1) not in ONEK:
@@ -29,7 +29,7 @@ for a in range(A, B + 1):
                 elif m2 and (a, int(m2.group(2))) in ROOT and m2.group(1) in ONEK:
                     TAR.add((a, int(m2.group(2))))  # nida / önek kaydı ('eyy'): kelime kayıtlı, gloss eşlemesi yapılmaz
             NS = None
-            if m and m.re.pattern.startswith("'([^']+)' '"):
+            if m and m.re is not None and m.re.pattern.startswith("'((?:[^']|'(?=[a-zâîûçğışöü]))+)' '"):  # bölüm 14 (blok 31): Türkçe özel adda kesme ('Kur'an')
                 t, lat = m.group(1), m.group(2); NS = [w for x in re.findall(r'(\d+)(?:-(\d+))?\.', m.group(3)) for w in range(int(x[0]), int(x[1] or x[0]) + 1)]
             elif m: NS = [n]
             if not m:

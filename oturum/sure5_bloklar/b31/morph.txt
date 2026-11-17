@@ -1,0 +1,98 @@
+5:101:1	يَٰٓأَيُّهَا	P|VOC|PREF|LEM:ي + N|ROOT:أيي|LEM:أَيّ|ACC + P|ATT|SUFF|LEM:ه
+5:101:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:101:3	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+5:101:4	لَا	P|PRO|LEM:لا
+5:101:5	تَسْـَٔلُوا۟	V|IMPF|VF:1|ROOT:سأل|LEM:سَأَلَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:101:6	عَنْ	P|P|LEM:عَن
+5:101:7	أَشْيَآءَ	N|ROOT:شيأ|LEM:شَىْء|MP|GEN
+5:101:8	إِن	P|COND|LEM:إِن
+5:101:9	تُبْدَ	V|IMPF|VF:1|PASS|ROOT:بدو|LEM:بَدا|3FS|MOOD:JUS
+5:101:10	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:101:11	تَسُؤْكُمْ	V|IMPF|VF:1|ROOT:سوأ|LEM:ساءَ|3FS|MOOD:JUS + N|PRON|SUFF|2MP
+5:101:12	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+5:101:13	تَسْـَٔلُوا۟	V|IMPF|VF:1|ROOT:سأل|LEM:سَأَلَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+5:101:14	عَنْهَا	P|P|LEM:عَن + N|PRON|SUFF|3FS
+5:101:15	حِينَ	N|T|ROOT:حين|LEM:حِين|M|ACC
+5:101:16	يُنَزَّلُ	V|IMPF|VF:2|PASS|ROOT:نزل|LEM:نَزَّلَ|3MS|MOOD:IND
+5:101:17	ٱلْقُرْءَانُ	P|DET|PREF|LEM:ال + N|PN|ROOT:قرأ|LEM:قُرْءان|M|NOM
+5:101:18	تُبْدَ	V|IMPF|VF:1|PASS|ROOT:بدو|LEM:بَدا|3FS|MOOD:JUS
+5:101:19	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+5:101:20	عَفَا	V|PERF|VF:1|ROOT:عفو|LEM:عَفا|3MS
+5:101:21	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:101:22	عَنْهَا	P|P|LEM:عَن + N|PRON|SUFF|3FS
+5:101:23	وَٱللَّهُ	P|REM|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:101:24	غَفُورٌ	N|ROOT:غفر|LEM:غَفُور|MS|INDEF|NOM
+5:101:25	حَلِيمٌ	N|ROOT:حلم|LEM:حَلِيم|MS|INDEF|NOM|ADJ
+5:102:1	قَدْ	P|CERT|LEM:قَد
+5:102:2	سَأَلَهَا	V|PERF|VF:1|ROOT:سأل|LEM:سَأَلَ|3MS + N|PRON|SUFF|3FS
+5:102:3	قَوْمٌ	N|ROOT:قوم|LEM:قَوْم|M|INDEF|NOM
+5:102:4	مِّن	P|P|LEM:مِن
+5:102:5	قَبْلِكُمْ	N|ROOT:قبل|LEM:قَبْل|GEN + N|PRON|SUFF|2MP
+5:102:6	ثُمَّ	P|CONJ|LEM:ثُمّ
+5:102:7	أَصْبَحُوا۟	V|PERF|VF:4|ROOT:صبح|LEM:أَصْبَحَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+5:102:8	بِهَا	P|P|PREF|LEM:ب + N|PRON|3FS
+5:102:9	كَٰفِرِينَ	N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|ACC
+5:103:1	مَا	P|NEG|LEM:ما
+5:103:2	جَعَلَ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS
+5:103:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:103:4	مِنۢ	P|P|LEM:مِن
+5:103:5	بَحِيرَةٍ	N|ROOT:بحر|LEM:بَحِيرَة|F|INDEF|GEN
+5:103:6	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:103:7	سَآئِبَةٍ	N|ACT_PCPL|VF:1|ROOT:سيب|LEM:سائِبَة|F|INDEF|GEN
+5:103:8	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:103:9	وَصِيلَةٍ	N|ROOT:وصل|LEM:وَصِيلَة|F|INDEF|GEN
+5:103:10	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:103:11	حَامٍ	N|ROOT:حمي|LEM:حام|INDEF|GEN
+5:103:12	وَلَٰكِنَّ	P|REM|PREF|LEM:و + P|ACC|LEM:لٰكِنّ|FAM:إِنّ
+5:103:13	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:103:14	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+5:103:15	يَفْتَرُونَ	V|IMPF|VF:8|ROOT:فري|LEM:افْتَرَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:103:16	عَلَى	P|P|LEM:عَلَى
+5:103:17	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:103:18	ٱلْكَذِبَ	P|DET|PREF|LEM:ال + N|ROOT:كذب|LEM:كَذِب|M|ACC
+5:103:19	وَأَكْثَرُهُمْ	P|CIRC|PREF|LEM:و + N|ROOT:كثر|LEM:أَكْثَر|MS|NOM + N|PRON|SUFF|3MP
+5:103:20	لَا	P|NEG|LEM:لا
+5:103:21	يَعْقِلُونَ	V|IMPF|VF:1|ROOT:عقل|LEM:عَقَلُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:104:1	وَإِذَا	P|REM|PREF|LEM:و + N|T|LEM:إِذا
+5:104:2	قِيلَ	V|PERF|VF:1|PASS|ROOT:قول|LEM:قالَ|3MS
+5:104:3	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:104:4	تَعَالَوْا۟	V|IMPV|VF:4|ROOT:علو|LEM:تَعالَ|2MP + N|PRON|SUFF|2MP
+5:104:5	إِلَىٰ	P|P|LEM:إِلَى
+5:104:6	مَآ	N|REL|LEM:ما
+5:104:7	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+5:104:8	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:104:9	وَإِلَى	P|CONJ|PREF|LEM:و + P|P|LEM:إِلَى
+5:104:10	ٱلرَّسُولِ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|M|GEN
+5:104:11	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:104:12	حَسْبُنَا	N|ROOT:حسب|LEM:حَسْب|M|NOM + N|PRON|SUFF|1P
+5:104:13	مَا	N|REL|LEM:ما
+5:104:14	وَجَدْنَا	V|PERF|VF:1|ROOT:وجد|LEM:وَجَدَ|1P + N|PRON|SUFF|1P
+5:104:15	عَلَيْهِ	P|P|LEM:عَلَى + N|PRON|SUFF|3MS
+5:104:16	ءَابَآءَنَآ	N|ROOT:أبو|LEM:آباء|MP|ACC + N|PRON|SUFF|1P
+5:104:17	أَوَلَوْ	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:و + P|COND|LEM:لَو
+5:104:18	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+5:104:19	ءَابَآؤُهُمْ	N|ROOT:أبو|LEM:آباء|MP|NOM + N|PRON|SUFF|3MP
+5:104:20	لَا	P|NEG|LEM:لا
+5:104:21	يَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:104:22	شَيْـًٔا	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|ACC
+5:104:23	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+5:104:24	يَهْتَدُونَ	V|IMPF|VF:8|ROOT:هدي|LEM:اهْتَدَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+5:105:1	يَٰٓأَيُّهَا	P|VOC|PREF|LEM:ي + N|ROOT:أيي|LEM:أَيّ|ACC + P|ATT|SUFF|LEM:ه
+5:105:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:105:3	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+5:105:4	عَلَيْكُمْ	N|NV|IMPV|LEM:عَلَى + N|PRON|SUFF|2MP
+5:105:5	أَنفُسَكُمْ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|2MP
+5:105:6	لَا	P|NEG|LEM:لا
+5:105:7	يَضُرُّكُم	V|IMPF|VF:1|ROOT:ضرر|LEM:يَضُرَّ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+5:105:8	مَّن	N|REL|LEM:مَن
+5:105:9	ضَلَّ	V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MS
+5:105:10	إِذَا	N|T|LEM:إِذا
+5:105:11	ٱهْتَدَيْتُمْ	V|PERF|VF:8|ROOT:هدي|LEM:اهْتَدَى|2MP + N|PRON|SUFF|2MP
+5:105:12	إِلَى	P|P|LEM:إِلَى
+5:105:13	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:105:14	مَرْجِعُكُمْ	N|ROOT:رجع|LEM:مَرْجِع|M|NOM + N|PRON|SUFF|2MP
+5:105:15	جَمِيعًا	N|ROOT:جمع|LEM:جَمِيع|M|INDEF|ACC
+5:105:16	فَيُنَبِّئُكُم	P|REM|PREF|LEM:ف + V|IMPF|VF:2|ROOT:نبأ|LEM:نَبَّأَ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+5:105:17	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+5:105:18	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+5:105:19	تَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

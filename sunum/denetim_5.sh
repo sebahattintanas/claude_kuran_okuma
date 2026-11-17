@@ -1,5 +1,5 @@
 #!/bin/bash
-# kullanım: bash denetim.sh A B   (blok §5 denetimleri; SÛRE 5 — sûre 4 sürümü denetim.sh, sûre 3 sürümü denetim_3.sh)
+# kullanım: bash denetim.sh A B [NN]   (NN verilirse bölüm 13 denetimi kuralı 2 koşar; blok §5 denetimleri; SÛRE 5 — sûre 4 sürümü denetim.sh, sûre 3 sürümü denetim_3.sh)
 A=$1; B=$2; cd /home/claude
 echo "origin: $(git -C k ls-remote origin HEAD | cut -c1-7)"
 (cd repo/tablolar && python3 ../betikler/turkce_denetim.py | tail -3)
@@ -32,3 +32,4 @@ m0=json.load(open('/home/claude/k/notlar/mercek_kayit.json'))['5'].get('_sikisti
 mt=json.load(open('/home/claude/k/notlar/mercek_kayit.json'))['5']
 print('mercek arşivi',len(m0),'→',len(m1),'| eskiler aynı',all(m0[k]==m1[k] for k in m0),'| arşiv = taban notu',all(mt.get(k)==v for k,v in m1.items()))
 EOF
+[ -n "$3" ] && python3 sunum/bolum13_kurallar.py $A $B $3 | grep -E "^HATA \(2\)|hata:"  # bölüm 13 denetimi kuralı 2: esma_muhur hat sonunda yeniden

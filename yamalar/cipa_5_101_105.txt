@@ -1,0 +1,6 @@
+ # blok 101-105
+ 101: dict(kademe=None, olgu=False, cipa=False, not_="'lâ tes'elû 'an eşyâ'e' — soru sorma yasağı (olgu=False); tarayıcı vermedi"),
+ 102: dict(kademe=None, olgu=False, cipa=False, not_="'qad se'elehâ qavmun min qablikum' — önceki kavim bildirimi (olgu=False); tarayıcı vermedi"),
+ 103: dict(kademe=None, olgu=False, cipa=False, not_="'mâ ce'ale'llâhu min bahîratin' — hüküm reddi (olgu=False); tarayıcı vermedi"),
+ 104: dict(kademe=None, olgu=False, cipa=False, not_="'hasbunâ mâ vecednâ 'aleyhi âbâ'enâ' — ataların yoluna bağlılık sözü (olgu=False); tarayıcı vermedi"),
+ 105: dict(kademe=None, olgu=False, cipa=False, not_="''aleykum enfusekum' — kendini gözetme emri (olgu=False); tarayıcı vermedi"),

@@ -239,6 +239,9 @@ BAGLAR = {"AS_maide": [
  {'bag': '2:196 → 5:98', 'kural': "okuma — ölçüm xref ''alime allâh şedîd' (lemma üçlüsü)", 'not': 'kalıp eşi (ölçüm xref).'},
  {'bag': '24:29 → 5:99', 'kural': "okuma — harekesiz 'ya'lemu mâ tubdûne ve mâ tektumûn'", 'not': 'kalıp eşi (ölçüm xref).'},
  {'bag': '65:10 → 5:100', 'kural': "okuma — önek kesilmiş 'fe'ttequ'llâhe yâ uli'l-elbâb'", 'not': 'kalıp eşi (ölçüm xref).'},
+ # blok 101-105
+ {'bag': '3:155 → 5:101', 'kural': "okuma — ölçüm xref ''afâ allâh allâh' (lemma üçlüsü)", 'not': 'kalıp eşi (ölçüm xref).'},
+ {'bag': '2:170 → 5:104', 'kural': "okuma — harekesiz 'e-ve-lev kâne âbâ'uhum'", 'not': 'kalıp eşi (ölçüm xref).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
