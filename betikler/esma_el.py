@@ -1481,4 +1481,7 @@ KARAR = {
     # sure 5 blok 94-96
     '5:95:48': 'ilahi',  # ve'llâhu 'azîzun zû'ntiqâm — 've'llâhu X' kuralı → ilahi
     '5:96:12': 'degil',  # 'l-berri' — esmâ adı esmâ dışı göndergeyle → degil (kara)
+    # sure 5 blok 97-100
+    '5:97:27': 'ilahi',  # ve enne'llâhe bi-kulli şey'in 'alîm — 'inne/enne' haberi → ilahi (lafzın haberi)
+    '5:98:8': 'ilahi', '5:98:9': 'ilahi',  # ve enne'llâhe ğafûrun rahîm — 'inne/enne' haberi → ilahi (lafzın haberi)
 }

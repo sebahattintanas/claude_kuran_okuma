@@ -1,0 +1,62 @@
+5:97:1	جَعَلَ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS
+5:97:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:97:3	ٱلْكَعْبَةَ	P|DET|PREF|LEM:ال + N|PN|ROOT:كعب|LEM:كَعْبَة|F|ACC
+5:97:4	ٱلْبَيْتَ	P|DET|PREF|LEM:ال + N|ROOT:بيت|LEM:بَيْت|M|ACC
+5:97:5	ٱلْحَرَامَ	P|DET|PREF|LEM:ال + N|ROOT:حرم|LEM:حَرام|M|ACC|ADJ
+5:97:6	قِيَٰمًا	N|ACT_PCPL|VF:1|ROOT:قوم|LEM:قائِم|MP|INDEF|ACC
+5:97:7	لِّلنَّاسِ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|GEN
+5:97:8	وَٱلشَّهْرَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:شهر|LEM:شَهْر|M|ACC
+5:97:9	ٱلْحَرَامَ	P|DET|PREF|LEM:ال + N|ROOT:حرم|LEM:حَرام|M|ACC|ADJ
+5:97:10	وَٱلْهَدْىَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:هدي|LEM:هَدْي|M|ACC
+5:97:11	وَٱلْقَلَٰٓئِدَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:قلد|LEM:قَلائِد|FP|ACC
+5:97:12	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:97:13	لِتَعْلَمُوٓا۟	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+5:97:14	أَنَّ	P|ACC|LEM:أَنّ|FAM:إِنّ
+5:97:15	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:97:16	يَعْلَمُ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+5:97:17	مَا	N|REL|LEM:ما
+5:97:18	فِى	P|P|LEM:فِي
+5:97:19	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+5:97:20	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+5:97:21	فِى	P|P|LEM:فِي
+5:97:22	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:97:23	وَأَنَّ	P|REM|PREF|LEM:و + P|ACC|LEM:أَنّ|FAM:إِنّ
+5:97:24	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:97:25	بِكُلِّ	P|P|PREF|LEM:ب + N|ROOT:كلل|LEM:كُلّ|M|GEN
+5:97:26	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+5:97:27	عَلِيمٌ	N|ROOT:علم|LEM:عَلِيم|MS|INDEF|NOM
+5:98:1	ٱعْلَمُوٓا۟	V|IMPV|VF:1|ROOT:علم|LEM:عَلِمَ|2MP + N|PRON|SUFF|2MP
+5:98:2	أَنَّ	P|ACC|LEM:أَنّ|FAM:إِنّ
+5:98:3	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:98:4	شَدِيدُ	N|ROOT:شدد|LEM:شَدِيد|MS|NOM
+5:98:5	ٱلْعِقَابِ	P|DET|PREF|LEM:ال + N|ROOT:عقب|LEM:عِقاب|M|GEN
+5:98:6	وَأَنَّ	P|CONJ|PREF|LEM:و + P|ACC|LEM:أَنّ|FAM:إِنّ
+5:98:7	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:98:8	غَفُورٌ	N|ROOT:غفر|LEM:غَفُور|MS|INDEF|NOM
+5:98:9	رَّحِيمٌ	N|ROOT:رحم|LEM:رَحِيم|MS|INDEF|NOM|ADJ
+5:99:1	مَّا	P|NEG|LEM:ما
+5:99:2	عَلَى	P|P|LEM:عَلَى
+5:99:3	ٱلرَّسُولِ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|M|GEN
+5:99:4	إِلَّا	P|RES|LEM:إِلّا
+5:99:5	ٱلْبَلَٰغُ	P|DET|PREF|LEM:ال + N|ROOT:بلغ|LEM:بَلاغ|M|NOM
+5:99:6	وَٱللَّهُ	P|REM|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:99:7	يَعْلَمُ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+5:99:8	مَا	N|REL|LEM:ما
+5:99:9	تُبْدُونَ	V|IMPF|VF:4|ROOT:بدو|LEM:يُبْدِيَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+5:99:10	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+5:99:11	تَكْتُمُونَ	V|IMPF|VF:1|ROOT:كتم|LEM:كَتَمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+5:100:1	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+5:100:2	لَّا	P|NEG|LEM:لا
+5:100:3	يَسْتَوِى	V|IMPF|VF:8|ROOT:سوي|LEM:اسْتَوَى|3MS|MOOD:IND
+5:100:4	ٱلْخَبِيثُ	P|DET|PREF|LEM:ال + N|ROOT:خبث|LEM:خَبِيث|MS|NOM
+5:100:5	وَٱلطَّيِّبُ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:طيب|LEM:طَيِّب|MS|NOM
+5:100:6	وَلَوْ	P|CIRC|PREF|LEM:و + P|COND|LEM:لَو
+5:100:7	أَعْجَبَكَ	V|PERF|VF:4|ROOT:عجب|LEM:أَعْجَبَ|3MS + N|PRON|SUFF|2MS
+5:100:8	كَثْرَةُ	N|ROOT:كثر|LEM:كَثْرَة|F|NOM
+5:100:9	ٱلْخَبِيثِ	P|DET|PREF|LEM:ال + N|ROOT:خبث|LEM:خَبِيث|MS|GEN
+5:100:10	فَٱتَّقُوا۟	P|REM|PREF|LEM:ف + V|IMPV|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP + N|PRON|SUFF|2MP
+5:100:11	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:100:12	يَٰٓأُو۟لِى	P|VOC|PREF|LEM:ي + N|LEM:ذُو|MP|ACC
+5:100:13	ٱلْأَلْبَٰبِ	P|DET|PREF|LEM:ال + N|ROOT:لبب|LEM:أَلْباب|MP|GEN
+5:100:14	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+5:100:15	تُفْلِحُونَ	V|IMPF|VF:4|ROOT:فلح|LEM:أَفْلَحَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

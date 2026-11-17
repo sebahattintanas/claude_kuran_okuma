@@ -79627,6 +79627,38 @@
   "ton": null,
   "ton_kismi": false
  },
+ "5:100": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    9,
+    "خَبِيث"
+   ],
+   [
+    11,
+    "اللَّه"
+   ],
+   [
+    13,
+    "أَلْباب"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "5:11": {
   "a": true,
   "bant": "KAPI_KAPALI",
@@ -83041,6 +83073,126 @@
    ]
   ],
   "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "5:97": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    27,
+    "عَلِيم"
+   ]
+  ],
+  "esma_el": {
+   "5:97:27": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "عَلِيم"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    25,
+    "كُلّ"
+   ],
+   [
+    26,
+    "شَىْء"
+   ],
+   [
+    27,
+    "عَلِيم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "5:98": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    8,
+    "غَفُور"
+   ],
+   [
+    9,
+    "رَحِيم"
+   ]
+  ],
+  "esma_el": {
+   "5:98:8": "ilahi",
+   "5:98:9": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "غَفُور",
+   "رَحِيم"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    7,
+    "اللَّه"
+   ],
+   [
+    8,
+    "غَفُور"
+   ],
+   [
+    9,
+    "رَحِيم"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "5:99": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    3,
+    "رَسُول"
+   ],
+   [
+    5,
+    "بَلاغ"
+   ],
+   [
+    6,
+    "اللَّه"
+   ]
+  ],
+  "ton": null,
   "ton_kismi": false
  },
  "60:1": {
