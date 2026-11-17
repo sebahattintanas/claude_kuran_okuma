@@ -1,0 +1,78 @@
+5:109:1	يَوْمَ	N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+5:109:2	يَجْمَعُ	V|IMPF|VF:1|ROOT:جمع|LEM:جَمَعَ|3MS|MOOD:IND
+5:109:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:109:4	ٱلرُّسُلَ	P|DET|PREF|LEM:ال + N|ROOT:رسل|LEM:رَسُول|MP|ACC
+5:109:5	فَيَقُولُ	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MS|MOOD:IND
+5:109:6	مَاذَآ	N|INTG|LEM:ماذا
+5:109:7	أُجِبْتُمْ	V|PERF|VF:4|PASS|ROOT:جوب|LEM:أُجِيبَت|2MP + N|PRON|SUFF|2MP
+5:109:8	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:109:9	لَا	P|NEG|LEM:لا|FAM:كَان
+5:109:10	عِلْمَ	N|ROOT:علم|LEM:عِلْم|M|ACC
+5:109:11	لَنَآ	P|P|PREF|LEM:ل + N|PRON|1P
+5:109:12	إِنَّكَ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MS
+5:109:13	أَنتَ	N|PRON|2MS
+5:109:14	عَلَّٰمُ	N|ROOT:علم|LEM:عَلّام|MS|NOM
+5:109:15	ٱلْغُيُوبِ	P|DET|PREF|LEM:ال + N|ROOT:غيب|LEM:غُيُوب|M|GEN
+5:110:1	إِذْ	N|T|LEM:إِذ
+5:110:2	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:110:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:110:4	يَٰعِيسَى	P|VOC|PREF|LEM:ي + N|PN|LEM:عِيسَى|ACC
+5:110:5	ٱبْنَ	N|ROOT:بني|LEM:ابْن|M|ACC
+5:110:6	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:110:7	ٱذْكُرْ	V|IMPV|VF:1|ROOT:ذكر|LEM:ذَكَرَ|2MS
+5:110:8	نِعْمَتِى	N|ROOT:نعم|LEM:نِعْمَة|F|ACC + N|PRON|SUFF|1S
+5:110:9	عَلَيْكَ	P|P|LEM:عَلَى + N|PRON|SUFF|2MS
+5:110:10	وَعَلَىٰ	P|CONJ|PREF|LEM:و + P|P|LEM:عَلَى
+5:110:11	وَٰلِدَتِكَ	N|ACT_PCPL|VF:1|ROOT:ولد|LEM:والِدَة|F|GEN + N|PRON|SUFF|2MS
+5:110:12	إِذْ	N|T|LEM:إِذ
+5:110:13	أَيَّدتُّكَ	V|PERF|VF:2|ROOT:أيد|LEM:أَيَّدَ|1S + N|PRON|SUFF|1S + N|PRON|SUFF|2MS
+5:110:14	بِرُوحِ	P|P|PREF|LEM:ب + N|ROOT:روح|LEM:رُوح|M|GEN
+5:110:15	ٱلْقُدُسِ	P|DET|PREF|LEM:ال + N|ROOT:قدس|LEM:قُدُس|M|GEN
+5:110:16	تُكَلِّمُ	V|IMPF|VF:2|ROOT:كلم|LEM:كَلَّمَ|2MS|MOOD:IND
+5:110:17	ٱلنَّاسَ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|ACC
+5:110:18	فِى	P|P|LEM:فِي
+5:110:19	ٱلْمَهْدِ	P|DET|PREF|LEM:ال + N|ROOT:مهد|LEM:مَهْد|M|GEN
+5:110:20	وَكَهْلًا	P|CONJ|PREF|LEM:و + N|ROOT:كهل|LEM:كَهْل|M|INDEF|ACC
+5:110:21	وَإِذْ	P|CONJ|PREF|LEM:و + N|T|LEM:إِذ
+5:110:22	عَلَّمْتُكَ	V|PERF|VF:2|ROOT:علم|LEM:عَلَّمَ|1S + N|PRON|SUFF|1S + N|PRON|SUFF|2MS
+5:110:23	ٱلْكِتَٰبَ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|ACC
+5:110:24	وَٱلْحِكْمَةَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:حكم|LEM:حِكْمَة|F|ACC
+5:110:25	وَٱلتَّوْرَىٰةَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|PN|LEM:تَوْراة|ACC
+5:110:26	وَٱلْإِنجِيلَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|PN|LEM:إِنجِيل|ACC
+5:110:27	وَإِذْ	P|CONJ|PREF|LEM:و + N|T|LEM:إِذ
+5:110:28	تَخْلُقُ	V|IMPF|VF:1|ROOT:خلق|LEM:خَلَقَ|2MS|MOOD:IND
+5:110:29	مِنَ	P|P|LEM:مِن
+5:110:30	ٱلطِّينِ	P|DET|PREF|LEM:ال + N|ROOT:طين|LEM:طِين|M|GEN
+5:110:31	كَهَيْـَٔةِ	P|P|PREF|LEM:ك + N|ROOT:هيأ|LEM:هَيْئَة|F|GEN
+5:110:32	ٱلطَّيْرِ	P|DET|PREF|LEM:ال + N|ROOT:طير|LEM:طَيْر|M|GEN
+5:110:33	بِإِذْنِى	P|P|PREF|LEM:ب + N|ROOT:أذن|LEM:إِذْن|M|GEN + N|PRON|SUFF|1S
+5:110:34	فَتَنفُخُ	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:نفخ|LEM:نَفَخَ|2MS|MOOD:IND
+5:110:35	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+5:110:36	فَتَكُونُ	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS|MOOD:IND
+5:110:37	طَيْرًۢا	N|ROOT:طير|LEM:طَيْر|M|INDEF|ACC
+5:110:38	بِإِذْنِى	P|P|PREF|LEM:ب + N|ROOT:أذن|LEM:إِذْن|M|GEN + N|PRON|SUFF|1S
+5:110:39	وَتُبْرِئُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:4|ROOT:برأ|LEM:تُبْرِئُ|2MS|MOOD:IND
+5:110:40	ٱلْأَكْمَهَ	P|DET|PREF|LEM:ال + N|ROOT:كمه|LEM:أَكْمَه|M|ACC
+5:110:41	وَٱلْأَبْرَصَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:برص|LEM:أَبْرَص|M|ACC
+5:110:42	بِإِذْنِى	P|P|PREF|LEM:ب + N|ROOT:أذن|LEM:إِذْن|M|GEN + N|PRON|SUFF|1S
+5:110:43	وَإِذْ	P|CONJ|PREF|LEM:و + N|T|LEM:إِذ
+5:110:44	تُخْرِجُ	V|IMPF|VF:4|ROOT:خرج|LEM:أَخْرَجَ|2MS|MOOD:IND
+5:110:45	ٱلْمَوْتَىٰ	P|DET|PREF|LEM:ال + N|ROOT:موت|LEM:مَيِّت|P|ACC
+5:110:46	بِإِذْنِى	P|P|PREF|LEM:ب + N|ROOT:أذن|LEM:إِذْن|M|GEN + N|PRON|SUFF|1S
+5:110:47	وَإِذْ	P|CONJ|PREF|LEM:و + N|T|LEM:إِذ
+5:110:48	كَفَفْتُ	V|PERF|VF:1|ROOT:كفف|LEM:كَفَّ|1S + N|PRON|SUFF|1S
+5:110:49	بَنِىٓ	N|ROOT:بني|LEM:بُنَىّ|MP|ACC
+5:110:50	إِسْرَٰٓءِيلَ	N|PN|LEM:إِسْرائِيل|GEN
+5:110:51	عَنكَ	P|P|LEM:عَن + N|PRON|SUFF|2MS
+5:110:52	إِذْ	N|T|LEM:إِذ
+5:110:53	جِئْتَهُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|3MP
+5:110:54	بِٱلْبَيِّنَٰتِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:بين|LEM:بَيِّنَة|FP|GEN
+5:110:55	فَقَالَ	P|REM|PREF|LEM:ف + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:110:56	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+5:110:57	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+5:110:58	مِنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+5:110:59	إِنْ	P|NEG|LEM:إِن
+5:110:60	هَٰذَآ	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+5:110:61	إِلَّا	P|RES|LEM:إِلّا
+5:110:62	سِحْرٌ	N|ROOT:سحر|LEM:سِحْر|M|INDEF|NOM
+5:110:63	مُّبِينٌ	N|ACT_PCPL|VF:4|ROOT:بين|LEM:مُبِين|M|INDEF|NOM|ADJ

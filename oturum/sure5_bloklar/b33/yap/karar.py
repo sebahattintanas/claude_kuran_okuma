@@ -1,0 +1,16 @@
+KARAR.update({
+ 'alıkoy-': "'alıkoy-' ← 'kefeftu' (كفف) / 'saddûkum', 'yesudd' (صدد) / 'tahbisû' (حبس; morph LEM ham biçim): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'an-': "'an-' ← 'zikr' / 'zkur', 'zkurû': farklı lemma (masdar / fiil), kök ذكر — çakışma — tam okuma sonu",
+ 'anne': "'anne' ← 'umm' (أمم) / 'vâlide' (ولد): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'bu': "'bu' ← 'zâ', 'zâlike', 'zâlikum': bir lemma ('zâ'; morph LEM eşit) — çakışma değil",
+ 'destekle-': "'destekle-' ← ''azzertum' (عزر) / 'eyyedtu' (أيد): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'gayb': "'gayb' ← 'ğayb' / 'ğuyûb': bir kök (غيب); morph LEM farklı — tekil 'ğayb', çoğul 'ğuyûb' — çakışma değil",
+ 'gel-': "'gel-' ← 'ci'te', 'câ'a', 'câ'e', 'câ'et', 'câ'û' (جيأ) / 'hadara' (حضر) / 'te'âlev' (علو) / 'ye'tû' (أتي): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'kutsal': "'kutsal' ← 'muqaddese' / 'qudus': farklı lemma (sıfat / masdar), kök قدس — çakışma — tam okuma sonu",
+ 'ol-': "'ol-' ← 'asbaha', 'asbahû', 'yusbihû' (صبح) / 'dumtum' (دوم) / 'ekûne', 'kuntum', 'kâne', 'kânû', 'kûnû', 'tekûne', 'tekûnu' (كون): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'yarat-': "'yarat-' ← 'taxluqu', 'xalaqa', 'yaxluqu': bir lemma ('xalaqa'; morph LEM eşit) — çakışma değil",
+ 'çıkar-': "'çıkar-' ← 'tuxricu', 'yuxricu': bir lemma ('axrace'; morph LEM eşit) — çakışma değil",
+ 'öğret-': "'öğret-' ← ''allemekumu', ''allemtu', 'tu'allimûnehunne': bir lemma (''alleme'; morph LEM eşit) — çakışma değil",
+ 'KÖK bil-': "KÖK 'bil-' ← 'bil-' (''lem', ''lemû', 'ta'lem', 'ya'lem'), 'bilen' (''alîm'), 'daha iyi bilen' ('a'lem'), 'en iyi bilen' (''allâm'; علم) / 'kesin bil-' ('yûqinû' (morph LEM ham biçim); يقن): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ver-': "KÖK 'ver-' ← 'borç ver-', 'cevap ver-', 'fidye ver-', 'haber ver-', 'hüküm ver-', 'nimet ver-', 'rızık olarak ver-', 'ver-', 'zarar ver-', 'çokça kulak veren': yardımcı fiil 'ver-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+})

@@ -46,7 +46,7 @@ for f in DOS:
             ma = re.match(r"(?:meal[^:]*: )?%d:(\d+) " % S, seg)
             if not ma: continue
             a_ = int(ma.group(1))
-            for tr, ar, w1, w2 in re.findall(r"'([^']+)' '((?:[^' ]|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \((\d+)\. (?:ve (\d+)\. )?kelime", seg):
+            for tr, ar, w1, w2 in re.findall(r"(?<![^\s(\[])'((?:[^']|(?<=[A-Za-zâîûçğışöüÇĞİÖŞÜ])'(?=[a-zâîûçğışöü]))+)' '((?:[^' ]|'(?=[a-zâîûçğışöü])|'(?=' ))+)' (?:karşılığı|açılımı) \((\d+)\. (?:ve (\d+)\. )?kelime", seg):
                 YER.setdefault((tr, ar), set()).add((a_, int(w1)))  # karşılık başına: aynı Arapça biçim başka karşılıkla da geçebilir
                 if w2: YER[(tr, ar)].add((a_, int(w2)))
 CAK = run('python3', '/home/claude/sunum/cakisma.py', *DOS).splitlines()
@@ -73,9 +73,11 @@ for k, (p, g) in enumerate(pos):
         if re.search(r"farklı lemma|LEM yazımı farklı|morph LEM farklı", parca) and len(lem) == 1: H.append("(1) '%s' 'farklı lemma / LEM farklı' iddiası, morph LEM tek: %s" % (g, next(iter(lem))))
     else:  # (2)
         ak = set(re.findall(r'[ء-ي]{3,4}', re.sub(r'\([^()]*morph LEM ham biçim\)', '', parca)))
-        if not ak: continue
-        n2 += 1
         gk = {KOKW[x] for x in yer if x in KOKW}
+        if not ak:  # bölüm 14 denetimi kuralı 1: Arapça kök anmayan KÖK kararı üye kökleriyle
+            if len(gk) > 1 and re.search(r'çakışma değil', parca) and not re.search(r'tam okuma sonu', parca): H.append("(2) %s birden çok kök (%s) — 'çakışma değil' kararı, kök anılmamış" % (g, ' '.join(sorted(gk))))
+            continue
+        n2 += 1
         if gk and ak != gk: H.append("(2) %s kök listesi: karar %s / üyeler %s" % (g, ' '.join(sorted(ak)), ' '.join(sorted(gk))))
 print('(1) lemma iddiası denetlenen grup: %d; (2) KÖK kök listesi denetlenen grup: %d' % (n1, n2))
 # say2

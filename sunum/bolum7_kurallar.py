@@ -74,7 +74,7 @@ for d in sorted(glob.glob('/home/claude/b[0-9][0-9]')):
     for a, L in veri(nn).items():
         for tr, q, its in L:
             for it in its:
-                m = re.match(r"'([^']+)' '((?:[^']|'(?=[a-zâîûçğışöü']))+)' (?:karşılığı|açılımı) \(((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime", it)
+                m = re.match(r"(?<![^\s(\[])'((?:[^']|(?<=[A-Za-zâîûçğışöüÇĞİÖŞÜ])'(?=[a-zâîûçğışöü]))+)' '((?:[^']|'(?=[a-zâîûçğışöü']))+)' (?:karşılığı|açılımı) \(((?:\d+(?:-\d+)?\.,? (?:ve )?)+)kelime", it)
                 if not m: continue
                 for x in re.findall(r'(\d+)(?:-(\d+))?\.', m.group(3)):
                     for w in range(int(x[0]), int(x[1] or x[0]) + 1):

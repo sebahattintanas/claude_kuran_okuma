@@ -1488,4 +1488,6 @@ KARAR = {
     '5:101:24': 'ilahi', '5:101:25': 'ilahi',  # ve'llâhu ğafûrun halîm — 've'llâhu X' kuralı → ilahi
     # sure 5 blok 106-108
     '5:106:8': 'degil',  # 'ehadekumu' — çoğul insan göndergeli → degil (biriniz; 'kum' zamirli, insan öznesi)
+    # sure 5 blok 109-110
+    '5:110:63': 'degil',  # 'sihrun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (büyünün sıfatı)
 }
