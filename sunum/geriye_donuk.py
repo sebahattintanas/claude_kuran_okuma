@@ -25,6 +25,7 @@ for a, b, nn in BL:
         isa += ['bolum9_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum9_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralları
         isa += ['bolum10_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum10_kurallar.py', str(a), str(b), nn, '--tazelik-yok']).splitlines() if l.startswith('HATA')]  # bölüm 10 kuralları
         isa += ['bolum11_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum11_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 11 kuralları
+        isa += ['bolum12_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum12_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 12 kuralları
         isa += ['kural13: ' + l[5:] for l in run(['python3', 'sunum/kural13.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralı 13
         es = run(['python3', 'sunum/es_edat.py', nn])
         m = re.search(r'tanınmayan edat / zamir başlığı (\d+)(?: \(([^)]*)\))?', es)
@@ -37,7 +38,7 @@ for a, b, nn in BL:
     dos = [Y + '%s_%d_%d_%d.txt' % (k, S, a, b) for k in ('metin', 'ariza', 'bag', 'cipa', 'esma_el') if _o.path.exists(Y + '%s_%d_%d_%d.txt' % (k, S, a, b))]
     isa += ['yasakli: ' + l.split('/')[-1] for l in run(['bash', 'sunum/yasakli.sh'] + dos).splitlines() if 'bitti' not in l and l.strip()]
     out += isa; ISA += ['blok %s %s' % (nn, x) for x in isa]
-bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
+bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
 if ONC and _o.path.exists(ONC):
     eski = set()
     blk = None
@@ -57,8 +58,9 @@ if ONC and _o.path.exists(ONC):
     C_ = subprocess.run(['git', 'log', '--format=%H', '-1', '--', 'yamalar/' + ONC.split('/')[-1]], capture_output=True, text=True, cwd=R_).stdout.strip()
     _bas_eski = subprocess.run(['git', 'show', '%s:sunum/basilan.txt' % C_], capture_output=True, text=True, cwd=R_).stdout if C_ else ''
     _bas_yeni = open('/home/claude/sunum/basilan.txt', encoding='utf-8').read()
+    _bas_fark = set(_bas_yeni.split()) ^ set(_bas_eski.split())
     def sinif(x):
-        if 'basılmamış' in x and _bas_eski != _bas_yeni: return 'basılan değişti'  # bölüm 11 denetimi kuralı 18
+        if _bas_fark and (set(re.findall(r'\d+:\d+', x)) & _bas_fark or 'basılmamış' in x): return 'basılan değişti'  # bölüm 11 kuralı 18; bölüm 12 kuralı 7: isabetteki ayetler ∩ basılan farkı
         nn_ = x.split()[1]; ab = next(((a_, b_) for a_, b_, n_ in BL if n_ == nn_), None)
         if not C_ or not ab: return 'sınıflanamadı'
         for k in ('metin', 'ariza', 'bag', 'cipa', 'esma_el'):

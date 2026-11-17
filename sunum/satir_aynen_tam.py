@@ -5,7 +5,7 @@ Kullanım: python3 satir_aynen_tam.py <olcum.txt> <dosya> [<dosya> ...]"""
 import re, sys
 olc = open(sys.argv[1], encoding='utf-8').read().replace('**', '')
 pats = [r"'(fâsıla [^']*? sınıfı)'", r"'(simetri \[[^\]]*\])'", r"'(İÇ düğüm \d+)'", r"'(EDİLGEN [^']*?)'",
-        r"'(sayı işareti [^']*?)'", r"'(biçim [A-Z]+)'", r"'(\d+:\d+ oran [^']*?)'", r"'(adlı [^']*?\))'",
+        r"'(sayı işareti [^']*?)'", r"'(biçim [A-Z][A-Z +]*[A-Z])'", r"'(\d+:\d+ oran [^']*?)'", r"'(adlı [^']*?\))'",
         r"'(\S+ \d+\. sırada, \w+ konum, \w+)'"]
 bad = 0
 for f in sys.argv[2:]:

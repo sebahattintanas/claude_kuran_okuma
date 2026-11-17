@@ -1,6 +1,6 @@
 # bölüm 12 denetimi kuralları (blok 33'ten itibaren) — betik denetimi
 # kullanım (/home/claude'dan): python3 sunum/kural13.py A B NN
-# (1) okuma (gözlem) maddesinde sayı sözcüğü + 'geçiş' / 'ayet' / 'kelime' ↔ ardından gelen konum listesinin uzunluğu
+# (1) [bölüm 12 denetimi: bütün maddeler, 'fiil' dahil] okuma (gözlem) maddesinde sayı sözcüğü + 'geçiş' / 'ayet' / 'kelime' ↔ ardından gelen konum listesinin uzunluğu
 # (2) sözdizimi maddesinde 'atıf' / 'istînâf' / 'hâl' ↔ aynı cümleciğin 'morph X' etiketi (istînâf=REM, atıf=CONJ, hâl=CIRC) ya da 'sapma'
 #     ve anılan etiket, alıntının açıldığı 've' / 'fe' kelimesinin morph etiketiyle (VF_YAZI üzerinden)
 # (4) ◇ ve ARIZA'da "lemma 'X'" anmaları ↔ blok morph LEM transliterasyonu ya da önceki blokların lemma adları (iskelet karşılaştırması)
@@ -22,10 +22,12 @@ hata = 0
 def H(*x):
     global hata; hata += 1; print('HATA', *x)
 SAYI = {'bir': 1, 'iki': 2, 'üç': 3, 'dört': 4, 'beş': 5, 'altı': 6, 'yedi': 7, 'sekiz': 8, 'dokuz': 9, 'on': 10}
-ok = [x for x in ar if x.startswith('okuma (gözlem)')]
+ok = [x for x in ar if not re.match(r'bölüm (denetimi \(|\d+ denetiminden)', x)]  # bölüm 12 denetimi kuralı 1: bütün ARIZA maddeleri, 'fiil' dahil; konum listesi zorunlu
 for x in ok:
-    for m in re.finditer(r'\b(bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on) (geçiş|ayet|kelime)\w* \(([^)]*)\)', x):
-        n = len(re.findall(r'\d+\.', m.group(3))) or len(re.findall(r'\d+:\d+', m.group(3)))
+    for m in re.finditer(r'\b(bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on) (geçiş|ayet|kelime|fiil)(\w*)( \(([^)]*)\))?', x):
+        if m.group(1) == 'bir' and not m.group(4): continue  # 'bir' belirsizlik sözcüğü olarak
+        if not m.group(4): H('(1) sayı sözcüğü konum listesiz:', m.group(0)); continue
+        n = len(re.findall(r'\d+\.', m.group(5))) or len(re.findall(r'\d+:\d+', m.group(5)))
         if n != SAYI[m.group(1)]: H('(1)', m.group(0))
         else: print('(1) tamam:', m.group(0))
 TAG = {'istînâf': 'REM', 'atıf': 'CONJ', 'hâl': 'CIRC'}

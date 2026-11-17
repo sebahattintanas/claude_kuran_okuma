@@ -168,7 +168,7 @@ for a in range(A, B + 1):
     for m in re.finditer(r"'(?:li|bi|mine)'llezîne[^']*'", a1): H.append("(16) %d:%d A1'de mecrur ilgi zamiri %s" % (S, a, m.group(0)))
     for m in re.finditer(r"'llezîne[^']*' \(([^()]*?)(\d+)(?:-\d+)?\. (?:ve \d+(?:-\d+)?\. )?kelime", a1):  # önek alıntıda yazılmasa da: kelimenin morph'unda 'li' / 'bi' öneki ya da önceki kelime 'min'
         w = int(m.group(2)); lm = [re.search(r'LEM:([^|]+)', ft) for f, t, ft in W[a][w]]
-        onek = any(x and N_(x.group(1)) in (N_('ل'), N_('ب')) for x in lm[:-1]) or any(re.search(r'LEM:مِن', ft) for f, t, ft in W[a].get(w - 1, []))
+        onek = any(x and N_(x.group(1)) in (N_('ل'), N_('ب')) for x in lm[:-1]) or any(re.search(r'LEM:(?:مِن|عَلَى|فِي|إِلَى|عَن)(?:\||$)', ft) for f, t, ft in W[a].get(w - 1, []))  # bölüm 12 denetimi kuralı 10: ''alâ' / 'fî' / 'ilâ' / ''an' de
         if onek and any('REL' in ft.split('|') for f, t, ft in W[a][w]): H.append("(16) %d:%d A1'de mecrur ilgi zamiri %d. kelime" % (S, a, w))
 # ── (17) edilgen fiilin faili ──
 for a in range(A, B + 1):

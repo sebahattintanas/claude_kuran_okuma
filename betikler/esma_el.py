@@ -1478,4 +1478,7 @@ KARAR = {
     '5:88:12': 'degil',  # 'mu'minûn' — çoğul insan göndergeli → degil (inananlar)
     # sure 5 blok 90-93
     '5:92:13': 'degil',  # 'l-mubîn' — esmâ adı esmâ dışı göndergeyle → degil (tebliğin sıfatı)
+    # sure 5 blok 94-96
+    '5:95:48': 'ilahi',  # ve'llâhu 'azîzun zû'ntiqâm — 've'llâhu X' kuralı → ilahi
+    '5:96:12': 'degil',  # 'l-berri' — esmâ adı esmâ dışı göndergeyle → degil (kara)
 }

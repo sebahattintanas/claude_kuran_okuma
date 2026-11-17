@@ -1,7 +1,7 @@
 # bölüm 13 denetimi kuralları (blok 35'ten itibaren) — betik denetimi
 # kullanım (/home/claude'dan): python3 sunum/kural14.py A B NN
 # (3) ◈K / ◈B satırında tetik kelimesi + kelime numarası dışında metin yok
-# (4) meal maddesinde zamir / ilgi zamiri / masdar yönelme-belirtme-ayrılma ekiyle verilmişse 'fiil yönetimi takdiri' etiketi
+# (4) [blok 29: morph SUB edatı ('mâ' zarfiyye) hariç] meal maddesinde zamir / ilgi zamiri / masdar yönelme-belirtme-ayrılma ekiyle verilmişse 'fiil yönetimi takdiri' etiketi
 # (5) bir Türkçe ek bir ayetin meal hesabında iki kelimeye atanmışsa 'ortak' notu
 # (6) 'okunmuş bir eşte' / 'okunmuş eşte' kalıbı yok
 # (7) A1'de edilgen fiil anması 'faili (adsız; edilgen' biçiminde; A4 şart → cevap alıntı / alıntı
@@ -35,7 +35,7 @@ for n in sorted(veri.MK):
     for tr, q, items in veri.MK[n]:
         for it in items:
             m = re.match(r"('(?:[^']|'(?=[a-zâîû]))+') (\d+)\. kelimede '([^']+)' ile", it)
-            if m and m.group(1) in ZAM and re.search(YON, m.group(3).split()[-1]) and 'fiil yönetimi takdiri' not in it and not re.search(r"-s[ae]$|^diye$", m.group(3)) and 'INTG' not in it:
+            if m and m.group(1) in ZAM and re.search(YON, m.group(3).split()[-1]) and 'fiil yönetimi takdiri' not in it and not re.search(r"-s[ae]$|^diye$", m.group(3)) and 'INTG' not in it and 'morph SUB' not in it:
                 if not any(x.startswith('P|') or x.startswith('P\t') or x.split('|')[0] == 'P' for x in MOR.get((n, int(m.group(2))), [])):
                     H('(4)', n, it)
         ekler = {}
