@@ -1,0 +1,46 @@
+5:118:1	إِن	P|COND|LEM:إِن
+5:118:2	تُعَذِّبْهُمْ	V|IMPF|VF:2|ROOT:عذب|LEM:عَذَّبَ|2MS|MOOD:JUS + N|PRON|SUFF|3MP
+5:118:3	فَإِنَّهُمْ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+5:118:4	عِبَادُكَ	N|ROOT:عبد|LEM:عَبْد|MP|NOM + N|PRON|SUFF|2MS
+5:118:5	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+5:118:6	تَغْفِرْ	V|IMPF|VF:1|ROOT:غفر|LEM:غَفَرَ|2MS|MOOD:JUS
+5:118:7	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:118:8	فَإِنَّكَ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MS
+5:118:9	أَنتَ	N|PRON|2MS
+5:118:10	ٱلْعَزِيزُ	P|DET|PREF|LEM:ال + N|ROOT:عزز|LEM:عَزِيز|MS|NOM
+5:118:11	ٱلْحَكِيمُ	P|DET|PREF|LEM:ال + N|ROOT:حكم|LEM:حَكِيم|MS|NOM|ADJ
+5:119:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:119:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:119:3	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+5:119:4	يَوْمُ	N|ROOT:يوم|LEM:يَوْم|M|NOM
+5:119:5	يَنفَعُ	V|IMPF|VF:1|ROOT:نفع|LEM:نَفَعَ|3MS|MOOD:IND
+5:119:6	ٱلصَّٰدِقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:صدق|LEM:صادِق|MP|ACC
+5:119:7	صِدْقُهُمْ	N|ROOT:صدق|LEM:صِدْق|M|NOM + N|PRON|SUFF|3MP
+5:119:8	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+5:119:9	جَنَّٰتٌ	N|ROOT:جنن|LEM:جَنَّة|FP|INDEF|NOM
+5:119:10	تَجْرِى	V|IMPF|VF:1|ROOT:جري|LEM:جَرَيْ|3FS|MOOD:IND
+5:119:11	مِن	P|P|LEM:مِن
+5:119:12	تَحْتِهَا	N|ROOT:تحت|LEM:تَحْت|GEN + N|PRON|SUFF|3FS
+5:119:13	ٱلْأَنْهَٰرُ	P|DET|PREF|LEM:ال + N|ROOT:نهر|LEM:نَهَر|MP|NOM
+5:119:14	خَٰلِدِينَ	N|ACT_PCPL|VF:1|ROOT:خلد|LEM:خالِد|MP|ACC
+5:119:15	فِيهَآ	P|P|LEM:فِي + N|PRON|SUFF|3FS
+5:119:16	أَبَدًا	N|T|ROOT:أبد|LEM:أَبَدًا|M|INDEF|ACC
+5:119:17	رَّضِىَ	V|PERF|VF:1|ROOT:رضو|LEM:رَضِيَ|3MS
+5:119:18	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:119:19	عَنْهُمْ	P|P|LEM:عَن + N|PRON|SUFF|3MP
+5:119:20	وَرَضُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:رضو|LEM:رَضِيَ|3MP + N|PRON|SUFF|3MP
+5:119:21	عَنْهُ	P|P|LEM:عَن + N|PRON|SUFF|3MS
+5:119:22	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+5:119:23	ٱلْفَوْزُ	P|DET|PREF|LEM:ال + N|ROOT:فوز|LEM:فَوْز|M|NOM
+5:119:24	ٱلْعَظِيمُ	P|DET|PREF|LEM:ال + N|ROOT:عظم|LEM:عَظِيم|MS|NOM|ADJ
+5:120:1	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+5:120:2	مُلْكُ	N|ROOT:ملك|LEM:مُلْك|M|NOM
+5:120:3	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+5:120:4	وَٱلْأَرْضِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+5:120:5	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+5:120:6	فِيهِنَّ	P|P|LEM:فِي + N|PRON|SUFF|3FP
+5:120:7	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+5:120:8	عَلَىٰ	P|P|LEM:عَلَى
+5:120:9	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+5:120:10	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+5:120:11	قَدِيرٌۢ	N|ROOT:قدر|LEM:قَدِير|M|INDEF|NOM

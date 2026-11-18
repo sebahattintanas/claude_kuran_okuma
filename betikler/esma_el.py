@@ -1499,4 +1499,8 @@ KARAR = {
     '5:117:15': 'degil',  # 've kuntu 'aleyhim şehîden' — esmâ adı esmâ dışı göndergeyle → degil (şahittim)
     '5:117:23': 'ilahi',  # 'kunte ente'r-raqîbe' — lafzın haberi → ilahi (Allah)
     '5:117:29': 'ilahi',  # 've ente 'alâ kulli şey'in şehîd' — lafzın haberi → ilahi (Allah)
+    # sure 5 blok 118-120
+    '5:118:10': 'ilahi',  # 'fe-inneke ente'l-'azîzu'l-hakîm' — 'inne/enne' haberi → ilahi (Allah)
+    '5:118:11': 'ilahi',  # 'fe-inneke ente'l-'azîzu'l-hakîm' — 'inne/enne' haberi → ilahi (Allah)
+    '5:120:11': 'ilahi',  # 've huve 'alâ kulli şey'in qadîr' — lafzın haberi → ilahi (Allah)
 }

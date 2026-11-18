@@ -196,4 +196,6 @@ mutp('/home/claude/yamalar/ariza_5_109_110.txt', "LEM 'buneyy' (morph LEM ham bi
 mutp('/home/claude/yamalar/metin_5_109_110.txt', "söz kapanır (63. kelime, ayet içi)", "söz kapanır (63. kelime)", 'bolum13_kurallar.py', ['109', '110', '33'], "(4) 5:110 A3 ayet sonunda bitiyor", "b15 kural 2: 'bolum13_kurallar.py' istisna notu yoksa kapanış istenir")
 mutp('/home/claude/yamalar/metin_5_109_110.txt', "(söz içi, 4-63. kelime)", "(söz içi, 4-63. kelime; söz ayet sonunda kapanmıyor)", 'bolum15_kurallar.py', ['109', '110', '33'], "(5) 5:110", "b15 kural 2: istisna notu bolum15'i bozmaz (mühür isabeti sürer)")
 
+mutp('/home/claude/yamalar/metin_5_116_117.txt', "söz sürüyor (5:116 17. kelimeden; 1-29. kelime; söz ayet sonunda kapanmıyor)", "söz sürüyor (5:116 17. kelimeden; 1-29. kelime)", 'bolum13_kurallar.py', ['116', '117', '35'], "(4) 5:117 süren söz ayet sonunda bitiyor", "b15 kural 2 (blok 36): 'bolum13_kurallar.py' süren sözde kapsamsız 'söz kapanır' ister")
+
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))
