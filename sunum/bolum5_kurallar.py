@@ -200,7 +200,7 @@ for a in range(A, B + 1):
     mb = mbol(a)
     for tok in re.findall(r"[A-Za-zçğıöşüâîûÇĞİÖŞÜ']+", MEALD.get(a, '')):
         mm = re.search(r'(dir|dır|dur|dür|tir|tır|tur|tür)(?:lar|ler)?$', tok)
-        if mm and len(tok) > 4 and tok.lower() not in ('kadir', 'tedbir', 'bedir', 'tır'):
+        if mm and len(tok) > 4 and tok.lower() not in ('kadir', 'tedbir', 'bedir', 'tır', 'takdir'):
             if "'%s-'" % tok.lower() in mb: continue  # blok 34: emir kipindeki fiil kökü ('indir', 'rızıklandır') — meal maddesinde 'X-' karşılığı olarak kayıtlı; '-dir' eki değil
             if "'-%s' takdiri ('%s'" % (mm.group(1), tok) not in mb: DIR.append('%d:%d %s' % (S, a, tok))
     for (aa, n), f in sorted(MOR.items()):

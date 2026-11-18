@@ -1503,4 +1503,6 @@ KARAR = {
     '5:118:10': 'ilahi',  # 'fe-inneke ente'l-'azîzu'l-hakîm' — 'inne/enne' haberi → ilahi (Allah)
     '5:118:11': 'ilahi',  # 'fe-inneke ente'l-'azîzu'l-hakîm' — 'inne/enne' haberi → ilahi (Allah)
     '5:120:11': 'ilahi',  # 've huve 'alâ kulli şey'in qadîr' — lafzın haberi → ilahi (Allah)
+    # sure 6 blok 1-5
+    '6:1:9': 'degil',  # 've ce'ale'z-zulumâti ve'n-nûr' — esmâ adı esmâ dışı göndergeyle → degil (yaratılan ışık)
 }

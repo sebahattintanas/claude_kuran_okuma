@@ -15,8 +15,9 @@ S = 6
 METIN = 'enam_metin_1'
 KAYIT = 'enam_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = []
+BLOKLAR = [(1, 5)]
 BASLIK = {
+ (1, 5): "6:1-5 — Gökleri ve yeri yaratan; yüz çeviren kavimler",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

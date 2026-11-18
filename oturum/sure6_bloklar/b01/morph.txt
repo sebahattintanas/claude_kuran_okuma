@@ -1,0 +1,63 @@
+6:1:1	ٱلْحَمْدُ	P|DET|PREF|LEM:ال + N|ROOT:حمد|LEM:حَمْد|M|NOM
+6:1:2	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:1:3	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:1:4	خَلَقَ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|3MS
+6:1:5	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|ACC
+6:1:6	وَٱلْأَرْضَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|ACC
+6:1:7	وَجَعَلَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS
+6:1:8	ٱلظُّلُمَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:ظلم|LEM:ظُلُمَة|FP|ACC
+6:1:9	وَٱلنُّورَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نُور|M|ACC
+6:1:10	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:1:11	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:1:12	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+6:1:13	بِرَبِّهِمْ	P|P|PREF|LEM:ب + N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:1:14	يَعْدِلُونَ	V|IMPF|VF:1|ROOT:عدل|LEM:عَدَلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:2:1	هُوَ	N|PRON|3MS
+6:2:2	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:2:3	خَلَقَكُم	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|3MS + N|PRON|SUFF|2MP
+6:2:4	مِّن	P|P|LEM:مِن
+6:2:5	طِينٍ	N|ROOT:طين|LEM:طِين|M|INDEF|GEN
+6:2:6	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:2:7	قَضَىٰٓ	V|PERF|VF:1|ROOT:قضي|LEM:قَضَى|3MS
+6:2:8	أَجَلًا	N|ROOT:أجل|LEM:أَجَل|M|INDEF|ACC
+6:2:9	وَأَجَلٌ	P|REM|PREF|LEM:و + N|ROOT:أجل|LEM:أَجَل|M|INDEF|NOM
+6:2:10	مُّسَمًّى	N|PASS_PCPL|VF:2|ROOT:سمو|LEM:مُسَمًّى|M|INDEF|NOM|ADJ
+6:2:11	عِندَهُۥ	N|LOC|ROOT:عند|LEM:عِند|ACC + N|PRON|SUFF|3MS
+6:2:12	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:2:13	أَنتُمْ	N|PRON|2MP
+6:2:14	تَمْتَرُونَ	V|IMPF|VF:8|ROOT:مري|LEM:يَمْتَرُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:3:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:3:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:3:3	فِى	P|P|LEM:فِي
+6:3:4	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+6:3:5	وَفِى	P|CONJ|PREF|LEM:و + P|P|LEM:فِي
+6:3:6	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:3:7	يَعْلَمُ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+6:3:8	سِرَّكُمْ	N|ROOT:سرر|LEM:سِرّ|M|ACC + N|PRON|SUFF|2MP
+6:3:9	وَجَهْرَكُمْ	P|CONJ|PREF|LEM:و + N|ROOT:جهر|LEM:جَهْر|M|ACC + N|PRON|SUFF|2MP
+6:3:10	وَيَعْلَمُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+6:3:11	مَا	N|REL|LEM:ما
+6:3:12	تَكْسِبُونَ	V|IMPF|VF:1|ROOT:كسب|LEM:كَسَبَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:4:1	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+6:4:2	تَأْتِيهِم	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3FS|MOOD:IND + N|PRON|SUFF|3MP
+6:4:3	مِّنْ	P|P|LEM:مِن
+6:4:4	ءَايَةٍ	N|ROOT:أيي|LEM:آيَة|FS|INDEF|GEN
+6:4:5	مِّنْ	P|P|LEM:مِن
+6:4:6	ءَايَٰتِ	N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:4:7	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:4:8	إِلَّا	P|RES|LEM:إِلّا
+6:4:9	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:4:10	عَنْهَا	P|P|LEM:عَن + N|PRON|SUFF|3FS
+6:4:11	مُعْرِضِينَ	N|ACT_PCPL|VF:4|ROOT:عرض|LEM:مُعْرِض|MP|ACC
+6:5:1	فَقَدْ	P|RSLT|PREF|LEM:ف + P|CERT|LEM:قَد
+6:5:2	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+6:5:3	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:5:4	لَمَّا	N|T|LEM:لَمّا
+6:5:5	جَآءَهُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|3MP
+6:5:6	فَسَوْفَ	P|RSLT|PREF|LEM:ف + P|FUT|LEM:سَوْف
+6:5:7	يَأْتِيهِمْ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:5:8	أَنۢبَٰٓؤُا۟	N|ROOT:نبأ|LEM:نَبَأ|MP|NOM
+6:5:9	مَا	N|REL|LEM:ما
+6:5:10	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:5:11	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:5:12	يَسْتَهْزِءُونَ	V|IMPF|VF:10|ROOT:هزأ|LEM:اسْتُهْزِئَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
