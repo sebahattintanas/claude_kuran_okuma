@@ -1,0 +1,88 @@
+5:111:1	وَإِذْ	P|CONJ|PREF|LEM:و + N|T|LEM:إِذ
+5:111:2	أَوْحَيْتُ	V|PERF|VF:4|ROOT:وحي|LEM:أَوْحَى|1S + N|PRON|SUFF|1S
+5:111:3	إِلَى	P|P|LEM:إِلَى
+5:111:4	ٱلْحَوَارِيِّۦنَ	P|DET|PREF|LEM:ال + N|ROOT:حور|LEM:حَوارِيّ|MP|GEN
+5:111:5	أَنْ	P|INT|LEM:أَن
+5:111:6	ءَامِنُوا۟	V|IMPV|VF:4|ROOT:أمن|LEM:آمَنَ|2MP + N|PRON|SUFF|2MP
+5:111:7	بِى	P|P|PREF|LEM:ب + N|PRON|1S
+5:111:8	وَبِرَسُولِى	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ب + N|ROOT:رسل|LEM:رَسُول|M|GEN + N|PRON|SUFF|1S
+5:111:9	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:111:10	ءَامَنَّا	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|1P + N|PRON|SUFF|1P
+5:111:11	وَٱشْهَدْ	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:شهد|LEM:شَهِدَ|2MS
+5:111:12	بِأَنَّنَا	P|P|PREF|LEM:ب + P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|1P
+5:111:13	مُسْلِمُونَ	N|ACT_PCPL|VF:4|ROOT:سلم|LEM:مُسْلِم|MP|NOM
+5:112:1	إِذْ	N|T|LEM:إِذ
+5:112:2	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:112:3	ٱلْحَوَارِيُّونَ	P|DET|PREF|LEM:ال + N|ROOT:حور|LEM:حَوارِيّ|MP|NOM
+5:112:4	يَٰعِيسَى	P|VOC|PREF|LEM:ي + N|PN|LEM:عِيسَى|ACC
+5:112:5	ٱبْنَ	N|ROOT:بني|LEM:ابْن|M|ACC
+5:112:6	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:112:7	هَلْ	P|INTG|LEM:هَل
+5:112:8	يَسْتَطِيعُ	V|IMPF|VF:10|ROOT:طوع|LEM:اسْتَطاعَ|3MS|MOOD:IND
+5:112:9	رَبُّكَ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+5:112:10	أَن	P|SUB|LEM:أَن
+5:112:11	يُنَزِّلَ	V|IMPF|VF:2|ROOT:نزل|LEM:نَزَّلَ|3MS|MOOD:SUBJ
+5:112:12	عَلَيْنَا	P|P|LEM:عَلَى + N|PRON|SUFF|1P
+5:112:13	مَآئِدَةً	N|ROOT:ميد|LEM:مائِدَة|F|INDEF|ACC
+5:112:14	مِّنَ	P|P|LEM:مِن
+5:112:15	ٱلسَّمَآءِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|F|GEN
+5:112:16	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:112:17	ٱتَّقُوا۟	V|IMPV|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP + N|PRON|SUFF|2MP
+5:112:18	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+5:112:19	إِن	P|COND|LEM:إِن
+5:112:20	كُنتُم	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+5:112:21	مُّؤْمِنِينَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|ACC
+5:113:1	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+5:113:2	نُرِيدُ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|1P|MOOD:IND
+5:113:3	أَن	P|SUB|LEM:أَن
+5:113:4	نَّأْكُلَ	V|IMPF|VF:1|ROOT:أكل|LEM:أَكَلَ|1P|MOOD:SUBJ
+5:113:5	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+5:113:6	وَتَطْمَئِنَّ	P|CONJ|PREF|LEM:و + V|IMPF|VF:4|ROOT:طمأن|LEM:اطْمَأَنَّ|3FS|MOOD:SUBJ
+5:113:7	قُلُوبُنَا	N|ROOT:قلب|LEM:قَلْب|FP|NOM + N|PRON|SUFF|1P
+5:113:8	وَنَعْلَمَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|1P|MOOD:SUBJ
+5:113:9	أَن	P|SUB|LEM:أَن
+5:113:10	قَدْ	P|CERT|LEM:قَد
+5:113:11	صَدَقْتَنَا	V|PERF|VF:1|ROOT:صدق|LEM:صَدَقَ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|1P
+5:113:12	وَنَكُونَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P|MOOD:SUBJ
+5:113:13	عَلَيْهَا	P|P|LEM:عَلَى + N|PRON|SUFF|3FS
+5:113:14	مِنَ	P|P|LEM:مِن
+5:113:15	ٱلشَّٰهِدِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:شهد|LEM:شاهِد|MP|GEN
+5:114:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:114:2	عِيسَى	N|PN|LEM:عِيسَى|NOM
+5:114:3	ٱبْنُ	N|ROOT:بني|LEM:ابْن|M|NOM
+5:114:4	مَرْيَمَ	N|PN|LEM:مَرْيَم|F|GEN
+5:114:5	ٱللَّهُمَّ	N|PN|ROOT:أله|LEM:اللَّهُمَّ|ACC + P|VOC|SUFF|LEM:م
+5:114:6	رَبَّنَآ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1P
+5:114:7	أَنزِلْ	V|IMPV|VF:4|ROOT:نزل|LEM:أَنزَلَ|2MS
+5:114:8	عَلَيْنَا	P|P|LEM:عَلَى + N|PRON|SUFF|1P
+5:114:9	مَآئِدَةً	N|ROOT:ميد|LEM:مائِدَة|F|INDEF|ACC
+5:114:10	مِّنَ	P|P|LEM:مِن
+5:114:11	ٱلسَّمَآءِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|F|GEN
+5:114:12	تَكُونُ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS|MOOD:IND
+5:114:13	لَنَا	P|P|PREF|LEM:ل + N|PRON|1P
+5:114:14	عِيدًا	N|ROOT:عود|LEM:عِيد|M|INDEF|ACC
+5:114:15	لِّأَوَّلِنَا	P|P|PREF|LEM:ل + N|ROOT:أول|LEM:أَوَّل|MS|GEN + N|PRON|SUFF|1P
+5:114:16	وَءَاخِرِنَا	P|CONJ|PREF|LEM:و + N|ROOT:أخر|LEM:آخِر|MS|GEN + N|PRON|SUFF|1P
+5:114:17	وَءَايَةً	P|CONJ|PREF|LEM:و + N|ROOT:أيي|LEM:آيَة|FS|INDEF|ACC
+5:114:18	مِّنكَ	P|P|LEM:مِن + N|PRON|SUFF|2MS
+5:114:19	وَٱرْزُقْنَا	P|CONJ|PREF|LEM:و + V|IMPV|VF:1|ROOT:رزق|LEM:رَزَقَ|2MS + N|PRON|SUFF|1P
+5:114:20	وَأَنتَ	P|REM|PREF|LEM:و + N|PRON|2MS
+5:114:21	خَيْرُ	N|ROOT:خير|LEM:خَيْر|MS|NOM
+5:114:22	ٱلرَّٰزِقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:رزق|LEM:رازِق|MP|GEN
+5:115:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+5:115:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+5:115:3	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+5:115:4	مُنَزِّلُهَا	N|ACT_PCPL|VF:2|ROOT:نزل|LEM:مُنَزِّل|M|NOM + N|PRON|SUFF|3FS
+5:115:5	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+5:115:6	فَمَن	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+5:115:7	يَكْفُرْ	V|IMPF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MS|MOOD:JUS
+5:115:8	بَعْدُ	N|T|ROOT:بعد|LEM:بَعْد
+5:115:9	مِنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+5:115:10	فَإِنِّىٓ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+5:115:11	أُعَذِّبُهُۥ	V|IMPF|VF:2|ROOT:عذب|LEM:عَذَّبَ|1S|MOOD:IND + N|PRON|SUFF|3MS
+5:115:12	عَذَابًا	N|ROOT:عذب|LEM:عَذاب|M|INDEF|ACC
+5:115:13	لَّآ	P|NEG|LEM:لا
+5:115:14	أُعَذِّبُهُۥٓ	V|IMPF|VF:2|ROOT:عذب|LEM:عَذَّبَ|1S|MOOD:IND + N|PRON|SUFF|3MS
+5:115:15	أَحَدًا	N|ROOT:أحد|LEM:أَحَد|M|INDEF|ACC
+5:115:16	مِّنَ	P|P|LEM:مِن
+5:115:17	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN

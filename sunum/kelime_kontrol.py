@@ -24,7 +24,8 @@ P = {
  "''alâ'": lambda s: lem(s) == N('عَلَى'), "'ev'": lambda s: lem(s) == N('أَو'), "'summe'": lambda s: lem(s) == N('ثُمّ'),
  "'nâ'": lambda s: pron(s, '1P'), "'ke'": lambda s: pron(s, '2MS') or lem(s) == N('ك'), "'ûne'": lambda s: pron(s, '3MP') or pron(s, '2MP'),
  "'hum'": lambda s: pron(s, '3MP'), "'him'": lambda s: pron(s, '3MP'), "'tum'": lambda s: pron(s, '2MP'),
- "'entum'": lambda s: pron(s, '2MP'), "'hû'": lambda s: pron(s, '3MS'), "'hî'": lambda s: pron(s, '3MS'),
+ "'entum'": lambda s: pron(s, '2MP'), "'ente'": lambda s: pron(s, '2MS'),  # blok 34: ayrık 2MS zamir ('ve ente')
+ "'hû'": lambda s: pron(s, '3MS'), "'hî'": lambda s: pron(s, '3MS'),
  "'huve'": lambda s: pron(s, '3MS'), "'hi'": lambda s: pron(s, '3MS'), "'hu'": lambda s: pron(s, '3MS'),
  "'û'": lambda s: pron(s, '3MP') or pron(s, '2MP'), "'hinne'": lambda s: pron(s, '3FP'), "'hunne'": lambda s: pron(s, '3FP'),
  "'himâ'": lambda s: pron(s, '3D'), "'humâ'": lambda s: pron(s, '3D'), "'â'": lambda s: pron(s, '3D') or pron(s, '2D') or pron(s, '3MD'),  # sûre 5 (blok 13): 3MD fail eki

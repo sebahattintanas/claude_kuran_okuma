@@ -1,0 +1,554 @@
+### say 5:111 1-4 --on
+kalıp: وإذ أوحيت إلى الحوارين | mod: on 
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 2-4
+kalıp: أوحيت إلى الحوارين | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 5-8
+kalıp: أن ءامنوا بى وبرسولى | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 6-8
+kalıp: ءامنوا بى وبرسولى | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 9-13
+kalıp: قالوا ءامنا واشهد بأننا مسلمون | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 10-13
+kalıp: ءامنا واشهد بأننا مسلمون | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 11-13 --on
+kalıp: واشهد بأننا مسلمون | mod: on 
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 12-13
+kalıp: بأننا مسلمون | mod: tam
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 111 11 13
+lemma dizisi [('شَهِدَ',), ('أَنّ',), ('مُسْلِم',)] | ayet 3
+3:52, 3:64, 5:111†
+
+3 {'bu': ['5:111'], 'basilan': ['3:52'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 1-6
+kalıp: إذ قال الحواريون يعيسى ابن مريم | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 2-3
+kalıp: قال الحواريون | mod: tam
+ayet: 3
+liste: 3:52, 5:112†, 61:14
+sûre içi (5): 5:112
+
+3 {'bu': ['5:112'], 'basilan': ['3:52', '61:14'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 4-6
+kalıp: يعيسى ابن مريم | mod: tam
+ayet: 3
+liste: 5:110, 5:112†, 5:116†
+sûre içi (5): 5:110, 5:112, 5:116
+
+3 {'bu': ['5:112'], 'basilan': ['5:110'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 5 112 4 6
+lemma dizisi [('عِيسَى',), ('ابْن',), ('مَرْيَم',)] | ayet 16
+2:87, 2:253, 3:45, 4:157, 4:171, 5:46, 5:78, 5:110, 5:112†, 5:114†, 5:116†, 19:34, 33:7, 57:27, 61:6, 61:14
+
+16 {'bu': ['5:112'], 'basilan': ['2:87', '4:171', '5:78', '5:110', '5:114', '61:14'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 1, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:112 7-15
+kalıp: هل يستطيع ربك أن ينزل علينا مءائدة من السمءاء | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 8-9
+kalıp: يستطيع ربك | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 11-15
+kalıp: ينزل علينا مءائدة من السمءاء | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 12-15
+kalıp: علينا مءائدة من السمءاء | mod: tam
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:112'], 'basilan': ['5:114'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 112 12 15
+lemma dizisi [('عَلَى',), ('مائِدَة',), ('مِن',), ('سَماء',)] | ayet 2
+5:112†, 5:114†
+
+2 {'bu': ['5:112'], 'basilan': ['5:114'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 13-15
+kalıp: مءائدة من السمءاء | mod: tam
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:112'], 'basilan': ['5:114'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 16-21
+kalıp: قال اتقوا الله إن كنتم مؤمنين | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 17-21
+kalıp: اتقوا الله إن كنتم مؤمنين | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 112 17 21
+lemma dizisi [('اتَّقَى',), ('اللَّه',), ('إِن',), ('كانَ',), ('مُؤْمِن',)] | ayet 2
+5:57, 5:112†
+
+2 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 17-19
+kalıp: اتقوا الله إن | mod: tam
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 112 17 19
+lemma dizisi [('اتَّقَى',), ('اللَّه',), ('إِن',)] | ayet 3
+4:131, 5:57, 5:112†
+
+3 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 19-21
+kalıp: إن كنتم مؤمنين | mod: tam
+ayet: 16
+liste: 2:91, 2:93, 2:248, 2:278, 3:49, 3:139, 3:175, 5:23, 5:57, 5:112†, 7:85†, 8:1†, 9:13, 11:86, 24:17, 57:8
+sûre içi (5): 5:23, 5:57, 5:112
+
+16 {'bu': ['5:112'], 'basilan': ['3:49'], 'eski': 0, 'okunmus': 12, 'okunmus_si': 2, 'henuz': 2, 'henuz_si': 0}
+
+### dizi 5 112 19 21
+lemma dizisi [('إِن',), ('كانَ',), ('مُؤْمِن',)] | ayet 17
+2:91, 2:93, 2:248, 2:278, 3:49, 3:139, 3:175, 5:23, 5:57, 5:112†, 7:85†, 8:1†, 9:13, 9:62, 11:86, 24:17, 57:8
+
+17 {'bu': ['5:112'], 'basilan': ['3:49'], 'eski': 0, 'okunmus': 13, 'okunmus_si': 2, 'henuz': 2, 'henuz_si': 0}
+
+### say 5:113 1-5
+kalıp: قالوا نريد أن نأكل منها | mod: tam
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 2-5
+kalıp: نريد أن نأكل منها | mod: tam
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 6-7 --on
+kalıp: وتطمئن قلوبنا | mod: on 
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 8-11 --on
+kalıp: ونعلم أن قد صدقتنا | mod: on 
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 10-11
+kalıp: قد صدقتنا | mod: tam
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 12-15 --on
+kalıp: ونكون عليها من الشهدين | mod: on 
+ayet: 1
+liste: 5:113†
+sûre içi (5): 5:113
+
+1 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:113 14-15
+kalıp: من الشهدين | mod: tam
+ayet: 4
+liste: 3:81, 5:113†, 21:56, 28:44
+sûre içi (5): 5:113
+
+4 {'bu': ['5:113'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 1-4
+kalıp: قال عيسى ابن مريم | mod: tam
+ayet: 3
+liste: 5:114†, 61:6, 61:14
+sûre içi (5): 5:114
+
+3 {'bu': ['5:114'], 'basilan': ['61:14'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 2-4
+kalıp: عيسى ابن مريم | mod: tam
+ayet: 9
+liste: 2:87, 2:253, 3:45, 4:157, 4:171, 5:114†, 19:34, 61:6, 61:14
+sûre içi (5): 5:114
+
+9 {'bu': ['5:114'], 'basilan': ['2:87', '4:171', '61:14'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 114 2 4
+lemma dizisi [('عِيسَى',), ('ابْن',), ('مَرْيَم',)] | ayet 16
+2:87, 2:253, 3:45, 4:157, 4:171, 5:46, 5:78, 5:110, 5:112†, 5:114†, 5:116†, 19:34, 33:7, 57:27, 61:6, 61:14
+
+16 {'bu': ['5:114'], 'basilan': ['2:87', '4:171', '5:78', '5:110', '5:112', '61:14'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 1, 'henuz': 1, 'henuz_si': 1}
+
+### say 5:114 5-6
+kalıp: اللهم ربنءا | mod: tam
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 7-11
+kalıp: أنزل علينا مءائدة من السمءاء | mod: tam
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 8-11
+kalıp: علينا مءائدة من السمءاء | mod: tam
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:114'], 'basilan': ['5:112'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 114 8 11
+lemma dizisi [('عَلَى',), ('مائِدَة',), ('مِن',), ('سَماء',)] | ayet 2
+5:112†, 5:114†
+
+2 {'bu': ['5:114'], 'basilan': ['5:112'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 12-14
+kalıp: تكون لنا عيدا | mod: tam
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 12-18
+kalıp: تكون لنا عيدا لأولنا وءاخرنا وءاية منك | mod: tam
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 15-16
+kalıp: لأولنا وءاخرنا | mod: tam
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 17-18 --on
+kalıp: وءاية منك | mod: on 
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 20-22 --on
+kalıp: وأنت خير الرزقين | mod: on 
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 21-22
+kalıp: خير الرزقين | mod: tam
+ayet: 5
+liste: 5:114†, 22:58, 23:72, 34:39, 62:11
+sûre içi (5): 5:114
+
+5 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 1-3
+kalıp: قال الله إنى | mod: tam
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 115 1 3
+lemma dizisi [('قالَ',), ('اللَّه',), ('إِنّ',)] | ayet 4
+5:12, 5:115†, 12:95, 34:24
+
+4 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 1-5
+kalıp: قال الله إنى منزلها عليكم | mod: tam
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 3-5
+kalıp: إنى منزلها عليكم | mod: tam
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 6-9 --on
+kalıp: فمن يكفر بعد منكم | mod: on 
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 6-8 --on
+kalıp: فمن يكفر بعد | mod: on 
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 115 6 8
+lemma dizisi [('مَن',), ('كَفَرَ',), ('بَعْد',)] | ayet 3
+5:12, 5:115†, 24:55
+
+3 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 10-12 --on
+kalıp: فإنى أعذبه عذابا | mod: on 
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 13-17
+kalıp: لءا أعذبه أحدا من العلمين | mod: tam
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 15-17
+kalıp: أحدا من العلمين | mod: tam
+ayet: 2
+liste: 5:20, 5:115†
+sûre içi (5): 5:20, 5:115
+
+2 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 115 15 17
+lemma dizisi [('أَحَد',), ('مِن',), ('عالَم',)] | ayet 4
+5:20, 5:115†, 7:80†, 29:28
+
+4 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 1, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:111 5-8 --medde
+kalıp: أن امنوا بى وبرسولى | mod: tam medde
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 6-8 --medde
+kalıp: امنوا بى وبرسولى | mod: tam medde
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 9-13 --medde
+kalıp: قالوا امنا واشهد بأننا مسلمون | mod: tam medde
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:111 10-13 --medde
+kalıp: امنا واشهد بأننا مسلمون | mod: tam medde
+ayet: 1
+liste: 5:111†
+sûre içi (5): 5:111
+
+1 {'bu': ['5:111'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 7-15 --medde
+kalıp: هل يستطيع ربك أن ينزل علينا مائدة من السماء | mod: tam medde
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 11-15 --medde
+kalıp: ينزل علينا مائدة من السماء | mod: tam medde
+ayet: 1
+liste: 5:112†
+sûre içi (5): 5:112
+
+1 {'bu': ['5:112'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 12-15 --medde
+kalıp: علينا مائدة من السماء | mod: tam medde
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:112'], 'basilan': ['5:114'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:112 13-15 --medde
+kalıp: مائدة من السماء | mod: tam medde
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:112'], 'basilan': ['5:114'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 5-6 --medde
+kalıp: اللهم ربنا | mod: tam medde
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 7-11 --medde
+kalıp: أنزل علينا مائدة من السماء | mod: tam medde
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 8-11 --medde
+kalıp: علينا مائدة من السماء | mod: tam medde
+ayet: 2
+liste: 5:112†, 5:114†
+sûre içi (5): 5:112, 5:114
+
+2 {'bu': ['5:114'], 'basilan': ['5:112'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 12-18 --medde
+kalıp: تكون لنا عيدا لأولنا واخرنا واية منك | mod: tam medde
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 15-16 --medde
+kalıp: لأولنا واخرنا | mod: tam medde
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:114 17-18 --on --medde
+kalıp: واية منك | mod: on  medde
+ayet: 1
+liste: 5:114†
+sûre içi (5): 5:114
+
+1 {'bu': ['5:114'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:115 13-17 --medde
+kalıp: لا أعذبه أحدا من العلمين | mod: tam medde
+ayet: 1
+liste: 5:115†
+sûre içi (5): 5:115
+
+1 {'bu': ['5:115'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+

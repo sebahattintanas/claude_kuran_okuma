@@ -15,7 +15,7 @@ S = 5
 METIN = 'maide_metin_1'
 KAYIT = 'maide_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54), (55, 58), (59, 63), (64, 66), (67, 70), (71, 74), (75, 77), (78, 81), (82, 86), (87, 89), (90, 93), (94, 96), (97, 100), (101, 105), (106, 108), (109, 110)]
+BLOKLAR = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54), (55, 58), (59, 63), (64, 66), (67, 70), (71, 74), (75, 77), (78, 81), (82, 86), (87, 89), (90, 93), (94, 96), (97, 100), (101, 105), (106, 108), (109, 110), (111, 115)]
 BASLIK = {
  (1, 2): "5:1-2 — Ahitlere vefa; haram kılınanlar; dinin tamamlanması; helal yiyecekler",
  (3, 4): "5:3-4 — Ahitlere vefa; haram kılınanlar; dinin tamamlanması; helal yiyecekler",
@@ -50,6 +50,7 @@ BASLIK = {
  (101, 105): "5:101-105 — Soru sormama; bahîra ve sâibe; vasiyet ve şahitlik",
  (106, 108): "5:106-108 — Soru sormama; bahîra ve sâibe; vasiyet ve şahitlik",
  (109, 110): "5:109-110 — Elçilerin toplanması; İsâ'ya verilen nimetler; havariler ve sofra",
+ (111, 115): "5:111-115 — Elçilerin toplanması; İsâ'ya verilen nimetler; havariler ve sofra",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-

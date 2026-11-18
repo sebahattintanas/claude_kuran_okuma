@@ -77,7 +77,7 @@ def zayif(k): return nb(k.replace('v', '').replace('y', ''))
 LEMS2 = {}
 for k in LEMS: LEMS2.setdefault(zayif(k), set()).add(k)
 for bag, ad, notlu in adlar:
-    k = isk_la(ad)
+    k = isk_la(re.sub(r"^(?:fe|ve)-", '', ad))  # blok 34: 'fe-' / 've-' önekli kalıp öğesi ('fe-men' — bölüm 7 kuralı 12) önek dışında LEM'e bağlanır
     aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n'), k.rstrip('t')) + ((k + 't',) if ad.endswith(('e', 'â')) else ()) if x in LEMS]  # ة: 't' ile ya da 't'siz yazım; bölüm 8 kuralı 9: 't' adayı yalnız 'e' / 'â' ile biten adda
     kb = next((x for x in aday if x in BL), None)
     if kb is not None:  # bölüm 8 kuralı 9: kaydın kendi bloğunun morph LEM'inden
@@ -175,7 +175,7 @@ K8 = 0
 for it in item('okuma') + item('◈D') + item('fâsıla'):
     for seg in it.split('; '):
         ay = set(re.findall(r'(?<![\d:])%d:(\d+)' % S, seg))
-        qs = [q for q in re.findall(r"(?<![a-zâîûçğışöü])'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", seg) if ' ' in q]
+        qs = [q for q in re.findall(r"(?<![a-zâîûçğışöü])'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", seg) if ' ' in q and not re.match(r'(?:dizi|say) \d', q)]  # blok 34: say2 anahtarı alıntısı (bölüm 14 denetimi kuralı 8) kalıp değil
         if len(ay) < 2 or len(qs) < 2: continue
         w = [q.split() for q in qs]; ort = []
         for parca in zip(*w):
@@ -200,6 +200,7 @@ for a in range(A, B + 1):
     for tok in re.findall(r"[A-Za-zçğıöşüâîûÇĞİÖŞÜ']+", MEALD.get(a, '')):
         mm = re.search(r'(dir|dır|dur|dür|tir|tır|tur|tür)(?:lar|ler)?$', tok)
         if mm and len(tok) > 4 and tok.lower() not in ('kadir', 'tedbir', 'bedir', 'tır'):
+            if "'%s-'" % tok.lower() in mb: continue  # blok 34: emir kipindeki fiil kökü ('indir', 'rızıklandır') — meal maddesinde 'X-' karşılığı olarak kayıtlı; '-dir' eki değil
             if "'-%s' takdiri ('%s'" % (mm.group(1), tok) not in mb: DIR.append('%d:%d %s' % (S, a, tok))
     for (aa, n), f in sorted(MOR.items()):
         if aa == a and re.search(r'(?:^|\|)INDEF(?:\||$)', f) and not re.search(r'\(%d\. kelime; nekre' % n, mb):

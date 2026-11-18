@@ -187,7 +187,7 @@ if 'emsal meal karşılık farkları' in mi:
 for n in sorted(veri.MK):
     if not A <= n <= B: continue
     for tr, q, its in veri.MK[n]:
-        if re.search(r'\bolan', tr) and not any(re.search(r"'olan' takdiri|'(?:[^']* )?ol-' (?:karşılığı|açılımı)|'[^']* olan' (?:karşılığı|açılımı)", it) for it in its): H.append("(11) %d:%d meal kesiminde 'olan' — 'olan' takdiri / 'ol-' karşılığı yok: '%s'" % (S, n, tr[:50]))
+        if re.search(r'\bolan', tr) and not any(re.search(r"'olan' takdiri|'(?:[^']* )?ol-' (?:karşılığı|açılımı)|'[^']* olan'(?: '(?:[^']|'(?=[a-zâîûçğışöü]))+')? (?:karşılığı|açılımı)", it) for it in its): H.append("(11) %d:%d meal kesiminde 'olan' — 'olan' takdiri / 'ol-' karşılığı yok: '%s'" % (S, n, tr[:50]))  # blok 34: 'X olan' 'AR' açılımı biçimi
 
 # ── (12) plan başlığı sözcükleri ──
 plan = open(Y + 'blok_plani_%d.txt' % S, encoding='utf-8').read().splitlines()

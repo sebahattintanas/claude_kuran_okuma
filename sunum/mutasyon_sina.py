@@ -163,4 +163,17 @@ _DOS = sorted(_g.glob(Y + 'ariza_5_*.txt'), key=lambda p: int(p.split('_')[-2]))
 yok('cakisma.py', ['/home/claude/sunum/cakisma_sina.txt'], "KÖK an- ←", "b14 kural 1: 'cakisma.py' 'Kur'an' kesmesini bölmüyor (KÖK an- grubu 'Kur'an' parçası taşımıyor)")
 mutp('/home/claude/sunum/cakisma.py', "(?<![^\\s(\\[])'((?:[^']|(?<=[A-Za-zâîûçğışöüÇĞİÖŞÜ])'(?=[a-zâîûçğışöü]))+)' '", "'([^']+)' '", 'cakisma.py', ['/home/claude/sunum/cakisma_sina.txt'], "KÖK an- ←", "b14 kural 1: 'cakisma.py' eski regex ile KÖK an- yapıntısı döner")
 for ad, ok in SON: print(('tamam ' if ok else 'BAŞARISIZ ') + ad)
+# blok 34 araç düzeltmeleri: bolum5 '-dir' emir kipi fiil kökü; bolum13 (11) 'X olan' 'AR' açılımı
+yok('bolum5_kurallar.py', ['111', '115', '34'], "'-dir' kayıtsız 5:114 indir", "blok 34 (bölüm 5 kuralı 9): 'bolum5_kurallar.py' emir kipindeki 'indir-' karşılığını '-dir' eki saymıyor")
+mutp('/home/claude/sunum/bolum5_kurallar.py', "            if \"'%s-'\" % tok.lower() in mb: continue", "            pass", 'bolum5_kurallar.py', ['111', '115', '34'], "'-dir' kayıtsız 5:114 indir", "blok 34 (bölüm 5 kuralı 9): istisna silinince 'indir' yine bayraklanır")
+yok('bolum13_kurallar.py', ['111', '115', '34'], "(11) 5:111 meal kesiminde 'olan'", "blok 34 (bölüm 13 denetimi kuralı 11): 'bolum13_kurallar.py' 'teslim olan' 'muslim' açılımını tanıyor")
+mutp('/home/claude/sunum/bolum13_kurallar.py', "olan'(?: '(?:[^']|'(?=[a-zâîûçğışöü]))+')? (?:karşılığı|açılımı)", "olan' (?:karşılığı|açılımı)", 'bolum13_kurallar.py', ['111', '115', '34'], "(11) 5:111 meal kesiminde 'olan'", "blok 34 (bölüm 13 denetimi kuralı 11): eski regex 'X olan' 'AR' açılımını tanımıyor")
+
+yok('bolum5_kurallar.py', ['111', '115', '34'], "LEM dışı ad lemma listesi fe-men", "blok 34 (bölüm 5 kuralı 5): 'bolum5_kurallar.py' 'fe-' önekli öğeyi önek dışında LEM'e bağlıyor")
+mutp('/home/claude/sunum/bolum5_kurallar.py', "isk_la(re.sub(r\"^(?:fe|ve)-\", '', ad))", "isk_la(ad)", 'bolum5_kurallar.py', ['111', '115', '34'], "LEM dışı ad lemma listesi fe-men", "blok 34 (bölüm 5 kuralı 5): önek soyma geri alınınca 'fe-men' LEM dışı")
+yok('bolum5_kurallar.py', ['111', '115', '34'], "ayetler arası ortak kalıp sayımsız 'dizi 5'", "blok 34 (bölüm 6 kuralı 5): 'bolum5_kurallar.py' say2 anahtarı alıntısını kalıp saymıyor")
+
+yok('kelime_kontrol.py', ['111', '115', '34'], "ZAMİR KAYITSIZ 114 20", "blok 34 (kural 12): 'kelime_kontrol.py' ayrık 2MS zamir 'ente' anahtarını tanıyor")
+mutp('/home/claude/sunum/kelime_kontrol.py', " \"'ente'\": lambda s: pron(s, '2MS'),", "", 'kelime_kontrol.py', ['111', '115', '34'], "ZAMİR KAYITSIZ 114 20", "blok 34 (kural 12): 'ente' anahtarı silinince 5:114 20. kelime kayıtsız")
+
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))

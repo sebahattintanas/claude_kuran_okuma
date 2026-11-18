@@ -1,0 +1,16 @@
+KARAR.update({
+ 'azap et-': "'azap et-' ← 'u'azzibu', 'yu'azzibu': bir lemma (''azzebe'; morph LEM eşit) — çakışma değil",
+ 'bil-': "'bil-' ← ''lem', ''lemû', 'na'leme', 'ta'lem', 'ya'lem': bir lemma (''alime'; morph LEM eşit) — çakışma değil",
+ 'güç yetir-': "'güç yetir-' ← 'taqdirû' (قدر) / 'emliku', 'yemliku', 'temlike' (ملك; LEM 'meleket' (morph LEM ham biçim)) / 'yestetî'u' (طوع): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'inan-': "'inan-' ← 'âmennâ', 'âmentum', 'âminû': bir lemma ('âmene'; morph LEM eşit) — çakışma değil",
+ 'indir-': "'indir-' ← 'enzele', 'enzelna', 'enzelnâ', 'enzil', 'unzile' ('enzele'; IV. bab) / 'yunezzel', 'yunezzile' ('nezzele'; II. bab): farklı lemma, bir kök (نزل) — çakışma — tam okuma sonu",
+ 'iste-': "'iste-' ← 'erâde', 'nurîdu', 'urîdu', 'yurîdu', 'yurîdûne', 'yuridi': bir lemma ('erâde'; morph LEM eşit) — çakışma değil",
+ 'ol-': "'ol-' ← 'asbaha', 'asbahû', 'yusbihû' (صبح) / 'dumtum' (دوم) / 'ekûne', 'kuntum', 'kâne', 'kânû', 'kûnû', 'nekûne', 'tekûne', 'tekûnu' (كون): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'ye-': "'ye-' ← 'ekele', 'ekelû', 'kulû', 'ne'kule', 'ye'kulâ': bir lemma ('ekele'; morph LEM eşit; 'kulû' emir) — çakışma değil",
+ 'KÖK indir-': "KÖK 'indir-' ← 'indir-' ('enzele', 'nezzele'), 'indirecek' ('munezzil'): bir kök (نزل); farklı lemma (fiil / ortaç) — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'Yahudi ol-', 'adaletli ol-', 'bir ol-', 'geniş olan', 'geçmişte ol-', 'kör ol-', 'ol-', 'sağır ol-', 'teslim ol-', 'teslim olan', 'vâkıf ol-', 'şahit ol-': birden çok kök, yardımcı fiilli açılımlar — çakışma — tam okuma sonu",
+ 'KÖK söyle-': "KÖK 'söyle-' ← 'doğru söyle-' ('sadaqte'; صدق) / 'söyle-' ('qâlû', 'yeqûlû'; قول): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ver-': "KÖK 'ver-' ← 'borç ver-', 'cevap ver-', 'fidye ver-', 'haber ver-', 'hüküm ver-', 'nimet ver-', 'rızık olarak ver-', 'rızık veren', 'ver-', 'zarar ver-', 'çokça kulak veren': yardımcı fiil 'ver-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ye-': "KÖK 'ye-' ← 'ye-' ('ekele'), 'yeme' ('ekl'; أكل) / 'yemek' ('ta'âm'; طعم): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK yetir-': "KÖK 'yetir-' ← 'güç yetir-' (قدر, ملك, طوع), 'güç yetiren' ('qadîr'; قدر): birden çok kök — çakışma — tam okuma sonu",
+})
