@@ -1,0 +1,74 @@
+# blok 35 (5:116-117) meal kesimleri
+SEG = {
+ 116: [
+  ("Hani Allah demişti: Ey Meryem oğlu Îsâ", "ve iz qâle'llâhu yâ 'îse'bne meryem", [
+   "'ve' 1. kelimede karşılıksız (morph CONJ)", "'iz' 1. kelimede 'Hani' ile (morph T)", "'de-' 'qâle' karşılığı (2. kelime; I. bab)", "lafız 3. kelimede 'Allah' ile",
+   "'yâ' 4. kelimede 'Ey' ile (morph VOC)", "'Îsâ' ''îsâ' karşılığı (4. kelime; özel ad)", "'oğul' 'ibn' karşılığı (5. kelime; iyelik ile 'oğlu')",
+   "'Meryem' 'meryem' karşılığı (6. kelime; özel ad; izafet)", "sıralama: tamlayan öne alındı"]),
+  ("Sen mi insanlara dedin", "e-ente qulte li'n-nâs", [
+   "'e' 7. kelimede 'mi' ile (morph INTG)", "'ente' 7. kelimede 'Sen' ile (2MS)", "'de-' 'qulte' karşılığı (8. kelime; I. bab)", "'te' 8. kelimede 2MS ile ('dedin' içinde)",
+   "'li' 9. kelimede yönelme eki ile ('insanlara' içinde — fiil yönetimi takdiri)", "'insan' 'nâs' karşılığı (9. kelime; belirli — takdirsiz; çoğul '-lar')", "sıralama: soru eki öne, fiil sona alındı"]),
+  ("Allah'ı bırakıp beni ve annemi iki ilah edinin", "ttexizûnî ve ummiye ilâheyni min dûni'llâh", [
+   "'edin-' 'ttexizû' karşılığı (10. kelime; VIII. bab; emir 2MP)", "'û' 10. kelimede 2MP ile ('edinin' içinde)", "'nî' 10. kelimede 'beni' ile (1S)",
+   "'ve' 11. kelimede 've' ile (morph CONJ)", "'anne' 'umm' karşılığı (11. kelime; iyelik ile 'annemi')", "'î' 11. kelimede iyelik ile ('annemi' içinde)",
+   "'ilah' 'ilâh' karşılığı (12. kelime; ikil — 'iki' takdiri; nekre — takdirsiz)", "'min' 13. kelimede karşılıksız ('dûn' ile — 'bırakıp' açılımı)",
+   "'bırakıp' 'dûn' açılımı (14. kelime; 'beri' anlamı — fiil yönetimi takdiri)", "lafız 15. kelimede 'Allah' ile (belirtme eki ile 'Allah'ı')", "sıralama: lafız öne, fiil sona alındı"]),
+  ("Demişti: Seni tenzih ederim", "qâle subhânek", [
+   "'de-' 'qâle' karşılığı (16. kelime; I. bab)", "'tenzih' 'subhân' karşılığı (17. kelime; 'ederim' takdiri)", "'ke' 17. kelimede 'Seni' ile (2MS)"]),
+  ("benim için, hakkım olmayan şeyi söylemek olmaz", "mâ yekûnu lî en eqûle mâ leyse lî bi-haqq", [
+   "'mâ' 18. kelimede '-maz' ile ('olmaz' içinde; morph NEG)", "'ol-' 'yekûnu' karşılığı (19. kelime; I. bab)", "'li' 20. kelimede 'için' ile", "'î' 20. kelimede 'benim' ile (1S)",
+   "'en' 21. kelimede '-mek' ile ('söylemek' içinde; morph SUB)", "'söyle-' 'eqûle' karşılığı (22. kelime; I. bab)", "'mâ' 23. kelimede 'şeyi' ile (morph REL)",
+   "'leyse' 24. kelimede 'olmayan' ile (morph V, FAM kân — olumsuz 'ol-'; 'olan' takdiri)", "'li' 25. kelimede iyelik ile ('hakkım' içinde)", "'î' 25. kelimede iyelik ile ('hakkım' içinde)",
+   "'bi' 26. kelimede karşılıksız (haber başı 'bi' — tekit)", "'hak' 'haqq' karşılığı (26. kelime; nekre — takdirsiz; iyelik ile 'hakkım')", "sıralama: için öne, fiil sona alındı"]),
+  ("Eğer onu demişsem, sen onu bilmişsindir", "in kuntu qultuhû fe-qad 'alimtehû", [
+   "'in' 27. kelimede 'Eğer' ile (morph COND)", "'ol-' 'kuntu' karşılığı (28. kelime; I. bab; ek-fiil 'demişsem' içinde)", "'tu' 28. kelimede 1S ile ('demişsem' içinde)",
+   "'de-' 'qultu' karşılığı (29. kelime; I. bab)", "'tu' 29. kelimede 1S ile ('demişsem' içinde)", "'hû' 29. kelimede 'onu' ile",
+   "'fe' 30. kelimede karşılıksız (morph RSLT — şart cevabı; virgül)", "'qad' 30. kelimede karşılıksız (morph CERT; '-dir' takdiri ('bilmişsindir' içinde) — tekit)", "'bil-' ''alimte' karşılığı (31. kelime; I. bab)",
+   "'te' 31. kelimede 'sen' ile (2MS; 'bilmişsindir' içinde)", "'hû' 31. kelimede 'onu' ile", "sıralama: nesne öne, fiil sona alındı"]),
+  ("benim nefsimde olanı bilirsin", "ta'lemu mâ fî nefsî", [
+   "'bil-' 'ta'lemu' karşılığı (32. kelime; I. bab; 2MS — 'bilirsin')", "'mâ' 33. kelimede 'olanı' ile (morph REL; 'olan' takdiri)",
+   "'fî' 34. kelimede bulunma eki ile ('nefsimde' içinde)", "'nefis' 'nefs' karşılığı (35. kelime; iyelik ile 'nefsimde')", "'î' 35. kelimede 'benim' ile (1S)", "sıralama: fiil sona alındı"]),
+  ("senin nefsinde olanı bilmem", "ve lâ a'lemu mâ fî nefsik", [
+   "'ve' 36. kelimede karşılıksız (morph CONJ; virgül)", "'lâ' 36. kelimede '-me' ile ('bilmem' içinde; morph NEG)", "'bil-' 'a'lemu' karşılığı (37. kelime; I. bab; 1S — 'bilmem')",
+   "'mâ' 38. kelimede 'olanı' ile (morph REL; 'olan' takdiri)", "'fî' 39. kelimede bulunma eki ile ('nefsinde' içinde)", "'nefis' 'nefs' karşılığı (40. kelime; iyelik ile 'nefsinde')",
+   "'ke' 40. kelimede 'senin' ile (2MS)", "sıralama: fiil sona alındı"]),
+  ("Şüphesiz sen gaybları en iyi bilensin", "inneke ente 'allâmu'l-ğuyûb", [
+   "'inne' 41. kelimede 'Şüphesiz' ile (morph ACC)", "'ke' 41. kelimede 'sen' ile", "'ente' 42. kelimede karşılıksız (2MS — 'sen' ile ortak; vurgu)",
+   "'en iyi bilen' ''allâm' karşılığı (43. kelime; mübalağa; '-sin' ile 'bilensin')", "'gayb' 'ğuyûb' karşılığı (44. kelime; çoğul '-lar'; belirli — takdirsiz; belirtme eki ile 'gaybları')",
+   "sıralama: tamlayan öne alındı"]),
+ ],
+ 117: [
+  ("Onlara, bana emrettiğin şeyden başkasını söylemedim", "mâ qultu lehum illâ mâ emertenî bih", [
+   "'mâ' 1. kelimede olumsuzluk eki ile ('söylemedim' içinde; morph NEG)", "'söyle-' 'qultu' karşılığı (2. kelime; I. bab)", "'tu' 2. kelimede 1S ile ('söylemedim' içinde)",
+   "'li' 3. kelimede yönelme eki ile ('Onlara' içinde)", "'hum' 3. kelimede 'Onlara' ile", "'illâ' 4. kelimede 'başkasını' ile (morph EXP; ayrılma eki ile '-den' — 'şeyden' — fiil yönetimi takdiri)",
+   "'mâ' 5. kelimede 'şey' ile ('şeyden' içinde; morph REL)", "'emret-' 'emerte' karşılığı (6. kelime; I. bab)", "'te' 6. kelimede 2MS ile ('emrettiğin' içinde)",
+   "'nî' 6. kelimede 'bana' ile (yönelme eki — fiil yönetimi takdiri)", "'bi' 7. kelimede karşılıksız ('emret-' yönetimi)", "'hî' 7. kelimede karşılıksız (3MS — 'mâ' göndergeli; 'şeyden' ile ortak)",
+   "sıralama: fiil sona alındı"]),
+  ("Rabbim ve Rabbiniz olan Allah'a kulluk edin", "en u'budû'llâhe rabbî ve rabbekum", [
+   "'en' 8. kelimede karşılıksız (morph INT — açıklama; iki nokta)", "'kulluk et-' 'u'budû' açılımı (9. kelime; I. bab; emir 2MP)", "'û' 9. kelimede 2MP ile ('edin' içinde)",
+   "lafız 10. kelimede 'Allah' ile (yönelme eki ile 'Allah'a' — fiil yönetimi takdiri)", "'Rab' 'rabb' karşılığı (11. kelime; iyelik ile 'Rabbim')", "'î' 11. kelimede iyelik ile ('Rabbim' içinde)",
+   "'ve' 12. kelimede 've' ile (morph CONJ)", "'Rab' 'rabb' karşılığı (12. kelime; iyelik ile 'Rabbiniz')", "'kum' 12. kelimede iyelik ile ('Rabbiniz' içinde)",
+   "'olan' takdiri (bedel — 'Allah'a' niteleme)", "sıralama: bedel öne, fiil sona alındı"]),
+  ("Aralarında olduğum sürece onlara şahittim", "ve kuntu 'aleyhim şehîden mâ dumtu fîhim", [
+   "'ve' 13. kelimede karşılıksız (morph CONJ; nokta)", "'ol-' 'kuntu' karşılığı (13. kelime; I. bab; ek-fiil 'şahittim' içinde)", "'tu' 13. kelimede 1S ile ('şahittim' içinde)",
+   "''alâ' 14. kelimede yönelme eki ile ('onlara' içinde)", "'hum' 14. kelimede 'onlara' ile", "'şahit' 'şehîd' karşılığı (15. kelime; nekre — takdirsiz; '-tim' ile 'şahittim')",
+   "'mâ' 16. kelimede 'sürece' ile (morph SUB)", "'ol-' 'dumtu' karşılığı (17. kelime; I. bab; LEM 'dâmu' (morph LEM ham biçim); 'olduğum' içinde)", "'tu' 17. kelimede 1S ile ('olduğum' içinde)",
+   "'fî' 18. kelimede bulunma eki ile ('Aralarında' içinde)", "'hum' 18. kelimede 'Aralarında' ile (3MP; 'ara' takdiri)", "sıralama: zaman öne alındı"]),
+  ("beni vefat ettirince onları gözeten sen oldun", "fe-lemmâ teveffeytenî kunte ente'r-raqîbe 'aleyhim", [
+   "'fe' 19. kelimede karşılıksız (morph REM; noktalı virgül)", "'lemmâ' 19. kelimede '-ince' ile ('ettirince' içinde; morph T)", "'vefat ettir-' 'teveffeyte' açılımı (20. kelime; V. bab)",
+   "'te' 20. kelimede 2MS ile ('ettirince' içinde)", "'nî' 20. kelimede 'beni' ile", "'ol-' 'kunte' karşılığı (21. kelime; I. bab)", "'te' 21. kelimede 2MS ile ('oldun' içinde)",
+   "'ente' 22. kelimede 'sen' ile (2MS)", "'gözeten' 'raqîb' karşılığı (23. kelime; belirli — takdirsiz)", "''alâ' 24. kelimede belirtme eki ile ('onları' içinde — fiil yönetimi takdiri)",
+   "'hum' 24. kelimede 'onları' ile", "sıralama: tamlayan öne alındı"]),
+  ("Sen her şeye şahitsin", "ve ente 'alâ kulli şey'in şehîd", [
+   "'ve' 25. kelimede karşılıksız (morph REM; nokta)", "'ente' 25. kelimede 'Sen' ile (2MS)", "''alâ' 26. kelimede yönelme eki ile ('şeye' içinde — fiil yönetimi takdiri)",
+   "'her' 'kull' karşılığı (27. kelime)", "'şey' 'şey'' karşılığı (28. kelime; nekre — takdirsiz)", "'şahit' 'şehîd' karşılığı (29. kelime; nekre — takdirsiz; '-sin' ile 'şahitsin')",
+   "sıralama: haber sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (116, 117):
+        out.append('5:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

@@ -77,7 +77,7 @@ def zayif(k): return nb(k.replace('v', '').replace('y', ''))
 LEMS2 = {}
 for k in LEMS: LEMS2.setdefault(zayif(k), set()).add(k)
 for bag, ad, notlu in adlar:
-    k = isk_la(re.sub(r"^(?:fe|ve)-", '', ad))  # blok 34: 'fe-' / 've-' önekli kalıp öğesi ('fe-men' — bölüm 7 kuralı 12) önek dışında LEM'e bağlanır
+    k = isk_la(re.sub(r"^(?:fe|ve|bi|li|ke)-", '', ad) if bag == 'lemma listesi' else ad)  # blok 34 / bölüm 15 denetimi kuralı 10: önekli kalıp öğesi (bölüm 7 kuralı 12 önek kümesi) yalnız lemma adı listesinde önek dışında LEM'e bağlanır; LEM kaydı ve çakışma adlarında önekli ad hata
     aday = [x for x in (k, k.rstrip('h'), k + 'h', k.rstrip('n'), k.rstrip('t')) + ((k + 't',) if ad.endswith(('e', 'â')) else ()) if x in LEMS]  # ة: 't' ile ya da 't'siz yazım; bölüm 8 kuralı 9: 't' adayı yalnız 'e' / 'â' ile biten adda
     kb = next((x for x in aday if x in BL), None)
     if kb is not None:  # bölüm 8 kuralı 9: kaydın kendi bloğunun morph LEM'inden

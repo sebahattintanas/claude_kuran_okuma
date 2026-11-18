@@ -1495,4 +1495,8 @@ KARAR = {
     '5:114:15': 'degil',  # 'evvelinâ' — esmâ adı esmâ dışı göndergeyle → degil (öncekilerimiz ve sonrakilerimiz — bizim sıfatımız)
     '5:114:16': 'degil',  # 've âxirinâ' — esmâ adı esmâ dışı göndergeyle → degil (öncekilerimiz ve sonrakilerimiz — bizim sıfatımız)
     '5:115:15': 'degil',  # 'lâ u'azzibuhû ehaden' — olumsuz nekre ehad → degil (hiç kimse)
+    # sure 5 blok 116-117
+    '5:117:15': 'degil',  # 've kuntu 'aleyhim şehîden' — esmâ adı esmâ dışı göndergeyle → degil (şahittim)
+    '5:117:23': 'ilahi',  # 'kunte ente'r-raqîbe' — lafzın haberi → ilahi (Allah)
+    '5:117:29': 'ilahi',  # 've ente 'alâ kulli şey'in şehîd' — lafzın haberi → ilahi (Allah)
 }

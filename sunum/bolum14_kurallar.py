@@ -84,10 +84,13 @@ for n in range(A, B + 1):
 
 # ── (5) 'emsal biçimi' tırnaksız gerekçesi ──
 st = ' '.join(item('söz / tırnak'))
-if re.search(r'tırnaksız[^;]*\(emsal biçimi\)', st):
+if re.search(r'tırnaksız[^;]*\(emsal biçimi', st):  # bölüm 15 denetimi kuralı 6: '(emsal biçimi — …)' de
     try: et = open('/home/claude/b%s/emsal.txt' % NN, encoding='utf-8').read()
     except FileNotFoundError: et = ''
-    if re.search(r'["“”]', et): H.append("(5) söz / tırnak maddesi 'tırnaksız (emsal biçimi)' diyor — bu bloğun emsal metninde tırnak var")
+    if re.search(r'["“”]', et) or re.search(r"(?:^|[\s:(])'[A-ZÇĞİÖŞÜÂÎÛ]", et): H.append("(5) söz / tırnak maddesi 'tırnaksız (emsal biçimi)' diyor — bu bloğun emsal metninde tırnak var")  # bölüm 15 denetimi kuralı 6: kesme tırnak da
+    for e in re.findall(r'(\d+:\d+) emsal mealinde', st):  # bölüm 15 denetimi kuralı 6: anılan emsalde قول fiili
+        if not any(l.startswith(e + ':') and '\tV\t' in l and 'ROOT:قول' in l for l in open('/home/claude/calisma/morph.txt', encoding='utf-8')):
+            H.append("(5) 'emsal biçimi' gerekçesindeki %s'de قول fiili yok" % e)
 
 # ── (6) ASCII dışı ünsüz ──
 AS = re.compile(r'[ṣḥṭẓḍṯḏġḳṢḤṬẒḌ]')

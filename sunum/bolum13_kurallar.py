@@ -90,6 +90,7 @@ for n in range(A, B + 1):
     a3 = a_parca(n, 'A3')
     m = re.search(r'(\d+)-(\d+)\. kelime', a3)
     if a3.strip() in ('', '—') or not m: continue
+    if 'ayet sonunda kapanmıyor' in a3: continue  # bölüm 15 denetimi kuralı 2: söz bir sonraki ayete sürüyor — açılış ayetinde yalnız 'söz açılır'
     if int(m.group(2)) == max(W[n]) and 'söz kapanır (%s. kelime, ayet içi)' % m.group(2) not in a_parca(n, 'A4'):
         H.append("(4) %d:%d A3 ayet sonunda bitiyor — A4'te 'söz kapanır (%s. kelime, ayet içi)' yok" % (S, n, m.group(2)))
 

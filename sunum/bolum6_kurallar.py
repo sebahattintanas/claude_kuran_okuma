@@ -102,7 +102,7 @@ for k, kr, yorum in re.findall(r"'(\d+:\d+:\d+)':\s*'(\w+)',\s*#\s*(.*)", blk):
     yapi = re.sub(r"^'+", '', yorum.split()[0])[:8] if yorum.split() else ''
     ayni = [(kk, c) for kk, c in onc if yapi and yapi in c.replace("'", "'")]  # emsal: aynı yapıyla başlayan önceki kayıtlar (örn. 'fi'l-âxira')
     if ayni: onc = ayni
-    sifat = kural == 'esmâ adı esmâ dışı göndergeyle' and 'sıfatı' in yorum and any('sıfatı' in c for kk, c in onc)  # bölüm 9: emsal 'X'in sıfatı' (esmâ dışı ismin sıfatı) kayıt kendi yorumunda da sıfatı anıyorsa eş
+    sifat = kural == 'esmâ adı esmâ dışı göndergeyle' and re.search(r'\bsıfatı\b', yorum) and any(re.search(r'\bsıfatı\b', c) for kk, c in onc)  # bölüm 15 denetimi kuralı 9: kelime sınırı ('sıfatımız' geçmez)  # bölüm 9: emsal 'X'in sıfatı' (esmâ dışı ismin sıfatı) kayıt kendi yorumunda da sıfatı anıyorsa eş
     if kural and onc and not sifat and not any(re.search(KW[kural], c) for kk, c in onc):
         ornek = re.sub(r'\(?\b\d+:\d+(?::\d+)?\b[^)]*\)?', '', onc[-1][1]).strip()
         H.append("esmâ kural sapması %s: genel kural '%s' / önceki kayıtlarda emsal ('%s'; %d kayıt)" % (k, kural, ornek[:60], len(onc)))

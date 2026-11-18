@@ -157,7 +157,7 @@ var('bolum14_kurallar.py', ['101', '105', '31'], "(10) R5 'biçim öğesi' ardı
 yok('bolum7_kurallar.py', ['106', '108', '32'], "KÖK 'an-'", "b14 kural 1: 'Kur'an' kesmesi KÖK 'an-' yapıntısı vermiyor (bolum7)")
 var('es_edat.py', ['31'], 'tanınmayan edat / zamir başlığı 0', "b14 kural 9: 'hîne', 'lâkinne' tanınıyor")
 mutp('/home/claude/yamalar/ariza_5_106_108.txt', "'gelip geç-' ('xalet'; خلو) / 'yerine geç-' ('yaqûmâni'; قوم): birden çok kök — çakışma — tam okuma sonu", "'gelip geç-' ('xalet') / 'yerine geç-' ('yaqûmâni') — çakışma değil", 'bolum9_kurallar.py', ['106', '108', '32'], "(2) KÖK geç- birden çok kök", "b14 kural 1: Arapça kök anmayan KÖK 'çakışma değil' kararı")
-mutp('/home/claude/sunum/edat_etiket.py', ", \"'hîne'\": 'حين'}", "}", 'es_edat.py', ['31'], "tanınmayan edat / zamir başlığı 1", "b14 kural 9: 'edat_etiket.py' 'hîne' kaydı silinince es_edat tanımıyor")
+mutp('/home/claude/sunum/edat_etiket.py', ", \"'hîne'\": 'حين', \"'hel'\"", ", \"'hel'\"", 'es_edat.py', ['31'], "tanınmayan edat / zamir başlığı 1", "b14 kural 9: 'edat_etiket.py' 'hîne' kaydı silinince es_edat tanımıyor")
 import glob as _g
 _DOS = sorted(_g.glob(Y + 'ariza_5_*.txt'), key=lambda p: int(p.split('_')[-2]))
 yok('cakisma.py', ['/home/claude/sunum/cakisma_sina.txt'], "KÖK an- ←", "b14 kural 1: 'cakisma.py' 'Kur'an' kesmesini bölmüyor (KÖK an- grubu 'Kur'an' parçası taşımıyor)")
@@ -170,10 +170,30 @@ yok('bolum13_kurallar.py', ['111', '115', '34'], "(11) 5:111 meal kesiminde 'ola
 mutp('/home/claude/sunum/bolum13_kurallar.py', "olan'(?: '(?:[^']|'(?=[a-zâîûçğışöü]))+')? (?:karşılığı|açılımı)", "olan' (?:karşılığı|açılımı)", 'bolum13_kurallar.py', ['111', '115', '34'], "(11) 5:111 meal kesiminde 'olan'", "blok 34 (bölüm 13 denetimi kuralı 11): eski regex 'X olan' 'AR' açılımını tanımıyor")
 
 yok('bolum5_kurallar.py', ['111', '115', '34'], "LEM dışı ad lemma listesi fe-men", "blok 34 (bölüm 5 kuralı 5): 'bolum5_kurallar.py' 'fe-' önekli öğeyi önek dışında LEM'e bağlıyor")
-mutp('/home/claude/sunum/bolum5_kurallar.py', "isk_la(re.sub(r\"^(?:fe|ve)-\", '', ad))", "isk_la(ad)", 'bolum5_kurallar.py', ['111', '115', '34'], "LEM dışı ad lemma listesi fe-men", "blok 34 (bölüm 5 kuralı 5): önek soyma geri alınınca 'fe-men' LEM dışı")
+mutp('/home/claude/sunum/bolum5_kurallar.py', "isk_la(re.sub(r\"^(?:fe|ve|bi|li|ke)-\", '', ad) if bag == 'lemma listesi' else ad)", "isk_la(ad)", 'bolum5_kurallar.py', ['111', '115', '34'], "LEM dışı ad lemma listesi fe-men", "blok 34 (bölüm 5 kuralı 5): önek soyma geri alınınca 'fe-men' LEM dışı")
 yok('bolum5_kurallar.py', ['111', '115', '34'], "ayetler arası ortak kalıp sayımsız 'dizi 5'", "blok 34 (bölüm 6 kuralı 5): 'bolum5_kurallar.py' say2 anahtarı alıntısını kalıp saymıyor")
 
 yok('kelime_kontrol.py', ['111', '115', '34'], "ZAMİR KAYITSIZ 114 20", "blok 34 (kural 12): 'kelime_kontrol.py' ayrık 2MS zamir 'ente' anahtarını tanıyor")
 mutp('/home/claude/sunum/kelime_kontrol.py', " \"'ente'\": lambda s: pron(s, '2MS'),", "", 'kelime_kontrol.py', ['111', '115', '34'], "ZAMİR KAYITSIZ 114 20", "blok 34 (kural 12): 'ente' anahtarı silinince 5:114 20. kelime kayıtsız")
+
+
+# bölüm 15 denetimi araç kuralları (bekleyen_ariza_5_b34.txt) — bolum15_kurallar.py ve düzeltilen araçlar
+_b15 = ['111', '115', '34']
+var('bolum15_kurallar.py', _b15, "(1) 5:111 A4'te 'şahıs geçişi 2 → 1' yok", "b15 kural 1: şahıs geçişi eksik")
+var('bolum15_kurallar.py', _b15, "(2) 5:111 A4'te 'söz sürüyor'", "b15 kural 2: A4 'söz sürüyor'")
+var('bolum15_kurallar.py', _b15, "(2) 5:111 süren söz A4'te 'ayet içi' kapanıyor", "b15 kural 2: süren söz 'ayet içi'")
+var('bolum15_kurallar.py', _b15, "(3) 5:111 iç söz 10-13. kelime", "b15 kural 3: iç söz açılışı")
+var('bolum15_kurallar.py', _b15, "(4) 5:111 ARIZA söz maddesi 'söz biçimli içerik'", "b15 kural 4: söz biçimli içerik A3'te yok")
+var('bolum15_kurallar.py', _b15, "(5) 5:112 muhur EVET / ölçüm MÜHÜRSÜZ", "b15 kural 5: mühür 'uyuşmuyor' yok")
+var('bolum15_kurallar.py', _b15, "(7) qâle'l-havâriyyûn kalıbı 5:112", "b15 kural 7: emsal alıntısı bayt eşit değil, 'çakışma değil'")
+var('bolum15_kurallar.py', _b15, "(8) 5:115:15 esma_el alıntısı", "b15 kural 8: esmâ alıntısı ARIZA'da yok")
+var('bolum15_kurallar.py', _b15, "(9) 5:114:15 esmâ parantezinde 'sıfat'", "b15 kural 9: 'sıfat' morph ADJ değil")
+var('bolum15_kurallar.py', ['109', '110', '33'], "(14) 5:104 '(emsal olarak basıldı)'", "b15 kural 14: blok ayetine 'emsal olarak basıldı'")
+var('bolum15_kurallar.py', _b15, "(19) ARIZA'da 'basilan satır sayısı", "b15 kural 19: basilan anı yok")
+mutp('/home/claude/sunum/edat_etiket.py', ", \"'hel'\": 'هل'", "", 'bolum15_kurallar.py', _b15, "(15) es_edat tanınmayan 1", "b15 kural 15: 'edat_etiket.py' 'hel' silinince bolum15 tanınmayanı bildirir")
+var('bolum14_kurallar.py', ['109', '110', '33'], "(5) 'emsal biçimi' gerekçesindeki 3:49'de قول fiili yok", "b15 kural 6: 'bolum14_kurallar.py' emsal biçimi gerekçesinde قول denetimi")
+mutp('/home/claude/yamalar/ariza_5_109_110.txt', "LEM 'buneyy' (morph LEM ham biçim)", "LEM 'fe-buneyy' (morph LEM ham biçim)", 'bolum5_kurallar.py', ['109', '110', '33'], "LEM dışı ad", "b15 kural 10: 'bolum5_kurallar.py' LEM kaydında önekli ad hata")
+mutp('/home/claude/yamalar/metin_5_109_110.txt', "söz kapanır (63. kelime, ayet içi)", "söz kapanır (63. kelime)", 'bolum13_kurallar.py', ['109', '110', '33'], "(4) 5:110 A3 ayet sonunda bitiyor", "b15 kural 2: 'bolum13_kurallar.py' istisna notu yoksa kapanış istenir")
+mutp('/home/claude/yamalar/metin_5_109_110.txt', "(söz içi, 4-63. kelime)", "(söz içi, 4-63. kelime; söz ayet sonunda kapanmıyor)", 'bolum15_kurallar.py', ['109', '110', '33'], "(5) 5:110", "b15 kural 2: istisna notu bolum15'i bozmaz (mühür isabeti sürer)")
 
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))

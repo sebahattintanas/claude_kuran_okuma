@@ -1,0 +1,304 @@
+### say 5:116 1-6 --on
+kalıp: وإذ قال الله يعيسى ابن مريم | mod: on 
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 116 1 6
+lemma dizisi [('إِذ',), ('قالَ',), ('اللَّه',), ('عِيسَى',), ('ابْن',), ('مَرْيَم',)] | ayet 2
+5:110, 5:116†
+
+2 {'bu': ['5:116'], 'basilan': ['5:110'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 4-6
+kalıp: يعيسى ابن مريم | mod: tam
+ayet: 3
+liste: 5:110, 5:112, 5:116†
+sûre içi (5): 5:110, 5:112, 5:116
+
+3 {'bu': ['5:116'], 'basilan': ['5:110', '5:112'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 116 4 6
+lemma dizisi [('عِيسَى',), ('ابْن',), ('مَرْيَم',)] | ayet 16
+2:87, 2:253, 3:45, 4:157, 4:171, 5:46, 5:78, 5:110, 5:112, 5:114, 5:116†, 19:34, 33:7, 57:27, 61:6, 61:14
+
+16 {'bu': ['5:116'], 'basilan': ['2:87', '4:171', '5:78', '5:110', '5:112', '5:114', '61:14'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 7-9
+kalıp: ءأنت قلت للناس | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 10-15
+kalıp: اتخذونى وأمى إلهين من دون الله | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 12-15
+kalıp: إلهين من دون الله | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 13-15
+kalıp: من دون الله | mod: tam
+ayet: 70
+liste: 2:23, 2:107, 2:165, 3:64, 3:79, 4:119, 4:123, 4:173, 5:76, 5:116†, 6:56†, 6:70†, 6:71†, 6:108†, 7:30†, 7:37†, 7:194†, 9:16, 9:31, 9:116, 10:18, 10:37, 10:38, 10:66, 10:104, 10:106, 11:13, 11:20, 11:101, 11:113, 16:20, 16:73, 18:43, 19:48, 19:49, 19:81, 21:66, 21:67, 21:98, 22:12, 22:71, 22:73, 25:17, 25:55, 26:93, 27:24, 27:43, 28:81, 29:17, 29:22, 29:25, 29:41, 33:17, 34:22, 35:40, 36:74, 37:23, 39:38, 39:43, 40:66, 40:74, 42:31, 42:46, 45:10, 46:4, 46:5, 46:28, 53:58, 60:4, 71:25
+sûre içi (5): 5:76, 5:116
+
+70 {'bu': ['5:116'], 'basilan': ['5:76'], 'eski': 0, 'okunmus': 61, 'okunmus_si': 0, 'henuz': 7, 'henuz_si': 0}
+
+### dizi 5 116 13 15
+lemma dizisi [('مِن',), ('دُون',), ('اللَّه',)] | ayet 70
+2:23, 2:107, 2:165, 3:64, 3:79, 4:119, 4:123, 4:173, 5:76, 5:116†, 6:56†, 6:70†, 6:71†, 6:108†, 7:30†, 7:37†, 7:194†, 9:16, 9:31, 9:116, 10:18, 10:37, 10:38, 10:66, 10:104, 10:106, 11:13, 11:20, 11:101, 11:113, 16:20, 16:73, 18:43, 19:48, 19:49, 19:81, 21:66, 21:67, 21:98, 22:12, 22:71, 22:73, 25:17, 25:55, 26:93, 27:24, 27:43, 28:81, 29:17, 29:22, 29:25, 29:41, 33:17, 34:22, 35:40, 36:74, 37:23, 39:38, 39:43, 40:66, 40:74, 42:31, 42:46, 45:10, 46:4, 46:5, 46:28, 53:58, 60:4, 71:25
+
+70 {'bu': ['5:116'], 'basilan': ['5:76'], 'eski': 0, 'okunmus': 61, 'okunmus_si': 0, 'henuz': 7, 'henuz_si': 0}
+
+### say 5:116 16-17
+kalıp: قال سبحنك | mod: tam
+ayet: 2
+liste: 5:116†, 7:143†
+sûre içi (5): 5:116
+
+2 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:116 18-22
+kalıp: ما يكون لى أن أقول | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 21-23
+kalıp: أن أقول ما | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 116 21 23
+lemma dizisi [('أَن',), ('قالَ',), ('ما',)] | ayet 3
+5:19, 5:116†, 61:3
+
+3 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 1, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 23-26
+kalıp: ما ليس لى بحق | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 27-31
+kalıp: إن كنت قلته فقد علمته | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 32-34
+kalıp: تعلم ما فى | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 116 32 34
+lemma dizisi [('عَلِمَ',), ('ما',), ('فِي',)] | ayet 13
+2:235, 3:29, 5:97, 5:116†, 6:59†, 22:70, 29:52, 31:34, 33:51, 48:18, 49:16, 58:7, 64:4
+
+13 {'bu': ['5:116'], 'basilan': ['5:97'], 'eski': 0, 'okunmus': 10, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 5:116 32-35
+kalıp: تعلم ما فى نفسى | mod: tam
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 36-40 --on
+kalıp: ولءا أعلم ما فى نفسك | mod: on 
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 41-44
+kalıp: إنك أنت علم الغيوب | mod: tam
+ayet: 2
+liste: 5:109, 5:116†
+sûre içi (5): 5:109, 5:116
+
+2 {'bu': ['5:116'], 'basilan': ['5:109'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 116 41 44
+lemma dizisi [('إِنّ',), (), ('عَلّام',), ('غُيُوب',)] | ayet 2
+5:109, 5:116†
+
+2 {'bu': ['5:116'], 'basilan': ['5:109'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 43-44
+kalıp: علم الغيوب | mod: tam
+ayet: 4
+liste: 5:109, 5:116†, 9:78, 34:48
+sûre içi (5): 5:109, 5:116
+
+4 {'bu': ['5:116'], 'basilan': ['5:109', '9:78'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 1-5
+kalıp: ما قلت لهم إلا مءا | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 1-7
+kalıp: ما قلت لهم إلا مءا أمرتنى به | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 6-7
+kalıp: أمرتنى به | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 8-12
+kalıp: أن اعبدوا الله ربى وربكم | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 9-12
+kalıp: اعبدوا الله ربى وربكم | mod: tam
+ayet: 2
+liste: 5:72, 5:117†
+sûre içi (5): 5:72, 5:117
+
+2 {'bu': ['5:117'], 'basilan': ['5:72'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 11-12
+kalıp: ربى وربكم | mod: tam
+ayet: 6
+liste: 3:51, 5:72, 5:117†, 11:56, 19:36, 43:64
+sûre içi (5): 5:72, 5:117
+
+6 {'bu': ['5:117'], 'basilan': ['3:51', '5:72'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 5 117 9 12
+lemma dizisi [('عَبَدَ',), ('اللَّه',), ('رَبّ',), ('رَبّ',)] | ayet 2
+5:72, 5:117†
+
+2 {'bu': ['5:117'], 'basilan': ['5:72'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 13-15 --on
+kalıp: وكنت عليهم شهيدا | mod: on 
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 16-18
+kalıp: ما دمت فيهم | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 19-20 --on
+kalıp: فلما توفيتنى | mod: on 
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 21-24
+kalıp: كنت أنت الرقيب عليهم | mod: tam
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 25-29 --on
+kalıp: وأنت على كل شىء شهيد | mod: on 
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 26-28
+kalıp: على كل شىء | mod: tam
+ayet: 52
+liste: 2:20, 2:106, 2:109, 2:148, 2:259, 2:284, 3:26, 3:29, 3:165, 3:189, 4:33, 4:85, 4:86, 5:17, 5:19, 5:40, 5:117†, 5:120†, 6:17†, 6:102†, 8:41†, 9:39, 11:4, 11:12, 11:57, 16:77, 18:45, 22:6, 22:17, 24:45, 29:20, 30:50, 33:27, 33:52, 33:55, 34:21, 34:47, 35:1, 39:62, 41:39, 41:53, 42:9, 46:33, 48:21, 57:2, 58:6, 59:6, 64:1, 65:12, 66:8, 67:1, 85:9
+sûre içi (5): 5:17, 5:19, 5:40, 5:117, 5:120
+
+52 {'bu': ['5:117'], 'basilan': ['5:17'], 'eski': 1, 'okunmus': 45, 'okunmus_si': 2, 'henuz': 4, 'henuz_si': 1}
+
+### dizi 5 117 26 28
+lemma dizisi [('عَلَى',), ('كُلّ',), ('شَىْء',)] | ayet 53
+2:20, 2:106, 2:109, 2:148, 2:259, 2:284, 3:26, 3:29, 3:165, 3:189, 4:33, 4:85, 4:86, 5:17, 5:19, 5:40, 5:117†, 5:120†, 6:17†, 6:102†, 6:111†, 8:41†, 9:39, 11:4, 11:12, 11:57, 16:77, 18:45, 22:6, 22:17, 24:45, 29:20, 30:50, 33:27, 33:52, 33:55, 34:21, 34:47, 35:1, 39:62, 41:39, 41:53, 42:9, 46:33, 48:21, 57:2, 58:6, 59:6, 64:1, 65:12, 66:8, 67:1, 85:9
+
+53 {'bu': ['5:117'], 'basilan': ['5:17'], 'eski': 1, 'okunmus': 45, 'okunmus_si': 2, 'henuz': 5, 'henuz_si': 1}
+
+### say 5:117 27-29
+kalıp: كل شىء شهيد | mod: tam
+ayet: 6
+liste: 5:117†, 22:17, 34:47, 41:53, 58:6, 85:9
+sûre içi (5): 5:117
+
+6 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:116 36-40 --on --medde
+kalıp: ولا أعلم ما فى نفسك | mod: on  medde
+ayet: 1
+liste: 5:116†
+sûre içi (5): 5:116
+
+1 {'bu': ['5:116'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 1-5 --medde
+kalıp: ما قلت لهم إلا ما | mod: tam medde
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 5:117 1-7 --medde
+kalıp: ما قلت لهم إلا ما أمرتنى به | mod: tam medde
+ayet: 1
+liste: 5:117†
+sûre içi (5): 5:117
+
+1 {'bu': ['5:117'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
