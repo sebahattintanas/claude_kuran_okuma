@@ -80157,7 +80157,7 @@
   "bant": "KAPI_KAPALI",
   "bekleyen": [],
   "cift": false,
-  "e_el": null,
+  "e_el": false,
   "e_oto": true,
   "esma": [
    [
@@ -80170,7 +80170,7 @@
    ]
   ],
   "esma_el": {
-   "5:114:15": null,
+   "5:114:15": "degil",
    "5:114:16": "degil"
   },
   "humme": true,

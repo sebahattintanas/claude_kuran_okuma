@@ -1492,6 +1492,7 @@ KARAR = {
     '5:110:63': 'degil',  # 'sihrun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (büyünün sıfatı)
     # sure 5 blok 111-115
     '5:112:21': 'degil',  # 'in kuntum mu'minîn' — çoğul insan göndergeli → degil (inananlar)
-    '5:114:16': 'degil',  # 've âxirinâ' — esmâ adı esmâ dışı göndergeyle → degil (sonrakilerimiz)
+    '5:114:15': 'degil',  # 'evvelinâ' — esmâ adı esmâ dışı göndergeyle → degil (öncekilerimiz ve sonrakilerimiz — bizim sıfatımız)
+    '5:114:16': 'degil',  # 've âxirinâ' — esmâ adı esmâ dışı göndergeyle → degil (öncekilerimiz ve sonrakilerimiz — bizim sıfatımız)
     '5:115:15': 'degil',  # 'lâ u'azzibuhû ehaden' — olumsuz nekre ehad → degil (hiç kimse)
 }

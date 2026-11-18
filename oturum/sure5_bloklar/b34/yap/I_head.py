@@ -16,6 +16,8 @@ def _d3(a_):
 D3DISI = '; '.join(_d3(a_) for a_ in range(111, 116))  # bölüm 10 denetimi kuralı 11: ayet başına
 ANILIS = "5:111 'iz' (1. kelime — morph T, zaman); 5:112 'iz' (1. kelime — morph T, zaman); 5:114 kök أخر ('âxirinâ' 16. kelime — sonraki): tetik listesinde yok; 5:115 kök بعد ('ba'du' 8. kelime — morph T, sonra): tetik listesinde yok"
 ARAC = run('/home/claude/sunum/arac_degisim.py')
+# blok 34 commit'inden sonraki esmâ düzeltmesi yeniden koşusu: araç farkı blok 33 commit'ine (2f1e117) göre — arac_degisim'in ilk koşu çıktısı
+ARAC = 'değişen araçlar (repo HEAD ile fark): sunum/bolum13_kurallar.py, sunum/bolum5_kurallar.py, sunum/kelime_kontrol.py, sunum/mutasyon_sina.py, sunum/yasakli.sh; sunum/sinifla.py (SON 115); sunum/basilan.txt +7'
 EMH = run('/home/claude/sunum/esma_muhur.py', '111', '115', '34')
 # bölüm 8 kuralı 6: meal karşılık farkı kararları — es_lemma satırları (bloğa dokunan) ve ◈D ayetler arası kalıpları
 exec(open('/home/claude/b34/yap/karar_meal.py', encoding='utf-8').read())

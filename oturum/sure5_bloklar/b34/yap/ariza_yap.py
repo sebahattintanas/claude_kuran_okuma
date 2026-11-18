@@ -123,6 +123,8 @@ def _d3(a_):
 D3DISI = '; '.join(_d3(a_) for a_ in range(111, 116))  # bölüm 10 denetimi kuralı 11: ayet başına
 ANILIS = "5:111 'iz' (1. kelime — morph T, zaman); 5:112 'iz' (1. kelime — morph T, zaman); 5:114 kök أخر ('âxirinâ' 16. kelime — sonraki): tetik listesinde yok; 5:115 kök بعد ('ba'du' 8. kelime — morph T, sonra): tetik listesinde yok"
 ARAC = run('/home/claude/sunum/arac_degisim.py')
+# blok 34 commit'inden sonraki esmâ düzeltmesi yeniden koşusu: araç farkı blok 33 commit'ine (2f1e117) göre — arac_degisim'in ilk koşu çıktısı
+ARAC = 'değişen araçlar (repo HEAD ile fark): sunum/bolum13_kurallar.py, sunum/bolum5_kurallar.py, sunum/kelime_kontrol.py, sunum/mutasyon_sina.py, sunum/yasakli.sh; sunum/sinifla.py (SON 115); sunum/basilan.txt +7'
 EMH = run('/home/claude/sunum/esma_muhur.py', '111', '115', '34')
 # bölüm 8 kuralı 6: meal karşılık farkı kararları — es_lemma satırları (bloğa dokunan) ve ◈D ayetler arası kalıpları
 exec(open('/home/claude/b34/yap/karar_meal.py', encoding='utf-8').read())
@@ -138,8 +140,8 @@ I = list(BEK) + [
  "geriye dönük koşu son araç değişikliğinden sonra yeniden üretildi (GERI_P); yeni 14 — basılan değişti 13 (bu bloğun ayetleri basıldı: blok 05, 19, 22, 25 ve 31 kayıtlarının xref / R5 sınıflaması), gloss_tara KAPSAMAYAN 1 (blok 33 kapsam sayımı, TARANMAYAN değil); düşen 10 — araç değişti 6 (sinifla SON), basılan değişti 4; kayıtlar geriye dönük yeniden yazılmadı",
  "kök tablosu: ölçümde '???' 5:111, 5:112, 5:113, 5:114 ve 5:115 için 0 — yeni kök yok; "
  "gloss kapsam taraması (komut 'python3 sunum/gloss_tara.py 111 115 34'; bölüm 7 kuralı 5: TARANMAYAN 0 olmadan teslim yok): " + ' · '.join(GLS) + "; tam okuma sonu",
- "esmâ: 5:112 'mu'minîn' (21. kelime) — esma_el 'degil', kural 'çoğul insan göndergeli' (inananlar); 5:114 'âxirinâ' (16. kelime) — esma_el 'degil', kural 'esmâ adı esmâ dışı göndergeyle' (sonrakilerimiz); "
- "5:115 'ehaden' (15. kelime) — esma_el 'degil', kural 'olumsuz nekre ehad' (hiç kimse); 5:111 ve 5:113 esmâ yok; 5:114 'li-evvelinâ' (15. kelime) esma_kayit e_oto listesinde, ölçüm esmâ alanında yok — el kararı yazılmadı (denetim 'e_el=?' 1; tam okuma sonu); lafız 5:112 ve 5:115; Rab 5:112 ve 5:114 (bölüm 6 kuralı 14 — betikle: B6_ESMA); A1'de esmâ anılmadı (bölüm 11 denetimi kuralı 7)",
+ "esmâ: 5:112 'mu'minîn' (21. kelime) — esma_el 'degil', kural 'çoğul insan göndergeli' (inananlar); 5:114 'li-evvelinâ' (15. kelime) ve 'âxirinâ' (16. kelime) — esma_el 'degil', kural 'esmâ adı esmâ dışı göndergeyle' (öncekilerimiz ve sonrakilerimiz — bizim sıfatımız) — 15. kelime ölçüm esmâ alanında yok, esma_kayit e_oto listesinde; "
+ "5:115 'ehaden' (15. kelime) — esma_el 'degil', kural 'olumsuz nekre ehad' (hiç kimse); 5:111 ve 5:113 esmâ yok;  lafız 5:112 ve 5:115; Rab 5:112 ve 5:114 (bölüm 6 kuralı 14 — betikle: B6_ESMA); A1'de esmâ anılmadı (bölüm 11 denetimi kuralı 7)",
  "esma_kayit (bölüm 8 kuralı 3 — komut 'python3 sunum/esma_muhur.py 111 115 34'; bölüm 13 denetimi kuralı 2: esma_el eklendikten sonra): " + EMH,
  "ölçüm: 5:111 '{{1|fâsıla مسلمون → ن, N sınıfı}}', '{{1|simetri \\[3, 1, 5, 1\\]}}', '{{1|harf 65 → harf3 62, isaret 3}}' ve '{{1|dış düğüm 1}}'; "
  "5:112 '{{2|fâsıla مؤمنين → ن, N sınıfı}}', '{{2|simetri \\[3, 4, 10, 1\\]}}', '{{2|harf 88 → harf3 85, isaret 3}}', '{{2|dış düğüm 4}}' ve '{{2|İÇ düğüm 1}}'; "
