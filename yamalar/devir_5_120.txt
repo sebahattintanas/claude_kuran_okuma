@@ -1,0 +1,23 @@
+# DEVİR NOTU — oturum 2026-11-16/18 (sûre 5 bloklar 23-36, sûre 5 kapanışı) → sonraki oturum (taban 2548eb1 + bu notu taşıyan commit; SÛRE 6 hazırlığı ve blok 1)
+# Bu dosya ARIZA biçiminde DEĞİLDİR. "SONRAKİ İLK BLOK ARIZA BAŞI" maddesi sûre 6 blok 1'in ARIZA listesinin EN BAŞINA aynen kopyalanır.
+# YENİ oturumda basilan.txt boş başlar — madde NUMARASIZ; kopyadan sonra sızıntı ve yasaklı taraması.
+# bekleyen_ariza_5_b36.txt NUMARALIDIR (sûre 5 ayet numaraları taşır; sûre 6 oturumunda basılmamış sayılır) — sûre 6'ya KOPYALANMAZ; numarasız özeti aşağıdaki maddede; 9 yeni kuralı protokolün parçasıdır (OTURUM_PROMPT_sure6_1.md §2).
+
+## SONRAKİ İLK BLOK ARIZA BAŞI (aynen kopyalanacak madde)
+
+  "devir (sûre 5 sonu; bölüm 16 bağımsız denetimi, bekleyen_ariza_5_b36.txt — numaralı, sûre 6'ya kopyalanmadı): hata 3 — fiile bitişik zamir yokken ardından gelen NOM ad fail olarak yazılmadı ('fiil uyumu; fail' biçimi yerine gönderge), ARIZA'daki 'A1'de gönderge olarak' iddiası A1'de karşılıksız; ayet içinde biten iç sözün A4 kapanışı eksik; lafız taşımayan zamir haberi cümlelerinde 'lafzın haberi' kural adı (protokolün kapalı liste satırları çelişkili — kullanıcı kararı bekliyor; 'onaya açık' notu eksik). Zayıf 5 — ayet sonu esmâ kelimesinin ölçümde ORTA konumda görünmesi (lemma önceki geçişi); A1 alıntı / kelime numarası sayısı uyuşmazlığı; 'biçim X' etiketinin yeri; bir karar gerekçesinin o bloğun emsal mealiyle çelişmesi; medde farkının sayım satırına işlenmemesi. Öneri 1 — hal ortacının çekimli fiille çevrildiği yerde kip notu. Kayıtlar geriye dönük yeniden yazılmadı; hepsi tam okuma sonu listesinde. Yeni kurallar 9 madde (protokol §2, 'sûre 5 bölüm 16 denetiminden'); [araç] olanlar sûre 6 hazırlığında araçlara işlenir, mutasyon sınaması ve geriye dönük koşuyla",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: sûre 5 bloklar 23-36 (bölüm 10-16 kapandı; bağımsız denetimler: bekleyen_ariza_5_b24 … b36). Sûre 5 TAM — kapanış 2026-11-18 (maide_kapanis.py, maide_paket_md.py → notlar/sure5_maide_okuma.md; kapanış notu betikler/maide_kapanis_notu.txt).
+- Sayaçlar: okunan 5790 / 6236 (%92,8); TAM sûreler 1-5, 9-114; kok_turkce 1623; esmâ KARAR 1227; AS_maide 211; aday havuzu 1–1042 (sonraki 1043; aday açılmadı); anahtar BOZUK 70 (taban).
+- Denetim araçları: sunum/bolum4_kurallar.py … bolum15_kurallar.py, mutasyon_sina 156 / 156, geriye dönük koşu yamalar/geriye_donuk_5_b36.txt; arac_degisim.py, r5_gerekce.py, esma_muhur.py, emsal.py, medde.py.
+- Blok çalışma dosyaları repo/oturum/sure5_bloklar/b01 … b36 (yap/ üreticileri; b36/yap şablon).
+- notlar/okuma_metni.json sıkıştırılmış ~30,7 MB (25 MiB üstü; push'lar geçti). Sûre 6 kaydı ayrı dosyaya mı yazılsın — kullanıcı kararı.
+- Yavaşlık: ARIZA üreticisi her koşuda bütün denetim betiklerini ve mutasyon sınamasını sırayla koşuyor (koşu başına ~6 dk); kullanıcı ilerlemenin ağır olduğunu belirtti — sûre 6 hazırlığında denetimlerin paralel koşusu ve mutasyon sınamasının yalnız araç değişen blokta koşması önerilir.
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Bölüm 10-16 bulguları: bekleyen_ariza_5_b24 … b36 (geriye dönük düzeltilmedi; geriye_donuk_5_b36.txt isabet listesi).
+2. Esmâ kural adı: 'zamirin haberi' — protokolün kapalı liste satırları çelişkili; sûre 5'te zamir haberi cümleleri 'lafzın haberi' adıyla kayıtlı (kullanıcı kararı).
+3. Meal karşılık çakışmaları (sûre 5 kararlarında 'tam okuma sonu' olanlar: de- / söyle-, ard, kull, ebeden, radiya, ''azîz', 'mubîn' vb. — bNN/yap/karar_meal.py dosyalarında).
+4. Ölçüm araç farkları: R5; esmâ konumunda lemma önceki geçişi; mühür / ölçüm uyuşmazlıkları (muhur_el).
+5. Önceki devir listeleri (devir_5_70, devir_4_176, devir_4_152, devir_4_70, devir_4_28, devir_3_200, devir_3_179) değişmeden sürer.
