@@ -4,6 +4,7 @@
 çıpa tablosu ve esmâ profili. Sayı elle yazılmaz; hepsi okuma_metni.json'dan."""
 import json, subprocess, sys
 S = 5
+BLOK_LISTESI_ELLE = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54), (55, 58), (59, 63), (64, 66), (67, 70), (71, 74), (75, 77), (78, 81), (82, 86), (87, 89), (90, 93), (94, 96), (97, 100), (101, 105), (106, 108), (109, 110), (111, 115), (116, 117), (118, 120)]
 BL = BLOK_LISTESI_ELLE
 OM = json.load(open('/home/claude/repo/notlar/okuma_metni.json', encoding='utf-8'))
 out = ["# Sûre 5 (Mâide) — hesaplamalı okuma, 120 ayet (TAM; blok başı kayıt)\n\n",

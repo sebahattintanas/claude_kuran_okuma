@@ -14,6 +14,7 @@ import subprocess, sys
 # SÛRE 5 (iskele_5): eski kayıt YOK. okuma_metni['5']'teki altı eski blok özeti dizgesi ('1-20' … '101-120') içerik
 # aynen '_eski_ozet' altına taşınır (sûre 2, 3 ve 4 kapanış emsali; silinen 0).
 # BLOK_LISTESI_ELLE sûre sonunda elle doldurulur (uret_blok_5.BLOKLAR ile birebir).
+BLOK_LISTESI_ELLE = [(1, 2), (3, 4), (5, 6), (7, 11), (12, 14), (15, 17), (18, 19), (20, 23), (24, 26), (27, 30), (31, 32), (33, 36), (37, 40), (41, 41), (42, 44), (45, 47), (48, 50), (51, 54), (55, 58), (59, 63), (64, 66), (67, 70), (71, 74), (75, 77), (78, 81), (82, 86), (87, 89), (90, 93), (94, 96), (97, 100), (101, 105), (106, 108), (109, 110), (111, 115), (116, 117), (118, 120)]
 # önkoşul: esmâ kaydı tüm bloklar için güncel (aday 1006 oturumundaki sıralama hatası dersi)
 S, N = 5, 120
 for a, b in BLOK_LISTESI_ELLE:
