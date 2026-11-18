@@ -13,6 +13,7 @@
 #  (12) A2, okuma (gözlem) ve çıpa maddelerinde meal ve ◇'de bulunmayan plan başlığı sözcüğü hata
 #  (bölüm 13 kuralları 13-15 elle)
 # kullanım (/home/claude'dan): python3 sunum/bolum13_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, json, subprocess, collections, importlib.util as iu
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -26,15 +27,15 @@ M, MEAL = {}, {}
 exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'M': M, 'MEAL': MEAL})
 DIA = {n: re.match(r"◇ '(.*?)' — ", M[n]).group(1) for n in range(A, B + 1)}
 SEQ = {n: M[n][M[n].index(' — ') + 3:M[n].index(' (ölçüm edim')] for n in range(A, B + 1)}
-OLC = [l.replace('**', '') for l in open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n') if l.strip()]
+OLC = [l.replace('**', '') for l in open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n') if l.strip()]
 BAS = set(open('/home/claude/sunum/basilan.txt', encoding='utf-8').read().split())
-SON = int(re.search(r'^SON = (\d+)', open('/home/claude/sunum/sinifla.py', encoding='utf-8').read(), re.M).group(1))
-def oku(s, a): return a <= SON if s == S else (s in (1, 2, 3, 4) or s >= 9)
+SON = int(__import__('os').environ.get('SON') or re.search(r'^SON = (\d+)', open('/home/claude/sunum/sinifla.py', encoding='utf-8').read(), re.M).group(1))
+def oku(s, a): return a <= SON if s == S else (s < S or s >= 9)  # sûre 6 hazırlığı: önceki sûreler okunmuş
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     W[a_][w_].append((f, t, feat))
-sp = iu.spec_from_file_location('veri', '/home/claude/b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
+sp = iu.spec_from_file_location('veri', _BK + 'b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
 Q = r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'"
 def bol(s, sep='; '):
     out, d, cur, i = [], 0, '', 0
@@ -107,7 +108,7 @@ for n in range(A, B + 1):
             if not any('söz içi' in g and re.search(r'\b%d\.' % k, g) for g in a1): H.append("(5) %d:%d %d. kelime A3 içinde 1. / 2. şahıs — A1'de 'söz içi' kaydında yok" % (S, n, k))
 
 # ── (6) R5 gerekçesi ──
-src = open('/home/claude/b%s/yap/kur.py' % NN, encoding='utf-8').read() if _o.path.exists('/home/claude/b%s/yap/kur.py' % NN) else ''
+src = open(_BK + 'b%s/yap/kur.py' % NN, encoding='utf-8').read() if _o.path.exists(_BK + 'b%s/yap/kur.py' % NN) else ''
 r5i = ' '.join(item('araç tanımı farkları (R5'))
 DOS = sorted(glob.glob(Y + 'ariza_%d_*.txt' % S), key=lambda p: int(p.split('_')[-2]))
 for m in re.finditer(r'\("(\d+:\d+)", "(.*?)", \d+, \'[^\']+\', ".*?", \(\'(dizi \d+ \d+ \d+ \d+)\'', src):
@@ -164,7 +165,7 @@ if ai:
 
 # ── (10) emsal meal alıntısı ──
 EMS = {}
-ep = '/home/claude/b%s/emsal.txt' % NN
+ep = _BK + 'b%s/emsal.txt' % NN
 if _o.path.exists(ep):
     for blk in open(ep, encoding='utf-8').read().split('**')[1:]:
         pass

@@ -2,12 +2,13 @@
 #  (6) ◇ / ◈ satırları ve ARIZA'daki "'X' N. kelimede" / "'X' (N. kelime" / "'tr' 'X' karşılığı (N. kelime" iddiaları morph kelimesiyle eşlenir
 #  (12) meal maddesinde morph PRON (SUFF dahil) taşıyan her kelime için "'zamir' N. kelimede" kaydı aranır
 # kullanım (/home/claude'dan): python3 sunum/kelime_kontrol.py A B NN   (bNN/morph<S>.txt: konum \t biçim \t tür \t özellik)
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, collections, difflib, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'; suf = '_%d_%d_%d.txt' % (S, A, B)
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t')
     s, a, w, p = map(int, loc.split(':'))
     W[a][w].append((f, t, feat))

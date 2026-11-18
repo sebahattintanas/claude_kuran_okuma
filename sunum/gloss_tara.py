@@ -2,14 +2,15 @@
 # bölüm 5 kuralı 4: kök taşıyan edat / zarf biçimli kayıtlar da taranır; taranmayan kök taşıyan kelime sayısı basılır (MK'da kelime numarası hiç geçmeyen)
 # bölüm 7 kuralı 5: "(N. ve M. kelime" kayıtlarının her numarası taranır; TARANMAYAN = taranan kayıt kümesi dışındaki kök taşıyan kelime (lafız kaydı taranmış sayılır)
 # kullanım (/home/claude'dan): python3 sunum/gloss_tara.py A B NN   (bNN/yap/veri.py MK + bNN/morph.txt + bNN/olcum.txt)
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
-sys.path.insert(0, '/home/claude/b%s/yap' % NN); import veri
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().replace('**', '')
+sys.path.insert(0, _BK + 'b%s/yap' % NN); import veri
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().replace('**', '')
 GL = dict(re.findall(r"(\S+) \*\((.*?)\)\*", olc))
 ROOT = {}
-for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
+for l in open(_BK + 'b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, f = l.rstrip('\n').split('\t'); _, a, n = k.split(':')
     m = re.search(r'ROOT:([^|]+)', f)
     if m: ROOT[(int(a), int(n))] = m.group(1)

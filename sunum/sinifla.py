@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 # sinifla.py - oturum disi: oturum_say/lem listesini siniflar (bu ayet / basilan / eski kayit / okunmus / henuz okunmamis)
 import sys, re
-SON = 120  # sûre 5 okunmuş son ayet; her blok başında blok son ayetine güncellenir (sed)
+SON = 0  # sûre 6 okunmuş son ayet; her blok başında blok son ayetine güncellenir (sed)
+import os as _os
+S_OKU = int(_os.environ.get('SURE', '6')); SON_ = int(_os.environ.get('SON') or SON)
 BAS = {l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip()}
 ref = sys.argv[1]; S = int(ref.split(':')[0])
 txt = '\n'.join(l for l in sys.stdin.read().splitlines() if not l.startswith(('sûre içi','kalıp','lemma dizisi','lemma ','kök ')))
 lst = re.findall(r'(\d+):(\d+)(†)?(?:×\d+)?', txt)
 def oku(s, a):
     # sûre 2 TAM (2026-11-08), sûre 3 TAM (2026-11-09), sûre 4 TAM (2026-11-15); sûre 5 okunuyor; 6-8 sıkıştırılmış dönem → henüz okunmamış
-    if s == 5: return a <= SON
-    return s in (1, 2, 3, 4) or s >= 9
+    if s == S_OKU: return a <= SON_
+    return s < S_OKU or s >= 9
 out = {'bu': [], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
 seen = set()
 for s, a, _ in lst:

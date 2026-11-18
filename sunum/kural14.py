@@ -5,13 +5,14 @@
 # (5) bir Türkçe ek bir ayetin meal hesabında iki kelimeye atanmışsa 'ortak' notu
 # (6) 'okunmuş bir eşte' / 'okunmuş eşte' kalıbı yok
 # (7) A1'de edilgen fiil anması 'faili (adsız; edilgen' biçiminde; A4 şart → cevap alıntı / alıntı
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
 ar = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read() + '}')[(A, B)]
 M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
-sys.path.insert(0, '/home/claude/b%s/yap' % NN)
+sys.path.insert(0, _BK + 'b%s/yap' % NN)
 import veri
 hata = 0
 def H(*x):
@@ -26,7 +27,7 @@ for n in range(A, B + 1):
             if rest and rest != '—': H('(3)', n, s[:90])
 ZAM = ("'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hâ'", "'hunne'", "'hinne'", "'humâ'", "'himâ'", "'ke'", "'nâ'", "'ellezîne'", "'ellezî'", "'ellâtî'", "'mâ'", "'en'")
 MOR = {}
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a, w, p_ = map(int, loc.split(':'))
     MOR.setdefault((a, w), []).append(feat)
 YON = r"(?:e|a|ye|ya|ne|na|den|dan|ten|tan|nden|ndan)$"
@@ -80,7 +81,7 @@ bagli = set()
 for f in glob.glob(Y + 'bag_%d_*.txt' % S):
     for m in re.finditer(r"'bag': '(\d+:\d+) → (\d+:\d+)'", open(f, encoding='utf-8').read()):
         bagli.add(m.group(1)); bagli.add(m.group(2))
-say2 = open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]
+say2 = open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]
 d3 = [x for x in ar if x.startswith('◈D D3')]
 d3t = d3[0] if d3 else ''
 for b in say2:
@@ -102,7 +103,7 @@ if os.path.exists(ef):
             k = re.match(r"(.*?) (\(.*\))$", m.group(3))
             kk = ("'%s' %s" % (k.group(1), k.group(2))) if k else "'%s'" % m.group(3)
             if kk not in M[int(m.group(1))]: H('(b6) esma kural', m.group(1), kk[:60])
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read()
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read()
 kt = [x for x in ar if x.startswith('kök tablosu')]
 if kt:
     for m in re.finditer(r"kök (\S+) '((?:[^']|'(?=[a-zâîûçğışöü]))+)'", kt[0]):

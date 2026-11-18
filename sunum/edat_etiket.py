@@ -1,8 +1,9 @@
 # eş edat listesi için morph etiketi (bölüm 14 denetimi kuralı 1): edatın lemmasıyla eşlenen segmentin etiketi
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import glob, re, unicodedata as ud, collections
 MORALL = collections.defaultdict(list)
-for f in sorted(glob.glob('/home/claude/b*/morph%d.txt' % S)):
+for f in sorted(glob.glob(_BK + 'b*/morph%d.txt' % S)):
     for l in open(f, encoding='utf-8'):
         loc, fo, t, feat = l.rstrip('\n').split('\t'); s, a, w, p = map(int, loc.split(':'))
         if s != S: continue

@@ -1,6 +1,7 @@
 # bölüm 6 kuralı 9: bütün bölüm araçlarını sûrenin okunmuş bütün bloklarında koşar; yamalar/geriye_donuk_<S>_<etiket>.txt yazar;
 # başına önceki geriye dönük dosyayla farkı (düşen / yeni isabet) koyar; bölüm 8 kuralı 10: düşenler 'kayıt değişti' / 'araç değişti' diye sınıflanır. Kayıtlar yeniden yazılmaz; isabetler tam okuma sonu listesi.
 # kullanım (/home/claude'dan): python3 sunum/geriye_donuk.py b13 [yamalar/geriye_donuk_5_b11.txt]
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, glob, subprocess, datetime
 ET = sys.argv[1]; ONC = sys.argv[2] if len(sys.argv) > 2 else None
@@ -9,7 +10,7 @@ def run(cmd): return subprocess.run(cmd, capture_output=True, text=True, cwd='/h
 BL = []
 for f in sorted(glob.glob(Y + 'metin_%d_*_*.txt' % S), key=lambda p: int(p.split('_')[-2])):
     a, b = map(int, re.findall(r'_(\d+)_(\d+)\.txt$', f)[0])
-    nn = next((d[-3:-1] for d in sorted(glob.glob('/home/claude/b[0-9][0-9]/')) if any(l.startswith('%d:%d:' % (S, a)) for l in open(d + 'morph.txt', encoding='utf-8'))), None) if glob.glob('/home/claude/b[0-9][0-9]/morph.txt') else None
+    nn = next((d[-3:-1] for d in sorted(glob.glob(_BK + 'b[0-9][0-9]/')) if any(l.startswith('%d:%d:' % (S, a)) for l in open(d + 'morph.txt', encoding='utf-8'))), None) if glob.glob(_BK + 'b[0-9][0-9]/morph.txt') else None
     BL.append((a, b, nn))
 out, ISA = [], []
 for a, b, nn in BL:
@@ -18,7 +19,7 @@ for a, b, nn in BL:
     isa = []
     for arac in ('bolum4_kurallar.py', 'bolum5_kurallar.py'):
         isa += ['%s: %s' % (arac.split('.')[0], l[5:]) for l in run(['python3', 'sunum/' + arac, str(a), str(b), nn]).splitlines() if l.startswith('HATA')]
-    if _o.path.exists('/home/claude/b%s/yap/veri.py' % nn):
+    if _o.path.exists(_BK + 'b%s/yap/veri.py' % nn):
         isa += ['bolum6_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum6_kurallar.py', str(a), str(b), nn, '--tazelik-yok']).splitlines() if l.startswith('HATA')]
         isa += ['bolum7_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum7_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 7 kuralları
         isa += ['bolum8_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum8_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 8 kuralları
@@ -29,6 +30,7 @@ for a, b, nn in BL:
         isa += ['bolum13_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum13_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 13 kuralları
         isa += ['bolum14_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum14_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 14 kuralları
         isa += ['bolum15_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum15_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 15 kuralları
+        isa += ['bolum16_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum16_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 16 kuralları
         isa += ['kural13: ' + l[5:] for l in run(['python3', 'sunum/kural13.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralı 13
         es = run(['python3', 'sunum/es_edat.py', nn])
         m = re.search(r'tanınmayan edat / zamir başlığı (\d+)(?: \(([^)]*)\))?', es)
@@ -41,7 +43,7 @@ for a, b, nn in BL:
     dos = [Y + '%s_%d_%d_%d.txt' % (k, S, a, b) for k in ('metin', 'ariza', 'bag', 'cipa', 'esma_el') if _o.path.exists(Y + '%s_%d_%d_%d.txt' % (k, S, a, b))]
     isa += ['yasakli: ' + l.split('/')[-1] for l in run(['bash', 'sunum/yasakli.sh'] + dos).splitlines() if 'bitti' not in l and l.strip()]
     out += isa; ISA += ['blok %s %s' % (nn, x) for x in isa]
-bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
+bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
 if ONC and _o.path.exists(ONC):
     eski = set()
     blk = None

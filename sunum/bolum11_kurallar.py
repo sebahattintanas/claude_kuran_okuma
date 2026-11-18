@@ -14,6 +14,7 @@
 #  (17) her PASS fiil için A1'de 'faili (adsız' ya da 'naib-i faili'
 #  (3, 4, 5, 8, 18: bolum9_kurallar, bolum10_kurallar, lem_bozuk, geriye_donuk içinde)
 # kullanım (/home/claude'dan): python3 sunum/bolum11_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, collections, unicodedata as ud, importlib.util as iu
 import medde_fark
@@ -27,7 +28,7 @@ ITEMS = [m for m in TUM if not re.match(r'bölüm (denetimi \(|\d+ denetiminden)
 def item(bas): return [m for m in ITEMS if m.startswith(bas)]
 ARZ = ' '.join(ITEMS)
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t')
     s_, a_, w_, p_ = map(int, loc.split(':'))
     W[a_][w_].append((f, t, feat))
@@ -79,7 +80,7 @@ for a in range(A, B + 1):
     if rem and (not seg or seg.group(1).strip().startswith('yok') or not all(re.search(r'(?<!\d)%d\.' % w, seg.group(1)) for w in rem)):
         H.append('(2) %d:%d söz içi REM %s kaydedilmemiş' % (S, a, ', '.join('%d.' % w for w in rem)))
 # ── (6) medde satırı ──
-md = medde_fark.satir('/home/claude/b%s/say2.txt' % NN)
+md = medde_fark.satir(_BK + 'b%s/say2.txt' % NN)
 if md not in ' '.join(item('bölüm: ')): H.append('(6) medde satırı medde_fark.py çıktısını aynen taşımıyor')
 # ── (7) A1 esmâ kural adı ──
 EK = collections.defaultdict(set)
@@ -92,10 +93,10 @@ for a, ks in EK.items():
     if 'esmâ' in a1 and not any(k in a1 for k in ks): H.append('(7) %d:%d A1 esmâ kural adı esma_el kuralıyla (%s) eş değil' % (S, a, ' / '.join(sorted(ks))))
 # ── (9) joker ──
 S2D = {}
-for blk in open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
+for blk in open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
     L = blk.strip().splitlines(); mm = re.match(r'lemma dizisi (\[.*\]) \|', L[1]) if len(L) > 1 else None
     if mm: S2D[L[0].strip()] = ast.literal_eval(mm.group(1))
-src = open('/home/claude/b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
+src = open(_BK + 'b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
 for key, ad in re.findall(r"say\('(dizi \d+ \d+ \d+ \d+)', \"([^\"]+)\"", src):
     if key not in S2D: continue
     tk, dz = ad.split(), S2D[key]
@@ -125,7 +126,7 @@ for a in range(A, B + 1):
         es = {k for k in NRM.get(ad.replace('e', 'a'), set()) if k != ad}
         if es and ad not in ESKI: H.append("(11) %d:%d lafız dizisi adı '%s' / önceki bloklarda '%s'" % (S, a, ad, "', '".join(sorted(es))))
 # ── (12) fâsıla 'kırıl-' ──
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
 for it in item('fâsıla'):
     for p in it.split('; '):
         if re.search(r'kırıl(?!ma yok)', p) and 'kırık yok' not in p:
@@ -150,7 +151,7 @@ for a in range(A, B + 1):
 ke = open('/home/claude/calisma/kok_ekle_%d.py' % S, encoding='utf-8').read()
 mm = re.search(r'# blok %s\b[^\n]*\n((?:\s+\(.*\),\n)+)' % int(NN), ke)
 YK = ast.literal_eval('[' + mm.group(1) + ']') if mm else []
-vp = '/home/claude/b%s/yap/veri.py' % NN
+vp = _BK + 'b%s/yap/veri.py' % NN
 if YK and _o.path.exists(vp):
     sp = iu.spec_from_file_location('veri', vp); v = iu.module_from_spec(sp); sp.loader.exec_module(v)
     for kok, gl in YK:

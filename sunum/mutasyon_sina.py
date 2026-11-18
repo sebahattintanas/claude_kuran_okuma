@@ -1,6 +1,9 @@
 # bölüm 6 kuralları 4 / 6 / 15 ve 1, 2, 3, 5, 12 sınamaları: denetim araçları bozulmuş kopyada isabet vermeli, sağlam kayıtta vermemeli
 # kullanım (/home/claude'dan): python3 sunum/mutasyon_sina.py — dosyalar sınamadan sonra geri yüklenir
-import subprocess, shutil, sys
+import os as _os0; [_os0.environ.setdefault(k_, v_) for k_, v_ in (('SURE', '5'), ('SON', '120'), ('BKOK', '/home/claude/s5/'))]
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
+import subprocess, shutil, sys, os
+# sûre 6 hazırlığı: sınamaların hepsi sûre 5 kayıtlarında — sûre 5 blok dizinleri /home/claude/s5/ (repo/oturum/sure5_bloklar'dan)
 Y = '/home/claude/yamalar/'
 def run(*a): return subprocess.run(['python3'] + list(a), capture_output=True, text=True, cwd='/home/claude').stdout
 SON = []
@@ -117,21 +120,21 @@ var('bolum11_kurallar.py', ['82', '86', '26'], "(14) 5:85 1. kelime ث / ص", "b
 var('bolum11_kurallar.py', ['82', '86', '26'], "(15) yeni kök قسس anlamı 'rahip'", "b11 kural 15: قسس / رهب")
 var('bolum11_kurallar.py', ['82', '86', '26'], "(16) 5:82 A1'de mecrur ilgi zamiri 5. kelime", "b11 kural 16: 5:82 'li'llezîne'")
 var('bolum11_kurallar.py', ['78', '81', '25'], "(17) 5:78 1. kelime edilgen fiilin faili", "b11 kural 17: 5:78 'lu'ine'")
-var('medde_fark.py', ['/home/claude/b26/say2.txt'], "'say 5:86 2-4' meddesiz koşusu okunmuş 2 ayet daha buluyor", "b11 kural 6: medde_fark okunmuş sınıfı")
+var('medde_fark.py', [_BK + 'b26/say2.txt'], "'say 5:86 2-4' meddesiz koşusu okunmuş 2 ayet daha buluyor", "b11 kural 6: medde_fark okunmuş sınıfı")
 # bölüm 12 kuralları
 var('kural13.py', ['90', '93', '28'], "(1) sayı sözcüğü konum listesiz: sekiz fiilin", "b12 kural 1: 5:93 'sekiz fiilin'")
 var('bolum12_kurallar.py', ['90', '93', '28'], "(2) emsal girdisi kapalı sözlük dışı: 'ennemâ", "b12 kural 2: 5:92 emsal kararı")
 var('bolum12_kurallar.py', ['90', '93', '28'], "(3) bölüm içi eş edat 'izâ'", "b12 kural 3: 'izâ' 5:89 / 5:93")
 var('bolum12_kurallar.py', ['87', '89', '27'], "(4) dizi 5 88 7 9 'ittaqâ allâh ellezî' 1. öğe 'ittaqâ'", "b12 kural 4: 'ittaqâ' / 'itteqâ'")
 var('bolum12_kurallar.py', ['90', '93', '28'], "(4) dizi 5 92 6 9 'fe-in tevellâ 'alime enne' 4. öğe 'enne'", "b12 kural 4: 'enne' / 'ennemâ'")
-mut('ariza_5_87_89.txt', "'biçim DIKKAT + NEHY'", "'biçim DIKKAT + QASEM'", 'satir_aynen_tam.py', ['/home/claude/b27/olcum.txt', '/home/claude/yamalar/ariza_5_87_89.txt'], "YOK ariza_5_87_89.txt 'biçim DIKKAT + QASEM'", "b12 kural 5: '+' içeren biçim alıntısı")
+mut('ariza_5_87_89.txt', "'biçim DIKKAT + NEHY'", "'biçim DIKKAT + QASEM'", 'satir_aynen_tam.py', [_BK + 'b27/olcum.txt', '/home/claude/yamalar/ariza_5_87_89.txt'], "YOK ariza_5_87_89.txt 'biçim DIKKAT + QASEM'", "b12 kural 5: '+' içeren biçim alıntısı")
 var('bolum12_kurallar.py', ['87', '89', '27'], "(6) 5:89 QASEM gerekçesinde tetikleyen kök yazılmamış: حلف", "b12 kural 6: 5:89 'eymân'")
 var('bolum12_kurallar.py', ['87', '89', '27'], "(8) 'tayyibe' kararında 'iyi'", "b12 kural 8: 'tayyibe' 'iyi'")
 var('bolum12_kurallar.py', ['87', '89', '27'], "(9) 5:89 22. kelime masdar etiketi", "b12 kural 9: 5:89 'kisve'")
 mut('metin_5_90_93.txt', "'leyse' 3MS (fiil uyumu; 1. kelime — ismi 7. kelime); ", "'leyse' 3MS (fiil uyumu; 1. kelime — ismi 7. kelime); 'llezîne âmenû' (3-4. kelime); ", 'bolum11_kurallar.py', ['90', '93', '28'], "(16) 5:93 A1'de mecrur ilgi zamiri 3. kelime", "b12 kural 10: 5:93 ''ale'llezîne'")
 # bölüm 13 kuralları
 yok('kural14.py', ['94', '96', '29'], "(4) 96 'mâ' 13. kelimede 'sürece'", "b13 kural 9: kural14 (4) morph SUB 'mâ' muaf (sağlam kayıt)")
-mutp('/home/claude/b29/yap/veri.py', "'sürece' ile (morph SUB)", "'sürece' ile (morph XSUB)", 'kural14.py', ['94', '96', '29'], "(4) 96 'mâ' 13. kelimede 'sürece'", "b13 kural 9: kural14 (4) muafiyet yalnız morph SUB etiketli öğede")
+mutp(_BK + 'b29/yap/veri.py', "'sürece' ile (morph SUB)", "'sürece' ile (morph XSUB)", 'kural14.py', ['94', '96', '29'], "(4) 96 'mâ' 13. kelimede 'sürece'", "b13 kural 9: kural14 (4) muafiyet yalnız morph SUB etiketli öğede")
 var('bolum13_kurallar.py', ['94', '96', '29'], "(1) 5:96 ◇ xref numaraları ['58:9'] (+ basılmamış 0) ≠ basılmış hedefler ['2:196', '58:9']", "b13 kural 1: 5:96 xref 2:196")
 var('bolum13_kurallar.py', ['97', '100', '30'], "(2) esma_kayit maddesi esma_muhur şimdiki çıktısıyla eş değil", "b13 kural 2: blok 30 esma_kayit bayat")
 var('bolum13_kurallar.py', ['97', '100', '30'], "(3) 5:100 10. kelime söz içi REM", "b13 kural 3: 5:100 'fe'ttequ' REM")
@@ -198,4 +201,17 @@ mutp('/home/claude/yamalar/metin_5_109_110.txt', "(söz içi, 4-63. kelime)", "(
 
 mutp('/home/claude/yamalar/metin_5_116_117.txt', "söz sürüyor (5:116 17. kelimeden; 1-29. kelime; söz ayet sonunda kapanmıyor)", "söz sürüyor (5:116 17. kelimeden; 1-29. kelime)", 'bolum13_kurallar.py', ['116', '117', '35'], "(4) 5:117 süren söz ayet sonunda bitiyor", "b15 kural 2 (blok 36): 'bolum13_kurallar.py' süren sözde kapsamsız 'söz kapanır' ister")
 
+# bölüm 16 (sûre 5) denetimi kuralları — sûre 5 kayıtlarındaki doğal isabetler ve bozuk kopya
+var('bolum16_kurallar.py', ['118', '120', '36'], "(1) 5:119 10. kelime fiil", "b16 kural 1: 'tecrî' faili A1'de yok")
+var('bolum16_kurallar.py', ['118', '120', '36'], "(1) ARIZA 'A1'de gönderge olarak' alıntısı A1'de yok: 'l-enhâru'", "b16 kural 1: gönderge alıntısı A1 dışı")
+yok('bolum16_kurallar.py', ['116', '117', '35'], "(1) 5:116 2. kelime", "b16 kural 1: 'qâle' faili A1'de var — isabet yok")
+var('bolum16_kurallar.py', ['116', '117', '35'], "(2) 5:117 iç söz 9-12", "b16 kural 2: iç söz kapanışı")
+mutp('/home/claude/yamalar/metin_5_116_117.txt', "söz kapanır (15. kelime, ayet içi)", "söz kapanır (15. kelime)", 'bolum16_kurallar.py', ['116', '117', '35'], "(2) 5:116 iç söz 10-15", "b16 kural 2: 5:116 iç söz kapanışı silinince")
+var('bolum16_kurallar.py', ['116', '117', '35'], "(3) 5:117:23 'lafzın haberi'", "b16 kural 3: zamir haberi 'lafzın haberi' adıyla")
+var('bolum16_kurallar.py', ['116', '117', '35'], "(4) 5:117 esmâ 29. sırada", "b16 kural 4: ayet sonu esmâ ORTA konum")
+var('bolum16_kurallar.py', ['116', '117', '35'], "(5) 5:116 A1 alıntı 8 / kelime numarası 9", "b16 kural 5: A1 alıntı / numara")
+var('bolum16_kurallar.py', ['118', '120', '36'], "(6) 5:119 ◇'de 'biçim DIKKAT'", "b16 kural 6: biçim yeri")
+var('bolum16_kurallar.py', ['118', '120', '36'], "(7) gerekçe 'bağlamda 'ebediyen''", "b16 kural 7: gerekçe emsalde")
+var('bolum16_kurallar.py', ['118', '120', '36'], "(8) 5:119 medde farkı", "b16 kural 8: medde farkı ◇'de yok")
+for ad, ok in SON[130:]: print(('tamam ' if ok else 'BAŞARISIZ ') + ad)
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))

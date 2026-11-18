@@ -1,7 +1,8 @@
 # say2.txt -> 'N ayet: ...' cümleleri (sinifla sözlüğünden; elle sayı yazılmaz). SAY2 ortam değişkeni = bNN/say2.txt
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import re, ast
 S2 = {}
-for blk in open(__import__('os').environ.get('SAY2','/home/claude/b10/say2.txt'), encoding='utf-8').read().split('### ')[1:]:
+for blk in open(__import__('os').environ.get('SAY2',_BK + 'b10/say2.txt'), encoding='utf-8').read().split('### ')[1:]:
     L = blk.strip().splitlines()
     key = L[0].strip()
     m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())

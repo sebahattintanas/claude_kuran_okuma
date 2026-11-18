@@ -1,17 +1,18 @@
 # bölüm 4 (sûre 5) denetimi kuralları 1, 2 (A4 şart), 9 (adsız), 10 (simetri / İÇ düğüm alanı), bölüm 3 kuralları 2-4 (A4, ◈ alt sınıf, aralık) — betik denetimi
 # bölüm 5 kuralları 1 / 14: her zamir etiketi (1P … 3FP) ad ölçütüyle; REM taraması başlangıç kelimesi dahil
 # kullanım (/home/claude'dan): python3 sunum/bolum4_kurallar.py A B NN   → yamalar/metin_<S>_A_B.txt + ariza + bNN/morph.txt + bNN/olcum.txt
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
 M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
 MOR, ROOT = {}, {}
-for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
+for l in open(_BK + 'b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, f = l.rstrip('\n').split('\t'); _, a, n = k.split(':'); a, n = int(a), int(n)
     MOR[(a, n)] = f; r = re.search(r'ROOT:([^|]+)', f)
     if r: ROOT[(a, n)] = r.group(1)
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
 SINIF = {}
 for c, ks in {'K1': 'سمو أرض شمس قمر نجم كوكب ليل نهر فلك سحب روح موه بحر جبل', 'K2': 'يوم أجل سنو عمر سوع دهر أبد حين',
               'B1': 'أنس دبب نعم طير نبت شجر', 'B2': 'خلق نطف علق زوج حمل وضع أنث', 'B3': 'عنق ذقن يدي عين سمع بصر جلد قلب', 'B4': 'حيي موت'}.items():
@@ -85,7 +86,7 @@ for ad, txt in [('metin', '\n'.join(M.values())), ('ariza', ar)]:
         if kelime(q) != j - i + 1: H.append('aralık %s %s (%d-%d) kelime %d' % (ad, q[:40], i, j, len(q.split())))
 # bölüm 6 kuralı 1: A1 kapsamı — morph'ta şahıs etiketi taşıyan her segmentin kelimesi A1'de numarasıyla ya da ◇ alıntısıyla anılır
 KISI = {}
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, fo, tg, ft = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     if A <= a_ <= B and re.search(r'(?:^|\|)[123](?:M|F)?(?:S|D|P)(?:\||$)', ft): KISI.setdefault(a_, set()).add(w_)
 def kapsanan(a):

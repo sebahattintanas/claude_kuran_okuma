@@ -2,13 +2,14 @@
 # kullanım (/home/claude'dan): python3 sunum/translit_kontrol.py A B NN   → yamalar/metin_<S>_A_B.txt + bNN/morph.txt
 # 'yalnız tanvin farkı' dışındaki farklar elle bakılır: l / n birleşmesi (şemsî harf, idğam), ة, tanvin yapıntıdır;
 # harf değişimi (ör. غ 'ğ' yerine 'x') hatadır.
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, difflib, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 M = {}
 exec(open('/home/claude/yamalar/metin_%d_%d_%d.txt' % (S, A, B)).read(), {'MEAL': {}, 'M': M})
 AR = {}
-for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
+for l in open(_BK + 'b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, _ = l.split('\t'); a = int(k.split(':')[1]); AR.setdefault(a, []).append(w)
 mp = {'ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'x','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','ع':"'",'غ':'ğ','ف':'f','ق':'q','ك':'k','ل':'l','م':'m','ن':'n','ه':'h','ة':'','ء':"'",'أ':"'",'إ':"'",'ؤ':"'",'ئ':"'"}
 def iske_ar(ws):

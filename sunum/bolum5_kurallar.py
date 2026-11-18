@@ -8,6 +8,7 @@
 #     ayetler arası kalıp: "ayetler arası kalıp 'Q' (S:a, S:b …" — Q her ayetin ◇ transliterasyonunda alt dize
 #     '-dir' takdiri: "'-dir' takdiri ('kelime'" (ek biçimi kelimedeki ekle); nekre: "(n. kelime; nekre"
 #     aday 1039: ARIZA "S:a ('X' / 'Y'; …)" ⇔ ◇ "Karşıt çift (aday 1039, okuma): ayet içi: 'X' / 'Y'; …"
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -43,7 +44,7 @@ except FileNotFoundError: pass
 LEMS = {}  # iskelet → (LEM, ham mı)
 BLP = set()  # bu bloğun edat (P) LEM iskeletleri — edat adı, zayıf harf eşlemesiyle fiil / isim LEM'ine bağlanmaz
 BL = {}  # bölüm 8 kuralı 9: bu bloğun kendi morph LEM'leri (iskelet → ham mı) — ham kararı önce buradan
-for f in sorted(glob.glob('/home/claude/b[0-9][0-9]/morph%d.txt' % S)):
+for f in sorted(glob.glob(_BK + 'b[0-9][0-9]/morph%d.txt' % S)):
     if int(f.split('/')[-2][1:]) > int(NN): continue  # bölüm 8 kuralı 9: yalnız okunmuş bloklar (blok ≤ NN)
     for l in open(f, encoding='utf-8'):
         loc, fo, t, feat = l.rstrip('\n').split('\t')
@@ -110,7 +111,7 @@ for ad_, kok, ayl, notlu in KOKLU:
 print('ham LEM: kökü anılan çakışma adı %d' % len(KOKLU))
 # meal maddesinde ham LEM'li her kelime için not (sayı eşlemesi, ayet ayet)
 HAMW = {}
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, fo, t, feat = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     m = re.search(r'LEM:([^|]+)', feat)
     if m and t in ('N', 'V'):
@@ -123,15 +124,15 @@ H += ['ham notsuz ' + x for x in NOTSUZ] + ['LEM dışı ad ' + x for x in LDISI
 TETIK = set('سمو أرض شمس قمر نجم كوكب ليل نهر فلك سحب روح موه بحر جبل يوم أجل سنو عمر سوع دهر أبد حين أنس دبب نعم طير نبت شجر خلق نطف علق زوج حمل وضع أنث عنق ذقن يدي عين سمع بصر جلد قلب حيي موت'.split())
 ADAY = set('صبح مسو بكر عشي ضحو سحر غدو أصل وقت زمن شهر سبت جمع قتل نفس دمو هلك صلب قطع رجل رأس وجه سوأ جسد بدن أنف أذن سنن جرح لحم عظم بطن صدر ظهر كعب رفق جنب شعر كفف غرب'.split())
 MOR = {}
-for l in open('/home/claude/b%s/morph.txt' % NN, encoding='utf-8'):
+for l in open(_BK + 'b%s/morph.txt' % NN, encoding='utf-8'):
     k, w, f = l.rstrip('\n').split('\t'); _, a, n = k.split(':'); MOR[(int(a), int(n))] = f
 def anilis_metni(its_tetik, its_disi):  # bölüm 6 kuralı 4: anılış yalnız ◈ tetik maddesinde ve tetik dışı maddesinin 'anılış:' bölümünde
     return ' '.join(its_tetik + [x.split('anılış:', 1)[1] if 'anılış:' in x else '' for x in its_disi])
 tet = anilis_metni(item('◈ tetik'), item('tetik dışı'))
 _m = anilis_metni([], ["tetik dışı tarama: tetik dışı aday 1: 5:1 3. kelime قبل; ◈ tetik maddesinde anılmayan 1 (5:1 3. kelime قبل) — biçim ne olursa olsun 5:1 قبل 3. kelime"])
 assert 'قبل' not in _m, 'mutasyon testi: araç çıktısı anılış sayıldı'  # mutasyon testi (bölüm 6 kuralı 4)
-_olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().replace('**', '')
-GL = dict(re.findall(r"(\S+) \*\((.*?)\)\*", open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read()))
+_olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().replace('**', '')
+GL = dict(re.findall(r"(\S+) \*\((.*?)\)\*", open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read()))
 GLS_TAM = {'can', 'kan', 'el', 'baş', 'yüz', 'et', 'ay', 'gün', 'ön'}
 GLS_ON = ('önce', 'sonra', 'dünya', 'zaman', 'vakit', 'sabah', 'akşam', 'gece', 'yıl', 'ölüm', 'öldür', 'beden', 'ayak', 'göğüs', 'karın', 'kemik', 'hayat', 'dirilik')
 def _zb(g):

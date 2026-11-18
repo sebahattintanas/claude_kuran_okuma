@@ -1,10 +1,11 @@
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, ast, sys
 A,B=int(sys.argv[1]),int(sys.argv[2])
 Y='/home/claude/yamalar/'; suf='_%d_%d_%d.txt'%(S,A,B)
 ns={'MEAL':{},'M':{}}; exec(open(Y+'metin'+suf).read(),ns); M=ns['M']
 bag=ast.literal_eval('['+open(Y+'bag'+suf).read()+']')
-O=[l.replace('**','') for l in open('/home/claude/b%02d/olcum.txt'%int(sys.argv[3]),encoding='utf-8').read().split('\n\n') if l.strip()]
+O=[l.replace('**','') for l in open(_BK + 'b%02d/olcum.txt'%int(sys.argv[3]),encoding='utf-8').read().split('\n\n') if l.strip()]
 bad=0
 # D3 ⇔ bag
 for n in range(A,B+1):

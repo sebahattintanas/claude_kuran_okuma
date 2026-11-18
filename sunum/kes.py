@@ -1,6 +1,7 @@
 # yer tutucu {{n|regex}} → ölçüm satırından (** sız) programla kesilen alıntı
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import re, sys
-O = [l.replace('**','') for l in open(__import__('os').environ.get('OLC','/home/claude/b01/olcum.txt'),encoding='utf-8').read().split('\n\n') if l.strip()]
+O = [l.replace('**','') for l in open(__import__('os').environ.get('OLC',_BK + 'b01/olcum.txt'),encoding='utf-8').read().split('\n\n') if l.strip()]
 def kes(t):
     def f(m):
         n, rx = int(m.group(1)), m.group(2)

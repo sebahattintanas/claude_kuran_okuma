@@ -12,6 +12,7 @@
 #  (11) D3 dışı basılmış eş listesi ayet başına ('S:A: …'), boşsa 'yok'
 #  (4. kural lem_bozuk.py içinde: harekesiz 'و' ile biten LEM)
 # kullanım (/home/claude'dan): python3 sunum/bolum10_kurallar.py A B NN [--tazelik-yok]
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, fnmatch, importlib.util as iu, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -24,8 +25,8 @@ TUM = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding
 ITEMS = [m for m in TUM if not re.match(r'bölüm (denetimi \(|\d+ denetiminden)', m)]
 def item(bas): return [m for m in ITEMS if m.startswith(bas)]
 BAS = {l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip()}
-SON = int(re.search(r'^SON = (\d+)', open('/home/claude/sunum/sinifla.py').read(), re.M).group(1))
-def oku(s, a): return a <= SON if s == S else (s in (1, 2, 3, 4) or s >= 9)
+SON = int(__import__('os').environ.get('SON') or re.search(r'^SON = (\d+)', open('/home/claude/sunum/sinifla.py').read(), re.M).group(1))
+def oku(s, a): return a <= SON if s == S else (s < S or s >= 9)  # sûre 6 hazırlığı: önceki sûreler okunmuş
 def satir(a, bas):
     for l in M[a].split('\n'):
         if l.startswith(bas): return l
@@ -105,7 +106,7 @@ for m in item('meal karşılık farkı kararları'):
         if onc and onc[1] != k and not (re.search(r'önceki karar \(blok \d+', seg) and 'gerekçe' in seg):
             H.append('(3) meal kararı yön değiştirdi (blok %s: %s → %s), önceki karar yazılmamış: %s' % (BLOKNO.get(onc[0], '?'), onc[1], k, seg[:60]))
 # ── (5) fiil yönetimi takdiri ──
-vp = '/home/claude/b%s/yap/veri.py' % NN
+vp = _BK + 'b%s/yap/veri.py' % NN
 if _o.path.exists(vp):
     sp = iu.spec_from_file_location('veri', vp); v = iu.module_from_spec(sp); sp.loader.exec_module(v)
     for a, L in v.MK.items():
@@ -114,7 +115,7 @@ if _o.path.exists(vp):
                 if re.search(r"(?:yönelme|ayrılma) eki ile '", it) and 'fiil yönetimi takdiri' not in it:
                     H.append("(5) %d:%d fiil yönetimi takdiri yok: %s" % (S, a, it[:70]))
 # ── (6) xref ──
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
 xi = ' '.join(item('ölçüm xref'))
 if 'başka ayet' in xi: H.append("(6) ARIZA xref maddesinde 'başka ayet'")
 for a in range(A, B + 1):
@@ -137,7 +138,7 @@ for a in range(A, B + 1):
     if re.search(r'biçim [A-Z]', d2): H.append('(7) %d:%d D2 biçim etiketi: %s' % (S, a, re.search(r'biçim [A-Z]+', d2).group(0)))
 # ── (8) 'qul' sözü ──
 QUL = set()
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t')
     s_, a_ = map(int, loc.split(':')[:2])
     if 'IMPV' in feat and ud.normalize('NFC', 'LEM:قالَ') in ud.normalize('NFC', feat): QUL.add(a_)

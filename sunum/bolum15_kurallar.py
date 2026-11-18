@@ -14,6 +14,7 @@
 #  (kural 2 süren söz istisnası bolum13 (4)'te; kural 6 bolum14 (5)'te; kural 9 sınır eşleşmesi bolum6'da; kural 10 bolum5'te; kural 12 geriye_donuk'ta;
 #   kural 13 elle — karar üyesi ile morph kelimesi eşlemesi betikle güvenilir değil; kurallar 11, 16 kullanıcı kararı; kural 18 elle)
 # kullanım (/home/claude'dan): python3 sunum/bolum15_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, collections, importlib.util as iu
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -26,10 +27,10 @@ M, MEAL = {}, {}
 exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'M': M, 'MEAL': MEAL})
 DIA = {n: re.match(r"◇ '(.*?)' — ", M[n]).group(1) for n in range(A, B + 1)}
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     W[a_][w_].append((f, t, feat))
-sp = iu.spec_from_file_location('veri', '/home/claude/b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
+sp = iu.spec_from_file_location('veri', _BK + 'b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
 def satir(n, bas):
     for l in M[n].split('\n'):
         if l.startswith(bas): return l
@@ -116,7 +117,7 @@ for l in (open(EL, encoding='utf-8').read().split('\n') if _o.path.exists(EL) el
 
 # ── (14) emsal olarak basıldı ──
 EMS = set()
-for f in glob.glob('/home/claude/b*/ems.txt'): EMS |= set(open(f, encoding='utf-8').read().split())
+for f in glob.glob(_BK + 'b*/ems.txt'): EMS |= set(open(f, encoding='utf-8').read().split())
 for kay in [M[n] for n in range(A, B + 1)] + ITEMS:
     for m in re.finditer(r'((?:\d+:\d+(?:, | ve )?)+) \(emsal olarak basıldı\)', kay):
         for h in re.findall(r'\d+:\d+', m.group(1)):

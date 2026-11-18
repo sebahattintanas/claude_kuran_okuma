@@ -8,6 +8,7 @@
 #  (10) araç değişikliği maddesi ⇔ değişen sunum/ dosyaları (commit'li blokta o commit; yeni blokta repo HEAD ile fark)
 #  (12) nakarat3 maddesi: ayet başına ad ⇔ ölçüm kalıbı birebir (eş ad iki kalıba verilmez; bitişik 'bi-' / 'fe-' öneki korunur)
 # kullanım (/home/claude'dan): python3 sunum/bolum7_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, importlib.util, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -19,11 +20,11 @@ ITEMS = [m for v in AR.values() for m in v if not re.match(r'bölüm (denetimi \
 def item(bas): return [m for m in ITEMS if m.startswith(bas)]
 def run(*a, cwd='/home/claude'): return subprocess.run(list(a), capture_output=True, text=True, cwd=cwd).stdout
 def veri(nn):
-    p = '/home/claude/b%s/yap/veri.py' % nn
+    p = _BK + 'b%s/yap/veri.py' % nn
     if not _o.path.exists(p): return {}
     sp = importlib.util.spec_from_file_location('veri' + nn, p); v = importlib.util.module_from_spec(sp); sp.loader.exec_module(v); return v.MK
 MOR = {}  # (a, w) → [(form, feat)]
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, fo, t, ft = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     MOR.setdefault((a_, w_), []).append((fo, ft))
 def kok(a, w):
@@ -64,7 +65,7 @@ for f in DOS:
     for it in [m for v in ast.literal_eval('{' + open(f, encoding='utf-8').read() + '}').values() for m in v if m.startswith('karşılık çakışması')]:
         ONCEKI.update(segmentler(it))
 FORMKOK = {}  # bölüm 7 kuralı 2: meal kayıtlarından biçim → morph kökü (okunmuş bütün bloklar)
-for d in sorted(glob.glob('/home/claude/b[0-9][0-9]')):
+for d in sorted(glob.glob(_BK + 'b[0-9][0-9]')):
     nn = d[-2:]
     if int(nn) > int(NN) or not _o.path.exists(d + '/morph%d.txt' % S): continue
     RT = {}
@@ -108,7 +109,7 @@ def kelime(q):
         parca = re.split(r"(?<=[aeiuâîû])'(?=l-|ll|[a-zçğışöü]-|[bcdfğhklmnqrsştxyz]{2})", t)
         n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
     return n
-olc = [l.replace('**', '') for l in open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n') if l.strip()]
+olc = [l.replace('**', '') for l in open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n') if l.strip()]
 EN = 0
 for a in range(A, B + 1):
     t = M[a]; d = re.match(r"◇ '(.*?)' — ", t).group(1)
@@ -173,7 +174,7 @@ print('◈ tetik kapsamı: ◇ %d, ARIZA %d' % (len(DIA), len(ARZ)))
 d3 = ' '.join(item('◈D D3 / bag'))
 if 've başkaları' in d3: H.append("(7) D3 dışı listesinde 've başkaları'")
 U = set()
-for blk in open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
+for blk in open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
     L = blk.strip().splitlines()
     if '--medde' in L[0]: continue
     m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
@@ -185,7 +186,7 @@ if 'D3 dışı bırakılan basılmış sayım eşleri' in d3:
     son = son.split(' — kalıp başına')[0]
     if re.search(r'%d:%d: ' % (S, A), son):  # bölüm 10 denetimi kuralı 11: ayet başına liste ('S:A: …' / 'yok')
         UA = {}
-        for blk in open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
+        for blk in open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
             L = blk.strip().splitlines()
             if '--medde' in L[0]: continue
             mk = re.match(r'(?:say|lem) \d+:(\d+)|dizi \d+ (\d+)', L[0]); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())

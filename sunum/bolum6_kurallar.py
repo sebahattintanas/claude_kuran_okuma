@@ -5,6 +5,7 @@
 #   yazım sözleşmesi:
 #     yıldız maddesi: "S:a ★★ (kaynak <bilanço kaynağı>, z=<z>; eşiği geçen öbür ölçüler <ad>, …; kafiye kırığı)" — eşik / kafiye yoksa o kısım yazılmaz
 #     çakışma maddesi: her grup "'X' ←" ya da "KÖK 'X' ←" başlığıyla, grup başına tam bir kapalı karar ('çakışma değil' ya da 'çakışma — tam okuma sonu')
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, importlib.util
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -23,7 +24,7 @@ def item(bas): return [m for m in ITEMS if m.startswith(bas)]
 def run(*a): return subprocess.run([sys.executable] + list(a), capture_output=True, text=True, cwd='/home/claude').stdout
 # ── (2) çakışma grubu kapsamı ──
 DOS = sorted([f for f in glob.glob(Y + 'ariza_%d_*_*.txt' % S) if int(f.split('_')[-2]) <= A], key=lambda p: int(p.split('_')[-2]))
-spec = importlib.util.spec_from_file_location('veri', '/home/claude/b%s/yap/veri.py' % NN); veri = importlib.util.module_from_spec(spec); spec.loader.exec_module(veri)
+spec = importlib.util.spec_from_file_location('veri', _BK + 'b%s/yap/veri.py' % NN); veri = importlib.util.module_from_spec(spec); spec.loader.exec_module(veri)
 KY = {m.group(1) for L in veri.MK.values() for tr, q, its in L for it in its for m in [re.match(r"'([^']+)' '(?:[^']|'(?=[a-zâîûçğışöü']))+' (?:karşılığı|açılımı)", it)] if m}  # bu bloğun Türkçe karşılıkları: son dosyaya dokunan gruplar
 CAK = [l for l in run('/home/claude/sunum/cakisma.py', *DOS).splitlines() if ' ←' in l and (l.startswith('KÖK') or l.split(' ←')[0].strip() in KY)]
 cm = ' '.join(item('karşılık çakışması'))
@@ -86,7 +87,7 @@ for l in open('/home/claude/calisma/esma_el.py', encoding='utf-8'):
     if m: ONCE.setdefault((LEM.get(m.group(1)), m.group(2)), []).append((m.group(1), m.group(3)))
 # bölüm 8 kuralı 2: esmâ kural adı kapalı listeden; listede olmayan ad isabet (yeni ad yalnız esma_el.py emsali anılarak ve kullanıcı kararıyla eklenir); ARIZA'da 'tam okuma sonu' notlu karar esma_el'e kapalı karar olarak girmez
 KAPALI = ("'inne/enne' haberi", "'ve'llâhu X' kuralı", 'esmâ adı esmâ dışı göndergeyle', 'çoğul insan göndergeli', 'olumsuz nekre ehad', 'lafzın haberi',
-          "'ve kâna'llâhu X' lafzın haberi", "'kefâ bi'llâhi X' temyizi", "'vecede'llâhe X' mef'ûlü")
+          "'ve kâna'llâhu X' lafzın haberi", "'kefâ bi'llâhi X' temyizi", "'vecede'llâhe X' mef'ûlü", 'zamirin haberi')
 esm_it = ' '.join(item('esmâ:'))
 E14 = 0
 try: blk = open(Y + 'esma_el_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()
@@ -109,13 +110,13 @@ for k, kr, yorum in re.findall(r"'(\d+:\d+:\d+)':\s*'(\w+)',\s*#\s*(.*)", blk):
 print('esmâ kural emsali: %d kayıt' % E14)
 # ── (16) lemma dizisi adında joker ──
 D2 = {}
-for blok in open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
+for blok in open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read().split('### ')[1:]:
     h = blok.split('\n')[0].strip()
     m = re.search(r'lemma dizisi (\[.*?\]) \|', blok)
     if h.startswith('dizi') and m: D2[h] = ast.literal_eval(m.group(1))
 J = 0
 for f in ('metin_yap.py', 'ariza_yap.py'):
-    src = open('/home/claude/b%s/yap/%s' % (NN, f), encoding='utf-8').read()
+    src = open(_BK + 'b%s/yap/%s' % (NN, f), encoding='utf-8').read()
     for key, ad in re.findall(r"""['"](dizi \d+ \d+ \d+ \d+)['"],\s*"([^"]+)\"""", src):
         if key not in D2: continue
         J += 1; el = D2[key]; tk = ad.split()

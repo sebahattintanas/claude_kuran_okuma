@@ -7,6 +7,7 @@
 #  (9) meal maddesinde 'masdar' etiketi yalnız morph VN kelimede
 #  (1, 5, 7, 10: kural13, satir_aynen_tam, geriye_donuk, bolum11_kurallar kural 16 içinde)
 # kullanım (/home/claude'dan): python3 sunum/bolum12_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, collections, importlib.util as iu
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -23,7 +24,7 @@ def bol(s, sep='; '):
         cur += c; i += 1
     out.append(cur); return out
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     W[a_][w_].append((f, t, feat))
 KAPALI = ('çakışma değil', 'çakışma — tam okuma sonu')
@@ -45,7 +46,7 @@ for l in open(Y + 'blok_plani_%d.txt' % S, encoding='utf-8'):
 blok = next((v for v in plan.values() if int(NN) in v), [])
 ATLA = {'ve', 'fe', 'li', 'bi', 'min', 'fî', "'alâ", 'ilâ', "'an", 'inne', 'enne', 'en', 'mâ', 'lâ', 'ellezîne', 'ellezî', 'ellâtî', 'nâ', 'kum', 'hum', 'hu', 'hû', 'hî', 'hi', 'hâ', 'û', 'ûne', 'tum', 'ke', 'le', 'nne', 'yâ', 'eyy', 'entum', "ma'a", 'ka'}
 def edatlar(nn):
-    vp = '/home/claude/b%02d/yap/veri.py' % nn
+    vp = _BK + 'b%02d/yap/veri.py' % nn
     if not _o.path.exists(vp): return {}
     sp = iu.spec_from_file_location('veri%d' % nn, vp); v = iu.module_from_spec(sp); sp.loader.exec_module(v)
     E = collections.defaultdict(set)
@@ -66,7 +67,7 @@ if int(NN) in blok:
             H.append("(3) bölüm içi eş edat %s: bu blok %s / önceki %s — meal kararı maddesinde anılmamış" % (k, sorted(v - once[k]), sorted(once[k])))
 # ── (4) lemma dizisi adları öğe öğe ──
 def diziler(nn):
-    d = '/home/claude/b%02d' % nn
+    d = _BK + 'b%02d' % nn
     if not (_o.path.exists(d + '/yap/metin_yap.py') and _o.path.exists(d + '/say2.txt')): return []
     S2D = {}
     for blk in open(d + '/say2.txt', encoding='utf-8').read().split('### ')[1:]:
@@ -118,7 +119,7 @@ for g in bol(' '.join(item('meal karşılık farkı kararları')).split('): ', 1
         for x in mm.groups():
             if x not in KUM[key]: H.append("(8) %s kararında '%s' es_lemma karşılık kümesinde yok (%s)" % (key[:40], x, ', '.join(sorted(KUM[key]))))
 # ── (9) masdar ⇔ VN ──
-vp = '/home/claude/b%s/yap/veri.py' % NN
+vp = _BK + 'b%s/yap/veri.py' % NN
 if _o.path.exists(vp):
     sp = iu.spec_from_file_location('veri', vp); v = iu.module_from_spec(sp); sp.loader.exec_module(v)
     for a, L in v.MK.items():

@@ -1,6 +1,7 @@
 # 'sonradan basılan' (bölüm 7 kuralı 3 + bölüm 8 kuralı 1): verilen blokların say2 listelerinde, o anki sınıflamada
 # 'bu' / 'basilan' olmayıp şimdi basılan listesinde bulunan ayetler. Eskiyen yoksa 'eskiyen yok' yazılır.
 # kullanım (/home/claude'dan): python3 sunum/sonradan.py b14 b15 b16 b17 ...  (önceki bölümün bütün blokları + bu bölümün önceki blokları)
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import re, ast, sys
 B = set(l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip())
 n = 0
@@ -18,10 +19,10 @@ if ARG[:1] == ['--plan']:
             if m: bol[-1].append(int(m.group(1)))
     i = next(k for k, b in enumerate(bol) if NN in b)
     ARG = ['b%02d' % x for x in (bol[i - 1] if i else []) + [x for x in bol[i] if x < NN]]
-    ARG = [a for a in ARG if os.path.exists('/home/claude/%s/say2.txt' % a)]
+    ARG = [a for a in ARG if os.path.exists(_BK + '%s/say2.txt' % a)]
     print('blok listesi (plan):', ' '.join(ARG) or '—')
 for blk in ARG:
-    for sira, b in enumerate(open('/home/claude/%s/say2.txt' % blk).read().split('### ')[1:], 1):
+    for sira, b in enumerate(open(_BK + '%s/say2.txt' % blk).read().split('### ')[1:], 1):
         L = b.strip().splitlines(); m = re.match(r'(\d+) (\{.*\})$', L[-1].strip())
         d = ast.literal_eval(m.group(2))
         li = [l for l in L if l.startswith('liste:')]

@@ -2,6 +2,7 @@
 # bölüm 8 kuralı 15: Türkçe hedefte kesme işaretli biçimler ('O'nun', 'O'nu', 'Allah'ın') ayrıştırılır
 # bölüm 5 kuralı 2: 'î' / 'nî' / 'te' / 'tu' / 'â' zamir kümesinde (edat_etiket.ZAMIR), büyük harfli tırnaksız biçimler, ayrıştırılamayan ve tanınmayan maddeler sayılır
 # kullanım (/home/claude'dan): python3 sunum/es_edat.py <blok no> [<blok no> …]  — bNN/yap/veri.py (MK) + bNN/morph<S>.txt; yalnız iki ya da daha çok geçişli başlıklar
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys, os, re, importlib.util as iu, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
 import edat_etiket as E
@@ -11,7 +12,7 @@ HATA, TANIMSIZ = [], []
 ISIM_DIS = {"'ğayr'"}  # bölüm 6 kuralı 11: 'ğayr' isim (morph N, izafet başı) — edat / zamir eş tablosu dışında bırakılır
 G = collections.defaultdict(lambda: collections.defaultdict(list))
 for nn in sys.argv[1:]:
-    d = '/home/claude/b%02d' % int(nn)
+    d = _BK + 'b%02d' % int(nn)
     sp = iu.spec_from_file_location('veri%s' % nn, d + '/yap/veri.py'); v = iu.module_from_spec(sp); sp.loader.exec_module(v)
     for a, L in v.MK.items():
         for tr, q, items in L:

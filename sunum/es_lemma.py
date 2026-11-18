@@ -1,5 +1,6 @@
 # bölüm 16 denetimi kuralı 11 (sûre 5): bölümün bütün meal kayıtlarından eş lemmaya farklı karşılık listesi (morph LEM'e göre)
 # kullanım (/home/claude'dan): python3 sunum/es_lemma.py <blok no> [<blok no> …]  — bNN/yap/veri.py (MK) + bNN/morph<S>.txt
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys, os, re, importlib.util as iu, collections, unicodedata as ud
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from sure import S
 LEM = {}; TR = collections.defaultdict(set)
@@ -10,7 +11,7 @@ def _liste(ks):
     kal = [k for k in ks if ':'.join(k.split(':')[:2]) in BAS]; n = len(ks) - len(kal)
     return ', '.join(kal + (['okunmuş %d konum' % n] if n else []))
 for nn in [x for x in sys.argv[1:] if x != '--numarasiz']:
-    d = '/home/claude/b%02d' % int(nn)
+    d = _BK + 'b%02d' % int(nn)
     for l in open('%s/morph%d.txt' % (d, S), encoding='utf-8'):
         loc, f, t, feat = l.rstrip('\n').split('\t'); s, a, w, p = map(int, loc.split(':'))
         m = re.search(r'LEM:([^|]+)', feat)

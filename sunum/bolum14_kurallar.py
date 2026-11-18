@@ -9,6 +9,7 @@
 #  (10) R5 maddesinde 'biçim öğesi' ibaresinden hemen sonra tırnaklı öğe adı
 #  (kural 1 cakisma.py / bolum7 / bolum9'da; kural 9 edat_etiket.py'de; kurallar 11-13 elle)
 # kullanım (/home/claude'dan): python3 sunum/bolum14_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, collections, importlib.util as iu
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -22,12 +23,12 @@ MT = open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()
 exec(MT, {'M': M, 'MEAL': MEAL})
 DIA = {n: re.match(r"◇ '(.*?)' — ", M[n]).group(1) for n in range(A, B + 1)}
 W = collections.defaultdict(lambda: collections.defaultdict(list))
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     W[a_][w_].append((f, t, feat))
-sp = iu.spec_from_file_location('veri', '/home/claude/b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
+sp = iu.spec_from_file_location('veri', _BK + 'b%s/yap/veri.py' % NN); veri = iu.module_from_spec(sp); sp.loader.exec_module(veri)
 Q = r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'"
-S2 = open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read()
+S2 = open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read()
 BLK = {}
 for blk in S2.split('### ')[1:]: BLK.setdefault(blk.split('\n')[0].strip(), blk)
 def liste(h):
@@ -85,7 +86,7 @@ for n in range(A, B + 1):
 # ── (5) 'emsal biçimi' tırnaksız gerekçesi ──
 st = ' '.join(item('söz / tırnak'))
 if re.search(r'tırnaksız[^;]*\(emsal biçimi', st):  # bölüm 15 denetimi kuralı 6: '(emsal biçimi — …)' de
-    try: et = open('/home/claude/b%s/emsal.txt' % NN, encoding='utf-8').read()
+    try: et = open(_BK + 'b%s/emsal.txt' % NN, encoding='utf-8').read()
     except FileNotFoundError: et = ''
     if re.search(r'["“”]', et) or re.search(r"(?:^|[\s:(])'[A-ZÇĞİÖŞÜÂÎÛ]", et): H.append("(5) söz / tırnak maddesi 'tırnaksız (emsal biçimi)' diyor — bu bloğun emsal metninde tırnak var")  # bölüm 15 denetimi kuralı 6: kesme tırnak da
     for e in re.findall(r'(\d+:\d+) emsal mealinde', st):  # bölüm 15 denetimi kuralı 6: anılan emsalde قول fiili
@@ -95,7 +96,7 @@ if re.search(r'tırnaksız[^;]*\(emsal biçimi', st):  # bölüm 15 denetimi kur
 # ── (6) ASCII dışı ünsüz ──
 AS = re.compile(r'[ṣḥṭẓḍṯḏġḳṢḤṬẒḌ]')
 for ad, t in (('metin', MT), ('ARIZA', ' '.join(ITEMS)),  # taşınan denetim maddeleri (BEK) örnek harf anar — süzülür (blok 33)
-                  ('seg', open('/home/claude/b%s/yap/seg.py' % NN, encoding='utf-8').read())):
+                  ('seg', open(_BK + 'b%s/yap/seg.py' % NN, encoding='utf-8').read())):
     for x in sorted(set(AS.findall(t))): H.append("(6) %s kaydında ASCII dışı ünsüz '%s'" % (ad, x))
 
 # ── (7) içerici sözcükte yönelme / ayrılma eki ──

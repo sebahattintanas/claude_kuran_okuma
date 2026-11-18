@@ -10,6 +10,7 @@
 #  (10) medde maddesindeki meddeli kalıp sayısı ⇔ say2 '--medde' koşu sayısı ⇔ meddeli / meddesiz çift sayısı
 #  (11) ölçümde 'İÇ düğüm' alanı olan her ayetin ◇'si alanı 'satır aynen' anar
 # kullanım (/home/claude'dan): python3 sunum/bolum9_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -81,7 +82,7 @@ for k, (p, g) in enumerate(pos):
         if gk and ak != gk: H.append("(2) %s kök listesi: karar %s / üyeler %s" % (g, ' '.join(sorted(ak)), ' '.join(sorted(gk))))
 print('(1) lemma iddiası denetlenen grup: %d; (2) KÖK kök listesi denetlenen grup: %d' % (n1, n2))
 # say2
-S2 = open('/home/claude/b%s/say2.txt' % NN, encoding='utf-8').read()
+S2 = open(_BK + 'b%s/say2.txt' % NN, encoding='utf-8').read()
 BLK = {}
 basl = []
 for blk in S2.split('### ')[1:]:
@@ -102,7 +103,7 @@ def kelime(q):
         parca = re.split(r"(?<=[aeiuâîû])'(?=l-|ll|[a-zçğışöü]-|[bcdfğhklmnqrsştxyz]{2})", t)
         n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
     return n
-olc = open('/home/claude/b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
+olc = open(_BK + 'b%s/olcum.txt' % NN, encoding='utf-8').read().split('\n\n')
 bf = Y + 'bag_%d_%d_%d.txt' % (S, A, B)
 BAG = ast.literal_eval('[' + open(bf, encoding='utf-8').read() + ']') if _o.path.exists(bf) else []
 for b in BAG:
@@ -138,7 +139,7 @@ for a in range(A, B + 1):
     NK[a] = [(p_, int(n_), z_) for p_, n_, z_ in re.findall(r"`nakarat3` '([^']+)' \(\d+ kelime / (\d+) ayet, tür (?:ic|tam)\) → süzgeç \*\*(GEÇER|GEÇMEZ)\*\*", olc[a - A])]
     r5a = [s_ for s_ in SAT if s_.startswith('%d:%d nakarat3' % (S, a))]
     if len(r5a) != len(NK[a]): H.append('(5) %d:%d ölçüm nakarat3 %d / R5 satırı %d (GEÇMEZ dahil)' % (S, a, len(NK[a]), len(r5a)))
-    src = open('/home/claude/b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
+    src = open(_BK + 'b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
     for s_ in r5a:
         mm = re.match(r"%d:%d nakarat3 '(.+?)' (\d+) \(tür (?:ic|tam)\)" % (S, a), s_)
         if not mm: continue
@@ -153,7 +154,7 @@ for h in BLK:
     if not mh: continue
     a = int(mh.group(1)); obur = sorted({int(x.split(':')[1]) for x in liste(h) if x.startswith('%d:' % S) and A <= int(x.split(':')[1]) <= B and int(x.split(':')[1]) != a})
     if not obur: continue
-    src = open('/home/claude/b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
+    src = open(_BK + 'b%s/yap/metin_yap.py' % NN, encoding='utf-8').read()
     ad = re.search(r"say\('%s', \"([^\"]+)\"\)" % re.escape(h), src)
     ad = ad.group(1) if ad else '?'
     kay = [m_ for m_ in re.finditer(r"ayetler arası kalıp '((?:[^']|'(?=[a-zâîûçğışöü]))+)' \(([^)]*)\)", d3) if all('%d:%d' % (S, x) in m_.group(2) for x in obur + [a])]

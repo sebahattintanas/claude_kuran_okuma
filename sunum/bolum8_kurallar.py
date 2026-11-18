@@ -7,6 +7,7 @@
 #  (14) A1 alt maddesinde alıntı + kelime numarası birlikteyse alıntının ◇'deki kelime konumu numarayla eşit
 #  (15) es_edat 'ayrıştırılamayan' 0
 # kullanım (/home/claude'dan): python3 sunum/bolum8_kurallar.py A B NN
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, glob, subprocess, importlib.util, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
@@ -17,9 +18,9 @@ AR = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding=
 ITEMS = [m for v in AR.values() for m in v if not re.match(r'bölüm (denetimi \(|\d+ denetiminden)', m)]
 def item(bas): return [m for m in ITEMS if m.startswith(bas)]
 def run(*a): return subprocess.run(list(a), capture_output=True, text=True, cwd='/home/claude').stdout
-sp = importlib.util.spec_from_file_location('veri', '/home/claude/b%s/yap/veri.py' % NN); veri = importlib.util.module_from_spec(sp); sp.loader.exec_module(veri)
+sp = importlib.util.spec_from_file_location('veri', _BK + 'b%s/yap/veri.py' % NN); veri = importlib.util.module_from_spec(sp); sp.loader.exec_module(veri)
 MOR = {}
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, fo, t, ft = l.rstrip('\n').split('\t'); s_, a_, w_, p_ = map(int, loc.split(':'))
     MOR.setdefault((a_, w_), []).append((fo, t, ft))
 Q = r"'((?:[^']|'(?=[a-zâîûçğışöü']))+)'"

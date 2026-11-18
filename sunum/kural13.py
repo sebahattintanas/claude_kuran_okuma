@@ -5,17 +5,18 @@
 #     ve anılan etiket, alıntının açıldığı 've' / 'fe' kelimesinin morph etiketiyle (VF_YAZI üzerinden)
 # (4) ◇ ve ARIZA'da "lemma 'X'" anmaları ↔ blok morph LEM transliterasyonu ya da önceki blokların lemma adları (iskelet karşılaştırması)
 # (6) R5 maddesinde her 'tutuyor' / 'tutmuyor' hükmünde taban dökümü '(4:A' 
+import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from sure import S
 import re, sys, ast, importlib.util as iu, unicodedata as ud
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
 ar = ast.literal_eval('{' + open(Y + 'ariza_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read() + '}')[(A, B)]
 M = {}; exec(open(Y + 'metin_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read(), {'MEAL': {}, 'M': M})
-sp = iu.spec_from_file_location('ay', '/home/claude/b%s/yap/ariza_bas.py' % NN)
-import os; _f = '/home/claude/b%s/yap/ariza_bas.py' % NN; _f = _f if os.path.exists(_f) else _f.replace('ariza_bas', 'ariza_yap'); src = open(_f, encoding='utf-8').read()
+sp = iu.spec_from_file_location('ay', _BK + 'b%s/yap/ariza_bas.py' % NN)
+import os; _f = _BK + 'b%s/yap/ariza_bas.py' % NN; _f = _f if os.path.exists(_f) else _f.replace('ariza_bas', 'ariza_yap'); src = open(_f, encoding='utf-8').read()
 VF = ast.literal_eval(re.search(r'VF_YAZI = (\{.*?\}\})', src, re.S).group(1))
 MOR = {}
-for l in open('/home/claude/b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
+for l in open(_BK + 'b%s/morph%d.txt' % (NN, S), encoding='utf-8'):
     loc, f, t, feat = l.rstrip('\n').split('\t'); s, a, w, p = map(int, loc.split(':'))
     MOR.setdefault(a, {}).setdefault(w, []).append((f, t, feat))
 hata = 0
@@ -56,7 +57,7 @@ def es(s_, L):  # bölüm 9 kuralı 13: tam eşitlik ya da zayıf harf (v / y) a
     return s_ == L or s_.replace('y', '') == L.replace('y', '') or s_.replace('v', '') == L.replace('v', '') or s_.replace('v', '').replace('y', '') == L.replace('v', '').replace('y', '')
 LEMS = set()
 import glob
-for f in glob.glob('/home/claude/b*/morph%d.txt' % S):
+for f in glob.glob(_BK + 'b*/morph%d.txt' % S):
     for l in open(f, encoding='utf-8'):
         m = re.search(r'LEM:([^|\t\n]+)', l)
         if m: LEMS.add(ska(m.group(1)))
