@@ -34,7 +34,7 @@ for f in sys.argv[1:]:
     va = [m.group(0) for m in _re.finditer(r"(?<![a-zâîûçğışöüA-Z])va'[a-zâîûçğışöü-]+", t) if not t.startswith("' — wasl", m.end())]  # denetim bulgusunun alıntısı izinli
     if va: print(f, "wasl 'va'' yazımı:", sorted(set(va))[:8])
     # bölüm 8 kuralı 16: art arda eş sözcük (yer tutucu + sabit metin çiftlemesi, örn. 'sapma sapma'); tırnaklı karşılık eşleri ('kâfir' 'kâfir') ve Türkçe ikilemeler izinli
-    IKI = {'ayet ayet', 'grup grup', 'parça parça', 'şaşkın şaşkın', 'kalıp kalıp', 'blok blok', 'türlü türlü'}
+    IKI = {'ayet ayet', 'grup grup', 'parça parça', 'şaşkın şaşkın', 'kalıp kalıp', 'blok blok', 'türlü türlü', 'bile bile'}
     for m in _re.finditer(r"(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜ'])([a-zçğıöşüâîûA-ZÇĞİÖŞÜ]{2,}) \1(?![a-zçğıöşüâîûA-ZÇĞİÖŞÜ'])", t):
         _sat = t.splitlines()[t.count('\n', 0, m.start())] if t else ''
         if _re.search(r"bölüm (?:denetimi \(|\d+ denetiminden)", _sat): continue  # bekleyen denetim bulgusu aynen taşınır (alıntılanan yapıntı izinli)

@@ -1,0 +1,74 @@
+6:33:1	قَدْ	P|CERT|LEM:قَد
+6:33:2	نَعْلَمُ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|1P|MOOD:IND
+6:33:3	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:33:4	لَيَحْزُنُكَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:حزن|LEM:يَحْزُن|3MS|MOOD:IND + N|PRON|SUFF|2MS
+6:33:5	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:33:6	يَقُولُونَ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:33:7	فَإِنَّهُمْ	P|CONJ|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:33:8	لَا	P|NEG|LEM:لا
+6:33:9	يُكَذِّبُونَكَ	V|IMPF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+6:33:10	وَلَٰكِنَّ	P|REM|PREF|LEM:و + P|ACC|LEM:لٰكِنّ|FAM:إِنّ
+6:33:11	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|ACC
+6:33:12	بِـَٔايَٰتِ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:33:13	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:33:14	يَجْحَدُونَ	V|IMPF|VF:1|ROOT:جحد|LEM:جَحَدُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:34:1	وَلَقَدْ	P|REM|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+6:34:2	كُذِّبَتْ	V|PERF|VF:2|PASS|ROOT:كذب|LEM:كَذَّبَ|3FS
+6:34:3	رُسُلٌ	N|ROOT:رسل|LEM:رَسُول|MP|INDEF|NOM
+6:34:4	مِّن	P|P|LEM:مِن
+6:34:5	قَبْلِكَ	N|ROOT:قبل|LEM:قَبْل|GEN + N|PRON|SUFF|2MS
+6:34:6	فَصَبَرُوا۟	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:صبر|LEM:صَبَرَ|3MP + N|PRON|SUFF|3MP
+6:34:7	عَلَىٰ	P|P|LEM:عَلَى
+6:34:8	مَا	N|REL|LEM:ما
+6:34:9	كُذِّبُوا۟	V|PERF|VF:2|PASS|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+6:34:10	وَأُوذُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:4|PASS|ROOT:أذي|LEM:أُوذِيَ|3MP + N|PRON|SUFF|3MP
+6:34:11	حَتَّىٰٓ	P|INC|LEM:حَتَّى
+6:34:12	أَتَىٰهُمْ	V|PERF|VF:1|ROOT:أتي|LEM:أَتَى|3MS + N|PRON|SUFF|3MP
+6:34:13	نَصْرُنَا	N|ROOT:نصر|LEM:نَصْر|M|NOM + N|PRON|SUFF|1P
+6:34:14	وَلَا	P|REM|PREF|LEM:و + P|NEG|LEM:لا|FAM:إِنّ
+6:34:15	مُبَدِّلَ	N|ACT_PCPL|VF:2|ROOT:بدل|LEM:مُبَدِّل|M|ACC
+6:34:16	لِكَلِمَٰتِ	P|P|PREF|LEM:ل + N|ROOT:كلم|LEM:كَلِمَة|FP|GEN
+6:34:17	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:34:18	وَلَقَدْ	P|REM|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+6:34:19	جَآءَكَ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MS
+6:34:20	مِن	P|P|LEM:مِن
+6:34:21	نَّبَإِى۟	N|ROOT:نبأ|LEM:نَبَأ|M|GEN
+6:34:22	ٱلْمُرْسَلِينَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:4|ROOT:رسل|LEM:مُرْسَل|MP|GEN
+6:35:1	وَإِن	P|REM|PREF|LEM:و + P|COND|LEM:إِن
+6:35:2	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:35:3	كَبُرَ	V|PERF|VF:1|ROOT:كبر|LEM:كَبُرَ|3MS
+6:35:4	عَلَيْكَ	P|P|LEM:عَلَى + N|PRON|SUFF|2MS
+6:35:5	إِعْرَاضُهُمْ	N|VN|VF:4|ROOT:عرض|LEM:إِعْراض|M|NOM + N|PRON|SUFF|3MP
+6:35:6	فَإِنِ	P|REM|PREF|LEM:ف + P|COND|LEM:إِن
+6:35:7	ٱسْتَطَعْتَ	V|PERF|VF:10|ROOT:طوع|LEM:اسْتَطاعَ|2MS + N|PRON|SUFF|2MS
+6:35:8	أَن	P|SUB|LEM:أَن
+6:35:9	تَبْتَغِىَ	V|IMPF|VF:8|ROOT:بغي|LEM:ابْتَغَى|2MS|MOOD:SUBJ
+6:35:10	نَفَقًا	N|ROOT:نفق|LEM:نَفَق|M|INDEF|ACC
+6:35:11	فِى	P|P|LEM:فِي
+6:35:12	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:35:13	أَوْ	P|CONJ|LEM:أَو
+6:35:14	سُلَّمًا	N|ROOT:سلم|LEM:سُلَّم|M|INDEF|ACC
+6:35:15	فِى	P|P|LEM:فِي
+6:35:16	ٱلسَّمَآءِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|F|GEN
+6:35:17	فَتَأْتِيَهُم	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|2MS|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:35:18	بِـَٔايَةٍ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FS|INDEF|GEN
+6:35:19	وَلَوْ	P|CONJ|PREF|LEM:و + P|COND|LEM:لَو
+6:35:20	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:35:21	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:35:22	لَجَمَعَهُمْ	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:جمع|LEM:جَمَعَ|3MS + N|PRON|SUFF|3MP
+6:35:23	عَلَى	P|P|LEM:عَلَى
+6:35:24	ٱلْهُدَىٰ	P|DET|PREF|LEM:ال + N|ROOT:هدي|LEM:هُدًى|M|GEN
+6:35:25	فَلَا	P|REM|PREF|LEM:ف + P|NEG|LEM:لا
+6:35:26	تَكُونَنَّ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:IND + P|EMPH|SUFF|LEM:ن
+6:35:27	مِنَ	P|P|LEM:مِن
+6:35:28	ٱلْجَٰهِلِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:جهل|LEM:جاهِل|MP|GEN
+6:36:1	إِنَّمَا	P|ACC|LEM:إِنّ|FAM:إِنّ + P|PREV|LEM:ما
+6:36:2	يَسْتَجِيبُ	V|IMPF|VF:10|ROOT:جوب|LEM:اسْتَجابَ|3MS|MOOD:IND
+6:36:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:36:4	يَسْمَعُونَ	V|IMPF|VF:1|ROOT:سمع|LEM:سَمِعَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:36:5	وَٱلْمَوْتَىٰ	P|REM|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:موت|LEM:مَيِّت|P|NOM
+6:36:6	يَبْعَثُهُمُ	V|IMPF|VF:1|ROOT:بعث|LEM:بَعَثَ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:36:7	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:36:8	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:36:9	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+6:36:10	يُرْجَعُونَ	V|IMPF|VF:1|PASS|ROOT:رجع|LEM:رَجَعَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
