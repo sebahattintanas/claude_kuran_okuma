@@ -1,0 +1,136 @@
+# geriye dönük koşu (b05, 2026-11-19): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, bolum17_kurallar, bolum18_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre 6); isabet 95
+# önceki dosyayla fark (geriye_donuk_6_b03.txt): düşen 0, yeni 34
+#   düşen sınıfı: kayıt değişti 0, araç değişti 0, basılan değişti 0
+#   yeni: blok 03 (4) 6:14 14. kelime meal notunda 'naib-i fail' — morph'ta edilgen fiil yok
+#   yeni: blok 03 (5) 6:14 A1 zamir naib-i failde 'fiil uyumu' — 'adsız' olmalı
+#   yeni: blok 03 (6) 6:15 A4 cevap 'innî exâfu' numarası 3 — öncü kelime 2
+#   yeni: blok 03 (9) 6:14 18. kelime esma_el kaydı ölçüm esmâ satırında yok — ARIZA'da 'liste farkı' yok
+#   yeni: blok 03 KAPSAMAYAN 15
+#   yeni: blok 03 ZAMİR KAYITSIZ 14 14 ىٓ 1S
+#   yeni: blok 03 ZAMİR KAYITSIZ 14 15 تُ 1S
+#   yeni: blok 03 ZAMİR KAYITSIZ 14 9 هُوَ 3MS
+#   yeni: blok 03 ZAMİR KAYITSIZ 15 2 ىٓ 1S
+#   yeni: blok 03 ZAMİR KAYITSIZ 15 5 تُ 1S
+#   yeni: blok 03 ZAMİR KAYITSIZ 15 6 ى 1S
+#   yeni: blok 04 (10) boş alt madde / ayraç ': ;': şma değil' / 'çakışma — tam okuma sonu'): ; 'men' 
+#   yeni: blok 04 (2) 3:18 emsal kararı yalnız bir kelimelik geniş sayıma dayanıyor (llâhu)
+#   yeni: blok 04 (2) 40:9 emsal kararı yalnız bir kelimelik geniş sayıma dayanıyor (yevme'izin)
+#   yeni: blok 04 (3) bag 40:9 → 6:16 notu 'harekesiz eş yok' — 'say 6:16 4-4' emsali listeliyor
+#   yeni: blok 04 (5) 6:16 A1 zamir naib-i failde 'fiil uyumu' — 'adsız' olmalı
+#   yeni: blok 04 (7) 6:16 ölçüm iltifât 1 — ARIZA'da iltifât maddesi yok
+#   yeni: blok 04 (8) 6:19 A1 'gönderge lafız' numarasız — ayette lafız 2
+#   yeni: blok 04 KAPSAMAYAN 15
+#   yeni: blok 04 ZAMİR KAYITSIZ 17 11 كَ 2MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 17 13 هُوَ 3MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 17 2 كَ 2MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 17 7 هُۥٓ 3MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 17 9 هُوَ 3MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 10 كُمْ 2MP
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 12  1S
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 15 كُم 2MP
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 16 هِۦ 3MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 19 كُمْ 2MP
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 20 ونَ 2MP
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 31 هُوَ 3MS
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 34 نِى 1S
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 37 ونَ 2MP
+#   yeni: blok 04 ZAMİR KAYITSIZ 19 9 ى 1S
+## blok 01 (6:1-5)
+bolum17_kurallar: (1) 6:4 sayım 've mâ te'tîhim min âyetin min âyâti rabbihim' emsal 36:46 — karar kalıbı örtmüyor: ve mâ te'tîhim
+bolum17_kurallar: (3) 6:4 / 36:46 ortak lemma dizisi 1-11. kelime say2'de emsali bulan sayımla yok
+bolum17_kurallar: (3) 6:5 / 50:5 ortak lemma dizisi 2-5. kelime say2'de emsali bulan sayımla yok
+bolum17_kurallar: (3) 6:5 / 26:6 ortak lemma dizisi 7-10. kelime say2'de emsali bulan sayımla yok
+bolum17_kurallar: (4) 'say 6:1 11-14' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:2 3-5' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:3 3-6' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:3 7-9' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (5) 6:4 2. kelime fiil, fail 'min' ile nekre 4. kelime — A1'de 'fail' yok
+bolum17_kurallar: (9) 6:2 şahıs sayıları berabere (2MP 4 · 3MS 4) — A4'te 'beraberlik' yok
+bolum17_kurallar: (11) boş ARIZA maddesi: meal karşılık farkı kararları (bölüm 8 kuralı 6, bölüm 10 denetimi kur
+bolum17_kurallar: (12) joker listesinde önek edat adı 'bi'
+bolum17_kurallar: (13) boş alan 'kelime  (': 2: 6:4 11. kelime عرض, 6:5 4. kelime  (morph T); ◈ tetik mad
+gloss_tara: KAPSAMAYAN 5
+kelime_kontrol: ZAMİR KAYITSIZ 2 14 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 12 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 2 هِم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 7 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 9 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 10 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 5 2 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 5 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 7 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 10 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 11 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 5 12 ونَ 3MP
+## blok 02 (6:6-11)
+bolum17_kurallar: (1) 6:10 sayım 've le-qadi'stuhzi'e bi-rusulin min qablik' emsal 21:41 — karar kalıbı örtmüyor: ve le-qadi'stuhzi'e
+bolum17_kurallar: (1) 6:10 sayım 'fe-hâqa bi'llezîne sexirû minhum mâ kânû bihî yestehzi'ûn' emsal 21:41 — karar kalıbı örtmüyor: fe-hâqa bi'llezîne sexirû minhum
+bolum17_kurallar: (2) bag kaynağı 5:110 ARIZA emsal meal karar maddesinde yok
+bolum17_kurallar: (3) 6:10 / 21:41 ortak lemma dizisi 1-11. kelime say2'de emsali bulan sayımla yok
+bolum17_kurallar: (4) 'say 6:6 9-15' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:6 21-24' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:8 11-13' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:11 5-10' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:11 6-9' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (4) 'say 6:7 9-14' korpusta 1 — '--on' eşi say2'de yok
+bolum17_kurallar: (6) 6:8 A1 'adsız' + açık naib-i fail: (adsız; edilgen; söz içi; naib-i faili 5. kelimedeki ad, 3. k)
+bolum17_kurallar: (6) 6:8 A1 'adsız' + açık naib-i fail: (adsız; edilgen; naib-i faili 10. kelimedeki ad, 9. kelime)
+bolum17_kurallar: (7) 6:9 'lev' sonrası EMPH 6. kelime A4 şart → cevap kaydında yok
+bolum17_kurallar: (10) 6:7 9. kelime meal kesimlerinde örtüşüyor: 'inkâr edenler' / 'derlerdi'
+bolum17_kurallar: (12) joker listesinde önek edat adı 'bi'
+gloss_tara: KAPSAMAYAN 12
+kelime_kontrol: ZAMİR KAYITSIZ 7 2 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 7 11 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 8 1 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 8 4 هِ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 8 7 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 8 13 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 2 نَٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 9 2 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 9 4 نَٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 9 4 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 9 6 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 9 7 هِم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 9 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 8 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 11 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 13 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 11 2 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 11 6 وا۟ 2MP
+## blok 03 (6:12-15)
+bolum18_kurallar: (4) 6:14 14. kelime meal notunda 'naib-i fail' — morph'ta edilgen fiil yok
+bolum18_kurallar: (5) 6:14 A1 zamir naib-i failde 'fiil uyumu' — 'adsız' olmalı
+bolum18_kurallar: (5) 6:14 A1 zamir naib-i failde 'fiil uyumu' — 'adsız' olmalı
+bolum18_kurallar: (6) 6:15 A4 cevap 'innî exâfu' numarası 3 — öncü kelime 2
+bolum18_kurallar: (9) 6:14 18. kelime esma_el kaydı ölçüm esmâ satırında yok — ARIZA'da 'liste farkı' yok
+gloss_tara: KAPSAMAYAN 15
+kelime_kontrol: ZAMİR KAYITSIZ 14 9 هُوَ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 14 14 ىٓ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 14 15 تُ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 15 2 ىٓ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 15 5 تُ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 15 6 ى 1S
+## blok 04 (6:16-19)
+bolum18_kurallar: (2) 40:9 emsal kararı yalnız bir kelimelik geniş sayıma dayanıyor (yevme'izin)
+bolum18_kurallar: (2) 3:18 emsal kararı yalnız bir kelimelik geniş sayıma dayanıyor (llâhu)
+bolum18_kurallar: (3) bag 40:9 → 6:16 notu 'harekesiz eş yok' — 'say 6:16 4-4' emsali listeliyor
+bolum18_kurallar: (5) 6:16 A1 zamir naib-i failde 'fiil uyumu' — 'adsız' olmalı
+bolum18_kurallar: (7) 6:16 ölçüm iltifât 1 — ARIZA'da iltifât maddesi yok
+bolum18_kurallar: (8) 6:19 A1 'gönderge lafız' numarasız — ayette lafız 2
+bolum18_kurallar: (10) boş alt madde / ayraç ': ;': şma değil' / 'çakışma — tam okuma sonu'): ; 'men' 
+gloss_tara: KAPSAMAYAN 15
+kelime_kontrol: ZAMİR KAYITSIZ 17 2 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 17 7 هُۥٓ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 17 9 هُوَ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 17 11 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 17 13 هُوَ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 19 9 ى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 19 10 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 19 12  1S
+kelime_kontrol: ZAMİR KAYITSIZ 19 15 كُم 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 19 16 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 19 19 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 19 20 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 19 31 هُوَ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 19 34 نِى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 19 37 ونَ 2MP

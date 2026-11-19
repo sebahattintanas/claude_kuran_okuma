@@ -27,6 +27,12 @@ BAGLAR = {"AS_enam": [
  {'bag': '40:9 → 6:16', 'kural': "okuma — ölçüm xref (يوم رحم فوز); lemma dizisi eşi 'dizi 6 16 4 7'", 'not': 'zamir eki farkı; harekesiz eş yok.'},
  {'bag': '10:107 → 6:17', 'kural': "okuma — harekesiz 've in yemseske'llâhu bi-durr'", 'not': 'kalıp eşi (sayım); ölçüm xref.'},
  {'bag': '3:18 → 6:19', 'kural': "okuma — ölçüm xref (شهد اللّه إله); kök شهد ve lafız", 'not': 'ölçüm xref (شهد اللّه إله).'},
+ # blok 20-24
+ {'bag': '2:146 → 6:20', 'kural': "okuma — harekesiz 'ya'rifûnehû kemâ ya'rifûne ebnâ'ehum'", 'not': 'kalıp eşi (sayım); ölçüm xref.'},
+ {'bag': '11:21 → 6:20', 'kural': "okuma — harekesiz 'xasirû enfusehum'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '10:17 → 6:21', 'kural': "okuma — harekesiz 'ev kezzebe bi-âyâtih'", 'not': 'kalıp eşi (sayım); ölçüm xref ve esit2 BENZER.'},
+ {'bag': '10:28 → 6:22', 'kural': "okuma — harekesiz 've yevme nahşuruhum cemî'an'", 'not': 'kalıp eşi (sayım); ölçüm xref.'},
+ {'bag': '11:21 → 6:24', 'kural': "okuma — harekesiz 'mâ kânû yefterûn'", 'not': 'kalıp eşi (sayım); ölçüm xref.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

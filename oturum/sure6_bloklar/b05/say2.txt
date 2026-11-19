@@ -1,0 +1,862 @@
+### say 6:20 1-3
+kalıp: الذين ءاتينهم الكتب | mod: tam
+ayet: 5
+liste: 2:121, 2:146, 6:20†, 6:89†, 28:52
+sûre içi (6): 6:20, 6:89
+
+5 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:20 1-3 --on
+kalıp: الذين ءاتينهم الكتب | mod: on 
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 2-3
+kalıp: ءاتينهم الكتب | mod: tam
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 2-3 --on
+kalıp: ءاتينهم الكتب | mod: on 
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 4-7
+kalıp: يعرفونه كما يعرفون أبنءاءهم | mod: tam
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 4-7 --on
+kalıp: يعرفونه كما يعرفون أبنءاءهم | mod: on 
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 4-6
+kalıp: يعرفونه كما يعرفون | mod: tam
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 4-6 --on
+kalıp: يعرفونه كما يعرفون | mod: on 
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 8-10
+kalıp: الذين خسروا أنفسهم | mod: tam
+ayet: 7
+liste: 6:12, 6:20†, 7:9†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+7 {'bu': ['6:20'], 'basilan': ['6:12', '11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:20 8-10 --on
+kalıp: الذين خسروا أنفسهم | mod: on 
+ayet: 7
+liste: 6:12, 6:20†, 7:9†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+7 {'bu': ['6:20'], 'basilan': ['6:12', '11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:20 9-10
+kalıp: خسروا أنفسهم | mod: tam
+ayet: 8
+liste: 6:12, 6:20†, 7:9†, 7:53†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+8 {'bu': ['6:20'], 'basilan': ['6:12', '11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:20 9-10 --on
+kalıp: خسروا أنفسهم | mod: on 
+ayet: 8
+liste: 6:12, 6:20†, 7:9†, 7:53†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+8 {'bu': ['6:20'], 'basilan': ['6:12', '11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:20 8-13
+kalıp: الذين خسروا أنفسهم فهم لا يؤمنون | mod: tam
+ayet: 2
+liste: 6:12, 6:20†
+sûre içi (6): 6:12, 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 8-13 --on
+kalıp: الذين خسروا أنفسهم فهم لا يؤمنون | mod: on 
+ayet: 2
+liste: 6:12, 6:20†
+sûre içi (6): 6:12, 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 11-13
+kalıp: فهم لا يؤمنون | mod: tam
+ayet: 4
+liste: 6:12, 6:20†, 8:55†, 36:7
+sûre içi (6): 6:12, 6:20
+
+4 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:20 11-13 --on
+kalıp: فهم لا يؤمنون | mod: on 
+ayet: 4
+liste: 6:12, 6:20†, 8:55†, 36:7
+sûre içi (6): 6:12, 6:20
+
+4 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:20 12-13
+kalıp: لا يؤمنون | mod: tam
+ayet: 43
+liste: 2:6, 2:100, 4:65, 6:12, 6:20†, 6:109†, 6:113†, 6:125†, 6:150†, 7:27†, 8:55†, 9:29, 9:45, 10:33, 10:96, 10:101, 11:17, 11:121, 12:37, 13:1, 15:13, 16:22, 16:60, 16:104, 16:105, 17:10, 17:45, 19:39, 23:44, 23:74, 26:201, 27:4, 34:8, 36:7, 36:10, 39:45, 40:59, 41:44, 42:18, 43:88, 52:33, 53:27, 84:20
+sûre içi (6): 6:12, 6:20, 6:109, 6:113, 6:125, 6:150
+
+43 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 1, 'okunmus': 34, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 4}
+
+### say 6:20 12-13 --on
+kalıp: لا يؤمنون | mod: on 
+ayet: 47
+liste: 2:6, 2:100, 4:38, 4:46, 4:65, 4:155, 6:12, 6:20†, 6:109†, 6:113†, 6:125†, 6:150†, 7:27†, 8:55†, 9:29, 9:45, 10:33, 10:96, 10:101, 11:17, 11:121, 12:37, 13:1, 15:13, 16:22, 16:60, 16:104, 16:105, 17:10, 17:45, 19:39, 21:30, 23:44, 23:74, 26:201, 27:4, 34:8, 36:7, 36:10, 39:45, 40:59, 41:44, 42:18, 43:88, 52:33, 53:27, 84:20
+sûre içi (6): 6:12, 6:20, 6:109, 6:113, 6:125, 6:150
+
+47 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 1, 'okunmus': 38, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 4}
+
+### say 6:21 1-7
+kalıp: ومن أظلم ممن افترى على الله كذبا | mod: tam
+ayet: 4
+liste: 6:21†, 6:93†, 11:18, 29:68
+sûre içi (6): 6:21, 6:93
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 1-7 --on
+kalıp: ومن أظلم ممن افترى على الله كذبا | mod: on 
+ayet: 4
+liste: 6:21†, 6:93†, 11:18, 29:68
+sûre içi (6): 6:21, 6:93
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 2-7
+kalıp: أظلم ممن افترى على الله كذبا | mod: tam
+ayet: 8
+liste: 6:21†, 6:93†, 6:144†, 7:37†, 10:17, 11:18, 18:15, 29:68
+sûre içi (6): 6:21, 6:93, 6:144
+
+8 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 2}
+
+### say 6:21 2-7 --on
+kalıp: أظلم ممن افترى على الله كذبا | mod: on 
+ayet: 8
+liste: 6:21†, 6:93†, 6:144†, 7:37†, 10:17, 11:18, 18:15, 29:68
+sûre içi (6): 6:21, 6:93, 6:144
+
+8 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 2}
+
+### say 6:21 3-7
+kalıp: ممن افترى على الله كذبا | mod: tam
+ayet: 8
+liste: 6:21†, 6:93†, 6:144†, 7:37†, 10:17, 11:18, 18:15, 29:68
+sûre içi (6): 6:21, 6:93, 6:144
+
+8 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 2}
+
+### say 6:21 3-7 --on
+kalıp: ممن افترى على الله كذبا | mod: on 
+ayet: 8
+liste: 6:21†, 6:93†, 6:144†, 7:37†, 10:17, 11:18, 18:15, 29:68
+sûre içi (6): 6:21, 6:93, 6:144
+
+8 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 2}
+
+### say 6:21 8-10
+kalıp: أو كذب بايته | mod: tam
+ayet: 3
+liste: 6:21†, 7:37†, 10:17
+sûre içi (6): 6:21
+
+3 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:21 8-10 --on
+kalıp: أو كذب بايته | mod: on 
+ayet: 3
+liste: 6:21†, 7:37†, 10:17
+sûre içi (6): 6:21
+
+3 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:21 9-10
+kalıp: كذب بايته | mod: tam
+ayet: 3
+liste: 6:21†, 7:37†, 10:17
+sûre içi (6): 6:21
+
+3 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:21 9-10 --on
+kalıp: كذب بايته | mod: on 
+ayet: 3
+liste: 6:21†, 7:37†, 10:17
+sûre içi (6): 6:21
+
+3 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:21 11-14
+kalıp: إنه لا يفلح الظلمون | mod: tam
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 11-14 --on
+kalıp: إنه لا يفلح الظلمون | mod: on 
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 12-14
+kalıp: لا يفلح الظلمون | mod: tam
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 12-14 --on
+kalıp: لا يفلح الظلمون | mod: on 
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 13-14
+kalıp: يفلح الظلمون | mod: tam
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 13-14 --on
+kalıp: يفلح الظلمون | mod: on 
+ayet: 4
+liste: 6:21†, 6:135†, 12:23, 28:37
+sûre içi (6): 6:21, 6:135
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:22 1-3
+kalıp: ويوم نحشرهم جميعا | mod: tam
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 1-3 --on
+kalıp: ويوم نحشرهم جميعا | mod: on 
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 2-3
+kalıp: نحشرهم جميعا | mod: tam
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 2-3 --on
+kalıp: نحشرهم جميعا | mod: on 
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 4-7
+kalıp: ثم نقول للذين أشركوا | mod: tam
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 4-7 --on
+kalıp: ثم نقول للذين أشركوا | mod: on 
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 5-7
+kalıp: نقول للذين أشركوا | mod: tam
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 5-7 --on
+kalıp: نقول للذين أشركوا | mod: on 
+ayet: 2
+liste: 6:22†, 10:28
+sûre içi (6): 6:22
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 8-9
+kalıp: أين شركءاؤكم | mod: tam
+ayet: 1
+liste: 6:22†
+sûre içi (6): 6:22
+
+1 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 8-9 --on
+kalıp: أين شركءاؤكم | mod: on 
+ayet: 1
+liste: 6:22†
+sûre içi (6): 6:22
+
+1 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 10-12
+kalıp: الذين كنتم تزعمون | mod: tam
+ayet: 3
+liste: 6:22†, 28:62, 28:74
+sûre içi (6): 6:22
+
+3 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 10-12 --on
+kalıp: الذين كنتم تزعمون | mod: on 
+ayet: 3
+liste: 6:22†, 28:62, 28:74
+sûre içi (6): 6:22
+
+3 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 11-12
+kalıp: كنتم تزعمون | mod: tam
+ayet: 4
+liste: 6:22†, 6:94†, 28:62, 28:74
+sûre içi (6): 6:22, 6:94
+
+4 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:22 11-12 --on
+kalıp: كنتم تزعمون | mod: on 
+ayet: 4
+liste: 6:22†, 6:94†, 28:62, 28:74
+sûre içi (6): 6:22, 6:94
+
+4 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:23 1-7
+kalıp: ثم لم تكن فتنتهم إلءا أن قالوا | mod: tam
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 1-7 --on
+kalıp: ثم لم تكن فتنتهم إلءا أن قالوا | mod: on 
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 2-4
+kalıp: لم تكن فتنتهم | mod: tam
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 2-4 --on
+kalıp: لم تكن فتنتهم | mod: on 
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 5-7
+kalıp: إلءا أن قالوا | mod: tam
+ayet: 9
+liste: 3:147, 6:23†, 7:5†, 7:82†, 17:94, 27:56, 29:24, 29:29, 45:25
+sûre içi (6): 6:23
+
+9 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:23 5-7 --on
+kalıp: إلءا أن قالوا | mod: on 
+ayet: 9
+liste: 3:147, 6:23†, 7:5†, 7:82†, 17:94, 27:56, 29:24, 29:29, 45:25
+sûre içi (6): 6:23
+
+9 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:23 8-9
+kalıp: والله ربنا | mod: tam
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 8-9 --on
+kalıp: والله ربنا | mod: on 
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 10-12
+kalıp: ما كنا مشركين | mod: tam
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 10-12 --on
+kalıp: ما كنا مشركين | mod: on 
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 11-12
+kalıp: كنا مشركين | mod: tam
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 11-12 --on
+kalıp: كنا مشركين | mod: on 
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 1-3
+kalıp: انظر كيف كذبوا | mod: tam
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 1-3 --on
+kalıp: انظر كيف كذبوا | mod: on 
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 2-3
+kalıp: كيف كذبوا | mod: tam
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 2-3 --on
+kalıp: كيف كذبوا | mod: on 
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 3-5
+kalıp: كذبوا على أنفسهم | mod: tam
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 3-5 --on
+kalıp: كذبوا على أنفسهم | mod: on 
+ayet: 1
+liste: 6:24†
+sûre içi (6): 6:24
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 4-5
+kalıp: على أنفسهم | mod: tam
+ayet: 7
+liste: 6:24†, 6:130†, 7:37†, 7:172†, 9:17, 39:53, 59:9
+sûre içi (6): 6:24, 6:130
+
+7 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+
+### say 6:24 4-5 --on
+kalıp: على أنفسهم | mod: on 
+ayet: 7
+liste: 6:24†, 6:130†, 7:37†, 7:172†, 9:17, 39:53, 59:9
+sûre içi (6): 6:24, 6:130
+
+7 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+
+### say 6:24 6-10
+kalıp: وضل عنهم ما كانوا يفترون | mod: tam
+ayet: 6
+liste: 6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+sûre içi (6): 6:24
+
+6 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 6-10 --on
+kalıp: وضل عنهم ما كانوا يفترون | mod: on 
+ayet: 6
+liste: 6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+sûre içi (6): 6:24
+
+6 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 7-10
+kalıp: عنهم ما كانوا يفترون | mod: tam
+ayet: 6
+liste: 6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+sûre içi (6): 6:24
+
+6 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 7-10 --on
+kalıp: عنهم ما كانوا يفترون | mod: on 
+ayet: 6
+liste: 6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+sûre içi (6): 6:24
+
+6 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 8-10
+kalıp: ما كانوا يفترون | mod: tam
+ayet: 7
+liste: 3:24, 6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+sûre içi (6): 6:24
+
+7 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 8-10 --on
+kalıp: ما كانوا يفترون | mod: on 
+ayet: 10
+liste: 3:24, 6:24†, 6:138†, 7:53†, 10:30, 11:21, 16:87, 28:75, 29:13, 46:28
+sûre içi (6): 6:24, 6:138
+
+10 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:24 9-10
+kalıp: كانوا يفترون | mod: tam
+ayet: 10
+liste: 3:24, 6:24†, 6:138†, 7:53†, 10:30, 11:21, 16:87, 28:75, 29:13, 46:28
+sûre içi (6): 6:24, 6:138
+
+10 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:24 9-10 --on
+kalıp: كانوا يفترون | mod: on 
+ayet: 10
+liste: 3:24, 6:24†, 6:138†, 7:53†, 10:30, 11:21, 16:87, 28:75, 29:13, 46:28
+sûre içi (6): 6:24, 6:138
+
+10 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### dizi 6 20 1 3
+lemma dizisi [('الَّذِي',), ('آتَى',), ('كِتاب',)] | ayet 24
+2:101, 2:121, 2:144, 2:145, 2:146, 3:19, 3:20, 3:100, 3:186, 3:187, 4:47, 4:131, 5:5, 5:57, 6:20†, 6:89†, 6:114†, 9:29, 13:36, 28:52, 29:47, 57:16, 74:31, 98:4
+
+24 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 20, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### dizi 6 20 4 7
+lemma dizisi [('عَرَفَ',), ('ما',), ('عَرَفَ',), ('ابْن',)] | ayet 2
+2:146, 6:20†
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 20 8 13
+lemma dizisi [('الَّذِي',), ('خَسِرَ',), ('نَفْس',), (), ('لا',), ('آمَنَ',)] | ayet 2
+6:12, 6:20†
+
+2 {'bu': ['6:20'], 'basilan': ['6:12'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 21 1 10
+lemma dizisi [('مَن',), ('أَظْلَم',), ('مِن', 'مَن'), ('افْتَرَى',), ('عَلَى',), ('اللَّه',), ('كَذِب',), ('أَو',), ('كَذَّبَ',), ('آيَة',)] | ayet 3
+6:21†, 7:37†, 10:17
+
+3 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 21 11 14
+lemma dizisi [('إِنّ',), ('لا',), ('أَفْلَحَ',), ('ظالِم',)] | ayet 4
+6:21†, 6:135†, 12:23, 28:37
+
+4 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 22 1 7
+lemma dizisi [('يَوْم',), ('حَشَرَ',), ('جَمِيع',), ('ثُمّ',), ('قالَ',), ('الَّذِي',), ('أَشْرَكَ',)] | ayet 2
+6:22†, 10:28
+
+2 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 22 8 12
+lemma dizisi [('أَيْن',), ('شَرِيك',), ('الَّذِي',), ('كانَ',), ('زَعَمَ',)] | ayet 3
+6:22†, 28:62, 28:74
+
+3 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 23 1 7
+lemma dizisi [('ثُمّ',), ('لَم',), ('كانَ',), ('فِتْنَة',), ('إِلّا',), ('أَن',), ('قالَ',)] | ayet 1
+6:23†
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 24 1 5
+lemma dizisi [('نَظَرَ',), ('كَيْف',), ('كَذَبَ',), ('عَلَى',), ('نَفْس',)] | ayet 1
+6:24†
+
+1 {'bu': ['6:24'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 24 6 10
+lemma dizisi [('ضَلَّ',), ('عَن',), ('ما',), ('كانَ',), ('افْتَرَى',)] | ayet 6
+6:24†, 7:53†, 10:30, 11:21, 16:87, 28:75
+
+6 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:20 1-3 --medde
+kalıp: الذين اتينهم الكتب | mod: tam medde
+ayet: 5
+liste: 2:121, 2:146, 6:20†, 6:89†, 28:52
+sûre içi (6): 6:20, 6:89
+
+5 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:20 1-3 --on --medde
+kalıp: الذين اتينهم الكتب | mod: on  medde
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 2-3 --medde
+kalıp: اتينهم الكتب | mod: tam medde
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 2-3 --on --medde
+kalıp: اتينهم الكتب | mod: on  medde
+ayet: 8
+liste: 2:121, 2:146, 6:20†, 6:89†, 6:114†, 13:36, 28:52, 29:47
+sûre içi (6): 6:20, 6:89, 6:114
+
+8 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:20 4-7 --medde
+kalıp: يعرفونه كما يعرفون أبناءهم | mod: tam medde
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 4-7 --on --medde
+kalıp: يعرفونه كما يعرفون أبناءهم | mod: on  medde
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 8-9 --medde
+kalıp: أين شركاؤكم | mod: tam medde
+ayet: 1
+liste: 6:22†
+sûre içi (6): 6:22
+
+1 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:22 8-9 --on --medde
+kalıp: أين شركاؤكم | mod: on  medde
+ayet: 1
+liste: 6:22†
+sûre içi (6): 6:22
+
+1 {'bu': ['6:22'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 1-7 --medde
+kalıp: ثم لم تكن فتنتهم إلا أن قالوا | mod: tam medde
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 1-7 --on --medde
+kalıp: ثم لم تكن فتنتهم إلا أن قالوا | mod: on  medde
+ayet: 1
+liste: 6:23†
+sûre içi (6): 6:23
+
+1 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:23 5-7 --medde
+kalıp: إلا أن قالوا | mod: tam medde
+ayet: 9
+liste: 3:147, 6:23†, 7:5†, 7:82†, 17:94, 27:56, 29:24, 29:29, 45:25
+sûre içi (6): 6:23
+
+9 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:23 5-7 --on --medde
+kalıp: إلا أن قالوا | mod: on  medde
+ayet: 9
+liste: 3:147, 6:23†, 7:5†, 7:82†, 17:94, 27:56, 29:24, 29:29, 45:25
+sûre içi (6): 6:23
+
+9 {'bu': ['6:23'], 'basilan': [], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 0}
+
+### say 6:21 1-8
+kalıp: ومن أظلم ممن افترى على الله كذبا أو | mod: tam
+ayet: 3
+liste: 6:21†, 6:93†, 29:68
+sûre içi (6): 6:21, 6:93
+
+3 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:21 1-8 --on
+kalıp: ومن أظلم ممن افترى على الله كذبا أو | mod: on 
+ayet: 3
+liste: 6:21†, 6:93†, 29:68
+sûre içi (6): 6:21, 6:93
+
+3 {'bu': ['6:21'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:24 7-9
+kalıp: عنهم ما كانوا | mod: tam
+ayet: 12
+liste: 6:24†, 6:88†, 7:53†, 10:30, 11:21, 15:84, 16:87, 26:207, 28:75, 39:50, 40:82, 41:48
+sûre içi (6): 6:24, 6:88
+
+12 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:24 7-9 --on
+kalıp: عنهم ما كانوا | mod: on 
+ayet: 12
+liste: 6:24†, 6:88†, 7:53†, 10:30, 11:21, 15:84, 16:87, 26:207, 28:75, 39:50, 40:82, 41:48
+sûre içi (6): 6:24, 6:88
+
+12 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### dizi 6 22 1 3
+lemma dizisi [('يَوْم',), ('حَشَرَ',), ('جَمِيع',)] | ayet 4
+6:22†, 6:128†, 10:28, 34:40
+
+4 {'bu': ['6:22'], 'basilan': ['10:28'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 24 7 9
+lemma dizisi [('عَن',), ('ما',), ('كانَ',)] | ayet 13
+6:24†, 6:88†, 6:94†, 7:53†, 10:30, 11:21, 15:84, 16:87, 26:207, 28:75, 39:50, 40:82, 41:48
+
+13 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 2}
+
+### say 6:20 1-7
+kalıp: الذين ءاتينهم الكتب يعرفونه كما يعرفون أبنءاءهم | mod: tam
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 1-7 --on
+kalıp: الذين ءاتينهم الكتب يعرفونه كما يعرفون أبنءاءهم | mod: on 
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 21 1 13
+lemma dizisi [('مَن',), ('أَظْلَم',), ('مِن', 'مَن'), ('افْتَرَى',), ('عَلَى',), ('اللَّه',), ('كَذِب',), ('أَو',), ('كَذَّبَ',), ('آيَة',), ('إِنّ',), ('لا',), ('أَفْلَحَ',)] | ayet 2
+6:21†, 10:17
+
+2 {'bu': ['6:21'], 'basilan': ['10:17'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 1-7 --medde
+kalıp: الذين اتينهم الكتب يعرفونه كما يعرفون أبناءهم | mod: tam medde
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:20 1-7 --on --medde
+kalıp: الذين اتينهم الكتب يعرفونه كما يعرفون أبناءهم | mod: on  medde
+ayet: 2
+liste: 2:146, 6:20†
+sûre içi (6): 6:20
+
+2 {'bu': ['6:20'], 'basilan': ['2:146'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:24 5-10
+kalıp: أنفسهم وضل عنهم ما كانوا يفترون | mod: tam
+ayet: 3
+liste: 6:24†, 7:53†, 11:21
+sûre içi (6): 6:24
+
+3 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:24 5-10 --on
+kalıp: أنفسهم وضل عنهم ما كانوا يفترون | mod: on 
+ayet: 3
+liste: 6:24†, 7:53†, 11:21
+sûre içi (6): 6:24
+
+3 {'bu': ['6:24'], 'basilan': ['11:21'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+

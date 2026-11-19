@@ -1,0 +1,61 @@
+6:20:1	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:20:2	ءَاتَيْنَٰهُمُ	V|PERF|VF:4|ROOT:أتي|LEM:آتَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MP
+6:20:3	ٱلْكِتَٰبَ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|ACC
+6:20:4	يَعْرِفُونَهُۥ	V|IMPF|VF:1|ROOT:عرف|LEM:عَرَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+6:20:5	كَمَا	P|P|PREF|LEM:ك + P|SUB|LEM:ما
+6:20:6	يَعْرِفُونَ	V|IMPF|VF:1|ROOT:عرف|LEM:عَرَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:20:7	أَبْنَآءَهُمُ	N|ROOT:بني|LEM:ابْن|MP|ACC + N|PRON|SUFF|3MP
+6:20:8	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:20:9	خَسِرُوٓا۟	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MP + N|PRON|SUFF|3MP
+6:20:10	أَنفُسَهُمْ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|3MP
+6:20:11	فَهُمْ	P|RSLT|PREF|LEM:ف + N|PRON|3MP
+6:20:12	لَا	P|NEG|LEM:لا
+6:20:13	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:21:1	وَمَنْ	P|REM|PREF|LEM:و + N|INTG|LEM:مَن
+6:21:2	أَظْلَمُ	N|ROOT:ظلم|LEM:أَظْلَم|MS|NOM
+6:21:3	مِمَّنِ	P|P|LEM:مِن + N|REL|LEM:مَن
+6:21:4	ٱفْتَرَىٰ	V|PERF|VF:8|ROOT:فري|LEM:افْتَرَى|3MS
+6:21:5	عَلَى	P|P|LEM:عَلَى
+6:21:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:21:7	كَذِبًا	N|ROOT:كذب|LEM:كَذِب|M|INDEF|ACC
+6:21:8	أَوْ	P|CONJ|LEM:أَو
+6:21:9	كَذَّبَ	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MS
+6:21:10	بِـَٔايَٰتِهِۦٓ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|3MS
+6:21:11	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:21:12	لَا	P|NEG|LEM:لا
+6:21:13	يُفْلِحُ	V|IMPF|VF:4|ROOT:فلح|LEM:أَفْلَحَ|3MS|MOOD:IND
+6:21:14	ٱلظَّٰلِمُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|NOM
+6:22:1	وَيَوْمَ	P|REM|PREF|LEM:و + N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:22:2	نَحْشُرُهُمْ	V|IMPF|VF:1|ROOT:حشر|LEM:حَشَرَ|1P|MOOD:IND + N|PRON|SUFF|3MP
+6:22:3	جَمِيعًا	N|ROOT:جمع|LEM:جَمِيع|M|INDEF|ACC
+6:22:4	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:22:5	نَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|1P|MOOD:IND
+6:22:6	لِلَّذِينَ	P|P|PREF|LEM:ل + N|REL|LEM:الَّذِي|MP
+6:22:7	أَشْرَكُوٓا۟	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|3MP + N|PRON|SUFF|3MP
+6:22:8	أَيْنَ	N|INTG|LEM:أَيْن
+6:22:9	شُرَكَآؤُكُمُ	N|ROOT:شرك|LEM:شَرِيك|MP|NOM + N|PRON|SUFF|2MP
+6:22:10	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:22:11	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:22:12	تَزْعُمُونَ	V|IMPF|VF:1|ROOT:زعم|LEM:زَعَمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:23:1	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:23:2	لَمْ	P|NEG|LEM:لَم
+6:23:3	تَكُن	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS|MOOD:JUS
+6:23:4	فِتْنَتُهُمْ	N|ROOT:فتن|LEM:فِتْنَة|F|NOM + N|PRON|SUFF|3MP
+6:23:5	إِلَّآ	P|RES|LEM:إِلّا
+6:23:6	أَن	P|SUB|LEM:أَن
+6:23:7	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:23:8	وَٱللَّهِ	P|P|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:23:9	رَبِّنَا	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1P
+6:23:10	مَا	P|NEG|LEM:ما
+6:23:11	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+6:23:12	مُشْرِكِينَ	N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|ACC
+6:24:1	ٱنظُرْ	V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+6:24:2	كَيْفَ	N|ROOT:كيف|LEM:كَيْف
+6:24:3	كَذَبُوا۟	V|PERF|VF:1|ROOT:كذب|LEM:كَذَبَ|3MP + N|PRON|SUFF|3MP
+6:24:4	عَلَىٰٓ	P|P|LEM:عَلَى
+6:24:5	أَنفُسِهِمْ	N|ROOT:نفس|LEM:نَفْس|FP|GEN + N|PRON|SUFF|3MP
+6:24:6	وَضَلَّ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MS
+6:24:7	عَنْهُم	P|P|LEM:عَن + N|PRON|SUFF|3MP
+6:24:8	مَّا	N|REL|LEM:ما
+6:24:9	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:24:10	يَفْتَرُونَ	V|IMPF|VF:8|ROOT:فري|LEM:افْتَرَى|3MP|MOOD:IND + N|PRON|SUFF|3MP

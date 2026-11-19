@@ -91765,6 +91765,158 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:20": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    3,
+    "كِتاب"
+   ],
+   [
+    7,
+    "ابْن"
+   ],
+   [
+    10,
+    "نَفْس"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:21": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    7,
+    "كَذِب"
+   ],
+   [
+    10,
+    "آيَة"
+   ],
+   [
+    14,
+    "ظالِم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:22": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    3,
+    "جَمِيع"
+   ],
+   [
+    9,
+    "شَرِيك"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:23": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    8,
+    "اللَّه"
+   ],
+   [
+    9,
+    "رَبّ"
+   ],
+   [
+    12,
+    "مُشْرِك"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:24": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    2,
+    "كَيْف"
+   ],
+   [
+    5,
+    "نَفْس"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "6:3": {
   "a": true,
   "bant": "KAPI_KAPALI",

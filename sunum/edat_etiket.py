@@ -16,7 +16,7 @@ EDLEM = {"'lâ'": 'لا', "'li'": 'ل', "'bi'": 'ب', "'fe'": 'ف', "'ve'": 'و'
          "'e'": 'ا', "'mâ'": 'ما', "'men'": 'من', "'min'": 'من', "'fî'": 'في', "''alâ'": 'علي', "'ilâ'": 'الي', "'ma'a'": 'مع',
          "'izâ'": 'اذا', "'izen'": 'اذا', "'len'": 'لن', "'lem'": 'لم', "'qad'": 'قد', "'sevfe'": 'سوف', "'summe'": 'ثم', "'ev'": 'او',
          "'illâ'": 'الا', "'yâ'": 'ي', "'hattâ'": 'حتي', "'ellezîne'": 'الذي', "'ellezî'": 'الذي', "'ellâtî'": 'الذي', "''an'": 'عن',
-         "'lev'": 'لو', "'ke'": 'ك', "'kâne'": 'كان', "'le'": 'ل', "'lâkin'": 'لكن', "'lâkinne'": 'لكن', "'hîne'": 'حين', "'hel'": 'هل', "'leyse'": 'ليس', "'lemmâ'": 'لما', "'kem'": 'كم', "'levlâ'": 'لولا', "'n'": 'ن', "'zâ'": 'ذا', "'eyy'": 'أي'}  # bölüm 14 denetimi kuralı 9: 'lâkinne', 'hîne'
+         "'lev'": 'لو', "'ke'": 'ك', "'kâne'": 'كان', "'le'": 'ل', "'lâkin'": 'لكن', "'lâkinne'": 'لكن', "'hîne'": 'حين', "'hel'": 'هل', "'leyse'": 'ليس', "'lemmâ'": 'لما', "'kem'": 'كم', "'levlâ'": 'لولا', "'n'": 'ن', "'zâ'": 'ذا', "'eyy'": 'أي', "'eyne'": 'أين'}  # bölüm 14 denetimi kuralı 9: 'lâkinne', 'hîne'
 ZAMIR = {"'kum'", "'hum'", "'hu'", "'hû'", "'hî'", "'hi'", "'hinne'", "'hunne'", "'himâ'", "'humâ'", "'nâ'", "'û'", "'ûne'", "'tum'", "'him'", "'huve'", "'nahnu'", "'î'", "'nî'", "'te'", "'tu'", "'ti'", "'tumâ'", "'â'", "'ye'"}  # bölüm 5 kuralı 2: tekil / ikil zamirler, etiket kendi PRON segmentinden
 def etiket(n, w, ed):
     seg = [(feat.split('|')[0], feat) for ww, p, f, t, feat in MORALL[n] if ww == w]
