@@ -1522,4 +1522,6 @@ KARAR = {
     # sure 6 blok 25-28
     '6:25:32': 'degil',  # 'esâtîru'l-evvelîn' — çoğul insan göndergeli → degil (insan topluluğu)
     '6:27:16': 'degil',  # 'mine'l-mu'minîn' — çoğul insan göndergeli → degil (insan topluluğu)
+    # sure 6 blok 29-32
+    '6:32:8': 'degil',  # 'l-âxiratu' — esmâ adı esmâ dışı göndergeyle → degil (yurdun sıfatı)
 }

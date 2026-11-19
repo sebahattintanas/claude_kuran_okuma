@@ -1,0 +1,67 @@
+6:29:1	وَقَالُوٓا۟	P|REM|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:29:2	إِنْ	P|NEG|LEM:إِن
+6:29:3	هِىَ	N|PRON|3FS
+6:29:4	إِلَّا	P|RES|LEM:إِلّا
+6:29:5	حَيَاتُنَا	N|ROOT:حيي|LEM:حَياة|F|NOM + N|PRON|SUFF|1P
+6:29:6	ٱلدُّنْيَا	P|DET|PREF|LEM:ال + N|ROOT:دنو|LEM:دُنْيا|FS|NOM|ADJ
+6:29:7	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:29:8	نَحْنُ	N|PRON|1P
+6:29:9	بِمَبْعُوثِينَ	P|P|PREF|LEM:ب + N|PASS_PCPL|VF:1|ROOT:بعث|LEM:مَبْعُوث|MP|GEN
+6:30:1	وَلَوْ	P|CONJ|PREF|LEM:و + P|COND|LEM:لَو
+6:30:2	تَرَىٰٓ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|2MS|MOOD:IND
+6:30:3	إِذْ	N|T|LEM:إِذ
+6:30:4	وُقِفُوا۟	V|PERF|VF:1|PASS|ROOT:وقف|LEM:وُقِفُ|3MP + N|PRON|SUFF|3MP
+6:30:5	عَلَىٰ	P|P|LEM:عَلَى
+6:30:6	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:30:7	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:30:8	أَلَيْسَ	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+6:30:9	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:30:10	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:30:11	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:30:12	بَلَىٰ	P|ANS|LEM:بَلَى
+6:30:13	وَرَبِّنَا	P|P|PREF|LEM:و + N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1P
+6:30:14	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:30:15	فَذُوقُوا۟	P|SUP|PREF|LEM:ف + V|IMPV|VF:1|ROOT:ذوق|LEM:ذاقُ|2MP + N|PRON|SUFF|2MP
+6:30:16	ٱلْعَذَابَ	P|DET|PREF|LEM:ال + N|ROOT:عذب|LEM:عَذاب|M|ACC
+6:30:17	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:30:18	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:30:19	تَكْفُرُونَ	V|IMPF|VF:1|ROOT:كفر|LEM:كَفَرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:31:1	قَدْ	P|CERT|LEM:قَد
+6:31:2	خَسِرَ	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MS
+6:31:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:31:4	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+6:31:5	بِلِقَآءِ	P|P|PREF|LEM:ب + N|VN|VF:3|ROOT:لقي|LEM:لِقاء|M|GEN
+6:31:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:31:7	حَتَّىٰٓ	P|INC|LEM:حَتَّى
+6:31:8	إِذَا	N|T|LEM:إِذا
+6:31:9	جَآءَتْهُمُ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS + N|PRON|SUFF|3MP
+6:31:10	ٱلسَّاعَةُ	P|DET|PREF|LEM:ال + N|ROOT:سوع|LEM:ساعَة|F|NOM
+6:31:11	بَغْتَةً	N|ROOT:بغت|LEM:بَغْتَة|F|INDEF|ACC
+6:31:12	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:31:13	يَٰحَسْرَتَنَا	P|VOC|PREF|LEM:ي + N|ROOT:حسر|LEM:حَسْرَت|F|ACC + N|PRON|SUFF|1P
+6:31:14	عَلَىٰ	P|P|LEM:عَلَى
+6:31:15	مَا	N|REL|LEM:ما
+6:31:16	فَرَّطْنَا	V|PERF|VF:2|ROOT:فرط|LEM:فَرَّط|1P + N|PRON|SUFF|1P
+6:31:17	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+6:31:18	وَهُمْ	P|CIRC|PREF|LEM:و + N|PRON|3MP
+6:31:19	يَحْمِلُونَ	V|IMPF|VF:1|ROOT:حمل|LEM:حَمَلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:31:20	أَوْزَارَهُمْ	N|ROOT:وزر|LEM:وِزْر|FP|ACC + N|PRON|SUFF|3MP
+6:31:21	عَلَىٰ	P|P|LEM:عَلَى
+6:31:22	ظُهُورِهِمْ	N|ROOT:ظهر|LEM:ظَهْر|MP|GEN + N|PRON|SUFF|3MP
+6:31:23	أَلَا	P|ATT|LEM:أَلا
+6:31:24	سَآءَ	V|PERF|VF:1|ROOT:سوأ|LEM:ساءَ|3MS
+6:31:25	مَا	N|REL|LEM:ما
+6:31:26	يَزِرُونَ	V|IMPF|VF:1|ROOT:وزر|LEM:يَزِرُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:32:1	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+6:32:2	ٱلْحَيَوٰةُ	P|DET|PREF|LEM:ال + N|ROOT:حيي|LEM:حَياة|F|NOM
+6:32:3	ٱلدُّنْيَآ	P|DET|PREF|LEM:ال + N|ROOT:دنو|LEM:دُنْيا|FS|NOM|ADJ
+6:32:4	إِلَّا	P|RES|LEM:إِلّا
+6:32:5	لَعِبٌ	N|ROOT:لعب|LEM:لَعِب|M|INDEF|NOM
+6:32:6	وَلَهْوٌ	P|CONJ|PREF|LEM:و + N|ROOT:لهو|LEM:لَهْو|M|INDEF|NOM
+6:32:7	وَلَلدَّارُ	P|CONJ|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ROOT:دور|LEM:دار|FS|NOM
+6:32:8	ٱلْءَاخِرَةُ	P|DET|PREF|LEM:ال + N|ROOT:أخر|LEM:آخِر|FS|NOM|ADJ
+6:32:9	خَيْرٌ	N|ROOT:خير|LEM:خَيْر|MS|INDEF|NOM
+6:32:10	لِّلَّذِينَ	P|P|PREF|LEM:ل + N|REL|LEM:الَّذِي|MP
+6:32:11	يَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:32:12	أَفَلَا	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+6:32:13	تَعْقِلُونَ	V|IMPF|VF:1|ROOT:عقل|LEM:عَقَلُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
