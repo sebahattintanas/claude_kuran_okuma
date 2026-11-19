@@ -1,0 +1,328 @@
+### say 6:6 1-4
+kalıp: ألم يروا كم أهلكنا | mod: tam
+ayet: 2
+liste: 6:6†, 36:31
+sûre içi (6): 6:6
+
+2 {'bu': ['6:6'], 'basilan': ['36:31'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 3-8
+kalıp: كم أهلكنا من قبلهم من قرن | mod: tam
+ayet: 2
+liste: 6:6†, 38:3
+sûre içi (6): 6:6
+
+2 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 5-6
+kalıp: من قبلهم | mod: tam
+ayet: 37
+liste: 2:118, 3:11, 6:6†, 6:148†, 8:52†, 8:54†, 9:70, 10:39, 10:102, 12:109, 13:6, 13:42, 16:26, 16:33, 16:35, 24:55, 24:59, 29:3, 30:9, 32:26, 34:45, 35:25, 35:44, 38:3, 39:25, 39:50, 40:21, 40:82, 41:25, 44:37, 46:18, 47:10, 51:52, 58:5, 59:9, 59:15, 67:18
+sûre içi (6): 6:6, 6:148
+
+37 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 33, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 1}
+
+### say 6:6 9-15
+kalıp: مكنهم فى الأرض ما لم نمكن لكم | mod: tam
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 16-19 --on
+kalıp: وأرسلنا السمءاء عليهم مدرارا | mod: on 
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 20-24 --on
+kalıp: وجعلنا الأنهر تجرى من تحتهم | mod: on 
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 21-24
+kalıp: الأنهر تجرى من تحتهم | mod: tam
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 25-26 --on
+kalıp: فأهلكنهم بذنوبهم | mod: on 
+ayet: 2
+liste: 6:6†, 8:54†
+sûre içi (6): 6:6
+
+2 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:6 27-31 --on
+kalıp: وأنشأنا من بعدهم قرنا ءاخرين | mod: on 
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 28-31
+kalıp: من بعدهم قرنا ءاخرين | mod: tam
+ayet: 2
+liste: 6:6†, 23:31
+sûre içi (6): 6:6
+
+2 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 1-6 --on
+kalıp: ولو نزلنا عليك كتبا فى قرطاس | mod: on 
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 7-8 --on
+kalıp: فلمسوه بأيديهم | mod: on 
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 9-16 --on
+kalıp: لقال الذين كفروا إن هذءا إلا سحر مبين | mod: on 
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 10-16
+kalıp: الذين كفروا إن هذءا إلا سحر مبين | mod: tam
+ayet: 2
+liste: 6:7†, 11:7
+sûre içi (6): 6:7
+
+2 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 7 9 14
+lemma dizisi [('قالَ',), ('الَّذِي',), ('كَفَرَ',), ('إِن',), ('ذا',), ('إِلّا',)] | ayet 4
+6:7†, 6:25†, 11:7, 25:4
+
+4 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:7 12-16
+kalıp: إن هذءا إلا سحر مبين | mod: tam
+ayet: 5
+liste: 5:110, 6:7†, 11:7, 34:43, 37:15
+sûre içi (6): 6:7
+
+5 {'bu': ['6:7'], 'basilan': ['5:110'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:8 1-5 --on
+kalıp: وقالوا لولءا أنزل عليه ملك | mod: on 
+ayet: 1
+liste: 6:8†
+sûre içi (6): 6:8
+
+1 {'bu': ['6:8'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:8 6-10 --on
+kalıp: ولو أنزلنا ملكا لقضى الأمر | mod: on 
+ayet: 1
+liste: 6:8†
+sûre içi (6): 6:8
+
+1 {'bu': ['6:8'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:8 9-10 --on
+kalıp: لقضى الأمر | mod: on 
+ayet: 2
+liste: 6:8†, 6:58†
+sûre içi (6): 6:8, 6:58
+
+2 {'bu': ['6:8'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:8 11-13
+kalıp: ثم لا ينظرون | mod: tam
+ayet: 1
+liste: 6:8†
+sûre içi (6): 6:8
+
+1 {'bu': ['6:8'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:9 1-5 --on
+kalıp: ولو جعلنه ملكا لجعلنه رجلا | mod: on 
+ayet: 1
+liste: 6:9†
+sûre içi (6): 6:9
+
+1 {'bu': ['6:9'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:9 6-9 --on
+kalıp: وللبسنا عليهم ما يلبسون | mod: on 
+ayet: 1
+liste: 6:9†
+sûre içi (6): 6:9
+
+1 {'bu': ['6:9'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:10 1-5 --on
+kalıp: ولقد استهزئ برسل من قبلك | mod: on 
+ayet: 3
+liste: 6:10†, 13:32, 21:41
+sûre içi (6): 6:10
+
+3 {'bu': ['6:10'], 'basilan': ['21:41'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:10 6-13 --on
+kalıp: فحاق بالذين سخروا منهم ما كانوا به يستهزءون | mod: on 
+ayet: 2
+liste: 6:10†, 21:41
+sûre içi (6): 6:10
+
+2 {'bu': ['6:10'], 'basilan': ['21:41'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:10 10-13
+kalıp: ما كانوا به يستهزءون | mod: tam
+ayet: 10
+liste: 6:5, 6:10†, 11:8, 16:34, 21:41, 26:6, 39:48, 40:83, 45:33, 46:26
+sûre içi (6): 6:5, 6:10
+
+10 {'bu': ['6:10'], 'basilan': ['6:5', '21:41', '26:6'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 10 10 13
+lemma dizisi [('ما',), ('كانَ',), (), ('اسْتُهْزِئَ',)] | ayet 10
+6:5, 6:10†, 11:8, 16:34, 21:41, 26:6, 39:48, 40:83, 45:33, 46:26
+
+10 {'bu': ['6:10'], 'basilan': ['6:5', '21:41', '26:6'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:10 3-5
+kalıp: برسل من قبلك | mod: tam
+ayet: 3
+liste: 6:10†, 13:32, 21:41
+sûre içi (6): 6:10
+
+3 {'bu': ['6:10'], 'basilan': ['21:41'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 10 3 5
+lemma dizisi [('رَسُول',), ('مِن',), ('قَبْل',)] | ayet 11
+3:183, 3:184, 6:10†, 6:34†, 9:107, 13:32, 13:38, 21:41, 35:4, 40:78, 41:43
+
+11 {'bu': ['6:10'], 'basilan': ['21:41'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:11 1-4
+kalıp: قل سيروا فى الأرض | mod: tam
+ayet: 4
+liste: 6:11†, 27:69, 29:20, 30:42
+sûre içi (6): 6:11
+
+4 {'bu': ['6:11'], 'basilan': ['27:69'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:11 5-10
+kalıp: ثم انظروا كيف كان عقبة المكذبين | mod: tam
+ayet: 1
+liste: 6:11†
+sûre içi (6): 6:11
+
+1 {'bu': ['6:11'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:11 6-9
+kalıp: انظروا كيف كان عقبة | mod: tam
+ayet: 1
+liste: 6:11†
+sûre içi (6): 6:11
+
+1 {'bu': ['6:11'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 16-19 --on --medde
+kalıp: وأرسلنا السماء عليهم مدرارا | mod: on  medde
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 27-31 --on --medde
+kalıp: وأنشأنا من بعدهم قرنا اخرين | mod: on  medde
+ayet: 1
+liste: 6:6†
+sûre içi (6): 6:6
+
+1 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 28-31 --medde
+kalıp: من بعدهم قرنا اخرين | mod: tam medde
+ayet: 2
+liste: 6:6†, 23:31
+sûre içi (6): 6:6
+
+2 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 9-16 --on --medde
+kalıp: لقال الذين كفروا إن هذا إلا سحر مبين | mod: on  medde
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 10-16 --medde
+kalıp: الذين كفروا إن هذا إلا سحر مبين | mod: tam medde
+ayet: 2
+liste: 6:7†, 11:7
+sûre içi (6): 6:7
+
+2 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 12-16 --medde
+kalıp: إن هذا إلا سحر مبين | mod: tam medde
+ayet: 5
+liste: 5:110, 6:7†, 11:7, 34:43, 37:15
+sûre içi (6): 6:7
+
+5 {'bu': ['6:7'], 'basilan': ['5:110'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:8 1-5 --on --medde
+kalıp: وقالوا لولا أنزل عليه ملك | mod: on  medde
+ayet: 1
+liste: 6:8†
+sûre içi (6): 6:8
+
+1 {'bu': ['6:8'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:6 5-7
+kalıp: من قبلهم من | mod: tam
+ayet: 6
+liste: 6:6†, 32:26, 38:3, 41:25, 46:18, 51:52
+sûre içi (6): 6:6
+
+6 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 6 5 7
+lemma dizisi [('مِن',), ('قَبْل',), ('مِن',)] | ayet 19
+2:198, 3:186, 6:6†, 6:84†, 7:38†, 12:3, 15:27, 21:25, 22:52, 28:78, 29:48, 30:4, 32:26, 38:3, 40:78, 41:25, 43:45, 46:18, 51:52
+
+19 {'bu': ['6:6'], 'basilan': [], 'eski': 0, 'okunmus': 16, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:7 9-14
+kalıp: لقال الذين كفروا إن هذءا إلا | mod: tam
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:7 9-14 --medde
+kalıp: لقال الذين كفروا إن هذا إلا | mod: tam medde
+ayet: 1
+liste: 6:7†
+sûre içi (6): 6:7
+
+1 {'bu': ['6:7'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
