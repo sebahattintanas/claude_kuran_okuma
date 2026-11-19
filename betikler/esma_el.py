@@ -1513,4 +1513,10 @@ KARAR = {
     '6:14:5': 'degil',  # 'eğayra'llâhi ettexizu veliyyen' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     # sure 6 blok 12-15 (ek)
     '6:14:18': 'degil',  # 'evvele men eslem' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 16-19
+    '6:16:9': 'degil',  # 'l-fevzu'l-mubîn' — esmâ adı esmâ dışı göndergeyle → degil (kurtuluşun sıfatı)
+    '6:17:17': 'ilahi',  # 'fe-huve 'alâ kulli şey'in qadîr' — zamirin haberi → ilahi (Allah)
+    '6:18:6': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
+    '6:18:7': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
+    '6:19:8': 'ilahi',  # 'llâhu şehîdun beynî ve beynekum' — lafzın haberi → ilahi (Allah)
 }

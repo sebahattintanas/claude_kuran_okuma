@@ -88,6 +88,8 @@ if EMS:
             EN['ortak'] += 1
             i0, i1 = L1[best[1]][0], L1[best[1] + best[0] - 1][0]
             ok = any(re.match(r'say %d:%d (\d+)-(\d+)' % (S, a), k) and int(re.match(r'say %d:%d (\d+)-(\d+)' % (S, a), k).group(1)) <= i0 and int(re.match(r'say %d:%d (\d+)-(\d+)' % (S, a), k).group(2)) >= i1 and e in S2K[k] for k in S2K)
+            # sûre 6 blok 4: zamir eki farkında harekesiz eş yok — lemma dizisi anahtarı ('dizi S a i j') da kabul
+            ok = ok or any(re.match(r'dizi %d %d (\d+) (\d+)$' % (S, a), k) and int(re.match(r'dizi %d %d (\d+) (\d+)' % (S, a), k).group(1)) <= i0 and int(re.match(r'dizi %d %d (\d+) (\d+)' % (S, a), k).group(2)) >= i1 and e in S2K[k] for k in S2K)
             if not ok: H.append("(3) %d:%d / %s ortak lemma dizisi %d-%d. kelime say2'de emsali bulan sayımla yok" % (S, a, e, i0, i1))
 
 # ── (4) TEKIL_ON ──
