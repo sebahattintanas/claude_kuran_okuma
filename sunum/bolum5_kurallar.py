@@ -148,7 +148,7 @@ for (a, n), f in sorted(MOR.items()):
     r = re.search(r'ROOT:([^|]+)', f); r = r.group(1) if r else None
     T = bool(re.search(r'(?:^|\| |\+ )N\|T(?:\||$)', f))
     if (r in ADAY and r not in TETIK) or (T and r not in TETIK):
-        etiket = (r or '') + (' (morph T)' if T else '')
+        etiket = (r or '—') + (' (morph T)' if T else '')  # sûre 6 bölüm 1 denetimi kuralı 13: boş kök alanı yok
         TD.append('%d:%d %d. kelime %s' % (S, a, n, etiket))
         if not ((r and r in bolum(a)) or re.search(r'(?<!\d)%d\. kelime' % n, bolum(a))): TDY.append('%d:%d %d. kelime %s' % (S, a, n, etiket))
 print('tetik dışı aday %d: %s; ◈ tetik maddesinde anılmayan %d%s' % (len(TD), ', '.join(TD) or 'yok', len(TDY), (' (' + ', '.join(TDY) + ')') if TDY else ''))
