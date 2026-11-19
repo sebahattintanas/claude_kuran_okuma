@@ -1519,4 +1519,7 @@ KARAR = {
     '6:18:6': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
     '6:18:7': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
     '6:19:8': 'ilahi',  # 'llâhu şehîdun beynî ve beynekum' — lafzın haberi → ilahi (Allah)
+    # sure 6 blok 25-28
+    '6:25:32': 'degil',  # 'esâtîru'l-evvelîn' — çoğul insan göndergeli → degil (insan topluluğu)
+    '6:27:16': 'degil',  # 'mine'l-mu'minîn' — çoğul insan göndergeli → degil (insan topluluğu)
 }

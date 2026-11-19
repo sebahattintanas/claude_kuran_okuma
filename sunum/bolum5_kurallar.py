@@ -84,7 +84,7 @@ for bag, ad, notlu in adlar:
     if kb is not None:  # bölüm 8 kuralı 9: kaydın kendi bloğunun morph LEM'inden
         if all(BL[kb]) and not notlu: NOTSUZ.append('%s %s' % (bag, ad))
         continue
-    if not aday and k in BLP: continue  # edat adı ('bel', 'lev' …)
+    if not aday and (k in BLP or (ad.endswith('â') and k + 'y' in BLP)): continue  # edat adı ('bel', 'lev' …); sûre 6 blok 6: 'â' ile biten edat adında elif maksûre ى ('hattâ' → حتى)
     if not aday:
         aday = sorted(set().union(*[LEMS2.get(zayif(x), set()) for x in (k, k.rstrip('n'), k.rstrip('h'))]))
     if not aday:

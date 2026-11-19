@@ -1,0 +1,75 @@
+6:25:1	وَمِنْهُم	P|REM|PREF|LEM:و + P|P|LEM:مِن + N|PRON|SUFF|3MP
+6:25:2	مَّن	N|REL|LEM:مَن
+6:25:3	يَسْتَمِعُ	V|IMPF|VF:8|ROOT:سمع|LEM:اسْتَمَعَ|3MS|MOOD:IND
+6:25:4	إِلَيْكَ	P|P|LEM:إِلَى + N|PRON|SUFF|2MS
+6:25:5	وَجَعَلْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P
+6:25:6	عَلَىٰ	P|P|LEM:عَلَى
+6:25:7	قُلُوبِهِمْ	N|ROOT:قلب|LEM:قَلْب|FP|GEN + N|PRON|SUFF|3MP
+6:25:8	أَكِنَّةً	N|ROOT:كنن|LEM:أَكِنَّة|F|INDEF|ACC
+6:25:9	أَن	P|SUB|LEM:أَن
+6:25:10	يَفْقَهُوهُ	V|IMPF|VF:1|ROOT:فقه|LEM:يَفْقَهُ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+6:25:11	وَفِىٓ	P|CONJ|PREF|LEM:و + P|P|LEM:فِي
+6:25:12	ءَاذَانِهِمْ	N|ROOT:أذن|LEM:أُذُن|FP|GEN + N|PRON|SUFF|3MP
+6:25:13	وَقْرًا	N|ROOT:وقر|LEM:وَقْر|M|INDEF|ACC
+6:25:14	وَإِن	P|REM|PREF|LEM:و + P|COND|LEM:إِن
+6:25:15	يَرَوْا۟	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|3MP|MOOD:JUS + N|PRON|SUFF|3MP
+6:25:16	كُلَّ	N|ROOT:كلل|LEM:كُلّ|M|ACC
+6:25:17	ءَايَةٍ	N|ROOT:أيي|LEM:آيَة|FS|INDEF|GEN
+6:25:18	لَّا	P|NEG|LEM:لا
+6:25:19	يُؤْمِنُوا۟	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:JUS + N|PRON|SUFF|3MP
+6:25:20	بِهَا	P|P|PREF|LEM:ب + N|PRON|3FS
+6:25:21	حَتَّىٰٓ	P|INC|LEM:حَتَّى
+6:25:22	إِذَا	N|T|LEM:إِذا
+6:25:23	جَآءُوكَ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+6:25:24	يُجَٰدِلُونَكَ	V|IMPF|VF:3|ROOT:جدل|LEM:جادَلُ|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+6:25:25	يَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MS|MOOD:IND
+6:25:26	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:25:27	كَفَرُوٓا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+6:25:28	إِنْ	P|NEG|LEM:إِن
+6:25:29	هَٰذَآ	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:25:30	إِلَّآ	P|RES|LEM:إِلّا
+6:25:31	أَسَٰطِيرُ	N|ROOT:سطر|LEM:أَساطِير|MP|NOM
+6:25:32	ٱلْأَوَّلِينَ	P|DET|PREF|LEM:ال + N|ROOT:أول|LEM:أَوَّل|MP|GEN
+6:26:1	وَهُمْ	P|CIRC|PREF|LEM:و + N|PRON|3MP
+6:26:2	يَنْهَوْنَ	V|IMPF|VF:1|ROOT:نهي|LEM:نَهَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:26:3	عَنْهُ	P|P|LEM:عَن + N|PRON|SUFF|3MS
+6:26:4	وَيَنْـَٔوْنَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:نأي|LEM:نَأَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:26:5	عَنْهُ	P|P|LEM:عَن + N|PRON|SUFF|3MS
+6:26:6	وَإِن	P|REM|PREF|LEM:و + P|NEG|LEM:إِن
+6:26:7	يُهْلِكُونَ	V|IMPF|VF:4|ROOT:هلك|LEM:أَهْلَكَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:26:8	إِلَّآ	P|RES|LEM:إِلّا
+6:26:9	أَنفُسَهُمْ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|3MP
+6:26:10	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:26:11	يَشْعُرُونَ	V|IMPF|VF:1|ROOT:شعر|LEM:يَشْعُرُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:27:1	وَلَوْ	P|CONJ|PREF|LEM:و + P|COND|LEM:لَو
+6:27:2	تَرَىٰٓ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|2MS|MOOD:IND
+6:27:3	إِذْ	N|T|LEM:إِذ
+6:27:4	وُقِفُوا۟	V|PERF|VF:1|PASS|ROOT:وقف|LEM:وُقِفُ|3MP + N|PRON|SUFF|3MP
+6:27:5	عَلَى	P|P|LEM:عَلَى
+6:27:6	ٱلنَّارِ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|GEN
+6:27:7	فَقَالُوا۟	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:27:8	يَٰلَيْتَنَا	P|VOC|PREF|LEM:ي + P|ACC|LEM:لَيْت|FAM:إِنّ + N|PRON|SUFF|1P
+6:27:9	نُرَدُّ	V|IMPF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|1P|MOOD:IND
+6:27:10	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:27:11	نُكَذِّبَ	V|IMPF|VF:2|ROOT:كذب|LEM:كَذَّبَ|1P|MOOD:SUBJ
+6:27:12	بِـَٔايَٰتِ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:27:13	رَبِّنَا	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1P
+6:27:14	وَنَكُونَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P|MOOD:SUBJ
+6:27:15	مِنَ	P|P|LEM:مِن
+6:27:16	ٱلْمُؤْمِنِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|GEN
+6:28:1	بَلْ	P|RET|LEM:بَل
+6:28:2	بَدَا	V|PERF|VF:1|ROOT:بدو|LEM:بَدا|3MS
+6:28:3	لَهُم	P|P|PREF|LEM:ل + N|PRON|3MP
+6:28:4	مَّا	N|REL|LEM:ما
+6:28:5	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:28:6	يُخْفُونَ	V|IMPF|VF:4|ROOT:خفي|LEM:أُخْفِيَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:28:7	مِن	P|P|LEM:مِن
+6:28:8	قَبْلُ	N|ROOT:قبل|LEM:قَبْل|GEN
+6:28:9	وَلَوْ	P|REM|PREF|LEM:و + P|COND|LEM:لَو
+6:28:10	رُدُّوا۟	V|PERF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|3MP + N|PRON|SUFF|3MP
+6:28:11	لَعَادُوا۟	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:عود|LEM:عادَ|3MP + N|PRON|SUFF|3MP
+6:28:12	لِمَا	P|P|PREF|LEM:ل + N|REL|LEM:ما
+6:28:13	نُهُوا۟	V|PERF|VF:1|PASS|ROOT:نهي|LEM:نَهَى|3MP + N|PRON|SUFF|3MP
+6:28:14	عَنْهُ	P|P|LEM:عَن + N|PRON|SUFF|3MS
+6:28:15	وَإِنَّهُمْ	P|REM|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:28:16	لَكَٰذِبُونَ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:1|ROOT:كذب|LEM:كاذِب|MP|NOM
