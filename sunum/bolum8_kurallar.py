@@ -83,12 +83,13 @@ def norm(x):  # yazım eşdeğeri: uzunluk işareti, 'iyy' / 'î', çift harf, b
     t = re.sub(r'(.)\1+', r'\1', t)
     return ('a' + t[1:]) if t[:1] == 'e' else t
 ONCE = {}
+AYRI = {'ilâ': {'illâ'}, 'illâ': {'ilâ'}, 'etâ': {'âtâ'}, 'âtâ': {'etâ'}, 'qâdir': {'qadîr'}, 'qadîr': {'qâdir'}}
 for f in sorted(glob.glob(Y + 'ariza_%d_*_*.txt' % S), key=lambda p: int(p.split('_')[-2])):
     if int(f.split('_')[-2]) >= A: continue
     for it in [m for v in ast.literal_eval('{' + open(f, encoding='utf-8').read() + '}').values() for m in v if m.startswith('bağ:')]:
         for x in liste(it): ONCE.setdefault(norm(x), set()).add(x)
 for x in sorted(LL):
-    es = ONCE.get(norm(x), set())
+    es = ONCE.get(norm(x), set()) - AYRI.get(x, set())  # sûre 6 blok 9: yazım eşdeğeri iskeletinde ayrı lemmalar ('ilâ' إِلَى / 'illâ' إِلّا)
     if es and x not in es: H.append("(5) lemma adı '%s' — önceki bloklarda eş iskeletli ad %s" % (x, ', '.join(sorted(es))))
 # ── (6) meal karşılık farkı kararları ──
 kr = ' '.join(item('meal karşılık farkı kararları'))

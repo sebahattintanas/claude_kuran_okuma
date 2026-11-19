@@ -92344,6 +92344,102 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:37": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    11,
+    "قادِر"
+   ],
+   [
+    15,
+    "آيَة"
+   ],
+   [
+    17,
+    "أَكْثَر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:38": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    16,
+    "كِتاب"
+   ],
+   [
+    18,
+    "شَىْء"
+   ],
+   [
+    21,
+    "رَبّ"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:39": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    10,
+    "اللَّه"
+   ],
+   [
+    16,
+    "صِراط"
+   ],
+   [
+    17,
+    "مُسْتَقِيم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "6:4": {
   "a": false,
   "bant": "KAPI_KAPALI",
@@ -92373,6 +92469,57 @@
     "مُعْرِض"
    ]
   ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:40": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    10,
+    "غَيْر"
+   ],
+   [
+    11,
+    "اللَّه"
+   ],
+   [
+    15,
+    "صادِق"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:41": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [],
   "ton": null,
   "ton_kismi": false
  },

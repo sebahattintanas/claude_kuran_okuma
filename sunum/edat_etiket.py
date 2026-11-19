@@ -12,7 +12,7 @@ for f in sorted(glob.glob(_BK + 'b*/morph%d.txt' % S)):
 def _n(x):
     x = ''.join(c for c in ud.normalize('NFD', x) if not ud.combining(c))
     return x.replace('إ', 'ا').replace('أ', 'ا').replace('آ', 'ا').replace('ٱ', 'ا').replace('ى', 'ي').replace('ٰ', '')
-EDLEM = {"'lâ'": 'لا', "'li'": 'ل', "'bi'": 'ب', "'fe'": 'ف', "'ve'": 'و', "'in'": 'ان', "'inne'": 'ان', "'en'": 'ان', "'enne'": 'ان',
+EDLEM = {"'iyyâ'": 'ايا', "'lâ'": 'لا', "'li'": 'ل', "'bi'": 'ب', "'fe'": 'ف', "'ve'": 'و', "'in'": 'ان', "'inne'": 'ان', "'en'": 'ان', "'enne'": 'ان',
          "'e'": 'ا', "'mâ'": 'ما', "'men'": 'من', "'min'": 'من', "'fî'": 'في', "''alâ'": 'علي', "'ilâ'": 'الي', "'ma'a'": 'مع',
          "'izâ'": 'اذا', "'izen'": 'اذا', "'len'": 'لن', "'lem'": 'لم', "'qad'": 'قد', "'sevfe'": 'سوف', "'summe'": 'ثم', "'ev'": 'او',
          "'illâ'": 'الا', "'yâ'": 'ي', "'hattâ'": 'حتي', "'ellezîne'": 'الذي', "'ellezî'": 'الذي', "'ellâtî'": 'الذي', "''an'": 'عن',
