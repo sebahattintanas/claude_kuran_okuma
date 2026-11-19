@@ -20,6 +20,9 @@ BAGLAR = {"AS_enam": [
  {'bag': '5:110 → 6:7', 'kural': "okuma — harekesiz 'in hâzâ illâ sihrun mubîn'", 'not': 'kalıp eşi (sayım); ölçüm xref; sûre 5 okumasında basılmış.'},
  {'bag': '21:41 → 6:10', 'kural': "okuma — harekesiz 'bi-rusulin min qablik'", 'not': 'kalıp eşi (sayım); esit2 YAKIN.'},
  {'bag': '27:69 → 6:11', 'kural': "okuma — harekesiz 'qul sîrû fi'l-ard'", 'not': 'kalıp eşi (sayım); esit2 BENZER.'},
+ # blok 12-15
+ {'bag': '4:87 → 6:12', 'kural': "okuma — harekesiz 'le-yecma'annekum ilâ yevmi'l-qiyâmeti lâ raybe fîh'", 'not': 'kalıp eşi (sayım); ölçüm xref.'},
+ {'bag': '39:13 → 6:15', 'kural': "okuma — harekesiz 'qul innî exâfu in 'aseytu rabbî 'azâbe yevmin 'azîm'", 'not': 'kalıp eşi (sayım); esit2 TAM.'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

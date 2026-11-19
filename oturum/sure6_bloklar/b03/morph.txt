@@ -1,0 +1,67 @@
+6:12:1	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:12:2	لِّمَن	P|P|PREF|LEM:ل + N|INTG|LEM:مَن
+6:12:3	مَّا	N|REL|LEM:ما
+6:12:4	فِى	P|P|LEM:فِي
+6:12:5	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+6:12:6	وَٱلْأَرْضِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:12:7	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:12:8	لِّلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:12:9	كَتَبَ	V|PERF|VF:1|ROOT:كتب|LEM:كَتَبَ|3MS
+6:12:10	عَلَىٰ	P|P|LEM:عَلَى
+6:12:11	نَفْسِهِ	N|ROOT:نفس|LEM:نَفْس|FS|GEN + N|PRON|SUFF|3MS
+6:12:12	ٱلرَّحْمَةَ	P|DET|PREF|LEM:ال + N|ROOT:رحم|LEM:رَحْمَة|F|ACC
+6:12:13	لَيَجْمَعَنَّكُمْ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:جمع|LEM:جَمَعَ|3MS|MOOD:IND + P|EMPH|SUFF|LEM:ن + N|PRON|SUFF|2MP
+6:12:14	إِلَىٰ	P|P|LEM:إِلَى
+6:12:15	يَوْمِ	N|ROOT:يوم|LEM:يَوْم|M|GEN
+6:12:16	ٱلْقِيَٰمَةِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قِيامَة|F|GEN
+6:12:17	لَا	P|NEG|LEM:لا|FAM:إِنّ
+6:12:18	رَيْبَ	N|ROOT:ريب|LEM:رَيْب|M|ACC
+6:12:19	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+6:12:20	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:12:21	خَسِرُوٓا۟	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MP + N|PRON|SUFF|3MP
+6:12:22	أَنفُسَهُمْ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|3MP
+6:12:23	فَهُمْ	P|REM|PREF|LEM:ف + N|PRON|3MP
+6:12:24	لَا	P|NEG|LEM:لا
+6:12:25	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:13:1	وَلَهُۥ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ل + N|PRON|3MS
+6:13:2	مَا	N|REL|LEM:ما
+6:13:3	سَكَنَ	V|PERF|VF:1|ROOT:سكن|LEM:سَكَنَ|3MS
+6:13:4	فِى	P|P|LEM:فِي
+6:13:5	ٱلَّيْلِ	P|DET|PREF|LEM:ال + N|ROOT:ليل|LEM:لَيْل|M|GEN
+6:13:6	وَٱلنَّهَارِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نهر|LEM:نَهار|M|GEN
+6:13:7	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:13:8	ٱلسَّمِيعُ	P|DET|PREF|LEM:ال + N|ROOT:سمع|LEM:سَمِيع|MS|NOM
+6:13:9	ٱلْعَلِيمُ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عَلِيم|MS|NOM|ADJ
+6:14:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:14:2	أَغَيْرَ	N|INTG|PREF|LEM:أ + N|ROOT:غير|LEM:غَيْر|M|ACC
+6:14:3	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:14:4	أَتَّخِذُ	V|IMPF|VF:8|ROOT:أخذ|LEM:اتَّخَذَ|1S|MOOD:IND
+6:14:5	وَلِيًّا	N|ROOT:ولي|LEM:وَلِيّ|M|INDEF|ACC
+6:14:6	فَاطِرِ	N|ACT_PCPL|VF:1|ROOT:فطر|LEM:فاطِر|M|GEN
+6:14:7	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|GEN
+6:14:8	وَٱلْأَرْضِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:14:9	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:14:10	يُطْعِمُ	V|IMPF|VF:4|ROOT:طعم|LEM:أَطْعَمَ|3MS|MOOD:IND
+6:14:11	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:14:12	يُطْعَمُ	V|IMPF|VF:4|PASS|ROOT:طعم|LEM:أَطْعَمَ|3MS|MOOD:IND
+6:14:13	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:14:14	إِنِّىٓ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:14:15	أُمِرْتُ	V|PERF|VF:1|PASS|ROOT:أمر|LEM:أَمَرَ|1S + N|PRON|SUFF|1S
+6:14:16	أَنْ	P|SUB|LEM:أَن
+6:14:17	أَكُونَ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1S|MOOD:SUBJ
+6:14:18	أَوَّلَ	N|ROOT:أول|LEM:أَوَّل|MS|ACC
+6:14:19	مَنْ	N|REL|LEM:مَن
+6:14:20	أَسْلَمَ	V|PERF|VF:4|ROOT:سلم|LEM:أَسْلَمَ|3MS
+6:14:21	وَلَا	P|REM|PREF|LEM:و + P|NEG|LEM:لا
+6:14:22	تَكُونَنَّ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:IND + P|EMPH|SUFF|LEM:ن
+6:14:23	مِنَ	P|P|LEM:مِن
+6:14:24	ٱلْمُشْرِكِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|GEN
+6:15:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:15:2	إِنِّىٓ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:15:3	أَخَافُ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|1S|MOOD:IND
+6:15:4	إِنْ	P|COND|LEM:إِن
+6:15:5	عَصَيْتُ	V|PERF|VF:1|ROOT:عصي|LEM:عَصا|1S + N|PRON|SUFF|1S
+6:15:6	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1S
+6:15:7	عَذَابَ	N|ROOT:عذب|LEM:عَذاب|M|ACC
+6:15:8	يَوْمٍ	N|ROOT:يوم|LEM:يَوْم|M|INDEF|GEN
+6:15:9	عَظِيمٍ	N|ROOT:عظم|LEM:عَظِيم|MS|INDEF|GEN|ADJ

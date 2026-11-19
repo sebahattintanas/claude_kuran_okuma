@@ -1,0 +1,278 @@
+### say 6:12 1-6
+kalıp: قل لمن ما فى السموت والأرض | mod: tam
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 2-6
+kalıp: لمن ما فى السموت والأرض | mod: tam
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 7-8
+kalıp: قل لله | mod: tam
+ayet: 3
+liste: 2:142, 6:12†, 39:44
+sûre içi (6): 6:12
+
+3 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 9-12
+kalıp: كتب على نفسه الرحمة | mod: tam
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 9-12 --on
+kalıp: كتب على نفسه الرحمة | mod: on 
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 13-19
+kalıp: ليجمعنكم إلى يوم القيمة لا ريب فيه | mod: tam
+ayet: 2
+liste: 4:87, 6:12†
+sûre içi (6): 6:12
+
+2 {'bu': ['6:12'], 'basilan': ['4:87'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 14-19
+kalıp: إلى يوم القيمة لا ريب فيه | mod: tam
+ayet: 3
+liste: 4:87, 6:12†, 45:26
+sûre içi (6): 6:12
+
+3 {'bu': ['6:12'], 'basilan': ['4:87'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 20-25
+kalıp: الذين خسروا أنفسهم فهم لا يؤمنون | mod: tam
+ayet: 2
+liste: 6:12†, 6:20†
+sûre içi (6): 6:12, 6:20
+
+2 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 12 20 25
+lemma dizisi [('الَّذِي',), ('خَسِرَ',), ('نَفْس',), (), ('لا',), ('آمَنَ',)] | ayet 2
+6:12†, 6:20†
+
+2 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:12 20-22
+kalıp: الذين خسروا أنفسهم | mod: tam
+ayet: 7
+liste: 6:12†, 6:20†, 7:9†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+7 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:12 20-22 --on
+kalıp: الذين خسروا أنفسهم | mod: on 
+ayet: 7
+liste: 6:12†, 6:20†, 7:9†, 11:21, 23:103, 39:15, 42:45
+sûre içi (6): 6:12, 6:20
+
+7 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### dizi 6 12 10 12
+lemma dizisi [('عَلَى',), ('نَفْس',), ('رَحْمَة',)] | ayet 2
+6:12†, 6:54†
+
+2 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:12 10-12
+kalıp: على نفسه الرحمة | mod: tam
+ayet: 2
+liste: 6:12†, 6:54†
+sûre içi (6): 6:12, 6:54
+
+2 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:13 1-6 --on
+kalıp: وله ما سكن فى اليل والنهار | mod: on 
+ayet: 1
+liste: 6:13†
+sûre içi (6): 6:13
+
+1 {'bu': ['6:13'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:13 1-6
+kalıp: وله ما سكن فى اليل والنهار | mod: tam
+ayet: 1
+liste: 6:13†
+sûre içi (6): 6:13
+
+1 {'bu': ['6:13'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:13 7-9 --on
+kalıp: وهو السميع العليم | mod: on 
+ayet: 6
+liste: 2:137, 6:13†, 6:115†, 21:4, 29:5, 29:60
+sûre içi (6): 6:13, 6:115
+
+6 {'bu': ['6:13'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 13 7 9
+lemma dizisi [(), ('سَمِيع',), ('عَلِيم',)] | ayet 15
+2:127, 2:137, 3:35, 5:76, 6:13†, 6:115†, 8:61†, 10:65, 12:34, 21:4, 26:220, 29:5, 29:60, 41:36, 44:6
+
+15 {'bu': ['6:13'], 'basilan': ['5:76'], 'eski': 0, 'okunmus': 11, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:14 1-5
+kalıp: قل أغير الله أتخذ وليا | mod: tam
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 14 1 3
+lemma dizisi [('قالَ',), ('غَيْر',), ('اللَّه',)] | ayet 4
+6:14†, 6:164†, 7:140†, 39:64
+
+4 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:14 1-3
+kalıp: قل أغير الله | mod: tam
+ayet: 2
+liste: 6:14†, 6:164†
+sûre içi (6): 6:14, 6:164
+
+2 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:14 6-8
+kalıp: فاطر السموت والأرض | mod: tam
+ayet: 6
+liste: 6:14†, 12:101, 14:10, 35:1, 39:46, 42:11
+sûre içi (6): 6:14
+
+6 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 9-12 --on
+kalıp: وهو يطعم ولا يطعم | mod: on 
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 9-12
+kalıp: وهو يطعم ولا يطعم | mod: tam
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 13-20
+kalıp: قل إنى أمرت أن أكون أول من أسلم | mod: tam
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 14-20
+kalıp: إنى أمرت أن أكون أول من أسلم | mod: tam
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 21-24 --on
+kalıp: ولا تكونن من المشركين | mod: on 
+ayet: 3
+liste: 6:14†, 10:105, 28:87
+sûre içi (6): 6:14
+
+3 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 14 22 24
+lemma dizisi [('كانَ',), ('مِن',), ('مُشْرِك',)] | ayet 10
+2:135, 3:67, 3:95, 6:14†, 6:161†, 10:105, 16:120, 16:123, 28:87, 30:31
+
+10 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:14 22-24
+kalıp: تكونن من المشركين | mod: tam
+ayet: 3
+liste: 6:14†, 10:105, 28:87
+sûre içi (6): 6:14
+
+3 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:15 1-9
+kalıp: قل إنى أخاف إن عصيت ربى عذاب يوم عظيم | mod: tam
+ayet: 2
+liste: 6:15†, 39:13
+sûre içi (6): 6:15
+
+2 {'bu': ['6:15'], 'basilan': ['39:13'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:15 2-9
+kalıp: إنى أخاف إن عصيت ربى عذاب يوم عظيم | mod: tam
+ayet: 3
+liste: 6:15†, 10:15, 39:13
+sûre içi (6): 6:15
+
+3 {'bu': ['6:15'], 'basilan': ['39:13'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:15 7-9
+kalıp: عذاب يوم عظيم | mod: tam
+ayet: 8
+liste: 6:15†, 7:59†, 10:15, 26:135, 26:156, 26:189, 39:13, 46:21
+sûre içi (6): 6:15
+
+8 {'bu': ['6:15'], 'basilan': ['39:13'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:12 1-6 --on
+kalıp: قل لمن ما فى السموت والأرض | mod: on 
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:12 2-6 --on
+kalıp: لمن ما فى السموت والأرض | mod: on 
+ayet: 1
+liste: 6:12†
+sûre içi (6): 6:12
+
+1 {'bu': ['6:12'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 1-5 --on
+kalıp: قل أغير الله أتخذ وليا | mod: on 
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 13-20 --on
+kalıp: قل إنى أمرت أن أكون أول من أسلم | mod: on 
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:14 14-20 --on
+kalıp: إنى أمرت أن أكون أول من أسلم | mod: on 
+ayet: 1
+liste: 6:14†
+sûre içi (6): 6:14
+
+1 {'bu': ['6:14'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+

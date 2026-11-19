@@ -91412,6 +91412,163 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:12": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    16,
+    "قِيامَة"
+   ],
+   [
+    18,
+    "رَيْب"
+   ],
+   [
+    22,
+    "نَفْس"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:13": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    8,
+    "سَمِيع"
+   ],
+   [
+    9,
+    "عَلِيم"
+   ]
+  ],
+  "esma_el": {
+   "6:13:8": "ilahi",
+   "6:13:9": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "سَمِيع",
+   "عَلِيم"
+  ],
+  "r": false,
+  "sinif_el": "E",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    6,
+    "نَهار"
+   ],
+   [
+    8,
+    "سَمِيع"
+   ],
+   [
+    9,
+    "عَلِيم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:14": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    5,
+    "وَلِيّ"
+   ],
+   [
+    18,
+    "أَوَّل"
+   ]
+  ],
+  "esma_el": {
+   "6:14:18": "degil",
+   "6:14:5": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "أَوَّل"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    8,
+    "أَرْض"
+   ],
+   [
+    18,
+    "أَوَّل"
+   ],
+   [
+    24,
+    "مُشْرِك"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:15": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    7,
+    "عَذاب"
+   ],
+   [
+    8,
+    "يَوْم"
+   ],
+   [
+    9,
+    "عَظِيم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "6:2": {
   "a": false,
   "bant": "KAPI_KAPALI",
