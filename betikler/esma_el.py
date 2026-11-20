@@ -1526,4 +1526,5 @@ KARAR = {
     '6:32:8': 'degil',  # 'l-âxiratu' — esmâ adı esmâ dışı göndergeyle → degil (yurdun sıfatı)
     # sure 6 blok 33-36
     # sure 6 blok 37-41
+    # sure 6 blok 42-45
 }

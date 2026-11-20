@@ -1,0 +1,137 @@
+# sûre 6 blok 10 (6:42-45) metin dosyası oluşturucu — ölçüm alıntıları olcum.txt'ten (kes), sayımlar say2'den
+import sys, os
+os.environ['SAY2'] = '/home/claude/b10/say2.txt'
+os.environ['OLC'] = '/home/claude/b10/olcum.txt'
+sys.path.insert(0, '/home/claude/sunum')
+from sayim import say
+from kes import kes
+
+BOLUM = "'Darlık ve bolluk; kulakları ve gözleri almak' bölümünde"
+
+
+def cumle(*parts):
+    return '; '.join(parts) + '.'
+
+
+MEAL = {
+ 42: "Andolsun, senden önceki ümmetlere de gönderdik ve onları darlık ve sıkıntıyla yakaladık; ola ki yalvarırlar.",
+ 43: "Hiç değilse şiddetimiz onlara geldiğinde yalvarsalardı ya! Fakat kalpleri katılaştı ve şeytan yapmakta olduklarını onlara süslü gösterdi.",
+ 44: "Kendilerine hatırlatılanı unuttuklarında üzerlerine her şeyin kapılarını açtık; nihayet kendilerine verilenle sevindiklerinde onları ansızın yakaladık; birden onlar ümitsizdir.",
+ 45: "Zulmeden kavmin kökü kesildi. Hamd, âlemlerin Rabbi Allah'adır.",
+}
+
+T = {}
+T[42] = ("konuşan 1P (adsız; 'erselnâ', 'fe-exaznâhum' — 2. ve 7. kelime); muhatap 2MS (adsız; 'qablike' — 6. kelime); "
+         "'fe-exaznâhum', 'le'allehum', 'yetedarra'ûn' 3MP (adsız; gönderge 'umemin' 4. kelime — 7., 10. ve 11. kelime)")
+T[43] = ("'câ'ehum' 3MS (fiil uyumu; 3. kelime — fail 4. kelime); konuşan 1P (adsız; 'be'sunâ' — 4. kelime); "
+         "'câ'ehum', 'tedarra'û', 'qulûbuhum', 'lehumu', 'kânû', 'ya'melûn' 3MP (adsız; gönderge 6:42 4. kelime — 3., 5., 8., 10., 13. ve 14. kelime); "
+         "'qaset' 3FS (fiil uyumu; 7. kelime — fail 8. kelime); 'zeyyene' 3MS (fiil uyumu; 9. kelime — fail 11. kelime)")
+T[44] = ("'nesû', ''aleyhim', 'ferihû', 'exaznâhum', 'hum' 3MP (adsız; gönderge 6:42 4. kelime — 2., 7., 13., 16. ve 19. kelime); 'zukkirû' 3MP (adsız; edilgen — naib-i faili zamir; gönderge 6:42 4. kelime, 4. kelime); 'ûtû' 3MP (adsız; edilgen — naib-i faili zamir; gönderge 6:42 4. kelime, 15. kelime); "
+         "konuşan 1P (adsız; 'fetahnâ', 'exaznâhum' — 6. ve 16. kelime); 'bihî' 3MS (adsız; gönderge 'mâ' 3. kelime, 5. kelime)")
+T[45] = ("'fe-qutı'a' 3MS (fiil uyumu; edilgen; naib-i faili 'dâbiru' (2. kelimedeki ad), 1. kelime); 'zalemû' 3MP (adsız; gönderge 'llezîne', 5. kelime)")
+
+D = {}
+D[42] = ("◇ 've le-qad erselnâ ilâ umemin min qablike fe-exaznâhum bi'l-be'sâ'i ve'd-darrâ'i le'allehum yetedarra'ûn' — "
+ "'ve' + 'le' + 'qad' + PERF 1P IV. bab + 'ilâ' + nekre çoğul 'umme' + 'min' + 'qabl' + 2MS + 'fe' + PERF 1P I. bab + 3MP + 'bi' + belirli 'be'sâ'' + 've' + belirli 'darrâ'' + 'le'alle' + 3MP + IMPF 3MP V. bab "
+ "(ölçüm edim haber, kip CERT 1 · EMPH 1; 1P 4 · 2MS 1 · 3MP 4; bab I. bab ×1 · IV. bab ×1 · V. bab ×1). "
+ "Allah lafzı yok; Rab yok; esmâ yok, aktör yok (ölçüm); esma_kayit çıktısı 'mühür hayır' (uyuşuyor). "
+ "Ölçüm 'yıldız yok' — satır aynen; n=11 (n z=-0,15); ölçüm '{{1|fâsıla يتضرعون → ن, N sınıfı}}' — satır aynen (6:41 ن → 6:42 ن); "
+ "ölçüm '{{1|harf 57 → harf3 56, isaret 1}}' — satır aynen; ölçüm '{{1|dış düğüm 2}}' — satır aynen. "
+ "Ölçüm CERT 1: 'qad' (1. kelime); EMPH 1: 'le' (1. kelime); 've le-qad' (1.) kelimesindeki 've' REM; 'fe-exaznâhum' (7.) kelimesindeki 'fe' CONJ; 'le'allehum' (10.) ACC (okuma). "
+ + T[42] + " (okuma). "
+ + cumle(say('say 6:42 1-2', "ve le-qad erselnâ", True)) + " (--medde 15 ayet: 'erselnâ' yazım farkı ile; harekesiz sayım elif / medde yazımına bağlı). "
+ + cumle(say('say 6:42 3-6', "ilâ umemin min qablik", True)) + ' '
+ + cumle(say('say 6:42 8-9', "bi'l-be'sâ'i ve'd-darrâ'", True), say('say 6:42 10-11', "le'allehum yetedarra'ûn")) + ' '
+ "Ölçüm xref 16:63 (emsal olarak basıldı) ve okunmamış 1 ayet. "
+ "Ölçüm nakarat3 yok. "
+ "Karşıt çift (aday 1039, okuma): ayet içi: yok — ayetler arası: yok.",
+ "◈K — —",
+ "◈B — —",
+ "◈D — D1 've' + 'le' + 'qad' + PERF + 'ilâ' + nekre + 'min' + izafet + 'fe' + PERF + 'bi' + belirli + 've' + belirli + 'le'alle' + IMPF; "
+ "D2 haber; CERT ('qad' 1. kelime), EMPH ('le' 1. kelime); D3 —; 16:63 eşi; D4 1P 4 · 2MS 1 · 3MP 4, sahset ['1', '2', '3'], iltifât 0.",
+ "◈A — A1 " + T[42] + "; aktör yok (ölçüm); A2 önceki ümmetlere gönderme; darlık ve sıkıntıyla yakalama; yalvarma umudu; "
+ "A3 —; "
+ "A4 " + BOLUM + "; şahıs geçişi 2 → 1 (ayetler arası); edim geçişi şart → haber (ayetler arası); şahıs sayısında beraberlik (1P 4 · 3MP 4 — ölçüm baskın 1); bölüm açılışı.",
+)
+
+D[43] = ("◇ 'fe-levlâ iz câ'ehum be'sunâ tedarra'û ve lâkin qaset qulûbuhum ve zeyyene lehumu'ş-şeytânu mâ kânû ya'melûn' — "
+ "'fe' + 'levlâ' + 'iz' + PERF 3MS I. bab + 3MP + 'be's' + 1P + PERF 3MP I. bab + 've' + 'lâkin' + PERF 3FS I. bab + çoğul 'qalb' + 3MP + 've' + PERF 3MS II. bab + 'li' + 3MP + belirli 'şeytân' + "
+ "'mâ' + PERF 3MP I. bab + IMPF 3MP I. bab "
+ "(ölçüm edim haber, kip yok; 1P 1 · 3FS 1 · 3MP 9 · 3MS 2; bab I. bab ×5 · II. bab ×1). "
+ "Allah lafzı yok; Rab yok; esmâ yok (ölçüm); esma_kayit çıktısı 'mühür hayır' (uyuşuyor); ölçüm '{{2|aktör: adlı شَيْطان 11\\. sırada \\(gayb, rol fail\\)}}' — satır aynen. "
+ "Ölçüm 'yıldız yok' — satır aynen; n=14 (n z=0,17); ölçüm '{{2|fâsıla يعملون → ن, N sınıfı}}' — satır aynen (6:42 ن → 6:43 ن); "
+ "ölçüm '{{2|harf 64 → harf3 62, isaret 2}}' — satır aynen; ölçüm '{{2|dış düğüm 0}}' — satır aynen. "
+ "Ölçüm kip yok; 'fe-levlâ' (1.) kelimesindeki 'fe' REM, 'levlâ' EXH; 've lâkin' (6.) kelimesindeki 've' REM, 'lâkin' AMD; 've zeyyene' (9.) kelimesindeki 've' CONJ (okuma). "
+ + T[43] + " (okuma). "
+ + cumle(say('say 6:43 9-11', "ve zeyyene lehumu'ş-şeytân", True)) + ' '
+ + cumle(say('say 6:43 12-14', "mâ kânû ya'melûn", True), say('say 6:43 13-14', "kânû ya'melûn"), say('dizi 6 43 12 14', "mâ kâne 'amile")) + ' '
+ "Ölçüm xref yok. "
+ "Ölçüm nakarat3 kalıbı: 'mâ kâne 'amile' süzgeç GEÇER. "
+ "Karşıt çift (aday 1039, okuma): ayet içi: 'tedarra'û' / 'qaset qulûbuhum' — ayetler arası: yok.",
+ "◈K — —",
+ "◈B — B1 —; B2 —; B3 'qulûbuhum' (8. kelime); B4 —.",
+ "◈D — D1 'fe' + 'levlâ' + 'iz' + PERF + izafet + PERF + 've' + 'lâkin' + PERF + izafet + 've' + PERF + 'li' + belirli + 'mâ' + PERF + IMPF; "
+ "D2 haber; kip yok; D3 —; D4 1P 1 · 3FS 1 · 3MP 9 · 3MS 2, sahset ['1', '3'], iltifât 0.",
+ "◈A — A1 " + T[43] + "; aktör adlı 'ş-şeytânu' (11. kelime; ölçüm rol fail — 'zeyyene' faili); A2 şiddet gelince yalvarmamaları; kalplerin katılaşması; şeytanın yaptıklarını süslemesi; "
+ "A3 —; "
+ "A4 " + BOLUM + "; şahıs geçişi 1 → 3 (ayetler arası).",
+)
+
+D[44] = ("◇ 'fe-lemmâ nesû mâ zukkirû bihî fetahnâ 'aleyhim ebvâbe kulli şey'in hattâ izâ ferihû bi-mâ ûtû exaznâhum bağteten fe-izâ hum mublisûn' — "
+ "'fe' + 'lemmâ' + PERF 3MP I. bab + 'mâ' + edilgen PERF 3MP II. bab + 'bi' + 3MS + PERF 1P I. bab + ''alâ' + 3MP + çoğul 'bâb' + 'kull' + nekre 'şey'' + 'hattâ' + 'izâ' + PERF 3MP I. bab + 'bi' + 'mâ' + "
+ "edilgen PERF 3MP IV. bab + PERF 1P I. bab + 3MP + nekre 'bağte' + 'fe' + 'izâ' + 3MP + çoğul etken ortaç 'mublis' "
+ "(ölçüm edim haber, kip yok; 1P 4 · 3MP 11 · 3MS 1; bab I. bab ×4 · II. bab ×1 · IV. bab ×1). "
+ "Allah lafzı yok; Rab yok; esmâ yok, aktör yok (ölçüm); esma_kayit çıktısı 'mühür hayır' (uyuşuyor). "
+ "Ölçüm yıldız ★ — satır yıldız kaynağını adlandırmıyor; kaynak bilançoda; n=20 (n z=0,81); ölçüm '{{3|EDİLGEN 2/6 fiil, pas z=1,57}}' — satır aynen; "
+ "ölçüm '{{3|fâsıla مبلسون → ن, N sınıfı}}' — satır aynen (6:43 ن → 6:44 ن); ölçüm '{{3|simetri \\[3, 1, 5, 1\\]}}' — satır aynen; ölçüm '{{3|harf 83 → harf3 77, isaret 6}}' — satır aynen; ölçüm '{{3|dış düğüm 0}}' — satır aynen. "
+ "Ölçüm kip yok; 'fe-lemmâ' (1.) ve 'fe-izâ' (18.) kelimelerindeki 'fe' REM; 'lemmâ' (1.) ve 'izâ' (12.) T; 'izâ' (18.) SUR; 'hattâ' (11.) INC (okuma). "
+ + T[44] + " (okuma). "
+ + cumle(say('say 6:44 4-5', "zukkirû bih", True), say('say 6:44 9-10', "kulli şey'")) + ' '
+ "Ölçüm xref yok. "
+ "Ölçüm nakarat3 yok. "
+ "Karşıt çift (aday 1039, okuma): ayet içi: 'nesû' / 'zukkirû'; 'ferihû' / 'mublisûn' — ayetler arası: yok.",
+ "◈K — —",
+ "◈B — —",
+ "◈D — D1 'fe' + 'lemmâ' + PERF + 'mâ' + PERF + 'bi' + PERF + ''alâ' + izafet + nekre + 'hattâ' + 'izâ' + PERF + 'bi' + 'mâ' + PERF + PERF + nekre + 'fe' + 'izâ' + zamir + etken ortaç; "
+ "D2 haber; kip yok; D3 —; D4 1P 4 · 3MP 11 · 3MS 1, sahset ['1', '3'], iltifât 0.",
+ "◈A — A1 " + T[44] + "; aktör yok (ölçüm); A2 hatırlatılanı unutma; her şeyin kapılarının açılması; verilenle sevinç; ansızın yakalama; ümitsizlik; "
+ "A3 —; "
+ "A4 " + BOLUM + "; şahıs geçişi yok (ayetler arası).",
+)
+
+D[45] = ("◇ 'fe-qutı'a dâbiru'l-qavmi'llezîne zalemû, ve'l-hamdu li'llâhi rabbi'l-'âlemîn' — "
+ "'fe' + edilgen PERF 3MS I. bab + 'dâbir' + belirli 'qavm' + 'ellezî' + PERF 3MP I. bab + 've' + belirli 'hamd' + 'li' + lafız + 'rabb' + belirli çoğul ''âlem' "
+ "(ölçüm edim haber, kip yok; 3MP 2 · 3MS 1; bab I. bab ×2). "
+ "Allah lafzı 7. sırada (ölçüm allah z=1,69); Rab 8. sırada (ölçüm rab z=2,05); esmâ yok, aktör yok (ölçüm); esma_kayit çıktısı 'mühür hayır' (uyuşuyor). "
+ "Ölçüm yıldız ★★ — satır yıldız kaynağını adlandırmıyor; kaynak bilançoda; n=9 (n z=-0,36); ölçüm '{{4|EDİLGEN 1/2 fiil, pas z=2,52}}' — satır aynen; "
+ "ölçüm '{{4|fâsıla ٱلعلمين → ن, N sınıfı}}' — satır aynen (6:44 ن → 6:45 ن); ölçüm '{{4|harf 43 → harf3 41, isaret 2}}' — satır aynen; ölçüm '{{4|dış düğüm 0}}' — satır aynen. "
+ "Ölçüm kip yok; 'fe-qutı'a' (1.) kelimesindeki 'fe' REM; 've'l-hamdu' (6.) kelimesindeki 've' REM (okuma). "
+ + T[45] + " (okuma). "
+ + cumle(say('say 6:45 6-9', "ve'l-hamdu li'llâhi rabbi'l-'âlemîn", True), say('say 6:45 4-5', "llezîne zalemû")) + ' '
+ "Ölçüm xref yok. "
+ "Ölçüm nakarat3 kalıbı: 'allâh rabb 'âlem' süzgeç GEÇMEZ. "
+ "Karşıt çift (aday 1039, okuma): ayet içi: 'qutı'a dâbiru'l-qavmi' / 've'l-hamdu li'llâh' — ayetler arası: yok.",
+ "◈K — —",
+ "◈B — —",
+ "◈D — D1 'fe' + PERF + izafet + belirli + 'ellezî' + PERF + 've' + belirli + 'li' + lafız + izafet + belirli; "
+ "D2 haber; kip yok; D3 —; 37:182 eşi; D4 3MP 2 · 3MS 1, sahset ['3'], iltifât 0.",
+ "◈A — A1 " + T[45] + "; aktör yok (ölçüm); A2 zulmeden kavmin kökünün kesilmesi; hamdin âlemlerin Rabbi Allah'a oluşu; "
+ "A3 —; "
+ "A4 " + BOLUM + "; şahıs geçişi yok (ayetler arası).",
+)
+out = ['# ── blok 6:42-45 (2026-11-20) ──', 'MEAL10 = {']
+for n in range(42, 46):
+    assert '\\' not in MEAL[n] and '"' not in MEAL[n]
+    out.append(' %d: "%s",' % (n, MEAL[n]))
+out += ['}', 'M10 = {']
+for n in range(42, 46):
+    lines = [kes(l) for l in D[n]]
+    for l in lines:
+        assert '"' not in l and '\\' not in l and '{{' not in l, (n, l[:80])
+    s = ' %d: "%s\\n"\n' % (n, lines[0])
+    s += '\n'.join('    "%s\\n"' % l for l in lines[1:-1]) + '\n'
+    s += '    "%s",' % lines[-1]
+    out.append(s)
+out += ['}', 'MEAL.update(MEAL10); M.update(M10)']
+open('/home/claude/yamalar/metin_6_42_45.txt', 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+print('yazıldı')

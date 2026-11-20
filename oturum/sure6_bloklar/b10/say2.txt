@@ -1,0 +1,868 @@
+### say 6:42 1-2
+kalıp: ولقد أرسلنءا | mod: tam
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-2 --on
+kalıp: ولقد أرسلنءا | mod: on 
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-3
+kalıp: ولقد أرسلنءا إلى | mod: tam
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-3 --on
+kalıp: ولقد أرسلنءا إلى | mod: on 
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-3
+kalıp: أرسلنءا إلى | mod: tam
+ayet: 7
+liste: 6:42†, 11:70, 15:58, 16:63, 27:45, 51:32, 73:15
+sûre içi (6): 6:42
+
+7 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-3 --on
+kalıp: أرسلنءا إلى | mod: on 
+ayet: 7
+liste: 6:42†, 11:70, 15:58, 16:63, 27:45, 51:32, 73:15
+sûre içi (6): 6:42
+
+7 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-4
+kalıp: أرسلنءا إلى أمم | mod: tam
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-4 --on
+kalıp: أرسلنءا إلى أمم | mod: on 
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 3-4
+kalıp: إلى أمم | mod: tam
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 3-4 --on
+kalıp: إلى أمم | mod: on 
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 3-6
+kalıp: إلى أمم من قبلك | mod: tam
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 3-6 --on
+kalıp: إلى أمم من قبلك | mod: on 
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 5-6
+kalıp: من قبلك | mod: tam
+ayet: 28
+liste: 2:4, 3:184, 4:60, 4:162, 6:10, 6:34, 6:42†, 10:94, 12:109, 13:32, 13:38, 15:10, 16:43, 16:63, 21:25, 21:34, 21:41, 22:52, 28:46, 30:47, 32:3, 35:4, 39:65, 40:78, 41:43, 42:3, 43:23, 43:45
+sûre içi (6): 6:10, 6:34, 6:42
+
+28 {'bu': ['6:42'], 'basilan': ['6:10', '6:34', '16:63', '21:41', '35:4'], 'eski': 1, 'okunmus': 21, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 5-6 --on
+kalıp: من قبلك | mod: on 
+ayet: 28
+liste: 2:4, 3:184, 4:60, 4:162, 6:10, 6:34, 6:42†, 10:94, 12:109, 13:32, 13:38, 15:10, 16:43, 16:63, 21:25, 21:34, 21:41, 22:52, 28:46, 30:47, 32:3, 35:4, 39:65, 40:78, 41:43, 42:3, 43:23, 43:45
+sûre içi (6): 6:10, 6:34, 6:42
+
+28 {'bu': ['6:42'], 'basilan': ['6:10', '6:34', '16:63', '21:41', '35:4'], 'eski': 1, 'okunmus': 21, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 7-9
+kalıp: فأخذنهم بالبأسءاء والضرءاء | mod: tam
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 7-9 --on
+kalıp: فأخذنهم بالبأسءاء والضرءاء | mod: on 
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 8-9
+kalıp: بالبأسءاء والضرءاء | mod: tam
+ayet: 2
+liste: 6:42†, 7:94†
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:42 8-9 --on
+kalıp: بالبأسءاء والضرءاء | mod: on 
+ayet: 2
+liste: 6:42†, 7:94†
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:42 10-11
+kalıp: لعلهم يتضرعون | mod: tam
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 10-11 --on
+kalıp: لعلهم يتضرعون | mod: on 
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 1-3
+kalıp: فلولءا إذ جءاءهم | mod: tam
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 1-3 --on
+kalıp: فلولءا إذ جءاءهم | mod: on 
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 2-4
+kalıp: إذ جءاءهم بأسنا | mod: tam
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 2-4 --on
+kalıp: إذ جءاءهم بأسنا | mod: on 
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 6-8
+kalıp: ولكن قست قلوبهم | mod: tam
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 6-8 --on
+kalıp: ولكن قست قلوبهم | mod: on 
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 9-11
+kalıp: وزين لهم الشيطن | mod: tam
+ayet: 3
+liste: 6:43†, 27:24, 29:38
+sûre içi (6): 6:43
+
+3 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 9-11 --on
+kalıp: وزين لهم الشيطن | mod: on 
+ayet: 3
+liste: 6:43†, 27:24, 29:38
+sûre içi (6): 6:43
+
+3 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 9-14
+kalıp: وزين لهم الشيطن ما كانوا يعملون | mod: tam
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 9-14 --on
+kalıp: وزين لهم الشيطن ما كانوا يعملون | mod: on 
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 12-14
+kalıp: ما كانوا يعملون | mod: tam
+ayet: 18
+liste: 5:62, 6:43†, 6:88†, 6:122†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:121, 10:12, 11:16, 16:96, 16:97, 28:84, 34:33, 58:15, 63:2
+sûre içi (6): 6:43, 6:88, 6:122
+
+18 {'bu': ['6:43'], 'basilan': ['5:62'], 'eski': 0, 'okunmus': 10, 'okunmus_si': 0, 'henuz': 6, 'henuz_si': 2}
+
+### say 6:43 12-14 --on
+kalıp: ما كانوا يعملون | mod: on 
+ayet: 31
+liste: 2:134, 2:141, 5:62, 6:43†, 6:88†, 6:108†, 6:122†, 6:127†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:121, 10:12, 11:16, 12:69, 15:93, 16:96, 16:97, 24:24, 26:112, 28:84, 32:17, 32:19, 34:33, 41:20, 46:14, 56:24, 58:15, 63:2
+sûre içi (6): 6:43, 6:88, 6:108, 6:122, 6:127
+
+31 {'bu': ['6:43'], 'basilan': ['5:62'], 'eski': 0, 'okunmus': 21, 'okunmus_si': 0, 'henuz': 8, 'henuz_si': 4}
+
+### say 6:43 13-14
+kalıp: كانوا يعملون | mod: tam
+ayet: 35
+liste: 2:134, 2:141, 5:62, 6:43†, 6:88†, 6:108†, 6:122†, 6:127†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:121, 10:12, 11:16, 11:78, 12:69, 15:93, 16:96, 16:97, 24:24, 26:112, 28:84, 29:7, 32:17, 32:19, 34:33, 39:35, 41:20, 41:27, 46:14, 56:24, 58:15, 63:2
+sûre içi (6): 6:43, 6:88, 6:108, 6:122, 6:127
+
+35 {'bu': ['6:43'], 'basilan': ['5:62'], 'eski': 0, 'okunmus': 25, 'okunmus_si': 0, 'henuz': 8, 'henuz_si': 4}
+
+### say 6:43 13-14 --on
+kalıp: كانوا يعملون | mod: on 
+ayet: 35
+liste: 2:134, 2:141, 5:62, 6:43†, 6:88†, 6:108†, 6:122†, 6:127†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:121, 10:12, 11:16, 11:78, 12:69, 15:93, 16:96, 16:97, 24:24, 26:112, 28:84, 29:7, 32:17, 32:19, 34:33, 39:35, 41:20, 41:27, 46:14, 56:24, 58:15, 63:2
+sûre içi (6): 6:43, 6:88, 6:108, 6:122, 6:127
+
+35 {'bu': ['6:43'], 'basilan': ['5:62'], 'eski': 0, 'okunmus': 25, 'okunmus_si': 0, 'henuz': 8, 'henuz_si': 4}
+
+### say 6:44 1-4
+kalıp: فلما نسوا ما ذكروا | mod: tam
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 1-4 --on
+kalıp: فلما نسوا ما ذكروا | mod: on 
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 2-4
+kalıp: نسوا ما ذكروا | mod: tam
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 2-4 --on
+kalıp: نسوا ما ذكروا | mod: on 
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 2-5
+kalıp: نسوا ما ذكروا به | mod: tam
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 2-5 --on
+kalıp: نسوا ما ذكروا به | mod: on 
+ayet: 2
+liste: 6:44†, 7:165†
+sûre içi (6): 6:44
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 4-5
+kalıp: ذكروا به | mod: tam
+ayet: 4
+liste: 5:13, 5:14, 6:44†, 7:165†
+sûre içi (6): 6:44
+
+4 {'bu': ['6:44'], 'basilan': ['5:14'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 4-5 --on
+kalıp: ذكروا به | mod: on 
+ayet: 4
+liste: 5:13, 5:14, 6:44†, 7:165†
+sûre içi (6): 6:44
+
+4 {'bu': ['6:44'], 'basilan': ['5:14'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 6-10
+kalıp: فتحنا عليهم أبوب كل شىء | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 6-10 --on
+kalıp: فتحنا عليهم أبوب كل شىء | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 8-10
+kalıp: أبوب كل شىء | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 8-10 --on
+kalıp: أبوب كل شىء | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 9-10
+kalıp: كل شىء | mod: tam
+ayet: 85
+liste: 2:20, 2:106, 2:109, 2:148, 2:259, 2:284, 3:26, 3:29, 3:165, 3:189, 4:33, 4:85, 4:86, 5:17, 5:19, 5:40, 5:117, 5:120, 6:17, 6:44†, 6:80†, 6:99†, 6:101†, 6:102†, 6:111†, 6:164†, 7:89†, 7:145†, 7:156†, 8:41†, 9:39, 11:4, 11:12, 11:57, 12:111, 13:16, 15:19, 16:77, 18:45, 18:84, 20:50, 20:98, 21:30, 22:6, 22:17, 23:88, 24:45, 25:2, 27:16, 27:23, 27:88, 27:91, 28:57, 28:88, 29:20, 30:50, 32:7, 33:27, 33:52, 33:55, 34:21, 34:47, 35:1, 36:83, 39:62, 40:7, 40:62, 41:21, 41:39, 41:53, 42:9, 46:25, 46:33, 48:21, 51:49, 54:49, 57:2, 58:6, 59:6, 64:1, 65:12, 66:8, 67:1, 72:28, 85:9
+sûre içi (6): 6:17, 6:44, 6:80, 6:99, 6:101, 6:102, 6:111, 6:164
+
+85 {'bu': ['6:44'], 'basilan': ['3:189', '5:17', '5:117', '5:120', '6:17'], 'eski': 1, 'okunmus': 68, 'okunmus_si': 0, 'henuz': 10, 'henuz_si': 6}
+
+### say 6:44 9-10 --on
+kalıp: كل شىء | mod: on 
+ayet: 116
+liste: 2:20, 2:29, 2:106, 2:109, 2:148, 2:231, 2:259, 2:282, 2:284, 3:26, 3:29, 3:165, 3:189, 4:32, 4:33, 4:85, 4:86, 4:126, 4:176, 5:17, 5:19, 5:40, 5:97, 5:117, 5:120, 6:17, 6:44†, 6:80†, 6:99†, 6:101†, 6:102†, 6:111†, 6:154†, 6:164†, 7:89†, 7:145†, 7:156†, 8:41†, 8:75†, 9:39, 9:115, 11:4, 11:12, 11:57, 12:111, 13:8, 13:16, 15:19, 16:77, 16:89, 17:12, 18:45, 18:84, 20:50, 20:98, 21:30, 21:81, 22:6, 22:17, 23:88, 24:35, 24:45, 24:64, 25:2, 27:16, 27:23, 27:88, 27:91, 28:57, 28:88, 29:20, 29:62, 30:50, 32:7, 33:27, 33:40, 33:52, 33:54, 33:55, 34:21, 34:47, 35:1, 36:12, 36:83, 39:62, 40:7, 40:62, 41:21, 41:39, 41:53, 41:54, 42:9, 42:12, 46:25, 46:33, 48:21, 48:26, 49:16, 51:49, 54:49, 54:52, 57:2, 57:3, 58:6, 58:7, 59:6, 64:1, 64:11, 65:3, 65:12, 66:8, 67:1, 67:19, 72:28, 78:29, 85:9
+sûre içi (6): 6:17, 6:44, 6:80, 6:99, 6:101, 6:102, 6:111, 6:154, 6:164
+
+116 {'bu': ['6:44'], 'basilan': ['3:189', '5:17', '5:97', '5:117', '5:120', '6:17'], 'eski': 1, 'okunmus': 96, 'okunmus_si': 0, 'henuz': 12, 'henuz_si': 7}
+
+### say 6:44 11-13
+kalıp: حتى إذا فرحوا | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 11-13 --on
+kalıp: حتى إذا فرحوا | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 13-15
+kalıp: فرحوا بمءا أوتوا | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 13-15 --on
+kalıp: فرحوا بمءا أوتوا | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 14-15
+kalıp: بمءا أوتوا | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 14-15 --on
+kalıp: بمءا أوتوا | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 18-20
+kalıp: فإذا هم مبلسون | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 18-20 --on
+kalıp: فإذا هم مبلسون | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 19-20
+kalıp: هم مبلسون | mod: tam
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 19-20 --on
+kalıp: هم مبلسون | mod: on 
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 1-3
+kalıp: فقطع دابر القوم | mod: tam
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 1-3 --on
+kalıp: فقطع دابر القوم | mod: on 
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 2-5
+kalıp: دابر القوم الذين ظلموا | mod: tam
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 2-5 --on
+kalıp: دابر القوم الذين ظلموا | mod: on 
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 3-5
+kalıp: القوم الذين ظلموا | mod: tam
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 3-5 --on
+kalıp: القوم الذين ظلموا | mod: on 
+ayet: 1
+liste: 6:45†
+sûre içi (6): 6:45
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 4-5
+kalıp: الذين ظلموا | mod: tam
+ayet: 23
+liste: 2:59, 2:150, 2:165, 6:45†, 7:162†, 7:165†, 8:25†, 11:37, 11:67, 11:94, 11:113, 11:116, 14:44, 14:45, 16:85, 21:3, 23:27, 26:227, 29:46, 30:29, 30:57, 37:22, 46:12
+sûre içi (6): 6:45
+
+23 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 19, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### say 6:45 4-5 --on
+kalıp: الذين ظلموا | mod: on 
+ayet: 24
+liste: 2:59, 2:150, 2:165, 6:45†, 7:162†, 7:165†, 8:25†, 11:37, 11:67, 11:94, 11:113, 11:116, 14:44, 14:45, 16:85, 21:3, 23:27, 26:227, 29:46, 30:29, 30:57, 37:22, 39:51, 46:12
+sûre içi (6): 6:45
+
+24 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 20, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### say 6:45 6-9
+kalıp: والحمد لله رب العلمين | mod: tam
+ayet: 2
+liste: 6:45†, 37:182
+sûre içi (6): 6:45
+
+2 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 6-9 --on
+kalıp: والحمد لله رب العلمين | mod: on 
+ayet: 2
+liste: 6:45†, 37:182
+sûre içi (6): 6:45
+
+2 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 6-7
+kalıp: والحمد لله | mod: tam
+ayet: 2
+liste: 6:45†, 37:182
+sûre içi (6): 6:45
+
+2 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 6-7 --on
+kalıp: والحمد لله | mod: on 
+ayet: 2
+liste: 6:45†, 37:182
+sûre içi (6): 6:45
+
+2 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:45 7-9
+kalıp: لله رب العلمين | mod: tam
+ayet: 8
+liste: 1:2, 6:45†, 6:162†, 10:10, 27:44, 37:182, 39:75, 40:65
+sûre içi (6): 6:45, 6:162
+
+8 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### say 6:45 7-9 --on
+kalıp: لله رب العلمين | mod: on 
+ayet: 15
+liste: 1:2, 5:28, 6:45†, 6:162†, 7:54†, 10:10, 27:8, 27:44, 28:30, 37:182, 39:75, 40:64, 40:65, 59:16, 81:29
+sûre içi (6): 6:45, 6:162
+
+15 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 11, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### say 6:45 8-9
+kalıp: رب العلمين | mod: tam
+ayet: 34
+liste: 1:2, 5:28, 6:45†, 6:162†, 7:54†, 7:61†, 7:67†, 7:104†, 10:10, 10:37, 26:16, 26:23, 26:77, 26:109, 26:127, 26:145, 26:164, 26:180, 26:192, 27:8, 27:44, 28:30, 32:2, 37:182, 39:75, 40:64, 40:65, 41:9, 43:46, 45:36, 56:80, 59:16, 69:43, 81:29
+sûre içi (6): 6:45, 6:162
+
+34 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 27, 'okunmus_si': 0, 'henuz': 5, 'henuz_si': 1}
+
+### say 6:45 8-9 --on
+kalıp: رب العلمين | mod: on 
+ayet: 42
+liste: 1:2, 2:131, 5:28, 6:45†, 6:71†, 6:162†, 7:54†, 7:61†, 7:67†, 7:104†, 7:121†, 10:10, 10:37, 26:16, 26:23, 26:47, 26:77, 26:98, 26:109, 26:127, 26:145, 26:164, 26:180, 26:192, 27:8, 27:44, 28:30, 32:2, 37:87, 37:182, 39:75, 40:64, 40:65, 40:66, 41:9, 43:46, 45:36, 56:80, 59:16, 69:43, 81:29, 83:6
+sûre içi (6): 6:45, 6:71, 6:162
+
+42 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 33, 'okunmus_si': 0, 'henuz': 7, 'henuz_si': 2}
+
+### dizi 6 42 1 2
+lemma dizisi [('قَد',), ('أَرْسَلَ',)] | ayet 19
+6:42†, 7:59†, 11:25, 11:96, 13:38, 14:5, 15:10, 16:63, 17:77, 23:23, 27:45, 29:14, 30:47, 37:72, 40:23, 40:78, 43:46, 57:25, 57:26
+
+19 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 16, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 42 10 11
+lemma dizisi [('لَعَلّ',), ('يَتَضَرَّعُ',)] | ayet 2
+6:42†, 7:94†
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 42 7 9
+lemma dizisi [('أَخَذَ',), ('بَأْساء',), ('ضَرّاء',)] | ayet 1
+6:42†
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 43 12 14
+lemma dizisi [('ما',), ('كانَ',), ('عَمِلَ',)] | ayet 52
+5:62, 5:105, 6:43†, 6:60†, 6:88†, 6:108†, 6:122†, 6:127†, 7:43†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:94, 9:105, 9:121, 10:12, 10:23, 11:16, 12:69, 16:28, 16:32, 16:96, 16:97, 24:24, 26:112, 27:90, 28:84, 29:8, 29:55, 31:15, 32:14, 32:17, 32:19, 34:33, 36:54, 37:39, 39:7, 41:20, 43:72, 45:28, 45:29, 46:14, 52:16, 52:19, 56:24, 58:15, 62:8, 63:2, 66:7, 77:43
+
+52 {'bu': ['6:43'], 'basilan': ['5:62', '5:105'], 'eski': 0, 'okunmus': 39, 'okunmus_si': 0, 'henuz': 10, 'henuz_si': 5}
+
+### dizi 6 43 9 11
+lemma dizisi [('زَيَّنَ',), (), ('شَيْطان',)] | ayet 5
+6:43†, 8:48†, 16:63, 27:24, 29:38
+
+5 {'bu': ['6:43'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 44 9 10
+lemma dizisi [('كُلّ',), ('شَىْء',)] | ayet 116
+2:20, 2:29, 2:106, 2:109, 2:148, 2:231, 2:259, 2:282, 2:284, 3:26, 3:29, 3:165, 3:189, 4:32, 4:33, 4:85, 4:86, 4:126, 4:176, 5:17, 5:19, 5:40, 5:97, 5:117, 5:120, 6:17, 6:44†, 6:80†, 6:99†, 6:101†, 6:102†, 6:111†, 6:154†, 6:164†, 7:89†, 7:145†, 7:156†, 8:41†, 8:75†, 9:39, 9:115, 11:4, 11:12, 11:57, 12:111, 13:8, 13:16, 15:19, 16:77, 16:89, 17:12, 18:45, 18:84, 20:50, 20:98, 21:30, 21:81, 22:6, 22:17, 23:88, 24:35, 24:45, 24:64, 25:2, 27:16, 27:23, 27:88, 27:91, 28:57, 28:88, 29:20, 29:62, 30:50, 32:7, 33:27, 33:40, 33:52, 33:54, 33:55, 34:21, 34:47, 35:1, 36:12, 36:83, 39:62, 40:7, 40:62, 41:21, 41:39, 41:53, 41:54, 42:9, 42:12, 46:25, 46:33, 48:21, 48:26, 49:16, 51:49, 54:49, 54:52, 57:2, 57:3, 58:6, 58:7, 59:6, 64:1, 64:11, 65:3, 65:12, 66:8, 67:1, 67:19, 72:28, 78:29, 85:9
+
+116 {'bu': ['6:44'], 'basilan': ['3:189', '5:17', '5:97', '5:117', '5:120', '6:17'], 'eski': 1, 'okunmus': 96, 'okunmus_si': 0, 'henuz': 12, 'henuz_si': 7}
+
+### dizi 6 44 16 17
+lemma dizisi [('أَخَذَ',), ('بَغْتَة',)] | ayet 2
+6:44†, 7:95†
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 44 18 20
+lemma dizisi [('إِذا',), (), ('مُبْلِس',)] | ayet 1
+6:44†
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 44 2 4
+lemma dizisi [('نَسِيَ',), ('ما',), ('ذُكِّرَ',)] | ayet 2
+6:44†, 7:165†
+
+2 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 45 6 9
+lemma dizisi [('حَمْد',), ('اللَّه',), ('رَبّ',), ('عالَم',)] | ayet 6
+1:2, 6:45†, 10:10, 37:182, 39:75, 40:65
+
+6 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 45 7 9
+lemma dizisi [('اللَّه',), ('رَبّ',), ('عالَم',)] | ayet 15
+1:2, 5:28, 6:45†, 6:162†, 7:54†, 10:10, 27:8, 27:44, 28:30, 37:182, 39:75, 40:64, 40:65, 59:16, 81:29
+
+15 {'bu': ['6:45'], 'basilan': ['37:182'], 'eski': 0, 'okunmus': 11, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 1}
+
+### dizi 6 45 4 5
+lemma dizisi [('الَّذِي',), ('ظَلَمَ',)] | ayet 31
+2:59, 2:150, 2:165, 6:45†, 7:162†, 7:165†, 8:25†, 10:52, 11:37, 11:67, 11:94, 11:113, 11:116, 14:44, 14:45, 16:85, 21:3, 23:27, 26:227, 29:46, 30:29, 30:57, 34:42, 37:22, 39:47, 39:51, 42:42, 43:65, 46:12, 51:59, 52:47
+
+31 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 27, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 0}
+
+### dizi 6 45 3 5
+lemma dizisi [('قَوْم',), ('الَّذِي',), ('ظَلَمَ',)] | ayet 1
+6:45†
+
+1 {'bu': ['6:45'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-2 --medde
+kalıp: ولقد أرسلنا | mod: tam medde
+ayet: 15
+liste: 6:42†, 11:25, 11:96, 13:38, 14:5, 15:10, 23:23, 27:45, 29:14, 30:47, 37:72, 40:23, 40:78, 43:46, 57:26
+sûre içi (6): 6:42
+
+15 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 14, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-2 --on --medde
+kalıp: ولقد أرسلنا | mod: on  medde
+ayet: 15
+liste: 6:42†, 11:25, 11:96, 13:38, 14:5, 15:10, 23:23, 27:45, 29:14, 30:47, 37:72, 40:23, 40:78, 43:46, 57:26
+sûre içi (6): 6:42
+
+15 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 14, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-3 --medde
+kalıp: ولقد أرسلنا إلى | mod: tam medde
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-3 --on --medde
+kalıp: ولقد أرسلنا إلى | mod: on  medde
+ayet: 2
+liste: 6:42†, 27:45
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-3 --medde
+kalıp: أرسلنا إلى | mod: tam medde
+ayet: 7
+liste: 6:42†, 11:70, 15:58, 16:63, 27:45, 51:32, 73:15
+sûre içi (6): 6:42
+
+7 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-3 --on --medde
+kalıp: أرسلنا إلى | mod: on  medde
+ayet: 7
+liste: 6:42†, 11:70, 15:58, 16:63, 27:45, 51:32, 73:15
+sûre içi (6): 6:42
+
+7 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-4 --medde
+kalıp: أرسلنا إلى أمم | mod: tam medde
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 2-4 --on --medde
+kalıp: أرسلنا إلى أمم | mod: on  medde
+ayet: 2
+liste: 6:42†, 16:63
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 7-9 --medde
+kalıp: فأخذنهم بالبأساء والضراء | mod: tam medde
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 7-9 --on --medde
+kalıp: فأخذنهم بالبأساء والضراء | mod: on  medde
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 8-9 --medde
+kalıp: بالبأساء والضراء | mod: tam medde
+ayet: 2
+liste: 6:42†, 7:94†
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:42 8-9 --on --medde
+kalıp: بالبأساء والضراء | mod: on  medde
+ayet: 2
+liste: 6:42†, 7:94†
+sûre içi (6): 6:42
+
+2 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:43 1-3 --medde
+kalıp: فلولا إذ جاءهم | mod: tam medde
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 1-3 --on --medde
+kalıp: فلولا إذ جاءهم | mod: on  medde
+ayet: 1
+liste: 6:43†
+sûre içi (6): 6:43
+
+1 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:43 2-4 --medde
+kalıp: إذ جاءهم بأسنا | mod: tam medde
+ayet: 2
+liste: 6:43†, 7:5†
+sûre içi (6): 6:43
+
+2 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:43 2-4 --on --medde
+kalıp: إذ جاءهم بأسنا | mod: on  medde
+ayet: 2
+liste: 6:43†, 7:5†
+sûre içi (6): 6:43
+
+2 {'bu': ['6:43'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:44 13-15 --medde
+kalıp: فرحوا بما أوتوا | mod: tam medde
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 13-15 --on --medde
+kalıp: فرحوا بما أوتوا | mod: on  medde
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 14-15 --medde
+kalıp: بما أوتوا | mod: tam medde
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:44 14-15 --on --medde
+kalıp: بما أوتوا | mod: on  medde
+ayet: 1
+liste: 6:44†
+sûre içi (6): 6:44
+
+1 {'bu': ['6:44'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-6
+kalıp: ولقد أرسلنءا إلى أمم من قبلك | mod: tam
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-6 --on
+kalıp: ولقد أرسلنءا إلى أمم من قبلك | mod: on 
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 42 1 6
+lemma dizisi [('قَد',), ('أَرْسَلَ',), ('إِلَى',), ('أُمَّة',), ('مِن',), ('قَبْل',)] | ayet 2
+6:42†, 16:63
+
+2 {'bu': ['6:42'], 'basilan': ['16:63'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-6 --medde
+kalıp: ولقد أرسلنا إلى أمم من قبلك | mod: tam medde
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:42 1-6 --on --medde
+kalıp: ولقد أرسلنا إلى أمم من قبلك | mod: on  medde
+ayet: 1
+liste: 6:42†
+sûre içi (6): 6:42
+
+1 {'bu': ['6:42'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+

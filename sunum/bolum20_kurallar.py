@@ -1,5 +1,5 @@
 # sûre 6 bölüm 4 denetimi araç kuralları (bekleyen_ariza_6_b09.txt 2. öğe) — salt okur:
-#  (1) YER_TUTUCU_KALMADI: ARIZA ve metin yamasında doldurulmamış yer tutucu ('X_P', 'KHATA_X', 'BN_HEPSI', 'AYN_SONUC', 'TETIKDISI', 'MUT_SONUC', 'ANILIS_YOK', '(geçici)') kalmaz
+#  (1) YER_TUTUCU_KALMADI: ARIZA ve metin yamasında doldurulmamış yer tutucu ('X_P', 'KHATA_X', 'BN_HEPSI', 'AYN_SONUC', 'TETIKDISI', 'MUT_SONUC', 'ANILIS_YOK') kalmaz; '(geçici)' ara geçişte okunduğundan desende yok, son kayıtta elle taranır
 #  (2) EK_ALT_DIZE: meal maddesinde "'-x' ile ('Y' içinde" ve "'-x' takdiri ('Y' içinde" biçimindeki ek (tireler atılmış) Y'nin alt dizesi
 #  (3) HAZIF_SOZDIZIMI: A4'te 'cevap hazif' yazılan her COND sözdizimi maddesinde 'cevap mahzuf (S:a N. kelime)' kaydıyla
 #  (4) GONDERGE_BICIM_SIKI: A1'de 'gönderge' ardından 'S:a N. kelime', 'lafız' ya da tırnaklı alıntı gelir (rol adı — 'gönderge elçi' — ya da numarasız ayet anışı kabul edilmez)
@@ -29,7 +29,7 @@ def kesim(txt, a):  # 'S:a …' kesimi: sonraki 'S:b ' başlangıcına dek
     return m.group(1) if m else ''
 
 # ── (1) YER_TUTUCU_KALMADI ──
-YT = re.compile(r"\b(?:[A-Z0-9]+_P|KHATA_[A-Z]+|B\d+_HEPSI|AYN_SONUC|TETIKDISI|MUT_SONUC|ANILIS_YOK|KARSILIK_CAKISMA)\b|\(geçici\)")
+YT = re.compile(r"\b(?:[A-Z0-9]+_P|KHATA_[A-Z]+|B\d+_HEPSI|AYN_SONUC|TETIKDISI|MUT_SONUC|ANILIS_YOK|KARSILIK_CAKISMA)\b")  # '(geçici)' ara geçiş metni koşu içinde okunur — son kayıt elle taranır (sûre 6 blok 10)
 for ad, t in (('ARIZA', HAM), ('metin', MHAM)):
     EN['yt'] += 1
     for m in sorted(set(YT.findall(t))): H.append("(1) %s yamasında yer tutucu kaldı: %s" % (ad, m))
