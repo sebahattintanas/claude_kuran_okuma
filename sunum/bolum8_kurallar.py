@@ -83,7 +83,7 @@ def norm(x):  # yazım eşdeğeri: uzunluk işareti, 'iyy' / 'î', çift harf, b
     t = re.sub(r'(.)\1+', r'\1', t)
     return ('a' + t[1:]) if t[:1] == 'e' else t
 ONCE = {}
-AYRI = {'ilâ': {'illâ'}, 'illâ': {'ilâ'}, 'etâ': {'âtâ'}, 'âtâ': {'etâ'}, 'qâdir': {'qadîr'}, 'qadîr': {'qâdir'}}
+AYRI = {'ilâ': {'illâ'}, 'illâ': {'ilâ'}, 'etâ': {'âtâ'}, 'âtâ': {'etâ'}, 'qâdir': {'qadîr'}, 'qadîr': {'qâdir'}, 'ene': {'enne'}, 'enne': {'ene'}}  # sûre 6 blok 13: 'ene' أَنا / 'enne' أَنّ
 for f in sorted(glob.glob(Y + 'ariza_%d_*_*.txt' % S), key=lambda p: int(p.split('_')[-2])):
     if int(f.split('_')[-2]) >= A: continue
     for it in [m for v in ast.literal_eval('{' + open(f, encoding='utf-8').read() + '}').values() for m in v if m.startswith('bağ:')]:

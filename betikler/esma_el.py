@@ -1532,4 +1532,8 @@ KARAR = {
     '6:50:26': 'degil',  # 'yestevi'l-a'mâ ve'l-basîr' — çoğul insan göndergeli → degil (insan göndergesi; 'l-basîr' cins: gören insan, körün karşıtı; 'ş-şâkirîn' çoğul)
     '6:51:13': 'degil',  # 'min dûnihî veliyyun' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:53:15': 'degil',  # 'bi'ş-şâkirîn' — çoğul insan göndergeli → degil (insan göndergesi; 'l-basîr' cins: gören insan, körün karşıtı; 'ş-şâkirîn' çoğul)
+    # sure 6 blok 54-58
+    '6:54:7': 'degil',  # 'fe-qul selâmun 'aleykum' — esmâ adı esmâ dışı göndergeyle → degil (selamlama)
+    '6:54:26': 'ilahi',  # 'fe-ennehû ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Allah)
+    '6:54:27': 'ilahi',  # 'fe-ennehû ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Allah)
 }
