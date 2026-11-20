@@ -1,0 +1,60 @@
+6:46:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:46:2	أَرَءَيْتُمْ	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:رأي|LEM:رَأَى|2MP + N|PRON|SUFF|2MP
+6:46:3	إِنْ	P|COND|LEM:إِن
+6:46:4	أَخَذَ	V|PERF|VF:1|ROOT:أخذ|LEM:أَخَذَ|3MS
+6:46:5	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:46:6	سَمْعَكُمْ	N|ROOT:سمع|LEM:سَمْع|M|ACC + N|PRON|SUFF|2MP
+6:46:7	وَأَبْصَٰرَكُمْ	P|CONJ|PREF|LEM:و + N|ROOT:بصر|LEM:بَصَر|MP|ACC + N|PRON|SUFF|2MP
+6:46:8	وَخَتَمَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ختم|LEM:خَتَمَ|3MS
+6:46:9	عَلَىٰ	P|P|LEM:عَلَى
+6:46:10	قُلُوبِكُم	N|ROOT:قلب|LEM:قَلْب|FP|GEN + N|PRON|SUFF|2MP
+6:46:11	مَّنْ	N|INTG|LEM:مَن
+6:46:12	إِلَٰهٌ	N|ROOT:أله|LEM:إِلٰه|MS|INDEF|NOM
+6:46:13	غَيْرُ	N|ROOT:غير|LEM:غَيْر|M|NOM
+6:46:14	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:46:15	يَأْتِيكُم	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:46:16	بِهِ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:46:17	ٱنظُرْ	V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+6:46:18	كَيْفَ	N|ROOT:كيف|LEM:كَيْف
+6:46:19	نُصَرِّفُ	V|IMPF|VF:2|ROOT:صرف|LEM:صَرَّفْ|1P|MOOD:IND
+6:46:20	ٱلْءَايَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:أيي|LEM:آيَة|FP|ACC
+6:46:21	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:46:22	هُمْ	N|PRON|3MP
+6:46:23	يَصْدِفُونَ	V|IMPF|VF:1|ROOT:صدف|LEM:صَدَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:47:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:47:2	أَرَءَيْتَكُمْ	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:رأي|LEM:رَأَى|2MS + N|PRON|SUFF|2MS + N|ADDR|SUFF|2MP
+6:47:3	إِنْ	P|COND|LEM:إِن
+6:47:4	أَتَىٰكُمْ	V|PERF|VF:1|ROOT:أتي|LEM:أَتَى|3MS + N|PRON|SUFF|2MP
+6:47:5	عَذَابُ	N|ROOT:عذب|LEM:عَذاب|M|NOM
+6:47:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:47:7	بَغْتَةً	N|ROOT:بغت|LEM:بَغْتَة|F|INDEF|ACC
+6:47:8	أَوْ	P|CONJ|LEM:أَو
+6:47:9	جَهْرَةً	N|ROOT:جهر|LEM:جَهْرَة|F|INDEF|ACC
+6:47:10	هَلْ	P|INTG|LEM:هَل
+6:47:11	يُهْلَكُ	V|IMPF|VF:4|PASS|ROOT:هلك|LEM:أَهْلَكَ|3MS|MOOD:IND
+6:47:12	إِلَّا	P|RES|LEM:إِلّا
+6:47:13	ٱلْقَوْمُ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|NOM
+6:47:14	ٱلظَّٰلِمُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|NOM|ADJ
+6:48:1	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:48:2	نُرْسِلُ	V|IMPF|VF:4|ROOT:رسل|LEM:أَرْسَلَ|1P|MOOD:IND
+6:48:3	ٱلْمُرْسَلِينَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:4|ROOT:رسل|LEM:مُرْسَل|MP|ACC
+6:48:4	إِلَّا	P|RES|LEM:إِلّا
+6:48:5	مُبَشِّرِينَ	N|ACT_PCPL|VF:2|ROOT:بشر|LEM:مُبَشِّر|MP|ACC
+6:48:6	وَمُنذِرِينَ	P|CONJ|PREF|LEM:و + N|ACT_PCPL|VF:4|ROOT:نذر|LEM:مُنذِر|MP|ACC
+6:48:7	فَمَنْ	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+6:48:8	ءَامَنَ	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MS
+6:48:9	وَأَصْلَحَ	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:صلح|LEM:أَصْلَحَ|3MS
+6:48:10	فَلَا	P|RSLT|PREF|LEM:ف + P|NEG|LEM:لا
+6:48:11	خَوْفٌ	N|ROOT:خوف|LEM:خَوْف|M|INDEF|NOM
+6:48:12	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:48:13	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:48:14	هُمْ	N|PRON|3MP
+6:48:15	يَحْزَنُونَ	V|IMPF|VF:1|ROOT:حزن|LEM:يَحْزُن|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:49:1	وَٱلَّذِينَ	P|CONJ|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+6:49:2	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+6:49:3	بِـَٔايَٰتِنَا	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+6:49:4	يَمَسُّهُمُ	V|IMPF|VF:1|ROOT:مسس|LEM:مَسَّ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:49:5	ٱلْعَذَابُ	P|DET|PREF|LEM:ال + N|ROOT:عذب|LEM:عَذاب|M|NOM
+6:49:6	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:49:7	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:49:8	يَفْسُقُونَ	V|IMPF|VF:1|ROOT:فسق|LEM:فَسَقَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

@@ -1527,4 +1527,5 @@ KARAR = {
     # sure 6 blok 33-36
     # sure 6 blok 37-41
     # sure 6 blok 42-45
+    # sure 6 blok 46-49
 }
