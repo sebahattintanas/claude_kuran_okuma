@@ -1528,4 +1528,8 @@ KARAR = {
     # sure 6 blok 37-41
     # sure 6 blok 42-45
     # sure 6 blok 46-49
+    # sure 6 blok 50-53
+    '6:50:26': 'degil',  # 'yestevi'l-a'mâ ve'l-basîr' — çoğul insan göndergeli → degil (insan göndergesi; 'l-basîr' cins: gören insan, körün karşıtı; 'ş-şâkirîn' çoğul)
+    '6:51:13': 'degil',  # 'min dûnihî veliyyun' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:53:15': 'degil',  # 'bi'ş-şâkirîn' — çoğul insan göndergeli → degil (insan göndergesi; 'l-basîr' cins: gören insan, körün karşıtı; 'ş-şâkirîn' çoğul)
 }

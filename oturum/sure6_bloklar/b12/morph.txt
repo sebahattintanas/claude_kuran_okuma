@@ -1,0 +1,85 @@
+6:50:1	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:50:2	لَّآ	P|NEG|LEM:لا
+6:50:3	أَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|1S|MOOD:IND
+6:50:4	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+6:50:5	عِندِى	N|LOC|ROOT:عند|LEM:عِند + N|PRON|SUFF|1S
+6:50:6	خَزَآئِنُ	N|ROOT:خزن|LEM:خَزائِن|MP|NOM
+6:50:7	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:50:8	وَلَآ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:50:9	أَعْلَمُ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|1S|MOOD:IND
+6:50:10	ٱلْغَيْبَ	P|DET|PREF|LEM:ال + N|ROOT:غيب|LEM:غَيْب|M|ACC
+6:50:11	وَلَآ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:50:12	أَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|1S|MOOD:IND
+6:50:13	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+6:50:14	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:50:15	مَلَكٌ	N|ROOT:ملك|LEM:مَلَك|M|INDEF|NOM
+6:50:16	إِنْ	P|NEG|LEM:إِن
+6:50:17	أَتَّبِعُ	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|1S|MOOD:IND
+6:50:18	إِلَّا	P|RES|LEM:إِلّا
+6:50:19	مَا	N|REL|LEM:ما
+6:50:20	يُوحَىٰٓ	V|IMPF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS|MOOD:SUBJ
+6:50:21	إِلَىَّ	P|P|LEM:إِلَى + N|PRON|SUFF|1S
+6:50:22	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:50:23	هَلْ	P|INTG|LEM:هَل
+6:50:24	يَسْتَوِى	V|IMPF|VF:8|ROOT:سوي|LEM:اسْتَوَى|3MS|MOOD:IND
+6:50:25	ٱلْأَعْمَىٰ	P|DET|PREF|LEM:ال + N|ROOT:عمي|LEM:أَعْمَى|M|NOM
+6:50:26	وَٱلْبَصِيرُ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:بصر|LEM:بَصِير|MS|NOM
+6:50:27	أَفَلَا	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+6:50:28	تَتَفَكَّرُونَ	V|IMPF|VF:5|ROOT:فكر|LEM:يَتَفَكَّرُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:51:1	وَأَنذِرْ	P|CONJ|PREF|LEM:و + V|IMPV|VF:4|ROOT:نذر|LEM:أَنذَرَ|2MS
+6:51:2	بِهِ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:51:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:51:4	يَخَافُونَ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:51:5	أَن	P|SUB|LEM:أَن
+6:51:6	يُحْشَرُوٓا۟	V|IMPF|VF:1|PASS|ROOT:حشر|LEM:حَشَرَ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:51:7	إِلَىٰ	P|P|LEM:إِلَى
+6:51:8	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:51:9	لَيْسَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+6:51:10	لَهُم	P|P|PREF|LEM:ل + N|PRON|3MP
+6:51:11	مِّن	P|P|LEM:مِن
+6:51:12	دُونِهِۦ	N|ROOT:دون|LEM:دُون|GEN + N|PRON|SUFF|3MS
+6:51:13	وَلِىٌّ	N|ROOT:ولي|LEM:وَلِيّ|M|INDEF|NOM
+6:51:14	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:51:15	شَفِيعٌ	N|ROOT:شفع|LEM:شَفِيع|MS|INDEF|NOM
+6:51:16	لَّعَلَّهُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:51:17	يَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:52:1	وَلَا	P|REM|PREF|LEM:و + P|PRO|LEM:لا
+6:52:2	تَطْرُدِ	V|IMPF|VF:1|ROOT:طرد|LEM:طَرَد|2MS|MOOD:JUS
+6:52:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:52:4	يَدْعُونَ	V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:52:5	رَبَّهُم	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|3MP
+6:52:6	بِٱلْغَدَوٰةِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:غدو|LEM:غَداة|F|GEN
+6:52:7	وَٱلْعَشِىِّ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:عشو|LEM:عَشِيّ|M|GEN
+6:52:8	يُرِيدُونَ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:52:9	وَجْهَهُۥ	N|ROOT:وجه|LEM:وَجْه|M|ACC + N|PRON|SUFF|3MS
+6:52:10	مَا	P|NEG|LEM:ما
+6:52:11	عَلَيْكَ	P|P|LEM:عَلَى + N|PRON|SUFF|2MS
+6:52:12	مِنْ	P|P|LEM:مِن
+6:52:13	حِسَابِهِم	N|VN|VF:3|ROOT:حسب|LEM:حِساب|M|GEN + N|PRON|SUFF|3MP
+6:52:14	مِّن	P|P|LEM:مِن
+6:52:15	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:52:16	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:52:17	مِنْ	P|P|LEM:مِن
+6:52:18	حِسَابِكَ	N|VN|VF:3|ROOT:حسب|LEM:حِساب|M|GEN + N|PRON|SUFF|2MS
+6:52:19	عَلَيْهِم	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:52:20	مِّن	P|P|LEM:مِن
+6:52:21	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:52:22	فَتَطْرُدَهُمْ	P|CAUS|PREF|LEM:ف + V|IMPF|VF:1|ROOT:طرد|LEM:طَرَد|2MS|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:52:23	فَتَكُونَ	P|CONJ|PREF|LEM:ف + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:SUBJ
+6:52:24	مِنَ	P|P|LEM:مِن
+6:52:25	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN
+6:53:1	وَكَذَٰلِكَ	P|REM|PREF|LEM:و + P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:53:2	فَتَنَّا	V|PERF|VF:1|ROOT:فتن|LEM:فَتَنُ|1P + N|PRON|SUFF|1P
+6:53:3	بَعْضَهُم	N|ROOT:بعض|LEM:بَعْض|M|ACC + N|PRON|SUFF|3MP
+6:53:4	بِبَعْضٍ	P|P|PREF|LEM:ب + N|ROOT:بعض|LEM:بَعْض|M|INDEF|GEN
+6:53:5	لِّيَقُولُوٓا۟	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:53:6	أَهَٰٓؤُلَآءِ	N|INTG|PREF|LEM:أ + P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|P
+6:53:7	مَنَّ	V|PERF|VF:1|ROOT:منن|LEM:مَنَّ|3MS
+6:53:8	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:53:9	عَلَيْهِم	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:53:10	مِّنۢ	P|P|LEM:مِن
+6:53:11	بَيْنِنَآ	N|ROOT:بين|LEM:بَيْن|GEN + N|PRON|SUFF|1P
+6:53:12	أَلَيْسَ	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+6:53:13	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:53:14	بِأَعْلَمَ	P|P|PREF|LEM:ب + N|ROOT:علم|LEM:أَعْلَم|MS|GEN
+6:53:15	بِٱلشَّٰكِرِينَ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:شكر|LEM:شاكِر|MP|GEN

@@ -1,0 +1,18 @@
+KARAR.update({
+ 'başka': "'başka' ← 'dûn', 'âxar', 'ğayr': farklı lemma ve kök (دون, أخر, غير) — çakışma — tam okuma sonu",
+ 'bil-': "'bil-' ← 'a'lemu', 'na'lemu', 'ya'lemu', 'ya'lemûn': bir lemma ('alime'; morph LEM eşit) — çakışma değil",
+ 'de-': "'de-' ← 'eqûlu', 'neqûlu', 'qul', 'qâle', 'qâlû', 'yeqûlu', 'yeqûlû': bir lemma ('qâle'; morph LEM eşit) — çakışma değil",
+ 'kork-': "'kork-' ← 'exâfu', 'yaxâfûne': bir lemma ('xâfe'; morph LEM eşit) — çakışma değil",
+ 'kov-': "'kov-' ← 'tatrude', 'tatrudi': bir lemma ('tarade'; morph LEM eşit) — çakışma değil",
+ 'ol-': "'ol-' ← 'ekûne', 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûne', 'tekun', 'tekûne', 'tekûnenne': bir lemma ('kâne'; morph LEM eşit) — çakışma değil",
+ 'söyle-': "'söyle-' ← 'eqûlu', 'yeqûlûn': bir lemma ('qâle'; morph LEM eşit) — çakışma değil",
+ 'toplan-': "'toplan-' ← 'yuhşerû', 'yuhşerûn': bir lemma ('haşera'; morph LEM eşit) — çakışma değil",
+ 'uyar-': "'uyar-' ← 'enzir', 'unzir': bir lemma ('enzera'; morph LEM eşit) — çakışma değil",
+ 'vahyolun-': "'vahyolun-' ← 'yûhâ', 'ûhiye': bir lemma ('evhâ'; morph LEM eşit) — çakışma değil",
+ 'KÖK ara-': "KÖK 'ara-' ← 'ara' (بين; 'beyn'), 'ara-' (بغي; 'tebteğiye'): Türkçe eş yazım, farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK bil-': "KÖK 'bil-' ← 'bil-' ('a'lemu', 'na'lemu', 'ya'lemu', 'ya'lemûn'), 'bilen' (''alîm'), 'daha iyi bilen' ('a'lem'): bir kök (علم) — çakışma değil",
+ 'KÖK et-': "KÖK 'et-' ← 'alay et-' (هزأ; 'yestehzi'ûn'), 'bile bile inkâr et-' (جحد; 'yechadûn' (morph LEM ham biçim)), 'dua et-' (دعو; 'yed'ûne'), 'helâk et-' (هلك; 'ehleknâ', 'yuhlikûne'), 'icabet et-' (جوب; 'yestecîbu'), 'iddia et-' (زعم; 'tez'umûn'), 'ihmal et-' (فرط; 'farratnâ'), 'iman et-' (أمن; 'âmene'), 'inkâr et-' (كفر; 'keferû', 'tekfurûn'), 'inşâ et-' (نشأ; 'enşe'nâ'), 'isyan et-' (عصي; ''aseytu'), 'rahmet et-' (رحم; 'rahime'), 'takdir et-' (قضي; 'qadâ'), 'var et-' (جعل; 'ce'ale'), 'şahitlik et-' (شهد; 'eşhed', 'teşhedûne'), 'şüphe et-' (مري; 'temterûn'): yardımcı fiil 'et-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK gör-': "KÖK 'gör-' ← 'gör-' (رأي; 'terâ', 'yerav', 'yerev'), 'gören' (بصر; 'basîr'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'eşit ol-' (سوي; 'yestevi'), 'farkında ol-' (شعر; 'yeş'urûn' (morph LEM ham biçim)), 'ol-' (كون; 'ekûne', 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûne', 'tekun', 'tekûne', 'tekûnenne'), 'teslim ol-' (سلم; 'eslem'): yardımcı fiil 'ol-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK söyle-': "KÖK 'söyle-' ← 'söyle-' (قول; 'eqûlu', 'yeqûlûn'), 'yalan söyle-' (كذب; 'kezebû'): farklı lemma ve kök — çakışma — tam okuma sonu",
+})

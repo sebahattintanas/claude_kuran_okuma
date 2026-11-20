@@ -92803,6 +92803,161 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:50": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    26,
+    "بَصِير"
+   ]
+  ],
+  "esma_el": {
+   "6:50:26": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "بَصِير"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    15,
+    "مَلَك"
+   ],
+   [
+    25,
+    "أَعْمَى"
+   ],
+   [
+    26,
+    "بَصِير"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:51": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    13,
+    "وَلِيّ"
+   ]
+  ],
+  "esma_el": {
+   "6:51:13": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "وَلِيّ"
+  ],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    12,
+    "دُون"
+   ],
+   [
+    13,
+    "وَلِيّ"
+   ],
+   [
+    15,
+    "شَفِيع"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "6:52": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    18,
+    "حِساب"
+   ],
+   [
+    21,
+    "شَىْء"
+   ],
+   [
+    25,
+    "ظالِم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:53": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    15,
+    "شاكِر"
+   ]
+  ],
+  "esma_el": {
+   "6:53:15": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "شاكِر"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    13,
+    "اللَّه"
+   ],
+   [
+    14,
+    "أَعْلَم"
+   ],
+   [
+    15,
+    "شاكِر"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
  "6:6": {
   "a": false,
   "bant": "KAPI_KAPALI",
