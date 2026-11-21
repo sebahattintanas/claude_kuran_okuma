@@ -1,0 +1,15 @@
+KARAR.update({
+ 'edin-': "'edin-' ← 'ettexizu', 'tettexizu', 'ttexazû': bir lemma ('ittexaze'; morph LEM eşit) — çakışma değil",
+ 'gör-': "'gör-' ← 'erâ', 'ra'a', 'ra'â', 're'eyte', 'terâ', 'yerav', 'yerev': bir lemma ('ra'â'; morph LEM eşit) — çakışma değil",
+ 'ol-': "'ol-' ← 'ekûne', 'ekûnenne', 'kun', 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûne', 'nekûnenne', 'tekun', 'tekûne', 'tekûnenne', 'yekûn', 'yekûne': bir lemma ('kâne'; morph LEM eşit) — çakışma değil",
+ 'KÖK ol-': "KÖK 'ol-' ← 'belli ol-' (بين; 'testebîne'), 'eşit ol-' (سوي; 'yestevi'), 'farkında ol-' (شعر; 'yeş'urûn' (morph LEM ham biçim)), 'ol-' (كون; 'ekûne', 'ekûnenne', 'kun', 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûne', 'nekûnenne', 'tekun', 'tekûne', 'tekûnenne', 'yekûn', 'yekûne'), 'teslim ol-' (سلم; 'eslem', 'nuslime'): yardımcı fiil 'ol-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK gör-': "KÖK 'gör-' ← 'gör-' (رأي; 'erâ', 'ra'a', 'ra'â', 're'eyte', 'terâ', 'yerav', 'yerev'), 'gören' (بصر; 'basîr'), 'hesap gören' (حسب; 'hâsib'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK koş-': "KÖK 'koş-' ← 'ortak koş-' ('eşrakû', 'tuşrikûn'), 'ortak koşan' ('muşrik'): bir kök (شرك) — çakışma değil",
+ 'KÖK büyük-': "KÖK 'büyük-' ← 'büyük' (''azîm'; عظم), 'daha büyük' ('ekber'; كبر): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK bil-': "KÖK 'bil-' ← 'bil-' (علم; 'a'lemu', 'na'lemu', 'ta'lemûn', 'ya'lemu', 'ya'lemûn'), 'bilen' (علم; ''alîm', ''âlim'), 'daha iyi bilen' (علم; 'a'lem'), 'kesin bilen' (يقن; 'mûqin'): birden çok kök — çakışma — tam okuma sonu; önceki karar (blok 17: çakışma sayılmamıştı), gerekçe: üye kümesine 'mûqin' (يقن) katıldı, grup artık iki kök taşıyor",
+ 'KÖK göster-': "KÖK 'göster-' ← 'göster-' (رأي; 'nurî' (morph LEM ham biçim)), 'süslü göster-' (زين; 'zeyyene'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK bat-': "KÖK 'bat-' ← 'bat-' ('efele', 'efelet'), 'batan' ('âfil'): bir kök (أفل) — çakışma değil",
+ 'bat-': "'bat-' ← 'efele', 'efelet': bir lemma ('efele'; morph LEM eşit) — çakışma değil",
+ 'doğarken': "'doğarken' ← 'bâziğ', 'bâziğa': bir kök (بزغ), farklı lemma (eril / dişil etken ortaç) — çakışma değil",
+ 'doğru yola ilet-': "'doğru yola ilet-' ← 'hedâ', 'yehdi': bir lemma ('hedâ'; morph LEM eşit) — çakışma değil",
+})

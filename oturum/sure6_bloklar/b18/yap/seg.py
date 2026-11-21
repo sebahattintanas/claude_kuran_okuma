@@ -1,0 +1,83 @@
+# blok 18 (6:74-78) meal kesimleri
+SEG = {
+ 74: [
+  ("Hani İbrâhîm babası Âzer'e demişti", "ve iz qâle ibrâhîmu li-ebîhi âzer", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'iz' 1. kelimede 'Hani' ile (morph T)", "'de-' 'qâle' karşılığı (2. kelime; I. bab; '-mişti')",
+   "'İbrâhîm' 'ibrâhîm' karşılığı (3. kelime; özel ad)", "'li' 4. kelimede yönelme eki ile ('Âzer'e' içinde)", "'baba' 'eb' karşılığı (4. kelime; iyelik ile 'babası')",
+   "'hî' 4. kelimede iyelik ile ('babası' içinde)", "'Âzer' 'âzer' karşılığı (5. kelime; özel ad; bedel)", "sıralama: özne öne, fiil sona alındı"]),
+  ("Putları ilahlar mı ediniyorsun", "e-tettexizu esnâmen âliheh", [
+   "'e' 6. kelimede 'mı' ile (morph INTG)", "'edin-' 'tettexizu' karşılığı (6. kelime; VIII. bab; '-iyorsun')",
+   "'put' 'esnâm' karşılığı (7. kelime; nekre — takdirsiz; çoğul, '-lar'; belirtme eki ile 'Putları')", "'ilah' 'ilâh' karşılığı (8. kelime; nekre — takdirsiz; çoğul 'âliha', '-lar')",
+   "sıralama: nesne öne, fiil sona alındı"]),
+  ("Ben seni ve kavmini apaçık bir sapıklık içinde görüyorum", "innî erâke ve qavmeke fî dalâlin mubîn", [
+   "'inne' 9. kelimede karşılıksız (morph ACC — tekit)", "'î' 9. kelimede 'Ben' ile", "'gör-' 'erâ' karşılığı (10. kelime; I. bab; 1S; '-üyorum')",
+   "'ke' 10. kelimede 'seni' ile (fiil yönetimi takdiri)", "'ve' 11. kelimede 've' ile (morph CONJ)", "'kavim' 'qavm' karşılığı (11. kelime; iyelik ve belirtme eki ile 'kavmini')",
+   "'ke' 11. kelimede iyelik ile ('kavmini' içinde)", "'fî' 12. kelimede 'içinde' ile", "'sapıklık' 'dalâl' karşılığı (13. kelime; nekre — 'bir' takdiri)",
+   "'apaçık' 'mubîn' karşılığı (14. kelime; nekre — takdirsiz; sıfat; IV. bab etken ortaç; esmâ)", "sıralama: nesne öne, fiil sona alındı"]),
+ ],
+ 75: [
+  ("Böylece İbrâhîm'e göklerin ve yerin melekûtunu gösteriyorduk", "ve kezâlike nurî ibrâhîme melekûte's-semâvâti ve'l-ard", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'ke' 1. kelimede 'Böylece' ile (bitişik işaretle birlikte; morph P)", "'zâlike' 1. kelimede 'Böylece' ile (işaret)",
+   "'göster-' 'nurî' karşılığı (2. kelime; IV. bab; 1P; '-iyorduk'; LEM 'erey' (morph LEM ham biçim))", "'İbrâhîm' 'ibrâhîm' karşılığı (3. kelime; özel ad; yönelme eki ile 'İbrâhîm'e'; fiil yönetimi takdiri)",
+   "'melekût' 'melekût' karşılığı (4. kelime; iyelik ve belirtme eki ile 'melekûtunu')", "'gök' 'semâ'' karşılığı (5. kelime; belirli — takdirsiz; çoğul 'semâvât', '-ler'; tamlayan eki ile 'göklerin')",
+   "'ve' 6. kelimede 've' ile (morph CONJ)", "'yer' 'ard' karşılığı (6. kelime; belirli — takdirsiz; tamlayan eki ile 'yerin')", "sıralama: nesne öne, fiil sona alındı"]),
+  ("kesin bilenlerden olsun diye", "ve li-yekûne mine'l-mûqinîn", [
+   "'ve' 7. kelimede karşılıksız (morph CONJ; noktalı virgül)", "'li' 7. kelimede 'diye' ile (morph PRP — amaç)", "'ol-' 'yekûne' karşılığı (7. kelime; I. bab; SUBJ; '-sun')",
+   "'min' 8. kelimede ayrılma eki ile ('bilenlerden' içinde)", "'kesin bilen' 'mûqin' açılımı (9. kelime; belirli — takdirsiz; çoğul, '-ler'; IV. bab etken ortaç)", "sıralama: fiil sona alındı"]),
+ ],
+ 76: [
+  ("Gece onu örtünce bir yıldız gördü", "fe-lemmâ cenne 'aleyhi'l-leylu ra'â kevkeb", [
+   "'fe' 1. kelimede karşılıksız (morph CONJ)", "'lemmâ' 1. kelimede '-ünce' ile ('örtünce' içinde; morph T)", "'ört-' 'cenne' karşılığı (2. kelime; I. bab)",
+   "''alâ' 3. kelimede belirtme eki ile ('onu' içinde; fiil yönetimi takdiri)", "'hi' 3. kelimede 'o' ile ('onu' içinde)", "'gece' 'leyl' karşılığı (4. kelime; belirli — takdirsiz)",
+   "'gör-' 'ra'â' karşılığı (5. kelime; I. bab)", "'yıldız' 'kevkeb' karşılığı (6. kelime; nekre — 'bir' takdiri)", "sıralama: özne öne, fiil sona alındı"]),
+  ("Bu benim Rabbim, dedi", "qâle hâzâ rabbî", [
+   "'de-' 'qâle' karşılığı (7. kelime; I. bab; '-di')", "'hâ' 8. kelimede karşılıksız (morph ATT — tenbih)", "'zâ' 8. kelimede 'Bu' ile (işaret; morph DEM)",
+   "'Rab' 'rabb' karşılığı (9. kelime; iyelik ile 'Rabbim')", "'î' 9. kelimede 'benim' ile", "sıralama: söz öne, fiil sona alındı"]),
+  ("Batınca: Batanları sevmem, dedi", "fe-lemmâ efele qâle lâ uhibbu'l-âfilîn", [
+   "'fe' 10. kelimede karşılıksız (morph CONJ)", "'lemmâ' 10. kelimede '-ınca' ile ('Batınca' içinde; morph T)", "'bat-' 'efele' karşılığı (11. kelime; I. bab)",
+   "'de-' 'qâle' karşılığı (12. kelime; I. bab; '-di')", "'lâ' 13. kelimede '-me' ile ('sevmem' içinde; morph NEG)",
+   "'sev-' 'uhibbu' karşılığı (14. kelime; IV. bab; 1S; LEM 'ahbeb' (morph LEM ham biçim))", "'batan' 'âfil' karşılığı (15. kelime; belirli — takdirsiz; çoğul, '-lar'; belirtme eki ile 'Batanları'; I. bab etken ortaç)",
+   "sıralama: söz öne, fiil sona alındı"]),
+ ],
+ 77: [
+  ("Ayı doğarken görünce", "fe-lemmâ ra'a'l-qamera bâziğ", [
+   "'fe' 1. kelimede karşılıksız (morph CONJ)", "'lemmâ' 1. kelimede '-ünce' ile ('görünce' içinde; morph T)", "'gör-' 'ra'a' karşılığı (2. kelime; I. bab)",
+   "'ay' 'qamer' karşılığı (3. kelime; belirli — takdirsiz; belirtme eki ile 'Ayı')", "'doğarken' 'bâziğ' açılımı (4. kelime; nekre — takdirsiz; hâl; I. bab etken ortaç)",
+   "sıralama: nesne öne, fiil sona alındı"]),
+  ("Bu benim Rabbim, dedi", "qâle hâzâ rabbî", [
+   "'de-' 'qâle' karşılığı (5. kelime; I. bab; '-di')", "'hâ' 6. kelimede karşılıksız (morph ATT — tenbih)", "'zâ' 6. kelimede 'Bu' ile (işaret; morph DEM)",
+   "'Rab' 'rabb' karşılığı (7. kelime; iyelik ile 'Rabbim')", "'î' 7. kelimede 'benim' ile", "sıralama: söz öne, fiil sona alındı"]),
+  ("Batınca", "fe-lemmâ efele", [
+   "'fe' 8. kelimede karşılıksız (morph CONJ)", "'lemmâ' 8. kelimede '-ınca' ile ('Batınca' içinde; morph T)", "'bat-' 'efele' karşılığı (9. kelime; I. bab)"]),
+  ("Rabbim beni doğru yola iletmezse mutlaka sapık kavimden olurum, dedi", "qâle le-in lem yehdinî rabbî le-ekûnenne mine'l-qavmi'd-dâllîn", [
+   "'de-' 'qâle' karşılığı (10. kelime; I. bab; '-di')", "'le' 11. kelimede karşılıksız (morph EMPH — yemin lâmı)", "'in' 11. kelimede '-se' ile ('iletmezse' içinde; morph COND)",
+   "'lem' 12. kelimede '-mez' ile ('iletmezse' içinde; morph NEG)", "'doğru yola ilet-' 'yehdi' açılımı (13. kelime; I. bab; JUS)", "'nî' 13. kelimede 'beni' ile (fiil yönetimi takdiri)",
+   "'Rab' 'rabb' karşılığı (14. kelime; iyelik ile 'Rabbim')", "'î' 14. kelimede iyelik ile ('Rabbim' içinde)", "'le' 15. kelimede 'mutlaka' ile (morph EMPH — cevap lâmı)",
+   "'ol-' 'ekûnenne' karşılığı (15. kelime; I. bab; 1S; '-urum'; tekit nûnu)", "'min' 16. kelimede ayrılma eki ile ('kavimden' içinde)", "'kavim' 'qavm' karşılığı (17. kelime; belirli — takdirsiz)",
+   "'sapık' 'dâll' karşılığı (18. kelime; belirli — takdirsiz; sıfat; I. bab etken ortaç)", "sıralama: söz öne, fiil sona alındı"]),
+ ],
+ 78: [
+  ("Güneşi doğarken görünce", "fe-lemmâ ra'a'ş-şemse bâziğa", [
+   "'fe' 1. kelimede karşılıksız (morph CONJ)", "'lemmâ' 1. kelimede '-ünce' ile ('görünce' içinde; morph T)", "'gör-' 'ra'a' karşılığı (2. kelime; I. bab)",
+   "'güneş' 'şems' karşılığı (3. kelime; belirli — takdirsiz; belirtme eki ile 'Güneşi')", "'doğarken' 'bâziğa' açılımı (4. kelime; nekre — takdirsiz; hâl; I. bab etken ortaç)",
+   "sıralama: nesne öne, fiil sona alındı"]),
+  ("Bu benim Rabbim, bu daha büyük, dedi", "qâle hâzâ rabbî hâzâ ekber", [
+   "'de-' 'qâle' karşılığı (5. kelime; I. bab; '-di')", "'hâ' 6. kelimede karşılıksız (morph ATT — tenbih)", "'zâ' 6. kelimede 'Bu' ile (işaret; morph DEM)",
+   "'Rab' 'rabb' karşılığı (7. kelime; iyelik ile 'Rabbim')", "'î' 7. kelimede 'benim' ile", "'hâ' 8. kelimede karşılıksız (morph ATT — tenbih)", "'zâ' 8. kelimede 'bu' ile (işaret; morph DEM)",
+   "'daha büyük' 'ekber' karşılığı (9. kelime; ism-i tafdil)", "sıralama: söz öne, fiil sona alındı"]),
+  ("Batınca", "fe-lemmâ efelet", [
+   "'fe' 10. kelimede karşılıksız (morph CONJ)", "'lemmâ' 10. kelimede '-ınca' ile ('Batınca' içinde; morph T)", "'bat-' 'efelet' karşılığı (11. kelime; I. bab)"]),
+  ("Ey kavmim, ben ortak koştuklarınızdan uzağım, dedi", "qâle yâ qavmi innî berî'un mimmâ tuşrikûn", [
+   "'de-' 'qâle' karşılığı (12. kelime; I. bab; '-di')", "'yâ' 13. kelimede 'Ey' ile (morph VOC)", "'kavim' 'qavm' karşılığı (13. kelime; iyelik ile 'kavmim')",
+   "'î' 13. kelimede iyelik ile ('kavmim' içinde)", "'inne' 14. kelimede karşılıksız (morph ACC — tekit)", "'î' 14. kelimede 'ben' ile",
+   "'uzak' 'berî'' karşılığı (15. kelime; nekre — takdirsiz; 'uzağım' içinde)", "'min' 16. kelimede ayrılma eki ile ('koştuklarınızdan' içinde)", "'mâ' 16. kelimede '-tuklarınız' ile ('koştuklarınızdan' içinde; morph REL)",
+   "'ortak koş-' 'tuşrikûn' açılımı (17. kelime; IV. bab)", "sıralama: söz öne, fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (74, 75, 76, 77, 78):
+        out.append('6:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)
