@@ -1,0 +1,23 @@
+KQ = ["'alâ", 'bi', 'ellezî', 'fe', 'hu', 'hum', 'hâ', 'li', 'min', "ulâ'i", 've', 'zâ']
+KM = {
+ "''alâ'": "çakışma değil ('karşılık' / yönelme eki — fiil yönetimi, kalıp karşılığı)",
+ "'bi'": "çakışma değil ('-la' araç / belirtme eki / yönelme eki / karşılıksız haber 'bi'si — fiil yönetimi)",
+ "'ellezî'": "çakışma değil ('kimseler' — ilgi karşılığı)",
+ "'fe'": "çakışma değil ('de' / karşılıksız — Türkçe sıralama)",
+ "'hu'": "çakışma değil (zamir 'O' / 'o' / 'bu' / 'onun' / iyelik eki — çekim, gönderge)",
+ "'hum'": "çakışma değil (zamir 'kendilerine' / 'onlar' / 'onları' / 'onların' / iyelik eki / karşılıksız ortak nesne — çekim, fiil yönetimi)",
+ "'hâ'": "çakışma değil (zamir 'o' — çekim)",
+ "'ke'": "çakışma değil ('böyle' — teşbih kalıbı)",
+ "'li'": "çakışma değil ('için' / yönelme eki — fiil yönetimi)",
+ "'min'": "çakışma değil (ayrılma eki / karşılıksız 'daha önce' kalıbı — kalıp karşılığı)",
+ "'ulâ'i'": "çakışma değil ('Onlar' / 'bunlar' — işaret karşılığı, gönderge)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' / 'da' / virgül — Türkçe sıralama)",
+ "'zâ'": "çakışma değil ('Bu' / 'böyle' — işaret karşılığı, teşbih kalıbı)",
+ "'âteynâ' / 'ûtû'": "çakışma değil ('ver-' etken / 'veril-' edilgen çatı)",
+ "'zikrâ'": "çakışma — tam okuma sonu ('hatırlama' / 'hatırlatma' bağlam karşılığı)",
+ "''amile' / 'ta'melûn' / 'ya'melûn'": "çakışma — tam okuma sonu ('işle-' / 'yap-' bağlam karşılığı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — eşanlamlı söz fiili)",
+ "'lestu' / 'leyse' / 'leysû'": "çakışma — tam okuma sonu ('yok' / 'değil' bağlam karşılığı)",
+ "'hede' / 'hedeynâ' / 'hedâ' / 'yehdi' / 'yehdî'": "çakışma — tam okuma sonu ('doğru yola ilet-' / 'ilet-' — 6:87 'dosdoğru bir yola' ile ayrık karşılık)",
+ "'kull'": "çakışma değil ('her' / 'hepsi' — tenvin takdiri, kalıp karşılığı)",
+}

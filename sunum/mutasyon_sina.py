@@ -312,6 +312,7 @@ var6('bolum24_kurallar.py', ['59', '61', '14'], "(4)", "b24 kural 4: isabetsiz (
 var6('bolum24_kurallar.py', ['68', '70', '16'], "(5) esmâ maddesi 6:62 kaydını", "b24 kural 5: esmâ karar dosyası")
 var6('bolum24_kurallar.py', ['71', '73', '17'], "(5)", "b24 kural 5: isabetsiz", True)
 var6('bolum22_kurallar.py', ['25', '28', '06'], "(5)", "b22 kural 5: isabetsiz", True)
+var6('bolum5_kurallar.py', ['84', '90', '20'], "'-dir' kayıtsız 6:88", "b5 kural 9: geniş zaman eki isabetsiz", True)
 # sûre 6 bölüm 9 denetimi kuralları (bolum25)
 var6('bolum25_kurallar.py', ['79', '83', '19'], "(1) 6:79 söz maddesi", "b25 kural 1: söz biçimli REM çelişkisi")
 var6('bolum25_kurallar.py', ['74', '78', '18'], "(1)", "b25 kural 1: isabetsiz", True)

@@ -1,0 +1,18 @@
+KARAR.update({
+ 'dile-': "'dile-' ← 'neşâ'', 'yeşe'', 'yeşâ'e', 'yeşâ'u', 'şâ'e': bir lemma ('şâ'e'; morph LEM eşit) — çakışma değil",
+ 'doğru yola ilet-': "'doğru yola ilet-' ← 'hede', 'hedeynâ', 'hedâ', 'yehdi', 'yehdî': bir lemma ('hedâ'; morph LEM eşit) — çakışma değil",
+ 'inkâr et-': "'inkâr et-' ← 'keferû', 'tekfurûn', 'yekfur', 'yekfurûn': bir lemma ('kefera'; morph LEM eşit) — çakışma değil",
+ 'baba': "'baba' ← 'eb', 'âbâ'': bir kök (أبو), tekil / çoğul lemma ('eb' / 'âbâ'') — çakışma değil",
+ 'iste-': "'iste-' ← 'es'elu', 'yurîdûne': farklı lemma ve kök (سأل, رود) — çakışma — tam okuma sonu",
+ 'uy-': "'uy-' ← 'ettebi'u', 'qtedih': farklı lemma ve kök (تبع, قدو) — çakışma — tam okuma sonu",
+ 'yol': "'yol' ← 'sebîl', 'sırât': farklı lemma ve kök (سبل, صرط) — çakışma — tam okuma sonu",
+ 'değil': "'değil' ← 'lestu', 'leyse', 'leysû': bir lemma ('leyse'; morph LEM eşit) — çakışma değil",
+ 'KÖK bağışla-': "KÖK 'bağışla-' ← 'bağışla-' (وهب; 'vehebnâ'), 'bağışlayan' (غفر; 'ğafûr'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK hatırlat-': "KÖK 'hatırlat-' ← 'hatırlat-' ('zekkir'), 'hatırlatma' ('zikrâ'): bir kök (ذكر) — çakışma değil",
+ 'KÖK ilet-': "KÖK 'ilet-' ← 'doğru yola ilet-' ('hede', 'hedeynâ', 'hedâ', 'yehdi', 'yehdî'), 'ilet-' ('hedeynâ'): bir kök (هدي) — çakışma değil",
+ 'KÖK iste-': "KÖK 'iste-' ← 'acele iste-' (عجل; 'testa'cilûne'), 'iste-' (سأل, رود; 'es'elu', 'yurîdûne'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK kıl-': "KÖK 'kıl-' ← 'kıl-' (جعل, قوم; 'ce'alne', 'ce'alnâ', 'eqîmu'), 'vekil kıl-' (وكل; 'vekkelnâ'), 'üstün kıl-' (فضل; 'faddalnâ'): yardımcı fiil 'kıl-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ver-': "KÖK 'ver-' ← 'fayda ver-' (نفع; 'yenfe'u'), 'haber ver-' (رأي, نبأ; 'ra'eyte', 'ra'eytum', 'yunebbi'u'), 'ver-' (أتي; 'âteynâ'), 'zarar ver-' (ضرر; 'yedurru' (morph LEM ham biçim)): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK yol-': "KÖK 'yol-' ← 'doğru yol' (هدي; 'hudâ'), 'yol' (سبل, صرط; 'sebîl', 'sırât'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK et-': "KÖK 'et-' ← 'alay et-' (هزأ; 'yestehzi'ûn'), 'ayırt eden' (فصل; 'fâsil'), 'bile bile inkâr et-' (جحد; 'yechadûn' (morph LEM ham biçim)), 'dua et-' (دعو; 'ted'ûne', 'yed'ûne'), 'helâk et-' (هلك; 'ehleknâ', 'yuhlikûne'), 'icabet et-' (جوب; 'yestecîbu'), 'iddia et-' (زعم; 'tez'umûn'), 'ihmal et-' (فرط; 'farratnâ', 'yufarritûn'), 'iman et-' (أمن; 'yu'minûne', 'âmene', 'âmenû'), 'inkâr eden' (كفر; 'kâfir'), 'inkâr et-' (كفر; 'keferû', 'tekfurûn', 'yekfur', 'yekfurûn'), 'inşâ et-' (نشأ; 'enşe'nâ'), 'isyan et-' (عصي; ''aseytu'), 'iyilik eden' (حسن; 'muhsin'), 'kulluk et-' (عبد; 'a'bude'), 'merhamet eden' (رحم; 'rahîm'), 'rahmet et-' (رحم; 'rahime'), 'takdir et-' (قضي; 'qadâ'), 'tövbe et-' (توب; 'tâbe'), 'var et-' (جعل; 'ce'ale'), 'şahitlik et-' (شهد; 'eşhed', 'teşhedûne'), 'şüphe et-' (مري; 'temterûn'): yardımcı fiil 'et-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+})
