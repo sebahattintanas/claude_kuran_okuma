@@ -1,0 +1,1108 @@
+### say 6:59 1-2
+kalıp: وعنده مفاتح | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 1-2 --on
+kalıp: وعنده مفاتح | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 1-3
+kalıp: وعنده مفاتح الغيب | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 1-3 --on
+kalıp: وعنده مفاتح الغيب | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 2-3
+kalıp: مفاتح الغيب | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 2-3 --on
+kalıp: مفاتح الغيب | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-7
+kalıp: لا يعلمهءا إلا هو | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-7 --on
+kalıp: لا يعلمهءا إلا هو | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-5
+kalıp: لا يعلمهءا | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-5 --on
+kalıp: لا يعلمهءا | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 5-7
+kalıp: يعلمهءا إلا هو | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 5-7 --on
+kalıp: يعلمهءا إلا هو | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 8-9
+kalıp: ويعلم ما | mod: tam
+ayet: 9
+liste: 3:29, 6:3, 6:59†, 6:60†, 21:110, 27:25, 31:34, 42:25, 64:4
+sûre içi (6): 6:3, 6:59, 6:60
+
+9 {'bu': ['6:59'], 'basilan': ['6:3', '6:60'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 8-9 --on
+kalıp: ويعلم ما | mod: on 
+ayet: 9
+liste: 3:29, 6:3, 6:59†, 6:60†, 21:110, 27:25, 31:34, 42:25, 64:4
+sûre içi (6): 6:3, 6:59, 6:60
+
+9 {'bu': ['6:59'], 'basilan': ['6:3', '6:60'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 8-12
+kalıp: ويعلم ما فى البر والبحر | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 8-12 --on
+kalıp: ويعلم ما فى البر والبحر | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 10-12
+kalıp: فى البر والبحر | mod: tam
+ayet: 4
+liste: 6:59†, 10:22, 17:70, 30:41
+sûre içi (6): 6:59
+
+4 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 10-12 --on
+kalıp: فى البر والبحر | mod: on 
+ayet: 4
+liste: 6:59†, 10:22, 17:70, 30:41
+sûre içi (6): 6:59
+
+4 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 11-12
+kalıp: البر والبحر | mod: tam
+ayet: 7
+liste: 6:59†, 6:63†, 6:97†, 10:22, 17:70, 27:63, 30:41
+sûre içi (6): 6:59, 6:63, 6:97
+
+7 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:59 11-12 --on
+kalıp: البر والبحر | mod: on 
+ayet: 7
+liste: 6:59†, 6:63†, 6:97†, 10:22, 17:70, 27:63, 30:41
+sûre içi (6): 6:59, 6:63, 6:97
+
+7 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 2, 'henuz_si': 2}
+
+### say 6:59 13-16
+kalıp: وما تسقط من ورقة | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 13-16 --on
+kalıp: وما تسقط من ورقة | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 14-16
+kalıp: تسقط من ورقة | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 14-16 --on
+kalıp: تسقط من ورقة | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 15-16
+kalıp: من ورقة | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 15-16 --on
+kalıp: من ورقة | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 13-18
+kalıp: وما تسقط من ورقة إلا يعلمها | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 13-18 --on
+kalıp: وما تسقط من ورقة إلا يعلمها | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 17-18
+kalıp: إلا يعلمها | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 17-18 --on
+kalıp: إلا يعلمها | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 19-23
+kalıp: ولا حبة فى ظلمت الأرض | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 19-23 --on
+kalıp: ولا حبة فى ظلمت الأرض | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 20-23
+kalıp: حبة فى ظلمت الأرض | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 20-23 --on
+kalıp: حبة فى ظلمت الأرض | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 21-23
+kalıp: فى ظلمت الأرض | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 21-23 --on
+kalıp: فى ظلمت الأرض | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 22-23
+kalıp: ظلمت الأرض | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 22-23 --on
+kalıp: ظلمت الأرض | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 24-27
+kalıp: ولا رطب ولا يابس | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 24-27 --on
+kalıp: ولا رطب ولا يابس | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 25-27
+kalıp: رطب ولا يابس | mod: tam
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 25-27 --on
+kalıp: رطب ولا يابس | mod: on 
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 28-31
+kalıp: إلا فى كتب مبين | mod: tam
+ayet: 4
+liste: 6:59†, 10:61, 27:75, 34:3
+sûre içi (6): 6:59
+
+4 {'bu': ['6:59'], 'basilan': ['10:61'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 28-31 --on
+kalıp: إلا فى كتب مبين | mod: on 
+ayet: 4
+liste: 6:59†, 10:61, 27:75, 34:3
+sûre içi (6): 6:59
+
+4 {'bu': ['6:59'], 'basilan': ['10:61'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 29-31
+kalıp: فى كتب مبين | mod: tam
+ayet: 5
+liste: 6:59†, 10:61, 11:6, 27:75, 34:3
+sûre içi (6): 6:59
+
+5 {'bu': ['6:59'], 'basilan': ['10:61', '11:6'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 29-31 --on
+kalıp: فى كتب مبين | mod: on 
+ayet: 5
+liste: 6:59†, 10:61, 11:6, 27:75, 34:3
+sûre içi (6): 6:59
+
+5 {'bu': ['6:59'], 'basilan': ['10:61', '11:6'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 30-31
+kalıp: كتب مبين | mod: tam
+ayet: 5
+liste: 6:59†, 10:61, 11:6, 27:75, 34:3
+sûre içi (6): 6:59
+
+5 {'bu': ['6:59'], 'basilan': ['10:61', '11:6'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 30-31 --on
+kalıp: كتب مبين | mod: on 
+ayet: 6
+liste: 5:15, 6:59†, 10:61, 11:6, 27:75, 34:3
+sûre içi (6): 6:59
+
+6 {'bu': ['6:59'], 'basilan': ['10:61', '11:6'], 'eski': 0, 'okunmus': 3, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 1-2
+kalıp: وهو الذى | mod: tam
+ayet: 28
+liste: 6:60†, 6:72†, 6:73†, 6:97†, 6:98†, 6:99†, 6:114†, 6:141†, 6:165†, 7:57†, 11:7, 13:3, 16:14, 21:33, 22:66, 23:78, 23:79, 23:80, 25:47, 25:48, 25:53, 25:54, 25:62, 30:27, 42:25, 42:28, 43:84, 48:24
+sûre içi (6): 6:60, 6:72, 6:73, 6:97, 6:98, 6:99, 6:114, 6:141, 6:165
+
+28 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 18, 'okunmus_si': 0, 'henuz': 9, 'henuz_si': 8}
+
+### say 6:60 1-2 --on
+kalıp: وهو الذى | mod: on 
+ayet: 28
+liste: 6:60†, 6:72†, 6:73†, 6:97†, 6:98†, 6:99†, 6:114†, 6:141†, 6:165†, 7:57†, 11:7, 13:3, 16:14, 21:33, 22:66, 23:78, 23:79, 23:80, 25:47, 25:48, 25:53, 25:54, 25:62, 30:27, 42:25, 42:28, 43:84, 48:24
+sûre içi (6): 6:60, 6:72, 6:73, 6:97, 6:98, 6:99, 6:114, 6:141, 6:165
+
+28 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 18, 'okunmus_si': 0, 'henuz': 9, 'henuz_si': 8}
+
+### say 6:60 1-4
+kalıp: وهو الذى يتوفىكم باليل | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 1-4 --on
+kalıp: وهو الذى يتوفىكم باليل | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 2-4
+kalıp: الذى يتوفىكم باليل | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 2-4 --on
+kalıp: الذى يتوفىكم باليل | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 3-4
+kalıp: يتوفىكم باليل | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 3-4 --on
+kalıp: يتوفىكم باليل | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 5-7
+kalıp: ويعلم ما جرحتم | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 5-7 --on
+kalıp: ويعلم ما جرحتم | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 5-8
+kalıp: ويعلم ما جرحتم بالنهار | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 5-8 --on
+kalıp: ويعلم ما جرحتم بالنهار | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 6-8
+kalıp: ما جرحتم بالنهار | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 6-8 --on
+kalıp: ما جرحتم بالنهار | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 7-8
+kalıp: جرحتم بالنهار | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 7-8 --on
+kalıp: جرحتم بالنهار | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 9-11
+kalıp: ثم يبعثكم فيه | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 9-11 --on
+kalıp: ثم يبعثكم فيه | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 9-10
+kalıp: ثم يبعثكم | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 9-10 --on
+kalıp: ثم يبعثكم | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 12-14
+kalıp: ليقضى أجل مسمى | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 12-14 --on
+kalıp: ليقضى أجل مسمى | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 13-14
+kalıp: أجل مسمى | mod: tam
+ayet: 13
+liste: 2:282, 6:60†, 11:3, 14:10, 16:61, 22:5, 22:33, 29:53, 31:29, 35:45, 39:42, 42:14, 71:4
+sûre içi (6): 6:60
+
+13 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 12, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 13-14 --on
+kalıp: أجل مسمى | mod: on 
+ayet: 20
+liste: 2:282, 6:2, 6:60†, 11:3, 13:2, 14:10, 16:61, 20:129, 22:5, 22:33, 29:53, 30:8, 31:29, 35:13, 35:45, 39:5, 39:42, 42:14, 46:3, 71:4
+sûre içi (6): 6:2, 6:60
+
+20 {'bu': ['6:60'], 'basilan': ['6:2'], 'eski': 0, 'okunmus': 18, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 15-17
+kalıp: ثم إليه مرجعكم | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 15-17 --on
+kalıp: ثم إليه مرجعكم | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 16-17
+kalıp: إليه مرجعكم | mod: tam
+ayet: 2
+liste: 6:60†, 10:4
+sûre içi (6): 6:60
+
+2 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 16-17 --on
+kalıp: إليه مرجعكم | mod: on 
+ayet: 2
+liste: 6:60†, 10:4
+sûre içi (6): 6:60
+
+2 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 18-21
+kalıp: ثم ينبئكم بما كنتم | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 18-21 --on
+kalıp: ثم ينبئكم بما كنتم | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 18-22
+kalıp: ثم ينبئكم بما كنتم تعملون | mod: tam
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 18-22 --on
+kalıp: ثم ينبئكم بما كنتم تعملون | mod: on 
+ayet: 1
+liste: 6:60†
+sûre içi (6): 6:60
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 20-22
+kalıp: بما كنتم تعملون | mod: tam
+ayet: 16
+liste: 5:105, 6:60†, 7:43†, 9:94, 9:105, 10:23, 16:28, 16:32, 29:8, 31:15, 32:14, 39:7, 43:72, 52:19, 62:8, 77:43
+sûre içi (6): 6:60
+
+16 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 13, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:60 20-22 --on
+kalıp: بما كنتم تعملون | mod: on 
+ayet: 16
+liste: 5:105, 6:60†, 7:43†, 9:94, 9:105, 10:23, 16:28, 16:32, 29:8, 31:15, 32:14, 39:7, 43:72, 52:19, 62:8, 77:43
+sûre içi (6): 6:60
+
+16 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 13, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:60 21-22
+kalıp: كنتم تعملون | mod: tam
+ayet: 26
+liste: 5:105, 6:60†, 7:43†, 9:94, 9:105, 10:23, 16:28, 16:32, 16:93, 27:84, 27:90, 29:8, 29:55, 31:15, 32:14, 36:54, 37:39, 39:7, 43:72, 45:28, 45:29, 52:16, 52:19, 62:8, 66:7, 77:43
+sûre içi (6): 6:60
+
+26 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 23, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:60 21-22 --on
+kalıp: كنتم تعملون | mod: on 
+ayet: 26
+liste: 5:105, 6:60†, 7:43†, 9:94, 9:105, 10:23, 16:28, 16:32, 16:93, 27:84, 27:90, 29:8, 29:55, 31:15, 32:14, 36:54, 37:39, 39:7, 43:72, 45:28, 45:29, 52:16, 52:19, 62:8, 66:7, 77:43
+sûre içi (6): 6:60
+
+26 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 23, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### say 6:61 1-2
+kalıp: وهو القاهر | mod: tam
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 1-2 --on
+kalıp: وهو القاهر | mod: on 
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 1-4
+kalıp: وهو القاهر فوق عباده | mod: tam
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 1-4 --on
+kalıp: وهو القاهر فوق عباده | mod: on 
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 2-4
+kalıp: القاهر فوق عباده | mod: tam
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 2-4 --on
+kalıp: القاهر فوق عباده | mod: on 
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 3-4
+kalıp: فوق عباده | mod: tam
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 3-4 --on
+kalıp: فوق عباده | mod: on 
+ayet: 2
+liste: 6:18, 6:61†
+sûre içi (6): 6:18, 6:61
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 5-7
+kalıp: ويرسل عليكم حفظة | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 5-7 --on
+kalıp: ويرسل عليكم حفظة | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 6-7
+kalıp: عليكم حفظة | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 6-7 --on
+kalıp: عليكم حفظة | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-10
+kalıp: حتى إذا جءاء | mod: tam
+ayet: 3
+liste: 6:61†, 11:40, 23:99
+sûre içi (6): 6:61
+
+3 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-10 --on
+kalıp: حتى إذا جءاء | mod: on 
+ayet: 3
+liste: 6:61†, 11:40, 23:99
+sûre içi (6): 6:61
+
+3 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-12
+kalıp: حتى إذا جءاء أحدكم الموت | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-12 --on
+kalıp: حتى إذا جءاء أحدكم الموت | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 9-12
+kalıp: إذا جءاء أحدكم الموت | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 9-12 --on
+kalıp: إذا جءاء أحدكم الموت | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 10-12
+kalıp: جءاء أحدكم الموت | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 10-12 --on
+kalıp: جءاء أحدكم الموت | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 11-12
+kalıp: أحدكم الموت | mod: tam
+ayet: 4
+liste: 2:180, 5:106, 6:61†, 63:10
+sûre içi (6): 6:61
+
+4 {'bu': ['6:61'], 'basilan': ['2:180', '5:106'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 11-12 --on
+kalıp: أحدكم الموت | mod: on 
+ayet: 4
+liste: 2:180, 5:106, 6:61†, 63:10
+sûre içi (6): 6:61
+
+4 {'bu': ['6:61'], 'basilan': ['2:180', '5:106'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 13-14
+kalıp: توفته رسلنا | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 13-14 --on
+kalıp: توفته رسلنا | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 15-17
+kalıp: وهم لا يفرطون | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 15-17 --on
+kalıp: وهم لا يفرطون | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 16-17
+kalıp: لا يفرطون | mod: tam
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 16-17 --on
+kalıp: لا يفرطون | mod: on 
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 60 18 21
+lemma dizisi [('ثُمّ',), ('نَبَّأَ',), ('ما',), ('كانَ',)] | ayet 2
+6:60†, 6:159†
+
+2 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 60 19 22
+lemma dizisi [('نَبَّأَ',), ('ما',), ('كانَ',), ('عَمِلَ',)] | ayet 10
+5:105, 6:60†, 6:108†, 9:94, 9:105, 10:23, 29:8, 31:15, 39:7, 62:8
+
+10 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 7, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+
+### dizi 6 60 19 21
+lemma dizisi [('نَبَّأَ',), ('ما',), ('كانَ',)] | ayet 13
+5:48, 5:105, 6:60†, 6:108†, 6:159†, 6:164†, 9:94, 9:105, 10:23, 29:8, 31:15, 39:7, 62:8
+
+13 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 8, 'okunmus_si': 0, 'henuz': 3, 'henuz_si': 3}
+
+### dizi 6 60 20 22
+lemma dizisi [('ما',), ('كانَ',), ('عَمِلَ',)] | ayet 52
+5:62, 5:105, 6:43, 6:60†, 6:88†, 6:108†, 6:122†, 6:127†, 7:43†, 7:118†, 7:139†, 7:147†, 7:180†, 9:9, 9:94, 9:105, 9:121, 10:12, 10:23, 11:16, 12:69, 16:28, 16:32, 16:96, 16:97, 24:24, 26:112, 27:90, 28:84, 29:8, 29:55, 31:15, 32:14, 32:17, 32:19, 34:33, 36:54, 37:39, 39:7, 41:20, 43:72, 45:28, 45:29, 46:14, 52:16, 52:19, 56:24, 58:15, 62:8, 63:2, 66:7, 77:43
+
+52 {'bu': ['6:60'], 'basilan': ['5:62', '5:105', '6:43'], 'eski': 0, 'okunmus': 39, 'okunmus_si': 0, 'henuz': 9, 'henuz_si': 4}
+
+### dizi 6 61 1 4
+lemma dizisi [(), ('قاهِر',), ('فَوْق',), ('عَبْد',)] | ayet 2
+6:18, 6:61†
+
+2 {'bu': ['6:61'], 'basilan': ['6:18'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 61 8 10
+lemma dizisi [('حَتَّى',), ('إِذا',), ('جاءَ',)] | ayet 11
+6:25, 6:31, 6:61†, 7:37†, 11:40, 23:99, 24:39, 27:84, 39:71, 39:73, 43:38
+
+11 {'bu': ['6:61'], 'basilan': ['6:25', '6:31', '23:99'], 'eski': 0, 'okunmus': 6, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 0}
+
+### dizi 6 59 28 31
+lemma dizisi [('إِلّا',), ('فِي',), ('كِتاب',), ('مُبِين',)] | ayet 4
+6:59†, 10:61, 27:75, 34:3
+
+4 {'bu': ['6:59'], 'basilan': ['10:61'], 'eski': 0, 'okunmus': 2, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 59 4 7
+lemma dizisi [('لا',), ('عَلِمَ',), ('إِلّا',), ()] | ayet 1
+6:59†
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 61 10 12
+lemma dizisi [('جاءَ',), ('أَحَد',), ('مَوْت',)] | ayet 2
+6:61†, 23:99
+
+2 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 59 1 3
+lemma dizisi [('عِند',), ('مَفاتِح',), ('غَيْب',)] | ayet 1
+6:59†
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 60 1 3
+lemma dizisi [(), ('الَّذِي',), ('تَوَفَّى',)] | ayet 1
+6:60†
+
+1 {'bu': ['6:60'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 59 13 18
+lemma dizisi [('ما',), ('سُقِطَ',), ('مِن',), ('وَرَقَة',), ('إِلّا',), ('عَلِمَ',)] | ayet 1
+6:59†
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 61 13 14
+lemma dizisi [('تَوَفَّى',), ('رَسُول',)] | ayet 1
+6:61†
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### dizi 6 61 8 12
+lemma dizisi [('حَتَّى',), ('إِذا',), ('جاءَ',), ('أَحَد',), ('مَوْت',)] | ayet 2
+6:61†, 23:99
+
+2 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-7 --medde
+kalıp: لا يعلمها إلا هو | mod: tam medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-7 --on --medde
+kalıp: لا يعلمها إلا هو | mod: on  medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-5 --medde
+kalıp: لا يعلمها | mod: tam medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 4-5 --on --medde
+kalıp: لا يعلمها | mod: on  medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 5-7 --medde
+kalıp: يعلمها إلا هو | mod: tam medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:59 5-7 --on --medde
+kalıp: يعلمها إلا هو | mod: on  medde
+ayet: 1
+liste: 6:59†
+sûre içi (6): 6:59
+
+1 {'bu': ['6:59'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-10 --medde
+kalıp: حتى إذا جاء | mod: tam medde
+ayet: 3
+liste: 6:61†, 11:40, 23:99
+sûre içi (6): 6:61
+
+3 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-10 --on --medde
+kalıp: حتى إذا جاء | mod: on  medde
+ayet: 3
+liste: 6:61†, 11:40, 23:99
+sûre içi (6): 6:61
+
+3 {'bu': ['6:61'], 'basilan': ['23:99'], 'eski': 0, 'okunmus': 1, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-12 --medde
+kalıp: حتى إذا جاء أحدكم الموت | mod: tam medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 8-12 --on --medde
+kalıp: حتى إذا جاء أحدكم الموت | mod: on  medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 9-12 --medde
+kalıp: إذا جاء أحدكم الموت | mod: tam medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 9-12 --on --medde
+kalıp: إذا جاء أحدكم الموت | mod: on  medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 10-12 --medde
+kalıp: جاء أحدكم الموت | mod: tam medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:61 10-12 --on --medde
+kalıp: جاء أحدكم الموت | mod: on  medde
+ayet: 1
+liste: 6:61†
+sûre içi (6): 6:61
+
+1 {'bu': ['6:61'], 'basilan': [], 'eski': 0, 'okunmus': 0, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 19-22 --on
+kalıp: ينبئكم بما كنتم تعملون | mod: on 
+ayet: 6
+liste: 5:105, 6:60†, 9:94, 9:105, 39:7, 62:8
+sûre içi (6): 6:60
+
+6 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 4, 'okunmus_si': 0, 'henuz': 0, 'henuz_si': 0}
+
+### say 6:60 19-21 --on
+kalıp: ينبئكم بما كنتم | mod: on 
+ayet: 8
+liste: 5:48, 5:105, 6:60†, 6:164†, 9:94, 9:105, 39:7, 62:8
+sûre içi (6): 6:60, 6:164
+
+8 {'bu': ['6:60'], 'basilan': ['5:105'], 'eski': 0, 'okunmus': 5, 'okunmus_si': 0, 'henuz': 1, 'henuz_si': 1}
+

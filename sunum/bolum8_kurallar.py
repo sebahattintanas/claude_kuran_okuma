@@ -77,7 +77,7 @@ if '): ' in nk: adlar += re.findall(r"(?:: |, | ve |; |\d )'(.+?)'(?=, '| ve '| 
 for a in range(A, B + 1): adlar += re.findall(r"lemma dizisi '(.+?)'(?= \d+ ayet| korpusta| \()", M[a])
 for ad in sorted(set(adlar)):
     for o in ad.split():
-        if o != '_' and o not in LL: H.append("(5) kalıp adı '%s' öğesi '%s' lemma adı listesinde yok" % (ad, o))
+        if o != '_' and o not in LL and re.sub(r'^bi-', '', o) not in LL: H.append("(5) kalıp adı '%s' öğesi '%s' lemma adı listesinde yok" % (ad, o))
 def norm(x):  # yazım eşdeğeri: uzunluk işareti, 'iyy' / 'î', çift harf, baştaki e / a; ayn (') korunur
     t = x.lower().replace('â', 'a').replace('î', 'i').replace('û', 'u').replace('iyy', 'i').replace('uvv', 'u')
     t = re.sub(r'(.)\1+', r'\1', t)

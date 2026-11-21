@@ -1,7 +1,7 @@
 # bölüm 12 (sûre 5) denetimi araç kuralları (bekleyen_ariza_5_b28.txt 2. öğe) — salt okur:
 #  (2) emsal meal karşılık farkları maddesinde her emsal girdisi ' — ' sonrasında kapalı sözlükle ('çakışma değil' / 'çakışma — tam okuma sonu')
 #  (3) bölüm içi eş edat: bu bloktaki edat karşılığı aynı bölümün önceki bloklarındaki karşılıklardan farklıysa meal kararı maddesinde o edat anılır
-#  (4) lemma dizisi adları öğe öğe: say2 demetinin her öğesi önceki bloklarda başka adla anılmışsa hata ('fe-' / 've-' öneki karşılaştırmada düşer)
+#  (4) lemma dizisi adları öğe öğe: say2 demetinin her öğesi önceki bloklarda başka adla anılmışsa hata ('fe-' / 've-' / 'bi-' öneki karşılaştırmada düşer)
 #  (6) ölçüm 'biçim QASEM' gerekçesi: tetikleyen kök(ler) (قسم / حلف; vâv-ı kasem 'و') gerekçede Arapça yazılı, başka kök yok
 #  (8) meal kararı gerekçesindeki "('X' / 'Y'" karşılıkları es_lemma satırının karşılık kümesinde
 #  (9) meal maddesinde 'masdar' etiketi yalnız morph VN kelimede
@@ -77,7 +77,7 @@ def diziler(nn):
     for key, ad in re.findall(r"say\('(dizi \d+ \d+ \d+ \d+)', \"([^\"]+)\"", open(d + '/yap/metin_yap.py', encoding='utf-8').read()):
         if key in S2D and len(ad.split()) == len(S2D[key]): out.append((key, ad, S2D[key]))
     return out
-nrm = lambda t: re.sub(r'^(?:fe|ve)-', '', t)
+nrm = lambda t: re.sub(r'^(?:fe|ve|bi)-', '', t)  # sûre 6 blok 14: 'bi-' (bolum7 kural 12 'ب' önekli kalıp adı)
 ONCE = collections.defaultdict(collections.Counter)
 for nn in range(1, int(NN)):
     for key, ad, dz in diziler(nn):

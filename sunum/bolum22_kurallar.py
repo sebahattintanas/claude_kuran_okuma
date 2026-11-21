@@ -1,13 +1,13 @@
 # sûre 6 bölüm 6 denetimi araç kuralları (bekleyen_ariza_6_b13.txt 2. öğe) — salt okur:
 #  (1) EMSAL_KAPSAM_DIZI: ◇'de say() ile basılan ve bag'de bu ayete bağlı emsali listeleyen her sayım (lemma dizisi dahil) ARIZA'da kelime aralığı örtüşen bir emsal meal satırıyla
 #  (2) BAG_SAYIM_BASIM: bag 'kural' / 'not' alanında tırnak içinde anılan her sayım anahtarı ('say …' / 'dizi …') bloğun ◇ say() çağrılarında basılı
-#  (3) LEMMA_YAZIM_BIR: ARIZA 'karşılık çakışması' grubunda yalnız a / e ünlüsüyle ayrışan iki Arapça üye yok (bir lemmanın iki transliterasyonu)
+#  (3) LEMMA_YAZIM_BIR: ARIZA 'karşılık çakışması' grubunda yalnız a / e ünlüsüyle ayrışan iki Arapça üye yok (bir lemmanın iki transliterasyonu); üyelerden biri önceki ARIZA kayıtlarında yoksa (yeni giren yazım) — eski kayıtlar geriye dönük yazılmaz
 #  (4) CEVAP_A4_KONUM: morph RSLT / CAUS 'fe' ve ANS edatlı kelime A4'te 'cevap … (N. kelime)' kaydında ya da 'kapsam dışı' notuyla
 #  (5) GEREKCE_SINIF_SONUC: 'meal karşılık farkı kararları'nda 'bağlam' gerekçeli kararlar tek kapalı sonuçta
 # (elle: ESMA_KOSUL, SOZ_GONDERGE, GERIYE_DONUK_ZORUNLU, YAPI_KARSILIK_BIR, ORTAK_KARSILIK, ORTAC_NOT_HEP, KALIP_AD_ONEK, JOKER_IDDIA, SAYI_SOZCUK, KIP_NOT_TAM, TEKIL_MEDDE_METIN, LEM_BOZUK_ONEK)
 # kullanım (/home/claude'dan): python3 sunum/bolum22_kurallar.py A B NN
 import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK, S
-import re, sys, ast, os, collections
+import re, sys, ast, os, glob, collections
 A, B, NN = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 Y = '/home/claude/yamalar/'
 H = []
@@ -70,13 +70,14 @@ for b_ in BAG:
 def ae(x, y):
     if x == y or len(x) != len(y): return False
     return all(c == d or {c, d} == {'a', 'e'} for c, d in zip(x, y))
+ONCE = ' '.join(open(f, encoding='utf-8').read() for f in glob.glob(Y + 'ariza_%d_*_*.txt' % S) if int(f.split('_')[-2]) < A)
 for it in item('karşılık çakışması'):
     for g in re.split(r"; (?=(?:KÖK )?'[^']+' ←)", it.split('): ', 1)[-1]):
         uy = sorted(set(re.findall(r"'((?:[^']|'(?=[a-zâîûçğışöü]))+)'", g.split(':', 1)[0].split(' ← ', 1)[-1])))
         EN['grup'] += 1
         for x in uy:
             for y in uy:
-                if x < y and ae(x, y): H.append("(3) çakışma grubu %s: '%s' / '%s' bir lemmanın yazım farkı" % (g.split(' ←')[0][:30], x, y))
+                if x < y and ae(x, y) and (("'%s'" % x) not in ONCE or ("'%s'" % y) not in ONCE): H.append("(3) çakışma grubu %s: '%s' / '%s' bir lemmanın yazım farkı" % (g.split(' ←')[0][:30], x, y))
 
 # ── (4) CEVAP_A4_KONUM ──
 MO = collections.defaultdict(dict)

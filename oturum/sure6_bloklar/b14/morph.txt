@@ -1,0 +1,70 @@
+6:59:1	وَعِندَهُۥ	P|REM|PREF|LEM:و + N|LOC|ROOT:عند|LEM:عِند|ACC + N|PRON|SUFF|3MS
+6:59:2	مَفَاتِحُ	N|ROOT:فتح|LEM:مَفاتِح|MP|NOM
+6:59:3	ٱلْغَيْبِ	P|DET|PREF|LEM:ال + N|ROOT:غيب|LEM:غَيْب|M|GEN
+6:59:4	لَا	P|NEG|LEM:لا
+6:59:5	يَعْلَمُهَآ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND + N|PRON|SUFF|3FS
+6:59:6	إِلَّا	P|RES|LEM:إِلّا
+6:59:7	هُوَ	N|PRON|3MS
+6:59:8	وَيَعْلَمُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+6:59:9	مَا	N|REL|LEM:ما
+6:59:10	فِى	P|P|LEM:فِي
+6:59:11	ٱلْبَرِّ	P|DET|PREF|LEM:ال + N|ROOT:برر|LEM:بَرّ|M|GEN
+6:59:12	وَٱلْبَحْرِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:بحر|LEM:بَحْر|M|GEN
+6:59:13	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:59:14	تَسْقُطُ	V|IMPF|VF:1|ROOT:سقط|LEM:سُقِطَ|3FS|MOOD:IND
+6:59:15	مِن	P|P|LEM:مِن
+6:59:16	وَرَقَةٍ	N|ROOT:ورق|LEM:وَرَقَة|F|INDEF|GEN
+6:59:17	إِلَّا	P|RES|LEM:إِلّا
+6:59:18	يَعْلَمُهَا	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND + N|PRON|SUFF|3FS
+6:59:19	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:59:20	حَبَّةٍ	N|ROOT:حبب|LEM:حَبَّة|F|INDEF|GEN
+6:59:21	فِى	P|P|LEM:فِي
+6:59:22	ظُلُمَٰتِ	N|ROOT:ظلم|LEM:ظُلُمَة|FP|GEN
+6:59:23	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:59:24	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:59:25	رَطْبٍ	N|ROOT:رطب|LEM:رَطْب|MS|INDEF|GEN
+6:59:26	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:59:27	يَابِسٍ	N|ACT_PCPL|VF:1|ROOT:يبس|LEM:يابِس|M|INDEF|GEN
+6:59:28	إِلَّا	P|RES|LEM:إِلّا
+6:59:29	فِى	P|P|LEM:فِي
+6:59:30	كِتَٰبٍ	N|ROOT:كتب|LEM:كِتاب|M|INDEF|GEN
+6:59:31	مُّبِينٍ	N|ACT_PCPL|VF:4|ROOT:بين|LEM:مُبِين|M|INDEF|GEN|ADJ
+6:60:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:60:2	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:60:3	يَتَوَفَّىٰكُم	V|IMPF|VF:5|ROOT:وفي|LEM:تَوَفَّى|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:60:4	بِٱلَّيْلِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:ليل|LEM:لَيْل|M|GEN
+6:60:5	وَيَعْلَمُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MS|MOOD:IND
+6:60:6	مَا	N|REL|LEM:ما
+6:60:7	جَرَحْتُم	V|PERF|VF:1|ROOT:جرح|LEM:جَرَحْ|2MP + N|PRON|SUFF|2MP
+6:60:8	بِٱلنَّهَارِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:نهر|LEM:نَهار|M|GEN
+6:60:9	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:60:10	يَبْعَثُكُمْ	V|IMPF|VF:1|ROOT:بعث|LEM:بَعَثَ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:60:11	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+6:60:12	لِيُقْضَىٰٓ	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|PASS|ROOT:قضي|LEM:قَضَى|3MS|MOOD:SUBJ
+6:60:13	أَجَلٌ	N|ROOT:أجل|LEM:أَجَل|M|INDEF|NOM
+6:60:14	مُّسَمًّى	N|PASS_PCPL|VF:2|ROOT:سمو|LEM:مُسَمًّى|M|INDEF|NOM|ADJ
+6:60:15	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:60:16	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+6:60:17	مَرْجِعُكُمْ	N|ROOT:رجع|LEM:مَرْجِع|M|NOM + N|PRON|SUFF|2MP
+6:60:18	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:60:19	يُنَبِّئُكُم	V|IMPF|VF:2|ROOT:نبأ|LEM:نَبَّأَ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:60:20	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:60:21	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:60:22	تَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:61:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:61:2	ٱلْقَاهِرُ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:قهر|LEM:قاهِر|M|NOM
+6:61:3	فَوْقَ	N|LOC|ROOT:فوق|LEM:فَوْق|M|ACC
+6:61:4	عِبَادِهِۦ	N|ROOT:عبد|LEM:عَبْد|MP|GEN + N|PRON|SUFF|3MS
+6:61:5	وَيُرْسِلُ	P|REM|PREF|LEM:و + V|IMPF|VF:4|ROOT:رسل|LEM:أَرْسَلَ|3MS|MOOD:IND
+6:61:6	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:61:7	حَفَظَةً	N|ACT_PCPL|VF:1|ROOT:حفظ|LEM:حَفِيظ|MP|INDEF|ACC
+6:61:8	حَتَّىٰٓ	P|INC|LEM:حَتَّى
+6:61:9	إِذَا	N|T|LEM:إِذا
+6:61:10	جَآءَ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS
+6:61:11	أَحَدَكُمُ	N|ROOT:أحد|LEM:أَحَد|M|ACC + N|PRON|SUFF|2MP
+6:61:12	ٱلْمَوْتُ	P|DET|PREF|LEM:ال + N|ROOT:موت|LEM:مَوْت|M|NOM
+6:61:13	تَوَفَّتْهُ	V|PERF|VF:5|ROOT:وفي|LEM:تَوَفَّى|3FS + N|PRON|SUFF|3MS
+6:61:14	رُسُلُنَا	N|ROOT:رسل|LEM:رَسُول|MP|NOM + N|PRON|SUFF|1P
+6:61:15	وَهُمْ	P|CIRC|PREF|LEM:و + N|PRON|3MP
+6:61:16	لَا	P|NEG|LEM:لا
+6:61:17	يُفَرِّطُونَ	V|IMPF|VF:2|ROOT:فرط|LEM:فَرَّط|3MP|MOOD:IND + N|PRON|SUFF|3MP
