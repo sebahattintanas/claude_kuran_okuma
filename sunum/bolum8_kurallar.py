@@ -45,7 +45,8 @@ for sat in re.split(r'; (?=%d:\d+ nakarat3)' % S, r5):
 # ── (3) esma_kayit maddesi ⇔ esma_muhur.py ──
 em = run('python3', '/home/claude/sunum/esma_muhur.py', str(A), str(B), NN).strip()
 ek = ' '.join(item('esma_kayit'))
-if em and em not in ek: H.append('(3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor')
+if not em: H.append('(3) esma_muhur.py çıktısı boş — denetim sessiz geçmez')  # sûre 6 bölüm 8 denetimi
+elif em not in ek: H.append('(3) esma_kayit maddesi esma_muhur.py çıktısını aynen taşımıyor')
 # ── (4) ة yapıntısı: meal biçimi ⇔ ◇ adı ──
 for a in range(A, B + 1):
     d0 = M[a].split(' — ', 1)[1].split(' (ölçüm')[0]

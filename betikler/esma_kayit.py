@@ -143,7 +143,9 @@ T['_meta'].update(onkayit='notlar/ONKAYIT_esma_katmanlari.md', esma_listesi_sha2
                   capalar={'allah': '1:1:2', 'rab': '1:2:3', 'humme': '3:26:2'},
                   uyari='KAYIT — ölçüm değil. H1-H4 tam okuma bitmeden koşulmaz.')
 T.update(KAYIT)
-json.dump(T, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
+_g = p + '.%d.tmp' % os.getpid()  # sûre 6 bölüm 8 denetimi: atomik yazım — paralel denetim koşularında yarış (geçici dosya + os.replace)
+json.dump(T, open(_g, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
+os.replace(_g, p)
 
 print('esmâ listesi SHA-256: %s…  set %d (D2 eşlemesi %s) · ton tablosu esma_ton.json'
       % (SHA[:16], len(SET), ESLEME))

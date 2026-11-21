@@ -79,6 +79,7 @@ for n in range(A, B + 1):
 
 # ── (5) mühür uyuşmazlığı ──
 _em = subprocess.run(['python3', '/home/claude/sunum/esma_muhur.py', str(A), str(B), NN], capture_output=True, text=True).stdout
+if not _em.strip(): H.append('(5) esma_muhur.py çıktısı boş — denetim sessiz geçmez')  # sûre 6 bölüm 8 denetimi
 EMI = (item('esma_kayit') or [''])[0]
 for n in range(A, B + 1):
     m = re.search(r'%d:%d muhur (\S+) / muhur_el (\S+) / ölçüm ([^—;]+?) —' % (S, n), _em)

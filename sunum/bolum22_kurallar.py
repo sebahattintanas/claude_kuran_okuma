@@ -48,8 +48,15 @@ def aralik(n, kal):
     d = dia(n); i = d.find(kal)
     if i < 0: return None
     on = d[:i]
-    if on.endswith('-'): on = on[:on.rfind(' ') + 1]
-    bas = (kelime(on.rstrip("'")) if on.endswith("'") else kelime(on)) + 1
+    ayn = on.endswith("'")
+    if ayn: on = on[:-1]  # bölüm 8 denetimi: ayınla başlayan kelime ("rabbi'l-'âlemîn") — kesme, kısa çizgi denetiminden önce atılır
+    if on.endswith('-'):  # harfi tarif ('fi'l-', 'rabbi'l-', 'bi'l-'): öndeki ad ayrı kelime, önek edat aynı kelime
+        on = re.sub(r"'?[a-zçğışöü]{1,2}-$", '', on)
+        son = on.split(' ')[-1].split("'")[-1] if on.strip() else ''
+        if son in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke'): on = on[:len(on) - len(son)].rstrip("'")
+    elif on and not on.endswith(' ') and on.split(' ')[-1].split("'")[-1] in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke'):  # 'bi'l-haqq' içinde 'l-haqq': önek edat aynı kelime
+        on = on[:len(on) - len(on.split(' ')[-1].split("'")[-1])].rstrip("'")
+    bas = kelime(on) + 1
     return bas, bas + max(kelime(kal), 1) - 1
 for b_ in BAG:
     e, hed = b_['bag'].split(' → ')

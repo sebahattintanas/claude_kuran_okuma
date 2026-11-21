@@ -2,7 +2,7 @@
 #  (1) KOMUT_BLOK: ARIZA'da anılan 'komut python3 sunum/X.py …' bağımsız değişkenleri ARIZA'nın bloğuyla eş (A B NN; es_edat NN; sonradan --plan N; ayn_kontrol A B)
 #  (2) OZ_DENETIM_SIFIR: öz denetim maddesinde sıfırdan farklı 'hata: N' ya da '→ ?' teslimi durdurur (bayat sonuç: son koşu ardışık iki koşuyla)
 #  (3) IZA_CEVAP: kip notunda 'cevabı' geçen ayette A4'te 'şart → cevap' ya da 'kapsam dışı' kaydı
-#  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20)
+#  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20, …, bölüm 8 → bolum24)
 #  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata
 #  (elle: FAIL_REL, KASR_TEK, KANE_IMPF, BASKIN_TEK, EMSAL_KAPSAM, ESMA_FARK_AD, ES_EDAT_KARAR, MEDDE_FARK_KARAR, BAG_SAYIM_BASIM)
 # kullanım (/home/claude'dan): python3 sunum/bolum19_kurallar.py A B NN
@@ -77,7 +77,7 @@ for a in range(A, B + 1):
 
 # ── (4) KURAL_ATIF ──
 MAX = {}
-for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22'), (7, 'bolum23')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22; bölüm 7: bolum23
+for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22'), (7, 'bolum23'), (8, 'bolum24')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22; bölüm 7: bolum23; bölüm 8: bolum24
     try:
         t = open('/home/claude/sunum/%s_kurallar.py' % f, encoding='utf-8').read()
         MAX[b_] = max(int(x) for x in re.findall(r'^#\s+\((\d+)\)', t, re.M))

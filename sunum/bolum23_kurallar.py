@@ -1,4 +1,4 @@
-# sûre 6 bölüm 7 denetimi araç kuralları (bekleyen_ariza_6_b15.txt 2. öğe) — salt okur:
+# sûre 6 bölüm 7 denetimi araç kuralları (bekleyen_ariza_6_b15.txt 2. öğe) — kural 2 esma_kayit.py koşar (esma_kayit.json'a atomik yazar; salt okur değil):
 #  (1) ALINTI_ALTDIZE_ESMA: ARIZA 'esmâ:' maddesindeki 'S:a 'X'' alıntıları o ayetin ◇ transliterasyonunun alt dizesi
 #  (2) ESMA_DUR_KAYIT: esma_kayit e_el=? > 0 ya da esmâ maddesinde 'kapalı listede kural yok' varsa maddede 'soruldu' / 'kullanıcı kararı:' kaydı bulunur; gerekçe adı '/' ile çift olmaz
 #  (3) BASKIN_TOPLAM: ölçüm şahıs alanında kişi toplamı (1 / 2 / 3) eşitse ya da en yüksek kişi ölçüm 'baskın'dan farklıysa ◈A A4'te 'beraberlik' notu
@@ -38,6 +38,7 @@ for m in re.finditer(r"(?<![\d:])%d:(\d+) %s \(\d" % (S, Q), es):
 try:
     ek = subprocess.run([sys.executable, 'esma_kayit.py', str(S), str(A), str(B)], capture_output=True, text=True, cwd='/home/claude/calisma').stdout
 except Exception: ek = ''
+if not re.search(r'^%d:%d ' % (S, A), ek, re.M): H.append('(2) esma_kayit.py çıktısı boş ya da eksik (%d:%d satırı yok) — denetim sessiz geçmez' % (S, A))  # sûre 6 bölüm 8 denetimi
 bekl = len(re.findall(r'e_el=\?', ek))
 EN['esma_dur'] += 1
 if (bekl or 'kapalı listede kural yok' in es) and not re.search(r'kullanıcı kararı(?:yla|:| \()|soruldu', es):
