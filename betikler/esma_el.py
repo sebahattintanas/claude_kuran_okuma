@@ -1549,4 +1549,8 @@ KARAR = {
     '6:62:5': 'degil',  # 'ile'llâhi mevlâhumu'l-haqq' — kullanıcı kararıyla → degil (blok 15'te kapalı listede kural yoktu; kullanıcı 'ilahi değil' dedi)
     # sure 6 blok 68-70
     '6:70:22': 'degil',  # 'min dûni'llâhi veliyyun' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 71-73
+    '6:73:19': 'ilahi',  # ''âlimu'l-ğaybi ve'ş-şehâdeh' — zamirin haberi → ilahi (Allah)
+    '6:73:23': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
+    '6:73:24': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
 }

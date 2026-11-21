@@ -1,0 +1,71 @@
+6:71:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:71:2	أَنَدْعُوا۟	N|INTG|PREF|LEM:أ + V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|1P|MOOD:IND
+6:71:3	مِن	P|P|LEM:مِن
+6:71:4	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+6:71:5	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:71:6	مَا	N|REL|LEM:ما
+6:71:7	لَا	P|NEG|LEM:لا
+6:71:8	يَنفَعُنَا	V|IMPF|VF:1|ROOT:نفع|LEM:نَفَعَ|3MS|MOOD:IND + N|PRON|SUFF|1P
+6:71:9	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:71:10	يَضُرُّنَا	V|IMPF|VF:1|ROOT:ضرر|LEM:يَضُرَّ|3MS|MOOD:IND + N|PRON|SUFF|1P
+6:71:11	وَنُرَدُّ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|1P|MOOD:IND
+6:71:12	عَلَىٰٓ	P|P|LEM:عَلَى
+6:71:13	أَعْقَابِنَا	N|ROOT:عقب|LEM:عَقِب|MP|GEN + N|PRON|SUFF|1P
+6:71:14	بَعْدَ	N|T|ROOT:بعد|LEM:بَعْد|ACC
+6:71:15	إِذْ	N|T|LEM:إِذ
+6:71:16	هَدَىٰنَا	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|1P
+6:71:17	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:71:18	كَٱلَّذِى	P|P|PREF|LEM:ك + N|REL|LEM:الَّذِي|MS
+6:71:19	ٱسْتَهْوَتْهُ	V|PERF|VF:10|ROOT:هوي|LEM:اسْتَهْوَتْ|3FS + N|PRON|SUFF|3MS
+6:71:20	ٱلشَّيَٰطِينُ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|MP|NOM
+6:71:21	فِى	P|P|LEM:فِي
+6:71:22	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:71:23	حَيْرَانَ	N|ROOT:حير|LEM:حَيْران|M|ACC
+6:71:24	لَهُۥٓ	P|P|PREF|LEM:ل + N|PRON|3MS
+6:71:25	أَصْحَٰبٌ	N|ROOT:صحب|LEM:أَصْحاب|MP|INDEF|NOM
+6:71:26	يَدْعُونَهُۥٓ	V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+6:71:27	إِلَى	P|P|LEM:إِلَى
+6:71:28	ٱلْهُدَى	P|DET|PREF|LEM:ال + N|ROOT:هدي|LEM:هُدًى|M|GEN
+6:71:29	ٱئْتِنَا	V|IMPV|VF:1|ROOT:أتي|LEM:أَتَى|2MS + N|PRON|SUFF|1P
+6:71:30	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:71:31	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:71:32	هُدَى	N|ROOT:هدي|LEM:هُدًى|M|ACC
+6:71:33	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:71:34	هُوَ	N|PRON|3MS
+6:71:35	ٱلْهُدَىٰ	P|DET|PREF|LEM:ال + N|ROOT:هدي|LEM:هُدًى|M|NOM
+6:71:36	وَأُمِرْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|PASS|ROOT:أمر|LEM:أَمَرَ|1P + N|PRON|SUFF|1P
+6:71:37	لِنُسْلِمَ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|ROOT:سلم|LEM:أَسْلَمَ|1P|MOOD:SUBJ
+6:71:38	لِرَبِّ	P|P|PREF|LEM:ل + N|ROOT:ربب|LEM:رَبّ|M|GEN
+6:71:39	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+6:72:1	وَأَنْ	P|CONJ|PREF|LEM:و + P|SUB|LEM:أَن
+6:72:2	أَقِيمُوا۟	V|IMPV|VF:4|ROOT:قوم|LEM:أَقامَ|2MP + N|PRON|SUFF|2MP
+6:72:3	ٱلصَّلَوٰةَ	P|DET|PREF|LEM:ال + N|ROOT:صلو|LEM:صَلاة|F|ACC
+6:72:4	وَٱتَّقُوهُ	P|CONJ|PREF|LEM:و + V|IMPV|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+6:72:5	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:72:6	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+6:72:7	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+6:72:8	تُحْشَرُونَ	V|IMPF|VF:1|PASS|ROOT:حشر|LEM:حَشَرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:73:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:73:2	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:73:3	خَلَقَ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|3MS
+6:73:4	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|ACC
+6:73:5	وَٱلْأَرْضَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|ACC
+6:73:6	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:73:7	وَيَوْمَ	P|CONJ|PREF|LEM:و + N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:73:8	يَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MS|MOOD:IND
+6:73:9	كُن	V|IMPV|VF:1|ROOT:كون|LEM:كانَ|2MS
+6:73:10	فَيَكُونُ	P|REM|PREF|LEM:ف + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|3MS|MOOD:IND
+6:73:11	قَوْلُهُ	N|VN|VF:1|ROOT:قول|LEM:قَوْل|M|NOM + N|PRON|SUFF|3MS
+6:73:12	ٱلْحَقُّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|NOM
+6:73:13	وَلَهُ	P|REM|PREF|LEM:و + P|P|PREF|LEM:ل + N|PRON|3MS
+6:73:14	ٱلْمُلْكُ	P|DET|PREF|LEM:ال + N|ROOT:ملك|LEM:مُلْك|M|NOM
+6:73:15	يَوْمَ	N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:73:16	يُنفَخُ	V|IMPF|VF:1|PASS|ROOT:نفخ|LEM:نَفَخَ|3MS|MOOD:IND
+6:73:17	فِى	P|P|LEM:فِي
+6:73:18	ٱلصُّورِ	P|DET|PREF|LEM:ال + N|ROOT:صور|LEM:صُور|M|GEN
+6:73:19	عَٰلِمُ	N|ACT_PCPL|VF:1|ROOT:علم|LEM:عالِم|M|NOM
+6:73:20	ٱلْغَيْبِ	P|DET|PREF|LEM:ال + N|ROOT:غيب|LEM:غَيْب|M|GEN
+6:73:21	وَٱلشَّهَٰدَةِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:شهد|LEM:شَهادَة|F|GEN
+6:73:22	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:73:23	ٱلْحَكِيمُ	P|DET|PREF|LEM:ال + N|ROOT:حكم|LEM:حَكِيم|MS|NOM
+6:73:24	ٱلْخَبِيرُ	P|DET|PREF|LEM:ال + N|ROOT:خبر|LEM:خَبِير|MS|NOM|ADJ

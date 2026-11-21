@@ -1,0 +1,21 @@
+KQ = ['ellezî', 'fî', 'hu', 'huve', 'li', 'nâ', 've']
+KM = {
+ "'etet' / 'etâ' / 'i'tinâ' / 'te'tiye' / 'te'tî' / 'ye'tî'": "çakışma değil ('gel-' / 'getir-' — fiil yönetimi)",
+ "'ard'": "çakışma — tam okuma sonu ('yer' / 'yeryüzü' bağlam karşılığı)",
+ "'ba'd'": "çakışma değil ('kimi' / 'kısmı' — eşanlamlı, çekim; zaman zarfı satırında 'ard' / 'art' / 'sonra' — ses uyumu, zaman zarfı karşılığı)",
+ "'nahşuru' / 'tuhşerûn' / 'yuhşerû' / 'yuhşerûn'": "çakışma değil ('topla-' etken / 'toplan-' edilgen çatı)",
+ "'haqq'": "çakışma — tam okuma sonu ('hak' / 'gerçek' — bağlam karşılığı)",
+ "'ned'û' / 'ted'ûn' / 'ted'ûne' / 'yed'ûne'": "çakışma — tam okuma sonu ('çağır-' / 'dua et-' bağlam karşılığı)",
+ "'dûn'": "çakışma — tam okuma sonu ('başka' / 'bırakıp' bağlam karşılığı)",
+ "'nuraddu' / 'ruddû'": "çakışma — tam okuma sonu ('geri döndürül-' / 'döndürül-' bağlam karşılığı)",
+ "'şehâde'": "çakışma — tam okuma sonu ('görünen' / 'şahitlik' bağlam karşılığı)",
+ "'şeytân'": "çakışma değil ('Şeytan' / 'şeytan' — cümle başı yazımı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — eşanlamlı söz fiili)",
+ "'ellezî'": "çakışma değil ('-an' sıfat fiil eki / 'Zat' / 'kimse' — ilgi adı karşılığı, çekim)",
+ "'fî'": "çakışma değil (bulunma eki / yönelme eki — fiil yönetimi)",
+ "'hu'": "çakışma değil (zamir 'O' / 'onu' / iyelik / karşılıksız aid zamir — çekim)",
+ "'huve'": "çakışma değil (zamir 'O' / ayırma zamiri 'asıl' — sözdizimi)",
+ "'li'": "çakışma değil (tamlayan eki / yönelme eki — aitlik kalıbı)",
+ "'nâ'": "çakışma değil (edat / zamir karşılığı — Türkçe ek, fiil yönetimi ve çekimle açılır)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' / 'Ve' — Türkçe sıralama, cümle başı yazımı)",
+}

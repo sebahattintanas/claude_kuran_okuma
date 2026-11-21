@@ -37,12 +37,20 @@ BAG = ast.literal_eval('[' + open(Y + 'bag_%d_%d_%d.txt' % (S, A, B), encoding='
 # ── (1) EMSAL_KAPSAM_DIZI ──
 EMK = ' '.join(m for m in ITEMS if 'emsal meal karşılık farkları' in m)
 SAT = [(m.group(1), int(m.group(2)), m.group(3)) for m in re.finditer(Q + r" %d:(\d+) '(?:[^']|'(?=[a-zçğıöşüâîû]))*' / (\d+:\d+) '" % S, EMK)]
+def kelime(q):  # sûre 6 blok 17: bölüm 8 kuralı 14 sayımıyla eş — wasl birleşmeli belirteç ('dûni'llâhi', 'ke'llezi'stehvethu') morph kelimelerine bölünür
+    n = 0
+    for t in q.split():
+        if t in ('ve', 'fe', 'fa', 'va', 'yâ'): continue
+        parca = re.split(r"(?<=[aeiuâîû])'(?=l-|ll|[a-zçğışöü]-|[bcdfğhklmnqrsştxyz]{2})", t)
+        n += 1 + sum(1 for x in parca[:-1] if x not in ('ve', 'fe', 'fa', 'va', 'bi', 'li', 'le', 'ke') and not x.endswith('-'))
+    return n
 def aralik(n, kal):
     d = dia(n); i = d.find(kal)
     if i < 0: return None
-    bas = len(d[:i].split()) + (0 if (i == 0 or d[i - 1] == ' ') else 0) + 1
-    if i > 0 and d[i - 1] != ' ': bas -= 1
-    return bas, bas + len(kal.split()) - 1
+    on = d[:i]
+    if on.endswith('-'): on = on[:on.rfind(' ') + 1]
+    bas = (kelime(on.rstrip("'")) if on.endswith("'") else kelime(on)) + 1
+    return bas, bas + max(kelime(kal), 1) - 1
 for b_ in BAG:
     e, hed = b_['bag'].split(' → ')
     n = int(hed.split(':')[1])

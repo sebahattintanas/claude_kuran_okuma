@@ -285,11 +285,24 @@ var6('bolum22_kurallar.py', ['37', '41', '09'], "(3)", "b22 kural 3: isabetsiz",
 var6('bolum22_kurallar.py', ['54', '58', '13'], "(4) 6:56 17. kelime cevap edatı (morph ANS)", "b22 kural 4: cevap konumu")
 var6('bolum22_kurallar.py', ['46', '49', '11'], "(4)", "b22 kural 4: kayıtlı cevap isabetsiz", True)
 var6('bolum22_kurallar.py', ['54', '58', '13'], "(5) 'bağlam' gerekçesi", "b22 kural 5: gerekçe sınıfı")
+# sûre 6 blok 17: b22 kural 1 kelime aralığı wasl birleşmeli ◇'de bölüm 8 kuralı 14 sayımıyla
+def mutp6(p, eski, yeni, arac, arg, aranan, ad):
+    s_ = open(p, encoding='utf-8').read(); shutil.copy(p, '/tmp/mut_yedek')
+    assert eski in s_, (ad, 'mutasyon kaynağı yok')
+    open(p, 'w', encoding='utf-8').write(s_.replace(eski, yeni))
+    try:
+        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/')
+        o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
+    finally: shutil.copy('/tmp/mut_yedek', p)
+    SON.append((ad, aranan in o))
+var6('bolum22_kurallar.py', ['71', '73', '17'], "(1)", "b22 kural 1 (blok 17): wasl birleşmeli ◇'de isabetsiz", True)
+var6('bolum22_kurallar.py', ['68', '70', '16'], "(1)", "b22 kural 1 (blok 17): blok 16 kaydında isabetsiz", True)
+mutp6('/home/claude/yamalar/ariza_6_71_73.txt', "'inne hude'llâhi huve'l-hudâ' 6:71 '", "'inne hude'llâhi huve'l-hudâ' 6:99 '", 'bolum22_kurallar.py', ['71', '73', '17'], "(1) 6:71 sayım 'say 6:71 31-35' emsal 2:120", "b22 kural 1 (blok 17): wasl sonrası 31-35 aralığı emsal satırsız kalınca isabet")
 var6('bolum22_kurallar.py', ['25', '28', '06'], "(5)", "b22 kural 5: isabetsiz", True)
 # sûre 6 bölüm 7 denetimi kuralları (bolum23)
 var6('bolum23_kurallar.py', ['62', '67', '15'], "(1) 6:62 esmâ alıntısı 'ilâ'llâhi", "b23 kural 1: esmâ alıntısı ◇ dışı")
 var6('bolum23_kurallar.py', ['54', '58', '13'], "(1)", "b23 kural 1: isabetsiz", True)
-var6('bolum23_kurallar.py', ['62', '67', '15'], "(2) esmâ kararı kapalı liste dışı / e_el=? 1", "b23 kural 2: esmâ DUR kaydı")
+var6('bolum23_kurallar.py', ['62', '67', '15'], "(2) esmâ kararı kapalı liste dışı / e_el=? ", "b23 kural 2: esmâ DUR kaydı")  # sûre 6 blok 17: 6:62 kullanıcı kararıyla e_el=? 0 — isabet maddedeki 'kapalı listede kural yok' notundan
 var6('bolum23_kurallar.py', ['59', '61', '14'], "(2)", "b23 kural 2: isabetsiz", True)
 var6('bolum23_kurallar.py', ['62', '67', '15'], "(3) 6:63 kişi toplamı", "b23 kural 3: baskın toplam")
 var6('bolum23_kurallar.py', ['54', '58', '13'], "(3)", "b23 kural 3: isabetsiz", True)
