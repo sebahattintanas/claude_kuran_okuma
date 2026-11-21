@@ -1,0 +1,67 @@
+# blok 21 (6:91-92) meal kesimleri
+SEG = {
+ 91: [
+  ("Allah'ı takdirinin hakkıyla takdir etmediler", "ve mâ qaderu'llâhe haqqa qadrih", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'mâ' 1. kelimede olumsuzluk eki ile ('etmediler' içinde; morph NEG)", "'takdir et-' 'qaderu' açılımı (2. kelime; I. bab; '-diler')",
+   "lafız 3. kelimede 'Allah' ile (belirtme eki ile 'Allah'ı')", "'hak' 'haqq' karşılığı (4. kelime; '-ıyla' ile 'hakkıyla')",
+   "'takdir' 'qadr' karşılığı (5. kelime; iyelik ve tamlayan eki ile 'takdirinin')", "'hî' 5. kelimede iyelik ile ('takdirinin' içinde)", "sıralama: nesne öne, fiil sona alındı"]),
+  ("şöyle dedikleri zaman: Allah hiçbir beşere bir şey indirmedi", "iz qâlû mâ enzela'llâhu 'alâ beşerin min şey'", [
+   "'iz' 6. kelimede 'zaman' ile (morph T)", "'şöyle' takdiri (söz girişi)", "'de-' 'qâlû' karşılığı (7. kelime; I. bab; '-dikleri')",
+   "'mâ' 8. kelimede olumsuzluk eki ile ('indirmedi' içinde; morph NEG)", "'indir-' 'enzele' karşılığı (9. kelime; IV. bab; '-di')", "lafız 10. kelimede 'Allah' ile",
+   "''alâ' 11. kelimede yönelme eki ile ('beşere' içinde)", "'beşer' 'beşer' karşılığı (12. kelime; nekre — 'hiçbir' takdiri; yönelme eki ile 'beşere'; fiil yönetimi takdiri)",
+   "'min' 13. kelimede karşılıksız (morph P — nefy tekidi)", "'şey' 'şey'' karşılığı (14. kelime; nekre — 'bir' takdiri)", "sıralama: özne öne, fiil sona alındı"]),
+  ("De ki: Mûsâ'nın insanlara bir nur ve doğru yol olarak getirdiği kitabı kim indirdi", "qul men enzele'l-kitâbe'llezî câ'e bihî mûsâ nûran ve huden li'n-nâs", [
+   "'de-' 'qul' karşılığı (15. kelime; I. bab; IMPV)", "'ki' takdiri ('De ki' kalıbı)", "'men' 16. kelimede 'kim' ile (morph INTG)", "'indir-' 'enzele' karşılığı (17. kelime; IV. bab; '-di')",
+   "'kitap' 'kitâb' karşılığı (18. kelime; belirli — takdirsiz; belirtme eki ile 'kitabı')", "'ellezî' 19. kelimede '-diği' ile ('getirdiği' içinde; morph REL)",
+   "'getir-' 'câ'e' açılımı (20. kelime; I. bab; 'câ'e bi' kalıbı)", "'bi' 21. kelimede karşılıksız ('getir-' kalıbı)", "'hî' 21. kelimede karşılıksız (aid zamir)",
+   "'Mûsâ' 'mûsâ' karşılığı (22. kelime; özel ad; tamlayan eki ile 'Mûsâ'nın')", "'nur' 'nûr' karşılığı (23. kelime; nekre — 'bir' takdiri; hâl)", "'olarak' takdiri (hâl)",
+   "'ve' 24. kelimede 've' ile (morph CONJ)", "'doğru yol' 'hudâ' açılımı (24. kelime; nekre — takdirsiz; hâl)", "'li' 25. kelimede yönelme eki ile ('insanlara' içinde)",
+   "'insan' 'nâs' karşılığı (25. kelime; belirli — takdirsiz; çoğul, '-lar'; yönelme eki ile 'insanlara'; fiil yönetimi takdiri)", "sıralama: nesne öne, fiil sona alındı"]),
+  ("Onu kâğıtlara dönüştürüyorsunuz", "tec'alûnehû qarâtîs", [
+   "'dönüştür-' 'tec'alûne' karşılığı (26. kelime; I. bab; '-üyorsunuz')", "'hû' 26. kelimede 'Onu' ile", "'kâğıt' 'qirtâs' karşılığı (27. kelime; çoğul 'qarâtîs', '-lar'; yönelme eki ile 'kâğıtlara'; fiil yönetimi takdiri)",
+   "sıralama: nesne öne, fiil sona alındı"]),
+  ("onları açığa vuruyor, çoğunu gizliyorsunuz", "tubdûnehâ ve tuxfûne kesîr", [
+   "'açığa vur-' 'tubdûne' açılımı (28. kelime; IV. bab; '-uyor'; LEM 'yubdiye' (morph LEM ham biçim))", "'hâ' 28. kelimede 'onları' ile", "'ve' 29. kelimede virgül ile (morph CONJ)",
+   "'gizle-' 'tuxfûne' karşılığı (29. kelime; IV. bab; '-iyorsunuz'; LEM 'uxfiye' (morph LEM ham biçim))", "'çok' 'kesîr' karşılığı (30. kelime; nekre — takdirsiz; iyelik ve belirtme eki ile 'çoğunu')", "sıralama: nesne öne, fiil sona alındı"]),
+  ("Sizin de babalarınızın da bilmediğiniz şeyler size öğretildi", "ve 'ullimtum mâ lem ta'lemû entum ve lâ âbâ'ukum", [
+   "'ve' 31. kelimede karşılıksız (morph REM; nokta)", "'öğretil-' ''ullimtum' karşılığı (31. kelime; II. bab; PASS; '-ildi')", "'tum' 31. kelimede 'size' ile (naib-i fail — fiil yönetimi takdiri)",
+   "'mâ' 32. kelimede 'şeyler' ile (morph REL)", "'lem' 33. kelimede '-me' ile ('bilmediğiniz' içinde; morph NEG)", "'bil-' 'ta'lemû' karşılığı (34. kelime; I. bab; JUS; '-diğiniz')",
+   "'entum' 35. kelimede 'Sizin' ile ('de' ile birlikte)", "'ve' 36. kelimede karşılıksız (morph CONJ)", "'lâ' 36. kelimede 'da' ile (morph NEG — olumsuz atıf)",
+   "'baba' 'âbâ'' karşılığı (37. kelime; çoğul, '-lar'; iyelik ve tamlayan eki ile 'babalarınızın')", "'kum' 37. kelimede iyelik ile ('babalarınızın' içinde)", "sıralama: özne sona alındı"]),
+  ("De ki: Allah", "quli'llâh", [
+   "'de-' 'qul' karşılığı (38. kelime; I. bab; IMPV)", "'ki' takdiri ('De ki' kalıbı)", "lafız 39. kelimede 'Allah' ile"]),
+  ("Sonra onları dalışlarında oynar hâlde bırak", "summe zerhum fî xavdihim yel'abûn", [
+   "'summe' 40. kelimede 'Sonra' ile (morph CONJ)", "'bırak-' 'zer' karşılığı (41. kelime; I. bab; IMPV; LEM 'yezere' (morph LEM ham biçim))", "'hum' 41. kelimede 'onları' ile",
+   "'fî' 42. kelimede bulunma eki ile ('dalışlarında' içinde)", "'dalış' 'xavd' karşılığı (43. kelime; mastar; iyelik ve bulunma eki ile 'dalışlarında')", "'him' 43. kelimede iyelik ile ('dalışlarında' içinde)",
+   "'oyna-' 'yel'abûn' karşılığı (44. kelime; I. bab; '-ar'; LEM 'yel'ab' (morph LEM ham biçim))", "'hâlde' takdiri (hâl cümlesi)", "sıralama: fiil sona alındı"]),
+ ],
+ 92: [
+  ("Bu da indirdiğimiz, bereketli, önündekini doğrulayan bir kitaptır", "ve hâzâ kitâbun enzelnâhu mubârakun musaddiqu'llezî beyne yedeyh", [
+   "'ve' 1. kelimede 'da' ile (morph REM)", "'hâ' 1. kelimede karşılıksız (morph ATT — tenbih)", "'zâ' 1. kelimede 'Bu' ile (morph DEM)",
+   "'kitap' 'kitâb' karşılığı (2. kelime; nekre — 'bir' takdiri)", "'-tır' takdiri ('kitaptır' içinde)", "'indir-' 'enzelnâ' karşılığı (3. kelime; IV. bab; 1P; '-diğimiz')",
+   "'hu' 3. kelimede karşılıksız (aid zamir)", "'bereketli' 'mubârak' karşılığı (4. kelime; nekre — takdirsiz; III. bab edilgen ortaç; sıfat)",
+   "'doğrulayan' 'musaddiq' karşılığı (5. kelime; II. bab etken ortaç; sıfat)", "'ellezî' 6. kelimede '-ki' ile ('önündekini' içinde; morph REL)",
+   "'ara' 'beyne' karşılığı (7. kelime; morph LOC; karşılıksız — 'önündekini' içinde 'ön' ile kalıp)", "'ön' 'yed' karşılığı (8. kelime; ikil, morph FD; 'beyne yedeyhi' kalıbı; iyelik ve '-deki' eki ile 'önündekini' içinde)", "'hi' 8. kelimede iyelik ile ('önündekini' içinde)",
+   "sıralama: haber sona alındı"]),
+  ("şehirlerin anasını ve çevresindekileri uyarman için", "ve li-tunzira umme'l-qurâ ve men havlehâ", [
+   "'ve' 9. kelimede karşılıksız (morph CONJ; noktalı virgül)", "'li' 9. kelimede 'için' ile (morph PRP)", "'uyar-' 'tunzira' karşılığı (9. kelime; IV. bab; SUBJ; 2MS; '-man')",
+   "'ana' 'umm' karşılığı (10. kelime; iyelik ve belirtme eki ile 'anasını')", "'şehir' 'qarye' karşılığı (11. kelime; belirli — takdirsiz; çoğul 'qurâ', '-ler'; tamlayan eki ile 'şehirlerin')",
+   "'ve' 12. kelimede 've' ile (morph CONJ)", "'men' 12. kelimede '-ler' ile ('çevresindekileri' içinde; morph REL)", "'çevre' 'havl' karşılığı (13. kelime; morph LOC; iyelik ve bulunma eki ile 'çevresindekileri'; fiil yönetimi takdiri)",
+   "'hâ' 13. kelimede iyelik ile ('çevresindekileri' içinde)", "sıralama: nesne öne, fiil sona alındı"]),
+  ("Ahirete iman edenler ona iman ederler", "ve'llezîne yu'minûne bi'l-âxirati yu'minûne bih", [
+   "'ve' 14. kelimede karşılıksız (morph REM; nokta)", "'ellezî' 14. kelimede '-enler' ile ('edenler' içinde; morph REL)", "'iman et-' 'yu'minûne' açılımı (15. kelime; IV. bab; '-en')",
+   "'bi' 16. kelimede yönelme eki ile ('Ahirete' içinde)", "'ahiret' 'âxira' karşılığı (16. kelime; belirli — takdirsiz; yönelme eki ile 'Ahirete'; fiil yönetimi takdiri; esmâ lemması, karar degil)",
+   "'iman et-' 'yu'minûne' açılımı (17. kelime; IV. bab; '-erler')", "'bi' 18. kelimede yönelme eki ile ('ona' içinde)", "'hî' 18. kelimede 'o' ile ('ona' içinde)", "sıralama: fiil sona alındı"]),
+  ("ve onlar namazlarını korurlar", "ve hum 'alâ salâtihim yuhâfizûn", [
+   "'ve' 19. kelimede 've' ile (morph CONJ)", "'hum' 19. kelimede 'onlar' ile", "''alâ' 20. kelimede belirtme eki ile ('namazlarını' içinde — fiil yönetimi takdiri)",
+   "'namaz' 'salât' karşılığı (21. kelime; iyelik ve belirtme eki ile 'namazlarını')", "'him' 21. kelimede iyelik ile ('namazlarını' içinde)",
+   "'koru-' 'yuhâfizûn' karşılığı (22. kelime; III. bab; '-rlar'; LEM 'yuhâfizu' (morph LEM ham biçim))", "sıralama: nesne öne, fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (91, 92):
+        out.append('6:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

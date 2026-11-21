@@ -1558,4 +1558,7 @@ KARAR = {
     # sure 6 blok 79-83
     '6:83:13': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab)
     '6:83:14': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab)
+    # sure 6 blok 91-92
+    '6:91:23': 'degil',  # 'nûran ve huden li'n-nâsi' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:92:16': 'degil',  # 'yu'minûne bi'l-âxirati' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }
