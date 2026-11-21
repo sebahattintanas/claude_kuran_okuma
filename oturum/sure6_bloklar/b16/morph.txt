@@ -1,0 +1,80 @@
+6:68:1	وَإِذَا	P|REM|PREF|LEM:و + N|T|LEM:إِذا
+6:68:2	رَأَيْتَ	V|PERF|VF:1|ROOT:رأي|LEM:رَأَى|2MS + N|PRON|SUFF|2MS
+6:68:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:68:4	يَخُوضُونَ	V|IMPF|VF:1|ROOT:خوض|LEM:خاضُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:68:5	فِىٓ	P|P|LEM:فِي
+6:68:6	ءَايَٰتِنَا	N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+6:68:7	فَأَعْرِضْ	P|RSLT|PREF|LEM:ف + V|IMPV|VF:4|ROOT:عرض|LEM:أَعْرَضَ|2MS
+6:68:8	عَنْهُمْ	P|P|LEM:عَن + N|PRON|SUFF|3MP
+6:68:9	حَتَّىٰ	P|P|LEM:حَتَّى
+6:68:10	يَخُوضُوا۟	V|IMPF|VF:1|ROOT:خوض|LEM:خاضُ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:68:11	فِى	P|P|LEM:فِي
+6:68:12	حَدِيثٍ	N|ROOT:حدث|LEM:حَدِيث|M|INDEF|GEN
+6:68:13	غَيْرِهِۦ	N|ROOT:غير|LEM:غَيْر|M|GEN + N|PRON|SUFF|3MS
+6:68:14	وَإِمَّا	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن + P|SUP|LEM:ما
+6:68:15	يُنسِيَنَّكَ	V|IMPF|VF:4|ROOT:نسي|LEM:أَنسَى|3MS|MOOD:IND + P|EMPH|SUFF|LEM:ن + N|PRON|SUFF|2MS
+6:68:16	ٱلشَّيْطَٰنُ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|M|NOM
+6:68:17	فَلَا	P|RSLT|PREF|LEM:ف + P|PRO|LEM:لا
+6:68:18	تَقْعُدْ	V|IMPF|VF:1|ROOT:قعد|LEM:قَعَدَ|2MS|MOOD:JUS
+6:68:19	بَعْدَ	N|T|ROOT:بعد|LEM:بَعْد|ACC
+6:68:20	ٱلذِّكْرَىٰ	P|DET|PREF|LEM:ال + N|ROOT:ذكر|LEM:ذِكْرَى|F|GEN
+6:68:21	مَعَ	N|LOC|LEM:مَع|ACC
+6:68:22	ٱلْقَوْمِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|GEN
+6:68:23	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN|ADJ
+6:69:1	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+6:69:2	عَلَى	P|P|LEM:عَلَى
+6:69:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:69:4	يَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:69:5	مِنْ	P|P|LEM:مِن
+6:69:6	حِسَابِهِم	N|VN|VF:3|ROOT:حسب|LEM:حِساب|M|GEN + N|PRON|SUFF|3MP
+6:69:7	مِّن	P|P|LEM:مِن
+6:69:8	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:69:9	وَلَٰكِن	P|REM|PREF|LEM:و + P|AMD|LEM:لٰكِن
+6:69:10	ذِكْرَىٰ	N|ROOT:ذكر|LEM:ذِكْرَى|F|ACC
+6:69:11	لَعَلَّهُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:69:12	يَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:70:1	وَذَرِ	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:وذر|LEM:يَذَرَ|2MS
+6:70:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:70:3	ٱتَّخَذُوا۟	V|PERF|VF:8|ROOT:أخذ|LEM:اتَّخَذَ|3MP + N|PRON|SUFF|3MP
+6:70:4	دِينَهُمْ	N|ROOT:دين|LEM:دِين|M|ACC + N|PRON|SUFF|3MP
+6:70:5	لَعِبًا	N|ROOT:لعب|LEM:لَعِب|M|INDEF|ACC
+6:70:6	وَلَهْوًا	P|CONJ|PREF|LEM:و + N|ROOT:لهو|LEM:لَهْو|M|INDEF|ACC
+6:70:7	وَغَرَّتْهُمُ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:غرر|LEM:غَرَّ|3FS + N|PRON|SUFF|3MP
+6:70:8	ٱلْحَيَوٰةُ	P|DET|PREF|LEM:ال + N|ROOT:حيي|LEM:حَياة|F|NOM
+6:70:9	ٱلدُّنْيَا	P|DET|PREF|LEM:ال + N|ROOT:دنو|LEM:دُنْيا|FS|NOM|ADJ
+6:70:10	وَذَكِّرْ	P|CONJ|PREF|LEM:و + V|IMPV|VF:2|ROOT:ذكر|LEM:ذُكِّرَ|2MS
+6:70:11	بِهِۦٓ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:70:12	أَن	P|SUB|LEM:أَن
+6:70:13	تُبْسَلَ	V|IMPF|VF:4|PASS|ROOT:بسل|LEM:أُبْسِلُ|3FS|MOOD:SUBJ
+6:70:14	نَفْسٌۢ	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|NOM
+6:70:15	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:70:16	كَسَبَتْ	V|PERF|VF:1|ROOT:كسب|LEM:كَسَبَ|3FS
+6:70:17	لَيْسَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+6:70:18	لَهَا	P|P|PREF|LEM:ل + N|PRON|3FS
+6:70:19	مِن	P|P|LEM:مِن
+6:70:20	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+6:70:21	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:70:22	وَلِىٌّ	N|ROOT:ولي|LEM:وَلِيّ|M|INDEF|NOM
+6:70:23	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:70:24	شَفِيعٌ	N|ROOT:شفع|LEM:شَفِيع|MS|INDEF|NOM
+6:70:25	وَإِن	P|REM|PREF|LEM:و + P|COND|LEM:إِن
+6:70:26	تَعْدِلْ	V|IMPF|VF:1|ROOT:عدل|LEM:عَدَلَ|3FS|MOOD:JUS
+6:70:27	كُلَّ	N|ROOT:كلل|LEM:كُلّ|M|ACC
+6:70:28	عَدْلٍ	N|ROOT:عدل|LEM:عَدْل|M|INDEF|GEN
+6:70:29	لَّا	P|NEG|LEM:لا
+6:70:30	يُؤْخَذْ	V|IMPF|VF:1|PASS|ROOT:أخذ|LEM:أَخَذَ|3MS|MOOD:JUS
+6:70:31	مِنْهَآ	P|P|LEM:مِن + N|PRON|SUFF|3FS
+6:70:32	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+6:70:33	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:70:34	أُبْسِلُوا۟	V|PERF|VF:4|PASS|ROOT:بسل|LEM:أُبْسِلُ|3MP + N|PRON|SUFF|3MP
+6:70:35	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:70:36	كَسَبُوا۟	V|PERF|VF:1|ROOT:كسب|LEM:كَسَبَ|3MP + N|PRON|SUFF|3MP
+6:70:37	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+6:70:38	شَرَابٌ	N|ROOT:شرب|LEM:شَراب|M|INDEF|NOM
+6:70:39	مِّنْ	P|P|LEM:مِن
+6:70:40	حَمِيمٍ	N|ROOT:حمم|LEM:حَمِيم|MS|INDEF|GEN
+6:70:41	وَعَذَابٌ	P|CONJ|PREF|LEM:و + N|ROOT:عذب|LEM:عَذاب|M|INDEF|NOM
+6:70:42	أَلِيمٌۢ	N|ROOT:ألم|LEM:أَلِيم|MS|INDEF|NOM|ADJ
+6:70:43	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:70:44	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:70:45	يَكْفُرُونَ	V|IMPF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

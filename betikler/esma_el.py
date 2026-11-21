@@ -1545,4 +1545,8 @@ KARAR = {
     '6:63:6': 'degil',  # 'min zulumâti'l-berri ve'l-bahr' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:63:17': 'degil',  # 'mine'ş-şâkirîn' — çoğul insan göndergeli → degil (insan topluluğu)
     '6:66:9': 'degil',  # 'lestu 'aleykum bi-vekîl' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 62-67 — kullanıcı kararı (2026-11-21, blok 16 oturumu)
+    '6:62:5': 'degil',  # 'ile'llâhi mevlâhumu'l-haqq' — kullanıcı kararıyla → degil (blok 15'te kapalı listede kural yoktu; kullanıcı 'ilahi değil' dedi)
+    # sure 6 blok 68-70
+    '6:70:22': 'degil',  # 'min dûni'llâhi veliyyun' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }
