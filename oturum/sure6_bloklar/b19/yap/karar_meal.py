@@ -1,0 +1,23 @@
+KQ = ["'alâ", 'bi', 'e', 'hu', 'hum', 'inne', 'kum', 'lem', 'li', 'lâ', 'mâ', 'nî', 've', 'î', 'in']
+KM = {
+ "'âteynâ' / 'ûtû'": "çakışma değil ('ver-' etken / 'veril-' edilgen çatı)",
+ "'yu'minû' / 'yu'minûn' / 'yu'minûne' / 'âmene' / 'âmenû'": "çakışma — tam okuma sonu ('inan-' / 'iman et-' bağlam karşılığı)",
+ "'ard'": "çakışma — tam okuma sonu ('yer' / 'yeryüzü' bağlam karşılığı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — eşanlamlı söz fiili)",
+ "'nezzelnâ' / 'nuzzile' / 'yunezzil' / 'yunezzile'": "çakışma değil ('indir-' etken / 'indiril-' edilgen çatı)",
+ "''alâ'": "çakışma değil ('karşı' / karşılıksız — yer eki, fiil yönetimi)",
+ "'bi'": "çakışma değil ('-le' araç / 'hakkında' / yönelme eki — fiil yönetimi)",
+ "'e'": "çakışma değil ('mi' / 'mu' — ses uyumu)",
+ "'hu'": "çakışma değil (zamir 'O' / 'onunla' / iyelik eki / karşılıksız aid zamir — çekim, fiil yönetimi)",
+ "'hum'": "çakışma değil (zamir 'onlar' / iyelik eki — çekim)",
+ "'inne'": "çakışma değil ('Şüphesiz' / karşılıksız tekit — kalıp karşılığı)",
+ "'kum'": "çakışma değil (zamir 'siz' / 'size' — çekim)",
+ "'lem'": "çakışma değil ('-ma' / '-me' — ses uyumu)",
+ "'li'": "çakışma değil (tamlayan eki / yönelme eki — aitlik kalıbı)",
+ "'lâ'": "çakışma değil ('-ma' / '-mez' / '-mu' — olumsuzluk eki, ses uyumu)",
+ "'mâ'": "çakışma değil ('-tuklarınız' / 'şeyler' / 'şeyleri' — ilgi karşılığı, çekim)",
+ "'nî'": "çakışma değil (zamir 'beni' / 'benimle' — fiil yönetimi)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' / 'oysa' hâl — Türkçe sıralama)",
+ "'in'": "çakışma değil ('eğer' / '-se' — şart edatı, kalıp karşılığı)",
+ "'î'": "çakışma değil (1S zamir 'Ben' / iyelik eki — çekim)",
+}

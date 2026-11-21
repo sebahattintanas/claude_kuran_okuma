@@ -3,7 +3,7 @@
 #  (2) OZ_DENETIM_SIFIR: öz denetim maddesinde sıfırdan farklı 'hata: N' ya da '→ ?' teslimi durdurur (bayat sonuç: son koşu ardışık iki koşuyla)
 #  (3) IZA_CEVAP: kip notunda 'cevabı' geçen ayette A4'te 'şart → cevap' ya da 'kapsam dışı' kaydı
 #  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20, …, bölüm 8 → bolum24)
-#  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata
+#  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata; 'ilahi' kararlı lemmada kapalı listedeki sözdizimi çerçeve etiketleri ayrık olabilir (sûre 6 blok 19)
 #  (elle: FAIL_REL, KASR_TEK, KANE_IMPF, BASKIN_TEK, EMSAL_KAPSAM, ESMA_FARK_AD, ES_EDAT_KARAR, MEDDE_FARK_KARAR, BAG_SAYIM_BASIM)
 # kullanım (/home/claude'dan): python3 sunum/bolum19_kurallar.py A B NN
 import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK, S
@@ -96,14 +96,17 @@ for f in sorted(glob.glob(_BK + 'b[0-9][0-9]/morph%d.txt' % S)):
         mm = re.findall(r'LEM:([^|]+)', feat)
         for x in mm:
             if not re.search(r'^(ال|و|ف|ب|ل|ك)$', x): LEMW.setdefault((a_, w_), _ud.normalize('NFC', x))
-ET = collections.defaultdict(set)
+ET = collections.defaultdict(set); KD = {}
 for l in open('/home/claude/calisma/esma_el.py', encoding='utf-8'):
-    m = re.match(r"\s*'%d:(\d+):(\d+)': '\w+',\s*#.*? — (.+?) →" % S, l)
+    m = re.match(r"\s*'%d:(\d+):(\d+)': '(\w+)',\s*#.*? — (.+?) →" % S, l)
     if not m: continue
     a_, w_ = int(m.group(1)), int(m.group(2))
-    if (a_, w_) in LEMW: ET[LEMW[(a_, w_)]].add((m.group(3).strip(), '%d:%d:%d' % (S, a_, w_)))
+    if (a_, w_) in LEMW: ET[LEMW[(a_, w_)]].add((m.group(4).strip(), '%d:%d:%d' % (S, a_, w_))); KD.setdefault(LEMW[(a_, w_)], set()).add(m.group(3))
+# sûre 6 blok 19: 'ilahi' kararlı esmâda kapalı listedeki sözdizimi çerçeve etiketleri (zamirin haberi / 'inne/enne' haberi / lafzın haberi) farklı olabilir — yalnız 'degil' kararlı ya da karar değeri farklı lemma hata
+CERCEVE = ("'inne/enne' haberi", 'zamirin haberi', 'lafzın haberi', "'ve kâna'llâhu X' lafzın haberi", "'ve'llâhu X' kuralı")
 for lem, st in ET.items():
     et = {x[0] for x in st}; EN['esma_lem'] += 1
+    if KD.get(lem) == {'ilahi'} and all(e.startswith(CERCEVE) for e in et): continue
     if len(et) > 1 and any(A <= int(x[1].split(':')[1]) <= B for x in st):
         H.append("(5) esmâ lemma %s farklı kural etiketi: %s" % (lem, '; '.join('%s (%s)' % (e, x) for e, x in sorted(st, key=lambda z: z[1]))))
 

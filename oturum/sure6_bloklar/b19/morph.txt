@@ -1,0 +1,84 @@
+6:79:1	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:79:2	وَجَّهْتُ	V|PERF|VF:2|ROOT:وجه|LEM:وَجَّهْ|1S + N|PRON|SUFF|1S
+6:79:3	وَجْهِىَ	N|ROOT:وجه|LEM:وَجْه|M|ACC + N|PRON|SUFF|1S
+6:79:4	لِلَّذِى	P|P|PREF|LEM:ل + N|REL|LEM:الَّذِي|MS
+6:79:5	فَطَرَ	V|PERF|VF:1|ROOT:فطر|LEM:فَطَرَ|3MS
+6:79:6	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|ACC
+6:79:7	وَٱلْأَرْضَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|ACC
+6:79:8	حَنِيفًا	N|ROOT:حنف|LEM:حَنِيف|M|INDEF|ACC
+6:79:9	وَمَآ	P|REM|PREF|LEM:و + P|NEG|LEM:ما|FAM:كَان
+6:79:10	أَنَا۠	N|PRON|1S
+6:79:11	مِنَ	P|P|LEM:مِن
+6:79:12	ٱلْمُشْرِكِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|GEN
+6:80:1	وَحَآجَّهُۥ	P|REM|PREF|LEM:و + V|PERF|VF:3|ROOT:حجج|LEM:حاجَّ|3MS + N|PRON|SUFF|3MS
+6:80:2	قَوْمُهُۥ	N|ROOT:قوم|LEM:قَوْم|M|NOM + N|PRON|SUFF|3MS
+6:80:3	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:80:4	أَتُحَٰٓجُّوٓنِّى	N|INTG|PREF|LEM:أ + V|IMPF|VF:3|PASS|ROOT:حجج|LEM:حاجَّ|2MP|MOOD:IND + N|PRON|SUFF|2MP + N|PRON|SUFF|1S
+6:80:5	فِى	P|P|LEM:فِي
+6:80:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:80:7	وَقَدْ	P|CIRC|PREF|LEM:و + P|CERT|LEM:قَد
+6:80:8	هَدَىٰنِ	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|1S
+6:80:9	وَلَآ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:80:10	أَخَافُ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|1S|MOOD:IND
+6:80:11	مَا	N|REL|LEM:ما
+6:80:12	تُشْرِكُونَ	V|IMPF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:80:13	بِهِۦٓ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:80:14	إِلَّآ	P|EXP|LEM:إِلّا
+6:80:15	أَن	P|SUB|LEM:أَن
+6:80:16	يَشَآءَ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS|MOOD:SUBJ
+6:80:17	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|1S
+6:80:18	شَيْـًٔا	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|ACC
+6:80:19	وَسِعَ	V|PERF|VF:1|ROOT:وسع|LEM:وَسِعَ|3MS
+6:80:20	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|1S
+6:80:21	كُلَّ	N|ROOT:كلل|LEM:كُلّ|M|ACC
+6:80:22	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:80:23	عِلْمًا	N|ROOT:علم|LEM:عِلْم|M|INDEF|ACC
+6:80:24	أَفَلَا	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+6:80:25	تَتَذَكَّرُونَ	V|IMPF|VF:5|ROOT:ذكر|LEM:تَذَكَّرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:81:1	وَكَيْفَ	P|REM|PREF|LEM:و + N|INTG|ROOT:كيف|LEM:كَيْف
+6:81:2	أَخَافُ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|1S|MOOD:IND
+6:81:3	مَآ	N|REL|LEM:ما
+6:81:4	أَشْرَكْتُمْ	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|2MP + N|PRON|SUFF|2MP
+6:81:5	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:81:6	تَخَافُونَ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:81:7	أَنَّكُمْ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:81:8	أَشْرَكْتُم	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|2MP + N|PRON|SUFF|2MP
+6:81:9	بِٱللَّهِ	P|P|PREF|LEM:ب + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:81:10	مَا	N|REL|LEM:ما
+6:81:11	لَمْ	P|NEG|LEM:لَم
+6:81:12	يُنَزِّلْ	V|IMPF|VF:2|ROOT:نزل|LEM:نَزَّلَ|3MS|MOOD:JUS
+6:81:13	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:81:14	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:81:15	سُلْطَٰنًا	N|ROOT:سلط|LEM:سُلْطان|M|INDEF|ACC
+6:81:16	فَأَىُّ	P|REM|PREF|LEM:ف + N|INTG|ROOT:أيي|LEM:أَيّ|NOM
+6:81:17	ٱلْفَرِيقَيْنِ	P|DET|PREF|LEM:ال + N|ROOT:فرق|LEM:فَرِيق|MD|GEN
+6:81:18	أَحَقُّ	N|ROOT:حقق|LEM:أَحَقّ|MS|NOM
+6:81:19	بِٱلْأَمْنِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:أمن|LEM:أَمْن|M|GEN
+6:81:20	إِن	P|COND|LEM:إِن
+6:81:21	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:81:22	تَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:82:1	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:82:2	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+6:82:3	وَلَمْ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لَم
+6:82:4	يَلْبِسُوٓا۟	V|IMPF|VF:1|ROOT:لبس|LEM:لَبَسْ|3MP|MOOD:JUS + N|PRON|SUFF|3MP
+6:82:5	إِيمَٰنَهُم	N|VN|VF:4|ROOT:أمن|LEM:إِيمان|M|ACC + N|PRON|SUFF|3MP
+6:82:6	بِظُلْمٍ	P|P|PREF|LEM:ب + N|ROOT:ظلم|LEM:ظُلْم|M|INDEF|GEN
+6:82:7	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+6:82:8	لَهُمُ	P|P|PREF|LEM:ل + N|PRON|3MP
+6:82:9	ٱلْأَمْنُ	P|DET|PREF|LEM:ال + N|ROOT:أمن|LEM:أَمْن|M|NOM
+6:82:10	وَهُم	P|CONJ|PREF|LEM:و + N|PRON|3MP
+6:82:11	مُّهْتَدُونَ	N|ACT_PCPL|VF:8|ROOT:هدي|LEM:مُهْتَدي|MP|NOM
+6:83:1	وَتِلْكَ	P|REM|PREF|LEM:و + N|DEM|LEM:ذا|FS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:83:2	حُجَّتُنَآ	N|ROOT:حجج|LEM:حُجَّة|F|NOM + N|PRON|SUFF|1P
+6:83:3	ءَاتَيْنَٰهَآ	V|PERF|VF:4|ROOT:أتي|LEM:آتَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3FS
+6:83:4	إِبْرَٰهِيمَ	N|PN|LEM:إِبْراهِيم|M|ACC
+6:83:5	عَلَىٰ	P|P|LEM:عَلَى
+6:83:6	قَوْمِهِۦ	N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+6:83:7	نَرْفَعُ	V|IMPF|VF:1|ROOT:رفع|LEM:رَفَعَ|1P|MOOD:IND
+6:83:8	دَرَجَٰتٍ	N|ROOT:درج|LEM:دَرَجَة|FP|INDEF|ACC
+6:83:9	مَّن	N|REL|LEM:مَن
+6:83:10	نَّشَآءُ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|1P|MOOD:IND
+6:83:11	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:83:12	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:83:13	حَكِيمٌ	N|ROOT:حكم|LEM:حَكِيم|MS|INDEF|NOM
+6:83:14	عَلِيمٌ	N|ROOT:علم|LEM:عَلِيم|MS|INDEF|NOM|ADJ

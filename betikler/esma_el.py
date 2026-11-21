@@ -1555,4 +1555,7 @@ KARAR = {
     '6:73:24': 'ilahi',  # 've huve'l-hakîmu'l-xabîr' — zamirin haberi → ilahi (Allah)
     # sure 6 blok 74-78
     '6:74:14': 'degil',  # 'fî dalâlin mubîn' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 79-83
+    '6:83:13': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab)
+    '6:83:14': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab)
 }

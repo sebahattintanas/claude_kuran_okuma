@@ -253,6 +253,7 @@ var6('bolum19_kurallar.py', ['29', '32', '07'], "(3) 6:31", "b19 kural 3: izâ c
 var6('bolum19_kurallar.py', ['6', '11', '02'], "(3)", "b19 kural 3: kip notu sınırı isabetsiz", True)
 var6('bolum19_kurallar.py', ['12', '15', '03'], "(4)", "b19 kural 4: var olan atıf isabetsiz", True)
 var6('bolum19_kurallar.py', ['25', '28', '06'], "(5) esmâ lemma", "b19 kural 5: esmâ lemma etiketi")
+var6('bolum19_kurallar.py', ['79', '83', '19'], "(5) esmâ lemma", "b19 kural 5: ilahi çerçeve etiketi isabetsiz", True)
 # sûre 6 bölüm 4 denetimi kuralları (bolum20)
 var6('bolum20_kurallar.py', ['33', '36', '08'], "(1) ARIZA yamasında yer tutucu kaldı", "b20 kural 1: yer tutucu")
 var6('bolum20_kurallar.py', ['37', '41', '09'], "(1)", "b20 kural 1: dolu kayıt isabetsiz", True)
