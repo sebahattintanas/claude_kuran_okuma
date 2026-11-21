@@ -202,7 +202,7 @@ for a in range(A, B + 1):
         mm = re.search(r'(dir|dır|dur|dür|tir|tır|tur|tür)(?:lar|ler)?$', tok)
         if mm and len(tok) > 4 and tok.lower() not in ('kadir', 'tedbir', 'bedir', 'tır', 'takdir'):
             if "'%s-'" % tok.lower() in mb: continue  # blok 34: emir kipindeki fiil kökü ('indir', 'rızıklandır') — meal maddesinde 'X-' karşılığı olarak kayıtlı; '-dir' eki değil
-            if re.search(r"%s-'" % re.escape(tok.lower()[:-2]), mb) and tok.lower()[-2:] in ('ir', 'ır', 'ur', 'ür'): continue  # sûre 6 blok 20: geniş zaman eki ('ilet-' + '-ir' → 'iletir') — kök meal maddesinde 'X-' karşılığı olarak kayıtlı; '-dir' eki değil
+            if re.search(r"%s-'" % re.escape(tok.lower()[:-2]), mb) and "'-%s'" % tok.lower()[-2:] in mb and tok.lower()[-2:] in ('ir', 'ır', 'ur', 'ür'): continue  # sûre 6 blok 20: geniş zaman eki ('ilet-' + '-ir' → 'iletir') — kök meal maddesinde 'X-' karşılığı ve '-ir' eki notu birlikte kayıtlı (bölüm 10 denetimi: sıkılaştırıldı); '-dir' eki değil
             if "'-%s' takdiri ('%s'" % (mm.group(1), tok) not in mb: DIR.append('%d:%d %s' % (S, a, tok))
     for (aa, n), f in sorted(MOR.items()):
         if aa == a and re.search(r'(?:^|\|)INDEF(?:\||$)', f) and not re.search(r'\(%d\. kelime; nekre' % n, mb):

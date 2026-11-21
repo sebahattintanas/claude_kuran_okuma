@@ -40,6 +40,7 @@ for a, b, nn in BL:
         isa += ['bolum23_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum23_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 7 kuralları
         isa += ['bolum24_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum24_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 8 kuralları
         isa += ['bolum25_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum25_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 9 kuralları
+        isa += ['bolum26_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum26_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 10 kuralları
         isa += ['kural13: ' + l[5:] for l in run(['python3', 'sunum/kural13.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralı 13
         es = run(['python3', 'sunum/es_edat.py', nn])
         m = re.search(r'tanınmayan edat / zamir başlığı (\d+)(?: \(([^)]*)\))?', es)
@@ -52,7 +53,7 @@ for a, b, nn in BL:
     dos = [Y + '%s_%d_%d_%d.txt' % (k, S, a, b) for k in ('metin', 'ariza', 'bag', 'cipa', 'esma_el') if _o.path.exists(Y + '%s_%d_%d_%d.txt' % (k, S, a, b))]
     isa += ['yasakli: ' + l.split('/')[-1] for l in run(['bash', 'sunum/yasakli.sh'] + dos).splitlines() if 'bitti' not in l and l.strip()]
     out += isa; ISA += ['blok %s %s' % (nn, x) for x in isa]
-bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, bolum17_kurallar, bolum18_kurallar, bolum19_kurallar, bolum20_kurallar, bolum21_kurallar, bolum22_kurallar, bolum23_kurallar, bolum24_kurallar, bolum25_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
+bas = ['# geriye dönük koşu (%s, %s): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, bolum17_kurallar, bolum18_kurallar, bolum19_kurallar, bolum20_kurallar, bolum21_kurallar, bolum22_kurallar, bolum23_kurallar, bolum24_kurallar, bolum25_kurallar, bolum26_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre %d); isabet %d' % (ET, datetime.date.today(), S, len(ISA))]
 if ONC and _o.path.exists(ONC):
     eski = set()
     blk = None
