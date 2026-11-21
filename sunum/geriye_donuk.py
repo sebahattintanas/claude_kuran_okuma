@@ -37,6 +37,7 @@ for a, b, nn in BL:
         isa += ['bolum20_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum20_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 4 kuralları
         isa += ['bolum21_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum21_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 5 kuralları
         isa += ['bolum22_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum22_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 6 kuralları
+        isa += ['bolum23_kurallar: ' + l[5:] for l in run(['python3', 'sunum/bolum23_kurallar.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # sûre 6 bölüm 7 kuralları
         isa += ['kural13: ' + l[5:] for l in run(['python3', 'sunum/kural13.py', str(a), str(b), nn]).splitlines() if l.startswith('HATA')]  # bölüm 9 kuralı 13
         es = run(['python3', 'sunum/es_edat.py', nn])
         m = re.search(r'tanınmayan edat / zamir başlığı (\d+)(?: \(([^)]*)\))?', es)

@@ -77,7 +77,7 @@ for a in range(A, B + 1):
 
 # ── (4) KURAL_ATIF ──
 MAX = {}
-for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22
+for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22'), (7, 'bolum23')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22; bölüm 7: bolum23
     try:
         t = open('/home/claude/sunum/%s_kurallar.py' % f, encoding='utf-8').read()
         MAX[b_] = max(int(x) for x in re.findall(r'^#\s+\((\d+)\)', t, re.M))
