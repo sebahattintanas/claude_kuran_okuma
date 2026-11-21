@@ -1,0 +1,80 @@
+6:62:1	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:62:2	رُدُّوٓا۟	V|PERF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|3MP + N|PRON|SUFF|3MP
+6:62:3	إِلَى	P|P|LEM:إِلَى
+6:62:4	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:62:5	مَوْلَىٰهُمُ	N|ROOT:ولي|LEM:مَوْلَى|M|GEN + N|PRON|SUFF|3MP
+6:62:6	ٱلْحَقِّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:62:7	أَلَا	P|ATT|LEM:أَلا
+6:62:8	لَهُ	P|P|PREF|LEM:ل + N|PRON|3MS
+6:62:9	ٱلْحُكْمُ	P|DET|PREF|LEM:ال + N|ROOT:حكم|LEM:حُكْم|M|NOM
+6:62:10	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:62:11	أَسْرَعُ	N|ROOT:سرع|LEM:أَسْرَع|MS|NOM
+6:62:12	ٱلْحَٰسِبِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:حسب|LEM:حاسِب|MP|GEN
+6:63:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:63:2	مَن	N|INTG|LEM:مَن
+6:63:3	يُنَجِّيكُم	V|IMPF|VF:2|ROOT:نجو|LEM:نَجَّى|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:63:4	مِّن	P|P|LEM:مِن
+6:63:5	ظُلُمَٰتِ	N|ROOT:ظلم|LEM:ظُلُمَة|FP|GEN
+6:63:6	ٱلْبَرِّ	P|DET|PREF|LEM:ال + N|ROOT:برر|LEM:بَرّ|M|GEN
+6:63:7	وَٱلْبَحْرِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:بحر|LEM:بَحْر|M|GEN
+6:63:8	تَدْعُونَهُۥ	V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|2MP|MOOD:IND + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+6:63:9	تَضَرُّعًا	N|VN|VF:5|ROOT:ضرع|LEM:تَضَرُّع|M|INDEF|ACC
+6:63:10	وَخُفْيَةً	P|CONJ|PREF|LEM:و + N|ROOT:خفي|LEM:خُفْيَة|F|INDEF|ACC
+6:63:11	لَّئِنْ	P|EMPH|PREF|LEM:ل + P|COND|LEM:إِن
+6:63:12	أَنجَىٰنَا	V|PERF|VF:4|ROOT:نجو|LEM:أَنجَى|3MS + N|PRON|SUFF|1P
+6:63:13	مِنْ	P|P|LEM:مِن
+6:63:14	هَٰذِهِۦ	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|FS
+6:63:15	لَنَكُونَنَّ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P|MOOD:IND + P|EMPH|SUFF|LEM:ن
+6:63:16	مِنَ	P|P|LEM:مِن
+6:63:17	ٱلشَّٰكِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:شكر|LEM:شاكِر|MP|GEN
+6:64:1	قُلِ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:64:2	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:64:3	يُنَجِّيكُم	V|IMPF|VF:2|ROOT:نجو|LEM:نَجَّى|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:64:4	مِّنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+6:64:5	وَمِن	P|CONJ|PREF|LEM:و + P|P|LEM:مِن
+6:64:6	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:64:7	كَرْبٍ	N|ROOT:كرب|LEM:كَرْب|M|INDEF|GEN
+6:64:8	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:64:9	أَنتُمْ	N|PRON|2MP
+6:64:10	تُشْرِكُونَ	V|IMPF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:65:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:65:2	هُوَ	N|PRON|3MS
+6:65:3	ٱلْقَادِرُ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:قدر|LEM:قادِر|M|NOM
+6:65:4	عَلَىٰٓ	P|P|LEM:عَلَى
+6:65:5	أَن	P|SUB|LEM:أَن
+6:65:6	يَبْعَثَ	V|IMPF|VF:1|ROOT:بعث|LEM:بَعَثَ|3MS|MOOD:SUBJ
+6:65:7	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:65:8	عَذَابًا	N|ROOT:عذب|LEM:عَذاب|M|INDEF|ACC
+6:65:9	مِّن	P|P|LEM:مِن
+6:65:10	فَوْقِكُمْ	N|ROOT:فوق|LEM:فَوْق|M|GEN + N|PRON|SUFF|2MP
+6:65:11	أَوْ	P|CONJ|LEM:أَو
+6:65:12	مِن	P|P|LEM:مِن
+6:65:13	تَحْتِ	N|ROOT:تحت|LEM:تَحْت|GEN
+6:65:14	أَرْجُلِكُمْ	N|ROOT:رجل|LEM:رِجْل|FP|GEN + N|PRON|SUFF|2MP
+6:65:15	أَوْ	P|CONJ|LEM:أَو
+6:65:16	يَلْبِسَكُمْ	V|IMPF|VF:1|ROOT:لبس|LEM:لَبَسْ|3MS|MOOD:SUBJ + N|PRON|SUFF|2MP
+6:65:17	شِيَعًا	N|ROOT:شيع|LEM:شِيعَة|MP|INDEF|ACC
+6:65:18	وَيُذِيقَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:4|ROOT:ذوق|LEM:أَذاقَ|3MS|MOOD:SUBJ
+6:65:19	بَعْضَكُم	N|ROOT:بعض|LEM:بَعْض|M|ACC + N|PRON|SUFF|2MP
+6:65:20	بَأْسَ	N|ROOT:بأس|LEM:بَأْس|M|ACC
+6:65:21	بَعْضٍ	N|ROOT:بعض|LEM:بَعْض|M|INDEF|GEN
+6:65:22	ٱنظُرْ	V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+6:65:23	كَيْفَ	N|ROOT:كيف|LEM:كَيْف
+6:65:24	نُصَرِّفُ	V|IMPF|VF:2|ROOT:صرف|LEM:صَرَّفْ|1P|MOOD:IND
+6:65:25	ٱلْءَايَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:أيي|LEM:آيَة|FP|ACC
+6:65:26	لَعَلَّهُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:65:27	يَفْقَهُونَ	V|IMPF|VF:1|ROOT:فقه|LEM:يَفْقَهُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:66:1	وَكَذَّبَ	P|REM|PREF|LEM:و + V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MS
+6:66:2	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:66:3	قَوْمُكَ	N|ROOT:قوم|LEM:قَوْم|M|NOM + N|PRON|SUFF|2MS
+6:66:4	وَهُوَ	P|CIRC|PREF|LEM:و + N|PRON|3MS
+6:66:5	ٱلْحَقُّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|NOM
+6:66:6	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:66:7	لَّسْتُ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|1S + N|PRON|SUFF|1S
+6:66:8	عَلَيْكُم	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:66:9	بِوَكِيلٍ	P|P|PREF|LEM:ب + N|ROOT:وكل|LEM:وَكِيل|M|INDEF|GEN
+6:67:1	لِّكُلِّ	P|P|PREF|LEM:ل + N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:67:2	نَبَإٍ	N|ROOT:نبأ|LEM:نَبَأ|M|INDEF|GEN
+6:67:3	مُّسْتَقَرٌّ	N|PASS_PCPL|VF:10|ROOT:قرر|LEM:مُسْتَقَرّ|M|INDEF|NOM
+6:67:4	وَسَوْفَ	P|REM|PREF|LEM:و + P|FUT|LEM:سَوْف
+6:67:5	تَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

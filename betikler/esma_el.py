@@ -1541,4 +1541,8 @@ KARAR = {
     '6:59:31': 'degil',  # 'illâ fî kitâbin mubîn' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:61:7': 'degil',  # 've yursilu 'aleykum hafaza' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:61:11': 'degil',  # 'câ'e ehadekumu'l-mevt' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 62-67
+    '6:63:6': 'degil',  # 'min zulumâti'l-berri ve'l-bahr' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:63:17': 'degil',  # 'mine'ş-şâkirîn' — çoğul insan göndergeli → degil (insan topluluğu)
+    '6:66:9': 'degil',  # 'lestu 'aleykum bi-vekîl' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }

@@ -1,0 +1,22 @@
+KQ = ["'alâ", 'bi', 'hu', 'hum', 'huve', 'kum', 'le', 'li', 'summe', 've']
+KM = {
+ "'yeb'ase' / 'yeb'asu'": "çakışma — tam okuma sonu ('dirilt-' / 'gönder-' / 'uyandır-' bağlam karşılığı)",
+ "'ba'd'": "çakışma değil ('kısmı' / 'kimi' — eşanlamlı, çekim)",
+ "'haqq'": "çakışma — tam okuma sonu ('hak' / 'gerçek' — bağlam karşılığı)",
+ "'ted'ûn' / 'ted'ûne' / 'yed'ûne'": "çakışma — tam okuma sonu ('çağır-' / 'dua et-' bağlam karşılığı)",
+ "'nuraddu' / 'ruddû'": "çakışma — tam okuma sonu ('geri döndürül-' / 'döndürül-' bağlam karşılığı)",
+ "'qâdir'": "çakışma — tam okuma sonu ('gücü yeten' / 'kadir' bağlam karşılığı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — eşanlamlı söz fiili)",
+ "'kezzebe' / 'kezzebtum' / 'kezzebû' / 'kuzzibet' / 'kuzzibû' / 'nukezzibe' / 'yukezzibûne'": "çakışma değil ('yalanla-' etken / 'yalanlan-' edilgen çatı)",
+ "'lestu' / 'leyse'": "çakışma — tam okuma sonu ('yok' / 'değil' bağlam karşılığı)",
+ "''alâ'": "çakışma değil ('üzeri' / karşılıksız — yer eki, fiil yönetimi)",
+ "'bi'": "çakışma değil (belirtme eki / karşılıksız zâid — fiil yönetimi)",
+ "'hu'": "çakışma değil (zamir 'O' / 'onu' — çekim)",
+ "'hum'": "çakışma değil (iyelik eki / karşılıksız — fiil çekimi)",
+ "'huve'": "çakışma değil (zamir 'O' Allah'a / 'o' hakka gönderge — yazım)",
+ "'kum'": "çakışma değil (zamir 'sizi' / 'Sizi' / 'sizin' / iyelik eki — çekim)",
+ "'le'": "çakışma değil (karşılıksız yemin lâmı / 'mutlaka' cevap lâmı — kalıp karşılığı)",
+ "'li'": "çakışma değil (tamlayan eki '-un' / '-in' — ses uyumu)",
+ "'summe'": "çakışma değil ('sonra' / 'Sonra' — cümle başı yazımı)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' — Türkçe sıralama)",
+}

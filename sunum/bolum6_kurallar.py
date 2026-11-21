@@ -99,7 +99,7 @@ for k, kr, yorum in re.findall(r"'(\d+:\d+:\d+)':\s*'(\w+)',\s*#\s*(.*)", blk):
     sg = re.search(r'%s .*?(?=\d+:\d+:\d+ |$)' % re.escape(k), esm_it)
     if sg and 'tam okuma sonu' in sg.group(0): H.append("esmâ kararı 'tam okuma sonu' notlu ama esma_el'de kapalı: %s" % k)
     kural = next((x for x in KW if x in yorum), None)
-    onc = [(kk, c) for kk, c in ONCE.get((LEM.get(k), kr), []) if kk != k and not (kk.startswith('%d:' % S) and A <= int(kk.split(':')[1]) <= B)]
+    onc = [(kk, c) for kk, c in ONCE.get((LEM.get(k), kr), []) if kk != k and not (kk.startswith('%d:' % S) and A <= int(kk.split(':')[1]) <= B) and (' → ' in c or any(x in c for x in KAPALI))]  # sûre 6 blok 15: emsal yalnız kural adlı ('X → karar') kayıt
     yapi = re.sub(r"^'+", '', yorum.split()[0])[:8] if yorum.split() else ''
     ayni = [(kk, c) for kk, c in onc if yapi and yapi in c.replace("'", "'")]  # emsal: aynı yapıyla başlayan önceki kayıtlar (örn. 'fi'l-âxira')
     if ayni: onc = ayni
