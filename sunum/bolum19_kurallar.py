@@ -2,7 +2,7 @@
 #  (1) KOMUT_BLOK: ARIZA'da anılan 'komut python3 sunum/X.py …' bağımsız değişkenleri ARIZA'nın bloğuyla eş (A B NN; es_edat NN; sonradan --plan N; ayn_kontrol A B)
 #  (2) OZ_DENETIM_SIFIR: öz denetim maddesinde sıfırdan farklı 'hata: N' ya da '→ ?' teslimi durdurur (bayat sonuç: son koşu ardışık iki koşuyla)
 #  (3) IZA_CEVAP: kip notunda 'cevabı' geçen ayette A4'te 'şart → cevap' ya da 'kapsam dışı' kaydı
-#  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20, …, bölüm 10 → bolum26)
+#  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20, …, bölüm 11 → bolum27)
 #  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata; 'ilahi' kararlı lemmada kapalı listedeki sözdizimi çerçeve etiketleri ayrık olabilir (sûre 6 blok 19); bu bloğun kaydı önceki etiketlerden biriyle eşse lemmanın eski ayrılığı yeniden raporlanmaz (sûre 6 blok 22)
 #  (elle: FAIL_REL, KASR_TEK, KANE_IMPF, BASKIN_TEK, EMSAL_KAPSAM, ESMA_FARK_AD, ES_EDAT_KARAR, MEDDE_FARK_KARAR, BAG_SAYIM_BASIM)
 # kullanım (/home/claude'dan): python3 sunum/bolum19_kurallar.py A B NN
@@ -77,7 +77,7 @@ for a in range(A, B + 1):
 
 # ── (4) KURAL_ATIF ──
 MAX = {}
-for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22'), (7, 'bolum23'), (8, 'bolum24'), (9, 'bolum25'), (10, 'bolum26')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22; bölüm 7: bolum23; bölüm 8: bolum24; bölüm 9: bolum25; bölüm 10: bolum26
+for b_, f in ((1, 'bolum17'), (2, 'bolum18'), (3, 'bolum19'), (4, 'bolum20'), (5, 'bolum21'), (6, 'bolum22'), (7, 'bolum23'), (8, 'bolum24'), (9, 'bolum25'), (10, 'bolum26'), (11, 'bolum27')):  # sûre 6 bölüm 4 denetimi: bolum20; bölüm 6 denetimi: bolum22; bölüm 7: bolum23; bölüm 8: bolum24; bölüm 9: bolum25; bölüm 10: bolum26; bölüm 11: bolum27
     try:
         t = open('/home/claude/sunum/%s_kurallar.py' % f, encoding='utf-8').read()
         MAX[b_] = max(int(x) for x in re.findall(r'^#\s+\((\d+)\)', t, re.M))
@@ -109,7 +109,8 @@ for lem, st in ET.items():
     if KD.get(lem) == {'ilahi'} and all(e in CERCEVE for e in et): continue  # bölüm 9 denetimi: önek değil tam etiket eşleşmesi
     if len(et) > 1 and any(A <= int(x[1].split(':')[1]) <= B for x in st):
         _ic = {e for e, x in st if A <= int(x.split(':')[1]) <= B}; _dis = {e for e, x in st if not (A <= int(x.split(':')[1]) <= B)}
-        if _dis and len(_ic) == 1 and _ic <= _dis: continue  # sûre 6 blok 22: bu bloğun kaydı önceki bir etiketle eş — lemmadaki eski ayrılık önceki blokta raporlandı ('evvel' 6:14 / 6:25)
+        _ilk = min(((x, e) for e, x in st if not (A <= int(x.split(':')[1]) <= B)), key=lambda z: tuple(int(t) for t in z[0].split(':')), default=(None, None))[1]
+        if _dis and len(_ic) == 1 and _ic == {_ilk} and len(KD.get(lem, ())) == 1: continue  # bölüm 11 denetimi: yalnız lemmanın ilk (emsal) etiketiyle eş ve karar değeri tek  # sûre 6 blok 22: bu bloğun kaydı önceki bir etiketle eş — lemmadaki eski ayrılık önceki blokta raporlandı ('evvel' 6:14 / 6:25)
         H.append("(5) esmâ lemma %s farklı kural etiketi: %s" % (lem, '; '.join('%s (%s)' % (e, x) for e, x in sorted(st, key=lambda z: z[1]))))
 
 print('denetlenen: ' + ', '.join('%s %d' % kv for kv in sorted(EN.items())))
