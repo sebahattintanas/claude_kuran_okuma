@@ -1,0 +1,78 @@
+6:93:1	وَمَنْ	P|REM|PREF|LEM:و + N|INTG|LEM:مَن
+6:93:2	أَظْلَمُ	N|ROOT:ظلم|LEM:أَظْلَم|MS|NOM
+6:93:3	مِمَّنِ	P|P|LEM:مِن + N|REL|LEM:مَن
+6:93:4	ٱفْتَرَىٰ	V|PERF|VF:8|ROOT:فري|LEM:افْتَرَى|3MS
+6:93:5	عَلَى	P|P|LEM:عَلَى
+6:93:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:93:7	كَذِبًا	N|ROOT:كذب|LEM:كَذِب|M|INDEF|ACC
+6:93:8	أَوْ	P|CONJ|LEM:أَو
+6:93:9	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:93:10	أُوحِىَ	V|PERF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS
+6:93:11	إِلَىَّ	P|P|LEM:إِلَى + N|PRON|SUFF|1S
+6:93:12	وَلَمْ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لَم
+6:93:13	يُوحَ	V|IMPF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS|MOOD:JUS
+6:93:14	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+6:93:15	شَىْءٌ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|NOM
+6:93:16	وَمَن	P|CONJ|PREF|LEM:و + N|INTG|LEM:مَن
+6:93:17	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:93:18	سَأُنزِلُ	P|FUT|PREF|LEM:س + V|IMPF|VF:4|ROOT:نزل|LEM:أَنزَلَ|1S|MOOD:IND
+6:93:19	مِثْلَ	N|ROOT:مثل|LEM:مِثْل|M|ACC
+6:93:20	مَآ	N|REL|LEM:ما
+6:93:21	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+6:93:22	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:93:23	وَلَوْ	P|REM|PREF|LEM:و + P|COND|LEM:لَو
+6:93:24	تَرَىٰٓ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|2MS|MOOD:IND
+6:93:25	إِذِ	N|T|LEM:إِذ
+6:93:26	ٱلظَّٰلِمُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|NOM
+6:93:27	فِى	P|P|LEM:فِي
+6:93:28	غَمَرَٰتِ	N|ROOT:غمر|LEM:غَمَرَة|FP|GEN
+6:93:29	ٱلْمَوْتِ	P|DET|PREF|LEM:ال + N|ROOT:موت|LEM:مَوْت|M|GEN
+6:93:30	وَٱلْمَلَٰٓئِكَةُ	P|CIRC|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:ملك|LEM:مَلَك|MP|NOM
+6:93:31	بَاسِطُوٓا۟	N|ACT_PCPL|VF:1|ROOT:بسط|LEM:باسِط|MP|NOM
+6:93:32	أَيْدِيهِمْ	N|ROOT:يدي|LEM:يَد|FP|GEN + N|PRON|SUFF|3MP
+6:93:33	أَخْرِجُوٓا۟	V|IMPV|VF:4|ROOT:خرج|LEM:أَخْرَجَ|2MP + N|PRON|SUFF|2MP
+6:93:34	أَنفُسَكُمُ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|2MP
+6:93:35	ٱلْيَوْمَ	P|DET|PREF|LEM:ال + N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:93:36	تُجْزَوْنَ	V|IMPF|VF:1|PASS|ROOT:جزي|LEM:جَزَى|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:93:37	عَذَابَ	N|ROOT:عذب|LEM:عَذاب|M|ACC
+6:93:38	ٱلْهُونِ	P|DET|PREF|LEM:ال + N|ROOT:هون|LEM:هُون|M|GEN
+6:93:39	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:93:40	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:93:41	تَقُولُونَ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:93:42	عَلَى	P|P|LEM:عَلَى
+6:93:43	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:93:44	غَيْرَ	N|ROOT:غير|LEM:غَيْر|M|ACC
+6:93:45	ٱلْحَقِّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:93:46	وَكُنتُمْ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:93:47	عَنْ	P|P|LEM:عَن
+6:93:48	ءَايَٰتِهِۦ	N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|3MS
+6:93:49	تَسْتَكْبِرُونَ	V|IMPF|VF:10|ROOT:كبر|LEM:اسْتَكْبَرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:94:1	وَلَقَدْ	P|CONJ|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+6:94:2	جِئْتُمُونَا	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|1P
+6:94:3	فُرَٰدَىٰ	N|ROOT:فرد|LEM:فُرادَى|M|ACC
+6:94:4	كَمَا	P|P|PREF|LEM:ك + P|SUB|LEM:ما
+6:94:5	خَلَقْنَٰكُمْ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MP
+6:94:6	أَوَّلَ	N|T|ROOT:أول|LEM:أَوَّل|MS|ACC
+6:94:7	مَرَّةٍ	N|ROOT:مرر|LEM:مَرَّة|M|INDEF|GEN
+6:94:8	وَتَرَكْتُم	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ترك|LEM:تَرَكَ|2MP + N|PRON|SUFF|2MP
+6:94:9	مَّا	N|REL|LEM:ما
+6:94:10	خَوَّلْنَٰكُمْ	V|PERF|VF:2|ROOT:خول|LEM:خَوَّلَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MP
+6:94:11	وَرَآءَ	N|LOC|ROOT:وري|LEM:وَراء|ACC
+6:94:12	ظُهُورِكُمْ	N|ROOT:ظهر|LEM:ظَهْر|MP|GEN + N|PRON|SUFF|2MP
+6:94:13	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:94:14	نَرَىٰ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|1P|MOOD:IND
+6:94:15	مَعَكُمْ	N|LOC|LEM:مَع|ACC + N|PRON|SUFF|2MP
+6:94:16	شُفَعَآءَكُمُ	N|ROOT:شفع|LEM:شَفِيع|MP|ACC + N|PRON|SUFF|2MP
+6:94:17	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:94:18	زَعَمْتُمْ	V|PERF|VF:1|ROOT:زعم|LEM:زَعَمَ|2MP + N|PRON|SUFF|2MP
+6:94:19	أَنَّهُمْ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:94:20	فِيكُمْ	P|P|LEM:فِي + N|PRON|SUFF|2MP
+6:94:21	شُرَكَٰٓؤُا۟	N|ROOT:شرك|LEM:شَرِيك|MP|NOM
+6:94:22	لَقَد	P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+6:94:23	تَّقَطَّعَ	V|PERF|VF:5|ROOT:قطع|LEM:تَقَطَّعَ|3MS
+6:94:24	بَيْنَكُمْ	N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|2MP
+6:94:25	وَضَلَّ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MS
+6:94:26	عَنكُم	P|P|LEM:عَن + N|PRON|SUFF|2MP
+6:94:27	مَّا	N|REL|LEM:ما
+6:94:28	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:94:29	تَزْعُمُونَ	V|IMPF|VF:1|ROOT:زعم|LEM:زَعَمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

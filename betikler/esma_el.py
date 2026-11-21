@@ -1561,4 +1561,6 @@ KARAR = {
     # sure 6 blok 91-92
     '6:91:23': 'degil',  # 'nûran ve huden li'n-nâsi' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:92:16': 'degil',  # 'yu'minûne bi'l-âxirati' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 93-94
+    '6:94:6': 'degil',  # 'evvele merratin' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }

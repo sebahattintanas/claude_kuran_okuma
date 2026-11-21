@@ -81,6 +81,9 @@ BAGLAR = {"AS_enam": [
  # blok 91-92
  {'bag': '22:74 → 6:91', 'kural': "okuma — harekesiz 'qaderu'llâhe haqqa qadrihî'; sayım 'say 6:91 2-5'", 'not': 'kalıp eşi (sayım).'},
  {'bag': '42:7 → 6:92', 'kural': "okuma — harekesiz 'umme'l-qurâ ve men havlehâ'; sayım 'say 6:92 10-13'", 'not': 'kalıp eşi (sayım).'},
+ # blok 93-94
+ {'bag': '46:20 → 6:93', 'kural': "okuma — harekesiz 'tuczevne 'azâbe'l-hûni'; sayım 'say 6:93 36-38'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '18:48 → 6:94', 'kural': "okuma — harekesiz 'kemâ xalaqnâkum'; sayım 'say 6:94 4-5'", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

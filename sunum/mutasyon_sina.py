@@ -313,6 +313,7 @@ var6('bolum24_kurallar.py', ['68', '70', '16'], "(5) esmâ maddesi 6:62 kaydın�
 var6('bolum24_kurallar.py', ['71', '73', '17'], "(5)", "b24 kural 5: isabetsiz", True)
 var6('bolum22_kurallar.py', ['25', '28', '06'], "(5)", "b22 kural 5: isabetsiz", True)
 var6('bolum5_kurallar.py', ['84', '90', '20'], "'-dir' kayıtsız 6:88", "b5 kural 9: geniş zaman eki isabetsiz", True)
+var6('bolum19_kurallar.py', ['93', '94', '22'], "(5) esmâ lemma", "b19 kural 5: önceki etiketle eş kayıt isabetsiz", True)
 # sûre 6 bölüm 10 denetimi kuralları (bolum26)
 var6('bolum26_kurallar.py', ['84', '90', '20'], "(1) 6:87 çoğul zamir", "b26 kural 1: çoğul zamir tekil gönderge")
 var6('bolum26_kurallar.py', ['79', '83', '19'], "(1)", "b26 kural 1: isabetsiz", True)

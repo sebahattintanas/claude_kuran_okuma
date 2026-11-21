@@ -3,7 +3,7 @@
 #  (2) OZ_DENETIM_SIFIR: öz denetim maddesinde sıfırdan farklı 'hata: N' ya da '→ ?' teslimi durdurur (bayat sonuç: son koşu ardışık iki koşuyla)
 #  (3) IZA_CEVAP: kip notunda 'cevabı' geçen ayette A4'te 'şart → cevap' ya da 'kapsam dışı' kaydı
 #  (4) KURAL_ATIF: 'sûre 6 bölüm N denetimi kuralı K' atfı var olan kurala gider (bölüm 1 → bolum17, bölüm 2 → bolum18, bölüm 3 → bolum19, bölüm 4 → bolum20, …, bölüm 10 → bolum26)
-#  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata; 'ilahi' kararlı lemmada kapalı listedeki sözdizimi çerçeve etiketleri ayrık olabilir (sûre 6 blok 19)
+#  (5) ESMA_LEMMA_BIR: sûre 6 esma_el kayıtlarında bir lemmaya farklı kural etiketi (okunmuş bloklar, bu blok dahil) hata; 'ilahi' kararlı lemmada kapalı listedeki sözdizimi çerçeve etiketleri ayrık olabilir (sûre 6 blok 19); bu bloğun kaydı önceki etiketlerden biriyle eşse lemmanın eski ayrılığı yeniden raporlanmaz (sûre 6 blok 22)
 #  (elle: FAIL_REL, KASR_TEK, KANE_IMPF, BASKIN_TEK, EMSAL_KAPSAM, ESMA_FARK_AD, ES_EDAT_KARAR, MEDDE_FARK_KARAR, BAG_SAYIM_BASIM)
 # kullanım (/home/claude'dan): python3 sunum/bolum19_kurallar.py A B NN
 import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK, S
@@ -108,6 +108,8 @@ for lem, st in ET.items():
     et = {x[0] for x in st}; EN['esma_lem'] += 1
     if KD.get(lem) == {'ilahi'} and all(e in CERCEVE for e in et): continue  # bölüm 9 denetimi: önek değil tam etiket eşleşmesi
     if len(et) > 1 and any(A <= int(x[1].split(':')[1]) <= B for x in st):
+        _ic = {e for e, x in st if A <= int(x.split(':')[1]) <= B}; _dis = {e for e, x in st if not (A <= int(x.split(':')[1]) <= B)}
+        if _dis and len(_ic) == 1 and _ic <= _dis: continue  # sûre 6 blok 22: bu bloğun kaydı önceki bir etiketle eş — lemmadaki eski ayrılık önceki blokta raporlandı ('evvel' 6:14 / 6:25)
         H.append("(5) esmâ lemma %s farklı kural etiketi: %s" % (lem, '; '.join('%s (%s)' % (e, x) for e, x in sorted(st, key=lambda z: z[1]))))
 
 print('denetlenen: ' + ', '.join('%s %d' % kv for kv in sorted(EN.items())))
