@@ -1,0 +1,6 @@
+ # blok 109-113
+ 109: dict(kademe=None, olgu=False, cipa=False, not_="'ve aqsemû bi'llâhi cehde eymânihim' — yemin ve âyet talebi bildirimi (olgu=False); tarayıcı vermedi"),
+ 110: dict(kademe=None, olgu=False, cipa=False, not_="'ve nuqallibu ef'idetehum ve ebsârahum' — gönül ve gözlerin çevrilmesi bildirimi (olgu=False); tarayıcı vermedi"),
+ 111: dict(kademe=None, olgu=False, cipa=False, not_="'ve lev ennenâ nezzelnâ ileyhimu'l-melâ'ikete' — farazi şart (olgu=False); tarayıcı adayı (kök موت; A_şart, B_ta’lîl, D_yeti) çıpa değil — şart cümlesi, ölçü / mekanizma yok"),
+ 112: dict(kademe=None, olgu=False, cipa=False, not_="'ce'alnâ li-kulli nebiyyin 'aduvven' — peygamberlere düşman kılma bildirimi (olgu=False); tarayıcı vermedi"),
+ 113: dict(kademe=None, olgu=False, cipa=False, not_="'ve li-tasğâ ileyhi ef'idetu'llezîne' — amaç bildirimi (olgu=False); tarayıcı vermedi"),

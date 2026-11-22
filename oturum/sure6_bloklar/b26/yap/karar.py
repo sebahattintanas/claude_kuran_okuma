@@ -1,0 +1,16 @@
+KARAR.update({
+ 'çevir-': "'çevir-' ← 'nuqallibu' (morph LEM ham biçim), 'veccehtu': farklı lemma ve kök (قلب, وجه) — çakışma — tam okuma sonu",
+ 'bırak-': "'bırak-' ← 'neze', 'teraktum', 'zer': farklı lemma ve kök (ترك, وذر) — çakışma — tam okuma sonu",
+ 'inan-': "'inan-' ← 'yu'minunne', 'yu'minû', 'yu'minûn', 'yu'minûne': bir lemma ('âmene'; morph LEM eşit) — çakışma değil",
+ 'işle-': "'işle-' ← ''amile' (عمل), 'cerahtum' (جرح), 'yeqterifû' (قرف): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'topla-': "'topla-' ← 'ceme'a', 'haşernâ', 'nahşuru', 'yecma'annekum': farklı lemma ve kök (جمع, حشر) — çakışma — tam okuma sonu",
+ 'yap-': "'yap-' ← 'fe'alû', 'ta'melûn', 'ya'melûn': farklı lemma ve kök (عمل, فعل) — çakışma — tam okuma sonu; önceki karar (blok 14: çakışma sayılmamıştı), gerekçe: üye kümesine 'fe'alû' (فعل) katıldı, grup artık iki kök taşıyor",
+ 'aldat-': "'aldat-' ← 'ğarrat', 'ğurûr': farklı lemma, bir kök (غرر) — çakışma — tam okuma sonu",
+ 'insan': "'insan' ← 'ins', 'nâs': farklı lemma ve kök (أنس, نوس) — çakışma — tam okuma sonu",
+ 'âhiret': "'âhiret' ← 'âxir', 'âxira': bir lemma ('âxir'; morph LEM eşit) — çakışma değil",
+ 'çok': "'çok' ← 'ekser', 'kesîr': farklı lemma, bir kök (كثر) — çakışma — tam okuma sonu",
+ 'KÖK bırak-': "KÖK 'bırak-' ← 'baş başa bırak-' (وذر; 'zer'), 'bırak-' (ترك, وذر; 'neze', 'teraktum', 'zer'): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK çevir-': "KÖK 'çevir-' ← 'yüz çevir-' (صدف, عرض; 'a'rid', 'yasdifûn'), 'yüz çeviren' (عرض; 'mu'rid'), 'yüz çevirme' (عرض; 'i'râd'), 'çevir-' (قلب, وجه; 'nuqallibu', 'veccehtu'): birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'belli ol-' (بين; 'testebîne'), 'eşit ol-' (سوي; 'yestevi'), 'farkında ol-' (شعر; 'yeş'urûn' (morph LEM ham biçim)), 'hoşnut ol-' (رضو; 'yerdav'), 'işlemekte ol-' (قرف; 'muqterif'), 'kör ol-' (عمي; ''amiye'), 'ol-' (كون; 'ekûne', 'ekûnenne', 'kun', 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûne', 'nekûnenne', 'tekun', 'tekûne', 'tekûnenne', 'yekûn', 'yekûne', 'yekûnu'), 'teslim ol-' (سلم; 'eslem', 'nuslime'): yardımcı fiil 'ol-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK et-': "KÖK 'et-' ← 'alay et-' (هزأ; 'yestehzi'ûn'), 'ayırt eden' (فصل; 'fâsil'), 'bile bile inkâr et-' (جحد; 'yechadûn' (morph LEM ham biçim)), 'dua et-' (دعو; 'ted'ûne', 'yed'ûne'), 'helâk et-' (هلك; 'ehleknâ', 'yuhlikûne'), 'icabet et-' (جوب; 'yestecîbu'), 'iddia et-' (زعم; 'tez'umûn', 'za'amtum'), 'idrak et-' (درك; 'tudrik', 'yudriku'), 'ihmal et-' (فرط; 'farratnâ', 'yufarritûn'), 'iman et-' (أمن; 'yu'minûne', 'âmene', 'âmenû'), 'inkâr eden' (كفر; 'kâfir'), 'inkâr et-' (كفر; 'keferû', 'tekfurûn', 'yekfur', 'yekfurûn'), 'inşâ et-' (نشأ; 'enşe'e', 'enşe'nâ'), 'isyan et-' (عصي; ''aseytu'), 'iyilik eden' (حسن; 'muhsin'), 'kulluk et-' (عبد; ''budû', 'a'bude'), 'merhamet eden' (رحم; 'rahîm'), 'rahmet et-' (رحم; 'rahime'), 'takdir et-' (قدر, قضي; 'qaderu', 'qadâ'), 'tövbe et-' (توب; 'tâbe'), 'var et-' (جعل; 'ce'ale'), 'yemin et-' (قسم; 'aqsemû' (morph LEM ham biçim)), 'şahitlik et-' (شهد; 'eşhed', 'teşhedûne'), 'şüphe et-' (مري; 'temterûn'): yardımcı fiil 'et-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+})

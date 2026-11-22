@@ -91731,6 +91731,38 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:109": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    7,
+    "آيَة"
+   ],
+   [
+    12,
+    "آيَة"
+   ],
+   [
+    14,
+    "اللَّه"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "6:11": {
   "a": false,
   "bant": "KAPI_KAPALI",
@@ -91761,6 +91793,150 @@
    ]
   ],
   "ton": null,
+  "ton_kismi": false
+ },
+ "6:110": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    8,
+    "أَوَّل"
+   ]
+  ],
+  "esma_el": {
+   "6:110:8": "degil"
+  },
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    3,
+    "بَصَر"
+   ],
+   [
+    9,
+    "مَرَّة"
+   ],
+   [
+    12,
+    "طُغْيان"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:111": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    12,
+    "قُبُل"
+   ],
+   [
+    19,
+    "اللَّه"
+   ],
+   [
+    21,
+    "أَكْثَر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:112": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    14,
+    "قَوْل"
+   ],
+   [
+    15,
+    "غُرُور"
+   ],
+   [
+    18,
+    "رَبّ"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:113": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    7,
+    "آخِر"
+   ]
+  ],
+  "esma_el": {
+   "6:113:7": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "آخِر"
+  ],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    3,
+    "فُؤاد"
+   ],
+   [
+    7,
+    "آخِر"
+   ],
+   [
+    12,
+    "مُقْتَرِف"
+   ]
+  ],
+  "ton": "denge",
   "ton_kismi": false
  },
  "6:12": {
