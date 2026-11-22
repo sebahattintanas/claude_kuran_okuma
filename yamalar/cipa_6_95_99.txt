@@ -1,0 +1,6 @@
+ # blok 95-99
+ 95: dict(kademe=None, olgu=False, cipa=False, not_="'inna'llâhe fâliqu'l-habbi ve'n-nevâ' — taneyi ve çekirdeği yarma, diriyi ölüden çıkarma bildirimi (olgu=False); tarayıcı vermedi"),
+ 96: dict(kademe=None, olgu=False, cipa=False, not_="'fâliqu'l-isbâhi ve ce'ale'l-leyle sekenen' — sabahı yarma, gece, güneş ve ay hesabı bildirimi (olgu=False); tarayıcı vermedi"),
+ 97: dict(kademe=None, olgu=False, cipa=False, not_="'ce'ale lekumu'n-nucûme li-tehtedû bihâ' — yıldızlarla yol bulma (olgu=False); tarayıcı adayı (kök بحر, ظلم, نجم; B_ta’lîl) çıpa değil — amaç bildirimi, ölçü / mekanizma yok"),
+ 98: dict(kademe=None, olgu=False, cipa=False, not_="'enşe'ekum min nefsin vâhidetin' — bir candan inşa bildirimi (olgu=False); tarayıcı vermedi"),
+ 99: dict(kademe=None, olgu=False, cipa=False, not_="'enzele mine's-semâ'i mâ'en fe-axracnâ bihî nebâte kulli şey'' — gökten su ve bitki çıkarma (olgu=False); tarayıcı adayı (kök ثمر, حبب, رمن, زيت, سمو, عنب, موه, نبت, نخل; G_bakış) çıpa değil — bakma emri, ölçü / mekanizma yok"),

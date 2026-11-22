@@ -15,6 +15,10 @@ ISTEK = [
     ('بسل', 'helâke teslim etme, rehin bırakma (ibsâl)'),
     # blok 17
     ('حير', 'şaşırma, şaşkınlık (hayrân)'),
+    # blok 23
+    ('نوي', 'çekirdek (nevâ)'),
+    ('قنو', 'salkım (qinvân)'),
+    ('ينع', "olgunlaşma (yen')"),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

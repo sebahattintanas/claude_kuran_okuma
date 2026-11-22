@@ -1,0 +1,22 @@
+KQ = ['ellezî', 'fe', 'hu', 'hâ', 'kum', 'li', 'min', 've', 'zâ', "qad fassalne'l-âyâti li-qavmin"]
+KM = {
+ "'ellezî'": "çakışma değil ('-an' / '-en' sıfat fiil eki — ünlü uyumu, ilgi adı karşılığı)",
+ "'fe'": "çakışma değil ('o hâlde' / 'böylece' / karşılıksız — sonuç ve atıf karşılığı, Türkçe sıralama)",
+ "'hu'": "çakışma değil (zamir 'O' / 'o' / iyelik eki — gönderge, çekim)",
+ "'hâ'": "çakışma değil (zamir 'onlar' / iyelik eki — çekim)",
+ "'kum'": "çakışma değil (zamir 'siz' / 'sizi' — çekim, fiil yönetimi)",
+ "'li'": "çakışma değil (yönelme eki / 'için' / 'diye' — fiil yönetimi, amaç lâmı)",
+ "'min'": "çakışma değil (ayrılma eki / karşılıksız — fiil yönetimi, edat anlamı)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' — Türkçe sıralama)",
+ "'zâ'": "çakışma değil ('bu' / 'Bu' — işaret karşılığı, cümle başı yazımı)",
+ "'ce'ale' / 'ce'alne' / 'ce'alnâ' / 'tec'alûne' / 'yec'al'": "çakışma — tam okuma sonu ('var et-' / 'kıl-' / 'koy-' bağlam karşılığı)",
+ "'enzela' / 'enzele' / 'enzelnâ' / 'unzile' / 'unzilu'": "çakışma değil ('indir-' etken / 'indiril-' edilgen çatı)",
+ "'enşe'e' / 'enşe'nâ'": "çakışma değil ('inşâ et-' — kip ve şahıs farkı)",
+ "'kull'": "çakışma değil ('her' / 'hepsi' — tenvin takdiri, kalıp karşılığı)",
+ "'mustaqarr'": "çakışma — tam okuma sonu ('karar yeri' / önceki karşılık — bağlam karşılığı)",
+ "'nefs'": "çakışma değil ('kendi' iyelikli dönüşlü / 'nefis' / 'can' — çekim, kalıp karşılığı)",
+ "'yu'minû' / 'yu'minûn' / 'yu'minûne' / 'âmene' / 'âmenû'": "çakışma — tam okuma sonu ('inan-' / 'iman et-' bağlam karşılığı)",
+ "''alîm'": "çakışma — tam okuma sonu ('Alîm' / 'bilen' — esmâ adı / sıfat karşılığı)",
+ "'qad fassalne'l-âyâti li-qavmin'": "çakışma değil ('âyetleri ayrıntılı açıkladık' — bayt eşit)",
+ "'ğayr'": "çakışma değil ('başka' / '-sız' / '-mez' — olumsuz sıfat karşılığı)",
+}

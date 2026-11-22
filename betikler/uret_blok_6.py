@@ -15,7 +15,7 @@ S = 6
 METIN = 'enam_metin_1'
 KAYIT = 'enam_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 5), (6, 11), (12, 15), (16, 19), (20, 24), (25, 28), (29, 32), (33, 36), (37, 41), (42, 45), (46, 49), (50, 53), (54, 58), (59, 61), (62, 67), (68, 70), (71, 73), (74, 78), (79, 83), (84, 90), (91, 92), (93, 94)]
+BLOKLAR = [(1, 5), (6, 11), (12, 15), (16, 19), (20, 24), (25, 28), (29, 32), (33, 36), (37, 41), (42, 45), (46, 49), (50, 53), (54, 58), (59, 61), (62, 67), (68, 70), (71, 73), (74, 78), (79, 83), (84, 90), (91, 92), (93, 94), (95, 99)]
 BASLIK = {
  (1, 5): "6:1-5 — Gökleri ve yeri yaratan; yüz çeviren kavimler",
  (6, 11): "6:6-11 — Gökleri ve yeri yaratan; yüz çeviren kavimler",
@@ -39,6 +39,7 @@ BASLIK = {
  (84, 90): "6:84-90 — Nebiler zinciri; onların yoluna uy",
  (91, 92): "6:91-92 — Kitap indirmeyi inkâr edenler; ölüm sarhoşlukları",
  (93, 94): "6:93-94 — Kitap indirmeyi inkâr edenler; ölüm sarhoşlukları",
+ (95, 99): "6:95-99 — Taneyi ve çekirdeği yaran; gözler O'nu idrak etmez",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-
