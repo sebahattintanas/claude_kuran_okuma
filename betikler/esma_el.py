@@ -1594,4 +1594,10 @@ KARAR = {
     '6:121:15': 'degil',  # 'ilâ evliyâ'ihim' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     # sure 6 blok 122-125
     '6:122:7': 'degil',  # 've ce'alnâ lehû nûran' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 126-130
+    '6:127:3': 'degil',  # 'lehum dâru's-selâmi' — esmâ adı esmâ dışı göndergeyle → degil (cennet adı tamlaması; onaya açık)
+    '6:127:7': 'ilahi',  # 've huve veliyyuhum' — zamirin haberi → ilahi (Rab)
+    '6:128:11': 'degil',  # 've qâle evliyâ'uhum' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:128:34': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab)
+    '6:128:35': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab; 'hakîm'in sıfatı)
 }

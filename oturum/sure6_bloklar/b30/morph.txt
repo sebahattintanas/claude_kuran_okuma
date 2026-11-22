@@ -1,0 +1,89 @@
+6:126:1	وَهَٰذَا	P|CONJ|PREF|LEM:و + P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:126:2	صِرَٰطُ	N|ROOT:صرط|LEM:صِراط|M|NOM
+6:126:3	رَبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:126:4	مُسْتَقِيمًا	N|ACT_PCPL|VF:10|ROOT:قوم|LEM:مُسْتَقِيم|M|INDEF|ACC
+6:126:5	قَدْ	P|CERT|LEM:قَد
+6:126:6	فَصَّلْنَا	V|PERF|VF:2|ROOT:فصل|LEM:فَصَّلَ|1P + N|PRON|SUFF|1P
+6:126:7	ٱلْءَايَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:أيي|LEM:آيَة|FP|ACC
+6:126:8	لِقَوْمٍ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+6:126:9	يَذَّكَّرُونَ	V|IMPF|VF:5|ROOT:ذكر|LEM:تَذَكَّرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:127:1	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+6:127:2	دَارُ	N|ROOT:دور|LEM:دار|FS|NOM
+6:127:3	ٱلسَّلَٰمِ	P|DET|PREF|LEM:ال + N|ROOT:سلم|LEM:سَلام|M|GEN
+6:127:4	عِندَ	N|LOC|ROOT:عند|LEM:عِند|ACC
+6:127:5	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:127:6	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:127:7	وَلِيُّهُم	N|ROOT:ولي|LEM:وَلِيّ|M|NOM + N|PRON|SUFF|3MP
+6:127:8	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:127:9	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:127:10	يَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:128:1	وَيَوْمَ	P|CONJ|PREF|LEM:و + N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:128:2	يَحْشُرُهُمْ	V|IMPF|VF:1|ROOT:حشر|LEM:حَشَرَ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:128:3	جَمِيعًا	N|ROOT:جمع|LEM:جَمِيع|M|INDEF|ACC
+6:128:4	يَٰمَعْشَرَ	P|VOC|PREF|LEM:ي + N|ROOT:عشر|LEM:مَعْشَر|ACC
+6:128:5	ٱلْجِنِّ	P|DET|PREF|LEM:ال + N|ROOT:جنن|LEM:جِنّ|M|GEN
+6:128:6	قَدِ	P|CERT|LEM:قَد
+6:128:7	ٱسْتَكْثَرْتُم	V|PERF|VF:10|ROOT:كثر|LEM:اسْتَكْثَرْ|2MP + N|PRON|SUFF|2MP
+6:128:8	مِّنَ	P|P|LEM:مِن
+6:128:9	ٱلْإِنسِ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:إِنس|M|GEN
+6:128:10	وَقَالَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:128:11	أَوْلِيَآؤُهُم	N|ROOT:ولي|LEM:وَلِيّ|MP|NOM + N|PRON|SUFF|3MP
+6:128:12	مِّنَ	P|P|LEM:مِن
+6:128:13	ٱلْإِنسِ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:إِنس|M|GEN
+6:128:14	رَبَّنَا	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1P
+6:128:15	ٱسْتَمْتَعَ	V|PERF|VF:10|ROOT:متع|LEM:اسْتَمْتَعَ|3MS
+6:128:16	بَعْضُنَا	N|ROOT:بعض|LEM:بَعْض|M|NOM + N|PRON|SUFF|1P
+6:128:17	بِبَعْضٍ	P|P|PREF|LEM:ب + N|ROOT:بعض|LEM:بَعْض|M|INDEF|GEN
+6:128:18	وَبَلَغْنَآ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:بلغ|LEM:بَلَغَ|1P + N|PRON|SUFF|1P
+6:128:19	أَجَلَنَا	N|ROOT:أجل|LEM:أَجَل|M|ACC + N|PRON|SUFF|1P
+6:128:20	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+6:128:21	أَجَّلْتَ	V|PERF|VF:2|ROOT:أجل|LEM:أَجَّلَ|2MS + N|PRON|SUFF|2MS
+6:128:22	لَنَا	P|P|PREF|LEM:ل + N|PRON|1P
+6:128:23	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+6:128:24	ٱلنَّارُ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|NOM
+6:128:25	مَثْوَىٰكُمْ	N|ROOT:ثوي|LEM:مَثْوًى|M|NOM + N|PRON|SUFF|2MP
+6:128:26	خَٰلِدِينَ	N|ACT_PCPL|VF:1|ROOT:خلد|LEM:خالِد|MP|ACC
+6:128:27	فِيهَآ	P|P|LEM:فِي + N|PRON|SUFF|3FS
+6:128:28	إِلَّا	P|EXP|LEM:إِلّا
+6:128:29	مَا	N|REL|LEM:ما
+6:128:30	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:128:31	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:128:32	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:128:33	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:128:34	حَكِيمٌ	N|ROOT:حكم|LEM:حَكِيم|MS|INDEF|NOM
+6:128:35	عَلِيمٌ	N|ROOT:علم|LEM:عَلِيم|MS|INDEF|NOM|ADJ
+6:129:1	وَكَذَٰلِكَ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:129:2	نُوَلِّى	V|IMPF|VF:2|ROOT:ولي|LEM:وَلَّى|1P|MOOD:IND
+6:129:3	بَعْضَ	N|ROOT:بعض|LEM:بَعْض|M|ACC
+6:129:4	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN
+6:129:5	بَعْضًۢا	N|ROOT:بعض|LEM:بَعْض|M|INDEF|ACC
+6:129:6	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:129:7	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:129:8	يَكْسِبُونَ	V|IMPF|VF:1|ROOT:كسب|LEM:كَسَبَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:130:1	يَٰمَعْشَرَ	P|VOC|PREF|LEM:ي + N|ROOT:عشر|LEM:مَعْشَر|ACC
+6:130:2	ٱلْجِنِّ	P|DET|PREF|LEM:ال + N|ROOT:جنن|LEM:جِنّ|M|GEN
+6:130:3	وَٱلْإِنسِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:إِنس|M|GEN
+6:130:4	أَلَمْ	N|INTG|PREF|LEM:أ + P|NEG|LEM:لَم
+6:130:5	يَأْتِكُمْ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:JUS + N|PRON|SUFF|2MP
+6:130:6	رُسُلٌ	N|ROOT:رسل|LEM:رَسُول|MP|INDEF|NOM
+6:130:7	مِّنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+6:130:8	يَقُصُّونَ	V|IMPF|VF:1|ROOT:قصص|LEM:قَصَّ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:130:9	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:130:10	ءَايَٰتِى	N|ROOT:أيي|LEM:آيَة|FP|ACC + N|PRON|SUFF|1S
+6:130:11	وَيُنذِرُونَكُمْ	P|CONJ|PREF|LEM:و + V|IMPF|VF:4|ROOT:نذر|LEM:أَنذَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|2MP
+6:130:12	لِقَآءَ	N|VN|VF:3|ROOT:لقي|LEM:لِقاء|M|ACC
+6:130:13	يَوْمِكُمْ	N|ROOT:يوم|LEM:يَوْم|M|GEN + N|PRON|SUFF|2MP
+6:130:14	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:130:15	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:130:16	شَهِدْنَا	V|PERF|VF:1|ROOT:شهد|LEM:شَهِدَ|1P + N|PRON|SUFF|1P
+6:130:17	عَلَىٰٓ	P|P|LEM:عَلَى
+6:130:18	أَنفُسِنَا	N|ROOT:نفس|LEM:نَفْس|FP|GEN + N|PRON|SUFF|1P
+6:130:19	وَغَرَّتْهُمُ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:غرر|LEM:غَرَّ|3FS + N|PRON|SUFF|3MP
+6:130:20	ٱلْحَيَوٰةُ	P|DET|PREF|LEM:ال + N|ROOT:حيي|LEM:حَياة|F|NOM
+6:130:21	ٱلدُّنْيَا	P|DET|PREF|LEM:ال + N|ROOT:دنو|LEM:دُنْيا|FS|NOM|ADJ
+6:130:22	وَشَهِدُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:شهد|LEM:شَهِدَ|3MP + N|PRON|SUFF|3MP
+6:130:23	عَلَىٰٓ	P|P|LEM:عَلَى
+6:130:24	أَنفُسِهِمْ	N|ROOT:نفس|LEM:نَفْس|FP|GEN + N|PRON|SUFF|3MP
+6:130:25	أَنَّهُمْ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:130:26	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:130:27	كَٰفِرِينَ	N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|ACC

@@ -103,7 +103,7 @@ for l in open('/home/claude/calisma/esma_el.py', encoding='utf-8'):
     a_, w_ = int(m.group(1)), int(m.group(2))
     if (a_, w_) in LEMW: ET[LEMW[(a_, w_)]].add((m.group(4).strip(), '%d:%d:%d' % (S, a_, w_))); KD.setdefault(LEMW[(a_, w_)], set()).add(m.group(3))
 # sûre 6 blok 19: 'ilahi' kararlı esmâda kapalı listedeki sözdizimi çerçeve etiketleri (zamirin haberi / 'inne/enne' haberi / lafzın haberi) farklı olabilir — yalnız 'degil' kararlı ya da karar değeri farklı lemma hata
-CERCEVE = ("'inne/enne' haberi", 'zamirin haberi', 'lafzın haberi', "'ve kâna'llâhu X' lafzın haberi", "'ve'llâhu X' kuralı")
+CERCEVE = ("'inne/enne' haberi", 'zamirin haberi', 'lafzın haberi', "'ve kâna'llâhu X' lafzın haberi", "'ve'llâhu X' kuralı", 'tamlama içinde ad, göndergesi Allah')  # sûre 6 blok 30: kullanıcı kararlı tamlama etiketi de 'ilahi' çerçevesi (6:96:12 emsali)
 for lem, st in ET.items():
     et = {x[0] for x in st}; EN['esma_lem'] += 1
     if KD.get(lem) == {'ilahi'} and all(e in CERCEVE for e in et): continue  # bölüm 9 denetimi: önek değil tam etiket eşleşmesi
