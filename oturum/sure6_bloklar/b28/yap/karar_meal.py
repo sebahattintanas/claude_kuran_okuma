@@ -1,0 +1,26 @@
+KQ = ["'alâ", 'bi', 'hu', 'hum', 'illâ', 'in', 'kum', 'li', 'mâ', 've', "mimmâ zukira'smu'llâhi 'aleyh", "smu'llâhi 'aleyh", "smu'llâh"]
+KM = {
+ "''alâ'": "çakışma değil ('Üzerine' / yönelme eki — fiil yönetimi, kalıp karşılığı)",
+ "'bi'": "çakışma değil ('-ce' / '-la' / '-le' / belirtme eki / yönelme eki — edat anlamı, fiil yönetimi, ünlü uyumu)",
+ "'hu'": "çakışma değil (zamir 'O'nun' / 'o' / iyelik eki — cümle başı yazımı, çekim)",
+ "'hum'": "çakışma değil (zamir 'onlara' / iyelik eki — fiil yönetimi, çekim)",
+ "'illâ'": "çakışma değil ('dışında' / 'ancak' — istisna / hasr kalıbı)",
+ "'in'": "çakışma değil ('-sa' / 'Eğer' — şart eki, cümle başı edatı)",
+ "'kum'": "çakışma değil (zamir 'Size' / 'siz' / 'size' / 'sizin' / 'sizinle' — çekim, fiil yönetimi)",
+ "'li'": "çakışma değil ('için' / yönelme eki — edat anlamı, 'mâ lekum' kalıbı)",
+ "'mâ'": "çakışma değil (REL '-an' / '-dukları' / 'şey' — ilgi eki, isim karşılığı)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 'Oysa' / 'de' — Türkçe sıralama, hâl bağlacı)",
+ "''ilm'": "çakışma değil ('bilgi' / 'ilim' — eş anlamlı yazım, '-siz' kalıbı)",
+ "'eta'tumû' / 'tuti'": "çakışma — tam okuma sonu ('itaat et-' / 'uy-' bağlam karşılığı)",
+ "'neczi' / 'tuczevne' / 'yuczevne'": "çakışma — tam okuma sonu ('ödüllendir-' / 'cezalandırıl-' bağlam karşılığı)",
+ "'neze' / 'zer' / 'zerû'": "çakışma değil ('bırak-' / 'baş başa bırak-' — kalıp karşılığı)",
+ "'yûha' / 'yûhâ' / 'yûhî' / 'yûhûne' / 'ûhiye'": "çakışma — tam okuma sonu ('fısılda-' / 'vahyedil-' / 'vahyolun-' bağlam karşılığı)",
+ "'şeytân'": "çakışma değil ('Şeytan' / 'şeytan' — cümle başı yazımı)",
+
+ "'a'lem'": "çakışma değil ('daha iyi bilen' / 'en iyi bilen' — ism-i tafdîl derece karşılığı)",
+ "'ekûne' / 'ekûnenne' / 'kun' / 'kunnâ' / 'kuntum' / 'kâne' / 'kânû' / 'nekûne' / 'nekûnenne' / 'tekun' / 'tekûne' / 'tekûnenne' / 'yekûn' / 'yekûne' / 'yekûnu'": "çakışma değil ('-di' / 'ol-' — yardımcı fiil, geçmiş zaman eki)",
+ "'ğayr'": "çakışma değil ('başka' / '-sız' / '-siz' / '-mez' — olumsuz sıfat karşılığı, ünlü uyumu)",
+ "'mimmâ zukira'smu'llâhi 'aleyh'": "çakışma değil ('anılandan' / 'Allah'ın adı' / 'üzerine' — eş karşılık)",
+ "'smu'llâhi 'aleyh'": "çakışma değil ('Allah'ın adı' / 'Üzerine' — eş karşılık, cümle başı yazımı)",
+ "'smu'llâh'": "çakışma değil ('Allah'ın adı' — eş karşılık)",
+}

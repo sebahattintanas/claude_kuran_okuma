@@ -92082,6 +92082,79 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:118": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    10,
+    "مُؤْمِن"
+   ]
+  ],
+  "esma_el": {
+   "6:118:10": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "مُؤْمِن"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    5,
+    "اللَّه"
+   ],
+   [
+    9,
+    "آيَة"
+   ],
+   [
+    10,
+    "مُؤْمِن"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "6:119": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    27,
+    "رَبّ"
+   ],
+   [
+    29,
+    "أَعْلَم"
+   ],
+   [
+    30,
+    "مُعْتَدي"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "6:12": {
   "a": true,
   "bant": "KAPI_KAPALI",
@@ -92112,6 +92185,93 @@
    ]
   ],
   "ton": null,
+  "ton_kismi": false
+ },
+ "6:120": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    2,
+    "ظاهِر"
+   ],
+   [
+    4,
+    "باطِن"
+   ]
+  ],
+  "esma_el": {
+   "6:120:2": "degil",
+   "6:120:4": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "باطِن"
+  ],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    3,
+    "إِثْم"
+   ],
+   [
+    4,
+    "باطِن"
+   ],
+   [
+    8,
+    "إِثْم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:121": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    15,
+    "وَلِيّ"
+   ]
+  ],
+  "esma_el": {
+   "6:121:15": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "وَلِيّ"
+  ],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    12,
+    "شَيْطان"
+   ],
+   [
+    15,
+    "وَلِيّ"
+   ],
+   [
+    20,
+    "مُشْرِك"
+   ]
+  ],
+  "ton": "cemâl",
   "ton_kismi": false
  },
  "6:13": {

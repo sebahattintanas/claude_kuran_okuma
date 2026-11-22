@@ -1587,4 +1587,9 @@ KARAR = {
     # sure 6 blok 114-117
     '6:115:10': 'ilahi',  # 've huve's-semî'u'l-'alîm' — zamirin haberi → ilahi (Rab)
     '6:115:11': 'ilahi',  # 've huve's-semî'u'l-'alîm' — zamirin haberi → ilahi (Rab; işitenin sıfatı)
+    # sure 6 blok 118-121
+    '6:118:10': 'degil',  # 'in kuntum bi-âyâtihî mu'minîn' — çoğul insan göndergeli → degil (insan topluluğu)
+    '6:120:2': 'degil',  # 've zerû zâhira'l-ismi ve bâtinahû' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:120:4': 'degil',  # 've zerû zâhira'l-ismi ve bâtinahû' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:121:15': 'degil',  # 'ilâ evliyâ'ihim' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }

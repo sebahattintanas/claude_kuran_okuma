@@ -1,0 +1,72 @@
+6:118:1	فَكُلُوا۟	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:أكل|LEM:أَكَلَ|2MP + N|PRON|SUFF|2MP
+6:118:2	مِمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+6:118:3	ذُكِرَ	V|PERF|VF:1|PASS|ROOT:ذكر|LEM:ذَكَرَ|3MS
+6:118:4	ٱسْمُ	N|ROOT:سمو|LEM:اسْم|M|NOM
+6:118:5	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:118:6	عَلَيْهِ	P|P|LEM:عَلَى + N|PRON|SUFF|3MS
+6:118:7	إِن	P|COND|LEM:إِن
+6:118:8	كُنتُم	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:118:9	بِـَٔايَٰتِهِۦ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|3MS
+6:118:10	مُؤْمِنِينَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|ACC
+6:119:1	وَمَا	P|REM|PREF|LEM:و + N|INTG|LEM:ما
+6:119:2	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+6:119:3	أَلَّا	P|SUB|LEM:أَن + P|NEG|LEM:لا
+6:119:4	تَأْكُلُوا۟	V|IMPF|VF:1|ROOT:أكل|LEM:أَكَلَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+6:119:5	مِمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+6:119:6	ذُكِرَ	V|PERF|VF:1|PASS|ROOT:ذكر|LEM:ذَكَرَ|3MS
+6:119:7	ٱسْمُ	N|ROOT:سمو|LEM:اسْم|M|NOM
+6:119:8	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:119:9	عَلَيْهِ	P|P|LEM:عَلَى + N|PRON|SUFF|3MS
+6:119:10	وَقَدْ	P|CONJ|PREF|LEM:و + P|CERT|LEM:قَد
+6:119:11	فَصَّلَ	V|PERF|VF:2|ROOT:فصل|LEM:فَصَّلَ|3MS
+6:119:12	لَكُم	P|P|PREF|LEM:ل + N|PRON|2MP
+6:119:13	مَّا	N|REL|LEM:ما
+6:119:14	حَرَّمَ	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|3MS
+6:119:15	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:119:16	إِلَّا	P|EXP|LEM:إِلّا
+6:119:17	مَا	N|REL|LEM:ما
+6:119:18	ٱضْطُرِرْتُمْ	V|PERF|VF:8|PASS|ROOT:ضرر|LEM:اضْطُرَّ|2MP + N|PRON|SUFF|2MP
+6:119:19	إِلَيْهِ	P|P|LEM:إِلَى + N|PRON|SUFF|3MS
+6:119:20	وَإِنَّ	P|CONJ|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ
+6:119:21	كَثِيرًا	N|ROOT:كثر|LEM:كَثِير|MS|INDEF|ACC
+6:119:22	لَّيُضِلُّونَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:4|ROOT:ضلل|LEM:أَضَلَّ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:119:23	بِأَهْوَآئِهِم	P|P|PREF|LEM:ب + N|ROOT:هوي|LEM:أَهْواء|MP|GEN + N|PRON|SUFF|3MP
+6:119:24	بِغَيْرِ	P|P|PREF|LEM:ب + N|ROOT:غير|LEM:غَيْر|M|GEN
+6:119:25	عِلْمٍ	N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+6:119:26	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:119:27	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:119:28	هُوَ	N|PRON|3MS
+6:119:29	أَعْلَمُ	N|ROOT:علم|LEM:أَعْلَم|MS|NOM
+6:119:30	بِٱلْمُعْتَدِينَ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:عدو|LEM:مُعْتَدي|MP|GEN
+6:120:1	وَذَرُوا۟	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:وذر|LEM:يَذَرَ|2MP + N|PRON|SUFF|2MP
+6:120:2	ظَٰهِرَ	N|ACT_PCPL|VF:1|ROOT:ظهر|LEM:ظاهِر|M|ACC
+6:120:3	ٱلْإِثْمِ	P|DET|PREF|LEM:ال + N|ROOT:أثم|LEM:إِثْم|M|GEN
+6:120:4	وَبَاطِنَهُۥٓ	P|CONJ|PREF|LEM:و + N|ACT_PCPL|VF:1|ROOT:بطن|LEM:باطِن|M|ACC + N|PRON|SUFF|3MS
+6:120:5	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:120:6	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:120:7	يَكْسِبُونَ	V|IMPF|VF:1|ROOT:كسب|LEM:كَسَبَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:120:8	ٱلْإِثْمَ	P|DET|PREF|LEM:ال + N|ROOT:أثم|LEM:إِثْم|M|ACC
+6:120:9	سَيُجْزَوْنَ	P|FUT|PREF|LEM:س + V|IMPF|VF:1|PASS|ROOT:جزي|LEM:جَزَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:120:10	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:120:11	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:120:12	يَقْتَرِفُونَ	V|IMPF|VF:8|ROOT:قرف|LEM:اقْتَرَفْ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:121:1	وَلَا	P|REM|PREF|LEM:و + P|PRO|LEM:لا
+6:121:2	تَأْكُلُوا۟	V|IMPF|VF:1|ROOT:أكل|LEM:أَكَلَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:121:3	مِمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+6:121:4	لَمْ	P|NEG|LEM:لَم
+6:121:5	يُذْكَرِ	V|IMPF|VF:1|PASS|ROOT:ذكر|LEM:ذَكَرَ|3MS|MOOD:JUS
+6:121:6	ٱسْمُ	N|ROOT:سمو|LEM:اسْم|M|NOM
+6:121:7	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:121:8	عَلَيْهِ	P|P|LEM:عَلَى + N|PRON|SUFF|3MS
+6:121:9	وَإِنَّهُۥ	P|REM|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:121:10	لَفِسْقٌ	P|EMPH|PREF|LEM:ل + N|ROOT:فسق|LEM:فِسْق|M|INDEF|NOM
+6:121:11	وَإِنَّ	P|CONJ|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ
+6:121:12	ٱلشَّيَٰطِينَ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|MP|ACC
+6:121:13	لَيُوحُونَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:4|ROOT:وحي|LEM:أَوْحَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:121:14	إِلَىٰٓ	P|P|LEM:إِلَى
+6:121:15	أَوْلِيَآئِهِمْ	N|ROOT:ولي|LEM:وَلِيّ|MP|GEN + N|PRON|SUFF|3MP
+6:121:16	لِيُجَٰدِلُوكُمْ	P|PRP|PREF|LEM:ل + V|IMPF|VF:3|ROOT:جدل|LEM:جادَلُ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP + N|PRON|SUFF|2MP
+6:121:17	وَإِنْ	P|REM|PREF|LEM:و + P|COND|LEM:إِن
+6:121:18	أَطَعْتُمُوهُمْ	V|PERF|VF:4|ROOT:طوع|LEM:أَطاعَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MP
+6:121:19	إِنَّكُمْ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:121:20	لَمُشْرِكُونَ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|NOM
