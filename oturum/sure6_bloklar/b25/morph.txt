@@ -1,0 +1,74 @@
+6:104:1	قَدْ	P|CERT|LEM:قَد
+6:104:2	جَآءَكُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+6:104:3	بَصَآئِرُ	N|ROOT:بصر|LEM:بَصِيرَة|MP|NOM
+6:104:4	مِن	P|P|LEM:مِن
+6:104:5	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+6:104:6	فَمَنْ	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+6:104:7	أَبْصَرَ	V|PERF|VF:4|ROOT:بصر|LEM:أَبْصَرَ|3MS
+6:104:8	فَلِنَفْسِهِۦ	P|RSLT|PREF|LEM:ف + P|P|PREF|LEM:ل + N|ROOT:نفس|LEM:نَفْس|FS|GEN + N|PRON|SUFF|3MS
+6:104:9	وَمَنْ	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+6:104:10	عَمِىَ	V|PERF|VF:1|ROOT:عمي|LEM:عَمِيَ|3MS
+6:104:11	فَعَلَيْهَا	P|RSLT|PREF|LEM:ف + P|P|LEM:عَلَى + N|PRON|SUFF|3FS
+6:104:12	وَمَآ	P|REM|PREF|LEM:و + P|NEG|LEM:ما|FAM:كَان
+6:104:13	أَنَا۠	N|PRON|1S
+6:104:14	عَلَيْكُم	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:104:15	بِحَفِيظٍ	P|P|PREF|LEM:ب + N|ACT_PCPL|VF:1|ROOT:حفظ|LEM:حَفِيظ|MS|INDEF|GEN
+6:105:1	وَكَذَٰلِكَ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:105:2	نُصَرِّفُ	V|IMPF|VF:2|ROOT:صرف|LEM:صَرَّفْ|1P|MOOD:IND
+6:105:3	ٱلْءَايَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:أيي|LEM:آيَة|FP|ACC
+6:105:4	وَلِيَقُولُوا۟	P|CONJ|PREF|LEM:و + P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:105:5	دَرَسْتَ	V|PERF|VF:1|ROOT:درس|LEM:دَرَسُ|2MS + N|PRON|SUFF|2MS
+6:105:6	وَلِنُبَيِّنَهُۥ	P|CONJ|PREF|LEM:و + P|PRP|PREF|LEM:ل + V|IMPF|VF:2|ROOT:بين|LEM:بَيَّنُ|1P|MOOD:SUBJ + N|PRON|SUFF|3MS
+6:105:7	لِقَوْمٍ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+6:105:8	يَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:106:1	ٱتَّبِعْ	V|IMPV|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MS
+6:106:2	مَآ	N|REL|LEM:ما
+6:106:3	أُوحِىَ	V|PERF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS
+6:106:4	إِلَيْكَ	P|P|LEM:إِلَى + N|PRON|SUFF|2MS
+6:106:5	مِن	P|P|LEM:مِن
+6:106:6	رَّبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:106:7	لَآ	P|NEG|LEM:لا|FAM:إِنّ
+6:106:8	إِلَٰهَ	N|ROOT:أله|LEM:إِلٰه|MS|ACC
+6:106:9	إِلَّا	P|EXP|LEM:إِلّا
+6:106:10	هُوَ	N|PRON|3MS
+6:106:11	وَأَعْرِضْ	P|CONJ|PREF|LEM:و + V|IMPV|VF:4|ROOT:عرض|LEM:أَعْرَضَ|2MS
+6:106:12	عَنِ	P|P|LEM:عَن
+6:106:13	ٱلْمُشْرِكِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|GEN
+6:107:1	وَلَوْ	P|REM|PREF|LEM:و + P|COND|LEM:لَو
+6:107:2	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:107:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:107:4	مَآ	P|NEG|LEM:ما
+6:107:5	أَشْرَكُوا۟	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|3MP + N|PRON|SUFF|3MP
+6:107:6	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:107:7	جَعَلْنَٰكَ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MS
+6:107:8	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:107:9	حَفِيظًا	N|ACT_PCPL|VF:1|ROOT:حفظ|LEM:حَفِيظ|MS|INDEF|ACC
+6:107:10	وَمَآ	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما|FAM:كَان
+6:107:11	أَنتَ	N|PRON|2MS
+6:107:12	عَلَيْهِم	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:107:13	بِوَكِيلٍ	P|P|PREF|LEM:ب + N|ROOT:وكل|LEM:وَكِيل|M|INDEF|GEN
+6:108:1	وَلَا	P|REM|PREF|LEM:و + P|PRO|LEM:لا
+6:108:2	تَسُبُّوا۟	V|IMPF|VF:1|ROOT:سبب|LEM:يَسُبُّ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:108:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:108:4	يَدْعُونَ	V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:108:5	مِن	P|P|LEM:مِن
+6:108:6	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+6:108:7	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:108:8	فَيَسُبُّوا۟	P|CAUS|PREF|LEM:ف + V|IMPF|VF:1|ROOT:سبب|LEM:يَسُبُّ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:108:9	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+6:108:10	عَدْوًۢا	N|ROOT:عدو|LEM:عَدْو|M|INDEF|ACC
+6:108:11	بِغَيْرِ	P|P|PREF|LEM:ب + N|ROOT:غير|LEM:غَيْر|M|GEN
+6:108:12	عِلْمٍ	N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+6:108:13	كَذَٰلِكَ	P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:108:14	زَيَّنَّا	V|PERF|VF:2|ROOT:زين|LEM:زَيَّنَ|1P + N|PRON|SUFF|1P
+6:108:15	لِكُلِّ	P|P|PREF|LEM:ل + N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:108:16	أُمَّةٍ	N|ROOT:أمم|LEM:أُمَّة|FS|INDEF|GEN
+6:108:17	عَمَلَهُمْ	N|ROOT:عمل|LEM:عَمَل|M|ACC + N|PRON|SUFF|3MP
+6:108:18	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:108:19	إِلَىٰ	P|P|LEM:إِلَى
+6:108:20	رَبِّهِم	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:108:21	مَّرْجِعُهُمْ	N|ROOT:رجع|LEM:مَرْجِع|M|NOM + N|PRON|SUFF|3MP
+6:108:22	فَيُنَبِّئُهُم	P|REM|PREF|LEM:ف + V|IMPF|VF:2|ROOT:نبأ|LEM:نَبَّأَ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:108:23	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:108:24	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:108:25	يَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

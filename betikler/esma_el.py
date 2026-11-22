@@ -1577,4 +1577,8 @@ KARAR = {
     '6:102:16': 'ilahi',  # 've huve 'alâ kulli şey'in vekîl' — zamirin haberi → ilahi (Allah)
     '6:103:8': 'ilahi',  # 've huve'l-latîfu'l-xabîr' — zamirin haberi → ilahi (Allah)
     '6:103:9': 'ilahi',  # 've huve'l-latîfu'l-xabîr' — zamirin haberi → ilahi (Allah; 'l-latîf'in sıfatı)
+    # sure 6 blok 104-108
+    '6:104:15': 'degil',  # 've mâ ene 'aleykum bi-hafîz' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:107:9': 'degil',  # 've mâ ce'alnâke 'aleyhim hafîz' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    '6:107:13': 'degil',  # 've mâ ente 'aleyhim bi-vekîl' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }
