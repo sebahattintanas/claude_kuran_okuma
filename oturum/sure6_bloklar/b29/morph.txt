@@ -1,0 +1,96 @@
+6:122:1	أَوَمَن	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:و + N|REL|LEM:مَن
+6:122:2	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:122:3	مَيْتًا	N|ROOT:موت|LEM:مَيْت|MS|INDEF|ACC
+6:122:4	فَأَحْيَيْنَٰهُ	P|REM|PREF|LEM:ف + V|PERF|VF:4|ROOT:حيي|LEM:أَحْيا|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+6:122:5	وَجَعَلْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P
+6:122:6	لَهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+6:122:7	نُورًا	N|ROOT:نور|LEM:نُور|M|INDEF|ACC
+6:122:8	يَمْشِى	V|IMPF|VF:1|ROOT:مشي|LEM:مَشَ|3MS|MOOD:IND
+6:122:9	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:122:10	فِى	P|P|LEM:فِي
+6:122:11	ٱلنَّاسِ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|GEN
+6:122:12	كَمَن	P|P|PREF|LEM:ك + N|REL|LEM:مَن
+6:122:13	مَّثَلُهُۥ	N|ROOT:مثل|LEM:مَثَل|M|NOM + N|PRON|SUFF|3MS
+6:122:14	فِى	P|P|LEM:فِي
+6:122:15	ٱلظُّلُمَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:ظلم|LEM:ظُلُمَة|FP|GEN
+6:122:16	لَيْسَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+6:122:17	بِخَارِجٍ	P|P|PREF|LEM:ب + N|ACT_PCPL|VF:1|ROOT:خرج|LEM:خارِج|M|INDEF|GEN
+6:122:18	مِّنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+6:122:19	كَذَٰلِكَ	P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:122:20	زُيِّنَ	V|PERF|VF:2|PASS|ROOT:زين|LEM:زَيَّنَ|3MS
+6:122:21	لِلْكَٰفِرِينَ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|GEN
+6:122:22	مَا	N|REL|LEM:ما
+6:122:23	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:122:24	يَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:123:1	وَكَذَٰلِكَ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:123:2	جَعَلْنَا	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P
+6:123:3	فِى	P|P|LEM:فِي
+6:123:4	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:123:5	قَرْيَةٍ	N|ROOT:قري|LEM:قَرْيَة|F|INDEF|GEN
+6:123:6	أَكَٰبِرَ	N|ROOT:كبر|LEM:أَكْبَر|MP|ACC
+6:123:7	مُجْرِمِيهَا	N|ACT_PCPL|VF:4|ROOT:جرم|LEM:مُجْرِم|MP|GEN + N|PRON|SUFF|3FS
+6:123:8	لِيَمْكُرُوا۟	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:مكر|LEM:مَكَرَ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:123:9	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+6:123:10	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:123:11	يَمْكُرُونَ	V|IMPF|VF:1|ROOT:مكر|LEM:مَكَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:123:12	إِلَّا	P|RES|LEM:إِلّا
+6:123:13	بِأَنفُسِهِمْ	P|P|PREF|LEM:ب + N|ROOT:نفس|LEM:نَفْس|FP|GEN + N|PRON|SUFF|3MP
+6:123:14	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+6:123:15	يَشْعُرُونَ	V|IMPF|VF:1|ROOT:شعر|LEM:يَشْعُرُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:124:1	وَإِذَا	P|CONJ|PREF|LEM:و + N|T|LEM:إِذا
+6:124:2	جَآءَتْهُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS + N|PRON|SUFF|3MP
+6:124:3	ءَايَةٌ	N|ROOT:أيي|LEM:آيَة|FS|INDEF|NOM
+6:124:4	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:124:5	لَن	P|NEG|LEM:لَن
+6:124:6	نُّؤْمِنَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|1P|MOOD:SUBJ
+6:124:7	حَتَّىٰ	P|P|LEM:حَتَّى
+6:124:8	نُؤْتَىٰ	V|IMPF|VF:4|PASS|ROOT:أتي|LEM:آتَى|1P|MOOD:SUBJ
+6:124:9	مِثْلَ	N|ROOT:مثل|LEM:مِثْل|M|ACC
+6:124:10	مَآ	N|REL|LEM:ما
+6:124:11	أُوتِىَ	V|PERF|VF:4|PASS|ROOT:أتي|LEM:آتَى|3MS
+6:124:12	رُسُلُ	N|ROOT:رسل|LEM:رَسُول|MP|NOM
+6:124:13	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:124:14	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:124:15	أَعْلَمُ	N|ROOT:علم|LEM:أَعْلَم|MS|NOM
+6:124:16	حَيْثُ	N|LOC|ROOT:حيث|LEM:حَيْث
+6:124:17	يَجْعَلُ	V|IMPF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS|MOOD:IND
+6:124:18	رِسَالَتَهُۥ	N|ROOT:رسل|LEM:رِسالَة|F|ACC + N|PRON|SUFF|3MS
+6:124:19	سَيُصِيبُ	P|FUT|PREF|LEM:س + V|IMPF|VF:4|ROOT:صوب|LEM:أَصابَ|3MS|MOOD:IND
+6:124:20	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:124:21	أَجْرَمُوا۟	V|PERF|VF:4|ROOT:جرم|LEM:أَجْرَمُ|3MP + N|PRON|SUFF|3MP
+6:124:22	صَغَارٌ	N|ROOT:صغر|LEM:صَغار|M|INDEF|NOM
+6:124:23	عِندَ	N|LOC|ROOT:عند|LEM:عِند|ACC
+6:124:24	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:124:25	وَعَذَابٌ	P|CONJ|PREF|LEM:و + N|ROOT:عذب|LEM:عَذاب|M|INDEF|NOM
+6:124:26	شَدِيدٌۢ	N|ROOT:شدد|LEM:شَدِيد|MS|INDEF|NOM|ADJ
+6:124:27	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:124:28	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:124:29	يَمْكُرُونَ	V|IMPF|VF:1|ROOT:مكر|LEM:مَكَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:125:1	فَمَن	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+6:125:2	يُرِدِ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|3MS|MOOD:JUS
+6:125:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:125:4	أَن	P|SUB|LEM:أَن
+6:125:5	يَهْدِيَهُۥ	V|IMPF|VF:1|ROOT:هدي|LEM:هَدَى|3MS|MOOD:SUBJ + N|PRON|SUFF|3MS
+6:125:6	يَشْرَحْ	V|IMPF|VF:1|ROOT:شرح|LEM:شَرَحَ|3MS|MOOD:JUS
+6:125:7	صَدْرَهُۥ	N|ROOT:صدر|LEM:صَدْر|M|ACC + N|PRON|SUFF|3MS
+6:125:8	لِلْإِسْلَٰمِ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|PN|VN|VF:4|ROOT:سلم|LEM:إِسْلام|M|GEN
+6:125:9	وَمَن	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+6:125:10	يُرِدْ	V|IMPF|VF:4|ROOT:رود|LEM:أَرادَ|3MS|MOOD:JUS
+6:125:11	أَن	P|SUB|LEM:أَن
+6:125:12	يُضِلَّهُۥ	V|IMPF|VF:4|ROOT:ضلل|LEM:أَضَلَّ|3MS|MOOD:SUBJ + N|PRON|SUFF|3MS
+6:125:13	يَجْعَلْ	V|IMPF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS|MOOD:JUS
+6:125:14	صَدْرَهُۥ	N|ROOT:صدر|LEM:صَدْر|M|ACC + N|PRON|SUFF|3MS
+6:125:15	ضَيِّقًا	N|ROOT:ضيق|LEM:ضَيِّق|MS|INDEF|ACC
+6:125:16	حَرَجًا	N|ROOT:حرج|LEM:حَرَج|M|INDEF|ACC|ADJ
+6:125:17	كَأَنَّمَا	P|ACC|LEM:كَأَنّ|FAM:إِنّ + P|PREV|LEM:ما
+6:125:18	يَصَّعَّدُ	V|IMPF|VF:5|ROOT:صعد|LEM:يَصَّعَّدُ|3MS|MOOD:IND
+6:125:19	فِى	P|P|LEM:فِي
+6:125:20	ٱلسَّمَآءِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|F|GEN
+6:125:21	كَذَٰلِكَ	P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:125:22	يَجْعَلُ	V|IMPF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS|MOOD:IND
+6:125:23	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:125:24	ٱلرِّجْسَ	P|DET|PREF|LEM:ال + N|ROOT:رجس|LEM:رِجْس|M|ACC
+6:125:25	عَلَى	P|P|LEM:عَلَى
+6:125:26	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:125:27	لَا	P|NEG|LEM:لا
+6:125:28	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

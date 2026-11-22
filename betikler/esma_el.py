@@ -1592,4 +1592,6 @@ KARAR = {
     '6:120:2': 'degil',  # 've zerû zâhira'l-ismi ve bâtinahû' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:120:4': 'degil',  # 've zerû zâhira'l-ismi ve bâtinahû' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:121:15': 'degil',  # 'ilâ evliyâ'ihim' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 122-125
+    '6:122:7': 'degil',  # 've ce'alnâ lehû nûran' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }
