@@ -1570,4 +1570,11 @@ KARAR = {
     # sure 6 — 6:96 kullanıcı kararı (2026-11-22)
     '6:96:11': 'ilahi',  # 'zâlike taqdîru'l-'azîzi'l-'alîm' — tamlama içinde ad, göndergesi Allah → ilahi (kullanıcı kararı; emsal 36:38:7-8)
     '6:96:12': 'ilahi',  # 'zâlike taqdîru'l-'azîzi'l-'alîm' — tamlama içinde ad, göndergesi Allah → ilahi (kullanıcı kararı; emsal 36:38:7-8)
+    # sure 6 blok 100-103
+    '6:101:1': 'ilahi',  # 'bedî'u's-semâvâti ve'l-ard' — zamirin haberi → ilahi (Allah)
+    '6:101:18': 'ilahi',  # 've huve bi-kulli şey'in 'alîm' — zamirin haberi → ilahi (Allah)
+    '6:102:8': 'ilahi',  # 'zâlikumu'llâhu rabbukum lâ ilâhe illâ huve xâliqu kulli şey'in' — lafzın haberi → ilahi (Allah)
+    '6:102:16': 'ilahi',  # 've huve 'alâ kulli şey'in vekîl' — zamirin haberi → ilahi (Allah)
+    '6:103:8': 'ilahi',  # 've huve'l-latîfu'l-xabîr' — zamirin haberi → ilahi (Allah)
+    '6:103:9': 'ilahi',  # 've huve'l-latîfu'l-xabîr' — zamirin haberi → ilahi (Allah; 'l-latîf'in sıfatı)
 }

@@ -91380,6 +91380,177 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:100": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    10,
+    "غَيْر"
+   ],
+   [
+    11,
+    "عِلْم"
+   ],
+   [
+    12,
+    "سُبْحان"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:101": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    1,
+    "بَدِيع"
+   ],
+   [
+    18,
+    "عَلِيم"
+   ]
+  ],
+  "esma_el": {
+   "6:101:1": "ilahi",
+   "6:101:18": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "عَلِيم"
+  ],
+  "r": false,
+  "sinif_el": "E",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    16,
+    "كُلّ"
+   ],
+   [
+    17,
+    "شَىْء"
+   ],
+   [
+    18,
+    "عَلِيم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:102": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    8,
+    "خالِق"
+   ],
+   [
+    16,
+    "وَكِيل"
+   ]
+  ],
+  "esma_el": {
+   "6:102:16": "ilahi",
+   "6:102:8": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "وَكِيل"
+  ],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    14,
+    "كُلّ"
+   ],
+   [
+    15,
+    "شَىْء"
+   ],
+   [
+    16,
+    "وَكِيل"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
+ "6:103": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    8,
+    "لَطِيف"
+   ],
+   [
+    9,
+    "خَبِير"
+   ]
+  ],
+  "esma_el": {
+   "6:103:8": "ilahi",
+   "6:103:9": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "لَطِيف",
+   "خَبِير"
+  ],
+  "r": false,
+  "sinif_el": "E",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    6,
+    "بَصَر"
+   ],
+   [
+    8,
+    "لَطِيف"
+   ],
+   [
+    9,
+    "خَبِير"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": true
+ },
  "6:11": {
   "a": false,
   "bant": "KAPI_KAPALI",

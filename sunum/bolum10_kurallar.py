@@ -1,5 +1,5 @@
 # bölüm 10 (sûre 5) denetiminden kurallar — betik denetimi:
-#  (1) ARIZA esmâ maddesindeki gerekçe parantezi ⇔ esma_el yorumunun parantezi bayt eşit (ek açıklama parantez dışında)
+#  (1) ARIZA esmâ maddesindeki gerekçe parantezi ⇔ esma_el yorumunun parantezi bayt eşit (ek açıklama parantez dışında); aynı kurallı kayıtlarda her kaydın parantezi maddedeki anışlardan biriyle eş (sûre 6 blok 24)
 #  (2) A4: blok planındaki ■ sınırından — bölümü açan ayetin A4'ünde 'bölüm açılışı', bölümü kapatan ayetin A4'ünde 'bölüm kapanışı'
 #  (3) meal karşılık farkı kararları kapalı sözlükle ('çakışma değil' / 'tam okuma sonu' / 'bilinçli fark' / 'düzeltildi'); 'karar yok' hata;
 #      önceki bloğun kararından yön değişirse 'önceki karar (blok N: …); gerekçe'
@@ -52,9 +52,8 @@ if _o.path.exists(ef):
         kural, par = m.group(2), m.group(4)
         bas = "kural '%s' (" % kural
         if bas not in es: H.append("(1) esmâ maddesinde kural yok: %s" % bas[:70]); continue
-        for mm in re.finditer(re.escape(bas), es):
-            p = paren(es, mm.end() - 1)
-            if p != par: H.append("(1) esmâ parantezi '%s' / esma_el '%s'" % (p[:70], par[:70]))
+        _ps = [paren(es, mm.end() - 1) for mm in re.finditer(re.escape(bas), es)]
+        if par not in _ps: H.append("(1) esmâ parantezi '%s' / esma_el '%s'" % ((_ps[0] if _ps else '')[:70], par[:70]))  # sûre 6 blok 24: aynı kurallı kayıtlar ayrı parantez taşıyabilir (morph ADJ 'sıfat' — bölüm 11 kuralı 5 / bölüm 9 denetimi kuralı 9); her kaydın parantezi maddede bayt eşit bir anışla bulunmalı
 # ── (2) A4 bölüm açılışı / kapanışı ──
 bol = []
 for l in open(Y + 'blok_plani_%d.txt' % S, encoding='utf-8'):
