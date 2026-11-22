@@ -1,0 +1,25 @@
+KQ = ['bi', 'hu', 'hum', 'huve', 'ke', 'lâ', 'men', 've']
+KM = {
+ "'bi'": "çakışma değil ('ile' / belirtme eki — edat anlamı, fiil yönetimi)",
+ "'hu'": "çakışma değil (zamir 'onun' / 'O'nun' / iyelik eki — cümle başı yazımı, çekim)",
+ "'hum'": "çakışma değil (zamir 'Kendilerine' / karşılıksız — fiil yönetimi, mübteda zamiri çekimde)",
+ "'huve'": "çakışma değil (zamir 'O' / karşılıksız — ayırma zamiri, mübteda zamiri çekimde)",
+ "'ke'": "çakışma değil (zamir 'seni' / iyelik eki — çekim)",
+ "'lâ'": "çakışma değil ('yok' / olumsuzluk eki — cins nefyi / fiil olumsuzluğu)",
+ "'men'": "çakışma değil ('-an' / '-ler' — ilgi eki, çoğul çekim)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' / 'da' — Türkçe sıralama)",
+
+ "''adl'": "çakışma — tam okuma sonu ('adalet' / 'fidye' bağlam karşılığı)",
+ "''alîm'": "çakışma — tam okuma sonu ('Alîm' / 'bilen' — esmâ adı / sıfat karşılığı)",
+ "'a'lem'": "çakışma değil ('daha iyi bilen' / 'en iyi bilen' — ism-i tafdîl derece karşılığı)",
+ "'ard'": "çakışma — tam okuma sonu ('yer' / 'yeryüzü' bağlam karşılığı)",
+ "'dalaltu' / 'dalle' / 'yedillu'": "çakışma — tam okuma sonu ('kaybol-' / 'kaybolup git-' / 'sap-' bağlam karşılığı)",
+ "'ekser'": "çakışma değil ('çok' / 'çoğu' — iyelik eki çekimi)",
+ "'ekûne' / 'ekûnenne' / 'kun' / 'kunnâ' / 'kuntum' / 'kâne' / 'kânû' / 'nekûne' / 'nekûnenne' / 'tekun' / 'tekûne' / 'tekûnenne' / 'yekûn' / 'yekûne' / 'yekûnu'": "çakışma değil ('-di' / 'ol-' — yardımcı fiil, geçmiş zaman eki)",
+ "'enzela' / 'enzele' / 'enzelnâ' / 'unzile' / 'unzilu'": "çakışma değil ('indir-' etken / 'indiril-' edilgen çatı)",
+ "'haqq'": "çakışma — tam okuma sonu ('hak' / 'gerçek' — bağlam karşılığı)",
+ "'kitâb'": "çakışma değil ('Kitap' / 'kitap' — büyük harf yazımı)",
+ "'mubeddil'": "çakışma değil ('değiştirecek' / 'değiştiren' — ortaç zaman karşılığı)",
+ "'âteynâ' / 'ûtû'": "çakışma değil ('ver-' etken / 'veril-' edilgen çatı)",
+ "'ğayr'": "çakışma değil ('başka' / '-sız' / '-siz' / '-mez' — olumsuz sıfat karşılığı, ünlü uyumu)",
+}

@@ -1,0 +1,63 @@
+6:114:1	أَفَغَيْرَ	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:ف + N|ROOT:غير|LEM:غَيْر|M|ACC
+6:114:2	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:114:3	أَبْتَغِى	V|IMPF|VF:8|ROOT:بغي|LEM:ابْتَغَى|1S|MOOD:IND
+6:114:4	حَكَمًا	N|ROOT:حكم|LEM:حَكَم|M|INDEF|ACC
+6:114:5	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:114:6	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+6:114:7	أَنزَلَ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|3MS
+6:114:8	إِلَيْكُمُ	P|P|LEM:إِلَى + N|PRON|SUFF|2MP
+6:114:9	ٱلْكِتَٰبَ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|ACC
+6:114:10	مُفَصَّلًا	N|PASS_PCPL|VF:2|ROOT:فصل|LEM:مُفَصَّل|M|INDEF|ACC
+6:114:11	وَٱلَّذِينَ	P|REM|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+6:114:12	ءَاتَيْنَٰهُمُ	V|PERF|VF:4|ROOT:أتي|LEM:آتَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MP
+6:114:13	ٱلْكِتَٰبَ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|ACC
+6:114:14	يَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:114:15	أَنَّهُۥ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:114:16	مُنَزَّلٌ	N|PASS_PCPL|VF:2|ROOT:نزل|LEM:مُنَزَّل|M|INDEF|NOM
+6:114:17	مِّن	P|P|LEM:مِن
+6:114:18	رَّبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:114:19	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:114:20	فَلَا	P|REM|PREF|LEM:ف + P|NEG|LEM:لا
+6:114:21	تَكُونَنَّ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:IND + P|EMPH|SUFF|LEM:ن
+6:114:22	مِنَ	P|P|LEM:مِن
+6:114:23	ٱلْمُمْتَرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:8|ROOT:مري|LEM:مُمْتَري|MP|GEN
+6:115:1	وَتَمَّتْ	P|REM|PREF|LEM:و + V|PERF|VF:1|ROOT:تمم|LEM:تَمَّ|3FS
+6:115:2	كَلِمَتُ	N|ROOT:كلم|LEM:كَلِمَة|F|NOM
+6:115:3	رَبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:115:4	صِدْقًا	N|ROOT:صدق|LEM:صِدْق|M|INDEF|ACC
+6:115:5	وَعَدْلًا	P|CONJ|PREF|LEM:و + N|ROOT:عدل|LEM:عَدْل|M|INDEF|ACC
+6:115:6	لَّا	P|NEG|LEM:لا|FAM:إِنّ
+6:115:7	مُبَدِّلَ	N|ACT_PCPL|VF:2|ROOT:بدل|LEM:مُبَدِّل|M|ACC
+6:115:8	لِكَلِمَٰتِهِۦ	P|P|PREF|LEM:ل + N|ROOT:كلم|LEM:كَلِمَة|FP|GEN + N|PRON|SUFF|3MS
+6:115:9	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:115:10	ٱلسَّمِيعُ	P|DET|PREF|LEM:ال + N|ROOT:سمع|LEM:سَمِيع|MS|NOM
+6:115:11	ٱلْعَلِيمُ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عَلِيم|MS|NOM|ADJ
+6:116:1	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+6:116:2	تُطِعْ	V|IMPF|VF:4|ROOT:طوع|LEM:أَطاعَ|2MS|MOOD:JUS
+6:116:3	أَكْثَرَ	N|ROOT:كثر|LEM:أَكْثَر|MS|ACC
+6:116:4	مَن	N|REL|LEM:مَن
+6:116:5	فِى	P|P|LEM:فِي
+6:116:6	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:116:7	يُضِلُّوكَ	V|IMPF|VF:4|ROOT:ضلل|LEM:أَضَلَّ|3MP|MOOD:JUS + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+6:116:8	عَن	P|P|LEM:عَن
+6:116:9	سَبِيلِ	N|ROOT:سبل|LEM:سَبِيل|M|GEN
+6:116:10	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:116:11	إِن	P|NEG|LEM:إِن
+6:116:12	يَتَّبِعُونَ	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:116:13	إِلَّا	P|EXP|LEM:إِلّا
+6:116:14	ٱلظَّنَّ	P|DET|PREF|LEM:ال + N|ROOT:ظنن|LEM:ظَنّ|M|ACC
+6:116:15	وَإِنْ	P|CONJ|PREF|LEM:و + P|NEG|LEM:إِن
+6:116:16	هُمْ	N|PRON|3MP
+6:116:17	إِلَّا	P|RES|LEM:إِلّا
+6:116:18	يَخْرُصُونَ	V|IMPF|VF:1|ROOT:خرص|LEM:يَخْرُصُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:117:1	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:117:2	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:117:3	هُوَ	N|PRON|3MS
+6:117:4	أَعْلَمُ	N|ROOT:علم|LEM:أَعْلَم|MS|NOM
+6:117:5	مَن	N|REL|LEM:مَن
+6:117:6	يَضِلُّ	V|IMPF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MS|MOOD:IND
+6:117:7	عَن	P|P|LEM:عَن
+6:117:8	سَبِيلِهِۦ	N|ROOT:سبل|LEM:سَبِيل|M|GEN + N|PRON|SUFF|3MS
+6:117:9	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:117:10	أَعْلَمُ	N|ROOT:علم|LEM:أَعْلَم|MS|NOM
+6:117:11	بِٱلْمُهْتَدِينَ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:8|ROOT:هدي|LEM:مُهْتَدي|MP|GEN

@@ -1584,4 +1584,7 @@ KARAR = {
     # sure 6 blok 109-113
     '6:110:8': 'degil',  # 'evvele merratin' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge; zaman zarfı)
     '6:113:7': 'degil',  # 'yu'minûne bi'l-âxirati' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 blok 114-117
+    '6:115:10': 'ilahi',  # 've huve's-semî'u'l-'alîm' — zamirin haberi → ilahi (Rab)
+    '6:115:11': 'ilahi',  # 've huve's-semî'u'l-'alîm' — zamirin haberi → ilahi (Rab; işitenin sıfatı)
 }
