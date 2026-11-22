@@ -358,5 +358,17 @@ var6('bolum23_kurallar.py', ['59', '61', '14'], "(4) dizi 6 60 20 22 adı 'bi-m�
 var6('bolum23_kurallar.py', ['62', '67', '15'], "(4)", "b23 kural 4: isabetsiz", True)
 var6('bolum23_kurallar.py', ['62', '67', '15'], "(5) 6:64 A4'te 'soru → cevap' yok", "b23 kural 5: soru → cevap")
 var6('bolum23_kurallar.py', ['59', '61', '14'], "(5)", "b23 kural 5: isabetsiz", True)
+# sûre 6 blok 23 sonrası: kapalı listeye 'tamlama içinde ad' (kullanıcı kararı, 6:96)
+mutp6(Y + 'esma_el_6_95_99.txt', "'6:97:10': 'degil',  # 'fî zulumâti'l-berri ve'l-bahr' — esmâ adı esmâ dışı göndergeyle", "'6:97:10': 'degil',  # 'fî zulumâti'l-berri ve'l-bahr' — uydurma ad", 'bolum6_kurallar.py', ['95', '99', '23', '--tazelik-yok'], 'esmâ kural adı kapalı liste dışı 6:97:10', "b8 kural 2: blok 23 uydurma kural adı")
+def mutyok(dosya, eski, yeni, arac, arg, aranan, ad):  # mutasyon sonrası isabet VERMEMELİ
+    p = Y + dosya; s_ = open(p, encoding='utf-8').read(); shutil.copy(p, '/tmp/mut_yedek')
+    assert eski in s_, (ad, 'mutasyon kaynağı yok')
+    open(p, 'w', encoding='utf-8').write(s_.replace(eski, yeni))
+    try:
+        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/')
+        o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
+    finally: shutil.copy('/tmp/mut_yedek', p)
+    SON.append((ad, aranan not in o))
+mutyok('esma_el_6_95_99.txt', "'6:97:10': 'degil',  # 'fî zulumâti'l-berri ve'l-bahr' — esmâ adı esmâ dışı göndergeyle", "'6:97:10': 'degil',  # 'fî zulumâti'l-berri ve'l-bahr' — tamlama içinde ad", 'bolum6_kurallar.py', ['95', '99', '23', '--tazelik-yok'], 'esmâ kural adı kapalı liste dışı 6:97:10', "b8 kural 2: 'tamlama içinde ad' kapalı listede (isabetsiz)")
 for ad, ok in SON[130:]: print(('tamam ' if ok else 'BAŞARISIZ ') + ad)
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))

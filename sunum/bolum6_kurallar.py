@@ -75,7 +75,7 @@ for a, d in sorted(YK.items(), key=lambda x: int(x[0])):
 print('yıldız: bilanço %d ayet' % len(YK))
 # ── (14) esmâ kural adı ⇔ önceki kayıtlar ──
 KW = {"'inne/enne' haberi": r"inne|enne|haber", "'ve'llâhu X' kuralı": r"llâhu|lâhu", 'esmâ adı esmâ dışı göndergeyle': r'esmâ dışı|esmâ adı|gönderge',
-      'çoğul insan göndergeli': r'çoğul|insan', 'olumsuz nekre ehad': r'olumsuz nekre'}
+      'çoğul insan göndergeli': r'çoğul|insan', 'olumsuz nekre ehad': r'olumsuz nekre', 'tamlama içinde ad': r'tamlama'}
 LEM = {}
 for l in open('/home/claude/calisma/morph.txt', encoding='utf-8'):
     loc, fo, t, ft = l.rstrip('\n').split('\t'); k = ':'.join(loc.split(':')[:3])
@@ -87,7 +87,7 @@ for l in open('/home/claude/calisma/esma_el.py', encoding='utf-8'):
     if m: ONCE.setdefault((LEM.get(m.group(1)), m.group(2)), []).append((m.group(1), m.group(3)))
 # bölüm 8 kuralı 2: esmâ kural adı kapalı listeden; listede olmayan ad isabet (yeni ad yalnız esma_el.py emsali anılarak ve kullanıcı kararıyla eklenir); ARIZA'da 'tam okuma sonu' notlu karar esma_el'e kapalı karar olarak girmez
 KAPALI = ("'inne/enne' haberi", "'ve'llâhu X' kuralı", 'esmâ adı esmâ dışı göndergeyle', 'çoğul insan göndergeli', 'olumsuz nekre ehad', 'lafzın haberi',
-          "'ve kâna'llâhu X' lafzın haberi", "'kefâ bi'llâhi X' temyizi", "'vecede'llâhe X' mef'ûlü", 'zamirin haberi')
+          "'ve kâna'llâhu X' lafzın haberi", "'kefâ bi'llâhi X' temyizi", "'vecede'llâhe X' mef'ûlü", 'zamirin haberi', 'tamlama içinde ad')  # sûre 6 blok 23 sonrası kullanıcı kararı (2026-11-22): 'tamlama içinde ad' — esma_el.py emsali 36:38:7-8
 esm_it = ' '.join(item('esmâ:'))
 E14 = 0
 try: blk = open(Y + 'esma_el_%d_%d_%d.txt' % (S, A, B), encoding='utf-8').read()

@@ -94598,7 +94598,7 @@
   "bant": "KAPI_KAPALI",
   "bekleyen": [],
   "cift": true,
-  "e_el": null,
+  "e_el": true,
   "e_oto": true,
   "esma": [
    [
@@ -94611,8 +94611,8 @@
    ]
   ],
   "esma_el": {
-   "6:96:11": null,
-   "6:96:12": null
+   "6:96:11": "ilahi",
+   "6:96:12": "ilahi"
   },
   "humme": false,
   "muhur": true,

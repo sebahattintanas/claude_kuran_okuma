@@ -1567,4 +1567,7 @@ KARAR = {
     '6:95:7': 'degil',  # 'yuxricu'l-hayye mine'l-meyyit' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:95:13': 'degil',  # 'muxricu'l-meyyiti mine'l-hayy' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:97:10': 'degil',  # 'fî zulumâti'l-berri ve'l-bahr' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
+    # sure 6 — 6:96 kullanıcı kararı (2026-11-22)
+    '6:96:11': 'ilahi',  # 'zâlike taqdîru'l-'azîzi'l-'alîm' — tamlama içinde ad, göndergesi Allah → ilahi (kullanıcı kararı; emsal 36:38:7-8)
+    '6:96:12': 'ilahi',  # 'zâlike taqdîru'l-'azîzi'l-'alîm' — tamlama içinde ad, göndergesi Allah → ilahi (kullanıcı kararı; emsal 36:38:7-8)
 }
