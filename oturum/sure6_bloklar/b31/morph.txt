@@ -1,0 +1,62 @@
+6:131:1	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:131:2	أَن	P|SUB|LEM:أَن
+6:131:3	لَّمْ	P|NEG|LEM:لَم
+6:131:4	يَكُن	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS|MOOD:JUS
+6:131:5	رَّبُّكَ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+6:131:6	مُهْلِكَ	N|ACT_PCPL|VF:4|ROOT:هلك|LEM:مُهْلِك|M|ACC
+6:131:7	ٱلْقُرَىٰ	P|DET|PREF|LEM:ال + N|ROOT:قري|LEM:قَرْيَة|P|GEN
+6:131:8	بِظُلْمٍ	P|P|PREF|LEM:ب + N|ROOT:ظلم|LEM:ظُلْم|M|INDEF|GEN
+6:131:9	وَأَهْلُهَا	P|CIRC|PREF|LEM:و + N|ROOT:أهل|LEM:أَهْل|M|NOM + N|PRON|SUFF|3FS
+6:131:10	غَٰفِلُونَ	N|ACT_PCPL|VF:1|ROOT:غفل|LEM:غافِل|MP|NOM
+6:132:1	وَلِكُلٍّ	P|REM|PREF|LEM:و + P|P|PREF|LEM:ل + N|ROOT:كلل|LEM:كُلّ|M|INDEF|GEN
+6:132:2	دَرَجَٰتٌ	N|ROOT:درج|LEM:دَرَجَة|FP|INDEF|NOM
+6:132:3	مِّمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+6:132:4	عَمِلُوا۟	V|PERF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP + N|PRON|SUFF|3MP
+6:132:5	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما|FAM:كَان
+6:132:6	رَبُّكَ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+6:132:7	بِغَٰفِلٍ	P|P|PREF|LEM:ب + N|ACT_PCPL|VF:1|ROOT:غفل|LEM:غافِل|M|INDEF|GEN
+6:132:8	عَمَّا	P|P|LEM:عَن + N|REL|LEM:ما
+6:132:9	يَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:133:1	وَرَبُّكَ	P|CONJ|PREF|LEM:و + N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+6:133:2	ٱلْغَنِىُّ	P|DET|PREF|LEM:ال + N|ROOT:غني|LEM:غَنِيّ|MS|NOM
+6:133:3	ذُو	N|LEM:ذُو|MS|NOM
+6:133:4	ٱلرَّحْمَةِ	P|DET|PREF|LEM:ال + N|ROOT:رحم|LEM:رَحْمَة|F|GEN
+6:133:5	إِن	P|COND|LEM:إِن
+6:133:6	يَشَأْ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS|MOOD:JUS
+6:133:7	يُذْهِبْكُمْ	V|IMPF|VF:4|ROOT:ذهب|LEM:أَذْهَبَ|3MS|MOOD:JUS + N|PRON|SUFF|2MP
+6:133:8	وَيَسْتَخْلِفْ	P|CONJ|PREF|LEM:و + V|IMPF|VF:10|ROOT:خلف|LEM:اسْتَخْلَفَ|3MS|MOOD:JUS
+6:133:9	مِنۢ	P|P|LEM:مِن
+6:133:10	بَعْدِكُم	N|ROOT:بعد|LEM:بَعْد|GEN + N|PRON|SUFF|2MP
+6:133:11	مَّا	N|REL|LEM:ما
+6:133:12	يَشَآءُ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS|MOOD:IND
+6:133:13	كَمَآ	P|P|PREF|LEM:ك + P|SUB|LEM:ما
+6:133:14	أَنشَأَكُم	V|PERF|VF:4|ROOT:نشأ|LEM:أَنشَأَ|3MS + N|PRON|SUFF|2MP
+6:133:15	مِّن	P|P|LEM:مِن
+6:133:16	ذُرِّيَّةِ	N|ROOT:ذرر|LEM:ذُرِّيَّة|F|GEN
+6:133:17	قَوْمٍ	N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+6:133:18	ءَاخَرِينَ	N|ROOT:أخر|LEM:آخَر|MP|GEN|ADJ
+6:134:1	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:134:2	مَا	N|REL|LEM:ما
+6:134:3	تُوعَدُونَ	V|IMPF|VF:1|PASS|ROOT:وعد|LEM:وَعَدَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:134:4	لَءَاتٍ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:1|ROOT:أتي|LEM:آتِي|M|INDEF|NOM
+6:134:5	وَمَآ	P|REM|PREF|LEM:و + P|NEG|LEM:ما|FAM:كَان
+6:134:6	أَنتُم	N|PRON|2MP
+6:134:7	بِمُعْجِزِينَ	P|P|PREF|LEM:ب + N|ACT_PCPL|VF:4|ROOT:عجز|LEM:مُعْجِز|MP|GEN
+6:135:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:135:2	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+6:135:3	ٱعْمَلُوا۟	V|IMPV|VF:1|ROOT:عمل|LEM:عَمِلَ|2MP + N|PRON|SUFF|2MP
+6:135:4	عَلَىٰ	P|P|LEM:عَلَى
+6:135:5	مَكَانَتِكُمْ	N|ROOT:كون|LEM:مَكانَت|F|GEN + N|PRON|SUFF|2MP
+6:135:6	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:135:7	عَامِلٌ	N|ACT_PCPL|VF:1|ROOT:عمل|LEM:عامِل|M|INDEF|NOM
+6:135:8	فَسَوْفَ	P|REM|PREF|LEM:ف + P|FUT|LEM:سَوْف
+6:135:9	تَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:135:10	مَن	N|REL|LEM:مَن
+6:135:11	تَكُونُ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS|MOOD:IND
+6:135:12	لَهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+6:135:13	عَٰقِبَةُ	N|ROOT:عقب|LEM:عاقِبَة|F|NOM
+6:135:14	ٱلدَّارِ	P|DET|PREF|LEM:ال + N|ROOT:دور|LEM:دار|FS|GEN
+6:135:15	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:135:16	لَا	P|NEG|LEM:لا
+6:135:17	يُفْلِحُ	V|IMPF|VF:4|ROOT:فلح|LEM:أَفْلَحَ|3MS|MOOD:IND
+6:135:18	ٱلظَّٰلِمُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|NOM

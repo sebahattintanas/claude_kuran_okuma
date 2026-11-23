@@ -109,6 +109,16 @@ BAGLAR = {"AS_enam": [
  {'bag': '34:40 → 6:128', 'kural': "okuma — harekesiz 've yevme yahşuruhum cemî'an'; sayım 'say 6:128 1-3'", 'not': 'kalıp eşi (sayım).'},
  {'bag': '55:33 → 6:130', 'kural': "okuma — harekesiz 'yâ ma'şera'l-cinni ve'l-ins'; sayım 'say 6:130 1-3'", 'not': 'kalıp eşi (sayım).'},
  {'bag': '39:71 → 6:130', 'kural': "okuma — harekesiz 've yunzirûnekum liqâ'e yevmikum'; sayım 'say 6:130 11-13'", 'not': 'kalıp eşi (sayım).'},
+ # blok 131-135
+ {'bag': '28:59 → 6:131', 'kural': "okuma — harekesiz 'rabbuke muhlike'; sayım 'say 6:131 5-6'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '11:117 → 6:131', 'kural': "okuma — harekesiz 'l-qurâ bi-zulm'; sayım 'say 6:131 7-8'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '46:19 → 6:132', 'kural': "okuma — harekesiz 've li-kullin derecât'; sayım 'say 6:132 1-2'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '11:123 → 6:132', 'kural': "okuma — harekesiz 'rabbuke bi-ğâfil'; sayım 'say 6:132 6-7'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '27:93 → 6:132', 'kural': "okuma — harekesiz 'rabbuke bi-ğâfil'; sayım 'say 6:132 6-7'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '11:93 → 6:135', 'kural': "okuma — harekesiz ''alâ mekânetikum'; sayım 'say 6:135 4-5'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '11:121 → 6:135', 'kural': "okuma — harekesiz ''alâ mekânetikum'; sayım 'say 6:135 4-5'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '39:39 → 6:135', 'kural': "okuma — harekesiz ''alâ mekânetikum'; sayım 'say 6:135 4-5'", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '28:37 → 6:135', 'kural': "okuma — harekesiz ''âqibetu'd-dâr'; sayım 'say 6:135 13-14'", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
