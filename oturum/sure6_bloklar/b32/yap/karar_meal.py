@@ -1,0 +1,21 @@
+KQ = ["'alâ", 'bi', 'fe', 'hu', 'hum', 'hâ', 'li', 'min', 'mâ', 've']
+KM = {
+ "''alâ'": "çakışma değil ('üzerine' / yönelme eki — fiil yönetimi, kalıp karşılığı)",
+ "'bi'": "çakışma değil ('-ca' / '-la' — edat anlamı, ünlü uyumu)",
+ "'fe'": "çakışma değil (karşılıksız / 'Artık' — Türkçe sıralama, emir öncesi bağlaç)",
+ "'hu'": "çakışma değil (zamir 'O' / 'bunu' — gönderge farkı, fiil yönetimi)",
+ "'hum'": "çakışma değil (zamir 'onlara' / 'onları' / iyelik eki — fiil yönetimi, çekim)",
+ "'hâ'": "çakışma değil (zamir 'onları' / iyelik eki — fiil yönetimi, tamlama çekimi)",
+ "'li'": "çakışma değil ('-ın' / 'ait' / yönelme eki / 'ki' — mülkiyet, edat anlamı, amaç 'li'si)",
+ "'min'": "çakışma değil (ayrılma eki / karşılıksız — açıklayıcı 'min' tekrarında bir ekle verildi)",
+ "'mâ'": "çakışma değil (REL '-an' / '-dukları' / '-tığı' / '-tikleri' — ilgi eki, ünlü uyumu)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 'da' / 'ise' / 've' — Türkçe sıralama, karşıtlık bağlacı)",
+ "'ce'ale' / 'ce'alne' / 'ce'alnâ' / 'ce'alû' / 'tec'alûne' / 'yec'al' / 'yec'alu'": "çakışma — tam okuma sonu ('kıl-' / 'koy-' / 'ver-' / 'ayır-' bağlam karşılığı)",
+ "'neczi' / 'tuczevne' / 'yeczî' / 'yuczevne'": "çakışma — tam okuma sonu ('ödüllendir-' / 'cezalandırıl-' / 'cezalandır-' bağlam karşılığı)",
+ "'harrame' / 'hurrimet'": "çakışma değil ('haram kıl-' / 'haram kılın-' — etken / edilgen çatı)",
+ "'yezkurûne' / 'yuzkeri' / 'zukira'": "çakışma değil ('an-' / 'anıl-' — etken / edilgen çatı)",
+ "'zeyyene' / 'zeyyennâ' / 'zuyyine'": "çakışma — tam okuma sonu ('süslü göster-' / 'süsle-' bağlam karşılığı)",
+ "'neze' / 'zer' / 'zerû'": "çakışma değil ('bırak-' / 'baş başa bırak-' — kalıp karşılığı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'teqûlûne' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — çekim, emir kipi)",
+ "'ekûne' / 'ekûnenne' / 'kun' / 'kunnâ' / 'kuntum' / 'kâne' / 'kânû' / 'nekûne' / 'nekûnenne' / 'tekun' / 'tekûne' / 'tekûnenne' / 'tekûnu' / 'yekun' / 'yekûn' / 'yekûne' / 'yekûnu'": "çakışma değil ('-di' / 'ol-' / 'ait olan' — yardımcı fiil, geçmiş zaman eki, mülkiyet açılımı)",
+}

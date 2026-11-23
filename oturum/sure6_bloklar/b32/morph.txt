@@ -1,0 +1,77 @@
+6:136:1	وَجَعَلُوا۟	P|REM|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MP + N|PRON|SUFF|3MP
+6:136:2	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:136:3	مِمَّا	P|P|LEM:مِن + N|REL|LEM:ما
+6:136:4	ذَرَأَ	V|PERF|VF:1|ROOT:ذرأ|LEM:ذَرَأَ|3MS
+6:136:5	مِنَ	P|P|LEM:مِن
+6:136:6	ٱلْحَرْثِ	P|DET|PREF|LEM:ال + N|ROOT:حرث|LEM:حَرْث|M|GEN
+6:136:7	وَٱلْأَنْعَٰمِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نعم|LEM:نَعَم|MP|GEN
+6:136:8	نَصِيبًا	N|ROOT:نصب|LEM:نَصِيب|M|INDEF|ACC
+6:136:9	فَقَالُوا۟	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:136:10	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:136:11	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:136:12	بِزَعْمِهِمْ	P|P|PREF|LEM:ب + N|ROOT:زعم|LEM:زَعْم|M|GEN + N|PRON|SUFF|3MP
+6:136:13	وَهَٰذَا	P|CONJ|PREF|LEM:و + P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:136:14	لِشُرَكَآئِنَا	P|P|PREF|LEM:ل + N|ROOT:شرك|LEM:شَرِيك|MP|GEN + N|PRON|SUFF|1P
+6:136:15	فَمَا	P|REM|PREF|LEM:ف + N|REL|LEM:ما
+6:136:16	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:136:17	لِشُرَكَآئِهِمْ	P|P|PREF|LEM:ل + N|ROOT:شرك|LEM:شَرِيك|MP|GEN + N|PRON|SUFF|3MP
+6:136:18	فَلَا	P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+6:136:19	يَصِلُ	V|IMPF|VF:1|ROOT:وصل|LEM:يَصِلُ|3MS|MOOD:IND
+6:136:20	إِلَى	P|P|LEM:إِلَى
+6:136:21	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:136:22	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+6:136:23	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:136:24	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:136:25	فَهُوَ	P|SUP|PREF|LEM:ف + N|PRON|3MS
+6:136:26	يَصِلُ	V|IMPF|VF:1|ROOT:وصل|LEM:يَصِلُ|3MS|MOOD:IND
+6:136:27	إِلَىٰ	P|P|LEM:إِلَى
+6:136:28	شُرَكَآئِهِمْ	N|ROOT:شرك|LEM:شَرِيك|MP|GEN + N|PRON|SUFF|3MP
+6:136:29	سَآءَ	V|PERF|VF:1|ROOT:سوأ|LEM:ساءَ|3MS
+6:136:30	مَا	N|REL|LEM:ما
+6:136:31	يَحْكُمُونَ	V|IMPF|VF:1|ROOT:حكم|LEM:حَكَمَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:137:1	وَكَذَٰلِكَ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:137:2	زَيَّنَ	V|PERF|VF:2|ROOT:زين|LEM:زَيَّنَ|3MS
+6:137:3	لِكَثِيرٍ	P|P|PREF|LEM:ل + N|ROOT:كثر|LEM:كَثِير|MS|INDEF|GEN
+6:137:4	مِّنَ	P|P|LEM:مِن
+6:137:5	ٱلْمُشْرِكِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|GEN
+6:137:6	قَتْلَ	N|VN|VF:1|ROOT:قتل|LEM:قَتْل|M|ACC
+6:137:7	أَوْلَٰدِهِمْ	N|ROOT:ولد|LEM:وَلَد|MP|GEN + N|PRON|SUFF|3MP
+6:137:8	شُرَكَآؤُهُمْ	N|ROOT:شرك|LEM:شَرِيك|MP|NOM + N|PRON|SUFF|3MP
+6:137:9	لِيُرْدُوهُمْ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|ROOT:ردي|LEM:أَرْدَى|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP + N|PRON|SUFF|3MP
+6:137:10	وَلِيَلْبِسُوا۟	P|CONJ|PREF|LEM:و + P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:لبس|LEM:لَبَسْ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:137:11	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:137:12	دِينَهُمْ	N|ROOT:دين|LEM:دِين|M|ACC + N|PRON|SUFF|3MP
+6:137:13	وَلَوْ	P|REM|PREF|LEM:و + P|COND|LEM:لَو
+6:137:14	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:137:15	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:137:16	مَا	P|NEG|LEM:ما
+6:137:17	فَعَلُوهُ	V|PERF|VF:1|ROOT:فعل|LEM:فَعَلَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+6:137:18	فَذَرْهُمْ	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:وذر|LEM:يَذَرَ|2MS + N|PRON|SUFF|3MP
+6:137:19	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+6:137:20	يَفْتَرُونَ	V|IMPF|VF:8|ROOT:فري|LEM:افْتَرَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:138:1	وَقَالُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:138:2	هَٰذِهِۦٓ	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|FS
+6:138:3	أَنْعَٰمٌ	N|ROOT:نعم|LEM:نَعَم|MP|INDEF|NOM
+6:138:4	وَحَرْثٌ	P|CONJ|PREF|LEM:و + N|ROOT:حرث|LEM:حَرْث|M|INDEF|NOM
+6:138:5	حِجْرٌ	N|ROOT:حجر|LEM:حِجْر|M|INDEF|NOM|ADJ
+6:138:6	لَّا	P|NEG|LEM:لا
+6:138:7	يَطْعَمُهَآ	V|IMPF|VF:1|ROOT:طعم|LEM:طَعِمُ|3MS|MOOD:IND + N|PRON|SUFF|3FS
+6:138:8	إِلَّا	P|RES|LEM:إِلّا
+6:138:9	مَن	N|REL|LEM:مَن
+6:138:10	نَّشَآءُ	V|IMPF|VF:1|ROOT:شيأ|LEM:شاءَ|1P|MOOD:IND
+6:138:11	بِزَعْمِهِمْ	P|P|PREF|LEM:ب + N|ROOT:زعم|LEM:زَعْم|M|GEN + N|PRON|SUFF|3MP
+6:138:12	وَأَنْعَٰمٌ	P|CONJ|PREF|LEM:و + N|ROOT:نعم|LEM:نَعَم|MP|INDEF|NOM
+6:138:13	حُرِّمَتْ	V|PERF|VF:2|PASS|ROOT:حرم|LEM:حَرَّمَ|3FS
+6:138:14	ظُهُورُهَا	N|ROOT:ظهر|LEM:ظَهْر|MP|NOM + N|PRON|SUFF|3FS
+6:138:15	وَأَنْعَٰمٌ	P|CONJ|PREF|LEM:و + N|ROOT:نعم|LEM:نَعَم|MP|INDEF|NOM
+6:138:16	لَّا	P|NEG|LEM:لا
+6:138:17	يَذْكُرُونَ	V|IMPF|VF:1|ROOT:ذكر|LEM:ذَكَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:138:18	ٱسْمَ	N|ROOT:سمو|LEM:اسْم|M|ACC
+6:138:19	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:138:20	عَلَيْهَا	P|P|LEM:عَلَى + N|PRON|SUFF|3FS
+6:138:21	ٱفْتِرَآءً	N|VN|VF:8|ROOT:فري|LEM:افْتِراء|M|INDEF|ACC
+6:138:22	عَلَيْهِ	P|P|LEM:عَلَى + N|PRON|SUFF|3MS
+6:138:23	سَيَجْزِيهِم	P|FUT|PREF|LEM:س + V|IMPF|VF:1|ROOT:جزي|LEM:جَزَى|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:138:24	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:138:25	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:138:26	يَفْتَرُونَ	V|IMPF|VF:8|ROOT:فري|LEM:افْتَرَى|3MP|MOOD:IND + N|PRON|SUFF|3MP

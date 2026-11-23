@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # sinifla.py - oturum disi: oturum_say/lem listesini siniflar (bu ayet / basilan / eski kayit / okunmus / henuz okunmamis)
 import sys, re
-SON = 135  # sûre 6 okunmuş son ayet; her blok başında blok son ayetine güncellenir (sed)
+SON = 138  # sûre 6 okunmuş son ayet; her blok başında blok son ayetine güncellenir (sed)
 import os as _os
 S_OKU = int(_os.environ.get('SURE', '6')); SON_ = int(_os.environ.get('SON') or SON)
 BAS = {l.strip() for l in open('/home/claude/sunum/basilan.txt') if l.strip()}
