@@ -1,0 +1,23 @@
+# devir notu — sûre 6 okuması, oturum sonu (2026-11-23), son okunan ayet 6:135, sonraki blok 32
+# Bu dosyada basılmamış ayet numarası yoktur; sonraki bloğun aralığı yalnız yamalar/blok_plani_6.txt'ten okunur.
+
+DURUM
+- Sûre 6'da bloklar 1-31 okundu, bölümler 1-15 kapandı. Son blok commit'i baef5b2, bölüm 15 kapanışı 29b80e0.
+- Okunan 5925 / 6236 (%95,0). sunum/basilan.txt 298 satır. Esmâ KARAR 1294. AS_enam 77. Mutasyon sınaması 333 / 333. Anahtar denetimi BOZUK 70 (taban).
+- Sonraki blok 32: bölüm 16 'Ekinlerde ve hayvanlarda pay; sekiz eş' bölümünün açılış bloğu.
+
+SONRAKİ BLOK ARIZA BAŞI
+- Blok 32'nin ARIZA'sı yamalar/bekleyen_ariza_6_b31.txt'nin iki öğesiyle (BEK, bayt eşit) başlar — kur.py'de BEK satırı bu dosyayı okur.
+- Geriye dönük taban: yamalar/geriye_donuk_6_b31k.txt (GERI).
+- Yeni araç kuralları (sunum/bolum31_kurallar.py, kural 1-5) blok 32'den yürürlükte: BERABERLIK_SAYI, EDIM_GECIS_D2, EMSAL_KARAR_KATEGORI, NIDA_KAYIT_ESLIGI, EMSAL_UZUN_DIZI. Elle: GONDERGE_KAPSAM, A2_FAIL_DIZIMI, ESMA_GEREKCE_KURAL, KIP_SAPMA_NOTU, MUHATAP_DEGISIMI, SOZDIZIM_ROL, RASM_ELIF_ESI.
+
+ONAYA AÇIK KARARLAR (bloklar 29-31'de kayda yazıldı, kullanıcıya sorulmadı)
+- 6:127 'dâru's-selâm' içindeki 'selâm' esmâ dışı sayıldı — esma_el 'degil', kural 'esmâ adı esmâ dışı göndergeyle', gerekçe 'cennet adı tamlaması'.
+- 6:133 'ğaniyy' esmâ (ilahi), kural adı ''ve'llâhu X' kuralı' 've rabbuke X' kalıbına uygulandı; bölüm 15 denetimi kural adının kalıpla örtüşmediğini not etti.
+- 6:128 4-9. kelime hitabı söz değil nidâ olarak kaydedildi (söz fiili yok).
+- 6:126 'yezzekkerûn' için emsale uyan 'öğüt al-' karşılığı seçildi; sûre içi önceki karşılık 'düşün-' — fark meal kararlarında.
+- Araç eklemeleri: blok 29'da sunum/edat_etiket.py EDLEM 'ke-enne'; blok 30'da sunum/bolum19_kurallar.py CERCEVE 'tamlama içinde ad, göndergesi Allah'.
+- Oturumlar arası basım: bu oturumda basılan ayetler (sunum/basilan.txt, 298 satır) sonraki oturumda basılmış sayılır; sûre 6 kayıtları ve bekleyen dosyaları bu numaraları taşıyor (varsayılan karar, onaya açık).
+
+AÇIK SORU (blok 5'ten beri; kullanıcıya soruldu, yanıt 'Devam' — mevcut davranışla sürüyor)
+- Blok HTML'i (blok_goster_v2) basılmamış xref numaralarını maskelemiyor.
