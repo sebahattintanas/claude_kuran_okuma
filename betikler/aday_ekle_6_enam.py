@@ -130,6 +130,9 @@ BAGLAR = {"AS_enam": [
  {'bag': '2:173 → 6:145', 'kural': "okuma — harekesiz 'fe-meni'dturra ğayra bâğin ve lâ 'âdin'; sayım 'say 6:145 30-35'; en uzun ortak lemma dizisi 'men idturra ğayr bâğ lâ 'âd' (dizi 6 145 30 35)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '16:115 → 6:145', 'kural': "okuma — harekesiz 'uhille li-ğayri'llâhi bih, fe-meni'dturra ğayra bâğin ve lâ 'âdin'; sayım 'say 6:145 26-35'; lemma dizisi 'uhille ğayr allâh _ men idturra ğayr bâğ lâ 'âd' (dizi 6 145 26 35); en uzun ortak lemma dizisi 'men idturra ğayr bâğ lâ 'âd inne' (dizi 6 145 30 36)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '12:110 → 6:147', 'kural': "okuma — harekesiz ''ani'l-qavmi'l-mucrimîn'; sayım 'say 6:147 11-13'; en uzun ortak lemma dizisi 'lâ radde be's 'an qavm mucrim' (dizi 6 147 8 13)", 'not': 'kalıp eşi (sayım).'},
+ # blok 148-150
+ {'bag': '16:35 → 6:148', 'kural': "okuma — harekesiz 've lâ harramnâ'; sayım 'say 6:148 11-12'; lemma dizisi 'lâ âbâ' lâ harrame min' (dizi 6 148 9 13); en uzun ortak lemma dizisi 'qâle ellezî eşrake lev şâ'e allâh mâ' (dizi 6 148 1 7)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '16:9 → 6:149', 'kural': "okuma — harekesiz 'şâ'e le-hedâkum ecma'în'; sayım 'say 6:149 6-8'; en uzun ortak lemma dizisi 'lev şâ'e hedâ ecma'' (dizi 6 149 5 8)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

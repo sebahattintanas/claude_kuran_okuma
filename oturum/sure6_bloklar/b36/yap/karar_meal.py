@@ -1,0 +1,23 @@
+KQ = ['bi', 'ellezîne', 'hum', 'kum', 'li', 'lâ', 'min', 'nâ', 've', 'zâ']
+KM = {
+ "'bi'": "çakışma değil (belirtme eki / yönelme eki — fiil yönetimi)",
+ "'ellezîne'": "çakışma değil (REL '-anlar' / '-en' / '-ler' — ilgi eki, ünlü uyumu, sıfat-fiil)",
+ "'hum'": "çakışma değil (zamir 'Onlardan' / 'onlar' / 'onlarla' / iyelik — ad çekimi)",
+ "'kum'": "çakışma değil (belirtme eki / iyelik eki — nesne zamiri, tamlama çekimi)",
+ "'li'": "çakışma değil ('-ın' / yönelme eki — aidiyet, fiil yönetimi)",
+ "'lâ'": "çakışma değil ('ne de' / olumsuzluk eki — atıflı olumsuzluk, fiil çekimi)",
+ "'min'": "çakışma değil ('hiç' / karşılıksız — olumsuzlukta kapsam, beyân, zâid)",
+ "'nâ'": "çakışma değil ('biz' / 'bize' / iyelik eki — özne, yönelme, tamlama çekimi)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' — Türkçe sıralama)",
+ "'zâ'": "çakışma değil ('bu' / 'böyle' — işaret, 'ke' ile benzetme)",
+ "''ilm'": "çakışma değil ('bilgi' / 'ilim' — eş anlamlı yazım, '-siz' kalıbı)",
+ "''ind' / ''inde'": "çakışma değil ('kat' / 'yan' — eş anlamlı yer adı, hâl eki)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'teqûlûne' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — çekim, emir kipi)",
+ "'harrame' / 'harramnâ' / 'harramû' / 'hurrimet'": "çakışma değil ('haram kıl-' / 'haram kılın-' — etken / edilgen çatı)",
+ "'hede' / 'hedeynâ' / 'hedâ' / 'yehdi' / 'yehdiye' / 'yehdî'": "çakışma — tam okuma sonu ('doğru yola ilet-' / 'ilet-' bağlam karşılığı)",
+ "'kezzebe' / 'kezzebtum' / 'kezzebû' / 'kuzzibet' / 'kuzzibû' / 'nukezzibe' / 'yukezzibûne'": "çakışma değil ('yalanla-' etken / 'yalanlan-' edilgen çatı)",
+ "'nu'mine' / 'yu'minunne' / 'yu'minû' / 'yu'minûn' / 'yu'minûne' / 'âmene' / 'âmenû'": "çakışma — tam okuma sonu ('inan-' / 'iman et-' bağlam karşılığı)",
+ "'ta'dil' / 'ya'dilûn'": "çakışma — tam okuma sonu ('denk tut-' / 'öde-' bağlam karşılığı)",
+ "'âxir' / 'âxira'": "çakışma değil ('ahiret' / 'âhiret' yazım farkı)",
+ "'âbâ''": "çakışma — tam okuma sonu ('ata' / 'baba' bağlam karşılığı)",
+}

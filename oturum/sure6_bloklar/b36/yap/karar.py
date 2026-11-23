@@ -1,0 +1,12 @@
+KARAR.update({
+ 'getir-': "'getir-' ← 'câ'e', 'helumme', 'te'tiye', 'ye'tî': farklı lemma ve kök (جيأ, أتي, هلم; 'bi' ile) — çakışma — tam okuma sonu",
+ 'ortak koş-': "'ortak koş-' ← 'eşraknâ', 'eşraktum', 'eşrakû', 'tuşrikûn', 'tuşrikûne': bir lemma ('eşreke'; morph LEM eşit) — çakışma değil",
+ 'uy-': "'uy-' ← 'ettebi'u', 'qtedih', 'tettebi'', 'tettebi'û', 'tettebi'ûne', 'ttebi', 'tuti', 'yettebi'ûne': farklı lemma ve kök (تبع, قدو, طوع) — çakışma — tam okuma sonu",
+ 'çıkar-': "'çıkar-' ← 'axracnâ', 'exricû', 'muxric', 'nuxricu', 'tuxricû', 'yuxricu': bir kök (خرج), IV. bab — çakışma değil",
+ 'şahitlik et-': "'şahitlik et-' ← 'eşhed', 'teşhed', 'teşhedûne', 'yeşhedûne', 'şehidnâ', 'şehidû': bir lemma ('şehide'; morph LEM eşit) — çakışma değil",
+ 'KÖK et-': "KÖK 'et-' ← 'alay et-' (هزأ; 'yestehzi'ûn'), 'ayırt eden' (فصل; 'fâsil'), 'bile bile inkâr et-' (جحد; 'yechadûn' (morph LEM ham biçim)), 'dua et-' (دعو; 'ted'ûne', 'yed'ûne'), 'et' (لحم; 'lahm'), 'helâk et-' (هلك, ردي; 'ehleknâ', 'yuhlikûne', 'yurdû'), 'icabet et-' (جوب; 'yestecîbu'), 'iddia et-' (زعم; 'tez'umûn', 'za'amtum'), 'idrak et-' (درك; 'tudrik', 'yudriku'), 'ihmal et-' (فرط; 'farratnâ', 'yufarritûn'), 'iman et-' (أمن; 'yu'minûne', 'âmene', 'âmenû'), 'inkâr eden' (كفر; 'kâfir'), 'inkâr et-' (كفر; 'keferû', 'tekfurûn', 'yekfur', 'yekfurûn'), 'inşâ et-' (نشأ; 'enşe'e', 'enşe'nâ'), 'israf eden' (سرف; 'musrif'), 'israf et-' (سرف; 'tusrifû'), 'isyan et-' (عصي; ''aseytu'), 'itaat et-' (طوع; 'eta'tumû'), 'iyilik eden' (حسن; 'muhsin'), 'kulluk et-' (عبد; ''budû', 'a'bude'), 'merhamet eden' (رحم; 'rahîm'), 'rahmet et-' (رحم; 'rahime'), 'takdir et-' (قدر, قضي; 'qaderu', 'qadâ'), 'tavsiye et-' (وصي; 'vassâ'), 'tövbe et-' (توب; 'tâbe'), 'var et-' (جعل; 'ce'ale'), 'yemin et-' (قسم; 'aqsemû' (morph LEM ham biçim)), 'şahitlik et-' (شهد; 'eşhed', 'teşhed', 'teşhedûne', 'yeşhedûne', 'şehidnâ', 'şehidû'), 'şüphe eden' (مري; 'mumterî'), 'şüphe et-' (مري; 'temterûn'): yardımcı fiil 'et-' ile kurulan karşılıklar; birden çok kök — çakışma — tam okuma sonu",
+ 'KÖK koş-': "KÖK 'koş-' ← 'ortak koş-' ('eşraknâ', 'eşraktum', 'eşrakû', 'tuşrikûn', 'tuşrikûne'), 'ortak koşan' ('muşrik'): bir kök (شرك) — çakışma değil",
+ 'tahminde bulun-': "'tahminde bulun-' ← 'taxrusûn', 'yaxrusûn': bir lemma ('yaxrusu' (morph LEM ham biçim); morph LEM eşit) — çakışma değil",
+ 'tat-': "'tat-' ← 'zâqû', 'zûqu': bir lemma ('zâqu' (morph LEM ham biçim); morph LEM eşit) — çakışma değil",
+ 'yan': "'yan' ← ''ind', ''inde': bir lemma (''ind'; morph LEM eşit) — çakışma değil",
+})

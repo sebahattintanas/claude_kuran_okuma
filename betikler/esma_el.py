@@ -1611,4 +1611,7 @@ KARAR = {
     # sure 6 blok 145-147
     '6:145:38': 'ilahi',  # 'fe-inne rabbeke ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Rab)
     '6:145:39': 'ilahi',  # 'fe-inne rabbeke ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Rab; morph ADJ ile 'ğafûr'un sıfatı)
+    # sure 6 blok 148-150
+    '6:150:3': 'degil',  # 'helumme şuhedâ'akum' — esmâ adı esmâ dışı göndergeyle → degil (muhatap topluluğun şahitleri)
+    '6:150:24': 'degil',  # 'yu'minûne bi'l-âxirati' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
 }

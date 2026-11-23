@@ -1,0 +1,72 @@
+6:148:1	سَيَقُولُ	P|FUT|PREF|LEM:س + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MS|MOOD:IND
+6:148:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:148:3	أَشْرَكُوا۟	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|3MP + N|PRON|SUFF|3MP
+6:148:4	لَوْ	P|COND|LEM:لَو
+6:148:5	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:148:6	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:148:7	مَآ	P|NEG|LEM:ما
+6:148:8	أَشْرَكْنَا	V|PERF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|1P + N|PRON|SUFF|1P
+6:148:9	وَلَآ	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:148:10	ءَابَآؤُنَا	N|ROOT:أبو|LEM:آباء|MP|NOM + N|PRON|SUFF|1P
+6:148:11	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:148:12	حَرَّمْنَا	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|1P + N|PRON|SUFF|1P
+6:148:13	مِن	P|P|LEM:مِن
+6:148:14	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:148:15	كَذَٰلِكَ	P|P|PREF|LEM:ك + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:148:16	كَذَّبَ	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MS
+6:148:17	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:148:18	مِن	P|P|LEM:مِن
+6:148:19	قَبْلِهِمْ	N|ROOT:قبل|LEM:قَبْل|GEN + N|PRON|SUFF|3MP
+6:148:20	حَتَّىٰ	P|INC|LEM:حَتَّى
+6:148:21	ذَاقُوا۟	V|PERF|VF:1|ROOT:ذوق|LEM:ذاقُ|3MP + N|PRON|SUFF|3MP
+6:148:22	بَأْسَنَا	N|ROOT:بأس|LEM:بَأْس|M|ACC + N|PRON|SUFF|1P
+6:148:23	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:148:24	هَلْ	P|INTG|LEM:هَل
+6:148:25	عِندَكُم	N|LOC|ROOT:عند|LEM:عِند|ACC + N|PRON|SUFF|2MP
+6:148:26	مِّنْ	P|P|LEM:مِن
+6:148:27	عِلْمٍ	N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+6:148:28	فَتُخْرِجُوهُ	P|CAUS|PREF|LEM:ف + V|IMPF|VF:4|ROOT:خرج|LEM:أَخْرَجَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+6:148:29	لَنَآ	P|P|PREF|LEM:ل + N|PRON|1P
+6:148:30	إِن	P|NEG|LEM:إِن
+6:148:31	تَتَّبِعُونَ	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:148:32	إِلَّا	P|EXP|LEM:إِلّا
+6:148:33	ٱلظَّنَّ	P|DET|PREF|LEM:ال + N|ROOT:ظنن|LEM:ظَنّ|M|ACC
+6:148:34	وَإِنْ	P|CONJ|PREF|LEM:و + P|NEG|LEM:إِن
+6:148:35	أَنتُمْ	N|PRON|2MP
+6:148:36	إِلَّا	P|RES|LEM:إِلّا
+6:148:37	تَخْرُصُونَ	V|IMPF|VF:1|ROOT:خرص|LEM:يَخْرُصُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:149:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:149:2	فَلِلَّهِ	P|SUP|PREF|LEM:ف + P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:149:3	ٱلْحُجَّةُ	P|DET|PREF|LEM:ال + N|ROOT:حجج|LEM:حُجَّة|F|NOM
+6:149:4	ٱلْبَٰلِغَةُ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:بلغ|LEM:بالِغَة|F|NOM|ADJ
+6:149:5	فَلَوْ	P|REM|PREF|LEM:ف + P|COND|LEM:لَو
+6:149:6	شَآءَ	V|PERF|VF:1|ROOT:شيأ|LEM:شاءَ|3MS
+6:149:7	لَهَدَىٰكُمْ	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|2MP
+6:149:8	أَجْمَعِينَ	N|ROOT:جمع|LEM:أَجْمَع|MP|ACC
+6:150:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:150:2	هَلُمَّ	N|NV|IMPV|ROOT:هلم|LEM:هَلُمّ|2MP
+6:150:3	شُهَدَآءَكُمُ	N|ROOT:شهد|LEM:شَهِيد|MP|ACC + N|PRON|SUFF|2MP
+6:150:4	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:150:5	يَشْهَدُونَ	V|IMPF|VF:1|ROOT:شهد|LEM:شَهِدَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:150:6	أَنَّ	P|ACC|LEM:أَنّ|FAM:إِنّ
+6:150:7	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+6:150:8	حَرَّمَ	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|3MS
+6:150:9	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:150:10	فَإِن	P|REM|PREF|LEM:ف + P|COND|LEM:إِن
+6:150:11	شَهِدُوا۟	V|PERF|VF:1|ROOT:شهد|LEM:شَهِدَ|3MP + N|PRON|SUFF|3MP
+6:150:12	فَلَا	P|RSLT|PREF|LEM:ف + P|PRO|LEM:لا
+6:150:13	تَشْهَدْ	V|IMPF|VF:1|ROOT:شهد|LEM:شَهِدَ|2MS|MOOD:JUS
+6:150:14	مَعَهُمْ	N|LOC|LEM:مَع|ACC + N|PRON|SUFF|3MP
+6:150:15	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:150:16	تَتَّبِعْ	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MS|MOOD:JUS
+6:150:17	أَهْوَآءَ	N|ROOT:هوي|LEM:أَهْواء|MP|ACC
+6:150:18	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:150:19	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+6:150:20	بِـَٔايَٰتِنَا	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+6:150:21	وَٱلَّذِينَ	P|CONJ|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+6:150:22	لَا	P|NEG|LEM:لا
+6:150:23	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:150:24	بِٱلْءَاخِرَةِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:أخر|LEM:آخِر|FS|GEN
+6:150:25	وَهُم	P|REM|PREF|LEM:و + N|PRON|3MP
+6:150:26	بِرَبِّهِمْ	P|P|PREF|LEM:ب + N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:150:27	يَعْدِلُونَ	V|IMPF|VF:1|ROOT:عدل|LEM:عَدَلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
