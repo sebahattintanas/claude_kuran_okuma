@@ -1,0 +1,21 @@
+KQ = ['bi', 'fe', 'hu', 'hum', 'humâ', 'ke', 'mâ', 've']
+KM = {
+ "'bi'": "çakışma değil ('sebebiyle' / yönelme eki / karşılıksız — edat anlamı, fiil yönetimi)",
+ "'fe'": "çakışma değil ('çünkü' / karşılıksız — gerekçe bağlacı, cevap bağlacı)",
+ "'hu'": "çakışma değil (zamir 'O'nun' / 'o' / karşılıksız — cümle başı yazımı, ilgi zamirine dönen zamir)",
+ "'hum'": "çakışma değil (zamir 'onlara' / 'onları' / iyelik eki — fiil yönetimi, çekim)",
+ "'humâ'": "çakışma değil ('onların' / iyelik eki — ikil Türkçede çoğul, tamlama çekimi)",
+ "'ke'": "çakışma değil ('seni' / iyelik eki — nesne zamiri, tamlama çekimi)",
+ "'mâ'": "çakışma değil (REL '-an' / '-dığı' / '-en' — ilgi eki, ünlü uyumu)",
+ "'ve'": "çakışma değil (karşılıksız atıf / 've' — Türkçe sıralama)",
+ "'yûha' / 'yûhâ' / 'yûhî' / 'yûhûne' / 'ûhiye'": "çakışma — tam okuma sonu ('fısılda-' / 'vahyedil-' / 'vahyolun-' bağlam karşılığı)",
+ "'cezeynâ' / 'neczi' / 'tuczevne' / 'yeczî' / 'yuczevne'": "çakışma — tam okuma sonu ('cezalandır-' / 'cezalandırıl-' / 'ödüllendir-' bağlam karşılığı)",
+ "'harrame' / 'harramnâ' / 'harramû' / 'hurrimet'": "çakışma değil ('haram kıl-' / 'haram kılın-' — etken / edilgen çatı)",
+ "'nuraddu' / 'ruddû' / 'yureddu'": "çakışma — tam okuma sonu ('geri döndürül-' / 'döndürül-' / 'geri çevril-' bağlam karşılığı)",
+ "'kezzebe' / 'kezzebtum' / 'kezzebû' / 'kuzzibet' / 'kuzzibû' / 'nukezzibe' / 'yukezzibûne'": "çakışma değil ('yalanla-' etken / 'yalanlan-' edilgen çatı)",
+ "'sâdiq'": "çakışma değil ('doğru söyleyen' / 'doğru sözlü' — eş anlamlı açılım)",
+ "'ğayr'": "çakışma değil ('başka' / '-madan' / '-sız' / '-siz' / '-mez' — olumsuz sıfat / zarf-fiil karşılığı, ünlü uyumu)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qâle' / 'qâlû' / 'teqûlûne' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — çekim, emir kipi)",
+ "'ekûne' / 'ekûnenne' / 'kun' / 'kunnâ' / 'kuntum' / 'kâne' / 'kânû' / 'nekûne' / 'nekûnenne' / 'tekun' / 'tekûne' / 'tekûnenne' / 'tekûnu' / 'yekun' / 'yekûn' / 'yekûne' / 'yekûnu'": "çakışma değil ('-di' / 'ol-' / 'ait olan' — yardımcı fiil, geçmiş zaman eki, mülkiyet açılımı)",
+ "'kull'": "çakışma değil ('her' / 'hepsi' / 'herkes' — tamlama / zamir kullanımı)",
+}

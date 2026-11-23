@@ -1,0 +1,78 @@
+# blok 35 (6:145-147) meal kesimleri
+SEG = {
+ 145: [
+  ("De ki: Bana vahyedilende, yiyen bir kimseye, yiyeceği haram bir şey bulmuyorum", "qul lâ ecidu fî mâ ûhiye ileyye muharramen 'alâ tâ'imin yat'amuhû", [
+   "'de-' 'qul' karşılığı (1. kelime; I. bab; emir)", "'lâ' 2. kelimede olumsuzluk eki ile ('bulmuyorum' içinde; morph NEG)", "'bul-' 'ecidu' karşılığı (3. kelime; I. bab; 1S)",
+   "'fî' 4. kelimede bulunma eki ile ('vahyedilende' içinde)", "'mâ' 5. kelimede '-en' ile ('vahyedilende' içinde; morph REL)", "'vahyedil-' 'ûhiye' karşılığı (6. kelime; IV. bab; edilgen)",
+   "'ilâ' 7. kelimede yönelme eki ile ('Bana' içinde)", "'î' 7. kelimede 'Bana' ile", "'haram' 'muharram' karşılığı (8. kelime; nekre — 'bir' takdiri; II. bab edilgen ortaç)",
+   "'şey' takdiri ('haram bir şey' içinde)", "''alâ' 9. kelimede yönelme eki ile ('kimseye' içinde; fiil yönetimi takdiri)", "'yiyen' 'tâ'im' karşılığı (10. kelime; nekre — 'bir' takdiri; I. bab etken ortaç)",
+   "'kimse' takdiri ('bir kimseye' içinde)", "'ye-' 'yat'amu' karşılığı (11. kelime; I. bab; LEM 'ta'imu' (morph LEM ham biçim))", "'hû' 11. kelimede karşılıksız (sıfat cümlesinde düştü)",
+   "sıralama: söz 'De ki:' ardından, fiil sona alındı"]),
+  ("ölü ya da akıtılmış kan ya da domuz eti olması dışında", "illâ en yekûne meyteten ev demen mesfûhan ev lahme xinzîrin", [
+   "'illâ' 12. kelimede 'dışında' ile (morph EXP)", "'en' 13. kelimede '-ması' ile ('olması' içinde; morph SUB)", "'ol-' 'yekûne' karşılığı (14. kelime; I. bab; SUBJ)",
+   "'ölü' 'meyte' karşılığı (15. kelime; nekre — takdirsiz)", "'ev' 16. kelimede 'ya da' ile (morph CONJ)", "'kan' 'dem' karşılığı (17. kelime; nekre — takdirsiz)",
+   "'akıtılmış' 'mesfûh' karşılığı (18. kelime; nekre — takdirsiz; I. bab edilgen ortaç; sıfat)", "'ev' 19. kelimede 'ya da' ile (morph CONJ)", "'et' 'lahm' karşılığı (20. kelime; iyelik eki ile 'eti')",
+   "'domuz' 'xinzîr' karşılığı (21. kelime; nekre — takdirsiz)", "sıralama: istisna sona alındı"]),
+  ("çünkü o şüphesiz pisliktir", "fe-innehû ricsun", [
+   "'fe' 22. kelimede 'çünkü' ile (morph REM)", "'inne' 22. kelimede 'şüphesiz' ile (morph ACC)", "'hû' 22. kelimede 'o' ile",
+   "'pislik' 'rics' karşılığı (23. kelime; nekre — takdirsiz)", "'-tir' takdiri ('pisliktir' içinde)"]),
+  ("ya da Allah'tan başkası adına kesilmiş bir fısk olması dışında", "ev fisqan uhille li-ğayri'llâhi bih", [
+   "'ev' 24. kelimede 'ya da' ile (morph CONJ)", "'fısk' 'fisq' karşılığı (25. kelime; nekre — 'bir' takdiri)",
+   "'adına kesil-' 'uhille' açılımı (26. kelime; IV. bab; edilgen; LEM 'uhille' (morph LEM ham biçim))", "'li' 27. kelimede karşılıksız ('adına' açılımında)",
+   "'başka' 'ğayr' karşılığı (27. kelime; iyelik eki ile 'başkası')", "lafız 28. kelimede 'Allah' ile ('Allah'tan' içinde; ayrılma eki — fiil yönetimi takdiri)",
+   "'bi' 29. kelimede karşılıksız ('adına' açılımında)", "'hî' 29. kelimede karşılıksız ('adına' açılımında)", "'olması dışında' takdiri (istisnanın tekrarı)",
+   "sıralama: istisna sona alındı"]),
+  ("Kim saldırmadan ve sınırı aşmadan zorda kalırsa", "fe-meni'dturra ğayra bâğin ve lâ 'âdin", [
+   "'fe' 30. kelimede karşılıksız (morph REM)", "'men' 30. kelimede 'Kim' ile (morph COND)", "'zorda kal-' 'dturra' açılımı (31. kelime; VIII. bab; edilgen)",
+   "'-sa' takdiri ('kalırsa' içinde; şart eki)", "'-madan' 'ğayr' karşılığı (32. kelime; 'saldırmadan' içinde)", "'saldır-' 'bâğ' karşılığı (33. kelime; nekre — takdirsiz; I. bab etken ortaç; 'saldırmadan' içinde)",
+   "'ve' 34. kelimede 've' ile (morph CONJ)", "'lâ' 34. kelimede olumsuzluk eki ile ('aşmadan' içinde; morph NEG)", "'sınırı aş-' ''âd' açılımı (35. kelime; nekre — takdirsiz; I. bab etken ortaç; 'aşmadan' içinde)",
+   "sıralama: şart öne alındı"]),
+  ("şüphesiz Rabbin bağışlayandır, merhamet edendir", "fe-inne rabbeke ğafûrun rahîm", [
+   "'fe' 36. kelimede karşılıksız (morph RSLT)", "'inne' 36. kelimede 'şüphesiz' ile (morph ACC)", "'Rab' 'rabb' karşılığı (37. kelime; 'Rabbin' içinde)",
+   "'ke' 37. kelimede iyelik eki ile ('Rabbin' içinde)", "'bağışlayan' 'ğafûr' karşılığı (38. kelime; nekre — takdirsiz; esmâ; 'bağışlayandır' içinde)",
+   "'merhamet eden' 'rahîm' açılımı (39. kelime; nekre — takdirsiz; esmâ; 'edendir' içinde)", "'-dır' takdiri ('bağışlayandır' içinde)", "'-dir' takdiri ('edendir' içinde)"]),
+ ],
+ 146: [
+  ("Yahudi olanlara her tırnaklıyı haram kıldık", "ve 'ale'llezîne hâdû harramnâ kulle zî zufur", [
+   "'ve' 1. kelimede karşılıksız (morph CONJ)", "''alâ' 1. kelimede yönelme eki ile ('olanlara' içinde)", "'ellezîne' 2. kelimede '-lar' ile ('olanlara' içinde; morph REL)",
+   "'Yahudi olan' 'hâdû' açılımı (3. kelime; I. bab; LEM 'hâdu' (morph LEM ham biçim))", "'haram kıl-' 'harramnâ' açılımı (4. kelime; II. bab; 1P)", "'her' 'kull' karşılığı (5. kelime)",
+   "'-lı' 'zû' karşılığı (6. kelime; 'tırnaklıyı' içinde)", "'tırnak' 'zufur' karşılığı (7. kelime; nekre — takdirsiz; belirtme eki ile 'tırnaklıyı')", "sıralama: yönelme öne, fiil sona alındı"]),
+  ("Sığırdan ve koyundan da, sırtlarının ya da bağırsakların taşıdığı ya da kemiğe karışan dışında, onların iç yağlarını onlara haram kıldık", "ve mine'l-baqari ve'l-ğanemi harramnâ 'aleyhim şuhûmehumâ illâ mâ hamelet zuhûruhumâ evi'l-havâyâ ev mâ'xteleta bi-'azm", [
+   "'ve' 8. kelimede karşılıksız (morph CONJ)", "'min' 8. kelimede ayrılma eki ile ('Sığırdan' içinde)", "'sığır' 'baqar' karşılığı (9. kelime; belirli — takdirsiz; 'Sığırdan' içinde)",
+   "'ve' 10. kelimede 've' ile (morph CONJ)", "'koyun' 'ğanem' karşılığı (10. kelime; belirli — takdirsiz; 'koyundan' içinde)", "'da' takdiri ('koyundan da' içinde)",
+   "'haram kıl-' 'harramnâ' açılımı (11. kelime; II. bab; 1P)", "''alâ' 12. kelimede yönelme eki ile ('onlara' içinde)", "'him' 12. kelimede 'onlara' ile",
+   "'iç yağ' 'şuhûm' karşılığı (13. kelime; çoğul '-lar'; iyelik ve belirtme eki ile 'yağlarını')", "'humâ' 13. kelimede 'onların' ile (ikil — Türkçede çoğul)", "'illâ' 14. kelimede 'dışında' ile (morph EXP)",
+   "'mâ' 15. kelimede '-dığı' ile ('taşıdığı' içinde; morph REL)", "'taşı-' 'hamelet' karşılığı (16. kelime; I. bab)", "'sırt' 'zahr' karşılığı (17. kelime; çoğul 'zuhûr', '-lar'; 'sırtlarının' içinde)",
+   "'humâ' 17. kelimede iyelik eki ile ('sırtlarının' içinde; ikil — Türkçede çoğul)", "'ev' 18. kelimede 'ya da' ile (morph CONJ)", "'bağırsak' 'havâyâ' karşılığı (19. kelime; belirli — takdirsiz; çoğul '-lar')",
+   "'ev' 20. kelimede 'ya da' ile (morph CONJ)", "'mâ' 21. kelimede '-an' ile ('karışan' içinde; morph REL)", "'karış-' 'xteleta' karşılığı (22. kelime; VIII. bab)",
+   "'bi' 23. kelimede yönelme eki ile ('kemiğe' içinde; fiil yönetimi takdiri)", "'kemik' ''azm' karşılığı (23. kelime; nekre — takdirsiz)", "sıralama: istisna ortaya, fiil sona alındı"]),
+  ("Bu, azgınlıkları sebebiyle onları cezalandırmamızdır", "zâlike cezeynâhum bi-bağyihim", [
+   "'zâlike' 24. kelimede 'Bu' ile (işaret; morph DEM)", "'cezalandır-' 'cezeynâ' karşılığı (25. kelime; I. bab; 1P)", "'hum' 25. kelimede 'onları' ile",
+   "'bi' 26. kelimede 'sebebiyle' ile", "'azgınlık' 'bağy' karşılığı (26. kelime; iyelik eki ile 'azgınlıkları')", "'him' 26. kelimede iyelik eki ile ('azgınlıkları' içinde)",
+   "'-dır' takdiri ('cezalandırmamızdır' içinde)", "sıralama: gerekçe öne, fiil sona alındı"]),
+  ("şüphesiz biz doğru söyleyenleriz", "ve innâ le-sâdiqûn", [
+   "'ve' 27. kelimede karşılıksız (morph REM)", "'inne' 27. kelimede 'şüphesiz' ile (morph ACC)", "'nâ' 27. kelimede 'biz' ile",
+   "'le' 28. kelimede karşılıksız (morph EMPH — te'kîd)", "'doğru söyleyen' 'sâdiq' açılımı (28. kelime; I. bab etken ortaç; çoğul '-ler')"]),
+ ],
+ 147: [
+  ("Eğer seni yalanlarlarsa", "fe-in kezzebûke", [
+   "'fe' 1. kelimede karşılıksız (morph REM)", "'in' 1. kelimede 'Eğer' ile (morph COND)", "'yalanla-' 'kezzebû' karşılığı (2. kelime; II. bab)", "'ke' 2. kelimede 'seni' ile",
+   "sıralama: nesne öne, fiil sona alındı"]),
+  ("de ki: Rabbiniz geniş bir rahmet sahibidir", "fe-qul rabbukum zû rahmetin vâsi'atin", [
+   "'fe' 3. kelimede karşılıksız (morph RSLT)", "'de-' 'qul' karşılığı (3. kelime; I. bab; emir)", "'Rab' 'rabb' karşılığı (4. kelime; 'Rabbiniz' içinde)",
+   "'kum' 4. kelimede iyelik eki ile ('Rabbiniz' içinde)", "'sahip' 'zû' karşılığı (5. kelime; iyelik eki ile 'sahibidir')", "'rahmet' 'rahme' karşılığı (6. kelime; nekre — 'bir' takdiri)",
+   "'geniş' 'vâsi'a' karşılığı (7. kelime; nekre — takdirsiz; I. bab etken ortaç; sıfat)", "'-dir' takdiri ('sahibidir' içinde)", "sıralama: sıfat öne alındı"]),
+  ("O'nun şiddeti suçlu kavimden geri çevrilmez", "ve lâ yureddu be'suhû 'ani'l-qavmi'l-mucrimîn", [
+   "'ve' 8. kelimede karşılıksız (morph REM)", "'lâ' 8. kelimede olumsuzluk eki ile ('çevrilmez' içinde; morph NEG)", "'geri çevril-' 'yureddu' açılımı (9. kelime; I. bab; edilgen)",
+   "'şiddet' 'be's' karşılığı (10. kelime; iyelik eki ile 'şiddeti')", "'hû' 10. kelimede 'O'nun' ile", "''an' 11. kelimede ayrılma eki ile ('kavimden' içinde)",
+   "'kavim' 'qavm' karşılığı (12. kelime; belirli — takdirsiz; 'kavimden' içinde)", "'suçlu' 'mucrim' karşılığı (13. kelime; belirli — takdirsiz; IV. bab etken ortaç; sıfat; çoğul — Türkçede tekil)",
+   "sıralama: sıfat öne, fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (145, 146, 147):
+        out.append('6:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

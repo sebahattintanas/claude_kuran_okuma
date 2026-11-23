@@ -1,0 +1,80 @@
+6:145:1	قُل	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:145:2	لَّآ	P|NEG|LEM:لا
+6:145:3	أَجِدُ	V|IMPF|VF:1|ROOT:وجد|LEM:وَجَدَ|1S|MOOD:IND
+6:145:4	فِى	P|P|LEM:فِي
+6:145:5	مَآ	N|REL|LEM:ما
+6:145:6	أُوحِىَ	V|PERF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS
+6:145:7	إِلَىَّ	P|P|LEM:إِلَى + N|PRON|SUFF|1S
+6:145:8	مُحَرَّمًا	N|PASS_PCPL|VF:2|ROOT:حرم|LEM:مُحَرَّم|M|INDEF|ACC
+6:145:9	عَلَىٰ	P|P|LEM:عَلَى
+6:145:10	طَاعِمٍ	N|ACT_PCPL|VF:1|ROOT:طعم|LEM:طاعِم|M|INDEF|GEN
+6:145:11	يَطْعَمُهُۥٓ	V|IMPF|VF:1|ROOT:طعم|LEM:طَعِمُ|3MS|MOOD:IND + N|PRON|SUFF|3MS
+6:145:12	إِلَّآ	P|EXP|LEM:إِلّا
+6:145:13	أَن	P|SUB|LEM:أَن
+6:145:14	يَكُونَ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS|MOOD:SUBJ
+6:145:15	مَيْتَةً	N|ROOT:موت|LEM:مَيْتَة|FS|INDEF|ACC
+6:145:16	أَوْ	P|CONJ|LEM:أَو
+6:145:17	دَمًا	N|ROOT:دمو|LEM:دَم|M|INDEF|ACC
+6:145:18	مَّسْفُوحًا	N|PASS_PCPL|VF:1|ROOT:سفح|LEM:مَسْفُوح|M|INDEF|ACC|ADJ
+6:145:19	أَوْ	P|CONJ|LEM:أَو
+6:145:20	لَحْمَ	N|ROOT:لحم|LEM:لَحْم|M|ACC
+6:145:21	خِنزِيرٍ	N|ROOT:خنزر|LEM:خِنزِير|M|INDEF|GEN
+6:145:22	فَإِنَّهُۥ	P|REM|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:145:23	رِجْسٌ	N|ROOT:رجس|LEM:رِجْس|M|INDEF|NOM
+6:145:24	أَوْ	P|CONJ|LEM:أَو
+6:145:25	فِسْقًا	N|ROOT:فسق|LEM:فِسْق|M|INDEF|ACC
+6:145:26	أُهِلَّ	V|PERF|VF:4|PASS|ROOT:هلل|LEM:أُهِلَّ|3MS
+6:145:27	لِغَيْرِ	P|P|PREF|LEM:ل + N|ROOT:غير|LEM:غَيْر|M|GEN
+6:145:28	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:145:29	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:145:30	فَمَنِ	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+6:145:31	ٱضْطُرَّ	V|PERF|VF:8|PASS|ROOT:ضرر|LEM:اضْطُرَّ|3MS
+6:145:32	غَيْرَ	N|ROOT:غير|LEM:غَيْر|M|ACC
+6:145:33	بَاغٍ	N|ACT_PCPL|VF:1|ROOT:بغي|LEM:باغ|M|INDEF|GEN
+6:145:34	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:145:35	عَادٍ	N|ACT_PCPL|VF:1|ROOT:عدو|LEM:عاد|M|INDEF|GEN
+6:145:36	فَإِنَّ	P|RSLT|PREF|LEM:ف + P|ACC|LEM:إِنّ|FAM:إِنّ
+6:145:37	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:145:38	غَفُورٌ	N|ROOT:غفر|LEM:غَفُور|MS|INDEF|NOM
+6:145:39	رَّحِيمٌ	N|ROOT:رحم|LEM:رَحِيم|MS|INDEF|NOM|ADJ
+6:146:1	وَعَلَى	P|CONJ|PREF|LEM:و + P|P|LEM:عَلَى
+6:146:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:146:3	هَادُوا۟	V|PERF|VF:1|ROOT:هود|LEM:هادُ|3MP + N|PRON|SUFF|3MP
+6:146:4	حَرَّمْنَا	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|1P + N|PRON|SUFF|1P
+6:146:5	كُلَّ	N|ROOT:كلل|LEM:كُلّ|M|ACC
+6:146:6	ذِى	N|LEM:ذُو|MS|GEN
+6:146:7	ظُفُرٍ	N|ROOT:ظفر|LEM:ظُفُر|M|INDEF|GEN
+6:146:8	وَمِنَ	P|CONJ|PREF|LEM:و + P|P|LEM:مِن
+6:146:9	ٱلْبَقَرِ	P|DET|PREF|LEM:ال + N|ROOT:بقر|LEM:بَقَر|M|GEN
+6:146:10	وَٱلْغَنَمِ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:غنم|LEM:غَنَم|M|GEN
+6:146:11	حَرَّمْنَا	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|1P + N|PRON|SUFF|1P
+6:146:12	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+6:146:13	شُحُومَهُمَآ	N|ROOT:شحم|LEM:شُحُوم|MP|ACC + N|PRON|SUFF|3D
+6:146:14	إِلَّا	P|EXP|LEM:إِلّا
+6:146:15	مَا	N|REL|LEM:ما
+6:146:16	حَمَلَتْ	V|PERF|VF:1|ROOT:حمل|LEM:حَمَلَ|3FS
+6:146:17	ظُهُورُهُمَآ	N|ROOT:ظهر|LEM:ظَهْر|MP|NOM + N|PRON|SUFF|3D
+6:146:18	أَوِ	P|CONJ|LEM:أَو
+6:146:19	ٱلْحَوَايَآ	P|DET|PREF|LEM:ال + N|ROOT:حوي|LEM:حَوايا|MP|NOM
+6:146:20	أَوْ	P|CONJ|LEM:أَو
+6:146:21	مَا	N|REL|LEM:ما
+6:146:22	ٱخْتَلَطَ	V|PERF|VF:8|ROOT:خلط|LEM:اخْتَلَطَ|3MS
+6:146:23	بِعَظْمٍ	P|P|PREF|LEM:ب + N|ROOT:عظم|LEM:عَظْم|M|INDEF|GEN
+6:146:24	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:146:25	جَزَيْنَٰهُم	V|PERF|VF:1|ROOT:جزي|LEM:جَزَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MP
+6:146:26	بِبَغْيِهِمْ	P|P|PREF|LEM:ب + N|ROOT:بغي|LEM:بَغْي|M|GEN + N|PRON|SUFF|3MP
+6:146:27	وَإِنَّا	P|REM|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+6:146:28	لَصَٰدِقُونَ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:1|ROOT:صدق|LEM:صادِق|MP|NOM
+6:147:1	فَإِن	P|REM|PREF|LEM:ف + P|COND|LEM:إِن
+6:147:2	كَذَّبُوكَ	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|2MS
+6:147:3	فَقُل	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:147:4	رَّبُّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MP
+6:147:5	ذُو	N|LEM:ذُو|MS|NOM
+6:147:6	رَحْمَةٍ	N|ROOT:رحم|LEM:رَحْمَة|F|INDEF|GEN
+6:147:7	وَٰسِعَةٍ	N|ACT_PCPL|VF:1|ROOT:وسع|LEM:واسِعَة|F|INDEF|GEN|ADJ
+6:147:8	وَلَا	P|REM|PREF|LEM:و + P|NEG|LEM:لا
+6:147:9	يُرَدُّ	V|IMPF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|3MS|MOOD:IND
+6:147:10	بَأْسُهُۥ	N|ROOT:بأس|LEM:بَأْس|M|NOM + N|PRON|SUFF|3MS
+6:147:11	عَنِ	P|P|LEM:عَن
+6:147:12	ٱلْقَوْمِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|GEN
+6:147:13	ٱلْمُجْرِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:جرم|LEM:مُجْرِم|MP|GEN|ADJ

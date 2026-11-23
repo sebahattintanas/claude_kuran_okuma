@@ -126,6 +126,10 @@ BAGLAR = {"AS_enam": [
  {'bag': '2:168 → 6:142', 'kural': "okuma — harekesiz 've lâ tettebi'û xutuvâti'ş-şeytân, innehû lekum 'aduvvun mubîn'; sayım 'say 6:142 9-16'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân inne _ 'aduvv mubîn' (dizi 6 142 9 16)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '2:208 → 6:142', 'kural': "okuma — harekesiz 've lâ tettebi'û xutuvâti'ş-şeytân, innehû lekum 'aduvvun mubîn'; sayım 'say 6:142 9-16'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân inne _ 'aduvv mubîn' (dizi 6 142 9 16)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '24:21 → 6:142', 'kural': "okuma — harekesiz 'tettebi'û xutuvâti'ş-şeytân'; sayım 'say 6:142 10-12'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân' (dizi 6 142 9 12)", 'not': 'kalıp eşi (sayım).'},
+ # blok 145-147
+ {'bag': '2:173 → 6:145', 'kural': "okuma — harekesiz 'fe-meni'dturra ğayra bâğin ve lâ 'âdin'; sayım 'say 6:145 30-35'; en uzun ortak lemma dizisi 'men idturra ğayr bâğ lâ 'âd' (dizi 6 145 30 35)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '16:115 → 6:145', 'kural': "okuma — harekesiz 'uhille li-ğayri'llâhi bih, fe-meni'dturra ğayra bâğin ve lâ 'âdin'; sayım 'say 6:145 26-35'; lemma dizisi 'uhille ğayr allâh _ men idturra ğayr bâğ lâ 'âd' (dizi 6 145 26 35); en uzun ortak lemma dizisi 'men idturra ğayr bâğ lâ 'âd inne' (dizi 6 145 30 36)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '12:110 → 6:147', 'kural': "okuma — harekesiz ''ani'l-qavmi'l-mucrimîn'; sayım 'say 6:147 11-13'; en uzun ortak lemma dizisi 'lâ radde be's 'an qavm mucrim' (dizi 6 147 8 13)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
