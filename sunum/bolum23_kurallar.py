@@ -1,7 +1,7 @@
 # sûre 6 bölüm 7 denetimi araç kuralları (bekleyen_ariza_6_b15.txt 2. öğe) — kural 2 esma_kayit.py koşar (esma_kayit.json'a atomik yazar; salt okur değil):
 #  (1) ALINTI_ALTDIZE_ESMA: ARIZA 'esmâ:' maddesindeki 'S:a 'X'' alıntıları o ayetin ◇ transliterasyonunun alt dizesi
 #  (2) ESMA_DUR_KAYIT: esma_kayit e_el=? > 0 ya da esmâ maddesinde 'kapalı listede kural yok' varsa maddede 'soruldu' / 'kullanıcı kararı:' kaydı bulunur; gerekçe adı '/' ile çift olmaz
-#  (3) BASKIN_TOPLAM: ölçüm şahıs alanında kişi toplamı (1 / 2 / 3) eşitse ya da en yüksek kişi ölçüm 'baskın'dan farklıysa ◈A A4'te 'beraberlik' notu
+#  (3) BASKIN_TOPLAM: ölçüm şahıs alanında kişi toplamı (1 / 2 / 3) eşitse ya da en yüksek kişi ölçüm 'baskın'dan farklıysa ◈A A4'te 'beraberlik' (eşitlik) ya da 'toplam farkı' (ayrışma) notu [bölüm 17 denetimi: yalnız A4]
 #  (4) DIZI_AD_LEMMA: ◇'deki 'Lemma dizisi 'X'' adı say2 dizi demetiyle öğe sayısında eş; öğe 'bi-' / 'fe-' / 've-' önekiyle başlamaz
 #  (5) SORU_CEVAP_A4: ARIZA A4 maddesinde 'S:a sorusu S:b'te … yanıtlanıyor' okuması varsa S:b A4'ünde 'soru → cevap'
 # (elle: GERIYE_DONUK_TAZE, GEVSEME_FARK, SOZ_BICIMLI_IC, SOZ_SINIR_REM, ILERI_GONDERGE, MEAL_TAKDIR_TAM, CAKISMA_TUTARLI, ELA_YAZIM, YILDIZ_KAYNAK_CELISKI, KELIME_KONTROL_SEG)
@@ -57,8 +57,9 @@ for a in range(A, B + 1):
     if not top: continue
     mx = max(top.values()); ust = sorted(p for p, c in top.items() if c == mx)
     EN['baskin'] += 1
-    if (len(ust) > 1 or ust[0] != m.group(2)) and 'beraberlik' not in satir(a, '◈A'):
-        H.append("(3) %d:%d kişi toplamı %s / ölçüm baskın %s — A4'te 'beraberlik' notu yok" % (S, a, ' · '.join('%s: %d' % kv for kv in sorted(top.items())), m.group(2)))
+    _a4 = satir(a, '◈A').split(' A4 ', 1)[1] if ' A4 ' in satir(a, '◈A') else ''  # bölüm 17 denetimi: yalnız A4; eşitlikte 'beraberlik', ayrışmada 'toplam farkı'
+    if (len(ust) > 1 or ust[0] != m.group(2)) and not re.search(r'beraberlik|toplam farkı', _a4):
+        H.append("(3) %d:%d kişi toplamı %s / ölçüm baskın %s — A4'te 'beraberlik' / 'toplam farkı' notu yok" % (S, a, ' · '.join('%s: %d' % kv for kv in sorted(top.items())), m.group(2)))
 
 # ── (4) DIZI_AD_LEMMA ──
 S2 = {}
