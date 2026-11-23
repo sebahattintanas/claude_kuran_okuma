@@ -1,0 +1,91 @@
+6:153:1	وَأَنَّ	P|CONJ|PREF|LEM:و + P|ACC|LEM:أَنّ|FAM:إِنّ
+6:153:2	هَٰذَا	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:153:3	صِرَٰطِى	N|ROOT:صرط|LEM:صِراط|M|NOM + N|PRON|SUFF|1S
+6:153:4	مُسْتَقِيمًا	N|ACT_PCPL|VF:10|ROOT:قوم|LEM:مُسْتَقِيم|M|INDEF|ACC
+6:153:5	فَٱتَّبِعُوهُ	P|CAUS|PREF|LEM:ف + V|IMPV|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+6:153:6	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:153:7	تَتَّبِعُوا۟	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:153:8	ٱلسُّبُلَ	P|DET|PREF|LEM:ال + N|ROOT:سبل|LEM:سَبِيل|MP|ACC
+6:153:9	فَتَفَرَّقَ	P|CAUS|PREF|LEM:ف + V|IMPF|VF:5|ROOT:فرق|LEM:تَفَرَّقَ|3FS|MOOD:SUBJ
+6:153:10	بِكُمْ	P|P|PREF|LEM:ب + N|PRON|2MP
+6:153:11	عَن	P|P|LEM:عَن
+6:153:12	سَبِيلِهِۦ	N|ROOT:سبل|LEM:سَبِيل|M|GEN + N|PRON|SUFF|3MS
+6:153:13	ذَٰلِكُمْ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|MP
+6:153:14	وَصَّىٰكُم	V|PERF|VF:2|ROOT:وصي|LEM:وَصَّى|3MS + N|PRON|SUFF|2MP
+6:153:15	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:153:16	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:153:17	تَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:154:1	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:154:2	ءَاتَيْنَا	V|PERF|VF:4|ROOT:أتي|LEM:آتَى|1P + N|PRON|SUFF|1P
+6:154:3	مُوسَى	N|PN|LEM:مُوسَى|M|ACC
+6:154:4	ٱلْكِتَٰبَ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|ACC
+6:154:5	تَمَامًا	N|ROOT:تمم|LEM:تَمام|M|INDEF|ACC
+6:154:6	عَلَى	P|P|LEM:عَلَى
+6:154:7	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+6:154:8	أَحْسَنَ	V|PERF|VF:4|ROOT:حسن|LEM:أَحْسَنَ|3MS
+6:154:9	وَتَفْصِيلًا	P|CONJ|PREF|LEM:و + N|VN|VF:2|ROOT:فصل|LEM:تَفْصِيل|M|INDEF|ACC
+6:154:10	لِّكُلِّ	P|P|PREF|LEM:ل + N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:154:11	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:154:12	وَهُدًى	P|CONJ|PREF|LEM:و + N|ROOT:هدي|LEM:هُدًى|M|INDEF|ACC
+6:154:13	وَرَحْمَةً	P|CONJ|PREF|LEM:و + N|ROOT:رحم|LEM:رَحْمَة|F|INDEF|ACC
+6:154:14	لَّعَلَّهُم	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|3MP
+6:154:15	بِلِقَآءِ	P|P|PREF|LEM:ب + N|VN|VF:3|ROOT:لقي|LEM:لِقاء|M|GEN
+6:154:16	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+6:154:17	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:155:1	وَهَٰذَا	P|REM|PREF|LEM:و + P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+6:155:2	كِتَٰبٌ	N|ROOT:كتب|LEM:كِتاب|M|INDEF|NOM
+6:155:3	أَنزَلْنَٰهُ	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+6:155:4	مُبَارَكٌ	N|PASS_PCPL|VF:3|ROOT:برك|LEM:مُبارَك|M|INDEF|NOM|ADJ
+6:155:5	فَٱتَّبِعُوهُ	P|REM|PREF|LEM:ف + V|IMPV|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+6:155:6	وَٱتَّقُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP + N|PRON|SUFF|2MP
+6:155:7	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:155:8	تُرْحَمُونَ	V|IMPF|VF:1|PASS|ROOT:رحم|LEM:رَحِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:156:1	أَن	P|SUB|LEM:أَن
+6:156:2	تَقُولُوٓا۟	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+6:156:3	إِنَّمَآ	P|ACC|LEM:إِنّ|FAM:إِنّ + P|PREV|LEM:ما
+6:156:4	أُنزِلَ	V|PERF|VF:4|PASS|ROOT:نزل|LEM:أَنزَلَ|3MS
+6:156:5	ٱلْكِتَٰبُ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|NOM
+6:156:6	عَلَىٰ	P|P|LEM:عَلَى
+6:156:7	طَآئِفَتَيْنِ	N|ROOT:طوف|LEM:طائِفَة|FD|GEN
+6:156:8	مِن	P|P|LEM:مِن
+6:156:9	قَبْلِنَا	N|ROOT:قبل|LEM:قَبْل|GEN + N|PRON|SUFF|1P
+6:156:10	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+6:156:11	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+6:156:12	عَن	P|P|LEM:عَن
+6:156:13	دِرَاسَتِهِمْ	N|ROOT:درس|LEM:دِراسَت|F|GEN + N|PRON|SUFF|3MP
+6:156:14	لَغَٰفِلِينَ	P|EMPH|PREF|LEM:ل + N|ACT_PCPL|VF:1|ROOT:غفل|LEM:غافِل|MP|ACC
+6:157:1	أَوْ	P|CONJ|LEM:أَو
+6:157:2	تَقُولُوا۟	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+6:157:3	لَوْ	P|COND|LEM:لَو
+6:157:4	أَنَّآ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|1P
+6:157:5	أُنزِلَ	V|PERF|VF:4|PASS|ROOT:نزل|LEM:أَنزَلَ|3MS
+6:157:6	عَلَيْنَا	P|P|LEM:عَلَى + N|PRON|SUFF|1P
+6:157:7	ٱلْكِتَٰبُ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|NOM
+6:157:8	لَكُنَّآ	P|EMPH|PREF|LEM:ل + V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+6:157:9	أَهْدَىٰ	N|ROOT:هدي|LEM:أَهْدَى|MS|ACC
+6:157:10	مِنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+6:157:11	فَقَدْ	P|RSLT|PREF|LEM:ف + P|CERT|LEM:قَد
+6:157:12	جَآءَكُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+6:157:13	بَيِّنَةٌ	N|ROOT:بين|LEM:بَيِّنَة|FS|INDEF|NOM
+6:157:14	مِّن	P|P|LEM:مِن
+6:157:15	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+6:157:16	وَهُدًى	P|CONJ|PREF|LEM:و + N|ROOT:هدي|LEM:هُدًى|M|INDEF|NOM
+6:157:17	وَرَحْمَةٌ	P|CONJ|PREF|LEM:و + N|ROOT:رحم|LEM:رَحْمَة|F|INDEF|NOM
+6:157:18	فَمَنْ	P|REM|PREF|LEM:ف + N|INTG|LEM:مَن
+6:157:19	أَظْلَمُ	N|ROOT:ظلم|LEM:أَظْلَم|MS|NOM
+6:157:20	مِمَّن	P|P|LEM:مِن + N|REL|LEM:مَن
+6:157:21	كَذَّبَ	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MS
+6:157:22	بِـَٔايَٰتِ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:157:23	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:157:24	وَصَدَفَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:صدف|LEM:صَدَفَ|3MS
+6:157:25	عَنْهَا	P|P|LEM:عَن + N|PRON|SUFF|3FS
+6:157:26	سَنَجْزِى	P|FUT|PREF|LEM:س + V|IMPF|VF:1|ROOT:جزي|LEM:جَزَى|1P|MOOD:IND
+6:157:27	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:157:28	يَصْدِفُونَ	V|IMPF|VF:1|ROOT:صدف|LEM:صَدَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:157:29	عَنْ	P|P|LEM:عَن
+6:157:30	ءَايَٰتِنَا	N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+6:157:31	سُوٓءَ	N|ROOT:سوأ|LEM:سُوء|M|ACC
+6:157:32	ٱلْعَذَابِ	P|DET|PREF|LEM:ال + N|ROOT:عذب|LEM:عَذاب|M|GEN
+6:157:33	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:157:34	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:157:35	يَصْدِفُونَ	V|IMPF|VF:1|ROOT:صدف|LEM:صَدَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

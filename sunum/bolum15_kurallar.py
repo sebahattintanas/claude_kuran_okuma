@@ -120,7 +120,7 @@ for l in (open(EL, encoding='utf-8').read().split('\n') if _o.path.exists(EL) el
 EMS = set()
 for f in glob.glob(_BK + 'b*/ems.txt'): EMS |= set(open(f, encoding='utf-8').read().split())
 for kay in [M[n] for n in range(A, B + 1)] + ITEMS:
-    for m in re.finditer(r'((?:\d+:\d+(?:, | ve )?)+) \(emsal olarak basıldı\)', kay):
+    for m in re.finditer(r'((?:(?<![\d:])\d+:\d+(?![\d:])(?:, | ve )?)+) \(emsal olarak basıldı\)', kay):  # sûre 6 blok 38: geri izleme sınırı (işlev eş)
         for h in re.findall(r'\d+:\d+', m.group(1)):
             if h not in EMS: H.append("(14) %s '(emsal olarak basıldı)' — emsal olarak basılmadı (blok ayeti: '(basılmış)')" % h)
 

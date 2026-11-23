@@ -138,6 +138,10 @@ BAGLAR = {"AS_enam": [
  {'bag': '17:33 → 6:151', 'kural': "okuma — harekesiz 've lâ taqtulu'n-nefse'lletî harrame'llâhu illâ bi'l-haqq'; sayım 'say 6:151 30-37'; en uzun ortak lemma dizisi 'lâ qatele nefs ellezî harrame allâh illâ haqq' (dizi 6 151 30 37)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '25:68 → 6:151', 'kural': "okuma — harekesiz 'n-nefse'lletî harrame'llâhu illâ bi'l-haqq'; sayım 'say 6:151 32-37'; en uzun ortak lemma dizisi 'lâ qatele nefs ellezî harrame allâh illâ haqq' (dizi 6 151 30 37)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '17:34 → 6:152', 'kural': "okuma — harekesiz 've lâ taqrabû mâle'l-yetîmi illâ bi'lletî hiye ahsenu hattâ yebluğa eşuddeh'; sayım 'say 6:152 1-11'; en uzun ortak lemma dizisi 'lâ yaqrabu mâl yetîm illâ ellezî hiye ahsen hattâ beleğa eşudd evfâ' (dizi 6 152 1 12)", 'not': 'kalıp eşi (sayım).'},
+ # blok 153-157
+ {'bag': '12:111 → 6:154', 'kural': "okuma — harekesiz 'şey'in ve huden ve rahmeten'; sayım 'say 6:154 11-13'; en uzun ortak lemma dizisi 'tafsîl kull şey' hudâ rahme' (dizi 6 154 9 13)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '16:89 → 6:154', 'kural': "okuma — harekesiz 'li-kulli şey'in ve huden ve rahmeten'; sayım 'say 6:154 10-13'; en uzun ortak lemma dizisi 'kull şey' hudâ rahme' (dizi 6 154 10 13)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '38:29 → 6:155', 'kural': "okuma — harekesiz 'kitâbun enzelnâhu'; sayım 'say 6:155 2-3'; en uzun ortak lemma dizisi 'kitâb enzele' (dizi 6 155 2 3)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
