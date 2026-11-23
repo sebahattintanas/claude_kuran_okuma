@@ -1605,4 +1605,7 @@ KARAR = {
     # sure 6 blok 139-141
     '6:139:21': 'ilahi',  # 'innehû hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Allah)
     '6:139:22': 'ilahi',  # 'innehû hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Allah; morph ADJ ile 'hakîm'in sıfatı)
+    # sure 6 blok 142-144
+    '6:142:16': 'degil',  # ''aduvvun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (düşmanın sıfatı)
+    '6:144:19': 'degil',  # 'em kuntum şuhedâ'e' — esmâ adı esmâ dışı göndergeyle → degil (muhatap topluluk)
 }

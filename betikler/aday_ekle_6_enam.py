@@ -122,6 +122,10 @@ BAGLAR = {"AS_enam": [
  # blok 136-138
  {'bag': '22:36 → 6:138', 'kural': "okuma — harekesiz 'isma'llâhi 'aleyhâ'; sayım 'say 6:138 18-20'; en uzun ortak lemma dizisi 'zekere ism allâh 'alâ' (dizi 6 138 17 20)", 'not': 'kalıp eşi (sayım).'},
  # blok 139-141
+ # blok 142-144
+ {'bag': '2:168 → 6:142', 'kural': "okuma — harekesiz 've lâ tettebi'û xutuvâti'ş-şeytân, innehû lekum 'aduvvun mubîn'; sayım 'say 6:142 9-16'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân inne _ 'aduvv mubîn' (dizi 6 142 9 16)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '2:208 → 6:142', 'kural': "okuma — harekesiz 've lâ tettebi'û xutuvâti'ş-şeytân, innehû lekum 'aduvvun mubîn'; sayım 'say 6:142 9-16'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân inne _ 'aduvv mubîn' (dizi 6 142 9 16)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '24:21 → 6:142', 'kural': "okuma — harekesiz 'tettebi'û xutuvâti'ş-şeytân'; sayım 'say 6:142 10-12'; en uzun ortak lemma dizisi 'lâ ittebe xutuve şeytân' (dizi 6 142 9 12)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
