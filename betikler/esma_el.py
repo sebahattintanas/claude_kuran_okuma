@@ -1602,4 +1602,7 @@ KARAR = {
     '6:128:35': 'ilahi',  # 'inne rabbeke hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Rab; 'hakîm'in sıfatı)
     # sure 6 blok 131-135
     '6:133:2': 'ilahi',  # 've rabbuke'l-ğaniyyu' — 've'llâhu X' kuralı → ilahi (Rab; 've rabbuke X' kalıbı)
+    # sure 6 blok 139-141
+    '6:139:21': 'ilahi',  # 'innehû hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Allah)
+    '6:139:22': 'ilahi',  # 'innehû hakîmun 'alîm' — 'inne/enne' haberi → ilahi (Allah; morph ADJ ile 'hakîm'in sıfatı)
 }

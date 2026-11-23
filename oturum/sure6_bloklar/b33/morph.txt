@@ -1,0 +1,73 @@
+6:139:1	وَقَالُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+6:139:2	مَا	N|REL|LEM:ما
+6:139:3	فِى	P|P|LEM:فِي
+6:139:4	بُطُونِ	N|ROOT:بطن|LEM:بَطْن|MP|GEN
+6:139:5	هَٰذِهِ	P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|FS
+6:139:6	ٱلْأَنْعَٰمِ	P|DET|PREF|LEM:ال + N|ROOT:نعم|LEM:نَعَم|MP|GEN
+6:139:7	خَالِصَةٌ	N|ACT_PCPL|VF:1|ROOT:خلص|LEM:خالِصَة|F|INDEF|NOM
+6:139:8	لِّذُكُورِنَا	P|P|PREF|LEM:ل + N|ROOT:ذكر|LEM:ذَكَر|MP|GEN + N|PRON|SUFF|1P
+6:139:9	وَمُحَرَّمٌ	P|CONJ|PREF|LEM:و + N|PASS_PCPL|VF:2|ROOT:حرم|LEM:مُحَرَّم|M|INDEF|NOM
+6:139:10	عَلَىٰٓ	P|P|LEM:عَلَى
+6:139:11	أَزْوَٰجِنَا	N|ROOT:زوج|LEM:زَوْج|MP|GEN + N|PRON|SUFF|1P
+6:139:12	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+6:139:13	يَكُن	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS|MOOD:JUS
+6:139:14	مَّيْتَةً	N|ROOT:موت|LEM:مَيْتَة|FS|INDEF|ACC
+6:139:15	فَهُمْ	P|RSLT|PREF|LEM:ف + N|PRON|3MP
+6:139:16	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+6:139:17	شُرَكَآءُ	N|ROOT:شرك|LEM:شَرِيك|MP|NOM
+6:139:18	سَيَجْزِيهِمْ	P|FUT|PREF|LEM:س + V|IMPF|VF:1|ROOT:جزي|LEM:جَزَى|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:139:19	وَصْفَهُمْ	N|ROOT:وصف|LEM:وَصْف|M|ACC + N|PRON|SUFF|3MP
+6:139:20	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:139:21	حَكِيمٌ	N|ROOT:حكم|LEM:حَكِيم|MS|INDEF|NOM
+6:139:22	عَلِيمٌ	N|ROOT:علم|LEM:عَلِيم|MS|INDEF|NOM|ADJ
+6:140:1	قَدْ	P|CERT|LEM:قَد
+6:140:2	خَسِرَ	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MS
+6:140:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:140:4	قَتَلُوٓا۟	V|PERF|VF:1|ROOT:قتل|LEM:قَتَلَ|3MP + N|PRON|SUFF|3MP
+6:140:5	أَوْلَٰدَهُمْ	N|ROOT:ولد|LEM:وَلَد|MP|ACC + N|PRON|SUFF|3MP
+6:140:6	سَفَهًۢا	N|ROOT:سفه|LEM:سَفَه|M|INDEF|ACC
+6:140:7	بِغَيْرِ	P|P|PREF|LEM:ب + N|ROOT:غير|LEM:غَيْر|M|GEN
+6:140:8	عِلْمٍ	N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+6:140:9	وَحَرَّمُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|3MP + N|PRON|SUFF|3MP
+6:140:10	مَا	N|REL|LEM:ما
+6:140:11	رَزَقَهُمُ	V|PERF|VF:1|ROOT:رزق|LEM:رَزَقَ|3MS + N|PRON|SUFF|3MP
+6:140:12	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:140:13	ٱفْتِرَآءً	N|VN|VF:8|ROOT:فري|LEM:افْتِراء|M|INDEF|ACC
+6:140:14	عَلَى	P|P|LEM:عَلَى
+6:140:15	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:140:16	قَدْ	P|CERT|LEM:قَد
+6:140:17	ضَلُّوا۟	V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MP + N|PRON|SUFF|3MP
+6:140:18	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+6:140:19	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:140:20	مُهْتَدِينَ	N|ACT_PCPL|VF:8|ROOT:هدي|LEM:مُهْتَدي|MP|ACC
+6:141:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:141:2	ٱلَّذِىٓ	N|REL|LEM:الَّذِي|MS
+6:141:3	أَنشَأَ	V|PERF|VF:4|ROOT:نشأ|LEM:أَنشَأَ|3MS
+6:141:4	جَنَّٰتٍ	N|ROOT:جنن|LEM:جَنَّة|FP|INDEF|ACC
+6:141:5	مَّعْرُوشَٰتٍ	N|PASS_PCPL|VF:1|ROOT:عرش|LEM:مَعْرُوشَة|FP|INDEF|ACC|ADJ
+6:141:6	وَغَيْرَ	P|CONJ|PREF|LEM:و + N|ROOT:غير|LEM:غَيْر|M|ACC
+6:141:7	مَعْرُوشَٰتٍ	N|PASS_PCPL|VF:1|ROOT:عرش|LEM:مَعْرُوشَة|FP|INDEF|GEN
+6:141:8	وَٱلنَّخْلَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نخل|LEM:نَخْل|M|ACC
+6:141:9	وَٱلزَّرْعَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:زرع|LEM:زَرْع|M|ACC
+6:141:10	مُخْتَلِفًا	N|ACT_PCPL|VF:8|ROOT:خلف|LEM:مُخْتَلِف|M|INDEF|ACC
+6:141:11	أُكُلُهُۥ	N|ROOT:أكل|LEM:أُكُل|M|NOM + N|PRON|SUFF|3MS
+6:141:12	وَٱلزَّيْتُونَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:زيت|LEM:زَيْتُون|M|ACC
+6:141:13	وَٱلرُّمَّانَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:رمن|LEM:رُمّان|M|ACC
+6:141:14	مُتَشَٰبِهًا	N|ACT_PCPL|VF:6|ROOT:شبه|LEM:مُتَشابِه|M|INDEF|ACC
+6:141:15	وَغَيْرَ	P|CONJ|PREF|LEM:و + N|ROOT:غير|LEM:غَيْر|M|ACC
+6:141:16	مُتَشَٰبِهٍ	N|ACT_PCPL|VF:6|ROOT:شبه|LEM:مُتَشابِه|M|INDEF|GEN
+6:141:17	كُلُوا۟	V|IMPV|VF:1|ROOT:أكل|LEM:أَكَلَ|2MP + N|PRON|SUFF|2MP
+6:141:18	مِن	P|P|LEM:مِن
+6:141:19	ثَمَرِهِۦٓ	N|ROOT:ثمر|LEM:ثَمَر|M|GEN + N|PRON|SUFF|3MS
+6:141:20	إِذَآ	N|T|LEM:إِذا
+6:141:21	أَثْمَرَ	V|PERF|VF:4|ROOT:ثمر|LEM:أَثْمَرَ|3MS
+6:141:22	وَءَاتُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:4|ROOT:أتي|LEM:آتَى|2MP + N|PRON|SUFF|2MP
+6:141:23	حَقَّهُۥ	N|ROOT:حقق|LEM:حَقّ|M|ACC + N|PRON|SUFF|3MS
+6:141:24	يَوْمَ	N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:141:25	حَصَادِهِۦ	N|ROOT:حصد|LEM:حَصاد|M|GEN + N|PRON|SUFF|3MS
+6:141:26	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:141:27	تُسْرِفُوٓا۟	V|IMPF|VF:4|ROOT:سرف|LEM:أَسْرَفَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:141:28	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:141:29	لَا	P|NEG|LEM:لا
+6:141:30	يُحِبُّ	V|IMPF|VF:4|ROOT:حبب|LEM:أَحْبَبْ|3MS|MOOD:IND
+6:141:31	ٱلْمُسْرِفِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:سرف|LEM:مُسْرِف|MP|ACC

@@ -121,6 +121,7 @@ BAGLAR = {"AS_enam": [
  {'bag': '28:37 → 6:135', 'kural': "okuma — harekesiz ''âqibetu'd-dâr'; sayım 'say 6:135 13-14'", 'not': 'kalıp eşi (sayım).'},
  # blok 136-138
  {'bag': '22:36 → 6:138', 'kural': "okuma — harekesiz 'isma'llâhi 'aleyhâ'; sayım 'say 6:138 18-20'; en uzun ortak lemma dizisi 'zekere ism allâh 'alâ' (dizi 6 138 17 20)", 'not': 'kalıp eşi (sayım).'},
+ # blok 139-141
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
