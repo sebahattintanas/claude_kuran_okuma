@@ -1,0 +1,23 @@
+KQ = ['bi', 'elletî', 'hu', 'hâ', 'illâ', 'kum', 'min', 'mâ', 've']
+KM = {
+ "'bi'": "çakışma değil ('-de' / '-le' / belirtme eki / yönelme eki / karşılıksız — edat anlamı, fiil yönetimi, açılım)",
+ "'elletî'": "çakışma değil (REL '-dığı' / '-ması' — ilgi eki, sıfat-fiil / ad-fiil)",
+ "'hu'": "çakışma değil (zamir 'O'na' / iyelik eki / karşılıksız — fiil yönetimi, tamlama çekimi, işarete dönen zamir)",
+ "'hâ'": "çakışma değil (iyelik eki / karşılıksız — tamlama çekimi, tamlayan açılımı)",
+ "'illâ'": "çakışma değil ('fazlasını' / karşılıksız — olumsuz istisna açılımı)",
+ "'kum'": "çakışma değil ('size' / 'sizi' / iyelik eki / karşılıksız — fiil yönetimi, tamlama çekimi, hitap eki, fiil çekimi)",
+ "'min'": "çakışma değil ('-la' / karşılıksız — sebep, tamlama açılımı)",
+ "'mâ'": "çakışma değil (REL '-an' / '-dığı' — ilgi eki, ünlü uyumu)",
+ "'ve'": "çakışma değil ('da' / 've' / karşılıksız atıf — Türkçe sıralama)",
+ "'evfu' / 'evfû'": "çakışma — tam okuma sonu ('tam yap-' / 'yerine getir-' bağlam karşılığı)",
+ "'belağnâ' / 'beleğ' / 'yebluğa'": "çakışma — tam okuma sonu ('eriş-' / 'ulaş-' bağlam karşılığı)",
+ "'tetezekkerûn' / 'tezekkerûn' / 'yezzekkerûn'": "çakışma — tam okuma sonu ('düşün-' / 'öğüt al-' bağlam karşılığı)",
+ "'harrame' / 'harramnâ' / 'harramû' / 'hurrimet'": "çakışma değil ('haram kıl-' / 'haram kılın-' — etken / edilgen çatı)",
+ "'haqq'": "çakışma — tam okuma sonu ('hak' / 'gerçek' — bağlam karşılığı)",
+ "'nerzuqu' / 'razaqa'": "çakışma — tam okuma sonu ('rızık olarak ver-' / 'rızıklandır-' bağlam karşılığı)",
+ "'a'dilû' / 'ta'dil' / 'ya'dilûn'": "çakışma — tam okuma sonu ('adaletli ol-' / 'denk tut-' / 'öde-' bağlam karşılığı)",
+ "'eqûlu' / 'neqûlu' / 'qul' / 'qultum' / 'qâle' / 'qâlû' / 'teqûlûne' / 'yeqûlu' / 'yeqûlû' / 'yeqûlûn'": "çakışma değil ('de-' / 'söyle-' — çekim, emir kipi)",
+ "'ekûne' / 'ekûnenne' / 'kun' / 'kunnâ' / 'kuntum' / 'kâne' / 'kânû' / 'nekûne' / 'nekûnenne' / 'tekun' / 'tekûne' / 'tekûnenne' / 'tekûnu' / 'yekun' / 'yekûn' / 'yekûne' / 'yekûnu'": "çakışma değil ('-di' / 'ol-' / 'ait olan' — yardımcı fiil, geçmiş zaman eki, mülkiyet açılımı)",
+ "'zâlikum vassâkum bihî le'allekum'": "çakışma değil (6:151 ve 6:152 eş karşılık 'Bu, size tavsiye ettiğidir; ola ki')",
+ "'nefs'": "çakışma değil ('can' / 'kendi' / 'nefis' — dönüşlü kullanım, eş anlam)",
+}

@@ -133,6 +133,11 @@ BAGLAR = {"AS_enam": [
  # blok 148-150
  {'bag': '16:35 → 6:148', 'kural': "okuma — harekesiz 've lâ harramnâ'; sayım 'say 6:148 11-12'; lemma dizisi 'lâ âbâ' lâ harrame min' (dizi 6 148 9 13); en uzun ortak lemma dizisi 'qâle ellezî eşrake lev şâ'e allâh mâ' (dizi 6 148 1 7)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '16:9 → 6:149', 'kural': "okuma — harekesiz 'şâ'e le-hedâkum ecma'în'; sayım 'say 6:149 6-8'; en uzun ortak lemma dizisi 'lev şâ'e hedâ ecma'' (dizi 6 149 5 8)", 'not': 'kalıp eşi (sayım).'},
+ # blok 151-152
+ {'bag': '4:36 → 6:151', 'kural': "okuma — harekesiz 'tuşrikû bihî şey'â, ve bi'l-vâlideyni ihsânâ'; sayım 'say 6:151 9-13'; en uzun ortak lemma dizisi 'eşrake _ şey' vâlid ihsân' (dizi 6 151 9 13)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '17:33 → 6:151', 'kural': "okuma — harekesiz 've lâ taqtulu'n-nefse'lletî harrame'llâhu illâ bi'l-haqq'; sayım 'say 6:151 30-37'; en uzun ortak lemma dizisi 'lâ qatele nefs ellezî harrame allâh illâ haqq' (dizi 6 151 30 37)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '25:68 → 6:151', 'kural': "okuma — harekesiz 'n-nefse'lletî harrame'llâhu illâ bi'l-haqq'; sayım 'say 6:151 32-37'; en uzun ortak lemma dizisi 'lâ qatele nefs ellezî harrame allâh illâ haqq' (dizi 6 151 30 37)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '17:34 → 6:152', 'kural': "okuma — harekesiz 've lâ taqrabû mâle'l-yetîmi illâ bi'lletî hiye ahsenu hattâ yebluğa eşuddeh'; sayım 'say 6:152 1-11'; en uzun ortak lemma dizisi 'lâ yaqrabu mâl yetîm illâ ellezî hiye ahsen hattâ beleğa eşudd evfâ' (dizi 6 152 1 12)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

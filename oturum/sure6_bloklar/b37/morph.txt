@@ -1,0 +1,77 @@
+6:151:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:151:2	تَعَالَوْا۟	V|IMPV|VF:4|ROOT:علو|LEM:تَعالَ|2MP + N|PRON|SUFF|2MP
+6:151:3	أَتْلُ	V|IMPF|VF:1|ROOT:تلو|LEM:تَلَى|1S|MOOD:JUS
+6:151:4	مَا	N|REL|LEM:ما
+6:151:5	حَرَّمَ	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|3MS
+6:151:6	رَبُّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MP
+6:151:7	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+6:151:8	أَلَّا	P|INT|LEM:أَن + P|PRO|LEM:لا
+6:151:9	تُشْرِكُوا۟	V|IMPF|VF:4|ROOT:شرك|LEM:أَشْرَكَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:151:10	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:151:11	شَيْـًٔا	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|ACC
+6:151:12	وَبِٱلْوَٰلِدَيْنِ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:ولد|LEM:والِد|MD|GEN
+6:151:13	إِحْسَٰنًا	N|VN|VF:4|ROOT:حسن|LEM:إِحْسان|M|INDEF|ACC
+6:151:14	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:151:15	تَقْتُلُوٓا۟	V|IMPF|VF:1|ROOT:قتل|LEM:قَتَلَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:151:16	أَوْلَٰدَكُم	N|ROOT:ولد|LEM:وَلَد|MP|ACC + N|PRON|SUFF|2MP
+6:151:17	مِّنْ	P|P|LEM:مِن
+6:151:18	إِمْلَٰقٍ	N|VN|VF:4|ROOT:ملق|LEM:إِمْلاق|M|INDEF|GEN
+6:151:19	نَّحْنُ	N|PRON|1P
+6:151:20	نَرْزُقُكُمْ	V|IMPF|VF:1|ROOT:رزق|LEM:رَزَقَ|1P|MOOD:IND + N|PRON|SUFF|2MP
+6:151:21	وَإِيَّاهُمْ	P|CONJ|PREF|LEM:و + N|PRON|LEM:إِيّا|3MP
+6:151:22	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:151:23	تَقْرَبُوا۟	V|IMPF|VF:1|ROOT:قرب|LEM:يَقْرَبُ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:151:24	ٱلْفَوَٰحِشَ	P|DET|PREF|LEM:ال + N|ROOT:فحش|LEM:فاحِشَة|MP|ACC
+6:151:25	مَا	N|REL|LEM:ما
+6:151:26	ظَهَرَ	V|PERF|VF:1|ROOT:ظهر|LEM:ظَهَرَ|3MS
+6:151:27	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+6:151:28	وَمَا	P|CONJ|PREF|LEM:و + N|REL|LEM:ما
+6:151:29	بَطَنَ	V|PERF|VF:1|ROOT:بطن|LEM:بَطَنَ|3MS
+6:151:30	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:151:31	تَقْتُلُوا۟	V|IMPF|VF:1|ROOT:قتل|LEM:قَتَلَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:151:32	ٱلنَّفْسَ	P|DET|PREF|LEM:ال + N|ROOT:نفس|LEM:نَفْس|FS|ACC
+6:151:33	ٱلَّتِى	N|REL|LEM:الَّذِي|FS
+6:151:34	حَرَّمَ	V|PERF|VF:2|ROOT:حرم|LEM:حَرَّمَ|3MS
+6:151:35	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+6:151:36	إِلَّا	P|EXP|LEM:إِلّا
+6:151:37	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+6:151:38	ذَٰلِكُمْ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|MP
+6:151:39	وَصَّىٰكُم	V|PERF|VF:2|ROOT:وصي|LEM:وَصَّى|3MS + N|PRON|SUFF|2MP
+6:151:40	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:151:41	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:151:42	تَعْقِلُونَ	V|IMPF|VF:1|ROOT:عقل|LEM:عَقَلُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:152:1	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+6:152:2	تَقْرَبُوا۟	V|IMPF|VF:1|ROOT:قرب|LEM:يَقْرَبُ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+6:152:3	مَالَ	N|ROOT:مول|LEM:مال|M|ACC
+6:152:4	ٱلْيَتِيمِ	P|DET|PREF|LEM:ال + N|ROOT:يتم|LEM:يَتِيم|MS|GEN
+6:152:5	إِلَّا	P|RES|LEM:إِلّا
+6:152:6	بِٱلَّتِى	P|P|PREF|LEM:ب + N|REL|LEM:الَّذِي|FS
+6:152:7	هِىَ	N|PRON|3FS
+6:152:8	أَحْسَنُ	N|ROOT:حسن|LEM:أَحْسَن|MS|NOM
+6:152:9	حَتَّىٰ	P|P|LEM:حَتَّى
+6:152:10	يَبْلُغَ	V|IMPF|VF:1|ROOT:بلغ|LEM:بَلَغَ|3MS|MOOD:SUBJ
+6:152:11	أَشُدَّهُۥ	N|ROOT:شدد|LEM:أَشُدّ|M|ACC + N|PRON|SUFF|3MS
+6:152:12	وَأَوْفُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:4|ROOT:وفي|LEM:أَوْفَى|2MP + N|PRON|SUFF|2MP
+6:152:13	ٱلْكَيْلَ	P|DET|PREF|LEM:ال + N|ROOT:كيل|LEM:كَيْل|M|ACC
+6:152:14	وَٱلْمِيزَانَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:وزن|LEM:مِيزان|M|ACC
+6:152:15	بِٱلْقِسْطِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:قسط|LEM:قِسْط|M|GEN
+6:152:16	لَا	P|NEG|LEM:لا
+6:152:17	نُكَلِّفُ	V|IMPF|VF:2|ROOT:كلف|LEM:يُكَلِّفُ|1P|MOOD:IND
+6:152:18	نَفْسًا	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|ACC
+6:152:19	إِلَّا	P|EXP|LEM:إِلّا
+6:152:20	وُسْعَهَا	N|ROOT:وسع|LEM:وُسْع|M|ACC + N|PRON|SUFF|3FS
+6:152:21	وَإِذَا	P|REM|PREF|LEM:و + N|T|LEM:إِذا
+6:152:22	قُلْتُمْ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|2MP + N|PRON|SUFF|2MP
+6:152:23	فَٱعْدِلُوا۟	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:عدل|LEM:عَدَلَ|2MP + N|PRON|SUFF|2MP
+6:152:24	وَلَوْ	P|CIRC|PREF|LEM:و + P|COND|LEM:لَو
+6:152:25	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:152:26	ذَا	N|LEM:ذُو|MS|ACC
+6:152:27	قُرْبَىٰ	N|ROOT:قرب|LEM:قُرْبَى|F|GEN
+6:152:28	وَبِعَهْدِ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ب + N|ROOT:عهد|LEM:عَهْد|M|GEN
+6:152:29	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:152:30	أَوْفُوا۟	V|IMPV|VF:4|ROOT:وفي|LEM:أَوْفَى|2MP + N|PRON|SUFF|2MP
+6:152:31	ذَٰلِكُمْ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|MP
+6:152:32	وَصَّىٰكُم	V|PERF|VF:2|ROOT:وصي|LEM:وَصَّى|3MS + N|PRON|SUFF|2MP
+6:152:33	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+6:152:34	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+6:152:35	تَذَكَّرُونَ	V|IMPF|VF:5|ROOT:ذكر|LEM:تَذَكَّرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
