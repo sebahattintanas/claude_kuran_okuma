@@ -1,0 +1,72 @@
+6:158:1	هَلْ	P|INTG|LEM:هَل
+6:158:2	يَنظُرُونَ	V|IMPF|VF:1|ROOT:نظر|LEM:نَظَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:158:3	إِلَّآ	P|RES|LEM:إِلّا
+6:158:4	أَن	P|SUB|LEM:أَن
+6:158:5	تَأْتِيَهُمُ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3FS|MOOD:SUBJ + N|PRON|SUFF|3MP
+6:158:6	ٱلْمَلَٰٓئِكَةُ	P|DET|PREF|LEM:ال + N|ROOT:ملك|LEM:مَلَك|MP|NOM
+6:158:7	أَوْ	P|CONJ|LEM:أَو
+6:158:8	يَأْتِىَ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:SUBJ
+6:158:9	رَبُّكَ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MS
+6:158:10	أَوْ	P|CONJ|LEM:أَو
+6:158:11	يَأْتِىَ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:SUBJ
+6:158:12	بَعْضُ	N|ROOT:بعض|LEM:بَعْض|M|NOM
+6:158:13	ءَايَٰتِ	N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:158:14	رَبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:158:15	يَوْمَ	N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+6:158:16	يَأْتِى	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:IND
+6:158:17	بَعْضُ	N|ROOT:بعض|LEM:بَعْض|M|NOM
+6:158:18	ءَايَٰتِ	N|ROOT:أيي|LEM:آيَة|FP|GEN
+6:158:19	رَبِّكَ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MS
+6:158:20	لَا	P|NEG|LEM:لا
+6:158:21	يَنفَعُ	V|IMPF|VF:1|ROOT:نفع|LEM:نَفَعَ|3MS|MOOD:IND
+6:158:22	نَفْسًا	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|ACC
+6:158:23	إِيمَٰنُهَا	N|VN|VF:4|ROOT:أمن|LEM:إِيمان|M|NOM + N|PRON|SUFF|3FS
+6:158:24	لَمْ	P|NEG|LEM:لَم
+6:158:25	تَكُنْ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS|MOOD:JUS
+6:158:26	ءَامَنَتْ	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3FS
+6:158:27	مِن	P|P|LEM:مِن
+6:158:28	قَبْلُ	N|ROOT:قبل|LEM:قَبْل|GEN
+6:158:29	أَوْ	P|CONJ|LEM:أَو
+6:158:30	كَسَبَتْ	V|PERF|VF:1|ROOT:كسب|LEM:كَسَبَ|3FS
+6:158:31	فِىٓ	P|P|LEM:فِي
+6:158:32	إِيمَٰنِهَا	N|VN|VF:4|ROOT:أمن|LEM:إِيمان|M|GEN + N|PRON|SUFF|3FS
+6:158:33	خَيْرًا	N|ROOT:خير|LEM:خَيْر|MS|INDEF|ACC
+6:158:34	قُلِ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:158:35	ٱنتَظِرُوٓا۟	V|IMPV|VF:8|ROOT:نظر|LEM:يَنتَظِرُ|2MP + N|PRON|SUFF|2MP
+6:158:36	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+6:158:37	مُنتَظِرُونَ	N|ACT_PCPL|VF:8|ROOT:نظر|LEM:مُنتَظِر|MP|NOM
+6:159:1	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:159:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+6:159:3	فَرَّقُوا۟	V|PERF|VF:2|ROOT:فرق|LEM:فَرَّقُ|3MP + N|PRON|SUFF|3MP
+6:159:4	دِينَهُمْ	N|ROOT:دين|LEM:دِين|M|ACC + N|PRON|SUFF|3MP
+6:159:5	وَكَانُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:159:6	شِيَعًا	N|ROOT:شيع|LEM:شِيعَة|MP|INDEF|ACC
+6:159:7	لَّسْتَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|2MS + N|PRON|SUFF|2MS
+6:159:8	مِنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+6:159:9	فِى	P|P|LEM:فِي
+6:159:10	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:159:11	إِنَّمَآ	P|ACC|LEM:إِنّ|FAM:إِنّ + P|PREV|LEM:ما
+6:159:12	أَمْرُهُمْ	N|ROOT:أمر|LEM:أَمْر|M|NOM + N|PRON|SUFF|3MP
+6:159:13	إِلَى	P|P|LEM:إِلَى
+6:159:14	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:159:15	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:159:16	يُنَبِّئُهُم	V|IMPF|VF:2|ROOT:نبأ|LEM:نَبَّأَ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+6:159:17	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:159:18	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+6:159:19	يَفْعَلُونَ	V|IMPF|VF:1|ROOT:فعل|LEM:فَعَلَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+6:160:1	مَن	N|COND|LEM:مَن
+6:160:2	جَآءَ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS
+6:160:3	بِٱلْحَسَنَةِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حسن|LEM:حَسَنَة|F|GEN
+6:160:4	فَلَهُۥ	P|RSLT|PREF|LEM:ف + P|P|PREF|LEM:ل + N|PRON|3MS
+6:160:5	عَشْرُ	N|ROOT:عشر|LEM:عَشْر|M|NOM
+6:160:6	أَمْثَالِهَا	N|ROOT:مثل|LEM:مَثَل|MP|GEN + N|PRON|SUFF|3FS
+6:160:7	وَمَن	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+6:160:8	جَآءَ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS
+6:160:9	بِٱلسَّيِّئَةِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:سوأ|LEM:سَيِّئَة|F|GEN
+6:160:10	فَلَا	P|RSLT|PREF|LEM:ف + P|NEG|LEM:لا
+6:160:11	يُجْزَىٰٓ	V|IMPF|VF:1|PASS|ROOT:جزي|LEM:جَزَى|3MS|MOOD:SUBJ
+6:160:12	إِلَّا	P|RES|LEM:إِلّا
+6:160:13	مِثْلَهَا	N|ROOT:مثل|LEM:مِثْل|M|ACC + N|PRON|SUFF|3FS
+6:160:14	وَهُمْ	P|CIRC|PREF|LEM:و + N|PRON|3MP
+6:160:15	لَا	P|NEG|LEM:لا
+6:160:16	يُظْلَمُونَ	V|IMPF|VF:1|PASS|ROOT:ظلم|LEM:ظَلَمَ|3MP|MOOD:JUS + N|PRON|SUFF|3MP
