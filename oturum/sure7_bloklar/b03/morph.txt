@@ -1,0 +1,46 @@
+7:11:1	وَلَقَدْ	P|CONJ|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:11:2	خَلَقْنَٰكُمْ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MP
+7:11:3	ثُمَّ	P|CONJ|LEM:ثُمّ
+7:11:4	صَوَّرْنَٰكُمْ	V|PERF|VF:2|ROOT:صور|LEM:صَوَّرَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MP
+7:11:5	ثُمَّ	P|CONJ|LEM:ثُمّ
+7:11:6	قُلْنَا	V|PERF|VF:1|ROOT:قول|LEM:قالَ|1P + N|PRON|SUFF|1P
+7:11:7	لِلْمَلَٰٓئِكَةِ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ROOT:ملك|LEM:مَلَك|MP|GEN
+7:11:8	ٱسْجُدُوا۟	V|IMPV|VF:1|ROOT:سجد|LEM:سَجَدَ|2MP + N|PRON|SUFF|2MP
+7:11:9	لِءَادَمَ	P|P|PREF|LEM:ل + N|PN|ROOT:أدم|LEM:آدَم|M|GEN
+7:11:10	فَسَجَدُوٓا۟	P|REM|PREF|LEM:ف + V|PERF|VF:1|ROOT:سجد|LEM:سَجَدَ|3MP + N|PRON|SUFF|3MP
+7:11:11	إِلَّآ	P|EXP|LEM:إِلّا
+7:11:12	إِبْلِيسَ	N|PN|LEM:إِبْلِيس|M|ACC
+7:11:13	لَمْ	P|NEG|LEM:لَم
+7:11:14	يَكُن	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS|MOOD:JUS
+7:11:15	مِّنَ	P|P|LEM:مِن
+7:11:16	ٱلسَّٰجِدِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:سجد|LEM:ساجِد|MP|GEN
+7:12:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:12:2	مَا	N|INTG|LEM:ما
+7:12:3	مَنَعَكَ	V|PERF|VF:1|ROOT:منع|LEM:مَنَعَ|3MS + N|PRON|SUFF|2MS
+7:12:4	أَلَّا	P|SUB|LEM:أَن + P|NEG|LEM:لا
+7:12:5	تَسْجُدَ	V|IMPF|VF:1|ROOT:سجد|LEM:سَجَدَ|2MS|MOOD:SUBJ
+7:12:6	إِذْ	N|T|LEM:إِذ
+7:12:7	أَمَرْتُكَ	V|PERF|VF:1|ROOT:أمر|LEM:أَمَرَ|1S + N|PRON|SUFF|1S + N|PRON|SUFF|2MS
+7:12:8	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:12:9	أَنَا۠	N|PRON|1S
+7:12:10	خَيْرٌ	N|ROOT:خير|LEM:خَيْر|MS|INDEF|NOM
+7:12:11	مِّنْهُ	P|P|LEM:مِن + N|PRON|SUFF|3MS
+7:12:12	خَلَقْتَنِى	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|1S
+7:12:13	مِن	P|P|LEM:مِن
+7:12:14	نَّارٍ	N|ROOT:نور|LEM:نار|F|INDEF|GEN
+7:12:15	وَخَلَقْتَهُۥ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|3MS
+7:12:16	مِن	P|P|LEM:مِن
+7:12:17	طِينٍ	N|ROOT:طين|LEM:طِين|M|INDEF|GEN
+7:13:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:13:2	فَٱهْبِطْ	P|SUP|PREF|LEM:ف + V|IMPV|VF:1|ROOT:هبط|LEM:يَهْبِطُ|2MS
+7:13:3	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+7:13:4	فَمَا	P|REM|PREF|LEM:ف + P|NEG|LEM:ما
+7:13:5	يَكُونُ	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|3MS|MOOD:IND
+7:13:6	لَكَ	P|P|PREF|LEM:ل + N|PRON|2MS
+7:13:7	أَن	P|SUB|LEM:أَن
+7:13:8	تَتَكَبَّرَ	V|IMPF|VF:5|ROOT:كبر|LEM:يَتَكَبَّرُ|2MS|MOOD:SUBJ
+7:13:9	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:13:10	فَٱخْرُجْ	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:خرج|LEM:خَرَجَ|2MS
+7:13:11	إِنَّكَ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MS
+7:13:12	مِنَ	P|P|LEM:مِن
+7:13:13	ٱلصَّٰغِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:صغر|LEM:صاغِر|MP|GEN

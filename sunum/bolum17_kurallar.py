@@ -72,7 +72,7 @@ if os.path.exists(bp):
 # ── (3) EMSAL_ORTAK_DIZI ──
 if EMS:
     WK = morph('/home/claude/calisma/morph.txt')
-    def lem(seq): return [next((re.search(r'LEM:([^|]+)', ft).group(1) for f, t, ft in seq if 'PREF' not in ft and 'SUFF' not in ft and 'LEM:' in ft), None) for _ in [0]][0]
+    def lem(seq): return tuple(re.search(r'LEM:([^|]+)', ft).group(1) for f, t, ft in seq if 'PREF' not in ft and 'SUFF' not in ft and 'LEM:' in ft) or None  # sûre 7 blok 3: çok lemmalı kelime ('ellâ' = 'en' + 'lâ') bütün lemmalarıyla eşlenir
     for a in range(A, B + 1):
         L1 = [(w, lem(W[(S, a)][w])) for w in sorted(W[(S, a)])]
         for e in EMS:

@@ -17,6 +17,10 @@ BAGLAR = {"AS_araf": [
  # blok 6-10
  {'bag': '23:102 → 7:8', 'kural': "okuma — harekesiz 'fe-men sequlet mevâzînuhû fe-ulâ'ike humu'l-muflihûn'; sayım 'say 7:8 4-9'; en uzun ortak lemma dizisi 'men sequlet mîzân zâ _ muflih' (dizi 7 8 4 9)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '23:103 → 7:9', 'kural': "okuma — harekesiz 've men xaffet mevâzînuhû fe-ulâ'ike'llezîne xasirû enfusehum'; sayım 'say 7:9 1-7'; en uzun ortak lemma dizisi 'men xaffet mîzân zâ ellezî xasira nefs' (dizi 7 9 1 7)", 'not': 'kalıp eşi (sayım).'},
+ # blok 11-13
+ {'bag': '18:50 → 7:11', 'kural': "okuma — harekesiz 'qulnâ li'l-melâ'iketi'scudû li-âdeme fe-secedû illâ iblîs'; sayım 'say 7:11 6-12'; en uzun ortak lemma dizisi 'qâle melek secede âdem secede illâ iblîs' (dizi 7 11 6 12)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '38:75 → 7:12', 'kural': "okuma — harekesiz 'mâ mene'ake'; sayım 'say 7:12 2-3'; en uzun ortak lemma dizisi 'mâ mene'a' (dizi 7 12 2 3)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '38:76 → 7:12', 'kural': "okuma — harekesiz 'qâle ene xayrun minhu xalaqtenî min nârin ve xalaqtehû min tîn'; sayım 'say 7:12 8-17'; en uzun ortak lemma dizisi 'qâle _ xayr min xalaqa min nâr xalaqa min tîn' (dizi 7 12 8 17)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
