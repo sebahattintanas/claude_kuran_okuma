@@ -1,0 +1,48 @@
+# geriye dönük koşu (b02k, 2026-11-24): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, bolum17_kurallar, bolum18_kurallar, bolum19_kurallar, bolum20_kurallar, bolum21_kurallar, bolum22_kurallar, bolum23_kurallar, bolum24_kurallar, bolum25_kurallar, bolum26_kurallar, bolum27_kurallar, bolum28_kurallar, bolum29_kurallar, bolum30_kurallar, bolum31_kurallar, bolum32_kurallar, bolum33_kurallar, bolum34_kurallar, bolum35_kurallar, bolum36_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre 7); isabet 45
+## blok 01 (7:1-5)
+bolum36_kurallar: (1) 7:2 A4 şahıs geçişi '— → 3' — ucu '—' (ölçüm baskını olmayan ayet); A4'te yazılmaz
+bolum36_kurallar: (2) 7:3 1-6. kelime kesimi ('ittebi'û mâ unzile ileykum min rabbikum') — 'say 7:3 1-6' ◇'de sayım cümlesiyle geçmiyor
+bolum36_kurallar: (2) 7:3 7-11. kelime kesimi ('ve lâ tettebi'û min dûnihî evliyâ') — 'say 7:3 7-11' ◇'de sayım cümlesiyle geçmiyor
+bolum36_kurallar: (3) 'innâ kunnâ zâlimîn' 7:5 / 21:46 alıntısı 'gerçekten zalimmişiz' — 10. kelime karşılığı 'Biz' alıntıda yok
+bolum36_kurallar: (4) 7:4 'hum' tartışmalı gönderge — A1 uyumsuzluk etiketi ['cins'] / gönderge zinciri ['cins', 'sayı']
+gloss_tara: KAPSAMAYAN 7
+kelime_kontrol: ZAMİR KAYITSIZ 2 3 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 7 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 9 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 11 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 3 1 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 4 كُم 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 8 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 10 هِۦٓ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 3 14 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 4 نَٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 4 4 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 4 5 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 4 6 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 4 9 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 3 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 5 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 6 نَآ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 5 9 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 10 ا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 5 11 نَّا 1P
+## blok 02 (7:6-10)
+bolum36_kurallar: (5) 'fe' (REM) bölüm içi karşılık farkı: bu blok ['karşılıksız'] / önceki ["'öyleyse' ile"] — 'bölüm içi eş edat' maddesinde anılmamış
+gloss_tara: KAPSAMAYAN 8
+kelime_kontrol: ZAMİR KAYITSIZ 7 2 هِم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 7 5 نَّا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 8 6 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 8 8 هُمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 3 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 9 6 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 7 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 9 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 10 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 9 11 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 2 نَّٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 10 2 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 5 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 10 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 7 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 10 11 ونَ 2MP

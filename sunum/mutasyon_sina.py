@@ -465,5 +465,20 @@ var6('bolum35_kurallar.py', ['158', '160', '39'], "(4)", "b35 kural 4: isabetsiz
 var6('bolum35_kurallar.py', ['158', '160', '39'], "(5) kip notu 'tekun'", "b35 kural 5: kip sapma 'olan'")
 var6('bolum35_kurallar.py', ['161', '165', '40'], "(5)", "b35 kural 5: isabetsiz", True)
 var6('bolum23_kurallar.py', ['145', '147', '35'], "(3) 6:146 kişi toplamı", "b23 kural 3 (bölüm 17 düzeltmesi): yalnız A4")
+# sûre 7 bölüm 1 denetimi kuralları (bolum36) — sûre 7 kayıtlarında, sûre 7 ortamıyla
+def var7(arac, arg, aranan, ad, yok_=False):
+    env = dict(os.environ, SURE='7', SON='999', BKOK='/home/claude/')
+    o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
+    SON.append((ad, (aranan not in o) if yok_ else (aranan in o)))
+var7('bolum36_kurallar.py', ['1', '5', '01'], "(1) 7:2 A4 şahıs geçişi", "b36 kural 1: A4 baskın '—'")
+var7('bolum36_kurallar.py', ['6', '10', '02'], "(1)", "b36 kural 1: isabetsiz", True)
+var7('bolum36_kurallar.py', ['1', '5', '01'], "(2) 7:3 1-6. kelime kesimi", "b36 kural 2: kesim sayım cümlesi")
+var7('bolum36_kurallar.py', ['6', '10', '02'], "(2)", "b36 kural 2: isabetsiz", True)
+var7('bolum36_kurallar.py', ['1', '5', '01'], "(3) 'innâ kunnâ zâlimîn' 7:5 / 21:46", "b36 kural 3: emsal alıntısı kalıp kapsamı")
+var7('bolum36_kurallar.py', ['6', '10', '02'], "(3)", "b36 kural 3: isabetsiz", True)
+var7('bolum36_kurallar.py', ['1', '5', '01'], "(4) 7:4 'hum'", "b36 kural 4: tartışmalı etiket eşliği")
+var7('bolum36_kurallar.py', ['6', '10', '02'], "(4)", "b36 kural 4: isabetsiz", True)
+var7('bolum36_kurallar.py', ['6', '10', '02'], "(5) 'fe' (REM)", "b36 kural 5: bölüm içi önek karşılığı")
+var7('bolum36_kurallar.py', ['1', '5', '01'], "(5)", "b36 kural 5: isabetsiz", True)
 for ad, ok in SON[130:]: print(('tamam ' if ok else 'BAŞARISIZ ') + ad)
 print('mutasyon sınaması: %d / %d' % (sum(ok for _, ok in SON), len(SON)))
