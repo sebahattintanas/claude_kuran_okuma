@@ -15,6 +15,7 @@ import subprocess, sys
 # aynen '_eski_ozet' altına taşınır (sûre 2-5 kapanış emsali; silinen 0).
 # BLOK_LISTESI_ELLE sûre sonunda elle doldurulur (uret_blok_6.BLOKLAR ile birebir).
 # önkoşul: esmâ kaydı tüm bloklar için güncel (aday 1006 oturumundaki sıralama hatası dersi)
+BLOK_LISTESI_ELLE = [(1, 5), (6, 11), (12, 15), (16, 19), (20, 24), (25, 28), (29, 32), (33, 36), (37, 41), (42, 45), (46, 49), (50, 53), (54, 58), (59, 61), (62, 67), (68, 70), (71, 73), (74, 78), (79, 83), (84, 90), (91, 92), (93, 94), (95, 99), (100, 103), (104, 108), (109, 113), (114, 117), (118, 121), (122, 125), (126, 130), (131, 135), (136, 138), (139, 141), (142, 144), (145, 147), (148, 150), (151, 152), (153, 157), (158, 160), (161, 165)]
 S, N = 6, 165
 for a, b in BLOK_LISTESI_ELLE:
     subprocess.run([sys.executable, 'esma_kayit.py', str(S), str(a), str(b)], check=True, stdout=subprocess.DEVNULL)
