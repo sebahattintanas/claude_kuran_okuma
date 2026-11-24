@@ -4,6 +4,7 @@ import os as _os0; [_os0.environ.setdefault(k_, v_) for k_, v_ in (('SURE', '5')
 import sys as _sy; _sy.path.insert(0, '/home/claude/sunum'); from sure import BK as _BK
 import subprocess, shutil, sys, os
 # sûre 6 hazırlığı: sınamaların hepsi sûre 5 kayıtlarında — sûre 5 blok dizinleri /home/claude/s5/ (repo/oturum/sure5_bloklar'dan)
+# sûre 7 hazırlığı (2026-11-24): sûre 6 sınamaları (var6 / mutp6 …) sûre 6 blok dizinleriyle — /home/claude/s6/ (repo/oturum/sure6_bloklar'dan)
 Y = '/home/claude/yamalar/'
 def run(*a): return subprocess.run(['python3'] + list(a), capture_output=True, text=True, cwd='/home/claude').stdout
 SON = []
@@ -215,7 +216,7 @@ var('bolum16_kurallar.py', ['118', '120', '36'], "(7) gerekçe 'bağlamda 'ebedi
 var('bolum16_kurallar.py', ['118', '120', '36'], "(8) 5:119 medde farkı", "b16 kural 8: medde farkı ◇'de yok")
 # sûre 6 bölüm 1 denetimi kuralları (bolum17) — sûre 6 kayıtlarında, sûre 6 ortamıyla
 def var6(arac, arg, aranan, ad, yok_=False):
-    env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/')
+    env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/s6/')
     o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
     SON.append((ad, (aranan not in o) if yok_ else (aranan in o)))
 var6('bolum17_kurallar.py', ['6', '11', '02'], "(1) 6:10 sayım 'fe-hâqa", "b17 kural 1: emsal kalıp kapsamı")
@@ -292,7 +293,7 @@ def mutp6(p, eski, yeni, arac, arg, aranan, ad):
     assert eski in s_, (ad, 'mutasyon kaynağı yok')
     open(p, 'w', encoding='utf-8').write(s_.replace(eski, yeni))
     try:
-        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/')
+        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/s6/')
         o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
     finally: shutil.copy('/tmp/mut_yedek', p)
     SON.append((ad, aranan in o))
@@ -365,7 +366,7 @@ def mutyok(dosya, eski, yeni, arac, arg, aranan, ad):  # mutasyon sonrası isabe
     assert eski in s_, (ad, 'mutasyon kaynağı yok')
     open(p, 'w', encoding='utf-8').write(s_.replace(eski, yeni))
     try:
-        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/')
+        env = dict(os.environ, SURE='6', SON='999', BKOK='/home/claude/s6/')
         o = subprocess.run(['python3', 'sunum/' + arac] + list(arg), capture_output=True, text=True, cwd='/home/claude', env=env).stdout
     finally: shutil.copy('/tmp/mut_yedek', p)
     SON.append((ad, aranan not in o))

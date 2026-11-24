@@ -1,0 +1,22 @@
+# DEVİR NOTU — oturum 2026-11-23/24 (sûre 6 bloklar 32-40, bölüm 16-19 kapanışları, sûre 6 kapanışı, sûre 7 hazırlığı) → sonraki adım: SÛRE 7 blok 1
+# Bu dosya ARIZA biçiminde DEĞİLDİR. "SONRAKİ BLOK ARIZA BAŞI" maddesi sûre 7 blok 1'in ARIZA listesinin EN BAŞINA aynen kopyalanır (kur.py BEK satırı bu dosyadan okur — s6/b01/yap/kur.py emsali).
+# basilan.txt BOŞALTILMAZ (351 satır; kullanıcı kararı). Madde yine de NUMARASIZ yazıldı; kopyadan sonra sızıntı ve yasaklı taraması.
+# bekleyen_ariza_6_b40.txt NUMARALIDIR (sûre 6 ayet numaraları) — sûre 7'ye KOPYALANMAZ; numarasız özeti aşağıdaki maddede; beş araç kuralı sunum/bolum35_kurallar.py'de yürürlükte.
+
+## SONRAKİ BLOK ARIZA BAŞI (aynen kopyalanacak madde)
+
+  "devir (sûre 6 sonu; bölüm 19 bağımsız denetimi, bekleyen_ariza_6_b40.txt — numaralı, sûre 7'ye kopyalanmadı): sayım cümleleri, korpus listeleri, medde farkı satırları, ölçüm değerleri, A1 / A4 kayıtları, D3 ⇔ bag ve aday kök listeleri kaynaklarla eş bulundu; bulgu 7 — 'bayt eşit' denen emsal alıntısının kelime ortasında bitmesi ve kalıp karşılığının emsalle ayrışması; morph ADDR parçası için meal kesim notunun eksikliği; bir zamir göndergesinin A1'de ve gönderge zinciri maddesinde ayrı kapsamla yazılması (sayı uyumsuzluğu etiketsiz, yalnız 'tartışmalı'); söz kapanışı gerekçesinde morph CONJ etiketinin söz dışılık dayanağı yapılması (dayanak yalnız muhatap değişimi; kullanıcı kararı 2026-11-24: kayıt söz dışı kalır, tam okuma bitince değerlendirilir); say2'deki geniş eş aralıkların ◇'de ve ARIZA'da anılmaması; esmâ kararının dayandığı öbeğin sayım eşinin ◇'de anılmaması; 'olan' ile karşılanan fiilin kip sapma notunda yer almaması. Kayıtlar geriye dönük yeniden yazılmadı; hepsi tam okuma sonu listesinde. Araç kuralı 5 madde (sunum/bolum35_kurallar.py: SEG_ADDR_PARCA, EMSAL_ALINTI_KELIME_SINIRI, SAY2_GENIS_ES_ANILIR, SOZ_DISI_ETIKET_CELISKISI, KIP_SAPMA_OLAN) mutasyon sınaması ve geriye dönük koşuyla yürürlükte; elle kural 6 madde (SEG_MORPH_PARCA_TAM, GONDERGE_ZINCIR_A1_ES, SOZ_SINIRI_MUHATAP, TARTISMALI_GONDERGE_KAPSAMI, EMSAL_TAKDIR_FARKI, ESMA_KARAR_SAYIM_DAYANAGI)",
+
+## Oturum özeti (bilgi; ARIZA'ya kopyalanmaz)
+- Okunan: sûre 6 bloklar 32-40 (bölüm 16-19 kapandı; bağımsız denetimler: bekleyen_ariza_6_b34 … b40). Sûre 6 TAM — kapanış 2026-11-24 (enam_kapanis.py, enam_paket_md.py → notlar/sure6_enam_okuma.md; kapanış notu betikler/enam_kapanis_notu.txt).
+- Sayaçlar: okunan 5955 / 6236 (%95,5); TAM sûreler 1-6, 9-114; kok_turkce 1632; esmâ KARAR 1305; AS_enam 101; aday havuzu 1–1042 (sonraki 1043); anahtar BOZUK 70 (taban); basilan.txt 351 satır.
+- Denetim araçları: sunum/bolum4_kurallar.py … bolum35_kurallar.py, mutasyon_sina 374 / 374, geriye dönük koşu yamalar/geriye_donuk_6_b40k.txt; yardımcılar sunum/yardimci/.
+- Blok çalışma dosyaları: sûre 6 → repo/oturum/sure6_bloklar/b01 … b40 (çalışma yeri /home/claude/s6/; mutasyon_sina sûre 6 sınamaları BKOK=/home/claude/s6/), sûre 5 → /home/claude/s5/. Sûre 7 blokları /home/claude/bNN, depoda repo/oturum/sure7_bloklar/.
+- Sûre 7 hazırlığı (2026-11-24): yamalar/blok_plani_7.txt (20 bölüm / 54 blok — onaylı), yamalar/iskele_7.py → araf_* dosya ailesi (kok_ekle_7, araf_metin_1, araf_kayit, uret_blok_7, aday_ekle_7_araf, duzeltme_7, yama_retroaktif_gloss_7, araf_kapanis, araf_paket_md; cipa_tarama7_adaylari.json), yamalar/yama_{kayit,metin,uret,bag}_7.py, yama_kok_7_sablon.py, sunum/denetim_7.sh; sunum/sure.py ve sinifla.py varsayılanı 7 (SON = 0).
+- notlar/okuma_metni.json sıkıştırılmış ~34,4 MB; bölünmedi (kullanıcı kararı 2026-11-24: şimdilik bölünmeden sürer).
+
+## Tam okuma sonu listesi (§8'e eklenenler, bu oturum)
+1. Bölüm 16-19 bulguları: bekleyen_ariza_6_b34 … b40 (geriye dönük düzeltilmedi; geriye_donuk_6_b40k.txt isabet listesi).
+2. Sûre 6 son ayetindeki söz sınırı: kayıt söz dışı (kullanıcı kararı 2026-11-24 — tam okuma bitince değerlendirilecek).
+3. Meal karşılık çakışmaları (sûre 6 kararlarında 'tam okuma sonu' olanlar — s6/bNN/yap/karar_meal.py dosyalarında) ve etiket tanımları (enam_kapanis_notu.txt).
+4. Önceki devir listeleri (devir_6_135, devir_5_120, devir_5_70, devir_4_176, devir_4_152, devir_4_70, devir_4_28, devir_3_200, devir_3_179) değişmeden sürer.
