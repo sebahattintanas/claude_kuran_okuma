@@ -41,7 +41,7 @@ for a in range(A, B + 1):
         if ch == ';' and d == 0: ITEMS.append(cur); cur = ''
         else: cur += ch
     ITEMS.append(cur)
-    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|adlı aktör|fiil uyumu'  # bölüm 9 kuralı 8: açık adlı failde '(fiil uyumu; fail N. kelime)'  # bölüm 6 kuralı 15: 'lafız' / 'gönderge lafız' ölçüt yerine geçmez
+    TAG, MRK = r'(?<![A-Za-z0-9])(?:1P|1S|2MS|2FS|2MP|2FP|2D|2MD|2FD|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])', r'adsız|adlı aktör|fiil uyumu'  # bölüm 9 kuralı 8: açık adlı failde '(fiil uyumu; fail N. kelime)'  # bölüm 6 kuralı 15: 'lafız' / 'gönderge lafız' ölçüt yerine geçmez
     for it in ITEMS:
         subs = it.split(';')
         for k, sub in enumerate(subs):  # etiket kendi alt maddesinde ya da madde başının parantezinde ad ölçütü taşır

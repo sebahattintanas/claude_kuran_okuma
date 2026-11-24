@@ -24,6 +24,8 @@ BAGLAR = {"AS_araf": [
  # blok 14-18
  {'bag': '15:36 → 7:14', 'kural': "okuma — harekesiz 'ilâ yevmi yub'asûn'; sayım 'say 7:14 3-5'; en uzun ortak lemma dizisi 'yunzaru ilâ yevm be'ase' (dizi 7 14 2 5)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '38:79 → 7:14', 'kural': "okuma — harekesiz 'ilâ yevmi yub'asûn'; sayım 'say 7:14 3-5'; en uzun ortak lemma dizisi 'yunzaru ilâ yevm be'ase' (dizi 7 14 2 5)", 'not': 'kalıp eşi (sayım).'},
+ # blok 19-21
+ {'bag': '2:35 → 7:19', 'kural': "okuma — harekesiz 'haysu şi'tumâ ve lâ taqrabâ hâzihi'ş-şecerate fe-tekûnâ mine'z-zâlimîn'; sayım 'say 7:19 8-16'; en uzun ortak lemma dizisi 'haysu şâ'e lâ yaqrabu zâ şecera kâne min zâlim' (dizi 7 19 8 16)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

@@ -101,7 +101,7 @@ for l in CAK:
         if len(kokler) > 1 and 'bir kök' in parca: H.append("(2) KÖK grubu 'bir kök' gerekçesi, kök kümesi %s: %s" % (' / '.join(sorted(kokler)), h))
 print('çakışma üye / KÖK kök denetimi: grup %d' % len(CAK))
 # ── (3) A1 etiket düzeyi ──
-TAG = r'(?<![A-Za-z0-9])(1P|1S|2MS|2FS|2MP|2FP|2D|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])'
+TAG = r'(?<![A-Za-z0-9])(1P|1S|2MS|2FS|2MP|2FP|2D|2MD|2FD|3MS|3FS|3D|3MD|3FD|3MP|3FP)(?![A-Za-z0-9])'
 def kelime(q):
     n = 0
     for t in q.split():

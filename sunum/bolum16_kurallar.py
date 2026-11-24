@@ -47,7 +47,7 @@ for a in range(A, B + 1):
         fail = None
         for k in range(w + 1, max(W[a]) + 1):
             if fiil(a, k) or onek(a, k) or any(t == 'P' and re.search(r'(?:^|\|)ACC(?:\||$)', ft) for f, t, ft in W[a][k]): break  # sûre 6 blok 40: 'inne' yeni cümle açar
-            if any(t == 'N' and re.search(r'(?:^|\|)PRON(?:\||$)', ft) and 'SUFF' not in ft for f, t, ft in W[a][k]): break  # sûre 7 blok 3: ayrı zamir ('ene') yeni cümlenin öznesi — ardındaki NOM ad önceki fiilin faili sayılmaz
+            if any(t == 'N' and re.search(r'(?:^|\|)PRON(?:\||$)', ft) and 'SUFF' not in ft for f, t, ft in W[a][k]) and not any(t == 'P' for f, t, ft in W[a][k]): break  # sûre 7 blok 3: ayrı zamir ('ene') yeni cümlenin öznesi — ardındaki NOM ad önceki fiilin faili sayılmaz; blok 5: harfi cere bitişik zamir ('lehumâ') ayrı zamir değil
             ns = [ft for f, t, ft in W[a][k] if t == 'N' and 'PRON' not in ft]
             if ns and any(re.search(r'(?:^|\|)NOM(?:\||$)', ft) for ft in ns): fail = k; break
         if not fail: continue
