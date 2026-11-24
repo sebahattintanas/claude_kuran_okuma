@@ -93785,6 +93785,190 @@
   "ton": null,
   "ton_kismi": false
  },
+ "6:161": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    11,
+    "إِبْراهِيم"
+   ],
+   [
+    12,
+    "حَنِيف"
+   ],
+   [
+    16,
+    "مُشْرِك"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:162": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    7,
+    "اللَّه"
+   ],
+   [
+    8,
+    "رَبّ"
+   ],
+   [
+    9,
+    "عالَم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:163": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    7,
+    "أَوَّل"
+   ]
+  ],
+  "esma_el": {
+   "6:163:7": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "أَوَّل"
+  ],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    2,
+    "شَرِيك"
+   ],
+   [
+    7,
+    "أَوَّل"
+   ],
+   [
+    8,
+    "مُسْلِم"
+   ]
+  ],
+  "ton": "denge",
+  "ton_kismi": false
+ },
+ "6:164": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "AR",
+  "sinif_oto": "AR",
+  "son3": [
+   [
+    20,
+    "آخَر"
+   ],
+   [
+    23,
+    "رَبّ"
+   ],
+   [
+    24,
+    "مَرْجِع"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "6:165": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": true,
+  "e_el": true,
+  "e_oto": true,
+  "esma": [
+   [
+    20,
+    "غَفُور"
+   ],
+   [
+    21,
+    "رَحِيم"
+   ]
+  ],
+  "esma_el": {
+   "6:165:20": "ilahi",
+   "6:165:21": "ilahi"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "غَفُور",
+   "رَحِيم"
+  ],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    18,
+    "عِقاب"
+   ],
+   [
+    20,
+    "غَفُور"
+   ],
+   [
+    21,
+    "رَحِيم"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
  "6:17": {
   "a": true,
   "bant": "KAPI_KAPALI",

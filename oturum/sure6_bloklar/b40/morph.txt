@@ -1,0 +1,83 @@
+6:161:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:161:2	إِنَّنِى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+6:161:3	هَدَىٰنِى	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|1S
+6:161:4	رَبِّىٓ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|1S
+6:161:5	إِلَىٰ	P|P|LEM:إِلَى
+6:161:6	صِرَٰطٍ	N|ROOT:صرط|LEM:صِراط|M|INDEF|GEN
+6:161:7	مُّسْتَقِيمٍ	N|ACT_PCPL|VF:10|ROOT:قوم|LEM:مُسْتَقِيم|M|INDEF|GEN|ADJ
+6:161:8	دِينًا	N|ROOT:دين|LEM:دِين|M|INDEF|ACC
+6:161:9	قِيَمًا	N|ROOT:قوم|LEM:قِيَم|MS|INDEF|ACC|ADJ
+6:161:10	مِّلَّةَ	N|ROOT:ملل|LEM:مِلَّة|F|ACC
+6:161:11	إِبْرَٰهِيمَ	N|PN|LEM:إِبْراهِيم|M|GEN
+6:161:12	حَنِيفًا	N|ROOT:حنف|LEM:حَنِيف|M|INDEF|ACC
+6:161:13	وَمَا	P|CIRC|PREF|LEM:و + P|NEG|LEM:ما
+6:161:14	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+6:161:15	مِنَ	P|P|LEM:مِن
+6:161:16	ٱلْمُشْرِكِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:شرك|LEM:مُشْرِك|MP|GEN
+6:162:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:162:2	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:162:3	صَلَاتِى	N|ROOT:صلو|LEM:صَلاة|F|ACC + N|PRON|SUFF|1S
+6:162:4	وَنُسُكِى	P|CONJ|PREF|LEM:و + N|ROOT:نسك|LEM:نُسُك|M|ACC + N|PRON|SUFF|1S
+6:162:5	وَمَحْيَاىَ	P|CONJ|PREF|LEM:و + N|ROOT:حيي|LEM:مَحْيا|M|ACC + N|PRON|SUFF|1S
+6:162:6	وَمَمَاتِى	P|CONJ|PREF|LEM:و + N|ROOT:موت|LEM:مَمات|M|ACC + N|PRON|SUFF|1S
+6:162:7	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:162:8	رَبِّ	N|ROOT:ربب|LEM:رَبّ|M|GEN
+6:162:9	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+6:163:1	لَا	P|NEG|LEM:لا|FAM:إِنّ
+6:163:2	شَرِيكَ	N|ROOT:شرك|LEM:شَرِيك|M|ACC
+6:163:3	لَهُۥ	P|P|PREF|LEM:ل + N|PRON|3MS
+6:163:4	وَبِذَٰلِكَ	P|REM|PREF|LEM:و + P|P|PREF|LEM:ب + N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+6:163:5	أُمِرْتُ	V|PERF|VF:1|PASS|ROOT:أمر|LEM:أَمَرَ|1S + N|PRON|SUFF|1S
+6:163:6	وَأَنَا۠	P|REM|PREF|LEM:و + N|PRON|1S
+6:163:7	أَوَّلُ	N|ROOT:أول|LEM:أَوَّل|MS|NOM
+6:163:8	ٱلْمُسْلِمِينَ	P|DET|PREF|LEM:ال + N|PN|ACT_PCPL|VF:4|ROOT:سلم|LEM:مُسْلِم|MP|GEN
+6:164:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+6:164:2	أَغَيْرَ	N|INTG|PREF|LEM:أ + N|ROOT:غير|LEM:غَيْر|M|ACC
+6:164:3	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+6:164:4	أَبْغِى	V|IMPF|VF:1|ROOT:بغي|LEM:بَغَى|1S|MOOD:IND
+6:164:5	رَبًّا	N|ROOT:ربب|LEM:رَبّ|M|INDEF|ACC
+6:164:6	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+6:164:7	رَبُّ	N|ROOT:ربب|LEM:رَبّ|M|NOM
+6:164:8	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+6:164:9	شَىْءٍ	N|ROOT:شيأ|LEM:شَىْء|M|INDEF|GEN
+6:164:10	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:164:11	تَكْسِبُ	V|IMPF|VF:1|ROOT:كسب|LEM:كَسَبَ|3FS|MOOD:IND
+6:164:12	كُلُّ	N|ROOT:كلل|LEM:كُلّ|M|NOM
+6:164:13	نَفْسٍ	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|GEN
+6:164:14	إِلَّا	P|EXP|LEM:إِلّا
+6:164:15	عَلَيْهَا	P|P|LEM:عَلَى + N|PRON|SUFF|3FS
+6:164:16	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+6:164:17	تَزِرُ	V|IMPF|VF:1|ROOT:وزر|LEM:يَزِرُ|3FS|MOOD:IND
+6:164:18	وَازِرَةٌ	N|ACT_PCPL|VF:1|ROOT:وزر|LEM:وازِرَة|F|INDEF|NOM
+6:164:19	وِزْرَ	N|ROOT:وزر|LEM:وِزْر|F|ACC
+6:164:20	أُخْرَىٰ	N|ROOT:أخر|LEM:آخَر|FS|GEN
+6:164:21	ثُمَّ	P|CONJ|LEM:ثُمّ
+6:164:22	إِلَىٰ	P|P|LEM:إِلَى
+6:164:23	رَبِّكُم	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+6:164:24	مَّرْجِعُكُمْ	N|ROOT:رجع|LEM:مَرْجِع|M|NOM + N|PRON|SUFF|2MP
+6:164:25	فَيُنَبِّئُكُم	P|REM|PREF|LEM:ف + V|IMPF|VF:2|ROOT:نبأ|LEM:نَبَّأَ|3MS|MOOD:IND + N|PRON|SUFF|2MP
+6:164:26	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+6:164:27	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+6:164:28	فِيهِ	P|P|LEM:فِي + N|PRON|SUFF|3MS
+6:164:29	تَخْتَلِفُونَ	V|IMPF|VF:8|ROOT:خلف|LEM:اخْتَلَفَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+6:165:1	وَهُوَ	P|CONJ|PREF|LEM:و + N|PRON|3MS
+6:165:2	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+6:165:3	جَعَلَكُمْ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS + N|PRON|SUFF|2MP
+6:165:4	خَلَٰٓئِفَ	N|ROOT:خلف|LEM:خَلِيفَة|MP|ACC
+6:165:5	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+6:165:6	وَرَفَعَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:رفع|LEM:رَفَعَ|3MS
+6:165:7	بَعْضَكُمْ	N|ROOT:بعض|LEM:بَعْض|M|ACC + N|PRON|SUFF|2MP
+6:165:8	فَوْقَ	N|LOC|ROOT:فوق|LEM:فَوْق|M|ACC
+6:165:9	بَعْضٍ	N|ROOT:بعض|LEM:بَعْض|M|INDEF|GEN
+6:165:10	دَرَجَٰتٍ	N|ROOT:درج|LEM:دَرَجَة|FP|INDEF|ACC
+6:165:11	لِّيَبْلُوَكُمْ	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:بلو|LEM:بَلَوْ|3MS|MOOD:SUBJ + N|PRON|SUFF|2MP
+6:165:12	فِى	P|P|LEM:فِي
+6:165:13	مَآ	N|REL|LEM:ما
+6:165:14	ءَاتَىٰكُمْ	V|PERF|VF:4|ROOT:أتي|LEM:آتَى|3MS + N|PRON|SUFF|2MP
+6:165:15	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+6:165:16	رَبَّكَ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MS
+6:165:17	سَرِيعُ	N|ROOT:سرع|LEM:سَرِيع|MS|NOM
+6:165:18	ٱلْعِقَابِ	P|DET|PREF|LEM:ال + N|ROOT:عقب|LEM:عِقاب|M|GEN
+6:165:19	وَإِنَّهُۥ	P|CONJ|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+6:165:20	لَغَفُورٌ	P|EMPH|PREF|LEM:ل + N|ROOT:غفر|LEM:غَفُور|MS|INDEF|NOM
+6:165:21	رَّحِيمٌۢ	N|ROOT:رحم|LEM:رَحِيم|MS|INDEF|NOM|ADJ

@@ -147,6 +147,11 @@ BAGLAR = {"AS_enam": [
  {'bag': '30:32 → 6:159', 'kural': "okuma — harekesiz 'llezîne ferraqû dînehum ve kânû şiya'an'; sayım 'say 6:159 2-6'; en uzun ortak lemma dizisi 'ellezî ferraqu dîn kâne şî'a' (dizi 6 159 2 6)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '28:84 → 6:160', 'kural': "okuma — harekesiz 've men câ'e bi's-seyyi'eti fe-lâ yuczâ'; sayım 'say 6:160 7-11'; en uzun ortak lemma dizisi 'men câ'e seyyi'e lâ cezâ' (dizi 6 160 7 11)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '40:40 → 6:160', 'kural': "okuma — harekesiz 'fe-lâ yuczâ illâ mislehâ'; sayım 'say 6:160 10-13'; en uzun ortak lemma dizisi 'seyyi'e lâ cezâ illâ misl' (dizi 6 160 9 13)", 'not': 'kalıp eşi (sayım).'},
+ # blok 161-165
+ {'bag': '13:42 → 6:164', 'kural': "okuma — harekesiz 'teksibu kullu nefsin'; sayım 'say 6:164 11-13'; en uzun ortak lemma dizisi 'kesebe kull nefs' (dizi 6 164 11 13)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '5:48 → 6:164', 'kural': "okuma — harekesiz 'fe-yunebbi'ukum bimâ kuntum fîhi taxtelifûn'; sayım 'say 6:164 25-29'; en uzun ortak lemma dizisi 'nebbe'e mâ kâne fî ixtelefe' (dizi 6 164 25 29)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '43:32 → 6:165', 'kural': "okuma — harekesiz 'fevqa ba'din deracâtin'; sayım 'say 6:165 8-10'; en uzun ortak lemma dizisi 'refe'a ba'd fevq ba'd derece' (dizi 6 165 6 10)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '5:48 → 6:165', 'kural': "okuma — harekesiz 'li-yebluvekum fî mâ âtâkum'; sayım 'say 6:165 11-14'; en uzun ortak lemma dizisi 'belev fî mâ âtâ' (dizi 6 165 11 14)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

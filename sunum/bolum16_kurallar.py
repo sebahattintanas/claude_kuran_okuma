@@ -46,7 +46,7 @@ for a in range(A, B + 1):
         if any(t == 'N' and 'PRON' in ft and 'SUFF' not in ft for f, t, ft in W[a][w]): continue
         fail = None
         for k in range(w + 1, max(W[a]) + 1):
-            if fiil(a, k) or onek(a, k): break
+            if fiil(a, k) or onek(a, k) or any(t == 'P' and re.search(r'(?:^|\|)ACC(?:\||$)', ft) for f, t, ft in W[a][k]): break  # sûre 6 blok 40: 'inne' yeni cümle açar
             ns = [ft for f, t, ft in W[a][k] if t == 'N' and 'PRON' not in ft]
             if ns and any(re.search(r'(?:^|\|)NOM(?:\||$)', ft) for ft in ns): fail = k; break
         if not fail: continue
