@@ -21,6 +21,9 @@ BAGLAR = {"AS_araf": [
  {'bag': '18:50 → 7:11', 'kural': "okuma — harekesiz 'qulnâ li'l-melâ'iketi'scudû li-âdeme fe-secedû illâ iblîs'; sayım 'say 7:11 6-12'; en uzun ortak lemma dizisi 'qâle melek secede âdem secede illâ iblîs' (dizi 7 11 6 12)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '38:75 → 7:12', 'kural': "okuma — harekesiz 'mâ mene'ake'; sayım 'say 7:12 2-3'; en uzun ortak lemma dizisi 'mâ mene'a' (dizi 7 12 2 3)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '38:76 → 7:12', 'kural': "okuma — harekesiz 'qâle ene xayrun minhu xalaqtenî min nârin ve xalaqtehû min tîn'; sayım 'say 7:12 8-17'; en uzun ortak lemma dizisi 'qâle _ xayr min xalaqa min nâr xalaqa min tîn' (dizi 7 12 8 17)", 'not': 'kalıp eşi (sayım).'},
+ # blok 14-18
+ {'bag': '15:36 → 7:14', 'kural': "okuma — harekesiz 'ilâ yevmi yub'asûn'; sayım 'say 7:14 3-5'; en uzun ortak lemma dizisi 'yunzaru ilâ yevm be'ase' (dizi 7 14 2 5)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '38:79 → 7:14', 'kural': "okuma — harekesiz 'ilâ yevmi yub'asûn'; sayım 'say 7:14 3-5'; en uzun ortak lemma dizisi 'yunzaru ilâ yevm be'ase' (dizi 7 14 2 5)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

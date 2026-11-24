@@ -1,0 +1,43 @@
+7:14:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:14:2	أَنظِرْنِىٓ	V|IMPV|VF:4|ROOT:نظر|LEM:يُنظَرُ|2MS + N|PRON|SUFF|1S
+7:14:3	إِلَىٰ	P|P|LEM:إِلَى
+7:14:4	يَوْمِ	N|ROOT:يوم|LEM:يَوْم|M|GEN
+7:14:5	يُبْعَثُونَ	V|IMPF|VF:1|PASS|ROOT:بعث|LEM:بَعَثَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:15:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:15:2	إِنَّكَ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MS
+7:15:3	مِنَ	P|P|LEM:مِن
+7:15:4	ٱلْمُنظَرِينَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:4|ROOT:نظر|LEM:مُنظَر|MP|GEN
+7:16:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:16:2	فَبِمَآ	P|REM|PREF|LEM:ف + P|P|PREF|LEM:ب + N|REL|LEM:ما
+7:16:3	أَغْوَيْتَنِى	V|PERF|VF:4|ROOT:غوي|LEM:أَغْوَيْ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|1S
+7:16:4	لَأَقْعُدَنَّ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قعد|LEM:قَعَدَ|1S|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:16:5	لَهُمْ	P|P|PREF|LEM:ل + N|PRON|3MP
+7:16:6	صِرَٰطَكَ	N|ROOT:صرط|LEM:صِراط|M|ACC + N|PRON|SUFF|2MS
+7:16:7	ٱلْمُسْتَقِيمَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:10|ROOT:قوم|LEM:مُسْتَقِيم|M|ACC|ADJ
+7:17:1	ثُمَّ	P|CONJ|LEM:ثُمّ
+7:17:2	لَءَاتِيَنَّهُم	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|2MS|MOOD:IND + N|PRON|SUFF|3MP
+7:17:3	مِّنۢ	P|P|LEM:مِن
+7:17:4	بَيْنِ	N|ROOT:بين|LEM:بَيْن|GEN
+7:17:5	أَيْدِيهِمْ	N|ROOT:يدي|LEM:يَد|FP|GEN + N|PRON|SUFF|3MP
+7:17:6	وَمِنْ	P|CONJ|PREF|LEM:و + P|P|LEM:مِن
+7:17:7	خَلْفِهِمْ	N|ROOT:خلف|LEM:خَلْف|M|GEN + N|PRON|SUFF|3MP
+7:17:8	وَعَنْ	P|CONJ|PREF|LEM:و + P|P|LEM:عَن
+7:17:9	أَيْمَٰنِهِمْ	N|ROOT:يمن|LEM:يَمِين|MP|GEN + N|PRON|SUFF|3MP
+7:17:10	وَعَن	P|CONJ|PREF|LEM:و + P|P|LEM:عَن
+7:17:11	شَمَآئِلِهِمْ	N|ROOT:شمل|LEM:شَمائِل|MP|GEN + N|PRON|SUFF|3MP
+7:17:12	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+7:17:13	تَجِدُ	V|IMPF|VF:1|ROOT:وجد|LEM:وَجَدَ|2MS|MOOD:IND
+7:17:14	أَكْثَرَهُمْ	N|ROOT:كثر|LEM:أَكْثَر|MS|ACC + N|PRON|SUFF|3MP
+7:17:15	شَٰكِرِينَ	N|ACT_PCPL|VF:1|ROOT:شكر|LEM:شاكِر|MP|ACC
+7:18:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:18:2	ٱخْرُجْ	V|IMPV|VF:1|ROOT:خرج|LEM:خَرَجَ|2MS
+7:18:3	مِنْهَا	P|P|LEM:مِن + N|PRON|SUFF|3FS
+7:18:4	مَذْءُومًا	N|PASS_PCPL|VF:1|ROOT:ذأم|LEM:مَذْءُوم|M|INDEF|ACC
+7:18:5	مَّدْحُورًا	N|PASS_PCPL|VF:1|ROOT:دحر|LEM:مَدْحُور|M|INDEF|ACC
+7:18:6	لَّمَن	P|EMPH|PREF|LEM:ل + N|COND|LEM:مَن
+7:18:7	تَبِعَكَ	V|PERF|VF:1|ROOT:تبع|LEM:تَبِعَ|3MS + N|PRON|SUFF|2MS
+7:18:8	مِنْهُمْ	P|P|LEM:مِن + N|PRON|SUFF|3MP
+7:18:9	لَأَمْلَأَنَّ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:ملأ|LEM:مُلِئَتْ|1S|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:18:10	جَهَنَّمَ	N|PN|LEM:جَهَنَّم|ACC
+7:18:11	مِنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+7:18:12	أَجْمَعِينَ	N|ROOT:جمع|LEM:أَجْمَع|MP|GEN

@@ -1621,4 +1621,6 @@ KARAR = {
     # sure 7 blok 1-5
     '7:2:13': 'degil',  # 've zikrâ li'l-mu'minîn' — esmâ adı esmâ dışı göndergeyle → degil (inanan insanlar)
     '7:3:11': 'degil',  # 've lâ tettebi'û min dûnihî evliyâ'' — esmâ adı esmâ dışı göndergeyle → degil (O'ndan başka edinilen dostlar)
+    # sure 7 blok 14-18
+    '7:17:15': 'degil',  # 've lâ tecidu ekserahum şâkirîn' — esmâ adı esmâ dışı göndergeyle → degil (şükreden insanlar)
 }

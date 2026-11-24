@@ -9,6 +9,8 @@ kt = json.load(open('kok_turkce.json', encoding='utf-8'))
 
 ISTEK = [
     # sûre 7 (A'râf) — blok blok eklenir (2026-11-24); korpus geçişleri kok_envanteri ayet_sayisi ile
+    # blok 4
+    ('ذأم', "yerme, kınama (ze'm; mez'ûm)"),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

@@ -15,11 +15,12 @@ S = 7
 METIN = 'araf_metin_1'
 KAYIT = 'araf_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 5), (6, 10), (11, 13)]
+BLOKLAR = [(1, 5), (6, 10), (11, 13), (14, 18)]
 BASLIK = {
  (1, 5): "7:1-5 — Kitap indirildi; helak edilen kentler; tartı; yeryüzünde yerleştirme",
  (6, 10): "7:6-10 — Kitap indirildi; helak edilen kentler; tartı; yeryüzünde yerleştirme",
  (11, 13): "7:11-13 — Âdem'e secde; İblis'in mühleti; ağaç ve iniş",
+ (14, 18): "7:14-18 — Âdem'e secde; İblis'in mühleti; ağaç ve iniş",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-
