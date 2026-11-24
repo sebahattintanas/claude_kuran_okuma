@@ -49,6 +49,7 @@ def kontrol(n, txt, yer):
                 if not any(P[x](s) for s in W[n][k]): bad += 1; print('UYUŞMAZ', yer, n, x, k, [f for f, _, _ in W[n][k]])
             else:
                 a, b = sk_ar(W[n][k]), sk_la(x)
+                if any(ft_.startswith('INL') for _, _, ft_ in W[n][k]): continue  # sûre 7 blok 1: morph INL (harf dizisi) kelimesinde harf adı alıntısı iskelet karşılaştırmasına girmez
                 if b and b not in a and difflib.SequenceMatcher(None, a, b).ratio() < 0.5: bad += 1; print('UYUŞMAZ?', yer, n, x, k, a, b)
     for m in re.finditer(r"(?:(?<=[\s(])|^)'(?=[^\s'])((?:[^']|'(?=[a-zâîûçğışöü]))+)' (?:karşılığı |açılımı )?\(((?:\d+\.(?: ve |, )?)+)(?: kelime)?[;)]", txt):
         x, nums = m.group(1), [int(k) for k in re.findall(r'\d+', m.group(2))]
@@ -61,6 +62,7 @@ def kontrol(n, txt, yer):
             a, b = sk_ar(W[n][k]), sk_la(x.split()[0] if ' ' in x and k else x)
             if ' ' in x:  # çok kelimeli alıntı: alıntının kelimeleri k'dan başlar
                 b = sk_la(x.split()[0])
+            if any(ft_.startswith('INL') for _, _, ft_ in W[n][k]): continue  # sûre 7 blok 1: morph INL kelimesi (yukarıdaki kural)
             if b and b not in a and difflib.SequenceMatcher(None, a, b).ratio() < 0.5: bad += 1; print('UYUŞMAZ?', yer, n, x, k, a, b)
 ns = {'MEAL': {}, 'M': {}}; exec(open(Y + 'metin' + suf).read(), ns)
 for n in range(A, B + 1):

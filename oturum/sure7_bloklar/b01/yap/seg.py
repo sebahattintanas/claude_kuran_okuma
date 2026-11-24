@@ -1,0 +1,61 @@
+# sûre 7 blok 1 (7:1-5) meal kesimleri
+SEG = {
+ 1: [
+  ("Elif Lâm Mîm Sâd", "elif lâm mîm sâd", [
+   "'Elif Lâm Mîm Sâd' 'elif lâm mîm sâd' karşılığı (1. kelime; morph INL — harf adları; kök ve lemma yok)"]),
+ ],
+ 2: [
+  ("Sana indirilen bir kitaptır", "kitâbun unzile ileyke", [
+   "'kitap' 'kitâb' karşılığı (1. kelime; nekre — 'bir' takdiri)", "'indir-' 'unzile' karşılığı (2. kelime; IV. bab; edilgen 'indirilen')", "'ilâ' 3. kelimede yönelme eki ile ('Sana' içinde)", "'ke' 3. kelimede 'Sana' ile",
+   "'-tır' takdiri ('kitaptır' içinde)", "sıralama: sıfat cümlesi öne alındı"]),
+  ("öyleyse ondan ötürü göğsünde bir sıkıntı olmasın", "fe-lâ yekun fî sadrike haracun minhu", [
+   "'fe' 4. kelimede 'öyleyse' ile (morph REM)", "'lâ' 4. kelimede olumsuzluk eki ile ('olmasın' içinde; morph PRO)", "'ol-' 'yekun' karşılığı (5. kelime; I. bab; JUS; '-sın')", "'fî' 6. kelimede '-de' ile ('göğsünde' içinde)",
+   "'göğüs' 'sadr' karşılığı (7. kelime; 'göğsünde' içinde)", "'ke' 7. kelimede iyelik eki ile ('göğsünde' içinde)", "'sıkıntı' 'harac' karşılığı (8. kelime; nekre — 'bir' takdiri)",
+   "'min' 9. kelimede '-dan ötürü' ile ('ondan ötürü' içinde)", "'hu' 9. kelimede 'o' ile ('ondan' içinde)", "sıralama: zarf öne, fiil sona alındı"]),
+  ("onunla uyarman için", "li-tunzire bihî", [
+   "'li' 10. kelimede 'için' ile (morph PRP — amaç)", "'uyar-' 'tunzire' karşılığı (10. kelime; IV. bab; SUBJ; 2MS; '-man')", "'bi' 11. kelimede '-la' ile ('onunla' içinde)", "'hî' 11. kelimede 'onun' ile ('onunla' içinde)",
+   "sıralama: zarf öne alındı"]),
+  ("ve inananlara bir hatırlatma olarak", "ve zikrâ li'l-mu'minîn", [
+   "'ve' 12. kelimede 've' ile (morph CONJ)", "'hatırlatma' 'zikrâ' karşılığı (12. kelime; 'bir' takdiri)", "'li' 13. kelimede yönelme eki ile ('inananlara' içinde)",
+   "'inanan' 'mu'min' karşılığı (13. kelime; belirli — takdirsiz; çoğul, '-lar'; IV. bab etken ortaç; esmâ dışı)", "'olarak' takdiri ('hatırlatma olarak' içinde)", "sıralama: tümleç öne alındı"]),
+ ],
+ 3: [
+  ("Rabbinizden size indirilene uyun", "ittebi'û mâ unzile ileykum min rabbikum", [
+   "'uy-' 'ittebi'û' karşılığı (1. kelime; VIII. bab; emir, 2MP)", "'mâ' 2. kelimede '-en' ile ('indirilene' içinde; morph REL; yönelme eki 'uy-' ile — fiil yönetimi takdiri)",
+   "'indir-' 'unzile' karşılığı (3. kelime; IV. bab; edilgen 'indirilen')", "'ilâ' 4. kelimede yönelme eki ile ('size' içinde)", "'kum' 4. kelimede 'size' ile", "'min' 5. kelimede '-den' ile ('Rabbinizden' içinde)",
+   "'Rab' 'rabb' karşılığı (6. kelime; 'Rabbinizden' içinde)", "'kum' 6. kelimede iyelik eki ile ('Rabbinizden' içinde)", "sıralama: tümleç öne, fiil sona alındı"]),
+  ("O'ndan başka dostlara uymayın", "ve lâ tettebi'û min dûnihî evliyâ'", [
+   "'ve' 7. kelimede karşılıksız (morph CONJ; noktalı virgül)", "'lâ' 7. kelimede olumsuzluk eki ile ('uymayın' içinde; morph PRO)", "'uy-' 'tettebi'û' karşılığı (8. kelime; VIII. bab; JUS; 2MP)",
+   "'min' 9. kelimede '-dan' ile ('O'ndan' içinde)", "'başka' 'dûn' karşılığı (10. kelime)", "'hî' 10. kelimede 'O' ile ('O'ndan' içinde)",
+   "'dost' 'velî' karşılığı (11. kelime; çoğul 'evliyâ'', '-lar'; yönelme eki ile 'dostlara' — fiil yönetimi takdiri; esmâ dışı)", "sıralama: fiil sona alındı"]),
+  ("Pek az düşünüyorsunuz", "qalîlen mâ tezekkerûn", [
+   "'az' 'qalîl' karşılığı (12. kelime; nekre — takdirsiz)", "'mâ' 13. kelimede 'Pek' ile (morph SUP — pekiştirme)", "'düşün-' 'tezekkerûn' karşılığı (14. kelime; V. bab; '-üyorsunuz')", "sıralama: pekiştirme öne alındı"]),
+ ],
+ 4: [
+  ("Nice şehri helâk ettik", "ve kem min qaryetin ehleknâhâ", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'kem' 1. kelimede 'Nice' ile", "'min' 2. kelimede karşılıksız ('kem' temyizi)", "'şehir' 'qarye' karşılığı (3. kelime; nekre — takdirsiz; belirtme eki ile 'şehri')",
+   "'helâk et-' 'ehleknâ' açılımı (4. kelime; IV. bab; 1P; '-tik')", "'hâ' 4. kelimede karşılıksız ('şehri' ile — yinelenen nesne)"]),
+  ("şiddetimiz ona geceleyin ya da onlar öğle uykusundayken geldi", "fe-câ'ehâ be'sunâ beyâten ev hum qâ'ilûn", [
+   "'fe' 5. kelimede karşılıksız (morph CONJ; noktalı virgül)", "'gel-' 'câ'e' karşılığı (5. kelime; I. bab; '-di')", "'hâ' 5. kelimede 'ona' ile (fiil yönetimi takdiri)", "'şiddet' 'be's' karşılığı (6. kelime; 'şiddetimiz' içinde)",
+   "'nâ' 6. kelimede iyelik eki ile ('şiddetimiz' içinde)", "'geceleyin' 'beyât' açılımı (7. kelime; nekre — takdirsiz)", "'ev' 8. kelimede 'ya da' ile (morph CONJ)", "'hum' 9. kelimede 'onlar' ile",
+   "'öğle uykusunda' 'qâ'il' açılımı (10. kelime; I. bab etken ortaç; çoğul — Türkçede tekil)", "'-yken' takdiri ('uykusundayken' içinde — isim cümlesinin zarf açılımı)", "sıralama: fiil sona alındı"]),
+ ],
+ 5: [
+  ("Şiddetimiz onlara geldiğinde yakarışları ancak şunu demeleri oldu", "fe-mâ kâne da'vâhum iz câ'ehum be'sunâ illâ en qâlû", [
+   "'fe' 1. kelimede karşılıksız (morph CONJ)", "'mâ' 1. kelimede karşılıksız (morph NEG — 'illâ' ile kasr: 'ancak … oldu')", "'ol-' 'kâne' karşılığı (2. kelime; I. bab; 'oldu')",
+   "'yakarış' 'da'vâ' karşılığı (3. kelime; iyelik '-ları')", "'hum' 3. kelimede iyelik eki ile ('yakarışları' içinde)", "'iz' 4. kelimede '-diğinde' ile ('geldiğinde' içinde; morph T)",
+   "'gel-' 'câ'e' karşılığı (5. kelime; I. bab)", "'hum' 5. kelimede 'onlara' ile (fiil yönetimi takdiri)", "'şiddet' 'be's' karşılığı (6. kelime; 'Şiddetimiz' içinde)", "'nâ' 6. kelimede iyelik eki ile ('Şiddetimiz' içinde)",
+   "'illâ' 7. kelimede 'ancak' ile (morph RES)", "'en' 8. kelimede '-meleri' ile ('demeleri' içinde; morph SUB)", "'de-' 'qâlû' karşılığı (9. kelime; I. bab)", "'şunu' takdiri (sözün öncesi)",
+   "sıralama: zaman cümlesi öne, fiil sona alındı"]),
+  ("Biz gerçekten zalimmişiz", "innâ kunnâ zâlimîn", [
+   "'inne' 10. kelimede 'gerçekten' ile (morph ACC — tekit)", "'nâ' 10. kelimede 'Biz' ile", "'ol-' 'kunnâ' karşılığı (11. kelime; I. bab; 1P; ek fiil '-mişiz' ile 'zalimmişiz' içinde)",
+   "'zalim' 'zâlim' karşılığı (12. kelime; çoğul — Türkçede tekil; I. bab etken ortaç)", "sıralama: haber sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (1, 2, 3, 4, 5):
+        out.append('7:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

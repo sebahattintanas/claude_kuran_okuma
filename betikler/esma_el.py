@@ -1618,4 +1618,7 @@ KARAR = {
     '6:163:7': 'degil',  # 'evvelu'l-muslimîn' — esmâ adı esmâ dışı göndergeyle → degil (esmâ dışı gönderge)
     '6:165:20': 'ilahi',  # 've innehû le-ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Rab)
     '6:165:21': 'ilahi',  # 've innehû le-ğafûrun rahîm' — 'inne/enne' haberi → ilahi (Rab; morph ADJ ile 'ğafûr'un sıfatı)
+    # sure 7 blok 1-5
+    '7:2:13': 'degil',  # 've zikrâ li'l-mu'minîn' — esmâ adı esmâ dışı göndergeyle → degil (inanan insanlar)
+    '7:3:11': 'degil',  # 've lâ tettebi'û min dûnihî evliyâ'' — esmâ adı esmâ dışı göndergeyle → degil (O'ndan başka edinilen dostlar)
 }

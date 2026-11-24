@@ -1,0 +1,50 @@
+7:1:1	الٓمٓصٓ	P|INL|
+7:2:1	كِتَٰبٌ	N|ROOT:كتب|LEM:كِتاب|M|INDEF|NOM
+7:2:2	أُنزِلَ	V|PERF|VF:4|PASS|ROOT:نزل|LEM:أَنزَلَ|3MS
+7:2:3	إِلَيْكَ	P|P|LEM:إِلَى + N|PRON|SUFF|2MS
+7:2:4	فَلَا	P|REM|PREF|LEM:ف + P|PRO|LEM:لا
+7:2:5	يَكُن	V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS|MOOD:JUS
+7:2:6	فِى	P|P|LEM:فِي
+7:2:7	صَدْرِكَ	N|ROOT:صدر|LEM:صَدْر|M|GEN + N|PRON|SUFF|2MS
+7:2:8	حَرَجٌ	N|ROOT:حرج|LEM:حَرَج|M|INDEF|NOM
+7:2:9	مِّنْهُ	P|P|LEM:مِن + N|PRON|SUFF|3MS
+7:2:10	لِتُنذِرَ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|ROOT:نذر|LEM:أَنذَرَ|2MS|MOOD:SUBJ
+7:2:11	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+7:2:12	وَذِكْرَىٰ	P|CONJ|PREF|LEM:و + N|ROOT:ذكر|LEM:ذِكْرَى|F|GEN
+7:2:13	لِلْمُؤْمِنِينَ	P|P|PREF|LEM:ل + P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|GEN
+7:3:1	ٱتَّبِعُوا۟	V|IMPV|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP + N|PRON|SUFF|2MP
+7:3:2	مَآ	N|REL|LEM:ما
+7:3:3	أُنزِلَ	V|PERF|VF:4|PASS|ROOT:نزل|LEM:أَنزَلَ|3MS
+7:3:4	إِلَيْكُم	P|P|LEM:إِلَى + N|PRON|SUFF|2MP
+7:3:5	مِّن	P|P|LEM:مِن
+7:3:6	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+7:3:7	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+7:3:8	تَتَّبِعُوا۟	V|IMPF|VF:8|ROOT:تبع|LEM:اتَّبَعَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+7:3:9	مِن	P|P|LEM:مِن
+7:3:10	دُونِهِۦٓ	N|ROOT:دون|LEM:دُون|GEN + N|PRON|SUFF|3MS
+7:3:11	أَوْلِيَآءَ	N|ROOT:ولي|LEM:وَلِيّ|MP|ACC
+7:3:12	قَلِيلًا	N|ROOT:قلل|LEM:قَلِيل|MS|INDEF|ACC|ADJ
+7:3:13	مَّا	P|SUP|LEM:ما
+7:3:14	تَذَكَّرُونَ	V|IMPF|VF:5|ROOT:ذكر|LEM:تَذَكَّرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:4:1	وَكَم	P|REM|PREF|LEM:و + N|LEM:كَم|ACC
+7:4:2	مِّن	P|P|LEM:مِن
+7:4:3	قَرْيَةٍ	N|ROOT:قري|LEM:قَرْيَة|F|INDEF|GEN
+7:4:4	أَهْلَكْنَٰهَا	V|PERF|VF:4|ROOT:هلك|LEM:أَهْلَكَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3FS
+7:4:5	فَجَآءَهَا	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|3FS
+7:4:6	بَأْسُنَا	N|ROOT:بأس|LEM:بَأْس|M|NOM + N|PRON|SUFF|1P
+7:4:7	بَيَٰتًا	N|ROOT:بيت|LEM:بَيات|M|INDEF|ACC
+7:4:8	أَوْ	P|CONJ|LEM:أَو
+7:4:9	هُمْ	N|PRON|3MP
+7:4:10	قَآئِلُونَ	N|ACT_PCPL|VF:1|ROOT:قيل|LEM:قائِل|MP|NOM
+7:5:1	فَمَا	P|CONJ|PREF|LEM:ف + P|NEG|LEM:ما
+7:5:2	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:5:3	دَعْوَىٰهُمْ	N|ROOT:دعو|LEM:دَعْوَى|M|NOM + N|PRON|SUFF|3MP
+7:5:4	إِذْ	N|T|LEM:إِذ
+7:5:5	جَآءَهُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|3MP
+7:5:6	بَأْسُنَآ	N|ROOT:بأس|LEM:بَأْس|M|NOM + N|PRON|SUFF|1P
+7:5:7	إِلَّآ	P|RES|LEM:إِلّا
+7:5:8	أَن	P|SUB|LEM:أَن
+7:5:9	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:5:10	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:5:11	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+7:5:12	ظَٰلِمِينَ	N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|ACC
