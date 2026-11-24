@@ -1,0 +1,43 @@
+7:6:1	فَلَنَسْـَٔلَنَّ	P|REM|PREF|LEM:ف + P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:سأل|LEM:سَأَلَ|1P|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:6:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:6:3	أُرْسِلَ	V|PERF|VF:4|PASS|ROOT:رسل|LEM:أَرْسَلَ|3MS
+7:6:4	إِلَيْهِمْ	P|P|LEM:إِلَى + N|PRON|SUFF|3MP
+7:6:5	وَلَنَسْـَٔلَنَّ	P|CONJ|PREF|LEM:و + P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:سأل|LEM:سَأَلَ|1P|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:6:6	ٱلْمُرْسَلِينَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:4|ROOT:رسل|LEM:مُرْسَل|MP|ACC
+7:7:1	فَلَنَقُصَّنَّ	P|CONJ|PREF|LEM:ف + P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:قصص|LEM:قَصَّ|1P|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:7:2	عَلَيْهِم	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+7:7:3	بِعِلْمٍ	P|P|PREF|LEM:ب + N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+7:7:4	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+7:7:5	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+7:7:6	غَآئِبِينَ	N|ACT_PCPL|VF:1|ROOT:غيب|LEM:غائِب|MP|ACC
+7:8:1	وَٱلْوَزْنُ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:وزن|LEM:وَزْن|M|NOM
+7:8:2	يَوْمَئِذٍ	N|T|ROOT:يوم|LEM:يَوْم + N|T|LEM:إِذ
+7:8:3	ٱلْحَقُّ	P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|NOM
+7:8:4	فَمَن	P|REM|PREF|LEM:ف + N|COND|LEM:مَن
+7:8:5	ثَقُلَتْ	V|PERF|VF:1|ROOT:ثقل|LEM:ثَقُلَتْ|3FS
+7:8:6	مَوَٰزِينُهُۥ	N|ROOT:وزن|LEM:مِيزان|MP|NOM + N|PRON|SUFF|3MS
+7:8:7	فَأُو۟لَٰٓئِكَ	P|RSLT|PREF|LEM:ف + N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+7:8:8	هُمُ	N|PRON|3MP
+7:8:9	ٱلْمُفْلِحُونَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:فلح|LEM:مُفْلِح|MP|NOM
+7:9:1	وَمَنْ	P|CONJ|PREF|LEM:و + N|COND|LEM:مَن
+7:9:2	خَفَّتْ	V|PERF|VF:1|ROOT:خفف|LEM:خَفَّتْ|3FS
+7:9:3	مَوَٰزِينُهُۥ	N|ROOT:وزن|LEM:مِيزان|MP|NOM + N|PRON|SUFF|3MS
+7:9:4	فَأُو۟لَٰٓئِكَ	P|RSLT|PREF|LEM:ف + N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+7:9:5	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:9:6	خَسِرُوٓا۟	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MP + N|PRON|SUFF|3MP
+7:9:7	أَنفُسَهُم	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|3MP
+7:9:8	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+7:9:9	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:9:10	بِـَٔايَٰتِنَا	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+7:9:11	يَظْلِمُونَ	V|IMPF|VF:1|ROOT:ظلم|LEM:ظَلَمَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:10:1	وَلَقَدْ	P|REM|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:10:2	مَكَّنَّٰكُمْ	V|PERF|VF:2|ROOT:مكن|LEM:مَكَّ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|2MP
+7:10:3	فِى	P|P|LEM:فِي
+7:10:4	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+7:10:5	وَجَعَلْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P
+7:10:6	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+7:10:7	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:10:8	مَعَٰيِشَ	N|ROOT:عيش|LEM:مَعايِش|MP|ACC
+7:10:9	قَلِيلًا	N|ROOT:قلل|LEM:قَلِيل|MS|INDEF|ACC|ADJ
+7:10:10	مَّا	P|SUP|LEM:ما
+7:10:11	تَشْكُرُونَ	V|IMPF|VF:1|ROOT:شكر|LEM:شَكَرَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
