@@ -1636,4 +1636,5 @@ KARAR = {
     # sure 7 blok 44-47
     '7:45:9': 'degil',  # 've hum bi'l-âxirati kâfirûn' — esmâ adı esmâ dışı göndergeyle → degil (âhiret günü)
     '7:46:13': 'degil',  # 'selâmun 'aleykum' — esmâ adı esmâ dışı göndergeyle → degil (selamlama sözü)
+    # sure 7 blok 48-51
 }

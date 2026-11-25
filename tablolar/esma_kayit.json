@@ -109327,6 +109327,70 @@
   "ton": null,
   "ton_kismi": false
  },
+ "7:48": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    4,
+    "رِجال"
+   ],
+   [
+    6,
+    "سِيما"
+   ],
+   [
+    11,
+    "جَمْع"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:49": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    7,
+    "رَحْمَة"
+   ],
+   [
+    9,
+    "جَنَّة"
+   ],
+   [
+    11,
+    "خَوْف"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "7:5": {
   "a": false,
   "bant": "KAPI_KAPALI",
@@ -109354,6 +109418,70 @@
    [
     12,
     "ظالِم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:50": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    14,
+    "اللَّه"
+   ],
+   [
+    17,
+    "اللَّه"
+   ],
+   [
+    20,
+    "كافِر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:51": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    13,
+    "لِقاء"
+   ],
+   [
+    14,
+    "يَوْم"
+   ],
+   [
+    18,
+    "آيَة"
    ]
   ],
   "ton": null,
