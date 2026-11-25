@@ -1,0 +1,51 @@
+7:42:1	وَٱلَّذِينَ	P|CONJ|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+7:42:2	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+7:42:3	وَعَمِلُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:عمل|LEM:عَمِلَ|3MP + N|PRON|SUFF|3MP
+7:42:4	ٱلصَّٰلِحَٰتِ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:صلح|LEM:صالِحَة|FP|ACC
+7:42:5	لَا	P|NEG|LEM:لا
+7:42:6	نُكَلِّفُ	V|IMPF|VF:2|ROOT:كلف|LEM:يُكَلِّفُ|1P|MOOD:IND
+7:42:7	نَفْسًا	N|ROOT:نفس|LEM:نَفْس|FS|INDEF|ACC
+7:42:8	إِلَّا	P|EXP|LEM:إِلّا
+7:42:9	وُسْعَهَآ	N|ROOT:وسع|LEM:وُسْع|M|ACC + N|PRON|SUFF|3FS
+7:42:10	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+7:42:11	أَصْحَٰبُ	N|ROOT:صحب|LEM:أَصْحاب|MP|NOM
+7:42:12	ٱلْجَنَّةِ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|GEN
+7:42:13	هُمْ	N|PRON|3MP
+7:42:14	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:42:15	خَٰلِدُونَ	N|ACT_PCPL|VF:1|ROOT:خلد|LEM:خالِد|MP|NOM
+7:43:1	وَنَزَعْنَا	P|REM|PREF|LEM:و + V|PERF|VF:1|ROOT:نزع|LEM:نَزَعَ|1P + N|PRON|SUFF|1P
+7:43:2	مَا	N|REL|LEM:ما
+7:43:3	فِى	P|P|LEM:فِي
+7:43:4	صُدُورِهِم	N|ROOT:صدر|LEM:صَدْر|MP|GEN + N|PRON|SUFF|3MP
+7:43:5	مِّنْ	P|P|LEM:مِن
+7:43:6	غِلٍّ	N|ROOT:غلل|LEM:غِلّ|M|INDEF|GEN
+7:43:7	تَجْرِى	V|IMPF|VF:1|ROOT:جري|LEM:جَرَيْ|3FS|MOOD:IND
+7:43:8	مِن	P|P|LEM:مِن
+7:43:9	تَحْتِهِمُ	N|ROOT:تحت|LEM:تَحْت|GEN + N|PRON|SUFF|3MP
+7:43:10	ٱلْأَنْهَٰرُ	P|DET|PREF|LEM:ال + N|ROOT:نهر|LEM:نَهَر|MP|NOM
+7:43:11	وَقَالُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:43:12	ٱلْحَمْدُ	P|DET|PREF|LEM:ال + N|ROOT:حمد|LEM:حَمْد|M|NOM
+7:43:13	لِلَّهِ	P|P|PREF|LEM:ل + N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:43:14	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+7:43:15	هَدَىٰنَا	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|1P
+7:43:16	لِهَٰذَا	P|P|PREF|LEM:ل + P|ATT|PREF|LEM:ه + N|DEM|LEM:ذا|MS
+7:43:17	وَمَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:ما
+7:43:18	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+7:43:19	لِنَهْتَدِىَ	P|PRP|PREF|LEM:ل + V|IMPF|VF:8|ROOT:هدي|LEM:اهْتَدَى|1P|MOOD:SUBJ
+7:43:20	لَوْلَآ	P|COND|LEM:لَوْلا
+7:43:21	أَنْ	P|SUB|LEM:أَن
+7:43:22	هَدَىٰنَا	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS + N|PRON|SUFF|1P
+7:43:23	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:43:24	لَقَدْ	P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:43:25	جَآءَتْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS
+7:43:26	رُسُلُ	N|ROOT:رسل|LEM:رَسُول|MP|NOM
+7:43:27	رَبِّنَا	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1P
+7:43:28	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+7:43:29	وَنُودُوٓا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:3|PASS|ROOT:ندي|LEM:نادَى|3MP + N|PRON|SUFF|3MP
+7:43:30	أَن	P|INT|LEM:أَن
+7:43:31	تِلْكُمُ	N|DEM|LEM:ذا|FS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|MP
+7:43:32	ٱلْجَنَّةُ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|NOM
+7:43:33	أُورِثْتُمُوهَا	V|PERF|VF:4|PASS|ROOT:ورث|LEM:أَوْرَثَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3FS
+7:43:34	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+7:43:35	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+7:43:36	تَعْمَلُونَ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

@@ -1632,4 +1632,5 @@ KARAR = {
     # sure 7 blok 38-41
     '7:38:26': 'degil',  # 'qâlet uxrâhum li-ûlâhum' — esmâ adı esmâ dışı göndergeyle → degil (ümmetlerin evvelkileri)
     '7:39:2': 'degil',  # 've qâlet ûlâhum li-uxrâhum' — esmâ adı esmâ dışı göndergeyle → degil (ümmetlerin evvelkileri)
+    # sure 7 blok 42-43
 }
