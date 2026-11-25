@@ -1,0 +1,59 @@
+7:22:1	فَدَلَّىٰهُمَا	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:دلل|LEM:دَلَّ|3MS + N|PRON|SUFF|3D
+7:22:2	بِغُرُورٍ	P|P|PREF|LEM:ب + N|ROOT:غرر|LEM:غُرُور|M|INDEF|GEN
+7:22:3	فَلَمَّا	P|REM|PREF|LEM:ف + N|T|LEM:لَمّا
+7:22:4	ذَاقَا	V|PERF|VF:1|ROOT:ذوق|LEM:ذاقُ|3MD + N|PRON|SUFF|3MD
+7:22:5	ٱلشَّجَرَةَ	P|DET|PREF|LEM:ال + N|ROOT:شجر|LEM:شَجَرَة|F|ACC
+7:22:6	بَدَتْ	V|PERF|VF:1|ROOT:بدو|LEM:بَدا|3FS
+7:22:7	لَهُمَا	P|P|PREF|LEM:ل + N|PRON|3D
+7:22:8	سَوْءَٰتُهُمَا	N|ROOT:سوأ|LEM:سَوْءَة|FP|NOM + N|PRON|SUFF|3D
+7:22:9	وَطَفِقَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:طفق|LEM:طَفِقَ|3MD + N|PRON|SUFF|3MD
+7:22:10	يَخْصِفَانِ	V|IMPF|VF:1|ROOT:خصف|LEM:يَخْصِفَ|3MD|MOOD:IND + N|PRON|SUFF|3D
+7:22:11	عَلَيْهِمَا	P|P|LEM:عَلَى + N|PRON|SUFF|3D
+7:22:12	مِن	P|P|LEM:مِن
+7:22:13	وَرَقِ	N|ROOT:ورق|LEM:وَرَق|M|GEN
+7:22:14	ٱلْجَنَّةِ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|GEN
+7:22:15	وَنَادَىٰهُمَا	P|REM|PREF|LEM:و + V|PERF|VF:3|ROOT:ندي|LEM:نادَى|3MS + N|PRON|SUFF|3D
+7:22:16	رَبُّهُمَآ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|3D
+7:22:17	أَلَمْ	N|INTG|PREF|LEM:أ + P|NEG|LEM:لَم
+7:22:18	أَنْهَكُمَا	V|IMPF|VF:1|ROOT:نهي|LEM:نَهَى|1S|MOOD:JUS + N|PRON|SUFF|2D
+7:22:19	عَن	P|P|LEM:عَن
+7:22:20	تِلْكُمَا	N|DEM|LEM:ذا|FS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|D
+7:22:21	ٱلشَّجَرَةِ	P|DET|PREF|LEM:ال + N|ROOT:شجر|LEM:شَجَرَة|F|GEN
+7:22:22	وَأَقُل	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|1S|MOOD:JUS
+7:22:23	لَّكُمَآ	P|P|PREF|LEM:ل + N|PRON|2D
+7:22:24	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+7:22:25	ٱلشَّيْطَٰنَ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|M|ACC
+7:22:26	لَكُمَا	P|P|PREF|LEM:ل + N|PRON|2D
+7:22:27	عَدُوٌّ	N|ROOT:عدو|LEM:عَدُوّ|M|INDEF|NOM
+7:22:28	مُّبِينٌ	N|ACT_PCPL|VF:4|ROOT:بين|LEM:مُبِين|M|INDEF|NOM|ADJ
+7:23:1	قَالَا	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MD + N|PRON|SUFF|3MD
+7:23:2	رَبَّنَا	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1P
+7:23:3	ظَلَمْنَآ	V|PERF|VF:1|ROOT:ظلم|LEM:ظَلَمَ|1P + N|PRON|SUFF|1P
+7:23:4	أَنفُسَنَا	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|1P
+7:23:5	وَإِن	P|CONJ|PREF|LEM:و + P|COND|LEM:إِن
+7:23:6	لَّمْ	P|NEG|LEM:لَم
+7:23:7	تَغْفِرْ	V|IMPF|VF:1|ROOT:غفر|LEM:غَفَرَ|2MS|MOOD:JUS
+7:23:8	لَنَا	P|P|PREF|LEM:ل + N|PRON|1P
+7:23:9	وَتَرْحَمْنَا	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:رحم|LEM:رَحِمَ|3FS|MOOD:JUS + N|PRON|SUFF|1P
+7:23:10	لَنَكُونَنَّ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P|MOOD:IND + P|EMPH|SUFF|LEM:ن
+7:23:11	مِنَ	P|P|LEM:مِن
+7:23:12	ٱلْخَٰسِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:خسر|LEM:خاسِر|MP|GEN
+7:24:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:24:2	ٱهْبِطُوا۟	V|IMPV|VF:1|ROOT:هبط|LEM:يَهْبِطُ|2MP + N|PRON|SUFF|2MP
+7:24:3	بَعْضُكُمْ	N|ROOT:بعض|LEM:بَعْض|M|NOM + N|PRON|SUFF|2MP
+7:24:4	لِبَعْضٍ	P|P|PREF|LEM:ل + N|ROOT:بعض|LEM:بَعْض|M|INDEF|GEN
+7:24:5	عَدُوٌّ	N|ROOT:عدو|LEM:عَدُوّ|M|INDEF|NOM
+7:24:6	وَلَكُمْ	P|CONJ|PREF|LEM:و + P|P|PREF|LEM:ل + N|PRON|2MP
+7:24:7	فِى	P|P|LEM:فِي
+7:24:8	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+7:24:9	مُسْتَقَرٌّ	N|PASS_PCPL|VF:10|ROOT:قرر|LEM:مُسْتَقَرّ|M|INDEF|NOM
+7:24:10	وَمَتَٰعٌ	P|CONJ|PREF|LEM:و + N|ROOT:متع|LEM:مَتاع|M|INDEF|NOM
+7:24:11	إِلَىٰ	P|P|LEM:إِلَى
+7:24:12	حِينٍ	N|ROOT:حين|LEM:حِين|M|INDEF|GEN
+7:25:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:25:2	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:25:3	تَحْيَوْنَ	V|IMPF|VF:1|ROOT:حيي|LEM:حَىَّ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:25:4	وَفِيهَا	P|CONJ|PREF|LEM:و + P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:25:5	تَمُوتُونَ	V|IMPF|VF:1|ROOT:موت|LEM:ماتَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:25:6	وَمِنْهَا	P|CONJ|PREF|LEM:و + P|P|LEM:مِن + N|PRON|SUFF|3FS
+7:25:7	تُخْرَجُونَ	V|IMPF|VF:4|PASS|ROOT:خرج|LEM:أَخْرَجَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

@@ -1623,4 +1623,6 @@ KARAR = {
     '7:3:11': 'degil',  # 've lâ tettebi'û min dûnihî evliyâ'' — esmâ adı esmâ dışı göndergeyle → degil (O'ndan başka edinilen dostlar)
     # sure 7 blok 14-18
     '7:17:15': 'degil',  # 've lâ tecidu ekserahum şâkirîn' — esmâ adı esmâ dışı göndergeyle → degil (şükreden insanlar)
+    # sure 7 blok 22-25
+    '7:22:28': 'degil',  # 'inne'ş-şeytâne lekumâ 'aduvvun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (şeytanın düşmanlık sıfatı)
 }
