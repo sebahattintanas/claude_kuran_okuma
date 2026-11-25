@@ -1,0 +1,56 @@
+# sûre 7 blok 8 (7:28-30) meal kesimleri
+SEG = {
+ 28: [
+  ("Bir hayâsızlık yaptıklarında", "ve izâ fe'alû fâhişeten", [
+   "'ve' 1. kelimede karşılıksız (morph REM)", "'izâ' 1. kelimede '-tıklarında' ile ('yaptıklarında' içinde; zaman)", "'yap-' 'fe'alû' karşılığı (2. kelime; I. bab; 3MP)",
+   "'hayâsızlık' 'fâhişe' karşılığı (3. kelime; nekre — 'bir' takdiri)", "sıralama: fiil sona alındı"]),
+  ("derler ki", "qâlû", ["'de-' 'qâlû' karşılığı (4. kelime; I. bab; '-rler')", "'ki' takdiri (söz açılışı)"]),
+  ("Atalarımızı bunun üzerinde bulduk", "vecednâ 'aleyhâ âbâ'enâ", [
+   "'bul-' 'vecednâ' karşılığı (5. kelime; I. bab; 1P '-duk')", "''alâ' 6. kelimede 'üzerinde' ile", "'hâ' 6. kelimede 'bunun' ile", "'ata' 'âbâ'' karşılığı (7. kelime; çoğul '-lar'; belirtme eki ile 'Atalarımızı')",
+   "'nâ' 7. kelimede iyelik eki ile ('Atalarımızı' içinde)", "sıralama: nesne öne, fiil sona alındı"]),
+  ("Allah da bize bunu emretti", "ve'llâhu emeranâ bihâ", [
+   "'ve' 8. kelimede 'da' ile (morph REM)", "'Allah' 'allâh' karşılığı (8. kelime)", "'emret-' 'emera' karşılığı (9. kelime; I. bab; '-ti')", "'nâ' 9. kelimede 'bize' ile (fiil yönetimi takdiri)",
+   "'bi' 10. kelimede belirtme eki ile ('bunu' içinde — fiil yönetimi takdiri)", "'hâ' 10. kelimede 'bunu' ile", "sıralama: fiil sona alındı"]),
+  ("De ki", "qul", ["'de-' 'qul' karşılığı (11. kelime; I. bab; emir, 2MS)", "'ki' takdiri (söz açılışı)"]),
+  ("Gerçekten Allah hayâsızlığı emretmez", "inne'llâhe lâ ye'muru bi'l-fahşâ'i", [
+   "'inne' 12. kelimede 'Gerçekten' ile (morph ACC — tekit)", "'Allah' 'allâh' karşılığı (13. kelime)", "'lâ' 14. kelimede olumsuzluk eki ile ('emretmez' içinde; morph NEG)", "'emret-' 'ye'muru' karşılığı (15. kelime; I. bab; '-mez')",
+   "'bi' 16. kelimede belirtme eki ile ('hayâsızlığı' içinde — fiil yönetimi takdiri)", "'hayâsızlık' 'fahşâ'' karşılığı (16. kelime; belirli — takdirsiz)", "sıralama: fiil sona alındı"]),
+  ("Allah hakkında bilmediğiniz şeyi mi söylüyorsunuz", "e-teqûlûne 'ale'llâhi mâ lâ ta'lemûn", [
+   "'e' 17. kelimede 'mi' ile (morph INTG)", "'söyle-' 'teqûlûne' karşılığı (17. kelime; I. bab; 2MP '-üyorsunuz')", "''alâ' 18. kelimede 'hakkında' ile", "'Allah' 'allâh' karşılığı (19. kelime)",
+   "'mâ' 20. kelimede 'şey' ile ('şeyi' içinde; morph REL)", "'lâ' 21. kelimede olumsuzluk eki ile ('bilmediğiniz' içinde; morph NEG)", "'bil-' 'ta'lemûn' karşılığı (22. kelime; I. bab; 2MP '-diğiniz')", "sıralama: fiil sona alındı"]),
+ ],
+ 29: [
+  ("De ki", "qul", ["'de-' 'qul' karşılığı (1. kelime; I. bab; emir, 2MS)", "'ki' takdiri (söz açılışı)"]),
+  ("Rabbim adaleti emretti", "emera rabbî bi'l-qısti", [
+   "'emret-' 'emera' karşılığı (2. kelime; I. bab; '-ti')", "'Rab' 'rabb' karşılığı (3. kelime; iyelik '-im')", "'î' 3. kelimede iyelik ile ('Rabbim' içinde)",
+   "'bi' 4. kelimede belirtme eki ile ('adaleti' içinde — fiil yönetimi takdiri)", "'adalet' 'qıst' karşılığı (4. kelime; belirli — takdirsiz)", "sıralama: özne öne, fiil sona alındı"]),
+  ("Her mescidin yanında yüzlerinizi doğrultun", "ve aqîmû vucûhekum 'inde kulli mescidin", [
+   "'ve' 5. kelimede karşılıksız (morph CONJ)", "'doğrult-' 'aqîmû' karşılığı (5. kelime; IV. bab; emir, 2MP '-un')", "'yüz' 'vech' karşılığı (6. kelime; çoğul 'vucûh', '-ler'; 'yüzlerinizi' içinde)", "'kum' 6. kelimede iyelik eki ile ('yüzlerinizi' içinde)",
+   "'yan' ''inde' karşılığı (7. kelime; morph LOC; 'yanında' içinde)", "'her' 'kull' karşılığı (8. kelime)", "'mescid' 'mescid' karşılığı (9. kelime; nekre — takdirsiz; tamlayan eki ile 'mescidin')", "sıralama: yer tümleci öne, fiil sona alındı"]),
+  ("ve dini O'na hâlis kılarak O'na dua edin", "ve'd'ûhu muxlisîne lehu'd-dîne", [
+   "'ve' 10. kelimede 've' ile (morph CONJ)", "'dua et-' 'd'û' karşılığı (10. kelime; I. bab; emir, 2MP '-in')", "'hu' 10. kelimede 'O'na' ile (fiil yönetimi takdiri)", "'hâlis kıl-' 'muxlis' açılımı (11. kelime; IV. bab etken ortaç; çoğul; '-arak')",
+   "'li' 12. kelimede yönelme eki ile ('O'na' içinde)", "'hu' 12. kelimede 'O'na' ile", "'din' 'dîn' karşılığı (13. kelime; belirli — takdirsiz; 'dini' içinde)", "sıralama: hâl öne, fiil sona alındı"]),
+  ("Sizi başlattığı gibi döneceksiniz", "kemâ bede'ekum te'ûdûn", [
+   "'ke' 14. kelimede 'gibi' ile", "'mâ' 14. kelimede '-tığı' ile ('başlattığı' içinde; morph SUB)", "'başlat-' 'bede'e' karşılığı (15. kelime; I. bab)", "'kum' 15. kelimede 'Sizi' ile",
+   "'dön-' 'te'ûdûn' karşılığı (16. kelime; I. bab; 2MP '-eceksiniz')"]),
+ ],
+ 30: [
+  ("Bir bölüğe yol gösterdi", "ferîqan hedâ", ["'bölük' 'ferîq' karşılığı (1. kelime; nekre — 'bir' takdiri; yönelme eki ile 'bölüğe' — fiil yönetimi takdiri)", "'yol göster-' 'hedâ' açılımı (2. kelime; I. bab; '-di')"]),
+  ("bir bölüğe de sapkınlık hak oldu", "ve ferîqan haqqa 'aleyhimu'd-dalâletu", [
+   "'ve' 3. kelimede 'de' ile (morph CONJ)", "'bölük' 'ferîq' karşılığı (3. kelime; nekre — 'bir' takdiri; 'bölüğe' içinde)", "'hak ol-' 'haqqa' açılımı (4. kelime; I. bab; '-du')",
+   "''alâ' 5. kelimede yönelme eki ile ('bölüğe' içinde)", "'him' 5. kelimede karşılıksız (öne alınmış 'bölüğe' ile karşılandı)", "'sapkınlık' 'dalâle' karşılığı (6. kelime; belirli — takdirsiz)", "sıralama: fiil sona alındı"]),
+  ("Gerçekten onlar Allah'tan başka şeytanları dostlar edindiler", "innehumu'ttexazu'ş-şeyâtîne evliyâ'e min dûni'llâhi", [
+   "'inne' 7. kelimede 'Gerçekten' ile (morph ACC — tekit)", "'hum' 7. kelimede 'onlar' ile", "'edin-' 'ttexazu' karşılığı (8. kelime; VIII. bab; '-diler')", "'şeytan' 'şeytân' karşılığı (9. kelime; belirli — takdirsiz; özel ad; çoğul 'şeyâtîn', '-lar')",
+   "'dost' 'velî' karşılığı (10. kelime; çoğul 'evliyâ'', '-lar'; esmâ dışı)", "'min' 11. kelimede '-tan' ile ('Allah'tan' içinde)", "'başka' 'dûn' karşılığı (12. kelime)", "'Allah' 'allâh' karşılığı (13. kelime)", "sıralama: fiil sona alındı"]),
+  ("ve kendilerinin doğru yolu bulmuş olduklarını sanıyorlar", "ve yahsebûne ennehum muhtedûn", [
+   "'ve' 14. kelimede 've' ile (morph CIRC)", "'san-' 'yahsebûne' karşılığı (14. kelime; I. bab; '-ıyorlar')", "'enne' 15. kelimede '-duklarını' ile ('olduklarını' içinde; morph ACC)", "'hum' 15. kelimede 'kendilerinin' ile",
+   "'doğru yolu bulmuş' 'muhtedî' açılımı (16. kelime; çoğul; VIII. bab etken ortaç)", "'ol-' takdiri ('olduklarını' içinde)", "sıralama: fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (28, 29, 30):
+        out.append('7:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

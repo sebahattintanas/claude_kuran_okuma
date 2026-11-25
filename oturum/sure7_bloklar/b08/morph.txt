@@ -1,0 +1,54 @@
+7:28:1	وَإِذَا	P|REM|PREF|LEM:و + N|T|LEM:إِذا
+7:28:2	فَعَلُوا۟	V|PERF|VF:1|ROOT:فعل|LEM:فَعَلَ|3MP + N|PRON|SUFF|3MP
+7:28:3	فَٰحِشَةً	N|ROOT:فحش|LEM:فاحِشَة|F|INDEF|ACC
+7:28:4	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:28:5	وَجَدْنَا	V|PERF|VF:1|ROOT:وجد|LEM:وَجَدَ|1P + N|PRON|SUFF|1P
+7:28:6	عَلَيْهَآ	P|P|LEM:عَلَى + N|PRON|SUFF|3FS
+7:28:7	ءَابَآءَنَا	N|ROOT:أبو|LEM:آباء|MP|ACC + N|PRON|SUFF|1P
+7:28:8	وَٱللَّهُ	P|REM|PREF|LEM:و + N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:28:9	أَمَرَنَا	V|PERF|VF:1|ROOT:أمر|LEM:أَمَرَ|3MS + N|PRON|SUFF|1P
+7:28:10	بِهَا	P|P|PREF|LEM:ب + N|PRON|3FS
+7:28:11	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+7:28:12	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+7:28:13	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+7:28:14	لَا	P|NEG|LEM:لا
+7:28:15	يَأْمُرُ	V|IMPF|VF:1|ROOT:أمر|LEM:أَمَرَ|3MS|MOOD:IND
+7:28:16	بِٱلْفَحْشَآءِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:فحش|LEM:فَحْشاء|FS|GEN
+7:28:17	أَتَقُولُونَ	N|INTG|PREF|LEM:أ + V|IMPF|VF:1|ROOT:قول|LEM:قالَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:28:18	عَلَى	P|P|LEM:عَلَى
+7:28:19	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:28:20	مَا	N|REL|LEM:ما
+7:28:21	لَا	P|NEG|LEM:لا
+7:28:22	تَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:29:1	قُلْ	V|IMPV|VF:1|ROOT:قول|LEM:قالَ|2MS
+7:29:2	أَمَرَ	V|PERF|VF:1|ROOT:أمر|LEM:أَمَرَ|3MS
+7:29:3	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|1S
+7:29:4	بِٱلْقِسْطِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:قسط|LEM:قِسْط|M|GEN
+7:29:5	وَأَقِيمُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:4|ROOT:قوم|LEM:أَقامَ|2MP + N|PRON|SUFF|2MP
+7:29:6	وُجُوهَكُمْ	N|ROOT:وجه|LEM:وَجْه|MP|ACC + N|PRON|SUFF|2MP
+7:29:7	عِندَ	N|LOC|ROOT:عند|LEM:عِند|ACC
+7:29:8	كُلِّ	N|ROOT:كلل|LEM:كُلّ|M|GEN
+7:29:9	مَسْجِدٍ	N|ROOT:سجد|LEM:مَسْجِد|M|INDEF|GEN
+7:29:10	وَٱدْعُوهُ	P|CONJ|PREF|LEM:و + V|IMPV|VF:1|ROOT:دعو|LEM:دَعا|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+7:29:11	مُخْلِصِينَ	N|ACT_PCPL|VF:4|ROOT:خلص|LEM:مُخْلِص|MP|ACC
+7:29:12	لَهُ	P|P|PREF|LEM:ل + N|PRON|3MS
+7:29:13	ٱلدِّينَ	P|DET|PREF|LEM:ال + N|ROOT:دين|LEM:دِين|M|ACC
+7:29:14	كَمَا	P|P|PREF|LEM:ك + P|SUB|LEM:ما
+7:29:15	بَدَأَكُمْ	V|PERF|VF:1|ROOT:بدأ|LEM:بَدَأَ|3MS + N|PRON|SUFF|2MP
+7:29:16	تَعُودُونَ	V|IMPF|VF:1|ROOT:عود|LEM:عادَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:30:1	فَرِيقًا	N|ROOT:فرق|LEM:فَرِيق|M|INDEF|ACC
+7:30:2	هَدَىٰ	V|PERF|VF:1|ROOT:هدي|LEM:هَدَى|3MS
+7:30:3	وَفَرِيقًا	P|CONJ|PREF|LEM:و + N|ROOT:فرق|LEM:فَرِيق|M|INDEF|ACC
+7:30:4	حَقَّ	V|PERF|VF:1|ROOT:حقق|LEM:حَقَّ|3MS
+7:30:5	عَلَيْهِمُ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+7:30:6	ٱلضَّلَٰلَةُ	P|DET|PREF|LEM:ال + N|ROOT:ضلل|LEM:ضَلالَة|F|NOM
+7:30:7	إِنَّهُمُ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:30:8	ٱتَّخَذُوا۟	V|PERF|VF:8|ROOT:أخذ|LEM:اتَّخَذَ|3MP + N|PRON|SUFF|3MP
+7:30:9	ٱلشَّيَٰطِينَ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|MP|ACC
+7:30:10	أَوْلِيَآءَ	N|ROOT:ولي|LEM:وَلِيّ|MP|ACC
+7:30:11	مِن	P|P|LEM:مِن
+7:30:12	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+7:30:13	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:30:14	وَيَحْسَبُونَ	P|CIRC|PREF|LEM:و + V|IMPF|VF:1|ROOT:حسب|LEM:حَسِبَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:30:15	أَنَّهُم	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:30:16	مُّهْتَدُونَ	N|ACT_PCPL|VF:8|ROOT:هدي|LEM:مُهْتَدي|MP|NOM

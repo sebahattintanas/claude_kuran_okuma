@@ -1627,4 +1627,6 @@ KARAR = {
     '7:22:28': 'degil',  # 'inne'ş-şeytâne lekumâ 'aduvvun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (şeytanın düşmanlık sıfatı)
     # sure 7 blok 26-27
     '7:27:27': 'degil',  # 'innâ ce'alne'ş-şeyâtîne evliyâ'e lillezîne lâ yu'minûn' — esmâ adı esmâ dışı göndergeyle → degil (inanmayanların dostu kılınan şeytanlar)
+    # sure 7 blok 28-30
+    '7:30:10': 'degil',  # 'innehumu'ttexazu'ş-şeyâtîne evliyâ'e min dûni'llâhi' — esmâ adı esmâ dışı göndergeyle → degil (dost edinilen şeytanlar)
 }
