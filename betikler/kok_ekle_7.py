@@ -11,6 +11,8 @@ ISTEK = [
     # sûre 7 (A'râf) — blok blok eklenir (2026-11-24); korpus geçişleri kok_envanteri ayet_sayisi ile
     # blok 4
     ('ذأم', "yerme, kınama (ze'm; mez'ûm)"),
+    # blok 7
+    ('ريش', 'tüy; süs giysisi (rîş)'),
 ]
 
 def nfc(s): return unicodedata.normalize('NFC', s)

@@ -1,0 +1,49 @@
+7:26:1	يَٰبَنِىٓ	P|VOC|PREF|LEM:ي + N|ROOT:بني|LEM:بُنَىّ|MP|ACC
+7:26:2	ءَادَمَ	N|PN|ROOT:أدم|LEM:آدَم|M|GEN
+7:26:3	قَدْ	P|CERT|LEM:قَد
+7:26:4	أَنزَلْنَا	V|PERF|VF:4|ROOT:نزل|LEM:أَنزَلَ|1P + N|PRON|SUFF|1P
+7:26:5	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+7:26:6	لِبَاسًا	N|ROOT:لبس|LEM:لِباس|M|INDEF|ACC
+7:26:7	يُوَٰرِى	V|IMPF|VF:3|ROOT:وري|LEM:وُۥرِيَ|3MS|MOOD:IND
+7:26:8	سَوْءَٰتِكُمْ	N|ROOT:سوأ|LEM:سَوْءَة|FP|ACC + N|PRON|SUFF|2MP
+7:26:9	وَرِيشًا	P|CONJ|PREF|LEM:و + N|ROOT:ريش|LEM:رِيش|M|INDEF|ACC
+7:26:10	وَلِبَاسُ	P|REM|PREF|LEM:و + N|ROOT:لبس|LEM:لِباس|M|NOM
+7:26:11	ٱلتَّقْوَىٰ	P|DET|PREF|LEM:ال + N|ROOT:وقي|LEM:تَقْوَى|M|GEN
+7:26:12	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+7:26:13	خَيْرٌ	N|ROOT:خير|LEM:خَيْر|MS|INDEF|NOM
+7:26:14	ذَٰلِكَ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|M
+7:26:15	مِنْ	P|P|LEM:مِن
+7:26:16	ءَايَٰتِ	N|ROOT:أيي|LEM:آيَة|FP|GEN
+7:26:17	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:26:18	لَعَلَّهُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:26:19	يَذَّكَّرُونَ	V|IMPF|VF:5|ROOT:ذكر|LEM:تَذَكَّرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:27:1	يَٰبَنِىٓ	P|VOC|PREF|LEM:ي + N|ROOT:بني|LEM:بُنَىّ|MP|ACC
+7:27:2	ءَادَمَ	N|PN|ROOT:أدم|LEM:آدَم|M|GEN
+7:27:3	لَا	P|NEG|LEM:لا
+7:27:4	يَفْتِنَنَّكُمُ	V|IMPF|VF:1|ROOT:فتن|LEM:فَتَنُ|3MS|MOOD:IND + P|EMPH|SUFF|LEM:ن + N|PRON|SUFF|2MP
+7:27:5	ٱلشَّيْطَٰنُ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|M|NOM
+7:27:6	كَمَآ	P|P|PREF|LEM:ك + P|SUB|LEM:ما
+7:27:7	أَخْرَجَ	V|PERF|VF:4|ROOT:خرج|LEM:أَخْرَجَ|3MS
+7:27:8	أَبَوَيْكُم	N|ROOT:أبو|LEM:أَبَوان|MD|ACC + N|PRON|SUFF|2MP
+7:27:9	مِّنَ	P|P|LEM:مِن
+7:27:10	ٱلْجَنَّةِ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|GEN
+7:27:11	يَنزِعُ	V|IMPF|VF:1|ROOT:نزع|LEM:نَزَعَ|3MS|MOOD:IND
+7:27:12	عَنْهُمَا	P|P|LEM:عَن + N|PRON|SUFF|3D
+7:27:13	لِبَاسَهُمَا	N|ROOT:لبس|LEM:لِباس|M|ACC + N|PRON|SUFF|3D
+7:27:14	لِيُرِيَهُمَا	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|PASS|ROOT:رأي|LEM:أَرَيْ|3MS|MOOD:SUBJ + N|PRON|SUFF|3D
+7:27:15	سَوْءَٰتِهِمَآ	N|ROOT:سوأ|LEM:سَوْءَة|FP|ACC + N|PRON|SUFF|3D
+7:27:16	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+7:27:17	يَرَىٰكُمْ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|3MS|MOOD:IND + N|PRON|SUFF|2MP
+7:27:18	هُوَ	N|PRON|3MS
+7:27:19	وَقَبِيلُهُۥ	P|CONJ|PREF|LEM:و + N|ROOT:قبل|LEM:قَبِيل|M|NOM + N|PRON|SUFF|3MS
+7:27:20	مِنْ	P|P|LEM:مِن
+7:27:21	حَيْثُ	N|LOC|ROOT:حيث|LEM:حَيْث|GEN
+7:27:22	لَا	P|NEG|LEM:لا
+7:27:23	تَرَوْنَهُمْ	V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|2MP|MOOD:IND + N|PRON|SUFF|2MP + N|PRON|SUFF|3MP
+7:27:24	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:27:25	جَعَلْنَا	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|1P + N|PRON|SUFF|1P
+7:27:26	ٱلشَّيَٰطِينَ	P|DET|PREF|LEM:ال + N|PN|ROOT:شطن|LEM:شَيْطان|MP|ACC
+7:27:27	أَوْلِيَآءَ	N|ROOT:ولي|LEM:وَلِيّ|MP|ACC
+7:27:28	لِلَّذِينَ	P|P|PREF|LEM:ل + N|REL|LEM:الَّذِي|MP
+7:27:29	لَا	P|NEG|LEM:لا
+7:27:30	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP

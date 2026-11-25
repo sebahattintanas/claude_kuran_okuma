@@ -1625,4 +1625,6 @@ KARAR = {
     '7:17:15': 'degil',  # 've lâ tecidu ekserahum şâkirîn' — esmâ adı esmâ dışı göndergeyle → degil (şükreden insanlar)
     # sure 7 blok 22-25
     '7:22:28': 'degil',  # 'inne'ş-şeytâne lekumâ 'aduvvun mubîn' — esmâ adı esmâ dışı göndergeyle → degil (şeytanın düşmanlık sıfatı)
+    # sure 7 blok 26-27
+    '7:27:27': 'degil',  # 'innâ ce'alne'ş-şeyâtîne evliyâ'e lillezîne lâ yu'minûn' — esmâ adı esmâ dışı göndergeyle → degil (inanmayanların dostu kılınan şeytanlar)
 }

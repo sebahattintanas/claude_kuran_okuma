@@ -108502,6 +108502,79 @@
   "ton": null,
   "ton_kismi": false
  },
+ "7:26": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    13,
+    "خَيْر"
+   ],
+   [
+    16,
+    "آيَة"
+   ],
+   [
+    17,
+    "اللَّه"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:27": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    27,
+    "وَلِيّ"
+   ]
+  ],
+  "esma_el": {
+   "7:27:27": "degil"
+  },
+  "humme": false,
+  "muhur": true,
+  "muhur_lem": [
+   "وَلِيّ"
+  ],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    19,
+    "قَبِيل"
+   ],
+   [
+    26,
+    "شَيْطان"
+   ],
+   [
+    27,
+    "وَلِيّ"
+   ]
+  ],
+  "ton": "cemâl",
+  "ton_kismi": false
+ },
  "7:3": {
   "a": false,
   "bant": "KAPI_KAPALI",
