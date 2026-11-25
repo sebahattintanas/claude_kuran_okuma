@@ -108847,6 +108847,102 @@
   "ton": null,
   "ton_kismi": false
  },
+ "7:35": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    5,
+    "رَسُول"
+   ],
+   [
+    9,
+    "آيَة"
+   ],
+   [
+    14,
+    "خَوْف"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:36": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    7,
+    "أَصْحاب"
+   ],
+   [
+    8,
+    "نار"
+   ],
+   [
+    11,
+    "خالِد"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:37": {
+  "a": true,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "A",
+  "sinif_oto": "A",
+  "son3": [
+   [
+    28,
+    "اللَّه"
+   ],
+   [
+    34,
+    "نَفْس"
+   ],
+   [
+    37,
+    "كافِر"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "7:4": {
   "a": false,
   "bant": "KAPI_KAPALI",

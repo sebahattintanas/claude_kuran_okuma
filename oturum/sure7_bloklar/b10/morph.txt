@@ -1,0 +1,66 @@
+7:35:1	يَٰبَنِىٓ	P|VOC|PREF|LEM:ي + N|ROOT:بني|LEM:بُنَىّ|MP|ACC
+7:35:2	ءَادَمَ	N|PN|ROOT:أدم|LEM:آدَم|M|GEN
+7:35:3	إِمَّا	P|COND|LEM:إِن + P|SUP|LEM:ما
+7:35:4	يَأْتِيَنَّكُمْ	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:IND + P|EMPH|SUFF|LEM:ن + N|PRON|SUFF|2MP
+7:35:5	رُسُلٌ	N|ROOT:رسل|LEM:رَسُول|MP|INDEF|NOM
+7:35:6	مِّنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+7:35:7	يَقُصُّونَ	V|IMPF|VF:1|ROOT:قصص|LEM:قَصَّ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:35:8	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+7:35:9	ءَايَٰتِى	N|ROOT:أيي|LEM:آيَة|FP|ACC + N|PRON|SUFF|1S
+7:35:10	فَمَنِ	P|RSLT|PREF|LEM:ف + N|COND|LEM:مَن
+7:35:11	ٱتَّقَىٰ	V|PERF|VF:8|ROOT:وقي|LEM:اتَّقَى|3MS
+7:35:12	وَأَصْلَحَ	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:صلح|LEM:أَصْلَحَ|3MS
+7:35:13	فَلَا	P|RSLT|PREF|LEM:ف + P|NEG|LEM:لا
+7:35:14	خَوْفٌ	N|ROOT:خوف|LEM:خَوْف|M|INDEF|NOM
+7:35:15	عَلَيْهِمْ	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+7:35:16	وَلَا	P|CONJ|PREF|LEM:و + P|NEG|LEM:لا
+7:35:17	هُمْ	N|PRON|3MP
+7:35:18	يَحْزَنُونَ	V|IMPF|VF:1|ROOT:حزن|LEM:يَحْزُن|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:36:1	وَٱلَّذِينَ	P|REM|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+7:36:2	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+7:36:3	بِـَٔايَٰتِنَا	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+7:36:4	وَٱسْتَكْبَرُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:10|ROOT:كبر|LEM:اسْتَكْبَرَ|3MP + N|PRON|SUFF|3MP
+7:36:5	عَنْهَآ	P|P|LEM:عَن + N|PRON|SUFF|3FS
+7:36:6	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+7:36:7	أَصْحَٰبُ	N|ROOT:صحب|LEM:أَصْحاب|MP|NOM
+7:36:8	ٱلنَّارِ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|GEN
+7:36:9	هُمْ	N|PRON|3MP
+7:36:10	فِيهَا	P|P|LEM:فِي + N|PRON|SUFF|3FS
+7:36:11	خَٰلِدُونَ	N|ACT_PCPL|VF:1|ROOT:خلد|LEM:خالِد|MP|NOM
+7:37:1	فَمَنْ	P|REM|PREF|LEM:ف + N|INTG|LEM:مَن
+7:37:2	أَظْلَمُ	N|ROOT:ظلم|LEM:أَظْلَم|MS|NOM
+7:37:3	مِمَّنِ	P|P|LEM:مِن + N|REL|LEM:مَن
+7:37:4	ٱفْتَرَىٰ	V|PERF|VF:8|ROOT:فري|LEM:افْتَرَى|3MS
+7:37:5	عَلَى	P|P|LEM:عَلَى
+7:37:6	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:37:7	كَذِبًا	N|ROOT:كذب|LEM:كَذِب|M|INDEF|ACC
+7:37:8	أَوْ	P|CONJ|LEM:أَو
+7:37:9	كَذَّبَ	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MS
+7:37:10	بِـَٔايَٰتِهِۦٓ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|3MS
+7:37:11	أُو۟لَٰٓئِكَ	N|DEM|LEM:ذا|P + P|ADDR|SUFF|M
+7:37:12	يَنَالُهُمْ	V|IMPF|VF:1|ROOT:نيل|LEM:يَنالُ|3MS|MOOD:IND + N|PRON|SUFF|3MP
+7:37:13	نَصِيبُهُم	N|ROOT:نصب|LEM:نَصِيب|M|NOM + N|PRON|SUFF|3MP
+7:37:14	مِّنَ	P|P|LEM:مِن
+7:37:15	ٱلْكِتَٰبِ	P|DET|PREF|LEM:ال + N|ROOT:كتب|LEM:كِتاب|M|GEN
+7:37:16	حَتَّىٰٓ	P|INC|LEM:حَتَّى
+7:37:17	إِذَا	N|T|LEM:إِذا
+7:37:18	جَآءَتْهُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS + N|PRON|SUFF|3MP
+7:37:19	رُسُلُنَا	N|ROOT:رسل|LEM:رَسُول|MP|NOM + N|PRON|SUFF|1P
+7:37:20	يَتَوَفَّوْنَهُمْ	V|IMPF|VF:5|ROOT:وفي|LEM:تَوَفَّى|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|3MP
+7:37:21	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:37:22	أَيْنَ	N|INTG|LEM:أَيْن
+7:37:23	مَا	N|REL|LEM:ما
+7:37:24	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+7:37:25	تَدْعُونَ	V|IMPF|VF:1|ROOT:دعو|LEM:دَعا|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:37:26	مِن	P|P|LEM:مِن
+7:37:27	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+7:37:28	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:37:29	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:37:30	ضَلُّوا۟	V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MP + N|PRON|SUFF|3MP
+7:37:31	عَنَّا	P|P|LEM:عَن + N|PRON|SUFF|1P
+7:37:32	وَشَهِدُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:شهد|LEM:شَهِدَ|3MP + N|PRON|SUFF|3MP
+7:37:33	عَلَىٰٓ	P|P|LEM:عَلَى
+7:37:34	أَنفُسِهِمْ	N|ROOT:نفس|LEM:نَفْس|FP|GEN + N|PRON|SUFF|3MP
+7:37:35	أَنَّهُمْ	P|ACC|LEM:أَنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:37:36	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:37:37	كَٰفِرِينَ	N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|ACC

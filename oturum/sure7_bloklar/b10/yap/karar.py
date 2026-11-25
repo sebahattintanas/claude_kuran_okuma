@@ -1,0 +1,15 @@
+KARAR.update({
+ 'gel-': "'gel-' ← 'câ'e', 'câ'et', 'ye'tiyenne', 'âtiyenne': farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'ol-': "'ol-' ← 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûnenne', 'tekûnâ', 'yekun', 'yekûnu': bir lemma ('kâne'; morph LEM eşit) — çakışma değil",
+ 'anlat-': "'anlat-' ← 'nequssa', 'yaqussûne': bir lemma ('qassa'; morph LEM eşit) — çakışma değil",
+ 'büyüklen-': "'büyüklen-' ← 'stekberû', 'tetekebbera': farklı lemma, bir kök (كبر) — çakışma — tam okuma sonu",
+ 'dua et-': "'dua et-' ← 'd'û', 'ted'ûne': bir lemma ('de'â'; morph LEM eşit) — çakışma değil",
+ 'elçi': "'elçi' ← 'mursel', 'rasûl': farklı lemma, bir kök (رسل) — çakışma — tam okuma sonu",
+ 'yalanla-': "'yalanla-' ← 'kezzebe', 'kezzebû': bir lemma ('kezzebe'; morph LEM eşit) — çakışma değil",
+ 'KÖK et-': "KÖK 'et-' ← 'dua et-' (دعو; 'd'û', 'ted'ûne'), 'helâk et-' (هلك; 'ehleknâ'), 'iman et-' (أمن; 'âmenû'), 'israf eden' (سرف; 'musrif'), 'israf et-' (سرف; 'tusrifû'), 'merhamet et-' (رحم; 'terham'), 'secde eden' (سجد; 'sâcid'), 'secde et-' (سجد; 'scudû', 'secedû', 'tescude'), 'var et-' (جعل; 'ce'alnâ'), 'yemin et-' (قسم; 'qâseme'), 'şahitlik et-' (شهد; 'şehidû'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK gel-': "KÖK 'gel-' ← 'ağır gel-' (ثقل; 'sequlet'), 'gel-' (جيأ; 'câ'e', 'câ'et'; أتي; 'ye'tiyenne', 'âtiyenne'), 'hafif gel-' (خفف; 'xaffet'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK kal-': "KÖK 'kal-' ← 'ebedî kalan' (خلد; 'xâlid'), 'geri kal-' (أخر; 'yeste'xirûne'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'hak ol-' (حقق; 'haqqa'), 'ol-' (كون; 'kunnâ', 'kuntum', 'kâne', 'kânû', 'nekûnenne', 'tekûnâ', 'yekun', 'yekûnu'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK sakın-': "KÖK 'sakın-' ← 'sakın-' (وقي; 'ttaqâ'), 'sakınma' (وقي; 'taqvâ'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK zalim-': "KÖK 'zalim-' ← 'daha zalim' (ظلم; 'azlem'), 'zalim' (ظلم; 'zâlim'): farklı lemma ve kök — çakışma — tam okuma sonu",
+})

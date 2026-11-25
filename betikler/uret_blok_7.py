@@ -15,7 +15,7 @@ S = 7
 METIN = 'araf_metin_1'
 KAYIT = 'araf_kayit'
 # blok başı kayıt: blok okundukça listeye eklenir (başlık okuma sonrası yazılır)
-BLOKLAR = [(1, 5), (6, 10), (11, 13), (14, 18), (19, 21), (22, 25), (26, 27), (28, 30), (31, 34)]
+BLOKLAR = [(1, 5), (6, 10), (11, 13), (14, 18), (19, 21), (22, 25), (26, 27), (28, 30), (31, 34), (35, 37)]
 BASLIK = {
  (1, 5): "7:1-5 — Kitap indirildi; helak edilen kentler; tartı; yeryüzünde yerleştirme",
  (6, 10): "7:6-10 — Kitap indirildi; helak edilen kentler; tartı; yeryüzünde yerleştirme",
@@ -26,6 +26,7 @@ BASLIK = {
  (26, 27): "7:26-27 — Ey Âdemoğulları: giysi, fitne, ziynet; haram kılınanlar",
  (28, 30): "7:28-30 — Ey Âdemoğulları: giysi, fitne, ziynet; haram kılınanlar",
  (31, 34): "7:31-34 — Ey Âdemoğulları: giysi, fitne, ziynet; haram kılınanlar",
+ (35, 37): "7:35-37 — Elçiler gelince; yalanlayanların ateşte çekişmesi",
 }
 
 SABLON = r'''# -*- coding: utf-8 -*-
