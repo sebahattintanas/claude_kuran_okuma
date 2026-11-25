@@ -1,0 +1,71 @@
+# sûre 7 blok 11 (7:38-41) meal kesimleri
+SEG = {
+ 38: [
+  ("Dedi ki", "qâle", ["'de-' 'qâle' karşılığı (1. kelime; I. bab; '-di')", "'ki' takdiri (söz açılışı)"]),
+  ("Sizden önce gelip geçmiş cinlerden ve insanlardan ümmetler arasında ateşe girin", "dxulû fî umemin qad xalet min qablikum mine'l-cinni ve'l-insi fi'n-nâri", [
+   "'gir-' 'dxulû' karşılığı (2. kelime; I. bab; emir, 2MP '-in')", "'fî' 3. kelimede 'arasında' ile", "'ümmet' 'umme' karşılığı (4. kelime; nekre — takdirsiz; çoğul 'umem', '-ler')", "'qad' 5. kelimede karşılıksız (morph CERT — tekit)",
+   "'gelip geç-' 'xalet' açılımı (6. kelime; I. bab; '-miş')", "'min' 7. kelimede '-den' ile ('Sizden' içinde)", "'önce' 'qabl' karşılığı (8. kelime)", "'kum' 8. kelimede 'Siz' ile ('Sizden' içinde)",
+   "'min' 9. kelimede '-den' ile ('cinlerden' içinde)", "'cin' 'cinn' karşılığı (10. kelime; belirli — takdirsiz; cins adı — Türkçede çoğul '-ler')", "'ve' 11. kelimede 've' ile (morph CONJ)",
+   "'insan' 'ins' karşılığı (11. kelime; belirli — takdirsiz; cins adı — Türkçede çoğul '-lar'; ayrılma eki 9. kelimedeki 'min' kapsamı)", "'fî' 12. kelimede yönelme eki ile ('ateşe' içinde — fiil yönetimi takdiri)",
+   "'ateş' 'nâr' karşılığı (13. kelime; belirli — takdirsiz)", "sıralama: tümleçler öne, fiil sona alındı"]),
+  ("Bir ümmet girdikçe kardeşine lânet etti", "kullemâ dexalet ummetun le'anet uxtehâ", [
+   "'-dikçe' 'kullemâ' karşılığı (14. kelime; morph T — zaman; 'girdikçe' içinde)", "'gir-' 'dexalet' karşılığı (15. kelime; I. bab)", "'ümmet' 'umme' karşılığı (16. kelime; nekre — 'bir' takdiri)", "'lânet et-' 'le'anet' açılımı (17. kelime; I. bab; '-ti')",
+   "'kardeş' 'uxt' karşılığı (18. kelime; dişil; yönelme eki ile 'kardeşine' — fiil yönetimi takdiri)", "'hâ' 18. kelimede iyelik eki ile ('kardeşine' içinde)", "sıralama: özne öne, fiil sona alındı"]),
+  ("Nihayet hepsi orada birbirine yetiştiğinde", "hattâ ize'ddârakû fîhâ cemî'an", [
+   "'hattâ' 19. kelimede 'Nihayet' ile (morph INC)", "'izâ' 20. kelimede '-tiğinde' ile ('yetiştiğinde' içinde; zaman)", "'birbirine yetiş-' 'ddârakû' açılımı (21. kelime; VI. bab; morph IMPV 2MP etiketi — okuma PERF 3MP)", "'fî' 22. kelimede '-da' ile ('orada' içinde)",
+   "'hâ' 22. kelimede 'ora' ile ('orada' içinde)", "'hepsi' 'cemî'' karşılığı (23. kelime; nekre — takdirsiz)", "sıralama: fiil sona alındı"]),
+  ("sonrakileri evvelkileri için dedi ki", "qâlet uxrâhum li-ûlâhum", [
+   "'de-' 'qâlet' karşılığı (24. kelime; I. bab; '-di')", "'ki' takdiri (söz açılışı)", "'sonraki' 'âxar' karşılığı (25. kelime; dişil 'uxrâ'; 'sonrakileri' içinde)", "'hum' 25. kelimede iyelik eki ile ('sonrakileri' içinde)", "'li' 26. kelimede 'için' ile",
+   "'evvelki' 'evvel' karşılığı (26. kelime; dişil 'ûlâ'; 'evvelkileri' içinde)", "'hum' 26. kelimede iyelik eki ile ('evvelkileri' içinde)", "sıralama: fiil sona alındı"]),
+  ("Rabbimiz", "rabbenâ", ["'Rab' 'rabb' karşılığı (27. kelime; iyelik '-imiz')", "'nâ' 27. kelimede iyelik eki ile ('Rabbimiz' içinde)"]),
+  ("bizi bunlar saptırdı", "hâ'ulâ'i edallûnâ", ["'hâ' 28. kelimede karşılıksız (morph ATT)", "'ulâ'i' 28. kelimede 'bunlar' ile (işaret; morph DEM, LEM ذا)", "'saptır-' 'edallû' karşılığı (29. kelime; IV. bab; '-dı')", "'nâ' 29. kelimede 'bizi' ile", "sıralama: nesne öne alındı"]),
+  ("onlara ateşten iki kat azap ver", "fe-âtihim 'azâben dı'fen mine'n-nâri", [
+   "'fe' 30. kelimede karşılıksız (morph REM; noktalı virgül)", "'ver-' 'âti' karşılığı (30. kelime; IV. bab; emir, 2MS)", "'him' 30. kelimede 'onlara' ile (fiil yönetimi takdiri)", "'azap' ''azâb' karşılığı (31. kelime; nekre — takdirsiz)",
+   "'iki kat' 'dı'f' açılımı (32. kelime; nekre — takdirsiz; sıfat)", "'min' 33. kelimede '-ten' ile ('ateşten' içinde)", "'ateş' 'nâr' karşılığı (34. kelime; belirli — takdirsiz)", "sıralama: fiil sona alındı"]),
+  ("Dedi ki", "qâle", ["'de-' 'qâle' karşılığı (35. kelime; I. bab; '-di')", "'ki' takdiri (söz açılışı)"]),
+  ("Herkes için iki kat vardır", "li-kullin dı'fun", ["'li' 36. kelimede 'için' ile", "'herkes' 'kull' açılımı (36. kelime; nekre — takdirsiz; tenvin tamlananın yerinde)", "'iki kat' 'dı'f' açılımı (37. kelime; nekre — takdirsiz)", "'var' takdiri ('vardır' içinde)", "'-dır' takdiri ('vardır' içinde)"]),
+  ("fakat bilmiyorsunuz", "ve lâkin lâ ta'lemûn", ["'ve' 38. kelimede karşılıksız (morph REM)", "'lâkin' 38. kelimede 'fakat' ile (morph AMD)", "'lâ' 39. kelimede olumsuzluk eki ile ('bilmiyorsunuz' içinde; morph NEG)", "'bil-' 'ta'lemûn' karşılığı (40. kelime; I. bab; 2MP '-iyorsunuz')"]),
+ ],
+ 39: [
+  ("Evvelkileri de sonrakileri için dedi ki", "ve qâlet ûlâhum li-uxrâhum", [
+   "'ve' 1. kelimede 'de' ile (morph CONJ)", "'de-' 'qâlet' karşılığı (1. kelime; I. bab; '-di')", "'ki' takdiri (söz açılışı)", "'evvelki' 'evvel' karşılığı (2. kelime; dişil 'ûlâ'; 'Evvelkileri' içinde)", "'hum' 2. kelimede iyelik eki ile ('Evvelkileri' içinde)",
+   "'li' 3. kelimede 'için' ile", "'sonraki' 'âxar' karşılığı (3. kelime; dişil 'uxrâ'; 'sonrakileri' içinde)", "'hum' 3. kelimede iyelik eki ile ('sonrakileri' içinde)", "sıralama: fiil sona alındı"]),
+  ("Sizin bize bir üstünlüğünüz olmadı", "fe-mâ kâne lekum 'aleynâ min fadlin", [
+   "'fe' 4. kelimede karşılıksız (morph CONJ)", "'mâ' 4. kelimede olumsuzluk eki ile ('olmadı' içinde; morph NEG)", "'ol-' 'kâne' karşılığı (5. kelime; I. bab; '-dı')", "'li' 6. kelimede tamlayan eki ile ('Sizin' içinde)", "'kum' 6. kelimede 'Siz' ile ('Sizin' içinde)",
+   "''alâ' 7. kelimede yönelme eki ile ('bize' içinde)", "'nâ' 7. kelimede 'bize' ile", "'min' 8. kelimede karşılıksız (olumsuzlukta pekiştirme)", "'üstünlük' 'fadl' karşılığı (9. kelime; nekre — 'bir' takdiri; iyelik eki ile 'üstünlüğünüz')", "sıralama: fiil sona alındı"]),
+  ("kazanmakta olduklarınızdan dolayı azabı tadın", "fe-zûqu'l-'azâbe bimâ kuntum teksibûn", [
+   "'fe' 10. kelimede karşılıksız (morph REM; noktalı virgül)", "'tat-' 'zûqu' karşılığı (10. kelime; I. bab; emir, 2MP '-ın'; LEM 'zâqu' (morph LEM ham biçim))", "'azap' ''azâb' karşılığı (11. kelime; belirli — takdirsiz)", "'bi' 12. kelimede 'dolayı' ile",
+   "'mâ' 12. kelimede '-duklarınız' ile ('olduklarınızdan' içinde; morph REL)", "'ol-' 'kuntum' karşılığı (13. kelime; I. bab; 2MP)", "'kazan-' 'teksibûn' karşılığı (14. kelime; I. bab; '-makta')", "sıralama: sebep tümleci öne, fiil sona alındı"]),
+ ],
+ 40: [
+  ("Gerçekten âyetlerimizi yalanlayıp onlara karşı büyüklenenlere göğün kapıları açılmaz", "inne'llezîne kezzebû bi-âyâtinâ ve'stekberû 'anhâ lâ tufettehu lehum ebvâbu's-semâ'i", [
+   "'inne' 1. kelimede 'Gerçekten' ile (morph ACC — tekit)", "'ellezî' 2. kelimede '-enler' ile ('büyüklenenlere' içinde; morph REL)", "'yalanla-' 'kezzebû' karşılığı (3. kelime; II. bab; '-yıp')", "'bi' 4. kelimede belirtme eki ile ('âyetlerimizi' içinde — fiil yönetimi takdiri)",
+   "'âyet' 'âye' karşılığı (4. kelime; çoğul, '-ler'; 'âyetlerimizi' içinde)", "'nâ' 4. kelimede iyelik eki ile ('âyetlerimizi' içinde)", "'ve' 5. kelimede karşılıksız (morph CONJ; ulaç eki '-yıp' ile)", "'büyüklen-' 'stekberû' karşılığı (5. kelime; X. bab)",
+   "''an' 6. kelimede 'karşı' ile", "'hâ' 6. kelimede 'onlar' ile ('onlara' içinde; 3FS — Türkçede çoğul)", "'lâ' 7. kelimede olumsuzluk eki ile ('açılmaz' içinde; morph NEG)", "'aç-' 'tufettehu' karşılığı (8. kelime; II. bab; edilgen 'açılmaz'; LEM 'tufettehu' (morph LEM ham biçim))",
+   "'li' 9. kelimede yönelme eki ile ('büyüklenenlere' içinde)", "'hum' 9. kelimede karşılıksız (öne alınmış ad ile karşılandı)", "'kapı' 'bâb' karşılığı (10. kelime; çoğul 'ebvâb', '-lar'; izafet, iyelik eki ile 'kapıları')",
+   "'gök' 'semâ'' karşılığı (11. kelime; belirli — takdirsiz; tamlayan eki ile 'göğün')", "sıralama: nesne öne, fiil sona alındı"]),
+  ("ve deve iğnenin deliğine girinceye kadar bahçeye girmezler", "ve lâ yedxulûne'l-cennete hattâ yelice'l-cemelu fî semmi'l-xiyâti", [
+   "'ve' 12. kelimede 've' ile (morph CONJ)", "'lâ' 12. kelimede olumsuzluk eki ile ('girmezler' içinde; morph NEG)", "'gir-' 'yedxulûne' karşılığı (13. kelime; I. bab; '-mezler')", "'bahçe' 'cenne' karşılığı (14. kelime; belirli — takdirsiz; özel ad; yönelme eki ile 'bahçeye' — fiil yönetimi takdiri)",
+   "'hattâ' 15. kelimede '-inceye kadar' ile ('girinceye kadar' içinde)", "'gir-' 'yelice' karşılığı (16. kelime; I. bab; SUBJ; LEM 'yelice' (morph LEM ham biçim))", "'deve' 'cemel' karşılığı (17. kelime; belirli — takdirsiz)",
+   "'fî' 18. kelimede yönelme eki ile ('deliğine' içinde — fiil yönetimi takdiri)", "'delik' 'semm' karşılığı (19. kelime; izafet, iyelik eki ile 'deliği')", "'iğne' 'xiyât' karşılığı (20. kelime; belirli — takdirsiz; tamlayan eki ile 'iğnenin')", "sıralama: yan cümle öne, fiil sona alındı"]),
+  ("Suçluları böyle cezalandırırız", "ve kezâlike neczi'l-mucrimîn", [
+   "'ve' 21. kelimede karşılıksız (morph REM)", "'ke' 21. kelimede 'böyle' ile", "'zâ' 21. kelimede 'böyle' ile (morph DEM; ADDR parçası 21. kelime — hitap eki karşılıksız)", "'li' 21. kelimede karşılıksız (morph DIST)",
+   "'cezalandır-' 'neczi' karşılığı (22. kelime; I. bab; 1P '-ırız')", "'suçlu' 'mucrim' karşılığı (23. kelime; belirli — takdirsiz; çoğul, '-lar'; IV. bab etken ortaç)", "sıralama: nesne öne, fiil sona alındı"]),
+ ],
+ 41: [
+  ("Onlar için cehennemden bir döşek", "lehum min cehenneme mihâdun", ["'li' 1. kelimede 'için' ile", "'hum' 1. kelimede 'Onlar' ile", "'min' 2. kelimede '-den' ile ('cehennemden' içinde)", "'cehennem' 'cehennem' karşılığı (3. kelime; özel ad)", "'döşek' 'mihâd' karşılığı (4. kelime; nekre — 'bir' takdiri)"]),
+  ("ve üstlerinde örtüler vardır", "ve min fevqıhim ğavâşin", [
+   "'ve' 5. kelimede 've' ile (morph CONJ)", "'min' 5. kelimede bulunma eki ile ('üstlerinde' içinde)", "'üst' 'fevq' karşılığı (6. kelime; 'üstlerinde' içinde)", "'him' 6. kelimede iyelik eki ile ('üstlerinde' içinde)",
+   "'örtü' 'ğâşiye' karşılığı (7. kelime; nekre — takdirsiz; çoğul 'ğavâşî', '-ler'; I. bab etken ortaç)", "'var' takdiri ('vardır' içinde)", "'-dır' takdiri ('vardır' içinde)"]),
+  ("Zalimleri böyle cezalandırırız", "ve kezâlike neczi'z-zâlimîn", [
+   "'ve' 8. kelimede karşılıksız (morph REM)", "'ke' 8. kelimede 'böyle' ile", "'zâ' 8. kelimede 'böyle' ile (morph DEM; ADDR parçası 8. kelime — hitap eki karşılıksız)", "'li' 8. kelimede karşılıksız (morph DIST)",
+   "'cezalandır-' 'neczi' karşılığı (9. kelime; I. bab; 1P '-ırız')", "'zalim' 'zâlim' karşılığı (10. kelime; belirli — takdirsiz; çoğul, '-ler'; I. bab etken ortaç)", "sıralama: nesne öne, fiil sona alındı"]),
+ ],
+}
+
+
+def meals():
+    out = []
+    for n in (38, 39, 40, 41):
+        out.append('7:%d ' % n + '; '.join("'%s' ('%s', %s)" % (tr, ar, ', '.join(it)) for tr, ar, it in SEG[n]))
+    return tuple(out)

@@ -108943,6 +108943,84 @@
   "ton": null,
   "ton_kismi": false
  },
+ "7:38": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    26,
+    "أَوَّل"
+   ]
+  ],
+  "esma_el": {
+   "7:38:26": "degil"
+  },
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": true,
+  "sinif_el": "R",
+  "sinif_oto": "R",
+  "son3": [
+   [
+    34,
+    "نار"
+   ],
+   [
+    36,
+    "كُلّ"
+   ],
+   [
+    37,
+    "ضِعْف"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:39": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": true,
+  "esma": [
+   [
+    2,
+    "أَوَّل"
+   ]
+  ],
+  "esma_el": {
+   "7:39:2": "degil"
+  },
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "E",
+  "son3": [
+   [
+    3,
+    "آخَر"
+   ],
+   [
+    9,
+    "فَضْل"
+   ],
+   [
+    11,
+    "عَذاب"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
  "7:4": {
   "a": false,
   "bant": "KAPI_KAPALI",
@@ -108970,6 +109048,70 @@
    [
     10,
     "قائِل"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:40": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    19,
+    "سَمّ"
+   ],
+   [
+    20,
+    "خِياط"
+   ],
+   [
+    23,
+    "مُجْرِم"
+   ]
+  ],
+  "ton": null,
+  "ton_kismi": false
+ },
+ "7:41": {
+  "a": false,
+  "bant": "KAPI_KAPALI",
+  "bekleyen": [],
+  "cift": false,
+  "e_el": false,
+  "e_oto": false,
+  "esma": [],
+  "esma_el": {},
+  "humme": false,
+  "muhur": false,
+  "muhur_lem": [],
+  "r": false,
+  "sinif_el": "0",
+  "sinif_oto": "0",
+  "son3": [
+   [
+    6,
+    "فَوْق"
+   ],
+   [
+    7,
+    "غاشِيَة"
+   ],
+   [
+    10,
+    "ظالِم"
    ]
   ],
   "ton": null,
