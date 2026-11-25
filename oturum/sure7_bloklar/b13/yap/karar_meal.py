@@ -1,0 +1,21 @@
+KQ = ["'alâ", 'ashâb… l-cenneti', 'ashâb… n-nâri', 'bi', 'fe', 'hum', 'hâ', 'kum', 'nâ', 've']
+KM = {
+ "'aqul' / 'qul' / 'qulnâ' / 'qâle' / 'qâlet' / 'qâlu' / 'qâlâ' / 'qâlû' / 'teqûlû' / 'teqûlûne'": "çakışma değil (söz aktarımında 'de-' / nesne alan kullanımda 'söyle-')",
+ "'yu'minûn' / 'âmenû'": "çakışma — tam okuma sonu ('inan-' / 'iman et-')",
+ "'nefs'": "çakışma değil ('kendi' dönüşlü kullanımda / 'can' nekre ad kullanımında)",
+ "'kull'": "çakışma değil (tamlamada 'her' / tenvinli yalın kullanımda 'herkes')",
+ "'ce'alne' / 'ce'alnâ' / 'tec'al'": "çakışma değil (iki nesneli 'kıl-' / yer tümleçli 'var et-')",
+ "'beyn'": "çakışma değil ('ara' — bulunma ekiyle 'aralarında'; tamlamada iyelik)",
+ "'haqq'": "çakışma — tam okuma sonu ('hak' / 'gerçek' — bağlam karşılığı)",
+ "'kâfir'": "çakışma — tam okuma sonu ('inkâr eden' / 'kâfir' bağlam karşılığı)",
+ "''alâ'": "çakışma değil ('üzeri' / 'üzerinde' / yönelme eki — lanetin hedefi, yer, selamın yönü)",
+ "'ashâb… l-cenneti'": "çakışma değil (7:44 ve 7:46 'Bahçenin halkı' / 'Bahçenin halkına' — karşılıklar eş, çekim farkı)",
+ "'ashâb… n-nâri'": "çakışma değil (7:44 ve 7:47 'ateşin halkına' / 'ateşin halkı' — karşılıklar eş, çekim farkı)",
+ "'bi'": "çakışma değil (belirtme eki / ayrılma eki — fiil yönetimi)",
+ "'fe'": "çakışma değil ('Bunun üzerine' / karşılıksız — sonuç bildiren geçiş, soru edatı öncesi)",
+ "'hum'": "çakışma değil (iyelik eki / karşılıksız — tamlama; özne fiil ekinde ya da takdirle karşılandı)",
+ "'hâ'": "çakışma değil (zamir 'onu' / 'ora' — belirtme çekimi, yer zamiri)",
+ "'kum'": "çakışma değil (zamir 'siz' / iyelik eki — selamın yönü, tamlama)",
+ "'nâ'": "çakışma değil (zamir 'bize' / 'bizi' — yönelme ve belirtme çekimi; iyelik eki tamlamada)",
+ "'ve'": "çakışma değil ('ve' / 'ama' / karşılıksız — atıf, hâl cümlesinde karşıtlık, cümle başı ve noktalama)",
+}

@@ -47,6 +47,11 @@ BAGLAR = {"AS_araf": [
  # blok 42-43
  {'bag': '15:47 → 7:43', 'kural': "okuma — harekesiz 've neza'nâ mâ fî sudûrihim min ğıllin'; sayım 'say 7:43 1-6'; en uzun ortak lemma dizisi 'neza'a mâ fî sadr min ğıll' (dizi 7 43 1 6)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '43:72 → 7:43', 'kural': "okuma — harekesiz 'ûristumûhâ bimâ kuntum ta'melûn'; sayım 'say 7:43 33-36'; en uzun ortak lemma dizisi 'evrase mâ kâne 'amile' (dizi 7 43 33 36)", 'not': 'kalıp eşi (sayım).'},
+ # blok 44-47
+ {'bag': '11:18 → 7:44', 'kural': "okuma — harekesiz 'la'netu'llâhi 'ale'z-zâlimîn'; sayım 'say 7:44 25-28'; en uzun ortak lemma dizisi 'la'ne allâh 'alâ zâlim' (dizi 7 44 25 28)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '11:19 → 7:45', 'kural': "okuma — harekesiz 'llezîne yasuddûne 'an sebîli'llâhi ve yebğûnehâ 'ivecen'; sayım 'say 7:45 1-7'; en uzun ortak lemma dizisi 'ellezî sadde 'an sebîl allâh beğâ 'iveç' (dizi 7 45 1 7)", 'not': 'kalıp eşi (sayım); ölçüm esit2 YAKIN.'},
+ {'bag': '14:3 → 7:45', 'kural': "okuma — harekesiz 'sebîli'llâhi ve yebğûnehâ 'ivecen'; sayım 'say 7:45 4-7'; en uzun ortak lemma dizisi 'sadde 'an sebîl allâh beğâ 'iveç' (dizi 7 45 2 7)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '23:94 → 7:47', 'kural': "okuma — harekesiz 'l-qavmi'z-zâlimîn'; sayım 'say 7:47 12-13'; en uzun ortak lemma dizisi 'rabb lâ ce'ale' (dizi 7 47 8 10)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

@@ -1,0 +1,69 @@
+7:44:1	وَنَادَىٰٓ	P|CONJ|PREF|LEM:و + V|PERF|VF:3|ROOT:ندي|LEM:نادَى|3MS
+7:44:2	أَصْحَٰبُ	N|ROOT:صحب|LEM:أَصْحاب|MP|NOM
+7:44:3	ٱلْجَنَّةِ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|GEN
+7:44:4	أَصْحَٰبَ	N|ROOT:صحب|LEM:أَصْحاب|MP|ACC
+7:44:5	ٱلنَّارِ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|GEN
+7:44:6	أَن	P|INT|LEM:أَن
+7:44:7	قَدْ	P|CERT|LEM:قَد
+7:44:8	وَجَدْنَا	V|PERF|VF:1|ROOT:وجد|LEM:وَجَدَ|1P + N|PRON|SUFF|1P
+7:44:9	مَا	N|REL|LEM:ما
+7:44:10	وَعَدَنَا	V|PERF|VF:1|ROOT:وعد|LEM:وَعَدَ|3MS + N|PRON|SUFF|1P
+7:44:11	رَبُّنَا	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|1P
+7:44:12	حَقًّا	N|ROOT:حقق|LEM:حَقّ|M|INDEF|ACC
+7:44:13	فَهَلْ	P|REM|PREF|LEM:ف + P|INTG|LEM:هَل
+7:44:14	وَجَدتُّم	V|PERF|VF:1|ROOT:وجد|LEM:وَجَدَ|2MP + N|PRON|SUFF|2MP
+7:44:15	مَّا	N|REL|LEM:ما
+7:44:16	وَعَدَ	V|PERF|VF:1|ROOT:وعد|LEM:وَعَدَ|3MS
+7:44:17	رَبُّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|NOM + N|PRON|SUFF|2MP
+7:44:18	حَقًّا	N|ROOT:حقق|LEM:حَقّ|M|INDEF|ACC
+7:44:19	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:44:20	نَعَمْ	P|ANS|LEM:نَعَم
+7:44:21	فَأَذَّنَ	P|REM|PREF|LEM:ف + V|PERF|VF:2|ROOT:أذن|LEM:أَذَّنَ|3MS
+7:44:22	مُؤَذِّنٌۢ	N|ACT_PCPL|VF:2|ROOT:أذن|LEM:مُؤَذِّن|M|INDEF|NOM
+7:44:23	بَيْنَهُمْ	N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|3MP
+7:44:24	أَن	P|INT|LEM:أَن
+7:44:25	لَّعْنَةُ	N|ROOT:لعن|LEM:لَعْنَة|F|NOM
+7:44:26	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:44:27	عَلَى	P|P|LEM:عَلَى
+7:44:28	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN
+7:45:1	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:45:2	يَصُدُّونَ	V|IMPF|VF:1|ROOT:صدد|LEM:صَدَّ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:45:3	عَن	P|P|LEM:عَن
+7:45:4	سَبِيلِ	N|ROOT:سبل|LEM:سَبِيل|M|GEN
+7:45:5	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:45:6	وَيَبْغُونَهَا	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:بغي|LEM:بَغَى|3MP|MOOD:IND + N|PRON|SUFF|3MP + N|PRON|SUFF|3FS
+7:45:7	عِوَجًا	N|ROOT:عوج|LEM:عِوَج|M|INDEF|ACC
+7:45:8	وَهُم	P|REM|PREF|LEM:و + N|PRON|3MP
+7:45:9	بِٱلْءَاخِرَةِ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:أخر|LEM:آخِر|FS|GEN
+7:45:10	كَٰفِرُونَ	N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|NOM
+7:46:1	وَبَيْنَهُمَا	P|REM|PREF|LEM:و + N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|3D
+7:46:2	حِجَابٌ	N|ROOT:حجب|LEM:حِجاب|M|INDEF|NOM
+7:46:3	وَعَلَى	P|CONJ|PREF|LEM:و + P|P|LEM:عَلَى
+7:46:4	ٱلْأَعْرَافِ	P|DET|PREF|LEM:ال + N|ROOT:عرف|LEM:أَعْراف|MP|GEN
+7:46:5	رِجَالٌ	N|ROOT:رجل|LEM:رِجال|MP|INDEF|NOM
+7:46:6	يَعْرِفُونَ	V|IMPF|VF:1|ROOT:عرف|LEM:عَرَفَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:46:7	كُلًّۢا	N|ROOT:كلل|LEM:كُلّ|M|INDEF|ACC
+7:46:8	بِسِيمَىٰهُمْ	P|P|PREF|LEM:ب + N|ROOT:سوم|LEM:سِيما|M|GEN + N|PRON|SUFF|3MP
+7:46:9	وَنَادَوْا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:3|ROOT:ندي|LEM:نادَى|3MP + N|PRON|SUFF|3MP
+7:46:10	أَصْحَٰبَ	N|ROOT:صحب|LEM:أَصْحاب|MP|ACC
+7:46:11	ٱلْجَنَّةِ	P|DET|PREF|LEM:ال + N|PN|ROOT:جنن|LEM:جَنَّة|F|GEN
+7:46:12	أَن	P|INT|LEM:أَن
+7:46:13	سَلَٰمٌ	N|ROOT:سلم|LEM:سَلام|M|INDEF|NOM
+7:46:14	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+7:46:15	لَمْ	P|NEG|LEM:لَم
+7:46:16	يَدْخُلُوهَا	V|IMPF|VF:1|ROOT:دخل|LEM:دَخَلَ|3MP|MOOD:JUS + N|PRON|SUFF|3MP + N|PRON|SUFF|3FS
+7:46:17	وَهُمْ	P|CIRC|PREF|LEM:و + N|PRON|3MP
+7:46:18	يَطْمَعُونَ	V|IMPF|VF:1|ROOT:طمع|LEM:يَطْمَعُ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:47:1	وَإِذَا	P|REM|PREF|LEM:و + N|T|LEM:إِذا
+7:47:2	صُرِفَتْ	V|PERF|VF:1|PASS|ROOT:صرف|LEM:صَرَفَ|3FS
+7:47:3	أَبْصَٰرُهُمْ	N|ROOT:بصر|LEM:بَصَر|MP|NOM + N|PRON|SUFF|3MP
+7:47:4	تِلْقَآءَ	N|LOC|ROOT:لقي|LEM:تِلْقاء|M|ACC
+7:47:5	أَصْحَٰبِ	N|ROOT:صحب|LEM:أَصْحاب|MP|GEN
+7:47:6	ٱلنَّارِ	P|DET|PREF|LEM:ال + N|ROOT:نور|LEM:نار|F|GEN
+7:47:7	قَالُوا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:47:8	رَبَّنَا	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|1P
+7:47:9	لَا	P|PRO|LEM:لا
+7:47:10	تَجْعَلْنَا	V|IMPF|VF:1|ROOT:جعل|LEM:جَعَلَ|2MS|MOOD:JUS + N|PRON|SUFF|1P
+7:47:11	مَعَ	N|LOC|LEM:مَع|ACC
+7:47:12	ٱلْقَوْمِ	P|DET|PREF|LEM:ال + N|ROOT:قوم|LEM:قَوْم|M|GEN
+7:47:13	ٱلظَّٰلِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:ظلم|LEM:ظالِم|MP|GEN|ADJ
