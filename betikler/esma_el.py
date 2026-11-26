@@ -1640,4 +1640,5 @@ KARAR = {
     # sure 7 blok 52-53
     # sure 7 blok 54-56
     '7:56:13': 'degil',  # 'rahmeta'llâhi qarîbun' — esmâ adı esmâ dışı göndergeyle → degil (rahmetin yakınlığı)
+    # sure 7 blok 57-58
 }
