@@ -1,0 +1,77 @@
+7:59:1	لَقَدْ	P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:59:2	أَرْسَلْنَا	V|PERF|VF:4|ROOT:رسل|LEM:أَرْسَلَ|1P + N|PRON|SUFF|1P
+7:59:3	نُوحًا	N|PN|LEM:نُوح|M|ACC
+7:59:4	إِلَىٰ	P|P|LEM:إِلَى
+7:59:5	قَوْمِهِۦ	N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+7:59:6	فَقَالَ	P|CONJ|PREF|LEM:ف + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:59:7	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:59:8	ٱعْبُدُوا۟	V|IMPV|VF:1|ROOT:عبد|LEM:عَبَدَ|2MP + N|PRON|SUFF|2MP
+7:59:9	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+7:59:10	مَا	P|NEG|LEM:ما
+7:59:11	لَكُم	P|P|PREF|LEM:ل + N|PRON|2MP
+7:59:12	مِّنْ	P|P|LEM:مِن
+7:59:13	إِلَٰهٍ	N|ROOT:أله|LEM:إِلٰه|MS|INDEF|GEN
+7:59:14	غَيْرُهُۥٓ	N|ROOT:غير|LEM:غَيْر|M|NOM + N|PRON|SUFF|3MS
+7:59:15	إِنِّىٓ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+7:59:16	أَخَافُ	V|IMPF|VF:1|ROOT:خوف|LEM:خافَ|1S|MOOD:IND
+7:59:17	عَلَيْكُمْ	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+7:59:18	عَذَابَ	N|ROOT:عذب|LEM:عَذاب|M|ACC
+7:59:19	يَوْمٍ	N|ROOT:يوم|LEM:يَوْم|M|INDEF|GEN
+7:59:20	عَظِيمٍ	N|ROOT:عظم|LEM:عَظِيم|MS|INDEF|GEN|ADJ
+7:60:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:60:2	ٱلْمَلَأُ	P|DET|PREF|LEM:ال + N|ROOT:ملأ|LEM:مَلَأ|M|NOM
+7:60:3	مِن	P|P|LEM:مِن
+7:60:4	قَوْمِهِۦٓ	N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+7:60:5	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:60:6	لَنَرَىٰكَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|1P|MOOD:IND + N|PRON|SUFF|2MS
+7:60:7	فِى	P|P|LEM:فِي
+7:60:8	ضَلَٰلٍ	N|ROOT:ضلل|LEM:ضَلال|M|INDEF|GEN
+7:60:9	مُّبِينٍ	N|ACT_PCPL|VF:4|ROOT:بين|LEM:مُبِين|M|INDEF|GEN|ADJ
+7:61:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:61:2	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:61:3	لَيْسَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+7:61:4	بِى	P|P|PREF|LEM:ب + N|PRON|1S
+7:61:5	ضَلَٰلَةٌ	N|ROOT:ضلل|LEM:ضَلالَة|F|INDEF|NOM
+7:61:6	وَلَٰكِنِّى	P|REM|PREF|LEM:و + P|ACC|LEM:لٰكِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+7:61:7	رَسُولٌ	N|ROOT:رسل|LEM:رَسُول|M|INDEF|NOM
+7:61:8	مِّن	P|P|LEM:مِن
+7:61:9	رَّبِّ	N|ROOT:ربب|LEM:رَبّ|M|GEN
+7:61:10	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+7:62:1	أُبَلِّغُكُمْ	V|IMPF|VF:2|ROOT:بلغ|LEM:بَلَّغْ|1S|MOOD:IND + N|PRON|SUFF|2MP
+7:62:2	رِسَٰلَٰتِ	N|ROOT:رسل|LEM:رِسالَة|FP|ACC
+7:62:3	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1S
+7:62:4	وَأَنصَحُ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:نصح|LEM:نَصَحُ|1S|MOOD:IND
+7:62:5	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+7:62:6	وَأَعْلَمُ	P|REM|PREF|LEM:و + V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|1S|MOOD:IND
+7:62:7	مِنَ	P|P|LEM:مِن
+7:62:8	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:62:9	مَا	N|REL|LEM:ما
+7:62:10	لَا	P|NEG|LEM:لا
+7:62:11	تَعْلَمُونَ	V|IMPF|VF:1|ROOT:علم|LEM:عَلِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:63:1	أَوَعَجِبْتُمْ	N|INTG|PREF|LEM:أ + P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:عجب|LEM:عَجِبُ|2MP + N|PRON|SUFF|2MP
+7:63:2	أَن	P|SUB|LEM:أَن
+7:63:3	جَآءَكُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+7:63:4	ذِكْرٌ	N|VN|VF:1|ROOT:ذكر|LEM:ذِكْر|M|INDEF|NOM
+7:63:5	مِّن	P|P|LEM:مِن
+7:63:6	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+7:63:7	عَلَىٰ	P|P|LEM:عَلَى
+7:63:8	رَجُلٍ	N|ROOT:رجل|LEM:رَجُل|M|INDEF|GEN
+7:63:9	مِّنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+7:63:10	لِيُنذِرَكُمْ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|ROOT:نذر|LEM:أَنذَرَ|3MS|MOOD:SUBJ + N|PRON|SUFF|2MP
+7:63:11	وَلِتَتَّقُوا۟	P|CONJ|PREF|LEM:و + P|PRP|PREF|LEM:ل + V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP|MOOD:SUBJ + N|PRON|SUFF|2MP
+7:63:12	وَلَعَلَّكُمْ	P|REM|PREF|LEM:و + P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+7:63:13	تُرْحَمُونَ	V|IMPF|VF:1|PASS|ROOT:رحم|LEM:رَحِمَ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:64:1	فَكَذَّبُوهُ	P|REM|PREF|LEM:ف + V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+7:64:2	فَأَنجَيْنَٰهُ	P|REM|PREF|LEM:ف + V|PERF|VF:4|ROOT:نجو|LEM:أَنجَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+7:64:3	وَٱلَّذِينَ	P|CONJ|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+7:64:4	مَعَهُۥ	N|LOC|LEM:مَع|ACC + N|PRON|SUFF|3MS
+7:64:5	فِى	P|P|LEM:فِي
+7:64:6	ٱلْفُلْكِ	P|DET|PREF|LEM:ال + N|ROOT:فلك|LEM:فُلْك|M|GEN
+7:64:7	وَأَغْرَقْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:غرق|LEM:أُغْرِقُ|1P + N|PRON|SUFF|1P
+7:64:8	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:64:9	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+7:64:10	بِـَٔايَٰتِنَآ	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+7:64:11	إِنَّهُمْ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:64:12	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:64:13	قَوْمًا	N|ROOT:قوم|LEM:قَوْم|M|INDEF|ACC
+7:64:14	عَمِينَ	N|ROOT:عمي|LEM:عَمي|MP|ACC|ADJ
