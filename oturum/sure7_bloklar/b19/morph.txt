@@ -1,0 +1,73 @@
+7:65:1	وَإِلَىٰ	P|CONJ|PREF|LEM:و + P|P|LEM:إِلَى
+7:65:2	عَادٍ	N|PN|ROOT:عود|LEM:عاد|INDEF|GEN
+7:65:3	أَخَاهُمْ	N|ROOT:أخو|LEM:أَخ|MS|ACC + N|PRON|SUFF|3MP
+7:65:4	هُودًا	N|PN|ROOT:هود|LEM:هُود|M|INDEF|ACC
+7:65:5	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:65:6	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:65:7	ٱعْبُدُوا۟	V|IMPV|VF:1|ROOT:عبد|LEM:عَبَدَ|2MP + N|PRON|SUFF|2MP
+7:65:8	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+7:65:9	مَا	P|NEG|LEM:ما
+7:65:10	لَكُم	P|P|PREF|LEM:ل + N|PRON|2MP
+7:65:11	مِّنْ	P|P|LEM:مِن
+7:65:12	إِلَٰهٍ	N|ROOT:أله|LEM:إِلٰه|MS|INDEF|GEN
+7:65:13	غَيْرُهُۥٓ	N|ROOT:غير|LEM:غَيْر|M|NOM + N|PRON|SUFF|3MS
+7:65:14	أَفَلَا	N|INTG|PREF|LEM:أ + P|SUP|PREF|LEM:ف + P|NEG|LEM:لا
+7:65:15	تَتَّقُونَ	V|IMPF|VF:8|ROOT:وقي|LEM:اتَّقَى|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:66:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:66:2	ٱلْمَلَأُ	P|DET|PREF|LEM:ال + N|ROOT:ملأ|LEM:مَلَأ|M|NOM
+7:66:3	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:66:4	كَفَرُوا۟	V|PERF|VF:1|ROOT:كفر|LEM:كَفَرَ|3MP + N|PRON|SUFF|3MP
+7:66:5	مِن	P|P|LEM:مِن
+7:66:6	قَوْمِهِۦٓ	N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+7:66:7	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:66:8	لَنَرَىٰكَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:رأي|LEM:رَأَى|1P|MOOD:IND + N|PRON|SUFF|2MS
+7:66:9	فِى	P|P|LEM:فِي
+7:66:10	سَفَاهَةٍ	N|ROOT:سفه|LEM:سَفاهَة|F|INDEF|GEN
+7:66:11	وَإِنَّا	P|CONJ|PREF|LEM:و + P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:66:12	لَنَظُنُّكَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:ظنن|LEM:ظَنَّ|1P|MOOD:IND + N|PRON|SUFF|2MS
+7:66:13	مِنَ	P|P|LEM:مِن
+7:66:14	ٱلْكَٰذِبِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:كذب|LEM:كاذِب|MP|GEN
+7:67:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:67:2	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:67:3	لَيْسَ	V|PERF|VF:1|ROOT:ليس|LEM:لَيْسَ|FAM:كَان|3MS
+7:67:4	بِى	P|P|PREF|LEM:ب + N|PRON|1S
+7:67:5	سَفَاهَةٌ	N|ROOT:سفه|LEM:سَفاهَة|F|INDEF|NOM
+7:67:6	وَلَٰكِنِّى	P|REM|PREF|LEM:و + P|ACC|LEM:لٰكِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+7:67:7	رَسُولٌ	N|ROOT:رسل|LEM:رَسُول|M|INDEF|NOM
+7:67:8	مِّن	P|P|LEM:مِن
+7:67:9	رَّبِّ	N|ROOT:ربب|LEM:رَبّ|M|GEN
+7:67:10	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+7:68:1	أُبَلِّغُكُمْ	V|IMPF|VF:2|ROOT:بلغ|LEM:بَلَّغْ|1S|MOOD:IND + N|PRON|SUFF|2MP
+7:68:2	رِسَٰلَٰتِ	N|ROOT:رسل|LEM:رِسالَة|FP|ACC
+7:68:3	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1S
+7:68:4	وَأَنَا۠	P|REM|PREF|LEM:و + N|PRON|1S
+7:68:5	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+7:68:6	نَاصِحٌ	N|ACT_PCPL|VF:1|ROOT:نصح|LEM:ناصِح|M|INDEF|NOM
+7:68:7	أَمِينٌ	N|ROOT:أمن|LEM:أَمِين|MS|INDEF|NOM|ADJ
+7:69:1	أَوَعَجِبْتُمْ	N|INTG|PREF|LEM:أ + P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:عجب|LEM:عَجِبُ|2MP + N|PRON|SUFF|2MP
+7:69:2	أَن	P|SUB|LEM:أَن
+7:69:3	جَآءَكُمْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3MS + N|PRON|SUFF|2MP
+7:69:4	ذِكْرٌ	N|VN|VF:1|ROOT:ذكر|LEM:ذِكْر|M|INDEF|NOM
+7:69:5	مِّن	P|P|LEM:مِن
+7:69:6	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+7:69:7	عَلَىٰ	P|P|LEM:عَلَى
+7:69:8	رَجُلٍ	N|ROOT:رجل|LEM:رَجُل|M|INDEF|GEN
+7:69:9	مِّنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+7:69:10	لِيُنذِرَكُمْ	P|PRP|PREF|LEM:ل + V|IMPF|VF:4|ROOT:نذر|LEM:أَنذَرَ|3MS|MOOD:SUBJ + N|PRON|SUFF|2MP
+7:69:11	وَٱذْكُرُوٓا۟	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:ذكر|LEM:ذَكَرَ|2MP + N|PRON|SUFF|2MP
+7:69:12	إِذْ	N|T|LEM:إِذ
+7:69:13	جَعَلَكُمْ	V|PERF|VF:1|ROOT:جعل|LEM:جَعَلَ|3MS + N|PRON|SUFF|2MP
+7:69:14	خُلَفَآءَ	N|ROOT:خلف|LEM:خَلِيفَة|MP|ACC
+7:69:15	مِنۢ	P|P|LEM:مِن
+7:69:16	بَعْدِ	N|ROOT:بعد|LEM:بَعْد|GEN
+7:69:17	قَوْمِ	N|ROOT:قوم|LEM:قَوْم|M|GEN
+7:69:18	نُوحٍ	N|PN|LEM:نُوح|M|GEN
+7:69:19	وَزَادَكُمْ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:زيد|LEM:زادَ|3MS + N|PRON|SUFF|2MP
+7:69:20	فِى	P|P|LEM:فِي
+7:69:21	ٱلْخَلْقِ	P|DET|PREF|LEM:ال + N|ROOT:خلق|LEM:خَلْق|M|GEN
+7:69:22	بَصْۜطَةً	N|ROOT:بسط|LEM:بَصطَة|M|INDEF|ACC
+7:69:23	فَٱذْكُرُوٓا۟	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:ذكر|LEM:ذَكَرَ|2MP + N|PRON|SUFF|2MP
+7:69:24	ءَالَآءَ	N|ROOT:ألو|LEM:آلاء|MP|ACC
+7:69:25	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:69:26	لَعَلَّكُمْ	P|ACC|LEM:لَعَلّ|FAM:إِنّ + N|PRON|SUFF|2MP
+7:69:27	تُفْلِحُونَ	V|IMPF|VF:4|ROOT:فلح|LEM:أَفْلَحَ|2MP|MOOD:IND + N|PRON|SUFF|2MP

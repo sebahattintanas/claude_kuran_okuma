@@ -1,0 +1,6 @@
+ # blok 65-69
+ 65: dict(kademe=None, olgu=False, cipa=False, not_="'ve ilâ 'âdin exâhum hûden' — elçi gönderme ve çağrı (olgu=False); tarayıcı vermedi"),
+ 66: dict(kademe=None, olgu=False, cipa=False, not_="'innâ le-nerâke fî sefâhetin' — ileri gelenlerin sözü (olgu=False); tarayıcı vermedi"),
+ 67: dict(kademe=None, olgu=False, cipa=False, not_="'lâkinnî rasûlun min rabbi'l-'âlemîn' — elçilik bildirimi (olgu=False); tarayıcı vermedi"),
+ 68: dict(kademe=None, olgu=False, cipa=False, not_="'ubelliğukum risâlâti rabbî' — tebliğ (olgu=False); tarayıcı vermedi"),
+ 69: dict(kademe='L1', olgu=True, cipa=False, not_="'ve zâdekum fi'l-xalqi bastaten' — yaratılışta genişlik artışı adlanıyor; ölçü / mekanizma yok — L1; tarayıcı adayı (kök خلق; B_ta'lîl, C_recâ) çıpa değil"),
