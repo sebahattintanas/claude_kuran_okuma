@@ -1,0 +1,393 @@
+# geriye dönük koşu (b15k, 2026-11-26): bolum4_kurallar, bolum5_kurallar, bolum6_kurallar (--tazelik-yok), bolum7_kurallar, bolum8_kurallar, bolum9_kurallar, bolum10_kurallar (--tazelik-yok), bolum11_kurallar, bolum12_kurallar, bolum13_kurallar, bolum14_kurallar, bolum15_kurallar, bolum16_kurallar, bolum17_kurallar, bolum18_kurallar, bolum19_kurallar, bolum20_kurallar, bolum21_kurallar, bolum22_kurallar, bolum23_kurallar, bolum24_kurallar, bolum25_kurallar, bolum26_kurallar, bolum27_kurallar, bolum28_kurallar, bolum29_kurallar, bolum30_kurallar, bolum31_kurallar, bolum32_kurallar, bolum33_kurallar, bolum34_kurallar, bolum35_kurallar, bolum36_kurallar, bolum37_kurallar, bolum38_kurallar, bolum39_kurallar, bolum40_kurallar, bolum41_kurallar, kural13, es_edat tanınmayan, gloss_tara KAPSAMAYAN, kelime_kontrol, yasakli.sh — okunmuş bütün bloklar (sûre 7); isabet 349
+# önceki dosyayla fark (geriye_donuk_7_b14k.txt): düşen 0, yeni 26
+#   düşen sınıfı: kayıt değişti 0, araç değişti 0, basılan değişti 0
+#   yeni: blok 08 (1) bölüm maddesi 'bölüm blokları 7 ve 8' — plan 7, 8, 9
+#   yeni: blok 13 (1) bölüm maddesi 'bölüm blokları 12, 13 ve 14' — plan 12, 13, 14, 15
+#   yeni: blok 13 (4) R5 7:44 gerekçe r5_gerekce çıktısını taşımıyor ('7:53 i'râb, önek')
+#   yeni: blok 13 (6) R5 7:44 'rabb haqq hel': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 44 11 13): 7:53 i'râb, önek)
+#   yeni: blok 14 (1) 'bölüm kapanışı bu blokta' — plan bölümün son bloğu 15
+#   yeni: blok 14 (1) bölüm maddesi 'bölüm blokları 12, 13 ve 14' — plan 12, 13, 14, 15
+#   yeni: blok 14 (2) 7:51 A4 'bölüm kapanışı' — plan bölüm son ayeti 7:53
+#   yeni: blok 15 (3) 7:52 'say 7:52 8-…' alıntısı 'rahmeten li-qavmin yu'minûn' — 8. kelime önekli 've rahmeten'
+#   yeni: blok 15 (4) 7:53 'kunnâ' (29. kelime) 1P eki grubunda — morph yalnız fiilin özne eki
+#   yeni: blok 15 (5) 7:52 emsal kesimi 'iman eden bir kavim için yol gösterici v' — kalıp aralığı 8-10 dışındaki 7. kelimenin karşılığı 'yol gösterici'
+#   yeni: blok 15 KAPSAMAYAN 10
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 10 هُ 3MS
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 10 و 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 16 نَا 1P
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 19 نَا 1P
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 2 ونَ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 22 وا۟ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 23 نَآ 1P
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 29 نَّا 1P
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 32 وٓا۟ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 33 هُمْ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 35 هُم 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 37 وا۟ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 38 ونَ 3MP
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 4 هُۥ 3MS
+#   yeni: blok 15 ZAMİR KAYITSIZ 53 7 هُۥ 3MS
+## blok 01 (7:1-5)
+bolum36_kurallar: (1) 7:2 A4 şahıs geçişi '— → 3' — ucu '—' (ölçüm baskını olmayan ayet); A4'te yazılmaz
+bolum36_kurallar: (2) 7:3 1-6. kelime kesimi ('ittebi'û mâ unzile ileykum min rabbikum') — 'say 7:3 1-6' ◇'de sayım cümlesiyle geçmiyor
+bolum36_kurallar: (2) 7:3 7-11. kelime kesimi ('ve lâ tettebi'û min dûnihî evliyâ') — 'say 7:3 7-11' ◇'de sayım cümlesiyle geçmiyor
+bolum36_kurallar: (3) 'innâ kunnâ zâlimîn' 7:5 / 21:46 alıntısı 'gerçekten zalimmişiz' — 10. kelime karşılığı 'Biz' alıntıda yok
+bolum36_kurallar: (4) 7:4 'hum' tartışmalı gönderge — A1 uyumsuzluk etiketi ['cins'] / gönderge zinciri ['cins', 'sayı']
+gloss_tara: KAPSAMAYAN 7
+kelime_kontrol: ZAMİR KAYITSIZ 2 3 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 7 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 9 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 2 11 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 3 1 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 4 كُم 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 8 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 3 10 هِۦٓ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 3 14 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 4 4 نَٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 4 4 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 4 5 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 4 6 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 4 9 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 3 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 5 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 6 نَآ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 5 9 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 5 10 ا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 5 11 نَّا 1P
+## blok 02 (7:6-10)
+bolum36_kurallar: (5) 'fe' (REM) bölüm içi karşılık farkı: bu blok ['karşılıksız'] / önceki ["'öyleyse' ile"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'fe' (REM) bölüm içi yeni karşılık: bu blok ['karşılıksız'] / önceki ["'öyleyse'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'mâ' (NEG) bölüm içi yeni karşılık: bu blok ["'değil'"] / önceki ['karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'mâ' (REL) bölüm içi yeni karşılık: bu blok ["'-maları'"] / önceki ["'-en'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 've' (CONJ) bölüm içi yeni karşılık: bu blok ["'de'", "'ve'", 'karşılıksız'] / önceki ["'ve'", 'karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'bi' bölüm içi yeni karşılık: bu blok ["'-le'", "'yüzünden'", 'yönelme eki'] / önceki ["'-la'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'fî' bölüm içi yeni karşılık: bu blok ["'-da'", "'-nde'"] / önceki ["'-de'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'hum' bölüm içi yeni karşılık: bu blok ['iyelik eki', 'karşılıksız'] / önceki ["'onlar'", "'onlara'", 'iyelik eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'hâ' bölüm içi yeni karşılık: bu blok ["'ora'"] / önceki ["'ona'", 'karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'kum' bölüm içi yeni karşılık: bu blok ["'size'", "'sizi'"] / önceki ["'size'", 'iyelik eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+gloss_tara: KAPSAMAYAN 8
+kelime_kontrol: ZAMİR KAYITSIZ 7 2 هِم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 7 5 نَّا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 8 6 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 8 8 هُمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 3 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 9 6 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 7 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 9 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 9 10 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 9 11 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 2 نَّٰ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 10 2 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 5 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 10 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 10 7 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 10 11 ونَ 2MP
+## blok 03 (7:11-13)
+gloss_tara: KAPSAMAYAN 6
+kelime_kontrol: ZAMİR KAYITSIZ 12 3 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 12 7 تُ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 12 7 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 12 9 أَنَا۠ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 12 11 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 12 12 تَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 12 12 نِى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 12 15 تَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 12 15 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 13 3 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 13 6 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 13 9 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 13 11 كَ 2MS
+## blok 04 (7:14-18)
+bolum37_kurallar: (1) 'le' (EMPH) bölüm içi yeni karşılık: bu blok ["'mutlaka'", 'karşılıksız'] / önceki ["'andolsun'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'lâ' (NEG) bölüm içi yeni karşılık: bu blok ['olumsuzluk eki'] / önceki ['karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'kum' bölüm içi yeni karşılık: bu blok ["'sizin'"] / önceki ["'size'", "'sizi'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'min' bölüm içi yeni karşılık: bu blok ["'-dan'", "'-den'", "'-le'"] / önceki ["'-dan'", "'-den'", "'-ten'"] — 'bölüm içi eş edat' maddesinde anılmamış
+gloss_tara: KAPSAMAYAN 11
+kelime_kontrol: ZAMİR KAYITSIZ 15 2 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 16 3 تَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 16 3 نِى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 16 5 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 16 6 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 17 2 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 17 5 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 17 7 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 17 9 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 17 11 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 17 14 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 18 3 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 18 7 كَ 2MS
+kelime_kontrol: ZAMİR KAYITSIZ 18 8 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 18 11 كُمْ 2MP
+## blok 05 (7:19-21)
+bolum37_kurallar: (1) 'en' (SUB) bölüm içi yeni karşılık: bu blok ["'diye'"] / önceki ["'-mek'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'mâ' (NEG) bölüm içi yeni karşılık: bu blok ['karşılıksız'] / önceki ['olumsuzluk eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (1) 'mâ' (REL) bölüm içi yeni karşılık: bu blok ["'-en'"] / önceki ["'-mana'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum37_kurallar: (5) 7:19 12-13. kelime kalıbı blok içinde 7:20 ile eş — 'say 7:19 12-13' ◇'de sayım cümlesiyle geçmiyor
+bolum37_kurallar: (5) 7:20 16-17. kelime kalıbı blok içinde 7:19 ile eş — 'say 7:20 16-17' ◇'de sayım cümlesiyle geçmiyor
+bolum38_kurallar: (2) ''an' bölüm içi yeni karşılık: bu blok ['ayrılma eki', 'belirtme eki'] / önceki ['ayrılma eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'ke' bölüm içi yeni karşılık: bu blok ['iyelik eki'] / önceki ["'sana'", "'sen'", "'seni'", "'senin'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'min' bölüm içi yeni karşılık: bu blok ["'-dan'", "'-den'", 'karşılıksız'] / önceki ["'-dan'", "'-den'", "'-le'", "'-ten'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum39_kurallar: (5) 7:20 D3 dışı listesinde bloğun emsal ayeti 2:35
+gloss_tara: KAPSAMAYAN 9
+kelime_kontrol: ZAMİR KAYITSIZ 20 2 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 20 5 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 20 8 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 20 10 هِمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 20 13 كُمَا 2D
+kelime_kontrol: ZAMİR KAYITSIZ 20 14 كُمَا 2D
+kelime_kontrol: ZAMİR KAYITSIZ 20 20 ا 2D
+kelime_kontrol: ZAMİR KAYITSIZ 20 23 ا 2D
+kelime_kontrol: ZAMİR KAYITSIZ 21 1 هُمَآ 3D
+kelime_kontrol: ZAMİR KAYITSIZ 21 2 ى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 21 3 كُمَا 2D
+## blok 06 (7:22-25)
+bolum37_kurallar: (2) kök بدو bölümün önceki bloklarında da geçiyor — 'aday 1041' maddesinde yok
+bolum37_kurallar: (2) kök بين bölümün önceki bloklarında da geçiyor — 'aday 1041' maddesinde yok
+bolum37_kurallar: (2) kök جنن bölümün önceki bloklarında da geçiyor — 'aday 1041' maddesinde yok
+bolum37_kurallar: (2) kök ظلم bölümün önceki bloklarında da geçiyor — 'aday 1041' maddesinde yok
+bolum37_kurallar: (2) kök كون bölümün önceki bloklarında da geçiyor — 'aday 1041' maddesinde yok
+bolum37_kurallar: (3) 7:22 7. kelime joker '_' — morph LEM taşıyor (önek lemması); bağ maddesinde 'lemmasız' denmiş
+bolum37_kurallar: (3) 7:23 8. kelime joker '_' — morph LEM taşıyor (önek lemması); bağ maddesinde 'lemmasız' denmiş
+bolum37_kurallar: (3) 7:24 6. kelime joker '_' — morph LEM taşıyor (önek lemması); bağ maddesinde 'lemmasız' denmiş
+bolum37_kurallar: (3) 7:24 6. kelime joker '_' — morph LEM taşıyor (önek lemması); bağ maddesinde 'lemmasız' denmiş
+bolum37_kurallar: (4) 7:23 10. kelime morph EMPH|SUFF — ◇ etiket dizisinde 'n' parçası yok
+bolum37_kurallar: (4) 7:25 D2 — ölçüm kipi boş, 'kip yok' kaydı yok
+bolum38_kurallar: (2) 'bi' bölüm içi yeni karşılık: bu blok ["'-la'"] / önceki ["'karşılık'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'fî' bölüm içi yeni karşılık: bu blok ["'-da'", "'-nde'"] / önceki ["'-da'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'humâ' bölüm içi yeni karşılık: bu blok ["'kendileri'", "'onlar'", 'iyelik eki'] / önceki ["'kendileri'", "'onlar'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'kum' bölüm içi yeni karşılık: bu blok ["'size'", 'iyelik eki'] / önceki ["'size'", "'sizi'", "'sizin'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'li' bölüm içi yeni karşılık: bu blok ["'için'", 'belirtme eki', 'yönelme eki'] / önceki ["'için'", 'yönelme eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+gloss_tara: KAPSAMAYAN 16
+kelime_kontrol: ZAMİR KAYITSIZ 23 1 ا 3MD
+kelime_kontrol: ZAMİR KAYITSIZ 23 2 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 23 3 نَآ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 23 4 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 23 8 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 23 9 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 24 2 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 24 3 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 24 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 25 2 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 25 3 وْنَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 25 4 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 25 5 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 25 6 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 25 7 ونَ 2MP
+## blok 07 (7:26-27)
+bolum38_kurallar: (3) kip notu 'yezzekkerûn' IMPF IND — meal 'düşünürler' geniş zaman; kip sapma notunda yok
+bolum38_kurallar: (3) kip notu 'yerâ' IMPF IND — meal 'görür' geniş zaman; kip sapma notunda yok
+bolum38_kurallar: (4) 7:27 A1 'naib-i faili' kaydı / edilgen maddesi 'naib-i fail yok'
+gloss_tara: KAPSAMAYAN 15
+kelime_kontrol: ZAMİR KAYITSIZ 27 4 كُمُ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 27 8 كُم 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 27 12 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 27 13 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 27 14 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 27 15 هِمَآ 3D
+kelime_kontrol: ZAMİR KAYITSIZ 27 16 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 27 17 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 27 18 هُوَ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 27 19 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 27 23 وْنَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 27 23 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 27 24 ا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 27 25 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 27 30 ونَ 3MP
+## blok 08 (7:28-30)
+bolum9_kurallar: (4) R5 7:28 gerekçe r5_gerekce çıktısını taşımıyor ('7:33 önek')
+bolum9_kurallar: (4) R5 7:28 gerekçe r5_gerekce çıktısını taşımıyor ('7:33 önek; basılmamış eş fiil çekimi, zamir eki, önek; basılmamış eş fiil çekimi, zamir eki, önek')
+bolum9_kurallar: (4) R5 7:28 gerekçe r5_gerekce çıktısını taşımıyor ('7:50 fiil çekimi, zamir eki')
+bolum13_kurallar: (6) R5 7:28 'qâle 'alâ allâh mâ lâ 'alime': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 28 17 22): 7:33 önek)
+bolum13_kurallar: (6) R5 7:28 'qâle 'alâ allâh': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 28 17 19): 7:33 önek; basılmamış eş fiil)
+bolum13_kurallar: (6) R5 7:28 'qâle inne allâh': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 28 11 13): 7:50 fiil çekimi, zamir eki)
+bolum38_kurallar: (1) 'say 7:29 10-13' korpusta 1 — 'dizi 7 29 10 13' emsal 40:65 buluyor (yazım / çekim farkı); emsal karşılık maddesinde dizi adı yok
+bolum38_kurallar: (2) ''alâ' bölüm içi yeni karşılık: bu blok ["'hakkında'", "'üzerinde'", 'yönelme eki'] / önceki ['yönelme eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'hum' bölüm içi yeni karşılık: bu blok ["'kendilerinin'", "'onlar'"] / önceki ["'onları'", 'karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'min' bölüm içi yeni karşılık: bu blok ["'-tan'"] / önceki ["'-den'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'nâ' bölüm içi yeni karşılık: bu blok ["'bize'", 'iyelik eki'] / önceki ["'biz'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum41_kurallar: (1) bölüm maddesi 'bölüm blokları 7 ve 8' — plan 7, 8, 9
+gloss_tara: KAPSAMAYAN 19
+kelime_kontrol: ZAMİR KAYITSIZ 29 3 ى 1S
+kelime_kontrol: ZAMİR KAYITSIZ 29 5 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 29 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 29 10 و 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 29 10 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 29 12 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 29 15 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 29 16 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 30 5 هِمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 30 7 هُمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 30 8 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 30 14 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 30 15 هُم 3MP
+## blok 09 (7:31-34)
+bolum38_kurallar: (1) 'say 7:34 1-3' korpusta 1 — 'dizi 7 34 1 11' emsal 10:49 buluyor (yazım / çekim farkı); emsal karşılık maddesinde dizi adı yok
+bolum38_kurallar: (1) 'say 7:34 7-9' korpusta 1 — 'dizi 7 34 1 11' emsal 10:49 buluyor (yazım / çekim farkı); emsal karşılık maddesinde dizi adı yok
+bolum38_kurallar: (2) 'bi' bölüm içi yeni karşılık: bu blok ["'hakkında'", "'yere'", 'yönelme eki'] / önceki ['belirtme eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'hum' bölüm içi yeni karşılık: bu blok ['iyelik eki'] / önceki ["'kendilerinin'", "'onlar'", "'onları'", 'karşılıksız'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'hâ' bölüm içi yeni karşılık: bu blok ["'onlar'"] / önceki ["'bunu'", "'bunun'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'ke' bölüm içi yeni karşılık: bu blok ["'böyle'"] / önceki ["'gibi'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'li' bölüm içi yeni karşılık: bu blok ["'için'", 'tamlayan eki'] / önceki ['yönelme eki'] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (2) 'min' bölüm içi yeni karşılık: bu blok ["'-dan'", "'-tan'"] / önceki ["'-den'", "'-tan'"] — 'bölüm içi eş edat' maddesinde anılmamış
+bolum38_kurallar: (5) 7:33 kesim 'onlardan açık olanı da gizli o' — 'da' hem karşılık hem takdir
+bolum38_kurallar: (5) 7:33 kesim 'onlardan açık olanı da gizli o' — 'olan' hem karşılık hem takdir
+gloss_tara: KAPSAMAYAN 16
+kelime_kontrol: ZAMİR KAYITSIZ 32 8 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 32 13 هِىَ 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 32 15 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 32 26 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 33 4 ىَ 1S
+kelime_kontrol: ZAMİR KAYITSIZ 33 8 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 33 16 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 33 21 هِۦ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 33 24 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 33 29 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 34 6 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 34 8 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 34 11 ونَ 3MP
+## blok 10 (7:35-37)
+bolum9_kurallar: (4) R5 7:36 gerekçe r5_gerekce çıktısını taşımıyor ('7:40 yazım eş')
+bolum13_kurallar: (6) R5 7:36 'kezzebe âye istekbere 'an': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 36 2 5): 7:40 yazım eş)
+bolum39_kurallar: (1) 7:36 'say 7:36 2-5' medde notu 'bi-âyâtinâ' diyor — kalıp satırlarında ayrışan kelime ''anhâ'
+gloss_tara: KAPSAMAYAN 12
+kelime_kontrol: ZAMİR KAYITSIZ 36 2 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 36 3 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 36 4 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 36 5 هَآ 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 36 9 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 36 10 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 37 10 هِۦٓ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 37 12 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 13 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 18 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 19 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 37 20 وْنَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 20 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 21 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 24 تُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 25 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 29 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 30 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 31 ا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 37 32 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 34 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 35 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 37 36 وا۟ 3MP
+## blok 11 (7:38-41)
+bolum39_kurallar: (2) 7:40 'say 7:40 3-6' korpusta 1 — 'dizi 7 40 3 6' eşi 7:36 medde notu taşıyor; bu ayette 'yazım farkı' notu yok
+bolum39_kurallar: (3) bölüm içi eş edat 'hattâ' INC altında '-inceye kadar' — bölüm kesim notlarında bu etiketle yok
+bolum39_kurallar: (3) bölüm içi eş edat 'mâ' REL altında karşılıksız — bölüm kesim notlarında bu etiketle yok
+bolum39_kurallar: (4) nakarat3 adı 'ellezî kezzebe âye' bölüm içinde farklı ölçüm ham kalıbına verilmiş (7:36, 7:40) — R5 maddesinde 'ham kalıp farkı' kaydı yok
+bolum39_kurallar: (5) 7:41 D3 dışı listesinde bloğun emsal ayeti 41:25, 46:18
+gloss_tara: KAPSAMAYAN 18
+kelime_kontrol: ZAMİR KAYITSIZ 39 2 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 39 3 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 39 6 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 39 7 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 39 10 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 39 13 تُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 39 14 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 40 3 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 40 4 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 40 5 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 40 6 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 40 9 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 40 13 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 41 1 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 41 6 هِمْ 3MP
+## blok 12 (7:42-43)
+bolum40_kurallar: (2) 7:43 31. kelime aralığı 'söz içi' — önceki fiil (29. kelime) ندي kökünden, 'söz biçimli içerik' olmalı
+gloss_tara: KAPSAMAYAN 13
+kelime_kontrol: ZAMİR KAYITSIZ 43 1 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 43 4 هِم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 9 هِمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 11 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 15 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 43 18 نَّا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 43 22 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 43 27 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 43 29 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 33 تُمُو 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 33 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 43 35 تُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 43 36 ونَ 2MP
+## blok 13 (7:44-47)
+bolum9_kurallar: (4) R5 7:44 gerekçe r5_gerekce çıktısını taşımıyor ('7:53 i'râb, önek')
+bolum9_kurallar: (4) R5 7:46 gerekçe r5_gerekce çıktısını taşımıyor ('7:48 elif yazımı, zamir eki')
+bolum13_kurallar: (6) R5 7:44 'rabb haqq hel': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 44 11 13): 7:53 i'râb, önek)
+bolum13_kurallar: (6) R5 7:46 'a'râf ricâl 'arafe': r5_gerekce çıktısı satırda aynen yok (biçim farkı (dizi 7 46 4 6): 7:48 elif yazımı, zamir eki)
+bolum40_kurallar: (1) bag 23:94 → 7:47 — 'dizi 7 47 8 10' ◇'de sayım cümlesiyle basılmamış
+bolum40_kurallar: (4) kip notu 've'adenâ' — meal 'ettiğini' sıfat-fiil / '-mekte'; kip sapma notunda yok
+bolum40_kurallar: (5) 7:46 ölçüm aktör alanında adsız öğe — ◇'de kayıt yok
+bolum41_kurallar: (1) bölüm maddesi 'bölüm blokları 12, 13 ve 14' — plan 12, 13, 14, 15
+gloss_tara: KAPSAMAYAN 22
+kelime_kontrol: ZAMİR KAYITSIZ 45 2 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 45 6 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 45 6 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 45 8 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 1 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 46 6 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 8 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 9 وْا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 14 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 16 و 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 16 هَا 3FS
+kelime_kontrol: ZAMİR KAYITSIZ 46 17 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 46 18 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 47 3 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 47 7 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 47 8 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 47 10 نَا 1P
+## blok 14 (7:48-51)
+bolum40_kurallar: (1) bag 36:47 → 7:50 — 'dizi 7 50 12 15' ◇'de sayım cümlesiyle basılmamış
+bolum40_kurallar: (1) bag 41:28 → 7:51 — 'dizi 7 51 16 19' ◇'de sayım cümlesiyle basılmamış
+bolum40_kurallar: (2) 7:50 16. kelime aralığı 'söz biçimli içerik' — önceki fiil (15. kelime) قول kökünden
+bolum40_kurallar: (4) kip notu 'testekbirûn' — meal 'büyüklenmekte' sıfat-fiil / '-mekte'; kip sapma notunda yok
+bolum40_kurallar: (4) kip notu 'aqsamtum' — meal 'ettikleriniz' sıfat-fiil / '-mekte'; kip sapma notunda yok
+bolum40_kurallar: (4) kip notu 'yechadûn' — meal 'etmekte' sıfat-fiil / '-mekte'; kip sapma notunda yok
+bolum40_kurallar: (5) 7:48 ölçüm aktör alanında adsız öğe — ◇'de kayıt yok
+bolum41_kurallar: (1) bölüm maddesi 'bölüm blokları 12, 13 ve 14' — plan 12, 13, 14, 15
+bolum41_kurallar: (1) 'bölüm kapanışı bu blokta' — plan bölümün son bloğu 15
+bolum41_kurallar: (2) 7:51 A4 'bölüm kapanışı' — plan bölüm son ayeti 7:53
+gloss_tara: KAPSAMAYAN 16
+kelime_kontrol: ZAMİR KAYITSIZ 49 3 تُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 49 5 هُمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 49 8 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 49 12 كُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 49 14 أَنتُمْ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 49 15 ونَ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 50 7 وا۟ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 50 8 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 50 13 كُمُ 2MP
+kelime_kontrol: ZAMİR KAYITSIZ 50 15 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 50 18 هُمَا 3D
+kelime_kontrol: ZAMİR KAYITSIZ 51 2 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 3 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 6 هُمُ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 10 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 12 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 14 هِمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 17 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 51 18 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 51 19 ونَ 3MP
+## blok 15 (7:52-53)
+bolum41_kurallar: (3) 7:52 'say 7:52 8-…' alıntısı 'rahmeten li-qavmin yu'minûn' — 8. kelime önekli 've rahmeten'
+bolum41_kurallar: (4) 7:53 'kunnâ' (29. kelime) 1P eki grubunda — morph yalnız fiilin özne eki
+bolum41_kurallar: (5) 7:52 emsal kesimi 'iman eden bir kavim için yol gösterici v' — kalıp aralığı 8-10 dışındaki 7. kelimenin karşılığı 'yol gösterici'
+gloss_tara: KAPSAMAYAN 10
+kelime_kontrol: ZAMİR KAYITSIZ 53 2 ونَ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 4 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 53 7 هُۥ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 53 10 و 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 10 هُ 3MS
+kelime_kontrol: ZAMİR KAYITSIZ 53 16 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 53 19 نَا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 53 22 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 23 نَآ 1P
+kelime_kontrol: ZAMİR KAYITSIZ 53 29 نَّا 1P
+kelime_kontrol: ZAMİR KAYITSIZ 53 32 وٓا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 33 هُمْ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 35 هُم 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 37 وا۟ 3MP
+kelime_kontrol: ZAMİR KAYITSIZ 53 38 ونَ 3MP
