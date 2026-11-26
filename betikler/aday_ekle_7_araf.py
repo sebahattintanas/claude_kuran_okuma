@@ -55,6 +55,9 @@ BAGLAR = {"AS_araf": [
  # blok 48-51
  {'bag': '36:47 → 7:50', 'kural': "okuma — harekesiz 'mimmâ razaqakumu'llâhu'; sayım 'say 7:50 12-14'; en uzun ortak lemma dizisi 'min-mâ razaqa allâh qâle' (dizi 7 50 12 15)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '41:28 → 7:51', 'kural': "okuma — harekesiz 'kânû bi-âyâtinâ yechadûn'; sayım 'say 7:51 17-19'; en uzun ortak lemma dizisi 'mâ kâne âye cehadu' (dizi 7 51 16 19)", 'not': 'kalıp eşi (sayım).'},
+ # blok 52-53
+ {'bag': '16:64 → 7:52', 'kural': "okuma — harekesiz 'rahmeten li-qavmin yu'minûn'; sayım 'say 7:52 8-10'; en uzun ortak lemma dizisi 'hudâ rahme qavm âmene' (dizi 7 52 7 10)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '35:37 → 7:53', 'kural': "okuma — harekesiz 'ğayra'llezî kunnâ na'mel'; sayım 'say 7:53 27-30'; en uzun ortak lemma dizisi 'ğayr ellezî kâne 'amile' (dizi 7 53 27 30)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'

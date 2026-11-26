@@ -1,0 +1,48 @@
+7:52:1	وَلَقَدْ	P|REM|PREF|LEM:و + P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:52:2	جِئْنَٰهُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MP
+7:52:3	بِكِتَٰبٍ	P|P|PREF|LEM:ب + N|ROOT:كتب|LEM:كِتاب|M|INDEF|GEN
+7:52:4	فَصَّلْنَٰهُ	V|PERF|VF:2|ROOT:فصل|LEM:فَصَّلَ|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+7:52:5	عَلَىٰ	P|P|LEM:عَلَى
+7:52:6	عِلْمٍ	N|ROOT:علم|LEM:عِلْم|M|INDEF|GEN
+7:52:7	هُدًى	N|ROOT:هدي|LEM:هُدًى|M|INDEF|ACC
+7:52:8	وَرَحْمَةً	P|CONJ|PREF|LEM:و + N|ROOT:رحم|LEM:رَحْمَة|F|INDEF|ACC
+7:52:9	لِّقَوْمٍ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|INDEF|GEN
+7:52:10	يُؤْمِنُونَ	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:53:1	هَلْ	P|INTG|LEM:هَل
+7:53:2	يَنظُرُونَ	V|IMPF|VF:1|ROOT:نظر|LEM:نَظَرَ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:53:3	إِلَّا	P|RES|LEM:إِلّا
+7:53:4	تَأْوِيلَهُۥ	N|VN|VF:2|ROOT:أول|LEM:تَأْوِيل|M|ACC + N|PRON|SUFF|3MS
+7:53:5	يَوْمَ	N|T|ROOT:يوم|LEM:يَوْم|M|ACC
+7:53:6	يَأْتِى	V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|3MS|MOOD:IND
+7:53:7	تَأْوِيلُهُۥ	N|VN|VF:2|ROOT:أول|LEM:تَأْوِيل|M|NOM + N|PRON|SUFF|3MS
+7:53:8	يَقُولُ	V|IMPF|VF:1|ROOT:قول|LEM:قالَ|3MS|MOOD:IND
+7:53:9	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:53:10	نَسُوهُ	V|PERF|VF:1|ROOT:نسي|LEM:نَسِيَ|3MP + N|PRON|SUFF|3MP + N|PRON|SUFF|3MS
+7:53:11	مِن	P|P|LEM:مِن
+7:53:12	قَبْلُ	N|ROOT:قبل|LEM:قَبْل|GEN
+7:53:13	قَدْ	P|CERT|LEM:قَد
+7:53:14	جَآءَتْ	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS
+7:53:15	رُسُلُ	N|ROOT:رسل|LEM:رَسُول|MP|NOM
+7:53:16	رَبِّنَا	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1P
+7:53:17	بِٱلْحَقِّ	P|P|PREF|LEM:ب + P|DET|PREF|LEM:ال + N|ROOT:حقق|LEM:حَقّ|M|GEN
+7:53:18	فَهَل	P|REM|PREF|LEM:ف + P|INTG|LEM:هَل
+7:53:19	لَّنَا	P|P|PREF|LEM:ل + N|PRON|1P
+7:53:20	مِن	P|P|LEM:مِن
+7:53:21	شُفَعَآءَ	N|ROOT:شفع|LEM:شَفِيع|MP|GEN
+7:53:22	فَيَشْفَعُوا۟	P|CAUS|PREF|LEM:ف + V|IMPF|VF:1|ROOT:شفع|LEM:يَشْفَعُ|3MP|MOOD:SUBJ + N|PRON|SUFF|3MP
+7:53:23	لَنَآ	P|P|PREF|LEM:ل + N|PRON|1P
+7:53:24	أَوْ	P|CONJ|LEM:أَو
+7:53:25	نُرَدُّ	V|IMPF|VF:1|PASS|ROOT:ردد|LEM:رَدَّ|1P|MOOD:IND
+7:53:26	فَنَعْمَلَ	P|CAUS|PREF|LEM:ف + V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|1P|MOOD:SUBJ
+7:53:27	غَيْرَ	N|ROOT:غير|LEM:غَيْر|M|ACC
+7:53:28	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+7:53:29	كُنَّا	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|1P + N|PRON|SUFF|1P
+7:53:30	نَعْمَلُ	V|IMPF|VF:1|ROOT:عمل|LEM:عَمِلَ|1P|MOOD:IND
+7:53:31	قَدْ	P|CERT|LEM:قَد
+7:53:32	خَسِرُوٓا۟	V|PERF|VF:1|ROOT:خسر|LEM:خَسِرَ|3MP + N|PRON|SUFF|3MP
+7:53:33	أَنفُسَهُمْ	N|ROOT:نفس|LEM:نَفْس|FP|ACC + N|PRON|SUFF|3MP
+7:53:34	وَضَلَّ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:ضلل|LEM:ضَلَّ|3MS
+7:53:35	عَنْهُم	P|P|LEM:عَن + N|PRON|SUFF|3MP
+7:53:36	مَّا	N|REL|LEM:ما
+7:53:37	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:53:38	يَفْتَرُونَ	V|IMPF|VF:8|ROOT:فري|LEM:افْتَرَى|3MP|MOOD:IND + N|PRON|SUFF|3MP
