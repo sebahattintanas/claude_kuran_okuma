@@ -1,0 +1,55 @@
+7:54:1	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+7:54:2	رَبَّكُمُ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MP
+7:54:3	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:54:4	ٱلَّذِى	N|REL|LEM:الَّذِي|MS
+7:54:5	خَلَقَ	V|PERF|VF:1|ROOT:خلق|LEM:خَلَقَ|3MS
+7:54:6	ٱلسَّمَٰوَٰتِ	P|DET|PREF|LEM:ال + N|ROOT:سمو|LEM:سَماء|FP|ACC
+7:54:7	وَٱلْأَرْضَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|ACC
+7:54:8	فِى	P|P|LEM:فِي
+7:54:9	سِتَّةِ	N|ROOT:ستت|LEM:سِتَّة|F|GEN
+7:54:10	أَيَّامٍ	N|ROOT:يوم|LEM:يَوْم|MP|INDEF|GEN
+7:54:11	ثُمَّ	P|CONJ|LEM:ثُمّ
+7:54:12	ٱسْتَوَىٰ	V|PERF|VF:8|ROOT:سوي|LEM:اسْتَوَى|3MS
+7:54:13	عَلَى	P|P|LEM:عَلَى
+7:54:14	ٱلْعَرْشِ	P|DET|PREF|LEM:ال + N|ROOT:عرش|LEM:عَرْش|M|GEN
+7:54:15	يُغْشِى	V|IMPF|VF:4|ROOT:غشو|LEM:أُغْشِيَتْ|3MS|MOOD:IND
+7:54:16	ٱلَّيْلَ	P|DET|PREF|LEM:ال + N|ROOT:ليل|LEM:لَيْل|M|ACC
+7:54:17	ٱلنَّهَارَ	P|DET|PREF|LEM:ال + N|ROOT:نهر|LEM:نَهار|M|ACC
+7:54:18	يَطْلُبُهُۥ	V|IMPF|VF:1|ROOT:طلب|LEM:يَطْلُبُ|3MS|MOOD:IND + N|PRON|SUFF|3MS
+7:54:19	حَثِيثًا	N|ROOT:حثث|LEM:حَثِيث|MS|INDEF|ACC
+7:54:20	وَٱلشَّمْسَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:شمس|LEM:شَمْس|F|ACC
+7:54:21	وَٱلْقَمَرَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:قمر|LEM:قَمَر|M|ACC
+7:54:22	وَٱلنُّجُومَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:نجم|LEM:نَجْم|MP|ACC
+7:54:23	مُسَخَّرَٰتٍۭ	N|PASS_PCPL|VF:2|ROOT:سخر|LEM:مُسَخَّرَة|FP|INDEF|ACC
+7:54:24	بِأَمْرِهِۦٓ	P|P|PREF|LEM:ب + N|ROOT:أمر|LEM:أَمْر|M|GEN + N|PRON|SUFF|3MS
+7:54:25	أَلَا	P|ATT|LEM:أَلا
+7:54:26	لَهُ	P|P|PREF|LEM:ل + N|PRON|3MS
+7:54:27	ٱلْخَلْقُ	P|DET|PREF|LEM:ال + N|ROOT:خلق|LEM:خَلْق|M|NOM
+7:54:28	وَٱلْأَمْرُ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:أمر|LEM:أَمْر|M|NOM
+7:54:29	تَبَارَكَ	V|PERF|VF:6|ROOT:برك|LEM:تَبارَكَ|3MS
+7:54:30	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:54:31	رَبُّ	N|ROOT:ربب|LEM:رَبّ|M|NOM
+7:54:32	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+7:55:1	ٱدْعُوا۟	V|IMPV|VF:1|ROOT:دعو|LEM:دَعا|2MP + N|PRON|SUFF|2MP
+7:55:2	رَبَّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|ACC + N|PRON|SUFF|2MP
+7:55:3	تَضَرُّعًا	N|VN|VF:5|ROOT:ضرع|LEM:تَضَرُّع|M|INDEF|ACC
+7:55:4	وَخُفْيَةً	P|CONJ|PREF|LEM:و + N|ROOT:خفي|LEM:خُفْيَة|F|INDEF|ACC
+7:55:5	إِنَّهُۥ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MS
+7:55:6	لَا	P|NEG|LEM:لا
+7:55:7	يُحِبُّ	V|IMPF|VF:4|ROOT:حبب|LEM:أَحْبَبْ|3MS|MOOD:IND
+7:55:8	ٱلْمُعْتَدِينَ	P|DET|PREF|LEM:ال + N|ROOT:عدو|LEM:مُعْتَدي|MP|ACC
+7:56:1	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+7:56:2	تُفْسِدُوا۟	V|IMPF|VF:4|ROOT:فسد|LEM:أَفْسَدُ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+7:56:3	فِى	P|P|LEM:فِي
+7:56:4	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+7:56:5	بَعْدَ	N|T|ROOT:بعد|LEM:بَعْد|ACC
+7:56:6	إِصْلَٰحِهَا	N|VN|VF:4|ROOT:صلح|LEM:إِصْلاح|M|GEN + N|PRON|SUFF|3FS
+7:56:7	وَٱدْعُوهُ	P|CONJ|PREF|LEM:و + V|IMPV|VF:1|ROOT:دعو|LEM:دَعا|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MS
+7:56:8	خَوْفًا	N|ROOT:خوف|LEM:خَوْف|M|INDEF|ACC
+7:56:9	وَطَمَعًا	P|CONJ|PREF|LEM:و + N|ROOT:طمع|LEM:طَمَع|M|INDEF|ACC
+7:56:10	إِنَّ	P|ACC|LEM:إِنّ|FAM:إِنّ
+7:56:11	رَحْمَتَ	N|ROOT:رحم|LEM:رَحْمَة|F|ACC
+7:56:12	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:56:13	قَرِيبٌ	N|ROOT:قرب|LEM:قَرِيب|MS|INDEF|NOM
+7:56:14	مِّنَ	P|P|LEM:مِن
+7:56:15	ٱلْمُحْسِنِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:حسن|LEM:مُحْسِن|MP|GEN

@@ -1638,4 +1638,6 @@ KARAR = {
     '7:46:13': 'degil',  # 'selâmun 'aleykum' — esmâ adı esmâ dışı göndergeyle → degil (selamlama sözü)
     # sure 7 blok 48-51
     # sure 7 blok 52-53
+    # sure 7 blok 54-56
+    '7:56:13': 'degil',  # 'rahmeta'llâhi qarîbun' — esmâ adı esmâ dışı göndergeyle → degil (rahmetin yakınlığı)
 }
