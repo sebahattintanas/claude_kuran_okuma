@@ -1648,4 +1648,5 @@ KARAR = {
     '7:72:13': 'degil',  # 've mâ kânû mu'minîn' — esmâ adı esmâ dışı göndergeyle → degil (yalanlayanların sıfatı)
     # sure 7 blok 73-75
     '7:75:23': 'degil',  # 'innâ bi-mâ ursile bihî mu'minûn' — esmâ adı esmâ dışı göndergeyle → degil (iman edenlerin sıfatı)
+    # sure 7 blok 76-79
 }

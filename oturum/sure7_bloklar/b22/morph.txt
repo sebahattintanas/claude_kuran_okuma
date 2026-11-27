@@ -1,0 +1,43 @@
+7:76:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:76:2	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:76:3	ٱسْتَكْبَرُوٓا۟	V|PERF|VF:10|ROOT:كبر|LEM:اسْتَكْبَرَ|3MP + N|PRON|SUFF|3MP
+7:76:4	إِنَّا	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1P
+7:76:5	بِٱلَّذِىٓ	P|P|PREF|LEM:ب + N|REL|LEM:الَّذِي|MS
+7:76:6	ءَامَنتُم	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|2MP + N|PRON|SUFF|2MP
+7:76:7	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+7:76:8	كَٰفِرُونَ	N|ACT_PCPL|VF:1|ROOT:كفر|LEM:كافِر|MP|NOM
+7:77:1	فَعَقَرُوا۟	P|REM|PREF|LEM:ف + V|PERF|VF:1|ROOT:عقر|LEM:عَقَرَ|3MP + N|PRON|SUFF|3MP
+7:77:2	ٱلنَّاقَةَ	P|DET|PREF|LEM:ال + N|ROOT:نوق|LEM:ناقَة|F|ACC
+7:77:3	وَعَتَوْا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:عتو|LEM:عَتَ|3MP + N|PRON|SUFF|3MP
+7:77:4	عَنْ	P|P|LEM:عَن
+7:77:5	أَمْرِ	N|ROOT:أمر|LEM:أَمْر|M|GEN
+7:77:6	رَبِّهِمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|3MP
+7:77:7	وَقَالُوا۟	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:77:8	يَٰصَٰلِحُ	P|VOC|PREF|LEM:ي + N|PN|ROOT:صلح|LEM:صالِح|ACC
+7:77:9	ٱئْتِنَا	V|IMPV|VF:1|ROOT:أتي|LEM:أَتَى|2MS + N|PRON|SUFF|1P
+7:77:10	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+7:77:11	تَعِدُنَآ	V|IMPF|VF:1|ROOT:وعد|LEM:وَعَدَ|2MS|MOOD:IND + N|PRON|SUFF|1P
+7:77:12	إِن	P|COND|LEM:إِن
+7:77:13	كُنتَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS + N|PRON|SUFF|2MS
+7:77:14	مِنَ	P|P|LEM:مِن
+7:77:15	ٱلْمُرْسَلِينَ	P|DET|PREF|LEM:ال + N|PASS_PCPL|VF:4|ROOT:رسل|LEM:مُرْسَل|MP|GEN
+7:78:1	فَأَخَذَتْهُمُ	P|REM|PREF|LEM:ف + V|PERF|VF:1|ROOT:أخذ|LEM:أَخَذَ|3FS + N|PRON|SUFF|3MP
+7:78:2	ٱلرَّجْفَةُ	P|DET|PREF|LEM:ال + N|ROOT:رجف|LEM:رَجْفَة|F|NOM
+7:78:3	فَأَصْبَحُوا۟	P|REM|PREF|LEM:ف + V|PERF|VF:4|ROOT:صبح|LEM:أَصْبَحَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:78:4	فِى	P|P|LEM:فِي
+7:78:5	دَارِهِمْ	N|ROOT:دور|LEM:دار|FS|GEN + N|PRON|SUFF|3MP
+7:78:6	جَٰثِمِينَ	N|ACT_PCPL|VF:1|ROOT:جثم|LEM:جاثِم|MP|ACC
+7:79:1	فَتَوَلَّىٰ	P|REM|PREF|LEM:ف + V|PERF|VF:5|ROOT:ولي|LEM:تَوَلَّى|3MS
+7:79:2	عَنْهُمْ	P|P|LEM:عَن + N|PRON|SUFF|3MP
+7:79:3	وَقَالَ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:79:4	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:79:5	لَقَدْ	P|EMPH|PREF|LEM:ل + P|CERT|LEM:قَد
+7:79:6	أَبْلَغْتُكُمْ	V|PERF|VF:4|ROOT:بلغ|LEM:أَبْلَغُ|1S + N|PRON|SUFF|1S + N|PRON|SUFF|2MP
+7:79:7	رِسَالَةَ	N|ROOT:رسل|LEM:رِسالَة|F|ACC
+7:79:8	رَبِّى	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|1S
+7:79:9	وَنَصَحْتُ	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:نصح|LEM:نَصَحُ|1S + N|PRON|SUFF|1S
+7:79:10	لَكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+7:79:11	وَلَٰكِن	P|REM|PREF|LEM:و + P|AMD|LEM:لٰكِن
+7:79:12	لَّا	P|NEG|LEM:لا
+7:79:13	تُحِبُّونَ	V|IMPF|VF:4|ROOT:حبب|LEM:أَحْبَبْ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:79:14	ٱلنَّٰصِحِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:نصح|LEM:ناصِح|MP|ACC

@@ -92,6 +92,9 @@ BAGLAR = {"AS_araf": [
  {'bag': '2:60 → 7:74', 'kural': "okuma — harekesiz 've lâ ta'sev fi'l-ardi mufsidîn'; sayım 'say 7:74 21-25'; en uzun ortak lemma dizisi 'allâh lâ ta'se fî ard mufsid' (dizi 7 74 20 25)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '15:82 → 7:74', 'kural': "okuma — harekesiz 'l-cibâle buyûten'; sayım 'say 7:74 16-17'; en uzun ortak lemma dizisi 'cebel beyt' (dizi 7 74 16 17)", 'not': 'kalıp eşi (sayım).'},
  {'bag': '26:149 → 7:74', 'kural': "okuma — harekesiz 'l-cibâle buyûten'; sayım 'say 7:74 16-17'; en uzun ortak lemma dizisi 'cebel beyt' (dizi 7 74 16 17)", 'not': 'kalıp eşi (sayım).'},
+ # blok 76-79
+ {'bag': '51:44 → 7:77', 'kural': "okuma — harekesiz ''an emri rabbihim'; sayım 'say 7:77 4-6'; en uzun ortak lemma dizisi ''ate 'an emr rabb' (dizi 7 77 3 6)", 'not': 'kalıp eşi (sayım).'},
+ {'bag': '29:37 → 7:78', 'kural': "okuma — harekesiz 'fe-exazethumu'r-racfetu fe-esbahû fî dârihim câsimîn'; sayım 'say 7:78 1-6'; en uzun ortak lemma dizisi 'exaze racfe esbaha fî dâr câsim' (dizi 7 78 1 6)", 'not': 'kalıp eşi (sayım).'},
 ]}
 
 pa = '/home/claude/repo/bulgular/aday_bulgular.json'
