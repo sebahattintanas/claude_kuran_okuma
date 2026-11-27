@@ -1644,4 +1644,6 @@ KARAR = {
     # sure 7 blok 59-64
     '7:60:9': 'degil',  # 'fî dalâlin mubîn' — esmâ adı esmâ dışı göndergeyle → degil (sapkınlığın sıfatı)
     # sure 7 blok 65-69
+    # sure 7 blok 70-72
+    '7:72:13': 'degil',  # 've mâ kânû mu'minîn' — esmâ adı esmâ dışı göndergeyle → degil (yalanlayanların sıfatı)
 }

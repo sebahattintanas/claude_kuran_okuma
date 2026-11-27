@@ -1,0 +1,55 @@
+7:70:1	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:70:2	أَجِئْتَنَا	N|INTG|PREF|LEM:أ + V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|2MS + N|PRON|SUFF|2MS + N|PRON|SUFF|1P
+7:70:3	لِنَعْبُدَ	P|PRP|PREF|LEM:ل + V|IMPF|VF:1|ROOT:عبد|LEM:عَبَدَ|1P|MOOD:SUBJ
+7:70:4	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+7:70:5	وَحْدَهُۥ	N|ROOT:وحد|LEM:وَحْد|M|ACC + N|PRON|SUFF|3MS
+7:70:6	وَنَذَرَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:وذر|LEM:يَذَرَ|1P|MOOD:SUBJ
+7:70:7	مَا	N|REL|LEM:ما
+7:70:8	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:70:9	يَعْبُدُ	V|IMPF|VF:1|ROOT:عبد|LEM:عَبَدَ|3MS|MOOD:IND
+7:70:10	ءَابَآؤُنَا	N|ROOT:أبو|LEM:آباء|MP|NOM + N|PRON|SUFF|1P
+7:70:11	فَأْتِنَا	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:أتي|LEM:أَتَى|2MS + N|PRON|SUFF|1P
+7:70:12	بِمَا	P|P|PREF|LEM:ب + N|REL|LEM:ما
+7:70:13	تَعِدُنَآ	V|IMPF|VF:1|ROOT:وعد|LEM:وَعَدَ|2MS|MOOD:IND + N|PRON|SUFF|1P
+7:70:14	إِن	P|COND|LEM:إِن
+7:70:15	كُنتَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS + N|PRON|SUFF|2MS
+7:70:16	مِنَ	P|P|LEM:مِن
+7:70:17	ٱلصَّٰدِقِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:صدق|LEM:صادِق|MP|GEN
+7:71:1	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:71:2	قَدْ	P|CERT|LEM:قَد
+7:71:3	وَقَعَ	V|PERF|VF:1|ROOT:وقع|LEM:وَقَعَ|3MS
+7:71:4	عَلَيْكُم	P|P|LEM:عَلَى + N|PRON|SUFF|2MP
+7:71:5	مِّن	P|P|LEM:مِن
+7:71:6	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+7:71:7	رِجْسٌ	N|ROOT:رجس|LEM:رِجْس|M|INDEF|NOM
+7:71:8	وَغَضَبٌ	P|CONJ|PREF|LEM:و + N|ROOT:غضب|LEM:غَضَب|M|INDEF|NOM
+7:71:9	أَتُجَٰدِلُونَنِى	N|INTG|PREF|LEM:أ + V|IMPF|VF:3|ROOT:جدل|LEM:جادَلُ|2MP|MOOD:IND + N|PRON|SUFF|2MP + N|PRON|SUFF|1S
+7:71:10	فِىٓ	P|P|LEM:فِي
+7:71:11	أَسْمَآءٍ	N|ROOT:سمو|LEM:اسْم|MP|INDEF|GEN
+7:71:12	سَمَّيْتُمُوهَآ	V|PERF|VF:2|ROOT:سمو|LEM:سَمَّى|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3FS
+7:71:13	أَنتُمْ	N|PRON|2MP
+7:71:14	وَءَابَآؤُكُم	P|CONJ|PREF|LEM:و + N|ROOT:أبو|LEM:آباء|MP|NOM + N|PRON|SUFF|2MP
+7:71:15	مَّا	P|NEG|LEM:ما
+7:71:16	نَزَّلَ	V|PERF|VF:2|ROOT:نزل|LEM:نَزَّلَ|3MS
+7:71:17	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:71:18	بِهَا	P|P|PREF|LEM:ب + N|PRON|3FS
+7:71:19	مِن	P|P|LEM:مِن
+7:71:20	سُلْطَٰنٍ	N|ROOT:سلط|LEM:سُلْطان|M|INDEF|GEN
+7:71:21	فَٱنتَظِرُوٓا۟	P|REM|PREF|LEM:ف + V|IMPV|VF:8|ROOT:نظر|LEM:يَنتَظِرُ|2MP + N|PRON|SUFF|2MP
+7:71:22	إِنِّى	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|1S
+7:71:23	مَعَكُم	N|LOC|LEM:مَع|ACC + N|PRON|SUFF|2MP
+7:71:24	مِّنَ	P|P|LEM:مِن
+7:71:25	ٱلْمُنتَظِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:8|ROOT:نظر|LEM:مُنتَظِر|MP|GEN
+7:72:1	فَأَنجَيْنَٰهُ	P|REM|PREF|LEM:ف + V|PERF|VF:4|ROOT:نجو|LEM:أَنجَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+7:72:2	وَٱلَّذِينَ	P|CONJ|PREF|LEM:و + N|REL|LEM:الَّذِي|MP
+7:72:3	مَعَهُۥ	N|LOC|LEM:مَع|ACC + N|PRON|SUFF|3MS
+7:72:4	بِرَحْمَةٍ	P|P|PREF|LEM:ب + N|ROOT:رحم|LEM:رَحْمَة|F|INDEF|GEN
+7:72:5	مِّنَّا	P|P|LEM:مِن + N|PRON|SUFF|1P
+7:72:6	وَقَطَعْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:1|ROOT:قطع|LEM:قُطِعَ|1P + N|PRON|SUFF|1P
+7:72:7	دَابِرَ	N|ROOT:دبر|LEM:دابِر|M|ACC
+7:72:8	ٱلَّذِينَ	N|REL|LEM:الَّذِي|MP
+7:72:9	كَذَّبُوا۟	V|PERF|VF:2|ROOT:كذب|LEM:كَذَّبَ|3MP + N|PRON|SUFF|3MP
+7:72:10	بِـَٔايَٰتِنَا	P|P|PREF|LEM:ب + N|ROOT:أيي|LEM:آيَة|FP|GEN + N|PRON|SUFF|1P
+7:72:11	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+7:72:12	كَانُوا۟	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MP + N|PRON|SUFF|3MP
+7:72:13	مُؤْمِنِينَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|ACC

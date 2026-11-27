@@ -1,0 +1,15 @@
+KARAR.update({
+ 'gel-': "'gel-' ← 'ci'te', 'câ'e', 'câ'et', 'ye'tiyenne', 'ye'tî', 'âtiyenne': farklı lemma ve kök (جيأ, أتي) — çakışma — tam okuma sonu",
+ 'getir-': "'getir-' ← ''tinâ', 'ci'nâ': farklı lemma ve kök (أتي, جيأ; 'bi' ile) — çakışma — tam okuma sonu",
+ 'indir-': "'indir-' ← 'enzelnâ', 'nezzele', 'unzile', 'yunezzil': farklı lemma, bir kök (نزل) — çakışma — tam okuma sonu",
+ 'kulluk et-': "'kulluk et-' ← ''budu', 'na'bude', 'ya'budu': bir lemma (''abede'; morph LEM eşit) — çakışma değil",
+ 'ol-': "'ol-' ← 'kunnâ', 'kunte', 'kuntum', 'kâne', 'kânû', 'nekûnenne', 'tekûnâ', 'yekun', 'yekûnu': bir lemma ('kâne'; morph LEM eşit) — çakışma değil",
+ 'vaat et-': "'vaat et-' ← 'te'idu', 've'ade': bir lemma ('ve'ade'; morph LEM eşit) — çakışma değil",
+ 'yalanla-': "'yalanla-' ← 'kezzebe', 'kezzebû': bir lemma ('kezzebe'; morph LEM eşit) — çakışma değil",
+ 'bekle-': "'bekle-' ← 'ntazirû', 'yenzurûne': farklı lemma, bir kök (نظر) — çakışma — tam okuma sonu",
+ 'KÖK bekle-': "KÖK 'bekle-' ← 'bekle-' (نظر; 'ntazirû', 'yenzurûne'), 'bekleyen' (نظر; 'muntazir'): farklı lemma, bir kök (نظر) — çakışma — tam okuma sonu",
+ 'KÖK et-': "KÖK 'et-' ← 'bile bile inkâr et-' (جحد; 'yechadûn'), 'dua et-' (دعو; 'd'û', 'ted'ûne', 'ud'û'), 'helâk et-' (هلك; 'ehleknâ'), 'iman eden' (أمن; 'mu'min'), 'iman et-' (أمن; 'yu'minûn', 'âmenû'), 'inkâr eden' (كفر; 'kâfir'), 'inkâr et-' (كفر; 'kefarû'), 'israf eden' (سرف; 'musrif'), 'israf et-' (سرف; 'tusrifû'), 'istivâ et-' (سوي; 'stevâ'), 'iyilik et-' (حسن; 'muhsin'), 'kulluk et-' (عبد; ''budu', 'na'bude', 'ya'budu'), 'lânet et-' (لعن; 'le'anet'), 'merhamet et-' (رحم; 'terham'), 'secde eden' (سجد; 'sâcid'), 'secde et-' (سجد; 'scudû', 'secedû', 'tescude'), 'tebliğ et-' (بلغ; 'ubelliğu'), 'vaat et-' (وعد; 'te'idu', 've'ade'), 'var et-' (جعل; 'ce'alnâ'), 'yemin et-' (قسم; 'aqsamtum', 'qâseme'), 'şahitlik et-' (شهد; 'şehidû'), 'şefaat et-' (شفع; 'yeşfe'û'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK gel-': "KÖK 'gel-' ← 'ağır gel-' (ثقل; 'sequlet'), 'gel-' (جيأ, أتي; 'ci'te', 'câ'e', 'câ'et', 'ye'tiyenne', 'ye'tî', 'âtiyenne'), 'hafif gel-' (خفف; 'xaffet'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK ol-': "KÖK 'ol-' ← 'hak ol-' (حقق; 'haqqa'), 'kötü ol-' (خبث; 'xabuse'), 'ol-' (كون; 'kunnâ', 'kunte', 'kuntum', 'kâne', 'kânû', 'nekûnenne', 'tekûnâ', 'yekun', 'yekûnu'), 'yüce ol-' (برك; 'tebâraka'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK söyle-': "KÖK 'söyle-' ← 'doğru söyleyen' (صدق; 'sâdiq'), 'söyle-' (قول; 'teqûlû', 'teqûlûne'): farklı lemma ve kök — çakışma — tam okuma sonu",
+})
