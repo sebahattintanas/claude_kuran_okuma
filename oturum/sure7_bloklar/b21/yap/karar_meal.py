@@ -1,0 +1,23 @@
+KQ = ['bi', 'ellezîne', 'fe', 'fî', 'hu', 'hum', 'hâ', 'kum', 'li', 'min', 've']
+KM = {
+ "'aqul' / 'qul' / 'qulnâ' / 'qâle' / 'qâlet' / 'qâlu' / 'qâlâ' / 'qâlû' / 'teqûlû' / 'teqûlûne' / 'yeqûlu'": "çakışma değil (söz aktarımında 'de-' / nesne alan kullanımda 'söyle-')",
+ "'ci'nâ' / 'ci'te' / 'câ'e' / 'câ'et'": "çakışma değil ('bi' ile 'getir-' / yalın 'gel-')",
+ "'ce'ale' / 'ce'alne' / 'ce'alnâ' / 'tec'al'": "çakışma — tam okuma sonu (nesne yapısına göre 'kıl-' / 'var et-')",
+ "'yu'minûn' / 'âmene' / 'âmenû'": "çakışma — tam okuma sonu ('inan-' / 'iman et-')",
+ "'ğayr'": "çakışma — tam okuma sonu ('-sız' / 'başka' — bağlam karşılığı)",
+ "'mu'min'": "çakışma — tam okuma sonu ('iman eden' / 'inanan')",
+ "'mursel'": "çakışma — tam okuma sonu ('elçi' / 'gönderilmiş' — ad / sıfat-fiil kullanımı)",
+ "'xuzû' / 'ye'xuze'": "çakışma — tam okuma sonu ('al-' / 'yakala-' — azabın yakalaması)",
+ "'ard'": "çakışma değil ('yer' gökle birlikte sayımda / 'yeryüzü' bulunma bildiren yalın kullanımda / 'arz' Allah'a izafette)",
+ "'bi'": "çakışma değil ('-la' / '-le' / yönelme eki — ünlü uyumu, fiil yönetimi)",
+ "'ellezîne'": "çakışma değil ('-anlar' / '-en' — sıfat-fiil çekimi)",
+ "'fe'": "çakışma değil ('Öyleyse' / karşılıksız — emir cümlesi başı)",
+ "'fî'": "çakışma değil (bulunma eki / yönelme eki — yer, yerleştirme fiilinin yönü)",
+ "'hu'": "çakışma değil (zamir 'O'ndan' / 'onunla' / iyelik eki — çekim ve tamlama)",
+ "'hum'": "çakışma değil (zamir 'onlardan' / iyelik eki — çekim ve tamlama)",
+ "'hâ'": "çakışma değil (zamir 'Onu' / 'Onun' / 'ona' — belirtme, tamlayan ve yönelme çekimi)",
+ "'kum'": "çakışma değil (zamir 'Sizin' / 'size' / 'sizi' / iyelik eki — çekim, tamlama)",
+ "'li'": "çakışma değil (tamlayan eki / yönelme eki — sahiplik, yön)",
+ "'min'": "çakışma değil (ayrılma eki / karşılıksız — zâid 'min')",
+ "'ve'": "çakışma değil ('ve' / karşılıksız — atıf, cümle başı ve noktalama)",
+}

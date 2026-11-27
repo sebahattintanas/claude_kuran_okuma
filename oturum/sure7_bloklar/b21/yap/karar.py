@@ -1,0 +1,15 @@
+KARAR.update({
+ 'bil-': "'bil-' ← 'a'lemu', 'ta'lemûn', 'ta'lemûne', 'ya'lemûn': bir lemma (''alime'; morph LEM eşit) — çakışma değil",
+ 'bırak-': "'bırak-' ← 'nezera', 'zerû': bir lemma ('yezere' (morph LEM ham biçim); morph LEM eşit) — çakışma değil",
+ 'deve': "'deve' ← 'cemel', 'nâqa': farklı lemma ve kök (جمل, نوق) — çakışma — tam okuma sonu",
+ 'edin-': "'edin-' ← 'tettexizûne', 'ttexazu', 'ttexazû': bir lemma ('ittexaze'; morph LEM eşit) — çakışma değil",
+ 'iman et-': "'iman et-' ← 'yu'minûn', 'âmene', 'âmenû': bir lemma ('âmene'; morph LEM eşit) — çakışma değil",
+ 'ye-': "'ye-' ← 'kulâ', 'kulû', 'te'kul': bir lemma ('ekele'; morph LEM eşit) — çakışma değil",
+ 'yerleştir-': "'yerleştir-' ← 'bevve'e', 'mekkennâ': farklı lemma ve kök (بوأ, مكن) — çakışma — tam okuma sonu",
+ 'yeryüzü': "'yeryüzü' ← 'ard': bir lemma ('ard'; morph LEM eşit) — çakışma değil",
+ 'KÖK delil-': "KÖK 'delil-' ← 'apaçık delil' (بين; 'beyyine'), 'delil' (سلط; 'sultân'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK et-': "KÖK 'et-' ← 'bile bile inkâr et-' (جحد; 'yechadûn'), 'dua et-' (دعو; 'd'û', 'ted'ûne', 'ud'û'), 'helâk et-' (هلك; 'ehleknâ'), 'iman eden' (أمن; 'mu'min'), 'iman et-' (أمن; 'yu'minûn', 'âmene', 'âmenû'), 'inkâr eden' (كفر; 'kâfir'), 'inkâr et-' (كفر; 'kefarû'), 'israf eden' (سرف; 'musrif'), 'israf et-' (سرف; 'tusrifû'), 'istivâ et-' (سوي; 'stevâ'), 'iyilik et-' (حسن; 'muhsin'), 'kulluk et-' (عبد; ''budu', 'na'bude', 'ya'budu'), 'lânet et-' (لعن; 'le'anet'), 'merhamet et-' (رحم; 'terham'), 'secde eden' (سجد; 'sâcid'), 'secde et-' (سجد; 'scudû', 'secedû', 'tescude'), 'taşkınlık et-' (عثو; 'ta'sev'), 'tebliğ et-' (بلغ; 'ubelliğu'), 'vaat et-' (وعد; 'te'idu', 've'ade'), 'var et-' (جعل; 'ce'alnâ'), 'yemin et-' (قسم; 'aqsamtum', 'qâseme'), 'şahitlik et-' (شهد; 'şehidû'), 'şefaat et-' (شفع; 'yeşfe'û'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK gel-': "KÖK 'gel-' ← 'ağır gel-' (ثقل; 'sequlet'), 'gel-' (جيأ, أتي; 'ci'te', 'câ'e', 'câ'et', 'ye'tiyenne', 'ye'tî', 'âtiyenne'), 'hafif gel-' (خفف; 'xaffet'): farklı lemma ve kök — çakışma — tam okuma sonu",
+ 'KÖK gönder-': "KÖK 'gönder-' ← 'gönder-' (رسل; 'erselnâ', 'ursile', 'yursilu'), 'gönderilmiş' (رسل; 'mursel'): farklı lemma, bir kök (رسل) — çakışma — tam okuma sonu",
+ 'KÖK kıl-': "KÖK 'kıl-' ← 'haram kıl-' (حرم; 'harrame'), 'hâlis kıl-' (خلص; 'muxlis'), 'kıl-' (جعل; 'ce'ale', 'ce'alne', 'tec'al'), 'miras kıl-' (ورث; 'ûristumû'): farklı lemma ve kök — çakışma — tam okuma sonu",
+})

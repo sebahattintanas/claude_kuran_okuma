@@ -1,0 +1,91 @@
+_OL = [l.replace('**', '') for l in open('/home/claude/b21/olcum.txt', encoding='utf-8').read().split('\n\n') if l.strip()]
+_F = [re.search(r'fâsıla (\S+) →', l).group(1) for l in _OL]
+_MB = open('/home/claude/b21/yap/metin_body.py', encoding='utf-8').read().replace('\\\\', '\\')
+_MB = re.sub(r'" \+ _F\[(\d)\] \+ "', lambda m_: _F[int(m_.group(1))], _MB)
+def _esc(t):
+    for c in '.()[]|+*': t = t.replace(c, '\\' + c)
+    return t
+_AK1 = _esc(re.search(r'aktör: adlı .*?rol meful\)', _OL[0]).group(0))
+_AK2 = _esc(re.search(r'aktör: adlı .*?rol mecrur\)', _OL[1]).group(0))
+_AK3 = _esc(re.search(r'aktör: adlı .*?rol meful\)', _OL[2]).group(0))
+_HP = _esc(re.search(r'HAPAKS: .*? — hapaks z=3,28', _OL[1]).group(0))
+for _k, _v in (('_AK1', _AK1), ('_AK2', _AK2), ('_AK3', _AK3), ('_HP', _HP)): _MB = _MB.replace('" + %s + "' % _k, _v)
+def _pat(n):
+    p = list(dict.fromkeys(re.findall(r"\{\{%d\|[^}]*\}\}" % (n - 72), _MB)))
+    p = ["'%s'" % x for x in p]
+    return '7:%d ' % n + (', '.join(p[:-1]) + ' ve ' + p[-1] if len(p) > 1 else p[0])
+I = list(BEK) + [
+ "araç değişikliği (bölüm 5 kuralı 11, bölüm 7 kuralı 10 — komut 'python3 sunum/arac_degisim.py'): " + ARAC + "; gerekçe: bu blokta araç kuralı değişmedi; bölüm 7 kapanışında sunum/bolum43_kurallar.py (kural 1-5) eklendi, sunum/geriye_donuk.py ve mutasyon_sina buna göre güncellendi — önceki commit'te, kapanış mutasyon sınaması 455 / 455; yeni kök سهل karşılığı ('düzlük, ova') bu blokta kök tablosuna eklendi (yamalar/yama_kok_7_73.py); mutasyon_sina — MUT_SONUC; "
+ "basilan satır sayısı (blok anı): 486",
+ "geriye dönük koşu (sûre 7 bölüm 7 kapanışı, komut 'python3 sunum/geriye_donuk.py b20k'): GERI_P",
+ "gloss kapsam taraması (komut 'python3 sunum/gloss_tara.py 73 75 21'; bölüm 7 kuralı 5: TARANMAYAN 0 olmadan teslim yok): " + ' · '.join(GLS) + "; tam okuma sonu",
+ "esmâ: 7:75 'innâ bi-mâ ursile bihî mu'minûn' (19-23. kelime) — esma_el 'degil', kural 'esmâ adı esmâ dışı göndergeyle' (iman edenlerin sıfatı) (yamalar/esma_el_7_73_75.txt); 7:73 ve 7:74 esmâ yok; 7:73 lafız (8., 21. ve 28. kelime), 7:74 lafız (20. kelime); 7:75 lafız yok; 7:73 Rab (18. kelime), 7:75 Rab (17. kelime); 7:74 Rab yok (bölüm 6 kuralı 14 — betikle: B6_ESMA); A1'de esmâ anılmadı (bölüm 11 denetimi kuralı 7)",
+ "esma_kayit (bölüm 8 kuralı 3 — komut 'python3 sunum/esma_muhur.py 73 75 21'; bölüm 13 denetimi kuralı 2; bölüm 15 denetimi kuralı 5; 7:75 muhur EVET / ölçüm MÜHÜRSÜZ — uyuşmuyor, araç tanımı farkı; muhur_el hayır): " + EMH,
+ "ölçüm: " + '; '.join(_pat(n) for n in range(73, 76)) + " — satır aynen (◇'de de; bayt eşitliği satir_aynen araçlarıyla denetlendi, iki araç 0); "
+ "simetri / İÇ düğüm alanı olmayan ayetler (komut 'python3 sunum/bolum4_kurallar.py 73 75 21'): KALAN_P",
+ "ölçüm aktör: 7:73 adlı ثَمُود (2. kelime, rol mecrur) ve صالِح (4. kelime, rol meful); 7:74 adlı عاد (7. kelime, rol mecrur); 7:75 adlı صالِح (14. kelime, rol meful)",
+ "ölçüm edim / kip (ayet ayet; D2 ölçüm etiketiyle; biçim etiketi D2'de yazılmaz — bölüm 10 denetimi kuralı 7): 7:73 emir, yasak, nida — CERT 1 'qad' (14.), IMPV 2 'u'budu' (7.), 'fe-zerûhâ' (24.), NEG 1 'mâ' (9.), PRO 1 've lâ' (29.), VOC 1 'yâ qavmi' (6.); "
+ "7:74 emir, yasak — IMPV 2 've'zkurû' (1.), 'fe'zkurû' (18.), PRO 1 've lâ' (21.); 7:75 soru — INTG 1 'e-ta'lemûne' (12.)",
+ "morph REL ('li'llezîne' 7:75 7., 'li-men' 7:75 9., 'bi-mâ' 7:75 20.), T ('iz' 7:74 2.), CAUS ('fe-ye'xuzekum' 7:73 32.), ATT ('hâzihî' 7:73 19.) ölçüm kipinde yok",
+ "yıldız (bölüm 6 kuralı 13 — blok_bilanco yıldız kaynağı biçimiyle): 7:73 ★★ (kaynak n, z=2,29); 7:74 ★★★ (kaynak hapaks, z=3,28 — سهل); 7:75 yıldız yok",
+ "fâsıla: 7:72 ن → 7:73 م (" + _F[0] + ") → 7:74 ن (" + _F[1] + ") → 7:75 ن (" + _F[2] + ") — N sınıfı (ölçüm); aday 1042 için kayıt (test edilmedi)",
+ "ölçüm xref (bölüm 10 denetimi kuralı 6, bölüm 13 denetimi kuralı 1, bölüm 15 denetimi kuralı 14): 7:73 11:64, 26:156 (emsal olarak basıldı), 6:157, 7:59, 7:65, 11:50, 11:61, 11:84, 23:23, 23:32, 40:66 (basılmış), okunmuş 1 ayet ve okunmamış 2 ayet (sûre içi 2); "
+ "7:74 2:60, 15:82, 26:149 (emsal olarak basıldı); 7:75 xref yok",
+ "araç tanımı farkları (R5 — nakarat3 'tür' alanı 'ic' sûre içi; sûre içi toplam = bu + basılmış sûre içi + okunmus_si + henuz_si; kalıp adı morph LEM ham adıyla, ◇ lemma dizisi adıyla eş, önceki bloklardaki adla öğe bazında eş (bölüm 12 denetimi kuralı 4), joker '_' yalnız lemmasız öğede; bölüm 6 kuralı 8: gerekçede terimler say2 anahtarıyla, bir ölçüden; bölüm 8 kuralı 1: kapanmayan satırda öneksiz eş koşusu; bölüm 13 denetimi kuralı 6: 'tutmuyor' satırı r5_gerekce çıktısını aynen taşır): " + ('; '.join(r5) or 'bu blokta nakarat3 kalıbı yok'),
+ "nakarat3 (R3: kalıp adıyla özetlendi): 7:73 'qâle qavm 'abede allâh mâ _ min ilâh ğayr qad câ'e beyyine min rabb' süzgeç GEÇER, 'qâle qavm 'abede allâh mâ _ min ilâh ğayr' süzgeç GEÇER, 'qad câ'e beyyine min rabb' süzgeç GEÇER; "
+ "7:74 'zekere iz ce'ale xalîfe min ba'd' süzgeç GEÇER, 'zekere âlâ' allâh' süzgeç GEÇMEZ; 7:75 'qâle mele' ellezî istekbere min qavm' süzgeç GEÇER, 'qâle mele' ellezî' süzgeç GEÇER; sûre içi eşler — bölüm 7 bloklarındaki Nûh ve Hûd kıssası ayetleri (basılmış) ve basılmamış eşler",
+ "aktör / ad (1017, R1; bölüm 3 kuralı 5, bölüm 4 kuralı 9, bölüm 5 kuralları 1 ve 14, bölüm 6 kuralı 15, bölüm 7 kuralı 3, bölüm 8 kuralları 7 ve 14 — ölçüt: zamirlerin hepsi 'adsız', etiketin kendi parantezinde; 2. şahıs 'muhatap', 1. şahıs 'konuşan' ile; alıntı ve kelime numarası ◇ konumuyla; "
+ "A3 içi 1. / 2. şahıs 'söz içi' — bölüm 13 denetimi kuralı 5; fiilin ardındaki zamirsiz NOM ad 'fiil uyumu; fail' — bölüm 16 denetimi kuralı 1; başka ayete giden gönderge 'S:a N. kelime' — sûre 6 bölüm 2 denetimi kuralı 8; ekler fiillerden ayrı grupta — bölüm 16 ve 17 denetimi A1_EK_AYRIMI): "
+ "7:73 adlı 'semûde' (2.) ve 'sâlihan' (4.); 3MP eki ('exâhum' — gönderge 'semûde'), 3MS ('qâle' — gönderge 'sâlihan'), söz içi konuşan 1S eki ('qavmi'), söz içi muhatap 2MP ('u'budu', 'zerûhâ', 'temessûhâ'; ekler 'lekum', 'câ'etkum', 'rabbikum', 'lekum', 'ye'xuzekum'), 3FS ('câ'etkum' — fiil uyumu, fail 16. kelime; 'te'kul' ve ekler 'zerûhâ', 'temessûhâ' — gönderge 'nâqatu' 20. kelime), 3MS ('ye'xuzekum' — fiil uyumu, fail 33. kelime; ek 'ğayruhû' — gönderge 'llâhe' 8. kelime); "
+ "7:74 adlı ''âdin' (7.); söz içi muhatap 2MP ('zkurû', 'tettexizûne', 'tenhitûne', 'zkurû', 'ta'sev'; ekler 'ce'alekum', 'bevve'ekum'), 3MS ('ce'ale', 'bevve'e' — gönderge 'llâhi' 20. kelime), 3FS eki ('suhûlihâ' — gönderge 'l-ardi' 10. kelime); "
+ "7:75 adlı 'sâlihan' (14.); 3MS ('qâle' — fiil uyumu, fail 2. kelime; 'âmene' — gönderge 'men' 9. kelime; 'ursile' — söz içi, edilgen, gönderge 'mâ' 20. kelime; ekler 'qavmihî' — gönderge 7:73 4. kelime, 'rabbihî' — gönderge 'sâlihan' 14. kelime, 'bihî' — gönderge 'mâ' 20. kelime), 3MP ('stekberû' — gönderge 'llezîne' 3. kelime; 'stud'ifû' — edilgen, gönderge 'llezîne' 7. kelime; 'qâlû' — gönderge 'llezîne' 7. kelime; ek 'minhum' — gönderge 'men' 9. kelime), söz içi muhatap 2MP ('ta'lemûne'), söz içi konuşan 1P eki ('innâ')",
+ "7:73-75 gönderge zinciri: 7:73 'qâle' göndergesi 'sâlihan' (4. kelime); 7:74 söz 7:73'ten sürüyor, 'ce'ale' ve 'bevve'e' göndergesi 'llâhi' (20. kelime); 7:75 'qavmihî' göndergesi 7:73 4. kelimedeki Sâlih; 'qâlû' göndergesi zayıf sayılanlar ('llezîne' 7. kelime) (okuma)",
+ "edilgen: 7:75 'stud'ifû' (8. kelime, X. bab) ve 'ursile' (21. kelime, IV. bab) — ölçüm EDİLGEN 2/7 fiil; 7:73 ve 7:74 edilgen fiil yok",
+ "söz / tırnak (bölüm 3 kuralı 7, bölüm 4 kuralı 1, bölüm 14 denetimi kuralı 4, bölüm 15 denetimi kuralları 2-4, bölüm 16 denetimi kuralı 2): 7:73 söz içi 6-34. kelime ('qâle' 5. kelime ardından; ayet sonunda kapanmıyor); 7:74 söz sürüyor (7:73 6. kelimeden, 1-25. kelime; 25. kelimede kapanır); "
+ "7:75 söz içi 12-17. kelime ('qâle' 1. kelime ve muhatap 'li'llezîne' 7. kelime ardından) ve 19-23. kelime ('qâlû' 18. kelime ardından); "
+ "REM sapması 7:73 (24. kelime) — söz içi 'fe', emir cümlesi başı; REM sapması 7:74 (18. kelime) — söz içi 'fe', emir cümlesi başı; 'fe' 18. kelime morph REM — anlamca sonuç ('Öyleyse'); "
+ "REM sapması (komut 'python3 sunum/bolum4_kurallar.py 73 75 21' — A3 aralığında morph REM; bölüm 13 denetimi kuralı 3): KREM_P; "
+ "morph 've' / 'fe' konumlarıyla kontrol edildi: 7:73 've ilâ' (1.) CONJ, 'fe-zerûhâ' (24.) REM, 've lâ' (29.) CONJ, 'fe-ye'xuzekum' (32.) CAUS; 7:74 've'zkurû' (1.) CONJ, 've bevve'ekum' (8.) CONJ, 've tenhitûne' (15.) CONJ, 'fe'zkurû' (18.) REM, 've lâ' (21.) CONJ",
+ "◈ tetik (alıntılar önek ve edatsız; alt sınıf kökten — betikle: KHATA_TETIK): 7:73 ◈K أرض ('ardi' 27. kelime — K1), 7:74 ◈K أرض ('l-ardi' 10. kelime — K1), 7:74 ◈K جبل ('l-cibâle' 16. kelime — K1), 7:74 ◈K أرض ('l-ardi' 24. kelime — K1); 7:75 tetik yok",
+ "tetik dışı tarama (bölüm 5 kuralı 7, bölüm 6 kuralı 4 — komut 'python3 sunum/bolum5_kurallar.py 73 75 21'): TETIKDISI; anılış: ANILIS_P; oturum_tetik kuru koşu 3 ayet / 0 uyuşmaz, oturum_xy 0 uyuşmaz",
+ "◈D D3 / bag (R8): D3 eşleri bag listesiyle birebir — 7:73 (11:64, 26:156), 7:74 (2:60, 15:82, 26:149); D3'te ölçüm kök ikilemeleri (bölüm 17 denetimi D3_KOK_IKILEME): 7:73 أله ×4; 7:74 أرض ×2, ذكر ×2; ayetler arası kalıp yok (kontrol.py ile; bag alıntıları ◇ alt dizesi — bölüm 7 kuralı 6; bağ kalıbı say2 listesinde emsali buluyor — bölüm 9 kuralı 3; en uzun ortak lemma dizisi bag kaydında — sûre 6 bölüm 15 denetimi kuralı 5); "
+ "D3 dışı bırakılan basılmış sayım eşleri (bölüm 7 kuralı 7, bölüm 10 denetimi kuralı 11 — ayet başına, betikle): D3DISI_P — kalıp başına ölçüt: bloğun emsal dosyasında olmayan basılmış eş (önceki bloklarda basılmış ya da sûre içi), bağ kurulmadı (bölüm 3 kuralı 11)",
+ "◈A A4 (R9 + kapsam; betikle: KHATA_A4): 7:73 bölüm açılışı, söz açılır, şahıs geçişi 1 → 2, edim geçişi haber → emir, yasak, nida; 7:74 söz kapanır, şahıs geçişi yok, edim geçişi emir, yasak, nida → emir, yasak; "
+ "7:75 söz açılır / kapanır (iki söz), şahıs geçişi 2 → 3, edim geçişi emir, yasak → soru; ölçüm iltifât 7:73-75 için 0 (sûre 6 bölüm 2 denetimi kuralı 7)",
+ "sözdizimi (okuma; morph etiketiyle): 7:73 've ilâ semûde exâhum sâlihan' — atıf, yönelme ve özel adlar; fiil 7:59 2. kelimeden takdir (morph CONJ + P + PN + N + PN); 7:74 'tettexizûne min suhûlihâ qusûran' — muzâri, tümleç ve nesne (morph IMPF + P + N + N); "
+ "7:75 'qâle'l-mele'u'llezîne'stekberû' — mazi, fail ve ism-i mevsûl sıla cümlesiyle (morph PERF + DET + N + REL + PERF)",
+ "okuma (gözlem) (iddialar ölçüm ve morph ile; 'ile açılıyor' yalnız 1. kelimeden başlayan aralık için; ikileme iddiaları ölçüm kök ikilemesi alanından): 7:73 19-28. kelime — 11:64 ile harekesiz eş (sayım: 'say 7:73 19-28'); 7:73 29-33. kelime — 11:64 ve 26:156 ile lemma dizisi eşi (sayım: 'dizi 7 73 29 33'); "
+ "7:74 21-25. kelime — 2:60 ile harekesiz eş (sayım: 'say 7:74 21-25'); 7:74 16-17. kelime — 15:82 ve 26:149 ile harekesiz eş (sayım: 'say 7:74 16-17'); 7:73 kök أله ikilemesi; 7:74 kök أرض ve ذكر ikilemesi; 7:75 kök أمن, رسل ve قول ikilemesi; geniş eşli sayımlar: 'say 7:73 5-13', 'say 7:74 21-25', 'say 7:75 1-6'",
+ "meal (okuma, tam okuma sonu): " + '; '.join(MEALS) + "; blok içi eş edat / zamir karşılıkları (komut 'python3 sunum/es_edat.py 21'): " + ES
+ + "; eş lemmaya farklı karşılık (komut 'python3 sunum/es_lemma.py " + ' '.join(BLOKLAR) + " --numarasiz'; çıktı aynen — bölüm 10 denetimi kuralı 9): " + (ESL or 'yok')
+ + "; emsal meal karşılık farkları (elle; bölüm 9 kuralı 3: yalnız emsalde geçen kalıp; bölüm 12 denetimi kuralı 2: kapalı sözlük; bölüm 13 denetimi kuralı 10: emsal alıntısı bayt eşit; sûre 6 bölüm 15 denetimi kuralı 3): "
+ "'hâzihî nâqatu'llâhi' 7:73 'İşte Allah'ın bu devesi' / 11:64 'işte bu Allah'ın devesi' (emsal metninde) — çakışma — tam okuma sonu (daraltılmış kalıp — bag kalıbı dört satıra bölündü, meal kesimleri ve emsal metnindeki virgül — söz dizimi: 'bu' işaretinin yeri); "
+ "'lekum âyeten' 7:73 'size bir âyet' / 11:64 'size bir işarettir' (emsal metninde) — çakışma — tam okuma sonu ('âyet' / 'işaret' — âye karşılığı); "
+ "'fe-zerûhâ' 7:73 'Onu bırakın' / 11:64 'Bırakın onu' (emsal metninde) — çakışma — tam okuma sonu (söz dizimi — nesnenin yeri); "
+ "'te'kul fî ardi'llâhi' 7:73 'Allah'ın arzında yesin' / 11:64 'Allah'ın arzında yesin' (emsal metninde) — çakışma değil; "
+ "'ve lâ temessûhâ bi-sû'in' 7:73 'ona kötülükle dokunmayın' / 11:64 'ona kötülükle dokunmayın' (emsal metninde) — çakışma değil; "
+ "'ve lâ temessûhâ bi-sû'in' 7:73 'ona kötülükle dokunmayın' / 26:156 'Ona bir kötülükle dokunmayın' (emsal metninde) — çakışma — tam okuma sonu (nekre 'bir' takdiri — sû' karşılığı — emsaller arası: 11:64 'ona kötülükle' / 26:156 'Ona bir kötülükle'); "
+ "'l-cibâle buyûten' 7:74 'dağları evler' / 15:82 'Dağlardan güvenli evler' (emsal metninde) — çakışma — tam okuma sonu (belirtme eki / ayrılma eki — emsalde 'min'; 'güvenli' emsalde fazla); "
+ "'l-cibâle buyûten' 7:74 'dağları evler' / 26:149 'Dağlardan ustalıkla evler' (emsal metninde) — çakışma — tam okuma sonu (belirtme eki / ayrılma eki — emsalde 'min'; 'ustalıkla' emsalde fazla — emsaller arası: 15:82 'güvenli' / 26:149 'ustalıkla'); "
+ "'ve lâ ta'sev fi'l-ardi mufsidîn' 7:74 've yeryüzünde bozguncular olarak taşkınlık etmeyin' / 2:60 'yeryüzünde bozgunculuk yaparak taşkınlık etmeyin' (emsal metninde) — çakışma — tam okuma sonu ('bozguncular olarak' / 'bozgunculuk yaparak' — mufsid karşılığı); "
+ "kip notu (bölüm 15 denetimi kuralı 18, bölüm 16 denetimi kuralı 9; sûre 6 bölüm 2 denetiminden KIP_KAPSAM elle — her fiil; yinelenen fiil kelime numarasıyla — sûre 6 bölüm 18 denetimi kuralı 4): 7:73 'qâle' PERF — meal 'Dedi'; 'u'budu' IMPV — meal 'kulluk edin'; 'câ'etkum' PERF ('qad' ile) — meal 'geldi'; 'fe-zerûhâ' IMPV — meal 'bırakın'; 'te'kul' IMPF JUS — meal 'yesin'; 'temessûhâ' IMPF JUS ('lâ' ile) — meal 'dokunmayın'; 'ye'xuzekum' IMPF SUBJ ('fe' ile) — meal 'yakalar'; "
+ "7:74 've'zkurû' IMPV (1. kelime) — meal 'hatırlayın'; 'ce'alekum' PERF ('iz' ile) — meal 'kıldığı'; 'bevve'ekum' PERF — meal 'yerleştirdi'; 'tettexizûne' IMPF IND — meal 'ediniyorsunuz'; 'tenhitûne' IMPF IND — meal 'yontuyorsunuz'; 'fe'zkurû' IMPV (18. kelime) — meal 'hatırlayın'; 'ta'sev' IMPF JUS ('lâ' ile) — meal 'etmeyin'; "
+ "7:75 'qâle' PERF — meal 'dedi'; 'stekberû' PERF — meal 'büyüklenen'; 'stud'ifû' PERF edilgen — meal 'sayılanlara'; 'âmene' PERF — meal 'edenlere'; 'ta'lemûne' IMPF IND ('e' ile) — meal 'biliyor musunuz'; 'qâlû' PERF — meal 'Dediler'; 'ursile' PERF edilgen — meal 'gönderilene'; "
+ "kip sapma notu (sûre 6 bölüm 15 denetiminden KIP_SAPMA_NOTU elle; IMPF IND geniş zaman karşılığı her blokta sapma sayılır — sûre 7 bölüm 3 denetimi kuralı 3): 'te'kul' IMPF 7:73'te istek kipi ('-sin') ile; 'ye'xuzekum' IMPF 7:73'te geniş zaman ('-r') ile; 'ce'alekum' PERF 7:74'te sıfat-fiil ('-dığı') ile; "
+ "'tettexizûne', 'tenhitûne' IMPF 7:74'te şimdiki zaman ('-iyorsunuz', '-uyorsunuz') ile; 'stekberû' PERF 7:75'te sıfat-fiil ('-en') ile; 'stud'ifû' PERF 7:75'te sıfat-fiil ('-anlara') ile; 'âmene' PERF 7:75'te sıfat-fiil ('-enlere') ile; 'ta'lemûne' IMPF 7:75'te şimdiki zaman ('-iyor') ile; 'ursile' PERF 7:75'te sıfat-fiil ('-ene') ile",
+ "meal karşılık farkı kararları (bölüm 8 kuralı 6, bölüm 10 denetimi kuralı 3, bölüm 11 denetimi kuralı 8 — es_lemma satırları ve ◈D ayetler arası kalıpları, betikle; kapalı sözlük 'çakışma değil' / 'çakışma — tam okuma sonu'): " + (MKK or 'karar gerektiren satır yok'),
+ "meal takdirleri (bölüm 5 kuralı 9 — komut 'python3 sunum/bolum5_kurallar.py 73 75 21'): TAKDIR_P",
+ "KARSILIK_CAKISMA",
+ "çıpa: 7:73 tarayıcı adayı (kök أرض; D_yeti) — çıpa değil: anlatı öğesi, doğa iddiası yok (olgu=False); 7:74 ve 7:75 tarayıcı vermedi (cipa_tarama7_adaylari.json); L3 / L4 adayı yok",
+ "aday 1039: 7:75 ('stekberû' / 'stud'ifû'); 7:73 ve 7:74 karşıt çift yok; ayetler arası karşıt çift yok; eşleme betikle: ADAY_P",
+ "aday 1041: kök أخذ 7:73 ('ye'xuzekum') ve 7:74 ('tettexizûne') ile bölüm içi; kök أرض 7:73 ('ardi') ve 7:74 ('l-ardi', 'l-ardi') ile bölüm içi; kök أله 7:73 ('llâhe', 'ilâhin', 'llâhi', 'llâhi') ve 7:74 ('llâhi') ile bölüm içi; kök ربب 7:73 ('rabbikum') ve 7:75 ('rabbihî') ile bölüm içi; kök صلح 7:73 ('sâlihan') ve 7:75 ('sâlihan') ile bölüm içi; kök قول 7:73 ('qâle') ve 7:75 ('qâle', 'qâlû') ile bölüm içi; kök قوم 7:73 ('qavmi') ve 7:75 ('qavmihî') ile bölüm içi; bölüm açılışı — bölümün önceki bloğu yok; okuma",
+ "bölüm: " + BOL + " bölümü, bölüm 8-1 (bölüm 7 kuralı 9 — blok_plani_7.txt'ten) — bölüm blokları 21, 22 ve sonrakiler; bölüm açılışı bu blokta; "
+ "mercek_kayit['7']'deki eski ◇ notlarından bu bloğun ayetlerine düşenler blok yazılırken arşivlenir; medde taraması (sunum/medde.py b21/say2.txt): " + MED + "; " + MEDF,
+ "ham LEM (bölüm 5 kuralı 5, bölüm 6 kuralı 3, bölüm 7 kuralı 11, bölüm 8 kuralı 9, bölüm 11 denetimi kuralı 5 — betikle: komut 'python3 sunum/bolum5_kurallar.py 73 75 21'; lem_bozuk.py 21 çıktısı): HAMLEM_P",
+ "öz denetim (ayrı madde): sunum/ayn_kontrol.py 73 75 → AYN_SONUC; sunum/bolum4_kurallar.py 73 75 21 → KHATA_HEPSI; " + '; '.join('sunum/bolum%d_kurallar.py 73 75 21 → B%d_HEPSI' % (n_, n_) for n_ in range(5, 44)) + "; sunum/yasakli_sina.sh → yasakli sınama tamam",
+ "sonradan basılan (komut 'python3 sunum/sonradan.py --plan 21 --numarasiz'; çıktı aynen): " + SON + " (geriye dönük düzeltme yok)",
+ "korpusta 1 (kayıt; say2'deki tekil sayımlar betikle; öneksiz tekiller '--on' eşiyle — sûre 6 bölüm 1 denetimi kuralı 4): " + ', '.join(K1),
+ "bağ: emsal " + ', '.join(EMS.split()) + " — emsal dosyası (AR + meal) teslim edildi; her emsal ayetinin bag'de gerekçesi var; önceki basım (sunum/onceki_basim.py): " + ONC + "; emsal işaretlemesi sayımdan önce yapıldı, say2.txt sayımı işaretlenmiş basılan listesiyle sınıflandı; "
+ "lemma adları morph lemmasından ham transliterasyonla ('qâle', 'qavm', ''abede', 'allâh', 'mâ', 'min', 'ilâh', 'ğayr', 'qad', 'câ'e', 'beyyine', 'rabb', 'zâ', 'nâqa', 'âye', 'yezere' (morph LEM ham biçim), 'ekele', 'fî', 'ard', 'lâ', 'messe', 'sû'', 'exaze', ''azâb', 'zekere', 'iz', 'ce'ale', 'xalîfe', 'ba'd', 'âlâ'', 'cebel', 'beyt', 'ta'se', 'mufsid', 'mele'', 'ellezî', 'istekbere'); joker '_' dizi lemma dizisinde boş öğe olan zamir ve önek lemmalı kelimelerde ('lekum' 7:73 10. ve 22.); "
+ "transliterasyon yalnız ة / tanvin / 'l' birleşme yapıntıları; wasl 'va'' taraması 0; A1 alıntıları ◇ alt dizesi",
+]
