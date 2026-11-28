@@ -1649,4 +1649,6 @@ KARAR = {
     # sure 7 blok 73-75
     '7:75:23': 'degil',  # 'innâ bi-mâ ursile bihî mu'minûn' — esmâ adı esmâ dışı göndergeyle → degil (iman edenlerin sıfatı)
     # sure 7 blok 76-79
+    # sure 7 blok 80-84
+    '7:80:11': 'degil',  # 'min ehadin mine'l-'âlemîn' — esmâ adı esmâ dışı göndergeyle → degil (hiç kimse — olumsuz sayı)
 }

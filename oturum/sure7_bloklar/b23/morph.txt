@@ -1,0 +1,52 @@
+7:80:1	وَلُوطًا	P|CONJ|PREF|LEM:و + N|PN|LEM:لُوط|ACC
+7:80:2	إِذْ	N|T|LEM:إِذ
+7:80:3	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:80:4	لِقَوْمِهِۦٓ	P|P|PREF|LEM:ل + N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+7:80:5	أَتَأْتُونَ	N|INTG|PREF|LEM:أ + V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:80:6	ٱلْفَٰحِشَةَ	P|DET|PREF|LEM:ال + N|ROOT:فحش|LEM:فاحِشَة|F|ACC
+7:80:7	مَا	P|NEG|LEM:ما
+7:80:8	سَبَقَكُم	V|PERF|VF:1|ROOT:سبق|LEM:سَبَقَ|3MS + N|PRON|SUFF|2MP
+7:80:9	بِهَا	P|P|PREF|LEM:ب + N|PRON|3FS
+7:80:10	مِنْ	P|P|LEM:مِن
+7:80:11	أَحَدٍ	N|ROOT:أحد|LEM:أَحَد|M|INDEF|GEN
+7:80:12	مِّنَ	P|P|LEM:مِن
+7:80:13	ٱلْعَٰلَمِينَ	P|DET|PREF|LEM:ال + N|ROOT:علم|LEM:عالَم|MP|GEN
+7:81:1	إِنَّكُمْ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|2MP
+7:81:2	لَتَأْتُونَ	P|EMPH|PREF|LEM:ل + V|IMPF|VF:1|ROOT:أتي|LEM:أَتَى|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:81:3	ٱلرِّجَالَ	P|DET|PREF|LEM:ال + N|ROOT:رجل|LEM:رِجال|MP|ACC
+7:81:4	شَهْوَةً	N|ROOT:شهو|LEM:شَهْوَة|F|INDEF|ACC
+7:81:5	مِّن	P|P|LEM:مِن
+7:81:6	دُونِ	N|ROOT:دون|LEM:دُون|GEN
+7:81:7	ٱلنِّسَآءِ	P|DET|PREF|LEM:ال + N|ROOT:نسو|LEM:نِساء|FP|GEN
+7:81:8	بَلْ	P|RET|LEM:بَل
+7:81:9	أَنتُمْ	N|PRON|2MP
+7:81:10	قَوْمٌ	N|ROOT:قوم|LEM:قَوْم|M|INDEF|NOM
+7:81:11	مُّسْرِفُونَ	N|ACT_PCPL|VF:4|ROOT:سرف|LEM:مُسْرِف|MP|NOM|ADJ
+7:82:1	وَمَا	P|REM|PREF|LEM:و + P|NEG|LEM:ما
+7:82:2	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:82:3	جَوَابَ	N|ROOT:جوب|LEM:جَواب|M|ACC
+7:82:4	قَوْمِهِۦٓ	N|ROOT:قوم|LEM:قَوْم|M|GEN + N|PRON|SUFF|3MS
+7:82:5	إِلَّآ	P|RES|LEM:إِلّا
+7:82:6	أَن	P|SUB|LEM:أَن
+7:82:7	قَالُوٓا۟	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MP + N|PRON|SUFF|3MP
+7:82:8	أَخْرِجُوهُم	V|IMPV|VF:4|ROOT:خرج|LEM:أَخْرَجَ|2MP + N|PRON|SUFF|2MP + N|PRON|SUFF|3MP
+7:82:9	مِّن	P|P|LEM:مِن
+7:82:10	قَرْيَتِكُمْ	N|ROOT:قري|LEM:قَرْيَة|F|GEN + N|PRON|SUFF|2MP
+7:82:11	إِنَّهُمْ	P|ACC|LEM:إِنّ|FAM:إِنّ + N|PRON|SUFF|3MP
+7:82:12	أُنَاسٌ	N|ROOT:أنس|LEM:إِنسان|MP|INDEF|NOM
+7:82:13	يَتَطَهَّرُونَ	V|IMPF|VF:5|ROOT:طهر|LEM:تَطَهَّرْ|3MP|MOOD:IND + N|PRON|SUFF|3MP
+7:83:1	فَأَنجَيْنَٰهُ	P|REM|PREF|LEM:ف + V|PERF|VF:4|ROOT:نجو|LEM:أَنجَى|1P + N|PRON|SUFF|1P + N|PRON|SUFF|3MS
+7:83:2	وَأَهْلَهُۥٓ	P|CONJ|PREF|LEM:و + N|ROOT:أهل|LEM:أَهْل|M|ACC + N|PRON|SUFF|3MS
+7:83:3	إِلَّا	P|EXP|LEM:إِلّا
+7:83:4	ٱمْرَأَتَهُۥ	N|ROOT:مرأ|LEM:امْرَأَت|F|ACC + N|PRON|SUFF|3MS
+7:83:5	كَانَتْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3FS
+7:83:6	مِنَ	P|P|LEM:مِن
+7:83:7	ٱلْغَٰبِرِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:غبر|LEM:غابِر|MP|GEN
+7:84:1	وَأَمْطَرْنَا	P|CONJ|PREF|LEM:و + V|PERF|VF:4|ROOT:مطر|LEM:أُمْطِرَتْ|1P + N|PRON|SUFF|1P
+7:84:2	عَلَيْهِم	P|P|LEM:عَلَى + N|PRON|SUFF|3MP
+7:84:3	مَّطَرًا	N|ROOT:مطر|LEM:مَطَر|M|INDEF|ACC
+7:84:4	فَٱنظُرْ	P|REM|PREF|LEM:ف + V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MS
+7:84:5	كَيْفَ	N|ROOT:كيف|LEM:كَيْف
+7:84:6	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:84:7	عَٰقِبَةُ	N|ROOT:عقب|LEM:عاقِبَة|F|NOM
+7:84:8	ٱلْمُجْرِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:جرم|LEM:مُجْرِم|MP|GEN
