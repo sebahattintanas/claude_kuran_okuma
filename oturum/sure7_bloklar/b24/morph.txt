@@ -1,0 +1,80 @@
+7:85:1	وَإِلَىٰ	P|CONJ|PREF|LEM:و + P|P|LEM:إِلَى
+7:85:2	مَدْيَنَ	N|PN|ROOT:مدن|LEM:مَدْيَن|GEN
+7:85:3	أَخَاهُمْ	N|ROOT:أخو|LEM:أَخ|MS|ACC + N|PRON|SUFF|3MP
+7:85:4	شُعَيْبًا	N|PN|LEM:شُعَيْب|ACC
+7:85:5	قَالَ	V|PERF|VF:1|ROOT:قول|LEM:قالَ|3MS
+7:85:6	يَٰقَوْمِ	P|VOC|PREF|LEM:ي + N|ROOT:قوم|LEM:قَوْم|M|ACC + N|PRON|SUFF|1S
+7:85:7	ٱعْبُدُوا۟	V|IMPV|VF:1|ROOT:عبد|LEM:عَبَدَ|2MP + N|PRON|SUFF|2MP
+7:85:8	ٱللَّهَ	N|PN|ROOT:أله|LEM:اللَّه|ACC
+7:85:9	مَا	P|NEG|LEM:ما
+7:85:10	لَكُم	P|P|PREF|LEM:ل + N|PRON|2MP
+7:85:11	مِّنْ	P|P|LEM:مِن
+7:85:12	إِلَٰهٍ	N|ROOT:أله|LEM:إِلٰه|MS|INDEF|GEN
+7:85:13	غَيْرُهُۥ	N|ROOT:غير|LEM:غَيْر|M|NOM + N|PRON|SUFF|3MS
+7:85:14	قَدْ	P|CERT|LEM:قَد
+7:85:15	جَآءَتْكُم	V|PERF|VF:1|ROOT:جيأ|LEM:جاءَ|3FS + N|PRON|SUFF|2MP
+7:85:16	بَيِّنَةٌ	N|ROOT:بين|LEM:بَيِّنَة|FS|INDEF|NOM
+7:85:17	مِّن	P|P|LEM:مِن
+7:85:18	رَّبِّكُمْ	N|ROOT:ربب|LEM:رَبّ|M|GEN + N|PRON|SUFF|2MP
+7:85:19	فَأَوْفُوا۟	P|REM|PREF|LEM:ف + V|IMPV|VF:4|ROOT:وفي|LEM:أَوْفَى|2MP + N|PRON|SUFF|2MP
+7:85:20	ٱلْكَيْلَ	P|DET|PREF|LEM:ال + N|ROOT:كيل|LEM:كَيْل|M|ACC
+7:85:21	وَٱلْمِيزَانَ	P|CONJ|PREF|LEM:و + P|DET|PREF|LEM:ال + N|ROOT:وزن|LEM:مِيزان|M|ACC
+7:85:22	وَلَا	P|REM|PREF|LEM:و + P|PRO|LEM:لا
+7:85:23	تَبْخَسُوا۟	V|IMPF|VF:1|ROOT:بخس|LEM:يَبْخَسْ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+7:85:24	ٱلنَّاسَ	P|DET|PREF|LEM:ال + N|ROOT:أنس|LEM:ناس|MP|ACC
+7:85:25	أَشْيَآءَهُمْ	N|ROOT:شيأ|LEM:شَىْء|MP|ACC + N|PRON|SUFF|3MP
+7:85:26	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+7:85:27	تُفْسِدُوا۟	V|IMPF|VF:4|ROOT:فسد|LEM:أَفْسَدُ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+7:85:28	فِى	P|P|LEM:فِي
+7:85:29	ٱلْأَرْضِ	P|DET|PREF|LEM:ال + N|ROOT:أرض|LEM:أَرْض|F|GEN
+7:85:30	بَعْدَ	N|T|ROOT:بعد|LEM:بَعْد|ACC
+7:85:31	إِصْلَٰحِهَا	N|VN|VF:4|ROOT:صلح|LEM:إِصْلاح|M|GEN + N|PRON|SUFF|3FS
+7:85:32	ذَٰلِكُمْ	N|DEM|LEM:ذا|MS + P|DIST|SUFF|LEM:ل + P|ADDR|SUFF|MP
+7:85:33	خَيْرٌ	N|ROOT:خير|LEM:خَيْر|MS|INDEF|NOM
+7:85:34	لَّكُمْ	P|P|PREF|LEM:ل + N|PRON|2MP
+7:85:35	إِن	P|COND|LEM:إِن
+7:85:36	كُنتُم	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+7:85:37	مُّؤْمِنِينَ	N|ACT_PCPL|VF:4|ROOT:أمن|LEM:مُؤْمِن|MP|ACC
+7:86:1	وَلَا	P|CONJ|PREF|LEM:و + P|PRO|LEM:لا
+7:86:2	تَقْعُدُوا۟	V|IMPF|VF:1|ROOT:قعد|LEM:قَعَدَ|2MP|MOOD:JUS + N|PRON|SUFF|2MP
+7:86:3	بِكُلِّ	P|P|PREF|LEM:ب + N|ROOT:كلل|LEM:كُلّ|M|GEN
+7:86:4	صِرَٰطٍ	N|ROOT:صرط|LEM:صِراط|M|INDEF|GEN
+7:86:5	تُوعِدُونَ	V|IMPF|VF:4|ROOT:وعد|LEM:تُوعِدُ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:86:6	وَتَصُدُّونَ	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:صدد|LEM:صَدَّ|2MP|MOOD:IND + N|PRON|SUFF|2MP
+7:86:7	عَن	P|P|LEM:عَن
+7:86:8	سَبِيلِ	N|ROOT:سبل|LEM:سَبِيل|M|GEN
+7:86:9	ٱللَّهِ	N|PN|ROOT:أله|LEM:اللَّه|GEN
+7:86:10	مَنْ	N|REL|LEM:مَن
+7:86:11	ءَامَنَ	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MS
+7:86:12	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+7:86:13	وَتَبْغُونَهَا	P|CONJ|PREF|LEM:و + V|IMPF|VF:1|ROOT:بغي|LEM:بَغَى|2MP|MOOD:IND + N|PRON|SUFF|2MP + N|PRON|SUFF|3FS
+7:86:14	عِوَجًا	N|ROOT:عوج|LEM:عِوَج|M|INDEF|ACC
+7:86:15	وَٱذْكُرُوٓا۟	P|REM|PREF|LEM:و + V|IMPV|VF:1|ROOT:ذكر|LEM:ذَكَرَ|2MP + N|PRON|SUFF|2MP
+7:86:16	إِذْ	N|T|LEM:إِذ
+7:86:17	كُنتُمْ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MP + N|PRON|SUFF|2MP
+7:86:18	قَلِيلًا	N|ROOT:قلل|LEM:قَلِيل|MS|INDEF|ACC
+7:86:19	فَكَثَّرَكُمْ	P|CONJ|PREF|LEM:ف + V|PERF|VF:2|ROOT:كثر|LEM:كَثَّرَ|3MS + N|PRON|SUFF|2MP
+7:86:20	وَٱنظُرُوا۟	P|CONJ|PREF|LEM:و + V|IMPV|VF:1|ROOT:نظر|LEM:نَظَرَ|2MP + N|PRON|SUFF|2MP
+7:86:21	كَيْفَ	N|ROOT:كيف|LEM:كَيْف
+7:86:22	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:86:23	عَٰقِبَةُ	N|ROOT:عقب|LEM:عاقِبَة|F|NOM
+7:86:24	ٱلْمُفْسِدِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:4|ROOT:فسد|LEM:مُفْسِد|MP|GEN
+7:87:1	وَإِن	P|REM|PREF|LEM:و + P|COND|LEM:إِن
+7:87:2	كَانَ	V|PERF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|3MS
+7:87:3	طَآئِفَةٌ	N|ROOT:طوف|LEM:طائِفَة|F|INDEF|NOM
+7:87:4	مِّنكُمْ	P|P|LEM:مِن + N|PRON|SUFF|2MP
+7:87:5	ءَامَنُوا۟	V|PERF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP + N|PRON|SUFF|3MP
+7:87:6	بِٱلَّذِىٓ	P|P|PREF|LEM:ب + N|REL|LEM:الَّذِي|MS
+7:87:7	أُرْسِلْتُ	V|PERF|VF:4|PASS|ROOT:رسل|LEM:أَرْسَلَ|1S + N|PRON|SUFF|1S
+7:87:8	بِهِۦ	P|P|PREF|LEM:ب + N|PRON|3MS
+7:87:9	وَطَآئِفَةٌ	P|CONJ|PREF|LEM:و + N|ROOT:طوف|LEM:طائِفَة|F|INDEF|NOM
+7:87:10	لَّمْ	P|NEG|LEM:لَم
+7:87:11	يُؤْمِنُوا۟	V|IMPF|VF:4|ROOT:أمن|LEM:آمَنَ|3MP|MOOD:JUS + N|PRON|SUFF|3MP
+7:87:12	فَٱصْبِرُوا۟	P|RSLT|PREF|LEM:ف + V|IMPV|VF:1|ROOT:صبر|LEM:صَبَرَ|2MP + N|PRON|SUFF|2MP
+7:87:13	حَتَّىٰ	P|P|LEM:حَتَّى
+7:87:14	يَحْكُمَ	V|IMPF|VF:1|ROOT:حكم|LEM:حَكَمَ|3MS|MOOD:SUBJ
+7:87:15	ٱللَّهُ	N|PN|ROOT:أله|LEM:اللَّه|NOM
+7:87:16	بَيْنَنَا	N|LOC|ROOT:بين|LEM:بَيْن|ACC + N|PRON|SUFF|1P
+7:87:17	وَهُوَ	P|REM|PREF|LEM:و + N|PRON|3MS
+7:87:18	خَيْرُ	N|ROOT:خير|LEM:خَيْر|MS|NOM
+7:87:19	ٱلْحَٰكِمِينَ	P|DET|PREF|LEM:ال + N|ACT_PCPL|VF:1|ROOT:حكم|LEM:حاكِم|MP|GEN

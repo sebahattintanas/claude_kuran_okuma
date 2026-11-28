@@ -1651,4 +1651,6 @@ KARAR = {
     # sure 7 blok 76-79
     # sure 7 blok 80-84
     '7:80:11': 'degil',  # 'min ehadin mine'l-'âlemîn' — esmâ adı esmâ dışı göndergeyle → degil (hiç kimse — olumsuz sayı)
+    # sure 7 blok 85-87
+    '7:85:37': 'degil',  # 'in kuntum mu'minîn' — esmâ adı esmâ dışı göndergeyle → degil (inananların sıfatı)
 }
